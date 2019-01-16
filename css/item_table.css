@@ -5,6 +5,12 @@ img.item-image {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+img.test {
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+
 th.item-image {
     text-align: center;
     width: 70px;

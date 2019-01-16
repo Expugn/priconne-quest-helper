@@ -3,20 +3,83 @@ body {
     background-color: #e3cfcb;
 }
 
+div.div-background-title {
+    background-image: url("/priconne-quest-helper/images/webpage/still_108200401_blur_2.png");
+
+    box-sizing: border-box;
+
+    /* Full height */
+    height: 100%;
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 10%;
+
+    overflow: hidden;
+}
+
+div.div-background-common {
+    background-image: url("/priconne-quest-helper/images/webpage/bg_500170_blur.png");
+    background-size: cover;
+    background-position: center 45%;
+    background-repeat: no-repeat;
+}
+
+div.div-background-copper {
+    background-image: url("/priconne-quest-helper/images/webpage/bg_500200_blur.png");
+    background-size: cover;
+    background-position: center 45%;
+    background-repeat: no-repeat;
+}
+
+div.div-background-silver {
+    background-image: url("/priconne-quest-helper/images/webpage/bg_500210_blur.png");
+    background-size: cover;
+    background-position: center 45%;
+    background-repeat: no-repeat;
+}
+
+div.div-background-gold {
+    background-image: url("/priconne-quest-helper/images/webpage/bg_500220_blur.png");
+    background-size: cover;
+    background-position: center 45%;
+    background-repeat: no-repeat;
+}
+
+div.div-background-purple {
+    background-image: url("/priconne-quest-helper/images/webpage/bg_500240_blur.png");
+    background-size: 100%, 100%;
+    background-position: center 45%;
+    background-repeat: no-repeat;
+}
+
+div.div-background-requested {
+    background-image: url("/priconne-quest-helper/images/webpage/bg_500030_blur.png");
+    background-size: cover;
+    background-position: center 45%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
 /* WEB PAGE TITLE */
 h1.title {
     color: aliceblue;
     text-align: center;
     font-family: "Trebuchet MS", Arial, serif;
     text-shadow: 2px 2px 4px #000000;
+
+    box-sizing: border-box;
 }
 h2.title {
     color: aliceblue;
     text-align: center;
     font-family: "Trebuchet MS", Arial, serif;
     text-shadow: 2px 2px 4px #000000;
-    margin-top: -20px;
+    margin-top: -25px;
     letter-spacing: 3px;
+
+    box-sizing: border-box;
 }
 
 /* LINE BREAK */
@@ -42,6 +105,8 @@ hr {
     text-shadow: 2px 2px 4px #000000;
     letter-spacing: 2px;
     text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
 }
 
 textarea.result-text-area {
