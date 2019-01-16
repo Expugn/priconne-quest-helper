@@ -1,0 +1,1006 @@
+{
+    "equipment": [
+      {
+        "iron_blade": {
+          "name": "Iron Blade",
+          "id": "common-1",
+          "tags": [
+            "common",
+            "weapon",
+            "sword",
+            "broadsword"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "killer_pencil": {
+          "name": "Killer Pencil",
+          "rarity_id": "common-2",
+          "tags": [
+            "common",
+            "weapon",
+            "dagger"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "steel_spear": {
+          "name": "Steel Spear",
+          "id": "common-3",
+          "tags": [
+            "common",
+            "weapon",
+            "spear"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "one_handed_axe": {
+          "name": "One Handed Axe",
+          "id": "common-4",
+          "tags": [
+            "common",
+            "weapon",
+            "axe"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "fragrant_wood_wand": {
+          "name": "Fragrant Wood Wand",
+          "id": "common-5",
+          "tags": [
+            "common",
+            "weapon",
+            "staff",
+            "rod"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "hunters_bow": {
+          "name": "Hunter's Bow",
+          "id": "common-6",
+          "tags": [
+            "common",
+            "weapon",
+            "bow"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "wood_grip": {
+          "name": "Wood Grip",
+          "id": "common-7",
+          "tags": [
+            "common",
+            "weapon",
+            "melee"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "fashionable_beret": {
+          "name": "Fashionable Beret",
+          "id": "common-8",
+          "tags": [
+            "common",
+            "armor",
+            "headwear"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "leather_overalls": {
+          "name": "Leather Overalls",
+          "id": "common-9",
+          "tags": [
+            "common",
+            "armor",
+            "clothing"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "journey_robe": {
+          "name": "Journey Robe",
+          "id": "common-10",
+          "tags": [
+            "common",
+            "armor",
+            "clothing"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "tree_shield": {
+          "name": "Tree Shield",
+          "id": "common-11",
+          "tags": [
+            "common",
+            "armor",
+            "shield"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "leather_boots": {
+          "name": "Leather Boots",
+          "id": "common-12",
+          "tags": [
+            "common",
+            "armor",
+            "footwear"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "fighting_bracelet": {
+          "name": "Fighting Bracelet",
+          "id": "common-13",
+          "tags": [
+            "common",
+            "armor",
+            "accessory"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "protective_pendant": {
+          "name": "Protective Pendant",
+          "id": "common-14",
+          "tags": [
+            "common",
+            "armor",
+            "accessory"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "motivational_bracelet": {
+          "name": "Motivational Bracelet",
+          "id": "common-15",
+          "tags": [
+            "common",
+            "armor",
+            "accessory"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "gear_blade": {
+          "name": "Gear Blade",
+          "id": "copper-1",
+          "tags": [
+            "copper",
+            "weapon",
+            "sword"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "blue_blood": {
+          "name": "Blue Blood",
+          "id": "copper-2",
+          "tags": [
+            "copper",
+            "weapon",
+            "broadsword"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "command_knife": {
+          "name": "Command Knife",
+          "id": "copper-3",
+          "tags": [
+            "copper",
+            "weapon",
+            "dagger"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "crescent_sword": {
+          "name": "Crescent Sword",
+          "id": "copper-4",
+          "tags": [
+            "copper",
+            "weapon",
+            "sword"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "aurora_sword": {
+          "name": "Aurora Sword",
+          "id": "copper-5",
+          "tags": [
+            "copper",
+            "weapon",
+            "broadsword"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "trident": {
+          "name": "Trident",
+          "id": "copper-6",
+          "tags": [
+            "copper",
+            "weapon",
+            "spear"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "flame spear": {
+          "name": "Flame Spear",
+          "id": "copper-7",
+          "tags": [
+            "copper",
+            "weapon",
+            "spear"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "metal_axe": {
+          "name": "Metal Axe",
+          "id": "copper-8",
+          "tags": [
+            "copper",
+            "weapon",
+            "axe"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "high_metal_axe": {
+          "name": "High-Metal Axe",
+          "id": "copper-9",
+          "tags": [
+            "copper",
+            "weapon",
+            "axe"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "doctorless_staff": {
+          "name": "Doctorless Staff",
+          "id": "copper-10",
+          "tags": [
+            "copper",
+            "weapon",
+            "rod"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "green_rod": {
+          "name": "Green Rod",
+          "id": "copper-11",
+          "tags": [
+            "copper",
+            "weapon",
+            "staff"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "compassion_of_the_unicorn": {
+          "name": "Compassion of the Unicorn",
+          "id": "copper-12",
+          "tags": [
+            "copper",
+            "weapon",
+            "rod"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "little_dragon_rod": {
+          "name": "Little Dragon Rod",
+          "id": "copper-13",
+          "tags": [
+            "copper",
+            "weapon",
+            "staff"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "crystal_bow": {
+          "name": "Crystal Bow",
+          "id": "copper-14",
+          "tags": [
+            "copper",
+            "weapon",
+            "bow"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "leather_knuckle": {
+          "name": "Leather Knuckle",
+          "id": "copper-15",
+          "tags": [
+            "copper",
+            "weapon",
+            "melee"
+          ],
+          "req_pieces": 1,
+          "req_items": []
+        },
+        "sparkling_sword": {
+          "name": "Sparkling Sword",
+          "id": 23,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "sword",
+            "broadsword"
+          ],
+          "req_pieces": 3,
+          "req_items": []
+        },
+        "moonlight_sword": {
+          "name": "Moonlight Sword",
+          "id": 24,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "sword"
+          ],
+          "req_pieces": 5,
+          "req_items": [
+            "platinum_knife"
+          ]
+        },
+        "ryuumon_sword": {
+          "name": "Ryuumon Sword",
+          "id": 25,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "broadsword"
+          ],
+          "req_pieces": 5,
+          "req_items": []
+        },
+        "platinum_knife": {
+          "name": "Platinum Knife",
+          "id": 26,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "dagger"
+          ],
+          "req_pieces": 3,
+          "req_items": []
+        },
+        "thunder_god_sword": {
+          "name": "Thunder God Sword",
+          "id": 27,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "sword"
+          ],
+          "req_pieces": 5,
+          "req_items": [
+            "ryuumon_sword"
+          ]
+        },
+        "feather_blade": {
+          "name": "Feather Blade",
+          "id": 28,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "broadsword"
+          ],
+          "req_pieces": 5,
+          "req_items": []
+        },
+        "vampire_dagger": {
+          "name": "Vampire Dagger",
+          "id": 29,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "dagger"
+          ],
+          "req_pieces": 5,
+          "req_items": [
+            "lion_eagles_feather"
+          ]
+        },
+        "knights_pride": {
+          "name": "Knight's Pride",
+          "id": 30,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "spear"
+          ],
+          "req_pieces": 3,
+          "req_items": [
+            "trident"
+          ]
+        },
+        "absolute_spear": {
+          "name": "Absolute Spear",
+          "id": 31,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "spear"
+          ],
+          "req_pieces": 5,
+          "req_items": []
+        },
+        "blue_sphere_axe": {
+          "name": "Blue Sphere Axe",
+          "id": 32,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "axe"
+          ],
+          "req_pieces": 3,
+          "req_items": []
+        },
+        "lions_battle_axe": {
+          "name": "Lion's Battle Axe",
+          "id": 33,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "axe"
+          ],
+          "req_pieces": 5,
+          "req_items": [
+            "blue_sphere_axe",
+            "blue_blood"
+          ]
+        },
+        "lightning_axe": {
+          "name": "Lightning Axe",
+          "id": 34,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "axe"
+          ],
+          "req_pieces": 5,
+          "req_items": [
+            "lions_battle_axe"
+          ]
+        },
+        "celestial_sphere_watcher": {
+          "name": "Celestial Sphere Watcher",
+          "id": 35,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "rod"
+          ],
+          "req_pieces": 3,
+          "req_items": [
+            "doctorless_staff"
+          ]
+        },
+        "thorn_blood_rod": {
+          "name": "Thorn Blood Rod",
+          "id": 36,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "staff"
+          ],
+          "req_pieces": 3,
+          "req_items": []
+        },
+        "flower_bud_wand": {
+          "name": "Flower Bud Wand",
+          "id": 37,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "rod"
+          ],
+          "req_pieces": 5,
+          "req_items": []
+        },
+        "devils_horn": {
+          "name": "Devil's Horn",
+          "id": 38,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "staff"
+          ],
+          "req_pieces": 5,
+          "req_items": []
+        },
+        "cupids_bow": {
+          "name": "Cupid's Bow",
+          "id": 39,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "bow"
+          ],
+          "req_pieces": 5,
+          "req_items": []
+        },
+        "devils_bow": {
+          "name": "Devil's Bow",
+          "id": 40,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "bow"
+          ],
+          "req_pieces": 5,
+          "req_items": [
+            "cupids_bow"
+          ]
+        },
+        "dragons_claw": {
+          "name": "Dragon's Claw",
+          "id": 41,
+          "rarity": "silver",
+          "tags": [
+            "silver",
+            "weapon",
+            "melee"
+          ],
+          "req_pieces": 5,
+          "req_items": []
+        },
+        "placeholder": {
+          "name": "Placeholder",
+          "id": 999,
+          "rarity": "unknown",
+          "tags": [
+            "unknown"
+          ],
+          "req_pieces": 999,
+          "req_items": []
+        }
+      }],
+    
+    "armor": {
+
+    	
+    	
+    	
+    	"legion_helm": {
+    	    "name": "Legion Helm",
+    	    "id": 9,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "headwear" ],
+    	    "req_pieces": 1,
+    	    "req_items": [ "scale_mail" ]
+    	},
+    	"cute_caskets": {
+    	    "name": "Cute Caskets",
+    	    "id": 10,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "headwear" ],
+    	    "req_pieces": 1,
+    	    "req_items": [ "fashionable_beret" ]
+    	},
+    	"nuns_hood": {
+    	    "name": "Nun's Hood",
+    	    "id": 11,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "headwear" ],
+    	    "req_pieces": 1,
+    	    "req_items": [ "doctorless_wand" ]
+    	},
+    	"folklore_clothes": {
+    	    "name": "Folklore Clothes",
+    	    "id": 12,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "clothing" ],
+    	    "req_pieces": 1,
+    	    "req_items": [ "protective_pendant" ]
+    	},
+    	"clothes_of_wisdom": {
+    	    "name": "Clothes of Wisdom",
+    	    "id": 13,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "clothing" ],
+    	    "req_pieces": 1,
+    	    "req_items": []
+    	},
+    	"spring_color_robe": {
+    	    "name": "Spring Color Robe",
+    	    "id": 14,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "clothing" ],
+    	    "req_pieces": 1,
+    	    "req_items": [ "journey_robe" ]
+    	},
+    	"scale_mail": {
+    	    "name": "Scale Mail",
+    	    "id": 15,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "clothing" ],
+    	    "req_pieces": 1,
+    	    "req_items": [ "leather_overalls" ]
+    	},
+    	"light_plate": {
+    	    "name": "Light Plate",
+    	    "id": 16,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "clothing" ],
+    	    "req_pieces": 1,
+    	    "req_items": [ "clothes_of_wisdom" ]
+    	},
+    	"nordic_robe": {
+    	    "name": "Nordic Robe",
+    	    "id": 17,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "clothing" ],
+    	    "req_pieces": 1,
+    	    "req_items": [ "spring_color_robe" ]
+    	},
+    	"shinobi_costume": {
+    	    "name": "Shinobi Costume",
+    	    "id": 18,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "clothing" ],
+    	    "req_pieces": 1,
+    	    "req_items": [ "folklore_clothes" ]
+    	},
+    	"high_metal_plate": {
+    	    "name": "High Metal Plate",
+    	    "id": 19,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "clothing" ],
+    	    "req_pieces": 1,
+    	    "req_items": [ "scale_mail" ]
+    	},
+    	"tower_shield": {
+    	    "name": "Tower Shield",
+    	    "id": 20,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "shield" ],
+    	    "req_pieces": 1,
+    	    "req_items": [ "tree_shield" ]
+    	},
+    	"crown_boots": {
+    	    "name": "Crown Boots",
+    	    "id": 21,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "footwear" ],
+    	    "req_pieces": 1,
+    	    "req_items": [ "leather_boots" ]
+    	},
+    	"witch_boots": {
+    	    "name": "Witch Boots",
+    	    "id": 22,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "footwear" ],
+    	    "req_pieces": 1,
+    	    "req_items": []
+    	},
+    	"hunting_boots": {
+    	    "name": "Hunting Boots",
+    	    "id": 23,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "footwear" ],
+    	    "req_pieces": 1,
+    	    "req_items": [ "crown_boots" ]
+    	},
+    	"magic_glasses": {
+    	    "name": "Magic Glasses",
+    	    "id": 24,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "accessory" ],
+    	    "req_pieces": 1,
+    	    "req_items": []
+    	},
+    	"magic_monocle": {
+    	    "name": "Magic Monocle",
+    	    "id": 25,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "accessory" ],
+    	    "req_pieces": 1,
+    	    "req_items": [ "fighting_bracelet" ]
+    	},
+    	"jewel_of_love": {
+    	    "name": "Jewel of Love",
+    	    "id": 26,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "accessory" ],
+    	    "req_pieces": 1,
+    	    "req_items": []
+    	},
+    	"jewel_of_courage": {
+    	    "name": "Jewel of Courage",
+    	    "id": 27,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "accessory" ],
+    	    "req_pieces": 1,
+    	    "req_items": []
+    	},
+    	"jewel_of_wisdom": {
+    	    "name": "Jewel of Wisdom",
+    	    "id": 28,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "accessory" ],
+    	    "req_pieces": 1,
+    	    "req_items": []
+    	},
+    	"victory_friendship_bracelet": {
+    	    "name": "Victory Friendship Bracelet",
+    	    "id": 29,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "accessory" ],
+    	    "req_pieces": 1,
+    	    "req_items": []
+    	},
+    	"spike_bangle": {
+    	    "name": "Spike Bangle",
+    	    "id": 30,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "accessory" ],
+    	    "req_pieces": 1,
+    	    "req_items": []
+    	},
+    	"pattern_bracelet": {
+    	    "name": "Pattern Bracelet",
+    	    "id": 31,
+    	    "rarity": "copper",
+    	    "tags":[ "copper", "armor", "accessory" ],
+    	    "req_pieces": 1,
+    	    "req_items": [ "jewel_of_wisdom" ]
+    	},
+    	
+    	
+    	
+    	"witch_hat": {
+    	    "name": "Witch Hat",
+    	    "id": 32,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "headwear" ],
+    	    "req_pieces": 5,
+    	    "req_items": []
+    	},
+    	"dragon_head": {
+    	    "name": "Dragon Head",
+    	    "id": 33,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "headwear" ],
+    	    "req_pieces": 5,
+    	    "req_items": [ "high_metal_plate", "legion_helm" ]
+    	},
+    	"fashion_armor": {
+    	    "name": "Fashion Armor",
+    	    "id": 34,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "clothing" ],
+    	    "req_pieces": 5,
+    	    "req_items": [ "light_plate" ]
+    	},
+    	"millefeuille_cloth": {
+    	    "name": "Millefeuille Cloth",
+    	    "id": 35,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "clothing" ],
+    	    "req_pieces": 5,
+    	    "req_items": [ "shinobi_costume", "folklore_clothes" ]
+    	},
+    	"palace_cloth": {
+    	    "name": "Palace Cloth",
+    	    "id": 36,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "clothing" ],
+    	    "req_pieces": 5,
+    	    "req_items": []
+    	},
+    	"cupid_robe": {
+    	    "name": "Cupid Robe",
+    	    "id": 37,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "clothing" ],
+    	    "req_pieces": 5,
+    	    "req_items": [ "nordic_robe" ]
+    	},
+    	"cosmos_cloth": {
+    	    "name": "Cosmos Cloth",
+    	    "id": 38,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "clothing" ],
+    	    "req_pieces": 5,
+    	    "req_items": [ "millefeuille_cloth", "turquoise_earrings" ]
+    	},
+    	"philosophers_robe": {
+    	    "name": "Philosopher's Robe",
+    	    "id": 39,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "clothing" ],
+    	    "req_pieces": 5,
+    	    "req_items": []
+    	},
+    	"gorgeous_armor": {
+    	    "name": "Gorgeous Armor",
+    	    "id": 40,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "clothing" ],
+    	    "req_pieces": 5,
+    	    "req_items": [ "high_metal_plate" ]
+    	},
+    	"battling_dress": {
+    	    "name": "Battling Dress",
+    	    "id": 41,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "clothing" ],
+    	    "req_pieces": 5,
+    	    "req_items": [ "light_plate", "high_metal_plate" ]
+    	},
+    	"heavy_metal_armor": {
+    	    "name": "Heavy Metal Armor",
+    	    "id": 42,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "clothing" ],
+    	    "req_pieces": 5,
+    	    "req_items": []
+    	},
+    	"garnet_shield": {
+    	    "name": "Garnet Shield",
+    	    "id": 43,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "shield" ],
+    	    "req_pieces": 5,
+    	    "req_items": []
+    	},
+    	"shinobi_shoes": {
+    	    "name": "Shinobi Shoes",
+    	    "id": 44,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "footwear" ],
+    	    "req_pieces": 5,
+    	    "req_items": []
+    	},
+    	"fencer_boots": {
+    	    "name": "Fencer Boots",
+    	    "id": 45,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "footwear" ],
+    	    "req_pieces": 5,
+    	    "req_items": [ "shinobi_shoes" ]
+    	},
+    	"witch_palace_boots": {
+    	    "name": "Witch Palace Boots",
+    	    "id": 46,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "footwear" ],
+    	    "req_pieces": 5,
+    	    "req_items": [ "pattern_bracelet", "hunting_boots" ]
+    	},
+    	"witch_headband": {
+    	    "name": "Witch Headband",
+    	    "id": 47,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "accessory" ],
+    	    "req_pieces": 5,
+    	    "req_items": []
+    	},
+    	"emerald_earrings": {
+    	    "name": "Emerald Earrings",
+    	    "id": 48,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "accessory" ],
+    	    "req_pieces": 5,
+    	    "req_items": []
+    	},
+    	"opal_earrings": {
+    	    "name": "Opal Earrings",
+    	    "id": 49,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "accessory" ],
+    	    "req_pieces": 5,
+    	    "req_items": []
+    	},
+    	"pearl_earrings": {
+    	    "name": "Pearl Earrings",
+    	    "id": 50,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "accessory" ],
+    	    "req_pieces": 5,
+    	    "req_items": [ "Pattern Bracelet" ]
+    	},
+    	"turquoise_earrings": {
+    	    "name": "Turquoise Earrings",
+    	    "id": 51,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "accessory" ],
+    	    "req_pieces": 5,
+    	    "req_items": []
+    	},
+    	"sorcerers_glasses": {
+    	    "name": "Sorcerer's Glasses",
+    	    "id": 52,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "accessory" ],
+    	    "req_pieces": 0,
+    	    "req_items": [ "turquoise_earring", "pattern_bracelet" ]
+    	},
+    	"octogram_pendant": {
+    	    "name": "Octogram Pendant",
+    	    "id": 53,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "accessory" ],
+    	    "req_pieces": 5,
+    	    "req_items": [ "victory_friendship_bracelet" ]
+    	},
+    	"laurels_sorrow": {
+    	    "name": "Laurel's Sorrow",
+    	    "id": 54,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "accessory" ],
+    	    "req_pieces": 5,
+    	    "req_items": []
+    	},
+    	"lion_kings_protective_charm": {
+    	    "name": "Lion King's Protective Charm",
+    	    "id": 55,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "accessory" ],
+    	    "req_pieces": 5,
+    	    "req_items": [ "emerald_earrings" ]
+    	},
+    	"lion_eagles_feather": {
+    	    "name": "Lion Eagle's Feather",
+    	    "id": 56,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "accessory" ],
+    	    "req_pieces": 5,
+    	    "req_items": []
+    	},
+    	"scarlet_diamond": {
+    	    "name": "Scarlet Diamond",
+    	    "id": 57,
+    	    "rarity": "silver",
+    	    "tags":[ "silver", "armor", "accessory" ],
+    	    "req_pieces": 5,
+    	    "req_items": []
+    	},
+    	
+    	
+    	
+    	"placeholder": {
+            "name": "Placeholder",
+            "id": 999,
+            "rarity": "unknown",
+            "tags":[ "unknown" ],
+            "req_pieces": 999,
+            "req_items": []
+        }
+    }
+}

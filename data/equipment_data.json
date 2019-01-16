@@ -1,0 +1,92 @@
+{
+  "iron_blade": {
+    "name": "Iron Blade",
+    "id": "common-1",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "killer_pencil": {
+    "name": "Killer Pencil",
+    "id": "common-2",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "steel_spear": {
+    "name": "Steel Spear",
+    "id": "common-3",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "one_handed_axe": {
+    "name": "One Handed Axe",
+    "id": "common-4",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "fragrant_wood_wand": {
+    "name": "Fragrant Wood Wand",
+    "id": "common-5",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "hunters_bow": {
+    "name": "Hunter's Bow",
+    "id": "common-6",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "wood_grip": {
+    "name": "Wood Grip",
+    "id": "common-7",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "fashionable_beret": {
+    "name": "Fashionable Beret",
+    "id": "common-8",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "leather_overalls": {
+    "name": "Leather Overalls",
+    "id": "common-9",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "journey_robe": {
+    "name": "Journey Robe",
+    "id": "common-10",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "tree_shield": {
+    "name": "Tree Shield",
+    "id": "common-11",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "leather_boots": {
+    "name": "Leather Boots",
+    "id": "common-12",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "fighting_bracelet": {
+    "name": "Fighting Bracelet",
+    "id": "common-13",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "protective_pendant": {
+    "name": "Protective Pendant",
+    "id": "common-14",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "motivational_bracelet": {
+    "name": "Motivational Bracelet",
+    "id": "common-15",
+    "req_pieces": 1,
+    "req_items": []
+  }
+}
