@@ -88,5 +88,234 @@
     "id": "common-15",
     "req_pieces": 1,
     "req_items": []
+  },
+
+  "gear_blade": {
+    "name": "Gear Blade",
+    "id": "copper-1",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "blue_blood": {
+    "name": "Blue Blood",
+    "id": "copper-2",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "command_knife": {
+    "name": "Command Knife",
+    "id": "copper-3",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "crescent_sword": {
+    "name": "Crescent Sword",
+    "id": "copper-4",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "aurora_sword": {
+    "name": "Aurora Sword",
+    "id": "copper-5",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "trident": {
+    "name": "Trident",
+    "id": "copper-6",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "flame_spear": {
+    "name": "Flame Spear",
+    "id": "copper-7",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "metal_axe": {
+    "name": "Metal Axe",
+    "id": "copper-8",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "high_metal_axe": {
+    "name": "High-Metal Axe",
+    "id": "copper-9",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "doctorless_staff": {
+    "name": "Doctorless Staff",
+    "id": "copper-10",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "green_rod": {
+    "name": "Green Rod",
+    "id": "copper-11",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "compassion_of_the_unicorn": {
+    "name": "Compassion of the Unicorn",
+    "id": "copper-12",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "little_dragon_rod": {
+    "name": "Little Dragon Rod",
+    "id": "copper-13",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "crystal_bow": {
+    "name": "Crystal Bow",
+    "id": "copper-14",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "leather_knuckle": {
+    "name": "Leather Knuckle",
+    "id": "copper-15",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "legion_helm": {
+    "name": "Legion Helm",
+    "id": "copper-16",
+    "req_pieces": 1,
+    "req_items": [ "Scale Mail" ]
+  },
+  "cute_caskets": {
+    "name": "Cute Caskets",
+    "id": "copper-17",
+    "req_pieces": 1,
+    "req_items": [ "Fashionable Beret" ]
+  },
+  "nuns_hood": {
+    "name": "Nun's Hood",
+    "id": "copper-18",
+    "req_pieces": 1,
+    "req_items": [ "Doctorless Wand" ]
+  },
+  "folklore_clothes": {
+    "name": "Folklore Clothes",
+    "id": "copper-19",
+    "req_pieces": 1,
+    "req_items": [ "Protective Pendant" ]
+  },
+  "clothes_of_wisdom": {
+    "name": "Clothes of Wisdom",
+    "id": "copper-20",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "spring_color_robe": {
+    "name": "Spring Color Robe",
+    "id": "copper-21",
+    "req_pieces": 1,
+    "req_items": [ "Journey Robe" ]
+  },
+  "scale_mail": {
+    "name": "Scale Mail",
+    "id": "copper-22",
+    "req_pieces": 1,
+    "req_items": [ "Leather Overalls" ]
+  },
+  "light_plate": {
+    "name": "Light Plate",
+    "id": "copper-23",
+    "req_pieces": 1,
+    "req_items": [ "Clothes of Wisdom" ]
+  },
+  "nordic_robe": {
+    "name": "Nordic Robe",
+    "id": "copper-24",
+    "req_pieces": 1,
+    "req_items": [ "Spring Color Robe" ]
+  },
+  "shinobi_costume": {
+    "name": "Shinobi Costume",
+    "id": "copper-25",
+    "req_pieces": 1,
+    "req_items": [ "Folklore Clothes" ]
+  },
+  "high_metal_plate": {
+    "name": "High Metal Plate",
+    "id": "copper-26",
+    "req_pieces": 1,
+    "req_items": [ "Scale Mail" ]
+  },
+  "tower_shield": {
+    "name": "Tower Shield",
+    "id": "copper-27",
+    "req_pieces": 1,
+    "req_items": [ "Tree Shield" ]
+  },
+  "crown_boots": {
+    "name": "Crown Boots",
+    "id": "copper-28",
+    "req_pieces": 1,
+    "req_items": [ "Leather Boots" ]
+  },
+  "witch_boots": {
+    "name": "Witch Boots",
+    "id": "copper-29",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "hunting_boots": {
+    "name": "Hunting Boots",
+    "id": "copper-30",
+    "req_pieces": 1,
+    "req_items": [ "Crown Boots" ]
+  },
+  "magic_glasses": {
+    "name": "Magic Glasses",
+    "id": "copper-31",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "magic_monocle": {
+    "name": "Magic Monocle",
+    "id": "copper-32",
+    "req_pieces": 1,
+    "req_items": [ "Fighting Bracelet" ]
+  },
+  "jewel_of_love": {
+    "name": "Jewel of Love",
+    "id": "copper-33",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "jewel_of_courage": {
+    "name": "Jewel of Courage",
+    "id": "copper-34",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "jewel_of_wisdom": {
+    "name": "Jewel of Wisdom",
+    "id": "copper-35",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "victory_friendship_bracelet": {
+    "name": "Victory Friendship Bracelet",
+    "id": "copper-36",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "spike_bangle": {
+    "name": "Spike Bangle",
+    "id": "copper-37",
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "pattern_bracelet": {
+    "name": "Pattern Bracelet",
+    "id": "copper-38",
+    "req_pieces": 1,
+    "req_items": [ "Jewel of Wisdom" ]
   }
 }
