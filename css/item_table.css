@@ -1,20 +1,24 @@
-img.item-image {
-    width: 48px;
-    height: 48px;
-    border-radius: 3.5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.common-items-a {
+    white-space: normal;
+    overflow: auto;
+    text-overflow: ellipsis;
 }
 
-img.test {
-    display: block;
-    width: 48px;
-    height: 48px;
+img.item-image {
+    width: auto;
+    height: 50%;
+    max-width: 48px;
+    max-height: 48px;
+    min-width: 16px;
+    min-height: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 th.item-image {
     text-align: center;
-    width: 70px;
-    height: 50px;
+    width: auto;
+    height: auto;
+    min-width: 90px;
 }
 
 th.item-amt {
@@ -31,5 +35,10 @@ input[type=number].item-input {
 }
 
 .centerTable {
-    margin: 0px auto;
+    margin: 0 auto;
+}
+
+.fixed {
+    position: fixed;
+    text-align: center;
 }

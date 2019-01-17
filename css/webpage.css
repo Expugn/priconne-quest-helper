@@ -96,6 +96,7 @@ hr {
     color: #88acf0;
     text-shadow: 2px 2px 4px #000000;
     letter-spacing: 3px;
+    text-after-overflow: center;
 }
 
 .request-title {
@@ -137,4 +138,10 @@ img.footer {
     width: 24px;
     position: relative;
     top: 7px;
+}
+
+.text-overflow {
+    white-space: normal;
+    overflow: auto;
+    text-overflow: ellipsis;
 }
