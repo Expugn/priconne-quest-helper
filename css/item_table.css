@@ -41,3 +41,25 @@ input[type=number].item-input {
     position: fixed;
     text-align: center;
 }
+
+.collapsible:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.collapsible-content {
+    max-height: 0;
+    transition: max-height 0.4s ease-out;
+}
+
+.collapsible:after {
+    content: ' \25BC';
+    color: black;
+    text-shadow: 0 0 8px #666666;
+}
+
+.active:after {
+    content: ' \25B2';
+    color: black;
+    text-shadow: 0 0 8px #666666;
+}
