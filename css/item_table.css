@@ -10,7 +10,7 @@ img.item-image {
     min-width: 16px;
     min-height: 16px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 th.item-image {
@@ -62,4 +62,27 @@ input[type=number].item-input {
     content: ' \25B2';
     color: black;
     text-shadow: 0 0 8px #666666;
+}
+
+.requested-item-image {
+    max-width: 48px;
+    max-height: 48px;
+    min-width: 16px;
+    min-height: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+}
+
+.requested-item-text {
+    text-shadow: 1px 1px 4px #000000,
+                    1px 1px 4px #000000,
+                    1px 1px 4px #000000,
+                    1px 1px 4px #000000;
+    margin-top: -48%;
+    margin-right: 8%;
+    color: white;
+    font-family: "Calibri", Arial, serif;
+    text-align: right;
+
+    border-radius: 5px;
 }

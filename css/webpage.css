@@ -19,47 +19,38 @@ div.div-background-title {
     overflow: hidden;
 }
 
-div.div-background-common {
-    background-image: url("./../images/webpage/bg_500170_blur.png");
+div.div-background {
     background-size: cover;
     background-position: center 45%;
     background-repeat: no-repeat;
+}
+
+div.div-background-common {
+    background-image: url("./../images/webpage/bg_500170_blur.png");
 }
 
 div.div-background-copper {
     background-image: url("./../images/webpage/bg_500200_blur.png");
-    background-size: cover;
-    background-position: center 45%;
-    background-repeat: no-repeat;
 }
 
 div.div-background-silver {
     background-image: url("./../images/webpage/bg_500210_blur.png");
-    background-size: cover;
-    background-position: center 45%;
-    background-repeat: no-repeat;
 }
 
 div.div-background-gold {
     background-image: url("./../images/webpage/bg_500220_blur.png");
-    background-size: cover;
-    background-position: center 45%;
-    background-repeat: no-repeat;
 }
 
 div.div-background-purple {
     background-image: url("./../images/webpage/bg_500240_blur.png");
-    background-size: 100%, 100%;
-    background-position: center 45%;
-    background-repeat: no-repeat;
 }
 
 div.div-background-requested {
     background-image: url("./../images/webpage/bg_500030_blur.png");
-    background-size: cover;
-    background-position: center 45%;
-    height: 100%;
-    background-repeat: no-repeat;
+}
+
+div.div-background-required {
+    background-image: url("./../images/webpage/bg_500032_blur.png");
 }
 
 /* WEB PAGE TITLE */
@@ -181,6 +172,12 @@ img.footer {
 .text-overflow {
     white-space: normal;
     overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-overflow-auto {
+    white-space: normal;
+    overflow: auto;
     text-overflow: ellipsis;
 }
 

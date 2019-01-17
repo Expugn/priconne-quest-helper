@@ -1,4 +1,4 @@
-console.log("load equipment json");
+console.log("Reading 'data/equipment_data.json'...");
 let equipment_map = new Map();
 
 let run = $(function () {
@@ -13,6 +13,7 @@ let run = $(function () {
 
                 item_data.set("name", itemData.name);
                 item_data.set("id", itemData.id);
+                item_data.set("has_fragments", itemData.has_fragments);
                 item_data.set("req_pieces", itemData.req_pieces);
                 item_data.set("req_items", itemData.req_items);
 

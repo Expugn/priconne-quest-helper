@@ -2,8 +2,6 @@ function read_copper()
 {
     const totalCopperItems = 38;
 
-    let returned_data = [];
-    let entryArray = [];
     let itemMap = new Map();
 
     for (let i = 1 ; i < totalCopperItems + 1 ; i++)
@@ -21,18 +19,10 @@ function read_copper()
                 itemValue = 99;
             }
 
-            let tableEntry = "";
             let itemName = document.getElementById("copper-" + i).title;
-
-            tableEntry += "<td>" + itemName + "</td>";
-            tableEntry += "<td>" + itemValue + "</td>";
-
-            entryArray.push(tableEntry);
             itemMap.set(itemName, itemValue);
         }
     }
 
-    returned_data.push(entryArray);
-    returned_data.push(itemMap);
-    return returned_data;
+    return itemMap;
 }
