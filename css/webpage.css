@@ -180,7 +180,7 @@ img.footer {
 
 .text-overflow {
     white-space: normal;
-    overflow: auto;
+    overflow: hidden;
     text-overflow: ellipsis;
 }
 
