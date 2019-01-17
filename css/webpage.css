@@ -142,6 +142,6 @@ img.footer {
 
 .text-overflow {
     white-space: normal;
-    overflow: hidden;
+    overflow: auto;
     text-overflow: ellipsis;
 }
