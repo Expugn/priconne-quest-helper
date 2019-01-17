@@ -90,13 +90,16 @@ hr {
 
 .common-rarity-title {
     font-family: "Trebuchet MS", Arial, serif;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
+    margin-left: 10px;
+    margin-top: 9px;
     color: #88acf0;
     text-shadow: 2px 2px 4px #000000;
     letter-spacing: 3px;
     text-after-overflow: center;
+    position: absolute;
+
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 3px 5px;
 }
 
 .request-title {
