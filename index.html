@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="css/brst.css">
 </head>
 
-<body onload="enableCollapsible();">
+<body>
 
 <div class="div-background-title">
     <h1 class="title">Princess Connect! Re:Dive</h1>
@@ -78,6 +78,7 @@
 <!-- BUILD HTML FROM EXTERNAL FILES -->
 <script>
     includeHTML();
+    window.onload = function () { enableCollapsible(); }
 </script>
 
 </body>
