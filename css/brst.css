@@ -10,7 +10,7 @@ div.tableContainer {
     height: 285px;
     overflow: scroll;
     width: 756px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 /* WinIE 6.x needs to re-account for it's scrollbar. Give it some padding */
