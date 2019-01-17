@@ -11,10 +11,14 @@ function enableCollapsible()
                 /* HIDE CONTENT */
                 content.style.maxHeight = null;
                 content.style.overflow = "hidden";
+
             } else {
                 /* SHOW CONTENT */
                 content.style.maxHeight = content.scrollHeight + "px";
-                content.style.overflow = "auto";
+                setTimeout(function () {
+                    content.style.overflow = "auto";
+                }, 400);
+                //content.style.overflow = "auto";
             }
         });
     }
