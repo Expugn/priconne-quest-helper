@@ -2,6 +2,15 @@ function enableCollapsible()
 {
     let coll = document.getElementsByClassName("collapsible");
 
+    if (coll.length < 5)
+    {
+        console.log("Less than 5 elements detected... Page must not be done loading yet. will pause for .1s and restart.");
+        setTimeout(function () {
+            enableCollapsible()
+        }, 100);
+        return;
+    }
+
     for (let i = 0; i < coll.length; i++) {
         coll[i].addEventListener("click", function() {
             let content = this.nextElementSibling;
@@ -22,4 +31,6 @@ function enableCollapsible()
             }
         });
     }
+
+    console.log("Enabled Collapsible Menus!");
 }
