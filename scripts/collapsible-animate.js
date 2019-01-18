@@ -7,7 +7,7 @@ function enableCollapsible()
         console.log("Less than 5 elements detected... Page must not be done loading yet. Will pause for .1s and restart.");
         setTimeout(function () {
             enableCollapsible()
-        }, 100);
+        }, 500);
         return;
     }
 
