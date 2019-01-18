@@ -370,5 +370,320 @@
     "has_fragments": true,
     "req_pieces": 1,
     "req_items": [ "Jewel of Wisdom" ]
+  },
+  "sparkling_sword": {
+    "name": "Sparkling Sword",
+    "id": "silver-1",
+    "has_fragments": true,
+    "req_pieces": 3,
+    "req_items": []
+  },
+  "moonlight_sword": {
+    "name": "Moonlight Sword",
+    "id": "silver-2",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": [ "Platinum Knife" ]
+  },
+  "ryuumon_sword": {
+    "name": "Ryuumon Sword",
+    "id": "silver-3",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "platinum_knife": {
+    "name": "Platinum Knife",
+    "id": "silver-4",
+    "has_fragments": true,
+    "req_pieces": 3,
+    "req_items": []
+  },
+  "thunder_god_sword": {
+    "name": "Thunder God Sword",
+    "id": "silver-5",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": [ "Ryuumon Sword" ]
+  },
+  "feather_blade": {
+    "name": "Feather Blade",
+    "id": "silver-6",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "vampire_dagger": {
+    "name": "Vampire Dagger",
+    "id": "silver-7",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": [ "Lion Eagle's Feather" ]
+  },
+  "knights_pride": {
+    "name": "Knight's Pride",
+    "id": "silver-8",
+    "has_fragments": true,
+    "req_pieces": 3,
+    "req_items": [ "Trident" ]
+  },
+  "absolute_spear": {
+    "name": "Absolute Spear",
+    "id": "silver-9",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "blue_sphere_axe": {
+    "name": "Blue Sphere Axe",
+    "id": "silver-10",
+    "has_fragments": true,
+    "req_pieces": 3,
+    "req_items": []
+  },
+  "lions_battle_axe": {
+    "name": "Lion's Battle Axe",
+    "id": "silver-11",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": [ "Blue Sphere Axe", "Blue Blood" ]
+  },
+  "lightning_axe": {
+    "name": "Lightning Axe",
+    "id": "silver-12",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": [ "Lion's Battle Axe" ]
+  },
+  "celestial_sphere_watcher": {
+    "name": "Celestial Sphere Watcher",
+    "id": "silver-13",
+    "has_fragments": true,
+    "req_pieces": 3,
+    "req_items": [ "Doctorless Staff" ]
+  },
+  "thorn_blood_rod": {
+    "name": "Thorn Blood Rod",
+    "id": "silver-14",
+    "has_fragments": true,
+    "req_pieces": 3,
+    "req_items": []
+  },
+  "flower_bud_wand": {
+    "name": "Flower Bud Wand",
+    "id": "silver-15",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "devils_horn": {
+    "name": "Devil's Horn",
+    "id": "silver-16",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "cupids_bow": {
+    "name": "Cupid's Bow",
+    "id": "silver-17",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "devils_bow": {
+    "name": "Devil's Bow",
+    "id": "silver-18",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": [ "Cupid's Bow" ]
+  },
+  "dragons_claw": {
+    "name": "Dragon's Claw",
+    "id": "silver-19",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "witch_hat": {
+    "name": "Witch Hat",
+    "id": "silver-20",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "dragon_head": {
+    "name": "Dragon Head",
+    "id": "silver-21",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": [ "High Metal Plate", "Legion Helm" ]
+  },
+  "fashion_armor": {
+    "name": "Fashion Armor",
+    "id": "silver-22",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": [ "Light Plate" ]
+  },
+  "millefeuille_cloth": {
+  "name": "Millefeuille Cloth",
+  "id": "silver-23",
+  "has_fragments": true,
+  "req_pieces": 5,
+  "req_items": [ "Shinobi Costume", "Folklore Clothes" ]
+},
+  "palace_cloth": {
+    "name": "Palace Cloth",
+    "id": "silver-24",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "cupid_robe": {
+    "name": "Cupid Robe",
+    "id": "silver-25",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": [ "Nordic Robe" ]
+  },
+  "cosmos_cloth": {
+    "name": "Cosmos Cloth",
+    "id": "silver-26",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": [ "Millefeuille Cloth", "Turquoise Earrings" ]
+  },
+  "philosophers_robe": {
+    "name": "Philosopher's Robe",
+    "id": "silver-27",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "gorgeous_armor": {
+    "name": "Gorgeous Armor",
+    "id": "silver-28",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": [ "High Metal Plate" ]
+  },
+  "battling_dress": {
+    "name": "Battling Dress",
+    "id": "silver-29",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": [ "Light Plate", "High Metal Plate" ]
+  },
+  "heavy_metal_armor": {
+    "name": "Heavy Metal Armor",
+    "id": "silver-30",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "garnet_shield": {
+    "name": "Garnet Shield",
+    "id": "silver-31",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "shinobi_shoes": {
+    "name": "Shinobi Shoes",
+    "id": "silver-32",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "fencer_boots": {
+    "name": "Fencer Boots",
+    "id": "silver-33",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": [ "Shinobi Shoes" ]
+  },
+  "witch_palace_boots": {
+    "name": "Witch Palace Boots",
+    "id": "silver-34",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": [ "Pattern Bracelet", "Hunting Boots" ]
+  },
+  "witch_headband": {
+    "name": "Witch Headband",
+    "id": "silver-35",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "emerald_earrings": {
+    "name": "Emerald Earrings",
+    "id": "silver-36",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "opal_earrings": {
+    "name": "Opal Earrings",
+    "id": "silver-37",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "pearl_earrings": {
+    "name": "Pearl Earrings",
+    "id": "silver-38",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": [ "Pattern Bracelet" ]
+  },
+  "turquoise_earrings": {
+    "name": "Turquoise Earrings",
+    "id": "silver-39",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "sorcerers_glasses": {
+    "name": "Sorcerer's Glasses",
+    "id": "silver-40",
+    "has_fragments": false,
+    "req_pieces": 0,
+    "req_items": [ "Turquoise Earrings", "Pattern Bracelet" ]
+  },
+  "octogram_pendant": {
+    "name": "Octogram Pendant",
+    "id": "silver-41",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": [ "Victory Friendship Bracelet" ]
+  },
+  "laurels_sorrow": {
+    "name": "Laurel's Sorrow",
+    "id": "silver-42",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "lion_kings_protective_charm": {
+    "name": "Lion King's Protective Charm",
+    "id": "silver-43",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": [ "Emerald Earrings" ]
+  },
+  "lion_eagles_feather": {
+    "name": "Lion Eagle's Feather",
+    "id": "silver-44",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
+  },
+  "scarlet_diamond": {
+    "name": "Scarlet Diamond",
+    "id": "silver-45",
+    "has_fragments": true,
+    "req_pieces": 5,
+    "req_items": []
   }
 }

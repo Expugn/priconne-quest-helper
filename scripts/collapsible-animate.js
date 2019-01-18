@@ -4,7 +4,7 @@ function enableCollapsible()
 
     if (coll.length < 5)
     {
-        console.log("Less than 5 elements detected... Page must not be done loading yet. will pause for .1s and restart.");
+        console.log("Less than 5 elements detected... Page must not be done loading yet. Will pause for .1s and restart.");
         setTimeout(function () {
             enableCollapsible()
         }, 100);

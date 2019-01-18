@@ -8,13 +8,16 @@ function get_recipe(item_name, amount)
     let required_items = get_equipment_data(item_name, "req_items");        // array
 
     // ADD FRAGMENT/ITEM COUNT TO RECIPE
-    if (has_fragments)
+    if (required_pieces > 0)
     {
-        recipe = add_items_to_recipe(recipe, item_name + " Fragment", required_pieces * amount);
-    }
-    else
-    {
-        recipe = add_items_to_recipe(recipe, item_name, required_pieces * amount);
+        if (has_fragments)
+        {
+            recipe = add_items_to_recipe(recipe, item_name + " Fragment", required_pieces * amount);
+        }
+        else
+        {
+            recipe = add_items_to_recipe(recipe, item_name, required_pieces * amount);
+        }
     }
 
     if (required_items !== undefined)
@@ -39,14 +42,18 @@ function get_recipe_and_add_onto_existing(recipe, item_name, amount)
     let required_items = get_equipment_data(item_name, "req_items");        // array
 
     // ADD FRAGMENT/ITEM COUNT TO RECIPE
-    if (has_fragments)
+    if (required_pieces > 0)
     {
-        recipe_existing = add_items_to_recipe(recipe_existing, item_name + " Fragment", required_pieces * amount);
+        if (has_fragments)
+        {
+            recipe_existing = add_items_to_recipe(recipe_existing, item_name + " Fragment", required_pieces * amount);
+        }
+        else
+        {
+            recipe_existing = add_items_to_recipe(recipe_existing, item_name, required_pieces * amount);
+        }
     }
-    else
-    {
-        recipe_existing = add_items_to_recipe(recipe_existing, item_name, required_pieces * amount);
-    }
+
 
     // ADD OTHER ITEM RECIPES FROM required_items TO RECIPE
     if (required_items !== undefined)

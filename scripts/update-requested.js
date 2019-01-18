@@ -1,6 +1,6 @@
 function update_requested()
 {
-    let mergedItemMap = new Map([...read_common(), ...read_copper()]);
+    let mergedItemMap = new Map([...read_common(), ...read_copper(), ...read_silver()]);
     build_requested_item_table(mergedItemMap);
 
     /* GET RECIPES */
