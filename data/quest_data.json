@@ -1,0 +1,82 @@
+{
+  "1-1": {
+    "name": "1-1",
+    "item_1": {
+      "item_name": "Iron Blade", "drop_percent": 54},
+    "item_2": {
+      "item_name": "Leather Overalls", "drop_percent": 54},
+    "item_3": {
+      "item_name": "Protective Pendant", "drop_percent": 54},
+    "subdrops": [ "Iron Blade", "Wood Grip", "One Handed Axe", "Tree Shield", "Motivational Bracelet" ]
+  },
+  "1-2": {
+    "name": "1-2",
+    "item_1": {"item_name": "Fragrant Wood Wand", "drop_percent": 54},
+    "item_2": {"item_name": "Fashionable Beret", "drop_percent": 54},
+    "item_3": {"item_name": "Motivational Bracelet", "drop_percent": 54},
+    "subdrops": [ "Steel Spear", "Killer Pencil", "Leather Overalls", "Leather Boots", "Protective Pendant" ]
+  },
+  "1-3": {
+    "name": "1-3",
+    "item_1": {"item_name": "Steel Spear", "drop_percent": 54},
+    "item_2": {"item_name": "Leather Boots", "drop_percent": 54},
+    "item_3": {"item_name": "Fighting Bracelet", "drop_percent": 54},
+    "subdrops": [ "Fragrant Wood Wand", "Hunter's Bow", "Journey Robe", "Fashionable Beret", "Fighting Bracelet" ]
+  },
+  "1-4": {
+    "name": "1-4",
+    "item_1": {"item_name": "Wood Grip", "drop_percent": 54},
+    "item_2": {"item_name": "Journey Robe", "drop_percent": 54},
+    "item_3": {"item_name": "Motivational Bracelet", "drop_percent": 54},
+    "subdrops": [ "Iron Blade", "Wood Grip", "One Handed Axe", "Tree Shield", "Motivational Bracelet" ]
+  },
+  "1-5": {
+    "name": "1-5",
+    "item_1": {"item_name": "Steel Spear", "drop_percent": 54},
+    "item_2": {"item_name": "Fashionable Beret", "drop_percent": 54},
+    "item_3": {"item_name": "Iron Blade", "drop_percent": 54},
+    "subdrops": [ "Steel Spear", "Killer Pencil", "Leather Overalls", "Leather Boots", "Protective Pendant" ]
+  },
+  "1-6": {
+    "name": "1-6",
+    "item_1": {"item_name": "Killer Pencil", "drop_percent": 54},
+    "item_2": {"item_name": "Leather Boots", "drop_percent": 54},
+    "item_3": {"item_name": "Tree Shield", "drop_percent": 54},
+    "subdrops": [ "Fragrant Wood Wand", "Hunter's Bow", "Journey Robe", "Fashionable Beret", "Fighting Bracelet" ]
+  },
+  "1-7": {
+    "name": "1-7",
+    "item_1": {"item_name": "One Handed Axe", "drop_percent": 54},
+    "item_2": {"item_name": "Fragrant Wood Wand", "drop_percent": 54},
+    "item_3": {"item_name": "Fighting Bracelet", "drop_percent": 54},
+    "subdrops": [ "Iron Blade", "Wood Grip", "One Handed Axe", "Tree Shield", "Motivational Bracelet" ]
+  },
+  "1-8": {
+    "name": "1-8",
+    "item_1": {"item_name": "Wood Grip", "drop_percent": 54},
+    "item_2": {"item_name": "Leather Overalls", "drop_percent": 54},
+    "item_3": {"item_name": "Scale Mail Fragment", "drop_percent": 54},
+    "subdrops": [ "Steel Spear", "Killer Pencil", "Leather Overalls", "Leather Boots", "Protective Pendant" ]
+  },
+  "1-9": {
+    "name": "1-9",
+    "item_1": {"item_name": "Hunter's Bow", "drop_percent": 54},
+    "item_2": {"item_name": "Motivational Bracelet", "drop_percent": 54},
+    "item_3": {"item_name": "Spring Color Robe Fragment", "drop_percent": 54},
+    "subdrops": [ "Fragrant Wood Wand", "Hunter's Bow", "Journey Robe", "Fashionable Beret", "Fighting Bracelet" ]
+  },
+  "1-10": {
+    "name": "1-10",
+    "item_1": {"item_name": "Iron Blade", "drop_percent": 54},
+    "item_2": {"item_name": "Tree Shield", "drop_percent": 54},
+    "item_3": {"item_name": "Magic Glasses", "drop_percent": 54},
+    "subdrops": [ "Iron Blade", "Wood Grip", "One Handed Axe", "Tree Shield", "Motivational Bracelet" ]
+  },
+  "999-999": {
+    "name": "999-999",
+    "item_1": {"item_name": "", "drop_percent": 54},
+    "item_2": {"item_name": "", "drop_percent": 54},
+    "item_3": {"item_name": "", "drop_percent": 54},
+    "subdrops": [ "", "", "", "", "" ]
+  }
+}

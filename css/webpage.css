@@ -46,11 +46,19 @@ div.div-background-purple {
 }
 
 div.div-background-requested {
-    background-image: url("./../images/webpage/bg_500030_blur.png");
+    background-image: url("./../images/webpage/bg_500012_blur.png");
 }
 
 div.div-background-required {
+    background-image: url("./../images/webpage/bg_500022_blur.png");
+}
+
+div.div-background-owned {
     background-image: url("./../images/webpage/bg_500032_blur.png");
+}
+
+div.div-background-recommended {
+    background-image: url("./../images/webpage/bg_500270_blur.png");
 }
 
 /* WEB PAGE TITLE */
@@ -127,7 +135,7 @@ hr {
     text-shadow: 2px 2px 4px #000000;
     letter-spacing: 2px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 8px;
     margin-left: 10px;
 
     text-after-overflow: center;

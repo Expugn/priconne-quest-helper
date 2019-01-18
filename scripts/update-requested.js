@@ -15,4 +15,7 @@ function update_requested()
 
     /* FIGURE OUT TOTAL INGREDIENTS */
     figure_out_total_ingredients(recipeArray);
+
+    /* FIGURE OUT RECOMMENDED QUEST */
+    build_recommended_quest_table(recipeArray);
 }

@@ -86,25 +86,9 @@ function add_items_to_recipe(recipe, recipe_comp, amount)
 
 function figure_out_total_ingredients(all_recipe_maps_array)
 {
-    let total_recipe = new Map();
+    let total_recipe = get_total_recipe(all_recipe_maps_array);
 
-    // ITERATE THROUGH ALL RECIPES IN ARRAY
-    for (let i = 0 ; i < all_recipe_maps_array.length ; i++)
-    {
-        // ITERATE THROUGH INDIVIDUAL RECIPE COMPONENTS
-        for (let [comp_name, comp_amt] of all_recipe_maps_array[i])
-        {
-            if (total_recipe.has(comp_name))
-            {
-                total_recipe.set(comp_name, total_recipe.get(comp_name) + comp_amt);
-            }
-            else
-            {
-                total_recipe.set(comp_name, comp_amt);
-            }
-        }
-    }
-
+    /* SORT */
     total_recipe[Symbol.iterator] = function* () {
         yield* [...this.entries()].sort((a, b) => b[1] - a[1]);
     };
@@ -150,4 +134,28 @@ function figure_out_total_ingredients(all_recipe_maps_array)
     table_html += "</body>";
 
     document.getElementById("required-ingredient-table").innerHTML = table_html;
+}
+
+function get_total_recipe(all_recipe_maps_array)
+{
+    let total_recipe = new Map();
+
+    // ITERATE THROUGH ALL RECIPES IN ARRAY
+    for (let i = 0 ; i < all_recipe_maps_array.length ; i++)
+    {
+        // ITERATE THROUGH INDIVIDUAL RECIPE COMPONENTS
+        for (let [comp_name, comp_amt] of all_recipe_maps_array[i])
+        {
+            if (total_recipe.has(comp_name))
+            {
+                total_recipe.set(comp_name, total_recipe.get(comp_name) + comp_amt);
+            }
+            else
+            {
+                total_recipe.set(comp_name, comp_amt);
+            }
+        }
+    }
+
+    return total_recipe;
 }
