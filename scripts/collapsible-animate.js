@@ -1,14 +1,25 @@
+let collapsible_retry_count = 0;
 function enableCollapsible()
 {
     let coll = document.getElementsByClassName("collapsible");
 
     if (coll.length < 5)
     {
-        console.log("Less than 5 elements detected... Page must not be done loading yet. Will pause for .1s and restart.");
-        setTimeout(function () {
-            enableCollapsible()
-        }, 500);
-        return;
+        if (collapsible_retry_count <= 100)
+        {
+            console.log("[Collapsible] - Less than 5 elements detected... Page must not be done loading yet.\n\tWill pause for .5s and restart.\n\tCurrent Retry: " + collapsible_retry_count);
+            setTimeout(function () {
+                collapsible_retry_count++;
+                enableCollapsible()
+            }, 500);
+            return;
+        }
+        else
+        {
+            console.log("[Collapsible] - 100 retries have been performed.\n\tAbandoning task!");
+            return;
+        }
+
     }
 
     for (let i = 0; i < coll.length; i++) {
@@ -32,5 +43,5 @@ function enableCollapsible()
         });
     }
 
-    console.log("Enabled Collapsible Menus!");
+    console.log("[Collapsible] - Enabled Collapsible Menus!");
 }

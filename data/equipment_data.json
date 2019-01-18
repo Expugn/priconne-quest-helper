@@ -685,5 +685,642 @@
     "has_fragments": true,
     "req_pieces": 5,
     "req_items": []
+  },
+  "butterfly_katana": {
+    "name": "Butterfly Katana",
+    "id": "gold-1",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "angel_blade": {
+    "name": "Angel Blade",
+    "id": "gold-2",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "precious_knife": {
+    "name": "Precious Knife",
+    "id": "gold-3",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Feather Blade" ]
+  },
+  "bright_sword": {
+    "name": "Bright Sword",
+    "id": "gold-4",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Feather Blade" ]
+  },
+  "solar_sword": {
+    "name": "Solar Sword",
+    "id": "gold-5",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "princess_dagger": {
+    "name": "Princess' Dagger",
+    "id": "gold-6",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "hawk_gods_sword": {
+    "name": "Hawk God's Sword",
+    "id": "gold-7",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "ice_claymore": {
+    "name": "Ice Claymore",
+    "id": "gold-8",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "dark_matter_edge": {
+    "name": "Dark Matter Edge",
+    "id": "gold-9",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "phoenix_sword": {
+    "name": "Phoenix Sword",
+    "id": "gold-10",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Butterfly Katana" ]
+  },
+  "chaos_blade": {
+    "name": "Chaos Blade",
+    "id": "gold-11",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "unicorn_knife": {
+    "name": "Unicorn Knife",
+    "id": "gold-12",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Princess' Dagger" ]
+  },
+  "scarlet_dragon": {
+    "name": "Scarlet Dragon",
+    "id": "gold-13",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Absolute Spear", "Opal Earrings" ]
+  },
+  "queen_bee_spear": {
+    "name": "Queen Bee Spear",
+    "id": "gold-14",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "storm_bringer": {
+    "name": "Storm Bringer",
+    "id": "gold-15",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Scarlet Dragon" ]
+  },
+  "gaia_bardiche": {
+    "name": "Gaia Bardiche",
+    "id": "gold-16",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "shiryuu_axe": {
+    "name": "Shiryuu Axe",
+    "id": "gold-17",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "hell_fire_axe": {
+    "name": "Hell-Fire Axe",
+    "id": "gold-18",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Scarlet Diamond" ]
+  },
+  "queens_battle_axe": {
+    "name": "Queen's Battle Axe",
+    "id": "gold-19",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "aqua_slasher": {
+    "name": "Aqua Slasher",
+    "id": "gold-20",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "moon_wand": {
+    "name": "Moon Wand",
+    "id": "gold-21",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Devil's Horn" ]
+  },
+  "fury_rod": {
+    "name": "Fury Rod",
+    "id": "gold-22",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "rod_of_life": {
+    "name": "Rod of Life",
+    "id": "gold-23",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "rod_of_sun": {
+    "name": "Rod of Sun",
+    "id": "gold-24",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "phoenix_rod": {
+    "name": "Phoenix Rod",
+    "id": "gold-25",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Moon Wand", "Laurel's Sorrow", "Scarlet Diamond" ]
+  },
+  "justice_gods_staff": {
+    "name": "Justice God's Staff",
+    "id": "gold-26",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "high_angel_rod": {
+    "name": "High Angel Rod",
+    "id": "gold-27",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "high_devil_wand": {
+    "name": "High Devil Wand",
+    "id": "gold-28",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Fury Rod", "Mourning Crescent Moon" ]
+  },
+  "lightning_bow": {
+    "name": "Lightning Bow",
+    "id": "gold-29",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Turquoise Earrings", "Devil's Bow" ]
+  },
+  "angel_bow": {
+    "name": "Angel Bow",
+    "id": "gold-30",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "artemis_bow": {
+    "name": "Artemis Bow",
+    "id": "gold-31",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "spirit_tree_bow": {
+    "name": "Spirit Tree Bow",
+    "id": "gold-32",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "blazing_gauntlet": {
+    "name": "Blazing Gauntlet",
+    "id": "gold-33",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Dragon's Claw", "Lion Eagle's Feather" ]
+  },
+  "lion_king_gauntlet": {
+    "name": "Lion King Gauntlet",
+    "id": "gold-34",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "blizzard_claw": {
+    "name": "Blizzard Claw",
+    "id": "gold-35",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Blazing Gauntlet", "Turquoise Earrings" ]
+  },
+  "lightning_fist": {
+    "name": "Lightning Fist",
+    "id": "gold-36",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "feather_waltz": {
+    "name": "Feather Waltz",
+    "id": "gold-37",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Lion King's Protective Charm", "Legion Helm" ]
+  },
+  "wizard_hood": {
+    "name": "Wizard Hood",
+    "id": "gold-38",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Laurel's Sorrow" ]
+  },
+  "popes_hood": {
+    "name": "Pope's Hood",
+    "id": "gold-39",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Lion King's Protective Charm", "Witch Hat", "Cupid Robe" ]
+  },
+  "invisible_dress": {
+    "name": "Invisible Dress",
+    "id": "gold-40",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "moonlight_garment": {
+    "name": "Moonlight Garment",
+    "id": "gold-41",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "grand_magicians_robe": {
+    "name": "Grand Magician's Robe",
+    "id": "gold-42",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "angel_armor": {
+    "name": "Angel Armor",
+    "id": "gold-43",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Lion King's Protective Charm", "Gorgeous Armor" ]
+  },
+  "mythril_plate": {
+    "name": "Mythril Plate",
+    "id": "gold-44",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Battling Dress", "Garnet Shield", "Lion Eagle's Feather" ]
+  },
+  "hermit_clothes": {
+    "name": "Hermit Clothes",
+    "id": "gold-45",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Vampire Dagger", "Opal Earrings" ]
+  },
+  "saints_robe": {
+    "name": "Saint's Robe",
+    "id": "gold-46",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Laurel's Sorrow", "Pearl Earrings" ]
+  },
+  "vermilion_plate": {
+    "name": "Vermilion Plate",
+    "id": "gold-47",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Heavy Metal Armor", "Absolute Spear" ]
+  },
+  "violet_armor": {
+    "name": "Violet Armor",
+    "id": "gold-48",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Mythril Plate" ]
+  },
+  "heavenly_robe": {
+    "name": "Heavenly Robe",
+    "id": "gold-49",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Moonlight Garment" ]
+  },
+  "crusader_plate": {
+    "name": "Crusader Plate",
+    "id": "gold-50",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Invisible Dress" ]
+  },
+  "scarlet_mail": {
+    "name": "Scarlet Mail",
+    "id": "gold-51",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Invisible Dress", "Elemental Heart" ]
+  },
+  "viridian_spiritual_dress": {
+    "name": "Viridian Spiritual Dress",
+    "id": "gold-52",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Saint's Robe", "Moon Wand" ]
+  },
+  "dark_terror_dress": {
+    "name": "Dark Terror Dress",
+    "id": "gold-53",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Hermit Clothes", "Shiryuu Axe" ]
+  },
+  "dragonic_armor": {
+    "name": "Dragonic Armor",
+    "id": "gold-54",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Vermilion Plate", "Scarlet Dragon" ]
+  },
+  "empress_shield": {
+    "name": "Empress Shield",
+    "id": "gold-55",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Lion King's Protective Charm", "Sorcerer's Glasses" ]
+  },
+  "guardian_shield": {
+    "name": "Guardian Shield",
+    "id": "gold-56",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Empress Shield" ]
+  },
+  "paladin_greave": {
+    "name": "Paladin Greave",
+    "id": "gold-57",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Shinobi Boots", "Opal Earrings", "Emerald Earrings" ]
+  },
+  "wizard_boots": {
+    "name": "Wizard Boots",
+    "id": "gold-58",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "angel_boots": {
+    "name": "Angel Boots",
+    "id": "gold-59",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Octogram Pendant", "Feather Blade" ]
+  },
+  "necromancer_boots": {
+    "name": "Necromancer Boots",
+    "id": "gold-60",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Wizard Boots", "Devil's Horn" ]
+  },
+  "aquarius_boots": {
+    "name": "Aquarius Boots",
+    "id": "gold-61",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Wizard Boots", "Bangle of Substitution" ]
+  },
+  "faireal_boots": {
+    "name": "Faireal Boots",
+    "id": "gold-62",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Angel Boots", "Laurel's Sorrow", "Lion King's Protective Charm" ]
+  },
+  "bangle_of_substitution": {
+    "name": "Bangle of Substitution",
+    "id": "gold-63",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "mourning_crescent_moon": {
+    "name": "Mourning Crescent Moon",
+    "id": "gold-64",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "elemental_heart": {
+    "name": "Elemental Heart",
+    "id": "gold-65",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": []
+  },
+  "gospel_tiara": {
+    "name": "Gospel Tiara",
+    "id": "gold-66",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Wizard Hood", "Laurel's Sorrow", "Pearl Earrings" ]
+  },
+  "moon_bracelet": {
+    "name": "Moon Bracelet",
+    "id": "gold-67",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "dragons_tear": {
+    "name": "Dragon's Tear",
+    "id": "gold-68",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "sun_amulet": {
+    "name": "Sun Amulet",
+    "id": "gold-69",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "congregation_pendant": {
+    "name": "Congregation Pendant",
+    "id": "gold-70",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "firelords_ring": {
+    "name": "Firelord's Ring",
+    "id": "gold-71",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "great_sage_gem": {
+    "name": "Great Sage Gem",
+    "id": "gold-72",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "cat_god_pendant": {
+    "name": "Cat God Pendant",
+    "id": "gold-73",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "hundred_white_blossom_petals_sword": {
+    "name": "Hundred White Blossom Petals Sword",
+    "id": "purple-1",
+    "has_fragments": true,
+    "req_pieces": 35,
+    "req_items": []
+  },
+  "lightning_blade": {
+    "name": "Lightning Blade",
+    "id": "purple-2",
+    "has_fragments": true,
+    "req_pieces": 35,
+    "req_items": []
+  },
+  "emerald_dagger": {
+    "name": "Emerald Dagger",
+    "id": "purple-3",
+    "has_fragments": true,
+    "req_pieces": 35,
+    "req_items": []
+  },
+  "zero_frost_lance": {
+    "name": "Zero Frost Lance",
+    "id": "purple-4",
+    "has_fragments": true,
+    "req_pieces": 35,
+    "req_items": []
+  },
+  "necrodim_axe": {
+    "name": "Necrodim Axe",
+    "id": "purple-5",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Shiryuu Axe", "Necromancer Boots" ]
+  },
+  "flame_rod": {
+    "name": "Flame Rod",
+    "id": "purple-6",
+    "has_fragments": true,
+    "req_pieces": 35,
+    "req_items": []
+  },
+  "xenosphere_rod": {
+    "name": "Xenosphere Rod",
+    "id": "purple-7",
+    "has_fragments": true,
+    "req_pieces": 35,
+    "req_items": []
+  },
+  "silver_wing_bow": {
+    "name": "Silver Wing Bow",
+    "id": "purple-8",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Artemis Bow", "Cupid's Bow", "Lion Eagle's Feather" ]
+  },
+  "moon_cestus": {
+    "name": "Moon Cestus",
+    "id": "purple-9",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Lion King Gauntlet", "Moon Bracelet" ]
+  },
+  "mourning_crown": {
+    "name": "Mourning Crown",
+    "id": "purple-10",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Gospel Tiara", "Devil's Horn" ]
+  },
+  "azure_armor": {
+    "name": "Azure Armor",
+    "id": "purple-11",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Violet Armor", "Paladin Greave" ]
+  },
+  "aegis_coat": {
+    "name": "Aegis Coat",
+    "id": "purple-12",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Heavenly Robe", "Feather Waltz" ]
+  },
+  "phantasm_mail": {
+    "name": "Phantasm Mail",
+    "id": "purple-13",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Crusader Plate", "Vampire Dagger" ]
+  },
+  "shrine_maidens_purity_cloth": {
+    "name": "Shrine Maiden's Purity Cloth",
+    "id": "purple-14",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Sun Amulet", "Saint's Robe" ]
+  },
+  "astrograph_buckler": {
+    "name": "Astrograph Buckler",
+    "id": "purple-15",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Guardian Shield", "Garnet Shield", "Cosmos Cloth" ]
+  },
+  "millenium_earrings": {
+    "name": "Millenium Earrings",
+    "id": "purple-16",
+    "has_fragments": true,
+    "req_pieces": 35,
+    "req_items": []
+  },
+  "ocean_gods_earrings": {
+    "name": "Ocean God's Earrings",
+    "id": "purple-17",
+    "has_fragments": true,
+    "req_pieces": 35,
+    "req_items": []
+  },
+  "fairy_kings_guardian_stone": {
+    "name": "Fairy King's Guardian Stone",
+    "id": "purple-18",
+    "has_fragments": true,
+    "req_pieces": 35,
+    "req_items": []
   }
 }

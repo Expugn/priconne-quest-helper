@@ -1,4 +1,4 @@
-console.log("Reading 'data/equipment_data.json'...");
+console.log("[Equipment Reader] - Reading 'data/equipment_data.json'...");
 let equipment_map = new Map();
 
 let run = $(function () {
