@@ -3,8 +3,13 @@ function build_recommended_quest_table(all_recipe_maps_array)
     /* DETERMINE WHICH QUESTS ARE BEST, FILTER OUT ONES W/O MATCHING */
     let total_recipe = get_total_recipe(all_recipe_maps_array);
 
-    /* ITERATE THROUGH ALL QUESTS */
+    /* ITERATE THROUGH ALL QUESTS, GENERATE QUEST SCORE */
     let quest_score_map = new Map();
+
+    const item_is_in_top_2_score = 1;
+    const item_is_in_3rd_slot = 0.75;
+    const item_is_in_subitem_score = 0.5;
+
     for (let [quest_id, quest_data] of quest_map)
     {
         console.log("Reading quest " + quest_id);
@@ -17,14 +22,14 @@ function build_recommended_quest_table(all_recipe_maps_array)
         let quest_score = 0;
 
         // CHECK ITEM 1 - 3
-        if (total_recipe.has(item_1_name)) { quest_score++; }
-        if (total_recipe.has(item_2_name)) { quest_score++; }
-        if (total_recipe.has(item_3_name)) { quest_score++; }
+        if (total_recipe.has(item_1_name)) { quest_score += item_is_in_top_2_score; }
+        if (total_recipe.has(item_2_name)) { quest_score += item_is_in_top_2_score; }
+        if (total_recipe.has(item_3_name)) { quest_score += item_is_in_3rd_slot; }
 
         // CHECK SUBDROPS
         for (let i = 0 ; i < quest_subdrops.length ; i++)
         {
-            if (total_recipe.has(quest_subdrops[i])) { quest_score++; }
+            if (total_recipe.has(quest_subdrops[i])) { quest_score += item_is_in_subitem_score; }
         }
 
         console.log("Quest " + quest_id + " Score: " + quest_score);
@@ -53,10 +58,11 @@ function build_recommended_quest_table(all_recipe_maps_array)
         yield* [...this.entries()].sort((a, b) => b[1] - a[1]);
     };
 
-    console.log("does this work? " + (true ? "yes" : "no"));
-
     /* CONSTRUCT LIST */
     let table_html = "";
+
+    const max_quest_count_in_list = 10;
+    let quest_count = 0;
 
     table_html += "<tbody>";
 
@@ -89,7 +95,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
             table_html += "<tr>";
 
             // QUEST NAME
-            table_html += "<th><h3 class=\"quest-title\">" + quest_name + "</h3></th>";
+            table_html += "<th height='48' width='96'><h3 class=\"quest-title\">" + quest_name + "</h3></th>";
 
             // DIVIDER
             table_html += "<th>";
@@ -98,21 +104,21 @@ function build_recommended_quest_table(all_recipe_maps_array)
             table_html += "</th>";
 
             // ITEM 1 IMAGE
-            table_html += "<th class=\"quest-item-image\">";
+            table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
             table_html += "<img class=\"quest-item-image" + (total_recipe.has(item_1_name) ? "" : " grayscale") + "\" title=\"" + item_1_name
                 + "\" src=\"images/items/" + item_1_name.split(' ').join('_') + ".png\" alt=\"\">";
             table_html += "<div class=\"quest-percent-text\">" + item_1_drop_percent + "\u0025</div>";
             table_html += "</th>";
 
             // ITEM 2 IMAGE
-            table_html += "<th class=\"quest-item-image\">";
+            table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
             table_html += "<img class=\"quest-item-image" + (total_recipe.has(item_2_name) ? "" : " grayscale") + "\" title=\"" + item_2_name
                 + "\" src=\"images/items/" + item_2_name.split(' ').join('_') + ".png\" alt=\"\">";
             table_html += "<div class=\"quest-percent-text\">" + item_2_drop_percent + "\u0025</div>";
             table_html += "</th>";
 
             // ITEM 3 IMAGE
-            table_html += "<th class=\"quest-item-image\">";
+            table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
             table_html += "<img class=\"quest-item-image" + (total_recipe.has(item_3_name) ? "" : " grayscale") + "\" title=\"" + item_3_name
                 + "\" src=\"images/items/" + item_3_name.split(' ').join('_') + ".png\" alt=\"\">";
             table_html += "<div class=\"quest-percent-text\">" + item_3_drop_percent + "\u0025</div>";
@@ -127,14 +133,22 @@ function build_recommended_quest_table(all_recipe_maps_array)
             // SUB-ITEM IMAGES
             for (let i = 0 ; i < subdrops.length ; i++)
             {
-                table_html += "<th class=\"quest-item-image\">";
+                table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                 table_html += "<img class=\"quest-item-image" + (total_recipe.has(subdrops[i]) ? "" : " grayscale") + "\" title=\"" + subdrops[i]
                     + "\" src=\"images/items/" + subdrops[i].split(' ').join('_') + ".png\" alt=\"\">";
                 table_html += "<div class=\"quest-percent-text\">20\u0025</div>";
                 table_html += "</th>";
             }
 
+            table_html += "<th height='96' width='96'><h3 class=\"quest-title\">" + quest_score + " pts</h3></th>";
+
             table_html += "</tr>";
+            quest_count++;
+
+            if (quest_count >= max_quest_count_in_list)
+            {
+                break;
+            }
         }
     }
     table_html += "</body>";

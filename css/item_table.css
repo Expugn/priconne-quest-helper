@@ -109,7 +109,7 @@ img.quest-item-image {
     margin-top: -48%;
     margin-right: 8%;
     margin-bottom: -10%;
-    color: violet;
+    color: lightsalmon;
     font-family: "Calibri", Arial, serif;
     text-align: right;
 
@@ -133,17 +133,24 @@ img.quest-item-image {
 }
 
 .quest-title {
-    max-width: 48px;
-    max-height: 48px;
+    height: 100%;
+    width: 100%;
+    max-height: 20px;
 
     font-family: "Trebuchet MS", Arial, serif;
     text-shadow: 2px 2px 4px #000000,
                     2px 2px 4px #000000,
                     2px 2px 4px #000000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
 
-    padding: 14px 5px;
+    position: relative;
+    bottom: 6px;
+
+    margin-bottom: 5%;
+
+    padding: 10px 5px;
 
     letter-spacing: 1px;
 
