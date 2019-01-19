@@ -1,7 +1,18 @@
+let last_compiled_all_recipe_maps_array = [];
 function build_recommended_quest_table(all_recipe_maps_array)
 {
-    /* DETERMINE WHICH QUESTS ARE BEST, FILTER OUT ONES W/O MATCHING */
+    last_compiled_all_recipe_maps_array = all_recipe_maps_array;
     let total_recipe = get_total_recipe(all_recipe_maps_array);
+
+    /* REPLACE TOTAL RECIPE WITH TOTAL RECIPE W/O DISABLED COMPONENTS FROM RECIPE READER/REQUIRED INGREDIENTS TABLE */
+    for (let i = 0 ; i < disabled_items.length ; i++)
+    {
+        if (total_recipe.has(disabled_items[i]))
+        {
+            // DISABLED ITEM EXISTS IN TOTAL RECIPE, DELETE IT
+            total_recipe.delete(disabled_items[i]);
+        }
+    }
 
     /* ITERATE THROUGH ALL QUESTS, GENERATE QUEST SCORE */
     let quest_score_map = new Map();
@@ -12,8 +23,6 @@ function build_recommended_quest_table(all_recipe_maps_array)
 
     for (let [quest_id, quest_data] of quest_map)
     {
-        console.log("Reading quest " + quest_id);
-
         let item_1_name = quest_data.get("item_1").item_name;   // OBJECT
         let item_2_name = quest_data.get("item_2").item_name;   // OBJECT
         let item_3_name = quest_data.get("item_3").item_name;   // OBJECT
@@ -46,11 +55,8 @@ function build_recommended_quest_table(all_recipe_maps_array)
             if (total_recipe.has(quest_subdrops[i])) { quest_score += item_is_in_subitem_score; }
         }
 
-        console.log("Quest " + quest_id + " Score: " + quest_score);
-
         if (quest_score !== 0)
         {
-            console.log("\t\t\tAdded quest" + quest_id);
             quest_score_map.set(quest_id, quest_score);
         }
     }
@@ -166,6 +172,12 @@ function build_recommended_quest_table(all_recipe_maps_array)
 
     document.getElementById("recommended-quest-table").innerHTML = table_html;
 
+}
+
+function refresh_quest_table()
+{
+    build_recommended_quest_table(last_compiled_all_recipe_maps_array);
+    //console.log("[Quest Table] - Refreshed Table!")
 }
 
 function print_all_quests()

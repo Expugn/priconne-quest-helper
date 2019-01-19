@@ -73,6 +73,10 @@ input[type=number].item-input {
     border-radius: 4px;
 }
 
+th.requested-item-image {
+    box-shadow: 0 0 0 0, 0 0 0 0, 0 0; !important;
+}
+
 .requested-item-text {
     text-shadow: 1px 1px 4px #000000,
                     1px 1px 4px #000000,
@@ -87,9 +91,60 @@ input[type=number].item-input {
     border-radius: 5px;
 }
 
+.all-ingredient-comp {
+}
+
+.ingredient-button {
+    max-width: 48px;
+    max-height: 48px;
+    min-width: 16px;
+    min-height: 16px;
+
+    position: relative;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.4s ease-out;
+
+    border-radius: 4px;
+    outline: none;
+}
+
+.ingredient-button-image {
+    position: relative;
+    right: 8px;
+    bottom: 3px;
+
+    max-width: 48px;
+    max-height: 48px;
+    border-radius: 4px;
+}
+
+.ingredient-button-text {
+    font-weight: bold;
+    position: absolute;
+    bottom: -1px;
+    text-overflow: ellipsis;
+    right: 2px;
+
+
+    text-shadow: 1px 1px 4px #000000,
+                    1px 1px 4px #000000,
+                    1px 1px 4px #000000,
+                    1px 1px 4px #000000;
+    color: white;
+
+    font-size: 16px;
+    font-family: "Calibri", Arial, serif;
+}
+
 .grayscale {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+}
+
+.low-opacity {
+    -webkit-filter: opacity(30%);
+    filter: opacity(30%);
 }
 
 img.quest-item-image {
