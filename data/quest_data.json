@@ -761,8 +761,236 @@
     "item_3": {"item_name": "Scarlet Diamond Fragment", "drop_percent": 72},
     "subdrops": [ "Leather Knuckle", "Aurora Sword", "High-Metal Axe", "Light Plate Fragment", "Spike Bangle" ]
   },
+  "9-1": {
+    "item_1": {"item_name": "Moon Rod Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Precious Knife Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Butterfly Katana Fragment", "drop_percent": 24},
+    "subdrops": [ "Sparkling Sword Fragment", "Platinum Knife Fragment", "Fashion Armor Fragment", "Shinobi Boots Fragment", "Emerald Earrings Fragment" ]
+  },
+  "9-2": {
+    "item_1": {"item_name": "Angel Blade Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Fury Rod Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Blazing Gauntlet Fragment", "drop_percent": 24},
+    "subdrops": [ "Knight's Pride Fragment", "Blue Sphere Axe Fragment", "Gorgeous Armor Fragment", "Opal Earrings Fragment", "Pearl Earrings Fragment" ]
+  },
+  "9-3": {
+    "item_1": {"item_name": "Shiryuu Axe Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Scarlet Dragon Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Lightning Bow Fragment", "drop_percent": 24},
+    "subdrops": [ "Thorn Blood Rod Fragment", "Celestial Sphere Watcher Fragment", "Millefeuille Cloth Fragment", "Turquoise Earrings Fragment", "Witch Headband Fragment" ]
+  },
+  "9-4": {
+    "item_1": {"item_name": "Queen Bee Spear Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Angel Armor Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Lion King's Protective Charm Fragment", "drop_percent": 24},
+    "subdrops": [ "Knight's Pride Fragment", "Blue Sphere Axe Fragment", "Gorgeous Armor Fragment", "Opal Earrings Fragment", "Pearl Earrings Fragment" ]
+  },
+  "9-5": {
+    "item_1": {"item_name": "Solar Sword Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Princess' Dagger Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Wizard Hood Fragment", "drop_percent": 24},
+    "subdrops": [ "Thorn Blood Rod Fragment", "Celestial Sphere Watcher Fragment", "Millefeuille Cloth Fragment", "Turquoise Earrings Fragment", "Witch Headband Fragment" ]
+  },
+  "9-6": {
+    "item_1": {"item_name": "Hell-Fire Axe Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Lion King Gauntlet Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Scarlet Diamond Fragment", "drop_percent": 24},
+    "subdrops": [ "Sparkling Sword Fragment", "Platinum Knife Fragment", "Fashion Armor Fragment", "Shinobi Boots Fragment", "Emerald Earrings Fragment" ]
+  },
+  "9-7": {
+    "item_1": {"item_name": "Angel Bow Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Rod of Life Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Invisible Armor Fragment", "drop_percent": 24},
+    "subdrops": [ "Knight's Pride Fragment", "Blue Sphere Axe Fragment", "Gorgeous Armor Fragment", "Opal Earrings Fragment", "Pearl Earrings Fragment" ]
+  },
+  "9-8": {
+    "item_1": {"item_name": "Rod of Sun Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Bright Sword Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Laurel's Sorrow Fragment", "drop_percent": 24},
+    "subdrops": [ "Thorn Blood Rod Fragment", "Celestial Sphere Watcher Fragment", "Millefeuille Cloth Fragment", "Turquoise Earrings Fragment", "Witch Headband Fragment" ]
+  },
+  "9-9": {
+    "item_1": {"item_name": "Princess' Dagger Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Wizard Boots Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Cosmos Cloth Fragment", "drop_percent": 24},
+    "subdrops": [ "Sparkling Sword Fragment", "Platinum Knife Fragment", "Fashion Armor Fragment", "Shinobi Boots Fragment", "Emerald Earrings Fragment" ]
+  },
+  "9-10": {
+    "item_1": {"item_name": "Queen Bee Spear Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Angel Bow Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Lion King's Protective Charm Fragment", "drop_percent": 24},
+    "subdrops": [ "Knight's Pride Fragment", "Blue Sphere Axe Fragment", "Gorgeous Armor Fragment", "Opal Earrings Fragment", "Pearl Earrings Fragment" ]
+  },
+  "9-11": {
+    "item_1": {"item_name": "Solar Sword Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Paladin Greave Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Philosopher's Robe Fragment", "drop_percent": 24},
+    "subdrops": [ "Thorn Blood Rod Fragment", "Celestial Sphere Watcher Fragment", "Millefeuille Cloth Fragment", "Turquoise Earrings Fragment", "Witch Headband Fragment" ]
+  },
+  "9-12": {
+    "item_1": {"item_name": "Lion King Gauntlet Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Hell-Fire Axe Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Scarlet Diamond Fragment", "drop_percent": 24},
+    "subdrops": [ "Sparkling Sword Fragment", "Platinum Knife Fragment", "Fashion Armor Fragment", "Shinobi Boots Fragment", "Emerald Earrings Fragment" ]
+  },
+  "9-13": {
+    "item_1": {"item_name": "Rod of Life Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Feather Waltz Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Heavy Metal Armor Fragment", "drop_percent": 24},
+    "subdrops": [ "Knight's Pride Fragment", "Blue Sphere Axe Fragment", "Gorgeous Armor Fragment", "Opal Earrings Fragment", "Pearl Earrings Fragment" ]
+  },
+  "9-14": {
+    "item_1": {"item_name": "Bright Sword Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Rod of Sun Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Laurel's Sorrow Fragment", "drop_percent": 24},
+    "subdrops": [ "Thorn Blood Rod Fragment", "Celestial Sphere Watcher Fragment", "Millefeuille Cloth Fragment", "Turquoise Earrings Fragment", "Witch Headband Fragment" ]
+  },
+  "9-15": {
+    "item_1": {"item_name": "Solar Sword Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Rod of Life Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Empress Shield Fragment", "drop_percent": 24},
+    "subdrops": [ "Sparkling Sword Fragment", "Platinum Knife Fragment", "Fashion Armor Fragment", "Shinobi Boots Fragment", "Emerald Earrings Fragment" ]
+  },
+  "9-1H": {
+    "item_1": {"item_name": "Angel Bow Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Paladin Greave Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Scarlet Diamond Fragment", "drop_percent": 72},
+    "subdrops": [ "Sparkling Sword Fragment", "Platinum Knife Fragment", "Fashion Armor Fragment", "Shinobi Boots Fragment", "Emerald Earrings Fragment" ]
+  },
+  "9-2H": {
+    "item_1": {"item_name": "Hell-Fire Axe Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Feather Waltz Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Lion King's Protective Charm Fragment", "drop_percent": 72},
+    "subdrops": [ "Knight's Pride Fragment", "Blue Sphere Axe Fragment", "Gorgeous Armor Fragment", "Opal Earrings Fragment", "Pearl Earrings Fragment" ]
+  },
+  "9-3H": {
+    "item_1": {"item_name": "Solar Sword Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Empress Shield Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Laurel's Sorrow Fragment", "drop_percent": 72},
+    "subdrops": [ "Thorn Blood Rod Fragment", "Celestial Sphere Watcher Fragment", "Millefeuille Cloth Fragment", "Turquoise Earrings Fragment", "Witch Headband Fragment" ]
+  },
+  "10-1": {
+    "item_1": {"item_name": "Hell-Fire Axe Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Solar Sword Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Paladin Greave Fragment", "drop_percent": 24},
+    "subdrops": [ "Lion's Battle Axe Fragment", "Ryuumon Sword Fragment", "Fencer Boots Fragment", "Battling Dress Fragment", "Lion Eagle's Feather Fragment" ]
+  },
+  "10-2": {
+    "item_1": {"item_name": "Rod of Sun Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Queen Bee Spear Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Lion King Gauntlet Fragment", "drop_percent": 24},
+    "subdrops": [ "Dragon's Claw Fragment", "Absolute Spear Fragment", "Palace Cloth Fragment", "Moonlight Sword Fragment", "Octogram Pendant Fragment" ]
+  },
+  "10-3": {
+    "item_1": {"item_name": "Rod of Life Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Angel Bow Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Bright Sword Fragment", "drop_percent": 24},
+    "subdrops": [ "Flower Bud Wand Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Cupid's Bow Fragment", "Witch Palace Boots Fragment" ]
+  },
+  "10-4": {
+    "item_1": {"item_name": "Mythril Plate Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Princess' Dagger Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Wizard Boots Fragment", "drop_percent": 24},
+    "subdrops": [ "Dragon's Claw Fragment", "Absolute Spear Fragment", "Palace Cloth Fragment", "Moonlight Sword Fragment", "Octogram Pendant Fragment" ]
+  },
+  "10-5": {
+    "item_1": {"item_name": "Saint's Robe Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Hermit Clothes Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Empress Shield Fragment", "drop_percent": 24},
+    "subdrops": [ "Flower Bud Wand Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Cupid's Bow Fragment", "Witch Palace Boots Fragment" ]
+  },
+  "10-6": {
+    "item_1": {"item_name": "Vermilion Plate Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Mourning Crescent Moon Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Wizard Hood Fragment", "drop_percent": 24},
+    "subdrops": [ "Lion's Battle Axe Fragment", "Ryuumon Sword Fragment", "Fencer Boots Fragment", "Battling Dress Fragment", "Lion Eagle's Feather Fragment" ]
+  },
+  "10-7": {
+    "item_1": {"item_name": "Pope's Hood Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Bangle of Substitution Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Feather Waltz Fragment", "drop_percent": 24},
+    "subdrops": [ "Dragon's Claw Fragment", "Absolute Spear Fragment", "Palace Cloth Fragment", "Moonlight Sword Fragment", "Octogram Pendant Fragment" ]
+  },
+  "10-8": {
+    "item_1": {"item_name": "Angel Boots Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Elemental Heart Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Solar Sword Fragment", "drop_percent": 24},
+    "subdrops": [ "Flower Bud Wand Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Cupid's Bow Fragment", "Witch Palace Boots Fragment" ]
+  },
+  "10-9": {
+    "item_1": {"item_name": "Hermit Clothes Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Bangle of Substitution Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Rod of Life Fragment", "drop_percent": 24},
+    "subdrops": [ "Lion's Battle Axe Fragment", "Ryuumon Sword Fragment", "Fencer Boots Fragment", "Battling Dress Fragment", "Lion Eagle's Feather Fragment" ]
+  },
+  "10-10": {
+    "item_1": {"item_name": "Saint's Robe Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Mourning Crescent Moon Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Rod of Sun Fragment", "drop_percent": 24},
+    "subdrops": [ "Dragon's Claw Fragment", "Absolute Spear Fragment", "Palace Cloth Fragment", "Moonlight Sword Fragment", "Octogram Pendant Fragment" ]
+  },
+  "10-11": {
+    "item_1": {"item_name": "Vermilion Plate Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Elemental Heart Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Queen Bee Spear Fragment", "drop_percent": 24},
+    "subdrops": [ "Flower Bud Wand Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Cupid's Bow Fragment", "Witch Palace Boots Fragment" ]
+  },
+  "10-12": {
+    "item_1": {"item_name": "Hermit Clothes Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Bangle of Substitution Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Hell-Fire Axe Fragment", "drop_percent": 24},
+    "subdrops": [ "Lion's Battle Axe Fragment", "Ryuumon Sword Fragment", "Fencer Boots Fragment", "Battling Dress Fragment", "Lion Eagle's Feather Fragment" ]
+  },
+  "10-13": {
+    "item_1": {"item_name": "Pope's Hood Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Elemental Heart Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Angel Bow Fragment", "drop_percent": 24},
+    "subdrops": [ "Dragon's Claw Fragment", "Absolute Spear Fragment", "Palace Cloth Fragment", "Moonlight Sword Fragment", "Octogram Pendant Fragment" ]
+  },
+  "10-14": {
+    "item_1": {"item_name": "Angel Boots Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Mourning Crescent Moon Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Princess' Dagger Fragment", "drop_percent": 24},
+    "subdrops": [ "Flower Bud Wand Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Cupid's Bow Fragment", "Witch Palace Boots Fragment" ]
+  },
+  "10-15": {
+    "item_1": {"item_name": "Mythril Plate Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Elemental Heart Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Lion King Gauntlet Fragment", "drop_percent": 24},
+    "subdrops": [ "Flower Bud Wand Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Cupid's Bow Fragment", "Witch Palace Boots Fragment" ]
+  },
+  "10-16": {
+    "item_1": {"item_name": "Hermit Clothes Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Angel Boots Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Bangle of Substitution Fragment", "drop_percent": 24},
+    "subdrops": [ "Flower Bud Wand Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Cupid's Bow Fragment", "Witch Palace Boots Fragment" ]
+  },
+  "10-17": {
+    "item_1": {"item_name": "Vermilion Plate Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Mythril Plate Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Elemental Heart Fragment", "drop_percent": 24},
+    "subdrops": [ "Lion's Battle Axe Fragment", "Ryuumon Sword Fragment", "Fencer Boots Fragment", "Battling Dress Fragment", "Lion Eagle's Feather Fragment" ]
+  },
+  "10-1H": {
+    "item_1": {"item_name": "Pope's Hood Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Mourning Crescent Moon Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Rod of Sun Fragment", "drop_percent": 72},
+    "subdrops": [ "Sparkling Sword Fragment", "Platinum Knife Fragment", "Fashion Armor Fragment", "Shinobi Boots Fragment", "Emerald Earrings Fragment" ]
+  },
+  "10-2H": {
+    "item_1": {"item_name": "Angel Boots Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Bangle of Substitution Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Hell-Fire Axe Fragment", "drop_percent": 72},
+    "subdrops": [ "Knight's Pride Fragment", "Blue Sphere Axe Fragment", "Gorgeous Armor Fragment", "Opal Earrings Fragment", "Pearl Earrings Fragment" ]
+  },
+  "10-3H": {
+    "item_1": {"item_name": "Vermilion Plate Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Elemental Heart Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Bright Sword Fragment", "drop_percent": 72},
+    "subdrops": [ "Thorn Blood Rod Fragment", "Celestial Sphere Watcher Fragment", "Millefeuille Cloth Fragment", "Turquoise Earrings Fragment", "Witch Headband Fragment" ]
+  },
   "-": {
-    "item_1": {"item_name": "", "drop_percent": 37},
+    "item_1": {"item_name": "", "drop_percent": 36},
     "item_2": {"item_name": "", "drop_percent": 36},
     "item_3": {"item_name": "", "drop_percent": 24},
     "subdrops": [ "", "", "", "", "" ]
