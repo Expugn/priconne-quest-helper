@@ -11,7 +11,6 @@ let run_quest = $(function () {
             {
                 let quest_data = new Map();
 
-                quest_data.set("name", questData.name);
                 /** @namespace questData.item_1 */
                 quest_data.set("item_1", questData.item_1);
                 /** @namespace questData.item_2 */
@@ -21,7 +20,7 @@ let run_quest = $(function () {
                 /** @namespace questData.subdrops */
                 quest_data.set("subdrops", questData.subdrops);
 
-                quest_map.set(questData.name, quest_data);
+                quest_map.set(i, quest_data);
             });
         }
     });

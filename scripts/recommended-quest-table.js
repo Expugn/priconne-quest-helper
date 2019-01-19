@@ -70,8 +70,6 @@ function build_recommended_quest_table(all_recipe_maps_array)
     {
         for (let [quest_id, quest_score] of quest_score_map)
         {
-            let quest_name = get_quest_data(quest_id, "name");
-
             let item_1 = get_quest_data(quest_id, "item_1");
             /** @namespace item_1.item_name */
             let item_1_name = item_1.item_name;
@@ -95,7 +93,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
             table_html += "<tr>";
 
             // QUEST NAME
-            table_html += "<th height='48' width='96'><h3 class=\"quest-title\">" + quest_name + "</h3></th>";
+            table_html += "<th height='64' width='144'><h3 class=\"quest-title\">" + quest_id + "</h3></th>";
 
             // DIVIDER
             table_html += "<th>";
@@ -140,7 +138,14 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 table_html += "</th>";
             }
 
-            table_html += "<th height='96' width='96'><h3 class=\"quest-title\">" + quest_score + " pts</h3></th>";
+            // DIVIDER
+            table_html += "<th>";
+            table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
+                + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
+            table_html += "</th>";
+
+            // QUEST POINTS
+            table_html += "<th height='64' width='144'><h3 class=\"quest-title\">" + quest_score + " pts</h3></th>";
 
             table_html += "</tr>";
             quest_count++;

@@ -133,10 +133,6 @@ img.quest-item-image {
 }
 
 .quest-title {
-    height: 100%;
-    width: 100%;
-    max-height: 20px;
-
     font-family: "Trebuchet MS", Arial, serif;
     text-shadow: 2px 2px 4px #000000,
                     2px 2px 4px #000000,
@@ -150,13 +146,15 @@ img.quest-item-image {
 
     margin-bottom: 5%;
 
-    padding: 10px 5px;
+    padding: 10px 30px;
 
     letter-spacing: 1px;
 
     color: white;
 
     border-radius: 5px;
+
+    white-space: nowrap;
 }
 
 .quest-item-divider {
