@@ -6,17 +6,23 @@ body {
 div.div-background-title {
     background-image: url("./../images/webpage/still_108200401_blur_2.png");
 
-    box-sizing: border-box;
-
-    /* Full height */
     height: 100%;
-    width: 100%;
 
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 10%;
 
+    transition: all 0.4s ease-out;
     overflow: hidden;
+
+    position: relative;
+}
+
+div.div-background-title:hover {
+    height: 130%;
+    padding-top: 100px;
+    background-position: center;
+    background-position-y: 0;
 }
 
 div.div-background {
@@ -70,6 +76,7 @@ h1.title {
 
     box-sizing: border-box;
 }
+
 h2.title {
     color: aliceblue;
     text-align: center;
@@ -79,6 +86,14 @@ h2.title {
     letter-spacing: 3px;
 
     box-sizing: border-box;
+}
+
+.title-hover {
+    transition: all 0.4s ease-out;
+}
+
+.title-hover:hover {
+    opacity: 0.1;
 }
 
 /* LINE BREAK */
