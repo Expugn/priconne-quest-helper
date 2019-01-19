@@ -989,6 +989,367 @@
     "item_3": {"item_name": "Bright Sword Fragment", "drop_percent": 72},
     "subdrops": [ "Thorn Blood Rod Fragment", "Celestial Sphere Watcher Fragment", "Millefeuille Cloth Fragment", "Turquoise Earrings Fragment", "Witch Headband Fragment" ]
   },
+  "11-1": {
+    "item_1": {"item_name": "Mythril Plate Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Vermilion Plate Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Elemental Heart Fragment", "drop_percent": 24},
+    "subdrops": [ "Feather Blade Fragment", "Lightning Axe Fragment", "Heavy Metal Armor Fragment", "Scarlet Diamond Fragment", "Emerald Earrings Fragment" ]
+  },
+  "11-2": {
+    "item_1": {"item_name": "Saint's Robe Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Pope's Hood Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Mourning Crescent Moon Fragment", "drop_percent": 24},
+    "subdrops": [ "Thunder God Sword Fragment", "Vampire Dagger Fragment", "Cosmos Cloth Fragment", "Lion King's Protective Charm Fragment", "Opal Earrings Fragment" ]
+  },
+  "11-3": {
+    "item_1": {"item_name": "Hermit Clothes Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Angel Boots Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Bangle of Substitution Fragment", "drop_percent": 24},
+    "subdrops": [ "Devil's Bow Fragment", "Devil's Horn Fragment", "Philosopher's Robe Fragment", "Laurel's Sorrow Fragment", "Turquoise Earrings Fragment" ]
+  },
+  "11-4": {
+    "item_1": {"item_name": "Dark Matter Edge Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Vermilion Plate Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Pope's Hood Fragment", "drop_percent": 24},
+    "subdrops": [ "Thunder God Sword Fragment", "Vampire Dagger Fragment", "Cosmos Cloth Fragment", "Lion King's Protective Charm Fragment", "Opal Earrings Fragment" ]
+  },
+  "11-5": {
+    "item_1": {"item_name": "Storm Bringer Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Phoenix Rod Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Mythril Plate Fragment", "drop_percent": 24},
+    "subdrops": [ "Devil's Bow Fragment", "Devil's Horn Fragment", "Philosopher's Robe Fragment", "Laurel's Sorrow Fragment", "Turquoise Earrings Fragment" ]
+  },
+  "11-6": {
+    "item_1": {"item_name": "Ice Claymore Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Queen's Battle Axe Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Saint's Robe Fragment", "drop_percent": 24},
+    "subdrops": [ "Feather Blade Fragment", "Lightning Axe Fragment", "Heavy Metal Armor Fragment", "Scarlet Diamond Fragment", "Emerald Earrings Fragment" ]
+  },
+  "11-7": {
+    "item_1": {"item_name": "Justice God's Staff Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Blizzard Claw Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Elemental Heart Fragment", "drop_percent": 24},
+    "subdrops": [ "Thunder God Sword Fragment", "Vampire Dagger Fragment", "Cosmos Cloth Fragment", "Lion King's Protective Charm Fragment", "Opal Earrings Fragment" ]
+  },
+  "11-8": {
+    "item_1": {"item_name": "Artemis Bow Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Hawk God's Sword Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Hermit Clothes Fragment", "drop_percent": 24},
+    "subdrops": [ "Devil's Bow Fragment", "Devil's Horn Fragment", "Philosopher's Robe Fragment", "Laurel's Sorrow Fragment", "Turquoise Earrings Fragment" ]
+  },
+  "11-9": {
+    "item_1": {"item_name": "Dark Matter Edge Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Mythril Plate Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Mourning Crescent Moon Fragment", "drop_percent": 24},
+    "subdrops": [ "Feather Blade Fragment", "Lightning Axe Fragment", "Heavy Metal Armor Fragment", "Scarlet Diamond Fragment", "Emerald Earrings Fragment" ]
+  },
+  "11-10": {
+    "item_1": {"item_name": "Storm Bringer Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Pope's Hood Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Angel Boots Fragment", "drop_percent": 24},
+    "subdrops": [ "Thunder God Sword Fragment", "Vampire Dagger Fragment", "Cosmos Cloth Fragment", "Lion King's Protective Charm Fragment", "Opal Earrings Fragment" ]
+  },
+  "11-11": {
+    "item_1": {"item_name": "Phoenix Rod Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Saint's Robe Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Bangle of Substitution Fragment", "drop_percent": 24},
+    "subdrops": [ "Devil's Bow Fragment", "Devil's Horn Fragment", "Philosopher's Robe Fragment", "Laurel's Sorrow Fragment", "Turquoise Earrings Fragment" ]
+  },
+  "11-12": {
+    "item_1": {"item_name": "Ice Claymore Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Elemental Heart Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Mythril Plate Fragment", "drop_percent": 24},
+    "subdrops": [ "Feather Blade Fragment", "Lightning Axe Fragment", "Heavy Metal Armor Fragment", "Scarlet Diamond Fragment", "Emerald Earrings Fragment" ]
+  },
+  "11-13": {
+    "item_1": {"item_name": "Queen's Battle Axe Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Angel Boots Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Pope's Hood Fragment", "drop_percent": 24},
+    "subdrops": [ "Thunder God Sword Fragment", "Vampire Dagger Fragment", "Cosmos Cloth Fragment", "Lion King's Protective Charm Fragment", "Opal Earrings Fragment" ]
+  },
+  "11-14": {
+    "item_1": {"item_name": "Justice God's Staff Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Mourning Crescent Moon Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Vermilion Plate Fragment", "drop_percent": 24},
+    "subdrops": [ "Devil's Bow Fragment", "Devil's Horn Fragment", "Philosopher's Robe Fragment", "Laurel's Sorrow Fragment", "Turquoise Earrings Fragment" ]
+  },
+  "11-15": {
+    "item_1": {"item_name": "Blizzard Claw Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Hermit Clothes Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Elemental Heart Fragment", "drop_percent": 24},
+    "subdrops": [ "Devil's Bow Fragment", "Devil's Horn Fragment", "Philosopher's Robe Fragment", "Laurel's Sorrow Fragment", "Turquoise Earrings Fragment" ]
+  },
+  "11-16": {
+    "item_1": {"item_name": "Artemis Bow Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Bangle of Substitution Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Saint's Robe Fragment", "drop_percent": 24},
+    "subdrops": [ "Devil's Bow Fragment", "Devil's Horn Fragment", "Philosopher's Robe Fragment", "Laurel's Sorrow Fragment", "Turquoise Earrings Fragment" ]
+  },
+  "11-17": {
+    "item_1": {"item_name": "Hawk God's Sword Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Mourning Crescent Moon Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Hermit Clothes Fragment", "drop_percent": 24},
+    "subdrops": [ "Feather Blade Fragment", "Lightning Axe Fragment", "Heavy Metal Armor Fragment", "Scarlet Diamond Fragment", "Emerald Earrings Fragment" ]
+  },
+  "11-1H": {
+    "item_1": {"item_name": "Storm Bringer Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Vermilion Plate Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Bangle of Substitution Fragment", "drop_percent": 72},
+    "subdrops": [ "Feather Blade Fragment", "Lightning Axe Fragment", "Heavy Metal Armor Fragment", "Scarlet Diamond Fragment", "Emerald Earrings Fragment" ]
+  },
+  "11-2H": {
+    "item_1": {"item_name": "Queen's Battle Axe Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Hell-Fire Axe Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Elemental Heart Fragment", "drop_percent": 72},
+    "subdrops": [ "Thunder God Sword Fragment", "Vampire Dagger Fragment", "Cosmos Cloth Fragment", "Lion King's Protective Charm Fragment", "Opal Earrings Fragment" ]
+  },
+  "11-3H": {
+    "item_1": {"item_name": "Ice Claymore Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Angel Boots Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Elemental Heart Fragment", "drop_percent": 72},
+    "subdrops": [ "Devil's Bow Fragment", "Devil's Horn Fragment", "Philosopher's Robe Fragment", "Laurel's Sorrow Fragment", "Turquoise Earrings Fragment" ]
+  },
+  "12-1": {
+    "item_1": {"item_name": "Queen's Battle Axe Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Ice Claymore Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Mythril Plate Fragment", "drop_percent": 24},
+    "subdrops": [ "Angel Blade Fragment", "Shiryuu Axe Fragment", "Angel Armor Fragment", "Empress Shield Fragment", "Scarlet Diamond Fragment" ]
+  },
+  "12-2": {
+    "item_1": {"item_name": "Justice God's Staff Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Storm Bringer Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Vermilion Plate Fragment", "drop_percent": 24},
+    "subdrops": [ "Butterfly Katana Fragment", "Precious Knife Fragment", "Paladin Greave Fragment", "Invisible Dress Fragment", "Lion King's Protective Charm Fragment" ]
+  },
+  "12-3": {
+    "item_1": {"item_name": "Phoenix Rod Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Artemis Bow Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Hermit Clothes Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Bow Fragment", "Fury Rod Fragment", "Moonlight Garment Fragment", "Wizard Hood Fragment", "Laurel's Sorrow Fragment" ]
+  },
+  "12-4": {
+    "item_1": {"item_name": "Violet Armor Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Dark Matter Edge Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Angel Boots Fragment", "drop_percent": 24},
+    "subdrops": [ "Butterfly Katana Fragment", "Precious Knife Fragment", "Paladin Greave Fragment", "Invisible Dress Fragment", "Lion King's Protective Charm Fragment" ]
+  },
+  "12-5": {
+    "item_1": {"item_name": "Necromancer Boots Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Heavenly Robe Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Elemental Heart Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Bow Fragment", "Fury Rod Fragment", "Moonlight Garment Fragment", "Wizard Hood Fragment", "Laurel's Sorrow Fragment" ]
+  },
+  "12-6": {
+    "item_1": {"item_name": "Crusader Plate Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Guardian Shield Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Bangle of Substitution Fragment", "drop_percent": 24},
+    "subdrops": [ "Angel Blade Fragment", "Shiryuu Axe Fragment", "Angel Armor Fragment", "Empress Shield Fragment", "Scarlet Diamond Fragment" ]
+  },
+  "12-7": {
+    "item_1": {"item_name": "Gospel Tiara Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Violet Armor Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Mourning Crescent Moon Fragment", "drop_percent": 24},
+    "subdrops": [ "Butterfly Katana Fragment", "Precious Knife Fragment", "Paladin Greave Fragment", "Invisible Dress Fragment", "Lion King's Protective Charm Fragment" ]
+  },
+  "12-8": {
+    "item_1": {"item_name": "Guardian Shield Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Necromancer Boots Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Blizzard Claw Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Bow Fragment", "Fury Rod Fragment", "Moonlight Garment Fragment", "Wizard Hood Fragment", "Laurel's Sorrow Fragment" ]
+  },
+  "12-9": {
+    "item_1": {"item_name": "Heavenly Robe Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Gospel Tiara Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Hawk God's Sword Fragment", "drop_percent": 24},
+    "subdrops": [ "Angel Blade Fragment", "Shiryuu Axe Fragment", "Angel Armor Fragment", "Empress Shield Fragment", "Scarlet Diamond Fragment" ]
+  },
+  "12-10": {
+    "item_1": {"item_name": "Necromancer Boots Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Dragon's Tear Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Ice Claymore Fragment", "drop_percent": 24},
+    "subdrops": [ "Butterfly Katana Fragment", "Precious Knife Fragment", "Paladin Greave Fragment", "Invisible Dress Fragment", "Lion King's Protective Charm Fragment" ]
+  },
+  "12-11": {
+    "item_1": {"item_name": "Crusader Plate Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Sun Amulet Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Phoenix Rod Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Bow Fragment", "Fury Rod Fragment", "Moonlight Garment Fragment", "Wizard Hood Fragment", "Laurel's Sorrow Fragment" ]
+  },
+  "12-12": {
+    "item_1": {"item_name": "Heavenly Robe Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Moon Bracelet Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Justice God's Staff Fragment", "drop_percent": 24},
+    "subdrops": [ "Angel Blade Fragment", "Shiryuu Axe Fragment", "Angel Armor Fragment", "Empress Shield Fragment", "Scarlet Diamond Fragment" ]
+  },
+  "12-13": {
+    "item_1": {"item_name": "Gospel Tiara Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Sun Amulet Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Storm Bringer Fragment", "drop_percent": 24},
+    "subdrops": [ "Butterfly Katana Fragment", "Precious Knife Fragment", "Paladin Greave Fragment", "Invisible Dress Fragment", "Lion King's Protective Charm Fragment" ]
+  },
+  "12-14": {
+    "item_1": {"item_name": "Guardian Shield Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Dragon's Tear Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Queen's Battle Axe Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Bow Fragment", "Fury Rod Fragment", "Moonlight Garment Fragment", "Wizard Hood Fragment", "Laurel's Sorrow Fragment" ]
+  },
+  "12-15": {
+    "item_1": {"item_name": "Violet Armor Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Sun Amulet Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Artemis Bow Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Bow Fragment", "Fury Rod Fragment", "Moonlight Garment Fragment", "Wizard Hood Fragment", "Laurel's Sorrow Fragment" ]
+  },
+  "12-16": {
+    "item_1": {"item_name": "Heavenly Robe Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Moon Bracelet Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Dark Matter Edge Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Bow Fragment", "Fury Rod Fragment", "Moonlight Garment Fragment", "Wizard Hood Fragment", "Laurel's Sorrow Fragment" ]
+  },
+  "12-17": {
+    "item_1": {"item_name": "Crusader Plate Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Dragon's Tear Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Blizzard Claw Fragment", "drop_percent": 24},
+    "subdrops": [ "Angel Blade Fragment", "Shiryuu Axe Fragment", "Angel Armor Fragment", "Empress Shield Fragment", "Scarlet Diamond Fragment" ]
+  },
+  "12-1H": {
+    "item_1": {"item_name": "Crusader Plate Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Moon Bracelet Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Storm Bringer Fragment", "drop_percent": 72},
+    "subdrops": [ "Feather Blade Fragment", "Lightning Axe Fragment", "Heavy Metal Armor Fragment", "Scarlet Diamond Fragment", "Emerald Earrings Fragment" ]
+  },
+  "12-2H": {
+    "item_1": {"item_name": "Heavenly Robe Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Sun Amulet Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Artemis Bow Fragment", "drop_percent": 72},
+    "subdrops": [ "Thunder God Sword Fragment", "Vampire Dagger Fragment", "Cosmos Cloth Fragment", "Lion King's Protective Charm Fragment", "Opal Earrings Fragment" ]
+  },
+  "12-3H": {
+    "item_1": {"item_name": "Violet Armor Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Moon Bracelet Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Ice Claymore Fragment", "drop_percent": 72},
+    "subdrops": [ "Devil's Bow Fragment", "Devil's Horn Fragment", "Philosopher's Robe Fragment", "Laurel's Sorrow Fragment", "Turquoise Earrings Fragment" ]
+  },
+  "13-1": {
+    "item_1": {"item_name": "Crusader Plate Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Necromancer Boots Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Sun Amulet Fragment", "drop_percent": 24},
+    "subdrops": [ "Angel Blade Fragment", "Shiryuu Axe Fragment", "Angel Armor Fragment", "Empress Shield Fragment", "Scarlet Diamond Fragment" ]
+  },
+  "13-2": {
+    "item_1": {"item_name": "Gospel Tiara Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Heavenly Robe Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Dragon's Tear Fragment", "drop_percent": 24},
+    "subdrops": [ "Butterfly Katana Fragment", "Precious Knife Fragment", "Paladin Greave Fragment", "Invisible Dress Fragment", "Lion King's Protective Charm Fragment" ]
+  },
+  "13-3": {
+    "item_1": {"item_name": "Guardian Shield Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Violet Armor Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Moon Bracelet Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Bow Fragment", "Fury Rod Fragment", "Moonlight Garment Fragment", "Wizard Hood Fragment", "Laurel's Sorrow Fragment" ]
+  },
+  "13-4": {
+    "item_1": {"item_name": "Unicorn Knife Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Necromancer Boots Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Heavenly Robe Fragment", "drop_percent": 24},
+    "subdrops": [ "Butterfly Katana Fragment", "Precious Knife Fragment", "Paladin Greave Fragment", "Invisible Dress Fragment", "Lion King's Protective Charm Fragment" ]
+  },
+  "13-5": {
+    "item_1": {"item_name": "Gaia Bardiche Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "High Angel Rod Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Crusader Plate Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Bow Fragment", "Fury Rod Fragment", "Moonlight Garment Fragment", "Wizard Hood Fragment", "Laurel's Sorrow Fragment" ]
+  },
+  "13-6": {
+    "item_1": {"item_name": "Chaos Blade Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Aqua Slasher Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Gospel Tiara Fragment", "drop_percent": 24},
+    "subdrops": [ "Angel Blade Fragment", "Shiryuu Axe Fragment", "Angel Armor Fragment", "Empress Shield Fragment", "Scarlet Diamond Fragment" ]
+  },
+  "13-7": {
+    "item_1": {"item_name": "High Devil Wand Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Lightning Fist Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Sun Amulet Fragment", "drop_percent": 24},
+    "subdrops": [ "Butterfly Katana Fragment", "Precious Knife Fragment", "Paladin Greave Fragment", "Invisible Dress Fragment", "Lion King's Protective Charm Fragment" ]
+  },
+  "13-8": {
+    "item_1": {"item_name": "Spirit Tree Bow Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Phoenix Sword Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Guardian Shield Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Bow Fragment", "Fury Rod Fragment", "Moonlight Garment Fragment", "Wizard Hood Fragment", "Laurel's Sorrow Fragment" ]
+  },
+  "13-9": {
+    "item_1": {"item_name": "Unicorn Knife Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Crusader Plate Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Dragon's Tear Fragment", "drop_percent": 24},
+    "subdrops": [ "Angel Blade Fragment", "Shiryuu Axe Fragment", "Angel Armor Fragment", "Empress Shield Fragment", "Scarlet Diamond Fragment" ]
+  },
+  "13-10": {
+    "item_1": {"item_name": "Gaia Bardiche", "drop_percent": 36},
+    "item_2": {"item_name": "Heavenly Robe Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Violet Armor Fragment", "drop_percent": 24},
+    "subdrops": [ "Butterfly Katana Fragment", "Precious Knife Fragment", "Paladin Greave Fragment", "Invisible Dress Fragment", "Lion King's Protective Charm Fragment" ]
+  },
+  "13-11": {
+    "item_1": {"item_name": "High Angel Rod Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Gospel Tiara Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Moon Bracelet Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Bow Fragment", "Fury Rod Fragment", "Moonlight Garment Fragment", "Wizard Hood Fragment", "Laurel's Sorrow Fragment" ]
+  },
+  "13-12": {
+    "item_1": {"item_name": "Chaos Blade Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Sun Amulet Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Crusader Plate Fragment", "drop_percent": 24},
+    "subdrops": [ "Angel Blade Fragment", "Shiryuu Axe Fragment", "Angel Armor Fragment", "Empress Shield Fragment", "Scarlet Diamond Fragment" ]
+  },
+  "13-13": {
+    "item_1": {"item_name": "Aqua Slasher Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Violet Armor Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Heavenly Robe Fragment", "drop_percent": 24},
+    "subdrops": [ "Butterfly Katana Fragment", "Precious Knife Fragment", "Paladin Greave Fragment", "Invisible Dress Fragment", "Lion King's Protective Charm Fragment" ]
+  },
+  "13-14": {
+    "item_1": {"item_name": "High Devil Wand Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Dragon's Tear Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Necromancer Boots Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Bow Fragment", "Fury Rod Fragment", "Moonlight Garment Fragment", "Wizard Hood Fragment", "Laurel's Sorrow Fragment" ]
+  },
+  "13-15": {
+    "item_1": {"item_name": "Lightning Fist Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Guardian Shield Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Sun Amulet Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Bow Fragment", "Fury Rod Fragment", "Moonlight Garment Fragment", "Wizard Hood Fragment", "Laurel's Sorrow Fragment" ]
+  },
+  "13-16": {
+    "item_1": {"item_name": "Spirit Tree Bow Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Moon Bracelet Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Gospel Tiara Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Bow Fragment", "Fury Rod Fragment", "Moonlight Garment Fragment", "Wizard Hood Fragment", "Laurel's Sorrow Fragment" ]
+  },
+  "13-17": {
+    "item_1": {"item_name": "Phoenix Sword Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Dragon's Tear Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Guardian Shield Fragment", "drop_percent": 24},
+    "subdrops": [ "Angel Blade Fragment", "Shiryuu Axe Fragment", "Angel Armor Fragment", "Empress Shield Fragment", "Scarlet Diamond Fragment" ]
+  },
+  "13-1H": {
+    "item_1": {"item_name": "Gaia Bardiche", "drop_percent": 72},
+    "item_2": {"item_name": "Heavenly Robe Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Moon Bracelet Fragment", "drop_percent": 72},
+    "subdrops": [ "Angel Blade Fragment", "Shiryuu Axe Fragment", "Angel Armor Fragment", "Empress Shield Fragment", "Scarlet Diamond Fragment" ]
+  },
+  "13-2H": {
+    "item_1": {"item_name": "High Angel Rod Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Necromancer Boots Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Dragon's Tear Fragment", "drop_percent": 72},
+    "subdrops": [ "Butterfly Katana Fragment", "Precious Knife Fragment", "Paladin Greave Fragment", "Invisible Dress Fragment", "Lion King's Protective Charm Fragment" ]
+  },
+  "13-3H": {
+    "item_1": {"item_name": "Chaos Blade Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Ice Claymore Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Sun Amulet Fragment", "drop_percent": 72},
+    "subdrops": [ "Lightning Bow Fragment", "Fury Rod Fragment", "Moonlight Garment Fragment", "Wizard Hood Fragment", "Laurel's Sorrow Fragment" ]
+  },
+
   "-": {
     "item_1": {"item_name": "", "drop_percent": 36},
     "item_2": {"item_name": "", "drop_percent": 36},
