@@ -474,7 +474,7 @@
     "subdrops": [ "Trident", "Command Knife", "Folklore Clothes", "Crown Boots", "Jewel of Love" ]
   },
   "6-5": {
-    "item_1": {"item_name": "Feather Sword Fragment", "drop_percent": 36},
+    "item_1": {"item_name": "Feather Blade Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Vampire Dagger Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Turquoise Earrings Fragment", "drop_percent": 24},
     "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
@@ -511,7 +511,7 @@
   },
   "6-11": {
     "item_1": {"item_name": "Laurel's Sorrow Fragment", "drop_percent": 36},
-    "item_2": {"item_name": "Feather Sword Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Feather Blade Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Devil's Bow Fragment", "drop_percent": 24},
     "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
   },
@@ -534,25 +534,235 @@
     "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
   },
   "6-1H": {
-    "item_1": {"item_name": "", "drop_percent": 72},
-    "item_2": {"item_name": "", "drop_percent": 72},
-    "item_3": {"item_name": "", "drop_percent": 72},
-    "subdrops": [ "", "", "", "", "" ]
+    "item_1": {"item_name": "Devil's Horn Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Cupid Robe Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Pearl Earrings Fragment", "drop_percent": 72},
+    "subdrops": [ "Leather Knuckle", "Aurora Sword", "High-Metal Axe", "Light Plate Fragment", "Spike Bangle" ]
   },
   "6-2H": {
-    "item_1": {"item_name": "", "drop_percent": 72},
-    "item_2": {"item_name": "", "drop_percent": 72},
-    "item_3": {"item_name": "", "drop_percent": 72},
-    "subdrops": [ "", "", "", "", "" ]
+    "item_1": {"item_name": "Lightning Axe Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Dragon Head Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Emerald Earrings Fragment", "drop_percent": 72},
+    "subdrops": [ "Blue Blood", "Crescent Sword", "High Metal Plate Fragment", "Legion Helm Fragment", "Victory Friendship Bracelet" ]
   },
   "6-3H": {
-    "item_1": {"item_name": "", "drop_percent": 72},
-    "item_2": {"item_name": "", "drop_percent": 72},
-    "item_3": {"item_name": "", "drop_percent": 72},
-    "subdrops": [ "", "", "", "", "" ]
+    "item_1": {"item_name": "Feather Blade Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Heavy Metal Armor Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Lion Eagle's Feather Fragment", "drop_percent": 72},
+    "subdrops": [ "Trident", "Little Dragon Rod", "Shinobi Costume Fragment", "Nordic Robe Fragment", "Little Dragon Rod" ]
+  },
+  "7-1": {
+    "item_1": {"item_name": "Devil's Horn Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Fencer Boots Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Garnet Shield Fragment", "drop_percent": 24},
+    "subdrops": [ "Leather Knuckle", "Aurora Sword", "High-Metal Axe", "Light Plate Fragment", "Spike Bangle" ]
+  },
+  "7-2": {
+    "item_1": {"item_name": "Feather Blade Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Vampire Dagger Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Witch Palace Boots Fragment", "drop_percent": 24},
+    "subdrops": [ "Blue Blood", "Crescent Sword", "High Metal Plate Fragment", "Legion Helm Fragment", "Victory Friendship Bracelet" ]
+  },
+  "7-3": {
+    "item_1": {"item_name": "Moon Rod Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Devil's Bow Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Dragon Head Fragment", "drop_percent": 24},
+    "subdrops": [ "Trident", "Little Dragon Rod", "Shinobi Costume Fragment", "Nordic Robe Fragment", "Little Dragon Rod" ]
+  },
+  "7-4": {
+    "item_1": {"item_name": "Angel Blade Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Lightning Bow Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Lightning Axe Fragment", "drop_percent": 24},
+    "subdrops": [ "Compassion of the Unicorn", "Crystal Bow", "Nun's Hood Fragment", "Magic Monocle Fragment", "Pattern Bracelet Fragment" ]
+  },
+  "7-5": {
+    "item_1": {"item_name": "Blazing Gauntlet Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Shiryuu Axe Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Witch Hat Fragment", "drop_percent": 24},
+    "subdrops": [ "Leather Knuckle", "Aurora Sword", "High-Metal Axe", "Light Plate Fragment", "Spike Bangle" ]
+  },
+  "7-6": {
+    "item_1": {"item_name": "Scarlet Dragon Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Precious Knife Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Thunder God Sword Fragment", "drop_percent": 24},
+    "subdrops": [ "Blue Blood", "Crescent Sword", "High Metal Plate Fragment", "Legion Helm Fragment", "Victory Friendship Bracelet" ]
+  },
+  "7-7": {
+    "item_1": {"item_name": "Butterfly Katana Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Fury Rod Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Lion Eagle's Feather Fragment", "drop_percent": 24},
+    "subdrops": [ "Trident", "Little Dragon Rod", "Shinobi Costume Fragment", "Nordic Robe Fragment", "Little Dragon Rod" ]
+  },
+  "7-8": {
+    "item_1": {"item_name": "Angel Blade Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Moon Rod Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Heavy Metal Armor Fragment", "drop_percent": 24},
+    "subdrops": [ "Compassion of the Unicorn", "Crystal Bow", "Nun's Hood Fragment", "Magic Monocle Fragment", "Pattern Bracelet Fragment" ]
+  },
+  "7-9": {
+    "item_1": {"item_name": "Invisible Armor Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Blazing Gauntlet Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Lion King's Protective Charm Fragment", "drop_percent": 24},
+    "subdrops": [ "Leather Knuckle", "Aurora Sword", "High-Metal Axe", "Light Plate Fragment", "Spike Bangle" ]
+  },
+  "7-10": {
+    "item_1": {"item_name": "Fury Rod Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Scarlet Dragon Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Cosmos Cloth Fragment", "drop_percent": 24},
+    "subdrops": [ "Blue Blood", "Crescent Sword", "High Metal Plate Fragment", "Legion Helm Fragment", "Victory Friendship Bracelet" ]
+  },
+  "7-11": {
+    "item_1": {"item_name": "Angel Armor Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Butterfly Katana Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Laurel's Sorrow Fragment", "drop_percent": 24},
+    "subdrops": [ "Trident", "Little Dragon Rod", "Shinobi Costume Fragment", "Nordic Robe Fragment", "Little Dragon Rod" ]
+  },
+  "7-12": {
+    "item_1": {"item_name": "Moonlight Garment Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Precious Knife Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Philosopher's Robe Fragment", "drop_percent": 24},
+    "subdrops": [ "Compassion of the Unicorn", "Crystal Bow", "Nun's Hood Fragment", "Magic Monocle Fragment", "Pattern Bracelet Fragment" ]
+  },
+  "7-13": {
+    "item_1": {"item_name": "Grand Magician's Robe Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Shiryuu Axe Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Scarlet Diamond Fragment", "drop_percent": 24},
+    "subdrops": [ "Leather Knuckle", "Aurora Sword", "High-Metal Axe", "Light Plate Fragment", "Spike Bangle" ]
+  },
+  "7-14": {
+    "item_1": {"item_name": "Empress Shield Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Thunder Bow Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Octogram Pendant Fragment", "drop_percent": 24},
+    "subdrops": [ "Blue Blood", "Crescent Sword", "High Metal Plate Fragment", "Legion Helm Fragment", "Victory Friendship Bracelet" ]
+  },
+  "7-1H": {
+    "item_1": {"item_name": "Lion King's Protective Charm Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Ryuumon Sword Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Emerald Earrings Fragment", "drop_percent": 72},
+    "subdrops": [ "Compassion of the Unicorn", "Crystal Bow", "Nun's Hood Fragment", "Magic Monocle Fragment", "Pattern Bracelet Fragment" ]
+  },
+  "7-2H": {
+    "item_1": {"item_name": "Shiryuu Axe Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Lion Eagle's Feather Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Battling Dress Fragment", "drop_percent": 72},
+    "subdrops": [ "Leather Knuckle", "Aurora Sword", "High-Metal Axe", "Light Plate Fragment", "Spike Bangle" ]
+  },
+  "7-3H": {
+    "item_1": {"item_name": "Butterfly Katana Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Thunder God Sword Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Garnet Shield Fragment", "drop_percent": 72},
+    "subdrops": [ "Blue Blood", "Crescent Sword", "High Metal Plate Fragment", "Legion Helm Fragment", "Victory Friendship Bracelet" ]
+  },
+  "8-1": {
+    "item_1": {"item_name": "Butterfly Katana Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Angel Blade Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Heavy Metal Armor Fragment", "drop_percent": 24},
+    "subdrops": [ "Trident", "Little Dragon Rod", "Shinobi Costume Fragment", "Nordic Robe Fragment", "Little Dragon Rod" ]
+  },
+  "8-2": {
+    "item_1": {"item_name": "Lightning Bow Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Scarlet Dragon Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Scarlet Diamond Fragment", "drop_percent": 24},
+    "subdrops": [ "Compassion of the Unicorn", "Crystal Bow", "Nun's Hood Fragment", "Magic Monocle Fragment", "Pattern Bracelet Fragment" ]
+  },
+  "8-3": {
+    "item_1": {"item_name": "Blazing Gauntlet Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Precious Knife Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Cosmos Robe Fragment", "drop_percent": 24},
+    "subdrops": [ "Leather Knuckle", "Aurora Sword", "High-Metal Axe", "Light Plate Fragment", "Spike Bangle" ]
+  },
+  "8-4": {
+    "item_1": {"item_name": "Shiryuu Axe Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Fury Rod Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Lion King's Protective Charm Fragment", "drop_percent": 24},
+    "subdrops": [ "Blue Blood", "Crescent Sword", "High Metal Plate Fragment", "Legion Helm Fragment", "Victory Friendship Bracelet" ]
+  },
+  "8-5": {
+    "item_1": {"item_name": "Invisible Armor Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Angel Blade Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Philosopher's Robe Fragment", "drop_percent": 24},
+    "subdrops": [ "Trident", "Little Dragon Rod", "Shinobi Costume Fragment", "Nordic Robe Fragment", "Little Dragon Rod" ]
+  },
+  "8-6": {
+    "item_1": {"item_name": "Angel Armor Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Butterfly Katana Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Laurel's Sorrow Fragment", "drop_percent": 24},
+    "subdrops": [ "Compassion of the Unicorn", "Crystal Bow", "Nun's Hood Fragment", "Magic Monocle Fragment", "Pattern Bracelet Fragment" ]
+  },
+  "8-7": {
+    "item_1": {"item_name": "Moonlight Garment Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Fury Rod Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Scarlet Diamond Fragment", "drop_percent": 24},
+    "subdrops": [ "Leather Knuckle", "Aurora Sword", "High-Metal Axe", "Light Plate Fragment", "Spike Bangle" ]
+  },
+  "8-8": {
+    "item_1": {"item_name": "Paladin Greave Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Shiryuu Axe Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Philosopher's Robe Fragment", "drop_percent": 24},
+    "subdrops": [ "Blue Blood", "Crescent Sword", "High Metal Plate Fragment", "Legion Helm Fragment", "Victory Friendship Bracelet" ]
+  },
+  "8-9": {
+    "item_1": {"item_name": "Wizard Hood Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Lightning Bow Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Heavy Metal Armor Fragment", "drop_percent": 24},
+    "subdrops": [ "Trident", "Little Dragon Rod", "Shinobi Costume Fragment", "Nordic Robe Fragment", "Little Dragon Rod" ]
+  },
+  "8-10": {
+    "item_1": {"item_name": "Empress Shield Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Angel Blade Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Scarlet Diamond Fragment", "drop_percent": 24},
+    "subdrops": [ "Compassion of the Unicorn", "Crystal Bow", "Nun's Hood Fragment", "Magic Monocle Fragment", "Pattern Bracelet Fragment" ]
+  },
+  "8-11": {
+    "item_1": {"item_name": "Grand Magician's Robe Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Blazing Gauntlet Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Cosmos Robe Fragment", "drop_percent": 24},
+    "subdrops": [ "Leather Knuckle", "Aurora Sword", "High-Metal Axe", "Light Plate Fragment", "Spike Bangle" ]
+  },
+  "8-12": {
+    "item_1": {"item_name": "Moonlight Garment Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Moon Rod Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Laurel's Sorrow Fragment", "drop_percent": 24},
+    "subdrops": [ "Blue Blood", "Crescent Sword", "High Metal Plate Fragment", "Legion Helm Fragment", "Victory Friendship Bracelet" ]
+  },
+  "8-13": {
+    "item_1": {"item_name": "Feather Waltz Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Precious Knife Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Scarlet Diamond Fragment", "drop_percent": 24},
+    "subdrops": [ "Trident", "Little Dragon Rod", "Shinobi Costume Fragment", "Nordic Robe Fragment", "Little Dragon Rod" ]
+  },
+  "8-14": {
+    "item_1": {"item_name": "Wizard Boots Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Fury Rod Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Lion King's Protective Charm Fragment", "drop_percent": 24},
+    "subdrops": [ "Compassion of the Unicorn", "Crystal Bow", "Nun's Hood Fragment", "Magic Monocle Fragment", "Pattern Bracelet Fragment" ]
+  },
+  "8-15": {
+    "item_1": {"item_name": "Grand Magician's Robe Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Scarlet Dragon Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Philosopher's Robe Fragment", "drop_percent": 24},
+    "subdrops": [ "Leather Knuckle", "Aurora Sword", "High-Metal Axe", "Light Plate Fragment", "Spike Bangle" ]
+  },
+  "8-1H": {
+    "item_1": {"item_name": "Angel Blade Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Battling Dress Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Octogram Pendant Fragment", "drop_percent": 72},
+    "subdrops": [ "Trident", "Little Dragon Rod", "Shinobi Costume Fragment", "Nordic Robe Fragment", "Little Dragon Rod" ]
+  },
+  "8-2H": {
+    "item_1": {"item_name": "Moon Rod Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Grand Magician's Robe Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Laurel's Sorrow Fragment", "drop_percent": 72},
+    "subdrops": [ "Compassion of the Unicorn", "Crystal Bow", "Nun's Hood Fragment", "Magic Monocle Fragment", "Pattern Bracelet Fragment" ]
+  },
+  "8-3H": {
+    "item_1": {"item_name": "Angel Blade Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Garnet Shield Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Scarlet Diamond Fragment", "drop_percent": 72},
+    "subdrops": [ "Leather Knuckle", "Aurora Sword", "High-Metal Axe", "Light Plate Fragment", "Spike Bangle" ]
   },
   "-": {
-    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_1": {"item_name": "", "drop_percent": 37},
     "item_2": {"item_name": "", "drop_percent": 36},
     "item_3": {"item_name": "", "drop_percent": 24},
     "subdrops": [ "", "", "", "", "" ]
