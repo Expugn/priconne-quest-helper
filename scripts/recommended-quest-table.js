@@ -24,7 +24,19 @@ function build_recommended_quest_table(all_recipe_maps_array)
         // CHECK ITEM 1 - 3
         if (total_recipe.has(item_1_name)) { quest_score += item_is_in_top_2_score; }
         if (total_recipe.has(item_2_name)) { quest_score += item_is_in_top_2_score; }
-        if (total_recipe.has(item_3_name)) { quest_score += item_is_in_3rd_slot; }
+        if (total_recipe.has(item_3_name))
+        {
+            // IF ITEM 3 DROP PERCENT == ITEM 1 DROP PERCENT, GIVE SCORE EQUAL AS IF ITEM WAS IN TOP 2
+            if (quest_data.get("item_3").drop_percent === quest_data.get("item_1").drop_percent)
+            {
+                quest_score += item_is_in_top_2_score;
+            }
+            else
+            {
+                quest_score += item_is_in_3rd_slot;
+            }
+
+        }
 
         // CHECK SUBDROPS
         for (let i = 0 ; i < quest_subdrops.length ; i++)
@@ -39,18 +51,6 @@ function build_recommended_quest_table(all_recipe_maps_array)
             console.log("\t\t\tAdded quest" + quest_id);
             quest_score_map.set(quest_id, quest_score);
         }
-
-
-        /*
-        console.log("quest id = " + quest_id);
-        console.log("\tname = " + quest_data.get("name"));
-        console.log("\titem 1 name = " + quest_data.get("item_1").item_name);
-        console.log("\tdrop percent = " + quest_data.get("item_1").drop_percent);
-        for (let i = 0 ; i < quest_data.get("subdrops").length ; i++)
-        {
-            console.log("\tsubdrop " + (i+1) + " - " + quest_data.get("subdrops")[i]);
-        }
-        */
     }
 
     /* SORT */
