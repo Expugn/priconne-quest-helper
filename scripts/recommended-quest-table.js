@@ -149,7 +149,11 @@ function build_recommended_quest_table(all_recipe_maps_array)
             // QUEST POINTS
             table_html += "<th height='64' width='144'><h3 class=\"quest-title\">" + quest_score + " pts</h3></th>";
 
+            // END TABLE ROW
             table_html += "</tr>";
+
+
+
             quest_count++;
 
             if (quest_count >= max_quest_count_in_list)
@@ -164,7 +168,77 @@ function build_recommended_quest_table(all_recipe_maps_array)
 
 }
 
-function build_quest_html(quest_data)
+function print_all_quests()
 {
+    console.log("Printing all quests!");
+    let table_html = "";
 
+    table_html += "<tbody>";
+    for (let [quest_id, quest_data] of quest_map)
+    {
+        let item_1_is_fragment = quest_data.get("item_1").item_name.includes("Fragment");
+        let item_2_is_fragment = quest_data.get("item_2").item_name.includes("Fragment");
+        let item_3_is_fragment = quest_data.get("item_3").item_name.includes("Fragment");
+
+
+        table_html += "<tr>";
+
+        // QUEST NAME
+        table_html += "<th height='64' width='144'><h3 class=\"quest-title\">" + quest_id + "</h3></th>";
+
+        // DIVIDER
+        table_html += "<th>";
+        table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
+            + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
+        table_html += "</th>";
+
+        // ITEM 1 IMAGE
+        table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+        table_html += "<img class=\"quest-item-image" + (quest_data.get("item_1").item_name.includes("Fragment") ? " grayscale" : "") + "\" title=\"" + quest_data.get("item_1").item_name
+            + "\" src=\"images/items/" + quest_data.get("item_1").item_name.split(' ').join('_') + ".png\" alt=\"\">";
+        table_html += "<div class=\"quest-percent-text\">" + quest_data.get("item_1").drop_percent + "\u0025</div>";
+        table_html += "</th>";
+
+        // ITEM 2 IMAGE
+        table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+        table_html += "<img class=\"quest-item-image" + (quest_data.get("item_2").item_name.includes("Fragment") ? " grayscale" : "") + "\" title=\"" + quest_data.get("item_2").item_name
+            + "\" src=\"images/items/" + quest_data.get("item_2").item_name.split(' ').join('_') + ".png\" alt=\"\">";
+        table_html += "<div class=\"quest-percent-text\">" + quest_data.get("item_2").drop_percent + "\u0025</div>";
+        table_html += "</th>";
+
+        // ITEM 3 IMAGE
+        table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+        table_html += "<img class=\"quest-item-image" + (quest_data.get("item_3").item_name.includes("Fragment") ? " grayscale" : "") + "\" title=\"" + quest_data.get("item_3").item_name
+            + "\" src=\"images/items/" + quest_data.get("item_3").item_name.split(' ').join('_') + ".png\" alt=\"\">";
+        table_html += "<div class=\"quest-percent-text\">" + quest_data.get("item_3").drop_percent + "\u0025</div>";
+        table_html += "</th>";
+
+        // DIVIDER
+        table_html += "<th>";
+        table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
+            + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
+        table_html += "</th>";
+
+        // SUB-ITEM IMAGES
+        for (let i = 0 ; i < quest_data.get("subdrops").length ; i++)
+        {
+            table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+            table_html += "<img class=\"quest-item-image" + (quest_data.get("subdrops")[i].includes("Fragment") ? " grayscale" : "") + "\" title=\"" + quest_data.get("subdrops")[i]
+                + "\" src=\"images/items/" + quest_data.get("subdrops")[i].split(' ').join('_') + ".png\" alt=\"\">";
+            table_html += "<div class=\"quest-percent-text\">20\u0025</div>";
+            table_html += "</th>";
+        }
+
+        // DIVIDER
+        table_html += "<th>";
+        table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
+            + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
+        table_html += "</th>";
+
+        // END TABLE ROW
+        table_html += "</tr>";
+    }
+    table_html += "</body>";
+
+    document.getElementById("recommended-quest-table").innerHTML = table_html;
 }
