@@ -17,6 +17,8 @@ function build_recommended_quest_table(all_recipe_maps_array)
         let item_1_name = quest_data.get("item_1").item_name;   // OBJECT
         let item_2_name = quest_data.get("item_2").item_name;   // OBJECT
         let item_3_name = quest_data.get("item_3").item_name;   // OBJECT
+        let item_1_dp = quest_data.get("item_1").drop_percent;   // OBJECT
+        let item_3_dp = quest_data.get("item_3").drop_percent;   // OBJECT
         let quest_subdrops = quest_data.get("subdrops");        // ARRAY
 
         let quest_score = 0;
@@ -27,11 +29,8 @@ function build_recommended_quest_table(all_recipe_maps_array)
         if (total_recipe.has(item_3_name))
         {
             // IF ITEM 3 DROP PERCENT == ITEM 1 DROP PERCENT, GIVE SCORE EQUAL AS IF ITEM WAS IN TOP 2
-            console.log(quest_data.get("item_3").drop_percent);
-            console.log(quest_data.get("item_1").drop_percent);
-            if (quest_data.get("item_3").drop_percent === quest_data.get("item_1").drop_percent)
+            if (item_1_dp === item_3_dp)
             {
-                console.log("\t\t\t\t item 3 drop % is equal to item 1's");
                 quest_score += item_is_in_top_2_score;
             }
             else
