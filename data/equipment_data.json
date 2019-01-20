@@ -1229,8 +1229,8 @@
     "name": "Dawn's Holy Sword",
     "id": "purple-5",
     "has_fragments": true,
-    "req_pieces": 1,
-    "req_items": []
+    "req_pieces": 25,
+    "req_items": [ "Solar Sword", "Angel Blade" ]
   },
   "lava_edge": {
     "name": "Lava Edge",
