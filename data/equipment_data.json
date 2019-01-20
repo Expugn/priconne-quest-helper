@@ -1292,7 +1292,7 @@
     "name": "Genesis Rod",
     "id": "purple-14",
     "has_fragments": true,
-    "req_pieces": 1,
+    "req_pieces": 35,
     "req_items": []
   },
   "silver_wing_bow": {
