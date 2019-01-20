@@ -1353,7 +1353,7 @@
     "item_1": {"item_name": "Chaos Blade Fragment", "drop_percent": 36},
     "item_2": {"item_name": "High Angel Rod Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Gaia Bardiche Fragment", "drop_percent": 24},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "14-2": {
     "item_1": {"item_name": "Spirit Tree Bow Fragment", "drop_percent": 36},
@@ -1374,7 +1374,7 @@
     "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
   },
   "14-5": {
-    "item_1": {"item_name": "Great Sage Orb Fragment", "drop_percent": 36},
+    "item_1": {"item_name": "Great Sage Gem Fragment", "drop_percent": 36},
     "item_2": {"item_name": "High Devil Wand Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Gospel Tiara Fragment", "drop_percent": 24},
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
@@ -1383,7 +1383,7 @@
     "item_1": {"item_name": "Congregation Pendant Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Gaia Bardiche Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Violet Armor Fragment", "drop_percent": 24},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "14-7": {
     "item_1": {"item_name": "Cat God Pendant Fragment", "drop_percent": 36},
@@ -1398,10 +1398,10 @@
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
   },
   "14-9": {
-    "item_1": {"item_name": "Great Sage Orb Fragment", "drop_percent": 36},
+    "item_1": {"item_name": "Great Sage Gem Fragment", "drop_percent": 36},
     "item_2": {"item_name": "High Angel Rod Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Elemental Heart Fragment", "drop_percent": 24},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "14-10": {
     "item_1": {"item_name": "Congregation Pendant Fragment", "drop_percent": 36},
@@ -1417,9 +1417,9 @@
   },
   "14-12": {
     "item_1": {"item_name": "Congregation Pendant Fragment", "drop_percent": 36},
-    "item_2": {"item_name": "Great Sage Orb Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Great Sage Gem Fragment", "drop_percent": 36},
     "item_3": {"item_name": "High Devil Wand Fragment", "drop_percent": 24},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "14-13": {
     "item_1": {"item_name": "Cat God Pendant Fragment", "drop_percent": 36},
@@ -1437,7 +1437,7 @@
     "item_1": {"item_name": "Congregation Pendant Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Aqua Slasher Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Moon Bracelet Fragment", "drop_percent": 72},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "14-2H": {
     "item_1": {"item_name": "Cat God Pendant Fragment", "drop_percent": 72},
@@ -1455,10 +1455,10 @@
     "item_1": {"item_name": "Congregation Pendant Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Phoenix Sword Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Gaia Bardiche Fragment", "drop_percent": 24},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "15-2": {
-    "item_1": {"item_name": "Great Sage Orb Fragment", "drop_percent": 36},
+    "item_1": {"item_name": "Great Sage Gem Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Lightning Fist Fragment", "drop_percent": 36},
     "item_3": {"item_name": "High Devil Wand Fragment", "drop_percent": 24},
     "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
@@ -1483,9 +1483,9 @@
   },
   "15-6": {
     "item_1": {"item_name": "Viridian Spiritual Dress Fragment", "drop_percent": 36},
-    "item_2": {"item_name": "Great Sage Orb Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Great Sage Gem Fragment", "drop_percent": 36},
     "item_3": {"item_name": "High Angel Rod Fragment", "drop_percent": 24},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "15-7": {
     "item_1": {"item_name": "Dragonic Armor Fragment", "drop_percent": 36},
@@ -1501,9 +1501,9 @@
   },
   "15-9": {
     "item_1": {"item_name": "Aquarius Boots Fragment", "drop_percent": 36},
-    "item_2": {"item_name": "Great Sage Orb Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Great Sage Gem Fragment", "drop_percent": 36},
     "item_3": {"item_name": "High Devil Wand Fragment", "drop_percent": 24},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "15-10": {
     "item_1": {"item_name": "Dark Terror Dress Fragment", "drop_percent": 36},
@@ -1520,8 +1520,8 @@
   "15-12": {
     "item_1": {"item_name": "Viridian Spiritual Dress Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Aquarius Boots Fragment", "drop_percent": 36},
-    "item_3": {"item_name": "Great Sage Orb Fragment", "drop_percent": 24},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "item_3": {"item_name": "Great Sage Gem Fragment", "drop_percent": 24},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "15-13": {
     "item_1": {"item_name": "Dragonic Armor Fragment", "drop_percent": 36},
@@ -1537,9 +1537,9 @@
   },
   "15-1H": {
     "item_1": {"item_name": "Viridian Spiritual Dress Fragment", "drop_percent": 72},
-    "item_2": {"item_name": "Great Sage Orb Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Great Sage Gem Fragment", "drop_percent": 72},
     "item_3": {"item_name": "High Angel Rod Fragment", "drop_percent": 72},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "15-2H": {
     "item_1": {"item_name": "Scarlet Mail Fragment", "drop_percent": 72},
@@ -1557,12 +1557,12 @@
     "item_1": {"item_name": "Dragonic Armor Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Aquarius Boots Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Firelord's Ring Fragment", "drop_percent": 24},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "16-2": {
     "item_1": {"item_name": "Viridian Spiritual Dress Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Dark Terror Dress Fragment", "drop_percent": 36},
-    "item_3": {"item_name": "Great Sage Orb Fragment", "drop_percent": 24},
+    "item_3": {"item_name": "Great Sage Gem Fragment", "drop_percent": 24},
     "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
   },
   "16-3": {
@@ -1587,7 +1587,7 @@
     "item_1": {"item_name": "Lightning Blade Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Necrodim Axe Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Viridian Spiritual Dress Fragment", "drop_percent": 24},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "16-7": {
     "item_1": {"item_name": "Xenosphere Rod Fragment", "drop_percent": 36},
@@ -1604,8 +1604,8 @@
   "16-9": {
     "item_1": {"item_name": "Emerald Dagger Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Scarlet Mail Fragment", "drop_percent": 36},
-    "item_3": {"item_name": "Great Sage Orb Fragment", "drop_percent": 24},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "item_3": {"item_name": "Great Sage Gem Fragment", "drop_percent": 24},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "16-10": {
     "item_1": {"item_name": "Moon Cestus Fragment", "drop_percent": 36},
@@ -1620,10 +1620,10 @@
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
   },
   "16-12": {
-    "item_1": {"item_name": "Lightning Sword Fragment", "drop_percent": 36},
+    "item_1": {"item_name": "Lightning Blade Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Firelord's Ring Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Scarlet Mail Fragment", "drop_percent": 24},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "16-13": {
     "item_1": {"item_name": "Silver Wing Bow Fragment", "drop_percent": 36},
@@ -1633,7 +1633,7 @@
   },
   "16-14": {
     "item_1": {"item_name": "Xenosphere Rod Fragment", "drop_percent": 36},
-    "item_2": {"item_name": "Great Sage Orb Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Great Sage Gem Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Aquarius Boots Fragment", "drop_percent": 24},
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
   },
@@ -1641,7 +1641,7 @@
     "item_1": {"item_name": "Silver Wing Bow Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Spirit Tree Bow Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Firelord's Ring Fragment", "drop_percent": 72},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "16-2H": {
     "item_1": {"item_name": "Zero Frost Lance Fragment", "drop_percent": 72},
@@ -1659,7 +1659,7 @@
     "item_1": {"item_name": "Zero Frost Lance Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Emerald Dagger Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Dragonic Armor Fragment", "drop_percent": 24},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "17-2": {
     "item_1": {"item_name": "Necrodim Axe Fragment", "drop_percent": 36},
@@ -1675,12 +1675,12 @@
   },
   "17-4": {
     "item_1": {"item_name": "Fairy King's Guardian Stone Fragment", "drop_percent": 36},
-    "item_2": {"item_name": "Lightning Sword Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Lightning Blade Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Aquarius Boots Fragment", "drop_percent": 24},
     "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
   },
   "17-5": {
-    "item_1": {"item_name": "Ocean God's Earrings", "drop_percent": 36},
+    "item_1": {"item_name": "Ocean God's Earrings Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Moon Cestus Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Scarlet Mail Fragment", "drop_percent": 24},
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
@@ -1689,7 +1689,7 @@
     "item_1": {"item_name": "Millennium Earrings Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Silver Wing Bow Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Viridian Spiritual Dress Fragment", "drop_percent": 24},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "17-7": {
     "item_1": {"item_name": "Fairy King's Guardian Stone Fragment", "drop_percent": 36},
@@ -1698,8 +1698,8 @@
     "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
   },
   "17-8": {
-    "item_1": {"item_name": "Ocean God's Earrings", "drop_percent": 36},
-    "item_2": {"item_name": "Hundred White Blossom Petals Sword", "drop_percent": 36},
+    "item_1": {"item_name": "Ocean God's Earrings Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Hundred White Blossom Petals Sword Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Faireal Boots Fragment", "drop_percent": 24},
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
   },
@@ -1707,7 +1707,7 @@
     "item_1": {"item_name": "Millennium Earrings Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Necrodim Axe Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Dark Terror Dress Fragment", "drop_percent": 24},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "17-10": {
     "item_1": {"item_name": "Fairy King's Guardian Stone Fragment", "drop_percent": 36},
@@ -1724,8 +1724,8 @@
   "17-12": {
     "item_1": {"item_name": "Millennium Earrings Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Fairy King's Guardian Stone Fragment", "drop_percent": 36},
-    "item_3": {"item_name": "Lightning Sword Fragment", "drop_percent": 24},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "item_3": {"item_name": "Lightning Blade Fragment", "drop_percent": 24},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "17-13": {
     "item_1": {"item_name": "Fairy King's Guardian Stone Fragment", "drop_percent": 36},
@@ -1741,9 +1741,9 @@
   },
   "17-1H": {
     "item_1": {"item_name": "Fairy King's Guardian Stone Fragment", "drop_percent": 72},
-    "item_2": {"item_name": "Lightning Sword Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Lightning Blade Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Faireal Boots Fragment", "drop_percent": 72},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "17-2H": {
     "item_1": {"item_name": "Millennium Earrings Fragment", "drop_percent": 72},
@@ -1754,7 +1754,7 @@
   "17-3H": {
     "item_1": {"item_name": "Ocean God's Earrings Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Xenosphere Rod Fragment", "drop_percent": 72},
-    "item_3": {"item_name": "Great Sage Orb Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Great Sage Gem Fragment", "drop_percent": 72},
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
   },
   "18-1": {
@@ -1771,7 +1771,7 @@
   },
   "18-3": {
     "item_1": {"item_name": "Ocean God's Earrings Fragment", "drop_percent": 36},
-    "item_2": {"item_name": "Millennium Earring Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Millennium Earrings Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Emerald Dagger Fragment", "drop_percent": 24},
     "subdrops": [ "Gospel Tiara Fragment", "Justice God's Staff Fragment", "Phoenix Rod Fragment", "Necromancer Boots Fragment", "Dragon's Tear Fragment" ]
   },
@@ -1845,7 +1845,7 @@
     "item_1": {"item_name": "Phantasm Mail Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Lightning Blade Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Scarlet Mail Fragment", "drop_percent": 72},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "18-2H": {
     "item_1": {"item_name": "Aegis Coat Fragment", "drop_percent": 72},
@@ -1947,7 +1947,7 @@
     "item_1": {"item_name": "Genesis Rod Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Mourning Crown Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Ocean God's Earrings Fragment", "drop_percent": 72},
-    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "19-2H": {
     "item_1": {"item_name": "Divine Blossom Rod Fragment", "drop_percent": 72},
