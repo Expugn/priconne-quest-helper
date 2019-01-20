@@ -117,6 +117,7 @@
     <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer" src="images/webpage/HAhaa.png" alt=""></p>
     <p class="footer">Last Quest Update: <span style="color: greenyellow">January 18, 2019</span></p>
     <p class="footer no-text-shadow-footer"><a href="https://github.com/Expugn/priconne-quest-helper" target="_blank" style="text-decoration: none; color: powderblue">[Github Source]</a></p>
+    <p class="footer no-text-shadow-footer"><a id="simple-or-fancy-text" href="https://expugn.github.io/priconne-quest-helper/" style="text-decoration: none; color: aliceblue" onclick="reload()"></a></p>
 </footer>
 
 <!-- BUILD HTML FROM EXTERNAL FILES -->
@@ -139,7 +140,16 @@
             document.getElementById("requested-div").classList.toggle("no-background");
             document.getElementById("required-div").classList.toggle("no-background");
             document.getElementById("recommended-div").classList.toggle("no-background");
+            //this.classList.toggle("active");
+
+            document.getElementById("simple-or-fancy-text").innerHTML = "[Let's Make it Fancy]";
+            document.getElementById("simple-or-fancy-text").href = "https://expugn.github.io/priconne-quest-helper/";
         }
+    }
+    else
+    {
+        document.getElementById("simple-or-fancy-text").innerHTML = "[Let's Keep it Simple]";
+        document.getElementById("simple-or-fancy-text").href = "https://expugn.github.io/priconne-quest-helper/#simple";
     }
 
     includeHTML();
