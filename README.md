@@ -10,6 +10,7 @@ whatever assortment of items you need to rank up your characters.
 
 ## Recommended Procedure On How To Use This Tool
 1. Open the tool URL in your phone or PC browser: (https://expugn.github.io/priconne-quest-helper/)
+If on a mobile phone, horizontal viewing is probably best.
 2. Open up `Princess Connect Re:Dive` via your phone or DMM Game Player.
 3. Decide which characters you want to rank up and select the required equipment in the tool.
 4. The tool will calculate which materials and the amount you need for you; Open up your equipment box.
@@ -40,7 +41,29 @@ The following can be submitted via `GitHub's Issue Tracker` or told to me (`S'pu
 4. Providing missing data that information sources like `GameWith` or `AppMedia` failed to provide quickly.
 5. Comments, Constructive Criticism, etc.
 
+## Information/Data Credits
+Initial collection of equipment images provided by `Jiuhin#7786`.
+
+Quest Data/Drop Rates/Equipment Recipes were taken from `GameWith`, `AppMedia`, and `https://pcrdwiki.xyz/en-us/`.
+
+Images (Backgrounds, Items, Material Fragments, etc) were ripped from the `DMM Game Player` version of `Princess Connect! Re:Dive` via `AssetStudioGUI`.
+
+## Currently Known Supported Devices/Browsers
+While under development, the following browsers have been confirmed to work well:
+
+* Windows 10 PC
+  * Google Chrome
+* MacBook OSX
+  * Google Chrome
+  * Safari
+* Samsung S9 (Android)
+  * Samsung Internet
+  * Google Chrome
+
 ## Other Stuff
+This is a non-profit fan project with the purpose of practice and entertainment.
+
+All characters and assets belong to their respective owners.
 
 Project began on January 10, 2019.
 
