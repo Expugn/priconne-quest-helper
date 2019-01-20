@@ -140,9 +140,9 @@ function figure_out_total_ingredients(all_recipe_maps_array)
         }
         // close table row
         table_html += "</tr>";
-        table_html += "<tr class=\"spacing\"></tr>";
+        //table_html += "<tr class=\"spacing\"></tr>";
     }
-    table_html += "</body>";
+    table_html += "</tbody>";
 
     document.getElementById("required-ingredient-table").innerHTML = table_html;
 }

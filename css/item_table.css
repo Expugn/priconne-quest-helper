@@ -148,6 +148,29 @@ th.requested-item-image {
     filter: opacity(30%);
 }
 
+.tip {
+    font-family: "Trebuchet MS", Arial, serif;
+    color: white;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 5px #000000, -1px 1px 5px #000000, -1px -1px 5px #000000, 1px -1px 5px #000000, 0px 0px 5px #000000;
+    letter-spacing: 2px;
+    line-height: 21px;
+    text-align: center;
+    margin-left: 10px;
+    max-width: 500px;
+
+    overflow: auto;
+
+    position: relative;
+
+    margin-top: 0px;
+
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 3px 5px;
+
+    border-radius: 5px;
+}
+
 img.quest-item-image {
     max-width: 48px;
     max-height: 48px;

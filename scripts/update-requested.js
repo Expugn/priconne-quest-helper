@@ -13,6 +13,9 @@ function update_requested()
         recipeArray.push(get_recipe(key, value));
     }
 
+    /* IF RECIPE ARRAY IS EMPTY, BRING BACK TIPS */
+
+
     /* FIGURE OUT TOTAL INGREDIENTS */
     figure_out_total_ingredients(recipeArray);
 
