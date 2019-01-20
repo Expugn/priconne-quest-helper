@@ -179,7 +179,7 @@ textarea.result-text-area {
 p.footer {
     text-align: right;
     font-family: "Trebuchet MS", Arial, serif;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000, 1px 1px 2px #000000;
     color: aliceblue;
     letter-spacing: 1px;
     font-weight: bold;
