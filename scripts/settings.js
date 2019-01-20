@@ -18,8 +18,3 @@ function change_quest_shown_amt()
 
     refresh_quest_table();
 }
-
-function reload()
-{
-    window.location.reload(false);
-}
