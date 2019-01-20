@@ -107,7 +107,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 table_html += "<tr>";
 
                 // QUEST NAME
-                table_html += "<th height='64' width='144'><h3 class=\"quest-title\">" + quest_id + "</h3></th>";
+                table_html += "<th height='64' width='144'><h3 class=\"quest-title\">" + quest_id.replace("H", " <span style=\"color: #ff4d4d\">H</span>") + "</h3></th>";
 
                 // DIVIDER
                 table_html += "<th>";
