@@ -185,6 +185,10 @@ p.footer {
     font-weight: bold;
 }
 
+p.no-text-shadow-footer {
+    text-shadow: 1px 1px 1px #000000, 1px -1px 1px #000000, -1px -1px 1px #000000, -1px 1px 1px #000000, 0 0 8px #FFFFFF !important;
+}
+
 img.footer {
     height: 24px;
     width: 24px;
