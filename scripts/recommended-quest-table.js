@@ -4,6 +4,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
     last_compiled_all_recipe_maps_array = all_recipe_maps_array;
     let total_recipe = get_total_recipe(all_recipe_maps_array);
     let quest_table = document.getElementById("recommended-quest-table");
+    let quests = quest_map;
 
     /* REPLACE TOTAL RECIPE WITH TOTAL RECIPE W/O DISABLED COMPONENTS FROM RECIPE READER/REQUIRED INGREDIENTS TABLE */
     for (let i = 0 ; i < disabled_items.length ; i++)
@@ -21,13 +22,16 @@ function build_recommended_quest_table(all_recipe_maps_array)
         document.getElementById("recommended-quest-div").style.overflow = "hidden";
 
         /* ITERATE THROUGH ALL QUESTS, GENERATE QUEST SCORE */
+        // {
+        //      id : quest score
+        // }
         let quest_score_map = new Map();
 
         const item_is_in_top_2_score = 1;
         const item_is_in_3rd_slot = 0.75;
         const item_is_in_subitem_score = 0.5;
 
-        for (let [quest_id, quest_data] of quest_map)
+        for (let [quest_id, quest_data] of quests)
         {
             let item_1_name = quest_data.get("item_1").item_name;   // OBJECT
             let item_2_name = quest_data.get("item_2").item_name;   // OBJECT
@@ -68,9 +72,65 @@ function build_recommended_quest_table(all_recipe_maps_array)
         }
 
         /* SORT */
+        /*
         quest_score_map[Symbol.iterator] = function* () {
             yield* [...this.entries()].sort((a, b) => b[1] - a[1]);
         };
+        */
+
+
+
+        // sort by quest score
+        quest_score_map[Symbol.iterator] = function* ()
+        {
+            yield* [...this.entries()].sort(function (x, y)
+            {
+                // PARSE AND INIT DATA
+                let x_quest_id = x[0];
+                let x_quest_split = x_quest_id.split("-");
+                let x_quest_chapter = x_quest_split[0];
+                let x_quest_quest = x_quest_split[1];
+                let x_quest_hard = 0;
+                if (x_quest_quest.includes("H"))
+                {
+                    x_quest_quest.replace("H", "");
+                    x_quest_hard = 1000;
+                }
+                let x_quest_value = (parseInt(x_quest_chapter) * 10000) + (parseInt(x_quest_quest) * 10) + x_quest_hard;
+
+                let y_quest_id = y[0];
+                let y_quest_split = y_quest_id.split("-");
+                let y_quest_chapter = y_quest_split[0];
+                let y_quest_quest = y_quest_split[1];
+                let y_quest_hard = 0;
+                if (y_quest_quest.includes("H"))
+                {
+                    y_quest_quest.replace("H", "");
+                    y_quest_hard = 1000;
+                }
+                let y_quest_value = (parseInt(y_quest_chapter) * 10000) + (parseInt(y_quest_quest) * 10) + y_quest_hard;
+
+
+                // SORTING CODE
+                //let n = y[1] - x[1];
+                let n = (ascending_sort_quest_score ? sort_ascending(x[1], y[1]) : sort_descending(x[1], y[1]));
+                if (n !== 0)
+                {
+                    return n;
+                }
+
+                return (ascending_sort_quest_list ? sort_ascending(x_quest_value, y_quest_value) : sort_descending(x_quest_value, y_quest_value));
+                //return y_quest_value - x_quest_value;
+            });
+        };
+
+        /*
+        quest_score_map.sort(function (x, y) {
+           console.log("x value " + x);
+           console.log("y value " + y);
+           console.log("==============")
+        });
+        */
 
         /* CONSTRUCT LIST */
         let table_html = "";
@@ -204,7 +264,7 @@ function print_all_quests()
     let table_html = "";
 
     table_html += "<tbody>";
-    for (let [quest_id, quest_data] of quest_map)
+    for (let [quest_id, quest_data] of quests)
     {
         let item_1_is_fragment = quest_data.get("item_1").item_name.includes("Fragment");
         let item_2_is_fragment = quest_data.get("item_2").item_name.includes("Fragment");

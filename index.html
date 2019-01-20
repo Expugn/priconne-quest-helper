@@ -30,6 +30,7 @@
     <script src="scripts/read-equipment-json.js"></script>
     <script src="scripts/read-quest-json.js"></script>
     <script src="scripts/settings.js"></script>
+    <script src="scripts/sort-options.js"></script>
     <script src="scripts/recipe-reader.js"></script>
     <script src="scripts/recommended-quest-table.js"></script>
     <script src="scripts/requested-item-table.js"></script>
@@ -100,7 +101,7 @@
 
 <h4>lol temporary settings section</h4>
 
-<label for="quest-shown-amt">Amount of quests shown (min 10, max 30) - </label>
+<label for="quest-shown-amt">amount of quests shown (min 10, max 30)</label>
 <input id="quest-shown-amt"
        class="item-input"
        type="number"
@@ -108,7 +109,21 @@
        max="30"
        value="10"
        onchange="change_quest_shown_amt()"></th>
-
+<br><br>
+<label for="sort-ascending-quest-list">sort by ascending: quest list (Chapter 1 -> Chapter 2 -> ...)</label>
+<input id="sort-ascending-quest-list"
+       type="checkbox"
+       name="ascending_sort: quest_list"
+       value="ascending_sort_quest_list"
+       checked
+       onchange="toggle_ascending_sort_quest_list()"></th>
+<br><br>
+<label for="sort-ascending-quest-score">sort by ascending: quest score (0.5 -> 0.75 -> ...)</label>
+<input id="sort-ascending-quest-score"
+       type="checkbox"
+       name="ascending_sort: quest_score"
+       value="ascending_sort_quest_score"
+       onchange="toggle_ascending_sort_quest_score()"></th>
 <hr>
 
 </body>
@@ -122,35 +137,9 @@
 
 <!-- BUILD HTML FROM EXTERNAL FILES -->
 <script>
-    if(window.location.hash)
-    {
-        let hash = window.location.hash.substring(1);
-        if (hash === "simple")
-        {
-            console.log("[Simple Mode] Simple Mode Enabled! (No Background Images)");
-            document.getElementById("title-div").classList.toggle("no-background");
-            document.getElementById("title-div").classList.toggle("no-transition");
-            document.getElementById("title-div").classList.toggle("no-hover");
-            document.getElementById("title-text-div").classList.toggle("no-hover");
-            document.getElementById("common-div").classList.toggle("no-background");
-            document.getElementById("copper-div").classList.toggle("no-background");
-            document.getElementById("silver-div").classList.toggle("no-background");
-            document.getElementById("gold-div").classList.toggle("no-background");
-            document.getElementById("purple-div").classList.toggle("no-background");
-            document.getElementById("requested-div").classList.toggle("no-background");
-            document.getElementById("required-div").classList.toggle("no-background");
-            document.getElementById("recommended-div").classList.toggle("no-background");
-            //this.classList.toggle("active");
+    toggle_simple_mode();
 
-            document.getElementById("simple-or-fancy-text").innerHTML = "[Let's Make it Fancy]";
-            document.getElementById("simple-or-fancy-text").href = "https://expugn.github.io/priconne-quest-helper/";
-        }
-    }
-    else
-    {
-        document.getElementById("simple-or-fancy-text").innerHTML = "[Let's Keep it Simple]";
-        document.getElementById("simple-or-fancy-text").href = "https://expugn.github.io/priconne-quest-helper/#simple";
-    }
+    init_settings();
 
     includeHTML();
 
