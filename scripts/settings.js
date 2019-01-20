@@ -21,5 +21,5 @@ function change_quest_shown_amt()
 
 function reload()
 {
-    window.location.reload(false);
+    window.location.reload(true);
 }
