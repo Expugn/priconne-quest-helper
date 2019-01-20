@@ -1365,8 +1365,8 @@
     "req_pieces": 25,
     "req_items": [ "Guardian Shield", "Garnet Shield", "Cosmos Cloth" ]
   },
-  "millenium_earrings": {
-    "name": "Millenium Earrings",
+  "millennium_earrings": {
+    "name": "Millennium Earrings",
     "id": "purple-25",
     "has_fragments": true,
     "req_pieces": 35,
