@@ -37,6 +37,10 @@ input[type=number].item-input {
     margin: 0 auto;
 }
 
+.transition {
+    transition: all 0.4s ease-in-out;
+}
+
 .fixed {
     position: fixed;
     text-align: center;
@@ -89,9 +93,6 @@ th.requested-item-image {
     text-align: right;
 
     border-radius: 5px;
-}
-
-.all-ingredient-comp {
 }
 
 .ingredient-button {
