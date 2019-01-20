@@ -1349,6 +1349,312 @@
     "item_3": {"item_name": "Sun Amulet Fragment", "drop_percent": 72},
     "subdrops": [ "Lightning Bow Fragment", "Fury Rod Fragment", "Moonlight Garment Fragment", "Wizard Hood Fragment", "Laurel's Sorrow Fragment" ]
   },
+  "14-1": {
+    "item_1": {"item_name": "Chaos Blade Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "High Angel Rod Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Gaia Bardiche Fragment", "drop_percent": 24},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
+  "14-2": {
+    "item_1": {"item_name": "Spirit Tree Bow Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Lightning Fist Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Aqua Slasher Fragment", "drop_percent": 24},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "14-3": {
+    "item_1": {"item_name": "High Devil Wand Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Unicorn Knife Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Necromancer Boots Fragment", "drop_percent": 24},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
+  "14-4": {
+    "item_1": {"item_name": "Firelord's Ring Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Phoenix Sword Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Crusader Plate Fragment", "drop_percent": 24},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "14-5": {
+    "item_1": {"item_name": "Great Sage Orb Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "High Devil Wand Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Gospel Tiara Fragment", "drop_percent": 24},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
+  "14-6": {
+    "item_1": {"item_name": "Congregation Pendant Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Gaia Bardiche Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Violet Armor Fragment", "drop_percent": 24},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
+  "14-7": {
+    "item_1": {"item_name": "Cat God Pendant Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Spirit Tree Bow Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Guardian Shield Fragment", "drop_percent": 24},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "14-8": {
+    "item_1": {"item_name": "Firelord's Ring Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Lightning Fist Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Sun Amulet Fragment", "drop_percent": 24},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
+  "14-9": {
+    "item_1": {"item_name": "Great Sage Orb Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "High Angel Rod Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Elemental Heart Fragment", "drop_percent": 24},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
+  "14-10": {
+    "item_1": {"item_name": "Congregation Pendant Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Aqua Slasher Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Moon Bracelet Fragment", "drop_percent": 24},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "14-11": {
+    "item_1": {"item_name": "Cat God Pendant Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Unicorn Knife Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Sun Amulet Fragment", "drop_percent": 24},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
+  "14-12": {
+    "item_1": {"item_name": "Congregation Pendant Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Great Sage Orb Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "High Devil Wand Fragment", "drop_percent": 24},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
+  "14-13": {
+    "item_1": {"item_name": "Cat God Pendant Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Congregation Pendant Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Spirit Tree Bow Fragment", "drop_percent": 24},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "14-14": {
+    "item_1": {"item_name": "Firelord's Ring Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Cat God Pendant Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Chaos Blade Fragment", "drop_percent": 24},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
+  "14-1H": {
+    "item_1": {"item_name": "Congregation Pendant Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Aqua Slasher Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Moon Bracelet Fragment", "drop_percent": 72},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
+  "14-2H": {
+    "item_1": {"item_name": "Cat God Pendant Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Phoenix Sword Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Sun Amulet Fragment", "drop_percent": 72},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "14-3H": {
+    "item_1": {"item_name": "Firelord's Ring Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Chaos Blade Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Guardian Shield Fragment", "drop_percent": 24},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
+  "15-1": {
+    "item_1": {"item_name": "Congregation Pendant Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Phoenix Sword Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Gaia Bardiche Fragment", "drop_percent": 24},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
+  "15-2": {
+    "item_1": {"item_name": "Great Sage Orb Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Lightning Fist Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "High Devil Wand Fragment", "drop_percent": 24},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "15-3": {
+    "item_1": {"item_name": "Firelord's Ring Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Aqua Slasher Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Chaos Blade Fragment", "drop_percent": 24},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
+  "15-4": {
+    "item_1": {"item_name": "Scarlet Mail Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Cat God Pendant Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Gaia Bardiche Fragment", "drop_percent": 24},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "15-5": {
+    "item_1": {"item_name": "Faireal Boots Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Congregation Pendant Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Unicorn Knife Fragment", "drop_percent": 24},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
+  "15-6": {
+    "item_1": {"item_name": "Viridian Spiritual Dress Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Great Sage Orb Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "High Angel Rod Fragment", "drop_percent": 24},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
+  "15-7": {
+    "item_1": {"item_name": "Dragonic Armor Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Firelord's Ring Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Chaos Blade Fragment", "drop_percent": 24},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "15-8": {
+    "item_1": {"item_name": "Dark Terror Dress Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Cat God Pendant Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Spirit Tree Bow Fragment", "drop_percent": 24},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
+  "15-9": {
+    "item_1": {"item_name": "Aquarius Boots Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Great Sage Orb Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "High Devil Wand Fragment", "drop_percent": 24},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
+  "15-10": {
+    "item_1": {"item_name": "Dark Terror Dress Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Viridian Spiritual Dress Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Congregation Pendant Fragment", "drop_percent": 24},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "15-11": {
+    "item_1": {"item_name": "Scarlet Mail Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Faireal Boots Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Firelord's Ring Fragment", "drop_percent": 24},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
+  "15-12": {
+    "item_1": {"item_name": "Viridian Spiritual Dress Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Aquarius Boots Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Great Sage Orb Fragment", "drop_percent": 24},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
+  "15-13": {
+    "item_1": {"item_name": "Dragonic Armor Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Scarlet Mail Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Firelord's Ring Fragment", "drop_percent": 24},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "15-14": {
+    "item_1": {"item_name": "Faireal Boots Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Dark Terror Dress Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Cat God Pendant Fragment", "drop_percent": 24},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
+  "15-1H": {
+    "item_1": {"item_name": "Viridian Spiritual Dress Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Great Sage Orb Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "High Angel Rod Fragment", "drop_percent": 72},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
+  "15-2H": {
+    "item_1": {"item_name": "Scarlet Mail Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Firelord's Ring Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Aqua Slasher Fragment", "drop_percent": 72},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "15-3H": {
+    "item_1": {"item_name": "Faireal Boots Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Cat God Pendant Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Spirit Tree Bow Fragment", "drop_percent": 72},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
+  "16-1": {
+    "item_1": {"item_name": "Dragonic Armor Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Aquarius Boots Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Firelord's Ring Fragment", "drop_percent": 24},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
+  "16-2": {
+    "item_1": {"item_name": "Viridian Spiritual Dress Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Dark Terror Dress Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Great Sage Orb Fragment", "drop_percent": 24},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "16-3": {
+    "item_1": {"item_name": "Faireal Boots Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Dragonic Armor Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Congregation Pendant Fragment", "drop_percent": 24},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
+  "16-4": {
+    "item_1": {"item_name": "Emerald Dagger Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Aquarius Boots Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Dark Terror Dress Fragment", "drop_percent": 24},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "16-5": {
+    "item_1": {"item_name": "Zero Frost Lance Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Flame Rod Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Scarlet Mail Fragment", "drop_percent": 24},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
+  "16-6": {
+    "item_1": {"item_name": "Lightning Blade Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Necrodim Axe Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Viridian Spiritual Dress Fragment", "drop_percent": 24},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
+  "16-7": {
+    "item_1": {"item_name": "Xenosphere Rod Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Moon Cestus Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Firelord's Ring Fragment", "drop_percent": 24},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "16-8": {
+    "item_1": {"item_name": "Hundred White Blossom Petals Sword Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Silver Wing Bow Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Faireal Boots Fragment", "drop_percent": 24},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
+  "16-9": {
+    "item_1": {"item_name": "Emerald Dagger Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Scarlet Mail Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Great Sage Orb Fragment", "drop_percent": 24},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
+  "16-10": {
+    "item_1": {"item_name": "Moon Cestus Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Dark Terror Dress Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Dragonic Armor Fragment", "drop_percent": 24},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "16-11": {
+    "item_1": {"item_name": "Flame Rod Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Viridian Spiritual Dress Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Congregation Pendant Fragment", "drop_percent": 24},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
+  "16-12": {
+    "item_1": {"item_name": "Lightning Sword Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Firelord's Ring Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Scarlet Mail Fragment", "drop_percent": 24},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
+  "16-13": {
+    "item_1": {"item_name": "Silver Wing Bow Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Dragonic Armor Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Dark Terror Dress Fragment", "drop_percent": 24},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "16-14": {
+    "item_1": {"item_name": "Xenosphere Rod Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Great Sage Orb Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Aquarius Boots Fragment", "drop_percent": 24},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
+  "16-1H": {
+    "item_1": {"item_name": "Silver Wing Bow Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Spirit Tree Bow Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Firelord's Ring Fragment", "drop_percent": 72},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Viridian Mail Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
+  "16-2H": {
+    "item_1": {"item_name": "Zero Frost Lance Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Faireal Boots Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Dragonic Armor Fragment", "drop_percent": 72},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "16-3H": {
+    "item_1": {"item_name": "Xenosphere Rod Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Aquarius Boots Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "High Devil Wand Fragment", "drop_percent": 72},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
 
   "-": {
     "item_1": {"item_name": "", "drop_percent": 36},
