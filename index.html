@@ -29,6 +29,7 @@
     <script src="scripts/include-html.js"></script>
     <script src="scripts/read-equipment-json.js"></script>
     <script src="scripts/read-quest-json.js"></script>
+    <script src="scripts/settings.js"></script>
     <script src="scripts/recipe-reader.js"></script>
     <script src="scripts/recommended-quest-table.js"></script>
     <script src="scripts/requested-item-table.js"></script>
@@ -96,6 +97,19 @@
 <div class="div-background div-background-recommended text-overflow-auto" w3-include-html="elements/recommended_quests.html"></div>
 
 <hr> <!-- LINE BREAK -->
+
+<h4>lol temporary settings section</h4>
+
+<label for="quest-shown-amt">Amount of quests shown (min 10, max 30) - </label>
+<input id="quest-shown-amt"
+       class="item-input"
+       type="number"
+       min="10"
+       max="30"
+       value="10"
+       onchange="change_quest_shown_amt()"></th>
+
+<hr>
 
 <!-- BUILD HTML FROM EXTERNAL FILES -->
 <script>

@@ -75,7 +75,6 @@ function build_recommended_quest_table(all_recipe_maps_array)
         /* CONSTRUCT LIST */
         let table_html = "";
 
-        const max_quest_count_in_list = 10;
         let quest_count = 0;
 
         table_html += "<tbody>";
@@ -168,7 +167,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
 
                 quest_count++;
 
-                if (quest_count >= max_quest_count_in_list)
+                if (quest_count >= quest_shown_value)
                 {
                     break;
                 }
