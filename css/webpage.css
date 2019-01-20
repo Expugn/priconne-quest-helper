@@ -18,7 +18,7 @@ div.div-background-title {
     position: relative;
 }
 
-div.div-background-title:hover, div.div-background-title:active {
+div.div-background-title:not(.no-hover):hover, div.div-background-title:not(.no-hover):active {
     height: 130%;
     padding-top: 100px;
     background-position: center;
@@ -92,7 +92,7 @@ h2.title {
     transition: all 0.4s ease-out;
 }
 
-.title-hover:hover, .title-hover:active {
+.title-hover:not(.no-hover):hover, .title-hover:not(.no-hover):active {
     opacity: 0.1;
 }
 
@@ -210,4 +210,12 @@ img.footer {
 
 .request-info {
     margin-top: 50px;
+}
+
+.no-background {
+    background-image: none !important;
+}
+
+.no-transition {
+    transition: none !important;
 }
