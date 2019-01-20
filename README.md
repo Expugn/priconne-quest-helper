@@ -2,6 +2,8 @@
 
 URL: https://expugn.github.io/priconne-quest-helper/
 
+Simple Mode: https://expugn.github.io/priconne-quest-helper/#simple
+
 Last Quest Update: `January 18, 2019`
 
 ## Information
