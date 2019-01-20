@@ -1218,107 +1218,170 @@
     "req_pieces": 35,
     "req_items": []
   },
+  "flowing_azure_blade": {
+    "name": "Flowing Azure Blade",
+    "id": "purple-4",
+    "has_fragments": true,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "dawns_holy_sword": {
+    "name": "Dawn's Holy Sword",
+    "id": "purple-5",
+    "has_fragments": true,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "lava_edge": {
+    "name": "Lava Edge",
+    "id": "purple-6",
+    "has_fragments": true,
+    "req_pieces": 1,
+    "req_items": []
+  },
   "zero_frost_lance": {
     "name": "Zero Frost Lance",
-    "id": "purple-4",
+    "id": "purple-7",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
+  "gale_stinger": {
+    "name": "Gale Stinger",
+    "id": "purple-8",
+    "has_fragments": true,
+    "req_pieces": 1,
+    "req_items": []
+  },
   "necrodim_axe": {
     "name": "Necrodim Axe",
-    "id": "purple-5",
+    "id": "purple-9",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Shiryuu Axe", "Necromancer Boots" ]
   },
+  "divine_judgement_axe": {
+    "name": "Divine Judgement Axe",
+    "id": "purple-10",
+    "has_fragments": true,
+    "req_pieces": 1,
+    "req_items": []
+  },
   "flame_rod": {
     "name": "Flame Rod",
-    "id": "purple-6",
+    "id": "purple-11",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "xenosphere_rod": {
     "name": "Xenosphere Rod",
-    "id": "purple-7",
+    "id": "purple-12",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
+  "divine_blossom_rod": {
+    "name": "Divine Blossom Rod",
+    "id": "purple-13",
+    "has_fragments": true,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "genesis_rod": {
+    "name": "Genesis Rod",
+    "id": "purple-14",
+    "has_fragments": true,
+    "req_pieces": 1,
+    "req_items": []
+  },
   "silver_wing_bow": {
     "name": "Silver Wing Bow",
-    "id": "purple-8",
+    "id": "purple-15",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Artemis Bow", "Cupid's Bow", "Lion Eagle's Feather" ]
   },
+  "abyss_bow": {
+    "name": "Abyss Bow",
+    "id": "purple-16",
+    "has_fragments": true,
+    "req_pieces": 1,
+    "req_items": []
+  },
   "moon_cestus": {
     "name": "Moon Cestus",
-    "id": "purple-9",
+    "id": "purple-17",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Lion King Gauntlet", "Moon Bracelet" ]
   },
+  "crimson_claw": {
+    "name": "Crimson Claw",
+    "id": "purple-18",
+    "has_fragments": true,
+    "req_pieces": 1,
+    "req_items": []
+  },
   "mourning_crown": {
     "name": "Mourning Crown",
-    "id": "purple-10",
+    "id": "purple-19",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Gospel Tiara", "Devil's Horn" ]
   },
   "azure_armor": {
     "name": "Azure Armor",
-    "id": "purple-11",
+    "id": "purple-20",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Violet Armor", "Paladin Greave" ]
   },
   "aegis_coat": {
     "name": "Aegis Coat",
-    "id": "purple-12",
+    "id": "purple-21",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Heavenly Robe", "Feather Waltz" ]
   },
   "phantasm_mail": {
     "name": "Phantasm Mail",
-    "id": "purple-13",
+    "id": "purple-22",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Crusader Plate", "Vampire Dagger" ]
   },
   "shrine_maidens_purity_cloth": {
     "name": "Shrine Maiden's Purity Cloth",
-    "id": "purple-14",
+    "id": "purple-23",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Sun Amulet", "Saint's Robe" ]
   },
   "astrograph_buckler": {
     "name": "Astrograph Buckler",
-    "id": "purple-15",
+    "id": "purple-24",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Guardian Shield", "Garnet Shield", "Cosmos Cloth" ]
   },
   "millenium_earrings": {
     "name": "Millenium Earrings",
-    "id": "purple-16",
+    "id": "purple-25",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "ocean_gods_earrings": {
     "name": "Ocean God's Earrings",
-    "id": "purple-17",
+    "id": "purple-26",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "fairy_kings_guardian_stone": {
     "name": "Fairy King's Guardian Stone",
-    "id": "purple-18",
+    "id": "purple-27",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
