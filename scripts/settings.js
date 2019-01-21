@@ -221,19 +221,14 @@ function read_cookie()
     /* TODO UPDATE WHENEVER A NEW SETTING IS ADDED */
     if (Cookies.get('quest_shown_value') !== undefined)
     {
-        quest_shown_value = Cookies.get('quest_shown_value');
-        ascending_sort_quest_list = Cookies.get('ascending_sort_quest_list') === 'true';
-        ascending_sort_quest_score = Cookies.get('ascending_sort_quest_score') === 'true';
-        hide_quest_score = Cookies.get('hide_quest_score') === 'true';
-        min_quest_chapter = Cookies.get('min_quest_chapter');
-        max_quest_chapter = Cookies.get('max_quest_chapter');
+        set_values_from_cookie();
 
         document.getElementById("quest-shown-amt").value = quest_shown_value;
         check_checkbox("sort-ascending-quest-list", ascending_sort_quest_list);
         check_checkbox("sort-ascending-quest-score", ascending_sort_quest_score);
         check_checkbox("hide-quest-score", hide_quest_score);
         document.getElementById("min-quest-chapter").value = min_quest_chapter;
-        document.getElementById("max-quest-chapter").nodeValue = max_quest_chapter;
+        document.getElementById("max-quest-chapter").value = max_quest_chapter;
 
         console.log("[Settings] Cookie settings have been loaded.");
     }
@@ -245,12 +240,7 @@ function reset_settings()
     if (Cookies.get('quest_shown_value') !== undefined)
     {
         // SET COOKIE VALUES
-        quest_shown_value = Cookies.get('quest_shown_value');
-        ascending_sort_quest_list = Cookies.get('ascending_sort_quest_list') === 'true';
-        ascending_sort_quest_score = Cookies.get('ascending_sort_quest_score') === 'true';
-        hide_quest_score = Cookies.get('hide_quest_score') === 'true';
-        min_quest_chapter = Cookies.get('min_quest_chapter');
-        max_quest_chapter = Cookies.get('max_quest_chapter');
+        set_values_from_cookie();
     }
     else
     {
@@ -291,6 +281,16 @@ function read_settings()
     {
         alert("You did not save any settings.");
     }
+}
+
+function set_values_from_cookie()
+{
+    quest_shown_value = parseInt(Cookies.get('quest_shown_value'));
+    ascending_sort_quest_list = Cookies.get('ascending_sort_quest_list') === 'true';
+    ascending_sort_quest_score = Cookies.get('ascending_sort_quest_score') === 'true';
+    hide_quest_score = Cookies.get('hide_quest_score') === 'true';
+    min_quest_chapter = parseInt(Cookies.get('min_quest_chapter'));
+    max_quest_chapter = parseInt(Cookies.get('max_quest_chapter'));
 }
 
 function reload()
