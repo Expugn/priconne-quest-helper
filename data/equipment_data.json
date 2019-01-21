@@ -1320,7 +1320,7 @@
     "name": "Crimson Claw",
     "id": "purple-18",
     "has_fragments": true,
-    "req_pieces": 1,
+    "req_pieces": 35,
     "req_items": []
   },
   "mourning_crown": {
