@@ -32,7 +32,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
         {
             let quest_chapter = quest_id.split("-")[0];
 
-            if (quest_chapter >= min_quest_chapter)
+            if (quest_chapter >= min_quest_chapter && quest_chapter <= max_quest_chapter)
             {
                 let item_1_name = quest_data.get("item_1").item_name;       // OBJECT
                 let item_2_name = quest_data.get("item_2").item_name;       // OBJECT

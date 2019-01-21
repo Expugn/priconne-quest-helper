@@ -138,9 +138,18 @@
        class="item-input"
        type="number"
        min="1"
-       max="20"
+       max="19"
        value="1"
        onchange="change_min_quest_chapter()">
+<br>
+<label for="max-quest-chapter">highest quest chapter displayed</label>
+<input id="max-quest-chapter"
+       class="item-input"
+       type="number"
+       min="1"
+       max="19"
+       value="19"
+       onchange="change_max_quest_chapter()">
 <br><br>
 <label for="save-settings-button">save settings (writes a cookie)</label>
 <button id="save-settings-button" type="button" onclick="save_cookie()">save settings</button>
@@ -152,7 +161,7 @@
 <button id="reset-settings-button" type="button" onclick="reset_settings()">reset settings</button>
 <br>
 <label for="read-settings-button">displays your saved settings</label>
-<button id="read-settings-button" type="button" onclick="read_settings()">read settings</button>
+<button id="read-settings-button" type="button" onclick="read_settings()">read saved settings</button>
 
 
 <hr> <!-- LINE BREAK -->
