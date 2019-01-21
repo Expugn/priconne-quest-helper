@@ -1,4 +1,4 @@
-# priconne-quest-helper | Princess Connect! Re:Dive Quest Helper
+# Princess Connect! Re:Dive Quest Helper<br>(priconne-quest-helper)
 
 URL: https://expugn.github.io/priconne-quest-helper/<br>
 Simple Mode: https://expugn.github.io/priconne-quest-helper/#simple
