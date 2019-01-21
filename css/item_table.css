@@ -208,9 +208,9 @@ img.quest-item-image {
 
 .quest-title {
     font-family: "Trebuchet MS", Arial, serif;
-    text-shadow: 2px 2px 4px #000000,
-                    2px 2px 4px #000000,
-                    2px 2px 4px #000000;
+    text-shadow: 1px 1px 4px #000000,
+                    1px 1px 4px #000000,
+                    1px 1px 4px #000000;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 
     background-color: rgba(255, 255, 255, 0.5);
