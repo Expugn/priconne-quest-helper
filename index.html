@@ -108,7 +108,7 @@
        min="10"
        max="30"
        value="10"
-       onchange="change_quest_shown_amt()"></th>
+       onchange="change_quest_shown_amt()">
 <br><br>
 <label for="sort-ascending-quest-list">sort by ascending: quest list (Chapter 1 -> Chapter 2 -> ...)</label>
 <input id="sort-ascending-quest-list"
@@ -116,15 +116,23 @@
        name="ascending_sort: quest_list"
        value="ascending_sort_quest_list"
        checked
-       onchange="toggle_ascending_sort_quest_list()"></th>
+       onchange="toggle_ascending_sort_quest_list()">
 <br><br>
 <label for="sort-ascending-quest-score">sort by ascending: quest score (0.5 -> 0.75 -> ...)</label>
 <input id="sort-ascending-quest-score"
        type="checkbox"
        name="ascending_sort: quest_score"
        value="ascending_sort_quest_score"
-       onchange="toggle_ascending_sort_quest_score()"></th>
-<hr>
+       onchange="toggle_ascending_sort_quest_score()">
+<br><br>
+<label for="hide-quest-score">hide quest score</label>
+<input id="hide-quest-score"
+       type="checkbox"
+       name="hide quest score"
+       value="hide_quest_score"
+       onchange="toggle_hide_quest_score()">
+
+<hr> <!-- LINE BREAK -->
 
 </body>
 

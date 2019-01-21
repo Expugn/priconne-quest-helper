@@ -211,14 +211,17 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     table_html += "</th>";
                 }
 
-                // DIVIDER
-                table_html += "<th>";
-                table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                    + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
-                table_html += "</th>";
+                if (!hide_quest_score)
+                {
+                    // DIVIDER
+                    table_html += "<th>";
+                    table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
+                        + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
+                    table_html += "</th>";
 
-                // QUEST POINTS
-                table_html += "<th height='64' width='144'><h3 class=\"quest-title\">" + quest_score + " pts</h3></th>";
+                    // QUEST POINTS
+                    table_html += "<th height='64' width='144'><h3 class=\"quest-title\">" + quest_score + " pts</h3></th>";
+                }
 
                 // END TABLE ROW
                 table_html += "</tr>";

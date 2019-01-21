@@ -1,7 +1,8 @@
 /* GLOBAL SETTING VARIABLES */
 let quest_shown_value;                  // default = 10
 let ascending_sort_quest_list;          // default = true
-let ascending_sort_quest_score ;        // default = false
+let ascending_sort_quest_score;         // default = false
+let hide_quest_score;                   // default = false
 
 
 
@@ -11,6 +12,7 @@ function init_settings()
     quest_shown_value = document.getElementById("quest-shown-amt").value;
     ascending_sort_quest_list = document.getElementById("sort-ascending-quest-list").checked;
     ascending_sort_quest_score = document.getElementById("sort-ascending-quest-score").checked;
+    hide_quest_score = document.getElementById("hide-quest-score").checked;
 
     console.log("[Settings] - Settings are initialized!");
 }
@@ -52,6 +54,14 @@ function toggle_ascending_sort_quest_score()
 {
     ascending_sort_quest_score = !ascending_sort_quest_score;
     console.log("[Settings] - Quest Results are not sorted by Ascending (Quest Score): " + ascending_sort_quest_score);
+
+    refresh_quest_table();
+}
+
+function toggle_hide_quest_score()
+{
+    hide_quest_score = !hide_quest_score;
+    console.log("[Settings] - Quest scoring is now hidden: " + hide_quest_score);
 
     refresh_quest_table();
 }
