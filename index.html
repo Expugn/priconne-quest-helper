@@ -26,6 +26,7 @@
 
     <!-- SCRIPTS -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <script src="scripts/include-html.js"></script>
     <script src="scripts/read-equipment-json.js"></script>
     <script src="scripts/read-quest-json.js"></script>
@@ -131,6 +132,28 @@
        name="hide quest score"
        value="hide_quest_score"
        onchange="toggle_hide_quest_score()">
+<br><br>
+<label for="min-quest-chapter">lowest quest chapter displayed</label>
+<input id="min-quest-chapter"
+       class="item-input"
+       type="number"
+       min="1"
+       max="20"
+       value="1"
+       onchange="change_min_quest_chapter()">
+<br><br>
+<label for="save-settings-button">save settings (writes a cookie)</label>
+<button id="save-settings-button" type="button" onclick="save_cookie()">save settings</button>
+<br>
+<label for="delete-settings-button">delete settings (removes the cookie)</label>
+<button id="delete-settings-button" type="button" onclick="delete_cookie()">delete settings</button>
+<br>
+<label for="reset-settings-button">reset settings (sets current settings to whatever is saved on the cookie or if a cookie doesn't exist then set to system default)</label>
+<button id="reset-settings-button" type="button" onclick="reset_settings()">reset settings</button>
+<br>
+<label for="read-settings-button">displays your saved settings</label>
+<button id="read-settings-button" type="button" onclick="read_settings()">read settings</button>
+
 
 <hr> <!-- LINE BREAK -->
 
@@ -154,6 +177,7 @@
     window.onload = function () {
         enableCollapsible();
         //print_all_quests();       // FOR DEBUG USE ONLY!
+        read_cookie();
     };
 </script>
 
