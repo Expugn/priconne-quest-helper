@@ -261,6 +261,7 @@ function reset_settings()
     document.getElementById("max-quest-chapter").value = max_quest_chapter;
 
     alert("Settings have been reset.");
+    refresh_quest_table();
 }
 
 function read_settings()
