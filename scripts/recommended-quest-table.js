@@ -33,43 +33,64 @@ function build_recommended_quest_table(all_recipe_maps_array)
             let split_quest_id = quest_id.split("-")[0];
             let quest_chapter_num = parseInt(split_quest_id);
 
+            // CHECK IF QUEST CHAPTER IS WITHIN RANGE OF SETTINGS
             if (quest_chapter_num >= min_quest_chapter && quest_chapter_num <= max_quest_chapter)
             {
-                let item_1_name = quest_data.get("item_1").item_name;       // OBJECT
-                let item_2_name = quest_data.get("item_2").item_name;       // OBJECT
-                let item_3_name = quest_data.get("item_3").item_name;       // OBJECT
-                let item_1_dp = quest_data.get("item_1").drop_percent;      // OBJECT
-                let item_3_dp = quest_data.get("item_3").drop_percent;      // OBJECT
-                let quest_subdrops = quest_data.get("subdrops");            // ARRAY
-
-                let quest_score = 0;
-
-                // CHECK ITEM 1 - 3
-                if (total_recipe.has(item_1_name)) { quest_score += item_is_in_top_2_score; }
-                if (total_recipe.has(item_2_name)) { quest_score += item_is_in_top_2_score; }
-                if (total_recipe.has(item_3_name))
+                // CHECK IF QUEST IS NORMAL/HARD IF SET TO CHECK
+                let filter_exclude_quest = false;
+                if (quest_filter === "filter-normal" || quest_filter === "filter-hard")
                 {
-                    // IF ITEM 3 DROP PERCENT == ITEM 1 DROP PERCENT, GIVE SCORE EQUAL AS IF ITEM WAS IN TOP 2
-                    if (item_1_dp === item_3_dp)
+                    if (quest_id.includes("H") && quest_filter === "filter-normal")
                     {
-                        quest_score += item_is_in_top_2_score;
+                        //  QUEST INCLUDES 'H' AND QUEST FILTER IS SET TO NORMAL, REMOVE QUEST
+                        filter_exclude_quest = true;
                     }
-                    else
+                    else if (!quest_id.includes("H") && quest_filter === "filter-hard")
                     {
-                        quest_score += item_is_in_3rd_slot;
+                        // QUEST DOESN'T INCLUDE 'H' AND QUEST FILTER IS SET TO HARD, REMOVE QUEST
+                        filter_exclude_quest = true;
                     }
-
                 }
 
-                // CHECK SUBDROPS
-                for (let i = 0 ; i < quest_subdrops.length ; i++)
+                if (!filter_exclude_quest)
                 {
-                    if (total_recipe.has(quest_subdrops[i])) { quest_score += item_is_in_subitem_score; }
-                }
+                    let item_1_name = quest_data.get("item_1").item_name;       // OBJECT
+                    let item_2_name = quest_data.get("item_2").item_name;       // OBJECT
+                    let item_3_name = quest_data.get("item_3").item_name;       // OBJECT
+                    let item_1_dp = quest_data.get("item_1").drop_percent;      // OBJECT
+                    let item_3_dp = quest_data.get("item_3").drop_percent;      // OBJECT
+                    let quest_subdrops = quest_data.get("subdrops");            // ARRAY
 
-                if (quest_score !== 0)
-                {
-                    quest_score_map.set(quest_id, quest_score);
+                    let quest_score = 0;
+
+                    // CHECK ITEM 1 - 3
+                    if (total_recipe.has(item_1_name)) { quest_score += item_is_in_top_2_score; }
+                    if (total_recipe.has(item_2_name)) { quest_score += item_is_in_top_2_score; }
+                    if (total_recipe.has(item_3_name))
+                    {
+                        // IF ITEM 3 DROP PERCENT == ITEM 1 DROP PERCENT, GIVE SCORE EQUAL AS IF ITEM WAS IN TOP 2
+                        if (item_1_dp === item_3_dp)
+                        {
+                            quest_score += item_is_in_top_2_score;
+                        }
+                        else
+                        {
+                            quest_score += item_is_in_3rd_slot;
+                        }
+
+                    }
+
+                    // CHECK SUBDROPS
+                    for (let i = 0 ; i < quest_subdrops.length ; i++)
+                    {
+                        if (total_recipe.has(quest_subdrops[i])) { quest_score += item_is_in_subitem_score; }
+                    }
+
+                    // IF QUEST SCORE IS NOT ZERO, ADD TO QUEST TABLE
+                    if (quest_score !== 0)
+                    {
+                        quest_score_map.set(quest_id, quest_score);
+                    }
                 }
             }
         }
@@ -147,6 +168,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
 
                 let subdrops = get_quest_data(quest_id, "subdrops");
 
+                // APPLY COLOR ACCORDING TO QUEST SCORE
                 let quest_score_color = "";
                 if (quest_score >= 2)
                 {

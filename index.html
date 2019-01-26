@@ -151,6 +151,17 @@
        value="19"
        onchange="change_max_quest_chapter()">
 <br><br>
+
+<label for="filter-all-quests">Show All Quests</label>
+<input id="filter-all-quests" type="radio" name="filter-option" value="all-quests" onclick="change_quest_filter()" checked>
+<br>
+<label for="filter-normal-quests">Show Normal Quests</label>
+<input id="filter-normal-quests" type="radio" name="filter-option" value="normal-quests" onclick="change_quest_filter()">
+<br>
+<label for="filter-hard-quests">Show Hard Quests</label>
+<input id="filter-hard-quests" type="radio" name="filter-option" value="hard-quests" onclick="change_quest_filter()">
+
+<br><br>
 <label for="save-settings-button">save settings (writes a cookie)</label>
 <button id="save-settings-button" type="button" onclick="save_cookie()">save settings</button>
 <br>

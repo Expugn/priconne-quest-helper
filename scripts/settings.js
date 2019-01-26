@@ -5,6 +5,7 @@ let ascending_sort_quest_score;         // default = false
 let hide_quest_score;                   // default = false
 let min_quest_chapter;                  // default = 1
 let max_quest_chapter;                  // default = whatever is the highest chapter
+let quest_filter;                       // default = filter-all
 
 let quest_shown_value_default;
 let ascending_sort_quest_list_default;
@@ -12,6 +13,7 @@ let ascending_sort_quest_score_default;
 let hide_quest_score_default;
 let min_quest_chapter_default;
 let max_quest_chapter_default;
+let quest_filter_default;
 
 
 function init_settings()
@@ -34,6 +36,20 @@ function init_settings()
 
     max_quest_chapter_default = document.getElementById("max-quest-chapter").value;
     max_quest_chapter = max_quest_chapter_default;
+
+    if (document.getElementById("filter-all-quests").checked)
+    {
+        quest_filter_default = "filter-all";
+    }
+    else if (document.getElementById("filter-normal-quests").checked)
+    {
+        quest_filter_default = "filter-normal";
+    }
+    else if (document.getElementById("filter-hard-quests").checked)
+    {
+        quest_filter_default = "filter-hard";
+    }
+    quest_filter = quest_filter_default;
 
     console.log("[Settings] - Settings are initialized!");
 }
@@ -146,6 +162,26 @@ function change_max_quest_chapter()
     refresh_quest_table();
 }
 
+function change_quest_filter()
+{
+    if (document.getElementById("filter-all-quests").checked)
+    {
+        quest_filter = "filter-all";
+    }
+    else if (document.getElementById("filter-normal-quests").checked)
+    {
+        quest_filter = "filter-normal";
+    }
+    else if (document.getElementById("filter-hard-quests").checked)
+    {
+        quest_filter = "filter-hard";
+    }
+
+    console.log("[Settings] - Quest Filter Changed to: " + quest_filter);
+
+    refresh_quest_table();
+}
+
 function toggle_simple_mode()
 {
     if(window.location.hash)
@@ -196,8 +232,9 @@ function save_cookie()
     Cookies.set('hide_quest_score', hide_quest_score, { expires: 365});
     Cookies.set('min_quest_chapter', min_quest_chapter, { expires: 365});
     Cookies.set('max_quest_chapter', max_quest_chapter, { expires: 365});
+    Cookies.set('quest_filter', quest_filter, { expires: 365 });
 
-    alert("Settings saved!");
+    alert("Your settings have been saved!");
     console.log("[Settings] - Cookie has been baked.");
 }
 
@@ -213,13 +250,14 @@ function delete_cookie()
         Cookies.remove('hide_quest_score');
         Cookies.remove('min_quest_chapter');
         Cookies.remove('max_quest_chapter');
+        Cookies.remove('quest_filter');
 
-        alert("Your saved settings has been deleted.");
+        alert("Your saved settings have been deleted.");
         console.log("[Settings] - Cookie has been eaten.");
     }
     else
     {
-        alert("You do not have any saved settings.");
+        alert("You did not save any settings.");
     }
 }
 
@@ -236,6 +274,24 @@ function read_cookie()
         check_checkbox("hide-quest-score", hide_quest_score);
         document.getElementById("min-quest-chapter").value = min_quest_chapter;
         document.getElementById("max-quest-chapter").value = max_quest_chapter;
+        if (quest_filter === "filter-all")
+        {
+            check_checkbox("filter-all-quests", true);
+            check_checkbox("filter-normal-quests", false);
+            check_checkbox("filter-hard-quests", false);
+        }
+        else if (quest_filter === "filter-normal")
+        {
+            check_checkbox("filter-all-quests", false);
+            check_checkbox("filter-normal-quests", true);
+            check_checkbox("filter-hard-quests", false);
+        }
+        else if (quest_filter === "filter-hard")
+        {
+            check_checkbox("filter-all-quests", false);
+            check_checkbox("filter-normal-quests", false);
+            check_checkbox("filter-hard-quests", true);
+        }
 
         console.log("[Settings] Cookie settings have been loaded.");
     }
@@ -258,6 +314,7 @@ function reset_settings()
         hide_quest_score = hide_quest_score_default;
         min_quest_chapter = min_quest_chapter_default;
         max_quest_chapter = max_quest_chapter_default;
+        quest_filter = quest_filter_default;
     }
 
     document.getElementById("quest-shown-amt").value = quest_shown_value;
@@ -266,6 +323,24 @@ function reset_settings()
     check_checkbox("hide-quest-score", hide_quest_score);
     document.getElementById("min-quest-chapter").value = min_quest_chapter;
     document.getElementById("max-quest-chapter").value = max_quest_chapter;
+    if (quest_filter === "filter-all")
+    {
+        check_checkbox("filter-all-quests", true);
+        check_checkbox("filter-normal-quests", false);
+        check_checkbox("filter-hard-quests", false);
+    }
+    else if (quest_filter === "filter-normal")
+    {
+        check_checkbox("filter-all-quests", false);
+        check_checkbox("filter-normal-quests", true);
+        check_checkbox("filter-hard-quests", false);
+    }
+    else if (quest_filter === "filter-hard")
+    {
+        check_checkbox("filter-all-quests", false);
+        check_checkbox("filter-normal-quests", false);
+        check_checkbox("filter-hard-quests", true);
+    }
 
     alert("Settings have been reset.");
     refresh_quest_table();
@@ -282,7 +357,8 @@ function read_settings()
             "Sort by Ascending? (Quest Score): " + Cookies.get('ascending_sort_quest_score') + "\n" +
             "Hide Quest Score?: " + Cookies.get('hide_quest_score') + "\n" +
             "Lowest Quest Chapter Displayed: " + Cookies.get('min_quest_chapter') + "\n" +
-            "Highest Quest Chapter Displayed: " + Cookies.get('max_quest_chapter');
+            "Highest Quest Chapter Displayed: " + Cookies.get('max_quest_chapter') + "\n" +
+            "Quest Filter: " + Cookies.get('quest_filter');
         alert(cookie_string);
     }
     else
@@ -299,6 +375,7 @@ function set_values_from_cookie()
     hide_quest_score = Cookies.get('hide_quest_score') === 'true';
     min_quest_chapter = parseInt(Cookies.get('min_quest_chapter'));
     max_quest_chapter = parseInt(Cookies.get('max_quest_chapter'));
+    quest_filter = Cookies.get('quest_filter');
 
     // CHECK IF ANY VALUES ARE UNDEFINED
     // IF SO, SET TO DEFAULT
@@ -308,6 +385,7 @@ function set_values_from_cookie()
     hide_quest_score = (hide_quest_score === undefined ? hide_quest_score_default : hide_quest_score);
     min_quest_chapter = (min_quest_chapter === undefined ? min_quest_chapter_default : min_quest_chapter);
     max_quest_chapter = (max_quest_chapter === undefined ? max_quest_chapter_default : max_quest_chapter);
+    quest_filter = (quest_filter === undefined ? quest_filter_default : quest_filter);
 }
 
 function is_cookies_exist()
@@ -318,8 +396,15 @@ function is_cookies_exist()
     let hide_quest_score_exists = Cookies.get('hide_quest_score') !== undefined;
     let min_quest_chapter_exists = Cookies.get('min_quest_chapter') !== undefined;
     let max_quest_chapter_exists = Cookies.get('max_quest_chapter') !== undefined;
+    let quest_filter_exists = Cookies.get('quest_filter') !== undefined;
 
-    return quest_shown_value_exists || ascending_sort_quest_list_exists || ascending_sort_quest_score_exists || hide_quest_score_exists || min_quest_chapter_exists || max_quest_chapter_exists;
+    return quest_shown_value_exists ||
+        ascending_sort_quest_list_exists ||
+        ascending_sort_quest_score_exists ||
+        hide_quest_score_exists ||
+        min_quest_chapter_exists ||
+        max_quest_chapter_exists ||
+        quest_filter_exists;
 }
 
 function reload()
