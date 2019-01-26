@@ -147,10 +147,24 @@ function build_recommended_quest_table(all_recipe_maps_array)
 
                 let subdrops = get_quest_data(quest_id, "subdrops");
 
+                let quest_score_color = "";
+                if (quest_score >= 2)
+                {
+                    quest_score_color = "quest-title-bg-green";
+                }
+                else if (quest_score >= 1)
+                {
+                    quest_score_color = "quest-title-bg-yellow";
+                }
+                else
+                {
+                    quest_score_color = "quest-title-bg-red";
+                }
+
                 table_html += "<tr>";
 
                 // QUEST NAME
-                table_html += "<th height='64' width='144'><h3 class=\"quest-title\">" + quest_id.replace("H", " <span style=\"color: #ff4d4d\">H</span>") + "</h3></th>";
+                table_html += "<th height='64' width='144'><h3 class=\"quest-title " + quest_score_color + "\">" + quest_id.replace("H", " <span style=\"color: #ff4d4d\">H</span>") + "</h3></th>";
 
                 // DIVIDER
                 table_html += "<th>";
@@ -204,7 +218,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     table_html += "</th>";
 
                     // QUEST POINTS
-                    table_html += "<th height='64' width='144'><h3 class=\"quest-title\">" + quest_score + " pts</h3></th>";
+                    table_html += "<th height='64' width='144'><h3 class=\"quest-title " + quest_score_color + "\">" + quest_score + " pts</h3></th>";
                 }
 
                 // END TABLE ROW

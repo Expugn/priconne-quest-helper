@@ -231,6 +231,18 @@ img.quest-item-image {
     white-space: nowrap;
 }
 
+.quest-title-bg-green {
+    background-color: rgba(153, 255, 132, 0.5) !important;
+}
+
+.quest-title-bg-yellow {
+    background-color: rgba(251, 255, 28, 0.5) !important;
+}
+
+.quest-title-bg-red {
+    background-color: rgba(239, 14, 14, 0.5) !important;
+}
+
 .quest-item-divider {
     opacity: 0 !important;
     box-shadow: 0 0 0 0, 0 0 0 0, 0 0 !important;
