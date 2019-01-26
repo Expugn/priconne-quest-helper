@@ -1400,7 +1400,7 @@
   "14-9": {
     "item_1": {"item_name": "Great Sage Gem Fragment", "drop_percent": 36},
     "item_2": {"item_name": "High Angel Rod Fragment", "drop_percent": 36},
-    "item_3": {"item_name": "Elemental Heart Fragment", "drop_percent": 24},
+    "item_3": {"item_name": "Dragon's Tear Fragment", "drop_percent": 24},
     "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "14-10": {
