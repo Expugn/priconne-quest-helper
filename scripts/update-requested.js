@@ -1,4 +1,29 @@
-function update_requested()
+function update_requested(modified_item)
+{
+    remove_item_from_disabled_items(modified_item.id.substring(0, modified_item.id.length - 4));
+    build_data();
+}
+
+function remove_item_from_disabled_items(item_id)
+{
+    let item_name = document.getElementById(item_id).title;
+    let item_recipe = get_recipe(item_name, 1);
+
+    for (let [item, value] of item_recipe)
+    {
+        if (disabled_items.includes(item))
+        {
+            let index = disabled_items.indexOf(item);
+            if (index > -1)
+            {
+                disabled_items.splice(index, 1);
+                console.log("[Required Items] - Re-enabled \"" + item + "\" due to an updated \"" + item_name + "\" amount.")
+            }
+        }
+    }
+}
+
+function build_data()
 {
     /* COLLECT ALL SELECTED ITEM DATA */
     let mergedItemMap = new Map([...read_common(), ...read_copper(), ...read_silver(), ...read_gold(), ...read_purple()]);
