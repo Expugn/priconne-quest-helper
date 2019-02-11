@@ -18,7 +18,7 @@ function remove_item_from_disabled_items(item_id)
             {
                 disabled_items.splice(index, 1);
                 console.log("[Required Items] - Re-enabled \"" + item + "\" due to an updated \"" + item_name + "\" amount.");
-                toastr.info("<b>" + item + "</b> has been re-enabled.", "<i>" + item_name + "</i> Amount Updated");
+                //toastr.info("<b>" + item + "</b> has been re-enabled.", "<i>" + item_name + "</i> Amount Updated");
             }
         }
     }
