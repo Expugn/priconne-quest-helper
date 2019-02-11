@@ -191,6 +191,7 @@ function toggle_enabled_item(item_name)
         }
 
         console.log("[Required Items] - Re-enabled " + item_name);
+        //toastr.info(item_name, "Enabled");
     }
     else
     {
@@ -198,6 +199,7 @@ function toggle_enabled_item(item_name)
         disabled_items.push(item_name);
 
         console.log("[Required Items] - Disabled " + item_name);
+        //toastr.info(item_name, "Disabled");
     }
     refresh_quest_table();
     document.getElementById("request-button-" + item_name.split(' ').join('_')).classList.toggle("low-opacity");

@@ -39,6 +39,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"> </script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <script src="scripts/include-html.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <script src="scripts/read-equipment-json.js"></script>
     <script src="scripts/read-quest-json.js"></script>
     <script src="scripts/settings.js"></script>
@@ -53,8 +54,10 @@
     <script src="scripts/read-purple.js"></script>
     <script src="scripts/update-requested.js"></script>
     <script src="scripts/collapsible-animate.js"></script>
+    <script src="scripts/toastrOptions.js"></script>
 
     <!-- CSS STYLE SHEETS -->
+    <link rel="stylesheet" href="css/toastr.css"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/webpage.css">
     <link rel="stylesheet" href="css/item_table.css">
@@ -204,6 +207,8 @@
     init_settings();
 
     includeHTML();
+
+    setToastrOptions();
 
     window.onload = function () {
         enableCollapsible();

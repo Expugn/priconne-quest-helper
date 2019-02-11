@@ -17,7 +17,8 @@ function remove_item_from_disabled_items(item_id)
             if (index > -1)
             {
                 disabled_items.splice(index, 1);
-                console.log("[Required Items] - Re-enabled \"" + item + "\" due to an updated \"" + item_name + "\" amount.")
+                console.log("[Required Items] - Re-enabled \"" + item + "\" due to an updated \"" + item_name + "\" amount.");
+                toastr.info("<b>" + item + "</b> has been re-enabled.", "<i>" + item_name + "</i> Amount Updated");
             }
         }
     }
@@ -37,9 +38,6 @@ function build_data()
     {
         recipeArray.push(get_recipe(key, value));
     }
-
-    /* IF RECIPE ARRAY IS EMPTY, BRING BACK TIPS */
-
 
     /* FIGURE OUT TOTAL INGREDIENTS */
     figure_out_total_ingredients(recipeArray);

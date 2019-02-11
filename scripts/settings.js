@@ -234,7 +234,8 @@ function save_cookie()
     Cookies.set('max_quest_chapter', max_quest_chapter, { expires: 365});
     Cookies.set('quest_filter', quest_filter, { expires: 365 });
 
-    alert("Your settings have been saved!");
+    //alert("Your settings have been saved!");
+    toastr.success("Your settings have been saved!");
     console.log("[Settings] - Cookie has been baked.");
 }
 
@@ -252,12 +253,14 @@ function delete_cookie()
         Cookies.remove('max_quest_chapter');
         Cookies.remove('quest_filter');
 
-        alert("Your saved settings have been deleted.");
+        //alert("Your saved settings have been deleted.");
+        toastr.success("Your saved settings have been deleted.");
         console.log("[Settings] - Cookie has been eaten.");
     }
     else
     {
-        alert("You did not save any settings.");
+        //alert("You did not save any settings.");
+        toastr.error("You did not save any settings.");
     }
 }
 
@@ -342,7 +345,8 @@ function reset_settings()
         check_checkbox("filter-hard-quests", true);
     }
 
-    alert("Settings have been reset.");
+    //alert("Settings have been reset.");
+    toastr.success("Settings have been reset.");
     refresh_quest_table();
 }
 
@@ -363,7 +367,8 @@ function read_settings()
     }
     else
     {
-        alert("You did not save any settings.");
+        //alert("You did not save any settings.");
+        toastr.error("You did not save any settings.");
     }
 }
 
