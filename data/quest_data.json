@@ -1767,7 +1767,7 @@
     "item_1": {"item_name": "Fairy King's Guardian Stone Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Ocean God's Earrings Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Moon Cestus Fragment", "drop_percent": 24},
-    "subdrops": [ "Moon Bracelet Fragment", "Guardian Shield Fragment", "Heavenly Robe Fragment", "Artemis Bow Fragment", "Hawk God's Sword Fragment" ]
+    "subdrops": [ "Hawk God's Sword Fragment", "Artemis Bow Fragment", "Heavenly Robe Fragment", "Guardian Shield Fragment", "Moon Bracelet Fragment" ]
   },
   "18-3": {
     "item_1": {"item_name": "Ocean God's Earrings Fragment", "drop_percent": 36},
@@ -1779,7 +1779,7 @@
     "item_1": {"item_name": "Astrograph Buckler Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Millennium Earrings Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Zero Frost Lance Fragment", "drop_percent": 24},
-    "subdrops": [ "Moon Bracelet Fragment", "Guardian Shield Fragment", "Heavenly Robe Fragment", "Artemis Bow Fragment", "Hawk God's Sword Fragment" ]
+    "subdrops": [ "Hawk God's Sword Fragment", "Artemis Bow Fragment", "Heavenly Robe Fragment", "Guardian Shield Fragment", "Moon Bracelet Fragment" ]
   },
   "18-5": {
     "item_1": {"item_name": "Aegis Coat Fragment", "drop_percent": 36},
@@ -1797,7 +1797,7 @@
     "item_1": {"item_name": "Phantasm Mail Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Millennium Earrings Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Necrodim Axe Fragment", "drop_percent": 24},
-    "subdrops": [ "Moon Bracelet Fragment", "Guardian Shield Fragment", "Heavenly Robe Fragment", "Artemis Bow Fragment", "Hawk God's Sword Fragment" ]
+    "subdrops": [ "Hawk God's Sword Fragment", "Artemis Bow Fragment", "Heavenly Robe Fragment", "Guardian Shield Fragment", "Moon Bracelet Fragment" ]
   },
   "18-8": {
     "item_1": {"item_name": "Azure Armor Fragment", "drop_percent": 36},
@@ -1815,7 +1815,7 @@
     "item_1": {"item_name": "Aegis Coat Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Millennium Earrings Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Lightning Blade Fragment", "drop_percent": 24},
-    "subdrops": [ "Moon Bracelet Fragment", "Guardian Shield Fragment", "Heavenly Robe Fragment", "Artemis Bow Fragment", "Hawk God's Sword Fragment" ]
+    "subdrops": [ "Hawk God's Sword Fragment", "Artemis Bow Fragment", "Heavenly Robe Fragment", "Guardian Shield Fragment", "Moon Bracelet Fragment" ]
   },
   "18-11": {
     "item_1": {"item_name": "Mourning Crown Fragment", "drop_percent": 36},
@@ -1833,7 +1833,7 @@
     "item_1": {"item_name": "Shrine Maiden's Purity Cloth Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Mourning Crown Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Ocean God's Earrings Fragment", "drop_percent": 24},
-    "subdrops": [ "Moon Bracelet Fragment", "Guardian Shield Fragment", "Heavenly Robe Fragment", "Artemis Bow Fragment", "Hawk God's Sword Fragment" ]
+    "subdrops": [ "Hawk God's Sword Fragment", "Artemis Bow Fragment", "Heavenly Robe Fragment", "Guardian Shield Fragment", "Moon Bracelet Fragment" ]
   },
   "18-14": {
     "item_1": {"item_name": "Phantasm Mail Fragment", "drop_percent": 36},
@@ -1869,7 +1869,7 @@
     "item_1": {"item_name": "Azure Armor Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Phantasm Mail Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Fairy King's Guardian Stone Fragment", "drop_percent": 24},
-    "subdrops": [ "Moon Bracelet Fragment", "Guardian Shield Fragment", "Heavenly Robe Fragment", "Artemis Bow Fragment", "Hawk God's Sword Fragment" ]
+    "subdrops": [ "Hawk God's Sword Fragment", "Artemis Bow Fragment", "Heavenly Robe Fragment", "Guardian Shield Fragment", "Moon Bracelet Fragment" ]
   },
   "19-3": {
     "item_1": {"item_name": "Mourning Crown Fragment", "drop_percent": 36},
@@ -1881,7 +1881,7 @@
     "item_1": {"item_name": "Lava Edge Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Shrine Maiden's Purity Cloth Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Millennium Earrings Fragment", "drop_percent": 24},
-    "subdrops": [ "Moon Bracelet Fragment", "Guardian Shield Fragment", "Heavenly Robe Fragment", "Artemis Bow Fragment", "Hawk God's Sword Fragment" ]
+    "subdrops": [ "Hawk God's Sword Fragment", "Artemis Bow Fragment", "Heavenly Robe Fragment", "Guardian Shield Fragment", "Moon Bracelet Fragment" ]
   },
   "19-5": {
     "item_1": {"item_name": "Dawn's Holy Sword Fragment", "drop_percent": 36},
@@ -1899,7 +1899,7 @@
     "item_1": {"item_name": "Flowing Azure Blade Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Abyss Bow Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Shrine Maiden's Purity Cloth Fragment", "drop_percent": 24},
-    "subdrops": [ "Moon Bracelet Fragment", "Guardian Shield Fragment", "Heavenly Robe Fragment", "Artemis Bow Fragment", "Hawk God's Sword Fragment" ]
+    "subdrops": [ "Hawk God's Sword Fragment", "Artemis Bow Fragment", "Heavenly Robe Fragment", "Guardian Shield Fragment", "Moon Bracelet Fragment" ]
   },
   "19-8": {
     "item_1": {"item_name": "Divine Blossom Rod Fragment", "drop_percent": 36},
@@ -1917,7 +1917,7 @@
     "item_1": {"item_name": "Flowing Azure Blade Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Astrograph Buckler Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Aegis Coat Fragment", "drop_percent": 24},
-    "subdrops": [ "Moon Bracelet Fragment", "Guardian Shield Fragment", "Heavenly Robe Fragment", "Artemis Bow Fragment", "Hawk God's Sword Fragment" ]
+    "subdrops": [ "Hawk God's Sword Fragment", "Artemis Bow Fragment", "Heavenly Robe Fragment", "Guardian Shield Fragment", "Moon Bracelet Fragment" ]
   },
   "19-11": {
     "item_1": {"item_name": "Divine Blossom Rod Fragment", "drop_percent": 36},
@@ -1935,7 +1935,7 @@
     "item_1": {"item_name": "Abyss Bow Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Aegis Coat Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Millennium Earrings Fragment", "drop_percent": 24},
-    "subdrops": [ "Moon Bracelet Fragment", "Guardian Shield Fragment", "Heavenly Robe Fragment", "Artemis Bow Fragment", "Hawk God's Sword Fragment" ]
+    "subdrops": [ "Hawk God's Sword Fragment", "Artemis Bow Fragment", "Heavenly Robe Fragment", "Guardian Shield Fragment", "Moon Bracelet Fragment" ]
   },
   "19-14": {
     "item_1": {"item_name": "Genesis Rod Fragment", "drop_percent": 36},
