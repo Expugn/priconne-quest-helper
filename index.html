@@ -224,24 +224,21 @@
     <p class="footer no-text-shadow-footer"><a id="simple-or-fancy-text" href="https://expugn.github.io/priconne-quest-helper/" style="text-decoration: none; color: aliceblue" onclick="reload()"></a></p>
 </footer>
 
-<!-- BUILD HTML FROM EXTERNAL FILES -->
+<!-- RUN JAVASCRIPT -->
 <script>
     toggle_simple_mode();
-
     init_settings();
-
     includeHTML();
-
     setToastrOptions();
 
     window.onload = function () {
         enableCollapsible();
-
-        //print_all_quests();       // FOR DEBUG USE ONLY!
-
         read_cookie();
-
         build_item_tables();
+
+        /* DEBUG FUNCTIONS */
+        //print_all_quests();                   // FOR DEBUG USE ONLY!
+        //print_all_items_and_components();     // FOR DEBUG USE ONLY!
     };
 </script>
 

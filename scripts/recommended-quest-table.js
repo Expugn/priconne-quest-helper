@@ -290,7 +290,7 @@ function print_all_quests()
     let table_html = "";
 
     table_html += "<tbody>";
-    for (let [quest_id, quest_data] of quests)
+    for (let [quest_id, quest_data] of quest_map)
     {
         let item_1_is_fragment = quest_data.get("item_1").item_name.includes("Fragment");
         let item_2_is_fragment = quest_data.get("item_2").item_name.includes("Fragment");
