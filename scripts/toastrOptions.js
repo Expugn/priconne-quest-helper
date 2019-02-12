@@ -1,7 +1,7 @@
 function setToastrOptions()
 {
     toastr.options.preventDuplicates = true;
-    toastr.options.positionClass = "toast-bottom-right";
+    toastr.options.positionClass = "toast-top-center";
     //toastr.options.progressBar = true;
 }
 

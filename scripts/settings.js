@@ -206,7 +206,7 @@ function change_item_amount_per_row()
     }
 
     console.log("[Settings] - Item Amount Per Row Updated to: " + item_amount_per_row);
-    
+
     build_item_tables();
 }
 
