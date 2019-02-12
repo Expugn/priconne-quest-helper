@@ -32,7 +32,7 @@
 
     <!-- TWITTER META DATA -->
     <meta property="twitter:title" content="Princess Connect! Re:Dive - Quest Helper">
-    <meta property="twitter:image" content="images/webpage/icon_unit_101211.png">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/icon_unit_101211.png">
     <meta property="twitter:description" content="Quest Choosing Assistance for the Game 'Princess Connect! Re:Dive'.">
 
     <!-- SCRIPTS -->
@@ -40,10 +40,12 @@
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <script src="scripts/include-html.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
     <script src="scripts/read-equipment-json.js"></script>
     <script src="scripts/read-quest-json.js"></script>
     <script src="scripts/settings.js"></script>
     <script src="scripts/sort-options.js"></script>
+    <script src="scripts/build-item-table.js"></script>
     <script src="scripts/recipe-reader.js"></script>
     <script src="scripts/recommended-quest-table.js"></script>
     <script src="scripts/requested-item-table.js"></script>
@@ -58,6 +60,7 @@
 
     <!-- CSS STYLE SHEETS -->
     <link rel="stylesheet" href="css/toastr.css"/>
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/webpage.css">
     <link rel="stylesheet" href="css/item_table.css">
@@ -124,7 +127,9 @@
        max="30"
        value="10"
        onchange="change_quest_shown_amt()">
+
 <br><br>
+
 <label for="sort-ascending-quest-list">sort by ascending: quest list (Chapter 1 -> Chapter 2 -> ...)</label>
 <input id="sort-ascending-quest-list"
        type="checkbox"
@@ -132,21 +137,28 @@
        value="ascending_sort_quest_list"
        checked
        onchange="toggle_ascending_sort_quest_list()">
+
 <br><br>
+
 <label for="sort-ascending-quest-score">sort by ascending: quest score (0.5 -> 0.75 -> ...)</label>
 <input id="sort-ascending-quest-score"
        type="checkbox"
        name="ascending_sort: quest_score"
        value="ascending_sort_quest_score"
        onchange="toggle_ascending_sort_quest_score()">
+
 <br><br>
+
 <label for="hide-quest-score">hide quest score</label>
 <input id="hide-quest-score"
        type="checkbox"
        name="hide quest score"
        value="hide_quest_score"
+       checked
        onchange="toggle_hide_quest_score()">
+
 <br><br>
+
 <label for="min-quest-chapter">lowest quest chapter displayed</label>
 <input id="min-quest-chapter"
        class="item-input"
@@ -164,6 +176,7 @@
        max="19"
        value="19"
        onchange="change_max_quest_chapter()">
+
 <br><br>
 
 <label for="filter-all-quests">Show All Quests</label>
@@ -176,6 +189,18 @@
 <input id="filter-hard-quests" type="radio" name="filter-option" value="hard-quests" onclick="change_quest_filter()">
 
 <br><br>
+
+<label for="item-amount-per-row">items displayed per row (min 1, max 15)</label>
+<input id="item-amount-per-row"
+       class="item-input"
+       type="number"
+       min="1"
+       max="15"
+       value="7"
+       onchange="change_item_amount_per_row()">
+
+<br><br>
+
 <label for="save-settings-button">save settings (writes a cookie)</label>
 <button id="save-settings-button" type="button" onclick="save_cookie()">save settings</button>
 <br>
@@ -188,14 +213,13 @@
 <label for="read-settings-button">displays your saved settings</label>
 <button id="read-settings-button" type="button" onclick="read_settings()">read saved settings</button>
 
-
 <hr> <!-- LINE BREAK -->
 
 </body>
 
 <footer>
     <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer" src="images/webpage/HAhaa.png" alt=""></p>
-    <p class="footer">Last Quest Update: <span style="color: limegreen">January 18, 2019</span></p>
+    <p class="footer">Last Quest Update: <span style="color: #6DFF7F">January 18, 2019</span></p>
     <p class="footer no-text-shadow-footer"><a href="https://github.com/Expugn/priconne-quest-helper" target="_blank" style="text-decoration: none; color: powderblue">[Github Source]</a></p>
     <p class="footer no-text-shadow-footer"><a id="simple-or-fancy-text" href="https://expugn.github.io/priconne-quest-helper/" style="text-decoration: none; color: aliceblue" onclick="reload()"></a></p>
 </footer>
@@ -212,8 +236,12 @@
 
     window.onload = function () {
         enableCollapsible();
+
         //print_all_quests();       // FOR DEBUG USE ONLY!
+
         read_cookie();
+
+        build_item_tables();
     };
 </script>
 

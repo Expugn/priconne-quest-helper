@@ -6,6 +6,7 @@ let hide_quest_score;                   // default = false
 let min_quest_chapter;                  // default = 1
 let max_quest_chapter;                  // default = whatever is the highest chapter
 let quest_filter;                       // default = filter-all
+let item_amount_per_row;                // default = 7
 
 let quest_shown_value_default;
 let ascending_sort_quest_list_default;
@@ -14,6 +15,7 @@ let hide_quest_score_default;
 let min_quest_chapter_default;
 let max_quest_chapter_default;
 let quest_filter_default;
+let item_amount_per_row_default;
 
 
 function init_settings()
@@ -50,6 +52,9 @@ function init_settings()
         quest_filter_default = "filter-hard";
     }
     quest_filter = quest_filter_default;
+
+    item_amount_per_row_default = document.getElementById("item-amount-per-row").value;
+    item_amount_per_row = item_amount_per_row_default;
 
     console.log("[Settings] - Settings are initialized!");
 }
@@ -182,6 +187,29 @@ function change_quest_filter()
     refresh_quest_table();
 }
 
+function change_item_amount_per_row()
+{
+    const max_value = document.getElementById("item-amount-per-row").max;
+    const min_value = document.getElementById("item-amount-per-row").min;
+
+    item_amount_per_row = Math.round(document.getElementById("item-amount-per-row").value);
+
+    if (item_amount_per_row > max_value)
+    {
+        document.getElementById("item-amount-per-row").value = max_value;
+        item_amount_per_row = max_value;
+    }
+    if (item_amount_per_row < min_value)
+    {
+        document.getElementById("item-amount-per-row").value = min_value;
+        item_amount_per_row = min_value;
+    }
+
+    console.log("[Settings] - Item Amount Per Row Updated to: " + item_amount_per_row);
+    
+    build_item_tables();
+}
+
 function toggle_simple_mode()
 {
     if(window.location.hash)
@@ -233,6 +261,7 @@ function save_cookie()
     Cookies.set('min_quest_chapter', min_quest_chapter, { expires: 365});
     Cookies.set('max_quest_chapter', max_quest_chapter, { expires: 365});
     Cookies.set('quest_filter', quest_filter, { expires: 365 });
+    Cookies.set('item_amount_per_row', item_amount_per_row, { expires:365 });
 
     //alert("Your settings have been saved!");
     toastr.success("Your settings have been saved!");
@@ -252,6 +281,7 @@ function delete_cookie()
         Cookies.remove('min_quest_chapter');
         Cookies.remove('max_quest_chapter');
         Cookies.remove('quest_filter');
+        Cookies.remove('item_amount_per_row');
 
         //alert("Your saved settings have been deleted.");
         toastr.success("Your saved settings have been deleted.");
@@ -295,6 +325,7 @@ function read_cookie()
             check_checkbox("filter-normal-quests", false);
             check_checkbox("filter-hard-quests", true);
         }
+        document.getElementById("item-amount-per-row").value = item_amount_per_row;
 
         console.log("[Settings] Cookie settings have been loaded.");
     }
@@ -318,6 +349,7 @@ function reset_settings()
         min_quest_chapter = min_quest_chapter_default;
         max_quest_chapter = max_quest_chapter_default;
         quest_filter = quest_filter_default;
+        item_amount_per_row = item_amount_per_row_default;
     }
 
     document.getElementById("quest-shown-amt").value = quest_shown_value;
@@ -344,6 +376,7 @@ function reset_settings()
         check_checkbox("filter-normal-quests", false);
         check_checkbox("filter-hard-quests", true);
     }
+    document.getElementById("item-amount-per-row").value = item_amount_per_row;
 
     //alert("Settings have been reset.");
     toastr.success("Settings have been reset.");
@@ -362,7 +395,8 @@ function read_settings()
             "Hide Quest Score?: " + Cookies.get('hide_quest_score') + "\n" +
             "Lowest Quest Chapter Displayed: " + Cookies.get('min_quest_chapter') + "\n" +
             "Highest Quest Chapter Displayed: " + Cookies.get('max_quest_chapter') + "\n" +
-            "Quest Filter: " + Cookies.get('quest_filter');
+            "Quest Filter: " + Cookies.get('quest_filter') + "\n" +
+            "Item Amount Per Row: " + Cookies.get('item_amount_per_row');
         alert(cookie_string);
     }
     else
@@ -381,6 +415,7 @@ function set_values_from_cookie()
     min_quest_chapter = parseInt(Cookies.get('min_quest_chapter'));
     max_quest_chapter = parseInt(Cookies.get('max_quest_chapter'));
     quest_filter = Cookies.get('quest_filter');
+    item_amount_per_row = Cookies.get('item_amount_per_row');
 
     // CHECK IF ANY VALUES ARE UNDEFINED
     // IF SO, SET TO DEFAULT
@@ -391,6 +426,7 @@ function set_values_from_cookie()
     min_quest_chapter = (min_quest_chapter === undefined ? min_quest_chapter_default : min_quest_chapter);
     max_quest_chapter = (max_quest_chapter === undefined ? max_quest_chapter_default : max_quest_chapter);
     quest_filter = (quest_filter === undefined ? quest_filter_default : quest_filter);
+    item_amount_per_row = (item_amount_per_row === undefined ? item_amount_per_row_default : item_amount_per_row);
 }
 
 function is_cookies_exist()
@@ -402,6 +438,7 @@ function is_cookies_exist()
     let min_quest_chapter_exists = Cookies.get('min_quest_chapter') !== undefined;
     let max_quest_chapter_exists = Cookies.get('max_quest_chapter') !== undefined;
     let quest_filter_exists = Cookies.get('quest_filter') !== undefined;
+    let item_amount_per_row_exists = Cookies.get('item_amount_per_row') !== undefined;
 
     return quest_shown_value_exists ||
         ascending_sort_quest_list_exists ||
@@ -409,7 +446,8 @@ function is_cookies_exist()
         hide_quest_score_exists ||
         min_quest_chapter_exists ||
         max_quest_chapter_exists ||
-        quest_filter_exists;
+        quest_filter_exists ||
+        item_amount_per_row_exists;
 }
 
 function reload()

@@ -1,25 +1,31 @@
 let collapsible_retry_count = 0;
+let collapsible_ready = false;
+let collapsible_failed = false;
+
 function enableCollapsible()
 {
+    loadingToast();
+    const amt_of_collapsible_elements = 5;
     let coll = document.getElementsByClassName("collapsible");
 
-    if (coll.length < 5)
+    if (coll.length < amt_of_collapsible_elements)
     {
         if (collapsible_retry_count <= 100)
         {
-            console.log("[Collapsible] - Less than 5 elements detected... Page must not be done loading yet.\n\tWill pause for .5s and restart.\n\tCurrent Retry: " + collapsible_retry_count);
+            console.log("[Collapsible] - Less than " + amt_of_collapsible_elements + " elements detected... Page must not be done loading yet.\n\tWill pause for .5s and restart.\n\tCurrent Retry: " + collapsible_retry_count + "/100");
             setTimeout(function () {
                 collapsible_retry_count++;
-                enableCollapsible()
+                enableCollapsible();
             }, 500);
             return;
         }
         else
         {
             console.log("[Collapsible] - 100 retries have been performed.\n\tAbandoning task!");
+            collapsible_failed = true;
+            loadingToast();
             return;
         }
-
     }
 
     for (let i = 0; i < coll.length; i++) {
@@ -44,4 +50,7 @@ function enableCollapsible()
     }
 
     console.log("[Collapsible] - Enabled Collapsible Menus!");
+
+    collapsible_ready = true;
+    loadingToast();
 }
