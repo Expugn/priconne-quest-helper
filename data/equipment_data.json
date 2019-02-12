@@ -1083,7 +1083,7 @@
     "id": "gold-57",
     "has_fragments": true,
     "req_pieces": 20,
-    "req_items": [ "Shinobi Boots", "Opal Earrings", "Emerald Earrings" ]
+    "req_items": [ "Shinobi Shoes", "Opal Earrings", "Emerald Earrings" ]
   },
   "wizard_boots": {
     "name": "Wizard Boots",
