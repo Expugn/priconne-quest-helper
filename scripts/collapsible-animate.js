@@ -4,7 +4,6 @@ let collapsible_failed = false;
 
 function enableCollapsible()
 {
-    loadingToast();
     const amt_of_collapsible_elements = 5;
     let coll = document.getElementsByClassName("collapsible");
 

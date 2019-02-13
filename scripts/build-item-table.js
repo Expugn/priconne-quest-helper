@@ -4,7 +4,6 @@ let item_table_failed = false;
 
 function build_item_tables()
 {
-    loadingToast();
     const amt_of_item_tables = 5;
     let item_table_count = document.getElementsByClassName("itemTable");
 
