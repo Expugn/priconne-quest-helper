@@ -1,3 +1,5 @@
+let loadToastDisplayed = false;
+
 function setToastrOptions()
 {
     toastr.options.preventDuplicates = true;
@@ -9,7 +11,11 @@ function loadingToast()
 {
     if (collapsible_ready === false || item_table_ready === false)
     {
-        toastr.warning("Loading...", "Status", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
+        if (loadToastDisplayed === false)
+        {
+            toastr.warning("Loading...", "Status", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
+            loadToastDisplayed = true;
+        }
     }
     else
     {
