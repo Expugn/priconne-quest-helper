@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Princess Connect! Re:Dive - Quest Helper | Recipe Data</title>
+    <link rel="icon" href="images/webpage/icon_unit_101211.png">
+
+    <!-- META DATA -->
+    <meta name="author" content="S'pugn">
+    <meta name="description" content="Quest Choosing Assistance for the Game 'Princess Connect! Re:Dive'. | Recipe Data">
+    <meta name="keywords" content="Princess Connect Re:Dive, Quest Helper">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8">
+
+    <!-- OPEN GRAPH META DATA -->
+    <meta property="og:title" content="Princess Connect! Re:Dive - Quest Helper | Recipe Data">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/icon_unit_101211.png">
+    <meta property="og:description" content="Quest Choosing Assistance for the Game 'Princess Connect! Re:Dive'. | Recipe Data">
+    <meta property="og:url" content="https://expugn.github.io/priconne-quest-helper/">
+
+    <!-- TWITTER META DATA -->
+    <meta property="twitter:title" content="Princess Connect! Re:Dive - Quest Helper | Recipe Data">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/icon_unit_101211.png">
+    <meta property="twitter:description" content="Quest Choosing Assistance for the Game 'Princess Connect! Re:Dive'. | Recipe Data">
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="scripts/read-equipment-json.js"></script>
+
+    <!-- CSS STYLE SHEETS -->
+    <link rel="stylesheet" href="css/toastr.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/webpage.css">
+    <link rel="stylesheet" href="css/item_table.css">
+</head>
+<body>
+
+<div id="title-div" class="div-background-title no-background no-transition no-hover" onclick="">
+    <div id="title-text-div" class="title-hover no-background no-hover">
+        <h1 class="title">Princess Connect! Re:Dive - Quest Helper</h1>
+        <h2 id="sub-title" class="title">Recipe Data</h2>
+    </div>
+</div>
+
+<hr> <!-- LINE BREAK -->
+
+<div id="quest-data-div" class="request-info">
+    <table id="quest-data-table" class="centerTable"></table>
+</div>
+
+<br><br>
+<hr> <!-- LINE BREAK -->
+</body>
+
+<footer>
+    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer" src="images/webpage/HAhaa.png" alt=""></p>
+</footer>
+
+<script>
+    toastr.warning("Loading...", "Status", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
+    window.onload = function ()
+    {
+        setTimeout(function ()
+        {
+            let table_html = "";
+
+            table_html += "<tbody>";
+            for (let [item_name, item_data_map] of equipment_map)
+            {
+                let required_items = item_data_map.get("req_items");
+
+                table_html += "<tr>";
+
+                // ITEM NAME
+                table_html += "<th height='64' width='144'><h3 class=\"quest-title\">" + item_name + "</h3></th>";
+
+                // DIVIDER
+                table_html += "<th>";
+                table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
+                    + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
+                table_html += "</th>";
+
+                // ITEM
+                table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+                table_html += "<img class=\"quest-item-image\" title=\"" + item_name
+                    + "\" src=\"images/items/" + item_name.split(' ').join('_') + ".png\" alt=\"\">";
+                table_html += "</th>";
+
+                // DIVIDER
+                table_html += "<th>";
+                table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
+                    + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
+                table_html += "</th>";
+
+                if (item_data_map.get("has_fragments"))
+                {
+                    table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+                    table_html += "<img class=\"quest-item-image\" title=\"" + item_name + " Fragment"
+                        + "\" src=\"images/items/" + item_name.split(' ').join('_') + "_Fragment.png\" alt=\"\">";
+                    table_html += "<div class=\"requested-item-text\">\u00D7" + item_data_map.get("req_pieces") + "</div>";
+                    table_html += "</th>";
+                }
+                else
+                {
+                    table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+                    table_html += "<img class=\"quest-item-image low-opacity\" title=\"" + "Placeholder"
+                        + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
+                    table_html += "</th>";
+                }
+
+                for (let i = 0 ; i < 3 ; i++)
+                {
+                    if (required_items[i] !== undefined)
+                    {
+                        table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+                        table_html += "<img class=\"quest-item-image\" title=\"" + required_items[i]
+                            + "\" src=\"images/items/" + required_items[i].split(' ').join('_') + ".png\" alt=\"\">";
+                        table_html += "</th>";
+                    }
+                    else
+                    {
+                        table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+                        table_html += "<img class=\"quest-item-image low-opacity\" title=\"" + "Placeholder"
+                            + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
+                        table_html += "</th>";
+                    }
+                }
+
+                // END TABLE ROW
+                table_html += "</tr>";
+            }
+            table_html += "</body>";
+
+            document.getElementById("quest-data-table").innerHTML = table_html;
+
+            toastr.remove();
+            toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: false });
+        }, 1000);
+    }
+</script>
+</html>
