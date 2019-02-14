@@ -50,6 +50,9 @@ function enableCollapsible()
 
     console.log("[Collapsible] - Enabled Collapsible Menus!");
 
-    collapsible_ready = true;
-    loadingToast();
+    if (collapsible_ready === false)
+    {
+        collapsible_ready = true;
+        loadingToast();
+    }
 }

@@ -1,13 +1,20 @@
 # Princess Connect! Re:Dive Quest Helper<br>(priconne-quest-helper)
 
 URL: https://expugn.github.io/priconne-quest-helper/<br>
-Simple Mode: https://expugn.github.io/priconne-quest-helper/#simple
+Simple Mode: https://expugn.github.io/priconne-quest-helper/#simple<br><br>
+Quest Data: https://expugn.github.io/priconne-quest-helper/quest_data.html<br>
+Recipe Data: https://expugn.github.io/priconne-quest-helper/recipe_data.html
 
 Last Quest Update: `January 18, 2019`
 
 ## Information
 This is a tool to help you decide which is the best quest to farm to get
 whatever assortment of items you need to rank up your characters.
+
+I consider this project to be in BETA at the moment. The basic features 
+are all implemented but I wouldn't consider this project at it's current
+state to be the complete experience. Also many things may change and
+break in this time.
 
 ## Recommended Procedure On How To Use This Tool
 1. Open the tool URL in your phone or PC browser: (https://expugn.github.io/priconne-quest-helper/)<br>
@@ -49,17 +56,6 @@ Quest Data/Drop Rates/Equipment Recipes were taken from `GameWith`, `AppMedia`, 
 
 Images (Backgrounds, Items, Material Fragments, etc) were ripped from the `DMM Game Player` version of `Princess Connect! Re:Dive` via `AssetStudioGUI`.
 
-## Currently Known Supported Devices/Browsers
-While under development, the following browsers have been confirmed to work well:
-
-* Windows 10 PC
-  * Google Chrome
-* MacBook OSX
-  * Google Chrome
-  * Safari
-* Samsung S9 (Android)
-  * Samsung Internet
-  * Google Chrome
 
 ## Other Stuff
 This is a non-profit fan project with the purpose of practice and entertainment.<br>

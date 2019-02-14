@@ -109,8 +109,12 @@ function build_item_tables()
     document.getElementById("purple-item-table").innerHTML = purple_item_HTML;
 
     console.log("[Table Builder] - Item Tables Built!");
-    item_table_ready = true;
-    loadingToast();
+
+    if (item_table_ready === false)
+    {
+        item_table_ready = true;
+        loadingToast();
+    }
 }
 
 function add_item_image_to_table(count, item_HTML, item_name, item_id, rarity_class)
