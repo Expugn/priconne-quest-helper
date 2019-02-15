@@ -1372,8 +1372,8 @@
     "req_pieces": 35,
     "req_items": []
   },
-  "icon_equipment_105552": {
-    "name": "icon_equipment_105552",
+  "equipment_105552": {
+    "name": "equipment_105552",
     "id": "purple-26",
     "has_fragments": true,
     "req_pieces": 1,
@@ -1386,8 +1386,8 @@
     "req_pieces": 35,
     "req_items": []
   },
-  "icon_equipment_105582": {
-    "name": "icon_equipment_105582",
+  "equipment_105582": {
+    "name": "equipment_105582",
     "id": "purple-28",
     "has_fragments": true,
     "req_pieces": 1,
@@ -1400,8 +1400,8 @@
     "req_pieces": 35,
     "req_items": []
   },
-  "icon_equipment_105612": {
-    "name": "icon_equipment_105612",
+  "equipment_105612": {
+    "name": "equipment_105612",
     "id": "purple-30",
     "has_fragments": true,
     "req_pieces": 1,
