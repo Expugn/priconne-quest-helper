@@ -1965,7 +1965,7 @@
     "item_1": {"item_name": "Crimson Claw Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Gale Stinger Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Astrograph Buckler", "drop_percent": 24},
-    "subdrops": [ "", "", "", "", "" ]
+    "subdrops": [ "Crusader Plate Fragment", "Ice Claymore Fragment", "Violet Armor Fragment", "Dark Matter Edge Fragment", "Sun Amulet Fragment" ]
   },
   "20-2": {
     "item_1": {"item_name": "Divine Judgement Axe Fragment", "drop_percent": 36},
@@ -1977,7 +1977,7 @@
     "item_1": {"item_name": "Flowing Azure Blade Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Genesis Rod Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Azure Armor Fragment", "drop_percent": 24},
-    "subdrops": [ "", "", "", "", "" ]
+    "subdrops": [ "Gospel Tiara Fragment", "Justice God's Staff Fragment", "Phoenix Rod Fragment", "Necromancer Boots Fragment", "Dragon's Tear Fragment" ]
   },
   "20-4": {
     "item_1": {"item_name": "equipment_105582 Fragment", "drop_percent": 36},
@@ -2043,7 +2043,7 @@
     "item_1": {"item_name": "equipment_105612 Fragment", "drop_percent": 36},
     "item_2": {"item_name": "equipment_105552 Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Abyss Bow Fragment", "drop_percent": 24},
-    "subdrops": [ "", "", "", "", "" ]
+    "subdrops": [ "Gospel Tiara Fragment", "Justice God's Staff Fragment", "Phoenix Rod Fragment", "Necromancer Boots Fragment", "Dragon's Tear Fragment" ]
   },
   "20-1H": {
     "item_1": {"item_name": "equipment_105582 Fragment", "drop_percent": 72},
