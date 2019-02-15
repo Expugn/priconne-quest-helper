@@ -1372,18 +1372,39 @@
     "req_pieces": 35,
     "req_items": []
   },
+  "icon_equipment_105552": {
+    "name": "icon_equipment_105552",
+    "id": "purple-26",
+    "has_fragments": true,
+    "req_pieces": 0,
+    "req_items": []
+  },
   "ocean_gods_earrings": {
     "name": "Ocean God's Earrings",
-    "id": "purple-26",
+    "id": "purple-27",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
+  "icon_equipment_105582": {
+    "name": "icon_equipment_105582",
+    "id": "purple-28",
+    "has_fragments": true,
+    "req_pieces": 0,
+    "req_items": []
+  },
   "fairy_kings_guardian_stone": {
     "name": "Fairy King's Guardian Stone",
-    "id": "purple-27",
+    "id": "purple-29",
     "has_fragments": true,
     "req_pieces": 35,
+    "req_items": []
+  },
+  "icon_equipment_105612": {
+    "name": "icon_equipment_105612",
+    "id": "purple-30",
+    "has_fragments": true,
+    "req_pieces": 0,
     "req_items": []
   }
 }
