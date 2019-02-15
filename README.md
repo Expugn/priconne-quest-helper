@@ -5,7 +5,7 @@ Simple Mode: https://expugn.github.io/priconne-quest-helper/#simple<br><br>
 Quest Data: https://expugn.github.io/priconne-quest-helper/quest_data.html<br>
 Recipe Data: https://expugn.github.io/priconne-quest-helper/recipe_data.html
 
-Last Quest Update: `January 18, 2019`
+Last Quest Update: `February 15, 2019 (WIP)`
 
 ## Information
 This is a tool to help you decide which is the best quest to farm to get

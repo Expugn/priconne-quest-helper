@@ -19,7 +19,6 @@ let run_quest = $(function () {
                 quest_data.set("item_3", questData.item_3);
                 /** @namespace questData.subdrops */
                 quest_data.set("subdrops", questData.subdrops);
-
                 quest_map.set(i, quest_data);
             });
         }

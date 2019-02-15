@@ -225,8 +225,8 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 for (let i = 0 ; i < subdrops.length ; i++)
                 {
                     table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                    table_html += "<img class=\"quest-item-image" + (total_recipe.has(subdrops[i]) ? "" : " grayscale") + "\" title=\"" + subdrops[i]
-                        + "\" src=\"images/items/" + subdrops[i].split(' ').join('_') + ".png\" alt=\"\">";
+                    table_html += "<img class=\"quest-item-image" + (total_recipe.has(subdrops[i]) ? "" : " grayscale") + "\" title=\"" + ((subdrops[i] !== "") ? subdrops[i] : "???")
+                        + "\" src=\"images/items/" + ((subdrops[i] !== "") ? subdrops[i].split(' ').join('_') : "Placeholder") + ".png\" alt=\"\">";
                     table_html += "<div class=\"quest-percent-text\">20\u0025</div>";
                     table_html += "</th>";
                 }
