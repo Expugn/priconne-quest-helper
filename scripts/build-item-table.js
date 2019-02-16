@@ -204,3 +204,12 @@ function close_item_table(count, item_HTML, rarity_class)
 
     return item_HTML;
 }
+
+function clear_item_table()
+{
+    for (let [item_name, item_data_map] of equipment_map)
+    {
+        let item_id = item_data_map.get("id");
+        document.getElementById(item_id + "-amt").value = 0;
+    }
+}

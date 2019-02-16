@@ -43,6 +43,7 @@
 
     <script src="scripts/read-equipment-json.js"></script>
     <script src="scripts/read-quest-json.js"></script>
+    <script src="scripts/projects.js"></script>
     <script src="scripts/settings.js"></script>
     <script src="scripts/sort-options.js"></script>
     <script src="scripts/build-item-table.js"></script>
@@ -75,7 +76,7 @@
     </div>
 </div>
 
-<hr> <!-- LINE BREAK -->
+<hr> <!-- LINE BREAK --> <!-- =========================================================== ITEM TABLES -->
 
 <!-- COMMON ITEMS -->
 <div id="common-div" class="div-background div-background-common text-overflow" w3-include-html="elements/common_items.html"></div>
@@ -115,7 +116,48 @@
 <!-- RECOMMENDED QUESTS -->
 <div id="recommended-div" class="div-background div-background-recommended text-overflow-auto" w3-include-html="elements/recommended_quests.html"></div>
 
-<hr> <!-- LINE BREAK -->
+<hr> <!-- LINE BREAK --> <!-- =========================================================== PROJECTS -->
+
+<h4>lol temporary projects section</h4>
+
+<div id="save-project-div">
+    <label for="project-name-input">Project Name: </label>
+    <input id="project-name-input" type="text" name="project-name">
+    <button id="project-save-button" type="button" onclick="save_project_data()">Save Project</button>
+</div>
+
+<br>
+
+<div id="project-options-div">
+    <label for="saved-projects-select">Select Saved Project: </label>
+    <select id="saved-projects-select" onchange="update_project_selection()">
+        <option value="[All Projects...]">[All Projects...]</option>
+    </select>
+    <br>
+    <button id="project-load-button" type="button" onclick="load_project_data()">Load Project</button>
+    <button id="project-add-button" disabled type="button" onclick="add_project_data()">Add Project Items</button>
+    <button id="project-sub-button" disabled type="button" onclick="sub_project_data()">Subtract Project Items</button>
+    <button id="project-delete-button" type="button" onclick="delete_project_data()">Delete Project</button>
+</div>
+
+<br><br>
+
+<div id="project-info-div">
+    <h3>how to use projects</h3>
+    <label>- save: put a name in the text input and click the button. all items currently selected will be saved. overwrite an existing item set by inputting the name and clicking save.</label><br>
+    <label>- load project: overwrites all currently selected items with the items saved in the project.</label><br>
+    <label>- add project items: add a project's saved items with the currently selected items.</label><br>
+    <label>- subtract project items: remove a project's saved items with the currently selected items.</label><br>
+    <label>- delete project: removes a project's data from forever.</label>
+    <h3>other notes</h3>
+    <label>* clicking the load project button w/ "[All Projects...]" selected will automatically combine all saved projects together and load it.</label><br>
+    <label>* clicking the delete project button w/ "[All Projects...]" selected will delete every saved project.</label><br>
+    <label>* the load, add, and subtract project buttons will be disabled when "[All Projects...]" is selected.</label><br>
+    <label>* hovering over the project name in the selection will display all items in the project.</label><br>
+    <label style="color: red">* items with "equipment_" in their name will not be saved for compatibility reasons.</label>
+</div>
+
+<hr> <!-- LINE BREAK --> <!-- =========================================================== SETTINGS -->
 
 <h4>lol temporary settings section</h4>
 
@@ -217,6 +259,8 @@
 
 </body>
 
+
+
 <footer>
     <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer" src="images/webpage/HAhaa.png" alt=""></p>
     <p class="footer">Last Quest Update: <span style="color: #6DFF7F">February 15, 2019</span></p>
@@ -228,12 +272,15 @@
     <a href="recipe_data.html" target="_blank">All Recipe Data</a>
 </footer>
 
+
+
 <!-- RUN JAVASCRIPT -->
 <script>
     loadingToast();
 
     toggle_simple_mode();
     init_settings();
+    init_project_data();
     includeHTML();
     setToastrOptions();
 
