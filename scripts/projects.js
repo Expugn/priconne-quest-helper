@@ -299,3 +299,9 @@ function disable_add_and_sub_buttons(true_or_false)
     document.getElementById("project-add-button").disabled = true_or_false;
     document.getElementById("project-sub-button").disabled = true_or_false;
 }
+
+function clear_all_item_tables()
+{
+    clear_item_table();
+    build_data();
+}
