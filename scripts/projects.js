@@ -77,8 +77,9 @@ function save_project_data()
     // UPDATE SELECT DISPLAYING SAVED PROJECTS
     update_saved_projects_select();
 
-    // SET SELECTED PROJECT TO RECENTLY SAVED PROJECT
+    // SET SELECTED PROJECT TO RECENTLY SAVED PROJECT, ALSO ENABLE ADD/SUB BUTTONS
     document.getElementById("saved-projects-select").value = project_name;
+    disable_add_and_sub_buttons(false);
 
     toastr.success("Project \"" + project_name + "\" has been " + (project_name_exists ? "overwritten!" : "saved!"));
 
