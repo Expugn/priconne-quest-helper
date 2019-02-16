@@ -1,6 +1,7 @@
 let item_table_retry_count = 0;
 let item_table_ready = false;
 let item_table_failed = false;
+let item_table_currently_selected_items_map = new Map();
 
 function build_item_tables()
 {
@@ -24,6 +25,22 @@ function build_item_tables()
             item_table_failed = true;
             loadingToast();
             return;
+        }
+    }
+
+    if (item_table_ready)
+    {
+        // GO THROUGH ALL ITEMS AND SAVE VALUES IN A MAP
+        for (let [item_name, item_data_map] of equipment_map)
+        {
+            let item_id = item_data_map.get("id");
+            let selected_amt = document.getElementById(item_id + "-amt").value;
+
+            // IF THE ITEM HAS A VALUE GREATER THAN 1 SELECTED, ADD ITEM AND VALUE TO PROJECT ITEM DATA
+            if (selected_amt >= 1)
+            {
+                item_table_currently_selected_items_map.set(item_id, selected_amt);
+            }
         }
     }
 
@@ -108,11 +125,10 @@ function build_item_tables()
     document.getElementById("gold-item-table").innerHTML = gold_item_HTML;
     document.getElementById("purple-item-table").innerHTML = purple_item_HTML;
 
-    console.log("[Table Builder] - Item Tables Built!");
-
     if (item_table_ready === false)
     {
         item_table_ready = true;
+        console.log("[Table Builder] - Item Tables Built!");
         loadingToast();
     }
 }
@@ -136,6 +152,16 @@ function add_item_image_to_table(count, item_HTML, item_name, item_id, rarity_cl
         item_HTML += "<tr>";
         for (let i = count - item_amount_per_row ; i < count ; i++)
         {
+            let existing_value = -1;
+            if (item_table_ready)
+            {
+                if (item_table_currently_selected_items_map.has(rarity_class + "-" + (i+1)))
+                {
+                    existing_value = item_table_currently_selected_items_map.get(rarity_class + "-" + (i+1));
+                    item_table_currently_selected_items_map.delete(rarity_class + "-" + (i+1));
+                }
+            }
+
             item_HTML += "<th class=\"item-amt\">";
             item_HTML += "<label for=\"" + rarity_class + "-" + (i + 1) + "-amt\"></label>";
             item_HTML += "<input id=\"" + rarity_class + "-" + (i + 1) + "-amt\" " +
@@ -143,7 +169,7 @@ function add_item_image_to_table(count, item_HTML, item_name, item_id, rarity_cl
                 "type=\"number\" " +
                 "min=\"0\" " +
                 "max=\"99\" " +
-                "value=\"0\" " +
+                "value=\"" + ((existing_value > -1) ? existing_value : 0) + "\" " +
                 "onchange=\"update_requested(this)\">";
             item_HTML += "</th>";
         }
@@ -183,6 +209,16 @@ function close_item_table(count, item_HTML, rarity_class)
     item_HTML += "<tr>";
     for (let i = count - amt_of_items_leftover ; i < count ; i++)
     {
+        let existing_value = -1;
+        if (item_table_ready)
+        {
+            if (item_table_currently_selected_items_map.has(rarity_class + "-" + (i+1)))
+            {
+                existing_value = item_table_currently_selected_items_map.get(rarity_class + "-" + (i+1));
+                item_table_currently_selected_items_map.delete(rarity_class + "-" + (i+1));
+            }
+        }
+
         item_HTML += "<th class=\"item-amt\">";
         item_HTML += "<label for=\"" + rarity_class + "-" + (i + 1) + "-amt\"></label>";
         item_HTML += "<input id=\"" + rarity_class + "-" + (i + 1) + "-amt\" " +
@@ -190,7 +226,7 @@ function close_item_table(count, item_HTML, rarity_class)
             "type=\"number\" " +
             "min=\"0\" " +
             "max=\"99\" " +
-            "value=\"0\" " +
+            "value=\"" + ((existing_value > -1) ? existing_value : 0) + "\" " +
             "onchange=\"update_requested(this)\">";
         item_HTML += "</th>";
     }
