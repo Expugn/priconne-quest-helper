@@ -64,6 +64,9 @@
     {
         setTimeout(function ()
         {
+            // DEBUG | FRAGMENT CHECK: ANY NON-FRAGMENT ITEM WILL BE SET TO LOW-OPACITY
+            const disable_fragment_check = true;
+
             let table_html = "";
 
             table_html += "<tbody>";
@@ -82,24 +85,23 @@
                         + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
                     table_html += "</th>";
 
-                    ((quest_data.get("item_1").item_name !== "") ? quest_data.get("item_1").item_name.split(' ').join('_') : "Placeholder")
                     // ITEM 1 IMAGE
                     table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                    table_html += "<img class=\"quest-item-image\" title=\"" + ((quest_data.get("item_1").item_name !== "") ? quest_data.get("item_1").item_name : "???")
+                    table_html += "<img class=\"quest-item-image" + ((quest_data.get("item_1").item_name.includes("Fragment") || disable_fragment_check) ? "" : " low-opacity") + "\" title=\"" + ((quest_data.get("item_1").item_name !== "") ? quest_data.get("item_1").item_name : "???")
                         + "\" src=\"images/items/" + ((quest_data.get("item_1").item_name !== "") ? quest_data.get("item_1").item_name.split(' ').join('_') : "Placeholder") + ".png\" alt=\"\">";
                     table_html += "<div class=\"quest-percent-text\">" + quest_data.get("item_1").drop_percent + "\u0025</div>";
                     table_html += "</th>";
 
                     // ITEM 2 IMAGE
                     table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                    table_html += "<img class=\"quest-item-image\" title=\"" + ((quest_data.get("item_2").item_name !== "") ? quest_data.get("item_2").item_name : "???")
+                    table_html += "<img class=\"quest-item-image" + ((quest_data.get("item_2").item_name.includes("Fragment") || disable_fragment_check) ? "" : " low-opacity") + "\" title=\"" + ((quest_data.get("item_2").item_name !== "") ? quest_data.get("item_2").item_name : "???")
                         + "\" src=\"images/items/" + ((quest_data.get("item_2").item_name !== "") ? quest_data.get("item_2").item_name.split(' ').join('_') : "Placeholder") + ".png\" alt=\"\">";
                     table_html += "<div class=\"quest-percent-text\">" + quest_data.get("item_2").drop_percent + "\u0025</div>";
                     table_html += "</th>";
 
                     // ITEM 3 IMAGE
                     table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                    table_html += "<img class=\"quest-item-image\" title=\"" + ((quest_data.get("item_3").item_name !== "") ? quest_data.get("item_3").item_name : "???")
+                    table_html += "<img class=\"quest-item-image" + ((quest_data.get("item_3").item_name.includes("Fragment") || disable_fragment_check) ? "" : " low-opacity") + "\" title=\"" + ((quest_data.get("item_3").item_name !== "") ? quest_data.get("item_3").item_name : "???")
                         + "\" src=\"images/items/" + ((quest_data.get("item_3").item_name !== "") ? quest_data.get("item_3").item_name.split(' ').join('_') : "Placeholder") + ".png\" alt=\"\">";
                     table_html += "<div class=\"quest-percent-text\">" + quest_data.get("item_3").drop_percent + "\u0025</div>";
                     table_html += "</th>";

@@ -1964,7 +1964,7 @@
   "20-1": {
     "item_1": {"item_name": "Crimson Claw Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Gale Stinger Fragment", "drop_percent": 36},
-    "item_3": {"item_name": "Astrograph Buckler", "drop_percent": 24},
+    "item_3": {"item_name": "Astrograph Buckler Fragment", "drop_percent": 24},
     "subdrops": [ "Crusader Plate Fragment", "Ice Claymore Fragment", "Violet Armor Fragment", "Dark Matter Edge Fragment", "Sun Amulet Fragment" ]
   },
   "20-2": {
