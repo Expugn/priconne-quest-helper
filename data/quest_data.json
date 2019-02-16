@@ -2049,19 +2049,19 @@
     "item_1": {"item_name": "equipment_105582 Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Gale Stinger Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Fairy King's Guardian Stone Fragment", "drop_percent": 72},
-    "subdrops": [ "", "", "", "", "" ]
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "20-2H": {
-    "item_1": {"item_name": "", "drop_percent": 72},
-    "item_2": {"item_name": "", "drop_percent": 72},
-    "item_3": {"item_name": "", "drop_percent": 72},
-    "subdrops": [ "", "", "", "", "" ]
+    "item_1": {"item_name": "equipment_105612 Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Divine Blossom Rod Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Mourning Crown Fragment", "drop_percent": 72},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
   },
   "20-3H": {
-    "item_1": {"item_name": "", "drop_percent": 72},
-    "item_2": {"item_name": "", "drop_percent": 72},
-    "item_3": {"item_name": "", "drop_percent": 72},
-    "subdrops": [ "", "", "", "", "" ]
+    "item_1": {"item_name": "equipment_105552 Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Flowing Azure Blade Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Azure Armor Fragment", "drop_percent": 72},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
   },
 
   "-": {
