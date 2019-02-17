@@ -120,13 +120,14 @@
 
 <h4>lol temporary projects section</h4>
 
+<label id="localstorage-warning" style="color: red; font-weight: bolder"></label><br>
+
 <div id="save-project-div">
     <label for="project-name-input">Project Name: </label>
     <input id="project-name-input" type="text" name="project-name">
     <button id="project-save-button" type="button" onclick="save_project_data()">Save Project</button>
+    <br>
 </div>
-
-<br>
 
 <div id="project-options-div">
     <label for="saved-projects-select">Select Saved Project: </label>
@@ -140,9 +141,8 @@
     <button id="project-delete-button" type="button" onclick="delete_project_data()">Delete Project</button>
     <br>
     <button type="button" onclick="clear_all_item_tables()">Clear Item Tables</button>
+    <br>
 </div>
-
-<br>
 
 <div id="project-blacklist-options-div">
     <button id="blacklist-save-button" type="button" onclick="save_blacklist()">Save Blacklist</button>
@@ -158,9 +158,8 @@
     <label for="blacklist-gold">Gold</label>        <input id="blacklist-gold" type="checkbox"><br>
     <label for="blacklist-purple">Purple</label>    <input id="blacklist-purple" type="checkbox"><br>
     <button id="blacklist-rarities-button" type="button" onclick="blacklist_selected_rarities()">Blacklist Selected Rarities</button>
+    <br><br>
 </div>
-
-<br><br>
 
 <div id="project-info-div">
     <h3>how to use projects</h3>

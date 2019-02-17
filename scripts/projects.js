@@ -2,17 +2,46 @@ let projects = new Map();
 
 function init_project_data()
 {
-    // LOAD DATA FROM COOKIE
-    let project_cookie_data = Cookies.get('projects');
-    if (project_cookie_data !== undefined)
+    // PROJECTS BEING STORED ON COOKIES HAVE BEEN DEPRECIATED. DELETE/IMPORT DATA.
+    if (Cookies.get('projects'))
     {
-        // PROJECT COOKIE EXISTS, DECRYPT DATA AND SAVE TO GLOBAL VAR
-        projects = map_string_json_to_map_of_maps(project_cookie_data);
+        if (typeof(Storage) !== "undefined")
+        {
+            localStorage.setItem('projects', Cookies.get('projects'));
+        }
+        Cookies.remove('projects');
 
-        // UPDATE SELECT DISPLAYING SAVED PROJECTS
-        update_saved_projects_select();
+        console.log("[Projects] - Removed/imported to LocalStorage found project cookie data.");
+    }
 
-        console.log("[Projects] - Projects are initialized!");
+    if (typeof(Storage) !== "undefined")
+    {
+        // LOCAL STORAGE IS SUPPORTED
+
+        // LOAD DATA FROM COOKIE
+        //let project_cookie_data = Cookies.get('projects');
+        let project_cookie_data = localStorage.getItem('projects');
+        if (project_cookie_data !== undefined)
+        {
+            // PROJECT COOKIE EXISTS, DECRYPT DATA AND SAVE TO GLOBAL VAR
+            projects = map_string_json_to_map_of_maps(project_cookie_data);
+
+            // UPDATE SELECT DISPLAYING SAVED PROJECTS
+            update_saved_projects_select();
+
+            console.log("[Projects] - Projects are initialized!");
+        }
+    }
+    else
+    {
+        // LOCAL STORAGE IS NOT SUPPORTED
+        // DISABLE PROJECTS/BLACKLIST SAVING
+        console.log("[Projects] - LocalStorage is not supported on this browser! Disabling everything!");
+        document.getElementById("save-project-div").style.display = "none";
+        document.getElementById("project-options-div").style.display = "none";
+        document.getElementById("project-blacklist-options-div").style.display = "none";
+        document.getElementById("project-info-div").style.display = "none";
+        document.getElementById("localstorage-warning").innerHTML = "Your browser does not support LocalStorage.<br>Projects/Blacklist saving have been disabled.<br>";
     }
 }
 
@@ -72,7 +101,8 @@ function save_project_data()
     projects.set(project_name, project_item_data);
 
     // SAVE PROJECT MAP TO COOKIE AS COOKIE-SAFE JSON STRING
-    Cookies.set('projects', map_of_maps_to_map_string_json(projects), { expires:365 });
+    //Cookies.set('projects', map_of_maps_to_map_string_json(projects), { expires:365 });
+    localStorage.setItem('projects', map_of_maps_to_map_string_json(projects));
 
     // UPDATE SELECT DISPLAYING SAVED PROJECTS
     update_saved_projects_select();
@@ -82,7 +112,6 @@ function save_project_data()
     disable_add_and_sub_buttons(false);
 
     toastr.success("Project \"" + project_name + "\" has been " + (project_name_exists ? "overwritten!" : "saved!"));
-
     console.log("[Projects] - \"" + project_name + "\"'s data has been saved.");
 }
 
@@ -196,20 +225,21 @@ function delete_project_data()
         projects.delete(project_name);
 
         // SAVE PROJECT MAP TO COOKIE AS COOKIE-SAFE JSON STRING
-        Cookies.set('projects', map_of_maps_to_map_string_json(projects), { expires:365 });
+        //Cookies.set('projects', map_of_maps_to_map_string_json(projects), { expires:365 });
+        localStorage.set('projects', map_of_maps_to_map_string_json(projects));
     }
     else
     {
         projects = new Map();
 
         // DELETE COOKIE SINCE IT'S NOT NEEDED ANYMORE
-        Cookies.remove('projects');
+        //Cookies.remove('projects');
+        localStorage.removeItem('projects');
     }
 
     update_saved_projects_select();
 
     toastr.success("Project \"" + project_name + "\" has been deleted!");
-
     console.log("[Projects] - Deleted \"" + project_name + "\"'s data.");
 }
 
@@ -312,30 +342,52 @@ function clear_all_item_tables()
 
 function init_blacklist()
 {
-    // LOAD DATA FROM COOKIE
-    let blacklist_cookie_data = Cookies.get('blacklist');
-    let button_title_string = "";
-    if (blacklist_cookie_data !== undefined)
+    // BLACKLISTS BEING STORED ON COOKIES HAVE BEEN DEPRECIATED. DELETE/IMPORT DATA.
+    if (Cookies.get('blacklist'))
     {
-        // BLACKLIST COOKIE EXISTS, DECRYPT DATA AND SAVE TO GLOBAL VAR
-        let saved_blacklist_array = JSON.parse(blacklist_cookie_data);
-
-        for (let i = 0 ; i < saved_blacklist_array.length ; i++)
+        if (typeof(Storage) !== "undefined")
         {
-            init_enabled_items(saved_blacklist_array[i]);
-            button_title_string += saved_blacklist_array[i] + "\n";
+            localStorage.setItem('blacklist', Cookies.get('blacklist'));
         }
-        refresh_quest_table();
+        Cookies.remove('blacklist');
 
-        document.getElementById("blacklist-load-button").title = ((saved_blacklist_array.length > 0) ? button_title_string : "The saved blacklist is empty.");
-        console.log("[Blacklist] - Blacklist is initialized!");
+        console.log("[Blacklist] - Removed/imported to LocalStorage found blacklist cookie data.");
+    }
+
+    if (typeof(Storage) !== "undefined")
+    {
+        // LOCAL STORAGE IS SUPPORTED
+
+        // LOAD DATA FROM COOKIE
+        //let blacklist_cookie_data = Cookies.get('blacklist');
+        let blacklist_cookie_data = localStorage.getItem('blacklist');
+        let button_title_string = "";
+        if (blacklist_cookie_data !== undefined)
+        {
+            // BLACKLIST COOKIE EXISTS, DECRYPT DATA AND SAVE TO GLOBAL VAR
+            let saved_blacklist_array = JSON.parse(blacklist_cookie_data);
+
+            // CLEAN BLACKLIST
+            clear_blacklist();
+
+            for (let i = 0 ; i < saved_blacklist_array.length ; i++)
+            {
+                init_enabled_items(saved_blacklist_array[i]);
+                button_title_string += saved_blacklist_array[i] + "\n";
+            }
+            refresh_quest_table();
+
+            document.getElementById("blacklist-load-button").title = ((saved_blacklist_array.length > 0) ? button_title_string : "The saved blacklist is empty.");
+            console.log("[Blacklist] - Blacklist is initialized!");
+        }
     }
 }
 
 function save_blacklist()
 {
     // SAVE PROJECT MAP TO COOKIE AS COOKIE-SAFE JSON STRING
-    Cookies.set('blacklist', JSON.stringify(disabled_items), { expires:365 });
+    //Cookies.set('blacklist', JSON.stringify(disabled_items), { expires:365 });
+    localStorage.setItem('blacklist', JSON.stringify(disabled_items));
 
     let button_title_string = "";
     for (let i = 0 ; i < disabled_items.length ; i++)
@@ -375,9 +427,11 @@ function clear_blacklist()
 
 function delete_blacklist()
 {
-    if (Cookies.get('blacklist') !== undefined)
+    //if (Cookies.get('blacklist') !== undefined)
+    if (localStorage.getItem('blacklist') !== null)
     {
-        Cookies.remove('blacklist');
+        //Cookies.remove('blacklist');
+        localStorage.removeItem('blacklist');
         document.getElementById("blacklist-load-button").title = "There is no saved blacklist.";
 
         toastr.success("The item blacklist has been deleted!");
