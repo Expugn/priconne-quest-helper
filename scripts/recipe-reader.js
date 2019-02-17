@@ -271,17 +271,3 @@ function set_enabled_item(item_name, true_or_false)
         }
     }
 }
-
-function clear_DI()
-{
-    let di_length = disabled_items.length;
-    for (let i = 0 ; i < di_length ; i++)
-    {
-        if (document.getElementById("request-button-" + item_name.split(' ').join('_')))
-        {
-            document.getElementById("request-button-" + item_name.split(' ').join('_')).classList.toggle("low-opacity");
-        }
-
-        console.log("[Required Items] - Re-enabled " + item_name);
-    }
-}

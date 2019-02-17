@@ -368,7 +368,18 @@ function init_blacklist()
             let saved_blacklist_array = JSON.parse(blacklist_cookie_data);
 
             // CLEAN BLACKLIST
-            clear_blacklist();
+            if (disabled_items.length > 0)
+            {
+                for (let i = 0 ; i < disabled_items.length ; i++)
+                {
+                    if (document.getElementById("request-button-" + disabled_items[i].split(' ').join('_')))
+                    {
+                        document.getElementById("request-button-" + disabled_items[i].split(' ').join('_')).classList.toggle("low-opacity");
+                    }
+                    console.log("[Required Items] - Re-enabled " + disabled_items[i]);
+                }
+                disabled_items = [];
+            }
 
             for (let i = 0 ; i < saved_blacklist_array.length ; i++)
             {
