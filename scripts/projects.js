@@ -226,7 +226,7 @@ function delete_project_data()
 
         // SAVE PROJECT MAP TO COOKIE AS COOKIE-SAFE JSON STRING
         //Cookies.set('projects', map_of_maps_to_map_string_json(projects), { expires:365 });
-        localStorage.set('projects', map_of_maps_to_map_string_json(projects));
+        localStorage.setItem('projects', map_of_maps_to_map_string_json(projects));
     }
     else
     {
