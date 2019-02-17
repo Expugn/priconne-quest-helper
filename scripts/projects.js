@@ -11,9 +11,9 @@ function init_project_data()
 
         // UPDATE SELECT DISPLAYING SAVED PROJECTS
         update_saved_projects_select();
-    }
 
-    console.log("[Projects] - Projects are initialized!");
+        console.log("[Projects] - Projects are initialized!");
+    }
 }
 
 function save_project_data()
@@ -194,14 +194,17 @@ function delete_project_data()
     if (project_name !== "[All Projects...]")
     {
         projects.delete(project_name);
+
+        // SAVE PROJECT MAP TO COOKIE AS COOKIE-SAFE JSON STRING
+        Cookies.set('projects', map_of_maps_to_map_string_json(projects), { expires:365 });
     }
     else
     {
         projects = new Map();
-    }
 
-    // SAVE PROJECT MAP TO COOKIE AS COOKIE-SAFE JSON STRING
-    Cookies.set('projects', map_of_maps_to_map_string_json(projects), { expires:365 });
+        // DELETE COOKIE SINCE IT'S NOT NEEDED ANYMORE
+        Cookies.remove('projects');
+    }
 
     update_saved_projects_select();
 
@@ -305,4 +308,155 @@ function clear_all_item_tables()
 {
     clear_item_table();
     build_data();
+}
+
+function init_blacklist()
+{
+    // LOAD DATA FROM COOKIE
+    let blacklist_cookie_data = Cookies.get('blacklist');
+    let button_title_string = "";
+    if (blacklist_cookie_data !== undefined)
+    {
+        // BLACKLIST COOKIE EXISTS, DECRYPT DATA AND SAVE TO GLOBAL VAR
+        let saved_blacklist_array = JSON.parse(blacklist_cookie_data);
+
+        for (let i = 0 ; i < saved_blacklist_array.length ; i++)
+        {
+            init_enabled_items(saved_blacklist_array[i]);
+            button_title_string += saved_blacklist_array[i] + "\n";
+        }
+        refresh_quest_table();
+
+        document.getElementById("blacklist-load-button").title = ((saved_blacklist_array.length > 0) ? button_title_string : "The saved blacklist is empty.");
+        console.log("[Blacklist] - Blacklist is initialized!");
+    }
+}
+
+function save_blacklist()
+{
+    // SAVE PROJECT MAP TO COOKIE AS COOKIE-SAFE JSON STRING
+    Cookies.set('blacklist', JSON.stringify(disabled_items), { expires:365 });
+
+    let button_title_string = "";
+    for (let i = 0 ; i < disabled_items.length ; i++)
+    {
+        button_title_string += disabled_items[i] + "\n";
+    }
+    document.getElementById("blacklist-load-button").title = ((disabled_items.length > 0) ? button_title_string : "The saved blacklist is empty.");
+
+    toastr.success("The item blacklist has been saved!");
+    console.log("[Blacklist] - The blacklist has been saved.");
+}
+
+function clear_blacklist()
+{
+    if (disabled_items.length > 0)
+    {
+        for (let i = 0 ; i < disabled_items.length ; i++)
+        {
+            if (document.getElementById("request-button-" + disabled_items[i].split(' ').join('_')))
+            {
+                document.getElementById("request-button-" + disabled_items[i].split(' ').join('_')).classList.toggle("low-opacity");
+            }
+            console.log("[Required Items] - Re-enabled " + disabled_items[i]);
+        }
+        disabled_items = [];
+
+        refresh_quest_table();
+
+        console.log("[Blacklist] - The blacklist has been cleared.");
+    }
+    else
+    {
+        toastr.error("The item blacklist is empty.");
+        console.log("[Blacklist] - The blacklist is already empty.");
+    }
+}
+
+function delete_blacklist()
+{
+    if (Cookies.get('blacklist') !== undefined)
+    {
+        Cookies.remove('blacklist');
+        document.getElementById("blacklist-load-button").title = "There is no saved blacklist.";
+
+        toastr.success("The item blacklist has been deleted!");
+        console.log("[Blacklist] - The blacklist has been deleted.");
+    }
+    else
+    {
+        toastr.error("There is no saved item blacklist.");
+        console.log("[Blacklist] - There is no saved item blacklist.");
+    }
+}
+
+function blacklist_selected_rarities()
+{
+    let disable_common = document.getElementById("blacklist-common").checked;
+    let disable_copper = document.getElementById("blacklist-copper").checked;
+    let disable_silver = document.getElementById("blacklist-silver").checked;
+    let disable_gold = document.getElementById("blacklist-gold").checked;
+    let disable_purple = document.getElementById("blacklist-purple").checked;
+
+    let rarity_array = [];
+    if (disable_common) { rarity_array.push("Common"); }
+    if (disable_copper) { rarity_array.push("Copper"); }
+    if (disable_silver) { rarity_array.push("Silver"); }
+    if (disable_gold) { rarity_array.push("Gold"); }
+    if (disable_purple) { rarity_array.push("Purple"); }
+
+    if (rarity_array.length > 0)
+    {
+        for (let [item_name, item_data_map] of equipment_map)
+        {
+            let item_id = item_data_map.get("id");
+            let has_fragments = get_equipment_data(item_name, "has_fragments");
+            let rarity_class = item_id.substring(0, item_id.indexOf('-'));
+
+            switch (rarity_class)
+            {
+                case "common":
+                    if (disable_common)
+                    {
+                        set_enabled_item(item_name + (has_fragments ? " Fragment" : ""), false);
+                    }
+                    break;
+                case "copper":
+                    if (disable_copper)
+                    {
+                        set_enabled_item(item_name + (has_fragments ? " Fragment" : ""), false);
+                    }
+                    break;
+                case "silver":
+                    if (disable_silver)
+                    {
+                        set_enabled_item(item_name + (has_fragments ? " Fragment" : ""), false);
+                    }
+                    break;
+                case "gold":
+                    if (disable_gold)
+                    {
+                        set_enabled_item(item_name + (has_fragments ? " Fragment" : ""), false);
+                    }
+                    break;
+                case "purple":
+                    if (disable_purple)
+                    {
+                        set_enabled_item(item_name + (has_fragments ? " Fragment" : ""), false);
+                    }
+                    break;
+                default:
+                    console.log("[Blacklist] - Unknown Item: " + item_name);
+                    break;
+            }
+        }
+        refresh_quest_table();
+
+        toastr.success(rarity_array.toString(), "The Following Rarities Have Been Blacklisted:");
+        console.log("[Blacklist] - " + rarity_array.toString() + " rarity(s) have been blacklisted");
+    }
+    else
+    {
+        toastr.error("You did not select any rarities.");
+    }
 }

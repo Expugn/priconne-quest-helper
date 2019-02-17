@@ -43,11 +43,11 @@
 
     <script src="scripts/read-equipment-json.js"></script>
     <script src="scripts/read-quest-json.js"></script>
-    <script src="scripts/projects.js"></script>
     <script src="scripts/settings.js"></script>
     <script src="scripts/sort-options.js"></script>
     <script src="scripts/build-item-table.js"></script>
     <script src="scripts/recipe-reader.js"></script>
+    <script src="scripts/projects.js"></script>
     <script src="scripts/recommended-quest-table.js"></script>
     <script src="scripts/requested-item-table.js"></script>
     <script src="scripts/read-common.js"></script>
@@ -142,6 +142,24 @@
     <button type="button" onclick="clear_all_item_tables()">Clear Item Tables</button>
 </div>
 
+<br>
+
+<div id="project-blacklist-options-div">
+    <button id="blacklist-save-button" type="button" onclick="save_blacklist()">Save Blacklist</button>
+    <button id="blacklist-load-button" type="button" onclick="init_blacklist()" title="There is no saved blacklist.">Load Saved Blacklist</button>
+    <button id="blacklist-clear-button" type="button" onclick="clear_blacklist()">Clear Blacklist</button>
+    <button id="blacklist-delete-button" type="button" onclick="delete_blacklist()">Delete Blacklist</button>
+
+    <br><br>
+
+    <label for="blacklist-common">Common</label>    <input id="blacklist-common" type="checkbox"><br>
+    <label for="blacklist-copper">Copper</label>    <input id="blacklist-copper" type="checkbox"><br>
+    <label for="blacklist-silver">Silver</label>    <input id="blacklist-silver" type="checkbox"><br>
+    <label for="blacklist-gold">Gold</label>        <input id="blacklist-gold" type="checkbox"><br>
+    <label for="blacklist-purple">Purple</label>    <input id="blacklist-purple" type="checkbox"><br>
+    <button id="blacklist-rarities-button" type="button" onclick="blacklist_selected_rarities()">Blacklist Selected Rarities</button>
+</div>
+
 <br><br>
 
 <div id="project-info-div">
@@ -151,6 +169,15 @@
     <label>- add project items: add a project's saved items with the currently selected items.</label><br>
     <label>- subtract project items: remove a project's saved items with the currently selected items.</label><br>
     <label>- delete project: removes a project's data from forever.</label>
+    <h3>item blacklist saving</h3>
+    <label>due to the variability of blacklists, they aren't saved with a project.</label><br>
+    <label>however, you can save a blacklist in case you want to refresh the page or close out page and continue your project later.</label><br>
+    <label>only one blacklist will be saved at a time. it will also automatically be loaded when you load the page.</label><br>
+    <label>hovering over the "Load Blacklist" button will show you what's in the saved blacklist.</label><br><br>
+    <label>- save: saves your current blacklist.</label><br>
+    <label>- clear: clears the blacklist (in case you want a clean slate)</label><br>
+    <label>- delete: deletes the saved blacklist</label><br>
+    <label>- blacklist selected rarities: blacklists the rarities you selected in the checkboxes (note that items will be un-blacklisted if their value is modified. use this option AFTER you select all your desired items)</label>
     <h3>other notes</h3>
     <label>* clicking the load project button w/ "[All Projects...]" selected will automatically combine all saved projects together and load it.</label><br>
     <label>* clicking the delete project button w/ "[All Projects...]" selected will delete every saved project.</label><br>
@@ -290,6 +317,7 @@
         enableCollapsible();
         read_cookie();
         build_item_tables();
+        init_blacklist();
     };
 </script>
 

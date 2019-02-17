@@ -191,7 +191,6 @@ function toggle_enabled_item(item_name)
         }
 
         console.log("[Required Items] - Re-enabled " + item_name);
-        //toastr.info(item_name, "Enabled");
     }
     else
     {
@@ -199,8 +198,90 @@ function toggle_enabled_item(item_name)
         disabled_items.push(item_name);
 
         console.log("[Required Items] - Disabled " + item_name);
-        //toastr.info(item_name, "Disabled");
     }
+
     refresh_quest_table();
     document.getElementById("request-button-" + item_name.split(' ').join('_')).classList.toggle("low-opacity");
+}
+
+function init_enabled_items(item_name)
+{
+    if (disabled_items.includes(item_name))
+    {
+        // RE-ENABLE ITEM
+        let item_index = disabled_items.indexOf(item_name);
+        if (item_index > -1)
+        {
+            disabled_items.splice(item_index, 1);
+        }
+
+        console.log("[Required Items] - Re-enabled " + item_name);
+    }
+    else
+    {
+        // DISABLE ITEM
+        disabled_items.push(item_name);
+
+        console.log("[Required Items] - Disabled " + item_name);
+    }
+
+    if (document.getElementById("request-button-" + item_name.split(' ').join('_')))
+    {
+        document.getElementById("request-button-" + item_name.split(' ').join('_')).classList.toggle("low-opacity");
+    }
+}
+
+function set_enabled_item(item_name, true_or_false)
+{
+    let modified_setting = false;
+    item_name = item_name.replace("[apostrophe]", "\'");
+
+    if (disabled_items.includes(item_name))
+    {
+        if (true_or_false)
+        {
+            // RE-ENABLE ITEM
+            let item_index = disabled_items.indexOf(item_name);
+            if (item_index > -1)
+            {
+                disabled_items.splice(item_index, 1);
+            }
+            modified_setting = true;
+
+            console.log("[Required Items] - Re-enabled " + item_name);
+        }
+    }
+    else
+    {
+        if (!true_or_false)
+        {
+            // DISABLE ITEM
+            disabled_items.push(item_name);
+            modified_setting = true;
+
+            console.log("[Required Items] - Disabled " + item_name);
+        }
+    }
+
+    if (modified_setting)
+    {
+        if (document.getElementById("request-button-" + item_name.split(' ').join('_')))
+        {
+            document.getElementById("request-button-" + item_name.split(' ').join('_')).classList.toggle("low-opacity");
+        }
+    }
+}
+
+function clear_DI()
+{
+    let di_length = disabled_items.length;
+    for (let i = 0 ; i < di_length ; i++)
+    {
+        if (document.getElementById("request-button-" + item_name.split(' ').join('_')))
+        {
+            document.getElementById("request-button-" + item_name.split(' ').join('_')).classList.toggle("low-opacity");
+        }
+
+        console.log("[Required Items] - Re-enabled " + item_name);
+    }
 }
