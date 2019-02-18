@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>temporary playground</title>
+
+    <script src="../../scripts/private-information.js"></script>
+</head>
+<body>
+<button onclick="run()">run</button>
+</body>
+
+<script>
+    function run()
+    {
+        alert(pastebin_test("hello world!"));
+    }
+    function pastebin_test(paste_text)
+    {
+        let request = new XMLHttpRequest();
+        request.open("POST", "https://pastebin.com/api/api_post.php", true);
+        request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        request.send("api_dev_key=" + PASTEBIN_API_KEY + "&api_option=paste&api_paste_private=1&api_paste_name=priconne-quest-helper_data-code&api_paste_expire_date=3M&api_paste_format=javascript&api_paste_code=" + paste_text);
+
+        return request.response;
+    }
+</script>
+</html>
