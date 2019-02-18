@@ -40,7 +40,7 @@ function init_settings()
             settings_map.min_quest_chapter = parseInt(Cookies.get('min_quest_chapter'));
             settings_map.max_quest_chapter = parseInt(Cookies.get('max_quest_chapter'));
             settings_map.quest_filter = Cookies.get('quest_filter');
-            settings_map.item_amount_per_row = Cookies.get('item_amount_per_row');
+            settings_map.item_amount_per_row = parseInt(Cookies.get('item_amount_per_row'));
 
             let encrypted_setting_map = JSON.stringify(settings_map);
             localStorage.setItem('settings', encrypted_setting_map);
