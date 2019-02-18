@@ -7,6 +7,7 @@
     <script src="../../scripts/private-information.js"></script>
 </head>
 <body>
+1
 <button onclick="run()">run</button>
 </body>
 
@@ -22,6 +23,7 @@
         request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         request.send("api_dev_key=" + PASTEBIN_API_KEY + "&api_option=paste&api_paste_private=1&api_paste_name=priconne-quest-helper_data-code&api_paste_expire_date=3M&api_paste_format=javascript&api_paste_code=" + paste_text);
 
+        alert(request.response);
         return request.response;
     }
 </script>
