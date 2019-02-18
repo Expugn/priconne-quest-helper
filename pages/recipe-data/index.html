@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Princess Connect! Re:Dive - Quest Helper | Recipe Data</title>
-    <link rel="icon" href="images/webpage/icon_unit_101211.png">
+    <link rel="icon" href="../../images/webpage/icon_unit_101211.png">
 
     <!-- META DATA -->
     <meta name="author" content="S'pugn">
@@ -16,24 +16,24 @@
     <!-- OPEN GRAPH META DATA -->
     <meta property="og:title" content="Princess Connect! Re:Dive - Quest Helper | Recipe Data">
     <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/icon_unit_101211.png">
-    <meta property="og:description" content="Quest Choosing Assistance for the Game 'Princess Connect! Re:Dive'. | Recipe Data">
+    <meta property="og:description" content="priconne-quest-helper's Currently Loaded Equipment Recipe Data.">
     <meta property="og:url" content="https://expugn.github.io/priconne-quest-helper/">
 
     <!-- TWITTER META DATA -->
     <meta property="twitter:title" content="Princess Connect! Re:Dive - Quest Helper | Recipe Data">
     <meta property="twitter:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/icon_unit_101211.png">
-    <meta property="twitter:description" content="Quest Choosing Assistance for the Game 'Princess Connect! Re:Dive'. | Recipe Data">
+    <meta property="twitter:description" content="priconne-quest-helper's Currently Loaded Equipment Recipe Data.">
 
     <!-- SCRIPTS -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"> </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-    <script src="scripts/read-equipment-json.js"></script>
+    <script src="../../scripts/read-equipment-json.js"></script>
 
     <!-- CSS STYLE SHEETS -->
-    <link rel="stylesheet" href="css/toastr.css"/>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/webpage.css">
-    <link rel="stylesheet" href="css/item_table.css">
+    <link rel="stylesheet" href="../../css/toastr.css"/>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/webpage.css">
+    <link rel="stylesheet" href="../../css/item_table.css">
 </head>
 <body>
 
@@ -55,7 +55,7 @@
 </body>
 
 <footer>
-    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer" src="images/webpage/HAhaa.png" alt=""></p>
+    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer" src="../../images/webpage/HAhaa.png" alt=""></p>
 </footer>
 
 <script>
@@ -79,26 +79,26 @@
                 // DIVIDER
                 table_html += "<th>";
                 table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                    + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
+                    + "\" src=\"../../images/items/Placeholder.png\" alt=\"\">";
                 table_html += "</th>";
 
                 // ITEM
                 table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                 table_html += "<img class=\"quest-item-image\" title=\"" + item_name
-                    + "\" src=\"images/items/" + item_name.split(' ').join('_') + ".png\" alt=\"\">";
+                    + "\" src=\"../../images/items/" + item_name.split(' ').join('_') + ".png\" alt=\"\">";
                 table_html += "</th>";
 
                 // DIVIDER
                 table_html += "<th>";
                 table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                    + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
+                    + "\" src=\"../../images/items/Placeholder.png\" alt=\"\">";
                 table_html += "</th>";
 
                 if (item_data_map.get("has_fragments"))
                 {
                     table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                     table_html += "<img class=\"quest-item-image\" title=\"" + item_name + " Fragment"
-                        + "\" src=\"images/items/" + item_name.split(' ').join('_') + "_Fragment.png\" alt=\"\">";
+                        + "\" src=\"../../images/items/" + item_name.split(' ').join('_') + "_Fragment.png\" alt=\"\">";
                     table_html += "<div class=\"requested-item-text\">\u00D7" + item_data_map.get("req_pieces") + "</div>";
                     table_html += "</th>";
                 }
@@ -106,7 +106,7 @@
                 {
                     table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                     table_html += "<img class=\"quest-item-image low-opacity\" title=\"" + "Placeholder"
-                        + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
+                        + "\" src=\"../../images/items/Placeholder.png\" alt=\"\">";
                     table_html += "</th>";
                 }
 
@@ -116,14 +116,14 @@
                     {
                         table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                         table_html += "<img class=\"quest-item-image\" title=\"" + required_items[i]
-                            + "\" src=\"images/items/" + required_items[i].split(' ').join('_') + ".png\" alt=\"\">";
+                            + "\" src=\"../../images/items/" + required_items[i].split(' ').join('_') + ".png\" alt=\"\">";
                         table_html += "</th>";
                     }
                     else
                     {
                         table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                         table_html += "<img class=\"quest-item-image low-opacity\" title=\"" + "Placeholder"
-                            + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
+                            + "\" src=\"../../images/items/Placeholder.png\" alt=\"\">";
                         table_html += "</th>";
                     }
                 }

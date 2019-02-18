@@ -281,5 +281,4 @@ function refresh_quest_table()
     {
         build_recommended_quest_table(last_compiled_all_recipe_maps_array);
     }
-    //console.log("[Quest Table] - Refreshed Table!")
 }

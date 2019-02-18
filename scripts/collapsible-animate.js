@@ -43,7 +43,6 @@ function enableCollapsible()
                 setTimeout(function () {
                     content.style.overflow = "auto";
                 }, 400);
-                //content.style.overflow = "auto";
             }
         });
     }

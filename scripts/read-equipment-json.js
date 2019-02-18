@@ -1,10 +1,10 @@
-console.log("[Equipment Reader] - Reading 'data/equipment_data.json'...");
+console.log("[Equipment Reader] - Reading '" + "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/equipment_data.json" + "'...");
 let equipment_map = new Map();
 
 let run_equipment = $(function () {
     $.ajax({
         'global': false,
-        'url': "data/equipment_data.json",
+        'url': "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/equipment_data.json",
         'dataType': "json",
         'success': function (data) {
             $.each(data, function(i, itemData)

@@ -1,10 +1,10 @@
-console.log("[Quest Reader] - Reading 'data/quest_data.json'...");
+console.log("[Quest Reader] - Reading '" + "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/quest_data.json" + "'...");
 let quest_map = new Map();
 
 let run_quest = $(function () {
     $.ajax({
         'global': false,
-        'url': "data/quest_data.json",
+        'url': "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/quest_data.json",
         'dataType': "json",
         'success': function (data) {
             $.each(data, function(i, questData)

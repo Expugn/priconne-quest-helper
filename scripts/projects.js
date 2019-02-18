@@ -8,6 +8,7 @@ function init_project_data()
         if (typeof(Storage) !== "undefined")
         {
             localStorage.setItem('projects', Cookies.get('projects'));
+            update_project_export(Cookies.get('projects'));
         }
         Cookies.remove('projects');
 
@@ -19,8 +20,9 @@ function init_project_data()
         // LOCAL STORAGE IS SUPPORTED
 
         // LOAD DATA FROM COOKIE
-        //let project_cookie_data = Cookies.get('projects');
         let project_cookie_data = localStorage.getItem('projects');
+        update_project_export(project_cookie_data);
+
         if (project_cookie_data !== undefined)
         {
             // PROJECT COOKIE EXISTS, DECRYPT DATA AND SAVE TO GLOBAL VAR
@@ -32,23 +34,14 @@ function init_project_data()
             console.log("[Projects] - Projects are initialized!");
         }
     }
-    else
-    {
-        // LOCAL STORAGE IS NOT SUPPORTED
-        // DISABLE PROJECTS/BLACKLIST SAVING
-        console.log("[Projects] - LocalStorage is not supported on this browser! Disabling everything!");
-        document.getElementById("save-project-div").style.display = "none";
-        document.getElementById("project-options-div").style.display = "none";
-        document.getElementById("project-blacklist-options-div").style.display = "none";
-        document.getElementById("project-info-div").style.display = "none";
-        document.getElementById("localstorage-warning").innerHTML = "Your browser does not support LocalStorage.<br>Projects/Blacklist saving have been disabled.<br>";
-    }
 }
 
 function save_project_data()
 {
     // SAVE CURRENT SESSION DATA
-    let project_name = document.getElementById("project-name-input").value;
+    let tmp = document.createElement("DIV");
+    tmp.innerHTML = document.getElementById("project-name-input").value;
+    let project_name = tmp.textContent || tmp.innerText || "";
 
     // IF PROJECT NAME ISN'T GIVEN OR IS "[All Projects...]", USE "Untitled"
     if (project_name === "" || project_name === "[All Projects...]")
@@ -101,8 +94,8 @@ function save_project_data()
     projects.set(project_name, project_item_data);
 
     // SAVE PROJECT MAP TO COOKIE AS COOKIE-SAFE JSON STRING
-    //Cookies.set('projects', map_of_maps_to_map_string_json(projects), { expires:365 });
     localStorage.setItem('projects', map_of_maps_to_map_string_json(projects));
+    update_project_export(localStorage.getItem('projects'));
 
     // UPDATE SELECT DISPLAYING SAVED PROJECTS
     update_saved_projects_select();
@@ -225,8 +218,8 @@ function delete_project_data()
         projects.delete(project_name);
 
         // SAVE PROJECT MAP TO COOKIE AS COOKIE-SAFE JSON STRING
-        //Cookies.set('projects', map_of_maps_to_map_string_json(projects), { expires:365 });
         localStorage.setItem('projects', map_of_maps_to_map_string_json(projects));
+        update_project_export(localStorage.getItem('projects'));
     }
     else
     {
@@ -235,6 +228,7 @@ function delete_project_data()
         // DELETE COOKIE SINCE IT'S NOT NEEDED ANYMORE
         //Cookies.remove('projects');
         localStorage.removeItem('projects');
+        update_project_export("");
     }
 
     update_saved_projects_select();
@@ -251,13 +245,11 @@ function map_of_maps_to_map_string_json(map_of_maps)
     let map_of_json_strings = new Map();
     for (let [project_name, project_data] of map_of_maps)
     {
-        //map_of_json_strings.set(project_name, JSON.stringify(Array.from( project_data.entries() )));
         map_of_json_strings.set(project_name, JSON.stringify([...project_data]));
     }
 
     // SAVE MAP OF JSON STRINGS TO MAP JSON STRING
     return JSON.stringify([...map_of_json_strings]);
-    //return JSON.stringify(Array.from( map_of_json_strings.entries() ));
 }
 
 function map_string_json_to_map_of_maps(map_json_string)
@@ -340,6 +332,11 @@ function clear_all_item_tables()
     build_data();
 }
 
+function update_project_export(project_json_string)
+{
+    document.getElementById("export-projects").value = project_json_string;
+}
+
 function init_blacklist()
 {
     // BLACKLISTS BEING STORED ON COOKIES HAVE BEEN DEPRECIATED. DELETE/IMPORT DATA.
@@ -348,6 +345,7 @@ function init_blacklist()
         if (typeof(Storage) !== "undefined")
         {
             localStorage.setItem('blacklist', Cookies.get('blacklist'));
+            update_blacklist_export(Cookies.get('blacklist'));
         }
         Cookies.remove('blacklist');
 
@@ -359,10 +357,11 @@ function init_blacklist()
         // LOCAL STORAGE IS SUPPORTED
 
         // LOAD DATA FROM COOKIE
-        //let blacklist_cookie_data = Cookies.get('blacklist');
         let blacklist_cookie_data = localStorage.getItem('blacklist');
+        update_blacklist_export(blacklist_cookie_data);
+
         let button_title_string = "";
-        if (blacklist_cookie_data !== undefined)
+        if (blacklist_cookie_data !== null)
         {
             // BLACKLIST COOKIE EXISTS, DECRYPT DATA AND SAVE TO GLOBAL VAR
             let saved_blacklist_array = JSON.parse(blacklist_cookie_data);
@@ -397,8 +396,9 @@ function init_blacklist()
 function save_blacklist()
 {
     // SAVE PROJECT MAP TO COOKIE AS COOKIE-SAFE JSON STRING
-    //Cookies.set('blacklist', JSON.stringify(disabled_items), { expires:365 });
-    localStorage.setItem('blacklist', JSON.stringify(disabled_items));
+    let encrypted_disabled_item_array = JSON.stringify(disabled_items);
+    localStorage.setItem('blacklist', encrypted_disabled_item_array);
+    update_blacklist_export(encrypted_disabled_item_array);
 
     let button_title_string = "";
     for (let i = 0 ; i < disabled_items.length ; i++)
@@ -427,6 +427,7 @@ function clear_blacklist()
 
         refresh_quest_table();
 
+        toastr.success("The item blacklist has been cleared!");
         console.log("[Blacklist] - The blacklist has been cleared.");
     }
     else
@@ -438,11 +439,10 @@ function clear_blacklist()
 
 function delete_blacklist()
 {
-    //if (Cookies.get('blacklist') !== undefined)
     if (localStorage.getItem('blacklist') !== null)
     {
-        //Cookies.remove('blacklist');
         localStorage.removeItem('blacklist');
+        update_blacklist_export("");
         document.getElementById("blacklist-load-button").title = "There is no saved blacklist.";
 
         toastr.success("The item blacklist has been deleted!");
@@ -524,4 +524,9 @@ function blacklist_selected_rarities()
     {
         toastr.error("You did not select any rarities.");
     }
+}
+
+function update_blacklist_export(blacklist_json_string)
+{
+    document.getElementById("export-blacklist").value = blacklist_json_string;
 }

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>priconne-quest-helper - Import Data</title>
+    <link rel="icon" href="../../images/webpage/thumb_equipment_randomreward_01.png">
+
+    <!-- META DATA -->
+    <meta name="author" content="S'pugn">
+
+    <meta name="description" content="priconne-quest-helper Data Import">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8">
+
+    <!-- OPEN GRAPH META DATA -->
+    <meta property="og:title" content="priconne-quest-helper Data Import">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/thumb_equipment_randomreward_01.png">
+    <meta property="og:description" content="priconne-quest-helper Data Import">
+
+    <!-- TWITTER META DATA -->
+    <meta property="twitter:title" content="priconne-quest-helper Data Export">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/thumb_equipment_randomreward_01.png">
+    <meta property="twitter:description" content="priconne-quest-helper Data Import">
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="../../scripts/url-parser.js"></script>
+
+    <!-- CSS STYLE SHEETS -->
+    <link rel="stylesheet" href="../../css/export_import.css">
+    <link rel="stylesheet" href="../../css/item_table.css">
+</head>
+
+<body>
+
+<div>
+    <h1 class="title">Princess Connect! Re:Dive - Quest Helper</h1>
+    <h2 id="sub-title" class="title">Data Import</h2>
+</div>
+
+<hr>
+
+<div id="confirmation-div">
+    <table class="center">
+        <tbody>
+        <tr>
+            <th></th>
+            <th><h2>Are You Sure You Want to Import?</h2></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th><button id="import-button" type="button" onclick="import_data()">Yeah, Okay. Import This Data!</button></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td style="text-align: center"><br><br>Your existing data will be replaced on this browser if you continue.<br>Make sure everything below is correct before proceeding.</td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <hr>
+
+    <div id="project-display"></div>
+    <div id="blacklist-display"></div>
+    <div id="settings-display"></div>
+</div>
+
+<div id="success-div" style="display: none">
+    <table class="center">
+        <tbody>
+        <tr>
+            <th></th>
+            <th><h2>Data Import Complete!</h2></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th><br>
+                <form action="../../" method="post">
+                    <input type="submit" value="Awesome! Take Me Back to the Main Page!"/>
+                </form>
+                <br>
+            </th>
+            <th></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th><br>You can now close this page or return to the main page.</th>
+            <th></th>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+
+<script>
+    let project_data;
+    let blacklist_data;
+    let settings_data;
+
+    let projects_data_provided;
+    let blacklist_data_provided;
+    let settings_data_provided;
+
+    let project_json;
+    let blacklist_json;
+    let settings_json;
+
+    try
+    {
+        if (typeof(Storage) !== "undefined")
+        {
+            // LOCAL STORAGE IS SUPPORTED
+            project_data = get_data_from_url("projects");
+            blacklist_data = get_data_from_url("blacklist");
+            settings_data = get_data_from_url("settings");
+
+            projects_data_provided = project_data !== "";
+            blacklist_data_provided = blacklist_data !== "";
+            settings_data_provided = settings_data !== "";
+
+            project_json = (projects_data_provided ? JSON.parse(project_data) : "");
+            blacklist_json = (blacklist_data_provided ? JSON.parse(blacklist_data) : "");
+            settings_json = (settings_data_provided ? JSON.parse(settings_data) : "");
+
+            url_success();
+        }
+        else
+        {
+            document.getElementById("confirmation-div").innerHTML = "<h2 class='align-center'>LocalStorage is Not Supported On This Browser!<br>Data Importing Will Not Function Properly.</h2>";
+        }
+    }
+    catch (err)
+    {
+        // ERROR WITH URL?
+        url_failure();
+    }
+
+    function url_success()
+    {
+        if (!projects_data_provided && !blacklist_data_provided && !settings_data_provided)
+        {
+            document.getElementById("confirmation-div").innerHTML = "<h2 class='align-center'>No Data Has Been Provided!</h2>";
+        }
+        else
+        {
+            if (projects_data_provided) { build_project_display(); }
+            if (blacklist_data_provided) { build_blacklist_display(); }
+            if (settings_data_provided) { build_settings_display(); }
+        }
+    }
+    
+    function url_failure()
+    {
+        document.getElementById("confirmation-div").innerHTML = "<h2 class='align-center'>Invalid URL Provided!</h2>";
+    }
+
+    function build_project_display()
+    {
+        // SAVE MAP JSON STRING AS MAP OF JSON STRINGS
+        let map_of_json_strings = new Map(project_json);
+
+        // SAVE MAP OF JSON STRINGS AS MAP OF MAPS
+        let project_map = new Map();
+        for (let [project_name, data_string_json] of map_of_json_strings)
+        {
+            project_map.set(project_name, JSON.parse(data_string_json));
+        }
+
+        let project_display_HTML = "<h1 class=\"align-center\">⸻ Projects ⸻</h1>";
+        project_display_HTML += "<h4 class=\"align-center item-count\">" + project_map.size + " project(s) found.</h4>";
+
+        for (let [project_name, project_data] of project_map)
+        {
+            // PRINT PROJECT NAME
+            project_display_HTML += "<h3 class='project-title' style='font-style: oblique'>\"" + project_name + "\"</h3>";
+
+            // PRINT PROJECT ITEMS
+
+            // NEW TABLE + OPEN TBODY
+            let count = 0;
+            project_display_HTML += "<div class=\"auto-overflow\"><table class=\"centerTable\"><tbody>";
+
+            for (let [item_name, item_amount] of project_data)
+            {
+                // ADD TABLE ROW START IF FIRST ITEM
+                if (count === 0)
+                {
+                    project_display_HTML += "<tr>";
+                }
+
+                if (count % 7 === 0 && count !== 0)
+                {
+                    project_display_HTML += "</tr><tr>";
+                }
+
+                // ITEM IMAGE
+                project_display_HTML += "<th class=\"requested-item-image\">";
+                $.ajax({
+                    url: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/images/items/" + item_name.split(' ').join('_') + ".png",
+                    type: 'HEAD',
+                    error: function ()
+                    {
+                        data_failure();
+                    }
+                });
+
+                project_display_HTML += "<img " +
+                    "class=\"requested-item-image\" " +
+                    "title=\"" + item_name + "\" " +
+                    "src=\"../../images/items/" + item_name.split(' ').join('_') + ".png\" " +
+                    "alt=\"\">";
+                project_display_HTML += "<div class=\"requested-item-text\">\u00D7" + item_amount + "</div>";
+
+                count++;
+            }
+
+            // CLOSE TBODY AND TABLE
+            project_display_HTML += "</tbody></table></div>";
+        }
+        project_display_HTML += "<br><hr>";
+
+        document.getElementById("project-display").innerHTML = project_display_HTML;
+    }
+
+    function build_blacklist_display()
+    {
+        // SAVE MAP JSON STRING AS ARRAY
+        let blacklist_array = blacklist_json;
+
+        let blacklist_display_HTML = "<h1 class=\"align-center\">⸻ Blacklist ⸻</h1>";
+        blacklist_display_HTML += "<h4 class=\"align-center item-count\">" + blacklist_array.length + " blacklisted item(s) found.</h4><br>";
+
+        // NEW TABLE + OPEN TBODY
+        let count = 0;
+        blacklist_display_HTML += "<div class=\"auto-overflow\"><table class=\"centerTable\"><tbody>";
+        for (let i = 0 ; i < blacklist_array.length ; i++)
+        {
+            let item_name = blacklist_array[i];
+
+            // ADD TABLE ROW START IF FIRST ITEM
+            if (count === 0)
+            {
+                blacklist_display_HTML += "<tr>";
+            }
+
+            if (count % 7 === 0 && count !== 0)
+            {
+                blacklist_display_HTML += "</tr><tr>";
+            }
+
+            // ITEM IMAGE
+            blacklist_display_HTML += "<th class=\"requested-item-image\">";
+            $.ajax({
+                url: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/images/items/" + item_name.split(' ').join('_') + ".png",
+                type: 'HEAD',
+                error: function ()
+                {
+                    data_failure();
+                }
+            });
+
+            blacklist_display_HTML += "<img " +
+                "class=\"requested-item-image low-opacity\" " +
+                "title=\"" + item_name + "\" " +
+                "src=\"../../images/items/" + item_name.split(' ').join('_') + ".png\" " +
+                "alt=\"\">";
+
+            count++;
+        }
+
+        // CLOSE TBODY AND TABLE
+        blacklist_display_HTML += "</tbody></table></div><br><hr>";
+
+        document.getElementById("blacklist-display").innerHTML = blacklist_display_HTML;
+    }
+
+    function build_settings_display()
+    {
+        let saved_settings_map = settings_json;
+
+        // CHECK FOR MISSING SETTINGS
+        if (!saved_settings_map.hasOwnProperty("quest_shown_value") ||
+            !saved_settings_map.hasOwnProperty("ascending_sort_quest_list") ||
+            !saved_settings_map.hasOwnProperty("ascending_sort_quest_score") ||
+            !saved_settings_map.hasOwnProperty("hide_quest_score") ||
+            !saved_settings_map.hasOwnProperty("min_quest_chapter") ||
+            !saved_settings_map.hasOwnProperty("max_quest_chapter") ||
+            !saved_settings_map.hasOwnProperty("quest_filter") ||
+            !saved_settings_map.hasOwnProperty("item_amount_per_row") ||
+            !(saved_settings_map.quest_filter === "filter-all" || saved_settings_map.quest_filter === "filter-normal" || saved_settings_map.quest_filter === "filter-hard"))
+        {
+            data_failure();
+        }
+        else
+        {
+            let settings_display_HTML = "<h1 class=\"align-center\">⸻ Settings ⸻</h1>";
+            settings_display_HTML += "<table class='center'><tbody><tr><td>";
+            settings_display_HTML += "<textarea rows='10' cols='50' disabled>";
+
+            let dump = JSON.stringify(saved_settings_map, null, 4);
+            settings_display_HTML += dump;
+
+            settings_display_HTML += "</textarea></td></tr></tbody></table><br><hr>";
+
+            document.getElementById("settings-display").innerHTML = settings_display_HTML;
+        }
+    }
+
+    function data_failure()
+    {
+        document.getElementById("confirmation-div").innerHTML = "<h2 class='align-center'>Invalid Data Provided!</h2>";
+    }
+    
+    function import_data()
+    {
+        // IMPORT STUFF
+        document.getElementById("confirmation-div").style.display = "none";
+        document.getElementById("success-div").style.display = "block";
+
+        // IMPORT DATA
+        if (projects_data_provided)
+        {
+            localStorage.setItem('projects', project_data);
+        }
+        if (blacklist_data_provided)
+        {
+            localStorage.setItem('blacklist', blacklist_data);
+        }
+        if (settings_data_provided)
+        {
+            localStorage.setItem('settings', settings_data);
+        }
+    }
+</script>
+</html>

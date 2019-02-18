@@ -20,6 +20,44 @@ let item_amount_per_row_default;
 
 function init_settings()
 {
+    // SETTINGS BEING STORED ON COOKIES HAVE BEEN DEPRECIATED. DELETE/IMPORT DATA.
+    if (Cookies.get('quest_shown_value') ||
+        Cookies.get('ascending_sort_quest_list') ||
+        Cookies.get('ascending_sort_quest_score') ||
+        Cookies.get('hide_quest_score') ||
+        Cookies.get('min_quest_chapter') ||
+        Cookies.get('max_quest_chapter') ||
+        Cookies.get('quest_filter') ||
+        Cookies.get('item_amount_per_row'))
+    {
+        if (typeof(Storage) !== "undefined")
+        {
+            let settings_map = new Map();
+            settings_map.quest_shown_value = parseInt(Cookies.get('quest_shown_value'));
+            settings_map.ascending_sort_quest_list = Cookies.get('ascending_sort_quest_list') === 'true';
+            settings_map.ascending_sort_quest_score = Cookies.get('ascending_sort_quest_score') === 'true';
+            settings_map.hide_quest_score = Cookies.get('hide_quest_score') === 'true';
+            settings_map.min_quest_chapter = parseInt(Cookies.get('min_quest_chapter'));
+            settings_map.max_quest_chapter = parseInt(Cookies.get('max_quest_chapter'));
+            settings_map.quest_filter = Cookies.get('quest_filter');
+            settings_map.item_amount_per_row = Cookies.get('item_amount_per_row');
+
+            let encrypted_setting_map = JSON.stringify(settings_map);
+            localStorage.setItem('settings', encrypted_setting_map);
+            update_settings_export(encrypted_setting_map);
+        }
+        Cookies.remove('quest_shown_value');
+        Cookies.remove('ascending_sort_quest_list');
+        Cookies.remove('ascending_sort_quest_score');
+        Cookies.remove('hide_quest_score');
+        Cookies.remove('min_quest_chapter');
+        Cookies.remove('max_quest_chapter');
+        Cookies.remove('quest_filter');
+        Cookies.remove('item_amount_per_row');
+
+        console.log("[Settings] - Removed/imported to LocalStorage found settings cookie data.");
+    }
+
     // GET STARTING VALUES FROM COMPONENTS
     quest_shown_value_default = document.getElementById("quest-shown-amt").value;
     quest_shown_value = quest_shown_value_default;
@@ -230,7 +268,6 @@ function toggle_simple_mode()
             document.getElementById("requested-div").classList.toggle("no-background");
             document.getElementById("required-div").classList.toggle("no-background");
             document.getElementById("recommended-div").classList.toggle("no-background");
-            //this.classList.toggle("active");
 
             document.getElementById("simple-or-fancy-text").innerHTML = "[Let's Make it Fancy]";
             document.getElementById("simple-or-fancy-text").href = "#fancy";
@@ -253,17 +290,22 @@ function toggle_simple_mode()
 function save_cookie()
 {
     /* TODO UPDATE WHENEVER A NEW SETTING IS ADDED */
-    //Cookies.set('', );
-    Cookies.set('quest_shown_value', quest_shown_value, { expires: 365});
-    Cookies.set('ascending_sort_quest_list', ascending_sort_quest_list, { expires: 365});
-    Cookies.set('ascending_sort_quest_score', ascending_sort_quest_score, { expires: 365});
-    Cookies.set('hide_quest_score', hide_quest_score, { expires: 365});
-    Cookies.set('min_quest_chapter', min_quest_chapter, { expires: 365});
-    Cookies.set('max_quest_chapter', max_quest_chapter, { expires: 365});
-    Cookies.set('quest_filter', quest_filter, { expires: 365 });
-    Cookies.set('item_amount_per_row', item_amount_per_row, { expires:365 });
 
-    //alert("Your settings have been saved!");
+    let settings_map = new Map();
+    settings_map.quest_shown_value = quest_shown_value;
+    settings_map.ascending_sort_quest_list = ascending_sort_quest_list;
+    settings_map.ascending_sort_quest_score = ascending_sort_quest_score;
+    settings_map.hide_quest_score = hide_quest_score;
+    settings_map.min_quest_chapter = min_quest_chapter;
+    settings_map.max_quest_chapter = max_quest_chapter;
+    settings_map.quest_filter = quest_filter;
+    settings_map.item_amount_per_row = item_amount_per_row;
+
+    let encrypted_setting_map = JSON.stringify(settings_map);
+    console.log(encrypted_setting_map);
+    localStorage.setItem('settings', encrypted_setting_map);
+    update_settings_export(encrypted_setting_map);
+
     toastr.success("Your settings have been saved!");
     console.log("[Settings] - Cookie has been baked.");
 }
@@ -273,23 +315,14 @@ function delete_cookie()
     if (is_cookies_exist())
     {
         /* TODO UPDATE WHENEVER A NEW SETTING IS ADDED */
-        //Cookies.remove('');
-        Cookies.remove('quest_shown_value');
-        Cookies.remove('ascending_sort_quest_list');
-        Cookies.remove('ascending_sort_quest_score');
-        Cookies.remove('hide_quest_score');
-        Cookies.remove('min_quest_chapter');
-        Cookies.remove('max_quest_chapter');
-        Cookies.remove('quest_filter');
-        Cookies.remove('item_amount_per_row');
+        localStorage.removeItem('settings');
+        update_settings_export("");
 
-        //alert("Your saved settings have been deleted.");
         toastr.success("Your saved settings have been deleted.");
         console.log("[Settings] - Cookie has been eaten.");
     }
     else
     {
-        //alert("You did not save any settings.");
         toastr.error("You did not save any settings.");
     }
 }
@@ -327,8 +360,22 @@ function read_cookie()
         }
         document.getElementById("item-amount-per-row").value = item_amount_per_row;
 
+        update_settings_export(localStorage.getItem('settings'));
         console.log("[Settings] Cookie settings have been loaded.");
     }
+}
+
+function set_settings_to_default()
+{
+    /* TODO UPDATE WHENEVER A NEW SETTING IS ADDED */
+    quest_shown_value = quest_shown_value_default;
+    ascending_sort_quest_list = ascending_sort_quest_list_default;
+    ascending_sort_quest_score = ascending_sort_quest_score_default;
+    hide_quest_score = hide_quest_score_default;
+    min_quest_chapter = min_quest_chapter_default;
+    max_quest_chapter = max_quest_chapter_default;
+    quest_filter = quest_filter_default;
+    item_amount_per_row = item_amount_per_row_default;
 }
 
 function reset_settings()
@@ -342,14 +389,7 @@ function reset_settings()
     else
     {
         // SET SYSTEM DEFAULTS
-        quest_shown_value = quest_shown_value_default;
-        ascending_sort_quest_list = ascending_sort_quest_list_default;
-        ascending_sort_quest_score = ascending_sort_quest_score_default;
-        hide_quest_score = hide_quest_score_default;
-        min_quest_chapter = min_quest_chapter_default;
-        max_quest_chapter = max_quest_chapter_default;
-        quest_filter = quest_filter_default;
-        item_amount_per_row = item_amount_per_row_default;
+        set_settings_to_default();
     }
 
     document.getElementById("quest-shown-amt").value = quest_shown_value;
@@ -378,7 +418,6 @@ function reset_settings()
     }
     document.getElementById("item-amount-per-row").value = item_amount_per_row;
 
-    //alert("Settings have been reset.");
     toastr.success("Settings have been reset.");
     refresh_quest_table();
 }
@@ -388,37 +427,86 @@ function read_settings()
     /* TODO UPDATE WHENEVER A NEW SETTING IS ADDED */
     if (is_cookies_exist())
     {
-        let cookie_string = "Setting Values:\n" +
-            "Amount of Quests Shown: " + Cookies.get('quest_shown_value') + "\n" +
-            "Sort by Ascending? (Quest List): " + Cookies.get('ascending_sort_quest_list') + "\n" +
-            "Sort by Ascending? (Quest Score): " + Cookies.get('ascending_sort_quest_score') + "\n" +
-            "Hide Quest Score?: " + Cookies.get('hide_quest_score') + "\n" +
-            "Lowest Quest Chapter Displayed: " + Cookies.get('min_quest_chapter') + "\n" +
-            "Highest Quest Chapter Displayed: " + Cookies.get('max_quest_chapter') + "\n" +
-            "Quest Filter: " + Cookies.get('quest_filter') + "\n" +
-            "Item Amount Per Row: " + Cookies.get('item_amount_per_row');
-        alert(cookie_string);
+        let saved_settings = JSON.parse(localStorage.getItem("settings"));
+        let dump = JSON.stringify(saved_settings, null, 4);
+        alert(dump);
     }
     else
     {
-        //alert("You did not save any settings.");
         toastr.error("You did not save any settings.");
     }
 }
 
 function set_values_from_cookie()
 {
-    quest_shown_value = parseInt(Cookies.get('quest_shown_value'));
-    ascending_sort_quest_list = Cookies.get('ascending_sort_quest_list') === 'true';
-    ascending_sort_quest_score = Cookies.get('ascending_sort_quest_score') === 'true';
-    hide_quest_score = Cookies.get('hide_quest_score') === 'true';
-    min_quest_chapter = parseInt(Cookies.get('min_quest_chapter'));
-    max_quest_chapter = parseInt(Cookies.get('max_quest_chapter'));
-    quest_filter = Cookies.get('quest_filter');
-    item_amount_per_row = Cookies.get('item_amount_per_row');
+    /* TODO UPDATE WHENEVER A NEW SETTING IS ADDED */
+    let settings_cookie_data = localStorage.getItem('settings');
+    let saved_settings_map = JSON.parse(settings_cookie_data);
 
-    // CHECK IF ANY VALUES ARE UNDEFINED
-    // IF SO, SET TO DEFAULT
+    if (jQuery.isEmptyObject(saved_settings_map))
+    {
+        // SETTINGS IS EMPTY, SET TO DEFAULT
+        check_for_undefined_settings();
+    }
+    else
+    {
+        // VALUE CHECKING
+        let max_value;
+        let min_value;
+
+        max_value = parseInt(document.getElementById("quest-shown-amt").max);
+        min_value = parseInt(document.getElementById("quest-shown-amt").min);
+        saved_settings_map.quest_shown_value = ((saved_settings_map.quest_shown_value > max_value) ? max_value : saved_settings_map.quest_shown_value);
+        saved_settings_map.quest_shown_value = ((saved_settings_map.quest_shown_value < min_value) ? min_value : saved_settings_map.quest_shown_value);
+
+        max_value = parseInt(document.getElementById("min-quest-chapter").max);
+        min_value = parseInt(document.getElementById("min-quest-chapter").min);
+        saved_settings_map.min_quest_chapter = ((saved_settings_map.min_quest_chapter > max_value) ? max_value : saved_settings_map.min_quest_chapter);
+        saved_settings_map.min_quest_chapter = ((saved_settings_map.min_quest_chapter < min_value) ? min_value : saved_settings_map.min_quest_chapter);
+
+        max_value = parseInt(document.getElementById("max-quest-chapter").max);
+        min_value = parseInt(document.getElementById("max-quest-chapter").min);
+        saved_settings_map.max_quest_chapter = ((saved_settings_map.max_quest_chapter > max_value) ? max_value : saved_settings_map.max_quest_chapter);
+        saved_settings_map.max_quest_chapter = ((saved_settings_map.max_quest_chapter < min_value) ? min_value : saved_settings_map.max_quest_chapter);
+
+        saved_settings_map.min_quest_chapter = ((saved_settings_map.min_quest_chapter > saved_settings_map.max_quest_chapter) ? saved_settings_map.max_quest_chapter : saved_settings_map.min_quest_chapter);
+
+        max_value = parseInt(document.getElementById("item-amount-per-row").max);
+        min_value = parseInt(document.getElementById("item-amount-per-row").min);
+        saved_settings_map.item_amount_per_row = ((saved_settings_map.item_amount_per_row > max_value) ? max_value : saved_settings_map.item_amount_per_row);
+        saved_settings_map.item_amount_per_row = ((saved_settings_map.item_amount_per_row < min_value) ? min_value : saved_settings_map.item_amount_per_row);
+
+        quest_shown_value = saved_settings_map.quest_shown_value;
+        ascending_sort_quest_list = saved_settings_map.ascending_sort_quest_list;
+        ascending_sort_quest_score = saved_settings_map.ascending_sort_quest_score;
+        hide_quest_score = saved_settings_map.hide_quest_score;
+        min_quest_chapter = saved_settings_map.min_quest_chapter;
+        max_quest_chapter = saved_settings_map.max_quest_chapter;
+        quest_filter = saved_settings_map.quest_filter;
+        item_amount_per_row = saved_settings_map.item_amount_per_row;
+
+        // CHECK FOR ANY UNDEFINED SETTINGS
+        check_for_undefined_settings();
+
+        // SAVE SETTINGS
+        let settings_map = new Map();
+        settings_map.quest_shown_value = quest_shown_value;
+        settings_map.ascending_sort_quest_list = ascending_sort_quest_list;
+        settings_map.ascending_sort_quest_score = ascending_sort_quest_score;
+        settings_map.hide_quest_score = hide_quest_score;
+        settings_map.min_quest_chapter = min_quest_chapter;
+        settings_map.max_quest_chapter = max_quest_chapter;
+        settings_map.quest_filter = quest_filter;
+        settings_map.item_amount_per_row = item_amount_per_row;
+        let encrypted_setting_map = JSON.stringify(settings_map);
+        localStorage.setItem('settings', encrypted_setting_map);
+        update_settings_export(encrypted_setting_map);
+    }
+}
+
+function check_for_undefined_settings()
+{
+    /* TODO UPDATE WHENEVER A NEW SETTING IS ADDED */
     quest_shown_value = (quest_shown_value === undefined ? quest_shown_value_default : quest_shown_value);
     ascending_sort_quest_list = (ascending_sort_quest_list === undefined ? ascending_sort_quest_list_default : ascending_sort_quest_list);
     ascending_sort_quest_score = (ascending_sort_quest_score === undefined ? ascending_sort_quest_score_default : ascending_sort_quest_score);
@@ -431,26 +519,15 @@ function set_values_from_cookie()
 
 function is_cookies_exist()
 {
-    let quest_shown_value_exists = Cookies.get('quest_shown_value') !== undefined;
-    let ascending_sort_quest_list_exists = Cookies.get('ascending_sort_quest_list') !== undefined;
-    let ascending_sort_quest_score_exists = Cookies.get('ascending_sort_quest_score') !== undefined;
-    let hide_quest_score_exists = Cookies.get('hide_quest_score') !== undefined;
-    let min_quest_chapter_exists = Cookies.get('min_quest_chapter') !== undefined;
-    let max_quest_chapter_exists = Cookies.get('max_quest_chapter') !== undefined;
-    let quest_filter_exists = Cookies.get('quest_filter') !== undefined;
-    let item_amount_per_row_exists = Cookies.get('item_amount_per_row') !== undefined;
-
-    return quest_shown_value_exists ||
-        ascending_sort_quest_list_exists ||
-        ascending_sort_quest_score_exists ||
-        hide_quest_score_exists ||
-        min_quest_chapter_exists ||
-        max_quest_chapter_exists ||
-        quest_filter_exists ||
-        item_amount_per_row_exists;
+    return localStorage.getItem("settings") !== null;
 }
 
 function reload()
 {
     window.location.reload(true);
+}
+
+function update_settings_export(settings_json_string)
+{
+    document.getElementById("export-settings").value = settings_json_string;
 }
