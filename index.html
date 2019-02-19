@@ -36,7 +36,7 @@
     <meta property="twitter:description" content="Quest Choosing Assistance for the Game 'Princess Connect! Re:Dive'.">
 
     <!-- SCRIPTS -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"> </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <script src="scripts/include-html.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
@@ -212,17 +212,19 @@
         <input type="submit" disabled value="Export Data"/>
     </form>
 
-    <h3>how to export/import your data</h3>
-    <label>- exporting data:</label><br>
-    <label>&emsp;1) click the "Export Data" button to go to a new page. you can choose to export your projects/blacklist/settings. make your selections and click "Generate URL".</label><br>
-    <label>&emsp;2a) you should now see a really long URL in a text box and two new buttons, "Generate Short URL" and "Copy Long URL to Clipboard". to send your data to a different location, you can copy the long url and send it to yourself via email, instant messenger, whatever.</label><br>
-    <label>&emsp;2b) if the URL is too long for where you're trying to send it to, you can click "Generate Short URL" to automatically make a bit.ly link. if you use this option, the "Generate Short URL" button will convert to a "Copy Short URL to Clipboard" button.</label><br><br>
-    <label>- importing data:</label><br>
-    <label>&emsp;1) open the url you generated in "Exporting Data" on whatever device you want to load the data to.</label><br>
-    <label>&emsp;2) review the data in the link and make sure everything is correct before you import</label><br>
-    <label style="color: red">&emsp;3) NOTE THAT IMPORTING DATA WILL REPLACE THE DATA IN THE BROWSER. IF YOU DON'T WANT TO REPLACE YOUR DATA THEN DON'T IMPORT.</label><br>
-    <label>&emsp;4) if you're okay with everything then click the import confirmation button.</label><br>
-    <label>&emsp;5) done! your data should be imported now. you can now go back to the main page.</label>
+    <div id="export-import-info" style="display: none">
+        <h3>how to export/import your data</h3>
+        <label>- exporting data:</label><br>
+        <label>&emsp;1) click the "Export Data" button to go to a new page. you can choose to export your projects/blacklist/settings. make your selections and click "Generate URL".</label><br>
+        <label>&emsp;2a) you should now see a really long URL in a text box and two new buttons, "Generate Short URL" and "Copy Long URL to Clipboard". to send your data to a different location, you can copy the long url and send it to yourself via email, instant messenger, whatever.</label><br>
+        <label>&emsp;2b) if the URL is too long for where you're trying to send it to, you can click "Generate Short URL" to automatically make a bit.ly link. if you use this option, the "Generate Short URL" button will convert to a "Copy Short URL to Clipboard" button.</label><br><br>
+        <label>- importing data:</label><br>
+        <label>&emsp;1) open the url you generated in "Exporting Data" on whatever device you want to load the data to.</label><br>
+        <label>&emsp;2) review the data in the link and make sure everything is correct before you import</label><br>
+        <label style="color: red">&emsp;3) NOTE THAT IMPORTING DATA WILL REPLACE THE DATA IN THE BROWSER. IF YOU DON'T WANT TO REPLACE YOUR DATA THEN DON'T IMPORT.</label><br>
+        <label>&emsp;4) if you're okay with everything then click the import confirmation button.</label><br>
+        <label>&emsp;5) done! your data should be imported now. you can now go back to the main page.</label>
+    </div>
 
     <hr> <!-- LINE BREAK -->
 </div>
