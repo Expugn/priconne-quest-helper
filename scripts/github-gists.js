@@ -42,6 +42,10 @@ function upload_gist(gist_data, callback)
         error: function(e)
         {
             console.warn("[Github API] - Gist Saving Error: ", JSON.stringify(e));
+
+            // for export-data
+            document.getElementById("export-failure").innerHTML = "<h2 class='align-center'>" + e["status"] + " - " + e["statusText"] + "</h2>";
+            document.getElementById("export-failure").style.display = "block";
         }
     });
 }
