@@ -59,7 +59,6 @@
     <script src="scripts/update-requested.js"></script>
     <script src="scripts/collapsible-animate.js"></script>
     <script src="scripts/toastrOptions.js"></script>
-    <script src="scripts/pastebin.js"></script>
 
     <!-- CSS STYLE SHEETS -->
     <link rel="stylesheet" href="css/toastr.css"/>
@@ -203,27 +202,23 @@
 <div id="data-management-div">
     <h4>lol temporary data management section</h4>
 
-    <label>disabled for the time being to work out some kinks.</label>
-
-    <form action="pages/export-data/" target="_blank">
-        <input id="export-projects" type="hidden" name="projects" value="">
-        <input id="export-blacklist" type="hidden" name="blacklist" value="">
-        <input id="export-settings" type="hidden" name="settings" value="">
-        <input type="submit" disabled value="Export Data"/>
+    <label>use with caution, might cause un-tested issues.</label><br>
+    <form action="pages/export-data/" target="_blank" method="post">
+        <input type="submit" value="Export Data"/>
     </form>
 
-    <div id="export-import-info" style="display: none">
+    <div id="export-import-info">
         <h3>how to export/import your data</h3>
         <label>- exporting data:</label><br>
         <label>&emsp;1) click the "Export Data" button to go to a new page. you can choose to export your projects/blacklist/settings. make your selections and click "Generate URL".</label><br>
-        <label>&emsp;2a) you should now see a really long URL in a text box and two new buttons, "Generate Short URL" and "Copy Long URL to Clipboard". to send your data to a different location, you can copy the long url and send it to yourself via email, instant messenger, whatever.</label><br>
-        <label>&emsp;2b) if the URL is too long for where you're trying to send it to, you can click "Generate Short URL" to automatically make a bit.ly link. if you use this option, the "Generate Short URL" button will convert to a "Copy Short URL to Clipboard" button.</label><br><br>
+        <label>&emsp;2) wait a few seconds and a url should be generated. copy the link or press the button to copy the link and send it to yourself or someone via email/instant messenger, whatever.</label><br><br>
         <label>- importing data:</label><br>
         <label>&emsp;1) open the url you generated in "Exporting Data" on whatever device you want to load the data to.</label><br>
         <label>&emsp;2) review the data in the link and make sure everything is correct before you import</label><br>
         <label style="color: red">&emsp;3) NOTE THAT IMPORTING DATA WILL REPLACE THE DATA IN THE BROWSER. IF YOU DON'T WANT TO REPLACE YOUR DATA THEN DON'T IMPORT.</label><br>
         <label>&emsp;4) if you're okay with everything then click the import confirmation button.</label><br>
-        <label>&emsp;5) done! your data should be imported now. you can now go back to the main page.</label>
+        <label>&emsp;5) done! your data should be imported now. you can now go back to the main page.</label><br><br>
+        <label style="color: red">* THERE IS A RATE LIMIT SET IN PLACE. TRY NOT TO SPAM THE IMPORT/EXPORT FUNCTION. DOING SO WILL LOCK YOU OUT OF BEING ABLE TO DATA TRANSFER.</label><br>
     </div>
 
     <hr> <!-- LINE BREAK -->

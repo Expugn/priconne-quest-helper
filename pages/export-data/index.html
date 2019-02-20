@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>priconne-quest-helper - Export Data</title>
+    <title>Export Data | priconne-quest-helper</title>
     <link rel="icon" href="../../images/webpage/thumb_equipment_randomreward_01.png">
 
     <!-- META DATA -->
@@ -25,11 +25,13 @@
 
     <!-- SCRIPTS -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="../../scripts/read-equipment-json.js"></script>
     <script src="../../scripts/private-information.js"></script>
+    <script src="../../scripts/display-data.js"></script>
     <script src="../../scripts/url-parser.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-
     <script src="../../scripts/toastrOptions.js"></script>
+    <script src="../../scripts/github-gists.js"></script>
 
     <!-- CSS STYLE SHEETS -->
     <link rel="stylesheet" href="../../css/export_import.css">
@@ -45,11 +47,18 @@
 
     <hr>
 
-    <div id="export-failure" style="display: none">
-        <h2 class='align-center'>LocalStorage is Not Supported On This Browser!<br>Data Exporting Will Not Function Properly.</h2>
+    <div id="localstorage-failure" style="display: none">
+        <h2 class='align-center'>
+            LocalStorage is Not Supported On This Browser!<br>
+            Data Exporting Will Not Function Properly.
+        </h2>
     </div>
 
-    <div id="all-export-elements">
+    <div id="export-failure" style="display: none">
+        <h2 class='align-center'></h2>
+    </div>
+
+    <div id="all-export-elements" style="display: none">
         <div id="export-settings">
             <h2 class='align-center'>Export Options</h2>
 
@@ -80,16 +89,17 @@
             <table class="center">
                 <tbody>
                 <tr>
-                    <th><h3 id="short-url">[ Short URL Not Generated ]</h3></th>
-                </tr>
-                <tr>
-                    <td><textarea id="long-url" rows="10" cols="100" disabled></textarea></td>
+                    <th><h3 id="url"></h3></th>
                 </tr>
                 <tr>
                     <td class="export">
-                        <button id="generate-short-url-button" type="button" class="align-right" onclick="generate_short_url()">Generate Short URL</button>
-                        <button id="copy-short-url-button" type="button" class="align-right" style="display: none;" onclick="copyShortURLToClipboard()">Copy Short URL to Clipboard</button>
-                        <button type="button" class="align-right" onclick="copyLongURLToClipboard()">Copy Long URL to Clipboard</button>
+                        <button type="button" class="align-right" onclick="copyURLToClipboard()">Copy URL to Clipboard</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">
+                        <br><br>
+                        This URL will expire after two weeks.
                     </td>
                 </tr>
                 </tbody>
@@ -98,9 +108,7 @@
 
         <hr>
 
-        <div id="project-display"></div>
-        <div id="blacklist-display"></div>
-        <div id="settings-display"></div>
+        <div id="data-display"></div>
     </div>
 
 </body>
@@ -114,361 +122,150 @@
     let blacklist_data;
     let settings_data;
 
-    let projects_data_provided;
-    let blacklist_data_provided;
-    let settings_data_provided;
+    //let projects_data_provided;
+    //let blacklist_data_provided;
+    //let settings_data_provided;
 
     let project_json;
     let blacklist_json;
     let settings_json;
 
-    if (typeof(Storage) !== "undefined")
-    {
-        setToastrOptions();
-        build_data_tables();
-        checked_checkbox();
-    }
-    else
-    {
-        document.getElementById("all-export-elements").style.display = "none";
-        document.getElementById("export-failure").style.display = "block";
-    }
+    toastr.warning("Loading...", "Status", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
+    setTimeout(function () {
+        if (typeof(Storage) !== "undefined")
+        {
+            setToastrOptions();
+            build_data_tables();
+            checked_checkbox();
+        }
+        else
+        {
+            document.getElementById("localstorage-failure").style.display = "block";
+        }
+        toastr.remove();
+    }, 1000);
+
+
 
     function build_data_tables()
     {
         try
         {
-            project_data = get_data_from_url("projects");
-            blacklist_data = get_data_from_url("blacklist");
-            settings_data = get_data_from_url("settings");
+            project_data = localStorage.getItem('projects');
+            blacklist_data = localStorage.getItem('blacklist');
+            settings_data = localStorage.getItem('settings');
 
-            projects_data_provided = project_data !== "";
-            blacklist_data_provided = blacklist_data !== "";
-            settings_data_provided = settings_data !== "";
+            project_json = (project_data !== null ? JSON.parse(project_data) : "");
+            blacklist_json = (blacklist_data !== null ? JSON.parse(blacklist_data) : "");
+            settings_json = (settings_data !== null ? JSON.parse(settings_data) : "");
 
-            project_json = (projects_data_provided ? JSON.parse(project_data) : "");
-            blacklist_json = (blacklist_data_provided ? JSON.parse(blacklist_data) : "");
-            settings_json = (settings_data_provided ? JSON.parse(settings_data) : "");
-
-            url_success();
+            data_success();
         }
         catch (err)
         {
-            // ERROR WITH URL?
-            document.getElementById("all-export-elements").style.display = "none";
-            document.getElementById("export-failure").innerHTML = "<h2 class='align-center'>Invalid URL Provided!</h2>";
+            document.getElementById("export-failure").innerHTML = "<h2 class='align-center'>Invalid Data Received!</h2>";
             document.getElementById("export-failure").style.display = "block";
         }
     }
 
-    function url_success()
+    function data_success()
     {
-        if (!projects_data_provided && !blacklist_data_provided && !settings_data_provided)
+        try
         {
-            document.getElementById("all-export-elements").style.display = "none";
-            document.getElementById("export-failure").style.display = "block";
-            document.getElementById("export-failure").innerHTML = "<h2 class='align-center'>There is No Data Saved That Can Be Exported!</h2>";
-        }
-        else
-        {
-            if (projects_data_provided) { build_project_display(); }
-            else
+            display_data("data-display", project_json, blacklist_json, settings_json);
+
+            if (project_data === null)
             {
                 document.getElementById("include-projects").checked = false;
                 document.getElementById("include-projects").disabled = true;
             }
-            if (blacklist_data_provided) { build_blacklist_display(); }
-            else
+            if (blacklist_data === null)
             {
                 document.getElementById("include-blacklist").checked = false;
                 document.getElementById("include-blacklist").disabled = true;
             }
-            if (settings_data_provided) { build_settings_display(); }
-            else
+            if (settings_data === null)
             {
                 document.getElementById("include-settings").checked = false;
                 document.getElementById("include-settings").disabled = true;
             }
+
+            document.getElementById("all-export-elements").style.display = "block";
+        }
+        catch (error_message)
+        {
+            document.getElementById("export-failure").innerHTML = "<h2 class='align-center'>" + error_message + "</h2>";
+            document.getElementById("export-failure").style.display = "block";
         }
     }
 
-    function build_project_display()
-    {
-        // SAVE MAP JSON STRING AS MAP OF JSON STRINGS
-        let map_of_json_strings = new Map(project_json);
-
-        // SAVE MAP OF JSON STRINGS AS MAP OF MAPS
-        let project_map = new Map();
-        for (let [project_name, data_string_json] of map_of_json_strings)
-        {
-            project_map.set(project_name, JSON.parse(data_string_json));
-        }
-
-        let project_display_HTML = "<h1 class=\"align-center\">⸻ Projects ⸻</h1>";
-        project_display_HTML += "<h4 class=\"align-center item-count\">" + project_map.size + " project(s) found.</h4>";
-
-        for (let [project_name, project_data] of project_map)
-        {
-            // PRINT PROJECT NAME
-            project_display_HTML += "<h3 class='project-title' style='font-style: oblique'>\"" + project_name + "\"</h3>";
-
-            // PRINT PROJECT ITEMS
-
-            // NEW TABLE + OPEN TBODY
-            let count = 0;
-            project_display_HTML += "<div class=\"auto-overflow\"><table class=\"centerTable\"><tbody>";
-
-            for (let [item_name, item_amount] of project_data)
-            {
-                // ADD TABLE ROW START IF FIRST ITEM
-                if (count === 0)
-                {
-                    project_display_HTML += "<tr>";
-                }
-
-                if (count % 7 === 0 && count !== 0)
-                {
-                    project_display_HTML += "</tr><tr>";
-                }
-
-                // ITEM IMAGE
-                project_display_HTML += "<th class=\"requested-item-image\">";
-                $.ajax({
-                    url: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/images/items/" + item_name.split(' ').join('_') + ".png",
-                    type: 'HEAD',
-                    error: function ()
-                    {
-                        data_failure();
-                    }
-                });
-
-                project_display_HTML += "<img " +
-                    "class=\"requested-item-image\" " +
-                    "title=\"" + item_name + "\" " +
-                    "src=\"../../images/items/" + item_name.split(' ').join('_') + ".png\" " +
-                    "alt=\"\">";
-                project_display_HTML += "<div class=\"requested-item-text\">\u00D7" + item_amount + "</div>";
-
-                count++;
-            }
-
-            // CLOSE TBODY AND TABLE
-            project_display_HTML += "</tbody></table></div>";
-        }
-        project_display_HTML += "<br><hr>";
-
-        document.getElementById("project-display").innerHTML = project_display_HTML;
-    }
-
-    function build_blacklist_display()
-    {
-        // SAVE MAP JSON STRING AS ARRAY
-        let blacklist_array = blacklist_json;
-
-        let blacklist_display_HTML = "<h1 class=\"align-center\">⸻ Blacklist ⸻</h1>";
-        blacklist_display_HTML += "<h4 class=\"align-center item-count\">" + blacklist_array.length + " blacklisted item(s) found.</h4><br>";
-
-        // NEW TABLE + OPEN TBODY
-        let count = 0;
-        blacklist_display_HTML += "<div class=\"auto-overflow\"><table class=\"centerTable\"><tbody>";
-        for (let i = 0 ; i < blacklist_array.length ; i++)
-        {
-            let item_name = blacklist_array[i];
-
-            // ADD TABLE ROW START IF FIRST ITEM
-            if (count === 0)
-            {
-                blacklist_display_HTML += "<tr>";
-            }
-
-            if (count % 7 === 0 && count !== 0)
-            {
-                blacklist_display_HTML += "</tr><tr>";
-            }
-
-            // ITEM IMAGE
-            blacklist_display_HTML += "<th class=\"requested-item-image\">";
-            $.ajax({
-                url: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/images/items/" + item_name.split(' ').join('_') + ".png",
-                type: 'HEAD',
-                error: function ()
-                {
-                    data_failure();
-                }
-            });
-
-            blacklist_display_HTML += "<img " +
-                "class=\"requested-item-image low-opacity\" " +
-                "title=\"" + item_name + "\" " +
-                "src=\"../../images/items/" + item_name.split(' ').join('_') + ".png\" " +
-                "alt=\"\">";
-
-            count++;
-        }
-
-        // CLOSE TBODY AND TABLE
-        blacklist_display_HTML += "</tbody></table></div><br><hr>";
-
-        document.getElementById("blacklist-display").innerHTML = blacklist_display_HTML;
-    }
-
-    function build_settings_display()
-    {
-        let saved_settings_map = settings_json;
-
-        // CHECK FOR MISSING SETTINGS
-        if (!saved_settings_map.hasOwnProperty("quest_shown_value") ||
-            !saved_settings_map.hasOwnProperty("ascending_sort_quest_list") ||
-            !saved_settings_map.hasOwnProperty("ascending_sort_quest_score") ||
-            !saved_settings_map.hasOwnProperty("hide_quest_score") ||
-            !saved_settings_map.hasOwnProperty("min_quest_chapter") ||
-            !saved_settings_map.hasOwnProperty("max_quest_chapter") ||
-            !saved_settings_map.hasOwnProperty("quest_filter") ||
-            !saved_settings_map.hasOwnProperty("item_amount_per_row") ||
-            !(saved_settings_map.quest_filter === "filter-all" || saved_settings_map.quest_filter === "filter-normal" || saved_settings_map.quest_filter === "filter-hard"))
-        {
-            data_failure();
-        }
-        else
-        {
-            let settings_display_HTML = "<h1 class=\"align-center\">⸻ Settings ⸻</h1>";
-            settings_display_HTML += "<table class='center'><tbody><tr><td>";
-            settings_display_HTML += "<textarea rows='10' cols='50' disabled>";
-
-            let dump = JSON.stringify(saved_settings_map, null, 4);
-            settings_display_HTML += dump;
-
-            settings_display_HTML += "</textarea></td></tr></tbody></table><br><hr>";
-
-            document.getElementById("settings-display").innerHTML = settings_display_HTML;
-        }
-    }
-
-    function data_failure()
-    {
-        document.getElementById("all-export-elements").style.display = "none";
-        document.getElementById("export-failure").style.display = "block";
-        document.getElementById("export-failure").innerHTML = "<h2 class='align-center'>Invalid Data Provided!</h2>";
-    }
 
     function generate_url()
     {
-        let include_projects = document.getElementById("include-projects").checked;
-        let include_blacklist = document.getElementById("include-blacklist").checked;
-        let include_settings = document.getElementById("include-settings").checked;
+        // DISABLE GENERATE URL BUTTON SO USER DOESN'T SPAM IT
+        document.getElementById("generate-url-button").disabled = true;
 
-        let url = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/pages/import-data/?";
-
-        if (include_projects)
+        // TEST IF RATE LIMITED HERE
+        check_rate_limit_status(function (is_rate_limited, date_string)
         {
-            url += "projects=" + encodeURI(get_data_from_url("projects"));
-        }
-        else
-        {
-            url += "projects=";
-        }
-
-
-        if (include_blacklist)
-        {
-            if (include_projects)
+            if (!is_rate_limited)
             {
-                url += "&";
-            }
-            url += "blacklist=" + encodeURI(get_data_from_url("blacklist"));
-        }
-        else
-        {
-            url += "&";
-            url += "blacklist=";
-        }
-        if (include_settings)
-        {
-            if (include_settings || include_blacklist)
-            {
+                // DO STUFF
+                let include_projects = document.getElementById("include-projects").checked;
+                let include_blacklist = document.getElementById("include-blacklist").checked;
+                let include_settings = document.getElementById("include-settings").checked;
 
-            }
-            url += "&";
-            url += "settings=" + encodeURI(get_data_from_url("settings"));
-        }
-        else
-        {
-            url += "&";
-            url += "settings=";
-        }
+                console.log(include_projects + "/" + include_blacklist + "/" + include_settings);
 
-        // REPLACE localhost SO THAT BIT.LY WORKS
-        url = url.replace("localhost:63342", "expugn.github.io");
+                let url = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/pages/import-data/?id=";
 
-        document.getElementById("long-url").innerHTML = url;
+                let content;
+                let content_map = new Map();
+                if (include_projects) { content_map["projects"] = localStorage.getItem('projects'); }
+                else if (project_data !== null) { document.getElementById("project-display").style.display = "none"; }
+                if (include_blacklist) { content_map["blacklist"] = localStorage.getItem('blacklist'); }
+                else if (blacklist_data !== null) { document.getElementById("blacklist-display").style.display = "none"; }
+                if (include_settings) { content_map["settings"] = localStorage.getItem('settings'); }
+                else if (settings_data !== null) { document.getElementById("settings-display").style.display = "none"; }
 
-        document.getElementById("generated-links").style.display = "block";
-        document.getElementById("export-settings").style.display = "none";
+                content = JSON.stringify(content_map);
 
-        return url;
-    }
+                console.log("[Data Export] - Content Generated: " + content);
 
-    function copyShortURLToClipboard()
-    {
-        let dummy = document.createElement("input");
-        document.body.appendChild(dummy);
-        dummy.setAttribute('value', document.getElementById("short-url").innerHTML);
-        dummy.select();
-        document.execCommand("copy");
-        document.body.removeChild(dummy);
-
-        toastr.info("Copied Short URL to Clipboard!");
-    }
-
-    function copyLongURLToClipboard()
-    {
-        let dummy = document.createElement("input");
-        document.body.appendChild(dummy);
-        dummy.setAttribute('value', document.getElementById("long-url").innerHTML.replace(/amp;/g, ""));
-        dummy.select();
-        document.execCommand("copy");
-        document.body.removeChild(dummy);
-
-        toastr.info("Copied Long URL to Clipboard!");
-    }
-
-    function generate_short_url()
-    {
-        let url = document.getElementById("long-url").innerHTML.replace(/amp;/g, "");
-        function getShortUrl(url, callback)
-        {
-            var accessToken = BITLY_ACCESS_TOKEN;
-            var url = 'https://api-ssl.bitly.com/v3/shorten?access_token=' + accessToken + '&longUrl=' + encodeURIComponent(url);
-
-            $.getJSON(
-                url,
-                {},
-                function(response)
+                // UPLOAD TO GITHUB GISTS HERE
+                upload_gist(create_gist(content), function (gist_id)
                 {
-                    if(callback)
-                        callback(response.data.url);
-                    document.getElementById("short-url").innerHTML = response.data.url;
-                }
-            );
-        }
+                    url += gist_id;
+                    document.getElementById("url").innerHTML = url;
 
-        getShortUrl(url, function (url) {});
-        document.getElementById("copy-short-url-button").style.display = "inline";
-        document.getElementById("generate-short-url-button").style.display = "none";
+                    document.getElementById("generated-links").style.display = "block";
+                    document.getElementById("export-settings").style.display = "none";
+                });
+            }
+            else
+            {
+                // ABANDON SHIP, RATE LIMITED.
+                document.getElementById("export-failure").innerHTML = "<h2 class='align-center'>Rate Limited!<br>Rate Limit Reset: " + date_string + "</h2>";
+                document.getElementById("export-failure").style.display = "block";
+            }
+        });
+    }
 
-        console.log("[Export] - Short URL Generated.");
+    function copyURLToClipboard()
+    {
+        let dummy = document.createElement("input");
+        document.body.appendChild(dummy);
+        dummy.setAttribute('value', document.getElementById("url").innerHTML);
+        dummy.select();
+        document.execCommand("copy");
+        document.body.removeChild(dummy);
+
+        toastr.info("Copied URL to Clipboard!");
     }
 
     function checked_checkbox()
     {
-        if (!(document.getElementById("include-projects").checked || document.getElementById("include-blacklist").checked || document.getElementById("include-settings").checked))
-        {
-            document.getElementById("generate-url-button").disabled = true;
-        }
-        else
-        {
-            document.getElementById("generate-url-button").disabled = false;
-        }
+        document.getElementById("generate-url-button").disabled = !(document.getElementById("include-projects").checked || document.getElementById("include-blacklist").checked || document.getElementById("include-settings").checked);
     }
 </script>
 

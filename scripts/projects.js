@@ -8,7 +8,6 @@ function init_project_data()
         if (typeof(Storage) !== "undefined")
         {
             localStorage.setItem('projects', Cookies.get('projects'));
-            update_project_export(Cookies.get('projects'));
         }
         Cookies.remove('projects');
 
@@ -21,7 +20,6 @@ function init_project_data()
 
         // LOAD DATA FROM COOKIE
         let project_cookie_data = localStorage.getItem('projects');
-        update_project_export(project_cookie_data);
 
         if (project_cookie_data !== undefined)
         {
@@ -95,7 +93,6 @@ function save_project_data()
 
     // SAVE PROJECT MAP TO COOKIE AS COOKIE-SAFE JSON STRING
     localStorage.setItem('projects', map_of_maps_to_map_string_json(projects));
-    update_project_export(localStorage.getItem('projects'));
 
     // UPDATE SELECT DISPLAYING SAVED PROJECTS
     update_saved_projects_select();
@@ -219,7 +216,6 @@ function delete_project_data()
 
         // SAVE PROJECT MAP TO COOKIE AS COOKIE-SAFE JSON STRING
         localStorage.setItem('projects', map_of_maps_to_map_string_json(projects));
-        update_project_export(localStorage.getItem('projects'));
     }
     else
     {
@@ -228,7 +224,6 @@ function delete_project_data()
         // DELETE COOKIE SINCE IT'S NOT NEEDED ANYMORE
         //Cookies.remove('projects');
         localStorage.removeItem('projects');
-        update_project_export("");
     }
 
     update_saved_projects_select();
@@ -332,11 +327,6 @@ function clear_all_item_tables()
     build_data();
 }
 
-function update_project_export(project_json_string)
-{
-    document.getElementById("export-projects").value = project_json_string;
-}
-
 function init_blacklist()
 {
     // BLACKLISTS BEING STORED ON COOKIES HAVE BEEN DEPRECIATED. DELETE/IMPORT DATA.
@@ -345,7 +335,6 @@ function init_blacklist()
         if (typeof(Storage) !== "undefined")
         {
             localStorage.setItem('blacklist', Cookies.get('blacklist'));
-            update_blacklist_export(Cookies.get('blacklist'));
         }
         Cookies.remove('blacklist');
 
@@ -358,7 +347,6 @@ function init_blacklist()
 
         // LOAD DATA FROM COOKIE
         let blacklist_cookie_data = localStorage.getItem('blacklist');
-        update_blacklist_export(blacklist_cookie_data);
 
         let button_title_string = "";
         if (blacklist_cookie_data !== null)
@@ -398,7 +386,6 @@ function save_blacklist()
     // SAVE PROJECT MAP TO COOKIE AS COOKIE-SAFE JSON STRING
     let encrypted_disabled_item_array = JSON.stringify(disabled_items);
     localStorage.setItem('blacklist', encrypted_disabled_item_array);
-    update_blacklist_export(encrypted_disabled_item_array);
 
     let button_title_string = "";
     for (let i = 0 ; i < disabled_items.length ; i++)
@@ -442,7 +429,6 @@ function delete_blacklist()
     if (localStorage.getItem('blacklist') !== null)
     {
         localStorage.removeItem('blacklist');
-        update_blacklist_export("");
         document.getElementById("blacklist-load-button").title = "There is no saved blacklist.";
 
         toastr.success("The item blacklist has been deleted!");
@@ -524,9 +510,4 @@ function blacklist_selected_rarities()
     {
         toastr.error("You did not select any rarities.");
     }
-}
-
-function update_blacklist_export(blacklist_json_string)
-{
-    document.getElementById("export-blacklist").value = blacklist_json_string;
 }

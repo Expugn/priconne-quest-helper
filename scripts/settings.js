@@ -44,7 +44,6 @@ function init_settings()
 
             let encrypted_setting_map = JSON.stringify(settings_map);
             localStorage.setItem('settings', encrypted_setting_map);
-            update_settings_export(encrypted_setting_map);
         }
         Cookies.remove('quest_shown_value');
         Cookies.remove('ascending_sort_quest_list');
@@ -304,7 +303,6 @@ function save_cookie()
     let encrypted_setting_map = JSON.stringify(settings_map);
     console.log(encrypted_setting_map);
     localStorage.setItem('settings', encrypted_setting_map);
-    update_settings_export(encrypted_setting_map);
 
     toastr.success("Your settings have been saved!");
     console.log("[Settings] - Cookie has been baked.");
@@ -316,7 +314,6 @@ function delete_cookie()
     {
         /* TODO UPDATE WHENEVER A NEW SETTING IS ADDED */
         localStorage.removeItem('settings');
-        update_settings_export("");
 
         toastr.success("Your saved settings have been deleted.");
         console.log("[Settings] - Cookie has been eaten.");
@@ -360,7 +357,6 @@ function read_cookie()
         }
         document.getElementById("item-amount-per-row").value = item_amount_per_row;
 
-        update_settings_export(localStorage.getItem('settings'));
         console.log("[Settings] Cookie settings have been loaded.");
     }
 }
@@ -500,7 +496,6 @@ function set_values_from_cookie()
         settings_map.item_amount_per_row = item_amount_per_row;
         let encrypted_setting_map = JSON.stringify(settings_map);
         localStorage.setItem('settings', encrypted_setting_map);
-        update_settings_export(encrypted_setting_map);
     }
 }
 
@@ -525,9 +520,4 @@ function is_cookies_exist()
 function reload()
 {
     window.location.reload(true);
-}
-
-function update_settings_export(settings_json_string)
-{
-    document.getElementById("export-settings").value = settings_json_string;
 }
