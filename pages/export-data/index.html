@@ -47,6 +47,12 @@
 
     <hr>
 
+    <div id="gist-create-iframe" style="display: none">
+        <!-- REPLACE URL WITH LATEST HEROKU URL -->
+        <iframe id="gist-creator" name="gist-creator" src="https://thawing-fortress-48694.herokuapp.com/"></iframe>
+    </div>
+
+
     <div id="localstorage-failure" style="display: none">
         <h2 class='align-center'>
             LocalStorage is Not Supported On This Browser!<br>
@@ -122,13 +128,46 @@
     let blacklist_data;
     let settings_data;
 
-    //let projects_data_provided;
-    //let blacklist_data_provided;
-    //let settings_data_provided;
-
     let project_json;
     let blacklist_json;
     let settings_json;
+
+    let url;
+    let receiverWindow;
+    window.onload = function()
+    {
+        receiverWindow = document.getElementById("gist-creator").contentWindow;
+    };
+
+    window.addEventListener('message', function (e)
+    {
+        if (~e.origin.indexOf(HEROKU_URL))
+        {
+            console.log(e.data + " from " + HEROKU_URL);
+
+            url += e.data;
+
+            document.getElementById("url").innerHTML = url;
+
+            document.getElementById("generated-links").style.display = "block";
+            document.getElementById("export-settings").style.display = "none";
+
+            // URL CREATION COMPLETED
+        }
+        else
+        {
+            console.log("[Export Data] - Received message... but it's from the wrong url: " + e.origin);
+        }
+
+    });
+
+    function send_data_to_heroku(content, gist_key)
+    {
+        receiverWindow.postMessage(location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: ''), HEROKU_URL);
+        receiverWindow.postMessage(content, HEROKU_URL);
+        receiverWindow.postMessage(gist_key, HEROKU_URL);
+        receiverWindow.postMessage("priconne_gist", HEROKU_URL);
+    }
 
     toastr.warning("Loading...", "Status", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
     setTimeout(function () {
@@ -215,9 +254,7 @@
                 let include_blacklist = document.getElementById("include-blacklist").checked;
                 let include_settings = document.getElementById("include-settings").checked;
 
-                console.log(include_projects + "/" + include_blacklist + "/" + include_settings);
-
-                let url = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/pages/import-data/?id=";
+                url = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/pages/import-data/?id=";
 
                 let content;
                 let content_map = new Map();
@@ -232,15 +269,7 @@
 
                 console.log("[Data Export] - Content Generated: " + content);
 
-                // UPLOAD TO GITHUB GISTS HERE
-                upload_gist(create_gist(content), function (gist_id)
-                {
-                    url += gist_id;
-                    document.getElementById("url").innerHTML = url;
-
-                    document.getElementById("generated-links").style.display = "block";
-                    document.getElementById("export-settings").style.display = "none";
-                });
+                send_data_to_heroku(content, GITHUB_GIST_KEY);
             }
             else
             {
@@ -266,6 +295,11 @@
     function checked_checkbox()
     {
         document.getElementById("generate-url-button").disabled = !(document.getElementById("include-projects").checked || document.getElementById("include-blacklist").checked || document.getElementById("include-settings").checked);
+    }
+
+    function onMessage(messageEvent)
+    {
+        console.log(messageEvent.data);
     }
 </script>
 
