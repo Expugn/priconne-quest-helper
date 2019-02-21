@@ -189,7 +189,7 @@ function build_settings_display(settings_json)
     {
         let settings_display_HTML = "<div id=\"settings-display\"><h1 class=\"align-center\">⸻ Settings ⸻</h1>";
         settings_display_HTML += "<table class='center'><tbody><tr><td>";
-        settings_display_HTML += "<textarea rows='10' cols='45' disabled>";
+        settings_display_HTML += "<textarea rows='10' cols='37' disabled>";
 
         let dump = JSON.stringify(saved_settings_map, null, 4);
         settings_display_HTML += dump;
