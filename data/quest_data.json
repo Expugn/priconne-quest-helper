@@ -1950,7 +1950,7 @@
     "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "19-2H": {
-    "item_1": {"item_name": "Divine Blossom Rod Fragment", "drop_percent": 72},
+    "item_1": {"item_name": "Gale Stinger Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Phantasm Mail Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Necrodim Axe Fragment", "drop_percent": 72},
     "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
