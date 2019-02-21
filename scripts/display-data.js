@@ -40,7 +40,7 @@ function build_project_display(project_json)
         project_map.set(project_name, JSON.parse(data_string_json));
     }
 
-    let project_display_HTML = "<div id=\"project-display\"><h1 class=\"align-center\">⸻ Projects ⸻</h1>";
+    let project_display_HTML = "<div id=\"project-display\" style=\"overflow-x: auto\"><h1 class=\"align-center\">⸻ Projects ⸻</h1>";
     project_display_HTML += "<h4 class=\"align-center item-count\">" + project_map.size + " project(s) found.</h4>";
 
     for (let [project_name, project_data] of project_map)
@@ -52,7 +52,7 @@ function build_project_display(project_json)
 
         // NEW TABLE + OPEN TBODY
         let count = 0;
-        project_display_HTML += "<div class=\"auto-overflow\"><table class=\"centerTable\"><tbody>";
+        project_display_HTML += "<div style=\"overflow-x: auto; overflow-y: hidden\"><table class=\"centerTable\"><tbody>";
 
         for (let [item_name, item_amount] of project_data)
         {
@@ -116,7 +116,7 @@ function build_blacklist_display(blacklist_json)
 
     // NEW TABLE + OPEN TBODY
     let count = 0;
-    blacklist_display_HTML += "<div class=\"auto-overflow\"><table class=\"centerTable\"><tbody>";
+    blacklist_display_HTML += "<div style=\"overflow-x: auto; overflow-y: hidden\"><table class=\"centerTable\"><tbody>";
     for (let i = 0 ; i < blacklist_array.length ; i++)
     {
         let item_name = blacklist_array[i];
@@ -189,7 +189,7 @@ function build_settings_display(settings_json)
     {
         let settings_display_HTML = "<div id=\"settings-display\"><h1 class=\"align-center\">⸻ Settings ⸻</h1>";
         settings_display_HTML += "<table class='center'><tbody><tr><td>";
-        settings_display_HTML += "<textarea rows='10' cols='50' disabled>";
+        settings_display_HTML += "<textarea rows='10' cols='45' disabled>";
 
         let dump = JSON.stringify(saved_settings_map, null, 4);
         settings_display_HTML += dump;

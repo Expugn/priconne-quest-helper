@@ -64,8 +64,8 @@
     </div>
 
     <div id="all-export-elements" style="display: none">
-        <div id="export-settings">
-            <h2 class='align-center'>Export Options</h2>
+        <h2 class='align-center'>Export Options</h2>
+        <div id="export-settings" style="overflow-x: auto;">
 
             <table class="center">
                 <tbody>
@@ -82,7 +82,7 @@
                 <tr class="export">
                     <td class="export"></td>
                     <td class="export">
-                        <button id="generate-url-button" type="button" class="align-right" onclick="generate_url()">Generate URL</button>
+                        <button id="generate-url-button" type="button" class="align-center" onclick="generate_url()">Generate URL</button>
                     </td>
                     <td class="export"></td>
                 </tr>
@@ -94,11 +94,11 @@
             <table class="center">
                 <tbody>
                 <tr>
-                    <th><h3 id="url"></h3></th>
+                    <th><h4 id="url"></h4></th>
                 </tr>
                 <tr>
                     <td class="export">
-                        <button type="button" class="align-right" onclick="copyURLToClipboard()">Copy URL to Clipboard</button>
+                        <button type="button" class="align-center" onclick="copyURLToClipboard()">Copy URL to Clipboard</button>
                     </td>
                 </tr>
                 <tr>
