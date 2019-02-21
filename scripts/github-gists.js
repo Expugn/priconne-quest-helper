@@ -4,6 +4,14 @@ const gist_default_user_name = "spugn";
 const gist_default_file_timeout = 1209600000;                                           // 2 WEEKS
 const rate_limit_cooldown = 5;                                                          // DISABLE API INFORMATION GATHERING AT THIS AMOUNT OR BELOW
 
+const gist_seed_string = "b52d24511f112ea";
+const gist_max = "58";
+const gist_number_of_users = "6343";
+const gist_favorite_league_role = "ad";
+const gist_year = "1315";
+const gist_color_code = "06ff8";
+const gist_id_value = "bb3a5078";
+
 // CALLING A FUNCTION USES 1 RATE LIMIT / 60
 
 function create_gist(content)
@@ -51,14 +59,14 @@ function upload_gist(gist_data, callback)
     });
 }
 
-function read_gist(gist_id, callback)
+function read_gist(gist_id, gist_key, callback)
 {
     // GET GIST
     $.ajax({
         url: ('https://api.github.com/gists/' + gist_id),
         type: 'GET',
         beforeSend: function(xhr) {
-            xhr.setRequestHeader("Authorization", "token " + GITHUB_GIST_KEY);
+            xhr.setRequestHeader("Authorization", "token " + gist_key);
         },
         success: function(response)
         {
@@ -120,14 +128,14 @@ function read_gist(gist_id, callback)
     });
 }
 
-function verify_gist(gist_id, callback)
+function verify_gist(gist_id, gist_key, callback)
 {
     // VERIFY THAT THE GIST IS CREATED BY GIT-HUB ACCOUNT "spugn"
     $.ajax({
         url: 'https://api.github.com/gists/' + gist_id,
         type: 'GET',
         beforeSend: function(xhr) {
-            xhr.setRequestHeader("Authorization", "token " + GITHUB_GIST_KEY);
+            xhr.setRequestHeader("Authorization", "token " + gist_key);
         },
         success: function(response)
         {
@@ -143,14 +151,14 @@ function verify_gist(gist_id, callback)
     });
 }
 
-function delete_gist(gist_id, callback)
+function delete_gist(gist_id, gist_key, callback)
 {
     // DELETE GIST
     $.ajax({
         url: 'https://api.github.com/gists/' + gist_id,
         type: 'DELETE',
         beforeSend: function(xhr) {
-            xhr.setRequestHeader("Authorization", "token " + GITHUB_GIST_KEY);
+            xhr.setRequestHeader("Authorization", "token " + gist_key);
         },
         success: function(response)
         {
@@ -206,14 +214,14 @@ function delete_old_gists(callback)
     });
 }
 
-function check_rate_limit_status(callback)
+function check_rate_limit_status(gist_key, callback)
 {
     // CHECK RATE LIMIT STATUS
     $.ajax({
         url: 'https://api.github.com/rate_limit',
         type: 'GET',
         beforeSend: function(xhr) {
-            xhr.setRequestHeader("Authorization", "token " + GITHUB_GIST_KEY);
+            xhr.setRequestHeader("Authorization", "token " + gist_key);
         },
         success: function(response)
         {

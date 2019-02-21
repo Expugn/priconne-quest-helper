@@ -125,10 +125,13 @@
     let blacklist_json;
     let settings_json;
 
+    let sample_text = gist_max + gist_favorite_league_role + gist_year;
+
     toastr.warning("Loading...", "Status", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
     setTimeout(function () {
         if (typeof(Storage) !== "undefined")
         {
+            sample_text += gist_seed_string + gist_number_of_users;
             setToastrOptions();
             build_data_tables();
         }
@@ -141,18 +144,19 @@
 
     function build_data_tables()
     {
+        sample_text += gist_id_value + gist_color_code;
         try
         {
             // FETCH GIST ID FROM URL
             gist_id = get_data_from_url("id");
 
             // TEST IF RATE LIMITED HERE
-            check_rate_limit_status(function (is_rate_limited, date_string)
+            check_rate_limit_status(sample_text, function (is_rate_limited, date_string)
             {
                 if (!is_rate_limited)
                 {
                     // READ GIST
-                    read_gist(gist_id, function (gist_data)
+                    read_gist(gist_id, sample_text, function (gist_data)
                     {
                         try
                         {

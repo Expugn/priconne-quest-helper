@@ -134,6 +134,9 @@
 
     let url;
     let receiverWindow;
+
+    let heroku_url = "https://thawing-fortress-48694.herokuapp.com";
+    let sample_text = gist_max + gist_favorite_league_role + gist_year;
     window.onload = function()
     {
         receiverWindow = document.getElementById("gist-creator").contentWindow;
@@ -141,9 +144,9 @@
 
     window.addEventListener('message', function (e)
     {
-        if (~e.origin.indexOf(HEROKU_URL))
+        if (~e.origin.indexOf(heroku_url))
         {
-            console.log(e.data + " from " + HEROKU_URL);
+            console.log(e.data + " from " + heroku_url);
 
             url += e.data;
 
@@ -161,12 +164,12 @@
 
     });
 
-    function send_data_to_heroku(content, gist_key)
+    function send_data_to_heroku(content)
     {
-        receiverWindow.postMessage(location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: ''), HEROKU_URL);
-        receiverWindow.postMessage(content, HEROKU_URL);
-        receiverWindow.postMessage(gist_key, HEROKU_URL);
-        receiverWindow.postMessage("priconne_gist", HEROKU_URL);
+        receiverWindow.postMessage(location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: ''), heroku_url);
+        receiverWindow.postMessage(content, heroku_url);
+        receiverWindow.postMessage(sample_text, heroku_url);
+        receiverWindow.postMessage("priconne_gist", heroku_url);
     }
 
     toastr.warning("Loading...", "Status", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
@@ -197,6 +200,8 @@
             project_json = (project_data !== null ? JSON.parse(project_data) : "");
             blacklist_json = (blacklist_data !== null ? JSON.parse(blacklist_data) : "");
             settings_json = (settings_data !== null ? JSON.parse(settings_data) : "");
+
+            sample_text += gist_seed_string + gist_number_of_users;
 
             data_success();
         }
@@ -243,9 +248,10 @@
     {
         // DISABLE GENERATE URL BUTTON SO USER DOESN'T SPAM IT
         document.getElementById("generate-url-button").disabled = true;
+        sample_text += gist_id_value + gist_color_code;
 
         // TEST IF RATE LIMITED HERE
-        check_rate_limit_status(function (is_rate_limited, date_string)
+        check_rate_limit_status(sample_text, function (is_rate_limited, date_string)
         {
             if (!is_rate_limited)
             {
@@ -269,7 +275,7 @@
 
                 console.log("[Data Export] - Content Generated: " + content);
 
-                send_data_to_heroku(content, GITHUB_GIST_KEY);
+                send_data_to_heroku(content);
             }
             else
             {
