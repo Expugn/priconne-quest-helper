@@ -912,7 +912,7 @@
     "item_1": {"item_name": "Rod of Life Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Angel Bow Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Bright Sword Fragment", "drop_percent": 24},
-    "subdrops": [ "Flower Bud Wand Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Cupid's Bow Fragment", "Witch Palace Boots Fragment" ]
+    "subdrops": [ "Flower Bud Wand Fragment", "Cupid's Bow Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Witch Palace Boots Fragment" ]
   },
   "10-4": {
     "item_1": {"item_name": "Mythril Plate Fragment", "drop_percent": 36},
@@ -924,7 +924,7 @@
     "item_1": {"item_name": "Saint's Robe Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Hermit Clothes Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Empress Shield Fragment", "drop_percent": 24},
-    "subdrops": [ "Flower Bud Wand Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Cupid's Bow Fragment", "Witch Palace Boots Fragment" ]
+    "subdrops": [ "Flower Bud Wand Fragment", "Cupid's Bow Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Witch Palace Boots Fragment" ]
   },
   "10-6": {
     "item_1": {"item_name": "Vermilion Plate Fragment", "drop_percent": 36},
@@ -942,7 +942,7 @@
     "item_1": {"item_name": "Angel Boots Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Elemental Heart Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Solar Sword Fragment", "drop_percent": 24},
-    "subdrops": [ "Flower Bud Wand Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Cupid's Bow Fragment", "Witch Palace Boots Fragment" ]
+    "subdrops": [ "Flower Bud Wand Fragment", "Cupid's Bow Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Witch Palace Boots Fragment" ]
   },
   "10-9": {
     "item_1": {"item_name": "Hermit Clothes Fragment", "drop_percent": 36},
@@ -960,7 +960,7 @@
     "item_1": {"item_name": "Vermilion Plate Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Elemental Heart Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Queen Bee Spear Fragment", "drop_percent": 24},
-    "subdrops": [ "Flower Bud Wand Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Cupid's Bow Fragment", "Witch Palace Boots Fragment" ]
+    "subdrops": [ "Flower Bud Wand Fragment", "Cupid's Bow Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Witch Palace Boots Fragment" ]
   },
   "10-12": {
     "item_1": {"item_name": "Hermit Clothes Fragment", "drop_percent": 36},
@@ -978,19 +978,19 @@
     "item_1": {"item_name": "Angel Boots Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Mourning Crescent Moon Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Princess' Dagger Fragment", "drop_percent": 24},
-    "subdrops": [ "Flower Bud Wand Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Cupid's Bow Fragment", "Witch Palace Boots Fragment" ]
+    "subdrops": [ "Flower Bud Wand Fragment", "Cupid's Bow Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Witch Palace Boots Fragment" ]
   },
   "10-15": {
     "item_1": {"item_name": "Mythril Plate Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Elemental Heart Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Lion King Gauntlet Fragment", "drop_percent": 24},
-    "subdrops": [ "Flower Bud Wand Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Cupid's Bow Fragment", "Witch Palace Boots Fragment" ]
+    "subdrops": [ "Flower Bud Wand Fragment", "Cupid's Bow Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Witch Palace Boots Fragment" ]
   },
   "10-16": {
     "item_1": {"item_name": "Hermit Clothes Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Angel Boots Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Bangle of Substitution Fragment", "drop_percent": 24},
-    "subdrops": [ "Flower Bud Wand Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Cupid's Bow Fragment", "Witch Palace Boots Fragment" ]
+    "subdrops": [ "Flower Bud Wand Fragment", "Cupid's Bow Fragment", "Cupid Robe Fragment", "Witch Hat Fragment", "Witch Palace Boots Fragment" ]
   },
   "10-17": {
     "item_1": {"item_name": "Vermilion Plate Fragment", "drop_percent": 36},
@@ -1812,7 +1812,7 @@
     "item_1": {"item_name": "Millennium Earrings Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Fairy King's Guardian Stone Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Silver Wing Bow Fragment", "drop_percent": 24},
-    "subdrops": [ "Crusader Plate Fragment", "Ice Claymore Fragment", "Violet Armor Fragment", "Dark Matter Edge Fragment", "Sun Amulet Fragment" ]
+    "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
   },
   "18-2": {
     "item_1": {"item_name": "Fairy King's Guardian Stone Fragment", "drop_percent": 36},
@@ -1842,7 +1842,7 @@
     "item_1": {"item_name": "Mourning Crown Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Ocean God's Earrings Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Xenosphere Rod Fragment", "drop_percent": 24},
-    "subdrops": [ "Crusader Plate Fragment", "Ice Claymore Fragment", "Violet Armor Fragment", "Dark Matter Edge Fragment", "Sun Amulet Fragment" ]
+    "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
   },
   "18-7": {
     "item_1": {"item_name": "Phantasm Mail Fragment", "drop_percent": 36},
@@ -1860,7 +1860,7 @@
     "item_1": {"item_name": "Shrine Maiden's Purity Cloth Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Ocean God's Earrings Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Zero Frost Lance Fragment", "drop_percent": 24},
-    "subdrops": [ "Crusader Plate Fragment", "Ice Claymore Fragment", "Violet Armor Fragment", "Dark Matter Edge Fragment", "Sun Amulet Fragment" ]
+    "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
   },
   "18-10": {
     "item_1": {"item_name": "Aegis Coat Fragment", "drop_percent": 36},
@@ -1878,7 +1878,7 @@
     "item_1": {"item_name": "Azure Armor Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Astrograph Buckler Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Millennium Earrings Fragment", "drop_percent": 24},
-    "subdrops": [ "Crusader Plate Fragment", "Ice Claymore Fragment", "Violet Armor Fragment", "Dark Matter Edge Fragment", "Sun Amulet Fragment" ]
+    "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
   },
   "18-13": {
     "item_1": {"item_name": "Shrine Maiden's Purity Cloth Fragment", "drop_percent": 36},
@@ -1917,7 +1917,7 @@
     "item_1": {"item_name": "Shrine Maiden's Purity Cloth Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Astrograph Buckler Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Millennium Earrings Fragment", "drop_percent": 24},
-    "subdrops": [ "Crusader Plate Fragment", "Ice Claymore Fragment", "Violet Armor Fragment", "Dark Matter Edge Fragment", "Sun Amulet Fragment" ]
+    "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
   },
   "19-2": {
     "item_1": {"item_name": "Azure Armor Fragment", "drop_percent": 36},
@@ -1947,7 +1947,7 @@
     "item_1": {"item_name": "Genesis Rod Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Crimson Claw Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Phantasm Mail Fragment", "drop_percent": 24},
-    "subdrops": [ "Crusader Plate Fragment", "Ice Claymore Fragment", "Violet Armor Fragment", "Dark Matter Edge Fragment", "Sun Amulet Fragment" ]
+    "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
   },
   "19-7": {
     "item_1": {"item_name": "Flowing Azure Blade Fragment", "drop_percent": 36},
@@ -1965,7 +1965,7 @@
     "item_1": {"item_name": "Lava Edge Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Phantasm Mail Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Azure Armor Fragment", "drop_percent": 24},
-    "subdrops": [ "Crusader Plate Fragment", "Ice Claymore Fragment", "Violet Armor Fragment", "Dark Matter Edge Fragment", "Sun Amulet Fragment" ]
+    "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
   },
   "19-10": {
     "item_1": {"item_name": "Flowing Azure Blade Fragment", "drop_percent": 36},
@@ -1983,7 +1983,7 @@
     "item_1": {"item_name": "Dawn's Holy Sword Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Azure Armor Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Fairy King's Guardian Stone Fragment", "drop_percent": 24},
-    "subdrops": [ "Crusader Plate Fragment", "Ice Claymore Fragment", "Violet Armor Fragment", "Dark Matter Edge Fragment", "Sun Amulet Fragment" ]
+    "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
   },
   "19-13": {
     "item_1": {"item_name": "Abyss Bow Fragment", "drop_percent": 36},
@@ -2022,7 +2022,7 @@
     "item_1": {"item_name": "Crimson Claw Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Gale Stinger Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Astrograph Buckler Fragment", "drop_percent": 24},
-    "subdrops": [ "Crusader Plate Fragment", "Ice Claymore Fragment", "Violet Armor Fragment", "Dark Matter Edge Fragment", "Sun Amulet Fragment" ]
+    "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
   },
   "20-2": {
     "item_1": {"item_name": "Divine Judgement Axe Fragment", "drop_percent": 36},
@@ -2052,7 +2052,7 @@
     "item_1": {"item_name": "Fury Dragon Pendant Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Crimson Claw Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Astrograph Buckler Fragment", "drop_percent": 24},
-    "subdrops": [ "Crusader Plate Fragment", "Ice Claymore Fragment", "Violet Armor Fragment", "Dark Matter Edge Fragment", "Sun Amulet Fragment" ]
+    "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
   },
   "20-7": {
     "item_1": {"item_name": "Mermaid Princess' Spirit Tear Fragment", "drop_percent": 36},
@@ -2070,7 +2070,7 @@
     "item_1": {"item_name": "Fury Dragon Pendant Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Divine Judgement Axe Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Azure Armor Fragment", "drop_percent": 24},
-    "subdrops": [ "Crusader Plate Fragment", "Ice Claymore Fragment", "Violet Armor Fragment", "Dark Matter Edge Fragment", "Sun Amulet Fragment" ]
+    "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
   },
   "20-10": {
     "item_1": {"item_name": "Mermaid Princess' Spirit Tear Fragment", "drop_percent": 36},
@@ -2088,7 +2088,7 @@
     "item_1": {"item_name": "Fury Dragon Pendant Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Mermaid Princess' Spirit Tear Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Lava Edge Fragment", "drop_percent": 24},
-    "subdrops": [ "Crusader Plate Fragment", "Ice Claymore Fragment", "Violet Armor Fragment", "Dark Matter Edge Fragment", "Sun Amulet Fragment" ]
+    "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
   },
   "20-13": {
     "item_1": {"item_name": "Mermaid Princess' Spirit Tear Fragment", "drop_percent": 36},
