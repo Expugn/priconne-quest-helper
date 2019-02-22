@@ -69,6 +69,11 @@
             table_html += "<tbody>";
             for (let [item_name, item_data_map] of equipment_map)
             {
+                // HIDE CHARACTER SHARDS
+                const display_shards = false;
+                if (item_name.includes("Shard") && display_shards === false) { continue; }
+
+                // DISPLAY ITEM
                 let required_items = item_data_map.get("req_items");
 
                 table_html += "<tr>";

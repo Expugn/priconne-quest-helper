@@ -60,6 +60,8 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     let item_1_dp = quest_data.get("item_1").drop_percent;      // OBJECT
                     let item_3_dp = quest_data.get("item_3").drop_percent;      // OBJECT
                     let quest_subdrops = quest_data.get("subdrops");            // ARRAY
+                    let char_shard = "";
+                    if (quest_id.includes("H")) { char_shard = quest_data.get("char_shard").item_name; } // OBJECT
 
                     let quest_score = 0;
 
@@ -85,6 +87,9 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     {
                         if (total_recipe.has(quest_subdrops[i])) { quest_score += item_is_in_subitem_score; }
                     }
+
+                    // CHECK CHARACTER SHARD
+                    if (total_recipe.has(char_shard)) { quest_score += item_is_in_top_2_score; }
 
                     // IF QUEST SCORE IS NOT ZERO, ADD TO QUEST TABLE
                     if (quest_score !== 0)
@@ -168,6 +173,17 @@ function build_recommended_quest_table(all_recipe_maps_array)
 
                 let subdrops = get_quest_data(quest_id, "subdrops");
 
+                let character_shard = "";
+                let char_shard_name = "";
+                let char_shard_drop_rate = "";
+
+                if (quest_id.includes("H"))
+                {
+                    character_shard = get_quest_data(quest_id, "char_shard");
+                    char_shard_name = character_shard["item_name"];
+                    char_shard_drop_rate = character_shard["drop_percent"];
+                }
+
                 // APPLY COLOR ACCORDING TO QUEST SCORE
                 let quest_score_color = "";
                 if (quest_score >= 2)
@@ -186,12 +202,30 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 table_html += "<tr>";
 
                 // QUEST NAME
-                table_html += "<th height='64' width='144'><h3 class=\"quest-title " + quest_score_color + "\">" + quest_id.replace("H", " <span style=\"color: #ff4d4d\">H</span>") + "</h3></th>";
+                table_html += "<th height='64' width='144'>" +
+                    "<h3 class=\"quest-title " + quest_score_color + (quest_id.includes("H") ? " quest-title-hard" : "") + "\">" + quest_id.replace("H", " <span style=\"color: #ff4d4d\">H</span>") + "</h3>" +
+                    "</th>";
 
                 // DIVIDER
                 table_html += "<th>";
                 table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                    + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
+                    + "\" src=\"\" alt=\"\">";
+                // INCLUDE HARD MODE CHARACTER SHARD IMAGE
+                if (quest_id.includes("H"))
+                {
+                    if (total_recipe.has(char_shard_name))
+                    {
+                        table_html += "<img class=\"quest-item-image quest-character-shard\" title=\"" + char_shard_name +
+                            "\" src=\"images/items/" + (char_shard_name).split(' ').join('_') + ".png\" alt\"\">";
+                        table_html += "<div class=\"quest-character-shard-drop-rate\">" + char_shard_drop_rate + "\u0025</div>";
+                    }
+                    else
+                    {
+                        table_html += "<img class=\"quest-item-image quest-character-shard-grayscale\" title=\"" + char_shard_name +
+                            "\" src=\"images/items/" + (char_shard_name).split(' ').join('_') + ".png\" alt\"\">";
+                    }
+
+                }
                 table_html += "</th>";
 
                 // ITEM 1 IMAGE
@@ -218,7 +252,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 // DIVIDER
                 table_html += "<th>";
                 table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                    + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
+                    + "\" src=\"\" alt=\"\">";
                 table_html += "</th>";
 
                 // SUB-ITEM IMAGES
@@ -236,7 +270,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     // DIVIDER
                     table_html += "<th>";
                     table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                        + "\" src=\"images/items/Placeholder.png\" alt=\"\">";
+                        + "\" src=\"\" alt=\"\">";
                     table_html += "</th>";
 
                     // QUEST POINTS

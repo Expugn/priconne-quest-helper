@@ -220,7 +220,7 @@ img.quest-item-image {
     background-color: rgba(255, 255, 255, 0.5);
 
     position: relative;
-    bottom: 6px;
+    bottom: 5px;
 
     margin-bottom: 5%;
 
@@ -233,6 +233,64 @@ img.quest-item-image {
     border-radius: 5px;
 
     white-space: nowrap;
+}
+
+.quest-title-hard {
+    padding-left: 20px;
+    padding-right: 65px;
+}
+
+.quest-character-shard-drop-rate {
+    margin-left: -500px;
+    margin-right: -500px;
+    position: relative;
+    font-size: 14px;
+    left: -527px;
+    top: -5px;
+
+    text-shadow: 1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000;
+    color: lightsalmon;
+    font-family: "Calibri", Arial, serif;
+    text-align: right;
+
+    border-radius: 5px;
+    z-index: 2;
+}
+
+img.quest-character-shard {
+    display: inline;
+    max-height: 32px !important;
+    max-width: 32px !important;
+    min-width: 16px !important;
+    min-height: 16px !important;
+    margin-left: -500px;
+    margin-right: -500px;
+
+    position: relative;
+    top: 12px;
+    right: 46px;
+    left: -47px;
+}
+
+img.quest-character-shard-grayscale {
+    display: inline;
+    max-height: 32px !important;
+    max-width: 32px !important;
+    min-width: 16px !important;
+    min-height: 16px !important;
+    margin-left: -500px;
+    margin-right: -500px;
+
+    position: relative;
+    top: 3px;
+    right: 46px;
+    left: -47px;
+
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .quest-title-bg-green {

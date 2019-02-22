@@ -77,12 +77,25 @@
                     table_html += "<tr>";
 
                     // QUEST NAME
-                    table_html += "<th height='64' width='144'><h3 class=\"quest-title\">" + quest_id.replace("H", " <span style=\"color: #ff4d4d\">H</span>") + "</h3></th>";
+                    table_html += "<th height='64' width='144'><h3 class=\"quest-title" + (quest_id.includes("H") ? " quest-title-hard" : "") + "\">" + quest_id.replace("H", " <span style=\"color: #ff4d4d\">H</span>") + "</h3></th>";
 
                     // DIVIDER
                     table_html += "<th>";
                     table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                        + "\" src=\"../../images/items/Placeholder.png\" alt=\"\">";
+                        + "\" src=\"\" alt=\"\">";
+                    // INCLUDE HARD MODE CHARACTER SHARD IMAGE
+                    if (quest_id.includes("H"))
+                    {
+                        let character_shard = get_quest_data(quest_id, "char_shard");
+                        let char_shard_name = character_shard["item_name"];
+                        let char_shard_drop_rate = character_shard["drop_percent"];
+
+                        table_html += "<img class=\"quest-item-image quest-character-shard\" title=\"" + char_shard_name +
+                            "\" src=\"../../images/items/" + (char_shard_name).split(' ').join('_') + ".png\" alt\"\">";
+                        table_html += "<div class=\"quest-character-shard-drop-rate\">" + char_shard_drop_rate + "\u0025</div>";
+                    }
+
+
                     table_html += "</th>";
 
                     // ITEM 1 IMAGE
@@ -109,7 +122,7 @@
                     // DIVIDER
                     table_html += "<th>";
                     table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                        + "\" src=\"../../images/items/Placeholder.png\" alt=\"\">";
+                        + "\" src=\"\" alt=\"\">";
                     table_html += "</th>";
 
                     // SUB-ITEM IMAGES

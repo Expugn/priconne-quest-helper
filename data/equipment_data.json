@@ -1406,5 +1406,173 @@
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
+  },
+  "yui_shard": {
+    "name": "Yui Shard",
+    "id": "misc-1",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "rei_shard": {
+    "name": "Rei Shard",
+    "id": "misc-2",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "yuki_shard": {
+    "name": "Yuki Shard",
+    "id": "misc-3",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "mimi_shard": {
+    "name": "Mimi Shard",
+    "id": "misc-4",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "kurumi_shard": {
+    "name": "Kurumi Shard",
+    "id": "misc-5",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "eriko_shard": {
+    "name": "Eriko Shard",
+    "id": "misc-6",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "saren_shard": {
+    "name": "Saren Shard",
+    "id": "misc-7",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "ninon_shard": {
+    "name": "Ninon Shard",
+    "id": "misc-8",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "shinobu_shard": {
+    "name": "Shinobu Shard",
+    "id": "misc-9",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "akino_shard": {
+    "name": "Akino Shard",
+    "id": "misc-10",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "mahiru_shard": {
+    "name": "Mahiru Shard",
+    "id": "misc-11",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "kyouka_shard": {
+    "name": "Kyouka Shard",
+    "id": "misc-12",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "shiori_shard": {
+    "name": "Shiori Shard",
+    "id": "misc-13",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "aoi_shard": {
+    "name": "Aoi Shard",
+    "id": "misc-14",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "ilya_shard": {
+    "name": "Ilya Shard",
+    "id": "misc-15",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "jun_shard": {
+    "name": "Jun Shard",
+    "id": "misc-16",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "mifuyu_shard": {
+    "name": "Mifuyu Shard",
+    "id": "misc-17",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "shizuru_shard": {
+    "name": "Shizuru Shard",
+    "id": "misc-18",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "misaki_shard": {
+    "name": "Misaki Shard",
+    "id": "misc-19",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "rima_shard": {
+    "name": "Rima Shard",
+    "id": "misc-20",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "djeeta_shard": {
+    "name": "Djeeta Shard",
+    "id": "misc-21",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "pecorine_shard": {
+    "name": "Pecorine Shard",
+    "id": "misc-22",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "kokkoro_shard": {
+    "name": "Kokkoro Shard",
+    "id": "misc-23",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "arisa_shard": {
+    "name": "Arisa Shard",
+    "id": "misc-24",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
   }
 }

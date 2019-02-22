@@ -4,7 +4,7 @@ let collapsible_failed = false;
 
 function enableCollapsible()
 {
-    const amt_of_collapsible_elements = 5;
+    const amt_of_collapsible_elements = 6;
     let coll = document.getElementsByClassName("collapsible");
 
     if (coll.length < amt_of_collapsible_elements)

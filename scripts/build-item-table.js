@@ -5,7 +5,7 @@ let item_table_currently_selected_items_map = new Map();
 
 function build_item_tables()
 {
-    const amt_of_item_tables = 5;
+    const amt_of_item_tables = 6;
     let item_table_count = document.getElementsByClassName("itemTable");
 
     if (item_table_count.length < amt_of_item_tables)
@@ -50,6 +50,7 @@ function build_item_tables()
     let silver_count = 0;
     let gold_count = 0;
     let purple_count = 0;
+    let misc_count = 0;
 
     // HTML STRING VARIABLES
     let common_item_HTML = "";
@@ -57,6 +58,7 @@ function build_item_tables()
     let silver_item_HTML = "";
     let gold_item_HTML = "";
     let purple_item_HTML = "";
+    let misc_item_HTML = "";
 
     // TABLE BODY HEADERS
     common_item_HTML += "<tbody>";
@@ -64,6 +66,7 @@ function build_item_tables()
     silver_item_HTML += "<tbody>";
     gold_item_HTML += "<tbody>";
     purple_item_HTML += "<tbody>";
+    misc_item_HTML += "<tbody>";
 
     // TABLE BODY CONTENT
     for (let [item_name, item_data_map] of equipment_map)
@@ -105,6 +108,13 @@ function build_item_tables()
                 purple_count++;
 
                 break;
+
+            case "misc":
+                misc_item_HTML = add_item_image_to_table(misc_count, misc_item_HTML, item_name, item_id, rarity_class);
+                misc_count++;
+
+                break;
+
             default:
                 console.log("[Table Builder] - Unknown Item: " + item_name);
                 break;
@@ -117,6 +127,7 @@ function build_item_tables()
     silver_item_HTML = close_item_table(silver_count, silver_item_HTML, "silver");
     gold_item_HTML = close_item_table(gold_count, gold_item_HTML, "gold");
     purple_item_HTML = close_item_table(purple_count, purple_item_HTML, "purple");
+    misc_item_HTML = close_item_table(misc_count, misc_item_HTML, "misc");
 
     // DISPLAY ITEM TABLES
     document.getElementById("common-item-table").innerHTML = common_item_HTML;
@@ -124,6 +135,7 @@ function build_item_tables()
     document.getElementById("silver-item-table").innerHTML = silver_item_HTML;
     document.getElementById("gold-item-table").innerHTML = gold_item_HTML;
     document.getElementById("purple-item-table").innerHTML = purple_item_HTML;
+    document.getElementById("misc-item-table").innerHTML = misc_item_HTML;
 
     if (item_table_ready === false)
     {
@@ -168,7 +180,7 @@ function add_item_image_to_table(count, item_HTML, item_name, item_id, rarity_cl
                 "class=\"item-input\" " +
                 "type=\"number\" " +
                 "min=\"0\" " +
-                "max=\"99\" " +
+                "max=\"" + ((rarity_class === "misc") ? "400" : "99") + "\" " +
                 "value=\"" + ((existing_value > -1) ? existing_value : 0) + "\" " +
                 "onchange=\"update_requested(this)\">";
             item_HTML += "</th>";
@@ -225,7 +237,7 @@ function close_item_table(count, item_HTML, rarity_class)
             "class=\"item-input\" " +
             "type=\"number\" " +
             "min=\"0\" " +
-            "max=\"99\" " +
+            "max=\"" + ((rarity_class === "misc") ? "400" : "99") + "\" " +
             "value=\"" + ((existing_value > -1) ? existing_value : 0) + "\" " +
             "onchange=\"update_requested(this)\">";
         item_HTML += "</th>";

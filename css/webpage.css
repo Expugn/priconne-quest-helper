@@ -51,6 +51,10 @@ div.div-background-purple {
     background-image: url("./../images/webpage/bg_500240_blur.png");
 }
 
+div.div-background-misc {
+    background-image: url("./../images/webpage/bg_100621_blur.png");
+}
+
 div.div-background-requested {
     background-image: url("./../images/webpage/bg_500012_blur.png");
 }
@@ -141,6 +145,10 @@ hr {
 
 .purple-color {
     color: #d67dff;
+}
+
+.misc-color {
+    color: #a1e9ff;
 }
 
 .request-title {

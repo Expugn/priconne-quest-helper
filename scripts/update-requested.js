@@ -27,7 +27,7 @@ function remove_item_from_disabled_items(item_id)
 function build_data()
 {
     /* COLLECT ALL SELECTED ITEM DATA */
-    let mergedItemMap = new Map([...read_common(), ...read_copper(), ...read_silver(), ...read_gold(), ...read_purple()]);
+    let mergedItemMap = new Map([...read_common(), ...read_copper(), ...read_silver(), ...read_gold(), ...read_purple(), ...read_misc()]);
     build_requested_item_table(mergedItemMap);
 
     /* GET RECIPES */

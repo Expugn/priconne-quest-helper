@@ -63,18 +63,21 @@
     "item_1": {"item_name": "Steel Spear", "drop_percent": 72},
     "item_2": {"item_name": "Leather Overalls", "drop_percent": 72},
     "item_3": {"item_name": "Leather Boots", "drop_percent": 72},
+    "char_shard": {"item_name": "Kokkoro Shard", "drop_percent": 50},
     "subdrops": [ "Iron Blade", "Wood Grip", "One Handed Axe", "Tree Shield", "Motivational Bracelet" ]
   },
   "1-2H": {
     "item_1": {"item_name": "Leather Overalls", "drop_percent": 72},
     "item_2": {"item_name": "Protective Pendant", "drop_percent": 72},
     "item_3": {"item_name": "Motivational Bracelet", "drop_percent": 72},
+    "char_shard": {"item_name": "Kurumi Shard", "drop_percent": 50},
     "subdrops": [ "Steel Spear", "Killer Pencil", "Leather Overalls", "Leather Boots", "Protective Pendant" ]
   },
   "1-3H": {
     "item_1": {"item_name": "Crystal Bow", "drop_percent": 72},
-    "item_2": {"item_name": "Jewel of Love", "drop_percent": 72},
-    "item_3": {"item_name": "Leather Boots", "drop_percent": 72},
+    "item_2": {"item_name": "Leather Boots", "drop_percent": 72},
+    "item_3": {"item_name": "Jewel of Love", "drop_percent": 72},
+    "char_shard": {"item_name": "Aoi Shard", "drop_percent": 50},
     "subdrops": [ "Fragrant Wood Wand", "Hunter's Bow", "Journey Robe", "Fashionable Beret", "Fighting Bracelet" ]
   },
   "2-1": {
@@ -153,18 +156,21 @@
     "item_1": {"item_name": "Gear Blade", "drop_percent": 72},
     "item_2": {"item_name": "Scale Mail Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Jewel of Courage", "drop_percent": 72},
+    "char_shard": {"item_name": "Rei Shard", "drop_percent": 50},
     "subdrops": [ "Iron Blade", "Wood Grip", "One Handed Axe", "Tree Shield", "Motivational Bracelet" ]
   },
   "2-2H": {
     "item_1": {"item_name": "Doctorless Staff", "drop_percent": 72},
     "item_2": {"item_name": "Spring Color Robe Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Magic Glasses", "drop_percent": 72},
+    "char_shard": {"item_name": "Yui Shard", "drop_percent": 50},
     "subdrops": [ "Steel Spear", "Killer Pencil", "Leather Overalls", "Leather Boots", "Protective Pendant" ]
   },
   "2-3H": {
     "item_1": {"item_name": "Legion Helm Fragment", "drop_percent": 72},
-    "item_2": {"item_name": "Victory Friendship Bracelet", "drop_percent": 72},
-    "item_3": {"item_name": "Command Knife", "drop_percent": 72},
+    "item_2": {"item_name": "Command Knife", "drop_percent": 72},
+    "item_3": {"item_name": "Victory Friendship Bracelet", "drop_percent": 72},
+    "char_shard": {"item_name": "Saren Shard", "drop_percent": 50},
     "subdrops": [ "Fragrant Wood Wand", "Hunter's Bow", "Journey Robe", "Fashionable Beret", "Fighting Bracelet" ]
   },
   "3-1": {
@@ -243,18 +249,21 @@
     "item_1": {"item_name": "Blue Blood", "drop_percent": 72},
     "item_2": {"item_name": "Scale Mail Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Protective Pendant", "drop_percent": 72},
+    "char_shard": {"item_name": "Pecorine Shard", "drop_percent": 50},
     "subdrops": [ "Gear Blade", "Metal Axe", "Scale Mail Fragment", "Clothes of Wisdom", "Jewel of Courage" ]
   },
   "3-2H": {
     "item_1": {"item_name": "Flame Spear", "drop_percent": 72},
     "item_2": {"item_name": "High Metal Plate Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Victory Friendship Bracelet", "drop_percent": 72},
+    "char_shard": {"item_name": "Rima Shard", "drop_percent": 50},
     "subdrops": [ "Trident", "Command Knife", "Folklore Clothes", "Crown Boots", "Jewel of Love" ]
   },
   "3-3H": {
     "item_1": {"item_name": "Blue Sphere Axe Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Metal Axe", "drop_percent": 72},
     "item_3": {"item_name": "Spike Bangle", "drop_percent": 72},
+    "char_shard": {"item_name": "Mimi Shard", "drop_percent": 50},
     "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
   },
   "4-1": {
@@ -339,18 +348,21 @@
     "item_1": {"item_name": "Knight's Pride Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Trident", "drop_percent": 72},
     "item_3": {"item_name": "Spike Bangle", "drop_percent": 72},
+    "char_shard": {"item_name": "Kokkoro Shard", "drop_percent": 52},
     "subdrops": [ "Gear Blade", "Metal Axe", "Scale Mail Fragment", "Clothes of Wisdom", "Jewel of Courage" ]
   },
   "4-2H": {
     "item_1": {"item_name": "Flower Bud Wand Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Witch Hat Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Magic Monocle Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Misaki Shard", "drop_percent": 52},
     "subdrops": [ "Trident", "Command Knife", "Folklore Clothes", "Crown Boots", "Jewel of Love" ]
   },
   "4-3H": {
     "item_1": {"item_name": "Garnet Shield Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Fashion Armor Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Crescent Sword", "drop_percent": 72},
+    "char_shard": {"item_name": "Ninon Shard", "drop_percent": 52},
     "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
   },
   "5-1": {
@@ -435,18 +447,21 @@
     "item_1": {"item_name": "Battling Dress Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Emerald Earrings Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Tower Shield Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Kurumi Shard", "drop_percent": 52},
     "subdrops": [ "Gear Blade", "Metal Axe", "Scale Mail Fragment", "Clothes of Wisdom", "Jewel of Courage" ]
   },
   "5-2H": {
     "item_1": {"item_name": "Lightning Axe Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Fashion Armor Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Shinobi Shoes Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Mifuyu Shard", "drop_percent": 52},
     "subdrops": [ "Trident", "Command Knife", "Folklore Clothes", "Crown Boots", "Jewel of Love" ]
   },
   "5-3H": {
     "item_1": {"item_name": "Cupid's Bow Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Opal Earrings Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Millefeuille Cloth Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Shiori Shard", "drop_percent": 52},
     "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
   },
   "6-1": {
@@ -537,18 +552,21 @@
     "item_1": {"item_name": "Devil's Horn Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Cupid Robe Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Pearl Earrings Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Yui Shard", "drop_percent": 52},
     "subdrops": [ "Leather Knuckle", "Aurora Sword", "High-Metal Axe", "Light Plate Fragment", "Spike Bangle" ]
   },
   "6-2H": {
     "item_1": {"item_name": "Lightning Axe Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Dragon Head Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Emerald Earrings Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Mahiru Shard", "drop_percent": 52},
     "subdrops": [ "Blue Blood", "Crescent Sword", "High Metal Plate Fragment", "Legion Helm Fragment", "Victory Friendship Bracelet" ]
   },
   "6-3H": {
     "item_1": {"item_name": "Feather Blade Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Heavy Metal Armor Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Lion Eagle's Feather Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Shizuru Shard", "drop_percent": 52},
     "subdrops": [ "Trident", "Little Dragon Rod", "Shinobi Costume Fragment", "Nordic Robe Fragment", "Little Dragon Rod" ]
   },
   "7-1": {
@@ -639,18 +657,21 @@
     "item_1": {"item_name": "Lion King's Protective Charm Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Ryuumon Sword Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Emerald Earrings Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Pecorine Shard", "drop_percent": 54},
     "subdrops": [ "Compassion of the Unicorn", "Crystal Bow", "Nun's Hood Fragment", "Magic Monocle Fragment", "Pattern Bracelet Fragment" ]
   },
   "7-2H": {
     "item_1": {"item_name": "Shiryuu Axe Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Lion Eagle's Feather Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Battling Dress Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Eriko Shard", "drop_percent": 54},
     "subdrops": [ "Leather Knuckle", "Aurora Sword", "High-Metal Axe", "Light Plate Fragment", "Spike Bangle" ]
   },
   "7-3H": {
     "item_1": {"item_name": "Butterfly Katana Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Thunder God Sword Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Garnet Shield Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Shinobu Shard", "drop_percent": 54},
     "subdrops": [ "Blue Blood", "Crescent Sword", "High Metal Plate Fragment", "Legion Helm Fragment", "Victory Friendship Bracelet" ]
   },
   "8-1": {
@@ -747,18 +768,21 @@
     "item_1": {"item_name": "Angel Blade Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Battling Dress Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Octogram Pendant Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Rei Shard", "drop_percent": 54},
     "subdrops": [ "Trident", "Little Dragon Rod", "Shinobi Costume Fragment", "Nordic Robe Fragment", "Little Dragon Rod" ]
   },
   "8-2H": {
     "item_1": {"item_name": "Moon Wand Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Grand Magician's Robe Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Laurel's Sorrow Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Yuki Shard", "drop_percent": 54},
     "subdrops": [ "Compassion of the Unicorn", "Crystal Bow", "Nun's Hood Fragment", "Magic Monocle Fragment", "Pattern Bracelet Fragment" ]
   },
   "8-3H": {
     "item_1": {"item_name": "Angel Blade Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Garnet Shield Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Scarlet Diamond Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Akino Shard", "drop_percent": 54},
     "subdrops": [ "Leather Knuckle", "Aurora Sword", "High-Metal Axe", "Light Plate Fragment", "Spike Bangle" ]
   },
   "9-1": {
@@ -855,18 +879,21 @@
     "item_1": {"item_name": "Angel Bow Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Paladin Greave Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Scarlet Diamond Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Aoi Shard", "drop_percent": 54},
     "subdrops": [ "Sparkling Sword Fragment", "Platinum Knife Fragment", "Fashion Armor Fragment", "Shinobi Shoes Fragment", "Emerald Earrings Fragment" ]
   },
   "9-2H": {
     "item_1": {"item_name": "Hell-Fire Axe Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Feather Waltz Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Lion King's Protective Charm Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Mimi Shard", "drop_percent": 54},
     "subdrops": [ "Knight's Pride Fragment", "Blue Sphere Axe Fragment", "Gorgeous Armor Fragment", "Opal Earrings Fragment", "Pearl Earrings Fragment" ]
   },
   "9-3H": {
     "item_1": {"item_name": "Solar Sword Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Empress Shield Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Laurel's Sorrow Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Saren Shard", "drop_percent": 54},
     "subdrops": [ "Thorn Blood Rod Fragment", "Celestial Sphere Watcher Fragment", "Millefeuille Cloth Fragment", "Turquoise Earrings Fragment", "Witch Headband Fragment" ]
   },
   "10-1": {
@@ -975,18 +1002,21 @@
     "item_1": {"item_name": "Pope's Hood Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Mourning Crescent Moon Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Rod of Sun Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Misaki Shard", "drop_percent": 54},
     "subdrops": [ "Sparkling Sword Fragment", "Platinum Knife Fragment", "Fashion Armor Fragment", "Shinobi Shoes Fragment", "Emerald Earrings Fragment" ]
   },
   "10-2H": {
     "item_1": {"item_name": "Angel Boots Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Bangle of Substitution Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Hell-Fire Axe Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Mifuyu Shard", "drop_percent": 54},
     "subdrops": [ "Knight's Pride Fragment", "Blue Sphere Axe Fragment", "Gorgeous Armor Fragment", "Opal Earrings Fragment", "Pearl Earrings Fragment" ]
   },
   "10-3H": {
     "item_1": {"item_name": "Vermilion Plate Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Elemental Heart Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Bright Sword Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Ninon Shard", "drop_percent": 54},
     "subdrops": [ "Thorn Blood Rod Fragment", "Celestial Sphere Watcher Fragment", "Millefeuille Cloth Fragment", "Turquoise Earrings Fragment", "Witch Headband Fragment" ]
   },
   "11-1": {
@@ -1095,18 +1125,21 @@
     "item_1": {"item_name": "Storm Bringer Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Vermilion Plate Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Bangle of Substitution Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Rima Shard", "drop_percent": 54},
     "subdrops": [ "Feather Blade Fragment", "Lightning Axe Fragment", "Heavy Metal Armor Fragment", "Scarlet Diamond Fragment", "Emerald Earrings Fragment" ]
   },
   "11-2H": {
     "item_1": {"item_name": "Queen's Battle Axe Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Hell-Fire Axe Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Elemental Heart Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Eriko Shard", "drop_percent": 54},
     "subdrops": [ "Thunder God Sword Fragment", "Vampire Dagger Fragment", "Cosmos Cloth Fragment", "Lion King's Protective Charm Fragment", "Opal Earrings Fragment" ]
   },
   "11-3H": {
     "item_1": {"item_name": "Ice Claymore Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Angel Boots Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Elemental Heart Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Shizuru Shard", "drop_percent": 54},
     "subdrops": [ "Devil's Bow Fragment", "Devil's Horn Fragment", "Philosopher's Robe Fragment", "Laurel's Sorrow Fragment", "Turquoise Earrings Fragment" ]
   },
   "12-1": {
@@ -1215,18 +1248,21 @@
     "item_1": {"item_name": "Crusader Plate Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Moon Bracelet Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Storm Bringer Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Mahiru Shard", "drop_percent": 54},
     "subdrops": [ "Feather Blade Fragment", "Lightning Axe Fragment", "Heavy Metal Armor Fragment", "Scarlet Diamond Fragment", "Emerald Earrings Fragment" ]
   },
   "12-2H": {
     "item_1": {"item_name": "Heavenly Robe Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Sun Amulet Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Artemis Bow Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Shiori Shard", "drop_percent": 54},
     "subdrops": [ "Thunder God Sword Fragment", "Vampire Dagger Fragment", "Cosmos Cloth Fragment", "Lion King's Protective Charm Fragment", "Opal Earrings Fragment" ]
   },
   "12-3H": {
     "item_1": {"item_name": "Violet Armor Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Moon Bracelet Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Ice Claymore Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Akino Shard", "drop_percent": 54},
     "subdrops": [ "Devil's Bow Fragment", "Devil's Horn Fragment", "Philosopher's Robe Fragment", "Laurel's Sorrow Fragment", "Turquoise Earrings Fragment" ]
   },
   "13-1": {
@@ -1335,18 +1371,21 @@
     "item_1": {"item_name": "Gaia Bardiche Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Heavenly Robe Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Moon Bracelet Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Kokkoro Shard", "drop_percent": 54},
     "subdrops": [ "Angel Blade Fragment", "Shiryuu Axe Fragment", "Angel Armor Fragment", "Empress Shield Fragment", "Scarlet Diamond Fragment" ]
   },
   "13-2H": {
     "item_1": {"item_name": "High Angel Rod Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Necromancer Boots Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Dragon's Tear Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Yuki Shard", "drop_percent": 54},
     "subdrops": [ "Butterfly Katana Fragment", "Precious Knife Fragment", "Paladin Greave Fragment", "Invisible Dress Fragment", "Lion King's Protective Charm Fragment" ]
   },
   "13-3H": {
     "item_1": {"item_name": "Chaos Blade Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Ice Claymore Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Sun Amulet Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Djeeta Shard", "drop_percent": 54},
     "subdrops": [ "Lightning Bow Fragment", "Fury Rod Fragment", "Moonlight Garment Fragment", "Wizard Hood Fragment", "Laurel's Sorrow Fragment" ]
   },
   "14-1": {
@@ -1437,18 +1476,21 @@
     "item_1": {"item_name": "Congregation Pendant Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Aqua Slasher Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Moon Bracelet Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Kurumi Shard", "drop_percent": 54},
     "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "14-2H": {
     "item_1": {"item_name": "Cat God Pendant Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Phoenix Sword Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Sun Amulet Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Shinobu Shard", "drop_percent": 54},
     "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
   },
   "14-3H": {
     "item_1": {"item_name": "Firelord's Ring Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Chaos Blade Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Guardian Shield Fragment", "drop_percent": 24},
+    "char_shard": {"item_name": "Jun Shard", "drop_percent": 54},
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
   },
   "15-1": {
@@ -1539,18 +1581,21 @@
     "item_1": {"item_name": "Viridian Spiritual Dress Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Great Sage Gem Fragment", "drop_percent": 72},
     "item_3": {"item_name": "High Angel Rod Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Yui Shard", "drop_percent": 54},
     "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "15-2H": {
     "item_1": {"item_name": "Scarlet Mail Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Firelord's Ring Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Aqua Slasher Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Mimi Shard", "drop_percent": 54},
     "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
   },
   "15-3H": {
     "item_1": {"item_name": "Faireal Boots Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Cat God Pendant Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Spirit Tree Bow Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Arisa Shard", "drop_percent": 54},
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
   },
   "16-1": {
@@ -1641,18 +1686,21 @@
     "item_1": {"item_name": "Silver Wing Bow Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Spirit Tree Bow Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Firelord's Ring Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Aoi Shard", "drop_percent": 54},
     "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "16-2H": {
     "item_1": {"item_name": "Zero Frost Lance Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Faireal Boots Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Dragonic Armor Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Mifuyu Shard", "drop_percent": 54},
     "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
   },
   "16-3H": {
     "item_1": {"item_name": "Xenosphere Rod Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Aquarius Boots Fragment", "drop_percent": 72},
     "item_3": {"item_name": "High Devil Wand Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Kyouka Shard", "drop_percent": 54},
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
   },
   "17-1": {
@@ -1743,18 +1791,21 @@
     "item_1": {"item_name": "Fairy King's Guardian Stone Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Lightning Blade Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Faireal Boots Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Pecorine Shard", "drop_percent": 54},
     "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "17-2H": {
     "item_1": {"item_name": "Millennium Earrings Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Necrodim Axe Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Firelord's Ring Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Eriko Shard", "drop_percent": 54},
     "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
   },
   "17-3H": {
     "item_1": {"item_name": "Ocean God's Earrings Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Xenosphere Rod Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Great Sage Gem Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Ilya Shard", "drop_percent": 54},
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
   },
   "18-1": {
@@ -1845,18 +1896,21 @@
     "item_1": {"item_name": "Phantasm Mail Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Lightning Blade Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Scarlet Mail Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Rei Shard", "drop_percent": 54},
     "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "18-2H": {
     "item_1": {"item_name": "Aegis Coat Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Silver Wing Bow Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Spirit Tree Bow Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Shiori Shard", "drop_percent": 54},
     "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
   },
   "18-3H": {
     "item_1": {"item_name": "Astrograph Buckler Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Millennium Earrings Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Lightning Blade Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Saren Shard", "drop_percent": 54},
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
   },
   "19-1": {
@@ -1947,18 +2001,21 @@
     "item_1": {"item_name": "Genesis Rod Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Mourning Crown Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Ocean God's Earrings Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Misaki Shard", "drop_percent": 54},
     "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "19-2H": {
     "item_1": {"item_name": "Gale Stinger Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Phantasm Mail Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Necrodim Axe Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Mahiru Shard", "drop_percent": 54},
     "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
   },
   "19-3H": {
     "item_1": {"item_name": "Dawn's Holy Sword Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Lightning Blade Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Millennium Earrings Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Djeeta Shard", "drop_percent": 54},
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
   },
   "20-1": {
@@ -2049,18 +2106,21 @@
     "item_1": {"item_name": "Mermaid Princess' Spirit Tear Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Gale Stinger Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Fairy King's Guardian Stone Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Rima Shard", "drop_percent": 54},
     "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
   },
   "20-2H": {
     "item_1": {"item_name": "Divine Beast's Prayer Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Divine Blossom Rod Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Mourning Crown Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Yuki Shard", "drop_percent": 54},
     "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
   },
   "20-3H": {
     "item_1": {"item_name": "Fury Dragon Pendant Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Flowing Azure Blade Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Azure Armor Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Ninon Shard", "drop_percent": 54},
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
   },
 
