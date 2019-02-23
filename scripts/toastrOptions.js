@@ -20,7 +20,7 @@ function loadingToast()
     else
     {
         toastr.remove();
-        toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: false });
+        toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: true });
     }
 
     if (collapsible_failed === true || item_table_failed === true)

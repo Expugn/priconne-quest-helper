@@ -1,6 +1,43 @@
 /* BACKGROUND COLOR */
-body {
+body.fancy-body {
     background-color: #e3cfcb;
+    background-image: url("./../images/webpage/adv_mask_C.png");
+    color: white;
+    font-family: "Trebuchet MS", Arial, serif;
+}
+
+body.no-background-body {
+    background-color: #e3cfcb;
+    color: black;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #30333d;
+    margin-bottom: 10px;
+}
+
+.topnav button {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+    border: none;
+    background-color: #30333d;
+    color: white;
+}
+
+.topnav button:hover {
+    background-color: #4f4f4f;
+    color: white;
+    cursor: pointer;
+}
+
+.topnav button.is-open {
+    background-color: #5a5f73;
+    color: white;
 }
 
 div.div-background-title {

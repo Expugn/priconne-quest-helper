@@ -264,9 +264,12 @@ function toggle_simple_mode()
             document.getElementById("silver-div").classList.toggle("no-background");
             document.getElementById("gold-div").classList.toggle("no-background");
             document.getElementById("purple-div").classList.toggle("no-background");
+            document.getElementById("misc-div").classList.toggle("no-background");
             document.getElementById("requested-div").classList.toggle("no-background");
             document.getElementById("required-div").classList.toggle("no-background");
             document.getElementById("recommended-div").classList.toggle("no-background");
+            $("body").toggleClass("no-background-body");
+            $("body").toggleClass("fancy-body");
 
             document.getElementById("simple-or-fancy-text").innerHTML = "[Let's Make it Fancy]";
             document.getElementById("simple-or-fancy-text").href = "#fancy";
