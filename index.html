@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html xml:lang="en" lang="en">
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -14,7 +14,7 @@
 
 
     <title>Princess Connect! Re:Dive - Quest Helper</title>
-    <link rel="icon" href="images/webpage/icon_unit_101211.png">
+    <link rel="icon" href="images/webpage/101211_102803_6.png">
 
     <!-- META DATA -->
     <meta name="author" content="S'pugn">
@@ -38,9 +38,8 @@
     <!-- SCRIPTS -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-    <script src="scripts/include-html.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-    
+
     <script src="scripts/read-equipment-json.js"></script>
     <script src="scripts/read-quest-json.js"></script>
     <script src="scripts/settings.js"></script>
@@ -48,14 +47,6 @@
     <script src="scripts/build-item-table.js"></script>
     <script src="scripts/recipe-reader.js"></script>
     <script src="scripts/projects.js"></script>
-    <script src="scripts/recommended-quest-table.js"></script>
-    <script src="scripts/requested-item-table.js"></script>
-    <script src="scripts/read-common.js"></script>
-    <script src="scripts/read-copper.js"></script>
-    <script src="scripts/read-silver.js"></script>
-    <script src="scripts/read-gold.js"></script>
-    <script src="scripts/read-purple.js"></script>
-    <script src="scripts/read-misc.js"></script>
     <script src="scripts/update-requested.js"></script>
     <script src="scripts/collapsible-animate.js"></script>
     <script src="scripts/toastrOptions.js"></script>
@@ -71,6 +62,13 @@
 
 <body class="fancy-body">
 
+<div id="title-div" class="div-background-title" onclick="">
+    <div id="title-text-div" class="title-hover">
+        <h1 class="title">Princess Connect! Re:Dive</h1>
+        <h2 id="sub-title" class="title">Quest Helper</h2>
+    </div>
+</div>
+
 <div class="topnav">
     <button id="navigation-items" class="is-open" type="button" onclick="open_items()">Items</button>
     <button id="navigation-projects" type="button" onclick="open_projects()">Projects</button>
@@ -82,35 +80,70 @@
     -->
 </div>
 
-<div id="title-div" class="div-background-title" onclick="">
-    <div id="title-text-div" class="title-hover">
-        <h1 class="title">Princess Connect! Re:Dive</h1>
-        <h2 id="sub-title" class="title">Quest Helper</h2>
-    </div>
-</div>
-
 <hr> <!-- LINE BREAK -->
 
 <div id="items-container">
-    <div id="common-div" class="div-background div-background-common text-overflow" w3-include-html="elements/common_items.html"></div>
+    <div id="common-div" class="div-background div-background-common text-overflow">
+        <button class="common-color rarity-title rarity-button collapsible">Common</button>
+        <div class="common-items item-table-top-spacing collapsible-content">
+            <table id="common-item-table" class="centerTable itemTable"></table>
+        </div>
+    </div>
     <hr> <!-- LINE BREAK -->
     <!-- COPPER ITEMS -->
-    <div id="copper-div" class="div-background div-background-copper text-overflow" w3-include-html="elements/copper_items.html"></div>
+    <div id="copper-div" class="div-background div-background-copper text-overflow">
+        <h2 class="copper-color rarity-title rarity-button collapsible">Copper</h2>
+        <div class="copper-items item-table-top-spacing collapsible-content">
+            <table id="copper-item-table" class="centerTable itemTable"></table>
+        </div>
+    </div>
     <hr> <!-- LINE BREAK -->
     <!-- SILVER ITEMS -->
-    <div id="silver-div" class="div-background div-background-silver text-overflow" w3-include-html="elements/silver_items.html"></div>
+    <div id="silver-div" class="div-background div-background-silver text-overflow">
+        <h2 class="silver-color rarity-title rarity-button collapsible">Silver</h2>
+        <div class="silver-items item-table-top-spacing collapsible-content">
+            <table id="silver-item-table" class="centerTable itemTable"></table>
+        </div>
+    </div>
     <hr> <!-- LINE BREAK -->
     <!-- GOLD ITEMS -->
-    <div id="gold-div" class="div-background div-background-gold text-overflow" w3-include-html="elements/gold_items.html"></div>
+    <div id="gold-div" class="div-background div-background-gold text-overflow">
+        <h2 class="gold-color rarity-title rarity-button collapsible">Gold</h2>
+        <div class="gold-items item-table-top-spacing collapsible-content">
+            <table id="gold-item-table" class="centerTable itemTable"></table>
+        </div>
+    </div>
     <hr> <!-- LINE BREAK -->
     <!-- PURPLE ITEMS -->
-    <div id="purple-div" class="div-background div-background-purple text-overflow" w3-include-html="elements/purple_items.html"></div>
+    <div id="purple-div" class="div-background div-background-purple text-overflow">
+        <h2 class="purple-color rarity-title rarity-button collapsible">Purple</h2>
+        <div class="purple-items item-table-top-spacing collapsible-content">
+            <table id="purple-item-table" class="centerTable itemTable"></table>
+        </div>
+    </div>
     <hr> <!-- LINE BREAK -->
     <!-- MISCELLANEOUS ITEMS -->
-    <div id="misc-div" class="div-background div-background-misc text-overflow" w3-include-html="elements/miscellaneous_items.html"></div>
+    <div id="misc-div" class="div-background div-background-misc text-overflow">
+        <button class="misc-color rarity-title rarity-button collapsible">Misc.</button>
+        <div class="misc-items item-table-top-spacing collapsible-content">
+            <table id="misc-item-table" class="centerTable itemTable"></table>
+        </div>
+    </div>
     <hr> <!-- LINE BREAK -->
     <!-- REQUESTED ITEMS -->
-    <div id="requested-div" class="div-background div-background-requested text-overflow-auto" w3-include-html="elements/requested_items.html"></div>
+    <div id="requested-div" class="div-background div-background-requested text-overflow-auto" w3-include-html="elements/requested_items.html">
+        <h2 class="request-title">Requested Items</h2>
+        <!-- REQUESTED ITEMS -->
+        <div class="request-info">
+            <table id="requested-item-table" class="centerTable">
+                <th><h4 class="tip">
+                    <span style="color: navajowhite">The items and amount you selected from the categories above will be displayed here.</span>
+                    <br><br>
+                    Clicking on the category title will open or close a table of all the items in that rarity class.
+                </h4></th>
+            </table>
+        </div>
+    </div>
 </div>
 
 <div id="projects-container" style="display: none;">
@@ -348,10 +381,37 @@
 
 <hr> <!-- LINE BREAK -->
 <!-- REQUIRED ITEMS -->
-<div id="required-div" class="div-background div-background-required text-overflow-auto" w3-include-html="elements/required_ingredients.html"></div>
+<div id="required-div" class="div-background div-background-required text-overflow-auto">
+    <h2 class="request-title">Required Ingredients</h2>
+    <div class="request-info">
+        <table id="required-ingredient-table" class="centerTable">
+            <th><h4 class="tip">
+                <span style="color: navajowhite">The items and amount you need to create your requested items will be displayed here.</span>
+                <br><br>
+                Tapping on an item displayed in here will toggle if it is <span style="color: darkorange">disabled</span> or not.
+                <br><br>
+                <span style="color: orange">Disabled</span> items will <span style="color: salmon; font-style: italic">not</span> appear in the <span style="color: yellow">Recommended Quest</span> list.
+            </h4></th>
+        </table>
+    </div>
+</div>
 <hr> <!-- LINE BREAK -->
 <!-- RECOMMENDED QUESTS -->
-<div id="recommended-div" class="div-background div-background-recommended text-overflow-auto" w3-include-html="elements/recommended_quests.html"></div>
+<div id="recommended-div" class="div-background div-background-recommended text-overflow-auto">
+    <h2 class="request-title">Recommended Quests</h2>
+    <!-- RECOMMENDED QUESTS -->
+    <div id="recommended-quest-div" class="request-info transition">
+        <table id="recommended-quest-table" class="centerTable">
+            <th><h4 class="tip">
+                <span style="color: navajowhite">Suggested quests to complete will be shown here once you start selecting items.</span>
+                <br><br>
+                Quests are sorted by <span style="color: yellow">the amount of items you can collect from the quest</span> that you need, starting from chapter 1.
+                <br><br>
+                Up to <span style="color: #6DFF7F">ten</span> quests will be shown at a time by default.
+            </h4></th>
+        </table>
+    </div>
+</div>
 <!-- END OF BODY -->
 <hr> <!-- LINE BREAK -->
 
@@ -373,7 +433,6 @@
     toggle_simple_mode();
     init_settings();
     init_project_data();
-    includeHTML();
     setToastrOptions();
 
     window.onload = function () {
