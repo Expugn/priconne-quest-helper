@@ -12,11 +12,11 @@ function read_misc()
 
         if (itemValue >= 1)
         {
-            /* CHECK VALUE: IF GREATER THAN 400, THEN CORRECT THE ISSUE */
-            if (itemValue > 400)
+            /* CHECK VALUE: IF GREATER THAN 500, THEN CORRECT THE ISSUE */
+            if (itemValue > 500)
             {
                 document.getElementById("misc-" + i + "-amt").value = 400;
-                itemValue = 400;
+                itemValue = 500;
             }
 
             let itemName = document.getElementById("misc-" + i).title;

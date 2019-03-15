@@ -129,6 +129,17 @@ h2.title {
     box-sizing: border-box;
 }
 
+.category-title {
+    color: aliceblue;
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#character-preset-div {
+    margin-top: -10px;
+}
+
 .title-hover {
     transition: all 0.4s ease-out;
 }

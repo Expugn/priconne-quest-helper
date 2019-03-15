@@ -2,23 +2,57 @@ function open_items()
 {
     // INIT VARIABLES
     let item_container = document.getElementById("items-container");
+    let presets_container = document.getElementById("presets-container");
     let projects_container = document.getElementById("projects-container");
     let settings_container = document.getElementById("settings-container");
     let other_container = document.getElementById("other-container");
 
     let item_nav = document.getElementById("navigation-items");
+    let presets_nav = document.getElementById("navigation-presets");
     let projects_nav = document.getElementById("navigation-projects");
     let settings_nav = document.getElementById("navigation-settings");
     let other_nav = document.getElementById("navigation-other");
 
     // SHOW ITEM CONTAINER AND HIDE OTHER ELEMENTS
     item_container.style.display = "block";
+    presets_container.style.display = "none";
     projects_container.style.display = "none";
     settings_container.style.display = "none";
     other_container.style.display = "none";
 
     // CHANGE BUTTON COLOR
     if (!item_nav.classList.contains("is-open")) { item_nav.classList.add("is-open"); }
+    if (presets_nav.classList.contains("is-open")) { presets_nav.classList.remove("is-open"); }
+    if (projects_nav.classList.contains("is-open")) { projects_nav.classList.remove("is-open"); }
+    if (settings_nav.classList.contains("is-open")) { settings_nav.classList.remove("is-open"); }
+    if (other_nav.classList.contains("is-open")) { other_nav.classList.remove("is-open"); }
+}
+
+function open_presets()
+{
+    // INIT VARIABLES
+    let item_container = document.getElementById("items-container");
+    let presets_container = document.getElementById("presets-container");
+    let projects_container = document.getElementById("projects-container");
+    let settings_container = document.getElementById("settings-container");
+    let other_container = document.getElementById("other-container");
+
+    let item_nav = document.getElementById("navigation-items");
+    let presets_nav = document.getElementById("navigation-presets");
+    let projects_nav = document.getElementById("navigation-projects");
+    let settings_nav = document.getElementById("navigation-settings");
+    let other_nav = document.getElementById("navigation-other");
+
+    // SHOW ITEM CONTAINER AND HIDE OTHER ELEMENTS
+    item_container.style.display = "none";
+    presets_container.style.display = "block";
+    projects_container.style.display = "none";
+    settings_container.style.display = "none";
+    other_container.style.display = "none";
+
+    // CHANGE BUTTON COLOR
+    if (item_nav.classList.contains("is-open")) { item_nav.classList.remove("is-open"); }
+    if (!presets_nav.classList.contains("is-open")) { presets_nav.classList.add("is-open"); }
     if (projects_nav.classList.contains("is-open")) { projects_nav.classList.remove("is-open"); }
     if (settings_nav.classList.contains("is-open")) { settings_nav.classList.remove("is-open"); }
     if (other_nav.classList.contains("is-open")) { other_nav.classList.remove("is-open"); }
@@ -28,23 +62,27 @@ function open_projects()
 {
     // INIT VARIABLES
     let item_container = document.getElementById("items-container");
+    let presets_container = document.getElementById("presets-container");
     let projects_container = document.getElementById("projects-container");
     let settings_container = document.getElementById("settings-container");
     let other_container = document.getElementById("other-container");
 
     let item_nav = document.getElementById("navigation-items");
+    let presets_nav = document.getElementById("navigation-presets");
     let projects_nav = document.getElementById("navigation-projects");
     let settings_nav = document.getElementById("navigation-settings");
     let other_nav = document.getElementById("navigation-other");
 
     // SHOW ITEM CONTAINER AND HIDE OTHER ELEMENTS
     item_container.style.display = "none";
+    presets_container.style.display = "none";
     projects_container.style.display = "block";
     settings_container.style.display = "none";
     other_container.style.display = "none";
 
     // CHANGE BUTTON COLOR
     if (item_nav.classList.contains("is-open")) { item_nav.classList.remove("is-open"); }
+    if (presets_nav.classList.contains("is-open")) { presets_nav.classList.remove("is-open"); }
     if (!projects_nav.classList.contains("is-open")) { projects_nav.classList.add("is-open"); }
     if (settings_nav.classList.contains("is-open")) { settings_nav.classList.remove("is-open"); }
     if (other_nav.classList.contains("is-open")) { other_nav.classList.remove("is-open"); }
@@ -54,23 +92,27 @@ function open_settings()
 {
     // INIT VARIABLES
     let item_container = document.getElementById("items-container");
+    let presets_container = document.getElementById("presets-container");
     let projects_container = document.getElementById("projects-container");
     let settings_container = document.getElementById("settings-container");
     let other_container = document.getElementById("other-container");
 
     let item_nav = document.getElementById("navigation-items");
+    let presets_nav = document.getElementById("navigation-presets");
     let projects_nav = document.getElementById("navigation-projects");
     let settings_nav = document.getElementById("navigation-settings");
     let other_nav = document.getElementById("navigation-other");
 
     // SHOW ITEM CONTAINER AND HIDE OTHER ELEMENTS
     item_container.style.display = "none";
+    presets_container.style.display = "none";
     projects_container.style.display = "none";
     settings_container.style.display = "block";
     other_container.style.display = "none";
 
     // CHANGE BUTTON COLOR
     if (item_nav.classList.contains("is-open")) { item_nav.classList.remove("is-open"); }
+    if (presets_nav.classList.contains("is-open")) { presets_nav.classList.remove("is-open"); }
     if (projects_nav.classList.contains("is-open")) { projects_nav.classList.remove("is-open"); }
     if (!settings_nav.classList.contains("is-open")) { settings_nav.classList.add("is-open"); }
     if (other_nav.classList.contains("is-open")) { other_nav.classList.remove("is-open"); }
@@ -80,23 +122,27 @@ function open_other()
 {
     // INIT VARIABLES
     let item_container = document.getElementById("items-container");
+    let presets_container = document.getElementById("presets-container");
     let projects_container = document.getElementById("projects-container");
     let settings_container = document.getElementById("settings-container");
     let other_container = document.getElementById("other-container");
 
     let item_nav = document.getElementById("navigation-items");
+    let presets_nav = document.getElementById("navigation-presets");
     let projects_nav = document.getElementById("navigation-projects");
     let settings_nav = document.getElementById("navigation-settings");
     let other_nav = document.getElementById("navigation-other");
 
     // SHOW ITEM CONTAINER AND HIDE OTHER ELEMENTS
     item_container.style.display = "none";
+    presets_container.style.display = "none";
     projects_container.style.display = "none";
     settings_container.style.display = "none";
     other_container.style.display = "block";
 
     // CHANGE BUTTON COLOR
     if (item_nav.classList.contains("is-open")) { item_nav.classList.remove("is-open"); }
+    if (presets_nav.classList.contains("is-open")) { presets_nav.classList.remove("is-open"); }
     if (projects_nav.classList.contains("is-open")) { projects_nav.classList.remove("is-open"); }
     if (settings_nav.classList.contains("is-open")) { settings_nav.classList.remove("is-open"); }
     if (!other_nav.classList.contains("is-open")) { other_nav.classList.add("is-open"); }

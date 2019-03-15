@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Princess Connect! Re:Dive - Quest Helper | Recipe Data</title>
+    <link rel="icon" href="../../images/webpage/101211_102803_6.png">
+
+    <!-- META DATA -->
+    <meta name="author" content="S'pugn">
+    <meta name="description" content="Quest Choosing Assistance for the Game 'Princess Connect! Re:Dive'. | Character Data">
+    <meta name="keywords" content="Princess Connect Re:Dive, Quest Helper">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8">
+
+    <!-- OPEN GRAPH META DATA -->
+    <meta property="og:title" content="Princess Connect! Re:Dive - Quest Helper | Character Data">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/101211_102803_6.png">
+    <meta property="og:description" content="priconne-quest-helper's Currently Loaded Character Data.">
+    <meta property="og:url" content="https://expugn.github.io/priconne-quest-helper/">
+
+    <!-- TWITTER META DATA -->
+    <meta property="twitter:title" content="Princess Connect! Re:Dive - Quest Helper | Character Data">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/101211_102803_6.png">
+    <meta property="twitter:description" content="priconne-quest-helper's Currently Loaded Character Data.">
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="../../scripts/read-character-json.js"></script>
+
+    <!-- CSS STYLE SHEETS -->
+    <link rel="stylesheet" href="../../css/toastr.css"/>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/webpage.css">
+    <link rel="stylesheet" href="../../css/item_table.css">
+</head>
+<body class="no-background-body">
+
+<div id="title-div" class="div-background-title no-background no-transition no-hover" onclick="">
+    <div id="title-text-div" class="title-hover no-background no-hover">
+        <h1 class="title">Princess Connect! Re:Dive - Quest Helper</h1>
+        <h2 id="sub-title" class="title">Character Data</h2>
+    </div>
+</div>
+
+<hr> <!-- LINE BREAK -->
+
+<div id="quest-data-div" class="request-info">
+    <table id="character-data-table" class="centerTable"></table>
+</div>
+
+<br><br>
+<hr> <!-- LINE BREAK -->
+</body>
+
+<footer>
+    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer" src="../../images/webpage/HAhaa.png" alt=""></p>
+</footer>
+
+<script>
+    toastr.warning("Loading...", "Status", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
+    window.onload = function ()
+    {
+        setTimeout(function ()
+        {
+            let table_html = "";
+
+            table_html += "<tbody>";
+            for (let [character_id, character_data_map] of character_map)
+            {
+                // DISPLAY CHARACTER
+                const num_of_ranks = 12;
+                let character_name = character_data_map.get("name");
+                let character_thematic = character_data_map.get("thematic");
+                let character_thematic_jp = character_data_map.get("thematic_jp");
+                let character_jp = ((character_thematic_jp === "") ? "" : character_thematic_jp) + character_data_map.get("name_jp");
+
+                table_html += "<tr>";
+
+                // CHARACTER NAME
+                let character_complete_name = ((character_thematic === "") ? character_name : character_name + " (" + character_thematic + ")") + "<br>" + character_jp;
+                table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+                table_html += "<h3 class=\"quest-title\">" + character_complete_name + "</h3>";
+                table_html += "</th>";
+
+                // DIVIDER
+                table_html += "<th>";
+                table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
+                    + "\" src=\"\" alt=\"\">";
+                table_html += "</th>";
+
+                // CHARACTER IMAGE
+                let file_name = ((character_thematic === "") ? character_name : character_thematic.split(' ').join('_') + "_" + character_name);
+                table_html += "<th height='48' width='48'><img class=\"quest-item-image\" title=\"" + character_thematic + " " + character_name + "\" src=\"../../images/unit_icon/" + file_name + ".png\" alt=\"\"></th>";
+
+                table_html += "<th></th> <th></th> <th></th> <th></th>";
+
+                table_html += "</tr>";
+
+
+                table_html += "<tr>";
+
+
+
+                /*
+                // DIVIDER
+                table_html += "<th>";
+                table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
+                    + "\" src=\"\" alt=\"\">";
+                table_html += "</th>";
+                */
+
+                for (let i = 0 ; i < num_of_ranks ; i++)
+                {
+                    let rank_items = character_data_map.get("rank_" + (i + 1));
+                    let rank_color_html = "";
+
+                    switch (i + 1)
+                    {
+                        case 1:
+                            rank_color_html = "background-color: rgba(90, 190, 255, 0.5) !important;";
+                            break;
+                        case 2:
+                        case 3:
+                            rank_color_html = "background-color: rgba(255, 182, 140, 0.5) !important;";
+                            break;
+                        case 4:
+                        case 5:
+                        case 6:
+                            rank_color_html = "background-color: rgba(198, 211, 214, 0.5) !important;";
+                            break;
+                        case 7:
+                        case 8:
+                        case 9:
+                        case 10:
+                            rank_color_html = "background-color: rgba(249, 194, 62, 0.5) !important;";
+                            break;
+                        case 11:
+                        case 12:
+                            rank_color_html = "background-color: rgba(231, 109, 255, 0.5) !important;";
+                            break;
+                        default:
+                            rank_color_html = "background-color: rgba(90, 190, 255, 0.5) !important;";
+                            break;
+                    }
+
+                    // CHARACTER RANK
+                    table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+                    table_html += "<h3 class=\"quest-title\" style=\"" + rank_color_html + "\">Rank " + (i + 1) + "</h3>";
+                    table_html += "</th>";
+
+                    // DIVIDER
+                    table_html += "<th>";
+                    table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
+                        + "\" src=\"\" alt=\"\">";
+                    table_html += "</th>";
+
+                    for (let a = 0 ; a < 6 ; a++)
+                    {
+                        if (rank_items[a] !== "")
+                        {
+                            table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+                            table_html += "<img class=\"quest-item-image\" title=\"" + rank_items[a]
+                                + "\" src=\"../../images/items/" + rank_items[a].split(' ').join('_') + ".png\" alt=\"\">";
+                            table_html += "</th>";
+                        }
+                        else
+                        {
+                            table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+                            table_html += "<img class=\"quest-item-image low-opacity\" title=\"" + "Placeholder"
+                                + "\" src=\"../../images/items/Placeholder.png\" alt=\"\">";
+                            table_html += "</th>";
+                        }
+                    }
+
+                    table_html += "</tr><tr>";
+                }
+
+                // END TABLE ROW
+                table_html += "</tr> <tr> <th><br><br><br></th> <th></th> <th></th> <th></th> <th></th> <th></th> <th></th> </tr>";
+            }
+            table_html += "</body>";
+
+            document.getElementById("character-data-table").innerHTML = table_html;
+
+            toastr.remove();
+            toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: false });
+        }, 1000);
+    }
+</script>
+</html>

@@ -268,6 +268,7 @@ function toggle_simple_mode()
             document.getElementById("requested-div").classList.toggle("no-background");
             document.getElementById("required-div").classList.toggle("no-background");
             document.getElementById("recommended-div").classList.toggle("no-background");
+            document.getElementById("character-preset-div").classList.toggle("no-background");
             $("body").toggleClass("no-background-body");
             $("body").toggleClass("fancy-body");
 
