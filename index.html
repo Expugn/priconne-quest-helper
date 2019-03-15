@@ -241,63 +241,65 @@
     <div id="character-preset-div" style="background-image: url('images/webpage/bg_530010_blur.png'); background-position: center; background-size: cover;">
         <h2 class="category-title">Character Presets</h2>
         <h2 class="category-title" style="color: salmon">inputting character data is a work in progress.<br>look at the character data page to see current progress.</h2>
-        <table class="centerTable">
-            <tr>
-                <th></th>
-                <th>
-                    <label>
-                        <select id="character-preset-list-select" onchange="update_selected_character_preset_details()">
-                        </select>
-                    </label>
-                </th>
-                <th></th>
-            </tr>
-            <tr>
-                <td></td>
-                <th>
-                    <img id="preset-character-image" src="images/unit_icon/Placeholder.png" alt="" style="height: 100px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.30); border-radius: 6px;"><br>
-                    <label id="preset-character-name-label" class="category-title" style="color: navajowhite !important;"></label>
-                </th>
-                <td></td>
-            </tr>
-            <tr>
-                <th>
-                    <label class="category-title">Min Rank</label><br>
-                    <input
-                            id="preset-character-min-rank-input"
-                            class="item-input"
-                            type="number"
-                            min="1"
-                            max="12"
-                            value="1"
-                            disabled
-                            onchange="change_min_rank_preset()">
-                </th>
-                <th>
-                    <label class="category-title">to</label>
-                </th>
-                <th>
-                    <label class="category-title">Max Rank</label><br>
-                    <input
-                            id="preset-character-max-rank-input"
-                            class="item-input"
-                            type="number"
-                            min="1"
-                            max="12"
-                            value="12"
-                            disabled
-                            onchange="change_max_rank_preset()">
-                </th>
-            </tr>
-            <tr>
-                <th></th>
-                <th>
-                    <br>
-                    <button id="preset-character-load-button" type="button" disabled onclick="load_preset_character_items()">Load Items</button>
-                </th>
-                <th></th>
-            </tr>
-        </table>
+        <div class="text-overflow-auto">
+            <table class="centerTable">
+                <tr>
+                    <th></th>
+                    <th>
+                        <label>
+                            <select id="character-preset-list-select" onchange="update_selected_character_preset_details()">
+                            </select>
+                        </label>
+                    </th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <th>
+                        <img id="preset-character-image" src="images/unit_icon/Placeholder.png" alt="" style="height: 100px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.30); border-radius: 6px;"><br>
+                        <label id="preset-character-name-label" class="category-title" style="color: navajowhite !important;"></label>
+                    </th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>
+                        <label class="category-title">Min Rank</label><br>
+                        <input
+                                id="preset-character-min-rank-input"
+                                class="item-input"
+                                type="number"
+                                min="1"
+                                max="12"
+                                value="1"
+                                disabled
+                                onchange="change_min_rank_preset()">
+                    </th>
+                    <th>
+                        <label class="category-title">to</label>
+                    </th>
+                    <th>
+                        <label class="category-title">Max Rank</label><br>
+                        <input
+                                id="preset-character-max-rank-input"
+                                class="item-input"
+                                type="number"
+                                min="1"
+                                max="12"
+                                value="12"
+                                disabled
+                                onchange="change_max_rank_preset()">
+                    </th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>
+                        <br>
+                        <button id="preset-character-load-button" type="button" disabled onclick="load_preset_character_items()">Load Items</button>
+                    </th>
+                    <th></th>
+                </tr>
+            </table>
+        </div>
         <h3 class="category-title" style="text-shadow: 2px 2px 4px #000000;">Currently selected items will be replaced<br>when the <span style="color: lightpink">Load Item</span> button is pressed.</h3>
         <br>
     </div>
