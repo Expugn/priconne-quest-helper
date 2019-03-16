@@ -1859,7 +1859,7 @@
   "18-9": {
     "item_1": {"item_name": "Shrine Maiden's Purity Cloth Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Ocean God's Earrings Fragment", "drop_percent": 36},
-    "item_3": {"item_name": "Zero Frost Lance Fragment", "drop_percent": 24},
+    "item_3": {"item_name": "Silver Wing Bow Fragment", "drop_percent": 24},
     "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
   },
   "18-10": {
