@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="../../../css/item_table.css">
 </head>
 <body class="fancy-body">
-<h1 class="title">Princess Connect! Re:Dive Quest Helper - JSON Writer</h1>
+<h1 class="title">priconne-quest-helper JSON Writer</h1>
 
 <div id="items-div">
     <table id="selected-items-table"></table>
@@ -39,7 +39,50 @@
     <button type="button" class="align-center" onclick="copyToClipboard()">Copy to Clipboard</button>
     <button type="button" class="align-center" onclick="clear_content()">Clear Content</button>
     <button type="button" class="align-center" onclick="pop_once()">Undo One Item</button>
+    <select id="options-select" onchange="update_option()">
+        <option value="character">Character</option>
+        <option value="quest">Quest</option>
+    </select>
     <br>
+    <div id="character-data">
+        <label for="starting-rank">Starting Rank</label>
+        <input id="starting-rank"
+               class="item-input"
+               type="number"
+               min="1"
+               value="1"
+               onchange="write_data()">
+    </div>
+    <div id="quest-data" style="display: none">
+        <label for="item-1">Item 1 Drop %</label>
+        <input id="item-1"
+               class="item-input"
+               type="number"
+               min="1"
+               value="36"
+               onchange="write_data()"><br>
+        <label for="item-2">Item 2 Drop %</label>
+        <input id="item-2"
+               class="item-input"
+               type="number"
+               min="1"
+               value="36"
+               onchange="write_data()"><br>
+        <label for="item-3">Item 3 Drop %</label>
+        <input id="item-3"
+               class="item-input"
+               type="number"
+               min="1"
+               value="24"
+               onchange="write_data()"><br>
+        <label for="char-shard">cShard Drop %</label>
+        <input id="char-shard"
+               class="item-input"
+               type="number"
+               min="1"
+               value="54"
+               onchange="write_data()">
+    </div>
     <table id="items-table"></table>
 </div>
 
@@ -48,6 +91,11 @@
 <script>
     let item_array = [];
     setTimeout(function () {
+        draw_items();
+    }, 500);
+
+    function draw_items()
+    {
         let count = 0;
         let table_HTML = "";
         table_HTML += "<tbody>";
@@ -59,20 +107,29 @@
                 table_HTML += "<tr>";
             }
 
-            table_HTML += "<th class=\"requested-item-image\">";
-            table_HTML += "<button id=\"" + item_name.split(' ').join('_') + "\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../images/items/" + item_name.split(' ').join('_') + ".png\" alt=\"\"></button>";
-            table_HTML += "</th>";
-            count++;
-
-            if ((count % 14) === 0 && count !== 0)
+            // CHARACTER DATA ITEMS
+            if (document.getElementById("options-select").value === "character")
             {
-                table_HTML += "</tr>";
+                // IGNORE CHARACTER SHARD
+                if (item_name.includes("Shard")) { continue; }
 
-                table_HTML += "<tr>";
+                table_HTML += "<th class=\"requested-item-image\">";
+                table_HTML += "<button id=\"" + item_name.split(' ').join('_') + "\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../images/items/" + item_name.split(' ').join('_') + ".png\" alt=\"\"></button>";
+                table_HTML += "</th>";
+                count++;
+
+                if ((count % 14) === 0 && count !== 0)
+                {
+                    table_HTML += "</tr>";
+
+                    table_HTML += "<tr>";
+                }
             }
 
-            if (false)
+            // QUEST DATA ITEMS
+            if (document.getElementById("options-select").value === "quest")
             {
+                // ITEM FRAGMENTS
                 if (get_equipment_data(item_name, "has_fragments"))
                 {
                     table_HTML += "<th class=\"requested-item-image\">";
@@ -87,17 +144,32 @@
                         table_HTML += "<tr>";
                     }
                 }
+                else
+                {
+                    table_HTML += "<th class=\"requested-item-image\">";
+                    table_HTML += "<button id=\"" + item_name.split(' ').join('_') + "\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../images/items/" + item_name.split(' ').join('_') + ".png\" alt=\"\"></button>";
+                    table_HTML += "</th>";
+                    count++;
+
+                    if ((count % 14) === 0 && count !== 0)
+                    {
+                        table_HTML += "</tr>";
+
+                        table_HTML += "<tr>";
+                    }
+                }
             }
 
         }
 
+        // ADD PLACEHOLDER
         table_HTML += "<th class=\"requested-item-image\">";
         table_HTML += "<button id=\"Placeholder\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../images/items/Placeholder.png\" alt=\"\"></button>";
         table_HTML += "</th>";
 
         table_HTML += "</tr></tbody>";
         document.getElementById("items-table").innerHTML = table_HTML;
-    }, 500);
+    }
 
     function item_button_click(clicked_button)
     {
@@ -112,12 +184,24 @@
             item_array.push("");
         }
 
-        document.getElementById("result-text-area").innerHTML = write_character_data_format();
+        write_data();
+    }
+
+    function write_data()
+    {
+        if (document.getElementById("options-select").value === "character")
+        {
+            document.getElementById("result-text-area").innerHTML = write_character_data_format();
+        }
+        else if (document.getElementById("options-select").value === "quest")
+        {
+            document.getElementById("result-text-area").innerHTML = write_quest_data_format();
+        }
     }
 
     function write_character_data_format()
     {
-        let rank = 1;
+        let rank = document.getElementById("starting-rank").value;
         let data_string = "";
         let result_html = "<tbody>";
         for (let i = 0 ; i < item_array.length ; i += 6)
@@ -186,6 +270,101 @@
         return data_string;
     }
 
+    function write_quest_data_format()
+    {
+        let data_string = "";
+        let item_1 = (item_array[0] === undefined ? "" : item_array[0]);
+        let item_2 = (item_array[1] === undefined ? "" : item_array[1]);
+        let item_3 = (item_array[2] === undefined ? "" : item_array[2]);
+        let subdrop_1 = (item_array[3] === undefined ? "" : item_array[3]);
+        let subdrop_2 = (item_array[4] === undefined ? "" : item_array[4]);
+        let subdrop_3 = (item_array[5] === undefined ? "" : item_array[5]);
+        let subdrop_4 = (item_array[6] === undefined ? "" : item_array[6]);
+        let subdrop_5 = (item_array[7] === undefined ? "" : item_array[7]);
+        let character_shard = (item_array[8] === undefined ? "" : item_array[8]);
+
+        data_string += "\"item_1\": {\"item_name\": \"" + item_1 + "\", \"drop_percent\": " + document.getElementById("item-1").value + "},\n";
+        data_string += "\"item_2\": {\"item_name\": \"" + item_2 + "\", \"drop_percent\": " + document.getElementById("item-2").value + "},\n";
+        data_string += "\"item_3\": {\"item_name\": \"" + item_3 + "\", \"drop_percent\": " + document.getElementById("item-3").value + "},\n";
+        data_string += (character_shard === "") ? "" : "\"char_shard\": {\"item_name\": \"" + character_shard + "\", \"drop_percent\": " + document.getElementById("char-shard").value + "},\n";
+        data_string += "\"subdrops\": [ \"" + subdrop_1 + "\", " +
+                                        "\"" + subdrop_2 + "\", " +
+                                        "\"" + subdrop_3 + "\", " +
+                                        "\"" + subdrop_4 + "\", " +
+                                        "\"" + subdrop_5 + "\" ]";
+
+        let result_html = "<tbody>";
+        // ITEM 1-3
+        result_html += "<tr>";
+        result_html += "<th class=\"item-image\">";
+        result_html += "<img id=\"" + item_1.split(' ').join('_') + "\" " +
+            "class=\"item-image\" " +
+            "title=\"" + item_1 + "\" " +
+            "src=\"../../../images/items/" + ((item_1 !== "") ? item_1.split(' ').join('_') : "Placeholder") + ".png\" " +
+            "alt=\"\"></th>";
+        result_html += "<th class=\"item-image\">";
+        result_html += "<img id=\"" + item_2.split(' ').join('_') + "\" " +
+            "class=\"item-image\" " +
+            "title=\"" + item_2 + "\" " +
+            "src=\"../../../images/items/" + ((item_2 !== "") ? item_2.split(' ').join('_') : "Placeholder") + ".png\" " +
+            "alt=\"\"></th>";
+        result_html += "<th class=\"item-image\">";
+        result_html += "<img id=\"" + item_3.split(' ').join('_') + "\" " +
+            "class=\"item-image\" " +
+            "title=\"" + item_3 + "\" " +
+            "src=\"../../../images/items/" + ((item_3 !== "") ? item_3.split(' ').join('_') : "Placeholder") + ".png\" " +
+            "alt=\"\"></th>";
+
+        // CHARACTER SHARD
+        if (character_shard !== "")
+        {
+            result_html += "<th class=\"item-image\">";
+            result_html += "<img id=\"" + character_shard.split(' ').join('_') + "\" " +
+                "class=\"item-image\" " +
+                "title=\"" + character_shard + "\" " +
+                "src=\"../../../images/items/" + ((character_shard !== "") ? character_shard.split(' ').join('_') : "Placeholder") + ".png\" " +
+                "alt=\"\"></th>";
+            result_html += "</tr>";
+        }
+
+        // SUBDROPS
+        result_html += "<tr>";
+        result_html += "<th class=\"item-image\">";
+        result_html += "<img id=\"" + subdrop_1.split(' ').join('_') + "\" " +
+            "class=\"item-image\" " +
+            "title=\"" + subdrop_1 + "\" " +
+            "src=\"../../../images/items/" + ((subdrop_1 !== "") ? subdrop_1.split(' ').join('_') : "Placeholder") + ".png\" " +
+            "alt=\"\"></th>";
+        result_html += "<th class=\"item-image\">";
+        result_html += "<img id=\"" + subdrop_2.split(' ').join('_') + "\" " +
+            "class=\"item-image\" " +
+            "title=\"" + subdrop_2 + "\" " +
+            "src=\"../../../images/items/" + ((subdrop_2 !== "") ? subdrop_2.split(' ').join('_') : "Placeholder") + ".png\" " +
+            "alt=\"\"></th>";
+        result_html += "<th class=\"item-image\">";
+        result_html += "<img id=\"" + subdrop_3.split(' ').join('_') + "\" " +
+            "class=\"item-image\" " +
+            "title=\"" + subdrop_3 + "\" " +
+            "src=\"../../../images/items/" + ((subdrop_3 !== "") ? subdrop_3.split(' ').join('_') : "Placeholder") + ".png\" " +
+            "alt=\"\"></th>";
+        result_html += "<th class=\"item-image\">";
+        result_html += "<img id=\"" + subdrop_4.split(' ').join('_') + "\" " +
+            "class=\"item-image\" " +
+            "title=\"" + subdrop_4 + "\" " +
+            "src=\"../../../images/items/" + ((subdrop_4 !== "") ? subdrop_4.split(' ').join('_') : "Placeholder") + ".png\" " +
+            "alt=\"\">";
+        result_html += "<th class=\"item-image\">";
+        result_html += "<img id=\"" + subdrop_5.split(' ').join('_') + "\" " +
+            "class=\"item-image\" " +
+            "title=\"" + subdrop_5 + "\" " +
+            "src=\"../../../images/items/" + ((subdrop_5 !== "") ? subdrop_5.split(' ').join('_') : "Placeholder") + ".png\" " +
+            "alt=\"\"></th>";
+        result_html += "</tr></tbody>";
+        document.getElementById("selected-items-table").innerHTML = result_html;
+
+        return data_string;
+    }
+
     function copyToClipboard()
     {
         let element = document.getElementById("result-text-area");
@@ -205,7 +384,23 @@
     function pop_once()
     {
         item_array.pop();
-        document.getElementById("result-text-area").innerHTML = write_character_data_format();
+        write_data();
+    }
+
+    function update_option()
+    {
+        if (document.getElementById("options-select").value === "character")
+        {
+            document.getElementById("character-data").style.display = "inline";
+            document.getElementById("quest-data").style.display = "none";
+        }
+        else if (document.getElementById("options-select").value === "quest")
+        {
+            document.getElementById("character-data").style.display = "none";
+            document.getElementById("quest-data").style.display = "inline";
+        }
+        draw_items();
+        write_data();
     }
 </script>
 </body>

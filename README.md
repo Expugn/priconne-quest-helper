@@ -2,8 +2,9 @@
 
 URL: https://expugn.github.io/priconne-quest-helper/<br>
 Simple Mode: https://expugn.github.io/priconne-quest-helper/#simple<br><br>
-Quest Data: https://expugn.github.io/priconne-quest-helper/quest_data.html<br>
-Recipe Data: https://expugn.github.io/priconne-quest-helper/recipe_data.html
+Quest Data: https://expugn.github.io/priconne-quest-helper/pages/quest-data/<br>
+Recipe Data: https://expugn.github.io/priconne-quest-helper/pages/recipe-data/<br>
+Character Data: https://expugn.github.io/priconne-quest-helper/pages/character-data/
 
 Last Quest Update: `February 15, 2019`
 
@@ -34,6 +35,7 @@ Quest points is what determines how quests should be sorted in the `Recommended 
 | :---: | :---: |
 | `Material is in the First or Second Slot`<br><br>Materials in the first or second slot tend to have higher drop rates compared to the third item. | `1.0` |
 | `Material is in the Third Slot`<br><br>Materials in the third slot tend to have a lower drop rate compared to the first and second item. | `0.75` |
+| `Material is a Character Shard`<br><br>Character Shards from Hard Quests are important. | `1.0` |
 | `Material is in the Third Slot but Shares the Same Drop Rate as the First and Second Item`<br><br>This is the case for earlier quests (`54%` for the first three items) or hard mode quests (`72%` for the first three items). | `1.0` |
 | `Material is a Sub-Drop Item`<br><br>Sub-drop items are not displayed in the quest info in-game, but they have a lower drop rate than the first three items.<br>There are a collection of five different sub-drop items in every quest with a drop rate of `20%` each. | `0.5` |
 

@@ -61,6 +61,7 @@
     <script src="scripts/collapsible-animate.js"></script>
     <script src="scripts/toastrOptions.js"></script>
     <script src="scripts/navigation-bar.js"></script>
+    <script src="scripts/update-progress.js"></script>
 
     <!-- CSS STYLE SHEETS -->
     <link rel="stylesheet" href="css/toastr.css"/>
@@ -84,11 +85,7 @@
     <button id="navigation-presets" type="button" onclick="open_presets()">Presets</button>
     <button id="navigation-projects" type="button" onclick="open_projects()">Projects</button>
     <button id="navigation-settings" type="button" onclick="open_settings()">Settings</button>
-    <button id="navigation-other" type="button" onclick="open_other()">Other</button>
-    <!--
-    <button>Other</button>
-    <a>Data Management</a>
-    -->
+    <button id="navigation-other" type="button" onclick="open_other()">Other<img id="update-notification-img" src="images/webpage/Notification_Icon.png" alt="" style="height: 15px; position: relative; bottom: 10px; left: 5px; display: none"></button>
 </div>
 
 <hr> <!-- LINE BREAK -->
@@ -142,7 +139,7 @@
     </div>
     <hr> <!-- LINE BREAK -->
     <!-- REQUESTED ITEMS -->
-    <div id="requested-div" class="div-background div-background-requested text-overflow-auto" w3-include-html="elements/requested_items.html">
+    <div id="requested-div" class="div-background div-background-requested text-overflow-auto">
         <h2 class="request-title">Requested Items</h2>
         <!-- REQUESTED ITEMS -->
         <div class="request-info">
@@ -410,6 +407,46 @@
 </div>
 
 <div id="other-container" style="display: none;">
+    <div id="update-div" style="background-image: url('images/webpage/bg_0000_blur.png'); background-size: cover; background-repeat: no-repeat; background-position: center 100%; display: none;">
+        <h2 class="category-title">Update in Progress!<br><span id="update-name"></span></h2>
+        <table class="centerTable">
+            <tbody>
+                <tr>
+                    <td>
+                        <h3 class="category-title"><img src="images/webpage/album_2.png" style="height: 40px; position: relative; top: 13px" alt=""> Quest Data</h3>
+                        <label id="update-normal-quests-label" class="category-title">Normal Quests</label><br>
+                        <label id="update-hard-quests-label" class="category-title">Hard Quests</label>
+                    </td>
+                    <td>
+                        <img id="update-quest-data-check" src="images/webpage/Checkmark.png" style="height: 25px; position: relative; left: 15px; top: 25px; display: none;" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3 class="category-title"><img src="images/webpage/album_1.png" style="height: 40px; position: relative; top: 13px" alt=""> Equipment Data</h3>
+                        <label id="update-equipment-selection-label" class="category-title">Equipment Selection</label><br>
+                        <label id="update-en-tl-names-label" class="category-title">English Translated Names</label>
+                    </td>
+                    <td>
+                        <img id="update-equipment-data-check" src="images/webpage/Checkmark.png" style="height: 25px; position: relative; left: 15px; top: 25px; display: none;" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3 class="category-title"><img src="images/webpage/album_4.png" style="height: 40px; position: relative; top: 13px" alt=""> Character Data</h3>
+                        <label id="update-rank-equip-label" class="category-title">Updated Rank Equipment</label>
+                    </td>
+                    <td>
+                        <img id="update-character-data-check" src="images/webpage/Checkmark.png" style="height: 25px; position: relative; left: 15px; top: 25px; display: none;" alt="">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+    </div>
+
+    <br>
+
     <div id="data-div">
         <form action="pages/quest-data/" target="_blank">
             <input type="submit" value="Quest Data"/>
@@ -524,6 +561,7 @@
             build_item_tables();
             init_blacklist();
             build_character_preset_list();
+            update_progress();
         }, 500);
 
         // LOCAL STORAGE SUPPORT DOES NOT EXIST
