@@ -2123,6 +2123,111 @@
     "char_shard": {"item_name": "Ninon Shard", "drop_percent": 54},
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
   },
+  "21-1": {
+    "item_1": {"item_name": "Fury Dragon Pendant Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Mermaid Princess' Spirit Tear Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Abyss Bow Fragment", "drop_percent": 24},
+    "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
+  },
+  "21-2": {
+    "item_1": {"item_name": "Mermaid Princess' Spirit Tear Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Divine Beast's Prayer Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Crimson Claw Fragment", "drop_percent": 24},
+    "subdrops": [ "Hawk God's Sword Fragment", "Artemis Bow Fragment", "Heavenly Robe Fragment", "Guardian Shield Fragment", "Moon Bracelet Fragment" ]
+  },
+  "21-3": {
+    "item_1": {"item_name": "Divine Beast's Prayer Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Fury Dragon Pendant Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Lava Edge Fragment", "drop_percent": 24},
+    "subdrops": [ "Justice God's Staff Fragment", "Phoenix Rod Fragment", "Necromancer Boots Fragment", "Gospel Tiara Fragment", "Dragon's Tear Fragment" ]
+  },
+  "21-4": {
+    "item_1": {"item_name": "equipment_105431 Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Fury Dragon Pendant Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Gale Stinger Fragment", "drop_percent": 24},
+    "subdrops": [ "Hawk God's Sword Fragment", "Artemis Bow Fragment", "Heavenly Robe Fragment", "Guardian Shield Fragment", "Moon Bracelet Fragment" ]
+  },
+  "21-5": {
+    "item_1": {"item_name": "equipment_105342 Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Mermaid Princess' Spirit Tear Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Flowing Azure Blade Fragment", "drop_percent": 24},
+    "subdrops": [ "Justice God's Staff Fragment", "Phoenix Rod Fragment", "Necromancer Boots Fragment", "Gospel Tiara Fragment", "Dragon's Tear Fragment" ]
+  },
+  "21-6": {
+    "item_1": {"item_name": "equipment_105522 Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Divine Beast's Prayer Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Genesis Rod Fragment", "drop_percent": 24},
+    "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
+  },
+  "21-7": {
+    "item_1": {"item_name": "equipment_105282 Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Fury Dragon Pendant Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Divine Judgement Axe Fragment", "drop_percent": 24},
+    "subdrops": [ "Hawk God's Sword Fragment", "Artemis Bow Fragment", "Heavenly Robe Fragment", "Guardian Shield Fragment", "Moon Bracelet Fragment" ]
+  },
+  "21-8": {
+    "item_1": {"item_name": "equipment_105312 Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Mermaid Princess' Spirit Tear Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Dawn's Holy Sword Fragment", "drop_percent": 24},
+    "subdrops": [ "Justice God's Staff Fragment", "Phoenix Rod Fragment", "Necromancer Boots Fragment", "Gospel Tiara Fragment", "Dragon's Tear Fragment" ]
+  },
+  "21-9": {
+    "item_1": {"item_name": "equipment_105372 Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Divine Beast's Prayer Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Divine Blossom Rod Fragment", "drop_percent": 24},
+    "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
+  },
+  "21-10": {
+    "item_1": {"item_name": "equipment_105342 Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Fury Dragon Pendant Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Abyss Bow Fragment", "drop_percent": 24},
+    "subdrops": [ "Hawk God's Sword Fragment", "Artemis Bow Fragment", "Heavenly Robe Fragment", "Guardian Shield Fragment", "Moon Bracelet Fragment" ]
+  },
+  "21-11": {
+    "item_1": {"item_name": "equipment_105522 Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Mermaid Princess' Spirit Tear Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Crimson Claw Fragment", "drop_percent": 24},
+    "subdrops": [ "Justice God's Staff Fragment", "Phoenix Rod Fragment", "Necromancer Boots Fragment", "Gospel Tiara Fragment", "Dragon's Tear Fragment" ]
+  },
+  "21-12": {
+    "item_1": {"item_name": "equipment_105312 Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "equipment_105431 Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Fury Dragon Pendant Fragment", "drop_percent": 24},
+    "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
+  },
+  "21-13": {
+    "item_1": {"item_name": "equipment_105372 Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "equipment_105522 Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Divine Beast's Prayer Fragment", "drop_percent": 24},
+    "subdrops": [ "Hawk God's Sword Fragment", "Artemis Bow Fragment", "Heavenly Robe Fragment", "Guardian Shield Fragment", "Moon Bracelet Fragment" ]
+  },
+  "21-14": {
+    "item_1": {"item_name": "equipment_105282 Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "equipment_105342 Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Mermaid Princess' Spirit Tear Fragment", "drop_percent": 24},
+    "subdrops": [ "Justice God's Staff Fragment", "Phoenix Rod Fragment", "Necromancer Boots Fragment", "Gospel Tiara Fragment", "Dragon's Tear Fragment" ]
+  },
+  "21-1H": {
+    "item_1": {"item_name": "equipment_105522 Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Shrine Maiden's Purity Cloth Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Divine Blossom Rod Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Yui Shard", "drop_percent": 54},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
+  "21-2H": {
+    "item_1": {"item_name": "equipment_105312 Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Flowing Azure Blade Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Astrograph Buckler Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Shinobu Shard", "drop_percent": 54},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "21-3H": {
+    "item_1": {"item_name": "equipment_105282 Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Lava Edge Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Millennium Earrings Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Tomo Shard", "drop_percent": 54},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
 
   "-": {
     "item_1": {"item_name": "", "drop_percent": 36},

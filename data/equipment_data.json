@@ -1407,6 +1407,48 @@
     "req_pieces": 35,
     "req_items": []
   },
+  "equipment_105282": {
+    "name": "equipment_105282",
+    "id": "purple-31",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Mythril Plate", "Feather Blade" ]
+  },
+  "equipment_105312": {
+    "name": "equipment_105312",
+    "id": "purple-32",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Angel Armor", "Lion's Battle Axe" ]
+  },
+  "equipment_105342": {
+    "name": "equipment_105342",
+    "id": "purple-33",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Mourning Crescent Moon", "Cosmos Cloth" ]
+  },
+  "equipment_105372": {
+    "name": "equipment_105372",
+    "id": "purple-34",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Hermit Clothes", "Devil's Horn" ]
+  },
+  "equipment_105431": {
+    "name": "equipment_105431",
+    "id": "purple-35",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Angel Boots", "Devil's Bow" ]
+  },
+  "equipment_105522": {
+    "name": "equipment_105522",
+    "id": "purple-36",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Pope's Hood", "Lion King's Protective Charm" ]
+  },
   "yui_shard": {
     "name": "Yui Shard",
     "id": "misc-1",
@@ -1571,6 +1613,13 @@
   "arisa_shard": {
     "name": "Arisa Shard",
     "id": "misc-24",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
+  "tomo_shard": {
+    "name": "Tomo Shard",
+    "id": "misc-25",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []

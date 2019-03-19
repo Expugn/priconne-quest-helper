@@ -6,7 +6,7 @@ Quest Data: https://expugn.github.io/priconne-quest-helper/pages/quest-data/<br>
 Recipe Data: https://expugn.github.io/priconne-quest-helper/pages/recipe-data/<br>
 Character Data: https://expugn.github.io/priconne-quest-helper/pages/character-data/
 
-Last Quest Update: `February 15, 2019`
+Last Quest Update: `March 19, 2019`
 
 ## Information
 This is a tool to help you decide which is the best quest to farm to get
