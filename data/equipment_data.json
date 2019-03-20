@@ -1407,43 +1407,43 @@
     "req_pieces": 35,
     "req_items": []
   },
-  "equipment_105282": {
-    "name": "equipment_105282",
+  "nine_heavens_armor": {
+    "name": "Nine Heavens' Armor",
     "id": "purple-31",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Mythril Plate", "Feather Blade" ]
   },
-  "equipment_105312": {
-    "name": "equipment_105312",
+  "holy_sakuras_armor": {
+    "name": "Holy Sakura's Armor",
     "id": "purple-32",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Angel Armor", "Lion's Battle Axe" ]
   },
-  "equipment_105342": {
-    "name": "equipment_105342",
+  "maiden_cloth": {
+    "name": "Maiden Cloth",
     "id": "purple-33",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Mourning Crescent Moon", "Cosmos Cloth" ]
   },
-  "equipment_105372": {
-    "name": "equipment_105372",
+  "empress_robe": {
+    "name": "Empress Robe",
     "id": "purple-34",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Hermit Clothes", "Devil's Horn" ]
   },
-  "equipment_105431": {
-    "name": "equipment_105431",
+  "infernal_greaves": {
+    "name": "Infernal Greaves",
     "id": "purple-35",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Angel Boots", "Devil's Bow" ]
   },
-  "equipment_105522": {
-    "name": "equipment_105522",
+  "holy_prayers_crown": {
+    "name": "Holy Prayer's Crown",
     "id": "purple-36",
     "has_fragments": true,
     "req_pieces": 25,

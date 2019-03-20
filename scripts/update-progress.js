@@ -6,7 +6,7 @@ function update_progress()
     const normal_quest_updated = true;
     const hard_quest_updated = true;
     const equipment_selection_updated = true;
-    const english_translated_names_updated = false;
+    const english_translated_names_updated = true;
     const rank_equipment_updated = false;
 
     if (update_in_progress)
