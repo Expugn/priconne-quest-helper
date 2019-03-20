@@ -1365,89 +1365,89 @@
     "req_pieces": 25,
     "req_items": [ "Guardian Shield", "Garnet Shield", "Cosmos Cloth" ]
   },
-  "millennium_earrings": {
-    "name": "Millennium Earrings",
-    "id": "purple-25",
-    "has_fragments": true,
-    "req_pieces": 35,
-    "req_items": []
-  },
-  "ocean_gods_earrings": {
-    "name": "Ocean God's Earrings",
-    "id": "purple-26",
-    "has_fragments": true,
-    "req_pieces": 35,
-    "req_items": []
-  },
-  "fairy_kings_guardian_stone": {
-    "name": "Fairy King's Guardian Stone",
-    "id": "purple-27",
-    "has_fragments": true,
-    "req_pieces": 35,
-    "req_items": []
-  },
-  "fury_dragon_pendant": {
-    "name": "Fury Dragon Pendant",
-    "id": "purple-28",
-    "has_fragments": true,
-    "req_pieces": 35,
-    "req_items": []
-  },
-  "divine_beasts_prayer": {
-    "name": "Divine Beast's Prayer",
-    "id": "purple-29",
-    "has_fragments": true,
-    "req_pieces": 35,
-    "req_items": []
-  },
-  "mermaid_princess_spirit_tear": {
-    "name": "Mermaid Princess' Spirit Tear",
-    "id": "purple-30",
-    "has_fragments": true,
-    "req_pieces": 35,
-    "req_items": []
-  },
   "nine_heavens_armor": {
     "name": "Nine Heavens' Armor",
-    "id": "purple-31",
+    "id": "purple-25",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Mythril Plate", "Feather Blade" ]
   },
   "holy_sakuras_armor": {
     "name": "Holy Sakura's Armor",
-    "id": "purple-32",
+    "id": "purple-26",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Angel Armor", "Lion's Battle Axe" ]
   },
   "maiden_cloth": {
     "name": "Maiden Cloth",
-    "id": "purple-33",
+    "id": "purple-27",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Mourning Crescent Moon", "Cosmos Cloth" ]
   },
   "empress_robe": {
     "name": "Empress Robe",
-    "id": "purple-34",
+    "id": "purple-28",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Hermit Clothes", "Devil's Horn" ]
   },
   "infernal_greaves": {
     "name": "Infernal Greaves",
-    "id": "purple-35",
+    "id": "purple-29",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Angel Boots", "Devil's Bow" ]
   },
   "holy_prayers_crown": {
     "name": "Holy Prayer's Crown",
-    "id": "purple-36",
+    "id": "purple-30",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Pope's Hood", "Lion King's Protective Charm" ]
+  },
+  "millennium_earrings": {
+    "name": "Millennium Earrings",
+    "id": "purple-31",
+    "has_fragments": true,
+    "req_pieces": 35,
+    "req_items": []
+  },
+  "ocean_gods_earrings": {
+    "name": "Ocean God's Earrings",
+    "id": "purple-32",
+    "has_fragments": true,
+    "req_pieces": 35,
+    "req_items": []
+  },
+  "fairy_kings_guardian_stone": {
+    "name": "Fairy King's Guardian Stone",
+    "id": "purple-33",
+    "has_fragments": true,
+    "req_pieces": 35,
+    "req_items": []
+  },
+  "fury_dragon_pendant": {
+    "name": "Fury Dragon Pendant",
+    "id": "purple-34",
+    "has_fragments": true,
+    "req_pieces": 35,
+    "req_items": []
+  },
+  "divine_beasts_prayer": {
+    "name": "Divine Beast's Prayer",
+    "id": "purple-35",
+    "has_fragments": true,
+    "req_pieces": 35,
+    "req_items": []
+  },
+  "mermaid_princess_spirit_tear": {
+    "name": "Mermaid Princess' Spirit Tear",
+    "id": "purple-36",
+    "has_fragments": true,
+    "req_pieces": 35,
+    "req_items": []
   },
   "yui_shard": {
     "name": "Yui Shard",
