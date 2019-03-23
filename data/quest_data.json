@@ -2154,7 +2154,7 @@
     "subdrops": [ "Justice God's Staff Fragment", "Phoenix Rod Fragment", "Necromancer Boots Fragment", "Gospel Tiara Fragment", "Dragon's Tear Fragment" ]
   },
   "21-6": {
-    "item_1": {"item_name": "equipment_105522 Fragment", "drop_percent": 36},
+    "item_1": {"item_name": "Holy Prayer's Crown Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Divine Beast's Prayer Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Genesis Rod Fragment", "drop_percent": 24},
     "subdrops": [ "Ice Claymore Fragment", "Dark Matter Edge Fragment", "Crusader Plate Fragment", "Violet Armor Fragment", "Sun Amulet Fragment" ]
