@@ -27,6 +27,7 @@
     <!-- SCRIPTS -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"> </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="../../scripts/read-equipment-json.js"></script>
     <script src="../../scripts/read-quest-json.js"></script>
 
     <!-- CSS STYLE SHEETS -->
@@ -74,6 +75,44 @@
             {
                 if (quest_id !== "-")
                 {
+                    // DEBUG | FRAGMENT CHECK V2: IF ITEM DOES NOT HAVE "FRAGMENT" IN NAME BUT HAS FRAGMENTS, PRINT TO CONSOLE.
+                    const fragment_check_v2 = false;
+                    if (fragment_check_v2)
+                    {
+                        if (!quest_data.get("item_1").item_name.includes("Fragment"))
+                        {
+                            if (get_equipment_data(quest_data.get("item_1").item_name, "has_fragments"))
+                            {
+                                console.log(quest_id + " - " + quest_data.get("item_1").item_name);
+                            }
+                        }
+                        if (!quest_data.get("item_2").item_name.includes("Fragment"))
+                        {
+                            if (get_equipment_data(quest_data.get("item_2").item_name, "has_fragments"))
+                            {
+                                console.log(quest_id + " - " + quest_data.get("item_2").item_name);
+                            }
+                        }
+                        if (!quest_data.get("item_3").item_name.includes("Fragment"))
+                        {
+                            if (get_equipment_data(quest_data.get("item_3").item_name, "has_fragments"))
+                            {
+                                console.log(quest_id + " - " + quest_data.get("item_3").item_name);
+                            }
+                        }
+                        for (let i = 0 ; i < quest_data.get("subdrops").length ; i++)
+                        {
+                            if (!quest_data.get("subdrops")[i].includes("Fragment"))
+                            {
+                                if (get_equipment_data(quest_data.get("subdrops")[i], "has_fragments"))
+                                {
+                                    console.log(quest_id + " - " + quest_data.get("subdrops")[i]);
+                                }
+                            }
+                        }
+                    }
+
+
                     table_html += "<tr>";
 
                     // QUEST NAME

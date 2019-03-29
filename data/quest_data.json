@@ -75,8 +75,8 @@
   },
   "1-3H": {
     "item_1": {"item_name": "Crystal Bow", "drop_percent": 72},
-    "item_2": {"item_name": "Leather Boots", "drop_percent": 72},
-    "item_3": {"item_name": "Jewel of Love", "drop_percent": 72},
+    "item_2": {"item_name": "Jewel of Love", "drop_percent": 72},
+    "item_3": {"item_name": "Leather Boots", "drop_percent": 72},
     "char_shard": {"item_name": "Aoi Shard", "drop_percent": 50},
     "subdrops": [ "Fragrant Wood Wand", "Hunter's Bow", "Journey Robe", "Fashionable Beret", "Fighting Bracelet" ]
   },
@@ -168,8 +168,8 @@
   },
   "2-3H": {
     "item_1": {"item_name": "Legion Helm Fragment", "drop_percent": 72},
-    "item_2": {"item_name": "Command Knife", "drop_percent": 72},
     "item_3": {"item_name": "Victory Friendship Bracelet", "drop_percent": 72},
+    "item_2": {"item_name": "Command Knife", "drop_percent": 72},
     "char_shard": {"item_name": "Saren Shard", "drop_percent": 50},
     "subdrops": [ "Fragrant Wood Wand", "Hunter's Bow", "Journey Robe", "Fashionable Beret", "Fighting Bracelet" ]
   },
@@ -218,7 +218,7 @@
   "3-8": {
     "item_1": {"item_name": "High Metal Plate Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Shinobi Costume Fragment", "drop_percent": 36},
-    "item_3": {"item_name": "Folklore Clothes", "drop_percent": 24},
+    "item_3": {"item_name": "Folklore Clothes Fragment", "drop_percent": 24},
     "subdrops": [ "Fragrant Wood Wand", "Hunter's Bow", "Journey Robe", "Fashionable Beret", "Fighting Bracelet" ]
   },
   "3-9": {
@@ -257,14 +257,14 @@
     "item_2": {"item_name": "High Metal Plate Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Victory Friendship Bracelet", "drop_percent": 72},
     "char_shard": {"item_name": "Rima Shard", "drop_percent": 50},
-    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes", "Crown Boots", "Jewel of Love" ]
+    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes Fragment", "Crown Boots Fragment", "Jewel of Love" ]
   },
   "3-3H": {
     "item_1": {"item_name": "Blue Sphere Axe Fragment", "drop_percent": 72},
     "item_2": {"item_name": "Metal Axe", "drop_percent": 72},
     "item_3": {"item_name": "Spike Bangle", "drop_percent": 72},
     "char_shard": {"item_name": "Mimi Shard", "drop_percent": 50},
-    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
+    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe Fragment", "Magic Glasses", "Jewel of Wisdom" ]
   },
   "4-1": {
     "item_1": {"item_name": "Leather Knuckle", "drop_percent": 36},
@@ -323,7 +323,7 @@
   "4-10": {
     "item_1": {"item_name": "Shinobi Shoes Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Witch Headband Fragment", "drop_percent": 36},
-    "item_3": {"item_name": "Hunting Boots", "drop_percent": 24},
+    "item_3": {"item_name": "Hunting Boots Fragment", "drop_percent": 24},
     "subdrops": [ "Steel Spear", "Killer Pencil", "Leather Overalls", "Leather Boots", "Protective Pendant" ]
   },
   "4-11": {
@@ -356,7 +356,7 @@
     "item_2": {"item_name": "Witch Hat Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Magic Monocle Fragment", "drop_percent": 72},
     "char_shard": {"item_name": "Misaki Shard", "drop_percent": 52},
-    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes", "Crown Boots", "Jewel of Love" ]
+    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes Fragment", "Crown Boots Fragment", "Jewel of Love" ]
   },
   "4-3H": {
     "item_1": {"item_name": "Garnet Shield Fragment", "drop_percent": 72},
@@ -375,7 +375,7 @@
     "item_1": {"item_name": "Thorn Blood Rod Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Platinum Knife Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Millefeuille Cloth Fragment", "drop_percent": 24},
-    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes", "Crown Boots", "Jewel of Love" ]
+    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes Fragment", "Crown Boots Fragment", "Jewel of Love" ]
   },
   "5-3": {
     "item_1": {"item_name": "Lion's Battle Axe Fragment", "drop_percent": 36},
@@ -393,7 +393,7 @@
     "item_1": {"item_name": "Absolute Spear Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Flower Bud Wand Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Fashion Armor Fragment", "drop_percent": 24},
-    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes", "Crown Boots", "Jewel of Love" ]
+    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes Fragment", "Crown Boots Fragment", "Jewel of Love" ]
   },
   "5-6": {
     "item_1": {"item_name": "Moonlight Sword Fragment", "drop_percent": 36},
@@ -411,7 +411,7 @@
     "item_1": {"item_name": "Cupid Robe Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Fencer Boots Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Opal Earrings Fragment", "drop_percent": 24},
-    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes", "Crown Boots", "Jewel of Love" ]
+    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes Fragment", "Crown Boots Fragment", "Jewel of Love" ]
   },
   "5-9": {
     "item_1": {"item_name": "Battling Dress Fragment", "drop_percent": 36},
@@ -429,7 +429,7 @@
     "item_1": {"item_name": "Lion Eagle's Feather Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Absolute Spear Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Dragon's Claw Fragment", "drop_percent": 24},
-    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes", "Crown Boots", "Jewel of Love" ]
+    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes Fragment", "Crown Boots Fragment", "Jewel of Love" ]
   },
   "5-12": {
     "item_1": {"item_name": "Octogram Pendant Fragment", "drop_percent": 36},
@@ -455,7 +455,7 @@
     "item_2": {"item_name": "Fashion Armor Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Shinobi Shoes Fragment", "drop_percent": 72},
     "char_shard": {"item_name": "Mifuyu Shard", "drop_percent": 52},
-    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes", "Crown Boots", "Jewel of Love" ]
+    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes Fragment", "Crown Boots Fragment", "Jewel of Love" ]
   },
   "5-3H": {
     "item_1": {"item_name": "Cupid's Bow Fragment", "drop_percent": 72},
@@ -468,7 +468,7 @@
     "item_1": {"item_name": "Dragon's Claw Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Cupid's Bow Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Battling Dress Fragment", "drop_percent": 24},
-    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes", "Crown Boots", "Jewel of Love" ]
+    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes Fragment", "Crown Boots Fragment", "Jewel of Love" ]
   },
   "6-2": {
     "item_1": {"item_name": "Absolute Spear Fragment", "drop_percent": 36},
@@ -486,7 +486,7 @@
     "item_1": {"item_name": "Devil's Bow Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Ryuumon Sword Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Cupid Robe Fragment", "drop_percent": 24},
-    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes", "Crown Boots", "Jewel of Love" ]
+    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes Fragment", "Crown Boots Fragment", "Jewel of Love" ]
   },
   "6-5": {
     "item_1": {"item_name": "Feather Blade Fragment", "drop_percent": 36},
@@ -504,7 +504,7 @@
     "item_1": {"item_name": "Heavy Metal Armor Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Moonlight Sword Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Opal Earrings Fragment", "drop_percent": 24},
-    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes", "Crown Boots", "Jewel of Love" ]
+    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes Fragment", "Crown Boots Fragment", "Jewel of Love" ]
   },
   "6-8": {
     "item_1": {"item_name": "Cosmos Cloth Fragment", "drop_percent": 36},
@@ -522,7 +522,7 @@
     "item_1": {"item_name": "Scarlet Diamond Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Octogram Pendant Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Witch Palace Boots Fragment", "drop_percent": 24},
-    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes", "Crown Boots", "Jewel of Love" ]
+    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes Fragment", "Crown Boots Fragment", "Jewel of Love" ]
   },
   "6-11": {
     "item_1": {"item_name": "Laurel's Sorrow Fragment", "drop_percent": 36},
@@ -540,7 +540,7 @@
     "item_1": {"item_name": "Lightning Bow Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Thunder God Sword Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Vampire Dagger Fragment", "drop_percent": 24},
-    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes", "Crown Boots", "Jewel of Love" ]
+    "subdrops": [ "Trident", "Command Knife", "Folklore Clothes Fragment", "Crown Boots Fragment", "Jewel of Love" ]
   },
   "6-14": {
     "item_1": {"item_name": "Blazing Gauntlet Fragment", "drop_percent": 36},
