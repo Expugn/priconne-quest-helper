@@ -130,7 +130,7 @@
   },
   "2-9": {
     "item_1": {"item_name": "Crown Boots Fragment", "drop_percent": 36},
-    "item_2": {"item_name": "Spring Color Robe", "drop_percent": 36},
+    "item_2": {"item_name": "Spring Color Robe Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Magic Glasses", "drop_percent": 24},
     "subdrops": [ "Iron Blade", "Wood Grip", "One Handed Axe", "Tree Shield", "Motivational Bracelet" ]
   },
@@ -363,7 +363,7 @@
     "item_2": {"item_name": "Fashion Armor Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Crescent Sword", "drop_percent": 72},
     "char_shard": {"item_name": "Ninon Shard", "drop_percent": 52},
-    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
+    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe Fragment", "Magic Glasses", "Jewel of Wisdom" ]
   },
   "5-1": {
     "item_1": {"item_name": "Knight's Pride Fragment", "drop_percent": 36},
@@ -381,7 +381,7 @@
     "item_1": {"item_name": "Lion's Battle Axe Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Celestial Sphere Watcher Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Witch Headband Fragment", "drop_percent": 24},
-    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
+    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe Fragment", "Magic Glasses", "Jewel of Wisdom" ]
   },
   "5-4": {
     "item_1": {"item_name": "Ryuumon Sword Fragment", "drop_percent": 36},
@@ -399,7 +399,7 @@
     "item_1": {"item_name": "Moonlight Sword Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Cupid's Bow Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Shinobi Shoes Fragment", "drop_percent": 24},
-    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
+    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe Fragment", "Magic Glasses", "Jewel of Wisdom" ]
   },
   "5-7": {
     "item_1": {"item_name": "Palace Cloth Fragment", "drop_percent": 36},
@@ -417,7 +417,7 @@
     "item_1": {"item_name": "Battling Dress Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Witch Palace Boots Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Turquoise Earrings Fragment", "drop_percent": 24},
-    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
+    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe Fragment", "Magic Glasses", "Jewel of Wisdom" ]
   },
   "5-10": {
     "item_1": {"item_name": "Garnet Shield Fragment", "drop_percent": 36},
@@ -435,7 +435,7 @@
     "item_1": {"item_name": "Octogram Pendant Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Ryuumon Sword Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Cupid's Bow Fragment", "drop_percent": 24},
-    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
+    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe Fragment", "Magic Glasses", "Jewel of Wisdom" ]
   },
   "5-13": {
     "item_1": {"item_name": "Vampire Dagger Fragment", "drop_percent": 36},
@@ -462,7 +462,7 @@
     "item_2": {"item_name": "Opal Earrings Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Millefeuille Cloth Fragment", "drop_percent": 72},
     "char_shard": {"item_name": "Shiori Shard", "drop_percent": 52},
-    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
+    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe Fragment", "Magic Glasses", "Jewel of Wisdom" ]
   },
   "6-1": {
     "item_1": {"item_name": "Dragon's Claw Fragment", "drop_percent": 36},
@@ -474,7 +474,7 @@
     "item_1": {"item_name": "Absolute Spear Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Lion's Battle Axe Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Palace Cloth Fragment", "drop_percent": 24},
-    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
+    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe Fragment", "Magic Glasses", "Jewel of Wisdom" ]
   },
   "6-3": {
     "item_1": {"item_name": "Lightning Axe Fragment", "drop_percent": 36},
@@ -492,7 +492,7 @@
     "item_1": {"item_name": "Feather Blade Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Vampire Dagger Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Turquoise Earrings Fragment", "drop_percent": 24},
-    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
+    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe Fragment", "Magic Glasses", "Jewel of Wisdom" ]
   },
   "6-6": {
     "item_1": {"item_name": "Thunder God Sword Fragment", "drop_percent": 36},
@@ -510,7 +510,7 @@
     "item_1": {"item_name": "Cosmos Cloth Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Witch Hat Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Fencer Boots Fragment", "drop_percent": 24},
-    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
+    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe Fragment", "Magic Glasses", "Jewel of Wisdom" ]
   },
   "6-9": {
     "item_1": {"item_name": "Philosopher's Robe Fragment", "drop_percent": 36},
@@ -528,7 +528,7 @@
     "item_1": {"item_name": "Laurel's Sorrow Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Feather Blade Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Devil's Bow Fragment", "drop_percent": 24},
-    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
+    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe Fragment", "Magic Glasses", "Jewel of Wisdom" ]
   },
   "6-12": {
     "item_1": {"item_name": "Lion King's Protective Charm Fragment", "drop_percent": 36},
@@ -546,7 +546,7 @@
     "item_1": {"item_name": "Blazing Gauntlet Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Moon Wand Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Turquoise Earrings Fragment", "drop_percent": 24},
-    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe", "Magic Glasses", "Jewel of Wisdom" ]
+    "subdrops": [ "Doctorless Staff", "Green Rod", "Spring Color Robe Fragment", "Magic Glasses", "Jewel of Wisdom" ]
   },
   "6-1H": {
     "item_1": {"item_name": "Devil's Horn Fragment", "drop_percent": 72},
