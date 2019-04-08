@@ -35,6 +35,24 @@
     "rank_11": ["Dawn's Holy Sword", "Lightning Blade", "Phantasm Mail", "Faireal Boots", "Millennium Earrings", "Firelord's Ring"],
     "rank_12": ["", "Dawn's Holy Sword", "Infernal Greaves", "Astrograph Buckler", "Fury Dragon Pendant", "Millennium Earrings"]
   },
+  "an": {
+    "name": "An",
+    "thematic": "",
+    "name_jp": "アン",
+    "thematic_jp": "",
+    "rank_1": ["Fragrant Wood Wand", "Fragrant Wood Wand", "Journey Robe", "Fashionable Beret", "Fighting Bracelet", "Fighting Bracelet"],
+    "rank_2": ["Little Dragon Rod", "Green Rod", "Spring Color Robe", "Witch Boots", "Fighting Bracelet", "Fighting Bracelet"],
+    "rank_3": ["Thorn Blood Rod", "Little Dragon Rod", "Nordic Robe", "Nun's Hood", "Magic Glasses", "Magic Glasses"],
+    "rank_4": ["Flower Bud Wand", "Thorn Blood Rod", "Witch Headband", "Witch Headband", "Magic Monocle", "Magic Monocle"],
+    "rank_5": ["Devil's Horn", "Flower Bud Wand", "Cupid Robe", "Witch Hat", "Turquoise Earrings", "Turquoise Earrings"],
+    "rank_6": ["Fury Rod", "Devil's Horn", "Philosopher's Robe", "Witch Hat", "Cupid Robe", "Sorcerer's Glasses"],
+    "rank_7": ["Rod of Sun", "Fury Rod", "Grand Magician's Robe", "Laurel's Sorrow", "Devil's Horn", "Sorcerer's Glasses"],
+    "rank_8": ["Justice God's Staff", "Rod of Sun", "Pope's Hood", "Fury Rod", "Mourning Crescent Moon", "Laurel's Sorrow"],
+    "rank_9": ["High Devil Wand", "Justice God's Staff", "Gospel Tiara", "Rod of Sun", "Dragon's Tear", "Mourning Crescent Moon"],
+    "rank_10": ["Xenosphere Rod", "High Devil Wand", "Aquarius Boots", "Justice God's Staff", "Great Sage Gem", "Dragon's Tear"],
+    "rank_11": ["Genesis Rod", "Xenosphere Rod", "Mourning Crown", "High Devil Wand", "Ocean God's Earrings", "Great Sage Gem"],
+    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"]
+  },
   "anna": {
     "name": "Anna",
     "thematic": "",
@@ -1025,6 +1043,24 @@
     "rank_10": ["Hundred White Blossom Petals Sword", "Phoenix Sword", "Dark Terror Dress", "Guardian Shield", "Congregation Pendant", "Moon Bracelet"],
     "rank_11": ["Flowing Azure Blade", "Hundred White Blossom Petals Sword", "Aegis Coat", "Faireal Boots", "Fairy King's Guardian Stone", "Congregation Pendant"],
     "rank_12": ["", "Flowing Azure Blade", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
+  },
+  "ruu": {
+    "name": "Ruu",
+    "thematic": "",
+    "name_jp": "ルゥ",
+    "thematic_jp": "",
+    "rank_1": ["Fragrant Wood Wand", "Fragrant Wood Wand", "Journey Robe", "Fashionable Beret", "Fighting Bracelet", "Fighting Bracelet"],
+    "rank_2": ["Little Dragon Rod", "Green Rod", "Spring Color Robe", "Witch Boots", "Fighting Bracelet", "Fighting Bracelet"],
+    "rank_3": ["Thorn Blood Rod", "Little Dragon Rod", "Nordic Robe", "Nun's Hood", "Magic Glasses", "Magic Glasses"],
+    "rank_4": ["Flower Bud Wand", "Thorn Blood Rod", "Witch Headband", "Witch Headband", "Magic Monocle", "Magic Monocle"],
+    "rank_5": ["Devil's Horn", "Flower Bud Wand", "Cupid Robe", "Witch Hat", "Turquoise Earrings", "Turquoise Earrings"],
+    "rank_6": ["Fury Rod", "Devil's Horn", "Philosopher's Robe", "Witch Hat", "Cupid Robe", "Sorcerer's Glasses"],
+    "rank_7": ["Rod of Sun", "Fury Rod", "Grand Magician's Robe", "Laurel's Sorrow", "Devil's Horn", "Sorcerer's Glasses"],
+    "rank_8": ["Justice God's Staff", "Rod of Sun", "Pope's Hood", "Fury Rod", "Mourning Crescent Moon", "Laurel's Sorrow"],
+    "rank_9": ["High Devil Wand", "Justice God's Staff", "Gospel Tiara", "Rod of Sun", "Dragon's Tear", "Mourning Crescent Moon"],
+    "rank_10": ["Xenosphere Rod", "High Devil Wand", "Aquarius Boots", "Justice God's Staff", "Great Sage Gem", "Dragon's Tear"],
+    "rank_11": ["Genesis Rod", "Xenosphere Rod", "Mourning Crown", "High Devil Wand", "Ocean God's Earrings", "Great Sage Gem"],
+    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"]
   },
   "saren": {
     "name": "Saren",
