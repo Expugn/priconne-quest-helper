@@ -177,7 +177,7 @@ function add_item_image_to_table(count, item_HTML, item_name, item_id, rarity_cl
             item_HTML += "<th class=\"item-amt\">";
             item_HTML += "<label for=\"" + rarity_class + "-" + (i + 1) + "-amt\"></label>";
             item_HTML += "<input id=\"" + rarity_class + "-" + (i + 1) + "-amt\" " +
-                "class=\"item-input\" " +
+                "class=\"item-input notranslate\" " +
                 "type=\"number\" " +
                 "min=\"0\" " +
                 "max=\"" + ((rarity_class === "misc") ? "400" : "99") + "\" " +
@@ -197,7 +197,7 @@ function add_item_image_to_table(count, item_HTML, item_name, item_id, rarity_cl
     // INSERT ITEM IMAGE
     item_HTML += "<th class=\"item-image\">";
     item_HTML += "<img id=\"" + item_id + "\" " +
-        "class=\"item-image\" " +
+        "class=\"item-image notranslate\" " +
         "title=\"" + item_name + "\" " +
         "src=\"images/items/" + item_name.split(' ').join('_') + ".png\" " +
         "alt=\"\">";
@@ -234,7 +234,7 @@ function close_item_table(count, item_HTML, rarity_class)
         item_HTML += "<th class=\"item-amt\">";
         item_HTML += "<label for=\"" + rarity_class + "-" + (i + 1) + "-amt\"></label>";
         item_HTML += "<input id=\"" + rarity_class + "-" + (i + 1) + "-amt\" " +
-            "class=\"item-input\" " +
+            "class=\"item-input notranslate\" " +
             "type=\"number\" " +
             "min=\"0\" " +
             "max=\"" + ((rarity_class === "misc") ? "400" : "99") + "\" " +
