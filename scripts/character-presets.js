@@ -20,7 +20,7 @@ function update_selected_character_preset_details()
 
     if (selected_character === "default_character")
     {
-        document.getElementById("preset-character-image").src = "images/unit_icon/Placeholder.png";
+        document.getElementById("preset-character-image").src = "images/unit_icon_webp/Placeholder.webp";
         document.getElementById("preset-character-name-label").innerHTML = "";
         document.getElementById("preset-character-load-button").disabled = true;
         document.getElementById("preset-character-min-rank-input").disabled = true;
@@ -30,11 +30,11 @@ function update_selected_character_preset_details()
     {
         let character_name = get_character_data(selected_character, "name");
         let character_thematic = get_character_data(selected_character, "thematic");
-        let character_image_name = (character_thematic === "") ? character_name + ".png" : character_thematic + "_" + character_name + ".png";
+        let character_image_name = (character_thematic === "") ? character_name + ".webp" : character_thematic + "_" + character_name + ".webp";
         let character_thematic_jp = get_character_data(selected_character, "thematic_jp");
         let character_jp = ((character_thematic_jp === "") ? "" : character_thematic_jp) + get_character_data(selected_character, "name_jp");
 
-        document.getElementById("preset-character-image").src = "images/unit_icon/" + character_image_name.split(' ').join('_');
+        document.getElementById("preset-character-image").src = "images/unit_icon_webp/" + character_image_name.split(' ').join('_');
         document.getElementById("preset-character-name-label").innerHTML = ((character_thematic === "") ? character_name : character_name + " (" + character_thematic + ")") + "<br>" + character_jp;
         document.getElementById("preset-character-load-button").disabled = false;
         document.getElementById("preset-character-min-rank-input").disabled = false;

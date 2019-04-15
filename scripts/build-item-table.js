@@ -199,7 +199,7 @@ function add_item_image_to_table(count, item_HTML, item_name, item_id, rarity_cl
     item_HTML += "<img id=\"" + item_id + "\" " +
         "class=\"item-image notranslate\" " +
         "title=\"" + item_name + "\" " +
-        "src=\"images/items/" + item_name.split(' ').join('_') + ".png\" " +
+        "src=\"images/items_webp/" + item_name.split(' ').join('_') + ".webp\" " +
         "alt=\"\">";
 
     return item_HTML;
