@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Princess Connect! Re:Dive - Quest Helper | Quest Data</title>
-    <link rel="icon" href="../../images/webpage_webp/101211_102803_6.webp">
+    <link rel="icon" href="../../images/webpage/101211_102803_6.png">
 
     <!-- META DATA -->
     <meta name="author" content="S'pugn">
@@ -15,13 +15,13 @@
 
     <!-- OPEN GRAPH META DATA -->
     <meta property="og:title" content="Princess Connect! Re:Dive - Quest Helper | Quest Data">
-    <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage_webp/101211_102803_6.webp">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/101211_102803_6.png">
     <meta property="og:description" content="priconne-quest-helper's Currently Loaded Quest Data.">
     <meta property="og:url" content="https://expugn.github.io/priconne-quest-helper/">
 
     <!-- TWITTER META DATA -->
     <meta property="twitter:title" content="Princess Connect! Re:Dive - Quest Helper | Quest Data">
-    <meta property="twitter:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage_webp/101211_102803_6.webp">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/101211_102803_6.png">
     <meta property="twitter:description" content="priconne-quest-helper's Currently Loaded Quest Data.">
 
     <!-- SCRIPTS -->
@@ -56,7 +56,7 @@
 </body>
 
 <footer>
-    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer" src="../../images/webpage_webp/HAhaa.webp" alt=""></p>
+    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer" src="../../images/webpage/HAhaa.png" alt=""></p>
 </footer>
 
 <script>
@@ -130,7 +130,7 @@
                         let char_shard_drop_rate = character_shard["drop_percent"];
 
                         table_html += "<img class=\"quest-item-image quest-character-shard\" title=\"" + char_shard_name +
-                            "\" src=\"../../images/items_webp/" + (char_shard_name).split(' ').join('_') + ".webp\" alt\"\">";
+                            "\" src=\"../../images/items/" + (char_shard_name).split(' ').join('_') + ".png\" alt\"\">";
                         table_html += "<div class=\"quest-character-shard-drop-rate\">" + char_shard_drop_rate + "\u0025</div>";
                     }
 
@@ -140,21 +140,21 @@
                     // ITEM 1 IMAGE
                     table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                     table_html += "<img class=\"quest-item-image" + ((quest_data.get("item_1").item_name.includes("Fragment") || disable_fragment_check) ? "" : " low-opacity") + "\" title=\"" + ((quest_data.get("item_1").item_name !== "") ? quest_data.get("item_1").item_name : "???")
-                        + "\" src=\"../../images/items_webp/" + ((quest_data.get("item_1").item_name !== "") ? quest_data.get("item_1").item_name.split(' ').join('_') : "Placeholder") + ".webp\" alt=\"\">";
+                        + "\" src=\"../../images/items/" + ((quest_data.get("item_1").item_name !== "") ? quest_data.get("item_1").item_name.split(' ').join('_') : "Placeholder") + ".png\" alt=\"\">";
                     table_html += "<div class=\"quest-percent-text\">" + quest_data.get("item_1").drop_percent + "\u0025</div>";
                     table_html += "</th>";
 
                     // ITEM 2 IMAGE
                     table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                     table_html += "<img class=\"quest-item-image" + ((quest_data.get("item_2").item_name.includes("Fragment") || disable_fragment_check) ? "" : " low-opacity") + "\" title=\"" + ((quest_data.get("item_2").item_name !== "") ? quest_data.get("item_2").item_name : "???")
-                        + "\" src=\"../../images/items_webp/" + ((quest_data.get("item_2").item_name !== "") ? quest_data.get("item_2").item_name.split(' ').join('_') : "Placeholder") + ".webp\" alt=\"\">";
+                        + "\" src=\"../../images/items/" + ((quest_data.get("item_2").item_name !== "") ? quest_data.get("item_2").item_name.split(' ').join('_') : "Placeholder") + ".png\" alt=\"\">";
                     table_html += "<div class=\"quest-percent-text\">" + quest_data.get("item_2").drop_percent + "\u0025</div>";
                     table_html += "</th>";
 
                     // ITEM 3 IMAGE
                     table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                     table_html += "<img class=\"quest-item-image" + ((quest_data.get("item_3").item_name.includes("Fragment") || disable_fragment_check) ? "" : " low-opacity") + "\" title=\"" + ((quest_data.get("item_3").item_name !== "") ? quest_data.get("item_3").item_name : "???")
-                        + "\" src=\"../../images/items_webp/" + ((quest_data.get("item_3").item_name !== "") ? quest_data.get("item_3").item_name.split(' ').join('_') : "Placeholder") + ".webp\" alt=\"\">";
+                        + "\" src=\"../../images/items/" + ((quest_data.get("item_3").item_name !== "") ? quest_data.get("item_3").item_name.split(' ').join('_') : "Placeholder") + ".png\" alt=\"\">";
                     table_html += "<div class=\"quest-percent-text\">" + quest_data.get("item_3").drop_percent + "\u0025</div>";
                     table_html += "</th>";
 
@@ -169,7 +169,7 @@
                     {
                         table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                         table_html += "<img class=\"quest-item-image\" title=\"" + ((quest_data.get("subdrops")[i] !== "") ? quest_data.get("subdrops")[i] : "???")
-                            + "\" src=\"../../images/items_webp/" + ((quest_data.get("subdrops")[i] !== "") ? quest_data.get("subdrops")[i].split(' ').join('_') : "Placeholder") + ".webp\" alt=\"\">";
+                            + "\" src=\"../../images/items/" + ((quest_data.get("subdrops")[i] !== "") ? quest_data.get("subdrops")[i].split(' ').join('_') : "Placeholder") + ".png\" alt=\"\">";
                         table_html += "<div class=\"quest-percent-text\">20\u0025</div>";
                         table_html += "</th>";
                     }

@@ -216,13 +216,13 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     if (total_recipe.has(char_shard_name))
                     {
                         table_html += "<img class=\"quest-item-image quest-character-shard\" title=\"" + char_shard_name +
-                            "\" src=\"images/items_webp/" + (char_shard_name).split(' ').join('_') + ".webp\" alt\"\">";
+                            "\" src=\"images/items/" + (char_shard_name).split(' ').join('_') + ".png\" alt\"\">";
                         table_html += "<div class=\"quest-character-shard-drop-rate\">" + char_shard_drop_rate + "\u0025</div>";
                     }
                     else
                     {
                         table_html += "<img class=\"quest-item-image quest-character-shard-grayscale\" title=\"" + char_shard_name +
-                            "\" src=\"images/items_webp/" + (char_shard_name).split(' ').join('_') + ".webp\" alt\"\">";
+                            "\" src=\"images/items/" + (char_shard_name).split(' ').join('_') + ".png\" alt\"\">";
                     }
 
                 }
@@ -231,21 +231,21 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 // ITEM 1 IMAGE
                 table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                 table_html += "<img class=\"quest-item-image" + (total_recipe.has(item_1_name) ? "" : " grayscale") + "\" title=\"" + item_1_name
-                    + "\" src=\"images/items_webp/" + item_1_name.split(' ').join('_') + ".webp\" alt=\"\">";
+                    + "\" src=\"images/items/" + item_1_name.split(' ').join('_') + ".png\" alt=\"\">";
                 table_html += "<div class=\"quest-percent-text\">" + item_1_drop_percent + "\u0025</div>";
                 table_html += "</th>";
 
                 // ITEM 2 IMAGE
                 table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                 table_html += "<img class=\"quest-item-image" + (total_recipe.has(item_2_name) ? "" : " grayscale") + "\" title=\"" + item_2_name
-                    + "\" src=\"images/items_webp/" + item_2_name.split(' ').join('_') + ".webp\" alt=\"\">";
+                    + "\" src=\"images/items/" + item_2_name.split(' ').join('_') + ".png\" alt=\"\">";
                 table_html += "<div class=\"quest-percent-text\">" + item_2_drop_percent + "\u0025</div>";
                 table_html += "</th>";
 
                 // ITEM 3 IMAGE
                 table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                 table_html += "<img class=\"quest-item-image" + (total_recipe.has(item_3_name) ? "" : " grayscale") + "\" title=\"" + item_3_name
-                    + "\" src=\"images/items_webp/" + item_3_name.split(' ').join('_') + ".webp\" alt=\"\">";
+                    + "\" src=\"images/items/" + item_3_name.split(' ').join('_') + ".png\" alt=\"\">";
                 table_html += "<div class=\"quest-percent-text\">" + item_3_drop_percent + "\u0025</div>";
                 table_html += "</th>";
 
@@ -260,7 +260,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 {
                     table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                     table_html += "<img class=\"quest-item-image" + (total_recipe.has(subdrops[i]) ? "" : " grayscale") + "\" title=\"" + ((subdrops[i] !== "") ? subdrops[i] : "???")
-                        + "\" src=\"images/items_webp/" + ((subdrops[i] !== "") ? subdrops[i].split(' ').join('_') : "Placeholder") + ".webp\" alt=\"\">";
+                        + "\" src=\"images/items/" + ((subdrops[i] !== "") ? subdrops[i].split(' ').join('_') : "Placeholder") + ".png\" alt=\"\">";
                     table_html += "<div class=\"quest-percent-text\">20\u0025</div>";
                     table_html += "</th>";
                 }

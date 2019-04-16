@@ -1,7 +1,7 @@
 /* BACKGROUND COLOR */
 body.fancy-body {
     background-color: #e3cfcb;
-    background-image: url("./../images/webpage_webp/adv_mask_C.webp");
+    background-image: url("./../images/webpage/adv_mask_C.png");
     color: white;
     font-family: "Trebuchet MS", Arial, serif;
 }
@@ -41,7 +41,7 @@ body.no-background-body {
 }
 
 div.div-background-title {
-    background-image: url("./../images/webpage_webp/still_108200401_blur_2.webp");
+    background-image: url("./../images/webpage/still_108200401_blur_2.png");
 
     height: 100%;
 
@@ -69,43 +69,43 @@ div.div-background {
 }
 
 div.div-background-common {
-    background-image: url("./../images/webpage_webp/bg_500170_blur.webp");
+    background-image: url("./../images/webpage/bg_500170_blur.png");
 }
 
 div.div-background-copper {
-    background-image: url("./../images/webpage_webp/bg_500200_blur.webp");
+    background-image: url("./../images/webpage/bg_500200_blur.png");
 }
 
 div.div-background-silver {
-    background-image: url("./../images/webpage_webp/bg_500210_blur.webp");
+    background-image: url("./../images/webpage/bg_500210_blur.png");
 }
 
 div.div-background-gold {
-    background-image: url("./../images/webpage_webp/bg_500220_blur.webp");
+    background-image: url("./../images/webpage/bg_500220_blur.png");
 }
 
 div.div-background-purple {
-    background-image: url("./../images/webpage_webp/bg_500240_blur.webp");
+    background-image: url("./../images/webpage/bg_500240_blur.png");
 }
 
 div.div-background-misc {
-    background-image: url("./../images/webpage_webp/bg_100621_blur.webp");
+    background-image: url("./../images/webpage/bg_100621_blur.png");
 }
 
 div.div-background-requested {
-    background-image: url("./../images/webpage_webp/bg_500012_blur.webp");
+    background-image: url("./../images/webpage/bg_500012_blur.png");
 }
 
 div.div-background-required {
-    background-image: url("./../images/webpage_webp/bg_500032_blur.webp");
+    background-image: url("./../images/webpage/bg_500032_blur.png");
 }
 
 div.div-background-owned {
-    background-image: url("./../images/webpage_webp/bg_500032_blur.webp");
+    background-image: url("./../images/webpage/bg_500032_blur.png");
 }
 
 div.div-background-recommended {
-    background-image: url("./../images/webpage_webp/bg_500270_blur.webp");
+    background-image: url("./../images/webpage/bg_500270_blur.png");
 }
 
 /* WEB PAGE TITLE */

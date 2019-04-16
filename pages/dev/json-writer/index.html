@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>priconne-quest-helper | JSON Writer</title>
-    <link rel="icon" href="../../../images/webpage_webp/101211_102803_6.webp">
+    <link rel="icon" href="../../../images/webpage/101211_102803_6.png">
 
     <!-- META DATA -->
     <meta name="author" content="S'pugn">
@@ -15,13 +15,13 @@
 
     <!-- OPEN GRAPH META DATA -->
     <meta property="og:title" content="priconne-quest-helper - JSON Writer">
-    <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage_webp/101211_102803_6.webp">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/101211_102803_6.png">
     <meta property="og:description" content="princess-connect-helper dev tool - JSON Writer">
     <meta property="og:url" content="https://expugn.github.io/priconne-quest-helper/">
 
     <!-- TWITTER META DATA -->
     <meta property="twitter:title" content="priconne-quest-helper - JSON Writer">
-    <meta property="twitter:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage_webp/101211_102803_6.webp">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/101211_102803_6.png">
     <meta property="twitter:description" content="princess-connect-helper dev tool - JSON Writer">
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
@@ -114,7 +114,7 @@
                 if (item_name.includes("Shard")) { continue; }
 
                 table_HTML += "<th class=\"requested-item-image\">";
-                table_HTML += "<button id=\"" + item_name.split(' ').join('_') + "\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../images/items_webp/" + item_name.split(' ').join('_') + ".webp\" alt=\"\"></button>";
+                table_HTML += "<button id=\"" + item_name.split(' ').join('_') + "\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../images/items/" + item_name.split(' ').join('_') + ".png\" alt=\"\"></button>";
                 table_HTML += "</th>";
                 count++;
 
@@ -133,7 +133,7 @@
                 if (get_equipment_data(item_name, "has_fragments"))
                 {
                     table_HTML += "<th class=\"requested-item-image\">";
-                    table_HTML += "<button id=\"" + item_name.split(' ').join('_') + "_Fragment\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../images/items_webp/" + item_name.split(' ').join('_') + "_Fragment.webp\" alt=\"\"></button>";
+                    table_HTML += "<button id=\"" + item_name.split(' ').join('_') + "_Fragment\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../images/items/" + item_name.split(' ').join('_') + "_Fragment.png\" alt=\"\"></button>";
                     table_HTML += "</th>";
                     count++;
 
@@ -147,7 +147,7 @@
                 else
                 {
                     table_HTML += "<th class=\"requested-item-image\">";
-                    table_HTML += "<button id=\"" + item_name.split(' ').join('_') + "\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../images/items_webp/" + item_name.split(' ').join('_') + ".webp\" alt=\"\"></button>";
+                    table_HTML += "<button id=\"" + item_name.split(' ').join('_') + "\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../images/items/" + item_name.split(' ').join('_') + ".png\" alt=\"\"></button>";
                     table_HTML += "</th>";
                     count++;
 
@@ -164,7 +164,7 @@
 
         // ADD PLACEHOLDER
         table_HTML += "<th class=\"requested-item-image\">";
-        table_HTML += "<button id=\"Placeholder\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../images/items_webp/Placeholder.webp\" alt=\"\"></button>";
+        table_HTML += "<button id=\"Placeholder\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../images/items/Placeholder.png\" alt=\"\"></button>";
         table_HTML += "</th>";
 
         table_HTML += "</tr></tbody>";
@@ -229,37 +229,37 @@
             result_html += "<img id=\"" + item_1.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_1 + "\" " +
-                "src=\"../../../images/items_webp/" + ((item_1 !== "") ? item_1.split(' ').join('_') : "Placeholder") + ".webp\" " +
+                "src=\"../../../images/items/" + ((item_1 !== "") ? item_1.split(' ').join('_') : "Placeholder") + ".png\" " +
                 "alt=\"\">";
             result_html += "<th class=\"item-image\">";
             result_html += "<img id=\"" + item_2.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_2 + "\" " +
-                "src=\"../../../images/items_webp/" + ((item_2 !== "") ? item_2.split(' ').join('_') : "Placeholder") + ".webp\" " +
+                "src=\"../../../images/items/" + ((item_2 !== "") ? item_2.split(' ').join('_') : "Placeholder") + ".png\" " +
                 "alt=\"\">";
             result_html += "<th class=\"item-image\">";
             result_html += "<img id=\"" + item_3.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_3 + "\" " +
-                "src=\"../../../images/items_webp/" + ((item_3 !== "") ? item_3.split(' ').join('_') : "Placeholder") + ".webp\" " +
+                "src=\"../../../images/items/" + ((item_3 !== "") ? item_3.split(' ').join('_') : "Placeholder") + ".png\" " +
                 "alt=\"\">";
             result_html += "<th class=\"item-image\">";
             result_html += "<img id=\"" + item_4.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_4 + "\" " +
-                "src=\"../../../images/items_webp/" + ((item_4 !== "") ? item_4.split(' ').join('_') : "Placeholder") + ".webp\" " +
+                "src=\"../../../images/items/" + ((item_4 !== "") ? item_4.split(' ').join('_') : "Placeholder") + ".png\" " +
                 "alt=\"\">";
             result_html += "<th class=\"item-image\">";
             result_html += "<img id=\"" + item_5.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_5 + "\" " +
-                "src=\"../../../images/items_webp/" + ((item_5 !== "") ? item_5.split(' ').join('_') : "Placeholder") + ".webp\" " +
+                "src=\"../../../images/items/" + ((item_5 !== "") ? item_5.split(' ').join('_') : "Placeholder") + ".png\" " +
                 "alt=\"\">";
             result_html += "<th class=\"item-image\">";
             result_html += "<img id=\"" + item_6.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_6 + "\" " +
-                "src=\"../../../images/items_webp/" + ((item_6 !== "") ? item_6.split(' ').join('_') : "Placeholder") + ".webp\" " +
+                "src=\"../../../images/items/" + ((item_6 !== "") ? item_6.split(' ').join('_') : "Placeholder") + ".png\" " +
                 "alt=\"\">";
             result_html += "</tr>";
             rank++;
@@ -300,19 +300,19 @@
         result_html += "<img id=\"" + item_1.split(' ').join('_') + "\" " +
             "class=\"item-image\" " +
             "title=\"" + item_1 + "\" " +
-            "src=\"../../../images/items_webp/" + ((item_1 !== "") ? item_1.split(' ').join('_') : "Placeholder") + ".webp\" " +
+            "src=\"../../../images/items/" + ((item_1 !== "") ? item_1.split(' ').join('_') : "Placeholder") + ".png\" " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + item_2.split(' ').join('_') + "\" " +
             "class=\"item-image\" " +
             "title=\"" + item_2 + "\" " +
-            "src=\"../../../images/items_webp/" + ((item_2 !== "") ? item_2.split(' ').join('_') : "Placeholder") + ".webp\" " +
+            "src=\"../../../images/items/" + ((item_2 !== "") ? item_2.split(' ').join('_') : "Placeholder") + ".png\" " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + item_3.split(' ').join('_') + "\" " +
             "class=\"item-image\" " +
             "title=\"" + item_3 + "\" " +
-            "src=\"../../../images/items_webp/" + ((item_3 !== "") ? item_3.split(' ').join('_') : "Placeholder") + ".webp\" " +
+            "src=\"../../../images/items/" + ((item_3 !== "") ? item_3.split(' ').join('_') : "Placeholder") + ".png\" " +
             "alt=\"\"></th>";
 
         // CHARACTER SHARD
@@ -322,7 +322,7 @@
             result_html += "<img id=\"" + character_shard.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + character_shard + "\" " +
-                "src=\"../../../images/items_webp/" + ((character_shard !== "") ? character_shard.split(' ').join('_') : "Placeholder") + ".webp\" " +
+                "src=\"../../../images/items/" + ((character_shard !== "") ? character_shard.split(' ').join('_') : "Placeholder") + ".png\" " +
                 "alt=\"\"></th>";
             result_html += "</tr>";
         }
@@ -333,31 +333,31 @@
         result_html += "<img id=\"" + subdrop_1.split(' ').join('_') + "\" " +
             "class=\"item-image\" " +
             "title=\"" + subdrop_1 + "\" " +
-            "src=\"../../../images/items_webp/" + ((subdrop_1 !== "") ? subdrop_1.split(' ').join('_') : "Placeholder") + ".webp\" " +
+            "src=\"../../../images/items/" + ((subdrop_1 !== "") ? subdrop_1.split(' ').join('_') : "Placeholder") + ".png\" " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + subdrop_2.split(' ').join('_') + "\" " +
             "class=\"item-image\" " +
             "title=\"" + subdrop_2 + "\" " +
-            "src=\"../../../images/items_webp/" + ((subdrop_2 !== "") ? subdrop_2.split(' ').join('_') : "Placeholder") + ".webp\" " +
+            "src=\"../../../images/items/" + ((subdrop_2 !== "") ? subdrop_2.split(' ').join('_') : "Placeholder") + ".png\" " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + subdrop_3.split(' ').join('_') + "\" " +
             "class=\"item-image\" " +
             "title=\"" + subdrop_3 + "\" " +
-            "src=\"../../../images/items_webp/" + ((subdrop_3 !== "") ? subdrop_3.split(' ').join('_') : "Placeholder") + ".webp\" " +
+            "src=\"../../../images/items/" + ((subdrop_3 !== "") ? subdrop_3.split(' ').join('_') : "Placeholder") + ".png\" " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + subdrop_4.split(' ').join('_') + "\" " +
             "class=\"item-image\" " +
             "title=\"" + subdrop_4 + "\" " +
-            "src=\"../../../images/items_webp/" + ((subdrop_4 !== "") ? subdrop_4.split(' ').join('_') : "Placeholder") + ".webp\" " +
+            "src=\"../../../images/items/" + ((subdrop_4 !== "") ? subdrop_4.split(' ').join('_') : "Placeholder") + ".png\" " +
             "alt=\"\">";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + subdrop_5.split(' ').join('_') + "\" " +
             "class=\"item-image\" " +
             "title=\"" + subdrop_5 + "\" " +
-            "src=\"../../../images/items_webp/" + ((subdrop_5 !== "") ? subdrop_5.split(' ').join('_') : "Placeholder") + ".webp\" " +
+            "src=\"../../../images/items/" + ((subdrop_5 !== "") ? subdrop_5.split(' ').join('_') : "Placeholder") + ".png\" " +
             "alt=\"\"></th>";
         result_html += "</tr></tbody>";
         document.getElementById("selected-items-table").innerHTML = result_html;

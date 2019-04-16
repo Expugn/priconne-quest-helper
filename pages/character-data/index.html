@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Princess Connect! Re:Dive - Quest Helper | Recipe Data</title>
-    <link rel="icon" href="../../images/webpage_webp/101211_102803_6.webp">
+    <link rel="icon" href="../../images/webpage/101211_102803_6.png">
 
     <!-- META DATA -->
     <meta name="author" content="S'pugn">
@@ -15,13 +15,13 @@
 
     <!-- OPEN GRAPH META DATA -->
     <meta property="og:title" content="Princess Connect! Re:Dive - Quest Helper | Character Data">
-    <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage_webp/101211_102803_6.webp">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/101211_102803_6.png">
     <meta property="og:description" content="priconne-quest-helper's Currently Loaded Character Data.">
     <meta property="og:url" content="https://expugn.github.io/priconne-quest-helper/">
 
     <!-- TWITTER META DATA -->
     <meta property="twitter:title" content="Princess Connect! Re:Dive - Quest Helper | Character Data">
-    <meta property="twitter:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage_webp/101211_102803_6.webp">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/101211_102803_6.png">
     <meta property="twitter:description" content="priconne-quest-helper's Currently Loaded Character Data.">
 
     <!-- SCRIPTS -->
@@ -55,7 +55,7 @@
 </body>
 
 <footer>
-    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer" src="../../images/webpage_webp/HAhaa.webp" alt=""></p>
+    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer" src="../../images/webpage/HAhaa.png" alt=""></p>
 </footer>
 
 <script>
@@ -92,7 +92,7 @@
 
                 // CHARACTER IMAGE
                 let file_name = ((character_thematic === "") ? character_name : character_thematic.split(' ').join('_') + "_" + character_name);
-                table_html += "<th height='48' width='48'><img class=\"quest-item-image\" title=\"" + character_thematic + " " + character_name + "\" src=\"../../images/unit_icon_webp/" + file_name + ".webp\" alt=\"\"></th>";
+                table_html += "<th height='48' width='48'><img class=\"quest-item-image\" title=\"" + character_thematic + " " + character_name + "\" src=\"../../images/unit_icon/" + file_name + ".png\" alt=\"\"></th>";
 
                 table_html += "<th></th> <th></th> <th></th> <th></th>";
 
@@ -162,14 +162,14 @@
                         {
                             table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                             table_html += "<img class=\"quest-item-image\" title=\"" + rank_items[a]
-                                + "\" src=\"../../images/items_webp/" + rank_items[a].split(' ').join('_') + ".webp\" alt=\"\">";
+                                + "\" src=\"../../images/items/" + rank_items[a].split(' ').join('_') + ".png\" alt=\"\">";
                             table_html += "</th>";
                         }
                         else
                         {
                             table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                             table_html += "<img class=\"quest-item-image low-opacity\" title=\"" + "Placeholder"
-                                + "\" src=\"../../images/items_webp/Placeholder.webp\" alt=\"\">";
+                                + "\" src=\"../../images/items/Placeholder.png\" alt=\"\">";
                             table_html += "</th>";
                         }
                     }
