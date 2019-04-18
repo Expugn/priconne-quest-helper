@@ -64,6 +64,8 @@
     toastr.warning("Loading...", "Status", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
     window.onload = function ()
     {
+        init_webp();
+        init_images();
         setTimeout(function ()
         {
             let table_html = "";
