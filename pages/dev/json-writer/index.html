@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="../../../css/webpage.css">
     <link rel="stylesheet" href="../../../css/item_table.css">
 </head>
-<body class="fancy-body">
+<body class="fancy-body use-webp">
 <h1 class="title">priconne-quest-helper JSON Writer</h1>
 
 <div id="items-div">
@@ -92,6 +92,8 @@
 
 <script>
     let item_array = [];
+    init_webp();
+    init_images();
     setTimeout(function () {
         draw_items();
     }, 500);
