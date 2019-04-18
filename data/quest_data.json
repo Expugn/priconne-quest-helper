@@ -422,7 +422,7 @@
   "5-10": {
     "item_1": {"item_name": "Garnet Shield Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Dragon Head Fragment", "drop_percent": 36},
-    "item_3": {"item_name": "Opal Earrings Fragment", "drop_percent": 24},
+    "item_3": {"item_name": "Pearl Earrings Fragment", "drop_percent": 24},
     "subdrops": [ "Gear Blade", "Metal Axe", "Scale Mail Fragment", "Clothes of Wisdom", "Jewel of Courage" ]
   },
   "5-11": {
