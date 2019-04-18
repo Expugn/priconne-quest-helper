@@ -25,6 +25,8 @@
     <meta property="twitter:description" content="princess-connect-helper dev tool - JSON Writer">
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="../../../scripts/modernizr-custom.js"></script> <!-- WEBP CHECK -->
+    <script src="../../../scripts/image-manager.js"></script>
     <script src="../../../scripts/read-equipment-json.js"></script>
     <link rel="stylesheet" href="../../../css/style.css">
     <link rel="stylesheet" href="../../../css/webpage.css">
@@ -114,7 +116,7 @@
                 if (item_name.includes("Shard")) { continue; }
 
                 table_HTML += "<th class=\"requested-item-image\">";
-                table_HTML += "<button id=\"" + item_name.split(' ').join('_') + "\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../images/items/" + item_name.split(' ').join('_') + ".png\" alt=\"\"></button>";
+                table_HTML += "<button id=\"" + item_name.split(' ').join('_') + "\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../" + get_item_image_path(item_name.split(' ').join('_')) + "\" alt=\"\"></button>";
                 table_HTML += "</th>";
                 count++;
 
@@ -133,7 +135,7 @@
                 if (get_equipment_data(item_name, "has_fragments"))
                 {
                     table_HTML += "<th class=\"requested-item-image\">";
-                    table_HTML += "<button id=\"" + item_name.split(' ').join('_') + "_Fragment\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../images/items/" + item_name.split(' ').join('_') + "_Fragment.png\" alt=\"\"></button>";
+                    table_HTML += "<button id=\"" + item_name.split(' ').join('_') + "_Fragment\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../" + get_item_image_path(item_name.split(' ').join('_') + "_Fragment") + "\" alt=\"\"></button>";
                     table_HTML += "</th>";
                     count++;
 
@@ -147,7 +149,7 @@
                 else
                 {
                     table_HTML += "<th class=\"requested-item-image\">";
-                    table_HTML += "<button id=\"" + item_name.split(' ').join('_') + "\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../images/items/" + item_name.split(' ').join('_') + ".png\" alt=\"\"></button>";
+                    table_HTML += "<button id=\"" + item_name.split(' ').join('_') + "\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../" + get_item_image_path(item_name.split(' ').join('_')) + "\" alt=\"\"></button>";
                     table_HTML += "</th>";
                     count++;
 
@@ -164,7 +166,7 @@
 
         // ADD PLACEHOLDER
         table_HTML += "<th class=\"requested-item-image\">";
-        table_HTML += "<button id=\"Placeholder\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../images/items/Placeholder.png\" alt=\"\"></button>";
+        table_HTML += "<button id=\"Placeholder\" class=\"ingredient-button all-ingredient-comp pointer-cursor\" onclick=\"item_button_click(this)\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" src=\"../../../" + get_item_image_path("Placeholder") + "\" alt=\"\"></button>";
         table_HTML += "</th>";
 
         table_HTML += "</tr></tbody>";
@@ -229,37 +231,37 @@
             result_html += "<img id=\"" + item_1.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_1 + "\" " +
-                "src=\"../../../images/items/" + ((item_1 !== "") ? item_1.split(' ').join('_') : "Placeholder") + ".png\" " +
+                "src=\"../../../" + get_item_image_path(((item_1 !== "") ? item_1.split(' ').join('_') : "Placeholder"))  + "\" " +
                 "alt=\"\">";
             result_html += "<th class=\"item-image\">";
             result_html += "<img id=\"" + item_2.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_2 + "\" " +
-                "src=\"../../../images/items/" + ((item_2 !== "") ? item_2.split(' ').join('_') : "Placeholder") + ".png\" " +
+                "src=\"../../../" + get_item_image_path(((item_2 !== "") ? item_2.split(' ').join('_') : "Placeholder")) + "\" " +
                 "alt=\"\">";
             result_html += "<th class=\"item-image\">";
             result_html += "<img id=\"" + item_3.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_3 + "\" " +
-                "src=\"../../../images/items/" + ((item_3 !== "") ? item_3.split(' ').join('_') : "Placeholder") + ".png\" " +
+                "src=\"../../../" + get_item_image_path(((item_3 !== "") ? item_3.split(' ').join('_') : "Placeholder")) + "\" " +
                 "alt=\"\">";
             result_html += "<th class=\"item-image\">";
             result_html += "<img id=\"" + item_4.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_4 + "\" " +
-                "src=\"../../../images/items/" + ((item_4 !== "") ? item_4.split(' ').join('_') : "Placeholder") + ".png\" " +
+                "src=\"../../../" + get_item_image_path(((item_4 !== "") ? item_4.split(' ').join('_') : "Placeholder")) + "\" " +
                 "alt=\"\">";
             result_html += "<th class=\"item-image\">";
             result_html += "<img id=\"" + item_5.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_5 + "\" " +
-                "src=\"../../../images/items/" + ((item_5 !== "") ? item_5.split(' ').join('_') : "Placeholder") + ".png\" " +
+                "src=\"../../../" + get_item_image_path(((item_5 !== "") ? item_5.split(' ').join('_') : "Placeholder")) + "\" " +
                 "alt=\"\">";
             result_html += "<th class=\"item-image\">";
             result_html += "<img id=\"" + item_6.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_6 + "\" " +
-                "src=\"../../../images/items/" + ((item_6 !== "") ? item_6.split(' ').join('_') : "Placeholder") + ".png\" " +
+                "src=\"../../../" + get_item_image_path(((item_6 !== "") ? item_6.split(' ').join('_') : "Placeholder")) + "\" " +
                 "alt=\"\">";
             result_html += "</tr>";
             rank++;
@@ -300,19 +302,19 @@
         result_html += "<img id=\"" + item_1.split(' ').join('_') + "\" " +
             "class=\"item-image\" " +
             "title=\"" + item_1 + "\" " +
-            "src=\"../../../images/items/" + ((item_1 !== "") ? item_1.split(' ').join('_') : "Placeholder") + ".png\" " +
+            "src=\"../../../" + get_item_image_path(((item_1 !== "") ? item_1.split(' ').join('_') : "Placeholder")) + "\" " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + item_2.split(' ').join('_') + "\" " +
             "class=\"item-image\" " +
             "title=\"" + item_2 + "\" " +
-            "src=\"../../../images/items/" + ((item_2 !== "") ? item_2.split(' ').join('_') : "Placeholder") + ".png\" " +
+            "src=\"../../../" + get_item_image_path(((item_2 !== "") ? item_2.split(' ').join('_') : "Placeholder")) + "\" " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + item_3.split(' ').join('_') + "\" " +
             "class=\"item-image\" " +
             "title=\"" + item_3 + "\" " +
-            "src=\"../../../images/items/" + ((item_3 !== "") ? item_3.split(' ').join('_') : "Placeholder") + ".png\" " +
+            "src=\"../../../" + get_item_image_path(((item_3 !== "") ? item_3.split(' ').join('_') : "Placeholder")) + "\" " +
             "alt=\"\"></th>";
 
         // CHARACTER SHARD
@@ -322,7 +324,7 @@
             result_html += "<img id=\"" + character_shard.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + character_shard + "\" " +
-                "src=\"../../../images/items/" + ((character_shard !== "") ? character_shard.split(' ').join('_') : "Placeholder") + ".png\" " +
+                "src=\"../../../" + get_item_image_path(((character_shard !== "") ? character_shard.split(' ').join('_') : "Placeholder")) + "\" " +
                 "alt=\"\"></th>";
             result_html += "</tr>";
         }
@@ -333,31 +335,31 @@
         result_html += "<img id=\"" + subdrop_1.split(' ').join('_') + "\" " +
             "class=\"item-image\" " +
             "title=\"" + subdrop_1 + "\" " +
-            "src=\"../../../images/items/" + ((subdrop_1 !== "") ? subdrop_1.split(' ').join('_') : "Placeholder") + ".png\" " +
+            "src=\"../../../" + get_item_image_path(((subdrop_1 !== "") ? subdrop_1.split(' ').join('_') : "Placeholder")) + "\" " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + subdrop_2.split(' ').join('_') + "\" " +
             "class=\"item-image\" " +
             "title=\"" + subdrop_2 + "\" " +
-            "src=\"../../../images/items/" + ((subdrop_2 !== "") ? subdrop_2.split(' ').join('_') : "Placeholder") + ".png\" " +
+            "src=\"../../../" + get_item_image_path(((subdrop_2 !== "") ? subdrop_2.split(' ').join('_') : "Placeholder")) + "\" " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + subdrop_3.split(' ').join('_') + "\" " +
             "class=\"item-image\" " +
             "title=\"" + subdrop_3 + "\" " +
-            "src=\"../../../images/items/" + ((subdrop_3 !== "") ? subdrop_3.split(' ').join('_') : "Placeholder") + ".png\" " +
+            "src=\"../../../" + get_item_image_path(((subdrop_3 !== "") ? subdrop_3.split(' ').join('_') : "Placeholder")) + "\" " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + subdrop_4.split(' ').join('_') + "\" " +
             "class=\"item-image\" " +
             "title=\"" + subdrop_4 + "\" " +
-            "src=\"../../../images/items/" + ((subdrop_4 !== "") ? subdrop_4.split(' ').join('_') : "Placeholder") + ".png\" " +
+            "src=\"../../../" + get_item_image_path(((subdrop_4 !== "") ? subdrop_4.split(' ').join('_') : "Placeholder")) + "\" " +
             "alt=\"\">";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + subdrop_5.split(' ').join('_') + "\" " +
             "class=\"item-image\" " +
             "title=\"" + subdrop_5 + "\" " +
-            "src=\"../../../images/items/" + ((subdrop_5 !== "") ? subdrop_5.split(' ').join('_') : "Placeholder") + ".png\" " +
+            "src=\"../../../" + get_item_image_path(((subdrop_5 !== "") ? subdrop_5.split(' ').join('_') : "Placeholder")) + "\" " +
             "alt=\"\"></th>";
         result_html += "</tr></tbody>";
         document.getElementById("selected-items-table").innerHTML = result_html;

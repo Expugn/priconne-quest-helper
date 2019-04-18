@@ -26,7 +26,7 @@ function build_requested_item_table(requested_items_map)
             // IMAGE
             table_html += "<th class=\"requested-item-image\">";
             table_html += "<img class=\"requested-item-image\" title=\"" + item
-                + "\" src=\"images/items/" + item.split(' ').join('_') + ".png\" alt=\"\">";
+                + "\" src=\"" + get_item_image_path(item.split(' ').join('_')) + "\" alt=\"\">";
             table_html += "<div class=\"requested-item-text\">\u00D7" + value + "</div>";
             table_html += "</th>";
 

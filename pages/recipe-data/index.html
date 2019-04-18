@@ -27,6 +27,8 @@
     <!-- SCRIPTS -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"> </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="../../scripts/modernizr-custom.js"></script> <!-- WEBP CHECK -->
+    <script src="../../scripts/image-manager.js"></script>
     <script src="../../scripts/read-equipment-json.js"></script>
 
     <!-- CSS STYLE SHEETS -->
@@ -55,7 +57,7 @@
 </body>
 
 <footer>
-    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer" src="../../images/webpage/HAhaa.png" alt=""></p>
+    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="../../" src="" alt=""></p>
 </footer>
 
 <script>
@@ -90,7 +92,7 @@
                 // ITEM
                 table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                 table_html += "<img class=\"quest-item-image\" title=\"" + item_name
-                    + "\" src=\"../../images/items/" + item_name.split(' ').join('_') + ".png\" alt=\"\">";
+                    + "\" src=\"../../" + get_item_image_path(item_name.split(' ').join('_')) + "\" alt=\"\">";
                 table_html += "</th>";
 
                 // DIVIDER
@@ -103,7 +105,7 @@
                 {
                     table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                     table_html += "<img class=\"quest-item-image\" title=\"" + item_name + " Fragment"
-                        + "\" src=\"../../images/items/" + item_name.split(' ').join('_') + "_Fragment.png\" alt=\"\">";
+                        + "\" src=\"../../" + get_item_image_path(item_name.split(' ').join('_') + "_Fragment") + "\" alt=\"\">";
                     table_html += "<div class=\"requested-item-text\" style='margin-bottom: 3px;'>\u00D7" + item_data_map.get("req_pieces") + "</div>";
                     table_html += "</th>";
                 }
@@ -111,7 +113,7 @@
                 {
                     table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                     table_html += "<img class=\"quest-item-image low-opacity\" title=\"" + "Placeholder"
-                        + "\" src=\"../../images/items/Placeholder.png\" alt=\"\">";
+                        + "\" src=\"../../" + get_item_image_path("Placeholder") + "\" alt=\"\">";
                     table_html += "</th>";
                 }
 
@@ -121,14 +123,14 @@
                     {
                         table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                         table_html += "<img class=\"quest-item-image\" title=\"" + required_items[i]
-                            + "\" src=\"../../images/items/" + required_items[i].split(' ').join('_') + ".png\" alt=\"\">";
+                            + "\" src=\"../../" + get_item_image_path(required_items[i].split(' ').join('_')) + "\" alt=\"\">";
                         table_html += "</th>";
                     }
                     else
                     {
                         table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                         table_html += "<img class=\"quest-item-image low-opacity\" title=\"" + "Placeholder"
-                            + "\" src=\"../../images/items/Placeholder.png\" alt=\"\">";
+                            + "\" src=\"../../" + get_item_image_path("Placeholder") + "\" alt=\"\">";
                         table_html += "</th>";
                     }
                 }

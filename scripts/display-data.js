@@ -91,7 +91,7 @@ function build_project_display(project_json)
             project_display_HTML += "<img " +
                 "class=\"requested-item-image\" " +
                 "title=\"" + item_name + "\" " +
-                "src=\"../../images/items/" + item_name.split(' ').join('_') + ".png\" " +
+                "src=\"../../" + get_item_image_path(item_name.split(' ').join('_')) + "\" " +
                 "alt=\"\">";
             project_display_HTML += "<div class=\"requested-item-text\">\u00D7" + item_amount + "</div>";
 
@@ -157,7 +157,7 @@ function build_blacklist_display(blacklist_json)
         blacklist_display_HTML += "<img " +
             "class=\"requested-item-image low-opacity\" " +
             "title=\"" + item_name + "\" " +
-            "src=\"../../images/items/" + item_name.split(' ').join('_') + ".png\" " +
+            "src=\"../../" +  get_item_image_path(item_name.split(' ').join('_')) + "\" " +
             "alt=\"\">";
 
         count++;

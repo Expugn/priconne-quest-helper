@@ -39,7 +39,9 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="scripts/modernizr-custom.js"></script> <!-- WEBP CHECK -->
 
+    <script src="scripts/image-manager.js"></script>
     <script src="scripts/read-equipment-json.js"></script>
     <script src="scripts/read-quest-json.js"></script>
     <script src="scripts/read-character-json.js"></script>
@@ -71,9 +73,9 @@
     <link rel="stylesheet" href="css/item_table.css">
 </head>
 
-<body class="fancy-body">
+<body class="fancy-body use-webp">
 
-<div id="title-div" class="div-background-title" onclick="">
+<div id="title-div" class="use-webp div-background-title" onclick="">
     <div id="title-text-div" class="title-hover">
         <h1 class="title">Princess Connect! Re:Dive</h1>
         <h2 id="sub-title" class="title">Quest Helper</h2>
@@ -85,13 +87,13 @@
     <button id="navigation-presets" type="button" onclick="open_presets()">Presets</button>
     <button id="navigation-projects" type="button" onclick="open_projects()">Projects</button>
     <button id="navigation-settings" type="button" onclick="open_settings()">Settings</button>
-    <button id="navigation-other" type="button" onclick="open_other()">Other<img id="update-notification-img" src="images/webpage/Notification_Icon.png" alt="" style="height: 15px; position: relative; bottom: 10px; left: 5px; display: none"></button>
+    <button id="navigation-other" type="button" onclick="open_other()">Other<img id="update-notification-img" class="use-webp" image_folder="webpage" file_name="Notification_Icon" src_prefix="" src="" alt="" style="height: 15px; position: relative; bottom: 10px; left: 5px; display: none"></button>
 </div>
 
 <hr> <!-- LINE BREAK -->
 
 <div id="items-container">
-    <div id="common-div" class="div-background div-background-common text-overflow">
+    <div id="common-div" class="use-webp div-background div-background-common text-overflow">
         <button class="common-color rarity-title rarity-button collapsible">Common</button>
         <div class="common-items item-table-top-spacing collapsible-content">
             <table id="common-item-table" class="centerTable itemTable"></table>
@@ -99,7 +101,7 @@
     </div>
     <hr> <!-- LINE BREAK -->
     <!-- COPPER ITEMS -->
-    <div id="copper-div" class="div-background div-background-copper text-overflow">
+    <div id="copper-div" class="use-webp div-background div-background-copper text-overflow">
         <h2 class="copper-color rarity-title rarity-button collapsible">Copper</h2>
         <div class="copper-items item-table-top-spacing collapsible-content">
             <table id="copper-item-table" class="centerTable itemTable"></table>
@@ -107,7 +109,7 @@
     </div>
     <hr> <!-- LINE BREAK -->
     <!-- SILVER ITEMS -->
-    <div id="silver-div" class="div-background div-background-silver text-overflow">
+    <div id="silver-div" class="use-webp div-background div-background-silver text-overflow">
         <h2 class="silver-color rarity-title rarity-button collapsible">Silver</h2>
         <div class="silver-items item-table-top-spacing collapsible-content">
             <table id="silver-item-table" class="centerTable itemTable"></table>
@@ -115,7 +117,7 @@
     </div>
     <hr> <!-- LINE BREAK -->
     <!-- GOLD ITEMS -->
-    <div id="gold-div" class="div-background div-background-gold text-overflow">
+    <div id="gold-div" class="use-webp div-background div-background-gold text-overflow">
         <h2 class="gold-color rarity-title rarity-button collapsible">Gold</h2>
         <div class="gold-items item-table-top-spacing collapsible-content">
             <table id="gold-item-table" class="centerTable itemTable"></table>
@@ -123,7 +125,7 @@
     </div>
     <hr> <!-- LINE BREAK -->
     <!-- PURPLE ITEMS -->
-    <div id="purple-div" class="div-background div-background-purple text-overflow">
+    <div id="purple-div" class="use-webp div-background div-background-purple text-overflow">
         <h2 class="purple-color rarity-title rarity-button collapsible">Purple</h2>
         <div class="purple-items item-table-top-spacing collapsible-content">
             <table id="purple-item-table" class="centerTable itemTable"></table>
@@ -131,7 +133,7 @@
     </div>
     <hr> <!-- LINE BREAK -->
     <!-- MISCELLANEOUS ITEMS -->
-    <div id="misc-div" class="div-background div-background-misc text-overflow">
+    <div id="misc-div" class="use-webp div-background div-background-misc text-overflow">
         <button class="misc-color rarity-title rarity-button collapsible">Misc.</button>
         <div class="misc-items item-table-top-spacing collapsible-content">
             <table id="misc-item-table" class="centerTable itemTable"></table>
@@ -139,9 +141,8 @@
     </div>
     <hr> <!-- LINE BREAK -->
     <!-- REQUESTED ITEMS -->
-    <div id="requested-div" class="div-background div-background-requested text-overflow-auto">
+    <div id="requested-div" class="use-webp div-background div-background-requested text-overflow-auto">
         <h2 class="request-title">Requested Items</h2>
-        <!-- REQUESTED ITEMS -->
         <div class="request-info">
             <table id="requested-item-table" class="centerTable">
                 <th><h4 class="tip">
@@ -235,7 +236,7 @@
 </div>
 
 <div id="presets-container" style="display: none;">
-    <div id="character-preset-div" style="background-image: url('images/webpage/bg_530010_blur.png'); background-position: center; background-size: cover;">
+    <div id="character-preset-div" class="use-webp">
         <h2 class="category-title">Character Presets</h2>
         <div class="text-overflow-auto">
             <table class="centerTable">
@@ -252,7 +253,7 @@
                 <tr>
                     <td></td>
                     <th>
-                        <img id="preset-character-image" src="images/unit_icon/Placeholder.png" alt="" style="height: 100px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.30); border-radius: 6px;"><br>
+                        <img id="preset-character-image" class="use-webp" image_folder="unit_icon" file_name="Placeholder" src_prefix="" src="" alt="" style="height: 100px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.30); border-radius: 6px;"><br>
                         <label id="preset-character-name-label" class="category-title" style="color: navajowhite !important;"></label>
                     </th>
                     <td></td>
@@ -406,37 +407,37 @@
 </div>
 
 <div id="other-container" style="display: none;">
-    <div id="update-div" style="background-image: url('images/webpage/bg_0000_blur.png'); background-size: cover; background-repeat: no-repeat; background-position: center 100%; display: none;">
+    <div id="update-div" class="use-webp">
         <h2 class="category-title">Update in Progress!<br><span id="update-name"></span></h2>
         <table class="centerTable">
             <tbody>
                 <tr>
                     <td>
-                        <h3 class="category-title"><img src="images/webpage/album_2.png" style="height: 40px; position: relative; top: 13px" alt=""> Quest Data</h3>
+                        <h3 class="category-title"><img class="use-webp" image_folder="webpage" file_name="album_2" src_prefix="" src="" style="height: 40px; position: relative; top: 13px" alt=""> Quest Data</h3>
                         <label id="update-normal-quests-label" class="category-title">Normal Quests</label><br>
                         <label id="update-hard-quests-label" class="category-title">Hard Quests</label>
                     </td>
                     <td>
-                        <img id="update-quest-data-check" src="images/webpage/Checkmark.png" style="height: 25px; position: relative; left: 15px; top: 25px; display: none;" alt="">
+                        <img id="update-quest-data-check" class="use-webp" image_folder="webpage" file_name="Checkmark" src_prefix="" src="" style="height: 25px; position: relative; left: 15px; top: 25px; display: none;" alt="">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <h3 class="category-title"><img src="images/webpage/album_1.png" style="height: 40px; position: relative; top: 13px" alt=""> Equipment Data</h3>
+                        <h3 class="category-title"><img class="use-webp" image_folder="webpage" file_name="album_1" src_prefix="" src="" style="height: 40px; position: relative; top: 13px" alt=""> Equipment Data</h3>
                         <label id="update-equipment-selection-label" class="category-title">Equipment Selection</label><br>
                         <label id="update-en-tl-names-label" class="category-title">English Translated Names</label>
                     </td>
                     <td>
-                        <img id="update-equipment-data-check" src="images/webpage/Checkmark.png" style="height: 25px; position: relative; left: 15px; top: 25px; display: none;" alt="">
+                        <img id="update-equipment-data-check" class="use-webp" image_folder="webpage" file_name="Checkmark" src_prefix="" src="" style="height: 25px; position: relative; left: 15px; top: 25px; display: none;" alt="">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <h3 class="category-title"><img src="images/webpage/album_4.png" style="height: 40px; position: relative; top: 13px" alt=""> Character Data</h3>
+                        <h3 class="category-title"><img class="use-webp" image_folder="webpage" file_name="album_4" src_prefix="" src="" style="height: 40px; position: relative; top: 13px" alt=""> Character Data</h3>
                         <label id="update-rank-equip-label" class="category-title">Updated Rank Equipment</label>
                     </td>
                     <td>
-                        <img id="update-character-data-check" src="images/webpage/Checkmark.png" style="height: 25px; position: relative; left: 15px; top: 25px; display: none;" alt="">
+                        <img id="update-character-data-check" class="use-webp" image_folder="webpage" file_name="Checkmark" src_prefix="" src="" style="height: 25px; position: relative; left: 15px; top: 25px; display: none;" alt="">
                     </td>
                 </tr>
             </tbody>
@@ -499,7 +500,7 @@
 
 <hr> <!-- LINE BREAK -->
 <!-- REQUIRED ITEMS -->
-<div id="required-div" class="div-background div-background-required text-overflow-auto">
+<div id="required-div" class="use-webp div-background div-background-required text-overflow-auto">
     <h2 class="request-title">Required Ingredients</h2>
     <div class="request-info">
         <table id="required-ingredient-table" class="centerTable">
@@ -515,7 +516,7 @@
 </div>
 <hr> <!-- LINE BREAK -->
 <!-- RECOMMENDED QUESTS -->
-<div id="recommended-div" class="div-background div-background-recommended text-overflow-auto">
+<div id="recommended-div" class="use-webp div-background div-background-recommended text-overflow-auto">
     <h2 class="request-title">Recommended Quests</h2>
     <!-- RECOMMENDED QUESTS -->
     <div id="recommended-quest-div" class="request-info transition">
@@ -538,7 +539,7 @@
 
 
 <footer>
-    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer" src="images/webpage/HAhaa.png" alt=""></p>
+    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="" src="" alt=""></p>
     <p class="footer">Last Quest Update: <span style="color: #6DFF7F">March 19, 2019</span></p>
 </footer>
 
@@ -554,6 +555,8 @@
     setToastrOptions();
 
     window.onload = function () {
+        init_webp();
+        init_images();
         setTimeout(function () {
             enableCollapsible();
             read_cookie();

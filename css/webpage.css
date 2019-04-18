@@ -1,7 +1,13 @@
 /* BACKGROUND COLOR */
-body.fancy-body {
+body.fancy-body.png {
     background-color: #e3cfcb;
     background-image: url("./../images/webpage/adv_mask_C.png");
+    color: white;
+    font-family: "Trebuchet MS", Arial, serif;
+}
+body.fancy-body.webp {
+    background-color: #e3cfcb;
+    background-image: url("./../images/webpage_webp/adv_mask_C.webp");
     color: white;
     font-family: "Trebuchet MS", Arial, serif;
 }
@@ -40,8 +46,23 @@ body.no-background-body {
     color: white;
 }
 
-div.div-background-title {
+div.div-background-title.png {
     background-image: url("./../images/webpage/still_108200401_blur_2.png");
+
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 10%;
+
+    transition: all 0.4s ease-out;
+    overflow: hidden;
+
+    position: relative;
+}
+
+div.div-background-title.webp {
+    background-image: url("./../images/webpage_webp/still_108200401_blur_2.webp");
 
     height: 100%;
 
@@ -68,44 +89,112 @@ div.div-background {
     background-repeat: no-repeat;
 }
 
-div.div-background-common {
+div.div-background-common.png {
     background-image: url("./../images/webpage/bg_500170_blur.png");
 }
 
-div.div-background-copper {
+div.div-background-common.webp {
+    background-image: url("./../images/webpage_webp/bg_500170_blur.webp");
+}
+
+div.div-background-copper.png {
     background-image: url("./../images/webpage/bg_500200_blur.png");
 }
 
-div.div-background-silver {
+div.div-background-copper.webp {
+    background-image: url("./../images/webpage/bg_500200_blur.png");
+}
+
+div.div-background-silver.png {
     background-image: url("./../images/webpage/bg_500210_blur.png");
 }
 
-div.div-background-gold {
+div.div-background-silver.webp {
+    background-image: url("./../images/webpage/bg_500210_blur.png");
+}
+
+div.div-background-gold.png {
     background-image: url("./../images/webpage/bg_500220_blur.png");
 }
 
-div.div-background-purple {
+div.div-background-gold.webp {
+    background-image: url("./../images/webpage/bg_500220_blur.png");
+}
+
+div.div-background-purple.png {
     background-image: url("./../images/webpage/bg_500240_blur.png");
 }
 
-div.div-background-misc {
+div.div-background-purple.webp {
+    background-image: url("./../images/webpage/bg_500240_blur.png");
+}
+
+div.div-background-misc.png {
     background-image: url("./../images/webpage/bg_100621_blur.png");
 }
 
-div.div-background-requested {
+div.div-background-misc.webp {
+    background-image: url("./../images/webpage/bg_100621_blur.png");
+}
+
+div.div-background-requested.png {
     background-image: url("./../images/webpage/bg_500012_blur.png");
 }
 
-div.div-background-required {
+div.div-background-requested.webp {
+    background-image: url("./../images/webpage/bg_500012_blur.png");
+}
+
+div.div-background-required.png {
     background-image: url("./../images/webpage/bg_500032_blur.png");
 }
 
-div.div-background-owned {
+div.div-background-required.webp {
     background-image: url("./../images/webpage/bg_500032_blur.png");
 }
 
-div.div-background-recommended {
+div.div-background-owned.png {
+    background-image: url("./../images/webpage/bg_500032_blur.png");
+}
+
+div.div-background-owned.webp {
+    background-image: url("./../images/webpage/bg_500032_blur.png");
+}
+
+div.div-background-recommended.png {
     background-image: url("./../images/webpage/bg_500270_blur.png");
+}
+
+div.div-background-recommended.webp {
+    background-image: url("./../images/webpage/bg_500270_blur.png");
+}
+
+#character-preset-div.png {
+    background-image: url('./../images/webpage/bg_530010_blur.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#character-preset-div.webp {
+    background-image: url('./../images/webpage_webp/bg_530010_blur.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+#update-div.png {
+    background-image: url('./../images/webpage/bg_0000_blur.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    display: none;
+}
+
+#update-div.webp {
+    background-image: url('./../images/webpage_webp/bg_0000_blur.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    display: none;
 }
 
 /* WEB PAGE TITLE */

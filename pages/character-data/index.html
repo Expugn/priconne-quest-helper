@@ -27,6 +27,8 @@
     <!-- SCRIPTS -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"> </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="../../scripts/modernizr-custom.js"></script> <!-- WEBP CHECK -->
+    <script src="../../scripts/image-manager.js"></script>
     <script src="../../scripts/read-character-json.js"></script>
 
     <!-- CSS STYLE SHEETS -->
@@ -55,7 +57,7 @@
 </body>
 
 <footer>
-    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer" src="../../images/webpage/HAhaa.png" alt=""></p>
+    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="../../" src="" alt=""></p>
 </footer>
 
 <script>
@@ -92,7 +94,7 @@
 
                 // CHARACTER IMAGE
                 let file_name = ((character_thematic === "") ? character_name : character_thematic.split(' ').join('_') + "_" + character_name);
-                table_html += "<th height='48' width='48'><img class=\"quest-item-image\" title=\"" + character_thematic + " " + character_name + "\" src=\"../../images/unit_icon/" + file_name + ".png\" alt=\"\"></th>";
+                table_html += "<th height='48' width='48'><img class=\"quest-item-image\" title=\"" + character_thematic + " " + character_name + "\" src=\"../../" + get_unit_icon_image_path(file_name) + "\" alt=\"\"></th>";
 
                 table_html += "<th></th> <th></th> <th></th> <th></th>";
 
@@ -162,14 +164,14 @@
                         {
                             table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                             table_html += "<img class=\"quest-item-image\" title=\"" + rank_items[a]
-                                + "\" src=\"../../images/items/" + rank_items[a].split(' ').join('_') + ".png\" alt=\"\">";
+                                + "\" src=\"../../" + get_item_image_path(rank_items[a].split(' ').join('_')) + "\" alt=\"\">";
                             table_html += "</th>";
                         }
                         else
                         {
                             table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                             table_html += "<img class=\"quest-item-image low-opacity\" title=\"" + "Placeholder"
-                                + "\" src=\"../../images/items/Placeholder.png\" alt=\"\">";
+                                + "\" src=\"../../" + get_item_image_path("Placeholder") + "\" alt=\"\">";
                             table_html += "</th>";
                         }
                     }
