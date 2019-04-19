@@ -273,21 +273,21 @@ function toggle_simple_mode()
             $("body").toggleClass("no-background-body");
             $("body").toggleClass("fancy-body");
 
-            document.getElementById("simple-or-fancy-text").innerHTML = "[Let's Make it Fancy]";
-            document.getElementById("simple-or-fancy-text").href = "#fancy";
+            //document.getElementById("simple-or-fancy-text").innerHTML = "[Let's Make it Fancy]";
+            //document.getElementById("simple-or-fancy-text").href = "#fancy";
 
             document.getElementById("sub-title").innerHTML = "Quest Helper<br><br><span style='font-family: \"Arial\", serif; font-weight: bold; letter-spacing: 1px !important; color: aliceblue; text-shadow: 1px 1px 1px #000000 !important;'>Simple Mode</span>";
         }
         else
         {
-            document.getElementById("simple-or-fancy-text").innerHTML = "[Let's Keep it Simple]";
-            document.getElementById("simple-or-fancy-text").href = "#simple";
+            //document.getElementById("simple-or-fancy-text").innerHTML = "[Let's Keep it Simple]";
+            //document.getElementById("simple-or-fancy-text").href = "#simple";
         }
     }
     else
     {
-        document.getElementById("simple-or-fancy-text").innerHTML = "[Let's Keep it Simple]";
-        document.getElementById("simple-or-fancy-text").href = "#simple";
+        //document.getElementById("simple-or-fancy-text").innerHTML = "[Let's Keep it Simple]";
+        //document.getElementById("simple-or-fancy-text").href = "#simple";
     }
 }
 

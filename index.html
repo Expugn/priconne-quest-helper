@@ -266,7 +266,7 @@
                                 class="item-input"
                                 type="number"
                                 min="1"
-                                max="12"
+                                max="13"
                                 value="1"
                                 disabled
                                 onchange="change_min_rank_preset()">
@@ -281,8 +281,8 @@
                                 class="item-input"
                                 type="number"
                                 min="1"
-                                max="12"
-                                value="12"
+                                max="13"
+                                value="13"
                                 disabled
                                 onchange="change_max_rank_preset()">
                     </th>
@@ -351,7 +351,7 @@
                class="item-input"
                type="number"
                min="1"
-               max="20"
+               max="22"
                value="1"
                onchange="change_min_quest_chapter()">
         <br>
@@ -360,8 +360,8 @@
                class="item-input"
                type="number"
                min="1"
-               max="21"
-               value="21"
+               max="22"
+               value="22"
                onchange="change_max_quest_chapter()">
 
         <br><br>
@@ -462,7 +462,7 @@
             <input type="submit" value="Github Source"/>
         </form>
 
-        <p class="no-text-shadow-footer"><a id="simple-or-fancy-text" href="https://expugn.github.io/priconne-quest-helper/" style="text-decoration: none; color: aliceblue" onclick="reload()"></a></p>
+        <!--<p class="no-text-shadow-footer"><a id="simple-or-fancy-text" href="https://expugn.github.io/priconne-quest-helper/" style="text-decoration: none; color: aliceblue" onclick="reload()"></a></p>-->
     </div>
 
     <br>
@@ -557,14 +557,28 @@
     window.onload = function () {
         init_webp();
         init_images();
-        setTimeout(function () {
-            enableCollapsible();
-            read_cookie();
-            build_item_tables();
-            init_blacklist();
-            build_character_preset_list();
-            update_progress();
-        }, 500);
+
+        // MAKE SURE CHARACTER, EQUIPMENT, AND QUEST DATA ARE LOADED
+        setup();
+
+        function setup()
+        {
+            if (!character_loaded || !equipment_loaded || !quest_loaded)
+            {
+                setTimeout(function () {
+                    setup();
+                }, 1000);
+            }
+            else
+            {
+                enableCollapsible();
+                read_cookie();
+                build_item_tables();
+                init_blacklist();
+                build_character_preset_list();
+                update_progress();
+            }
+        }
 
         // LOCAL STORAGE SUPPORT DOES NOT EXIST
         if (typeof(Storage) === "undefined")
