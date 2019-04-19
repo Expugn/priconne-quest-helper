@@ -66,25 +66,7 @@
     {
         init_webp();
         init_images();
-
-        // MAKE SURE EQUIPMENT DATA IS LOADED
-        setup();
-
-        function setup()
-        {
-            if (!equipment_loaded)
-            {
-                setTimeout(function () {
-                    setup();
-                }, 1000);
-            }
-            else
-            {
-                run();
-            }
-        }
-
-        function run()
+        setTimeout(function ()
         {
             let table_html = "";
 
@@ -164,7 +146,7 @@
 
             toastr.remove();
             toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: false });
-        }
+        }, 1000);
     }
 </script>
 </html>

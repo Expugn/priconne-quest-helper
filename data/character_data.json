@@ -15,8 +15,7 @@
     "rank_9": ["High Angel Rod", "Phoenix Rod", "Gospel Tiara", "Saint's Robe", "Dragon's Tear", "Bangle of Substitution"],
     "rank_10": ["Flame Rod", "High Angel Rod", "Viridian Spiritual Dress", "Gospel Tiara", "Great Sage Gem", "Moon Bracelet"],
     "rank_11": ["Divine Blossom Rod", "Flame Rod", "Shrine Maiden's Purity Cloth", "Aquarius Boots", "Ocean God's Earrings", "Congregation Pendant"],
-    "rank_12": ["", "Divine Blossom Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Blossom Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Fairy King's Guardian Stone"]
   },
   "akino": {
     "name": "Akino",
@@ -34,8 +33,7 @@
     "rank_9": ["Chaos Blade", "Ice Claymore", "Guardian Shield", "Angel Boots", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Lightning Blade", "Chaos Blade", "Scarlet Mail", "Guardian Shield", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Dawn's Holy Sword", "Lightning Blade", "Phantasm Mail", "Faireal Boots", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Dawn's Holy Sword", "Infernal Greaves", "Astrograph Buckler", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Dawn's Holy Sword", "Infernal Greaves", "Astrograph Buckler", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "anne": {
     "name": "Anne",
@@ -53,8 +51,7 @@
     "rank_9": ["High Devil Wand", "Justice God's Staff", "Gospel Tiara", "Rod of Sun", "Dragon's Tear", "Mourning Crescent Moon"],
     "rank_10": ["Xenosphere Rod", "High Devil Wand", "Aquarius Boots", "Justice God's Staff", "Great Sage Gem", "Dragon's Tear"],
     "rank_11": ["Genesis Rod", "Xenosphere Rod", "Mourning Crown", "High Devil Wand", "Ocean God's Earrings", "Great Sage Gem"],
-    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"]
   },
   "anna": {
     "name": "Anna",
@@ -72,8 +69,7 @@
     "rank_9": ["High Devil Wand", "Justice God's Staff", "Necromancer Boots", "Rod of Sun", "Dragon's Tear", "Bangle of Substitution"],
     "rank_10": ["Xenosphere Rod", "High Devil Wand", "Aquarius Boots", "Justice God's Staff", "Great Sage Gem", "Moon Bracelet"],
     "rank_11": ["Genesis Rod", "Xenosphere Rod", "Mourning Crown", "High Devil Wand", "Ocean God's Earrings", "Great Sage Gem"],
-    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"]
   },
   "aoi": {
     "name": "Aoi",
@@ -91,8 +87,7 @@
     "rank_9": ["Spirit Tree Bow", "Artemis Bow", "Heavenly Robe", "Angel Boots", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Silver Wing Bow", "Spirit Tree Bow", "Dark Terror Dress", "Artemis Bow", "Congregation Pendant", "Sun Amulet"],
     "rank_11": ["Abyss Bow", "Silver Wing Bow", "Phantasm Mail", "Spirit Tree Bow", "Fairy King's Guardian Stone", "Firelord's Ring"],
-    "rank_12": ["", "Abyss Bow", "Holy Sakura's Armor", "Silver Wing Bow", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Abyss Bow", "Holy Sakura's Armor", "Silver Wing Bow", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "arisa": {
     "name": "Arisa",
@@ -110,8 +105,7 @@
     "rank_9": ["Spirit Tree Bow", "Artemis Bow", "Heavenly Robe", "Angel Bow", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Silver Wing Bow", "Spirit Tree Bow", "Faireal Boots", "Artemis Bow", "Cat God Pendant", "Sun Amulet"],
     "rank_11": ["Abyss Bow", "Silver Wing Bow", "Aegis Coat", "Spirit Tree Bow", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Abyss Bow", "Nine Heavens' Armor", "Silver Wing Bow", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Abyss Bow", "Nine Heavens' Armor", "Silver Wing Bow", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "ayane": {
     "name": "Ayane",
@@ -129,8 +123,7 @@
     "rank_9": ["Aqua Slasher", "Queen's Battle Axe", "Guardian Shield", "Mythril Plate", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Necrodim Axe", "Aqua Slasher", "Faireal Boots", "Crusader Plate", "Congregation Pendant", "Sun Amulet"],
     "rank_11": ["Divine Judgement Axe", "Necrodim Axe", "Astrograph Buckler", "Scarlet Mail", "Millennium Earrings", "Cat God Pendant"],
-    "rank_12": ["", "Divine Judgement Axe", "Infernal Greaves", "Phantasm Mail", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Judgement Axe", "Infernal Greaves", "Phantasm Mail", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "christmas_ayane": {
     "name": "Ayane",
@@ -148,8 +141,7 @@
     "rank_9": ["Aqua Slasher", "Storm Bringer", "Guardian Shield", "Hell-Fire Axe", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Necrodim Axe", "Gaia Bardiche", "Faireal Boots", "Queen's Battle Axe", "Congregation Pendant", "Sun Amulet"],
     "rank_11": ["Divine Judgement Axe", "Zero Frost Lance", "Astrograph Buckler", "Aqua Slasher", "Millennium Earrings", "Cat God Pendant"],
-    "rank_12": ["", "Gale Stinger", "Infernal Greaves", "Necrodim Axe", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Gale Stinger", "Infernal Greaves", "Necrodim Axe", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "ayumi": {
     "name": "Ayumi",
@@ -167,8 +159,7 @@
     "rank_9": ["Gaia Bardiche", "Storm Bringer", "Crusader Plate", "Mythril Plate", "Moon Bracelet", "Bangle of Substitution"],
     "rank_10": ["Zero Frost Lance", "Gaia Bardiche", "Faireal Boots", "Crusader Plate", "Congregation Pendant", "Moon Bracelet"],
     "rank_11": ["Gale Stinger", "Zero Frost Lance", "Phantasm Mail", "Faireal Boots", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Gale Stinger", "Nine Heavens' Armor", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Gale Stinger", "Nine Heavens' Armor", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "chika": {
     "name": "Chika",
@@ -186,8 +177,7 @@
     "rank_9": ["High Angel Rod", "Phoenix Rod", "Gospel Tiara", "Saint's Robe", "Moon Bracelet", "Mourning Crescent Moon"],
     "rank_10": ["Flame Rod", "High Angel Rod", "Viridian Spiritual Dress", "Necromancer Boots", "Great Sage Gem", "Dragon's Tear"],
     "rank_11": ["Divine Blossom Rod", "Flame Rod", "Shrine Maiden's Purity Cloth", "Aquarius Boots", "Fairy King's Guardian Stone", "Great Sage Gem"],
-    "rank_12": ["", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Mermaid Princess' Spirit Tear", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Mermaid Princess' Spirit Tear", "Ocean God's Earrings"]
   },
   "christmas_chika": {
     "name": "Chika",
@@ -205,8 +195,7 @@
     "rank_9": ["High Angel Rod", "Phoenix Rod", "Gospel Tiara", "Saint's Robe", "Moon Bracelet", "Mourning Crescent Moon"],
     "rank_10": ["Flame Rod", "High Angel Rod", "Viridian Spiritual Dress", "Necromancer Boots", "Great Sage Gem", "Dragon's Tear"],
     "rank_11": ["Divine Blossom Rod", "Flame Rod", "Shrine Maiden's Purity Cloth", "Aquarius Boots", "Ocean God's Earrings", "Great Sage Gem"],
-    "rank_12": ["", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Mermaid Princess' Spirit Tear", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Mermaid Princess' Spirit Tear", "Ocean God's Earrings"]
   },
   "christina": {
     "name": "Christina",
@@ -224,8 +213,7 @@
     "rank_9": ["Chaos Blade", "Ice Claymore", "Guardian Shield", "Solar Sword", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Lightning Blade", "Chaos Blade", "Scarlet Mail", "Ice Claymore", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Dawn's Holy Sword", "Lightning Blade", "Phantasm Mail", "Chaos Blade", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Dawn's Holy Sword", "Nine Heavens' Armor", "Lightning Blade", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Dawn's Holy Sword", "Nine Heavens' Armor", "Lightning Blade", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "djeeta": {
     "name": "Djeeta",
@@ -243,8 +231,7 @@
     "rank_9": ["Chaos Blade", "Ice Claymore", "Guardian Shield", "Solar Sword", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Lightning Blade", "Chaos Blade", "Scarlet Mail", "Ice Claymore", "Cat God Pendant", "Sun Amulet"],
     "rank_11": ["Dawn's Holy Sword", "Lightning Blade", "Phantasm Mail", "Chaos Blade", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Dawn's Holy Sword", "Nine Heavens' Armor", "Lightning Blade", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Dawn's Holy Sword", "Nine Heavens' Armor", "Lightning Blade", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "eriko": {
     "name": "Eriko",
@@ -262,8 +249,7 @@
     "rank_9": ["Aqua Slasher", "Queen's Battle Axe", "Crusader Plate", "Hell-Fire Axe", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Necrodim Axe", "Aqua Slasher", "Scarlet Mail", "Queen's Battle Axe", "Cat God Pendant", "Sun Amulet"],
     "rank_11": ["Divine Judgement Axe", "Necrodim Axe", "Phantasm Mail", "Aqua Slasher", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Divine Judgement Axe", "Infernal Greaves", "Necrodim Axe", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Judgement Axe", "Infernal Greaves", "Necrodim Axe", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "valentine_eriko": {
     "name": "Eriko",
@@ -281,27 +267,7 @@
     "rank_9": ["Aqua Slasher", "Queen's Battle Axe", "Crusader Plate", "Hell-Fire Axe", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Necrodim Axe", "Aqua Slasher", "Scarlet Mail", "Queen's Battle Axe", "Cat God Pendant", "Sun Amulet"],
     "rank_11": ["Divine Judgement Axe", "Necrodim Axe", "Phantasm Mail", "Aqua Slasher", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Divine Judgement Axe", "Infernal Greaves", "Necrodim Axe", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
-  },
-  "grea": {
-    "name": "Grea",
-    "thematic": "",
-    "name_jp": "グレア",
-    "thematic_jp": "",
-    "rank_1": ["", "", "", "", "", ""],
-    "rank_2": ["", "", "", "", "", ""],
-    "rank_3": ["", "", "", "", "", ""],
-    "rank_4": ["", "", "", "", "", ""],
-    "rank_5": ["", "", "", "", "", ""],
-    "rank_6": ["", "", "", "", "", ""],
-    "rank_7": ["", "", "", "", "", ""],
-    "rank_8": ["", "", "", "", "", ""],
-    "rank_9": ["", "", "", "", "", ""],
-    "rank_10": ["", "", "", "", "", ""],
-    "rank_11": ["", "", "", "", "", ""],
-    "rank_12": ["", "", "", "", "", ""],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Judgement Axe", "Infernal Greaves", "Necrodim Axe", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "hatsune": {
     "name": "Hatsune",
@@ -319,8 +285,7 @@
     "rank_9": ["High Devil Wand", "Justice God's Staff", "Necromancer Boots", "Pope's Hood", "Dragon's Tear", "Bangle of Substitution"],
     "rank_10": ["Xenosphere Rod", "High Devil Wand", "Aquarius Boots", "Gospel Tiara", "Great Sage Gem", "Dragon's Tear"],
     "rank_11": ["Genesis Rod", "Xenosphere Rod", "Mourning Crown", "Aquarius Boots", "Ocean God's Earrings", "Great Sage Gem"],
-    "rank_12": ["", "Genesis Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Genesis Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"]
   },
   "hiyori": {
     "name": "Hiyori",
@@ -338,8 +303,7 @@
     "rank_9": ["Lightning Fist", "Blizzard Claw", "Heavenly Robe", "Lion King Gauntlet", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Moon Cestus", "Lightning Fist", "Scarlet Mail", "Blizzard Claw", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Crimson Claw", "Moon Cestus", "Aegis Coat", "Dark Terror Dress", "Millennium Earrings", "Cat God Pendant"],
-    "rank_12": ["", "Crimson Claw", "Nine Heavens' Armor", "Aegis Coat", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Crimson Claw", "Nine Heavens' Armor", "Aegis Coat", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "newyear_hiyori": {
     "name": "Hiyori",
@@ -357,8 +321,7 @@
     "rank_9": ["Lightning Fist", "Blizzard Claw", "Heavenly Robe", "Lion King Gauntlet", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Moon Cestus", "Lightning Fist", "Dark Terror Dress", "Blizzard Claw", "Cat God Pendant", "Sun Amulet"],
     "rank_11": ["Crimson Claw", "Moon Cestus", "Aegis Coat", "Lightning Fist", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Crimson Claw", "Nine Heavens' Armor", "Moon Cestus", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Crimson Claw", "Nine Heavens' Armor", "Moon Cestus", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "ilya": {
     "name": "Ilya",
@@ -376,8 +339,7 @@
     "rank_9": ["High Devil Wand", "Justice God's Staff", "Necromancer Boots", "Rod of Sun", "Dragon's Tear", "Mourning Crescent Moon"],
     "rank_10": ["Xenosphere Rod", "High Devil Wand", "Aquarius Boots", "Justice God's Staff", "Great Sage Gem", "Dragon's Tear"],
     "rank_11": ["Genesis Rod", "Xenosphere Rod", "Mourning Crown", "High Devil Wand", "Ocean God's Earrings", "Great Sage Gem"],
-    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"]
   },
   "io": {
     "name": "Io",
@@ -395,8 +357,7 @@
     "rank_9": ["High Devil Wand", "Justice God's Staff", "Gospel Tiara", "Pope's Hood", "Dragon's Tear", "Bangle of Substitution"],
     "rank_10": ["Xenosphere Rod", "High Devil Wand", "Viridian Spiritual Dress", "Necromancer Boots", "Great Sage Gem", "Moon Bracelet"],
     "rank_11": ["Genesis Rod", "Xenosphere Rod", "Shrine Maiden's Purity Cloth", "Aquarius Boots", "Ocean God's Earrings", "Congregation Pendant"],
-    "rank_12": ["", "Genesis Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Genesis Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Fairy King's Guardian Stone"]
   },
   "jun": {
     "name": "Jun",
@@ -414,8 +375,7 @@
     "rank_9": ["Chaos Blade", "Ice Claymore", "Violet Armor", "Vermilion Plate", "Moon Bracelet", "Bangle of Substitution"],
     "rank_10": ["Lightning Blade", "Chaos Blade", "Scarlet Mail", "Guardian Shield", "Firelord's Ring", "Moon Bracelet"],
     "rank_11": ["Dawn's Holy Sword", "Lightning Blade", "Azure Armor", "Faireal Boots", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Dawn's Holy Sword", "Infernal Greaves", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Dawn's Holy Sword", "Infernal Greaves", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "kaori": {
     "name": "Kaori",
@@ -433,8 +393,7 @@
     "rank_9": ["Lightning Fist", "Blizzard Claw", "Heavenly Robe", "Lion King Gauntlet", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Moon Cestus", "Lightning Fist", "Dark Terror Dress", "Blizzard Claw", "Cat God Pendant", "Sun Amulet"],
     "rank_11": ["Crimson Claw", "Moon Cestus", "Aegis Coat", "Lightning Fist", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Crimson Claw", "Nine Heavens' Armor", "Moon Cestus", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Crimson Claw", "Nine Heavens' Armor", "Moon Cestus", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "kasumi": {
     "name": "Kasumi",
@@ -452,8 +411,7 @@
     "rank_9": ["High Angel Rod", "Phoenix Rod", "Gospel Tiara", "Saint's Robe", "Dragon's Tear", "Bangle of Substitution"],
     "rank_10": ["Flame Rod", "High Angel Rod", "Viridian Spiritual Dress", "Gospel Tiara", "Great Sage Gem", "Moon Bracelet"],
     "rank_11": ["Divine Blossom Rod", "Flame Rod", "Shrine Maiden's Purity Cloth", "Aquarius Boots", "Ocean God's Earrings", "Congregation Pendant"],
-    "rank_12": ["", "Divine Blossom Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Blossom Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Fairy King's Guardian Stone"]
   },
   "kokkoro": {
     "name": "Kokkoro",
@@ -471,8 +429,7 @@
     "rank_9": ["Gaia Bardiche", "Storm Bringer", "Heavenly Robe", "Hermit Clothes", "Moon Bracelet", "Bangle of Substitution"],
     "rank_10": ["Zero Frost Lance", "Gaia Bardiche", "Faireal Boots", "Heavenly Robe", "Congregation Pendant", "Moon Bracelet"],
     "rank_11": ["Gale Stinger", "Zero Frost Lance", "Astrograph Buckler", "Faireal Boots", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Gale Stinger", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Gale Stinger", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "summer_kokkoro": {
     "name": "Kokkoro",
@@ -490,8 +447,7 @@
     "rank_9": ["Gaia Bardiche", "Storm Bringer", "Heavenly Robe", "Angel Boots", "Moon Bracelet", "Bangle of Substitution"],
     "rank_10": ["Zero Frost Lance", "Gaia Bardiche", "Faireal Boots", "Heavenly Robe", "Congregation Pendant", "Moon Bracelet"],
     "rank_11": ["Gale Stinger", "Zero Frost Lance", "Astrograph Buckler", "Dark Terror Dress", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Gale Stinger", "Maiden Cloth", "Aegis Coat", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Gale Stinger", "Maiden Cloth", "Aegis Coat", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "kurumi": {
     "name": "Kurumi",
@@ -509,8 +465,7 @@
     "rank_9": ["Aqua Slasher", "Queen's Battle Axe", "Violet Armor", "Angel Boots", "Moon Bracelet", "Bangle of Substitution"],
     "rank_10": ["Necrodim Axe", "Aqua Slasher", "Faireal Boots", "Crusader Plate", "Congregation Pendant", "Moon Bracelet"],
     "rank_11": ["Divine Judgement Axe", "Necrodim Axe", "Astrograph Buckler", "Faireal Boots", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Divine Judgement Axe", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Judgement Axe", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "christmas_kurumi": {
     "name": "Kurumi",
@@ -528,8 +483,7 @@
     "rank_9": ["Gaia Bardiche", "Storm Bringer", "Violet Armor", "Angel Boots", "Moon Bracelet", "Bangle of Substitution"],
     "rank_10": ["Zero Frost Lance", "Gaia Bardiche", "Faireal Boots", "Violet Armor", "Congregation Pendant", "Moon Bracelet"],
     "rank_11": ["Gale Stinger", "Zero Frost Lance", "Phantasm Mail", "Faireal Boots", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Gale Stinger", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Gale Stinger", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "kuuka": {
     "name": "Kuuka",
@@ -547,8 +501,7 @@
     "rank_9": ["Unicorn Knife", "Dark Matter Edge", "Gospel Tiara", "Saint's Robe", "Moon Bracelet", "Bangle of Substitution"],
     "rank_10": ["Emerald Dagger", "Unicorn Knife", "Viridian Spiritual Dress", "Necromancer Boots", "Congregation Pendant", "Moon Bracelet"],
     "rank_11": ["Lava Edge", "Emerald Dagger", "Mourning Crown", "Aquarius Boots", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Lava Edge", "Maiden Cloth", "Shrine Maiden's Purity Cloth", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Lava Edge", "Maiden Cloth", "Shrine Maiden's Purity Cloth", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "kyaru": {
     "name": "Kyaru",
@@ -566,8 +519,7 @@
     "rank_9": ["High Devil Wand", "Justice God's Staff", "Necromancer Boots", "Rod of Sun", "Dragon's Tear", "Mourning Crescent Moon"],
     "rank_10": ["Xenosphere Rod", "High Devil Wand", "Aquarius Boots", "Justice God's Staff", "Great Sage Gem", "Dragon's Tear"],
     "rank_11": ["Genesis Rod", "Xenosphere Rod", "Mourning Crown", "High Devil Wand", "Ocean God's Earrings", "Great Sage Gem"],
-    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"]
   },
   "summer_kyaru": {
     "name": "Kyaru",
@@ -585,8 +537,7 @@
     "rank_9": ["High Devil Wand", "Justice God's Staff", "Gospel Tiara", "Rod of Sun", "Dragon's Tear", "Mourning Crescent Moon"],
     "rank_10": ["Xenosphere Rod", "High Devil Wand", "Aquarius Boots", "Justice God's Staff", "Great Sage Gem", "Dragon's Tear"],
     "rank_11": ["Genesis Rod", "Xenosphere Rod", "Mourning Crown", "High Devil Wand", "Ocean God's Earrings", "Great Sage Gem"],
-    "rank_12": ["", "Genesis Rod", "Holy Prayer's Crown", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Genesis Rod", "Holy Prayer's Crown", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"]
   },
   "kyouka": {
     "name": "Kyouka",
@@ -604,8 +555,7 @@
     "rank_9": ["High Devil Wand", "Justice God's Staff", "Necromancer Boots", "Rod of Sun", "Dragon's Tear", "Mourning Crescent Moon"],
     "rank_10": ["Xenosphere Rod", "High Devil Wand", "Aquarius Boots", "Justice God's Staff", "Great Sage Gem", "Dragon's Tear"],
     "rank_11": ["Genesis Rod", "Xenosphere Rod", "Mourning Crown", "High Devil Wand", "Ocean God's Earrings", "Great Sage Gem"],
-    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"]
   },
   "lou": {
     "name": "Lou",
@@ -623,8 +573,7 @@
     "rank_9": ["High Devil Wand", "Justice God's Staff", "Gospel Tiara", "Rod of Sun", "Dragon's Tear", "Mourning Crescent Moon"],
     "rank_10": ["Xenosphere Rod", "High Devil Wand", "Aquarius Boots", "Justice God's Staff", "Great Sage Gem", "Dragon's Tear"],
     "rank_11": ["Genesis Rod", "Xenosphere Rod", "Mourning Crown", "High Devil Wand", "Ocean God's Earrings", "Great Sage Gem"],
-    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"]
   },
   "mahiru": {
     "name": "Mahiru",
@@ -642,8 +591,7 @@
     "rank_9": ["Gaia Bardiche", "Queen's Battle Axe", "Crusader Plate", "Angel Boots", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Zero Frost Lance", "Aqua Slasher", "Dragonic Armor", "Heavenly Robe", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Gale Stinger", "Necrodim Axe", "Phantasm Mail", "Dark Terror Dress", "Millennium Earrings", "Cat God Pendant"],
-    "rank_12": ["", "Divine Judgement Axe", "Infernal Greaves", "Aegis Coat", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Judgement Axe", "Infernal Greaves", "Aegis Coat", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "maho": {
     "name": "Maho",
@@ -661,8 +609,7 @@
     "rank_9": ["High Angel Rod", "Phoenix Rod", "Gospel Tiara", "Pope's Hood", "Moon Bracelet", "Mourning Crescent Moon"],
     "rank_10": ["Flame Rod", "High Angel Rod", "Viridian Spiritual Dress", "Guardian Shield", "Congregation Pendant", "Sun Amulet"],
     "rank_11": ["Divine Blossom Rod", "Flame Rod", "Shrine Maiden's Purity Cloth", "Aquarius Boots", "Fairy King's Guardian Stone", "Great Sage Gem"],
-    "rank_12": ["", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Mermaid Princess' Spirit Tear", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Mermaid Princess' Spirit Tear", "Ocean God's Earrings"]
   },
   "makoto": {
     "name": "Makoto",
@@ -680,8 +627,7 @@
     "rank_9": ["Phoenix Sword", "Hawk God's Sword", "Violet Armor", "Bright Sword", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Hundred White Blossom Petals Sword", "Phoenix Sword", "Dark Terror Dress", "Hawk God's Sword", "Cat God Pendant", "Sun Amulet"],
     "rank_11": ["Flowing Azure Blade", "Hundred White Blossom Petals Sword", "Phantasm Mail", "Phoenix Sword", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Flowing Azure Blade", "Nine Heavens' Armor", "Hundred White Blossom Petals Sword", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Flowing Azure Blade", "Nine Heavens' Armor", "Hundred White Blossom Petals Sword", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "matsuri": {
     "name": "Matsuri",
@@ -699,8 +645,7 @@
     "rank_9": ["Unicorn Knife", "Dark Matter Edge", "Guardian Shield", "Mythril Plate", "Moon Bracelet", "Bangle of Substitution"],
     "rank_10": ["Emerald Dagger", "Unicorn Knife", "Scarlet Mail", "Guardian Shield", "Congregation Pendant", "Moon Bracelet"],
     "rank_11": ["Lava Edge", "Emerald Dagger", "Azure Armor", "Scarlet Mail", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Lava Edge", "Infernal Greaves", "Phantasm Mail", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Lava Edge", "Infernal Greaves", "Phantasm Mail", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "mifuyu": {
     "name": "Mifuyu",
@@ -718,8 +663,7 @@
     "rank_9": ["Gaia Bardiche", "Queen's Battle Axe", "Guardian Shield", "Angel Boots", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Zero Frost Lance", "Aqua Slasher", "Dragonic Armor", "Guardian Shield", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Gale Stinger", "Necrodim Axe", "Azure Armor", "Faireal Boots", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Divine Judgement Axe", "Infernal Greaves", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Judgement Axe", "Infernal Greaves", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Millennium Earrings"]
   },
   "summer_mifuyu": {
     "name": "Mifuyu",
@@ -737,8 +681,7 @@
     "rank_9": ["Aqua Slasher", "Queen's Battle Axe", "Crusader Plate", "Angel Boots", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Zero Frost Lance", "Aqua Slasher", "Scarlet Mail", "Storm Bringer", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Gale Stinger", "Necrodim Axe", "Phantasm Mail", "Gaia Bardiche", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Divine Judgement Axe", "Nine Heavens' Armor", "Zero Frost Lance", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Judgement Axe", "Nine Heavens' Armor", "Zero Frost Lance", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "mimi": {
     "name": "Mimi",
@@ -756,8 +699,7 @@
     "rank_9": ["Chaos Blade", "Queen's Battle Axe", "Guardian Shield", "Angel Boots", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Lightning Blade", "Aqua Slasher", "Scarlet Mail", "Guardian Shield", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Dawn's Holy Sword", "Necrodim Axe", "Astrograph Buckler", "Faireal Boots", "Millennium Earrings", "Cat God Pendant"],
-    "rank_12": ["", "Divine Judgement Axe", "Holy Sakura's Armor", "Astrograph Buckler", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Judgement Axe", "Holy Sakura's Armor", "Astrograph Buckler", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "misaki": {
     "name": "Misaki",
@@ -775,8 +717,7 @@
     "rank_9": ["High Devil Wand", "Justice God's Staff", "Necromancer Boots", "Rod of Sun", "Dragon's Tear", "Mourning Crescent Moon"],
     "rank_10": ["Xenosphere Rod", "High Devil Wand", "Aquarius Boots", "Justice God's Staff", "Great Sage Gem", "Dragon's Tear"],
     "rank_11": ["Genesis Rod", "Xenosphere Rod", "Mourning Crown", "High Devil Wand", "Ocean God's Earrings", "Great Sage Gem"],
-    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"]
   },
   "halloween_misaki": {
     "name": "Misaki",
@@ -794,8 +735,7 @@
     "rank_9": ["High Devil Wand", "Justice God's Staff", "Gospel Tiara", "Pope's Hood", "Dragon's Tear", "Bangle of Substitution"],
     "rank_10": ["Xenosphere Rod", "High Devil Wand", "Viridian Spiritual Dress", "Necromancer Boots", "Great Sage Gem", "Mourning Crescent Moon"],
     "rank_11": ["Genesis Rod", "Xenosphere Rod", "Shrine Maiden's Purity Cloth", "Aquarius Boots", "Ocean God's Earrings", "Congregation Pendant"],
-    "rank_12": ["", "Genesis Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Genesis Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Fairy King's Guardian Stone"]
   },
   "misato": {
     "name": "Misato",
@@ -813,8 +753,7 @@
     "rank_9": ["High Angel Rod", "Phoenix Rod", "Gospel Tiara", "Pope's Hood", "Dragon's Tear", "Mourning Crescent Moon"],
     "rank_10": ["Flame Rod", "High Angel Rod", "Viridian Spiritual Dress", "Gospel Tiara", "Great Sage Gem", "Dragon's Tear"],
     "rank_11": ["Divine Blossom Rod", "Flame Rod", "Shrine Maiden's Purity Cloth", "Aquarius Boots", "Fairy King's Guardian Stone", "Great Sage Gem"],
-    "rank_12": ["", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Mermaid Princess' Spirit Tear", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Mermaid Princess' Spirit Tear", "Ocean God's Earrings"]
   },
   "misogi": {
     "name": "Misogi",
@@ -832,8 +771,7 @@
     "rank_9": ["Lightning Fist", "Blizzard Claw", "Heavenly Robe", "Angel Boots", "Moon Bracelet", "Bangle of Substitution"],
     "rank_10": ["Moon Cestus", "Lightning Fist", "Faireal Boots", "Heavenly Robe", "Congregation Pendant", "Moon Bracelet"],
     "rank_11": ["Crimson Claw", "Moon Cestus", "Astrograph Buckler", "Faireal Boots", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Crimson Claw", "Holy Sakura's Armor", "Astrograph Buckler", "Fury Dragon Pendant", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Crimson Claw", "Holy Sakura's Armor", "Astrograph Buckler", "Fury Dragon Pendant", "Fairy King's Guardian Stone"]
   },
   "mitsuki": {
     "name": "Mitsuki",
@@ -851,8 +789,7 @@
     "rank_9": ["Chaos Blade", "Ice Claymore", "Guardian Shield", "Mythril Plate", "Moon Bracelet", "Elemental Heart"],
     "rank_10": ["Lightning Blade", "Chaos Blade", "Dragonic Armor", "Crusader Plate", "Congregation Pendant", "Sun Amulet"],
     "rank_11": ["Dawn's Holy Sword", "Lightning Blade", "Azure Armor", "Scarlet Mail", "Fairy King's Guardian Stone", "Firelord's Ring"],
-    "rank_12": ["", "Dawn's Holy Sword", "Infernal Greaves", "Phantasm Mail", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Dawn's Holy Sword", "Infernal Greaves", "Phantasm Mail", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "miyako": {
     "name": "Miyako",
@@ -870,8 +807,7 @@
     "rank_9": ["Gaia Bardiche", "Storm Bringer", "Heavenly Robe", "Hermit Clothes", "Moon Bracelet", "Bangle of Substitution"],
     "rank_10": ["Zero Frost Lance", "Gaia Bardiche", "Faireal Boots", "Heavenly Robe", "Congregation Pendant", "Moon Bracelet"],
     "rank_11": ["Gale Stinger", "Zero Frost Lance", "Aegis Coat", "Faireal Boots", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Gale Stinger", "Maiden Cloth", "Aegis Coat", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Gale Stinger", "Maiden Cloth", "Aegis Coat", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "halloween_miyako": {
     "name": "Miyako",
@@ -889,8 +825,7 @@
     "rank_9": ["Lightning Fist", "Blizzard Claw", "Heavenly Robe", "Lion King Gauntlet", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Moon Cestus", "Lightning Fist", "Faireal Boots", "Heavenly Robe", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Crimson Claw", "Moon Cestus", "Aegis Coat", "Faireal Boots", "Millennium Earrings", "Cat God Pendant"],
-    "rank_12": ["", "Crimson Claw", "Nine Heavens' Armor", "Aegis Coat", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Crimson Claw", "Nine Heavens' Armor", "Aegis Coat", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "monika": {
     "name": "Monika",
@@ -908,8 +843,7 @@
     "rank_9": ["Chaos Blade", "Dark Matter Edge", "Heavenly Robe", "Hermit Clothes", "Sun Amulet", "Bangle of Substitution"],
     "rank_10": ["Lightning Blade", "Unicorn Knife", "Dark Terror Dress", "Heavenly Robe", "Cat God Pendant", "Moon Bracelet"],
     "rank_11": ["Dawn's Holy Sword", "Emerald Dagger", "Aegis Coat", "Dark Terror Dress", "Millennium Earrings", "Congregation Pendant"],
-    "rank_12": ["", "Dawn's Holy Sword", "Holy Sakura's Armor", "Aegis Coat", "Fury Dragon Pendant", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Dawn's Holy Sword", "Holy Sakura's Armor", "Aegis Coat", "Fury Dragon Pendant", "Fairy King's Guardian Stone"]
   },
   "muimi": {
     "name": "Muimi",
@@ -927,8 +861,7 @@
     "rank_9": ["Unicorn Knife", "Ice Claymore", "Guardian Shield", "Solar Sword", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Emerald Dagger", "Unicorn Knife", "Scarlet Mail", "Ice Claymore", "Cat God Pendant", "Sun Amulet"],
     "rank_11": ["Lava Edge", "Emerald Dagger", "Aegis Coat", "Chaos Blade", "Millennium Earrings", "Cat God Pendant"],
-    "rank_12": ["", "Lava Edge", "Nine Heavens' Armor", "Lightning Blade", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Lava Edge", "Nine Heavens' Armor", "Lightning Blade", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "nanaka": {
     "name": "Nanaka",
@@ -946,8 +879,7 @@
     "rank_9": ["High Devil Wand", "Justice God's Staff", "Necromancer Boots", "Pope's Hood", "Dragon's Tear", "Bangle of Substitution"],
     "rank_10": ["Xenosphere Rod", "High Devil Wand", "Aquarius Boots", "Gospel Tiara", "Great Sage Gem", "Dragon's Tear"],
     "rank_11": ["Genesis Rod", "Xenosphere Rod", "Mourning Crown", "Aquarius Boots", "Ocean God's Earrings", "Great Sage Gem"],
-    "rank_12": ["", "Genesis Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Genesis Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"]
   },
   "ninon": {
     "name": "Ninon",
@@ -965,8 +897,7 @@
     "rank_9": ["Phoenix Sword", "Hawk God's Sword", "Crusader Plate", "Bright Sword", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Hundred White Blossom Petals Sword", "Phoenix Sword", "Scarlet Mail", "Hawk God's Sword", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Flowing Azure Blade", "Hundred White Blossom Petals Sword", "Azure Armor", "Phoenix Sword", "Millennium Earrings", "Cat God Pendant"],
-    "rank_12": ["", "Flowing Azure Blade", "Holy Sakura's Armor", "Hundred White Blossom Petals Sword", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Flowing Azure Blade", "Holy Sakura's Armor", "Hundred White Blossom Petals Sword", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "nozomi": {
     "name": "Nozomi",
@@ -984,8 +915,7 @@
     "rank_9": ["Chaos Blade", "Ice Claymore", "Violet Armor", "Mythril Plate", "Moon Bracelet", "Bangle of Substitution"],
     "rank_10": ["Lightning Blade", "Chaos Blade", "Scarlet Mail", "Guardian Shield", "Congregation Pendant", "Moon Bracelet"],
     "rank_11": ["Dawn's Holy Sword", "Lightning Blade", "Aegis Coat", "Faireal Boots", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Dawn's Holy Sword", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Dawn's Holy Sword", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "pecorine": {
     "name": "Pecorine",
@@ -1003,8 +933,7 @@
     "rank_9": ["Chaos Blade", "Ice Claymore", "Crusader Plate", "Mythril Plate", "Moon Bracelet", "Bangle of Substitution"],
     "rank_10": ["Lightning Blade", "Chaos Blade", "Dragonic Armor", "Crusader Plate", "Congregation Pendant", "Moon Bracelet"],
     "rank_11": ["Dawn's Holy Sword", "Lightning Blade", "Phantasm Mail", "Faireal Boots", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Dawn's Holy Sword", "Infernal Greaves", "Phantasm Mail", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Dawn's Holy Sword", "Infernal Greaves", "Phantasm Mail", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "summer_pecorine": {
     "name": "Pecorine",
@@ -1022,8 +951,7 @@
     "rank_9": ["Chaos Blade", "Ice Claymore", "Guardian Shield", "Solar Sword", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Lightning Blade", "Chaos Blade", "Scarlet Mail", "Ice Claymore", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Dawn's Holy Sword", "Lightning Blade", "Phantasm Mail", "Chaos Blade", "Millennium Earrings", "Cat God Pendant"],
-    "rank_12": ["", "Dawn's Holy Sword", "Nine Heavens' Armor", "Lightning Blade", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Dawn's Holy Sword", "Nine Heavens' Armor", "Lightning Blade", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "rei": {
     "name": "Rei",
@@ -1041,8 +969,7 @@
     "rank_9": ["Chaos Blade", "Ice Claymore", "Guardian Shield", "Angel Boots", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Lightning Blade", "Chaos Blade", "Scarlet Mail", "Guardian Shield", "Cat God Pendant", "Sun Amulet"],
     "rank_11": ["Dawn's Holy Sword", "Lightning Blade", "Phantasm Mail", "Scarlet Mail", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Dawn's Holy Sword", "Infernal Greaves", "Phantasm Mail", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Dawn's Holy Sword", "Infernal Greaves", "Phantasm Mail", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "newyear_rei": {
     "name": "Rei",
@@ -1060,8 +987,7 @@
     "rank_9": ["Chaos Blade", "Ice Claymore", "Crusader Plate", "Angel Boots", "Moon Bracelet", "Bangle of Substitution"],
     "rank_10": ["Lightning Blade", "Chaos Blade", "Viridian Spiritual Dress", "Guardian Shield", "Congregation Pendant", "Moon Bracelet"],
     "rank_11": ["Dawn's Holy Sword", "Lightning Blade", "Shrine Maiden's Purity Cloth", "Faireal Boots", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Dawn's Holy Sword", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Dawn's Holy Sword", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "rima": {
     "name": "Rima",
@@ -1070,17 +996,17 @@
     "thematic_jp": "",
     "rank_1": ["Iron Blade", "Steel Spear", "Leather Overalls", "Tree Shield", "Leather Boots", "Protective Pendant"],
     "rank_2": ["Blue Blood", "Trident", "Scale Mail", "Legion Helm", "Tree Shield", "Protective Pendant"],
-    "rank_3": ["Sparkling Sword", "Flame Spear", "High Metal Plate", "Tower Shield", "Jewel of Love", "Jewel of Love"],
-    "rank_4": ["Ryuumon Sword", "Knight's Pride", "Gorgeous Armor", "Shinobi Shoes", "Tower Shield", "Victory Friendship Bracelet"],
-    "rank_5": ["Feather Blade", "Absolute Spear", "Battling Dress", "Dragon Head", "Emerald Earrings", "Emerald Earrings"],
-    "rank_6": ["Angel Blade", "Lightning Axe", "Heavy Metal Armor", "Dragon Head", "Garnet Shield", "Lion Eagle's Feather"],
-    "rank_7": ["Solar Sword", "Scarlet Dragon", "Angel Armor", "Lion King's Protective Charm", "Lion King's Protective Charm", "Dragon Head"],
-    "rank_8": ["Ice Claymore", "Queen Bee Spear", "Vermilion Plate", "Empress Shield", "Bangle of Substitution", "Lion King's Protective Charm"],
-    "rank_9": ["Chaos Blade", "Storm Bringer", "Crusader Plate", "Vermilion Plate", "Moon Bracelet", "Bangle of Substitution"],
-    "rank_10": ["Lightning Blade", "Gaia Bardiche", "Dragonic Armor", "Violet Armor", "Congregation Pendant", "Moon Bracelet"],
-    "rank_11": ["Dawn's Holy Sword", "Zero Frost Lance", "Azure Armor", "Dragonic Armor", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Gale Stinger", "Holy Sakura's Armor", "Azure Armor", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_3": ["Sparkling Sword", "Flame Spear", "Scale Mail", "Legion Helm", "Tree Shield", "Protective Pendant"],
+    "rank_4": ["Sparkling Sword", "Flame Spear", "High Metal Plate", "Tower Shield", "Jewel of Love", "Jewel of Love"],
+    "rank_5": ["Ryuumon Sword", "Knight's Pride", "Gorgeous Armor", "Shinobi Shoes", "Tower Shield", "Victory Friendship Bracelet"],
+    "rank_6": ["Feather Blade", "Absolute Spear", "Battling Dress", "Dragon Head", "Emerald Earrings", "Emerald Earrings"],
+    "rank_7": ["Angel Blade", "Lightning Axe", "Heavy Metal Armor", "Dragon Head", "Garnet Shield", "Lion Eagle's Feather"],
+    "rank_8": ["Solar Sword", "Scarlet Dragon", "Angel Armor", "Lion King's Protective Charm", "Lion King's Protective Charm", "Dragon Head"],
+    "rank_9": ["Ice Claymore", "Queen Bee Spear", "Vermilion Plate", "Empress Shield", "Bangle of Substitution", "Lion King's Protective Charm"],
+    "rank_10": ["Chaos Blade", "Storm Bringer", "Crusader Plate", "Vermilion Plate", "Moon Bracelet", "Bangle of Substitution"],
+    "rank_11": ["Lightning Blade", "Gaia Bardiche", "Dragonic Armor", "Violet Armor", "Congregation Pendant", "Moon Bracelet"],
+    "rank_12": ["Dawn's Holy Sword", "Zero Frost Lance", "Azure Armor", "Dragonic Armor", "Fairy King's Guardian Stone", "Congregation Pendant"],
+    "rank_13": ["", "Gale Stinger", "Holy Sakura's Armor", "Azure Armor", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "rin": {
     "name": "Rin",
@@ -1098,8 +1024,7 @@
     "rank_9": ["Gaia Bardiche", "Storm Bringer", "Guardian Shield", "Angel Boots", "Moon Bracelet", "Bangle of Substitution"],
     "rank_10": ["Zero Frost Lance", "Gaia Bardiche", "Faireal Boots", "Heavenly Robe", "Congregation Pendant", "Moon Bracelet"],
     "rank_11": ["Gale Stinger", "Zero Frost Lance", "Astrograph Buckler", "Dark Terror Dress", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Gale Stinger", "Maiden Cloth", "Aegis Coat", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Gale Stinger", "Maiden Cloth", "Aegis Coat", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "rino": {
     "name": "Rino",
@@ -1117,8 +1042,7 @@
     "rank_9": ["Spirit Tree Bow", "Artemis Bow", "Heavenly Robe", "Angel Boots", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Silver Wing Bow", "Spirit Tree Bow", "Dark Terror Dress", "Artemis Bow", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Abyss Bow", "Silver Wing Bow", "Aegis Coat", "Faireal Boots", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Abyss Bow", "Nine Heavens' Armor", "Silver Wing Bow", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Abyss Bow", "Nine Heavens' Armor", "Silver Wing Bow", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "ruka": {
     "name": "Ruka",
@@ -1136,8 +1060,7 @@
     "rank_9": ["Phoenix Sword", "Hawk God's Sword", "Heavenly Robe", "Angel Boots", "Moon Bracelet", "Bangle of Substitution"],
     "rank_10": ["Hundred White Blossom Petals Sword", "Phoenix Sword", "Dark Terror Dress", "Guardian Shield", "Congregation Pendant", "Moon Bracelet"],
     "rank_11": ["Flowing Azure Blade", "Hundred White Blossom Petals Sword", "Aegis Coat", "Faireal Boots", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Flowing Azure Blade", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Flowing Azure Blade", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "saren": {
     "name": "Saren",
@@ -1155,8 +1078,7 @@
     "rank_9": ["Chaos Blade", "Ice Claymore", "Guardian Shield", "Angel Boots", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Lightning Blade", "Chaos Blade", "Faireal Boots", "Crusader Plate", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Dawn's Holy Sword", "Lightning Blade", "Astrograph Buckler", "Scarlet Mail", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Dawn's Holy Sword", "Maiden Cloth", "Phantasm Mail", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Dawn's Holy Sword", "Maiden Cloth", "Phantasm Mail", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "shinobu": {
     "name": "Shinobu",
@@ -1174,8 +1096,7 @@
     "rank_9": ["Phoenix Sword", "Hawk God's Sword", "Guardian Shield", "Angel Boots", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Hundred White Blossom Petals Sword", "Phoenix Sword", "Scarlet Mail", "Guardian Shield", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Flowing Azure Blade", "Hundred White Blossom Petals Sword", "Phantasm Mail", "Faireal Boots", "Millennium Earrings", "Cat God Pendant"],
-    "rank_12": ["", "Flowing Azure Blade", "Holy Sakura's Armor", "Astrograph Buckler", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Flowing Azure Blade", "Holy Sakura's Armor", "Astrograph Buckler", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "halloween_shinobu": {
     "name": "Shinobu",
@@ -1193,8 +1114,7 @@
     "rank_9": ["Phoenix Sword", "Hawk God's Sword", "Heavenly Robe", "Angel Boots", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Hundred White Blossom Petals Sword", "Phoenix Sword", "Dark Terror Dress", "Guardian Shield", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Flowing Azure Blade", "Hundred White Blossom Petals Sword", "Aegis Coat", "Faireal Boots", "Millennium Earrings", "Cat God Pendant"],
-    "rank_12": ["", "Flowing Azure Blade", "Nine Heavens' Armor", "Astrograph Buckler", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Flowing Azure Blade", "Nine Heavens' Armor", "Astrograph Buckler", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "shiori": {
     "name": "Shiori",
@@ -1212,8 +1132,7 @@
     "rank_9": ["Spirit Tree Bow", "Artemis Bow", "Heavenly Robe", "Angel Bow", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Silver Wing Bow", "Spirit Tree Bow", "Faireal Boots", "Artemis Bow", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Abyss Bow", "Silver Wing Bow", "Aegis Coat", "Spirit Tree Bow", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Abyss Bow", "Nine Heavens' Armor", "Silver Wing Bow", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Abyss Bow", "Nine Heavens' Armor", "Silver Wing Bow", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "shizuru": {
     "name": "Shizuru",
@@ -1222,17 +1141,17 @@
     "thematic_jp": "",
     "rank_1": ["Iron Blade", "Iron Blade", "Leather Overalls", "Tree Shield", "Motivational Bracelet", "Protective Pendant"],
     "rank_2": ["Aurora Sword", "Gear Blade", "Clothes of Wisdom", "Legion Helm", "Motivational Bracelet", "Motivational Bracelet"],
-    "rank_3": ["Sparkling Sword", "Aurora Sword", "Light Plate", "Tower Shield", "Jewel of Courage", "Jewel of Love"],
-    "rank_4": ["Ryuumon Sword", "Sparkling Sword", "Gorgeous Armor", "Shinobi Shoes", "Spike Bangle", "Spike Bangle"],
-    "rank_5": ["Feather Blade", "Ryuumon Sword", "Battling Dress", "Dragon Head", "Opal Earrings", "Emerald Earrings"],
-    "rank_6": ["Angel Blade", "Feather Blade", "Heavy Metal Armor", "Dragon Head", "Lion Eagle's Feather", "Octogram Pendant"],
-    "rank_7": ["Solar Sword", "Feather Waltz", "Angel Armor", "Scarlet Diamond", "Lion King's Protective Charm", "Lion Eagle's Feather"],
-    "rank_8": ["Ice Claymore", "Solar Sword", "Angel Boots", "Empress Shield", "Bangle of Substitution", "Scarlet Diamond"],
-    "rank_9": ["Chaos Blade", "Ice Claymore", "Crusader Plate", "Angel Boots", "Moon Bracelet", "Elemental Heart"],
-    "rank_10": ["Lightning Blade", "Chaos Blade", "Dragonic Armor", "Guardian Shield", "Congregation Pendant", "Sun Amulet"],
-    "rank_11": ["Dawn's Holy Sword", "Lightning Blade", "Azure Armor", "Faireal Boots", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Dawn's Holy Sword", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_3": ["Sparkling Sword", "Aurora Sword", "Clothes of Wisdom", "Legion Helm", "Motivational Bracelet", "Motivational Bracelet"],
+    "rank_4": ["Sparkling Sword", "Aurora Sword", "Light Plate", "Tower Shield", "Jewel of Courage", "Jewel of Love"],
+    "rank_5": ["Ryuumon Sword", "Sparkling Sword", "Gorgeous Armor", "Shinobi Shoes", "Spike Bangle", "Spike Bangle"],
+    "rank_6": ["Feather Blade", "Ryuumon Sword", "Battling Dress", "Dragon Head", "Opal Earrings", "Emerald Earrings"],
+    "rank_7": ["Angel Blade", "Feather Blade", "Heavy Metal Armor", "Dragon Head", "Lion Eagle's Feather", "Octogram Pendant"],
+    "rank_8": ["Solar Sword", "Feather Waltz", "Angel Armor", "Scarlet Diamond", "Lion King's Protective Charm", "Lion Eagle's Feather"],
+    "rank_9": ["Ice Claymore", "Solar Sword", "Angel Boots", "Empress Shield", "Bangle of Substitution", "Scarlet Diamond"],
+    "rank_10": ["Chaos Blade", "Ice Claymore", "Crusader Plate", "Angel Boots", "Moon Bracelet", "Elemental Heart"],
+    "rank_11": ["Lightning Blade", "Chaos Blade", "Dragonic Armor", "Guardian Shield", "Congregation Pendant", "Sun Amulet"],
+    "rank_12": ["Dawn's Holy Sword", "Lightning Blade", "Azure Armor", "Faireal Boots", "Fairy King's Guardian Stone", "Congregation Pendant"],
+    "rank_13": ["", "Dawn's Holy Sword", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "valentine_shizuru": {
     "name": "Shizuru",
@@ -1250,8 +1169,7 @@
     "rank_9": ["Chaos Blade", "Ice Claymore", "Guardian Shield", "Angel Boots", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Lightning Blade", "Chaos Blade", "Scarlet Mail", "Guardian Shield", "Cat God Pendant", "Sun Amulet"],
     "rank_11": ["Dawn's Holy Sword", "Lightning Blade", "Phantasm Mail", "Scarlet Mail", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Dawn's Holy Sword", "Maiden Cloth", "Phantasm Mail", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Dawn's Holy Sword", "Maiden Cloth", "Phantasm Mail", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "suzume": {
     "name": "Suzume",
@@ -1269,8 +1187,7 @@
     "rank_9": ["High Angel Rod", "Phoenix Rod", "Gospel Tiara", "Pope's Hood", "Moon Bracelet", "Mourning Crescent Moon"],
     "rank_10": ["Flame Rod", "High Angel Rod", "Aquarius Boots", "Gospel Tiara", "Great Sage Gem", "Dragon's Tear"],
     "rank_11": ["Divine Blossom Rod", "Flame Rod", "Shrine Maiden's Purity Cloth", "Aquarius Boots", "Ocean God's Earrings", "Great Sage Gem"],
-    "rank_12": ["", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"]
   },
   "summer_suzume": {
     "name": "Suzume",
@@ -1288,8 +1205,7 @@
     "rank_9": ["High Angel Rod", "Phoenix Rod", "Necromancer Boots", "Pope's Hood", "Moon Bracelet", "Mourning Crescent Moon"],
     "rank_10": ["Flame Rod", "High Angel Rod", "Viridian Spiritual Dress", "Gospel Tiara", "Congregation Pendant", "Dragon's Tear"],
     "rank_11": ["Divine Blossom Rod", "Flame Rod", "Shrine Maiden's Purity Cloth", "Aquarius Boots", "Fairy King's Guardian Stone", "Great Sage Gem"],
-    "rank_12": ["", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"]
   },
   "suzuna": {
     "name": "Suzuna",
@@ -1307,8 +1223,7 @@
     "rank_9": ["Spirit Tree Bow", "Artemis Bow", "Heavenly Robe", "Angel Bow", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Silver Wing Bow", "Spirit Tree Bow", "Dark Terror Dress", "Artemis Bow", "Cat God Pendant", "Sun Amulet"],
     "rank_11": ["Abyss Bow", "Silver Wing Bow", "Phantasm Mail", "Spirit Tree Bow", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Abyss Bow", "Nine Heavens' Armor", "Silver Wing Bow", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Abyss Bow", "Nine Heavens' Armor", "Silver Wing Bow", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "tamaki": {
     "name": "Tamaki",
@@ -1326,8 +1241,7 @@
     "rank_9": ["Unicorn Knife", "Dark Matter Edge", "Heavenly Robe", "Hermit Clothes", "Moon Bracelet", "Elemental Heart"],
     "rank_10": ["Emerald Dagger", "Unicorn Knife", "Faireal Boots", "Heavenly Robe", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Lava Edge", "Emerald Dagger", "Astrograph Buckler", "Dark Terror Dress", "Millennium Earrings", "Cat God Pendant"],
-    "rank_12": ["", "Lava Edge", "Nine Heavens' Armor", "Aegis Coat", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Lava Edge", "Nine Heavens' Armor", "Aegis Coat", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "summer_tamaki": {
     "name": "Tamaki",
@@ -1345,8 +1259,7 @@
     "rank_9": ["Unicorn Knife", "Dark Matter Edge", "Heavenly Robe", "Hermit Clothes", "Moon Bracelet", "Elemental Heart"],
     "rank_10": ["Emerald Dagger", "Unicorn Knife", "Faireal Boots", "Heavenly Robe", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Lava Edge", "Emerald Dagger", "Astrograph Buckler", "Dark Terror Dress", "Millennium Earrings", "Cat God Pendant"],
-    "rank_12": ["", "Lava Edge", "Nine Heavens' Armor", "Aegis Coat", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Lava Edge", "Nine Heavens' Armor", "Aegis Coat", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "tomo": {
     "name": "Tomo",
@@ -1364,8 +1277,7 @@
     "rank_9": ["Phoenix Sword", "Ice Claymore", "Guardian Shield", "Solar Sword", "Sun Amulet", "Elemental Heart"],
     "rank_10": ["Hundred White Blossom Petals Sword", "Unicorn Knife", "Scarlet Mail", "Ice Claymore", "Cat God Pendant", "Sun Amulet"],
     "rank_11": ["Flowing Azure Blade", "Emerald Dagger", "Aegis Coat", "Chaos Blade", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Lava Edge", "Nine Heavens' Armor", "Lightning Blade", "Fury Dragon Pendant", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Lava Edge", "Nine Heavens' Armor", "Lightning Blade", "Fury Dragon Pendant", "Millennium Earrings"]
   },
   "tsumugi": {
     "name": "Tsumugi",
@@ -1383,8 +1295,7 @@
     "rank_9": ["Lightning Fist", "Blizzard Claw", "Heavenly Robe", "Lion King Gauntlet", "Moon Bracelet", "Elemental Heart"],
     "rank_10": ["Moon Cestus", "Lightning Fist", "Dark Terror Dress", "Heavenly Robe", "Firelord's Ring", "Sun Amulet"],
     "rank_11": ["Crimson Claw", "Moon Cestus", "Aegis Coat", "Dark Terror Dress", "Millennium Earrings", "Firelord's Ring"],
-    "rank_12": ["", "Crimson Claw", "Maiden Cloth", "Aegis Coat", "Mermaid Princess' Spirit Tear", "Millennium Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Crimson Claw", "Maiden Cloth", "Aegis Coat", "Mermaid Princess' Spirit Tear", "Millennium Earrings"]
   },
   "yori": {
     "name": "Yori",
@@ -1402,8 +1313,7 @@
     "rank_9": ["High Devil Wand", "Justice God's Staff", "Necromancer Boots", "Rod of Sun", "Dragon's Tear", "Mourning Crescent Moon"],
     "rank_10": ["Xenosphere Rod", "High Devil Wand", "Aquarius Boots", "Justice God's Staff", "Great Sage Gem", "Dragon's Tear"],
     "rank_11": ["Genesis Rod", "Xenosphere Rod", "Shrine Maiden's Purity Cloth", "High Devil Wand", "Ocean God's Earrings", "Great Sage Gem"],
-    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"]
   },
   "yui": {
     "name": "Yui",
@@ -1421,8 +1331,7 @@
     "rank_9": ["High Angel Rod", "Phoenix Rod", "Gospel Tiara", "Pope's Hood", "Dragon's Tear", "Mourning Crescent Moon"],
     "rank_10": ["Flame Rod", "High Angel Rod", "Viridian Spiritual Dress", "Gospel Tiara", "Great Sage Gem", "Dragon's Tear"],
     "rank_11": ["Divine Blossom Rod", "Flame Rod", "Shrine Maiden's Purity Cloth", "Viridian Spiritual Dress", "Fairy King's Guardian Stone", "Great Sage Gem"],
-    "rank_12": ["", "Divine Blossom Rod", "Holy Prayer's Crown", "Shrine Maiden's Purity Cloth", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Blossom Rod", "Holy Prayer's Crown", "Shrine Maiden's Purity Cloth", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "newyear_yui": {
     "name": "Yui",
@@ -1440,8 +1349,7 @@
     "rank_9": ["High Angel Rod", "Phoenix Rod", "Gospel Tiara", "Pope's Hood", "Dragon's Tear", "Mourning Crescent Moon"],
     "rank_10": ["Flame Rod", "High Angel Rod", "Viridian Spiritual Dress", "Gospel Tiara", "Great Sage Gem", "Dragon's Tear"],
     "rank_11": ["Divine Blossom Rod", "Flame Rod", "Shrine Maiden's Purity Cloth", "Viridian Spiritual Dress", "Fairy King's Guardian Stone", "Great Sage Gem"],
-    "rank_12": ["", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"]
   },
   "yukari": {
     "name": "Yukari",
@@ -1459,8 +1367,7 @@
     "rank_9": ["Chaos Blade", "Ice Claymore", "Crusader Plate", "Mythril Plate", "Moon Bracelet", "Bangle of Substitution"],
     "rank_10": ["Lightning Blade", "Chaos Blade", "Scarlet Mail", "Crusader Plate", "Congregation Pendant", "Moon Bracelet"],
     "rank_11": ["Dawn's Holy Sword", "Lightning Blade", "Phantasm Mail", "Scarlet Mail", "Fairy King's Guardian Stone", "Congregation Pendant"],
-    "rank_12": ["", "Dawn's Holy Sword", "Maiden Cloth", "Phantasm Mail", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Dawn's Holy Sword", "Maiden Cloth", "Phantasm Mail", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"]
   },
   "yuki": {
     "name": "Yuki",
@@ -1478,7 +1385,6 @@
     "rank_9": ["High Angel Rod", "Phoenix Rod", "Gospel Tiara", "Pope's Hood", "Moon Bracelet", "Mourning Crescent Moon"],
     "rank_10": ["Flame Rod", "High Angel Rod", "Viridian Spiritual Dress", "Necromancer Boots", "Great Sage Gem", "Dragon's Tear"],
     "rank_11": ["Divine Blossom Rod", "Flame Rod", "Shrine Maiden's Purity Cloth", "Aquarius Boots", "Ocean God's Earrings", "Great Sage Gem"],
-    "rank_12": ["", "Divine Blossom Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"],
-    "rank_13": ["", "", "", "", "", ""]
+    "rank_12": ["", "Divine Blossom Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"]
   }
 }

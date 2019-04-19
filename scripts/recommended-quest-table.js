@@ -60,7 +60,6 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     let item_1_dp = quest_data.get("item_1").drop_percent;      // OBJECT
                     let item_3_dp = quest_data.get("item_3").drop_percent;      // OBJECT
                     let quest_subdrops = quest_data.get("subdrops");            // ARRAY
-                    let q_subdrops_percent = quest_data.get("subdrops_percent");//ARRAY
                     let char_shard = "";
                     if (quest_id.includes("H")) { char_shard = quest_data.get("char_shard").item_name; } // OBJECT
 
@@ -86,34 +85,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     // CHECK SUBDROPS
                     for (let i = 0 ; i < quest_subdrops.length ; i++)
                     {
-                        if (total_recipe.has(quest_subdrops[i]))
-                        {
-                            if (q_subdrops_percent === undefined)
-                            {
-                                quest_score += item_is_in_subitem_score;
-                            }
-                            else
-                            {
-                                switch (q_subdrops_percent[i])
-                                {
-                                    case 24:
-                                        quest_score += item_is_in_3rd_slot;
-                                        break;
-                                    case 20:
-                                        quest_score += item_is_in_subitem_score;
-                                        break;
-                                    case 17:
-                                        quest_score += item_is_in_subitem_score - 0.05;
-                                        break;
-                                    case 15:
-                                        quest_score += item_is_in_subitem_score - 0.10;
-                                        break;
-                                    default:
-                                        quest_score += item_is_in_subitem_score;
-                                        break;
-                                }
-                            }
-                        }
+                        if (total_recipe.has(quest_subdrops[i])) { quest_score += item_is_in_subitem_score; }
                     }
 
                     // CHECK CHARACTER SHARD
@@ -200,7 +172,6 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 let item_3_drop_percent = item_3.drop_percent;
 
                 let subdrops = get_quest_data(quest_id, "subdrops");
-                let subdrops_percent = get_quest_data(quest_id, "subdrops_percent");
 
                 let character_shard = "";
                 let char_shard_name = "";
@@ -290,14 +261,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                     table_html += "<img class=\"quest-item-image" + (total_recipe.has(subdrops[i]) ? "" : " grayscale") + "\" title=\"" + ((subdrops[i] !== "") ? subdrops[i] : "???")
                         + "\" src=\"" + get_item_image_path(((subdrops[i] !== "") ? subdrops[i].split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
-                    if (subdrops_percent === undefined)
-                    {
-                        table_html += "<div class=\"quest-percent-text\">20\u0025</div>";
-                    }
-                    else
-                    {
-                        table_html += "<div class=\"quest-percent-text\">" + subdrops_percent[i] + "\u0025</div>";
-                    }
+                    table_html += "<div class=\"quest-percent-text\">20\u0025</div>";
                     table_html += "</th>";
                 }
 
