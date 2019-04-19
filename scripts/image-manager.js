@@ -54,6 +54,11 @@ function init_images()
 
 function get_item_image_path(file_name)
 {
+    if (file_name === "")
+    {
+        file_name = "Placeholder";
+    }
+
     if (webp_enabled)
     {
         return "images/items_webp/" + file_name + ".webp";
@@ -63,6 +68,11 @@ function get_item_image_path(file_name)
 
 function get_unit_icon_image_path(file_name)
 {
+    if (file_name === "")
+    {
+        file_name = "Placeholder";
+    }
+
     if (webp_enabled)
     {
         return "images/unit_icon_webp/" + file_name + ".webp";
@@ -72,6 +82,11 @@ function get_unit_icon_image_path(file_name)
 
 function get_webpage_image_path(file_name)
 {
+    if (file_name === "")
+    {
+        file_name = "Placeholder";
+    }
+
     if (webp_enabled)
     {
         return "images/webpage_webp/" + file_name + ".webp";

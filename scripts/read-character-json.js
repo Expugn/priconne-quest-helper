@@ -46,6 +46,8 @@ let run_character = $(function () {
                     character_data.set("rank_11", characterData.rank_11);
                     /** @namespace characterData.rank_12 */
                     character_data.set("rank_12", characterData.rank_12);
+                    /** @namespace characterData.rank_13 */
+                    character_data.set("rank_13", characterData.rank_13);
 
                     character_map.set(i, character_data);
                 })

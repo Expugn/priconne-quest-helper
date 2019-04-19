@@ -1,6 +1,6 @@
 function read_purple()
 {
-    const totalPurpleItems = 36;
+    const totalPurpleItems = 45;
 
     let itemMap = new Map();
 
