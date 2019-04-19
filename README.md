@@ -6,7 +6,7 @@ Quest Data: https://expugn.github.io/priconne-quest-helper/pages/quest-data/<br>
 Recipe Data: https://expugn.github.io/priconne-quest-helper/pages/recipe-data/<br>
 Character Data: https://expugn.github.io/priconne-quest-helper/pages/character-data/
 
-Last Quest Update: `March 19, 2019`
+Last Quest Update: `April 19, 2019`
 
 ## Information
 This is a tool to help you decide which is the best quest to farm to get
@@ -38,6 +38,8 @@ Quest points is what determines how quests should be sorted in the `Recommended 
 | `Material is a Character Shard`<br><br>Character Shards from Hard Quests are important. | `1.0` |
 | `Material is in the Third Slot but Shares the Same Drop Rate as the First and Second Item`<br><br>This is the case for earlier quests (`54%` for the first three items) or hard mode quests (`72%` for the first three items). | `1.0` |
 | `Material is a Sub-Drop Item`<br><br>Sub-drop items are not displayed in the quest info in-game, but they have a lower drop rate than the first three items.<br>There are a collection of five different sub-drop items in every quest with a drop rate of `20%` each. | `0.5` |
+| `Material is a Sub-Drop Item (17%)`<br><br>A sub-drop item with lower rates than normal. | `0.45` |
+| `Material is a Sub-Drop Item (15%)`<br><br>A sub-drop item with even lower rates than normal. | `0.40` |
 
 The amount of quest points awarded to the quest is displayed on the right after all the quest items are listed.
 
