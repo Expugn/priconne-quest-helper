@@ -4,7 +4,7 @@ function update_progress()
     const update_name = "April 19, 2019";
 
     const normal_quest_updated = false;
-    const hard_quest_updated = false;
+    const hard_quest_updated = true;
     const equipment_selection_updated = true;
     const english_translated_names_updated = true;
     const rank_equipment_updated = false;

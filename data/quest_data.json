@@ -2327,27 +2327,27 @@
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "22-1H": {
-    "item_1": {"item_name": "", "drop_percent": 72},
-    "item_2": {"item_name": "", "drop_percent": 72},
-    "item_3": {"item_name": "", "drop_percent": 72},
+    "item_1": {"item_name": "Gaia Axe Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Maiden Cloth Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Millennium Earrings Fragment", "drop_percent": 72},
     "char_shard": {"item_name": "Kurumi Shard", "drop_percent": 54},
-    "subdrops": [ "", "", "", "", "" ],
+    "subdrops": [ "Congregation Pendant", "Unicorn Knife", "Gaia Bardiche", "Dragonic Armor", "Aquarius Boots" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "22-2H": {
-    "item_1": {"item_name": "", "drop_percent": 72},
-    "item_2": {"item_name": "", "drop_percent": 72},
-    "item_3": {"item_name": "", "drop_percent": 72},
+    "item_1": {"item_name": "Heaven's Protective Holy Spear Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Mermaid Princess' Spirit Tear Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Divine Judgement Axe Fragment", "drop_percent": 72},
     "char_shard": {"item_name": "Mifuyu Shard", "drop_percent": 54},
-    "subdrops": [ "", "", "", "", "" ],
+    "subdrops": [ "High Angel Rod Fragment", "Phoenix Sword Fragment", "Spirit Tree Bow Fragment", "Scarlet Mail Fragment", "Faireal Boots Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "22-3H": {
-    "item_1": {"item_name": "", "drop_percent": 72},
-    "item_2": {"item_name": "", "drop_percent": 72},
-    "item_3": {"item_name": "", "drop_percent": 72},
+    "item_1": {"item_name": "Great Sword of Sin Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Infernal Greaves Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Dawn's Holy Sword Fragment", "drop_percent": 72},
     "char_shard": {"item_name": "Jun Shard", "drop_percent": 54},
-    "subdrops": [ "", "", "", "", "" ],
+    "subdrops": [ "Chaos Blade Fragment", "Lightning Fist Fragment", "Firelord's Ring Fragment", "High Devil Wand Fragment", "Viridian Spiritual Dress Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
 
