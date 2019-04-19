@@ -2228,11 +2228,134 @@
     "char_shard": {"item_name": "Tomo Shard", "drop_percent": 54},
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
   },
+  "22-1": {
+    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_2": {"item_name": "", "drop_percent": 36},
+    "item_3": {"item_name": "", "drop_percent": 24},
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "22-2": {
+    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_2": {"item_name": "", "drop_percent": 36},
+    "item_3": {"item_name": "", "drop_percent": 24},
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "22-3": {
+    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_2": {"item_name": "", "drop_percent": 36},
+    "item_3": {"item_name": "", "drop_percent": 24},
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "22-4": {
+    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_2": {"item_name": "", "drop_percent": 36},
+    "item_3": {"item_name": "", "drop_percent": 24},
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "22-5": {
+    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_2": {"item_name": "", "drop_percent": 36},
+    "item_3": {"item_name": "", "drop_percent": 24},
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "22-6": {
+    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_2": {"item_name": "", "drop_percent": 36},
+    "item_3": {"item_name": "", "drop_percent": 24},
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "22-7": {
+    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_2": {"item_name": "", "drop_percent": 36},
+    "item_3": {"item_name": "", "drop_percent": 24},
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "22-8": {
+    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_2": {"item_name": "", "drop_percent": 36},
+    "item_3": {"item_name": "", "drop_percent": 24},
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "22-9": {
+    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_2": {"item_name": "", "drop_percent": 36},
+    "item_3": {"item_name": "", "drop_percent": 24},
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "22-10": {
+    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_2": {"item_name": "", "drop_percent": 36},
+    "item_3": {"item_name": "", "drop_percent": 24},
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "22-11": {
+    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_2": {"item_name": "", "drop_percent": 36},
+    "item_3": {"item_name": "", "drop_percent": 24},
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "22-12": {
+    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_2": {"item_name": "", "drop_percent": 36},
+    "item_3": {"item_name": "", "drop_percent": 24},
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "22-13": {
+    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_2": {"item_name": "", "drop_percent": 36},
+    "item_3": {"item_name": "", "drop_percent": 24},
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "22-14": {
+    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_2": {"item_name": "", "drop_percent": 36},
+    "item_3": {"item_name": "", "drop_percent": 24},
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "22-1H": {
+    "item_1": {"item_name": "", "drop_percent": 72},
+    "item_2": {"item_name": "", "drop_percent": 72},
+    "item_3": {"item_name": "", "drop_percent": 72},
+    "char_shard": {"item_name": "Kurumi Shard", "drop_percent": 54},
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "22-2H": {
+    "item_1": {"item_name": "", "drop_percent": 72},
+    "item_2": {"item_name": "", "drop_percent": 72},
+    "item_3": {"item_name": "", "drop_percent": 72},
+    "char_shard": {"item_name": "Mifuyu Shard", "drop_percent": 54},
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "22-3H": {
+    "item_1": {"item_name": "", "drop_percent": 72},
+    "item_2": {"item_name": "", "drop_percent": 72},
+    "item_3": {"item_name": "", "drop_percent": 72},
+    "char_shard": {"item_name": "Jun Shard", "drop_percent": 54},
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
 
   "-": {
     "item_1": {"item_name": "", "drop_percent": 36},
     "item_2": {"item_name": "", "drop_percent": 36},
     "item_3": {"item_name": "", "drop_percent": 24},
-    "subdrops": [ "", "", "", "", "" ]
+    "subdrops": [ "", "", "", "", "" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   }
 }

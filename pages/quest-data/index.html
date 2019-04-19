@@ -67,7 +67,25 @@
     {
         init_webp();
         init_images();
-        setTimeout(function ()
+
+        // MAKE SURE EQUIPMENT AND QUEST DATA ARE LOADED
+        setup();
+
+        function setup()
+        {
+            if (!equipment_loaded || !quest_loaded)
+            {
+                setTimeout(function () {
+                    setup();
+                }, 1000);
+            }
+            else
+            {
+                run();
+            }
+        }
+
+        function run()
         {
             // DEBUG | FRAGMENT CHECK: ANY NON-FRAGMENT ITEM WILL BE SET TO LOW-OPACITY
             const disable_fragment_check = true;
@@ -174,7 +192,15 @@
                         table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
                         table_html += "<img class=\"quest-item-image\" title=\"" + ((quest_data.get("subdrops")[i] !== "") ? quest_data.get("subdrops")[i] : "???")
                             + "\" src=\"../../" + get_item_image_path(((quest_data.get("subdrops")[i] !== "") ? quest_data.get("subdrops")[i].split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
-                        table_html += "<div class=\"quest-percent-text\">20\u0025</div>";
+
+                        if (quest_data.get("subdrops_percent") === undefined)
+                        {
+                            table_html += "<div class=\"quest-percent-text\">20\u0025</div>";
+                        }
+                        else
+                        {
+                            table_html += "<div class=\"quest-percent-text\">" + quest_data.get("subdrops_percent")[i] + "\u0025</div>";
+                        }
                         table_html += "</th>";
                     }
 
@@ -188,7 +214,7 @@
 
             toastr.remove();
             toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: false });
-        }, 1000);
+        }
     }
 </script>
 </html>
