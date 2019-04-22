@@ -54,11 +54,9 @@ The following can be submitted via `GitHub's Issue Tracker` or told to me (`S'pu
 5. Comments, Constructive Criticism, etc.
 
 ## Information/Data Credits
-Initial collection of equipment images provided by `Jiuhin#7786`.
+Quest Data/Drop Rates/Equipment Recipes were taken from `GameWith`, `AppMedia`, `Hatsune's Notes`, and `https://pcrdwiki.xyz/en-us/`.
 
-Quest Data/Drop Rates/Equipment Recipes were taken from `GameWith`, `AppMedia`, and `https://pcrdwiki.xyz/en-us/`.
-
-Images (Backgrounds, Items, Material Fragments, etc) were ripped from the `DMM Game Player` version of `Princess Connect! Re:Dive` via `AssetStudioGUI`.
+Images (Backgrounds, Items, Material Fragments, etc) were ripped from the `DMM Game Player` version of `Princess Connect! Re:Dive` via `AssetStudioGUI` or given to by `Jiuhin#7786`.
 
 
 ## Other Stuff

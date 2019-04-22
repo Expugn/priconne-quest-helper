@@ -27,6 +27,8 @@ function build_recommended_quest_table(all_recipe_maps_array)
         const item_is_in_top_2_score = 1;
         const item_is_in_3rd_slot = 0.75;
         const item_is_in_subitem_score = 0.5;
+        const item_is_in_subitem17_score = 0.45;
+        const item_is_in_subitem15_score = 0.40;
 
         for (let [quest_id, quest_data] of quests)
         {
@@ -103,10 +105,10 @@ function build_recommended_quest_table(all_recipe_maps_array)
                                         quest_score += item_is_in_subitem_score;
                                         break;
                                     case 17:
-                                        quest_score += item_is_in_subitem_score - 0.05;
+                                        quest_score += item_is_in_subitem17_score;
                                         break;
                                     case 15:
-                                        quest_score += item_is_in_subitem_score - 0.10;
+                                        quest_score += item_is_in_subitem15_score;
                                         break;
                                     default:
                                         quest_score += item_is_in_subitem_score;
@@ -122,7 +124,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     // IF QUEST SCORE IS NOT ZERO, ADD TO QUEST TABLE
                     if (quest_score !== 0)
                     {
-                        quest_score_map.set(quest_id, quest_score);
+                        quest_score_map.set(quest_id, +quest_score.toFixed(2));
                     }
                 }
             }
