@@ -227,6 +227,7 @@ function delete_project_data()
     }
 
     update_saved_projects_select();
+    disable_add_and_sub_buttons(true);
 
     toastr.success("Project \"" + project_name + "\" has been deleted!");
     console.log("[Projects] - Deleted \"" + project_name + "\"'s data.");

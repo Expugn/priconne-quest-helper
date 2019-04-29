@@ -1,10 +1,10 @@
 # Princess Connect! Re:Dive Quest Helper<br>(priconne-quest-helper)
 
-URL: https://expugn.github.io/priconne-quest-helper/<br>
-Simple Mode: https://expugn.github.io/priconne-quest-helper/#simple<br><br>
-Quest Data: https://expugn.github.io/priconne-quest-helper/pages/quest-data/<br>
-Recipe Data: https://expugn.github.io/priconne-quest-helper/pages/recipe-data/<br>
-Character Data: https://expugn.github.io/priconne-quest-helper/pages/character-data/
+URL: <https://expugn.github.io/priconne-quest-helper/><br>
+Simple Mode: <https://expugn.github.io/priconne-quest-helper/#simple><br><br>
+Quest Data: <https://expugn.github.io/priconne-quest-helper/pages/quest-data/><br>
+Recipe Data: <https://expugn.github.io/priconne-quest-helper/pages/recipe-data/><br>
+Character Data: <https://expugn.github.io/priconne-quest-helper/pages/character-data/>
 
 Last Quest Update: `April 19, 2019`
 
@@ -18,7 +18,7 @@ state to be the complete experience. Also many things may change and
 break in this time.
 
 ## Recommended Procedure On How To Use This Tool
-1. Open the tool URL in your phone or PC browser: (https://expugn.github.io/priconne-quest-helper/)<br>
+1. Open the tool URL in your phone or PC browser: (<https://expugn.github.io/priconne-quest-helper/>)<br>
 If on a mobile phone, horizontal viewing is probably best.
 2. Open up `Princess Connect Re:Dive` via your phone or DMM Game Player.
 3. Decide which characters you want to rank up and select the required equipment in the tool.
