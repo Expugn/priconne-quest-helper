@@ -155,86 +155,6 @@
     </div>
 </div>
 
-<div id="projects-container" style="display: none;">
-    <div id="local-storage-warning" style="display: none">
-        <table class="centerTable">
-            <tr>
-                <th>
-                    <label style="color: red; font-weight: bolder;">Your browser does not support LocalStorage.<br>Projects, Blacklist, Data Importing/Exporting, and Settings Saving have been disabled.</label>
-                </th>
-            </tr>
-        </table>
-        <hr>
-    </div>
-
-    <div id="projects-div">
-        <h4>lol temporary projects section</h4>
-
-        <div id="save-project-div">
-            <label for="project-name-input">Project Name: </label>
-            <input id="project-name-input" type="text" name="project-name">
-            <button id="project-save-button" type="button" onclick="save_project_data()">Save Project</button>
-        </div>
-
-        <div id="project-options-div">
-            <label for="saved-projects-select">Select Saved Project: </label>
-            <select id="saved-projects-select" onchange="update_project_selection()">
-                <option value="[All Projects...]">[All Projects...]</option>
-            </select>
-            <br>
-            <button id="project-load-button" type="button" onclick="load_project_data()">Load Project</button>
-            <button id="project-add-button" disabled type="button" onclick="add_project_data()">Add Project Items</button>
-            <button id="project-sub-button" disabled type="button" onclick="sub_project_data()">Subtract Project Items</button>
-            <button id="project-delete-button" type="button" onclick="delete_project_data()">Delete Project</button>
-            <br><br>
-            <button type="button" onclick="clear_all_item_tables()">Clear Item Tables</button>
-            <br><br>
-        </div>
-
-        <div id="project-blacklist-options-div">
-            <button id="blacklist-save-button" type="button" onclick="save_blacklist()">Save Blacklist</button>
-            <button id="blacklist-load-button" type="button" onclick="init_blacklist()" title="There is no saved blacklist.">Load Saved Blacklist</button>
-            <button id="blacklist-clear-button" type="button" onclick="clear_blacklist()">Clear Blacklist</button>
-            <button id="blacklist-delete-button" type="button" onclick="delete_blacklist()">Delete Blacklist</button>
-
-            <br><br><br>
-
-            <label for="blacklist-common">Common</label>    <input id="blacklist-common" type="checkbox"><br>
-            <label for="blacklist-copper">Copper</label>    <input id="blacklist-copper" type="checkbox"><br>
-            <label for="blacklist-silver">Silver</label>    <input id="blacklist-silver" type="checkbox"><br>
-            <label for="blacklist-gold">Gold</label>        <input id="blacklist-gold" type="checkbox"><br>
-            <label for="blacklist-purple">Purple</label>    <input id="blacklist-purple" type="checkbox"><br>
-            <button id="blacklist-rarities-button" type="button" onclick="blacklist_selected_rarities()">Blacklist Selected Rarities</button>
-        </div>
-
-        <br>
-        <button id="toggle-project-help" type="button" onclick="toggle_project_help()">Show Project/Blacklist Help</button>
-        <div id="project-info-div" style="display: none">
-            <h3>how to use projects</h3>
-            <label>- save: put a name in the text input and click the button. all items currently selected will be saved. overwrite an existing item set by inputting the name and clicking save.</label><br>
-            <label>- load project: overwrites all currently selected items with the items saved in the project.</label><br>
-            <label>- add project items: add a project's saved items with the currently selected items.</label><br>
-            <label>- subtract project items: remove a project's saved items with the currently selected items.</label><br>
-            <label>- delete project: removes a project's data from forever.</label>
-            <h3>item blacklist saving</h3>
-            <label>due to the variability of blacklists, they aren't saved with a project.</label><br>
-            <label>however, you can save a blacklist in case you want to refresh the page or close out page and continue your project later.</label><br>
-            <label>only one blacklist will be saved at a time. it will also automatically be loaded when you load the page.</label><br>
-            <label>hovering over the "Load Blacklist" button will show you what's in the saved blacklist.</label><br><br>
-            <label>- save: saves your current blacklist.</label><br>
-            <label>- clear: clears the blacklist (in case you want a clean slate)</label><br>
-            <label>- delete: deletes the saved blacklist</label><br>
-            <label>- blacklist selected rarities: blacklists the rarities you selected in the checkboxes (note that items will be un-blacklisted if their value is modified. use this option AFTER you select all your desired items)</label>
-            <h3>other notes</h3>
-            <label>* clicking the load project button w/ "[All Projects...]" selected will automatically combine all saved projects together and load it.</label><br>
-            <label>* clicking the delete project button w/ "[All Projects...]" selected will delete every saved project.</label><br>
-            <label>* the load, add, and subtract project buttons will be disabled when "[All Projects...]" is selected.</label><br>
-            <label>* hovering over the project name in the selection will display all items in the project.</label><br>
-            <label style="color: red">* items with "equipment_" in their name will not be saved for compatibility reasons. (items have "equipment_" in their name when the english-translated name is unknown.)</label>
-        </div>
-    </div>
-</div>
-
 <div id="presets-container" style="display: none;">
     <div id="character-preset-div" class="use-webp">
         <h2 class="category-title">Character Presets</h2>
@@ -302,11 +222,91 @@
     </div>
 </div>
 
+<div id="projects-container" style="display: none;">
+    <div id="local-storage-warning" style="display: none">
+        <table class="centerTable">
+            <tr>
+                <th>
+                    <label style="color: red; font-weight: bolder;">Your browser does not support LocalStorage.<br>Projects, Blacklist, Data Importing/Exporting, and Settings Saving have been disabled.</label>
+                </th>
+            </tr>
+        </table>
+        <hr>
+    </div>
+
+    <div id="projects-div">
+        <br>
+        <div id="save-project-div">
+            <label for="project-name-input">Project Name: </label>
+            <input id="project-name-input" type="text" name="project-name">
+            <button id="project-save-button" type="button" onclick="save_project_data()">Save Project</button>
+        </div>
+        <br>
+        <div id="project-options-div">
+            <label for="saved-projects-select">Select Saved Project: </label>
+            <select id="saved-projects-select" onchange="update_project_selection()">
+                <option value="[All Projects...]">[All Projects...]</option>
+            </select>
+            <br>
+            <button id="project-load-button" type="button" onclick="load_project_data()">Load Project</button>
+            <button id="project-add-button" disabled type="button" onclick="add_project_data()">Add Project Items</button>
+            <button id="project-sub-button" disabled type="button" onclick="sub_project_data()">Subtract Project Items</button>
+            <button id="project-delete-button" type="button" onclick="delete_project_data()">Delete Project</button>
+            <br><br><br>
+            <button type="button" onclick="clear_all_item_tables()">Clear Item Tables</button>
+        </div>
+
+        <br><br>
+
+        <div id="project-blacklist-options-div">
+            <button id="blacklist-save-button" type="button" onclick="save_blacklist()">Save Blacklist</button>
+            <button id="blacklist-load-button" type="button" onclick="init_blacklist()" title="There is no saved blacklist.">Load Saved Blacklist</button>
+            <button id="blacklist-clear-button" type="button" onclick="clear_blacklist()">Clear Blacklist</button>
+            <button id="blacklist-delete-button" type="button" onclick="delete_blacklist()">Delete Blacklist</button>
+
+            <br><br>
+
+            <label for="blacklist-common">Common</label>    <input id="blacklist-common" type="checkbox"><br>
+            <label for="blacklist-copper">Copper</label>    <input id="blacklist-copper" type="checkbox"><br>
+            <label for="blacklist-silver">Silver</label>    <input id="blacklist-silver" type="checkbox"><br>
+            <label for="blacklist-gold">Gold</label>        <input id="blacklist-gold" type="checkbox"><br>
+            <label for="blacklist-purple">Purple</label>    <input id="blacklist-purple" type="checkbox"><br>
+            <button id="blacklist-rarities-button" type="button" onclick="blacklist_selected_rarities()">Blacklist Selected Rarities</button>
+        </div>
+
+        <br><br>
+        <button id="toggle-project-help" type="button" onclick="toggle_project_help()">Show Project/Blacklist Help</button>
+        <div id="project-info-div" style="display: none">
+            <h3>How To Use Projects:</h3>
+            <label>[Save Project]:<br>Put a name in the text input and click the button. All items currently selected will be saved. You can overwrite an existing item set by inputting the name and clicking save.</label><br><br>
+            <label>[Load Project]:<br>Overwrites all currently selected items with the items saved in the project.</label><br><br>
+            <label>[Add Project Items]:<br>Add a project's saved items with the currently selected items.</label><br><br>
+            <label>[Subtract Project Items]:<br>Remove a project's saved items with the currently selected items.</label><br><br>
+            <label>[Delete Project]:<br>Removes a project's data forever.</label>
+            <h3>Item Blacklist Saving:</h3>
+            <label>Due to the variability of blacklists, they aren't saved with a project.</label><br>
+            <label>However, you can save a blacklist in case you want to refresh the page or close out page and continue your project later.</label><br>
+            <label>Only one blacklist will be saved at a time. It will also automatically be loaded when you load the page.</label><br>
+            <label>Hovering over the "[Load Blacklist]" button will show you what's in the saved blacklist.</label><br><br>
+            <label>[Save Blacklist]:<br>Saves your current blacklist.</label><br><br>
+            <label>[Clear Blacklist]:<br>Clears the blacklist (in case if you want a clean slate).</label><br><br>
+            <label>[Delete Blacklist]:<br>Deletes the saved blacklist.</label><br><br>
+            <label>[Blacklist Selected Rarities]:<br>Blacklists the rarities you selected in the checkboxes (note that items will be un-blacklisted if their value is modified. Use this option AFTER you select all your desired items).</label>
+            <h3>Other Notes</h3>
+            <label>* Clicking the load project button w/ "[All Projects...]" selected will automatically combine all saved projects together and load it.</label><br>
+            <label>* Clicking the delete project button w/ "[All Projects...]" selected will delete every saved project.</label><br>
+            <label>* The load, add, and subtract project buttons will be disabled when "[All Projects...]" is selected.</label><br>
+            <label>* Hovering over the project name in the selection will display all items in the project.</label><br>
+        </div>
+    </div>
+    <br>
+</div>
+
 <div id="settings-container" style="display: none;">
     <!-- =========================================================== SETTINGS -->
     <div id="settings-div">
-        <h4>lol temporary settings section</h4>
-        <label for="quest-shown-amt">amount of quests shown (min 10, max 999)</label>
+        <br>
+        <label for="quest-shown-amt">Amount of Quests Shown (10 - 999):</label>
         <input id="quest-shown-amt"
                class="item-input"
                type="number"
@@ -317,7 +317,7 @@
 
         <br><br>
 
-        <label for="sort-ascending-quest-list">sort by ascending: quest list (Chapter 1 -> Chapter 2 -> ...)</label>
+        <label for="sort-ascending-quest-list">Sort by Ascending: Quest List (Chapter 1 -> Chapter 2 -> ...)</label>
         <input id="sort-ascending-quest-list"
                type="checkbox"
                name="ascending_sort: quest_list"
@@ -325,9 +325,9 @@
                checked
                onchange="toggle_ascending_sort_quest_list()">
 
-        <br><br>
+        <br>
 
-        <label for="sort-ascending-quest-score">sort by ascending: quest score (0.5 -> 0.75 -> ...)</label>
+        <label for="sort-ascending-quest-score">Sort by Ascending: Quest Score (0.5 -> 0.75 -> ...)</label>
         <input id="sort-ascending-quest-score"
                type="checkbox"
                name="ascending_sort: quest_score"
@@ -336,7 +336,7 @@
 
         <br><br>
 
-        <label for="hide-quest-score">hide quest score</label>
+        <label for="hide-quest-score">Hide Quest Score</label>
         <input id="hide-quest-score"
                type="checkbox"
                name="hide quest score"
@@ -346,7 +346,7 @@
 
         <br><br>
 
-        <label for="min-quest-chapter">lowest quest chapter displayed</label>
+        <label for="min-quest-chapter">Lowest Quest Chapter Displayed:</label>
         <input id="min-quest-chapter"
                class="item-input"
                type="number"
@@ -355,7 +355,7 @@
                value="1"
                onchange="change_min_quest_chapter()">
         <br>
-        <label for="max-quest-chapter">highest quest chapter displayed</label>
+        <label for="max-quest-chapter">Highest Quest Chapter Displayed:</label>
         <input id="max-quest-chapter"
                class="item-input"
                type="number"
@@ -377,7 +377,7 @@
 
         <br><br>
 
-        <label for="item-amount-per-row">items displayed per row (min 1, max 15)</label>
+        <label for="item-amount-per-row">Items Displayed per Row (1 - 15):</label>
         <input id="item-amount-per-row"
                class="item-input"
                type="number"
@@ -388,19 +388,38 @@
 
         <br><br>
 
-        <div id="setting-saving-div">
-            <label for="save-settings-button">save settings to local storage</label><br>
-            <button id="save-settings-button" type="button" onclick="save_cookie()">save settings</button>
-            <br>
-            <label for="delete-settings-button">delete settings from local storage</label><br>
-            <button id="delete-settings-button" type="button" onclick="delete_cookie()">delete settings</button>
-            <br>
-            <label for="reset-settings-button">reset settings to system default if saved data does not exist, or to saved data</label><br>
-            <button id="reset-settings-button" type="button" onclick="reset_settings()">reset settings</button>
-            <br>
-            <label for="read-settings-button">displays your saved settings</label><br>
-            <button id="read-settings-button" type="button" onclick="read_settings()">read saved settings</button>
+        <label>Ignore Item Rarity in Recipe:</label><br>
+        <button id="ignore-button-common" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('common')">
+            <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Common Items" image_folder="webpage" file_name="Placeholder_Common" src_prefix="" src="" alt="">
+        </button>
+        <button id="ignore-button-copper" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('copper')">
+            <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Copper Items" image_folder="webpage" file_name="Placeholder_Copper" src_prefix="" src="" alt="">
+        </button>
+        <button id="ignore-button-silver" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('silver')">
+            <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Silver Items" image_folder="webpage" file_name="Placeholder_Silver" src_prefix="" src="" alt="">
+        </button>
+        <button id="ignore-button-gold" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('gold')">
+            <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Gold Items" image_folder="webpage" file_name="Placeholder_Gold" src_prefix="" src="" alt="">
+        </button>
+        <button id="ignore-button-purple" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('purple')">
+            <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Purple Items" image_folder="webpage" file_name="Placeholder_Purple" src_prefix="" src="" alt="">
+        </button>
 
+
+        <br><br>
+
+        <div id="setting-saving-div">
+            <label for="save-settings-button">Save Settings to Local Storage</label><br>
+            <button id="save-settings-button" type="button" onclick="save_cookie()">Save Settings</button>
+            <br>
+            <label for="delete-settings-button">Delete Settings From Local Storage</label><br>
+            <button id="delete-settings-button" type="button" onclick="delete_cookie()">Delete Settings</button>
+            <br>
+            <label for="reset-settings-button">Reset Settings to System Default if Saved Data Does not Exist, or to Saved Data</label><br>
+            <button id="reset-settings-button" type="button" onclick="reset_settings()">Reset Settings</button>
+            <br>
+            <label for="read-settings-button">Display Saved Settings</label><br>
+            <button id="read-settings-button" type="button" onclick="read_settings()">Read Saved Settings</button>
             <br><br>
         </div>
     </div>
@@ -445,9 +464,26 @@
         <br>
     </div>
 
-    <br>
-
     <div id="data-div">
+        <h4>Other Pages</h4>
+
+        <a href="pages/quest-data/" target="_blank" style="text-decoration: none;">
+            <img class="use-webp" image_folder="webpage" file_name="quest_data_link_img" src_prefix="" src="" alt="Quest Data" style="border:0; text-decoration: none;">
+        </a>
+
+        <a href="pages/recipe-data/" target="_blank" style="text-decoration: none;">
+            <img class="use-webp" image_folder="webpage" file_name="recipe_data_link_img" src_prefix="" src="" alt="Recipe Data" style="border:0; text-decoration: none;">
+        </a><br>
+
+        <a href="pages/character-data/" target="_blank" style="text-decoration: none;">
+            <img class="use-webp" image_folder="webpage" file_name="character_data_link_img" src_prefix="" src="" alt="Character Data" style="border:0;">
+        </a>
+
+        <a href="https://github.com/Expugn/priconne-quest-helper" target="_blank" style="text-decoration: none;">
+            <img class="use-webp" image_folder="webpage" file_name="github_link_img" src_prefix="" src="" alt="Github Source" style="border:0;">
+        </a>
+
+        <!--
         <form action="pages/quest-data/" target="_blank">
             <input type="submit" value="Quest Data"/>
         </form>
@@ -461,6 +497,7 @@
         <form action="https://github.com/Expugn/priconne-quest-helper" target="_blank">
             <input type="submit" value="Github Source"/>
         </form>
+        -->
 
         <!--<p class="no-text-shadow-footer"><a id="simple-or-fancy-text" href="https://expugn.github.io/priconne-quest-helper/" style="text-decoration: none; color: aliceblue" onclick="reload()"></a></p>-->
     </div>
@@ -468,7 +505,7 @@
     <br>
 
     <div id="data-management-div">
-        <h4>lol temporary data management section</h4>
+        <h4>Data Management</h4>
 
         <form action="pages/export-data/" target="_blank">
             <input type="submit" value="Export Saved Data"/>
@@ -478,17 +515,16 @@
 
         <button id="toggle-data-management-help" type="button" onclick="toggle_data_management_help()">Show Data Management Help</button>
         <div id="export-import-info" style="display: none;">
-            <h3>how to export/import your saved data</h3>
-            <label>- exporting data:</label><br>
-            <label>&emsp;1) click the "Export Data" button to go to a new page. you can choose to export your projects/blacklist/settings. make your selections and click "Generate URL".</label><br>
-            <label>&emsp;2) wait a few seconds and a url should be generated. copy the link or press the button to copy the link and send it to yourself or someone via email/instant messenger, whatever.</label><br><br>
-            <label>- importing data:</label><br>
-            <label>&emsp;1) open the url you generated in "Exporting Data" on whatever device you want to load the data to.</label><br>
-            <label>&emsp;2) review the data in the link and make sure everything is correct before you import</label><br>
+            <h3>How to Export/Import Your Saved Data</h3>
+            <label>[Exporting Data]:</label><br>
+            <label>&emsp;1) Click the "Export Data" button to go to a new page. You can choose to export your projects/blacklist/settings. Make your selections and click "Generate URL".</label><br>
+            <label>&emsp;2) Wait a few seconds and a url should be generated. Copy the link or press the button to copy the link and send it to yourself or someone via email/instant messenger, whatever.</label><br><br>
+            <label>[Importing Data]:</label><br>
+            <label>&emsp;1) Open the URL you generated in "Exporting Data" on whatever device you want to load the data to.</label><br>
+            <label>&emsp;2) Review the data in the link and make sure everything is correct before you import.</label><br>
             <label style="color: red">&emsp;3) NOTE THAT IMPORTING DATA WILL REPLACE THE DATA IN THE BROWSER. IF YOU DON'T WANT TO REPLACE YOUR DATA THEN DON'T IMPORT.</label><br>
-            <label>&emsp;4) if you're okay with everything then click the import confirmation button.</label><br>
-            <label>&emsp;5) done! your data should be imported now. you can now go back to the main page.</label><br><br>
-            <label style="color: red">* THERE IS A RATE LIMIT SET IN PLACE. TRY NOT TO SPAM THE IMPORT/EXPORT FUNCTION. DOING SO WILL LOCK YOU OUT OF BEING ABLE TO DATA TRANSFER.</label><br>
+            <label>&emsp;4) If you're okay with everything then click the import confirmation button.</label><br>
+            <label>&emsp;5) Done! Your data should be imported now. You can now go back to the main page.</label><br><br>
         </div>
     </div>
 </div>

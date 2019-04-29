@@ -7,6 +7,7 @@ let min_quest_chapter;                  // default = 1
 let max_quest_chapter;                  // default = whatever is the highest chapter
 let quest_filter;                       // default = filter-all
 let item_amount_per_row;                // default = 7
+let ignored_rarities;                   // default = [] (empty array)
 
 let quest_shown_value_default;
 let ascending_sort_quest_list_default;
@@ -16,6 +17,7 @@ let min_quest_chapter_default;
 let max_quest_chapter_default;
 let quest_filter_default;
 let item_amount_per_row_default;
+let all_rarities = ["common", "copper", "silver", "gold", "purple"];
 
 
 function init_settings()
@@ -41,6 +43,7 @@ function init_settings()
             settings_map.max_quest_chapter = parseInt(Cookies.get('max_quest_chapter'));
             settings_map.quest_filter = Cookies.get('quest_filter');
             settings_map.item_amount_per_row = parseInt(Cookies.get('item_amount_per_row'));
+            settings_map.ignored_rarities = [];
 
             let encrypted_setting_map = JSON.stringify(settings_map);
             localStorage.setItem('settings', encrypted_setting_map);
@@ -92,6 +95,8 @@ function init_settings()
 
     item_amount_per_row_default = document.getElementById("item-amount-per-row").value;
     item_amount_per_row = item_amount_per_row_default;
+
+    ignored_rarities = [];
 
     console.log("[Settings] - Settings are initialized!");
 }
@@ -247,6 +252,33 @@ function change_item_amount_per_row()
     build_item_tables();
 }
 
+function toggle_ignored_rarity(rarity)
+{
+    let elem_id = "ignore-button-" + rarity;
+    document.getElementById(elem_id).classList.toggle("low-opacity");
+
+    if (ignored_rarities.includes(rarity))
+    {
+        // UN-IGNORE RARITY
+
+        let index = ignored_rarities.indexOf(rarity);
+        if (index > -1)
+        {
+            ignored_rarities.splice(index, 1);
+        }
+
+        console.log("[Settings] - Un-ignoring " + rarity + " Rarity Items.");
+    }
+    else
+    {
+        // IGNORE RARITY
+        ignored_rarities.push(rarity);
+        console.log("[Settings] - Ignoring " + rarity + " Rarity Items.");
+    }
+
+    build_data();
+}
+
 function toggle_simple_mode()
 {
     if(window.location.hash)
@@ -304,6 +336,7 @@ function save_cookie()
     settings_map.max_quest_chapter = max_quest_chapter;
     settings_map.quest_filter = quest_filter;
     settings_map.item_amount_per_row = item_amount_per_row;
+    settings_map.ignored_rarities = ignored_rarities;
 
     let encrypted_setting_map = JSON.stringify(settings_map);
     console.log(encrypted_setting_map);
@@ -361,6 +394,11 @@ function read_cookie()
             check_checkbox("filter-hard-quests", true);
         }
         document.getElementById("item-amount-per-row").value = item_amount_per_row;
+        for (let i = 0 ; i < ignored_rarities.length ; i++)
+        {
+            let ignored_rarity_document_id = "ignore-button-" + ignored_rarities[i];
+            document.getElementById(ignored_rarity_document_id).classList.toggle("low-opacity");
+        }
 
         console.log("[Settings] Cookie settings have been loaded.");
     }
@@ -377,6 +415,7 @@ function set_settings_to_default()
     max_quest_chapter = max_quest_chapter_default;
     quest_filter = quest_filter_default;
     item_amount_per_row = item_amount_per_row_default;
+    ignored_rarities = [];
 }
 
 function reset_settings()
@@ -391,6 +430,8 @@ function reset_settings()
     {
         // SET SYSTEM DEFAULTS
         set_settings_to_default();
+        console.log("load system defaults");
+        console.log(JSON.stringify(ignored_rarities));
     }
 
     document.getElementById("quest-shown-amt").value = quest_shown_value;
@@ -418,9 +459,28 @@ function reset_settings()
         check_checkbox("filter-hard-quests", true);
     }
     document.getElementById("item-amount-per-row").value = item_amount_per_row;
+    for (let i = 0 ; i < all_rarities.length ; i++)
+    {
+        let ignored_rarity_document_id = "ignore-button-" + all_rarities[i];
+        if (ignored_rarities.includes(all_rarities[i]))
+        {
+            if (!document.getElementById(ignored_rarity_document_id).classList.contains("low-opacity"))
+            {
+                document.getElementById(ignored_rarity_document_id).classList.add("low-opacity");
+            }
+        }
+        else
+        {
+            if (document.getElementById(ignored_rarity_document_id).classList.contains("low-opacity"))
+            {
+                document.getElementById(ignored_rarity_document_id).classList.remove("low-opacity");
+            }
+        }
+    }
 
     toastr.success("Settings have been reset.");
     refresh_quest_table();
+    build_data();
 }
 
 function read_settings()
@@ -485,6 +545,7 @@ function set_values_from_cookie()
         max_quest_chapter = saved_settings_map.max_quest_chapter;
         quest_filter = saved_settings_map.quest_filter;
         item_amount_per_row = saved_settings_map.item_amount_per_row;
+        ignored_rarities = saved_settings_map.ignored_rarities;
 
         // CHECK FOR ANY UNDEFINED SETTINGS
         check_for_undefined_settings();
@@ -499,6 +560,7 @@ function set_values_from_cookie()
         settings_map.max_quest_chapter = max_quest_chapter;
         settings_map.quest_filter = quest_filter;
         settings_map.item_amount_per_row = item_amount_per_row;
+        settings_map.ignored_rarities = ignored_rarities;
         let encrypted_setting_map = JSON.stringify(settings_map);
         localStorage.setItem('settings', encrypted_setting_map);
     }
@@ -515,6 +577,7 @@ function check_for_undefined_settings()
     max_quest_chapter = (max_quest_chapter === undefined ? max_quest_chapter_default : max_quest_chapter);
     quest_filter = (quest_filter === undefined ? quest_filter_default : quest_filter);
     item_amount_per_row = (item_amount_per_row === undefined ? item_amount_per_row_default : item_amount_per_row);
+    ignored_rarities = (ignored_rarities === undefined ? [] : ignored_rarities);
 }
 
 function is_cookies_exist()

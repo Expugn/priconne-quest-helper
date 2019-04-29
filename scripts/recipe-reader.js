@@ -8,17 +8,22 @@ function get_recipe(item_name, amount)
     let has_fragments = get_equipment_data(item_name, "has_fragments");     // boolean
     let required_pieces = get_equipment_data(item_name, "req_pieces");      // value
     let required_items = get_equipment_data(item_name, "req_items");        // array
+    let item_id = get_equipment_data(item_name, "id");                      // string
+    let rarity_class = item_id.substring(0, item_id.indexOf('-'));
 
-    // ADD FRAGMENT/ITEM COUNT TO RECIPE
-    if (required_pieces > 0)
+    if (!ignored_rarities.includes(rarity_class))
     {
-        if (has_fragments)
+        // ADD FRAGMENT/ITEM COUNT TO RECIPE
+        if (required_pieces > 0)
         {
-            recipe = add_items_to_recipe(recipe, item_name + " Fragment", required_pieces * amount);
-        }
-        else
-        {
-            recipe = add_items_to_recipe(recipe, item_name, required_pieces * amount);
+            if (has_fragments)
+            {
+                recipe = add_items_to_recipe(recipe, item_name + " Fragment", required_pieces * amount);
+            }
+            else
+            {
+                recipe = add_items_to_recipe(recipe, item_name, required_pieces * amount);
+            }
         }
     }
 
@@ -42,20 +47,24 @@ function get_recipe_and_add_onto_existing(recipe, item_name, amount)
     let has_fragments = get_equipment_data(item_name, "has_fragments");     // boolean
     let required_pieces = get_equipment_data(item_name, "req_pieces");      // value
     let required_items = get_equipment_data(item_name, "req_items");        // array
+    let item_id = get_equipment_data(item_name, "id");                      // string
+    let rarity_class = item_id.substring(0, item_id.indexOf('-'));
 
-    // ADD FRAGMENT/ITEM COUNT TO RECIPE
-    if (required_pieces > 0)
+    if (!ignored_rarities.includes(rarity_class))
     {
-        if (has_fragments)
+        // ADD FRAGMENT/ITEM COUNT TO RECIPE
+        if (required_pieces > 0)
         {
-            recipe_existing = add_items_to_recipe(recipe_existing, item_name + " Fragment", required_pieces * amount);
-        }
-        else
-        {
-            recipe_existing = add_items_to_recipe(recipe_existing, item_name, required_pieces * amount);
+            if (has_fragments)
+            {
+                recipe_existing = add_items_to_recipe(recipe_existing, item_name + " Fragment", required_pieces * amount);
+            }
+            else
+            {
+                recipe_existing = add_items_to_recipe(recipe_existing, item_name, required_pieces * amount);
+            }
         }
     }
-
 
     // ADD OTHER ITEM RECIPES FROM required_items TO RECIPE
     if (required_items !== undefined)
