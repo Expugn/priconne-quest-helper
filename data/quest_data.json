@@ -2349,13 +2349,5 @@
     "char_shard": {"item_name": "Jun Shard", "drop_percent": 54},
     "subdrops": [ "Chaos Blade Fragment", "Lightning Fist Fragment", "Firelord's Ring Fragment", "High Devil Wand Fragment", "Viridian Spiritual Dress Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
-  },
-
-  "-": {
-    "item_1": {"item_name": "", "drop_percent": 36},
-    "item_2": {"item_name": "", "drop_percent": 36},
-    "item_3": {"item_name": "", "drop_percent": 24},
-    "subdrops": [ "", "", "", "", "" ],
-    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   }
 }

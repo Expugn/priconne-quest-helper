@@ -550,6 +550,25 @@
     "rank_12": ["Tír na nÓg Dagger", "Lava Edge", "Maiden Cloth", "Shrine Maiden's Purity Cloth", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["", "Tír na nÓg Dagger", "", "Empress Robe", "", "Mermaid Princess' Spirit Tear"]
   },
+  "oedo_kuuka": {
+    "name": "Kuuka",
+    "thematic": "Oedo",
+    "name_jp": "クウカ",
+    "thematic_jp": "オーエド",
+    "rank_1": ["Fragrant Wood Wand", "Fashionable Beret", "Leather Overalls", "Leather Boots", "Protective Pendant", "Protective Pendant"],
+    "rank_2": ["Nun's Hood", "Doctorless Staff", "Spring Color Robe", "Crown Boots", "Protective Pendant", "Protective Pendant"],
+    "rank_3": ["Celestial Sphere Watcher", "Nun's Hood", "Nordic Robe", "Hunting Boots", "Jewel of Love", "Jewel of Love"],
+    "rank_4": ["Flower Bud Wand", "Witch Headband", "Witch Headband", "Emerald Earrings", "Victory Friendship Bracelet", "Victory Friendship Bracelet"],
+    "rank_5": ["Devil's Horn", "Witch Hat", "Cupid Robe", "Witch Palace Boots", "Emerald Earrings", "Emerald Earrings"],
+    "rank_6": ["Moon Wand", "Lion King's Protective Charm", "Philosopher's Robe", "Witch Palace Boots", "Cupid Robe", "Octogram Pendant"],
+    "rank_7": ["Rod of Life", "Grand Magician's Robe", "Wizard Boots", "Lion King's Protective Charm", "Lion King's Protective Charm", "Octogram Pendant"],
+    "rank_8": ["Phoenix Rod", "Rod of Life", "Saint's Robe", "Wizard Boots", "Bangle of Substitution", "Lion King's Protective Charm"],
+    "rank_9": ["High Angel Rod", "Phoenix Rod", "Gospel Tiara", "Saint's Robe", "Moon Bracelet", "Bangle of Substitution"],
+    "rank_10": ["Flame Rod", "High Angel Rod", "Viridian Spiritual Dress", "Necromancer Boots", "Congregation Pendant", "Moon Bracelet"],
+    "rank_11": ["Divine Blossom Rod", "Flame Rod", "Mourning Crown", "Aquarius Boots", "Fairy King's Guardian Stone", "Congregation Pendant"],
+    "rank_12": ["Atlantis Rod", "Divine Blossom Rod", "Maiden Cloth", "Shrine Maiden's Purity Cloth", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
+    "rank_13": ["", "Atlantis Rod", "", "Empress Robe", "", "Mermaid Princess' Spirit Tear"]
+  },
   "kyaru": {
     "name": "Kyaru",
     "thematic": "",
@@ -967,6 +986,25 @@
     "rank_11": ["Flowing Azure Blade", "Hundred White Blossom Petals Sword", "Azure Armor", "Phoenix Sword", "Millennium Earrings", "Cat God Pendant"],
     "rank_12": ["Blood Raven Sword", "Flowing Azure Blade", "Holy Sakura's Armor", "Hundred White Blossom Petals Sword", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["", "Blood Raven Sword", "", "Flowing Azure Blade", "", "Fury Dragon Pendant"]
+  },
+  "oedo_ninon": {
+    "name": "Ninon",
+    "thematic": "Oedo",
+    "name_jp": "ニノン",
+    "thematic_jp": "オーエド",
+    "rank_1": ["", "", "", "", "", ""],
+    "rank_2": ["", "", "", "", "", ""],
+    "rank_3": ["", "", "", "", "", ""],
+    "rank_4": ["", "", "", "", "", ""],
+    "rank_5": ["", "", "", "", "", ""],
+    "rank_6": ["", "", "", "", "", ""],
+    "rank_7": ["", "", "", "", "", ""],
+    "rank_8": ["", "", "", "", "", ""],
+    "rank_9": ["", "", "", "", "", ""],
+    "rank_10": ["", "", "", "", "", ""],
+    "rank_11": ["", "", "", "", "", ""],
+    "rank_12": ["", "", "", "", "", ""],
+    "rank_13": ["", "", "", "", "", ""]
   },
   "nozomi": {
     "name": "Nozomi",
