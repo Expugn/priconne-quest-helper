@@ -185,7 +185,7 @@
         }
         else
         {
-            item_array.push("");
+            item_array.push("Placeholder");
         }
 
         write_data();
@@ -219,47 +219,47 @@
             let item_5 = (item_array[i+4] === undefined ? "" : item_array[i+4]);
             let item_6 = (item_array[i+5] === undefined ? "" : item_array[i+5]);
 
-            data_string += "\"" + item_1 + "\", ";
-            data_string += "\"" + item_2 + "\", ";
-            data_string += "\"" + item_3 + "\", ";
-            data_string += "\"" + item_4 + "\", ";
-            data_string += "\"" + item_5 + "\", ";
-            data_string += "\"" + item_6 + "\"],\n";
+            data_string += "\"" + ((item_1 === "Placeholder") ? "" : item_1) + "\", ";
+            data_string += "\"" + ((item_2 === "Placeholder") ? "" : item_2) + "\", ";
+            data_string += "\"" + ((item_3 === "Placeholder") ? "" : item_3) + "\", ";
+            data_string += "\"" + ((item_4 === "Placeholder") ? "" : item_4) + "\", ";
+            data_string += "\"" + ((item_5 === "Placeholder") ? "" : item_5) + "\", ";
+            data_string += "\"" + ((item_6 === "Placeholder") ? "" : item_6) + "\"],\n";
 
             result_html += "<tr>";
 
             // INSERT ITEM IMAGE
-            result_html += "<th class=\"item-image\">";
+            result_html += "<th class=\"item-image" + ((item_1 !== "") ? "" : " low-opacity") + "\">";
             result_html += "<img id=\"" + item_1.split(' ').join('_') + "\" " +
-                "class=\"item-image\" " +
+                "class=\"item-image" + ((item_1 !== "") ? "" : " low-opacity") + "\" " +
                 "title=\"" + item_1 + "\" " +
                 "src=\"../../../" + get_item_image_path(((item_1 !== "") ? item_1.split(' ').join('_') : "Placeholder"))  + "\" " +
                 "alt=\"\">";
-            result_html += "<th class=\"item-image\">";
+            result_html += "<th class=\"item-image" + ((item_2 !== "") ? "" : " low-opacity") + "\">";
             result_html += "<img id=\"" + item_2.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_2 + "\" " +
                 "src=\"../../../" + get_item_image_path(((item_2 !== "") ? item_2.split(' ').join('_') : "Placeholder")) + "\" " +
                 "alt=\"\">";
-            result_html += "<th class=\"item-image\">";
+            result_html += "<th class=\"item-image" + ((item_3 !== "") ? "" : " low-opacity") + "\">";
             result_html += "<img id=\"" + item_3.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_3 + "\" " +
                 "src=\"../../../" + get_item_image_path(((item_3 !== "") ? item_3.split(' ').join('_') : "Placeholder")) + "\" " +
                 "alt=\"\">";
-            result_html += "<th class=\"item-image\">";
+            result_html += "<th class=\"item-image" + ((item_4 !== "") ? "" : " low-opacity") + "\">";
             result_html += "<img id=\"" + item_4.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_4 + "\" " +
                 "src=\"../../../" + get_item_image_path(((item_4 !== "") ? item_4.split(' ').join('_') : "Placeholder")) + "\" " +
                 "alt=\"\">";
-            result_html += "<th class=\"item-image\">";
+            result_html += "<th class=\"item-image" + ((item_5 !== "") ? "" : " low-opacity") + "\">";
             result_html += "<img id=\"" + item_5.split(' ').join('_') + "\" " +
-                "class=\"item-image\" " +
+                "class=\"item-image " + get_item_image_path(((item_5 !== "") ? "" : " low-opacity")) + "\" " +
                 "title=\"" + item_5 + "\" " +
                 "src=\"../../../" + get_item_image_path(((item_5 !== "") ? item_5.split(' ').join('_') : "Placeholder")) + "\" " +
                 "alt=\"\">";
-            result_html += "<th class=\"item-image\">";
+            result_html += "<th class=\"item-image" + ((item_6 !== "") ? "" : " low-opacity") + "\">";
             result_html += "<img id=\"" + item_6.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_6 + "\" " +
@@ -287,34 +287,34 @@
         let subdrop_5 = (item_array[7] === undefined ? "" : item_array[7]);
         let character_shard = (item_array[8] === undefined ? "" : item_array[8]);
 
-        data_string += "\"item_1\": {\"item_name\": \"" + item_1 + "\", \"drop_percent\": " + document.getElementById("item-1").value + "},\n";
-        data_string += "\"item_2\": {\"item_name\": \"" + item_2 + "\", \"drop_percent\": " + document.getElementById("item-2").value + "},\n";
-        data_string += "\"item_3\": {\"item_name\": \"" + item_3 + "\", \"drop_percent\": " + document.getElementById("item-3").value + "},\n";
-        data_string += (character_shard === "") ? "" : "\"char_shard\": {\"item_name\": \"" + character_shard + "\", \"drop_percent\": " + document.getElementById("char-shard").value + "},\n";
-        data_string += "\"subdrops\": [ \"" + subdrop_1 + "\", " +
-                                        "\"" + subdrop_2 + "\", " +
-                                        "\"" + subdrop_3 + "\", " +
-                                        "\"" + subdrop_4 + "\", " +
-                                        "\"" + subdrop_5 + "\" ]";
+        data_string += "\"item_1\": {\"item_name\": \"" + ((item_1 === "Placeholder") ? "" : item_1) + "\", \"drop_percent\": " + document.getElementById("item-1").value + "},\n";
+        data_string += "\"item_2\": {\"item_name\": \"" + ((item_2 === "Placeholder") ? "" : item_2) + "\", \"drop_percent\": " + document.getElementById("item-2").value + "},\n";
+        data_string += "\"item_3\": {\"item_name\": \"" + ((item_3 === "Placeholder") ? "" : item_3) + "\", \"drop_percent\": " + document.getElementById("item-3").value + "},\n";
+        data_string += (character_shard === "") ? "" : "\"char_shard\": {\"item_name\": \"" + ((character_shard === "Placeholder") ? "" : character_shard) + "\", \"drop_percent\": " + document.getElementById("char-shard").value + "},\n";
+        data_string += "\"subdrops\": [ \"" + ((subdrop_1 === "Placeholder") ? "" : subdrop_1) + "\", " +
+                                        "\"" + ((subdrop_2 === "Placeholder") ? "" : subdrop_2) + "\", " +
+                                        "\"" + ((subdrop_3 === "Placeholder") ? "" : subdrop_3) + "\", " +
+                                        "\"" + ((subdrop_4 === "Placeholder") ? "" : subdrop_4) + "\", " +
+                                        "\"" + ((subdrop_5 === "Placeholder") ? "" : subdrop_5) + "\" ]";
 
         let result_html = "<tbody>";
         // ITEM 1-3
         result_html += "<tr>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + item_1.split(' ').join('_') + "\" " +
-            "class=\"item-image\" " +
+            "class=\"item-image" + ((item_1 !== "") ? "" : " low-opacity") + "\" " +
             "title=\"" + item_1 + "\" " +
             "src=\"../../../" + get_item_image_path(((item_1 !== "") ? item_1.split(' ').join('_') : "Placeholder")) + "\" " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + item_2.split(' ').join('_') + "\" " +
-            "class=\"item-image\" " +
+            "class=\"item-image" + ((item_2 !== "") ? "" : " low-opacity") + "\" " +
             "title=\"" + item_2 + "\" " +
             "src=\"../../../" + get_item_image_path(((item_2 !== "") ? item_2.split(' ').join('_') : "Placeholder")) + "\" " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + item_3.split(' ').join('_') + "\" " +
-            "class=\"item-image\" " +
+            "class=\"item-image" + ((item_3 !== "") ? "" : " low-opacity") + "\" " +
             "title=\"" + item_3 + "\" " +
             "src=\"../../../" + get_item_image_path(((item_3 !== "") ? item_3.split(' ').join('_') : "Placeholder")) + "\" " +
             "alt=\"\"></th>";
@@ -324,7 +324,7 @@
         {
             result_html += "<th class=\"item-image\">";
             result_html += "<img id=\"" + character_shard.split(' ').join('_') + "\" " +
-                "class=\"item-image\" " +
+                "class=\"item-image" + ((character_shard !== "") ? "" : " low-opacity") + "\" " +
                 "title=\"" + character_shard + "\" " +
                 "src=\"../../../" + get_item_image_path(((character_shard !== "") ? character_shard.split(' ').join('_') : "Placeholder")) + "\" " +
                 "alt=\"\"></th>";
@@ -335,31 +335,31 @@
         result_html += "<tr>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + subdrop_1.split(' ').join('_') + "\" " +
-            "class=\"item-image\" " +
+            "class=\"item-image" + ((subdrop_1 !== "") ? "" : " low-opacity") + "\" " +
             "title=\"" + subdrop_1 + "\" " +
             "src=\"../../../" + get_item_image_path(((subdrop_1 !== "") ? subdrop_1.split(' ').join('_') : "Placeholder")) + "\" " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + subdrop_2.split(' ').join('_') + "\" " +
-            "class=\"item-image\" " +
+            "class=\"item-image" + ((subdrop_2 !== "") ? "" : " low-opacity") + "\" " +
             "title=\"" + subdrop_2 + "\" " +
             "src=\"../../../" + get_item_image_path(((subdrop_2 !== "") ? subdrop_2.split(' ').join('_') : "Placeholder")) + "\" " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + subdrop_3.split(' ').join('_') + "\" " +
-            "class=\"item-image\" " +
+            "class=\"item-image" + ((subdrop_3 !== "") ? "" : " low-opacity") + "\" " +
             "title=\"" + subdrop_3 + "\" " +
             "src=\"../../../" + get_item_image_path(((subdrop_3 !== "") ? subdrop_3.split(' ').join('_') : "Placeholder")) + "\" " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + subdrop_4.split(' ').join('_') + "\" " +
-            "class=\"item-image\" " +
+            "class=\"item-image" + ((subdrop_4 !== "") ? "" : " low-opacity") + "\" " +
             "title=\"" + subdrop_4 + "\" " +
             "src=\"../../../" + get_item_image_path(((subdrop_4 !== "") ? subdrop_4.split(' ').join('_') : "Placeholder")) + "\" " +
             "alt=\"\">";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + subdrop_5.split(' ').join('_') + "\" " +
-            "class=\"item-image\" " +
+            "class=\"item-image" + ((subdrop_5 !== "") ? "" : " low-opacity") + "\" " +
             "title=\"" + subdrop_5 + "\" " +
             "src=\"../../../" + get_item_image_path(((subdrop_5 !== "") ? subdrop_5.split(' ').join('_') : "Placeholder")) + "\" " +
             "alt=\"\"></th>";
