@@ -2349,5 +2349,127 @@
     "char_shard": {"item_name": "Jun Shard", "drop_percent": 54},
     "subdrops": [ "Chaos Blade Fragment", "Lightning Fist Fragment", "Firelord's Ring Fragment", "High Devil Wand Fragment", "Viridian Spiritual Dress Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "23-1": {
+    "item_1": {"item_name": "Cocytus Nail Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Blood Raven Sword Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Holy Sakura's Armor Fragment", "drop_percent": 24},
+    "subdrops": [ "Great Sage Gem Fragment", "Dark Terror Dress Fragment", "Aqua Slasher Fragment", "Cat God Pendant Fragment", "Chaos Blade Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "23-2": {
+    "item_1": {"item_name": "Lightning Wand Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Tír na nÓg Dagger Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Holy Prayer's Crown Fragment", "drop_percent": 24},
+    "subdrops": [ "Chaos Blade Fragment", "Lightning Fist Fragment", "Firelord's Ring Fragment", "High Devil Wand Fragment", "Viridian Spiritual Dress Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "23-3": {
+    "item_1": {"item_name": "Atlantis Rod Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Great Sword of Sin Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Infernal Greaves Fragment", "drop_percent": 24},
+    "subdrops": [ "High Angel Rod Fragment", "Phoenix Sword Fragment", "Spirit Tree Bow Fragment", "Scarlet Mail Fragment", "Faireal Boots Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "23-4": {
+    "item_1": {"item_name": "Glorious King's Shield Bangle Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Heavenly Red Bow Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Maiden Cloth Fragment", "drop_percent": 24},
+    "subdrops": [ "Congregation Pendant Fragment", "Unicorn Knife Fragment", "Gaia Bardiche Fragment", "Dragonic Armor Fragment", "Aquarius Boots Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "23-5": {
+    "item_1": {"item_name": "Sophos Bracelet Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Heaven's Protective Holy Spear Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Nine Heavens' Armor Fragment", "drop_percent": 24},
+    "subdrops": [ "Great Sage Gem Fragment", "Dark Terror Dress Fragment", "Aqua Slasher Fragment", "Cat God Pendant Fragment", "Chaos Blade Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "23-6": {
+    "item_1": {"item_name": "War God's Arm Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Gaia Axe Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Infernal Greaves Fragment", "drop_percent": 24},
+    "subdrops": [ "Chaos Blade Fragment", "Lightning Fist Fragment", "Firelord's Ring Fragment", "High Devil Wand Fragment", "Viridian Spiritual Dress Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "23-7": {
+    "item_1": {"item_name": "Glorious King's Shield Bangle Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Cocytus Nail Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Empress Robe Fragment", "drop_percent": 24},
+    "subdrops": [ "High Angel Rod Fragment", "Phoenix Sword Fragment", "Spirit Tree Bow Fragment", "Scarlet Mail Fragment", "Faireal Boots Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "23-8": {
+    "item_1": {"item_name": "Sophos Bracelet Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Tír na nÓg Dagger Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Maiden Cloth Fragment", "drop_percent": 24},
+    "subdrops": [ "Congregation Pendant Fragment", "Unicorn Knife Fragment", "Gaia Bardiche Fragment", "Dragonic Armor Fragment", "Aquarius Boots Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "23-9": {
+    "item_1": {"item_name": "War God's Arm Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Lightning Wand Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Holy Prayer's Crown Fragment", "drop_percent": 24},
+    "subdrops": [ "Great Sage Gem Fragment", "Dark Terror Dress Fragment", "Aqua Slasher Fragment", "Cat God Pendant Fragment", "Chaos Blade Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "23-10": {
+    "item_1": {"item_name": "Glorious King's Shield Bangle Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Blood Raven Sword Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Infernal Greaves Fragment", "drop_percent": 24},
+    "subdrops": [ "Chaos Blade Fragment", "Lightning Fist Fragment", "Firelord's Ring Fragment", "High Devil Wand Fragment", "Viridian Spiritual Dress Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "23-11": {
+    "item_1": {"item_name": "Sophos Bracelet Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Great Sword of Sin Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Holy Sakura's Armor Fragment", "drop_percent": 24},
+    "subdrops": [ "High Angel Rod Fragment", "Phoenix Sword Fragment", "Spirit Tree Bow Fragment", "Scarlet Mail Fragment", "Faireal Boots Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "23-12": {
+    "item_1": {"item_name": "Glorious King's Shield Bangle Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "War God's Arm Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Tír na nÓg Dagger Fragment", "drop_percent": 24},
+    "subdrops": [ "Congregation Pendant Fragment", "Unicorn Knife Fragment", "Gaia Bardiche Fragment", "Dragonic Armor Fragment", "Aquarius Boots Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "23-13": {
+    "item_1": {"item_name": "Sophos Bracelet Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Glorious King's Shield Bangle Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Gaia Axe Fragment", "drop_percent": 24},
+    "subdrops": [ "Great Sage Gem Fragment", "Dark Terror Dress Fragment", "Aqua Slasher Fragment", "Cat God Pendant Fragment", "Chaos Blade Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "23-14": {
+    "item_1": {"item_name": "War God's Arm Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Sophos Bracelet Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Lightning Wand Fragment", "drop_percent": 24},
+    "subdrops": [ "Chaos Blade Fragment", "Lightning Fist Fragment", "Firelord's Ring Fragment", "High Devil Wand Fragment", "Viridian Spiritual Dress Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "23-1H": {
+    "item_1": {"item_name": "Sophos Bracelet Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Heaven's Protective Holy Spear Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Maiden Cloth Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Kokkoro Shard", "drop_percent": 54},
+    "subdrops": [ "Congregation Pendant Fragment", "Unicorn Knife Fragment", "Gaia Bardiche Fragment", "Dragonic Armor Fragment", "Aquarius Boots Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "23-22H": {
+    "item_1": {"item_name": "Glorious King's Shield Bangle Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Gaia Axe Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Fury Dragon Pendant Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Mimi Shard", "drop_percent": 54},
+    "subdrops": [ "High Angel Rod Fragment", "Phoenix Sword Fragment", "Spirit Tree Bow Fragment", "Scarlet Mail Fragment", "Faireal Boots Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "23-23H": {
+    "item_1": {"item_name": "War God's Arm Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Great Sword of Sin Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Infernal Greaves Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Shizuru Shard", "drop_percent": 54},
+    "subdrops": [ "Chaos Blade Fragment", "Lightning Fist Fragment", "Firelord's Ring Fragment", "High Devil Wand Fragment", "Viridian Spiritual Dress Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   }
 }
