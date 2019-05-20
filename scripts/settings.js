@@ -305,7 +305,7 @@ function toggle_simple_mode()
             $("body").toggleClass("no-background-body");
             $("body").toggleClass("fancy-body");
 
-            document.getElementById("fancy-page-link").style.display = "block";
+            document.getElementById("fancy-page-link").style.display = "inline";
             //document.getElementById("simple-or-fancy-text").innerHTML = "[Let's Make it Fancy]";
             //document.getElementById("simple-or-fancy-text").href = "#fancy";
 
@@ -313,14 +313,14 @@ function toggle_simple_mode()
         }
         else
         {
-            document.getElementById("simple-page-link").style.display = "block";
+            document.getElementById("simple-page-link").style.display = "inline";
             //document.getElementById("simple-or-fancy-text").innerHTML = "[Let's Keep it Simple]";
             //document.getElementById("simple-or-fancy-text").href = "#simple";
         }
     }
     else
     {
-        document.getElementById("simple-page-link").style.display = "block";
+        document.getElementById("simple-page-link").style.display = "inline";
         //document.getElementById("simple-or-fancy-text").innerHTML = "[Let's Keep it Simple]";
         //document.getElementById("simple-or-fancy-text").href = "#simple";
     }
