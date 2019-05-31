@@ -67,6 +67,7 @@ The following can be submitted via `GitHub's Issue Tracker` or told to me (`S'pu
 #### Images
 - `AssetStudio`: [Github](https://github.com/Perfare/AssetStudio)<br>
   - Using the `DMM Game Player` version of `Princess Connect! Re:Dive`
+      - Game Folder: `C:\Users\<NAME>\AppData\LocalLow\Cygames\PrincessConnectReDive` (Windows 10)
 - `Jiuhin#7786`
 
 
