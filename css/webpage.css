@@ -364,3 +364,27 @@ img.footer {
 .no-transition {
     transition: none !important;
 }
+
+.hyperlink-image, .hyperlink-text {
+    display: inline;
+    position: absolute;
+    left: 0; right: 0;
+    text-align: center;
+}
+
+.hyperlink-image {
+    display: inline-block;
+    position: relative;
+}
+
+.hyperlink-text {
+    font-family: 'Trebuchet MS', Arial, serif;
+    font-size: 22px;
+    text-shadow: 1px 1px 4px #000000,
+                    1px 1px 4px #000000,
+                    1px 1px 4px #000000,
+                    1px 1px 4px #000000;
+    color: white;
+    white-space: nowrap;
+    bottom: 33%;
+}
