@@ -66,9 +66,8 @@
     </div>
 
     <div id="all-export-elements" style="display: none">
-        <h2 class='align-center'>Export Options</h2>
         <div id="export-settings" style="overflow-x: auto;">
-
+            <h2 class='align-center'>Export Options</h2>
             <table class="center">
                 <tbody>
                 <tr class="export">
@@ -166,10 +165,19 @@
 
     function send_data_to_heroku(content)
     {
-        receiverWindow.postMessage(location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: ''), heroku_url);
-        receiverWindow.postMessage(content, heroku_url);
-        receiverWindow.postMessage(sample_text, heroku_url);
-        receiverWindow.postMessage("priconne_gist", heroku_url);
+        try
+        {
+            receiverWindow.postMessage(location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: ''), heroku_url);
+            receiverWindow.postMessage(content, heroku_url);
+            receiverWindow.postMessage(sample_text, heroku_url);
+            receiverWindow.postMessage("priconne_gist", heroku_url);
+        }
+        catch (err)
+        {
+            document.getElementById("export-failure").innerHTML = "<h2 class='align-center'>Failed to Send Data!<br>Refresh the page and try again.</h2>";
+            document.getElementById("all-export-elements").style.display = "none";
+            document.getElementById("export-failure").style.display = "block";
+        }
     }
 
     toastr.warning("Loading...", "Status", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
@@ -248,6 +256,9 @@
     {
         // DISABLE GENERATE URL BUTTON SO USER DOESN'T SPAM IT
         document.getElementById("generate-url-button").disabled = true;
+        document.getElementById("include-projects").disabled = true;
+        document.getElementById("include-blacklist").disabled = true;
+        document.getElementById("include-settings").disabled = true;
         sample_text += gist_id_value + gist_color_code;
 
         // TEST IF RATE LIMITED HERE
