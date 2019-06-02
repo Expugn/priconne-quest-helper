@@ -57,7 +57,7 @@ function update_selected_character_preset_details()
             let tl_thematic = character_thematic.replace(" ", "_").toLowerCase();
 
             character_thematic_tl = language_json["thematics"][tl_thematic];
-            character_tl = language_json["character_names"][tl_name] + ((character_thematic_tl === "") ? "" : "(" + character_thematic_tl + ")");
+            character_tl = language_json["character_names"][tl_name] + ((character_thematic === "") ? "" : " (" + character_thematic_tl + ")");
         }
 
 

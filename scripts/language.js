@@ -57,7 +57,7 @@ function change_language()
         let text_value = split_request[1];
 
         if (text_category === "system" && text_value === "made_with_love") {
-            language_json[text_category][text_value] = language_json[text_category][text_value].replace("${author}", project_author); }
+            language_json[text_category][text_value] = language_json[text_category][text_value].replace("${project_author}", project_author); }
 
         if (text_category === "system" && text_value === "last_quest_update") {
             language_json[text_category][text_value] = language_json[text_category][text_value].replace("${last_update_date}", last_update_date);
