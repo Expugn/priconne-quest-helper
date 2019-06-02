@@ -1,0 +1,227 @@
+{
+  "system": {
+    "title": "Princess Connect! Re:Dive",
+    "subtitle": "Quest Helper",
+
+    "required_ingredients_title": "Required Ingredients",
+    "required_ingredients_help_1": "The items and amount you need to create your requested items will be displayed here.",
+    "required_ingredients_help_2": "Tapping on an item displayed in here will toggle if it is <span style='color: darkorange'>disabled</span> or not.",
+    "required_ingredients_help_3": "<span style='color: orange'>Disabled</span> items will <span style='color: salmon; font-style: italic'>not</span> appear in the <span style='color: yellow'>Recommended Quest</span> list.",
+
+    "recommended_quest_title": "Recommended Quests",
+    "recommended_quest_help_1": "Suggested quests to complete will be shown here once you start selecting items.",
+    "recommended_quest_help_2": "Quests are sorted by <span style='color: yellow'>the amount of items you can collect from the quest</span> that you need, starting from chapter 1.",
+    "recommended_quest_help_3": "Up to <span style='color: #6DFF7F'>ten</span> quests will be shown at a time by default.",
+
+    "made_with_love": "Made With <span style='color:#ff4d4d'>❤</span> By ${project_author}",
+    "last_quest_update": "Last Quest Update: <span style='color: #6DFF7F'>${last_update_date}</span>"
+  },
+
+  "items_tab": {
+    "tab_title": "Items",
+
+    "common_title": "Common",
+    "copper_title": "Copper",
+    "silver_title": "Silver",
+    "gold_title": "Gold",
+    "purple_title": "Purple",
+    "misc_title": "Misc.",
+
+    "requested_items_title": "Requested Items",
+    "requested_items_help_1": "The items and amount you selected from the categories above will be displayed here.",
+    "requested_items_help_2": "Clicking on the category title will open or close a table of all the items in that rarity class."
+  },
+
+  "presets_tab": {
+    "tab_title": "Presets",
+
+    "character_presets": "Character Presets",
+
+    "characters_select_option": "[Character...]",
+
+    "minimum_rank": "Min Rank",
+    "to": "to",
+    "maximum_rank": "Max Rank",
+
+    "load_items_button": "Load Items",
+
+    "overwrite_warning": "Currently selected items will be replaced<br>when the <span style='color: lightpink'>Load Item</span> button is pressed."
+  },
+
+  "projects_tab": {
+    "tab_title": "Projects",
+
+    "localstorage_warning": "Your browser does not support LocalStorage.<br>Projects, Blacklist, Data Importing/Exporting, and Settings Saving have been disabled.",
+
+    "project_name_label": "Project Name:",
+    "save_project_button": "Save Project",
+
+    "select_saved_project_label": "Select Saved Project:",
+    "all_projects_select_option": "[All Projects...]",
+
+    "load_project_button": "Load Project",
+    "add_project_items_button": "Add Project Items",
+    "subtract_project_items_button": "Subtract Project Items",
+    "delete_project_button": "Delete Project",
+
+    "clear_item_tables_button": "Clear Item Tables",
+
+    "save_blacklist_button": "Save Blacklist",
+    "load_saved_blacklist_button": "Load Saved Blacklist",
+    "no_saved_blacklist_message": "There is no saved blacklist.",
+    "clear_blacklist_button": "Clear Blacklist",
+    "delete_blacklist_button": "Delete Blacklist",
+
+    "blacklist_selected_rarities_button": "Blacklist Selected Rarities"
+  },
+
+  "settings_tab": {
+    "tab_title": "Settings",
+
+    "amount_of_quests_shown": "Amount of Quests Shown (10 - 999):",
+    "sort_by_ascending_quest_list": "Sort by Ascending: Quest List (Chapter 1 -> Chapter 2 -> ...)",
+    "sort_by_ascending_quest_score": "Sort by Ascending: Quest Score (0.5 -> 0.75 -> ...)",
+    "hide_quest_score": "Hide Quest Score",
+    "lowest_quest_score_displayed": "Lowest Quest Score Displayed:",
+    "highest_quest_score_displayed": "Highest Quest Score Displayed:",
+    "show_all_quests": "Show All Quests",
+    "show_normal_quests": "Show Normal Quests",
+    "show_hard_quests": "Show Hard Quests",
+    "items_displayed_per_row": "Items Displayed per Row (1 - 15):",
+    "ignore_item_rarity_in_recipe": "Ignore Item Rarity in Recipe:",
+
+    "save_settings": "Save Settings to Local Storage",
+    "save_settings_button": "Save Settings",
+
+    "delete_settings": "Delete Settings From Local Storage",
+    "delete_settings_button": "Delete Settings",
+
+    "reset_settings": "Reset Settings to System Default if Saved Data does not Exist, or to Saved Data",
+    "reset_settings_button": "Reset Settings",
+
+    "display_saved_settings": "Display Saved Settings",
+    "display_saved_settings_button": "Read Saved Settings"
+  },
+
+  "other_tab": {
+    "tab_title": "Other",
+
+    "update_in_progress": "Update in Progress!",
+    "normal_quests": "Normal Quests",
+    "hard_quests": "Hard Quests",
+    "equipment_data": "Equipment Data",
+    "equipment_selection": "Equipment Selection",
+    "en_translated_names": "English Translated Names",
+    "updated_rank_equipment": "Updated Rank Equipment",
+
+    "other_pages_title": "Other Pages",
+    "quest_data": "Quest Data",
+    "recipe_data": "Recipe Data",
+    "character_data": "Character Data",
+    "github": "GitHub",
+    "simple_mode": "Simple Mode",
+    "fancy_mode": "Fancy Mode",
+    "help": "Help (Wiki)",
+
+    "data_management_title": "Data Management",
+    "export_saved_data": "Export Saved Data"
+  },
+
+  "toasts": {
+    "project_saved": "Project \"${project_name}\" has been ${status}!",
+    "overwritten_status": "overwritten",
+    "saved_status": "saved",
+
+    "project_deleted": "Project \"${project_name}\" has been deleted!",
+
+    "blacklist_saved": "The item blacklist has been saved!",
+    "blacklist_cleared": "The item blacklist has been cleared!",
+    "blacklist_empty": "The item blacklist is empty.",
+    "blacklist_deleted": "The blacklist has been deleted.",
+    "no_saved_blacklist": "There is no saved item blacklist.",
+
+    "blacklisted_rarities": "The Following Rarities Have Been Blacklisted:",
+    "no_rarities_selected": "You did not select any rarities.",
+
+    "settings_saved": "Your settings have been saved!",
+    "settings_deleted": "Your saved settings have been deleted.",
+    "no_settings_saved": "You did not save any settings.",
+    "settings_reset": "Settings have been reset."
+  },
+
+  "character_names": {
+    "akari": "Akari",
+    "akino": "Akino",
+    "anne": "Anne",
+    "anna": "Anna",
+    "aoi": "Aoi",
+    "arisa": "Arisa",
+    "ayane": "Ayane",
+    "ayumi": "Ayumi",
+    "chika": "Chika",
+    "christina": "Christina",
+    "djeeta": "Djeeta",
+    "emilia": "Emilia",
+    "eriko": "Eriko",
+    "grea": "Grea",
+    "hatsune": "Hatsune",
+    "hiyori": "Hiyori",
+    "ilya": "Ilya",
+    "io": "Io",
+    "jun": "Jun",
+    "kaori": "Kaori",
+    "kasumi": "Kasumi",
+    "kokkoro": "Kokkoro",
+    "kurumi": "Kurumi",
+    "kuuka": "Kuuka",
+    "kyaru": "Kyaru",
+    "kyouka": "Kyouka",
+    "lou": "Lou",
+    "mahiru": "Mahiru",
+    "maho": "Maho",
+    "makoto": "Makoto",
+    "matsuri": "Matsuri",
+    "mifuyu": "Mifuyu",
+    "mimi": "Mimi",
+    "misaki": "Misaki",
+    "misato": "Misato",
+    "misogi": "Misogi",
+    "mitsuki": "Mitsuki",
+    "miyako": "Miyako",
+    "monika": "Monika",
+    "muimi": "Muimi",
+    "nanaka": "Nanaka",
+    "ninon": "Ninon",
+    "nozomi": "Nozomi",
+    "pecorine": "Pecorine",
+    "ram": "Ram",
+    "rei": "Rei",
+    "rem": "Rem",
+    "rima": "Rima",
+    "rin": "Rin",
+    "rino": "Rino",
+    "ruka": "Ruka",
+    "saren": "Saren",
+    "shinobu": "Shinobu",
+    "shiori": "Shiori",
+    "shizuru": "Shizuru",
+    "suzume": "Suzume",
+    "suzuna": "Suzuna",
+    "tamaki": "Tamaki",
+    "tomo": "Tomo",
+    "tsumugi": "Tsumugi",
+    "yori": "Yori",
+    "yui": "Yui",
+    "yukari": "Yukari",
+    "yuki": "Yuki"
+  },
+
+  "thematics": {
+    "christmas": "Christmas",
+    "halloween": "Halloween",
+    "new_year": "New Year",
+    "oedo": "Oedo",
+    "summer": "Summer",
+    "valentine": "Valentine"
+  }
+}

@@ -21,6 +21,9 @@ function loadingToast()
     {
         toastr.remove();
         toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: true });
+
+        // ENABLE LANGUAGE SWITCH TO BE USED
+        document.getElementById("language-option").disabled = false;
     }
 
     if (collapsible_failed === true || item_table_failed === true)

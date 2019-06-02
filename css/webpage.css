@@ -46,6 +46,24 @@ body.no-background-body {
     color: white;
 }
 
+.topnav select {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+    border: none;
+    background-color: #30333d;
+    color: white;
+}
+
+.topnav select:hover {
+    background-color: #4f4f4f;
+    color: white;
+    cursor: pointer;
+}
+
 div.div-background-title.png {
     background-image: url("./../images/webpage/still_108200401_blur_2.png");
 

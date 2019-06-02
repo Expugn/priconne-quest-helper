@@ -101,7 +101,19 @@ function save_project_data()
     document.getElementById("saved-projects-select").value = project_name;
     disable_add_and_sub_buttons(false);
 
-    toastr.success("Project \"" + project_name + "\" has been " + (project_name_exists ? "overwritten!" : "saved!"));
+    if (current_language === "en")
+    {
+        toastr.success("Project \"" + project_name + "\" has been " + (project_name_exists ? "overwritten!" : "saved!"));
+    }
+    else
+    {
+        let translated_toast = language_json["toasts"]["project_saved"];
+        translated_toast = translated_toast.replace("${project_name}", project_name);
+        translated_toast = (project_name_exists ?
+            translated_toast.replace("${status}", language_json["toasts"]["overwritten_status"]) :
+            translated_toast.replace("${status}", language_json["toasts"]["saved_status"]));
+        toastr.success(translated_toast);
+    }
     console.log("[Projects] - \"" + project_name + "\"'s data has been saved.");
 }
 
@@ -229,7 +241,16 @@ function delete_project_data()
     update_saved_projects_select();
     disable_add_and_sub_buttons(true);
 
-    toastr.success("Project \"" + project_name + "\" has been deleted!");
+    if (current_language === "en")
+    {
+        toastr.success("Project \"" + project_name + "\" has been deleted!");
+    }
+    else
+    {
+        let translated_toast = language_json["toasts"]["project_deleted"];
+        translated_toast = translated_toast.replace("${project_name}", project_name);
+        toastr.success(translated_toast);
+    }
     console.log("[Projects] - Deleted \"" + project_name + "\"'s data.");
 }
 
@@ -395,7 +416,14 @@ function save_blacklist()
     }
     document.getElementById("blacklist-load-button").title = ((disabled_items.length > 0) ? button_title_string : "The saved blacklist is empty.");
 
-    toastr.success("The item blacklist has been saved!");
+    if (current_language === "en")
+    {
+        toastr.success("The item blacklist has been saved!");
+    }
+    else
+    {
+        toastr.success(language_json["toasts"]["blacklist_saved"]);
+    }
     console.log("[Blacklist] - The blacklist has been saved.");
 }
 
@@ -415,29 +443,58 @@ function clear_blacklist()
 
         refresh_quest_table();
 
-        toastr.success("The item blacklist has been cleared!");
+        if (current_language === "en")
+        {
+            toastr.success("The item blacklist has been cleared!");
+        }
+        else
+        {
+            toastr.success(language_json["toasts"]["blacklist_cleared"]);
+        }
         console.log("[Blacklist] - The blacklist has been cleared.");
     }
     else
     {
-        toastr.error("The item blacklist is empty.");
+        if (current_language === "en")
+        {
+            toastr.error("The item blacklist is empty.");
+        }
+        else
+        {
+            toastr.error(language_json["toasts"]["blacklist_empty"]);
+        }
         console.log("[Blacklist] - The blacklist is already empty.");
     }
 }
 
 function delete_blacklist()
 {
+
     if (localStorage.getItem('blacklist') !== null)
     {
         localStorage.removeItem('blacklist');
         document.getElementById("blacklist-load-button").title = "There is no saved blacklist.";
 
-        toastr.success("The item blacklist has been deleted!");
+        if (current_language === "en")
+        {
+            toastr.success("The item blacklist has been deleted!");
+        }
+        else
+        {
+            toastr.success(language_json["toasts"]["blacklist_deleted"]);
+        }
         console.log("[Blacklist] - The blacklist has been deleted.");
     }
     else
     {
-        toastr.error("There is no saved item blacklist.");
+        if (current_language === "en")
+        {
+            toastr.error("There is no saved item blacklist.");
+        }
+        else
+        {
+            toastr.error(language_json["toasts"]["no_saved_blacklist"]);
+        }
         console.log("[Blacklist] - There is no saved item blacklist.");
     }
 }
@@ -504,11 +561,33 @@ function blacklist_selected_rarities()
         }
         refresh_quest_table();
 
-        toastr.success(rarity_array.toString(), "The Following Rarities Have Been Blacklisted:");
+        if (current_language === "en")
+        {
+            toastr.success(rarity_array.toString(), "The Following Rarities Have Been Blacklisted:");
+        }
+        else
+        {
+            let temp_rarity_array = rarity_array.toString();
+            temp_rarity_array = temp_rarity_array.replace("Common", language_json["items_tab"]["common_title"]);
+            temp_rarity_array = temp_rarity_array.replace("Copper", language_json["items_tab"]["copper_title"]);
+            temp_rarity_array = temp_rarity_array.replace("Silver", language_json["items_tab"]["silver_title"]);
+            temp_rarity_array = temp_rarity_array.replace("Gold", language_json["items_tab"]["gold_title"]);
+            temp_rarity_array = temp_rarity_array.replace("Purple", language_json["items_tab"]["purple_title"]);
+
+            toastr.success(temp_rarity_array, language_json["toasts"]["blacklisted_rarities"]);
+        }
         console.log("[Blacklist] - " + rarity_array.toString() + " rarity(s) have been blacklisted");
     }
     else
     {
-        toastr.error("You did not select any rarities.");
+        if (current_language === "en")
+        {
+            toastr.error("You did not select any rarities.");
+        }
+        else
+        {
+            toastr.error(language_json["toasts"]["no_rarities_selected"]);
+        }
+
     }
 }

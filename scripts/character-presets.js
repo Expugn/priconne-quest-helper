@@ -6,9 +6,21 @@ function build_character_preset_list()
     let character_preset_html = "<option value=\"default_character\">[Character...]</option>";
     for (let [character_id, character_data_map] of character_map)
     {
-        let character_en = character_data_map.get("name") + ((character_data_map.get("thematic") !== "") ?  (" (" + character_data_map.get("thematic") + ")") : "");
-        let character_jp = ((character_data_map.get("thematic_jp") !== "") ?  character_data_map.get("thematic_jp") : "") + character_data_map.get("name_jp");
-        character_preset_html += "<option value=\"" + character_id + "\"" + ((character_data_map.get("rank_1")[0] === "") ? " disabled" : "") + ">" + character_en + " | " + character_jp + "</option>";
+        if (current_language === "en")
+        {
+            let character_en = character_data_map.get("name") + ((character_data_map.get("thematic") !== "") ?  (" (" + character_data_map.get("thematic") + ")") : "");
+            let character_jp = ((character_data_map.get("thematic_jp") !== "") ?  character_data_map.get("thematic_jp") : "") + character_data_map.get("name_jp");
+            character_preset_html += "<option value=\"" + character_id + "\"" + ((character_data_map.get("rank_1")[0] === "") ? " disabled" : "") + ">" + character_en + " | " + character_jp + "</option>";
+        }
+        else
+        {
+            let name = character_data_map.get("name").toLowerCase();
+            let thematic = character_data_map.get("thematic").replace(" ", "_").toLowerCase();
+
+            let character_en = character_data_map.get("name") + ((character_data_map.get("thematic") !== "") ?  (" (" + character_data_map.get("thematic") + ")") : "");
+            let character_translated = language_json["character_names"][name] + ((character_data_map.get("thematic") !== "") ? " (" + language_json["thematics"][thematic] + ")" : "");
+            character_preset_html += "<option value=\"" + character_id + "\"" + ((character_data_map.get("rank_1")[0] === "") ? " disabled" : "") + ">" + character_en + " | " + character_translated + "</option>";
+        }
     }
 
     document.getElementById("character-preset-list-select").innerHTML = character_preset_html;
@@ -31,11 +43,26 @@ function update_selected_character_preset_details()
         let character_name = get_character_data(selected_character, "name");
         let character_thematic = get_character_data(selected_character, "thematic");
         let character_image_name = (character_thematic === "") ? character_name : character_thematic + "_" + character_name;
-        let character_thematic_jp = get_character_data(selected_character, "thematic_jp");
-        let character_jp = ((character_thematic_jp === "") ? "" : character_thematic_jp) + get_character_data(selected_character, "name_jp");
+        let character_thematic_tl;
+        let character_tl;
+
+        if (current_language === "en")
+        {
+            character_thematic_tl = get_character_data(selected_character, "thematic_jp");
+            character_tl = ((character_thematic_tl === "") ? "" : character_thematic_tl) + get_character_data(selected_character, "name_jp");
+        }
+        else
+        {
+            let tl_name = character_name.toLowerCase();
+            let tl_thematic = character_thematic.replace(" ", "_").toLowerCase();
+
+            character_thematic_tl = language_json["thematics"][tl_thematic];
+            character_tl = language_json["character_names"][tl_name] + ((character_thematic_tl === "") ? "" : "(" + character_thematic_tl + ")");
+        }
+
 
         document.getElementById("preset-character-image").src = get_unit_icon_image_path(character_image_name.split(' ').join('_'));
-        document.getElementById("preset-character-name-label").innerHTML = ((character_thematic === "") ? character_name : character_name + " (" + character_thematic + ")") + "<br>" + character_jp;
+        document.getElementById("preset-character-name-label").innerHTML = ((character_thematic === "") ? character_name : character_name + " (" + character_thematic + ")") + "<br>" + character_tl;
         document.getElementById("preset-character-load-button").disabled = false;
         document.getElementById("preset-character-min-rank-input").disabled = false;
         document.getElementById("preset-character-max-rank-input").disabled = false;

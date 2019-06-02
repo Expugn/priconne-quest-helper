@@ -339,7 +339,7 @@ function save_cookie()
     console.log(encrypted_setting_map);
     localStorage.setItem('settings', encrypted_setting_map);
 
-    toastr.success("Your settings have been saved!");
+    toastr.success((current_language === "en") ? "Your settings have been saved!" : language_json["toasts"]["settings_saved"]);
     console.log("[Settings] - Cookie has been baked.");
 }
 
@@ -350,12 +350,12 @@ function delete_cookie()
         /* TODO UPDATE WHENEVER A NEW SETTING IS ADDED */
         localStorage.removeItem('settings');
 
-        toastr.success("Your saved settings have been deleted.");
+        toastr.success((current_language === "en") ? "Your saved settings have been deleted." : language_json["toasts"]["settings_deleted"]);
         console.log("[Settings] - Cookie has been eaten.");
     }
     else
     {
-        toastr.error("You did not save any settings.");
+        toastr.error((current_language === "en") ? "You did not save any settings." : language_json["toasts"]["no_settings_saved"]);
     }
 }
 
@@ -427,8 +427,6 @@ function reset_settings()
     {
         // SET SYSTEM DEFAULTS
         set_settings_to_default();
-        console.log("load system defaults");
-        console.log(JSON.stringify(ignored_rarities));
     }
 
     document.getElementById("quest-shown-amt").value = quest_shown_value;
@@ -475,7 +473,7 @@ function reset_settings()
         }
     }
 
-    toastr.success("Settings have been reset.");
+    toastr.success((current_language === "en") ? "Settings have been reset." : language_json["toasts"]["settings_reset"]);
     refresh_quest_table();
     build_item_tables();
     build_data();
@@ -492,7 +490,7 @@ function read_settings()
     }
     else
     {
-        toastr.error("You did not save any settings.");
+        toastr.error((current_language === "en") ? "You did not save any settings." : language_json["toasts"]["no_settings_saved"]);
     }
 }
 

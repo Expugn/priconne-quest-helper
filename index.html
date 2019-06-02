@@ -64,6 +64,7 @@
     <script src="scripts/toastrOptions.js"></script>
     <script src="scripts/navigation-bar.js"></script>
     <script src="scripts/update-progress.js"></script>
+    <script src="scripts/language.js"></script>
 
     <!-- CSS STYLE SHEETS -->
     <link rel="stylesheet" href="css/toastr.css"/>
@@ -77,24 +78,31 @@
 
 <div id="title-div" class="use-webp div-background-title" onclick="">
     <div id="title-text-div" class="title-hover">
-        <h1 class="title">Princess Connect! Re:Dive</h1>
-        <h2 id="sub-title" class="title">Quest Helper</h2>
+        <h1 class="title"><span translate_text="system.title">Princess Connect! Re:Dive</span></h1>
+        <h2 id="sub-title" class="title"><span translate_text="system.subtitle">Quest Helper</span></h2>
     </div>
 </div>
 
+<!--
+<span translate_text=""></span>
+-->
+
 <div class="topnav">
-    <button id="navigation-items" class="is-open" type="button" onclick="open_items()">Items</button>
-    <button id="navigation-presets" type="button" onclick="open_presets()">Presets</button>
-    <button id="navigation-projects" type="button" onclick="open_projects()">Projects</button>
-    <button id="navigation-settings" type="button" onclick="open_settings()">Settings</button>
-    <button id="navigation-other" type="button" onclick="open_other()">Other<img id="update-notification-img" class="use-webp" image_folder="webpage" file_name="Notification_Icon" src_prefix="" src="" alt="" style="height: 15px; position: relative; bottom: 10px; left: 5px; display: none"></button>
+    <button id="navigation-items" class="is-open" type="button" onclick="open_items()"><span translate_text="items_tab.tab_title">Items</span></button>
+    <button id="navigation-presets" type="button" onclick="open_presets()"><span translate_text="presets_tab.tab_title">Presets</span></button>
+    <button id="navigation-projects" type="button" onclick="open_projects()"><span translate_text="projects_tab.tab_title">Projects</span></button>
+    <button id="navigation-settings" type="button" onclick="open_settings()"><span translate_text="settings_tab.tab_title">Settings</span></button>
+    <button id="navigation-other" type="button" onclick="open_other()"><span translate_text="other_tab.tab_title">Other</span><img id="update-notification-img" class="use-webp" image_folder="webpage" file_name="Notification_Icon" src_prefix="" src="" alt="" style="height: 15px; position: relative; bottom: 10px; left: 5px; display: none"></button>
+    <select id="language-option" onchange="load_language()" disabled style="display: none">
+        <option value="en">English</option>
+    </select>
 </div>
 
 <hr> <!-- LINE BREAK -->
 
 <div id="items-container">
     <div id="common-div" class="use-webp div-background div-background-common text-overflow">
-        <button class="common-color rarity-title rarity-button collapsible">Common</button>
+        <button class="common-color rarity-title rarity-button collapsible"><span translate_text="items_tab.common_title">Common</span></button>
         <div class="common-items item-table-top-spacing collapsible-content">
             <table id="common-item-table" class="centerTable itemTable"></table>
         </div>
@@ -102,7 +110,7 @@
     <hr> <!-- LINE BREAK -->
     <!-- COPPER ITEMS -->
     <div id="copper-div" class="use-webp div-background div-background-copper text-overflow">
-        <h2 class="copper-color rarity-title rarity-button collapsible">Copper</h2>
+        <h2 class="copper-color rarity-title rarity-button collapsible"><span translate_text="items_tab.copper_title">Copper</span></h2>
         <div class="copper-items item-table-top-spacing collapsible-content">
             <table id="copper-item-table" class="centerTable itemTable"></table>
         </div>
@@ -110,7 +118,7 @@
     <hr> <!-- LINE BREAK -->
     <!-- SILVER ITEMS -->
     <div id="silver-div" class="use-webp div-background div-background-silver text-overflow">
-        <h2 class="silver-color rarity-title rarity-button collapsible">Silver</h2>
+        <h2 class="silver-color rarity-title rarity-button collapsible"><span translate_text="items_tab.silver_title">Silver</span></h2>
         <div class="silver-items item-table-top-spacing collapsible-content">
             <table id="silver-item-table" class="centerTable itemTable"></table>
         </div>
@@ -118,7 +126,7 @@
     <hr> <!-- LINE BREAK -->
     <!-- GOLD ITEMS -->
     <div id="gold-div" class="use-webp div-background div-background-gold text-overflow">
-        <h2 class="gold-color rarity-title rarity-button collapsible">Gold</h2>
+        <h2 class="gold-color rarity-title rarity-button collapsible"><span translate_text="items_tab.gold_title">Gold</span></h2>
         <div class="gold-items item-table-top-spacing collapsible-content">
             <table id="gold-item-table" class="centerTable itemTable"></table>
         </div>
@@ -126,7 +134,7 @@
     <hr> <!-- LINE BREAK -->
     <!-- PURPLE ITEMS -->
     <div id="purple-div" class="use-webp div-background div-background-purple text-overflow">
-        <h2 class="purple-color rarity-title rarity-button collapsible">Purple</h2>
+        <h2 class="purple-color rarity-title rarity-button collapsible"><span translate_text="items_tab.purple_title">Purple</span></h2>
         <div class="purple-items item-table-top-spacing collapsible-content">
             <table id="purple-item-table" class="centerTable itemTable"></table>
         </div>
@@ -134,7 +142,7 @@
     <hr> <!-- LINE BREAK -->
     <!-- MISCELLANEOUS ITEMS -->
     <div id="misc-div" class="use-webp div-background div-background-misc text-overflow">
-        <button class="misc-color rarity-title rarity-button collapsible">Misc.</button>
+        <button class="misc-color rarity-title rarity-button collapsible"><span translate_text="items_tab.miscellaneous_title">Misc.</span></button>
         <div class="misc-items item-table-top-spacing collapsible-content">
             <table id="misc-item-table" class="centerTable itemTable"></table>
         </div>
@@ -142,13 +150,13 @@
     <hr> <!-- LINE BREAK -->
     <!-- REQUESTED ITEMS -->
     <div id="requested-div" class="use-webp div-background div-background-requested text-overflow-auto">
-        <h2 class="request-title">Requested Items</h2>
+        <h2 class="request-title"><span translate_text="items_tab.requested_items_title">Requested Items</span></h2>
         <div class="request-info">
             <table id="requested-item-table" class="centerTable">
                 <th><h4 class="tip">
-                    <span style="color: navajowhite">The items and amount you selected from the categories above will be displayed here.</span>
+                    <span style="color: navajowhite"><span translate_text="items_tab.requested_items_help_1">The items and amount you selected from the categories above will be displayed here.</span></span>
                     <br><br>
-                    Clicking on the category title will open or close a table of all the items in that rarity class.
+                    <span translate_text="items_tab.requested_items_help_2">Clicking on the category title will open or close a table of all the items in that rarity class.</span>
                 </h4></th>
             </table>
         </div>
@@ -157,7 +165,7 @@
 
 <div id="presets-container" style="display: none;">
     <div id="character-preset-div" class="use-webp">
-        <h2 class="category-title">Character Presets</h2>
+        <h2 class="category-title"><span translate_text="presets_tab.character_presets">Character Presets</span></h2>
         <div class="text-overflow-auto">
             <table class="centerTable">
                 <tr>
@@ -180,7 +188,7 @@
                 </tr>
                 <tr>
                     <th>
-                        <label class="category-title">Min Rank</label><br>
+                        <label class="category-title"><span translate_text="presets_tab.minimum_rank">Min Rank</span></label><br>
                         <input
                                 id="preset-character-min-rank-input"
                                 class="item-input"
@@ -192,10 +200,10 @@
                                 onchange="change_min_rank_preset()">
                     </th>
                     <th>
-                        <label class="category-title">to</label>
+                        <label class="category-title"><span translate_text="presets_tab.to">to</span></label>
                     </th>
                     <th>
-                        <label class="category-title">Max Rank</label><br>
+                        <label class="category-title"><span translate_text="presets_tab.maximum_rank">Max Rank</span></label><br>
                         <input
                                 id="preset-character-max-rank-input"
                                 class="item-input"
@@ -211,13 +219,13 @@
                     <th></th>
                     <th>
                         <br>
-                        <button id="preset-character-load-button" type="button" disabled onclick="load_preset_character_items()">Load Items</button>
+                        <button id="preset-character-load-button" type="button" disabled onclick="load_preset_character_items()"><span translate_text="presets_tab.load_items_button">Load Items</span></button>
                     </th>
                     <th></th>
                 </tr>
             </table>
         </div>
-        <h3 class="category-title" style="text-shadow: 2px 2px 4px #000000;">Currently selected items will be replaced<br>when the <span style="color: lightpink">Load Item</span> button is pressed.</h3>
+        <h3 class="category-title" style="text-shadow: 2px 2px 4px #000000;"><span translate_text="presets_tab.overwrite_warning">Currently selected items will be replaced<br>when the <span style="color: lightpink">Load Item</span> button is pressed.</span></h3>
         <br>
     </div>
 </div>
@@ -227,7 +235,7 @@
         <table class="centerTable">
             <tr>
                 <th>
-                    <label style="color: red; font-weight: bolder;">Your browser does not support LocalStorage.<br>Projects, Blacklist, Data Importing/Exporting, and Settings Saving have been disabled.</label>
+                    <label style="color: red; font-weight: bolder;"><span translate_text="projects_tab.localstorage_warning">Your browser does not support LocalStorage.<br>Projects, Blacklist, Data Importing/Exporting, and Settings Saving have been disabled.</span></label>
                 </th>
             </tr>
         </table>
@@ -237,43 +245,43 @@
     <div id="projects-div">
         <br>
         <div id="save-project-div">
-            <label for="project-name-input">Project Name: </label>
+            <label for="project-name-input"><span translate_text="projects_tab.project_name_label">Project Name:</span> </label>
             <input id="project-name-input" type="text" name="project-name">
-            <button id="project-save-button" type="button" onclick="save_project_data()">Save Project</button>
+            <button id="project-save-button" type="button" onclick="save_project_data()"><span translate_text="projects_tab.save_project_button">Save Project</span></button>
         </div>
         <br>
         <div id="project-options-div">
-            <label for="saved-projects-select">Select Saved Project: </label>
+            <label for="saved-projects-select"><span translate_text="projects_tab.select_saved_project_label">Select Saved Project:</span> </label>
             <select id="saved-projects-select" onchange="update_project_selection()">
                 <option value="[All Projects...]">[All Projects...]</option>
             </select>
             <br>
-            <button id="project-load-button" type="button" onclick="load_project_data()">Load Project</button>
-            <button id="project-add-button" disabled type="button" onclick="add_project_data()">Add Project Items</button>
-            <button id="project-sub-button" disabled type="button" onclick="sub_project_data()">Subtract Project Items</button>
-            <button id="project-delete-button" type="button" onclick="delete_project_data()">Delete Project</button>
+            <button id="project-load-button" type="button" onclick="load_project_data()"><span translate_text="projects_tab.load_project_button">Load Project</span></button>
+            <button id="project-add-button" disabled type="button" onclick="add_project_data()"><span translate_text="projects_tab.add_project_items_button">Add Project Items</span></button>
+            <button id="project-sub-button" disabled type="button" onclick="sub_project_data()"><span translate_text="projects_tab.subtract_project_items_button">Subtract Project Items</span></button>
+            <button id="project-delete-button" type="button" onclick="delete_project_data()"><span translate_text="projects_tab.delete_project_button">Delete Project</span></button>
             <br><br><br>
-            <button type="button" onclick="clear_all_item_tables()">Clear Item Tables</button>
+            <button type="button" onclick="clear_all_item_tables()"><span translate_text="projects_tab.clear_item_tables_button">Clear Item Tables</span></button>
         </div>
 
         <br><br>
 
         <div id="project-blacklist-options-div">
-            <button id="blacklist-save-button" type="button" onclick="save_blacklist()">Save Blacklist</button>
-            <button id="blacklist-load-button" type="button" onclick="init_blacklist()" title="There is no saved blacklist.">Load Saved Blacklist</button>
-            <button id="blacklist-clear-button" type="button" onclick="clear_blacklist()">Clear Blacklist</button>
-            <button id="blacklist-delete-button" type="button" onclick="delete_blacklist()">Delete Blacklist</button>
+            <button id="blacklist-save-button" type="button" onclick="save_blacklist()"><span translate_text="projects_tab.save_blacklist_button">Save Blacklist</span></button>
+            <button id="blacklist-load-button" type="button" onclick="init_blacklist()" title="There is no saved blacklist."><span translate_text="projects_tab.load_saved_blacklist_button">Load Saved Blacklist</span></button>
+            <button id="blacklist-clear-button" type="button" onclick="clear_blacklist()"><span translate_text="projects_tab.clear_blacklist_button">Clear Blacklist</span></button>
+            <button id="blacklist-delete-button" type="button" onclick="delete_blacklist()"><span translate_text="projects_tab.delete_blacklist_button">Delete Blacklist</span></button>
 
             <br><br>
-
-            <label for="blacklist-common">Common</label>    <input id="blacklist-common" type="checkbox"><br>
-            <label for="blacklist-copper">Copper</label>    <input id="blacklist-copper" type="checkbox"><br>
-            <label for="blacklist-silver">Silver</label>    <input id="blacklist-silver" type="checkbox"><br>
-            <label for="blacklist-gold">Gold</label>        <input id="blacklist-gold" type="checkbox"><br>
-            <label for="blacklist-purple">Purple</label>    <input id="blacklist-purple" type="checkbox"><br>
-            <button id="blacklist-rarities-button" type="button" onclick="blacklist_selected_rarities()">Blacklist Selected Rarities</button>
+            <label for="blacklist-common"><span translate_text="items_tab.common_title">Common</span></label>    <input id="blacklist-common" type="checkbox"><br>
+            <label for="blacklist-copper"><span translate_text="items_tab.copper_title">Copper</span></label>    <input id="blacklist-copper" type="checkbox"><br>
+            <label for="blacklist-silver"><span translate_text="items_tab.silver_title">Silver</span></label>    <input id="blacklist-silver" type="checkbox"><br>
+            <label for="blacklist-gold"><span translate_text="items_tab.gold_title">Gold</span></label>        <input id="blacklist-gold" type="checkbox"><br>
+            <label for="blacklist-purple"><span translate_text="items_tab.purple_title">Purple</span></label>    <input id="blacklist-purple" type="checkbox"><br>
+            <button id="blacklist-rarities-button" type="button" onclick="blacklist_selected_rarities()"><span translate_text="projects_tab.blacklist_selected_rarities_button">Blacklist Selected Rarities</span></button>
         </div>
 
+        <!--
         <br><br>
         <button id="toggle-project-help" type="button" onclick="toggle_project_help()">Show Project/Blacklist Help</button>
         <div id="project-info-div" style="display: none">
@@ -298,6 +306,7 @@
             <label>* The load, add, and subtract project buttons will be disabled when "[All Projects...]" is selected.</label><br>
             <label>* Hovering over the project name in the selection will display all items in the project.</label><br>
         </div>
+        -->
     </div>
     <br>
 </div>
@@ -306,7 +315,7 @@
     <!-- =========================================================== SETTINGS -->
     <div id="settings-div">
         <br>
-        <label for="quest-shown-amt">Amount of Quests Shown (10 - 999):</label>
+        <label for="quest-shown-amt"><span translate_text="settings_tab.amount_of_quests_shown">Amount of Quests Shown (10 - 999):</span></label>
         <input id="quest-shown-amt"
                class="item-input"
                type="number"
@@ -317,7 +326,7 @@
 
         <br><br>
 
-        <label for="sort-ascending-quest-list">Sort by Ascending: Quest List (Chapter 1 -> Chapter 2 -> ...)</label>
+        <label for="sort-ascending-quest-list"><span translate_text="settings_tab.sort_by_ascending_quest_list">Sort by Ascending: Quest List (Chapter 1 -> Chapter 2 -> ...)</span></label>
         <input id="sort-ascending-quest-list"
                type="checkbox"
                name="ascending_sort: quest_list"
@@ -327,7 +336,7 @@
 
         <br>
 
-        <label for="sort-ascending-quest-score">Sort by Ascending: Quest Score (0.5 -> 0.75 -> ...)</label>
+        <label for="sort-ascending-quest-score"><span translate_text="settings_tab.sort_by_ascending_quest_score">Sort by Ascending: Quest Score (0.5 -> 0.75 -> ...)</span></label>
         <input id="sort-ascending-quest-score"
                type="checkbox"
                name="ascending_sort: quest_score"
@@ -336,7 +345,7 @@
 
         <br><br>
 
-        <label for="hide-quest-score">Hide Quest Score</label>
+        <label for="hide-quest-score"><span translate_text="settings_tab.hide_quest_score">Hide Quest Score</span></label>
         <input id="hide-quest-score"
                type="checkbox"
                name="hide quest score"
@@ -346,7 +355,7 @@
 
         <br><br>
 
-        <label for="min-quest-chapter">Lowest Quest Chapter Displayed:</label>
+        <label for="min-quest-chapter"><span translate_text="settings_tab.lowest_quest_score_displayed">Lowest Quest Chapter Displayed:</span></label>
         <input id="min-quest-chapter"
                class="item-input"
                type="number"
@@ -355,7 +364,7 @@
                value="1"
                onchange="change_min_quest_chapter()">
         <br>
-        <label for="max-quest-chapter">Highest Quest Chapter Displayed:</label>
+        <label for="max-quest-chapter"><span translate_text="settings_tab.highest_quest_score_displayed">Highest Quest Chapter Displayed:</span></label>
         <input id="max-quest-chapter"
                class="item-input"
                type="number"
@@ -366,18 +375,18 @@
 
         <br><br>
 
-        <label for="filter-all-quests">Show All Quests</label>
+        <label for="filter-all-quests"><span translate_text="settings_tab.show_all_quests">Show All Quests</span></label>
         <input id="filter-all-quests" type="radio" name="filter-option" value="all-quests" onclick="change_quest_filter()" checked>
         <br>
-        <label for="filter-normal-quests">Show Normal Quests</label>
+        <label for="filter-normal-quests"><span translate_text="settings_tab.show_normal_quests">Show Normal Quests</span></label>
         <input id="filter-normal-quests" type="radio" name="filter-option" value="normal-quests" onclick="change_quest_filter()">
         <br>
-        <label for="filter-hard-quests">Show Hard Quests</label>
+        <label for="filter-hard-quests"><span translate_text="settings_tab.show_hard_quests">Show Hard Quests</span></label>
         <input id="filter-hard-quests" type="radio" name="filter-option" value="hard-quests" onclick="change_quest_filter()">
 
         <br><br>
 
-        <label for="item-amount-per-row">Items Displayed per Row (1 - 15):</label>
+        <label for="item-amount-per-row"><span translate_text="settings_tab.items_displayed_per_row">Items Displayed per Row (1 - 15):</span></label>
         <input id="item-amount-per-row"
                class="item-input"
                type="number"
@@ -388,7 +397,7 @@
 
         <br><br>
 
-        <label>Ignore Item Rarity in Recipe:</label><br>
+        <label><span translate_text="settings_tab.ignore_item_rarity_in_recipe">Ignore Item Rarity in Recipe:</span></label><br>
         <button id="ignore-button-common" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('common')">
             <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Common Items" image_folder="webpage" file_name="Placeholder_Common" src_prefix="" src="" alt="">
         </button>
@@ -409,17 +418,17 @@
         <br><br>
 
         <div id="setting-saving-div">
-            <label for="save-settings-button">Save Settings to Local Storage</label><br>
-            <button id="save-settings-button" type="button" onclick="save_cookie()">Save Settings</button>
+            <label for="save-settings-button"><span translate_text="settings_tab.save_settings">Save Settings to Local Storage</span></label><br>
+            <button id="save-settings-button" type="button" onclick="save_cookie()"><span translate_text="settings_tab.save_settings_button">Save Settings</span></button>
             <br>
-            <label for="delete-settings-button">Delete Settings From Local Storage</label><br>
-            <button id="delete-settings-button" type="button" onclick="delete_cookie()">Delete Settings</button>
+            <label for="delete-settings-button"><span translate_text="settings_tab.delete_settings">Delete Settings From Local Storage</span></label><br>
+            <button id="delete-settings-button" type="button" onclick="delete_cookie()"><span translate_text="settings_tab.delete_settings_button">Delete Settings</span></button>
             <br>
-            <label for="reset-settings-button">Reset Settings to System Default if Saved Data Does not Exist, or to Saved Data</label><br>
-            <button id="reset-settings-button" type="button" onclick="reset_settings()">Reset Settings</button>
+            <label for="reset-settings-button"><span translate_text="settings_tab.reset_settings">Reset Settings to System Default if Saved Data Does not Exist, or to Saved Data</span></label><br>
+            <button id="reset-settings-button" type="button" onclick="reset_settings()"><span translate_text="settings_tab.reset_settings_button">Reset Settings</span></button>
             <br>
-            <label for="read-settings-button">Display Saved Settings</label><br>
-            <button id="read-settings-button" type="button" onclick="read_settings()">Read Saved Settings</button>
+            <label for="read-settings-button"><span translate_text="settings_tab.display_saved_settings">Display Saved Settings</span></label><br>
+            <button id="read-settings-button" type="button" onclick="read_settings()"><span translate_text="settings_tab.display_saved_settings_button">Read Saved Settings</span></button>
             <br><br>
         </div>
     </div>
@@ -427,14 +436,14 @@
 
 <div id="other-container" style="display: none;">
     <div id="update-div" class="use-webp">
-        <h2 class="category-title">Update in Progress!<br><span id="update-name"></span></h2>
+        <h2 class="category-title"><span translate_text="other_tab.update_in_progress">Update in Progress!</span><br><span id="update-name"></span></h2>
         <table class="centerTable">
             <tbody>
                 <tr>
                     <td>
-                        <h3 class="category-title"><img class="use-webp" image_folder="webpage" file_name="album_2" src_prefix="" src="" style="height: 40px; position: relative; top: 13px" alt=""> Quest Data</h3>
-                        <label id="update-normal-quests-label" class="category-title">Normal Quests</label><br>
-                        <label id="update-hard-quests-label" class="category-title">Hard Quests</label>
+                        <h3 class="category-title"><img class="use-webp" image_folder="webpage" file_name="album_2" src_prefix="" src="" style="height: 40px; position: relative; top: 13px" alt=""> <span translate_text="other_tab.quest_data">Quest Data</span></h3>
+                        <label id="update-normal-quests-label" class="category-title"><span translate_text="other_tab.normal_quests">Normal Quests</span></label><br>
+                        <label id="update-hard-quests-label" class="category-title"><span translate_text="other_tab.hard_quests">Hard Quests</span></label>
                     </td>
                     <td>
                         <img id="update-quest-data-check" class="use-webp" image_folder="webpage" file_name="Checkmark" src_prefix="" src="" style="height: 25px; position: relative; left: 15px; top: 25px; display: none;" alt="">
@@ -442,9 +451,9 @@
                 </tr>
                 <tr>
                     <td>
-                        <h3 class="category-title"><img class="use-webp" image_folder="webpage" file_name="album_1" src_prefix="" src="" style="height: 40px; position: relative; top: 13px" alt=""> Equipment Data</h3>
-                        <label id="update-equipment-selection-label" class="category-title">Equipment Selection</label><br>
-                        <label id="update-en-tl-names-label" class="category-title">English Translated Names</label>
+                        <h3 class="category-title"><img class="use-webp" image_folder="webpage" file_name="album_1" src_prefix="" src="" style="height: 40px; position: relative; top: 13px" alt=""> <span translate_text="other_tab.equipment_data">Equipment Data</span></h3>
+                        <label id="update-equipment-selection-label" class="category-title"><span translate_text="other_tab.equipment_selection">Equipment Selection</span></label><br>
+                        <label id="update-en-tl-names-label" class="category-title"><span translate_text="other_tab.en_translated_names">English Translated Names</span></label>
                     </td>
                     <td>
                         <img id="update-equipment-data-check" class="use-webp" image_folder="webpage" file_name="Checkmark" src_prefix="" src="" style="height: 25px; position: relative; left: 15px; top: 25px; display: none;" alt="">
@@ -452,8 +461,8 @@
                 </tr>
                 <tr>
                     <td>
-                        <h3 class="category-title"><img class="use-webp" image_folder="webpage" file_name="album_4" src_prefix="" src="" style="height: 40px; position: relative; top: 13px" alt=""> Character Data</h3>
-                        <label id="update-rank-equip-label" class="category-title">Updated Rank Equipment</label>
+                        <h3 class="category-title"><img class="use-webp" image_folder="webpage" file_name="album_4" src_prefix="" src="" style="height: 40px; position: relative; top: 13px" alt=""> <span translate_text="other_tab.character_data">Character Data</span></h3>
+                        <label id="update-rank-equip-label" class="category-title"><span translate_text="other_tab.updated_rank_equipment">Updated Rank Equipment</span></label>
                     </td>
                     <td>
                         <img id="update-character-data-check" class="use-webp" image_folder="webpage" file_name="Checkmark" src_prefix="" src="" style="height: 25px; position: relative; left: 15px; top: 25px; display: none;" alt="">
@@ -465,53 +474,53 @@
     </div>
 
     <div id="data-div">
-        <h4>Other Pages</h4>
+        <h4><span translate_text="other_tab.other_pages_title">Other Pages</span></h4>
 
         <a href="pages/quest-data/" target="_blank" style="text-decoration: none;">
             <div class="hyperlink-image">
                 <img class="use-webp" image_folder="webpage" file_name="quest_data_link_img" src_prefix="" src="" style="border:0; text-decoration: none;">
-                <span class="hyperlink-text"><span>Quest Data</span></span>
+                <span class="hyperlink-text"><span><span translate_text="other_tab.quest_data">Quest Data</span></span></span>
             </div>
         </a>
 
         <a href="pages/recipe-data/" target="_blank" style="text-decoration: none;">
             <div class="hyperlink-image">
                 <img class="use-webp" image_folder="webpage" file_name="recipe_data_link_img" src_prefix="" src="" style="border:0; text-decoration: none;">
-                <span class="hyperlink-text"><span>Recipe Data</span></span>
+                <span class="hyperlink-text"><span><span translate_text="other_tab.recipe_data">Recipe Data</span></span></span>
             </div>
         </a><br>
 
         <a href="pages/character-data/" target="_blank" style="text-decoration: none;">
             <div class="hyperlink-image">
                 <img class="use-webp" image_folder="webpage" file_name="character_data_link_img" src_prefix="" src="" style="border:0; text-decoration: none;">
-                <span class="hyperlink-text"><span>Character Data</span></span>
+                <span class="hyperlink-text"><span><span translate_text="other_tab.character_data">Character Data</span></span></span>
             </div>
         </a>
 
         <a href="https://github.com/Expugn/priconne-quest-helper" target="_blank" style="text-decoration: none;">
             <div class="hyperlink-image">
                 <img class="use-webp" image_folder="webpage" file_name="github_link_img" src_prefix="" src="" style="border:0; text-decoration: none;">
-                <span class="hyperlink-text"><span>GitHub</span></span>
+                <span class="hyperlink-text"><span><span translate_text="other_tab.github">GitHub</span></span></span>
             </div>
         </a><br>
 
         <a id="simple-page-link" href="../priconne-quest-helper/#simple" onclick="window.location.hash = '#simple'; window.location.reload();" style="text-decoration: none; display: none;">
             <div class="hyperlink-image">
                 <img class="use-webp" image_folder="webpage" file_name="simple_mode_link_img" src_prefix="" src="" style="border:0; text-decoration: none;">
-                <span class="hyperlink-text"><span>Simple Mode</span></span>
+                <span class="hyperlink-text"><span><span translate_text="other_tab.simple_mode">Simple Mode</span></span></span>
             </div>
         </a>
         <a id="fancy-page-link" href="../priconne-quest-helper/" onclick="window.location.hash = ''; window.location.reload();" style="text-decoration: none; display: none;">
             <div class="hyperlink-image">
                 <img class="use-webp" image_folder="webpage" file_name="fancy_mode_link_img" src_prefix="" src="" style="border:0; text-decoration: none;">
-                <span class="hyperlink-text"><span>Fancy Mode</span></span>
+                <span class="hyperlink-text"><span><span translate_text="other_tab.fancy_mode">Fancy Mode</span></span></span>
             </div>
         </a>
 
         <a href="https://github.com/Expugn/priconne-quest-helper/wiki" target="_blank" style="text-decoration: none;">
             <div class="hyperlink-image">
                 <img class="use-webp" image_folder="webpage" file_name="wiki_link_img" src_prefix="" src="" style="border:0; text-decoration: none;">
-                <span class="hyperlink-text"><span>Help (Wiki)</span></span>
+                <span class="hyperlink-text"><span><span translate_text="other_tab.help">Help (Wiki)</span></span></span>
             </div>
         </a><br>
 
@@ -548,14 +557,13 @@
     <br>
 
     <div id="data-management-div">
-        <h4>Data Management</h4>
+        <h4><span translate_text="other_tab.data_management_title">Data Management</span></h4>
 
-        <form action="pages/export-data/" target="_blank">
-            <input type="submit" value="Export Saved Data"/>
-        </form>
+        <input id="export-data-button" type="button" onclick="location.href='pages/export-data/';" target="_blank" value="Export Saved Data"/>
 
         <br>
 
+        <!--
         <button id="toggle-data-management-help" type="button" onclick="toggle_data_management_help()">Show Data Management Help</button>
         <div id="export-import-info" style="display: none;">
             <h3>How to Export/Import Your Saved Data</h3>
@@ -569,6 +577,7 @@
             <label>&emsp;4) If you're okay with everything then click the import confirmation button.</label><br>
             <label>&emsp;5) Done! Your data should be imported now. You can now go back to the main page.</label><br><br>
         </div>
+        -->
     </div>
 </div>
 
@@ -580,15 +589,15 @@
 <hr> <!-- LINE BREAK -->
 <!-- REQUIRED ITEMS -->
 <div id="required-div" class="use-webp div-background div-background-required text-overflow-auto">
-    <h2 class="request-title">Required Ingredients</h2>
+    <h2 class="request-title"><span translate_text="system.required_ingredients_title">Required Ingredients</span></h2>
     <div class="request-info">
         <table id="required-ingredient-table" class="centerTable">
             <th><h4 class="tip">
-                <span style="color: navajowhite">The items and amount you need to create your requested items will be displayed here.</span>
+                <span style="color: navajowhite"><span translate_text="system.required_ingredients_help_1">The items and amount you need to create your requested items will be displayed here.</span></span>
                 <br><br>
-                Tapping on an item displayed in here will toggle if it is <span style="color: darkorange">disabled</span> or not.
+                <span translate_text="system.required_ingredients_help_2">Tapping on an item displayed in here will toggle if it is <span style="color: darkorange">disabled</span> or not.</span>
                 <br><br>
-                <span style="color: orange">Disabled</span> items will <span style="color: salmon; font-style: italic">not</span> appear in the <span style="color: yellow">Recommended Quest</span> list.
+                <span translate_text="system.required_ingredients_help_3"><span style="color: orange">Disabled</span> items will <span style="color: salmon; font-style: italic">not</span> appear in the <span style="color: yellow">Recommended Quest</span> list.</span>
             </h4></th>
         </table>
     </div>
@@ -596,16 +605,16 @@
 <hr> <!-- LINE BREAK -->
 <!-- RECOMMENDED QUESTS -->
 <div id="recommended-div" class="use-webp div-background div-background-recommended text-overflow-auto">
-    <h2 class="request-title">Recommended Quests</h2>
+    <h2 class="request-title"><span translate_text="system.recommended_quest_title">Recommended Quests</span></h2>
     <!-- RECOMMENDED QUESTS -->
     <div id="recommended-quest-div" class="request-info transition">
         <table id="recommended-quest-table" class="centerTable">
             <th><h4 class="tip">
-                <span style="color: navajowhite">Suggested quests to complete will be shown here once you start selecting items.</span>
+                <span style="color: navajowhite"><span translate_text="system.recommended_quest_help_1">Suggested quests to complete will be shown here once you start selecting items.</span></span>
                 <br><br>
-                Quests are sorted by <span style="color: yellow">the amount of items you can collect from the quest</span> that you need, starting from chapter 1.
+                <span translate_text="system.recommended_quest_help_2">Quests are sorted by <span style="color: yellow">the amount of items you can collect from the quest</span> that you need, starting from chapter 1.</span>
                 <br><br>
-                Up to <span style="color: #6DFF7F">ten</span> quests will be shown at a time by default.
+                <span translate_text="system.recommended_quest_help_3">Up to <span style="color: #6DFF7F">ten</span> quests will be shown at a time by default.</span>
             </h4></th>
         </table>
     </div>
@@ -618,8 +627,8 @@
 
 
 <footer>
-    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="" src="" alt=""></p>
-    <p class="footer">Last Quest Update: <span style="color: #6DFF7F">May 17, 2019</span></p>
+    <p class="footer"><span translate_text="system.made_with_love">Made With <span style="color:#ff4d4d">❤</span> By S'pugn</span> <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="" src="" alt=""></p>
+    <p class="footer"><span translate_text="system.last_quest_update">Last Quest Update: <span style="color: #6DFF7F">May 17, 2019</span></span></p>
 </footer>
 
 
