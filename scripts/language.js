@@ -66,6 +66,11 @@ function change_language()
         collection[i].innerHTML = language_json[text_category][text_value];
     }
 
-    // BUILD CHARACTER PRESET LIST
+    // REBUILD CHARACTER PRESET LIST AND TRANSLATE CURRENTLY SELECTED CHARACTER
+    // ALSO RESTORE CURRENTLY SELECTED CHARACTER ON SELECT
+    let current_selected_character = document.getElementById("character-preset-list-select").value;
+    update_selected_character_preset_details();
     build_character_preset_list();
+    document.getElementById("character-preset-list-select").value = current_selected_character;
+
 }
