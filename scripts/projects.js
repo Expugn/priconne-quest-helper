@@ -248,7 +248,15 @@ function delete_project_data()
     else
     {
         let translated_toast = language_json["toasts"]["project_deleted"];
-        translated_toast = translated_toast.replace("${project_name}", project_name);
+        if (project_name === "[All Projects...]")
+        {
+            translated_toast = translated_toast.replace("${project_name}", language_json["projects_tab"]["all_projects_select_option"]);
+        }
+        else
+        {
+            translated_toast = translated_toast.replace("${project_name}", project_name);
+        }
+
         toastr.success(translated_toast);
     }
     console.log("[Projects] - Deleted \"" + project_name + "\"'s data.");
@@ -300,7 +308,15 @@ function print_project_map(project_map)
 
 function update_saved_projects_select()
 {
-    let select_HTML = "<option value=\"[All Projects...]\">[All Projects...]</option>";
+    let select_HTML;
+    if (current_language === "en")
+    {
+        select_HTML = "<option value=\"[All Projects...]\">[All Projects...]</option>";
+    }
+    else
+    {
+        select_HTML = "<option value=\"[All Projects...]\">" + language_json["projects_tab"]["all_projects_select_option"] + "</option>";
+    }
 
     for (let [project_name, project_data] of projects)
     {

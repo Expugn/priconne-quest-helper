@@ -36,9 +36,12 @@
     <meta property="twitter:description" content="Quest Choosing Assistance for the Game 'Princess Connect! Re:Dive'.">
 
     <!-- SCRIPTS -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <!--<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>-->
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>-->
+    <script src="scripts/js.cookie.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>-->
+    <script src="scripts/toastr.min.js"></script>
     <script src="scripts/modernizr-custom.js"></script> <!-- WEBP CHECK -->
 
     <script src="scripts/image-manager.js"></script>
@@ -93,8 +96,9 @@
     <button id="navigation-projects" type="button" onclick="open_projects()"><span translate_text="projects_tab.tab_title">Projects</span></button>
     <button id="navigation-settings" type="button" onclick="open_settings()"><span translate_text="settings_tab.tab_title">Settings</span></button>
     <button id="navigation-other" type="button" onclick="open_other()"><span translate_text="other_tab.tab_title">Other</span><img id="update-notification-img" class="use-webp" image_folder="webpage" file_name="Notification_Icon" src_prefix="" src="" alt="" style="height: 15px; position: relative; bottom: 10px; left: 5px; display: none"></button>
-    <select id="language-option" onchange="load_language()" disabled style="display: none">
+    <select id="language-option" onchange="load_language()" disabled>
         <option value="en">English</option>
+        <option value="ko">Korean</option>
     </select>
 </div>
 
@@ -627,7 +631,8 @@
 
 
 <footer>
-    <p class="footer"><span translate_text="system.made_with_love">Made With <span style="color:#ff4d4d">❤</span> By S'pugn</span> <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="" src="" alt=""></p>
+    <p class="footer"><span translate_text="system.made_with_love">Made With <span style="color:#ff4d4d">❤</span> By S'pugn</span> <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="" src="" alt="">
+    <p class="footer"><span id="translator-footer"></span></p>
     <p class="footer"><span translate_text="system.last_quest_update">Last Quest Update: <span style="color: #6DFF7F">May 17, 2019</span></span></p>
 </footer>
 

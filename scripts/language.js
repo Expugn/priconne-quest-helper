@@ -1,11 +1,16 @@
 const project_author = "S'pugn";
 const last_update_date = "May 17, 2019";
+const last_update_date_format = new Date(Date.UTC(2019, 4, 17, 12, 0, 0));
+const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
 
 let current_language = "en";
 let language_json;
 function load_language()
 {
     let lang = document.getElementById("language-option").value;
+
+    // PUT TOAST WARNING (IN CASE PEOPLE DON'T REALIZE IT'S LOADING)
+    toastr.warning("Loading " + lang + ".json", "Language Change", { timeOut:1000 });
 
     // IF LANGUAGE SELECTED IS DIFFERENT FROM CURRENT LANGUAGE
     if (lang !== current_language)
@@ -59,8 +64,9 @@ function change_language()
         if (text_category === "system" && text_value === "made_with_love") {
             language_json[text_category][text_value] = language_json[text_category][text_value].replace("${project_author}", project_author); }
 
-        if (text_category === "system" && text_value === "last_quest_update") {
-            language_json[text_category][text_value] = language_json[text_category][text_value].replace("${last_update_date}", last_update_date);
+        if (text_category === "system" && text_value === "last_quest_update")
+        {
+            language_json[text_category][text_value] = language_json[text_category][text_value].replace("${last_update_date}", last_update_date_format.toLocaleDateString(language_json["system"]["date_locale"], date_options));
         }
 
         collection[i].innerHTML = language_json[text_category][text_value];
@@ -73,4 +79,16 @@ function change_language()
     build_character_preset_list();
     document.getElementById("character-preset-list-select").value = current_selected_character;
 
+    // REBUILD PROJECTS LIST
+    update_saved_projects_select();
+
+    // BUILD TRANSLATOR CREDITS
+    if (current_language !== "en")
+    {
+        document.getElementById("translator-footer").innerHTML = language_json["system"]["translator"] + " " + language_json["system"]["translator_name"];
+    }
+    else
+    {
+        document.getElementById("translator-footer").innerHTML = "";
+    }
 }

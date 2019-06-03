@@ -3,7 +3,16 @@ let preset_max_rank = 13;
 
 function build_character_preset_list()
 {
-    let character_preset_html = "<option value=\"default_character\">[Character...]</option>";
+    let character_preset_html;
+    if (current_language === "en")
+    {
+        character_preset_html = "<option value=\"default_character\">[Character...]</option>";
+    }
+    else
+    {
+        character_preset_html = "<option value=\"default_character\">" + language_json["presets_tab"]["characters_select_option"] + "</option>";
+    }
+
     for (let [character_id, character_data_map] of character_map)
     {
         if (current_language === "en")
@@ -68,7 +77,7 @@ function update_selected_character_preset_details()
         document.getElementById("preset-character-max-rank-input").disabled = false;
     }
 
-    console.log("[Presets] - Selected \"" + selected_character + "\"");
+    //console.log("[Presets] - Selected \"" + selected_character + "\"");
 }
 
 function change_min_rank_preset()

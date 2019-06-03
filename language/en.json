@@ -14,7 +14,12 @@
     "recommended_quest_help_3": "Up to <span style='color: #6DFF7F'>ten</span> quests will be shown at a time by default.",
 
     "made_with_love": "Made With <span style='color:#ff4d4d'>❤</span> By ${project_author}",
-    "last_quest_update": "Last Quest Update: <span style='color: #6DFF7F'>${last_update_date}</span>"
+    "last_quest_update": "Last Quest Update: <span style='color: #6DFF7F'>${last_update_date}</span>",
+
+    "translator": "Translator:",
+    "translator_name": "<REPLACE WITH WHOEVER TRANSLATED>",
+
+    "date_locale": "en-US"
   },
 
   "items_tab": {

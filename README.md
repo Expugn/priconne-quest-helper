@@ -70,6 +70,9 @@ The following can be submitted via `GitHub's Issue Tracker` or told to me (`S'pu
       - Game Folder: `C:\Users\<NAME>\AppData\LocalLow\Cygames\PrincessConnectReDive` (Windows 10)
 - `Jiuhin#7786`
 
+### Language Translation
+- `Korean`: Celesti (Translation) | NewWorld_ (Inspection)
+
 
 ## Other Stuff
 This is a non-profit fan project with the purpose of practice and entertainment.<br>
