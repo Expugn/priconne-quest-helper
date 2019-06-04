@@ -3,21 +3,21 @@
     "title": "프린세스 커넥트! Re:Dive",
     "subtitle": "퀘스트 도우미",
 
-    "required_ingredients_title": "필요한 재료",
-    "required_ingredients_help_1": "여기에 아이템과 필요한 재료 갯수가 표시될 것입니다.",
-    "required_ingredients_help_2": "여기 표시된 아이템을 누르면 표시를 <span style='color: darkorange'>끄고</span> 켤 수 있습니다.",
-    "required_ingredients_help_3": "<span style='color: orange'>제외한</span> 아이템은 <span style='color: yellow'>추천 퀘스트</span> 목록에서 <span style='color: salmon; font-style: italic'>보여지지 않을</span> 것입니다.",
+    "required_ingredients_title": "필요한 아이템",
+    "required_ingredients_help_1": "필요한 아이템과 개수가 여기에 표시됩니다.",
+    "required_ingredients_help_2": "아이템을 누르면 선택에서 <span style='color: darkorange'>제외</span>되고, 다시 누르면 포함됩니다.",
+    "required_ingredients_help_3": "<span style='color: orange'>제외된</span> 아이템은 <span style='color: yellow'>추천 퀘스트</span> 목록에서 <span style='color: salmon; font-style: italic'>보여지지 않을</span> 것입니다.",
 
     "recommended_quest_title": "추천 퀘스트 목록",
-    "recommended_quest_help_1": "아이템 선택을 시작하면 추천 퀘스트가 여기에 표시됩니다.",
-    "recommended_quest_help_2": "퀘스트는 1장부터 시작해서 <span style='color: yellow'>모아야 하는 갯수</span> 순서대로 정렬될 것입니다.",
-    "recommended_quest_help_3": "기본값으로 <span style='color: #6DFF7F'>10</span> 개까지 보일 것입니다.",
+    "recommended_quest_help_1": "아이템 선택하면 추천 퀘스트가 여기에 표시됩니다.",
+    "recommended_quest_help_2": "퀘스트는 1장부터 시작해서 <span style='color: yellow'>모아야 하는 개수</span> 순서대로 정렬됩니다.",
+    "recommended_quest_help_3": "기본값으로 추천 퀘스트는 <span style='color: #6DFF7F'>10</span>개까지 보여집니다.",
 
-    "made_with_love": "<span style='color:#ff4d4d'>❤</span>(애정)으로 만들었습니다 - ${project_author}",
-    "last_quest_update": "마지막 퀘스트 업데이트: <span style='color: #6DFF7F'>${last_update_date}</span>",
+    "made_with_love": "Made with <span style='color:#ff4d4d'>❤</span> - ${project_author}",
+    "last_quest_update": "마지막 퀘스트 업데이트 : <span style='color: #6DFF7F'>${last_update_date}</span>",
 
-    "translator": "번역기:",
-    "translator_name": "Celesti | NewWorld_",
+    "translator": "번역가 :",
+    "translator_name": "Celesti | NewWorld_ | SD SkyKlouD",
 
     "date_locale": "ko-KR"
   },
@@ -26,15 +26,15 @@
     "tab_title": "장비",
 
     "common_title": "흔함",
-    "copper_title": "구리",
-    "silver_title": "은",
-    "gold_title": "금",
+    "copper_title": "구리색",
+    "silver_title": "은색",
+    "gold_title": "금색",
     "purple_title": "보라색",
-    "miscellaneous_title": "기타.",
+    "miscellaneous_title": "기타",
 
-    "requested_items_title": "요청 아이템",
-    "requested_items_help_1": "위에서 선택한 아이템과 갯수가 여기에 표시됩니다.",
-    "requested_items_help_2": "분류 이름을 클릭하면 그 희귀 등급의 모든 아이템이 표시됩니다."
+    "requested_items_title": "요청한 아이템",
+    "requested_items_help_1": "위에서 선택한 아이템과 개수가 여기에 표시됩니다.",
+    "requested_items_help_2": "분류 이름을 클릭하면 그 희귀 등급에 해당하는 모든 아이템이 표시됩니다."
   },
 
   "presets_tab": {
@@ -56,12 +56,12 @@
   "projects_tab": {
     "tab_title": "프로젝트 목록",
 
-    "localstorage_warning": "브라우저가 저장장치 접근을 허용하지 않습니다.<br>프로젝트, 제외 목록, 자료 불러오기/내보내기, 설정 저장 기능이 동작하지 않습니다.",
+    "localstorage_warning": "브라우저가 저장 공간 접근을 허용하지 않습니다.<br>프로젝트, 제외 목록, 자료 불러오기/내보내기, 설정 저장 관련 기능이 동작하지 않습니다.",
 
-    "project_name_label": "프로젝트 이름:",
+    "project_name_label": "프로젝트 이름 :",
     "save_project_button": "프로젝트 저장",
 
-    "select_saved_project_label": "프로젝트 선택:",
+    "select_saved_project_label": "프로젝트 선택 :",
     "all_projects_select_option": "[모든 프로젝트 목록...]",
 
     "load_project_button": "프로젝트 불러오기",
@@ -83,33 +83,33 @@
   "settings_tab": {
     "tab_title": "설정",
 
-    "amount_of_quests_shown": "보여줄 퀘스트 갯수 (10 - 999):",
+    "amount_of_quests_shown": "보여줄 퀘스트 갯수 (10 - 999) :",
     "sort_by_ascending_quest_list": "오름차순 정렬: 퀘스트 목록 (1장 -> 2장 -> ...)",
     "sort_by_ascending_quest_score": "오름차순 정렬: 퀘스트 점수 (0.5 -> 0.75 -> ...)",
     "hide_quest_score": "퀘스트 점수 숨기기",
-    "lowest_quest_score_displayed": "가장 낮은 퀘스트 점수가 표시되었습니다:",
-    "highest_quest_score_displayed": "가장 높은 퀘스트 점수가 표시되었습니다:",
+    "lowest_quest_score_displayed": "표시될 가장 낮은 퀘스트 점수 :",
+    "highest_quest_score_displayed": "표시될 가장 높은 퀘스트 점수 :",
     "show_all_quests": "모든 퀘스트 보기",
     "show_normal_quests": "일반 퀘스트 보기",
     "show_hard_quests": "하드 퀘스트 보기",
-    "items_displayed_per_row": "한 줄에 표시될 아이템 갯수 (1 - 15):",
-    "ignore_item_rarity_in_recipe": "재료의 아이템 희귀 등급을 무시합니다:",
+    "items_displayed_per_row": "한 줄에 표시될 아이템 개수 (1 - 15) :",
+    "ignore_item_rarity_in_recipe": "다음 희귀 등급은 필요 아이템 목록에서 제외 :",
 
-    "save_settings": "설정을 저장장치에 보관합니다",
+    "save_settings": "설정을 저장 공간에 저장합니다.",
     "save_settings_button": "설정 저장",
 
-    "delete_settings": "설정을 저장장치에서 지웁니다",
+    "delete_settings": "설정을 저장 공간에서 삭제합니다.",
     "delete_settings_button": "설정 삭제",
 
-    "reset_settings": "설정값이 없으면 시스템 기본값으로 초기화합니다",
+    "reset_settings": "저장된 설정으로 초기화합니다. 설정이 없으면 시스템 기본값으로 초기화합니다.",
     "reset_settings_button": "설정 초기화",
 
-    "display_saved_settings": "저장된 설정을 보여줍니다",
-    "display_saved_settings_button": "설정 읽어오기"
+    "display_saved_settings": "저장된 설정을 표시합니다.",
+    "display_saved_settings_button": "저장된 설정 읽어오기"
   },
 
   "other_tab": {
-    "tab_title": "그 외",
+    "tab_title": "기타",
 
     "update_in_progress": "업데이트 중입니다!",
     "normal_quests": "일반 퀘스트",
@@ -117,27 +117,27 @@
     "equipment_data": "장비 정보",
     "equipment_selection": "장비 선택",
     "en_translated_names": "영어 이름",
-    "updated_rank_equipment": "업데이트 된 신규 장비",
+    "updated_rank_equipment": "업데이트된 신규 장비",
 
-    "other_pages_title": "그 외 화면",
+    "other_pages_title": "기타 페이지",
     "quest_data": "퀘스트 정보",
     "recipe_data": "재료 정보",
     "character_data": "캐릭터 정보",
     "github": "GitHub",
-    "simple_mode": "간편 양식",
-    "fancy_mode": "이쁜 양식",
-    "help": "도와주세요 (위키)",
+    "simple_mode": "간단 모드",
+    "fancy_mode": "",
+    "help": "도움말 (위키)",
 
-    "data_management_title": "자료 관리",
-    "export_saved_data": "저장 자료 내보내기"
+    "data_management_title": "데이터 관리",
+    "export_saved_data": "저장된 데이터 내보내기"
   },
 
   "toasts": {
-    "project_saved": "프로젝트 \"${project_name}\" 가 ${status} 되었습니다!",
+    "project_saved": "프로젝트 \"${project_name}\"를 ${status}!",
     "overwritten_status": "덮어썼습니다",
-    "saved_status": "저장되었습니다",
+    "saved_status": "저장했습니다",
 
-    "project_deleted": "프로젝트 \"${project_name}\" 가 지워졌습니다!",
+    "project_deleted": "프로젝트 \"${project_name}\"를 지웠습니다!",
 
     "blacklist_saved": "아이템 제외 목록이 저장되었습니다!",
     "blacklist_cleared": "아이템 제외 목록이 비워졌습니다!",
@@ -145,7 +145,7 @@
     "blacklist_deleted": "아이템 제외 목록이 삭제되었습니다.",
     "no_saved_blacklist": "저장된 아이템 제외 목록이 없습니다.",
 
-    "blacklisted_rarities": "아래의 희귀 등급이 제외 목록에 등록되었습니다:",
+    "blacklisted_rarities": " 희귀 등급이 제외 목록에 등록됩니다.",
     "no_rarities_selected": "희귀 등급을 선택하지 않았습니다.",
 
     "settings_saved": "설정이 저장되었습니다!",
@@ -157,7 +157,7 @@
   "character_names": {
     "akari": "아카리",
     "akino": "아키노",
-    "anne": "안",
+    "anne": "앤",
     "anna": "안나",
     "aoi": "아오이",
     "arisa": "아리사",
@@ -225,7 +225,7 @@
     "christmas": "크리스마스",
     "halloween": "할로윈",
     "new_year": "신년",
-    "oedo": "오에도",
+    "oedo": "오오에도",
     "summer": "여름",
     "valentine": "발렌타인"
   }
