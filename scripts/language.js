@@ -1,7 +1,4 @@
 const project_author = "S'pugn";
-const last_update_date = "May 17, 2019";
-const last_update_date_format = new Date(Date.UTC(2019, 4, 17, 12, 0, 0));
-const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
 
 let current_language = "en";
 let language_json;
@@ -66,7 +63,7 @@ function change_language()
 
         if (text_category === "system" && text_value === "last_quest_update")
         {
-            language_json[text_category][text_value] = language_json[text_category][text_value].replace("${last_update_date}", last_update_date_format.toLocaleDateString(language_json["system"]["date_locale"], date_options));
+            language_json[text_category][text_value] = language_json[text_category][text_value].replace("${last_update_date}", get_update_date());
         }
 
         collection[i].innerHTML = language_json[text_category][text_value];

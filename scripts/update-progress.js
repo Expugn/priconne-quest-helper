@@ -1,6 +1,10 @@
+// MAY 17, 2019
+const update_date = new Date(Date.UTC(2019, 4, 17, 12, 0, 0));
+const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
+
 function update_progress()
 {
-    const update_name = "May 17, 2019";
+    const update_name = get_update_date();
 
     const normal_quest_updated = true;
     const hard_quest_updated = true;
@@ -27,4 +31,21 @@ function update_progress()
         document.getElementById("update-rank-equip-label").style.textDecoration = (rank_equipment_updated) ? "" : "line-through";
     }
 
+}
+
+function get_update_date()
+{
+    if (current_language === "en")
+    {
+        return update_date.toLocaleDateString("en-US", date_options);
+    }
+    else
+    {
+        return update_date.toLocaleDateString(language_json["system"]["date_locale"], date_options);
+    }
+}
+
+function add_update_date_to_footer()
+{
+    document.getElementById("update-date-span").innerHTML = get_update_date();
 }

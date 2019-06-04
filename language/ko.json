@@ -13,7 +13,7 @@
     "recommended_quest_help_2": "퀘스트는 1장부터 시작해서 <span style='color: yellow'>모아야 하는 개수</span> 순서대로 정렬됩니다.",
     "recommended_quest_help_3": "기본값으로 추천 퀘스트는 <span style='color: #6DFF7F'>10</span>개까지 보여집니다.",
 
-    "made_with_love": "Made with <span style='color:#ff4d4d'>❤</span> - ${project_author}",
+    "made_with_love": "Made With <span style='color:#ff4d4d'>❤</span> By ${project_author}",
     "last_quest_update": "마지막 퀘스트 업데이트 : <span style='color: #6DFF7F'>${last_update_date}</span>",
 
     "translator": "번역가 :",
