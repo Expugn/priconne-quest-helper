@@ -9,7 +9,7 @@
     "required_ingredients_help_3": "<span style='color: orange'>제외된</span> 아이템은 <span style='color: yellow'>추천 퀘스트</span> 목록에서 <span style='color: salmon; font-style: italic'>보여지지 않을</span> 것입니다.",
 
     "recommended_quest_title": "추천 퀘스트 목록",
-    "recommended_quest_help_1": "아이템 선택하면 추천 퀘스트가 여기에 표시됩니다.",
+    "recommended_quest_help_1": "아이템을 선택하면 추천 퀘스트가 여기에 표시됩니다.",
     "recommended_quest_help_2": "퀘스트는 1장부터 시작해서 <span style='color: yellow'>모아야 하는 개수</span> 순서대로 정렬됩니다.",
     "recommended_quest_help_3": "기본값으로 추천 퀘스트는 <span style='color: #6DFF7F'>10</span>개까지 보여집니다.",
 
@@ -48,9 +48,9 @@
     "to": "에서",
     "maximum_rank": "최대 랭크",
 
-    "load_items_button": "장비 불러오기",
+    "load_items_button": "아이템 불러오기",
 
-    "overwrite_warning": "현재 선택된 아이템들은<br><span style='color: lightpink'>아이템 불러오기</span> 버튼이 눌리면 바뀔 것입니다."
+    "overwrite_warning": "현재 선택된 아이템들은<br><span style='color: lightpink'>아이템 불러오기</span> 버튼을 누르면 덮어씌워집니다."
   },
 
   "projects_tab": {
