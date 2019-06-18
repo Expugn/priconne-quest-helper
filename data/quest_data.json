@@ -2494,101 +2494,101 @@
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "24-4": {
-    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_1": {"item_name": "Royal Guard Hat Fragment", "drop_percent": 36},
     "item_2": {"item_name": "War God's Arm Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Heaven's Protective Holy Spear Fragment", "drop_percent": 24},
     "subdrops": [ "Great Sage Gem Fragment", "Dark Terror Dress Fragment", "Aqua Slasher Fragment", "Ocean God's Earrings Fragment", "Chaos Blade Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "24-5": {
-    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_1": {"item_name": "Fire Oni's Tori Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Sophos Bracelet Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Blood Raven Sword Fragment", "drop_percent": 24},
     "subdrops": [ "Chaos Blade Fragment", "Lightning Fist Fragment", "Firelord's Ring Fragment", "Mourning Crown Fragment", "Viridian Spiritual Dress Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "24-6": {
-    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_1": {"item_name": "Exomagia Robe Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Glorious King's Shield Bangle Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Lightning Wand Fragment", "drop_percent": 24},
     "subdrops": [ "High Angel Rod Fragment", "Phoenix Sword Fragment", "Spirit Tree Bow Fragment", "Phantasm Mail Fragment", "Faireal Boots Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "24-7": {
-    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_1": {"item_name": "Rage Queen Dress Fragment", "drop_percent": 36},
     "item_2": {"item_name": "War God's Arm Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Gaia Axe Fragment", "drop_percent": 24},
     "subdrops": [ "Congregation Pendant Fragment", "Unicorn Knife Fragment", "Gaia Bardiche Fragment", "Flame Rod Fragment", "Aquarius Boots Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "24-8": {
-    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_1": {"item_name": "Gold King's Armor Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Sophos Bracelet Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Great Sword of Sin Fragment", "drop_percent": 24},
     "subdrops": [ "Great Sage Gem Fragment", "Dark Terror Dress Fragment", "Aqua Slasher Fragment", "Ocean God's Earrings Fragment", "Chaos Blade Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "24-9": {
-    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_1": {"item_name": "Blood Ruby Heel Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Glorious King's Shield Bangle Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Cocytus Nail Fragment", "drop_percent": 24},
     "subdrops": [ "Chaos Blade Fragment", "Lightning Fist Fragment", "Firelord's Ring Fragment", "Mourning Crown Fragment", "Viridian Spiritual Dress Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "24-10": {
-    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_1": {"item_name": "Fire Oni's Tori Fragment", "drop_percent": 36},
     "item_2": {"item_name": "War God's Arm Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Tír na nÓg Dagger Fragment", "drop_percent": 24},
     "subdrops": [ "High Angel Rod Fragment", "Phoenix Sword Fragment", "Spirit Tree Bow Fragment", "Phantasm Mail Fragment", "Faireal Boots Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "24-11": {
-    "item_1": {"item_name": "", "drop_percent": 36},
+    "item_1": {"item_name": "Exomagia Robe Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Glorious King's Shield Bangle Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Atlantis Rod Fragment", "drop_percent": 24},
     "subdrops": [ "Congregation Pendant Fragment", "Unicorn Knife Fragment", "Gaia Bardiche Fragment", "Flame Rod Fragment", "Aquarius Boots Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "24-12": {
-    "item_1": {"item_name": "", "drop_percent": 36},
-    "item_2": {"item_name": "", "drop_percent": 36},
+    "item_1": {"item_name": "Gold King's Armor Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Royal Guard Hat Fragment", "drop_percent": 36},
     "item_3": {"item_name": "War God's Arm Fragment", "drop_percent": 24},
     "subdrops": [ "Great Sage Gem Fragment", "Dark Terror Dress Fragment", "Aqua Slasher Fragment", "Ocean God's Earrings Fragment", "Chaos Blade Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "24-13": {
-    "item_1": {"item_name": "", "drop_percent": 36},
-    "item_2": {"item_name": "", "drop_percent": 36},
+    "item_1": {"item_name": "Exomagia Robe Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Blood Ruby Heel Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Glorious King's Shield Bangle Fragment", "drop_percent": 24},
     "subdrops": [ "Chaos Blade Fragment", "Lightning Fist Fragment", "Firelord's Ring Fragment", "Mourning Crown Fragment", "Viridian Spiritual Dress Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "24-14": {
-    "item_1": {"item_name": "", "drop_percent": 36},
-    "item_2": {"item_name": "", "drop_percent": 36},
+    "item_1": {"item_name": "Fire Oni's Tori Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Rage Queen Dress Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Sophos Bracelet Fragment", "drop_percent": 24},
     "subdrops": [ "High Angel Rod Fragment", "Phoenix Sword Fragment", "Spirit Tree Bow Fragment", "Phantasm Mail Fragment", "Faireal Boots Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "24-1H": {
-    "item_1": {"item_name": "", "drop_percent": 72},
-    "item_2": {"item_name": "", "drop_percent": 72},
+    "item_1": {"item_name": "Rage Queen Dress Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Exomagia Robe Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Sophos Bracelet Fragment", "drop_percent": 72},
     "char_shard": {"item_name": "Aoi Shard", "drop_percent": 54},
     "subdrops": [ "Chaos Blade Fragment", "Lightning Fist Fragment", "Firelord's Ring Fragment", "Mourning Crown Fragment", "Viridian Spiritual Dress Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "24-2H": {
-    "item_1": {"item_name": "", "drop_percent": 72},
-    "item_2": {"item_name": "", "drop_percent": 72},
+    "item_1": {"item_name": "Blood Ruby Heel Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Fire Oni's Tori Fragment", "drop_percent": 72},
     "item_3": {"item_name": "War God's Arm Fragment", "drop_percent": 72},
     "char_shard": {"item_name": "Eriko Shard", "drop_percent": 54},
     "subdrops": [ "High Angel Rod Fragment", "Phoenix Sword Fragment", "Spirit Tree Bow Fragment", "Phantasm Mail Fragment", "Faireal Boots Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "24-3H": {
-    "item_1": {"item_name": "", "drop_percent": 72},
-    "item_2": {"item_name": "", "drop_percent": 72},
+    "item_1": {"item_name": "Royal Guard Hat Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Gold King's Armor Fragment", "drop_percent": 72},
     "item_3": {"item_name": "Glorious King's Shield Bangle Fragment", "drop_percent": 72},
     "char_shard": {"item_name": "Ruka Shard", "drop_percent": 54},
     "subdrops": [ "Congregation Pendant Fragment", "Unicorn Knife Fragment", "Gaia Bardiche Fragment", "Flame Rod Fragment", "Aquarius Boots Fragment" ],

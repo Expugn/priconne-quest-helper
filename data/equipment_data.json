@@ -1456,79 +1456,121 @@
     "req_pieces": 25,
     "req_items": [ "Hermit Clothes", "Devil's Horn" ]
   },
+  "rage_queen_dress": {
+    "name": "Rage Queen Dress",
+    "id": "purple-38",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Spirit Tree Bow", "Battling Dress" ]
+  },
+  "gold_kings_armor": {
+    "name": "Gold King's Armor",
+    "id": "purple-39",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Violet Armor", "Feather Waltz" ]
+  },
+  "fire_onis_tori": {
+    "name": "Fire Oni's Tori",
+    "id": "purple-40",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Phoenix Sword", "Palace Cloth" ]
+  },
+  "exomagia_robe": {
+    "name": "Exomagia Robe",
+    "id": "purple-41",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Great Sage Gem", "Grand Magician's Robe" ]
+  },
   "infernal_greaves": {
     "name": "Infernal Greaves",
-    "id": "purple-38",
+    "id": "purple-42",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Angel Boots", "Devil's Bow" ]
   },
+  "blood_ruby_heel": {
+    "name": "Blood Ruby Heel",
+    "id": "purple-43",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Aquarius Boots", "Cupid Robe" ]
+  },
   "holy_prayers_crown": {
     "name": "Holy Prayer's Crown",
-    "id": "purple-39",
+    "id": "purple-44",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Pope's Hood", "Lion King's Protective Charm" ]
   },
+  "royal_guard_hat": {
+    "name": "Royal Guard Hat",
+    "id": "purple-45",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Princess' Dagger", "Witch Hat" ]
+  },
   "millennium_earrings": {
     "name": "Millennium Earrings",
-    "id": "purple-40",
+    "id": "purple-46",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "ocean_gods_earrings": {
     "name": "Ocean God's Earrings",
-    "id": "purple-41",
+    "id": "purple-47",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "fairy_kings_guardian_stone": {
     "name": "Fairy King's Guardian Stone",
-    "id": "purple-42",
+    "id": "purple-48",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "fury_dragon_pendant": {
     "name": "Fury Dragon Pendant",
-    "id": "purple-43",
+    "id": "purple-49",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "divine_beasts_prayer": {
     "name": "Divine Beast's Prayer",
-    "id": "purple-44",
+    "id": "purple-50",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "mermaid_princess_spirit_tear": {
     "name": "Mermaid Princess' Spirit Tear",
-    "id": "purple-45",
+    "id": "purple-51",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "war_gods_arm": {
     "name": "War God's Arm",
-    "id": "purple-46",
+    "id": "purple-52",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "sophos_bracelet": {
     "name": "Sophos Bracelet",
-    "id": "purple-47",
+    "id": "purple-53",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "glorious_kings_shield_bangle": {
     "name": "Glorious King's Shield Bangle",
-    "id": "purple-48",
+    "id": "purple-54",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
