@@ -1673,37 +1673,44 @@
     "req_pieces": 1,
     "req_items": []
   },
+  "ruka_shard": {
+    "name": "Ruka Shard",
+    "id": "misc-21",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
   "djeeta_shard": {
     "name": "Djeeta Shard",
-    "id": "misc-21",
+    "id": "misc-22",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "pecorine_shard": {
     "name": "Pecorine Shard",
-    "id": "misc-22",
+    "id": "misc-23",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "kokkoro_shard": {
     "name": "Kokkoro Shard",
-    "id": "misc-23",
+    "id": "misc-24",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "arisa_shard": {
     "name": "Arisa Shard",
-    "id": "misc-24",
+    "id": "misc-25",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "tomo_shard": {
     "name": "Tomo Shard",
-    "id": "misc-25",
+    "id": "misc-26",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
