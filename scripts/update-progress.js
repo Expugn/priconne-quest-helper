@@ -1,23 +1,28 @@
-// MAY 17, 2019
-const update_date = new Date(Date.UTC(2019, 4, 17, 12, 0, 0));
+// JUNE 18, 2019
+const update_date = new Date(Date.UTC(2019, 5, 18, 12, 0, 0));
 const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
 
 function update_progress()
 {
-    const update_name = get_update_date();
-
     const normal_quest_updated = true;
     const hard_quest_updated = true;
     const equipment_selection_updated = true;
     const english_translated_names_updated = true;
-    const rank_equipment_updated = true;
+    const rank_equipment_updated = false;
 
     if (!normal_quest_updated || !hard_quest_updated || !equipment_selection_updated || !english_translated_names_updated || !rank_equipment_updated)
     {
         console.log("[Update] - Showing Update Progress");
         document.getElementById("update-notification-img").style.display = "inline";
         document.getElementById("update-div").style.display = "block";
-        document.getElementById("update-name").innerHTML = "Quest Update: " + update_name;
+        if (current_language === "en")
+        {
+            document.getElementById("update-name").innerHTML = "Quest Update: " + get_update_date();
+        }
+        else
+        {
+            document.getElementById("update-name").innerHTML = language_json["other_tab"]["quest_update"] + " " + get_update_date();
+        }
 
         // UPDATE PROGRESS
         document.getElementById("update-quest-data-check").style.display = (normal_quest_updated && hard_quest_updated) ? "inline" : "none";
@@ -48,4 +53,16 @@ function get_update_date()
 function add_update_date_to_footer()
 {
     document.getElementById("update-date-span").innerHTML = get_update_date();
+}
+
+function refresh_quest_update_language()
+{
+    if (current_language === "en")
+    {
+        document.getElementById("update-name").innerHTML = "Quest Update: " + get_update_date();
+    }
+    else
+    {
+        document.getElementById("update-name").innerHTML = language_json["other_tab"]["quest_update"] + " " + get_update_date();
+    }
 }

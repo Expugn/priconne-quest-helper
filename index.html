@@ -96,6 +96,7 @@
     <button id="navigation-projects" type="button" onclick="open_projects()"><span translate_text="projects_tab.tab_title">Projects</span></button>
     <button id="navigation-settings" type="button" onclick="open_settings()"><span translate_text="settings_tab.tab_title">Settings</span></button>
     <button id="navigation-other" type="button" onclick="open_other()"><span translate_text="other_tab.tab_title">Other</span><img id="update-notification-img" class="use-webp" image_folder="webpage" file_name="Notification_Icon" src_prefix="" src="" alt="" style="height: 15px; position: relative; bottom: 10px; left: 5px; display: none"></button>
+    <label for="language-option" hidden>Language Option</label>
     <select id="language-option" onchange="load_language()" disabled>
         <option value="en">English</option>
         <option value="ko">한국어</option>
@@ -157,11 +158,15 @@
         <h2 class="request-title"><span translate_text="items_tab.requested_items_title">Requested Items</span></h2>
         <div class="request-info">
             <table id="requested-item-table" class="centerTable">
-                <th><h4 class="tip">
-                    <span style="color: navajowhite"><span translate_text="items_tab.requested_items_help_1">The items and amount you selected from the categories above will be displayed here.</span></span>
-                    <br><br>
-                    <span translate_text="items_tab.requested_items_help_2">Clicking on the category title will open or close a table of all the items in that rarity class.</span>
-                </h4></th>
+                <tr>
+                    <th>
+                        <h4 class="tip">
+                            <span style="color: navajowhite"><span translate_text="items_tab.requested_items_help_1">The items and amount you selected from the categories above will be displayed here.</span></span>
+                            <br><br>
+                            <span translate_text="items_tab.requested_items_help_2">Clicking on the category title will open or close a table of all the items in that rarity class.</span>
+                        </h4>
+                    </th>
+                </tr>
             </table>
         </div>
     </div>
@@ -193,6 +198,7 @@
                 <tr>
                     <th>
                         <label class="category-title"><span translate_text="presets_tab.minimum_rank">Min Rank</span></label><br>
+                        <label for="preset-character-min-rank-input" hidden></label>
                         <input
                                 id="preset-character-min-rank-input"
                                 class="item-input"
@@ -208,6 +214,7 @@
                     </th>
                     <th>
                         <label class="category-title"><span translate_text="presets_tab.maximum_rank">Max Rank</span></label><br>
+                        <label for="preset-character-max-rank-input" hidden></label>
                         <input
                                 id="preset-character-max-rank-input"
                                 class="item-input"
@@ -364,7 +371,7 @@
                class="item-input"
                type="number"
                min="1"
-               max="23"
+               max="24"
                value="1"
                onchange="change_min_quest_chapter()">
         <br>
@@ -373,8 +380,8 @@
                class="item-input"
                type="number"
                min="1"
-               max="23"
-               value="23"
+               max="24"
+               value="24"
                onchange="change_max_quest_chapter()">
 
         <br><br>
@@ -482,80 +489,51 @@
 
         <a href="pages/quest-data/" target="_blank" style="text-decoration: none;">
             <div class="hyperlink-image">
-                <img class="use-webp" image_folder="webpage" file_name="quest_data_link_img" src_prefix="" src="" style="border:0; text-decoration: none;">
+                <img class="use-webp" image_folder="webpage" file_name="quest_data_link_img" src_prefix="" src="" style="border:0; text-decoration: none;" alt="Quest Data">
                 <span class="hyperlink-text"><span><span translate_text="other_tab.quest_data">Quest Data</span></span></span>
             </div>
         </a>
 
         <a href="pages/recipe-data/" target="_blank" style="text-decoration: none;">
             <div class="hyperlink-image">
-                <img class="use-webp" image_folder="webpage" file_name="recipe_data_link_img" src_prefix="" src="" style="border:0; text-decoration: none;">
+                <img class="use-webp" image_folder="webpage" file_name="recipe_data_link_img" src_prefix="" src="" style="border:0; text-decoration: none;" alt="Recipe Data">
                 <span class="hyperlink-text"><span><span translate_text="other_tab.recipe_data">Recipe Data</span></span></span>
             </div>
         </a><br>
 
         <a href="pages/character-data/" target="_blank" style="text-decoration: none;">
             <div class="hyperlink-image">
-                <img class="use-webp" image_folder="webpage" file_name="character_data_link_img" src_prefix="" src="" style="border:0; text-decoration: none;">
+                <img class="use-webp" image_folder="webpage" file_name="character_data_link_img" src_prefix="" src="" style="border:0; text-decoration: none;" alt="Character Data">
                 <span class="hyperlink-text"><span><span translate_text="other_tab.character_data">Character Data</span></span></span>
             </div>
         </a>
 
         <a href="https://github.com/Expugn/priconne-quest-helper" target="_blank" style="text-decoration: none;">
             <div class="hyperlink-image">
-                <img class="use-webp" image_folder="webpage" file_name="github_link_img" src_prefix="" src="" style="border:0; text-decoration: none;">
+                <img class="use-webp" image_folder="webpage" file_name="github_link_img" src_prefix="" src="" style="border:0; text-decoration: none;" alt="GitHub">
                 <span class="hyperlink-text"><span><span translate_text="other_tab.github">GitHub</span></span></span>
             </div>
         </a><br>
 
         <a id="simple-page-link" href="../priconne-quest-helper/#simple" onclick="window.location.hash = '#simple'; window.location.reload();" style="text-decoration: none; display: none;">
             <div class="hyperlink-image">
-                <img class="use-webp" image_folder="webpage" file_name="simple_mode_link_img" src_prefix="" src="" style="border:0; text-decoration: none;">
+                <img class="use-webp" image_folder="webpage" file_name="simple_mode_link_img" src_prefix="" src="" style="border:0; text-decoration: none;" alt="Simple Mode">
                 <span class="hyperlink-text"><span><span translate_text="other_tab.simple_mode">Simple Mode</span></span></span>
             </div>
         </a>
         <a id="fancy-page-link" href="../priconne-quest-helper/" onclick="window.location.hash = ''; window.location.reload();" style="text-decoration: none; display: none;">
             <div class="hyperlink-image">
-                <img class="use-webp" image_folder="webpage" file_name="fancy_mode_link_img" src_prefix="" src="" style="border:0; text-decoration: none;">
+                <img class="use-webp" image_folder="webpage" file_name="fancy_mode_link_img" src_prefix="" src="" style="border:0; text-decoration: none;" alt="Fancy Mode">
                 <span class="hyperlink-text"><span><span translate_text="other_tab.fancy_mode">Fancy Mode</span></span></span>
             </div>
         </a>
 
         <a href="https://github.com/Expugn/priconne-quest-helper/wiki" target="_blank" style="text-decoration: none;">
             <div class="hyperlink-image">
-                <img class="use-webp" image_folder="webpage" file_name="wiki_link_img" src_prefix="" src="" style="border:0; text-decoration: none;">
+                <img class="use-webp" image_folder="webpage" file_name="wiki_link_img" src_prefix="" src="" style="border:0; text-decoration: none;" alt="Help (Wiki)">
                 <span class="hyperlink-text"><span><span translate_text="other_tab.help">Help (Wiki)</span></span></span>
             </div>
         </a><br>
-
-
-        <!--
-        <a href="pages/quest-data/" target="_blank" style="text-decoration: none;">
-            <img class="use-webp" image_folder="webpage" file_name="quest_data_link_img" src_prefix="" src="" alt="Quest Data" style="border:0; text-decoration: none;">
-        </a>
-
-        <a href="pages/recipe-data/" target="_blank" style="text-decoration: none;">
-            <img class="use-webp" image_folder="webpage" file_name="recipe_data_link_img" src_prefix="" src="" alt="Recipe Data" style="border:0; text-decoration: none;">
-        </a><br>
-
-        <a href="pages/character-data/" target="_blank" style="text-decoration: none;">
-            <img class="use-webp" image_folder="webpage" file_name="character_data_link_img" src_prefix="" src="" alt="Character Data" style="border:0;">
-        </a>
-
-        <a href="https://github.com/Expugn/priconne-quest-helper" target="_blank" style="text-decoration: none;">
-            <img class="use-webp" image_folder="webpage" file_name="github_link_img" src_prefix="" src="" alt="Github Source" style="border:0;">
-        </a><br>
-
-
-        <a id="simple-page-link" href="../priconne-quest-helper/#simple" onclick="window.location.hash = '#simple'; window.location.reload();" style="text-decoration: none; display: none;">
-            <img class="use-webp" image_folder="webpage" file_name="simple_mode_link_img" src_prefix="" src="" alt="Simple Mode" style="border:0;">
-        </a>
-
-
-        <a id="fancy-page-link" href="../priconne-quest-helper/" onclick="window.location.hash = ''; window.location.reload();" style="text-decoration: none; display: none;">
-            <img class="use-webp" image_folder="webpage" file_name="fancy_mode_link_img" src_prefix="" src="" alt="Fancy Mode" style="border:0;">
-        </a>
-        -->
     </div>
 
     <br>
@@ -596,13 +574,17 @@
     <h2 class="request-title"><span translate_text="system.required_ingredients_title">Required Ingredients</span></h2>
     <div class="request-info">
         <table id="required-ingredient-table" class="centerTable">
-            <th><h4 class="tip">
-                <span style="color: navajowhite"><span translate_text="system.required_ingredients_help_1">The items and amount you need to create your requested items will be displayed here.</span></span>
-                <br><br>
-                <span translate_text="system.required_ingredients_help_2">Tapping on an item displayed in here will toggle if it is <span style="color: darkorange">disabled</span> or not.</span>
-                <br><br>
-                <span translate_text="system.required_ingredients_help_3"><span style="color: orange">Disabled</span> items will <span style="color: salmon; font-style: italic">not</span> appear in the <span style="color: yellow">Recommended Quest</span> list.</span>
-            </h4></th>
+            <tr>
+                <th>
+                    <h4 class="tip">
+                        <span style="color: navajowhite"><span translate_text="system.required_ingredients_help_1">The items and amount you need to create your requested items will be displayed here.</span></span>
+                        <br><br>
+                        <span translate_text="system.required_ingredients_help_2">Tapping on an item displayed in here will toggle if it is <span style="color: darkorange">disabled</span> or not.</span>
+                        <br><br>
+                        <span translate_text="system.required_ingredients_help_3"><span style="color: orange">Disabled</span> items will <span style="color: salmon; font-style: italic">not</span> appear in the <span style="color: yellow">Recommended Quest</span> list.</span>
+                    </h4>
+                </th>
+            </tr>
         </table>
     </div>
 </div>
@@ -613,13 +595,17 @@
     <!-- RECOMMENDED QUESTS -->
     <div id="recommended-quest-div" class="request-info transition">
         <table id="recommended-quest-table" class="centerTable">
-            <th><h4 class="tip">
-                <span style="color: navajowhite"><span translate_text="system.recommended_quest_help_1">Suggested quests to complete will be shown here once you start selecting items.</span></span>
-                <br><br>
-                <span translate_text="system.recommended_quest_help_2">Quests are sorted by <span style="color: yellow">the amount of items you can collect from the quest</span> that you need, starting from chapter 1.</span>
-                <br><br>
-                <span translate_text="system.recommended_quest_help_3">Up to <span style="color: #6DFF7F">ten</span> quests will be shown at a time by default.</span>
-            </h4></th>
+            <tr>
+                <th>
+                    <h4 class="tip">
+                        <span style="color: navajowhite"><span translate_text="system.recommended_quest_help_1">Suggested quests to complete will be shown here once you start selecting items.</span></span>
+                        <br><br>
+                        <span translate_text="system.recommended_quest_help_2">Quests are sorted by <span style="color: yellow">the amount of items you can collect from the quest</span> that you need, starting from chapter 1.</span>
+                        <br><br>
+                        <span translate_text="system.recommended_quest_help_3">Up to <span style="color: #6DFF7F">ten</span> quests will be shown at a time by default.</span>
+                    </h4>
+                </th>
+            </tr>
         </table>
     </div>
 </div>

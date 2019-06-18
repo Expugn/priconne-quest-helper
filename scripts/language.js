@@ -88,4 +88,7 @@ function change_language()
     {
         document.getElementById("translator-footer").innerHTML = "";
     }
+
+    // UPDATE UPDATE PROGRESS
+    refresh_quest_update_language();
 }

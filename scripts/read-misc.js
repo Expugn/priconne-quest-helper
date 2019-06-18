@@ -1,6 +1,6 @@
 function read_misc()
 {
-    const totalMiscItems = 25;
+    const totalMiscItems = 26;
 
     let itemMap = new Map();
 
