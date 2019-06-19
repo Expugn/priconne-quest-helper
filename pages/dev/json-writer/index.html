@@ -234,36 +234,42 @@
                 "class=\"item-image" + ((item_1 !== "") ? "" : " low-opacity") + "\" " +
                 "title=\"" + item_1 + "\" " +
                 "src=\"../../../" + get_item_image_path(((item_1 !== "") ? item_1.split(' ').join('_') : "Placeholder"))  + "\" " +
+                "onclick='copyStringToClipboard(this.title)' " +
                 "alt=\"\">";
             result_html += "<th class=\"item-image" + ((item_2 !== "") ? "" : " low-opacity") + "\">";
             result_html += "<img id=\"" + item_2.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_2 + "\" " +
                 "src=\"../../../" + get_item_image_path(((item_2 !== "") ? item_2.split(' ').join('_') : "Placeholder")) + "\" " +
+                "onclick='copyStringToClipboard(this.title)' " +
                 "alt=\"\">";
             result_html += "<th class=\"item-image" + ((item_3 !== "") ? "" : " low-opacity") + "\">";
             result_html += "<img id=\"" + item_3.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_3 + "\" " +
                 "src=\"../../../" + get_item_image_path(((item_3 !== "") ? item_3.split(' ').join('_') : "Placeholder")) + "\" " +
+                "onclick='copyStringToClipboard(this.title)' " +
                 "alt=\"\">";
             result_html += "<th class=\"item-image" + ((item_4 !== "") ? "" : " low-opacity") + "\">";
             result_html += "<img id=\"" + item_4.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_4 + "\" " +
                 "src=\"../../../" + get_item_image_path(((item_4 !== "") ? item_4.split(' ').join('_') : "Placeholder")) + "\" " +
+                "onclick='copyStringToClipboard(this.title)' " +
                 "alt=\"\">";
             result_html += "<th class=\"item-image" + ((item_5 !== "") ? "" : " low-opacity") + "\">";
             result_html += "<img id=\"" + item_5.split(' ').join('_') + "\" " +
                 "class=\"item-image " + get_item_image_path(((item_5 !== "") ? "" : " low-opacity")) + "\" " +
                 "title=\"" + item_5 + "\" " +
                 "src=\"../../../" + get_item_image_path(((item_5 !== "") ? item_5.split(' ').join('_') : "Placeholder")) + "\" " +
+                "onclick='copyStringToClipboard(this.title)' " +
                 "alt=\"\">";
             result_html += "<th class=\"item-image" + ((item_6 !== "") ? "" : " low-opacity") + "\">";
             result_html += "<img id=\"" + item_6.split(' ').join('_') + "\" " +
                 "class=\"item-image\" " +
                 "title=\"" + item_6 + "\" " +
                 "src=\"../../../" + get_item_image_path(((item_6 !== "") ? item_6.split(' ').join('_') : "Placeholder")) + "\" " +
+                "onclick='copyStringToClipboard(this.title)' " +
                 "alt=\"\">";
             result_html += "</tr>";
             rank++;
@@ -305,18 +311,21 @@
             "class=\"item-image" + ((item_1 !== "") ? "" : " low-opacity") + "\" " +
             "title=\"" + item_1 + "\" " +
             "src=\"../../../" + get_item_image_path(((item_1 !== "") ? item_1.split(' ').join('_') : "Placeholder")) + "\" " +
+            "onclick='copyStringToClipboard(this.title)' " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + item_2.split(' ').join('_') + "\" " +
             "class=\"item-image" + ((item_2 !== "") ? "" : " low-opacity") + "\" " +
             "title=\"" + item_2 + "\" " +
             "src=\"../../../" + get_item_image_path(((item_2 !== "") ? item_2.split(' ').join('_') : "Placeholder")) + "\" " +
+            "onclick='copyStringToClipboard(this.title)' " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + item_3.split(' ').join('_') + "\" " +
             "class=\"item-image" + ((item_3 !== "") ? "" : " low-opacity") + "\" " +
             "title=\"" + item_3 + "\" " +
             "src=\"../../../" + get_item_image_path(((item_3 !== "") ? item_3.split(' ').join('_') : "Placeholder")) + "\" " +
+            "onclick='copyStringToClipboard(this.title)' " +
             "alt=\"\"></th>";
 
         // CHARACTER SHARD
@@ -327,6 +336,7 @@
                 "class=\"item-image" + ((character_shard !== "") ? "" : " low-opacity") + "\" " +
                 "title=\"" + character_shard + "\" " +
                 "src=\"../../../" + get_item_image_path(((character_shard !== "") ? character_shard.split(' ').join('_') : "Placeholder")) + "\" " +
+                "onclick='copyStringToClipboard(this.title)' " +
                 "alt=\"\"></th>";
             result_html += "</tr>";
         }
@@ -338,30 +348,35 @@
             "class=\"item-image" + ((subdrop_1 !== "") ? "" : " low-opacity") + "\" " +
             "title=\"" + subdrop_1 + "\" " +
             "src=\"../../../" + get_item_image_path(((subdrop_1 !== "") ? subdrop_1.split(' ').join('_') : "Placeholder")) + "\" " +
+            "onclick='copyStringToClipboard(this.title)' " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + subdrop_2.split(' ').join('_') + "\" " +
             "class=\"item-image" + ((subdrop_2 !== "") ? "" : " low-opacity") + "\" " +
             "title=\"" + subdrop_2 + "\" " +
             "src=\"../../../" + get_item_image_path(((subdrop_2 !== "") ? subdrop_2.split(' ').join('_') : "Placeholder")) + "\" " +
+            "onclick='copyStringToClipboard(this.title)' " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + subdrop_3.split(' ').join('_') + "\" " +
             "class=\"item-image" + ((subdrop_3 !== "") ? "" : " low-opacity") + "\" " +
             "title=\"" + subdrop_3 + "\" " +
             "src=\"../../../" + get_item_image_path(((subdrop_3 !== "") ? subdrop_3.split(' ').join('_') : "Placeholder")) + "\" " +
+            "onclick='copyStringToClipboard(this.title)' " +
             "alt=\"\"></th>";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + subdrop_4.split(' ').join('_') + "\" " +
             "class=\"item-image" + ((subdrop_4 !== "") ? "" : " low-opacity") + "\" " +
             "title=\"" + subdrop_4 + "\" " +
             "src=\"../../../" + get_item_image_path(((subdrop_4 !== "") ? subdrop_4.split(' ').join('_') : "Placeholder")) + "\" " +
+            "onclick='copyStringToClipboard(this.title)' " +
             "alt=\"\">";
         result_html += "<th class=\"item-image\">";
         result_html += "<img id=\"" + subdrop_5.split(' ').join('_') + "\" " +
             "class=\"item-image" + ((subdrop_5 !== "") ? "" : " low-opacity") + "\" " +
             "title=\"" + subdrop_5 + "\" " +
             "src=\"../../../" + get_item_image_path(((subdrop_5 !== "") ? subdrop_5.split(' ').join('_') : "Placeholder")) + "\" " +
+            "onclick='copyStringToClipboard(this.title)' " +
             "alt=\"\"></th>";
         result_html += "</tr></tbody>";
         document.getElementById("selected-items-table").innerHTML = result_html;
@@ -405,6 +420,18 @@
         }
         draw_items();
         write_data();
+    }
+
+    function copyStringToClipboard(str)
+    {
+        let dummy = document.createElement("input");
+        document.body.appendChild(dummy);
+        dummy.setAttribute('value', str);
+        dummy.select();
+        document.execCommand("copy");
+        document.body.removeChild(dummy);
+
+        console.log("Copied \"" + str + "\"");
     }
 </script>
 </body>
