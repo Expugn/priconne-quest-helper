@@ -110,9 +110,10 @@ function save_project_data()
     // UPDATE SELECT DISPLAYING SAVED PROJECTS
     update_saved_projects_select();
 
-    // SET SELECTED PROJECT TO RECENTLY SAVED PROJECT, ALSO ENABLE ADD/SUB BUTTONS
+    // SET SELECTED PROJECT TO RECENTLY SAVED PROJECT, ALSO ENABLE ADD/SUB BUTTONS AND SHOW PRIORITIZE BUTTON
     document.getElementById("saved-projects-select").value = project_name;
     disable_add_and_sub_buttons(false);
+    show_prioritize_button(true);
 
     if (current_language === "en")
     {
@@ -245,10 +246,12 @@ function delete_project_data()
     else
     {
         projects = new Map();
+        priority_projects = [];
 
         // DELETE COOKIE SINCE IT'S NOT NEEDED ANYMORE
         //Cookies.remove('projects');
         localStorage.removeItem('projects');
+        localStorage.removeItem('priority_projects');
     }
 
     if (priority_projects.includes(project_name))
