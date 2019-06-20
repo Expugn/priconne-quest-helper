@@ -68,6 +68,8 @@
     "add_project_items_button": "프로젝트 아이템 추가",
     "subtract_project_items_button": "프로젝트 아이템 제거",
     "delete_project_button": "프로젝트 제거",
+    "prioritize_project_button": "Prioritize Project",
+    "deprioritize_project_button": "Deprioritize Project",
 
     "clear_item_tables_button": "아이템 표 비우기",
 

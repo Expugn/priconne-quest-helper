@@ -271,6 +271,9 @@
             <button id="project-add-button" disabled type="button" onclick="add_project_data()"><span translate_text="projects_tab.add_project_items_button">Add Project Items</span></button>
             <button id="project-sub-button" disabled type="button" onclick="sub_project_data()"><span translate_text="projects_tab.subtract_project_items_button">Subtract Project Items</span></button>
             <button id="project-delete-button" type="button" onclick="delete_project_data()"><span translate_text="projects_tab.delete_project_button">Delete Project</span></button>
+            <br><br>
+            <button id="prioritize-project-button" disabled type="button" onclick="prioritize_selected_project(true)"><span translate_text="projects_tab.prioritize_project_button">Prioritize Project</span></button>
+            <button id="deprioritize-project-button" disabled hidden type="button" onclick="prioritize_selected_project(false)"><span translate_text="projects_tab.deprioritize_project_button">Deprioritize Project</span></button>
             <br><br><br>
             <button type="button" onclick="clear_all_item_tables()"><span translate_text="projects_tab.clear_item_tables_button">Clear Item Tables</span></button>
         </div>

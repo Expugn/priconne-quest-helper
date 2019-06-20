@@ -1,4 +1,5 @@
 let projects = new Map();
+let priority_projects = [];
 
 function init_project_data()
 {
@@ -18,8 +19,20 @@ function init_project_data()
     {
         // LOCAL STORAGE IS SUPPORTED
 
+        // NOTE: "cookie_data" just means stuff from the LocalStorage/Browser.
+        //       Was too lazy to change the variable name.
+
         // LOAD DATA FROM COOKIE
         let project_cookie_data = localStorage.getItem('projects');
+        let priority_project_cookie_data = localStorage.getItem('priority_projects');
+
+        if (priority_project_cookie_data !== null)
+        {
+            // PRIORITY PROJECT COOKIE EXISTS, DECRYPT DATA AND SAVE TO GLOBAL VAR
+
+            priority_projects = JSON.parse(priority_project_cookie_data);
+        }
+
 
         if (project_cookie_data !== undefined)
         {
@@ -238,6 +251,21 @@ function delete_project_data()
         localStorage.removeItem('projects');
     }
 
+    if (priority_projects.includes(project_name))
+    {
+        // DELETE FROM PRIORITY PROJECT LIST
+        let index = priority_projects.indexOf(project_name);
+        if (index > -1)
+        {
+            priority_projects.splice(index, 1);
+        }
+
+        show_prioritize_button(true);
+        save_priority_projects();
+
+        console.log("[Priority Projects] - Removing \"" + project_name + "\" from the list due to it being deleted.")
+    }
+
     update_saved_projects_select();
     disable_add_and_sub_buttons(true);
 
@@ -308,6 +336,8 @@ function print_project_map(project_map)
 
 function update_saved_projects_select()
 {
+    const priority_project_symbol = "[★]";
+
     let select_HTML;
     if (current_language === "en")
     {
@@ -320,7 +350,14 @@ function update_saved_projects_select()
 
     for (let [project_name, project_data] of projects)
     {
-        select_HTML += "<option value=\"" + project_name + "\" title=\"" + project_items_toString(project_data) + "\">" + project_name + "</option>";
+        if (priority_projects.includes(project_name))
+        {
+            select_HTML += "<option value=\"" + project_name + "\" title=\"" + project_items_toString(project_data) + "\">" + priority_project_symbol + " " + project_name + "</option>";
+        }
+        else
+        {
+            select_HTML += "<option value=\"" + project_name + "\" title=\"" + project_items_toString(project_data) + "\">" + project_name + "</option>";
+        }
     }
 
     document.getElementById("saved-projects-select").innerHTML = select_HTML;
@@ -350,13 +387,19 @@ function update_project_selection()
         disable_add_and_sub_buttons(false);
     }
 
-    console.log("[Projects] - Selected \"" + selected_project + "\"");
+    let is_project_prioritized = priority_projects.includes(selected_project);
+    show_prioritize_button(!is_project_prioritized);
+
+    console.log("[Projects] - Selected \"" + selected_project + "\"" + (is_project_prioritized ? " (Prioritized)" : ""));
 }
 
 function disable_add_and_sub_buttons(true_or_false)
 {
     document.getElementById("project-add-button").disabled = true_or_false;
     document.getElementById("project-sub-button").disabled = true_or_false;
+
+    document.getElementById("prioritize-project-button").disabled = true_or_false;
+    document.getElementById("deprioritize-project-button").disabled = true_or_false;
 }
 
 function clear_all_item_tables()
@@ -605,5 +648,51 @@ function blacklist_selected_rarities()
             toastr.error(language_json["toasts"]["no_rarities_selected"]);
         }
 
+    }
+}
+
+function show_prioritize_button(true_or_false)
+{
+    document.getElementById("prioritize-project-button").hidden = !true_or_false;
+    document.getElementById("deprioritize-project-button").hidden = true_or_false;
+}
+
+function prioritize_selected_project(true_or_false)
+{
+    let selected_project = document.getElementById("saved-projects-select").value;
+
+    if (true_or_false)
+    {
+        priority_projects.push(selected_project);
+    }
+    else
+    {
+        let index = priority_projects.indexOf(selected_project);
+        if (index > -1)
+        {
+            priority_projects.splice(index, 1);
+        }
+    }
+
+    show_prioritize_button(!true_or_false);
+    update_saved_projects_select();
+    document.getElementById("saved-projects-select").value = selected_project;
+
+    save_priority_projects();
+
+    console.log("[Priority Projects] - " + (true_or_false ? "Prioritized" : "Deprioritized") + " \"" + selected_project + "\"")
+}
+
+function save_priority_projects()
+{
+    if (priority_projects.length > 0)
+    {
+        let encrypted_priority_projects_array = JSON.stringify(priority_projects);
+        localStorage.setItem('priority_projects', encrypted_priority_projects_array);
+    }
+    else
+    {
+        // IF PRIORITY PROJECT LIST IS EMPTY, JUST DELETE FROM LOCAL STORAGE.
+        localStorage.removeItem('priority_projects');
     }
 }

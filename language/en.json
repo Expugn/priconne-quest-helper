@@ -68,6 +68,8 @@
     "add_project_items_button": "Add Project Items",
     "subtract_project_items_button": "Subtract Project Items",
     "delete_project_button": "Delete Project",
+    "prioritize_project_button": "Prioritize Project",
+    "deprioritize_project_button": "Deprioritize Project",
 
     "clear_item_tables_button": "Clear Item Tables",
 
