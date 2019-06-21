@@ -91,4 +91,8 @@ function change_language()
 
     // UPDATE UPDATE PROGRESS
     refresh_quest_update_language();
+
+    // DISABLE ADD/SUBTRACT/PRIORITIZE/DEPRIORITZE BUTTONS
+    disable_add_and_sub_buttons(true);
+    show_prioritize_button(true);
 }

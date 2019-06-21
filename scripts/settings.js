@@ -336,7 +336,7 @@ function save_cookie()
     settings_map.ignored_rarities = ignored_rarities;
 
     let encrypted_setting_map = JSON.stringify(settings_map);
-    console.log(encrypted_setting_map);
+    //console.log(encrypted_setting_map);
     localStorage.setItem('settings', encrypted_setting_map);
 
     toastr.success((current_language === "en") ? "Your settings have been saved!" : language_json["toasts"]["settings_saved"]);

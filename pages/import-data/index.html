@@ -118,11 +118,13 @@
 
 <script>
     let project_data;
+    let priority_project_data;
     let blacklist_data;
     let settings_data;
     let gist_id;
 
     let project_json;
+    let priority_project_json;
     let blacklist_json;
     let settings_json;
 
@@ -164,16 +166,19 @@
                             // EXTRACT DATA FROM GIST
                             let converted_gist_data = JSON.parse(gist_data);
                             project_data = converted_gist_data["projects"];
+                            priority_project_data = converted_gist_data["priority_projects"];
                             blacklist_data = converted_gist_data["blacklist"];
                             settings_data = converted_gist_data["settings"];
 
                             // CHECK IF ANY DATA IS MISSING/NOT PROVIDED
                             let include_projects = project_data !== undefined;
+                            let include_priority_projects = priority_project_data !== undefined;
                             let include_blacklist = blacklist_data !== undefined;
                             let include_settings = settings_data !== undefined;
 
                             // CONVERT DATA
                             project_json = (include_projects ? JSON.parse(project_data) : "");
+                            priority_project_json = (include_priority_projects ? JSON.parse(priority_project_data) : "");
                             blacklist_json = (include_blacklist ? JSON.parse(blacklist_data) : "");
                             settings_json = (include_settings ? JSON.parse(settings_data) : "");
 
@@ -232,7 +237,12 @@
         // IMPORT DATA
         if (project_data !== undefined)
         {
+            localStorage.removeItem('priority_projects');
             localStorage.setItem('projects', project_data);
+            if (priority_project_data !== undefined)
+            {
+                localStorage.setItem('priority_projects', priority_project_data);
+            }
         }
         if (blacklist_data !== undefined)
         {

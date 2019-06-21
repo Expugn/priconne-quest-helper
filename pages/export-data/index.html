@@ -124,10 +124,12 @@
 
 <script>
     let project_data;
+    let priority_project_data;
     let blacklist_data;
     let settings_data;
 
     let project_json;
+    let priority_project_json;
     let blacklist_json;
     let settings_json;
 
@@ -202,10 +204,12 @@
         try
         {
             project_data = localStorage.getItem('projects');
+            priority_project_data = localStorage.getItem('priority_projects');
             blacklist_data = localStorage.getItem('blacklist');
             settings_data = localStorage.getItem('settings');
 
             project_json = (project_data !== null ? JSON.parse(project_data) : "");
+            priority_project_json = (priority_project_data !== null ? JSON.parse(priority_project_data) : "");
             blacklist_json = (blacklist_data !== null ? JSON.parse(blacklist_data) : "");
             settings_json = (settings_data !== null ? JSON.parse(settings_data) : "");
 
@@ -275,7 +279,14 @@
 
                 let content;
                 let content_map = new Map();
-                if (include_projects) { content_map["projects"] = localStorage.getItem('projects'); }
+                if (include_projects)
+                {
+                    content_map["projects"] = localStorage.getItem('projects');
+                    if (priority_project_data !== null)
+                    {
+                        content_map["priority_projects"] = localStorage.getItem('priority_projects');
+                    }
+                }
                 else if (project_data !== null) { document.getElementById("project-display").style.display = "none"; }
                 if (include_blacklist) { content_map["blacklist"] = localStorage.getItem('blacklist'); }
                 else if (blacklist_data !== null) { document.getElementById("blacklist-display").style.display = "none"; }
