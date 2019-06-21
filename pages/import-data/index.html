@@ -237,6 +237,7 @@
         // IMPORT DATA
         if (project_data !== undefined)
         {
+            localStorage.removeItem('priority_projects');
             localStorage.setItem('projects', project_data);
             if (priority_project_data !== undefined)
             {

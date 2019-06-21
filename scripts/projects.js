@@ -1,5 +1,7 @@
 let projects = new Map();
 let priority_projects = [];
+let priority_items_array = [];
+let priority_items_compiled = false;
 
 function init_project_data()
 {
@@ -29,6 +31,7 @@ function init_project_data()
         if (priority_project_cookie_data !== null)
         {
             // PRIORITY PROJECT COOKIE EXISTS, DECRYPT DATA AND SAVE TO GLOBAL VAR
+            // ALSO COMPILE LIST OF PRIORITY ITEMS FROM PRIORITY PROJECTS
 
             priority_projects = JSON.parse(priority_project_cookie_data);
         }
@@ -114,6 +117,9 @@ function save_project_data()
     document.getElementById("saved-projects-select").value = project_name;
     disable_add_and_sub_buttons(false);
     show_prioritize_button(true);
+
+    // UPDATE PRIORITY ITEMS
+    get_priority_items();
 
     if (current_language === "en")
     {
@@ -252,6 +258,7 @@ function delete_project_data()
         //Cookies.remove('projects');
         localStorage.removeItem('projects');
         localStorage.removeItem('priority_projects');
+        get_priority_items();
     }
 
     if (priority_projects.includes(project_name))
@@ -663,27 +670,29 @@ function show_prioritize_button(true_or_false)
 function prioritize_selected_project(true_or_false)
 {
     let selected_project = document.getElementById("saved-projects-select").value;
-
-    if (true_or_false)
+    if (selected_project !== "[All Projects...]")
     {
-        priority_projects.push(selected_project);
-    }
-    else
-    {
-        let index = priority_projects.indexOf(selected_project);
-        if (index > -1)
+        if (true_or_false)
         {
-            priority_projects.splice(index, 1);
+            priority_projects.push(selected_project);
         }
+        else
+        {
+            let index = priority_projects.indexOf(selected_project);
+            if (index > -1)
+            {
+                priority_projects.splice(index, 1);
+            }
+        }
+
+        show_prioritize_button(!true_or_false);
+        update_saved_projects_select();
+        document.getElementById("saved-projects-select").value = selected_project;
+
+        save_priority_projects();
+
+        console.log("[Priority Projects] - " + (true_or_false ? "Prioritized" : "Deprioritized") + " \"" + selected_project + "\"");
     }
-
-    show_prioritize_button(!true_or_false);
-    update_saved_projects_select();
-    document.getElementById("saved-projects-select").value = selected_project;
-
-    save_priority_projects();
-
-    console.log("[Priority Projects] - " + (true_or_false ? "Prioritized" : "Deprioritized") + " \"" + selected_project + "\"")
 }
 
 function save_priority_projects()
@@ -698,4 +707,5 @@ function save_priority_projects()
         // IF PRIORITY PROJECT LIST IS EMPTY, JUST DELETE FROM LOCAL STORAGE.
         localStorage.removeItem('priority_projects');
     }
+    get_priority_items();
 }

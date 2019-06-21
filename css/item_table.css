@@ -179,6 +179,10 @@ img.quest-item-image {
     border-radius: 4px;
 }
 
+img.priority-quest-item {
+    box-shadow: 0 0 2px 2px rgba(255, 0, 0, 1.0);
+}
+
 .quest-percent-text {
     text-shadow: 1px 1px 4px #000000,
     1px 1px 4px #000000,
