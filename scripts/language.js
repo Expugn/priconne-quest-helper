@@ -94,4 +94,5 @@ function change_language()
 
     // DISABLE ADD/SUBTRACT/PRIORITIZE/DEPRIORITZE BUTTONS
     disable_add_and_sub_buttons(true);
+    show_prioritize_button(true);
 }

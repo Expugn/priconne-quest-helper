@@ -430,19 +430,18 @@ function get_priority_items()
                         priority_items_array.push(component_name);
                     }
                 }
-                /*
-
-                 */
             }
         }
     }
-
-    refresh_quest_table();
 
     // MARK PRIORITY ITEMS AS COMPILED
     if (!priority_items_compiled)
     {
         priority_items_compiled = true;
+    }
+    else
+    {
+        refresh_quest_table();
     }
 
     //console.log(JSON.stringify(priority_items_array));
