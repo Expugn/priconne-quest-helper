@@ -224,7 +224,7 @@ img.priority-quest-item {
     background-color: rgba(255, 255, 255, 0.5);
 
     position: relative;
-    bottom: 5px;
+    bottom: 6px;
 
     margin-bottom: 5%;
 
@@ -314,4 +314,51 @@ img.quest-character-shard-grayscale {
     box-shadow: 0 0 0 0, 0 0 0 0, 0 0 !important;
     text-shadow: 0 0 0 !important;
     width: 10px !important;
+}
+
+.quest-hover {
+    padding-bottom: 0;
+}
+
+.quest-req-amount-text {
+    opacity: 0;
+
+    text-shadow: 1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000;
+
+
+    position: relative;
+    bottom: 4px;
+    right: 4px;
+
+    padding-bottom: 5px;
+
+    line-height: 0;
+
+
+    color: white;
+    font-family: "Calibri", Arial, serif;
+    text-align: right;
+
+    border-radius: 5px;
+}
+
+.quest-hover:hover {
+    padding-bottom: 0;
+}
+
+
+.quest-hover:hover .quest-percent-text {
+    opacity: 0;
+}
+
+.quest-hover:hover .quest-req-amount-text {
+    opacity: 1;
+}
+
+.quest-is-empty-text {
+    position: relative;
+    bottom: -2px;
 }
