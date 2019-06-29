@@ -18,7 +18,7 @@ function build_character_preset_list()
         if (current_language === "en")
         {
             let character_en = character_data_map.get("name") + ((character_data_map.get("thematic") !== "") ?  (" (" + character_data_map.get("thematic") + ")") : "");
-            let character_jp = ((character_data_map.get("thematic_jp") !== "") ?  character_data_map.get("thematic_jp") : "") + character_data_map.get("name_jp");
+            let character_jp = character_data_map.get("name_jp") + ((character_data_map.get("thematic_jp") !== "") ?  (" (" + character_data_map.get("thematic_jp") + ")") : "");
             character_preset_html += "<option value=\"" + character_id + "\"" + ((character_data_map.get("rank_1")[0] === "") ? " disabled" : "") + ">" + character_en + " | " + character_jp + "</option>";
         }
         else

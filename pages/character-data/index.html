@@ -109,7 +109,8 @@
                 let character_name = character_data_map.get("name");
                 let character_thematic = character_data_map.get("thematic");
                 let character_thematic_jp = character_data_map.get("thematic_jp");
-                let character_jp = ((character_thematic_jp === "") ? "" : character_thematic_jp) + character_data_map.get("name_jp");
+                //let character_jp = ((character_thematic_jp === "") ? "" : character_thematic_jp) + character_data_map.get("name_jp");
+                let character_jp = character_data_map.get("name_jp") + ((character_thematic_jp === "") ? "" : " (" + character_thematic_jp + ")");
 
                 table_html += "<tr>";
 
