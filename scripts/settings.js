@@ -17,8 +17,34 @@ let min_quest_chapter_default;
 let max_quest_chapter_default;
 let quest_filter_default;
 let item_amount_per_row_default;
-let all_rarities = ["common", "copper", "silver", "gold", "purple"];
 
+const all_rarities = ["common", "copper", "silver", "gold", "purple"];
+
+const quest_filter_settings = Object.freeze({
+    ALL: 'filter-all',
+    NORMAL: 'filter-normal',
+    HARD: 'filter-hard'
+});
+
+const quest_display_settings = Object.freeze({
+    PERCENT: 'display-percent',
+    AMOUNT: 'display-amt-req'
+});
+
+const setting_element_id = Object.freeze({
+    QUEST_SHOWN_VALUE: 'quest-shown-amt',
+    ASCENDING_SORT_QUEST_LIST: 'sort-ascending-quest-list',
+    ASCENDING_SORT_QUEST_SCORE: 'sort-ascending-quest-score',
+    HIDE_QUEST_SCORE: 'hide-quest-score',
+    MIN_QUEST_CHAPTER: 'min-quest-chapter',
+    MAX_QUEST_CHAPTER: 'max-quest-chapter',
+    QUEST_FILTER_ALL: 'filter-all-quests',
+    QUEST_FILTER_NORMAL: 'filter-normal-quests',
+    QUEST_FILTER_HARD: 'filter-hard-quests',
+    ITEM_AMOUNT_PER_ROW: 'item-amount-per-row',
+    QUEST_DISPLAY_PERCENT: 'display-drop-percent',
+    QUEST_DISPLAY_AMOUNT: 'display-amount-required'
+});
 
 function init_settings()
 {
@@ -61,39 +87,39 @@ function init_settings()
     }
 
     // GET STARTING VALUES FROM COMPONENTS
-    quest_shown_value_default = document.getElementById("quest-shown-amt").value;
+    quest_shown_value_default = document.getElementById(setting_element_id.QUEST_SHOWN_VALUE).value;
     quest_shown_value = quest_shown_value_default;
 
-    ascending_sort_quest_list_default = document.getElementById("sort-ascending-quest-list").checked;
+    ascending_sort_quest_list_default = document.getElementById(setting_element_id.ASCENDING_SORT_QUEST_LIST).checked;
     ascending_sort_quest_list = ascending_sort_quest_list_default;
 
-    ascending_sort_quest_score_default = document.getElementById("sort-ascending-quest-score").checked;
+    ascending_sort_quest_score_default = document.getElementById(setting_element_id.ASCENDING_SORT_QUEST_SCORE).checked;
     ascending_sort_quest_score = ascending_sort_quest_score_default;
 
-    hide_quest_score_default = document.getElementById("hide-quest-score").checked;
+    hide_quest_score_default = document.getElementById(setting_element_id.HIDE_QUEST_SCORE).checked;
     hide_quest_score = hide_quest_score_default;
 
-    min_quest_chapter_default = document.getElementById("min-quest-chapter").value;
+    min_quest_chapter_default = document.getElementById(setting_element_id.MIN_QUEST_CHAPTER).value;
     min_quest_chapter = min_quest_chapter_default;
 
-    max_quest_chapter_default = document.getElementById("max-quest-chapter").value;
+    max_quest_chapter_default = document.getElementById(setting_element_id.MAX_QUEST_CHAPTER).value;
     max_quest_chapter = max_quest_chapter_default;
 
-    if (document.getElementById("filter-all-quests").checked)
+    if (document.getElementById(setting_element_id.QUEST_FILTER_ALL).checked)
     {
-        quest_filter_default = "filter-all";
+        quest_filter_default = quest_filter_settings.ALL;
     }
-    else if (document.getElementById("filter-normal-quests").checked)
+    else if (document.getElementById(setting_element_id.QUEST_FILTER_NORMAL).checked)
     {
-        quest_filter_default = "filter-normal";
+        quest_filter_default = quest_filter_settings.NORMAL;
     }
-    else if (document.getElementById("filter-hard-quests").checked)
+    else if (document.getElementById(setting_element_id.QUEST_FILTER_HARD).checked)
     {
-        quest_filter_default = "filter-hard";
+        quest_filter_default = quest_filter_settings.HARD;
     }
     quest_filter = quest_filter_default;
 
-    item_amount_per_row_default = document.getElementById("item-amount-per-row").value;
+    item_amount_per_row_default = document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).value;
     item_amount_per_row = item_amount_per_row_default;
 
     ignored_rarities = [];
@@ -108,19 +134,19 @@ function check_checkbox(elementID, checked)
 
 function change_quest_shown_amt()
 {
-    const max_value = document.getElementById("quest-shown-amt").max;
-    const min_value = document.getElementById("quest-shown-amt").min;
+    const max_value = document.getElementById(setting_element_id.QUEST_SHOWN_VALUE).max;
+    const min_value = document.getElementById(setting_element_id.QUEST_SHOWN_VALUE).min;
 
-    quest_shown_value = Math.round(document.getElementById("quest-shown-amt").value);
+    quest_shown_value = Math.round(document.getElementById(setting_element_id.QUEST_SHOWN_VALUE).value);
 
     if (quest_shown_value > max_value)
     {
-        document.getElementById("quest-shown-amt").value = max_value;
+        document.getElementById(setting_element_id.QUEST_SHOWN_VALUE).value = max_value;
         quest_shown_value = max_value;
     }
     if (quest_shown_value < min_value)
     {
-        document.getElementById("quest-shown-amt").value = min_value;
+        document.getElementById(setting_element_id.QUEST_SHOWN_VALUE).value = min_value;
         quest_shown_value = min_value;
     }
 
@@ -155,24 +181,24 @@ function toggle_hide_quest_score()
 
 function change_min_quest_chapter()
 {
-    const max_value = document.getElementById("min-quest-chapter").max;
-    const min_value = document.getElementById("min-quest-chapter").min;
+    const max_value = document.getElementById(setting_element_id.MIN_QUEST_CHAPTER).max;
+    const min_value = document.getElementById(setting_element_id.MIN_QUEST_CHAPTER).min;
 
-    min_quest_chapter = Math.round(document.getElementById("min-quest-chapter").value);
+    min_quest_chapter = Math.round(document.getElementById(setting_element_id.MIN_QUEST_CHAPTER).value);
 
     if (min_quest_chapter > max_value)
     {
-        document.getElementById("min-quest-chapter").value = max_value;
+        document.getElementById(setting_element_id.MIN_QUEST_CHAPTER).value = max_value;
         min_quest_chapter = max_value;
     }
     if (min_quest_chapter > max_quest_chapter)
     {
-        document.getElementById("min-quest-chapter").value = max_quest_chapter;
+        document.getElementById(setting_element_id.MIN_QUEST_CHAPTER).value = max_quest_chapter;
         min_quest_chapter = max_quest_chapter;
     }
     if (min_quest_chapter < min_value)
     {
-        document.getElementById("min-quest-chapter").value = min_value;
+        document.getElementById(setting_element_id.MIN_QUEST_CHAPTER).value = min_value;
         min_quest_chapter = min_value;
     }
 
@@ -183,24 +209,24 @@ function change_min_quest_chapter()
 
 function change_max_quest_chapter()
 {
-    const max_value = document.getElementById("max-quest-chapter").max;
-    const min_value = document.getElementById("max-quest-chapter").min;
+    const max_value = document.getElementById(setting_element_id.MAX_QUEST_CHAPTER).max;
+    const min_value = document.getElementById(setting_element_id.MAX_QUEST_CHAPTER).min;
 
-    max_quest_chapter = Math.round(document.getElementById("max-quest-chapter").value);
+    max_quest_chapter = Math.round(document.getElementById(setting_element_id.MAX_QUEST_CHAPTER).value);
 
     if (max_quest_chapter > max_value)
     {
-        document.getElementById("max-quest-chapter").value = max_value;
+        document.getElementById(setting_element_id.MAX_QUEST_CHAPTER).value = max_value;
         max_quest_chapter = max_value;
     }
     if (max_quest_chapter < min_value)
     {
-        document.getElementById("max-quest-chapter").value = min_value;
+        document.getElementById(setting_element_id.MAX_QUEST_CHAPTER).value = min_value;
         max_quest_chapter = min_value;
     }
     if (max_quest_chapter < min_quest_chapter)
     {
-        document.getElementById("max-quest-chapter").value = min_quest_chapter;
+        document.getElementById(setting_element_id.MAX_QUEST_CHAPTER).value = min_quest_chapter;
         max_quest_chapter = min_quest_chapter;
     }
 
@@ -211,17 +237,17 @@ function change_max_quest_chapter()
 
 function change_quest_filter()
 {
-    if (document.getElementById("filter-all-quests").checked)
+    if (document.getElementById(setting_element_id.QUEST_FILTER_ALL).checked)
     {
-        quest_filter = "filter-all";
+        quest_filter = quest_filter_settings.ALL;
     }
-    else if (document.getElementById("filter-normal-quests").checked)
+    else if (document.getElementById(setting_element_id.QUEST_FILTER_NORMAL).checked)
     {
-        quest_filter = "filter-normal";
+        quest_filter = quest_filter_settings.NORMAL;
     }
-    else if (document.getElementById("filter-hard-quests").checked)
+    else if (document.getElementById(setting_element_id.QUEST_FILTER_HARD).checked)
     {
-        quest_filter = "filter-hard";
+        quest_filter = quest_filter_settings.HARD;
     }
 
     console.log("[Settings] - Quest Filter Changed to: " + quest_filter);
@@ -231,19 +257,19 @@ function change_quest_filter()
 
 function change_item_amount_per_row()
 {
-    const max_value = document.getElementById("item-amount-per-row").max;
-    const min_value = document.getElementById("item-amount-per-row").min;
+    const max_value = document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).max;
+    const min_value = document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).min;
 
-    item_amount_per_row = Math.round(document.getElementById("item-amount-per-row").value);
+    item_amount_per_row = Math.round(document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).value);
 
     if (item_amount_per_row > max_value)
     {
-        document.getElementById("item-amount-per-row").value = max_value;
+        document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).value = max_value;
         item_amount_per_row = max_value;
     }
     if (item_amount_per_row < min_value)
     {
-        document.getElementById("item-amount-per-row").value = min_value;
+        document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).value = min_value;
         item_amount_per_row = min_value;
     }
 
@@ -366,31 +392,31 @@ function read_cookie()
     {
         set_values_from_cookie();
 
-        document.getElementById("quest-shown-amt").value = quest_shown_value;
-        check_checkbox("sort-ascending-quest-list", ascending_sort_quest_list);
-        check_checkbox("sort-ascending-quest-score", ascending_sort_quest_score);
-        check_checkbox("hide-quest-score", hide_quest_score);
-        document.getElementById("min-quest-chapter").value = min_quest_chapter;
-        document.getElementById("max-quest-chapter").value = max_quest_chapter;
-        if (quest_filter === "filter-all")
+        document.getElementById(setting_element_id.QUEST_SHOWN_VALUE).value = quest_shown_value;
+        check_checkbox(setting_element_id.ASCENDING_SORT_QUEST_LIST, ascending_sort_quest_list);
+        check_checkbox(setting_element_id.ASCENDING_SORT_QUEST_SCORE, ascending_sort_quest_score);
+        check_checkbox(setting_element_id.HIDE_QUEST_SCORE, hide_quest_score);
+        document.getElementById(setting_element_id.MIN_QUEST_CHAPTER).value = min_quest_chapter;
+        document.getElementById(setting_element_id.MAX_QUEST_CHAPTER).value = max_quest_chapter;
+        if (quest_filter === quest_filter_settings.ALL)
         {
-            check_checkbox("filter-all-quests", true);
-            check_checkbox("filter-normal-quests", false);
-            check_checkbox("filter-hard-quests", false);
+            check_checkbox(setting_element_id.QUEST_FILTER_ALL, true);
+            check_checkbox(setting_element_id.QUEST_FILTER_NORMAL, false);
+            check_checkbox(setting_element_id.QUEST_FILTER_HARD, false);
         }
-        else if (quest_filter === "filter-normal")
+        else if (quest_filter === quest_filter_settings.NORMAL)
         {
-            check_checkbox("filter-all-quests", false);
-            check_checkbox("filter-normal-quests", true);
-            check_checkbox("filter-hard-quests", false);
+            check_checkbox(setting_element_id.QUEST_FILTER_ALL, false);
+            check_checkbox(setting_element_id.QUEST_FILTER_NORMAL, true);
+            check_checkbox(setting_element_id.QUEST_FILTER_HARD, false);
         }
-        else if (quest_filter === "filter-hard")
+        else if (quest_filter === quest_filter_settings.HARD)
         {
-            check_checkbox("filter-all-quests", false);
-            check_checkbox("filter-normal-quests", false);
-            check_checkbox("filter-hard-quests", true);
+            check_checkbox(setting_element_id.QUEST_FILTER_ALL, false);
+            check_checkbox(setting_element_id.QUEST_FILTER_NORMAL, false);
+            check_checkbox(setting_element_id.QUEST_FILTER_HARD, true);
         }
-        document.getElementById("item-amount-per-row").value = item_amount_per_row;
+        document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).value = item_amount_per_row;
         for (let i = 0 ; i < ignored_rarities.length ; i++)
         {
             let ignored_rarity_document_id = "ignore-button-" + ignored_rarities[i];
@@ -429,31 +455,31 @@ function reset_settings()
         set_settings_to_default();
     }
 
-    document.getElementById("quest-shown-amt").value = quest_shown_value;
-    check_checkbox("sort-ascending-quest-list", ascending_sort_quest_list);
-    check_checkbox("sort-ascending-quest-score", ascending_sort_quest_score);
-    check_checkbox("hide-quest-score", hide_quest_score);
-    document.getElementById("min-quest-chapter").value = min_quest_chapter;
-    document.getElementById("max-quest-chapter").value = max_quest_chapter;
-    if (quest_filter === "filter-all")
+    document.getElementById(setting_element_id.QUEST_SHOWN_VALUE).value = quest_shown_value;
+    check_checkbox(setting_element_id.ASCENDING_SORT_QUEST_LIST, ascending_sort_quest_list);
+    check_checkbox(setting_element_id.ASCENDING_SORT_QUEST_SCORE, ascending_sort_quest_score);
+    check_checkbox(setting_element_id.HIDE_QUEST_SCORE, hide_quest_score);
+    document.getElementById(setting_element_id.MIN_QUEST_CHAPTER).value = min_quest_chapter;
+    document.getElementById(setting_element_id.MAX_QUEST_CHAPTER).value = max_quest_chapter;
+    if (quest_filter === quest_filter_settings.ALL)
     {
-        check_checkbox("filter-all-quests", true);
-        check_checkbox("filter-normal-quests", false);
-        check_checkbox("filter-hard-quests", false);
+        check_checkbox(setting_element_id.QUEST_FILTER_ALL, true);
+        check_checkbox(setting_element_id.QUEST_FILTER_NORMAL, false);
+        check_checkbox(setting_element_id.QUEST_FILTER_HARD, false);
     }
-    else if (quest_filter === "filter-normal")
+    else if (quest_filter === quest_filter_settings.NORMAL)
     {
-        check_checkbox("filter-all-quests", false);
-        check_checkbox("filter-normal-quests", true);
-        check_checkbox("filter-hard-quests", false);
+        check_checkbox(setting_element_id.QUEST_FILTER_ALL, false);
+        check_checkbox(setting_element_id.QUEST_FILTER_NORMAL, true);
+        check_checkbox(setting_element_id.QUEST_FILTER_HARD, false);
     }
-    else if (quest_filter === "filter-hard")
+    else if (quest_filter === quest_filter_settings.HARD)
     {
-        check_checkbox("filter-all-quests", false);
-        check_checkbox("filter-normal-quests", false);
-        check_checkbox("filter-hard-quests", true);
+        check_checkbox(setting_element_id.QUEST_FILTER_ALL, false);
+        check_checkbox(setting_element_id.QUEST_FILTER_NORMAL, false);
+        check_checkbox(setting_element_id.QUEST_FILTER_HARD, true);
     }
-    document.getElementById("item-amount-per-row").value = item_amount_per_row;
+    document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).value = item_amount_per_row;
     for (let i = 0 ; i < all_rarities.length ; i++)
     {
         let ignored_rarity_document_id = "ignore-button-" + all_rarities[i];
@@ -511,25 +537,25 @@ function set_values_from_cookie()
         let max_value;
         let min_value;
 
-        max_value = parseInt(document.getElementById("quest-shown-amt").max);
-        min_value = parseInt(document.getElementById("quest-shown-amt").min);
+        max_value = parseInt(document.getElementById(setting_element_id.QUEST_SHOWN_VALUE).max);
+        min_value = parseInt(document.getElementById(setting_element_id.QUEST_SHOWN_VALUE).min);
         saved_settings_map.quest_shown_value = ((saved_settings_map.quest_shown_value > max_value) ? max_value : saved_settings_map.quest_shown_value);
         saved_settings_map.quest_shown_value = ((saved_settings_map.quest_shown_value < min_value) ? min_value : saved_settings_map.quest_shown_value);
 
-        max_value = parseInt(document.getElementById("min-quest-chapter").max);
-        min_value = parseInt(document.getElementById("min-quest-chapter").min);
+        max_value = parseInt(document.getElementById(setting_element_id.MIN_QUEST_CHAPTER).max);
+        min_value = parseInt(document.getElementById(setting_element_id.MIN_QUEST_CHAPTER).min);
         saved_settings_map.min_quest_chapter = ((saved_settings_map.min_quest_chapter > max_value) ? max_value : saved_settings_map.min_quest_chapter);
         saved_settings_map.min_quest_chapter = ((saved_settings_map.min_quest_chapter < min_value) ? min_value : saved_settings_map.min_quest_chapter);
 
-        max_value = parseInt(document.getElementById("max-quest-chapter").max);
-        min_value = parseInt(document.getElementById("max-quest-chapter").min);
+        max_value = parseInt(document.getElementById(setting_element_id.MAX_QUEST_CHAPTER).max);
+        min_value = parseInt(document.getElementById(setting_element_id.MAX_QUEST_CHAPTER).min);
         saved_settings_map.max_quest_chapter = ((saved_settings_map.max_quest_chapter > max_value) ? max_value : saved_settings_map.max_quest_chapter);
         saved_settings_map.max_quest_chapter = ((saved_settings_map.max_quest_chapter < min_value) ? min_value : saved_settings_map.max_quest_chapter);
 
         saved_settings_map.min_quest_chapter = ((saved_settings_map.min_quest_chapter > saved_settings_map.max_quest_chapter) ? saved_settings_map.max_quest_chapter : saved_settings_map.min_quest_chapter);
 
-        max_value = parseInt(document.getElementById("item-amount-per-row").max);
-        min_value = parseInt(document.getElementById("item-amount-per-row").min);
+        max_value = parseInt(document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).max);
+        min_value = parseInt(document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).min);
         saved_settings_map.item_amount_per_row = ((saved_settings_map.item_amount_per_row > max_value) ? max_value : saved_settings_map.item_amount_per_row);
         saved_settings_map.item_amount_per_row = ((saved_settings_map.item_amount_per_row < min_value) ? min_value : saved_settings_map.item_amount_per_row);
 
