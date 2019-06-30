@@ -65,7 +65,7 @@ body.no-background-body {
 }
 
 div.div-background-title.png {
-    background-image: url("./../images/webpage/still_108200401_blur_2.png");
+    background-image: url("./../images/webpage/still_500400703_blur.png");
 
     height: 100%;
 
@@ -80,7 +80,7 @@ div.div-background-title.png {
 }
 
 div.div-background-title.webp {
-    background-image: url("./../images/webpage_webp/still_108200401_blur_2.webp");
+    background-image: url("./../images/webpage_webp/still_500400703_blur.webp");
 
     height: 100%;
 
@@ -223,6 +223,8 @@ h1.title {
     text-shadow: 2px 2px 4px #000000;
 
     box-sizing: border-box;
+
+    transition: all 0.4s ease-out;
 }
 
 h2.title {
@@ -234,6 +236,12 @@ h2.title {
     letter-spacing: 3px;
 
     box-sizing: border-box;
+
+    transition: all 0.4s ease-out;
+}
+
+div.div-background-title:not(.no-hover):hover .title {
+    opacity: 0.1;
 }
 
 .category-title {
@@ -247,6 +255,7 @@ h2.title {
     margin-top: -10px;
 }
 
+/*
 .title-hover {
     transition: all 0.4s ease-out;
 }
@@ -254,6 +263,7 @@ h2.title {
 .title-hover:not(.no-hover):hover, .title-hover:not(.no-hover):active {
     opacity: 0.1;
 }
+*/
 
 /* LINE BREAK */
 hr {
