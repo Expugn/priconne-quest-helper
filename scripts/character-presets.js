@@ -58,7 +58,7 @@ function update_selected_character_preset_details()
         if (current_language === "en")
         {
             character_thematic_tl = get_character_data(selected_character, "thematic_jp");
-            character_tl = ((character_thematic_tl === "") ? "" : character_thematic_tl) + get_character_data(selected_character, "name_jp");
+            character_tl = get_character_data(selected_character, "name_jp") + " " + ((character_thematic_tl === "") ? "" : "(" + character_thematic_tl + ")");
         }
         else
         {
