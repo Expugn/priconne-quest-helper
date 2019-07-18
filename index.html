@@ -205,7 +205,7 @@
                                 class="item-input"
                                 type="number"
                                 min="1"
-                                max="13"
+                                max="14"
                                 value="1"
                                 disabled
                                 onchange="change_min_rank_preset()">
@@ -221,8 +221,8 @@
                                 class="item-input"
                                 type="number"
                                 min="1"
-                                max="13"
-                                value="13"
+                                max="14"
+                                value="14"
                                 disabled
                                 onchange="change_max_rank_preset()">
                     </th>
@@ -295,33 +295,6 @@
             <label for="blacklist-purple"><span translate_text="items_tab.purple_title">Purple</span></label>    <input id="blacklist-purple" type="checkbox"><br>
             <button id="blacklist-rarities-button" type="button" onclick="blacklist_selected_rarities()"><span translate_text="projects_tab.blacklist_selected_rarities_button">Blacklist Selected Rarities</span></button>
         </div>
-
-        <!--
-        <br><br>
-        <button id="toggle-project-help" type="button" onclick="toggle_project_help()">Show Project/Blacklist Help</button>
-        <div id="project-info-div" style="display: none">
-            <h3>How To Use Projects:</h3>
-            <label>[Save Project]:<br>Put a name in the text input and click the button. All items currently selected will be saved. You can overwrite an existing item set by inputting the name and clicking save.</label><br><br>
-            <label>[Load Project]:<br>Overwrites all currently selected items with the items saved in the project.</label><br><br>
-            <label>[Add Project Items]:<br>Add a project's saved items with the currently selected items.</label><br><br>
-            <label>[Subtract Project Items]:<br>Remove a project's saved items with the currently selected items.</label><br><br>
-            <label>[Delete Project]:<br>Removes a project's data forever.</label>
-            <h3>Item Blacklist Saving:</h3>
-            <label>Due to the variability of blacklists, they aren't saved with a project.</label><br>
-            <label>However, you can save a blacklist in case you want to refresh the page or close out page and continue your project later.</label><br>
-            <label>Only one blacklist will be saved at a time. It will also automatically be loaded when you load the page.</label><br>
-            <label>Hovering over the "[Load Blacklist]" button will show you what's in the saved blacklist.</label><br><br>
-            <label>[Save Blacklist]:<br>Saves your current blacklist.</label><br><br>
-            <label>[Clear Blacklist]:<br>Clears the blacklist (in case if you want a clean slate).</label><br><br>
-            <label>[Delete Blacklist]:<br>Deletes the saved blacklist.</label><br><br>
-            <label>[Blacklist Selected Rarities]:<br>Blacklists the rarities you selected in the checkboxes (note that items will be un-blacklisted if their value is modified. Use this option AFTER you select all your desired items).</label>
-            <h3>Other Notes</h3>
-            <label>* Clicking the load project button w/ "[All Projects...]" selected will automatically combine all saved projects together and load it.</label><br>
-            <label>* Clicking the delete project button w/ "[All Projects...]" selected will delete every saved project.</label><br>
-            <label>* The load, add, and subtract project buttons will be disabled when "[All Projects...]" is selected.</label><br>
-            <label>* Hovering over the project name in the selection will display all items in the project.</label><br>
-        </div>
-        -->
     </div>
     <br>
 </div>
@@ -375,7 +348,7 @@
                class="item-input"
                type="number"
                min="1"
-               max="24"
+               max="25"
                value="1"
                onchange="change_min_quest_chapter()">
         <br>
@@ -384,8 +357,8 @@
                class="item-input"
                type="number"
                min="1"
-               max="24"
-               value="24"
+               max="25"
+               value="25"
                onchange="change_max_quest_chapter()">
 
         <br><br>
@@ -429,6 +402,14 @@
             <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Purple Items" image_folder="webpage" file_name="Placeholder_Purple" src_prefix="" src="" alt="">
         </button>
 
+
+        <br><br>
+
+        <label for="display-drop-percent"><span translate_text="settings_tab.display_drop_percent">Display Drop Percent</span></label>
+        <input id="display-drop-percent" type="radio" name="display-option" value="drop-percent" onclick="change_display_option()" checked>
+        <br>
+        <label for="display-amount-required"><span translate_text="settings_tab.display_amount_required">Display Amount Required</span></label>
+        <input id="display-amount-required" type="radio" name="display-option" value="amount-required" onclick="change_display_option()">
 
         <br><br>
 
@@ -548,22 +529,6 @@
         <input id="export-data-button" type="button" onclick="location.href='pages/export-data/';" target="_blank" value="Export Saved Data"/>
 
         <br>
-
-        <!--
-        <button id="toggle-data-management-help" type="button" onclick="toggle_data_management_help()">Show Data Management Help</button>
-        <div id="export-import-info" style="display: none;">
-            <h3>How to Export/Import Your Saved Data</h3>
-            <label>[Exporting Data]:</label><br>
-            <label>&emsp;1) Click the "Export Data" button to go to a new page. You can choose to export your projects/blacklist/settings. Make your selections and click "Generate URL".</label><br>
-            <label>&emsp;2) Wait a few seconds and a url should be generated. Copy the link or press the button to copy the link and send it to yourself or someone via email/instant messenger, whatever.</label><br><br>
-            <label>[Importing Data]:</label><br>
-            <label>&emsp;1) Open the URL you generated in "Exporting Data" on whatever device you want to load the data to.</label><br>
-            <label>&emsp;2) Review the data in the link and make sure everything is correct before you import.</label><br>
-            <label style="color: red">&emsp;3) NOTE THAT IMPORTING DATA WILL REPLACE THE DATA IN THE BROWSER. IF YOU DON'T WANT TO REPLACE YOUR DATA THEN DON'T IMPORT.</label><br>
-            <label>&emsp;4) If you're okay with everything then click the import confirmation button.</label><br>
-            <label>&emsp;5) Done! Your data should be imported now. You can now go back to the main page.</label><br><br>
-        </div>
-        -->
     </div>
 </div>
 

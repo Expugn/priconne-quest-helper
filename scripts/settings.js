@@ -8,6 +8,7 @@ let max_quest_chapter;                  // default = whatever is the highest cha
 let quest_filter;                       // default = filter-all
 let item_amount_per_row;                // default = 7
 let ignored_rarities;                   // default = [] (empty array)
+let quest_display;                      // default = display-percent
 
 let quest_shown_value_default;
 let ascending_sort_quest_list_default;
@@ -17,6 +18,7 @@ let min_quest_chapter_default;
 let max_quest_chapter_default;
 let quest_filter_default;
 let item_amount_per_row_default;
+let quest_display_default;
 
 const all_rarities = ["common", "copper", "silver", "gold", "purple"];
 
@@ -48,44 +50,6 @@ const setting_element_id = Object.freeze({
 
 function init_settings()
 {
-    // SETTINGS BEING STORED ON COOKIES HAVE BEEN DEPRECIATED. DELETE/IMPORT DATA.
-    if (Cookies.get('quest_shown_value') ||
-        Cookies.get('ascending_sort_quest_list') ||
-        Cookies.get('ascending_sort_quest_score') ||
-        Cookies.get('hide_quest_score') ||
-        Cookies.get('min_quest_chapter') ||
-        Cookies.get('max_quest_chapter') ||
-        Cookies.get('quest_filter') ||
-        Cookies.get('item_amount_per_row'))
-    {
-        if (typeof(Storage) !== "undefined")
-        {
-            let settings_map = new Map();
-            settings_map.quest_shown_value = parseInt(Cookies.get('quest_shown_value'));
-            settings_map.ascending_sort_quest_list = Cookies.get('ascending_sort_quest_list') === 'true';
-            settings_map.ascending_sort_quest_score = Cookies.get('ascending_sort_quest_score') === 'true';
-            settings_map.hide_quest_score = Cookies.get('hide_quest_score') === 'true';
-            settings_map.min_quest_chapter = parseInt(Cookies.get('min_quest_chapter'));
-            settings_map.max_quest_chapter = parseInt(Cookies.get('max_quest_chapter'));
-            settings_map.quest_filter = Cookies.get('quest_filter');
-            settings_map.item_amount_per_row = parseInt(Cookies.get('item_amount_per_row'));
-            settings_map.ignored_rarities = [];
-
-            let encrypted_setting_map = JSON.stringify(settings_map);
-            localStorage.setItem('settings', encrypted_setting_map);
-        }
-        Cookies.remove('quest_shown_value');
-        Cookies.remove('ascending_sort_quest_list');
-        Cookies.remove('ascending_sort_quest_score');
-        Cookies.remove('hide_quest_score');
-        Cookies.remove('min_quest_chapter');
-        Cookies.remove('max_quest_chapter');
-        Cookies.remove('quest_filter');
-        Cookies.remove('item_amount_per_row');
-
-        console.log("[Settings] - Removed/imported to LocalStorage found settings cookie data.");
-    }
-
     // GET STARTING VALUES FROM COMPONENTS
     quest_shown_value_default = document.getElementById(setting_element_id.QUEST_SHOWN_VALUE).value;
     quest_shown_value = quest_shown_value_default;
@@ -123,6 +87,16 @@ function init_settings()
     item_amount_per_row = item_amount_per_row_default;
 
     ignored_rarities = [];
+
+    if (document.getElementById(setting_element_id.QUEST_DISPLAY_PERCENT).checked)
+    {
+        quest_display_default = quest_display_settings.PERCENT;
+    }
+    else if (document.getElementById(setting_element_id.QUEST_DISPLAY_AMOUNT).checked)
+    {
+        quest_display_default = quest_display_settings.AMOUNT;
+    }
+    quest_display = quest_display_default;
 
     console.log("[Settings] - Settings are initialized!");
 }
@@ -305,6 +279,22 @@ function toggle_ignored_rarity(rarity)
     build_data();
 }
 
+function change_display_option()
+{
+    if (document.getElementById(setting_element_id.QUEST_DISPLAY_PERCENT).checked)
+    {
+        quest_display = quest_display_settings.PERCENT;
+    }
+    else if (document.getElementById(setting_element_id.QUEST_DISPLAY_AMOUNT).checked)
+    {
+        quest_display = quest_display_settings.AMOUNT;
+    }
+
+    console.log("[Settings] - Quest Display Changed to: " + quest_display);
+
+    refresh_quest_table();
+}
+
 function toggle_simple_mode()
 {
     if(window.location.hash)
@@ -360,24 +350,24 @@ function save_cookie()
     settings_map.quest_filter = quest_filter;
     settings_map.item_amount_per_row = item_amount_per_row;
     settings_map.ignored_rarities = ignored_rarities;
+    settings_map.quest_display = quest_display;
 
     let encrypted_setting_map = JSON.stringify(settings_map);
     //console.log(encrypted_setting_map);
     localStorage.setItem('settings', encrypted_setting_map);
 
     toastr.success((current_language === "en") ? "Your settings have been saved!" : language_json["toasts"]["settings_saved"]);
-    console.log("[Settings] - Cookie has been baked.");
+    console.log("[Settings] - Settings have been saved.");
 }
 
 function delete_cookie()
 {
     if (is_cookies_exist())
     {
-        /* TODO UPDATE WHENEVER A NEW SETTING IS ADDED */
         localStorage.removeItem('settings');
 
         toastr.success((current_language === "en") ? "Your saved settings have been deleted." : language_json["toasts"]["settings_deleted"]);
-        console.log("[Settings] - Cookie has been eaten.");
+        console.log("[Settings] - Settings have been deleted.");
     }
     else
     {
@@ -422,6 +412,16 @@ function read_cookie()
             let ignored_rarity_document_id = "ignore-button-" + ignored_rarities[i];
             document.getElementById(ignored_rarity_document_id).classList.toggle("low-opacity");
         }
+        if (quest_display === quest_display_settings.PERCENT)
+        {
+            check_checkbox(setting_element_id.QUEST_DISPLAY_PERCENT, true);
+            check_checkbox(setting_element_id.QUEST_DISPLAY_AMOUNT, false);
+        }
+        else if (quest_display === quest_display_settings.AMOUNT)
+        {
+            check_checkbox(setting_element_id.QUEST_DISPLAY_PERCENT, false);
+            check_checkbox(setting_element_id.QUEST_DISPLAY_AMOUNT, true);
+        }
 
         console.log("[Settings] Cookie settings have been loaded.");
     }
@@ -439,6 +439,7 @@ function set_settings_to_default()
     quest_filter = quest_filter_default;
     item_amount_per_row = item_amount_per_row_default;
     ignored_rarities = [];
+    quest_display = quest_display_default;
 }
 
 function reset_settings()
@@ -497,6 +498,16 @@ function reset_settings()
                 document.getElementById(ignored_rarity_document_id).classList.remove("low-opacity");
             }
         }
+    }
+    if (quest_display === quest_display_settings.PERCENT)
+    {
+        check_checkbox(setting_element_id.QUEST_DISPLAY_PERCENT, true);
+        check_checkbox(setting_element_id.QUEST_DISPLAY_AMOUNT, false);
+    }
+    else if (quest_display === quest_display_settings.AMOUNT)
+    {
+        check_checkbox(setting_element_id.QUEST_DISPLAY_PERCENT, false);
+        check_checkbox(setting_element_id.QUEST_DISPLAY_AMOUNT, true);
     }
 
     toastr.success((current_language === "en") ? "Settings have been reset." : language_json["toasts"]["settings_reset"]);
@@ -568,6 +579,7 @@ function set_values_from_cookie()
         quest_filter = saved_settings_map.quest_filter;
         item_amount_per_row = saved_settings_map.item_amount_per_row;
         ignored_rarities = saved_settings_map.ignored_rarities;
+        quest_display = saved_settings_map.quest_display;
 
         // CHECK FOR ANY UNDEFINED SETTINGS
         check_for_undefined_settings();
@@ -583,6 +595,7 @@ function set_values_from_cookie()
         settings_map.quest_filter = quest_filter;
         settings_map.item_amount_per_row = item_amount_per_row;
         settings_map.ignored_rarities = ignored_rarities;
+        settings_map.quest_display = quest_display;
         let encrypted_setting_map = JSON.stringify(settings_map);
         localStorage.setItem('settings', encrypted_setting_map);
     }
@@ -600,6 +613,7 @@ function check_for_undefined_settings()
     quest_filter = (quest_filter === undefined ? quest_filter_default : quest_filter);
     item_amount_per_row = (item_amount_per_row === undefined ? item_amount_per_row_default : item_amount_per_row);
     ignored_rarities = (ignored_rarities === undefined ? [] : ignored_rarities);
+    quest_display = (quest_display === undefined ? quest_display_default : quest_display);
 }
 
 function is_cookies_exist()

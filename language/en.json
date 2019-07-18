@@ -96,6 +96,8 @@
     "show_hard_quests": "Show Hard Quests",
     "items_displayed_per_row": "Items Displayed per Row (1 - 15):",
     "ignore_item_rarity_in_recipe": "Ignore Item Rarity in Recipe:",
+    "display_drop_percent": "Display Drop Percent",
+    "display_amount_required": "Display Amount Required",
 
     "save_settings": "Save Settings to Local Storage",
     "save_settings_button": "Save Settings",

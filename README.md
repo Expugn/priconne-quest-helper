@@ -8,7 +8,7 @@ Quest Data: <https://expugn.github.io/priconne-quest-helper/pages/quest-data/><b
 Recipe Data: <https://expugn.github.io/priconne-quest-helper/pages/recipe-data/><br>
 Character Data: <https://expugn.github.io/priconne-quest-helper/pages/character-data/>
 
-Last Quest Update: `June 18, 2019`
+Last Quest Update: `July 18, 2019`
 
 ## Information
 This is a tool to help you decide which is the best quest to farm to get
@@ -62,7 +62,7 @@ The following can be submitted via `GitHub's Issue Tracker` or told to me (`S'pu
 - `GameWith`: [Website](https://gamewith.jp/pricone-re/)<br>
 - `AppMedia`: [Website](https://appmedia.jp/priconne-redive)<br>
 - `Hatsune's Notes`: [Github](https://github.com/superk589/PrincessGuide)<br>
-- `Prcd-Wiki (Dead Project)`: [Github](https://github.com/PaleNeutron/Pcrd-Wiki) | [Website](https://pcrdwiki.xyz/)<br>
+- `Prcd-Wiki`: [Github](https://github.com/PaleNeutron/Pcrd-Wiki) | [Website (New)](https://johnlyu.com/en-us/) / [Website (Old)](https://pcrdwiki.xyz/)<br>
 
 #### Images
 - `AssetStudio`: [Github](https://github.com/Perfare/AssetStudio)<br>

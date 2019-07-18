@@ -1,5 +1,5 @@
 let preset_min_rank = 1;
-let preset_max_rank = 13;
+let preset_max_rank = 14;
 
 function build_character_preset_list()
 {

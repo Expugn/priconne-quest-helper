@@ -1260,317 +1260,380 @@
     "req_pieces": 35,
     "req_items": []
   },
+  "ifrit_katana_ignite": {
+    "name": "Ifrit Katana - Ignite",
+    "id": "purple-10",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Firelord's Ring", "Hawk God's Sword" ]
+  },
+  "konominato_sword_aqua_ruler": {
+    "name": "Konominato Sword - Aqua Ruler",
+    "id": "purple-11",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Aqua Slasher", "Ice Claymore" ]
+  },
+  "twin_god_sword_of_lightning": {
+    "name": "Twin God Sword of Lightning",
+    "id": "purple-12",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Lightning Fist", "Dark Matter Edge" ]
+  },
   "zero_frost_lance": {
     "name": "Zero Frost Lance",
-    "id": "purple-10",
+    "id": "purple-13",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "gale_stinger": {
     "name": "Gale Stinger",
-    "id": "purple-11",
+    "id": "purple-14",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Queen Bee Spear", "Lion Eagle's Feather" ]
   },
   "heavens_protective_holy_spear": {
     "name": "Heaven's Protective Holy Spear",
-    "id": "purple-12",
+    "id": "purple-15",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
+  "divine_spear_doom_pain": {
+    "name": "Divine Spear - Doom Pain",
+    "id": "purple-16",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Gaia Bardiche", "Violet Armor" ]
+  },
   "necrodim_axe": {
     "name": "Necrodim Axe",
-    "id": "purple-13",
+    "id": "purple-17",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Shiryuu Axe", "Necromancer Boots" ]
   },
   "divine_judgement_axe": {
     "name": "Divine Judgement Axe",
-    "id": "purple-14",
+    "id": "purple-18",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "gaia_axe": {
     "name": "Gaia Axe",
-    "id": "purple-15",
+    "id": "purple-19",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Hell-Fire Axe", "Laurel's Sorrow" ]
   },
+  "god_roar_axe_terra_break": {
+    "name": "God Roar Axe - Terra Break",
+    "id": "purple-20",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": [ "Hell-Fire Axe" ]
+  },
   "flame_rod": {
     "name": "Flame Rod",
-    "id": "purple-16",
+    "id": "purple-21",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "xenosphere_rod": {
     "name": "Xenosphere Rod",
-    "id": "purple-17",
+    "id": "purple-22",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "divine_blossom_rod": {
     "name": "Divine Blossom Rod",
-    "id": "purple-18",
+    "id": "purple-23",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Rod of Life", "Flower Bud Wand" ]
   },
   "genesis_rod": {
     "name": "Genesis Rod",
-    "id": "purple-19",
+    "id": "purple-24",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
-  "lightning_wand": {
-    "name": "Lightning Wand",
-    "id": "purple-20",
-    "has_fragments": true,
-    "req_pieces": 25,
-    "req_items": [ "Rod of Sun", "Lightning Bow" ]
-  },
   "atlantis_rod": {
     "name": "Atlantis Rod",
-    "id": "purple-21",
+    "id": "purple-25",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Rod of Life", "Mourning Crescent Moon" ]
   },
+  "lightning_wand": {
+    "name": "Lightning Wand",
+    "id": "purple-26",
+    "has_fragments": true,
+    "req_pieces": 25,
+    "req_items": [ "Rod of Sun", "Lightning Bow" ]
+  },
+  "heaven_rod_stellar_sphere": {
+    "name": "Heaven Rod - Stellar Sphere",
+    "id": "purple-27",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": [ "Moon Wand" ]
+  },
+  "black_snake_dragons_staff": {
+    "name": "Black Snake Dragon's Staff",
+    "id": "purple-28",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Dragonic Armor", "Justice God's Staff" ]
+  },
   "silver_wing_bow": {
     "name": "Silver Wing Bow",
-    "id": "purple-22",
+    "id": "purple-29",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Artemis Bow", "Cupid's Bow", "Lion Eagle's Feather" ]
   },
   "abyss_bow": {
     "name": "Abyss Bow",
-    "id": "purple-23",
+    "id": "purple-30",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "heavenly_red_bow": {
     "name": "Heavenly Red Bow",
-    "id": "purple-24",
+    "id": "purple-31",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
+  "armored_bow_deus_fall": {
+    "name": "Armored Bow - Deus Fall",
+    "id": "purple-32",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Spirit Tree Bow", "Artemis Bow" ]
+  },
   "moon_cestus": {
     "name": "Moon Cestus",
-    "id": "purple-25",
+    "id": "purple-33",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Lion King Gauntlet", "Moon Bracelet" ]
   },
   "crimson_claw": {
     "name": "Crimson Claw",
-    "id": "purple-26",
+    "id": "purple-34",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "cocytus_nail": {
     "name": "Cocytus Nail",
-    "id": "purple-27",
+    "id": "purple-35",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Dragon's Claw", "Ice Claymore" ]
   },
+  "storm_god_tempest_gear": {
+    "name": "Storm God Tempest Gear",
+    "id": "purple-36",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": [ "Blazing Gauntlet" ]
+  },
   "mourning_crown": {
     "name": "Mourning Crown",
-    "id": "purple-28",
+    "id": "purple-37",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Gospel Tiara", "Devil's Horn" ]
   },
   "azure_armor": {
     "name": "Azure Armor",
-    "id": "purple-29",
+    "id": "purple-38",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Violet Armor", "Paladin Greave" ]
   },
   "aegis_coat": {
     "name": "Aegis Coat",
-    "id": "purple-30",
+    "id": "purple-39",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Heavenly Robe", "Feather Waltz" ]
   },
   "phantasm_mail": {
     "name": "Phantasm Mail",
-    "id": "purple-31",
+    "id": "purple-40",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Crusader Plate", "Vampire Dagger" ]
   },
   "shrine_maidens_purity_cloth": {
     "name": "Shrine Maiden's Purity Cloth",
-    "id": "purple-32",
+    "id": "purple-41",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Sun Amulet", "Saint's Robe" ]
   },
   "astrograph_buckler": {
     "name": "Astrograph Buckler",
-    "id": "purple-33",
+    "id": "purple-42",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Guardian Shield", "Garnet Shield", "Cosmos Cloth" ]
   },
   "nine_heavens_armor": {
     "name": "Nine Heavens' Armor",
-    "id": "purple-34",
+    "id": "purple-43",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Mythril Plate", "Feather Blade" ]
   },
   "holy_sakuras_armor": {
     "name": "Holy Sakura's Armor",
-    "id": "purple-35",
+    "id": "purple-44",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Angel Armor", "Lion's Battle Axe" ]
   },
   "maiden_cloth": {
     "name": "Maiden Cloth",
-    "id": "purple-36",
+    "id": "purple-45",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Mourning Crescent Moon", "Cosmos Cloth" ]
   },
   "empress_robe": {
     "name": "Empress Robe",
-    "id": "purple-37",
+    "id": "purple-46",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Hermit Clothes", "Devil's Horn" ]
   },
   "rage_queen_dress": {
     "name": "Rage Queen Dress",
-    "id": "purple-38",
+    "id": "purple-47",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Spirit Tree Bow", "Battling Dress" ]
   },
   "gold_kings_armor": {
     "name": "Gold King's Armor",
-    "id": "purple-39",
+    "id": "purple-48",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Violet Armor", "Feather Waltz" ]
   },
   "fire_onis_tori": {
     "name": "Fire Oni's Tori",
-    "id": "purple-40",
+    "id": "purple-49",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Phoenix Sword", "Palace Cloth" ]
   },
   "exomagia_robe": {
     "name": "Exomagia Robe",
-    "id": "purple-41",
+    "id": "purple-50",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Great Sage Gem", "Grand Magician's Robe" ]
   },
   "infernal_greaves": {
     "name": "Infernal Greaves",
-    "id": "purple-42",
+    "id": "purple-51",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Angel Boots", "Devil's Bow" ]
   },
   "blood_ruby_heel": {
     "name": "Blood Ruby Heel",
-    "id": "purple-43",
+    "id": "purple-52",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Aquarius Boots", "Cupid Robe" ]
   },
   "holy_prayers_crown": {
     "name": "Holy Prayer's Crown",
-    "id": "purple-44",
+    "id": "purple-53",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Pope's Hood", "Lion King's Protective Charm" ]
   },
   "royal_guard_hat": {
     "name": "Royal Guard Hat",
-    "id": "purple-45",
+    "id": "purple-54",
     "has_fragments": true,
     "req_pieces": 25,
     "req_items": [ "Princess' Dagger", "Witch Hat" ]
   },
   "millennium_earrings": {
     "name": "Millennium Earrings",
-    "id": "purple-46",
+    "id": "purple-55",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "ocean_gods_earrings": {
     "name": "Ocean God's Earrings",
-    "id": "purple-47",
+    "id": "purple-56",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "fairy_kings_guardian_stone": {
     "name": "Fairy King's Guardian Stone",
-    "id": "purple-48",
+    "id": "purple-57",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "fury_dragon_pendant": {
     "name": "Fury Dragon Pendant",
-    "id": "purple-49",
+    "id": "purple-58",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "divine_beasts_prayer": {
     "name": "Divine Beast's Prayer",
-    "id": "purple-50",
+    "id": "purple-59",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "mermaid_princess_spirit_tear": {
     "name": "Mermaid Princess' Spirit Tear",
-    "id": "purple-51",
+    "id": "purple-60",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "war_gods_arm": {
     "name": "War God's Arm",
-    "id": "purple-52",
+    "id": "purple-61",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "sophos_bracelet": {
     "name": "Sophos Bracelet",
-    "id": "purple-53",
+    "id": "purple-62",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
   },
   "glorious_kings_shield_bangle": {
     "name": "Glorious King's Shield Bangle",
-    "id": "purple-54",
+    "id": "purple-63",
     "has_fragments": true,
     "req_pieces": 35,
     "req_items": []
@@ -1596,163 +1659,170 @@
     "req_pieces": 1,
     "req_items": []
   },
+  "kasumi_shard": {
+    "name": "Kasumi Shard",
+    "id": "misc-4",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
   "mimi_shard": {
     "name": "Mimi Shard",
-    "id": "misc-4",
+    "id": "misc-5",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "kurumi_shard": {
     "name": "Kurumi Shard",
-    "id": "misc-5",
+    "id": "misc-6",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "eriko_shard": {
     "name": "Eriko Shard",
-    "id": "misc-6",
+    "id": "misc-7",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "saren_shard": {
     "name": "Saren Shard",
-    "id": "misc-7",
+    "id": "misc-8",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "ninon_shard": {
     "name": "Ninon Shard",
-    "id": "misc-8",
+    "id": "misc-9",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "shinobu_shard": {
     "name": "Shinobu Shard",
-    "id": "misc-9",
+    "id": "misc-10",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "akino_shard": {
     "name": "Akino Shard",
-    "id": "misc-10",
+    "id": "misc-11",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "mahiru_shard": {
     "name": "Mahiru Shard",
-    "id": "misc-11",
+    "id": "misc-12",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "kyouka_shard": {
     "name": "Kyouka Shard",
-    "id": "misc-12",
+    "id": "misc-13",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "shiori_shard": {
     "name": "Shiori Shard",
-    "id": "misc-13",
+    "id": "misc-14",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "aoi_shard": {
     "name": "Aoi Shard",
-    "id": "misc-14",
+    "id": "misc-15",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "ilya_shard": {
     "name": "Ilya Shard",
-    "id": "misc-15",
+    "id": "misc-16",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "jun_shard": {
     "name": "Jun Shard",
-    "id": "misc-16",
+    "id": "misc-17",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "mifuyu_shard": {
     "name": "Mifuyu Shard",
-    "id": "misc-17",
+    "id": "misc-18",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "shizuru_shard": {
     "name": "Shizuru Shard",
-    "id": "misc-18",
+    "id": "misc-19",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "misaki_shard": {
     "name": "Misaki Shard",
-    "id": "misc-19",
+    "id": "misc-20",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "rima_shard": {
     "name": "Rima Shard",
-    "id": "misc-20",
+    "id": "misc-21",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "ruka_shard": {
     "name": "Ruka Shard",
-    "id": "misc-21",
+    "id": "misc-22",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "djeeta_shard": {
     "name": "Djeeta Shard",
-    "id": "misc-22",
+    "id": "misc-23",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "pecorine_shard": {
     "name": "Pecorine Shard",
-    "id": "misc-23",
+    "id": "misc-24",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "kokkoro_shard": {
     "name": "Kokkoro Shard",
-    "id": "misc-24",
+    "id": "misc-25",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "arisa_shard": {
     "name": "Arisa Shard",
-    "id": "misc-25",
+    "id": "misc-26",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "tomo_shard": {
     "name": "Tomo Shard",
-    "id": "misc-26",
+    "id": "misc-27",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []

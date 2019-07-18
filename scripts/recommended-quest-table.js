@@ -306,8 +306,16 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 //table_html += "<div class=\"quest-percent-text\">" + item_1_drop_percent + "\u0025</div>";
                 if (item_amount > 0 && is_not_included_in_disabled)
                 {
-                    table_html += "<div class=\"quest-percent-text\">" + item_1_drop_percent + "\u0025" + "</div>";
-                    table_html += "<div class=\"quest-req-amount-text\">" + "\u00D7" + item_amount + "</div>";
+                    if (quest_display === quest_display_settings.AMOUNT)
+                    {
+                        table_html += "<div class=\"quest-percent-text quest-display-bottom\">" + item_1_drop_percent + "\u0025" + "</div>";
+                        table_html += "<div class=\"quest-req-amount-text quest-display-top\">" + "\u00D7" + item_amount + "</div>";
+                    }
+                    else
+                    {
+                        table_html += "<div class=\"quest-percent-text quest-display-top\">" + item_1_drop_percent + "\u0025" + "</div>";
+                        table_html += "<div class=\"quest-req-amount-text quest-display-bottom\">" + "\u00D7" + item_amount + "</div>";
+                    }
                 }
                 //table_html += "<div class=\"quest-percent-text\">" + ((item_amount > 0 && !disabled_items.includes(item_1_name)) ? item_1_drop_percent + "\u0025" : " ") + "</div>";
                 //table_html += "<div class=\"quest-req-amount-text\">" + ((item_amount > 0 && !disabled_items.includes(item_1_name)) ? "\u00D7" + item_amount : " ") + "</div>";
@@ -324,8 +332,16 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     + "\" src=\"" + get_item_image_path(item_2_name.split(' ').join('_')) + "\" alt=\"\">";
                 if (item_amount > 0 && is_not_included_in_disabled)
                 {
-                    table_html += "<div class=\"quest-percent-text\">" + item_2_drop_percent + "\u0025" + "</div>";
-                    table_html += "<div class=\"quest-req-amount-text\">" + "\u00D7" + item_amount + "</div>";
+                    if (quest_display === quest_display_settings.AMOUNT)
+                    {
+                        table_html += "<div class=\"quest-percent-text quest-display-bottom\">" + item_2_drop_percent + "\u0025" + "</div>";
+                        table_html += "<div class=\"quest-req-amount-text quest-display-top\">" + "\u00D7" + item_amount + "</div>";
+                    }
+                    else
+                    {
+                        table_html += "<div class=\"quest-percent-text quest-display-top\">" + item_2_drop_percent + "\u0025" + "</div>";
+                        table_html += "<div class=\"quest-req-amount-text quest-display-bottom\">" + "\u00D7" + item_amount + "</div>";
+                    }
                 }
                 //table_html += "<div class=\"quest-percent-text\">" + item_2_drop_percent + "\u0025</div>";
                 //table_html += "<div class=\"quest-req-amount-text\">" + ((item_amount > 0) ? "\u00D7" + item_amount : "") + "</div>";
@@ -342,8 +358,16 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     + "\" src=\"" + get_item_image_path(item_3_name.split(' ').join('_')) + "\" alt=\"\">";
                 if (item_amount > 0 && is_not_included_in_disabled)
                 {
-                    table_html += "<div class=\"quest-percent-text\">" + item_3_drop_percent + "\u0025" + "</div>";
-                    table_html += "<div class=\"quest-req-amount-text\">" + "\u00D7" + item_amount + "</div>";
+                    if (quest_display === quest_display_settings.AMOUNT)
+                    {
+                        table_html += "<div class=\"quest-percent-text quest-display-bottom\">" + item_3_drop_percent + "\u0025" + "</div>";
+                        table_html += "<div class=\"quest-req-amount-text quest-display-top\">" + "\u00D7" + item_amount + "</div>";
+                    }
+                    else
+                    {
+                        table_html += "<div class=\"quest-percent-text quest-display-top\">" + item_3_drop_percent + "\u0025" + "</div>";
+                        table_html += "<div class=\"quest-req-amount-text quest-display-bottom\">" + "\u00D7" + item_amount + "</div>";
+                    }
                 }
                 //table_html += "<div class=\"quest-percent-text\">" + item_3_drop_percent + "\u0025</div>";
                 //table_html += "<div class=\"quest-req-amount-text\">" + ((item_amount > 0) ? "\u00D7" + item_amount : "") + "</div>";
@@ -368,15 +392,30 @@ function build_recommended_quest_table(all_recipe_maps_array)
                         + "\" src=\"" + get_item_image_path(((subdrops[i] !== "") ? subdrops[i].split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
                     if (item_amount > 0 && is_not_included_in_disabled)
                     {
-                        if (subdrops_percent === undefined)
+                        if (quest_display === quest_display_settings.AMOUNT)
                         {
-                            table_html += "<div class=\"quest-percent-text\">20\u0025</div>";
+                            if (subdrops_percent === undefined)
+                            {
+                                table_html += "<div class=\"quest-percent-text quest-display-bottom\">20\u0025</div>";
+                            }
+                            else
+                            {
+                                table_html += "<div class=\"quest-percent-text quest-display-bottom\">" + subdrops_percent[i] + "\u0025</div>";
+                            }
+                            table_html += "<div class=\"quest-req-amount-text quest-display-top\">" + "\u00D7" + item_amount + "</div>";
                         }
                         else
                         {
-                            table_html += "<div class=\"quest-percent-text\">" + subdrops_percent[i] + "\u0025</div>";
+                            if (subdrops_percent === undefined)
+                            {
+                                table_html += "<div class=\"quest-percent-text quest-display-top\">20\u0025</div>";
+                            }
+                            else
+                            {
+                                table_html += "<div class=\"quest-percent-text quest-display-top\">" + subdrops_percent[i] + "\u0025</div>";
+                            }
+                            table_html += "<div class=\"quest-req-amount-text quest-display-bottom\">" + "\u00D7" + item_amount + "</div>";
                         }
-                        table_html += "<div class=\"quest-req-amount-text\">" + "\u00D7" + item_amount + "</div>";
                     }
 
                     /*

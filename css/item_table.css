@@ -321,28 +321,34 @@ img.quest-character-shard-grayscale {
 }
 
 .quest-req-amount-text {
+     text-shadow: 1px 1px 4px #000000,
+     1px 1px 4px #000000,
+     1px 1px 4px #000000,
+     1px 1px 4px #000000;
+
+
+     position: relative;
+     bottom: 4px;
+     right: 4px;
+
+     padding-bottom: 5px;
+
+     line-height: 0;
+
+
+     color: white;
+     font-family: "Calibri", Arial, serif;
+     text-align: right;
+
+     border-radius: 5px;
+ }
+
+.quest-display-top {
+    opacity: 1;
+}
+
+.quest-display-bottom {
     opacity: 0;
-
-    text-shadow: 1px 1px 4px #000000,
-    1px 1px 4px #000000,
-    1px 1px 4px #000000,
-    1px 1px 4px #000000;
-
-
-    position: relative;
-    bottom: 4px;
-    right: 4px;
-
-    padding-bottom: 5px;
-
-    line-height: 0;
-
-
-    color: white;
-    font-family: "Calibri", Arial, serif;
-    text-align: right;
-
-    border-radius: 5px;
 }
 
 .quest-hover:hover {
@@ -350,11 +356,11 @@ img.quest-character-shard-grayscale {
 }
 
 
-.quest-hover:hover .quest-percent-text {
+.quest-hover:hover .quest-display-top {
     opacity: 0;
 }
 
-.quest-hover:hover .quest-req-amount-text {
+.quest-hover:hover .quest-display-bottom {
     opacity: 1;
 }
 

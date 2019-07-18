@@ -1,4 +1,5 @@
 /* BACKGROUND COLOR */
+/*
 body.fancy-body.png {
     background-color: #e3cfcb;
     background-image: url("./../images/webpage/adv_mask_C.png");
@@ -8,6 +9,13 @@ body.fancy-body.png {
 body.fancy-body.webp {
     background-color: #e3cfcb;
     background-image: url("./../images/webpage_webp/adv_mask_C.webp");
+    color: white;
+    font-family: "Trebuchet MS", Arial, serif;
+}
+*/
+body.fancy-body {
+    background-color: #e3cfcb;
+    background-image: url("./../images/webpage/adv_mask_C.png");
     color: white;
     font-family: "Trebuchet MS", Arial, serif;
 }

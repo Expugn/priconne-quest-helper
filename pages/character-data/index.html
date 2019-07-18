@@ -105,7 +105,7 @@
             for (let [character_id, character_data_map] of character_map)
             {
                 // DISPLAY CHARACTER
-                const num_of_ranks = 13;
+                const num_of_ranks = 14;
                 let character_name = character_data_map.get("name");
                 let character_thematic = character_data_map.get("thematic");
                 let character_thematic_jp = character_data_map.get("thematic_jp");
@@ -183,6 +183,7 @@
                         case 11:
                         case 12:
                         case 13:
+                        case 14:
                             rank_color_html = "background-color: rgba(231, 109, 255, 0.5) !important;";
                             break;
                         default:

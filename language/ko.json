@@ -96,6 +96,8 @@
     "show_hard_quests": "하드 퀘스트 보기",
     "items_displayed_per_row": "한 줄에 표시될 아이템 개수 (1 - 15) :",
     "ignore_item_rarity_in_recipe": "다음 희귀 등급은 필요 아이템 목록에서 제외 :",
+    "display_drop_percent": "Display Drop Percent",
+    "display_amount_required": "Display Amount Required",
 
     "save_settings": "설정을 저장 공간에 저장합니다.",
     "save_settings_button": "설정 저장",
