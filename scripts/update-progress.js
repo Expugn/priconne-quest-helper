@@ -1,14 +1,15 @@
-// JUNE 18, 2019
-const update_date = new Date(Date.UTC(2019, 5, 18, 12, 0, 0));
+// JULY 18, 2019
+const update_date = new Date(Date.UTC(2019, 6, 18, 12, 0, 0));
 const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
 
 function update_progress()
 {
-    const normal_quest_updated = true;
-    const hard_quest_updated = true;
-    const equipment_selection_updated = true;
-    const english_translated_names_updated = true;
-    const rank_equipment_updated = true;
+    const normal_quest_updated = false;
+    const hard_quest_updated = false;
+    const equipment_selection_updated = false;
+    const english_translated_names_updated = false;
+    const rank_equipment_updated = false;
+    // also don't forget to update crap like README lol.
 
     if (!normal_quest_updated || !hard_quest_updated || !equipment_selection_updated || !english_translated_names_updated || !rank_equipment_updated)
     {

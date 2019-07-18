@@ -854,25 +854,6 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Fairy King's Guardian Stone"],
     "rank_13": ["", "Lightning Wand", "Exomagia Robe", "Holy Prayer's Crown", "Sophos Bracelet", "Mermaid Princess' Spirit Tear"]
   },
-  "summer_misaki": {
-    "name": "Misaki",
-    "thematic": "Summer",
-    "name_jp": "ミサキ",
-    "thematic_jp": "サマー",
-    "rank_1": ["", "", "", "", "", ""],
-    "rank_2": ["", "", "", "", "", ""],
-    "rank_3": ["", "", "", "", "", ""],
-    "rank_4": ["", "", "", "", "", ""],
-    "rank_5": ["", "", "", "", "", ""],
-    "rank_6": ["", "", "", "", "", ""],
-    "rank_7": ["", "", "", "", "", ""],
-    "rank_8": ["", "", "", "", "", ""],
-    "rank_9": ["", "", "", "", "", ""],
-    "rank_10": ["", "", "", "", "", ""],
-    "rank_11": ["", "", "", "", "", ""],
-    "rank_12": ["", "", "", "", "", ""],
-    "rank_13": ["", "", "", "", "", ""]
-  },
   "misato": {
     "name": "Misato",
     "thematic": "",
@@ -1290,6 +1271,25 @@
     "rank_11": ["Dawn's Holy Sword", "Lightning Blade", "Astrograph Buckler", "Scarlet Mail", "Millennium Earrings", "Firelord's Ring"],
     "rank_12": ["Great Sword of Sin", "Dawn's Holy Sword", "Maiden Cloth", "Phantasm Mail", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["", "Great Sword of Sin", "Rage Queen Dress", "Nine Heavens' Armor", "War God's Arm", "Fury Dragon Pendant"]
+  },
+  "summer_saren": {
+    "name": "Saren",
+    "thematic": "Summer",
+    "name_jp": "サレン",
+    "thematic_jp": "サマー",
+    "rank_1": ["", "", "", "", "", ""],
+    "rank_2": ["", "", "", "", "", ""],
+    "rank_3": ["", "", "", "", "", ""],
+    "rank_4": ["", "", "", "", "", ""],
+    "rank_5": ["", "", "", "", "", ""],
+    "rank_6": ["", "", "", "", "", ""],
+    "rank_7": ["", "", "", "", "", ""],
+    "rank_8": ["", "", "", "", "", ""],
+    "rank_9": ["", "", "", "", "", ""],
+    "rank_10": ["", "", "", "", "", ""],
+    "rank_11": ["", "", "", "", "", ""],
+    "rank_12": ["", "", "", "", "", ""],
+    "rank_13": ["", "", "", "", "", ""]
   },
   "shinobu": {
     "name": "Shinobu",
