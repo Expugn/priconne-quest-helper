@@ -25,7 +25,7 @@
   "items_tab": {
     "tab_title": "장비",
 
-    "common_title": "흔함",
+    "common_title": "일반",
     "copper_title": "구리색",
     "silver_title": "은색",
     "gold_title": "금색",
@@ -54,7 +54,7 @@
   },
 
   "projects_tab": {
-    "tab_title": "프로젝트 목록",
+    "tab_title": "프로젝트",
 
     "localstorage_warning": "브라우저가 저장 공간 접근을 허용하지 않습니다.<br>프로젝트, 제외 목록, 자료 불러오기/내보내기, 설정 저장 관련 기능이 동작하지 않습니다.",
 
@@ -68,8 +68,8 @@
     "add_project_items_button": "프로젝트 아이템 추가",
     "subtract_project_items_button": "프로젝트 아이템 제거",
     "delete_project_button": "프로젝트 제거",
-    "prioritize_project_button": "Prioritize Project",
-    "deprioritize_project_button": "Deprioritize Project",
+    "prioritize_project_button": "프로젝트 우선 순위 부여",
+    "deprioritize_project_button": "프로젝트 우선 순위 제거",
 
     "clear_item_tables_button": "아이템 표 비우기",
 
@@ -79,7 +79,7 @@
     "clear_blacklist_button": "제외 목록 비우기",
     "delete_blacklist_button": "제외 목록 제거",
 
-    "blacklist_selected_rarities_button": "제외 목록의 선택된 희귀 등급"
+    "blacklist_selected_rarities_button": "선택한 희귀 등급을 제외하기"
   },
 
   "settings_tab": {
@@ -96,8 +96,8 @@
     "show_hard_quests": "하드 퀘스트 보기",
     "items_displayed_per_row": "한 줄에 표시될 아이템 개수 (1 - 15) :",
     "ignore_item_rarity_in_recipe": "다음 희귀 등급은 필요 아이템 목록에서 제외 :",
-    "display_drop_percent": "Display Drop Percent",
-    "display_amount_required": "Display Amount Required",
+    "display_drop_percent": "드랍 확률 표시",
+    "display_amount_required": "필요 개수 표시",
 
     "save_settings": "설정을 저장 공간에 저장합니다.",
     "save_settings_button": "설정 저장",
@@ -150,7 +150,7 @@
     "blacklist_deleted": "아이템 제외 목록이 삭제되었습니다.",
     "no_saved_blacklist": "저장된 아이템 제외 목록이 없습니다.",
 
-    "blacklisted_rarities": " 희귀 등급이 제외 목록에 등록됩니다.",
+    "blacklisted_rarities": "다음 희귀 등급이 제외됩니다.",
     "no_rarities_selected": "희귀 등급을 선택하지 않았습니다.",
 
     "settings_saved": "설정이 저장되었습니다!",
@@ -230,7 +230,7 @@
     "christmas": "크리스마스",
     "halloween": "할로윈",
     "new_year": "신년",
-    "oedo": "오오에도",
+    "oedo": "오에도",
     "summer": "여름",
     "valentine": "발렌타인"
   }
