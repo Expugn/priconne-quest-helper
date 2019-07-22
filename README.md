@@ -14,12 +14,7 @@ Last Quest Update: `July 18, 2019`
 This is a tool to help you decide which is the best quest to farm to get
 whatever assortment of items you need to rank up your characters.
 
-I consider this project to be in BETA at the moment. The basic features 
-are all implemented but I wouldn't consider this project at it's current
-state to be the complete experience. Also many things may change and
-break in this time.
-
-This tool is based off the data from the `Japan` version of `Princess Connect! Re:Dive`<br>
+`priconne-quest-helper` is based off the data from the `Japan` version of `Princess Connect! Re:Dive`<br>
 `Taiwan` or `Korean` servers are not be supported if they are differ in quest drops/rates.
 
 ## Recommended Procedure On How To Use This Tool
@@ -80,4 +75,5 @@ This is a non-profit fan project with the purpose of practice and entertainment.
 All characters and assets belong to their respective owners.
 
 **Project** began on January 10, 2019.<br>
-**Beta-Testing** began on January 20, 2019.
+**Beta-Testing** began on January 20, 2019.<br>
+**"Complete" Release** began on July 22, 2019.

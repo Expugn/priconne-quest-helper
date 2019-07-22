@@ -3,12 +3,12 @@
     "title": "プリンセスコネクト！Re:Dive",
     "subtitle": "クエストヘルパー",
 
-    "required_ingredients_title": "必要アイテム",
+    "required_ingredients_title": "<span style='font-size: 18px;'>必要アイテム</span>",
     "required_ingredients_help_1": "ここに必要なアイテムと個数が表示されます。",
     "required_ingredients_help_2": "アイテムを押すと選択から<span style='color: darkorange'>除外し</span>、また押すと含めます。",
     "required_ingredients_help_3": "<span style='color: orange'>除外したアイテム</span>は、<span style='color: yellow'>おすすめクエストリスト</span>に<span style='color: salmon; font-style: italic'>表示されません</span>。",
 
-    "recommended_quest_title": "おすすめクエストリスト",
+    "recommended_quest_title": "<span style='font-size: 18px;'>おすすめクエストリスト</span>",
     "recommended_quest_help_1": "アイテムを選択するとここにおすすめのクエストが表示されます。",
     "recommended_quest_help_2": "クエストは、<span style='color: yellow'>必要個数</span>順に整列されます。",
     "recommended_quest_help_3": "基本的におすすめクエストは<span style='color: #6DFF7F'>10</span>個まで表示します。",
@@ -16,7 +16,7 @@
     "made_with_love": "Made With <span style='color:#ff4d4d'>❤</span> By ${project_author}",
     "last_quest_update": "クエストデータの最終アップデート : <span style='color: #6DFF7F'>${last_update_date}</span>",
 
-    "translator": "翻訳者：",
+    "translator": "翻訳者 :",
     "translator_name": "SD SkyKlouD",
 
     "date_locale": "ja-JP"
@@ -32,13 +32,13 @@
     "purple_title": "紫枠",
     "miscellaneous_title": "<span style='font-size: 15px;'>その他</span>",
 
-    "requested_items_title": "要請アイテム",
+    "requested_items_title": "<span style='font-size: 18px;'>要請アイテム</span>",
     "requested_items_help_1": "上で選択したアイテムと個数がここに表示されます。",
     "requested_items_help_2": "分類の名前を押すとその分類の全アイテムが表示されます。"
   },
 
   "presets_tab": {
-    "tab_title": "プリセット",
+    "tab_title": "<span style='font-size: 0.875em;'>プリセット</span>",
 
     "character_presets": "キャラクタープリセット",
 
@@ -54,7 +54,7 @@
   },
 
   "projects_tab": {
-    "tab_title": "プロジェクト",
+    "tab_title": "<span style='font-size: 0.875em;'>プロジェクト</span>",
 
     "localstorage_warning": "ブラウザーがローカルストレージアクセスを許容していません。<br>プロジェクト、ブラックリスト、データー読み込みと書き出し、設定保存、などの機能が無効化されました。",
 
@@ -113,7 +113,7 @@
   },
 
   "other_tab": {
-    "tab_title": "その他",
+    "tab_title": "<span style='font-size: 0.875em; position: relative; top: 2px;'>その他</span>",
 
     "update_in_progress": "アップデート中！",
     "quest_update": "クエストアップデート：",
