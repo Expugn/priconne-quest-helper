@@ -30,7 +30,7 @@
     "silver_title": "銀枠",
     "gold_title": "金枠",
     "purple_title": "紫枠",
-    "miscellaneous_title": "その他",
+    "miscellaneous_title": "<span style='font-size: 15px;'>その他</span>",
 
     "requested_items_title": "要請アイテム",
     "requested_items_help_1": "上で選択したアイテムと個数がここに表示されます。",
@@ -125,13 +125,13 @@
     "updated_rank_equipment": "アップデートされた新装備",
 
     "other_pages_title": "他のページ",
-    "quest_data": "クエスト情報",
+    "quest_data": "<span style='position: relative; top: 6px;'>クエスト情報</span>",
     "recipe_data": "装備情報",
-    "character_data": "キャラクター情報",
+    "character_data": "<span style='position: relative; top: 6px;'>キャラクター情報</span>",
     "github": "GitHub",
-    "simple_mode": "シンプルモード",
-    "fancy_mode": "ファンシーモード",
-    "help": "ヘルプ",
+    "simple_mode": "<span style='position: relative; top: 6px;'>シンプルモード</span>",
+    "fancy_mode": "<span style='position: relative; top: 6px;'>ファンシーモード</span>",
+    "help": "<span style='position: relative; top: 6px;'>ヘルプ</span>",
 
     "data_management_title": "データー管理",
     "export_saved_data": "保存したデーターの書き出し"
@@ -204,7 +204,7 @@
     "ninon": "ニノン",
     "nozomi": "ノゾミ",
     "pecorine": "ペコリーヌ",
-    "ram": ラム",
+    "ram": "ラム",
     "rei": "レイ",
     "rem": "レム",
     "rima": "リマ",
@@ -229,7 +229,7 @@
   "thematics": {
     "christmas": "クリスマス",
     "halloween": "ハロウィン",
-    "new_year": "正月",
+    "new_year": "ニューイヤー",
     "oedo": "オーエド",
     "summer": "サマー",
     "valentine": "バレンタイン"

@@ -71,6 +71,7 @@ The following can be submitted via `GitHub's Issue Tracker` or told to me (`S'pu
 - `Jiuhin#7786`
 
 #### Language Translation
+- `Japanese`: SD SkyKlouD (Translation)
 - `Korean`: Celesti (Translation) | NewWorld_ (Inspection) | SD SkyKlouD (Proofreading)
 
 
