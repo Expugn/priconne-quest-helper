@@ -1,0 +1,237 @@
+{
+  "system": {
+    "title": "プリンセスコネクト！Re:Dive",
+    "subtitle": "クエストヘルパー",
+
+    "required_ingredients_title": "必要アイテム",
+    "required_ingredients_help_1": "ここに必要なアイテムと個数が表示されます。",
+    "required_ingredients_help_2": "アイテムを押すと選択から<span style='color: darkorange'>除外し</span>、また押すと含めます。",
+    "required_ingredients_help_3": "<span style='color: orange'>除外したアイテム</span>は、<span style='color: yellow'>おすすめクエストリスト</span>に<span style='color: salmon; font-style: italic'>表示されません</span>。",
+
+    "recommended_quest_title": "おすすめクエストリスト",
+    "recommended_quest_help_1": "アイテムを選択するとここにおすすめのクエストが表示されます。",
+    "recommended_quest_help_2": "クエストは、<span style='color: yellow'>必要個数</span>順に整列されます。",
+    "recommended_quest_help_3": "基本的におすすめクエストは<span style='color: #6DFF7F'>10</span>個まで表示します。",
+
+    "made_with_love": "Made With <span style='color:#ff4d4d'>❤</span> By ${project_author}",
+    "last_quest_update": "クエストデータの最終アップデート : <span style='color: #6DFF7F'>${last_update_date}</span>",
+
+    "translator": "翻訳者：",
+    "translator_name": "SD SkyKlouD",
+
+    "date_locale": "ja-JP"
+  },
+
+  "items_tab": {
+    "tab_title": "装備",
+
+    "common_title": "青枠",
+    "copper_title": "銅枠",
+    "silver_title": "銀枠",
+    "gold_title": "金枠",
+    "purple_title": "紫枠",
+    "miscellaneous_title": "その他",
+
+    "requested_items_title": "要請アイテム",
+    "requested_items_help_1": "上で選択したアイテムと個数がここに表示されます。",
+    "requested_items_help_2": "分類の名前を押すとその分類の全アイテムが表示されます。"
+  },
+
+  "presets_tab": {
+    "tab_title": "プリセット",
+
+    "character_presets": "キャラクタープリセット",
+
+    "characters_select_option": "[キャラクター選択]",
+
+    "minimum_rank": "最小ランク",
+    "to": "から",
+    "maximum_rank": "最大ランクまで",
+
+    "load_items_button": "アイテム読み込み",
+
+    "overwrite_warning": "現在選択したアイテムは、<br><span style='color: lightpink'>アイテム読み込み</span>ボタンを押すと上書きされます。"
+  },
+
+  "projects_tab": {
+    "tab_title": "プロジェクト",
+
+    "localstorage_warning": "ブラウザーがローカルストレージアクセスを許容していません。<br>プロジェクト、ブラックリスト、データー読み込みと書き出し、設定保存、などの機能が無効化されました。",
+
+    "project_name_label": "プロジェクト名：",
+    "save_project_button": "プロジェクト保存",
+
+    "select_saved_project_label": "プロジェクト選択：",
+    "all_projects_select_option": "[全プロジェクト]",
+
+    "load_project_button": "プロジェクト読み込み",
+    "add_project_items_button": "プロジェクトアイテム追加",
+    "subtract_project_items_button": "プロジェクトアイテム除去",
+    "delete_project_button": "プロジェクト除去",
+    "prioritize_project_button": "プロジェクトに優先順位を付ける",
+    "deprioritize_project_button": "プロジェクト優先順位除去",
+
+    "clear_item_tables_button": "アイテムテーブル空け",
+
+    "save_blacklist_button": "ブラックリスト保存",
+    "load_saved_blacklist_button": "ブラックリスト読み込み",
+    "no_saved_blacklist_message": "保存されているブラックリストがありません。",
+    "clear_blacklist_button": "ブラックリスト空け",
+    "delete_blacklist_button": "ブラックリスト除去",
+
+    "blacklist_selected_rarities_button": "選択した装備分類をブラックリストに追加"
+  },
+
+  "settings_tab": {
+    "tab_title": "設定",
+
+    "amount_of_quests_shown": "クエスト表示個数 (10 - 999)：",
+    "sort_by_ascending_quest_list": "昇順：クエスト順序（１章→２章→…）",
+    "sort_by_ascending_quest_score": "昇順：クエストスコア（0.5→0.75→…）",
+    "hide_quest_score": "クエストスコアを隠す",
+    "lowest_quest_score_displayed": "表示する最小クエストスコア：",
+    "highest_quest_score_displayed": "表示する最大クエストスコア：",
+    "show_all_quests": "全クエスト表示",
+    "show_normal_quests": "NORMALクエスト表示",
+    "show_hard_quests": "HARDクエスト表示",
+    "items_displayed_per_row": "一例の表示個数（1 - 15）：",
+    "ignore_item_rarity_in_recipe": "この装備分類は必要アイテムから除外：",
+    "display_drop_percent": "ドロップ確率の表示",
+    "display_amount_required": "必要個数の表示",
+
+    "save_settings": "設定をストレージに保存します。",
+    "save_settings_button": "設定保存",
+
+    "delete_settings": "設定をストレージから除去します。",
+    "delete_settings_button": "設定除去",
+
+    "reset_settings": "保存した設定にリセットします。保存した設定がない場合、システム基本にリセットします。",
+    "reset_settings_button": "設定リセット",
+
+    "display_saved_settings": "保存した設定を表示します。",
+    "display_saved_settings_button": "設定読み込み"
+  },
+
+  "other_tab": {
+    "tab_title": "その他",
+
+    "update_in_progress": "アップデート中！",
+    "quest_update": "クエストアップデート：",
+    "normal_quests": "NORMALクエスト",
+    "hard_quests": "HARDクエスト",
+    "equipment_data": "装備情報",
+    "equipment_selection": "装備選択",
+    "en_translated_names": "英語名",
+    "updated_rank_equipment": "アップデートされた新装備",
+
+    "other_pages_title": "他のページ",
+    "quest_data": "クエスト情報",
+    "recipe_data": "装備情報",
+    "character_data": "キャラクター情報",
+    "github": "GitHub",
+    "simple_mode": "シンプルモード",
+    "fancy_mode": "ファンシーモード",
+    "help": "ヘルプ",
+
+    "data_management_title": "データー管理",
+    "export_saved_data": "保存したデーターの書き出し"
+  },
+
+  "toasts": {
+    "project_saved": "プロジェクト\"${project_name}\"を${status}！",
+    "overwritten_status": "上書きしました",
+    "saved_status": "保存しました",
+
+    "project_deleted": "プロジェクト\"${project_name}\"を除去しました！",
+
+    "blacklist_saved": "ブラックリストを保存しました！",
+    "blacklist_cleared": "ブラックリストを空けました！",
+    "blacklist_empty": "ブラックリストが空いています。",
+    "blacklist_deleted": "ブラックリストを除去しました。",
+    "no_saved_blacklist": "保存したブラックリストがありません。",
+
+    "blacklisted_rarities": "ブラックリストに装備分類が追加されます。",
+    "no_rarities_selected": "装備分類が選択されていません。",
+
+    "settings_saved": "設定を保存しました！",
+    "settings_deleted": "設定を除去しました。",
+    "no_settings_saved": "保存した設定がありません。",
+    "settings_reset": "設定をリセットしました！"
+  },
+
+  "character_names": {
+    "akari": "アカリ",
+    "akino": "アキノ",
+    "anne": "アン",
+    "anna": "アンナ",
+    "aoi": "アオイ",
+    "arisa": "アリサ",
+    "ayane": "アヤネ",
+    "ayumi": "アユミ",
+    "chika": "チカ",
+    "christina": "クリスティーナ",
+    "djeeta": "ジータ",
+    "emilia": "エミリア",
+    "eriko": "エリコ",
+    "grea": "グレア",
+    "hatsune": "ハツネ",
+    "hiyori": "ヒヨリ",
+    "ilya": "イリヤ",
+    "io": "イオ",
+    "jun": "ジュン",
+    "kaori": "カオリ",
+    "kasumi": "カスミ",
+    "kokkoro": "コッコロ",
+    "kurumi": "クルミ",
+    "kuuka": "クウカ",
+    "kyaru": "キャル",
+    "kyouka": "キョウカ",
+    "lou": "ルゥ",
+    "mahiru": "マヒル",
+    "maho": "マホ",
+    "makoto": "マコト",
+    "matsuri": "マツリ",
+    "mifuyu": "ミフユ",
+    "mimi": "ミミ",
+    "misaki": "ミサキ",
+    "misato": "ミサト",
+    "misogi": "ミソギ",
+    "mitsuki": "ミツキ",
+    "miyako": "ミヤコ",
+    "monika": "モニカ",
+    "muimi": "ムイミ",
+    "nanaka": "ナナカ",
+    "ninon": "ニノン",
+    "nozomi": "ノゾミ",
+    "pecorine": "ペコリーヌ",
+    "ram": ラム",
+    "rei": "レイ",
+    "rem": "レム",
+    "rima": "リマ",
+    "rin": "リン",
+    "rino": "リノ",
+    "ruka": "ルカ",
+    "saren": "サレン",
+    "shinobu": "シノブ",
+    "shiori": "シオリ",
+    "shizuru": "シズル",
+    "suzume": "スズメ",
+    "suzuna": "スズナ",
+    "tamaki": "タマキ",
+    "tomo": "トモ",
+    "tsumugi": "ツムギ",
+    "yori": "ヨリ",
+    "yui": "ユイ",
+    "yukari": "ユカリ",
+    "yuki": "ユキ"
+  },
+
+  "thematics": {
+    "christmas": "クリスマス",
+    "halloween": "ハロウィン",
+    "new_year": "正月",
+    "oedo": "オーエド",
+    "summer": "サマー",
+    "valentine": "バレンタイン"
+  }
+}
