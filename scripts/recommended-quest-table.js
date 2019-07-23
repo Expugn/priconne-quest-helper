@@ -468,7 +468,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
     }
     else
     {
-        document.getElementById("recommended-quest-div").style.height = "0px";
+        document.getElementById("recommended-quest-div").style.height = "2px";
         document.getElementById("recommended-quest-div").style.overflow = "hidden";
     }
 
