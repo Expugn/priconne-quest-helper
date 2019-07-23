@@ -5,7 +5,7 @@
 
     "required_ingredients_title": "<span style='font-size: 18px;'>必要アイテム</span>",
     "required_ingredients_help_1": "ここに必要なアイテムと個数が表示されます。",
-    "required_ingredients_help_2": "アイテムを押すと選択から<span style='color: darkorange'>除外し</span>、また押すと含めます。",
+    "required_ingredients_help_2": "アイテムを押すと<span style='color: darkorange'>選択から除外し</span>、また押すと再び選択されます。",
     "required_ingredients_help_3": "<span style='color: orange'>除外したアイテム</span>は、<span style='color: yellow'>おすすめクエストリスト</span>に<span style='color: salmon; font-style: italic'>表示されません</span>。",
 
     "recommended_quest_title": "<span style='font-size: 18px;'>おすすめクエストリスト</span>",
@@ -30,11 +30,11 @@
     "silver_title": "銀枠",
     "gold_title": "金枠",
     "purple_title": "紫枠",
-    "miscellaneous_title": "<span style='font-size: 15px;'>その他</span>",
+    "miscellaneous_title": "<span style='font-size: 15px;'>メモリーピース</span>",
 
-    "requested_items_title": "<span style='font-size: 18px;'>要請アイテム</span>",
+    "requested_items_title": "<span style='font-size: 18px;'>要求アイテム</span>",
     "requested_items_help_1": "上で選択したアイテムと個数がここに表示されます。",
-    "requested_items_help_2": "分類の名前を押すとその分類の全アイテムが表示されます。"
+    "requested_items_help_2": "カテゴリの名前を押すとそのカテゴリの全アイテムが表示されます。"
   },
 
   "presets_tab": {
@@ -56,7 +56,7 @@
   "projects_tab": {
     "tab_title": "<span style='font-size: 0.875em;'>プロジェクト</span>",
 
-    "localstorage_warning": "ブラウザーがローカルストレージアクセスを許容していません。<br>プロジェクト、ブラックリスト、データー読み込みと書き出し、設定保存、などの機能が無効化されました。",
+    "localstorage_warning": "ブラウザがローカルストレージアクセスを許容していません。<br>プロジェクト、ブラックリスト、データ読み込みと書き出し、設定保存などの機能が無効化されました。",
 
     "project_name_label": "プロジェクト名：",
     "save_project_button": "プロジェクト保存",
@@ -67,17 +67,17 @@
     "load_project_button": "プロジェクト読み込み",
     "add_project_items_button": "プロジェクトアイテム追加",
     "subtract_project_items_button": "プロジェクトアイテム除去",
-    "delete_project_button": "プロジェクト除去",
+    "delete_project_button": "プロジェクト削除",
     "prioritize_project_button": "プロジェクトに優先順位を付ける",
     "deprioritize_project_button": "プロジェクト優先順位除去",
 
-    "clear_item_tables_button": "アイテムテーブル空け",
+    "clear_item_tables_button": "アイテムテーブルを空にする",
 
     "save_blacklist_button": "ブラックリスト保存",
     "load_saved_blacklist_button": "ブラックリスト読み込み",
     "no_saved_blacklist_message": "保存されているブラックリストがありません。",
-    "clear_blacklist_button": "ブラックリスト空け",
-    "delete_blacklist_button": "ブラックリスト除去",
+    "clear_blacklist_button": "ブラックリスト一時無効化",
+    "delete_blacklist_button": "ブラックリスト削除",
 
     "blacklist_selected_rarities_button": "選択した装備分類をブラックリストに追加"
   },
@@ -86,7 +86,7 @@
     "tab_title": "設定",
 
     "amount_of_quests_shown": "クエスト表示個数 (10 - 999)：",
-    "sort_by_ascending_quest_list": "昇順：クエスト順序（１章→２章→…）",
+    "sort_by_ascending_quest_list": "昇順：クエスト順序（1章→2章→…）",
     "sort_by_ascending_quest_score": "昇順：クエストスコア（0.5→0.75→…）",
     "hide_quest_score": "クエストスコアを隠す",
     "lowest_quest_score_displayed": "表示する最小クエストスコア：",
@@ -94,16 +94,16 @@
     "show_all_quests": "全クエスト表示",
     "show_normal_quests": "NORMALクエスト表示",
     "show_hard_quests": "HARDクエスト表示",
-    "items_displayed_per_row": "一例の表示個数（1 - 15）：",
-    "ignore_item_rarity_in_recipe": "この装備分類は必要アイテムから除外：",
+    "items_displayed_per_row": "1行あたりの表示個数（1 - 15）：",
+    "ignore_item_rarity_in_recipe": "この分類の装備は必要アイテムから除外：",
     "display_drop_percent": "ドロップ確率の表示",
     "display_amount_required": "必要個数の表示",
 
     "save_settings": "設定をストレージに保存します。",
     "save_settings_button": "設定保存",
 
-    "delete_settings": "設定をストレージから除去します。",
-    "delete_settings_button": "設定除去",
+    "delete_settings": "設定をストレージから削除します。",
+    "delete_settings_button": "設定削除",
 
     "reset_settings": "保存した設定にリセットします。保存した設定がない場合、システム基本にリセットします。",
     "reset_settings_button": "設定リセット",
@@ -133,8 +133,8 @@
     "fancy_mode": "<span style='position: relative; top: 6px;'>ファンシーモード</span>",
     "help": "<span style='position: relative; top: 6px;'>ヘルプ</span>",
 
-    "data_management_title": "データー管理",
-    "export_saved_data": "保存したデーターの書き出し"
+    "data_management_title": "データ管理",
+    "export_saved_data": "保存したデータの書き出し"
   },
 
   "toasts": {
@@ -142,19 +142,19 @@
     "overwritten_status": "上書きしました",
     "saved_status": "保存しました",
 
-    "project_deleted": "プロジェクト\"${project_name}\"を除去しました！",
+    "project_deleted": "プロジェクト\"${project_name}\"を削除しました！",
 
     "blacklist_saved": "ブラックリストを保存しました！",
-    "blacklist_cleared": "ブラックリストを空けました！",
-    "blacklist_empty": "ブラックリストが空いています。",
-    "blacklist_deleted": "ブラックリストを除去しました。",
+    "blacklist_cleared": "ブラックリストを一時無効化ました！",
+    "blacklist_empty": "ブラックリストが存在しません。",
+    "blacklist_deleted": "ブラックリストを削除しました。",
     "no_saved_blacklist": "保存したブラックリストがありません。",
 
-    "blacklisted_rarities": "ブラックリストに装備分類が追加されます。",
-    "no_rarities_selected": "装備分類が選択されていません。",
+    "blacklisted_rarities": "ブラックリストに装備レア度を追加しました。",
+    "no_rarities_selected": "装備レア度が選択されていません。",
 
     "settings_saved": "設定を保存しました！",
-    "settings_deleted": "設定を除去しました。",
+    "settings_deleted": "設定を削除しました。",
     "no_settings_saved": "保存した設定がありません。",
     "settings_reset": "設定をリセットしました！"
   },
