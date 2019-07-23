@@ -23,7 +23,7 @@
   },
 
   "items_tab": {
-    "tab_title": "<span style='font-size: 1em;'>装備</span>",
+    "tab_title": "<span style='font-size: 1.2em;'>装備</span>",
 
     "common_title": "青枠",
     "copper_title": "銅枠",
@@ -83,7 +83,7 @@
   },
 
   "settings_tab": {
-    "tab_title": "<span style='font-size: 1em;'>設定</span>",
+    "tab_title": "<span style='font-size: 1.2em;'>設定</span>",
 
     "amount_of_quests_shown": "クエスト表示個数 (10 - 999)：",
     "sort_by_ascending_quest_list": "昇順：クエスト順序（1章→2章→…）",
