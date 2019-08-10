@@ -134,6 +134,7 @@
     "fancy_mode": "고급 모드",
     "help": "도움말 (위키)",
     "statistics": "Statistics",
+    "changelog": "Changelog",
 
     "data_management_title": "데이터 관리",
     "export_saved_data": "저장된 데이터 내보내기"

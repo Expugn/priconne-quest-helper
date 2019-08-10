@@ -134,6 +134,7 @@
     "fancy_mode": "Fancy Mode",
     "help": "Help (Wiki)",
     "statistics": "Statistics",
+    "changelog": "Changelog",
 
     "data_management_title": "Data Management",
     "export_saved_data": "Export Saved Data"
