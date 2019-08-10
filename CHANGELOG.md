@@ -143,6 +143,8 @@ Quest Update (2019-06-18)
 - Multi Language Support (Just English for now!)
 
 ## [0.7.11] - 2019-06-01
+### Added
+- Wiki Pages <https://github.com/Expugn/priconne-quest-helper/wiki>
 ### Changed
 - Removed text from hyperlink images and added text via formatting
 - When the Generate URL button is pressed in Data Export, the projects/blacklist/settings buttons are now disabled
@@ -501,8 +503,3 @@ Project repository created on GitHub
 
 ## [0.0.0] - 2019-01-10
 Project start!
-
-## [0.1.0] - 2019-01-20
-### Added
-### Changed
-### Removed
