@@ -70,6 +70,7 @@
     "delete_project_button": "Delete Project",
     "prioritize_project_button": "Prioritize Project",
     "deprioritize_project_button": "Deprioritize Project",
+    "complete_project_button": "Complete Project",
 
     "clear_item_tables_button": "Clear Item Tables",
 
@@ -132,6 +133,7 @@
     "simple_mode": "Simple Mode",
     "fancy_mode": "Fancy Mode",
     "help": "Help (Wiki)",
+    "statistics": "Statistics",
 
     "data_management_title": "Data Management",
     "export_saved_data": "Export Saved Data"
@@ -143,6 +145,7 @@
     "saved_status": "saved",
 
     "project_deleted": "Project \"${project_name}\" has been deleted!",
+    "project_completed": "Project \"${project_name}\" has been completed!",
 
     "blacklist_saved": "The item blacklist has been saved!",
     "blacklist_cleared": "The item blacklist has been cleared!",

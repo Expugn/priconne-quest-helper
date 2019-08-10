@@ -2,21 +2,10 @@ let projects = new Map();
 let priority_projects = [];
 let priority_items_array = [];
 let priority_items_compiled = false;
+let completed_projects = [];
 
 function init_project_data()
 {
-    // PROJECTS BEING STORED ON COOKIES HAVE BEEN DEPRECIATED. DELETE/IMPORT DATA.
-    if (Cookies.get('projects'))
-    {
-        if (typeof(Storage) !== "undefined")
-        {
-            localStorage.setItem('projects', Cookies.get('projects'));
-        }
-        Cookies.remove('projects');
-
-        console.log("[Projects] - Removed/imported to LocalStorage found project cookie data.");
-    }
-
     if (typeof(Storage) !== "undefined")
     {
         // LOCAL STORAGE IS SUPPORTED
@@ -116,6 +105,7 @@ function save_project_data()
     // SET SELECTED PROJECT TO RECENTLY SAVED PROJECT, ALSO ENABLE ADD/SUB BUTTONS AND SHOW PRIORITIZE BUTTON
     document.getElementById("saved-projects-select").value = project_name;
     disable_add_and_sub_buttons(false);
+    disable_complete_project_button(completed_projects.includes(project_name));
     show_prioritize_button(true);
 
     // UPDATE PRIORITY ITEMS
@@ -142,11 +132,11 @@ function load_project_data()
     let project_name = document.getElementById("saved-projects-select").value;
     let project_data = projects.get(project_name);
 
+    // CLEAR ALL DATA
+    clear_item_table();
+
     if (project_name !== "[All Projects...]")
     {
-        // CLEAR ALL DATA
-        clear_item_table();
-
         // SET ITEM VALUES
         for (let [item_name, item_amount] of project_data)
         {
@@ -161,9 +151,6 @@ function load_project_data()
     }
     else
     {
-        // CLEAR ALL DATA
-        clear_item_table();
-
         // LOAD ALL DATA
         for (let [project_name, project_data] of projects)
         {
@@ -273,11 +260,12 @@ function delete_project_data()
         show_prioritize_button(true);
         save_priority_projects();
 
-        console.log("[Priority Projects] - Removing \"" + project_name + "\" from the list due to it being deleted.")
+        console.log("[Priority Projects] - Removing \"" + project_name + "\" from the list due to it being deleted.");
     }
 
     update_saved_projects_select();
     disable_add_and_sub_buttons(true);
+    disable_complete_project_button(false);
 
     if (current_language === "en")
     {
@@ -346,7 +334,9 @@ function print_project_map(project_map)
 
 function update_saved_projects_select()
 {
-    const priority_project_symbol = "[★]";
+    const priority_project_symbol = " [★]";
+    const completed_project_symbol = " [✔]";
+    let currently_selected_project = document.getElementById("saved-projects-select").value;
 
     let select_HTML;
     if (current_language === "en")
@@ -360,17 +350,28 @@ function update_saved_projects_select()
 
     for (let [project_name, project_data] of projects)
     {
-        if (priority_projects.includes(project_name))
-        {
-            select_HTML += "<option value=\"" + project_name + "\" title=\"" + project_items_toString(project_data) + "\">" + priority_project_symbol + " " + project_name + "</option>";
-        }
-        else
-        {
-            select_HTML += "<option value=\"" + project_name + "\" title=\"" + project_items_toString(project_data) + "\">" + project_name + "</option>";
-        }
+        let project_complete_status = check_project_if_complete(project_data, project_name);
+        let project_prioritized_status = priority_projects.includes(project_name);
+
+        select_HTML += "<option value=\"" + project_name + "\" title=\"" + project_items_toString(project_data) + "\">"
+            + (project_complete_status ? completed_project_symbol : "")
+            + (project_prioritized_status ? priority_project_symbol : "")
+            + ((project_complete_status || project_prioritized_status) ? " " : "") + project_name + "</option>";
     }
 
     document.getElementById("saved-projects-select").innerHTML = select_HTML;
+    if (currently_selected_project !== "")
+    {
+        if ($("#saved-projects-select option[value='" + currently_selected_project + "']").length > 0)
+        {
+            document.getElementById("saved-projects-select").value = currently_selected_project;
+        }
+        else
+        {
+            document.getElementById("saved-projects-select").value = "[All Projects...]";
+        }
+    }
+
 }
 
 function project_items_toString(project_data)
@@ -382,6 +383,49 @@ function project_items_toString(project_data)
     }
 
     return item_string;
+}
+
+function check_project_if_complete(project_data, project_name)
+{
+    if (typeof disabled_items === 'undefined')
+    {
+        // BLACKLIST DATA IS NOT DEFINED.
+        return false;
+    }
+    else
+    {
+        for (let [item_name, item_amount] of project_data)
+        {
+            for (let [comp_name, comp_amount] of get_recipe(item_name, item_amount))
+            {
+                // CHECK IF ITEM IS MISSING IN disabled_items (BLACKLIST)
+                if (!disabled_items.includes(comp_name))
+                {
+                    // REMOVE PROJECT FROM COMPLETION
+                    if (completed_projects.includes(project_name))
+                    {
+                        let index = completed_projects.indexOf(project_name);
+                        if (index > -1)
+                        {
+                            completed_projects.splice(index, 1);
+                        }
+                    }
+
+                    // PROJECT IS NOT COMPLETE
+                    return false;
+                }
+            }
+
+        }
+        // ADD PROJECT TO COMPLETED LIST IF DOES NOT EXIST
+        if (!completed_projects.includes(project_name))
+        {
+            completed_projects.push(project_name);
+        }
+
+        // PROJECT IS COMPLETE
+        return true;
+    }
 }
 
 function update_project_selection()
@@ -400,7 +444,12 @@ function update_project_selection()
     let is_project_prioritized = priority_projects.includes(selected_project);
     show_prioritize_button(!is_project_prioritized);
 
-    console.log("[Projects] - Selected \"" + selected_project + "\"" + (is_project_prioritized ? " (Prioritized)" : ""));
+    let is_project_complete = completed_projects.includes(selected_project);
+    disable_complete_project_button(is_project_complete);
+
+    console.log("[Projects] - Selected \"" + selected_project + "\""
+        + (is_project_complete ? " (Completed)" : "")
+        + (is_project_prioritized ? " (Prioritized)" : ""));
 }
 
 function disable_add_and_sub_buttons(true_or_false)
@@ -412,6 +461,11 @@ function disable_add_and_sub_buttons(true_or_false)
     document.getElementById("deprioritize-project-button").disabled = true_or_false;
 }
 
+function disable_complete_project_button(project_completion_status)
+{
+    document.getElementById("project-complete-button").disabled = !project_completion_status;
+}
+
 function clear_all_item_tables()
 {
     clear_item_table();
@@ -420,18 +474,6 @@ function clear_all_item_tables()
 
 function init_blacklist()
 {
-    // BLACKLISTS BEING STORED ON COOKIES HAVE BEEN DEPRECIATED. DELETE/IMPORT DATA.
-    if (Cookies.get('blacklist'))
-    {
-        if (typeof(Storage) !== "undefined")
-        {
-            localStorage.setItem('blacklist', Cookies.get('blacklist'));
-        }
-        Cookies.remove('blacklist');
-
-        console.log("[Blacklist] - Removed/imported to LocalStorage found blacklist cookie data.");
-    }
-
     if (typeof(Storage) !== "undefined")
     {
         // LOCAL STORAGE IS SUPPORTED
@@ -629,6 +671,7 @@ function blacklist_selected_rarities()
             }
         }
         refresh_quest_table();
+        update_saved_projects_select();
 
         if (current_language === "en")
         {
@@ -708,4 +751,75 @@ function save_priority_projects()
         localStorage.removeItem('priority_projects');
     }
     get_priority_items();
+}
+
+function complete_project()
+{
+    // COMPLETING A PROJECT DELETES IT AND RE-ENABLES ANY DISABLED_ITEM THAT WAS IN IT.
+
+    let project_name = document.getElementById("saved-projects-select").value;
+    let project_data = projects.get(project_name);
+
+    // CLEAN PROJECT ITEMS FROM BLACKLIST
+    for (let [item_name, item_amount] of project_data)
+    {
+        for (let [comp_name, comp_amount] of get_recipe(item_name, item_amount))
+        {
+            // COMPONENT EXISTS IN disabled_items (BLACKLIST)...
+            if (disabled_items.includes(comp_name))
+            {
+                // REMOVE ITEM FROM DISABLED LIST
+                let index = disabled_items.indexOf(comp_name);
+                if (index > -1)
+                {
+                    disabled_items.splice(index, 1);
+                }
+
+                // TOGGLE LOW OPACITY ON COMPONENT IN REQUIRED INGREDIENTS IF POSSIBLE
+                if (document.getElementById("request-button-" + item_name.split(' ').join('_')))
+                {
+                    document.getElementById("request-button-" + item_name.split(' ').join('_')).classList.toggle("low-opacity");
+                }
+            }
+        }
+    }
+
+    // DELETE PROJECT
+    projects.delete(project_name);
+
+    // SAVE PROJECT MAP TO COOKIE AS COOKIE-SAFE JSON STRING
+    localStorage.setItem('projects', map_of_maps_to_map_string_json(projects));
+
+    if (priority_projects.includes(project_name))
+    {
+        // DELETE FROM PRIORITY PROJECT LIST
+        let index = priority_projects.indexOf(project_name);
+        if (index > -1)
+        {
+            priority_projects.splice(index, 1);
+        }
+
+        show_prioritize_button(true);
+        save_priority_projects();
+
+        console.log("[Priority Projects] - Removing \"" + project_name + "\" from the list due to it being completed and deleted.");
+    }
+
+    update_saved_projects_select();
+    disable_add_and_sub_buttons(true);
+    disable_complete_project_button(false);
+
+    // DISPLAY TOAST
+    if (current_language === "en")
+    {
+        toastr.success("Project \"" + project_name + "\" has been completed!");
+    }
+    else
+    {
+        let translated_toast = language_json["toasts"]["project_completed"];
+        translated_toast = translated_toast.replace("${project_name}", project_name);
+
+        toastr.success(translated_toast);
+    }
+    console.log("[Projects] - Completed \"" + project_name + "\".");
 }

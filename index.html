@@ -37,11 +37,8 @@
     <meta property="twitter:description" content="Quest Choosing Assistance for the Game 'Princess Connect! Re:Dive'.">
 
     <!-- SCRIPTS -->
-    <!--<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>-->
     <script src="scripts/jquery-3.3.1.js"></script>
-    <!--<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>-->
     <script src="scripts/js.cookie.min.js"></script>
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>-->
     <script src="scripts/toastr.min.js"></script>
     <script src="scripts/modernizr-custom.js"></script> <!-- WEBP CHECK -->
 
@@ -86,10 +83,6 @@
         <h2 id="sub-title" class="title"><span translate_text="system.subtitle">Quest Helper</span></h2>
     </div>
 </div>
-
-<!--
-<span translate_text=""></span>
--->
 
 <div class="topnav">
     <button id="navigation-items" class="is-open" type="button" onclick="open_items()"><span translate_text="items_tab.tab_title">Items</span></button>
@@ -272,10 +265,11 @@
             <button id="project-load-button" type="button" onclick="load_project_data()"><span translate_text="projects_tab.load_project_button">Load Project</span></button>
             <button id="project-add-button" disabled type="button" onclick="add_project_data()"><span translate_text="projects_tab.add_project_items_button">Add Project Items</span></button>
             <button id="project-sub-button" disabled type="button" onclick="sub_project_data()"><span translate_text="projects_tab.subtract_project_items_button">Subtract Project Items</span></button>
-            <button id="project-delete-button" type="button" onclick="delete_project_data()"><span translate_text="projects_tab.delete_project_button">Delete Project</span></button>
-            <br><br>
             <button id="prioritize-project-button" disabled type="button" onclick="prioritize_selected_project(true)"><span translate_text="projects_tab.prioritize_project_button">Prioritize Project</span></button>
             <button id="deprioritize-project-button" disabled hidden type="button" onclick="prioritize_selected_project(false)"><span translate_text="projects_tab.deprioritize_project_button">Deprioritize Project</span></button>
+            <br><br><br>
+            <button id="project-delete-button" type="button" onclick="delete_project_data()"><span translate_text="projects_tab.delete_project_button">Delete Project</span></button>
+            <button id="project-complete-button" disabled type="button" onclick="complete_project()"><span translate_text="projects_tab.complete_project_button">Complete Project</span></button>
             <br><br><br>
             <button type="button" onclick="clear_all_item_tables()"><span translate_text="projects_tab.clear_item_tables_button">Clear Item Tables</span></button>
         </div>
@@ -600,7 +594,6 @@
 
     toggle_simple_mode();
     init_settings();
-    init_project_data();
     setToastrOptions();
 
     window.onload = function () {
@@ -625,6 +618,7 @@
                 read_cookie();
                 build_item_tables();
                 init_blacklist();
+                init_project_data();
                 build_character_preset_list();
                 update_progress();
             }

@@ -210,6 +210,7 @@ function toggle_enabled_item(item_name)
     }
 
     refresh_quest_table();
+    update_saved_projects_select();
     document.getElementById("request-button-" + item_name.split(' ').join('_')).classList.toggle("low-opacity");
 }
 
