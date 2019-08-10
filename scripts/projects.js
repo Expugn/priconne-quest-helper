@@ -508,6 +508,7 @@ function init_blacklist()
             }
             refresh_quest_table();
             update_saved_projects_select();
+            disable_complete_project_button(completed_projects.includes(document.getElementById("saved-projects-select").value));
 
             document.getElementById("blacklist-load-button").title = ((saved_blacklist_array.length > 0) ? button_title_string : "The saved blacklist is empty.");
             console.log("[Blacklist] - Blacklist is initialized!");
@@ -554,6 +555,8 @@ function clear_blacklist()
         disabled_items = [];
 
         refresh_quest_table();
+        update_saved_projects_select();
+        disable_complete_project_button(false);
 
         if (current_language === "en")
         {
