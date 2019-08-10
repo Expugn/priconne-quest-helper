@@ -507,6 +507,7 @@ function init_blacklist()
                 button_title_string += saved_blacklist_array[i] + "\n";
             }
             refresh_quest_table();
+            update_saved_projects_select();
 
             document.getElementById("blacklist-load-button").title = ((saved_blacklist_array.length > 0) ? button_title_string : "The saved blacklist is empty.");
             console.log("[Blacklist] - Blacklist is initialized!");
@@ -776,9 +777,9 @@ function complete_project()
                 }
 
                 // TOGGLE LOW OPACITY ON COMPONENT IN REQUIRED INGREDIENTS IF POSSIBLE
-                if (document.getElementById("request-button-" + item_name.split(' ').join('_')))
+                if (document.getElementById("request-button-" + comp_name.split(' ').join('_')))
                 {
-                    document.getElementById("request-button-" + item_name.split(' ').join('_')).classList.toggle("low-opacity");
+                    document.getElementById("request-button-" + comp_name.split(' ').join('_')).classList.toggle("low-opacity");
                 }
             }
         }
