@@ -130,26 +130,14 @@ function figure_out_total_ingredients(all_recipe_maps_array)
             }
 
             // IMAGE
-            /*
-            table_html += "<th class=\"requested-item-image\">";
-            table_html += "<img class=\"requested-item-image\" title=\"" + item
-                + "\" src=\"images/items/" + item.split(' ').join('_') + ".png\" alt=\"\">";
-            table_html += "<div class=\"requested-item-text\">\u00D7" + value + "</div>";
-            table_html += "</th>";
-            */
-
             table_html += "<th class=\"requested-item-image\">";
             table_html += "<button id=\"request-button-" + item.split(' ').join('_') + "\" class=\"ingredient-button all-ingredient-comp pointer-cursor" + (disabled_items.includes(item) ? " low-opacity" : "") + "\" onclick=\"toggle_enabled_item(" + "\'" + clean_apostrophes(item) + "\'" + ")\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" title=\"" + item + "\" src=\"" + get_item_image_path(item.split(' ').join('_')) + "\" alt=\"\"><div class='ingredient-button-text all-ingredient-comp'>\u00D7" + value + "</div></button>";
             table_html += "</th>";
-
-
-            //table_html += "<div class=\"requested-item-button-text\">\u00D7" + value + "</div>";
 
             item_counter++;
         }
         // close table row
         table_html += "</tr>";
-        //table_html += "<tr class=\"spacing\"></tr>";
     }
     table_html += "</tbody>";
 

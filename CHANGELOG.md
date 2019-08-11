@@ -3,11 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
 
-### New Page: Statistics
- * A page that compiles all the equipment and components needed to create
- them and displays them to the user.
+
+## [1.1.1] - 2019-08-11
+### Added
+- New Page: Statistics
+- Hyperlinks to Statistics page and raw copy of Changelog
+### Changed
+- Tweaked Changelog to put fixes under a `Fixed` category
+- Deleted some unused comments
 
 ## [1.1.0] - 2019-08-10
 ### Added
@@ -40,15 +44,14 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
     - Proofread SD SkyKlouD's translations
     - Fix an error in character data (Suzuna (Summer)'s name_jp was incorrect)
 - More tab title size tweaks for ja.json
+### Fixed
 - Fixed an issue where if you set the amount of memory pieces to be between 401-500+ it would still be able to show up on the required ingredients category despite the intended max being 400(?).
 - Fixed a minor problem where if there were no quests that could be displayed yet an item was continuously enabled/disabled, you could see the recommended quest table moving a little bit.
 
 ## [1.0.0] - 2019-07-22
 "Complete" Release
-### Added
 ### Changed
 - Tweaked ja.json font sizes
-### Removed
 
 ## [0.9.6] - 2019-07-21
 ### Added
@@ -56,8 +59,6 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Merged Pull Requests from SD SkyKlouD
   - Update Korean Translations : <https://github.com/Expugn/priconne-quest-helper/pull/8>
   - Japanese Translations : <https://github.com/Expugn/priconne-quest-helper/pull/9>
-### Changed
-### Removed
 
 ## [0.9.5] - 2019-07-18
 Quest Update (2019-07-18)
@@ -72,6 +73,7 @@ Quest Update (2019-07-18)
 - New Text: `settings_tab.display_amount_required`
 ### Changed
 - Fancy Mode background now uses a .png no matter what. The .webp version of the background had compression that was really noticeable
+### Fixed
 - Fixed an inconsistency where Japanese character names would display their name as `thematic name` instead of the new format of `name (thematic)` when using the English language
 
 ## [0.9.4] - 2019-06-30
@@ -98,7 +100,7 @@ Quest Update (2019-07-18)
 ### Added
 - Prioritized items are now highlighted red in the `Recommended Quests` Category
 - Prioritized items now have their quest score multiplied by `x2.0`
-### Changed
+### Fixed
 - Fixed an issue where a priority project would persist when data importing if the data had no priority project data
 - Fixed an issue where if a project was loaded prior to the priority_item_array was initialized, it would create an accidental loop and cause an error with the quest table being unable to load.
 - Fixed an issue where if the deprioritize project buttonw as active when the language is changed, it would persist when the selected saved project is reset to "[All Projects...]"
@@ -112,6 +114,7 @@ Quest Update (2019-07-18)
 - Priority Project support for Data Export/Import
 ### Changed
 - Clicking on an image in dev/JSON-Writer will now copy the item name to the clipboard
+### Fixed
 - Fixed an error where "Add Project Items" and "Subtract Project Items" would be enabled while "[All Projects...]" is selected if the language is changed while the Add/Subtract buttons are enabled.
 
 ## [0.8.3] - 2019-06-18
@@ -123,7 +126,7 @@ Quest Update (2019-06-18)
 - Quest Chapter 24 Normal/Hard data
 
 ## [0.8.2] - 2019-06-09
-### Changed
+### Fixed
 - Merged Pull Request from alexanderabramov
   - Fix Maho Rank 6 : <https://github.com/Expugn/priconne-quest-helper/pull/4>
     - Maho had an incorrect equipment set in her rank 6.
@@ -160,10 +163,11 @@ Quest Update (2019-06-18)
 - New README.md banner
 ### Changed
 - README.md edits
+### Fixed
 - Fixed an issue where "Item Amount per Row" would not update if "Reset Settings" was used
 
 ## [0.7.8] - 2019-05-20
-### Changed
+### Fixed
 - Fixed an formatting issue with Simple/Fancy mode hyperlinks
 ### Removed
 - "Two Weeks" warning for data exporting/importing. System was never implemented
@@ -191,7 +195,7 @@ Quest Update (2019-05-17)
 - Cleaned up setting and other tabs; originally planned to change the layout but figured the simple layout was best
 
 ## [0.7.4] - 2019-04-28
-### Changed
+### Fixed
 - Fixed an error where deleting a project would allow the Add/Subtract Project item buttons to remain enable despite the selection being changed to '[All Projects...]'
 
 ## [0.7.3] - 2019-04-19
@@ -203,8 +207,9 @@ Quest Update (2019-04-19)
 - New quest scoring due to recent sub-drop changes
 - All Character Data (r12 - r13)
 ### Changed
+- Images without an item_name now default to the Placeholder image for quests
+### Fixed
 - Fixed preset errors in Shizuru and Rima
-- Images without an item_name now default to the Placeholder image for quests.
 - Fixed an issue with precision in quest scoring
 ### Removed
 - Simple/Fancy Mode footer hyperlink (can still be accessed via inputting `#simple` hash)
@@ -215,8 +220,8 @@ Quest Update (2019-04-19)
 ### Changed
 - Changed An's name back to her proper name, Anne
 - Changed Ruu's name to her proper name, Lou
+### Fixed
 - Fixed an error in the Quest Data
-### Removed
 
 ## [0.7.1] - 2019-04-16
 ### Changed
@@ -237,15 +242,15 @@ Quest Update (2019-04-19)
 - Fixed an issue with Google Translating the page where it would break because the translated item image does not exist.
 
 ## [0.6.7] - 2019-03-29
-### Changed
+### Fixed
 - Fixed an issue with Quest Data
 
 ## [0.6.6] - 2019-03-28
-### Changed
+### Fixed
 - Fixed an issue with Quest Data
 
 ## [0.6.5] - 2019-03-23
-### Changed
+### Fixed
 - Fixed an issue with Quest Data
 
 ## [0.6.4] - 2019-03-20
@@ -278,9 +283,8 @@ Quest Update (2019-03-19)
 ### Added
 - Ayane -> Muimi Character Data (r1 - r12)
 - dev/JSON-Writer to help with adding character data
-### Changed
+### Fixed
 - Fixed an error in quest data
-### Removed
 
 ## [0.6.0] - 2019-03-15
 ### Added
@@ -289,8 +293,8 @@ Quest Update (2019-03-19)
 - Character Data page
 ### Changed
 - Max misc. item count increased to 500 ((1->5star = 400) + (lv130 special equip = 100))
+### Fixed
 - Fixed character preset scrollable
-### Removed
 
 ## [0.5.2] - 2019-02-28
 ### Changed
@@ -317,6 +321,7 @@ Quest Update (2019-03-19)
 - Import/Export data feature finally works
 ### Changed
 - Modified styling for the Export/Import pages to suit mobile users better
+### Fixed
 - Fixed an error in quest data
 
 ## [0.4.1] - 2019-02-20
@@ -362,6 +367,7 @@ Quest Update (2019-02-15)
 - The cursor now turns to a pointer cursor when hovering over a Required Ingredient button
 - Min/Max Quest Chapters updated to 20
 - If quest data is missing, it will display the Placeholder image instead
+### Fixed
 - Fixed error in quest data
 
 ## [0.2.3] - 2019-02-14
@@ -420,7 +426,7 @@ Quest Update (2019-02-15)
   - Hide Quest Score
   - Min Quest Chapter/Max Quest Chapter
 - Cookie System basic implementation
-### Changed
+### Fixed
 - Fixed issue with Simple/Fancy hyperlink
 - Fixed issues with settings
 
@@ -442,9 +448,10 @@ Initial private-release. Shared news of development in the Salivation/Re:Divine/
 - Simple Mode
   - Backgrounds and Hovering elements disabled
 ### Changed
-- Fixed some quest data issues
 - Hard mode quests now have their `H` colored red on the Recommended Quest Table
 - README.md expanded upon
+### Fixed
+- Fixed some quest data issues
 
 ## [0.0.3] - 2019-01-19
 ### Added
@@ -460,9 +467,10 @@ Initial private-release. Shared news of development in the Salivation/Re:Divine/
 - Usage tips added
 - Equipment data for new Purple rarity items (released 2019-01-18)
 ### Changed
+- Additional styling for Recommended Quests
+### Fixed
 - Fixed an issue with mobile users not being able to trigger the title hover
 - Fixed some quest data issues
-- Additional styling for Recommended Quests
 
 ## [0.0.2] - 2019-01-18
 ### Added

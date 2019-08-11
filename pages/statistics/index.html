@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133296718-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-133296718-1');
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <link rel="icon" href="../../images/webpage/101211_102803_6.png">
+
+    <title>Princess Connect! Re:Dive - Quest Helper | Statistics</title>
+    <meta name="title" content="Princess Connect! Re:Dive - Quest Helper | Statistics"/>
+
+    <!-- META DATA -->
+    <meta name="description" content="Statistics for 'Princess Connect! Re:Dive', based on the data used in priconne-quest-helper.">
+    <meta name="author" content="S'pugn">
+    <meta name="keywords" content="Princess Connect Re:Dive, プリンセスコネクト! Re:Dive, Quest Helper, S'pugn">
+
+    <!-- OPEN GRAPH / FACEBOOK META DATA -->
+    <meta property="og:title" content="Princess Connect! Re:Dive - Quest Helper | Statistics">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/101211_102803_6.png">
+    <meta property="og:description" content="Statistics for 'Princess Connect! Re:Dive', based on the data used in priconne-quest-helper.">
+    <meta property="og:url" content="https://expugn.github.io/priconne-quest-helper/">
+
+    <!-- TWITTER META DATA -->
+    <meta property="twitter:title" content="Princess Connect! Re:Dive - Quest Helper | Statistics">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/101211_102803_6.png">
+    <meta property="twitter:description" content="Statistics for 'Princess Connect! Re:Dive', based on the data used in priconne-quest-helper.">
+
+    <!-- SCRIPTS -->
+    <script src="../../scripts/jquery-3.3.1.js"></script>
+    <script src="../../scripts/toastr.min.js"></script>
+    <script src="../../scripts/modernizr-custom.js"></script> <!-- WEBP CHECK -->
+    <script src="../../scripts/image-manager.js"></script>
+    <script src="../../scripts/read-character-json.js"></script>
+    <script src="../../scripts/read-equipment-json.js"></script>
+    <script src="../../scripts/recipe-reader.js"></script>
+
+    <!-- CSS STYLE SHEETS -->
+    <link rel="stylesheet" href="../../css/toastr.css"/>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/webpage.css">
+    <link rel="stylesheet" href="../../css/item_table.css">
+    <link rel="stylesheet" href="../../css/statistics.css">
+</head>
+
+<body class="no-background-body">
+<div id="title-div" class="div-background-title no-background no-transition no-hover" onclick="">
+    <div id="title-text-div" class="title-hover no-background no-hover">
+        <h1 class="title">Princess Connect! Re:Dive - Quest Helper</h1>
+        <h2 id="sub-title" class="title">Statistics</h2>
+    </div>
+</div>
+<hr> <!-- LINE BREAK -->
+
+<div id="rarity-settings" hidden>
+    <br>
+    <table id="rarity-settings-table" class="centerTable white-background">
+        <tbody>
+        <tr>
+            <th>
+                <button id="ignore-button-common" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('common')">
+                    <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Common Items" image_folder="webpage" file_name="Placeholder_Common" src_prefix="../../" src="" alt="">
+                </button>
+            </th>
+            <th>
+                <button id="ignore-button-copper" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('copper')">
+                    <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Copper Items" image_folder="webpage" file_name="Placeholder_Copper" src_prefix="../../" src="" alt="">
+                </button>
+            </th>
+            <th>
+                <button id="ignore-button-silver" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('silver')">
+                    <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Silver Items" image_folder="webpage" file_name="Placeholder_Silver" src_prefix="../../" src="" alt="">
+                </button>
+            </th>
+            <th>
+                <button id="ignore-button-gold" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('gold')">
+                    <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Gold Items" image_folder="webpage" file_name="Placeholder_Gold" src_prefix="../../" src="" alt="">
+                </button>
+            </th>
+            <th>
+                <button id="ignore-button-purple" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('purple')">
+                    <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Purple Items" image_folder="webpage" file_name="Placeholder_Purple" src_prefix="../../" src="" alt="">
+                </button>
+            </th>
+        </tr>
+        </tbody>
+    </table>
+    <br>
+    <table class="centerTable">
+        <tbody>
+            <tr>
+                <th>
+                    <label for="data-type-select" hidden></label>
+                    <select id="data-type-select" onchange="change_display()">
+                        <option value="equipment-data">Equipment Usage</option>
+                        <option value="ingredient-data">Ingredient Usage</option>
+                    </select>
+                </th>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+</div>
+
+<div id="all-data">
+    <div id="equipment-data">
+        <h2 class="category-title">Equipment Usage Rankings</h2>
+        <table id="top-3-equipment" class="centerTable white-background">
+            <tr>
+                <th><img class="placement-image use-webp" title="1st Place" image_folder="webpage" file_name="1st_Place" src_prefix="../../" src="" alt=""></th>
+                <th><img class="quest-item-image quest-item-divider" title="" src="" alt=""></th>
+                <th><img class="placement-image use-webp" title="2nd Place" image_folder="webpage" file_name="2nd_Place" src_prefix="../../" src="" alt=""></th>
+                <th><img class="quest-item-image quest-item-divider" title="" src="" alt=""></th>
+                <th><img class="placement-image use-webp" title="3rd Place" image_folder="webpage" file_name="3rd_Place" src_prefix="../../" src="" alt=""></th>
+            </tr>
+            <tr>
+                <th><img id="full-equip-first" class="top-three-item-image first-place-item" title="" src="../../images/items/Placeholder.png" alt="">
+                    <div id="full-equip-first-text" class="top-three-item-text" hidden></div></th>
+                <th><img class="requested-item-image quest-item-divider" title="" src="" alt=""></th>
+                <th><img id="full-equip-second" class="top-three-item-image second-place-item" title="" src="../../images/items/Placeholder.png" alt="">
+                    <div id="full-equip-second-text" class="top-three-item-text" hidden></div></th>
+                <th><img class="requested-item-image quest-item-divider" title="" src="" alt=""></th>
+                <th><img id="full-equip-third" class="top-three-item-image third-place-item" title="" src="../../images/items/Placeholder.png" alt="">
+                    <div id="full-equip-third-text" class="top-three-item-text" hidden></div></th>
+            </tr>
+        </table>
+
+        <br>
+
+        <div id="all-equipment" hidden>
+            <table id="all-equipment-sorted" class="centerTable white-background"></table>
+        </div>
+        <br>
+        <hr> <!-- LINE BREAK -->
+    </div>
+
+
+
+    <div id="ingredient-data" hidden>
+        <h2 class="category-title">Ingredient Usage Rankings</h2>
+        <table id="top-3-ingredient" class="centerTable white-background">
+            <tr>
+                <th><img class="placement-image use-webp" title="1st Place" image_folder="webpage" file_name="1st_Place" src_prefix="../../" src="" alt=""></th>
+                <th><img class="quest-item-image quest-item-divider" title="" src="" alt=""></th>
+                <th><img class="placement-image use-webp" title="2nd Place" image_folder="webpage" file_name="2nd_Place" src_prefix="../../" src="" alt=""></th>
+                <th><img class="quest-item-image quest-item-divider" title="" src="" alt=""></th>
+                <th><img class="placement-image use-webp" title="3rd Place" image_folder="webpage" file_name="3rd_Place" src_prefix="../../" src="" alt=""></th>
+            </tr>
+            <tr>
+                <th><img id="ingredient-first" class="top-three-item-image first-place-item" title="" src="../../images/items/Placeholder.png" alt="">
+                    <div id="ingredient-first-text" class="top-three-item-text" hidden></div></th>
+                <th><img class="requested-item-image quest-item-divider" title="" src="" alt=""></th>
+                <th><img id="ingredient-second" class="top-three-item-image second-place-item" title="" src="../../images/items/Placeholder.png" alt="">
+                    <div id="ingredient-second-text" class="top-three-item-text" hidden></div></th>
+                <th><img class="requested-item-image quest-item-divider" title="" src="" alt=""></th>
+                <th><img id="ingredient-third" class="top-three-item-image third-place-item" title="" src="../../images/items/Placeholder.png" alt="">
+                    <div id="ingredient-third-text" class="top-three-item-text" hidden></div></th>
+            </tr>
+        </table>
+
+        <br>
+
+        <div id="all-ingredients" hidden>
+            <table id="all-ingredients-sorted" class="centerTable white-background"></table>
+        </div>
+        <br>
+        <hr> <!-- LINE BREAK -->
+    </div>
+</div>
+
+</body>
+
+<footer>
+    <p class="footer"><span id="stats" class="white-background" hidden></span></p>
+    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="../../" src="" alt=""></p>
+</footer>
+
+<script>
+    const table_row_length = 12;
+
+    let ignored_rarities = [];
+    let all_equipment_map_sorted;
+    let all_ingredients_map_sorted;
+    let equipment_data_map;
+    let current_display = "equipment-data";
+
+    let character_counter = 0;
+    let highest_rank;
+
+    toastr.warning("Loading...", "Status", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
+    window.onload = function ()
+    {
+        init_webp();
+        init_images();
+
+        // MAKE SURE EQUIPMENT AND CHARACTER DATA IS LOADED
+        setup();
+
+        function setup()
+        {
+            if (!equipment_loaded || !character_loaded)
+            {
+                setTimeout(function () {
+                    setup();
+                }, 1000);
+            }
+            else
+            {
+                run();
+            }
+        }
+
+        function run()
+        {
+            equipment_data_map = build_equipment_data_map();
+            let all_equipment_map = compile_all_full_equipment();
+            all_equipment_map_sorted = new Map([...all_equipment_map.entries()].sort((a, b) => b[1] - a[1]));
+            all_ingredients_map_sorted = new Map([...compile_all_ingredients(all_equipment_map).entries()].sort((a, b) => b[1] - a[1]));
+            build_full_equipment_html();
+            build_full_ingredient_html();
+            update_stats();
+            document.getElementById("rarity-settings").hidden = false;
+
+            toastr.remove();
+            toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: false });
+        }
+    };
+
+    function compile_all_full_equipment()
+    {
+        let all_equipment_map = new Map();
+        character_counter = 0;
+
+        for (let [character_name, character_data] of character_map)
+        {
+            let rank_counter = 1;
+
+            while (get_character_data(character_name, "rank_" + rank_counter) !== undefined)
+            {
+                // ITERATE THROUGH RANK ITEMS
+                for (let i = 0 ; i < 6 ; i++)
+                {
+                    let item = get_character_data(character_name, "rank_" + rank_counter)[i];
+
+                    // IF ITEM IS EMPTY, CHANGE TO PLACEHOLDER
+                    if (item === "")
+                    {
+                        item = "Placeholder";
+                    }
+
+                    // ADD ITEM TO COMPLETE EQUIPMENT MAP
+                    if (all_equipment_map.has(item))
+                    {
+                        all_equipment_map.set(item, all_equipment_map.get(item) + 1);
+                    }
+                    else
+                    {
+                        all_equipment_map.set(item, 1);
+                    }
+                }
+                rank_counter++;
+            }
+
+            if (typeof highest_rank === "undefined")
+            {
+                highest_rank = rank_counter - 1;
+            }
+
+            character_counter++;
+        }
+
+        return all_equipment_map;
+    }
+
+    function compile_all_ingredients(all_equipment_map)
+    {
+        let all_ingredients_map = new Map();
+        for (let [equipment_name, equipment_amount] of all_equipment_map)
+        {
+            // IGNORE PLACEHOLDER
+            if (equipment_name !== "Placeholder")
+            {
+                let equipment_recipe = get_recipe(equipment_name, equipment_amount);
+                for (let [ingredient_name, ingredient_amount] of equipment_recipe)
+                {
+                    if (all_ingredients_map.has(ingredient_name))
+                    {
+                        all_ingredients_map.set(ingredient_name, all_ingredients_map.get(ingredient_name) + ingredient_amount)
+                    }
+                    else
+                    {
+                        all_ingredients_map.set(ingredient_name, ingredient_amount);
+                    }
+                }
+            }
+        }
+
+        return all_ingredients_map;
+    }
+
+    function build_equipment_data_map()
+    {
+        let err = new Map();
+        for (let [item_name, item_data] of equipment_map)
+        {
+            let item_id = get_equipment_data(item_name, "id");
+            let rarity_class = item_id.substring(0, item_id.indexOf('-'));
+
+            if (rarity_class !== "misc")
+            {
+                let equipment_data_map = new Map();
+                equipment_data_map.set("rarity", rarity_class);
+                equipment_data_map.set("has_fragments", item_data.get("has_fragments"));
+                equipment_data_map.set("req_pieces", item_data.get("req_pieces"));
+                equipment_data_map.set("req_items", item_data.get("req_items"));
+
+                err.set(item_data.get("name"), equipment_data_map);
+            }
+        }
+
+        return err;
+    }
+
+    function build_full_equipment_html()
+    {
+        let item_counter = 0;
+        let bottom_equipment_html = "<tbody>";
+
+        for (let [equipment_name, equipment_amount] of all_equipment_map_sorted) {
+            // IGNORE PLACEHOLDER
+            if (equipment_name !== "Placeholder") {
+                if (!ignored_rarities.includes(equipment_data_map.get(equipment_name).get("rarity")))
+                {
+                    if (item_counter < 3)
+                    {
+                        switch (item_counter)
+                        {
+                            case 0:
+                                document.getElementById("full-equip-first").src = "../../" + get_item_image_path(equipment_name.split(' ').join('_'));
+                                document.getElementById("full-equip-first").title = equipment_name;
+                                document.getElementById("full-equip-first-text").innerHTML = "\u00D7" + equipment_amount;
+                                document.getElementById("full-equip-first-text").hidden = false;
+                                break;
+                            case 1:
+                                document.getElementById("full-equip-second").src = "../../" + get_item_image_path(equipment_name.split(' ').join('_'));
+                                document.getElementById("full-equip-second").title = equipment_name;
+                                document.getElementById("full-equip-second-text").innerHTML = "\u00D7" + equipment_amount;
+                                document.getElementById("full-equip-second-text").hidden = false;
+                                break;
+                            case 2:
+                                document.getElementById("full-equip-third").src = "../../" + get_item_image_path(equipment_name.split(' ').join('_'));
+                                document.getElementById("full-equip-third").title = equipment_name;
+                                document.getElementById("full-equip-third-text").innerHTML = "\u00D7" + equipment_amount;
+                                document.getElementById("full-equip-third-text").hidden = false;
+                                break;
+                        }
+                    }
+                    else
+                    {
+                        // SUBTRACTING 3 BECAUSE OF THE TOP 3 ITEM PLACEMENT
+                        let bottom_item_counter = item_counter - 3;
+
+                        // ADD TABLE ROW START IF FIRST ITEM
+                        if (bottom_item_counter === 0) {
+                            bottom_equipment_html += "<tr>";
+                        }
+
+                        // CLOSE TABLE ROW AND START NEW IF <table_row_length> ITEMS HAVE BEEN MADE
+                        if (bottom_item_counter % table_row_length === 0 && bottom_item_counter !== 0) {
+                            bottom_equipment_html += "</tr><tr>";
+                        }
+
+                        bottom_equipment_html += "<th class\"requested-item-image\">";
+                        bottom_equipment_html += "<img class=\"requested-item-image\" title=\"" + equipment_name + "\" src=\"../../" + get_item_image_path(equipment_name.split(' ').join('_')) + "\" alt=\"\">";
+                        bottom_equipment_html += "<div class=\"requested-item-text\">\u00D7" + equipment_amount + "</div>";
+                        bottom_equipment_html += "</th>";
+                    }
+                    item_counter++;
+                }
+            }
+        }
+        bottom_equipment_html += "</tr></tbody>";
+        document.getElementById("all-equipment-sorted").innerHTML = bottom_equipment_html;
+        document.getElementById("all-equipment").hidden = false;
+    }
+
+    function build_full_ingredient_html()
+    {
+        let item_counter = 0;
+        let bottom_ingredient_html = "<tbody>";
+
+        for (let [ingredient_name, ingredient_amount] of all_ingredients_map_sorted)
+        {
+            if (!ignored_rarities.includes(equipment_data_map.get(ingredient_name.replace(' Fragment', '')).get("rarity")))
+            {
+                if (item_counter < 3)
+                {
+                    switch (item_counter)
+                    {
+                        case 0:
+                            document.getElementById("ingredient-first").src = "../../" + get_item_image_path(ingredient_name.split(' ').join('_'));
+                            document.getElementById("ingredient-first").title = ingredient_name;
+                            document.getElementById("ingredient-first-text").innerHTML = "\u00D7" + ingredient_amount;
+                            document.getElementById("ingredient-first-text").hidden = false;
+                            break;
+                        case 1:
+                            document.getElementById("ingredient-second").src = "../../" + get_item_image_path(ingredient_name.split(' ').join('_'));
+                            document.getElementById("ingredient-second").title = ingredient_name;
+                            document.getElementById("ingredient-second-text").innerHTML = "\u00D7" + ingredient_amount;
+                            document.getElementById("ingredient-second-text").hidden = false;
+                            break;
+                        case 2:
+                            document.getElementById("ingredient-third").src = "../../" + get_item_image_path(ingredient_name.split(' ').join('_'));
+                            document.getElementById("ingredient-third").title = ingredient_name;
+                            document.getElementById("ingredient-third-text").innerHTML = "\u00D7" + ingredient_amount;
+                            document.getElementById("ingredient-third-text").hidden = false;
+                            break;
+                    }
+                }
+                else
+                {
+                    // SUBTRACTING 3 BECAUSE OF THE TOP 3 ITEM PLACEMENT
+                    let bottom_item_counter = item_counter - 3;
+
+                    // ADD TABLE ROW START IF FIRST ITEM
+                    if (bottom_item_counter === 0) {
+                        bottom_ingredient_html += "<tr>";
+                    }
+
+                    // CLOSE TABLE ROW AND START NEW IF <table_row_length> ITEMS HAVE BEEN MADE
+                    if (bottom_item_counter % table_row_length === 0 && bottom_item_counter !== 0) {
+                        bottom_ingredient_html += "</tr><tr>";
+                    }
+
+                    bottom_ingredient_html += "<th class\"requested-item-image\">";
+                    bottom_ingredient_html += "<img class=\"requested-item-image\" title=\"" + ingredient_name + "\" src=\"../../" + get_item_image_path(ingredient_name.split(' ').join('_')) + "\" alt=\"\">";
+                    bottom_ingredient_html += "<div class=\"requested-item-text\">\u00D7" + ingredient_amount + "</div>";
+                    bottom_ingredient_html += "</th>";
+                }
+                item_counter++;
+            }
+        }
+        bottom_ingredient_html += "</tr></tbody>";
+        document.getElementById("all-ingredients-sorted").innerHTML = bottom_ingredient_html;
+        document.getElementById("all-ingredients").hidden = false;
+    }
+
+    function toggle_ignored_rarity(rarity)
+    {
+        let elem_id = "ignore-button-" + rarity;
+        if (ignored_rarities.length !== 4 || document.getElementById(elem_id).classList.contains("low-opacity"))
+        {
+            document.getElementById(elem_id).classList.toggle("low-opacity");
+
+            if (ignored_rarities.includes(rarity))
+            {
+                // UN-IGNORE RARITY
+                let index = ignored_rarities.indexOf(rarity);
+                if (index > -1)
+                {
+                    ignored_rarities.splice(index, 1);
+                }
+            }
+            else
+            {
+                // IGNORE RARITY
+                ignored_rarities.push(rarity);
+            }
+
+            build_full_equipment_html();
+            build_full_ingredient_html();
+        }
+        else
+        {
+            toastr.error("At least one rarity must be enabled.", "Warning", { positionClass: "toast-top-full-width", tapToDismiss: false, preventDuplicates: true});
+        }
+    }
+
+    function change_display()
+    {
+        let selected_option = document.getElementById("data-type-select").value;
+
+        document.getElementById(current_display).hidden = true;
+        document.getElementById(selected_option).hidden = false;
+        current_display = selected_option;
+    }
+    
+    function update_stats()
+    {
+        document.getElementById("stats").innerHTML = "Data From: <span style='color: #6DFF7F'>" + character_counter + "</span> Characters (Rank 1 to Rank " + highest_rank + ")";
+        document.getElementById("stats").hidden = false;
+    }
+</script>
+
+</html>

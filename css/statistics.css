@@ -1,0 +1,86 @@
+.category-header {
+    text-align: center;
+    color: aliceblue;
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, serif;
+    text-shadow: 2px 2px 4px #000000;
+    box-sizing: border-box;
+}
+
+.placement-image {
+    max-width: 200px;
+}
+
+.white-background {
+    text-shadow: 1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.5);
+
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.first-place-item {
+    animation: gold-glow 5000ms infinite;
+}
+
+.second-place-item {
+    animation: silver-glow 5000ms infinite;
+}
+
+.third-place-item {
+    animation: brown-glow 5000ms infinite;
+}
+
+img.top-three-item-image {
+    max-height: 100px;
+    max-width: 100px;
+    min-width: 16px;
+    min-height: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+}
+
+.top-three-item-text {
+    text-shadow: 1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000;
+    color: white;
+    font-family: "Calibri", Arial, serif;
+    text-align: right;
+    border-radius: 5px;
+    font-size: xx-large;
+    position: relative;
+    bottom: 3px;
+    right: 56px;
+    margin-top: -20%;
+}
+
+@keyframes gold-glow
+{
+    0% { box-shadow: 0 0 -10px #f7d77b; }
+    40% { box-shadow: 0 0 20px #f7d77b; }
+    60% { box-shadow: 0 0 20px #f7d77b; }
+    100% { box-shadow: 0 0 -10px #f7d77b; }
+}
+
+@keyframes silver-glow
+{
+    0% { box-shadow: 0 0 -10px #aab8d8; }
+    40% { box-shadow: 0 0 20px #aab8d8; }
+    60% { box-shadow: 0 0 20px #aab8d8; }
+    100% { box-shadow: 0 0 -10px #aab8d8; }
+}
+
+@keyframes brown-glow
+{
+    0% { box-shadow: 0 0 -10px #bd8663; }
+    40% { box-shadow: 0 0 20px #bd8663; }
+    60% { box-shadow: 0 0 20px #bd8663; }
+    100% { box-shadow: 0 0 -10px #bd8663; }
+}

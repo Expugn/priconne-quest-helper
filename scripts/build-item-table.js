@@ -74,8 +74,6 @@ function build_item_tables()
         let item_id = item_data_map.get("id");
         let rarity_class = item_id.substring(0, item_id.indexOf('-'));
 
-        //console.log(item_name + " | " + item_id + " | " + rarity_class);
-
         switch (rarity_class)
         {
             case "common":
