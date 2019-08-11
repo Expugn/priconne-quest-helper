@@ -70,7 +70,7 @@
     "delete_project_button": "プロジェクト削除",
     "prioritize_project_button": "プロジェクトに優先順位を付ける",
     "deprioritize_project_button": "プロジェクト優先順位除去",
-    "complete_project_button": "Complete Project",
+    "complete_project_button": "プロジェクト完了",
 
     "clear_item_tables_button": "アイテムテーブルを空にする",
 
@@ -133,8 +133,8 @@
     "simple_mode": "<span style='position: relative; top: 6px;'>シンプルモード</span>",
     "fancy_mode": "<span style='position: relative; top: 6px;'>ファンシーモード</span>",
     "help": "<span style='position: relative; top: 6px;'>ヘルプ</span>",
-    "statistics": "Statistics",
-    "changelog": "Changelog",
+    "statistics": "統計",
+    "changelog": "変更点一覧",
 
     "data_management_title": "データ管理",
     "export_saved_data": "保存したデータの書き出し"
