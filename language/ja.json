@@ -133,8 +133,8 @@
     "simple_mode": "<span style='position: relative; top: 6px;'>シンプルモード</span>",
     "fancy_mode": "<span style='position: relative; top: 6px;'>ファンシーモード</span>",
     "help": "<span style='position: relative; top: 6px;'>ヘルプ</span>",
-    "statistics": "統計",
-    "changelog": "変更点一覧",
+    "statistics": "<span style='position: relative; top: 6px;'>統計</span>",
+    "changelog": "<span style='position: relative; top: 6px;'>変更点一覧</span>",
 
     "data_management_title": "データ管理",
     "export_saved_data": "保存したデータの書き出し"

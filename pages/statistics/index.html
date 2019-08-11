@@ -181,8 +181,8 @@
 </body>
 
 <footer>
-    <p class="footer"><span id="stats" class="white-background" hidden></span></p>
     <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="../../" src="" alt=""></p>
+    <p class="footer" id="stats-footer" hidden><br><span id="stats" class="white-background"></span></p>
 </footer>
 
 <script>
@@ -498,7 +498,7 @@
     function update_stats()
     {
         document.getElementById("stats").innerHTML = "Data From: <span style='color: #6DFF7F'>" + character_counter + "</span> Characters (Rank 1 to Rank " + highest_rank + ")";
-        document.getElementById("stats").hidden = false;
+        document.getElementById("stats-footer").hidden = false;
     }
 </script>
 

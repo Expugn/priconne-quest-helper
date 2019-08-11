@@ -6,7 +6,9 @@ URL: <https://expugn.github.io/priconne-quest-helper/><br>
 Simple Mode: <https://expugn.github.io/priconne-quest-helper/#simple><br><br>
 Quest Data: <https://expugn.github.io/priconne-quest-helper/pages/quest-data/><br>
 Recipe Data: <https://expugn.github.io/priconne-quest-helper/pages/recipe-data/><br>
-Character Data: <https://expugn.github.io/priconne-quest-helper/pages/character-data/>
+Character Data: <https://expugn.github.io/priconne-quest-helper/pages/character-data/><br>
+Statistics: <https://expugn.github.io/priconne-quest-helper/pages/statistics/><br>
+Changelog: [/priconne-quest-helper/CHANGELOG.md](CHANGELOG)
 
 Last Quest Update: `July 18, 2019`
 

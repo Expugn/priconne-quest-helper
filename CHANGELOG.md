@@ -12,7 +12,18 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Changed
 - Tweaked Changelog to put fixes under a `Fixed` category
 - Deleted some unused comments
-
+- Merged Pull Request from SD SkyKlouD
+  - Update Korean & Japanese Translations <https://github.com/Expugn/priconne-quest-helper/pull/11>
+    - Korean (`ko.json`)
+      - `items_tab.miscellaneous_title` ("other" -> "memory piece")
+      - `projects_tab.complete_project_button`
+      - `other_tab.statistics`
+      - `other_tab.changelog`
+    - Japanese (`ja.json`)
+      - `projects_tab.complete_project_button`
+      - `other_tab.statistics`
+      - `other_tab.changelog`
+      
 ## [1.1.0] - 2019-08-10
 ### Added
 - New Feature: Project Completion
