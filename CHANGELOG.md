@@ -19,10 +19,12 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
       - `projects_tab.complete_project_button`
       - `other_tab.statistics`
       - `other_tab.changelog`
+      - `toasts.project_completed`
     - Japanese (`ja.json`)
       - `projects_tab.complete_project_button`
       - `other_tab.statistics`
       - `other_tab.changelog`
+      - `toasts.project_completed`
       
 ## [1.1.0] - 2019-08-10
 ### Added

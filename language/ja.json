@@ -146,7 +146,7 @@
     "saved_status": "保存しました",
 
     "project_deleted": "プロジェクト\"${project_name}\"を削除しました！",
-    "project_completed": "Project \"${project_name}\" has been completed!",
+    "project_completed": "プロジェクト\"${project_name}\"は完了されました！",
 
     "blacklist_saved": "ブラックリストを保存しました！",
     "blacklist_cleared": "ブラックリストを一時無効化ました！",

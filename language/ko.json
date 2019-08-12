@@ -146,7 +146,7 @@
     "saved_status": "저장했습니다",
 
     "project_deleted": "프로젝트 \"${project_name}\"를 지웠습니다!",
-    "project_completed": "Project \"${project_name}\" has been completed!",
+    "project_completed": "프로젝트 \"${project_name}\"가 완료되었습니다!",
 
     "blacklist_saved": "아이템 제외 목록이 저장되었습니다!",
     "blacklist_cleared": "아이템 제외 목록이 비워졌습니다!",
