@@ -25,6 +25,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
       - `other_tab.statistics`
       - `other_tab.changelog`
       - `toasts.project_completed`
+- Remove `viewport` meta tag on all pages to help with mobile users
       
 ## [1.1.0] - 2019-08-10
 ### Added
