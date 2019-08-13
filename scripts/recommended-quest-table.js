@@ -1,10 +1,24 @@
 let last_compiled_all_recipe_maps_array = [];
-function build_recommended_quest_table(all_recipe_maps_array)
+let last_filter_item = null;
+function build_recommended_quest_table(all_recipe_maps_array, filter_item)
 {
     last_compiled_all_recipe_maps_array = all_recipe_maps_array;
+    if (typeof filter_item != 'undefined') {
+        last_filter_item = filter_item;
+        console.log("resetting item filter to ", filter_item)
+    }
+
     let total_recipe = get_total_recipe(all_recipe_maps_array);
     let quest_table = document.getElementById("recommended-quest-table");
     let quests = quest_map;
+
+    let filter_items = null;
+    if (last_filter_item) {
+        filter_items = [last_filter_item]
+    }
+    if (filter_items) {
+        console.log("filtering items to ", filter_items)
+    }
 
     // REPLACE TOTAL RECIPE WITH TOTAL RECIPE W/O DISABLED COMPONENTS FROM RECIPE READER/REQUIRED INGREDIENTS TABLE
     for (let i = 0 ; i < disabled_items.length ; i++)
@@ -72,6 +86,21 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     let q_subdrops_percent = quest_data.get("subdrops_percent");// ARRAY
                     let char_shard = "";
                     if (quest_id.includes("H")) { char_shard = quest_data.get("char_shard").item_name; } // OBJECT
+
+                    // check filter by items if active
+                    if (filter_items) {
+                        if (filter_items.includes(item_1_name)) {
+                            console.log(quest_id + " has " + item_1_name)
+                        } else if (filter_items.includes(item_2_name)) {
+                            console.log(quest_id + " has " + item_2_name)
+                        } else if (filter_items.includes(item_3_name)) {
+                            console.log(quest_id + " has " + item_3_name)
+                        } else if (quest_subdrops.filter(value => filter_items.includes(value)).length > 0) {
+                            console.log(quest_id + " has " + quest_subdrops.filter(value => filter_items.includes(value)))
+                        } else {
+                            continue;
+                        }
+                    }
 
                     let quest_score = 0;
 
@@ -476,11 +505,11 @@ function build_recommended_quest_table(all_recipe_maps_array)
 
 }
 
-function refresh_quest_table()
+function refresh_quest_table(filter_item)
 {
     if (last_compiled_all_recipe_maps_array.length > 0)
     {
-        build_recommended_quest_table(last_compiled_all_recipe_maps_array);
+        build_recommended_quest_table(last_compiled_all_recipe_maps_array, filter_item);
     }
 }
 
