@@ -5,6 +5,16 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 
 
+## [1.1.2] - 2019-08-12
+### Added
+- favicon.ico
+- Updated jquery from `3.3.1` to `3.4.1` ; Also now using the min/compressed version.
+### Changed
+- Adjusted meta tags for all pages
+- Adjusted positioning for Github/Statistics/Changelog/Help (Wiki)/Simple Mode hyperlinks.
+### Fixed
+- Broken meta tags
+
 ## [1.1.1] - 2019-08-11
 ### Added
 - New Page: Statistics
