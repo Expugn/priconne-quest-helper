@@ -39,12 +39,15 @@ function init_project_data()
     }
 }
 
-function save_project_data()
+function save_project_data(project_name)
 {
     // SAVE CURRENT SESSION DATA
-    let tmp = document.createElement("DIV");
-    tmp.innerHTML = document.getElementById("project-name-input").value;
-    let project_name = tmp.textContent || tmp.innerText || "";
+    if (typeof project_name === "undefined")
+    {
+        let tmp = document.createElement("DIV");
+        tmp.innerHTML = document.getElementById("project-name-input").value;
+        project_name = tmp.textContent || tmp.innerText || "";
+    }
 
     // IF PROJECT NAME ISN'T GIVEN OR IS "[All Projects...]", USE "Untitled"
     if (project_name === "" || project_name === "[All Projects...]")

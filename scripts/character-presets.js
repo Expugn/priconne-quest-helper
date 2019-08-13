@@ -183,3 +183,34 @@ function load_preset_character_items()
 
     console.log("[Presets] - Loaded \"" + selected_character + "\"'s items for rank " + preset_min_rank + " - " + preset_max_rank);
 }
+
+function generate_preset_projects()
+{
+    let selected_character = document.getElementById("character-preset-list-select").value;
+    let min_rank = preset_min_rank;
+    let max_rank = preset_max_rank;
+
+    for (let rank = min_rank; rank <= max_rank; rank++)
+    {
+        let project_name = selected_character + '_' + rank;
+
+        if (!projects.has(project_name))
+        {
+            preset_min_rank = rank;
+            preset_max_rank = rank;
+
+            load_preset_character_items();
+
+            save_project_data(project_name);
+
+            console.log("Project created: " + project_name);
+        }
+        else
+        {
+            console.log("Project exists: " + project_name);
+        }
+    }
+
+    preset_min_rank = min_rank;
+    preset_max_rank = max_rank;
+}
