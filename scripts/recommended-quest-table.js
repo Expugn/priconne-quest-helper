@@ -1,4 +1,8 @@
 let last_compiled_all_recipe_maps_array = [];
+
+let focused_item_name = "";
+let focused_item_element_id = "";
+
 function build_recommended_quest_table(all_recipe_maps_array)
 {
     last_compiled_all_recipe_maps_array = all_recipe_maps_array;
@@ -45,8 +49,9 @@ function build_recommended_quest_table(all_recipe_maps_array)
             // CHECK IF QUEST CHAPTER IS WITHIN RANGE OF SETTINGS
             if (quest_chapter_num >= min_quest_chapter && quest_chapter_num <= max_quest_chapter)
             {
-                // CHECK IF QUEST IS NORMAL/HARD IF SET TO CHECK
                 let filter_exclude_quest = false;
+
+                // CHECK IF QUEST IS NORMAL/HARD IF SET TO CHECK
                 if (quest_filter === "filter-normal" || quest_filter === "filter-hard")
                 {
                     if (quest_id.includes("H") && quest_filter === "filter-normal")
@@ -57,6 +62,22 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     else if (!quest_id.includes("H") && quest_filter === "filter-hard")
                     {
                         // QUEST DOESN'T INCLUDE 'H' AND QUEST FILTER IS SET TO HARD, REMOVE QUEST
+                        filter_exclude_quest = true;
+                    }
+                }
+
+                // IF THERE IS A FOCUSED ITEM, CHECK IF THE QUEST CONTAINS THAT ITEM
+                if (focused_item_name !== "")
+                {
+                    // IF FOCUSED ITEM IS NOT ITEM 1-3 OR IN SUBDROPS... FILTER OUT QUEST
+                    if (!(
+                            quest_data.get("item_1").item_name === focused_item_name ||
+                            quest_data.get("item_2").item_name === focused_item_name ||
+                            quest_data.get("item_3").item_name === focused_item_name ||
+                            quest_data.get("subdrops").includes(focused_item_name) ||
+                            (quest_id.includes("H") && quest_data.get("char_shard").item_name === focused_item_name)
+                        ))
+                    {
                         filter_exclude_quest = true;
                     }
                 }
@@ -528,4 +549,39 @@ function get_priority_items()
 
     //console.log(JSON.stringify(priority_items_array));
     //console.log("[Priority Projects] - Priority Item list compiled!");
+}
+
+function focus_on_item(item_name, item_id)
+{
+    // ADD BACK APOSTROPHE
+    item_name = item_name.replace("[apostrophe]", "'");
+
+    // CHECK IF USER IS CLICKING ON THE FOCUSED ITEM (DISABLE FOCUSED!)
+    if (focused_item_element_id === item_id)
+    {
+        document.getElementById(item_id).classList.toggle("focused-item");
+        focused_item_name = "";
+        focused_item_element_id = "";
+
+        console.log("[Item Focus] - No longer focusing on an item.");
+    }
+    else
+    {
+        // IF THERE IS AN EXISTING FOCUSED ITEM, REMOVE FOCUS
+        if (focused_item_element_id !== "")
+        {
+            document.getElementById(focused_item_element_id).classList.toggle("focused-item");
+        }
+
+        // SET FOCUS TO NEW ITEM
+        let rarity_class = item_id.substring(0, item_id.indexOf('-'));
+        document.getElementById(item_id).classList.toggle("focused-item");
+        focused_item_name = item_name + ((rarity_class === "misc") ? "" : " Fragment");
+        focused_item_element_id = item_id;
+
+        console.log("[Item Focus] - Now focusing on: \"" + focused_item_name + "\"");
+    }
+
+    // REFRESH QUESTS
+    refresh_quest_table();
 }

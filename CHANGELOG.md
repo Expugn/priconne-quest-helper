@@ -11,6 +11,10 @@ Quest Update (2019-08-15)
   - Based off alexanderabramov's suggestion and pull request.
     - Initial Suggestion Post: <https://github.com/Expugn/priconne-quest-helper/issues/14>
     - Pull Request: <https://github.com/Expugn/priconne-quest-helper/pull/15>
+- Specific Item Focus
+  - Based off alexanderabramov's suggestion and pull request.
+    - Initial Suggestion Post: <https://github.com/Expugn/priconne-quest-helper/issues/12>
+    - Pull Request: <https://github.com/Expugn/priconne-quest-helper/pull/13>
 - New Text:
   - `presets_tab.load_items_and_create_project_button`
 ### Fixed
