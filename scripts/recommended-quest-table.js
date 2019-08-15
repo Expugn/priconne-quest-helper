@@ -70,12 +70,17 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 if (focused_item_name !== "")
                 {
                     // IF FOCUSED ITEM IS NOT ITEM 1-3 OR IN SUBDROPS... FILTER OUT QUEST
+                    // btw this whole " Fragment" fix is really lazy. don't do this at home.
                     if (!(
                             quest_data.get("item_1").item_name === focused_item_name ||
                             quest_data.get("item_2").item_name === focused_item_name ||
                             quest_data.get("item_3").item_name === focused_item_name ||
                             quest_data.get("subdrops").includes(focused_item_name) ||
-                            (quest_id.includes("H") && quest_data.get("char_shard").item_name === focused_item_name)
+                            (quest_id.includes("H") && quest_data.get("char_shard").item_name === focused_item_name) ||
+                            quest_data.get("item_1").item_name === focused_item_name + " Fragment" ||
+                            quest_data.get("item_2").item_name === focused_item_name + " Fragment" ||
+                            quest_data.get("item_3").item_name === focused_item_name + " Fragment" ||
+                            quest_data.get("subdrops").includes(focused_item_name + " Fragment")
                         ))
                     {
                         filter_exclude_quest = true;
@@ -574,9 +579,8 @@ function focus_on_item(item_name, item_id)
         }
 
         // SET FOCUS TO NEW ITEM
-        let rarity_class = item_id.substring(0, item_id.indexOf('-'));
         document.getElementById(item_id).classList.toggle("focused-item");
-        focused_item_name = item_name + ((rarity_class === "misc") ? "" : " Fragment");
+        focused_item_name = item_name;
         focused_item_element_id = item_id;
 
         console.log("[Item Focus] - Now focusing on: \"" + focused_item_name + "\"");
