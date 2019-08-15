@@ -44,6 +44,7 @@ function update_selected_character_preset_details()
         document.getElementById("preset-character-image").src = get_unit_icon_image_path("Placeholder");
         document.getElementById("preset-character-name-label").innerHTML = "";
         document.getElementById("preset-character-load-button").disabled = true;
+        document.getElementById("preset-character-load-and-create-project-button").disabled = true;
         document.getElementById("preset-character-min-rank-input").disabled = true;
         document.getElementById("preset-character-max-rank-input").disabled = true;
     }
@@ -80,6 +81,7 @@ function update_selected_character_preset_details()
             document.getElementById("preset-character-name-label").innerHTML = character_tl + "<br>" + ((character_thematic === "") ? character_name : character_name + " (" + character_thematic + ")");
         }
         document.getElementById("preset-character-load-button").disabled = false;
+        document.getElementById("preset-character-load-and-create-project-button").disabled = false;
         document.getElementById("preset-character-min-rank-input").disabled = false;
         document.getElementById("preset-character-max-rank-input").disabled = false;
     }
@@ -182,4 +184,58 @@ function load_preset_character_items()
     build_data();
 
     console.log("[Presets] - Loaded \"" + selected_character + "\"'s items for rank " + preset_min_rank + " - " + preset_max_rank);
+}
+
+function load_preset_character_items_and_create_project()
+{
+    // LOAD CHARACTER ITEMS
+    load_preset_character_items();
+
+    // COLLECT DATA
+    let selected_min_rank_value = document.getElementById("preset-character-min-rank-input").value;
+    let selected_max_rank_value = document.getElementById("preset-character-max-rank-input").value;
+    let selected_character = document.getElementById("character-preset-list-select").value;
+
+    // DETERMINE PROJECT NAME
+    let project_name = "[" + ((selected_min_rank_value === selected_max_rank_value) ? selected_min_rank_value : (selected_min_rank_value + " - " + selected_max_rank_value)) + "] "; // PREFIX
+
+    let character_name = get_character_data(selected_character, "name");
+    let character_thematic = get_character_data(selected_character, "thematic");
+    if (current_language === "en")
+    {
+        project_name += character_name + ((character_thematic !== "") ? (" (" + character_thematic + ")") : "");
+    }
+    else
+    {
+        character_name = character_name.toLowerCase();
+        character_thematic = character_thematic.replace(" ", "_").toLowerCase();
+
+        let translated_name = language_json["character_names"][character_name] + ((character_thematic !== "") ? " (" + language_json["thematics"][character_thematic] + ")" : "");
+
+        project_name += translated_name;
+    }
+
+    // CHECK IF PROJECT NAME ALREADY EXISTS
+    if (projects.has(project_name))
+    {
+        let looking_for_unused_name = true;
+        let name_counter = 2;
+
+        while (looking_for_unused_name)
+        {
+            if (projects.has(project_name + " (" + name_counter + ")"))
+            {
+                name_counter++;
+            }
+            else
+            {
+                looking_for_unused_name = false;
+            }
+        }
+        project_name = project_name + " (" + name_counter + ")";
+    }
+
+    // SAVE PROJECT
+    document.getElementById("project-name-input").value = project_name;
+    save_project_data();
 }

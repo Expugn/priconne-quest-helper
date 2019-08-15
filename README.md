@@ -56,10 +56,11 @@ The following can be submitted via `GitHub's Issue Tracker` or told to me (`S'pu
 ## Information/Data Credits
 
 #### Quest Data | Drop Rates | Equipment Recipes
-- `GameWith`: [Website](https://gamewith.jp/pricone-re/)<br>
 - `AppMedia`: [Website](https://appmedia.jp/priconne-redive)<br>
+- `GameWith`: [Website](https://gamewith.jp/pricone-re/)<br>
 - `Hatsune's Notes`: [Github](https://github.com/superk589/PrincessGuide)<br>
 - `Prcd-Wiki`: [Github](https://github.com/PaleNeutron/Pcrd-Wiki) | [Website (New)](https://johnlyu.com/en-us/) / [Website (Old)](https://pcrdwiki.xyz/)<br>
+- `rwiki`: [Website](https://rwiki.jp/priconne_redive/)<br>
 
 #### Images
 - `AssetStudio`: [Github](https://github.com/Perfare/AssetStudio)<br>

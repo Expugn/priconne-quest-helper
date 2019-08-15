@@ -4,8 +4,15 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
-## [1.1.3] - 2019-08-15
+## [1.2.0] - 2019-08-15
 Quest Update (2019-08-15)
+### Added
+- Character Presets: Load Items and Create Project
+  - Based off alexanderabramov's suggestion and pull request.
+    - Initial Suggestion Post: <https://github.com/Expugn/priconne-quest-helper/issues/14>
+    - Pull Request: <https://github.com/Expugn/priconne-quest-helper/pull/15>
+- New Text:
+  - `presets_tab.load_items_and_create_project_button`
 ### Fixed
 - Fixed a bug where completing a project wouldn't enable the `Complete Project` button
 

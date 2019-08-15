@@ -49,6 +49,7 @@
     "maximum_rank": "최대 랭크",
 
     "load_items_button": "아이템 불러오기",
+    "load_items_and_create_project_button": "Load Items and Create Project",
 
     "overwrite_warning": "현재 선택된 아이템들은<br><span style='color: lightpink'>아이템 불러오기</span> 버튼을 누르면 덮어씌워집니다."
   },
