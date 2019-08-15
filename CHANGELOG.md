@@ -17,8 +17,11 @@ Quest Update (2019-08-15)
     - Pull Request: <https://github.com/Expugn/priconne-quest-helper/pull/13>
 - New Text:
   - `presets_tab.load_items_and_create_project_button`
+- New Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/still_500500701_blur.png>
 ### Fixed
 - Fixed a bug where completing a project wouldn't enable the `Complete Project` button
+### Removed
+- Old Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/still_unit_110531_blur.png>
 
 ## [1.1.2] - 2019-08-12
 ### Added
