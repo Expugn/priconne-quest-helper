@@ -18,6 +18,10 @@ Quest Update (2019-08-15)
 - New Text:
   - `presets_tab.load_items_and_create_project_button`
 - New Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/still_500500701_blur.png>
+- Character Data for Maho (Summer)
+- New r14 Equipment Data for all characters
+- New Equipment
+- Quest Chapter 26 Normal/Hard data
 ### Fixed
 - Fixed a bug where completing a project wouldn't enable the `Complete Project` button
 ### Removed
@@ -371,7 +375,6 @@ Quest Update (2019-03-19)
 - Reworked Import/Export data feature
   - Now a gist is created with all data instead of being all in the URL
   - Eventually hid everything again because I didn't realize GitHub Pages were incapable of POST requests
-### Changed
 ### Removed
 - Playground page
 - Old Import/Export data stuff that's no longer needed (i.e. Pastebin stuff)

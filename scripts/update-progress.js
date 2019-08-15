@@ -8,7 +8,7 @@ function update_progress()
     const hard_quest_updated = true;
     const equipment_selection_updated = true;
     const english_translated_names_updated = true;
-    const rank_equipment_updated = false;
+    const rank_equipment_updated = true;
     // also don't forget to update crap like README lol.
 
     if (!normal_quest_updated || !hard_quest_updated || !equipment_selection_updated || !english_translated_names_updated || !rank_equipment_updated)

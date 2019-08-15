@@ -10,7 +10,7 @@ Character Data: <https://expugn.github.io/priconne-quest-helper/pages/character-
 Statistics: <https://expugn.github.io/priconne-quest-helper/pages/statistics/><br>
 Changelog: [/priconne-quest-helper/CHANGELOG.md](CHANGELOG.md)
 
-Last Quest Update: `July 18, 2019`
+Last Quest Update: `August 15, 2019`
 
 ## Information
 This is a tool to help you decide which is the best quest to farm to get
