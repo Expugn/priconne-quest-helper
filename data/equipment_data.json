@@ -1638,6 +1638,27 @@
     "req_pieces": 35,
     "req_items": []
   },
+  "flowering_fire_peony": {
+    "name": "Flowering Fire Peony",
+    "id": "purple-64",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "sea_dragon_gods_hair_ornament": {
+    "name": "Sea Dragon God's Hair Ornament",
+    "id": "purple-65",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "little_ice_princess_knot": {
+    "name": "Little Ice Princess' Knot",
+    "id": "purple-66",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
   "yui_shard": {
     "name": "Yui Shard",
     "id": "misc-1",
@@ -1729,100 +1750,107 @@
     "req_pieces": 1,
     "req_items": []
   },
+  "tomo_shard": {
+    "name": "Tomo Shard",
+    "id": "misc-14",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
   "shiori_shard": {
     "name": "Shiori Shard",
-    "id": "misc-14",
+    "id": "misc-15",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "aoi_shard": {
     "name": "Aoi Shard",
-    "id": "misc-15",
+    "id": "misc-16",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "ilya_shard": {
     "name": "Ilya Shard",
-    "id": "misc-16",
+    "id": "misc-17",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "jun_shard": {
     "name": "Jun Shard",
-    "id": "misc-17",
+    "id": "misc-18",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "mifuyu_shard": {
     "name": "Mifuyu Shard",
-    "id": "misc-18",
+    "id": "misc-19",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "shizuru_shard": {
     "name": "Shizuru Shard",
-    "id": "misc-19",
+    "id": "misc-20",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "misaki_shard": {
     "name": "Misaki Shard",
-    "id": "misc-20",
+    "id": "misc-21",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "rima_shard": {
     "name": "Rima Shard",
-    "id": "misc-21",
+    "id": "misc-22",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "ruka_shard": {
     "name": "Ruka Shard",
-    "id": "misc-22",
+    "id": "misc-23",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "djeeta_shard": {
     "name": "Djeeta Shard",
-    "id": "misc-23",
+    "id": "misc-24",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "pecorine_shard": {
     "name": "Pecorine Shard",
-    "id": "misc-24",
+    "id": "misc-25",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "kokkoro_shard": {
     "name": "Kokkoro Shard",
-    "id": "misc-25",
+    "id": "misc-26",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "arisa_shard": {
     "name": "Arisa Shard",
-    "id": "misc-26",
+    "id": "misc-27",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
-  "tomo_shard": {
-    "name": "Tomo Shard",
-    "id": "misc-27",
+  "anne_shard": {
+    "name": "Anne Shard",
+    "id": "misc-28",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []

@@ -1,6 +1,6 @@
 function read_copper()
 {
-    const totalCopperItems = 38;
+    //const totalCopperItems = 38;
 
     let itemMap = new Map();
 

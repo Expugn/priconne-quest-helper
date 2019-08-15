@@ -1,6 +1,6 @@
 function read_silver()
 {
-    const totalSilverItems = 45;
+    //const totalSilverItems = 45;
 
     let itemMap = new Map();
 

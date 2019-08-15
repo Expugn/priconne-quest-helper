@@ -1,6 +1,6 @@
 function read_common()
 {
-    const totalCommonItems = 15;
+    //const totalCommonItems = 15;
 
     let itemMap = new Map();
 

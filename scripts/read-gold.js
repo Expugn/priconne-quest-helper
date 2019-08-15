@@ -1,6 +1,6 @@
 function read_gold()
 {
-    const totalGoldItems = 73;
+    //const totalGoldItems = 73;
 
     let itemMap = new Map();
 
