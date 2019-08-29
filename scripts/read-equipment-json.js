@@ -2,12 +2,14 @@ console.log("[Equipment Reader] - Reading '" + "/" + window.location.pathname.su
 let equipment_map = new Map();
 let equipment_loaded = false;
 
-let totalCommonItems = 0;
-let totalCopperItems = 0;
-let totalSilverItems = 0;
-let totalGoldItems = 0;
-let totalPurpleItems = 0;
-let totalMiscItems = 0;
+let totalItemsCount = {
+    common: 0,
+    copper: 0,
+    silver: 0,
+    gold: 0,
+    purple: 0,
+    misc: 0
+};
 
 let run_equipment = $(function () {
     $.ajax({
@@ -36,22 +38,12 @@ let run_equipment = $(function () {
                     switch (rarity_class)
                     {
                         case "common":
-                            totalCommonItems++;
-                            break;
                         case "copper":
-                            totalCopperItems++;
-                            break;
                         case "silver":
-                            totalSilverItems++;
-                            break;
                         case "gold":
-                            totalGoldItems++;
-                            break;
                         case "purple":
-                            totalPurpleItems++;
-                            break;
                         case "misc":
-                            totalMiscItems++;
+                            totalItemsCount[rarity_class]++;
                             break;
                         default:
                             // IGNORED
