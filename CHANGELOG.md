@@ -11,6 +11,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
     - Korean (`ko.json`)
       - `system.translator_name`
       - `presets_tab.load_items_and_create_project_button`
+  - "Merge similar-behaving `read_(rarity)` functions" <https://github.com/Expugn/priconne-quest-helper/pull/18>
+    - Nothing for the end user; cleans up some repeated code.
 
 ## [1.2.0] - 2019-08-15
 Quest Update (2019-08-15)
