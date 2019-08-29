@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [1.2.1] - 2019-08-29
+### Changed
+- Merged Pull Request from SD SkyKlouD
+  - "Update Korean translations" <https://github.com/Expugn/priconne-quest-helper/pull/17>
+    - Korean (`ko.json`)
+      - `system.translator_name`
+      - `presets_tab.load_items_and_create_project_button`
+
 ## [1.2.0] - 2019-08-15
 Quest Update (2019-08-15)
 ### Added
@@ -22,6 +30,10 @@ Quest Update (2019-08-15)
 - New r14 Equipment Data for all characters
 - New Equipment
 - Quest Chapter 26 Normal/Hard data
+- Merged Pull Request from mino-s2000
+  - "Load Items and Create Project" button to Japanese" <https://github.com/Expugn/priconne-quest-helper/pull/16>
+    - Japanese (`ja.json`)
+      - `presets_tab.load_items_and_create_project_button`
 ### Fixed
 - Fixed a bug where completing a project wouldn't enable the `Complete Project` button
 ### Removed
