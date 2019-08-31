@@ -1,3 +1,5 @@
+let tips_are_enabled = true;
+
 function update_requested(modified_item)
 {
     remove_item_from_disabled_items(modified_item.id.substring(0, modified_item.id.length - 4));
@@ -38,9 +40,17 @@ function build_data()
         recipeArray.push(get_recipe(key, value));
     }
 
-    /* FIGURE OUT TOTAL INGREDIENTS */
-    figure_out_total_ingredients(recipeArray);
+    if (recipeArray.length > 0 && tips_are_enabled)
+    {
+        tips_are_enabled = false;
+    }
 
-    /* FIGURE OUT RECOMMENDED QUEST */
-    build_recommended_quest_table(recipeArray);
+    if (!tips_are_enabled)
+    {
+        /* FIGURE OUT TOTAL INGREDIENTS */
+        figure_out_total_ingredients(recipeArray);
+
+        /* FIGURE OUT RECOMMENDED QUEST */
+        build_recommended_quest_table(recipeArray);
+    }
 }

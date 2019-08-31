@@ -14,7 +14,6 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
     <link rel="icon" href="../../images/webpage/101211_102803_6.png">
-    <link rel="shortcut icon" href="../../images/webpage/favicon.ico">
 
     <title>Princess Connect! Re:Dive - Quest Helper | Statistics</title>
     <meta name="title" content="Princess Connect! Re:Dive - Quest Helper | Statistics"/>
@@ -29,16 +28,17 @@
     <meta property="og:description" content="Equipment/Ingredient Usage Statistics for 'Princess Connect! Re:Dive', based on the data used in priconne-quest-helper."/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/101211_102803_6.png"/>
+    <meta property="og:image:width" content="50"/>
+    <meta property="og:image:height" content="50"/>
     <meta property="og:url" content="https://expugn.github.io/priconne-quest-helper/pages/statistics/"/>
     <meta property="og:locale" content="en_US"/>
 
     <!-- TWITTER META DATA -->
-    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@eSpugn"/>
     <meta name="twitter:creator" content="@eSpugn"/>
     <meta name="twitter:title" content="Princess Connect! Re:Dive - Quest Helper | Statistics"/>
     <meta name="twitter:description" content="Equipment/Ingredient Usage Statistics for 'Princess Connect! Re:Dive', based on the data used in priconne-quest-helper."/>
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/still_108200401_blur_2.png"/>
 
     <!-- SCRIPTS -->
     <script src="../../scripts/jquery-3.4.1.min.js"></script>
@@ -108,6 +108,16 @@
                     <select id="data-type-select" onchange="change_display()">
                         <option value="equipment-data">Equipment Usage</option>
                         <option value="ingredient-data">Ingredient Usage</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <br>
+                    <label for="equipment-data-type" hidden></label>
+                    <select id="equipment-data-type" onchange="change_equipment_data()">
+                        <option value="equipment-data-current">Current Equipment Data (After 2019.08.31)</option>
+                        <option value="equipment-data-legacy">Legacy Equipment Data (Before 2019.08.31)</option>
                     </select>
                 </th>
             </tr>
@@ -222,24 +232,23 @@
             else
             {
                 run();
+                toastr.remove();
+                toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: false });
             }
         }
-
-        function run()
-        {
-            equipment_data_map = build_equipment_data_map();
-            let all_equipment_map = compile_all_full_equipment();
-            all_equipment_map_sorted = new Map([...all_equipment_map.entries()].sort((a, b) => b[1] - a[1]));
-            all_ingredients_map_sorted = new Map([...compile_all_ingredients(all_equipment_map).entries()].sort((a, b) => b[1] - a[1]));
-            build_full_equipment_html();
-            build_full_ingredient_html();
-            update_stats();
-            document.getElementById("rarity-settings").hidden = false;
-
-            toastr.remove();
-            toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: false });
-        }
     };
+
+    function run()
+    {
+        equipment_data_map = build_equipment_data_map();
+        let all_equipment_map = compile_all_full_equipment();
+        all_equipment_map_sorted = new Map([...all_equipment_map.entries()].sort((a, b) => b[1] - a[1]));
+        all_ingredients_map_sorted = new Map([...compile_all_ingredients(all_equipment_map).entries()].sort((a, b) => b[1] - a[1]));
+        build_full_equipment_html();
+        build_full_ingredient_html();
+        update_stats();
+        document.getElementById("rarity-settings").hidden = false;
+    }
 
     function compile_all_full_equipment()
     {
@@ -504,6 +513,26 @@
     {
         document.getElementById("stats").innerHTML = "Data From: <span style='color: #6DFF7F'>" + character_counter + "</span> Characters (Rank 1 to Rank " + highest_rank + ")";
         document.getElementById("stats-footer").hidden = false;
+    }
+
+    function change_equipment_data()
+    {
+        let equipment_data_type = document.getElementById("equipment-data-type").value;
+        let character_data_type = (equipment_data_type === equipment_data_version.CURRENT) ? character_data_version.CURRENT : character_data_version.LEGACY;
+
+        // CLEAR OUT EQUIPMENT AND CHARACTER MAPS
+        equipment_map = new Map();
+        character_map = new Map();
+
+        // READ NEW EQUIPMENT DATA
+        read_equipment_data(equipment_data_type, function ()
+        {
+            // READ NEW CHARACTER DATA
+            read_character_data(character_data_type, function ()
+            {
+                run();
+            });
+        });
     }
 </script>
 

@@ -14,7 +14,6 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
     <link rel="icon" href="../../images/webpage/101211_102803_6.png">
-    <link rel="shortcut icon" href="../../images/webpage/favicon.ico">
 
     <title>Princess Connect! Re:Dive - Quest Helper | Recipe Data</title>
     <meta name="title" content="Princess Connect! Re:Dive - Quest Helper | Recipe Data"/>
@@ -29,16 +28,17 @@
     <meta property="og:description" content="priconne-quest-helper's Currently Loaded Recipe Data."/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/101211_102803_6.png"/>
+    <meta property="og:image:width" content="50"/>
+    <meta property="og:image:height" content="50"/>
     <meta property="og:url" content="https://expugn.github.io/priconne-quest-helper/pages/recipe-data/"/>
     <meta property="og:locale" content="en_US"/>
 
     <!-- TWITTER META DATA -->
-    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@eSpugn"/>
     <meta name="twitter:creator" content="@eSpugn"/>
     <meta name="twitter:title" content="Princess Connect! Re:Dive - Quest Helper | Recipe Data"/>
     <meta name="twitter:description" content="priconne-quest-helper's Currently Loaded Recipe Data."/>
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/still_108200401_blur_2.png"/>
 
     <!-- SCRIPTS -->
     <script src="../../scripts/jquery-3.4.1.min.js"></script>
@@ -61,6 +61,23 @@
         <h2 id="sub-title" class="title">Recipe Data</h2>
     </div>
 </div>
+
+<hr> <!-- LINE BREAK -->
+
+<table class="centerTable">
+    <tbody>
+        <tr>
+            <th>
+                <label for="equipment-data-type" hidden>Equipment Data Type</label>
+                <select id="equipment-data-type" onchange="change_equipment_data()">
+                    <option value="equipment-data-current">Current Equipment Data (After 2019.08.31)</option>
+                    <option value="equipment-data-legacy">Legacy Equipment Data (Before 2019.08.31)</option>
+                </select>
+            </th>
+        </tr>
+    </tbody>
+</table>
+
 
 <hr> <!-- LINE BREAK -->
 
@@ -98,52 +115,73 @@
             else
             {
                 run();
+
+                toastr.remove();
+                toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: false });
             }
         }
+    };
 
-        function run()
+    function run()
+    {
+        let table_html = "";
+
+        table_html += "<tbody>";
+        for (let [item_name, item_data_map] of equipment_map)
         {
-            let table_html = "";
+            // HIDE CHARACTER SHARDS
+            const display_shards = false;
+            if (item_name.includes("Shard") && display_shards === false) { continue; }
 
-            table_html += "<tbody>";
-            for (let [item_name, item_data_map] of equipment_map)
+            // DISPLAY ITEM
+            let required_items = item_data_map.get("req_items");
+
+            table_html += "<tr>";
+
+            // ITEM NAME
+            table_html += "<th height='64' width='144'><h3 class=\"quest-title\">" + item_name + "</h3></th>";
+
+            // DIVIDER
+            table_html += "<th>";
+            table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
+                + "\" src=\"\" alt=\"\">";
+            table_html += "</th>";
+
+            // ITEM
+            table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+            table_html += "<img class=\"quest-item-image\" title=\"" + item_name
+                + "\" src=\"../../" + get_item_image_path(item_name.split(' ').join('_')) + "\" alt=\"\">";
+            table_html += "</th>";
+
+            // DIVIDER
+            table_html += "<th>";
+            table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
+                + "\" src=\"\" alt=\"\">";
+            table_html += "</th>";
+
+            if (item_data_map.get("has_fragments"))
             {
-                // HIDE CHARACTER SHARDS
-                const display_shards = false;
-                if (item_name.includes("Shard") && display_shards === false) { continue; }
-
-                // DISPLAY ITEM
-                let required_items = item_data_map.get("req_items");
-
-                table_html += "<tr>";
-
-                // ITEM NAME
-                table_html += "<th height='64' width='144'><h3 class=\"quest-title\">" + item_name + "</h3></th>";
-
-                // DIVIDER
-                table_html += "<th>";
-                table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                    + "\" src=\"\" alt=\"\">";
-                table_html += "</th>";
-
-                // ITEM
                 table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                table_html += "<img class=\"quest-item-image\" title=\"" + item_name
-                    + "\" src=\"../../" + get_item_image_path(item_name.split(' ').join('_')) + "\" alt=\"\">";
+                table_html += "<img class=\"quest-item-image\" title=\"" + item_name + " Fragment"
+                    + "\" src=\"../../" + get_item_image_path(item_name.split(' ').join('_') + "_Fragment") + "\" alt=\"\">";
+                table_html += "<div class=\"requested-item-text\" style='margin-bottom: 3px;'>\u00D7" + item_data_map.get("req_pieces") + "</div>";
                 table_html += "</th>";
-
-                // DIVIDER
-                table_html += "<th>";
-                table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                    + "\" src=\"\" alt=\"\">";
+            }
+            else
+            {
+                table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+                table_html += "<img class=\"quest-item-image low-opacity\" title=\"" + "Placeholder"
+                    + "\" src=\"../../" + get_item_image_path("Placeholder") + "\" alt=\"\">";
                 table_html += "</th>";
+            }
 
-                if (item_data_map.get("has_fragments"))
+            for (let i = 0 ; i < 3 ; i++)
+            {
+                if (required_items[i] !== undefined)
                 {
                     table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                    table_html += "<img class=\"quest-item-image\" title=\"" + item_name + " Fragment"
-                        + "\" src=\"../../" + get_item_image_path(item_name.split(' ').join('_') + "_Fragment") + "\" alt=\"\">";
-                    table_html += "<div class=\"requested-item-text\" style='margin-bottom: 3px;'>\u00D7" + item_data_map.get("req_pieces") + "</div>";
+                    table_html += "<img class=\"quest-item-image\" title=\"" + required_items[i]
+                        + "\" src=\"../../" + get_item_image_path(required_items[i].split(' ').join('_')) + "\" alt=\"\">";
                     table_html += "</th>";
                 }
                 else
@@ -153,35 +191,29 @@
                         + "\" src=\"../../" + get_item_image_path("Placeholder") + "\" alt=\"\">";
                     table_html += "</th>";
                 }
-
-                for (let i = 0 ; i < 3 ; i++)
-                {
-                    if (required_items[i] !== undefined)
-                    {
-                        table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                        table_html += "<img class=\"quest-item-image\" title=\"" + required_items[i]
-                            + "\" src=\"../../" + get_item_image_path(required_items[i].split(' ').join('_')) + "\" alt=\"\">";
-                        table_html += "</th>";
-                    }
-                    else
-                    {
-                        table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                        table_html += "<img class=\"quest-item-image low-opacity\" title=\"" + "Placeholder"
-                            + "\" src=\"../../" + get_item_image_path("Placeholder") + "\" alt=\"\">";
-                        table_html += "</th>";
-                    }
-                }
-
-                // END TABLE ROW
-                table_html += "</tr>";
             }
-            table_html += "</body>";
 
-            document.getElementById("quest-data-table").innerHTML = table_html;
-
-            toastr.remove();
-            toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: false });
+            // END TABLE ROW
+            table_html += "</tr>";
         }
+        table_html += "</body>";
+
+        document.getElementById("quest-data-table").innerHTML = table_html;
+    }
+
+    function change_equipment_data()
+    {
+        let equipment_data_type = document.getElementById("equipment-data-type").value;
+        console.log(equipment_data_type);
+
+        // CLEAR OUT EQUIPMENT MAP
+        equipment_map = new Map();
+
+        // READ NEW EQUIPMENT DATA
+        read_equipment_data(equipment_data_type, function ()
+        {
+            run();
+        });
     }
 </script>
 </html>

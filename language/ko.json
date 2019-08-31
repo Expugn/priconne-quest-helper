@@ -111,7 +111,11 @@
     "reset_settings_button": "설정 초기화",
 
     "display_saved_settings": "저장된 설정을 표시합니다.",
-    "display_saved_settings_button": "저장된 설정 읽어오기"
+    "display_saved_settings_button": "저장된 설정 읽어오기",
+
+    "equipment_data_type_label": "Equipment Data Type:",
+    "equipment_data_current_select": "Current Equipment Data (After 2019.08.31) (JP)",
+    "equipment_data_legacy_select": "Legacy Equipment Data (Before 2019.08.31) (TW / KR)"
   },
 
   "other_tab": {
@@ -206,6 +210,7 @@
     "monika": "모니카",
     "muimi": "무이미",
     "nanaka": "나나카",
+    "neneka": "Neneka",
     "ninon": "니논",
     "nozomi": "노조미",
     "pecorine": "페코린느",

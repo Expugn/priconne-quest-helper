@@ -1,3 +1,5 @@
+let settings_loaded = false;
+
 /* GLOBAL SETTING VARIABLES */
 let quest_shown_value;                  // default = 10
 let ascending_sort_quest_list;          // default = true
@@ -9,6 +11,7 @@ let quest_filter;                       // default = filter-all
 let item_amount_per_row;                // default = 7
 let ignored_rarities;                   // default = [] (empty array)
 let quest_display;                      // default = display-percent
+let equipment_data_type;                // default = equipment-data-current
 
 let quest_shown_value_default;
 let ascending_sort_quest_list_default;
@@ -19,6 +22,7 @@ let max_quest_chapter_default;
 let quest_filter_default;
 let item_amount_per_row_default;
 let quest_display_default;
+let equipment_data_type_default;
 
 const all_rarities = ["common", "copper", "silver", "gold", "purple"];
 
@@ -45,7 +49,8 @@ const setting_element_id = Object.freeze({
     QUEST_FILTER_HARD: 'filter-hard-quests',
     ITEM_AMOUNT_PER_ROW: 'item-amount-per-row',
     QUEST_DISPLAY_PERCENT: 'display-drop-percent',
-    QUEST_DISPLAY_AMOUNT: 'display-amount-required'
+    QUEST_DISPLAY_AMOUNT: 'display-amount-required',
+    EQUIPMENT_DATA_TYPE: 'equipment-data-type'
 });
 
 function init_settings()
@@ -97,6 +102,16 @@ function init_settings()
         quest_display_default = quest_display_settings.AMOUNT;
     }
     quest_display = quest_display_default;
+
+    if (document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value === equipment_data_version.LEGACY)
+    {
+        equipment_data_type = equipment_data_version.LEGACY
+    }
+    else
+    {
+        equipment_data_type = equipment_data_version.CURRENT
+    }
+    equipment_data_type_default = equipment_data_type;
 
     console.log("[Settings] - Settings are initialized!");
 }
@@ -297,6 +312,59 @@ function change_display_option()
     refresh_quest_table();
 }
 
+function change_equipment_data()
+{
+
+
+    if (document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value === equipment_data_version.LEGACY)
+    {
+        equipment_data_type = equipment_data_version.LEGACY;
+    }
+    else
+    {
+        equipment_data_type = equipment_data_version.CURRENT;
+    }
+
+    console.log("[Settings] - Equipment Data Type Changed to: " + equipment_data_type);
+
+    change_equipment_and_character_data();
+}
+
+function change_equipment_and_character_data()
+{
+    let character_data_type = (equipment_data_type === equipment_data_version.CURRENT) ? character_data_version.CURRENT : character_data_version.LEGACY;
+
+    // CLEAR OUT EQUIPMENT AND CHARACTER MAPS
+    equipment_map = new Map();
+    character_map = new Map();
+
+    // READ NEW EQUIPMENT DATA
+    read_equipment_data(equipment_data_type, function ()
+    {
+        // READ NEW CHARACTER DATA
+        read_character_data(character_data_type, function ()
+        {
+            // UPDATE CURRENT REQUIRED INGREDIENTS VALUE
+            build_data();
+
+            // UPDATE CHARACTER PRESETS LIST
+            let current_selected_character = document.getElementById("character-preset-list-select").value;
+            update_selected_character_preset_details();
+            build_character_preset_list();
+            if ((check_if_character_exists(current_selected_character) === false) && current_selected_character !== "default_character")
+            {
+                console.log("[Equipment Data (Legacy)] - Currently selected character in presets (\"" + current_selected_character + "\") no longer exists. Reverting to default selection.");
+                document.getElementById("character-preset-list-select").value = "default_character";
+                update_selected_character_preset_details();
+            }
+            else
+            {
+                document.getElementById("character-preset-list-select").value = current_selected_character;
+            }
+        });
+    });
+}
+
 function toggle_simple_mode()
 {
     if(window.location.hash)
@@ -353,6 +421,7 @@ function save_cookie()
     settings_map.item_amount_per_row = item_amount_per_row;
     settings_map.ignored_rarities = ignored_rarities;
     settings_map.quest_display = quest_display;
+    settings_map.equipment_data_type = equipment_data_type;
 
     let encrypted_setting_map = JSON.stringify(settings_map);
     //console.log(encrypted_setting_map);
@@ -424,8 +493,21 @@ function read_cookie()
             check_checkbox(setting_element_id.QUEST_DISPLAY_PERCENT, false);
             check_checkbox(setting_element_id.QUEST_DISPLAY_AMOUNT, true);
         }
+        if (equipment_data_type === equipment_data_version.LEGACY)
+        {
+            document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value = equipment_data_version.LEGACY;
+        }
+        else
+        {
+            document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value = equipment_data_version.CURRENT;
+        }
 
-        console.log("[Settings] Cookie settings have been loaded.");
+        console.log("[Settings] - Settings have been loaded.");
+
+        if (!settings_loaded)
+        {
+            settings_loaded = true;
+        }
     }
 }
 
@@ -442,6 +524,7 @@ function set_settings_to_default()
     item_amount_per_row = item_amount_per_row_default;
     ignored_rarities = [];
     quest_display = quest_display_default;
+    equipment_data_type = equipment_data_type_default;
 }
 
 function reset_settings()
@@ -511,11 +594,20 @@ function reset_settings()
         check_checkbox(setting_element_id.QUEST_DISPLAY_PERCENT, false);
         check_checkbox(setting_element_id.QUEST_DISPLAY_AMOUNT, true);
     }
+    if (equipment_data_type === equipment_data_version.LEGACY)
+    {
+        document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value = equipment_data_version.LEGACY;
+    }
+    else
+    {
+        document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value = equipment_data_version.CURRENT;
+    }
 
     toastr.success((current_language === "en") ? "Settings have been reset." : language_json["toasts"]["settings_reset"]);
     refresh_quest_table();
     build_item_tables();
     build_data();
+    change_equipment_and_character_data();
 }
 
 function read_settings()
@@ -582,6 +674,7 @@ function set_values_from_cookie()
         item_amount_per_row = saved_settings_map.item_amount_per_row;
         ignored_rarities = saved_settings_map.ignored_rarities;
         quest_display = saved_settings_map.quest_display;
+        equipment_data_type = saved_settings_map.equipment_data_type;
 
         // CHECK FOR ANY UNDEFINED SETTINGS
         check_for_undefined_settings();
@@ -598,6 +691,7 @@ function set_values_from_cookie()
         settings_map.item_amount_per_row = item_amount_per_row;
         settings_map.ignored_rarities = ignored_rarities;
         settings_map.quest_display = quest_display;
+        settings_map.equipment_data_type = equipment_data_type;
         let encrypted_setting_map = JSON.stringify(settings_map);
         localStorage.setItem('settings', encrypted_setting_map);
     }
@@ -616,14 +710,10 @@ function check_for_undefined_settings()
     item_amount_per_row = (item_amount_per_row === undefined ? item_amount_per_row_default : item_amount_per_row);
     ignored_rarities = (ignored_rarities === undefined ? [] : ignored_rarities);
     quest_display = (quest_display === undefined ? quest_display_default : quest_display);
+    equipment_data_type = (equipment_data_type === undefined ? equipment_data_type_default : equipment_data_type);
 }
 
 function is_cookies_exist()
 {
     return localStorage.getItem("settings") !== null;
-}
-
-function reload()
-{
-    window.location.reload(true);
 }

@@ -92,7 +92,7 @@ function change_language()
     // UPDATE UPDATE PROGRESS
     refresh_quest_update_language();
 
-    // DISABLE ADD/SUBTRACT/PRIORITIZE/DEPRIORITZE BUTTONS
-    disable_add_and_sub_buttons(true);
-    show_prioritize_button(true);
+    // UPDATE EQUIPMENT DATA TYPE SETTING CHOICES
+    document.getElementById("equipment-data-type-current-option").innerHTML = language_json["settings_tab"]["equipment_data_current_select"];
+    document.getElementById("equipment-data-type-legacy-option").innerHTML = language_json["settings_tab"]["equipment_data_legacy_select"];
 }

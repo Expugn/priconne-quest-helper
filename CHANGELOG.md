@@ -4,6 +4,46 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [1.3.0] - 2019-08-31
+Equipment Cost Update
+### Added
+- Legacy equipment data support for priconne-quest-helper
+  - An option to switch between current or legacy equipment data is added to settings.
+  - Also the ability to default to a certain equipment data version via setting saving
+- Legacy equipment data support for priconne-quest-helper/pages/equipment-data/
+  - A select option to switch between current or legacy equipment is added to the top of the page.
+- Legacy equipment data support for priconne-quest-helper/pages/statistics/
+  - A select option to switch between current or legacy equipment is added to the top of the page.
+- New Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/still_502300601_blur.png>
+- New Text:
+  - `settings_tab.equipment_data_type_label`
+  - `settings_tab.equipment_data_current_select`
+  - `settings_tab.equipment_data_legacy_select`
+  - `character_names.neneka`
+- Character Data for Neneka
+### Changed
+- As of 2019.08.31, some equipment costs have been lowered
+  - Old equipment file saved as `equipment_data_08.30.2019.json`
+  - Old character data has been saved as `character_data_08.30.2019.json` as well for compatibility reasons
+  - `Purple` equipment:
+    - `35` -> `30` Required Pieces
+    - `25` -> `20` Required Pieces
+  - `Gold` equipment:
+    - `30` -> `25` OR `20` Required Pieces
+    - `20` -> `15` OR `10` Required Pieces 
+  - `Silver` equipment:
+    - `5` -> `3` Required Pieces
+- If there are no items selected, using the `Clear Item Tables` button will no longer remove the initial page tips
+- Meta tag changes for all pages
+  - `og:image` width/height set to 50
+  - Delete `twitter:image`
+  - `twitter:card`: `summary_large_image` -> `summary`
+### Fixed
+- Fixed a bug where Add/Sub/Prioritize/Deprioritize buttons were disabled after changing languages when they were supposed to be enabled
+### Removed
+- Old Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/still_500500701_blur.png>
+- favicon.ico because it was too low quality
+
 ## [1.2.1] - 2019-08-29
 ### Changed
 - Merged Pull Request from SD SkyKlouD

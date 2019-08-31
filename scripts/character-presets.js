@@ -50,40 +50,43 @@ function update_selected_character_preset_details()
     }
     else
     {
-        let character_name = get_character_data(selected_character, "name");
-        let character_thematic = get_character_data(selected_character, "thematic");
-        let character_image_name = (character_thematic === "") ? character_name : character_thematic + "_" + character_name;
-        let character_thematic_tl;
-        let character_tl;
-
-        if (current_language === "en")
+        if (check_if_character_exists(selected_character) === true)
         {
-            character_thematic_tl = get_character_data(selected_character, "thematic_jp");
-            character_tl = get_character_data(selected_character, "name_jp") + " " + ((character_thematic_tl === "") ? "" : "(" + character_thematic_tl + ")");
-        }
-        else
-        {
-            let tl_name = character_name.toLowerCase();
-            let tl_thematic = character_thematic.replace(" ", "_").toLowerCase();
+            let character_name = get_character_data(selected_character, "name");
+            let character_thematic = get_character_data(selected_character, "thematic");
+            let character_image_name = (character_thematic === "") ? character_name : character_thematic + "_" + character_name;
+            let character_thematic_tl;
+            let character_tl;
 
-            character_thematic_tl = language_json["thematics"][tl_thematic];
-            character_tl = language_json["character_names"][tl_name] + ((character_thematic === "") ? "" : " (" + character_thematic_tl + ")");
-        }
+            if (current_language === "en")
+            {
+                character_thematic_tl = get_character_data(selected_character, "thematic_jp");
+                character_tl = get_character_data(selected_character, "name_jp") + " " + ((character_thematic_tl === "") ? "" : "(" + character_thematic_tl + ")");
+            }
+            else
+            {
+                let tl_name = character_name.toLowerCase();
+                let tl_thematic = character_thematic.replace(" ", "_").toLowerCase();
+
+                character_thematic_tl = language_json["thematics"][tl_thematic];
+                character_tl = language_json["character_names"][tl_name] + ((character_thematic === "") ? "" : " (" + character_thematic_tl + ")");
+            }
 
 
-        document.getElementById("preset-character-image").src = get_unit_icon_image_path(character_image_name.split(' ').join('_'));
-        if (current_language === "en")
-        {
-            document.getElementById("preset-character-name-label").innerHTML = ((character_thematic === "") ? character_name : character_name + " (" + character_thematic + ")") + "<br>" + character_tl;
+            document.getElementById("preset-character-image").src = get_unit_icon_image_path(character_image_name.split(' ').join('_'));
+            if (current_language === "en")
+            {
+                document.getElementById("preset-character-name-label").innerHTML = ((character_thematic === "") ? character_name : character_name + " (" + character_thematic + ")") + "<br>" + character_tl;
+            }
+            else
+            {
+                document.getElementById("preset-character-name-label").innerHTML = character_tl + "<br>" + ((character_thematic === "") ? character_name : character_name + " (" + character_thematic + ")");
+            }
+            document.getElementById("preset-character-load-button").disabled = false;
+            document.getElementById("preset-character-load-and-create-project-button").disabled = false;
+            document.getElementById("preset-character-min-rank-input").disabled = false;
+            document.getElementById("preset-character-max-rank-input").disabled = false;
         }
-        else
-        {
-            document.getElementById("preset-character-name-label").innerHTML = character_tl + "<br>" + ((character_thematic === "") ? character_name : character_name + " (" + character_thematic + ")");
-        }
-        document.getElementById("preset-character-load-button").disabled = false;
-        document.getElementById("preset-character-load-and-create-project-button").disabled = false;
-        document.getElementById("preset-character-min-rank-input").disabled = false;
-        document.getElementById("preset-character-max-rank-input").disabled = false;
     }
 
     //console.log("[Presets] - Selected \"" + selected_character + "\"");
