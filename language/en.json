@@ -96,6 +96,7 @@
     "show_all_quests": "Show All Quests",
     "show_normal_quests": "Show Normal Quests",
     "show_hard_quests": "Show Hard Quests",
+    "show_very_hard_quests": "Show Very Hard Quests",
     "items_displayed_per_row": "Items Displayed per Row (1 - 15):",
     "ignore_item_rarity_in_recipe": "Ignore Item Rarity in Recipe:",
     "display_drop_percent": "Display Drop Percent",

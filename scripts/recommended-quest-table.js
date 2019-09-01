@@ -51,17 +51,26 @@ function build_recommended_quest_table(all_recipe_maps_array)
             {
                 let filter_exclude_quest = false;
 
+                let quest_is_normal_difficulty = !quest_id.includes("H");
+                let quest_is_hard_difficulty = quest_id.includes("H") && !quest_id.includes("VH");
+                let quest_is_very_hard_difficulty = quest_id.includes("H") && quest_id.includes("VH");
+
                 // CHECK IF QUEST IS NORMAL/HARD IF SET TO CHECK
-                if (quest_filter === "filter-normal" || quest_filter === "filter-hard")
+                if (quest_filter === quest_filter_settings.NORMAL || quest_filter === quest_filter_settings.HARD || quest_filter === quest_filter_settings.VERY_HARD)
                 {
-                    if (quest_id.includes("H") && quest_filter === "filter-normal")
+                    if ((quest_is_hard_difficulty || quest_is_very_hard_difficulty) && quest_filter === quest_filter_settings.NORMAL)
                     {
-                        //  QUEST INCLUDES 'H' AND QUEST FILTER IS SET TO NORMAL, REMOVE QUEST
+                        //  QUEST INCLUDES 'H' OR 'VH' AND QUEST FILTER IS SET TO NORMAL, REMOVE QUEST
                         filter_exclude_quest = true;
                     }
-                    else if (!quest_id.includes("H") && quest_filter === "filter-hard")
+                    else if ((quest_is_normal_difficulty || quest_is_very_hard_difficulty) && quest_filter === quest_filter_settings.HARD)
                     {
                         // QUEST DOESN'T INCLUDE 'H' AND QUEST FILTER IS SET TO HARD, REMOVE QUEST
+                        filter_exclude_quest = true;
+                    }
+                    else if ((quest_is_normal_difficulty || quest_is_hard_difficulty) && quest_filter === quest_filter_settings.VERY_HARD)
+                    {
+                        // QUEST DOESN'T INCLUDE 'VH' AND QUEST FILTER IS SET TO VERY HARD, REMOVE QUEST
                         filter_exclude_quest = true;
                     }
                 }
@@ -76,7 +85,8 @@ function build_recommended_quest_table(all_recipe_maps_array)
                             quest_data.get("item_2").item_name === focused_item_name ||
                             quest_data.get("item_3").item_name === focused_item_name ||
                             quest_data.get("subdrops").includes(focused_item_name) ||
-                            (quest_id.includes("H") && quest_data.get("char_shard").item_name === focused_item_name) ||
+                            (quest_is_hard_difficulty && quest_data.get("char_shard").item_name === focused_item_name) ||
+                            (quest_is_very_hard_difficulty && quest_data.get("char_shard").item_name === focused_item_name) ||
                             quest_data.get("item_1").item_name === focused_item_name + " Fragment" ||
                             quest_data.get("item_2").item_name === focused_item_name + " Fragment" ||
                             quest_data.get("item_3").item_name === focused_item_name + " Fragment" ||
@@ -96,8 +106,17 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     let item_3_dp = quest_data.get("item_3").drop_percent;      // OBJECT
                     let quest_subdrops = quest_data.get("subdrops");            // ARRAY
                     let q_subdrops_percent = quest_data.get("subdrops_percent");// ARRAY
+
                     let char_shard = "";
-                    if (quest_id.includes("H")) { char_shard = quest_data.get("char_shard").item_name; } // OBJECT
+                    if (quest_is_hard_difficulty || quest_is_very_hard_difficulty) { char_shard = quest_data.get("char_shard").item_name; } // OBJECT
+
+                    let item_4_name = "";
+                    let item_4_dp = "";
+                    if (quest_is_very_hard_difficulty)
+                    {
+                        item_4_name = quest_data.get("item_4").item_name;
+                        item_4_dp = quest_data.get("item_4").drop_percent;
+                    }
 
                     let quest_score = 0;
 
@@ -134,6 +153,12 @@ function build_recommended_quest_table(all_recipe_maps_array)
 
                         if (priority_items_array.includes(item_3_name)) { quest_score += score_to_be_added * priority_item_multiplier; }
                         else { quest_score += score_to_be_added; }
+                    }
+                    if (total_recipe.has(item_4_name))
+                    {
+                        // ITEM 4 IS A VERY HARD DIFFICULTY EXCLUSIVE, SO IT WILL ALWAYS BE EQUAL TO ITEMS 1 - 3
+                        if (priority_items_array.includes(item_4_name)) { quest_score += (item_is_in_top_2_score * priority_item_multiplier); }
+                        else { quest_score += item_is_in_top_2_score; }
                     }
 
                     // CHECK SUBDROPS
@@ -199,25 +224,37 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 let x_quest_split = x_quest_id.split("-");
                 let x_quest_chapter = x_quest_split[0];
                 let x_quest_quest = x_quest_split[1];
+                let x_quest_very_hard = 0;
+                if (x_quest_quest.includes("H") && x_quest_quest.includes("VH"))   // VERY HARD DIFFICULTY
+                {
+                    x_quest_quest.replace("VH", "");
+                    x_quest_very_hard = 2000;
+                }
                 let x_quest_hard = 0;
-                if (x_quest_quest.includes("H"))
+                if (x_quest_quest.includes("H") && !x_quest_quest.includes("VH"))   // HARD DIFFICULTY
                 {
                     x_quest_quest.replace("H", "");
                     x_quest_hard = 1000;
                 }
-                let x_quest_value = (parseInt(x_quest_chapter) * 10000) + (parseInt(x_quest_quest) * 10) + x_quest_hard;
+                let x_quest_value = (parseInt(x_quest_chapter) * 10000) + (parseInt(x_quest_quest) * 10) + x_quest_hard + x_quest_very_hard;
 
                 let y_quest_id = y[0];
                 let y_quest_split = y_quest_id.split("-");
                 let y_quest_chapter = y_quest_split[0];
                 let y_quest_quest = y_quest_split[1];
+                let y_quest_very_hard = 0;
+                if (y_quest_quest.includes("H") && y_quest_quest.includes("VH"))    // VERY HARD DIFFICULTY
+                {
+                    y_quest_quest.replace("VH", "");
+                    y_quest_very_hard = 2000;
+                }
                 let y_quest_hard = 0;
-                if (y_quest_quest.includes("H"))
+                if (y_quest_quest.includes("H") && !y_quest_quest.includes("VH"))   // HARD DIFFICULTY
                 {
                     y_quest_quest.replace("H", "");
                     y_quest_hard = 1000;
                 }
-                let y_quest_value = (parseInt(y_quest_chapter) * 10000) + (parseInt(y_quest_quest) * 10) + y_quest_hard;
+                let y_quest_value = (parseInt(y_quest_chapter) * 10000) + (parseInt(y_quest_quest) * 10) + y_quest_hard + y_quest_very_hard;
 
 
                 // SORTING CODE
@@ -238,6 +275,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
 
         table_html += "<tbody>";
 
+        let quest_list_has_very_hard = false;
         if (quest_score_map.size > 0)
         {
             for (let [quest_id, quest_score] of quest_score_map)
@@ -263,11 +301,26 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 let subdrops = get_quest_data(quest_id, "subdrops");
                 let subdrops_percent = get_quest_data(quest_id, "subdrops_percent");
 
+                let item_4;
+                let item_4_name = "";
+                let item_4_drop_percent = "";
+                if (quest_id.includes("VH"))    // QUEST IS VERY HARD
+                {
+                    if (!quest_list_has_very_hard)
+                    {
+                        quest_list_has_very_hard = true;
+                    }
+
+                    item_4 = get_quest_data(quest_id, "item_4");
+                    item_4_name = item_4.item_name;
+                    item_4_drop_percent = item_4.drop_percent;
+                }
+
                 let character_shard = "";
                 let char_shard_name = "";
                 let char_shard_drop_rate = "";
 
-                if (quest_id.includes("H"))
+                if (quest_id.includes("H"))     // QUEST IS HARD OR VERY HARD
                 {
                     character_shard = get_quest_data(quest_id, "char_shard");
                     char_shard_name = character_shard["item_name"];
@@ -291,16 +344,50 @@ function build_recommended_quest_table(all_recipe_maps_array)
 
                 table_html += "<tr>";
 
+                function write_item_image_html(item_name, item_drop_percent, is_item_4)
+                {
+                    let item_amount = total_recipe.get(item_name);
+                    let is_not_included_in_disabled = !disabled_items.includes(item_name);
+
+                    table_html += "<th class='quest-hover" + ((item_amount > 0 && is_not_included_in_disabled) ? "" : " quest-is-empty-text") + "' height='48'>";
+                    table_html += "<img class=\"quest-item-image"
+                        + (total_recipe.has(item_name) ? "" : " grayscale")
+                        + (is_item_a_priority_and_needed(item_name) && total_recipe.has(item_name) ? " priority-quest-item" : "")
+                        + ((is_item_4) ? " item-4-element" : "")
+                        + "\" title=\"" + item_name
+                        + "\" src=\"" + get_item_image_path(item_name.split(' ').join('_')) + "\" alt=\"\"" + (is_item_4 ? " hidden" : "")  + ">";
+                    if (item_amount > 0 && is_not_included_in_disabled)
+                    {
+                        if (quest_display === quest_display_settings.AMOUNT)
+                        {
+                            table_html += "<div class=\"quest-percent-text quest-display-bottom" + ((is_item_4) ? " item-4-element" : "") + "\">" + item_drop_percent + "\u0025" + "</div>";
+                            table_html += "<div class=\"quest-req-amount-text quest-display-top" + ((is_item_4) ? " item-4-element" : "") + "\">" + "\u00D7" + item_amount + "</div>";
+                        }
+                        else
+                        {
+                            table_html += "<div class=\"quest-percent-text quest-display-top" + ((is_item_4) ? " item-4-element" : "") + "\">" + item_drop_percent + "\u0025" + "</div>";
+                            table_html += "<div class=\"quest-req-amount-text quest-display-bottom" + ((is_item_4) ? " item-4-element" : "") + "\">" + "\u00D7" + item_amount + "</div>";
+                        }
+                    }
+                    table_html += "</th>";
+                }
+
                 // QUEST NAME
+                let quest_is_hard_difficulty = quest_id.includes("H") && !quest_id.includes("VH");
+                let quest_is_very_hard_difficulty = quest_id.includes("H") && quest_id.includes("VH");
                 table_html += "<th height='64' width='144'>" +
-                    "<h3 class=\"quest-title " + quest_score_color + (quest_id.includes("H") ? " quest-title-hard" : "") + "\">" + quest_id.replace("H", " <span style=\"color: #ff4d4d\">H</span>") + "</h3>" +
+                    "<h3 class=\"quest-title " + quest_score_color +
+                        (quest_is_hard_difficulty || quest_is_very_hard_difficulty ? " quest-title-hard" : "") + "\">" +
+                    (!quest_id.includes("H") ? quest_id : "") +
+                    (quest_is_hard_difficulty ? quest_id.replace("H", " <span style=\"color: #ff4d4d\">H</span>") : "")  +
+                    (quest_is_very_hard_difficulty ? quest_id.replace("VH", " <span style=\"color: #ff4d4d\">VH</span>") : "") + "</h3>" +
                     "</th>";
 
                 // DIVIDER
                 table_html += "<th>";
                 table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
                     + "\" src=\"\" alt=\"\">";
-                // INCLUDE HARD MODE CHARACTER SHARD IMAGE
+                // INCLUDE HARD/VERY HARD MODE CHARACTER SHARD IMAGE
                 if (quest_id.includes("H"))
                 {
                     if (total_recipe.has(char_shard_name))
@@ -321,83 +408,24 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 table_html += "</th>";
 
                 // ITEM 1 IMAGE
-                let item_amount = total_recipe.get(item_1_name);
-                let is_not_included_in_disabled = !disabled_items.includes(item_1_name);
-                table_html += "<th class='quest-hover" + ((item_amount > 0 && is_not_included_in_disabled) ? "" : " quest-is-empty-text") + "' height='48'>";
-                table_html += "<img class=\"quest-item-image"
-                        + (total_recipe.has(item_1_name) ? "" : " grayscale")
-                        + (is_item_a_priority_and_needed(item_1_name) && total_recipe.has(item_1_name) ? " priority-quest-item" : "")
-                    + "\" title=\"" + item_1_name
-                    + "\" src=\"" + get_item_image_path(item_1_name.split(' ').join('_')) + "\" alt=\"\">";
-                //table_html += "<div class=\"quest-percent-text\">" + item_1_drop_percent + "\u0025</div>";
-                if (item_amount > 0 && is_not_included_in_disabled)
-                {
-                    if (quest_display === quest_display_settings.AMOUNT)
-                    {
-                        table_html += "<div class=\"quest-percent-text quest-display-bottom\">" + item_1_drop_percent + "\u0025" + "</div>";
-                        table_html += "<div class=\"quest-req-amount-text quest-display-top\">" + "\u00D7" + item_amount + "</div>";
-                    }
-                    else
-                    {
-                        table_html += "<div class=\"quest-percent-text quest-display-top\">" + item_1_drop_percent + "\u0025" + "</div>";
-                        table_html += "<div class=\"quest-req-amount-text quest-display-bottom\">" + "\u00D7" + item_amount + "</div>";
-                    }
-                }
-                //table_html += "<div class=\"quest-percent-text\">" + ((item_amount > 0 && !disabled_items.includes(item_1_name)) ? item_1_drop_percent + "\u0025" : " ") + "</div>";
-                //table_html += "<div class=\"quest-req-amount-text\">" + ((item_amount > 0 && !disabled_items.includes(item_1_name)) ? "\u00D7" + item_amount : " ") + "</div>";
-                table_html += "</th>";
+                write_item_image_html(item_1_name, item_1_drop_percent, false);
 
                 // ITEM 2 IMAGE
-                item_amount = total_recipe.get(item_2_name);
-                is_not_included_in_disabled = !disabled_items.includes(item_2_name);
-                table_html += "<th class='quest-hover" + ((item_amount > 0 && is_not_included_in_disabled) ? "" : " quest-is-empty-text") + "' height='48'>";
-                table_html += "<img class=\"quest-item-image"
-                        + (total_recipe.has(item_2_name) ? "" : " grayscale")
-                        + (is_item_a_priority_and_needed(item_2_name) && total_recipe.has(item_2_name) ? " priority-quest-item" : "")
-                    + "\" title=\"" + item_2_name
-                    + "\" src=\"" + get_item_image_path(item_2_name.split(' ').join('_')) + "\" alt=\"\">";
-                if (item_amount > 0 && is_not_included_in_disabled)
-                {
-                    if (quest_display === quest_display_settings.AMOUNT)
-                    {
-                        table_html += "<div class=\"quest-percent-text quest-display-bottom\">" + item_2_drop_percent + "\u0025" + "</div>";
-                        table_html += "<div class=\"quest-req-amount-text quest-display-top\">" + "\u00D7" + item_amount + "</div>";
-                    }
-                    else
-                    {
-                        table_html += "<div class=\"quest-percent-text quest-display-top\">" + item_2_drop_percent + "\u0025" + "</div>";
-                        table_html += "<div class=\"quest-req-amount-text quest-display-bottom\">" + "\u00D7" + item_amount + "</div>";
-                    }
-                }
-                //table_html += "<div class=\"quest-percent-text\">" + item_2_drop_percent + "\u0025</div>";
-                //table_html += "<div class=\"quest-req-amount-text\">" + ((item_amount > 0) ? "\u00D7" + item_amount : "") + "</div>";
-                table_html += "</th>";
+                write_item_image_html(item_2_name, item_2_drop_percent, false);
 
                 // ITEM 3 IMAGE
-                item_amount = total_recipe.get(item_3_name);
-                is_not_included_in_disabled = !disabled_items.includes(item_3_name);
-                table_html += "<th class='quest-hover" + ((item_amount > 0 && is_not_included_in_disabled) ? "" : " quest-is-empty-text") + "' height='48'>";
-                table_html += "<img class=\"quest-item-image"
-                        + (total_recipe.has(item_3_name) ? "" : " grayscale")
-                        + (is_item_a_priority_and_needed(item_3_name) && total_recipe.has(item_3_name) ? " priority-quest-item" : "")
-                    + "\" title=\"" + item_3_name
-                    + "\" src=\"" + get_item_image_path(item_3_name.split(' ').join('_')) + "\" alt=\"\">";
-                if (item_amount > 0 && is_not_included_in_disabled)
+                write_item_image_html(item_3_name, item_3_drop_percent, false);
+
+                // ITEM 4 IMAGE
+                if (item_4 !== undefined)
                 {
-                    if (quest_display === quest_display_settings.AMOUNT)
-                    {
-                        table_html += "<div class=\"quest-percent-text quest-display-bottom\">" + item_3_drop_percent + "\u0025" + "</div>";
-                        table_html += "<div class=\"quest-req-amount-text quest-display-top\">" + "\u00D7" + item_amount + "</div>";
-                    }
-                    else
-                    {
-                        table_html += "<div class=\"quest-percent-text quest-display-top\">" + item_3_drop_percent + "\u0025" + "</div>";
-                        table_html += "<div class=\"quest-req-amount-text quest-display-bottom\">" + "\u00D7" + item_amount + "</div>";
-                    }
+                    write_item_image_html(item_4_name, item_4_drop_percent, true);
                 }
-                //table_html += "<div class=\"quest-percent-text\">" + item_3_drop_percent + "\u0025</div>";
-                //table_html += "<div class=\"quest-req-amount-text\">" + ((item_amount > 0) ? "\u00D7" + item_amount : "") + "</div>";
-                table_html += "</th>";
+                else
+                {
+                    // PLACEHOLDER IF ITEM 4 DOES NOT EXIST
+                    table_html += "<th></th>";
+                }
 
                 // DIVIDER
                 table_html += "<th>";
@@ -408,8 +436,8 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 // SUB-ITEM IMAGES
                 for (let i = 0 ; i < subdrops.length ; i++)
                 {
-                    item_amount = total_recipe.get(subdrops[i]);
-                    is_not_included_in_disabled = !disabled_items.includes(subdrops[i]);
+                    let item_amount = total_recipe.get(subdrops[i]);
+                    let is_not_included_in_disabled = !disabled_items.includes(subdrops[i]);
                     table_html += "<th class='quest-hover" + ((item_amount > 0 && is_not_included_in_disabled) ? "" : " quest-is-empty-text") + "' height='48'>";
                     table_html += "<img class=\"quest-item-image"
                             + (total_recipe.has(subdrops[i]) ? "" : " grayscale")
@@ -443,18 +471,6 @@ function build_recommended_quest_table(all_recipe_maps_array)
                             table_html += "<div class=\"quest-req-amount-text quest-display-bottom\">" + "\u00D7" + item_amount + "</div>";
                         }
                     }
-
-                    /*
-                    if (subdrops_percent === undefined)
-                    {
-                        table_html += "<div class=\"quest-percent-text\">20\u0025</div>";
-                    }
-                    else
-                    {
-                        table_html += "<div class=\"quest-percent-text\">" + subdrops_percent[i] + "\u0025</div>";
-                    }
-                    table_html += "<div class=\"quest-req-amount-text\">" + ((item_amount > 0) ? "\u00D7" + item_amount : "") + "</div>";
-                    */
                     table_html += "</th>";
                 }
 
@@ -487,6 +503,16 @@ function build_recommended_quest_table(all_recipe_maps_array)
 
         quest_table.innerHTML = table_html;
 
+        if (quest_list_has_very_hard)
+        {
+            console.log("quest list has very hard quest");
+            let collection_of_item_4_elems = document.getElementsByClassName("item-4-element");
+            for (let i = 0 ; i < collection_of_item_4_elems.length ; i++)
+            {
+                collection_of_item_4_elems[i].hidden = false;
+            }
+        }
+
         document.getElementById("recommended-quest-div").style.height = quest_table.scrollHeight + "px";
         setTimeout(function () {
             document.getElementById("recommended-quest-div").style.overflow = "auto";
@@ -497,9 +523,6 @@ function build_recommended_quest_table(all_recipe_maps_array)
         document.getElementById("recommended-quest-div").style.height = "2px";
         document.getElementById("recommended-quest-div").style.overflow = "hidden";
     }
-
-
-
 }
 
 function refresh_quest_table()

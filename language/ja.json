@@ -96,6 +96,7 @@
     "show_all_quests": "全クエスト表示",
     "show_normal_quests": "NORMALクエスト表示",
     "show_hard_quests": "HARDクエスト表示",
+    "show_very_hard_quests": "Show Very Hard Quests",
     "items_displayed_per_row": "1行あたりの表示個数（1 - 15）：",
     "ignore_item_rarity_in_recipe": "この分類の装備は必要アイテムから除外：",
     "display_drop_percent": "ドロップ確率の表示",

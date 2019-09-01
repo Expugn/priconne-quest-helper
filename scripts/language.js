@@ -2,6 +2,33 @@ const project_author = "S'pugn";
 
 let current_language = "en";
 let language_json;
+
+function auto_load_language()
+{
+    // IF LOCALSTORAGE SUPPORT EXISTS...
+    if (typeof(Storage) !== "undefined")
+    {
+        // IF THERE IS A PREVIOUS LANGUAGE RECORDED...
+        if (localStorage.getItem("language") !== null)
+        {
+            // LOAD LANGUAGE
+            document.getElementById("language-option").value = localStorage.getItem("language");
+
+            if (document.getElementById("language-option").value !== localStorage.getItem("language"))
+            {
+                // LANGUAGE OPTION SAVED DOES NOT EXIST, DELETE SAVED OPTION AND REVERT TO ENGLISH
+                localStorage.removeItem("language");
+                document.getElementById("language-option").value = "en";
+            }
+            else
+            {
+                load_language();
+            }
+
+        }
+    }
+}
+
 function load_language()
 {
     let lang = document.getElementById("language-option").value;
@@ -21,6 +48,20 @@ function load_language()
                 console.log("[Language] - " + lang + ".json loaded.");
                 current_language = lang;
                 change_language();
+
+                // IF LOCALSTORAGE SUPPORT IS AVAILABLE...
+                if (typeof(Storage) !== "undefined")
+                {
+                    // TAKE NOTE OF CURRENT LANGUAGE
+                    if (current_language !== "en")
+                    {
+                        localStorage.setItem("language", current_language);
+                    }
+                    else
+                    {
+                        localStorage.removeItem("language");
+                    }
+                }
             }
         });
     }

@@ -19,12 +19,15 @@ let run_quest = $(function () {
                     quest_data.set("item_2", questData.item_2);
                     /** @namespace questData.item_3 */
                     quest_data.set("item_3", questData.item_3);
+                    /** @namespace itemData.item_4 */
+                    if (questData.item_4 !== undefined) { quest_data.set("item_4", questData.item_4); }
                     /** @namespace questData.subdrops */
                     quest_data.set("subdrops", questData.subdrops);
                     /** @namespace questData.subdrops_percent */
                     if (questData.subdrops_percent !== undefined) { quest_data.set("subdrops_percent", questData.subdrops_percent); }
                     /** @namespace itemData.char_shard */
                     if (questData.char_shard !== undefined) { quest_data.set("char_shard", questData.char_shard); }
+
 
                     quest_map.set(i, quest_data);
                 })

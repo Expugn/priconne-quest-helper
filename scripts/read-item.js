@@ -11,7 +11,12 @@ function read_item(itemRarity)
         if (itemValue >= 1)
         {
             // CHECK VALUE: IF GREATER THAN 100, THEN CORRECT THE ISSUE
-            if (itemValue > 99)
+            if (itemRarity === "misc" && (itemValue > 500))
+            {
+                document.getElementById(itemRarity + "-" + i + "-amt").value = 500;
+                itemValue = 500;
+            }
+            else if (itemRarity !== "misc" && (itemValue > 99))
             {
                 document.getElementById(itemRarity + "-" + i + "-amt").value = 99;
                 itemValue = 99;

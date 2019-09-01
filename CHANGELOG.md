@@ -16,11 +16,18 @@ Equipment Cost Update
   - A select option to switch between current or legacy equipment is added to the top of the page.
 - New Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/still_502300601_blur.png>
 - New Text:
+  - `settings_tab.show_very_hard_quests`
   - `settings_tab.equipment_data_type_label`
   - `settings_tab.equipment_data_current_select`
   - `settings_tab.equipment_data_legacy_select`
   - `character_names.neneka`
 - Character Data for Neneka
+- A new quest filter option for `Very Hard` quests
+- Very Hard Quest Support
+  - The Quest Data page also supports Very Hard quests
+- Pecorine/Kokkoro/Kyaru Pure Shards
+- Chapter 18 Very Hard Quest Data
+- Previously Used Language Auto-Restore
 ### Changed
 - As of 2019.08.31, some equipment costs have been lowered
   - Old equipment file saved as `equipment_data_08.30.2019.json`
@@ -43,8 +50,10 @@ Equipment Cost Update
   - If a project is saved and contains newer equipment, using the legacy equipment data will just ignore it if a loading the project is attempted
   - If the equipment data is switched while an item is being focused on, it will remove the focus
   - If a item is currently required and the current equipment data doesn't know anything about it, it will remove it from the requirements
+- Code Cleanup
 ### Fixed
 - Fixed a bug where Add/Sub/Prioritize/Deprioritize buttons were disabled after changing languages when they were supposed to be enabled
+- Fixed an issue with memory pieces not being able to have `500` selected
 ### Removed
 - Old Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/still_500500701_blur.png>
 - favicon.ico because it was too low quality

@@ -1913,6 +1913,30 @@
     "char_shard": {"item_name": "Saren Shard", "drop_percent": 54},
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
   },
+  "18-1VH": {
+    "item_1": {"item_name": "Flowering Fire Peony Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "God Roar Axe - Terra Break Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Fire Oni's Tori Fragment", "drop_percent": 72},
+    "item_4": {"item_name": "Armored Bow - Deus Fall Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Pecorine Pure Shard", "drop_percent": 54},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
+  "18-2VH": {
+    "item_1": {"item_name": "Sea Dragon God's Hair Ornament Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Twin God Sword of Lightning Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Exomagia Robe Fragment", "drop_percent": 72},
+    "item_4": {"item_name": "Storm God Tempest Gear Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Kokkoro Pure Shard", "drop_percent": 54},
+    "subdrops": [ "Queen Bee Spear Fragment", "Angel Bow Fragment", "Hermit Clothes Fragment", "Saint's Robe Fragment", "Bangle of Substitution Fragment" ]
+  },
+  "18-3VH": {
+    "item_1": {"item_name": "Little Ice Princess' Knot Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Heaven Rod - Stellar Sphere Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Ifrit Katana - Ignite Fragment", "drop_percent": 72},
+    "item_4": {"item_name": "Rage Queen Dress Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Kyaru Pure Shard", "drop_percent": 54},
+    "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
+  },
   "19-1": {
     "item_1": {"item_name": "Shrine Maiden's Purity Cloth Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Astrograph Buckler Fragment", "drop_percent": 36},

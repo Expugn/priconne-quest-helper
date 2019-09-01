@@ -188,8 +188,6 @@ function build_item_tables()
     document.getElementById("purple-item-table").innerHTML = purple_item_HTML;
     document.getElementById("misc-item-table").innerHTML = misc_item_HTML;
 
-
-
     if (item_table_ready === false)
     {
         item_table_ready = true;
@@ -233,7 +231,7 @@ function add_item_image_to_table(count, item_HTML, item_name, item_id, rarity_cl
                 "class=\"item-input notranslate\" " +
                 "type=\"number\" " +
                 "min=\"0\" " +
-                "max=\"" + ((rarity_class === "misc") ? "400" : "99") + "\" " +
+                "max=\"" + ((rarity_class === "misc") ? 500 : 99) + "\" " +
                 "value=\"" + ((existing_value > -1) ? existing_value : 0) + "\" " +
                 "onchange=\"update_requested(this)\">";
             item_HTML += "</th>";
@@ -292,7 +290,7 @@ function close_item_table(count, item_HTML, rarity_class)
             "class=\"item-input notranslate\" " +
             "type=\"number\" " +
             "min=\"0\" " +
-            "max=\"" + ((rarity_class === "misc") ? "400" : "99") + "\" " +
+            "max=\"" + ((rarity_class === "misc") ? 500 : 99) + "\" " +
             "value=\"" + ((existing_value > -1) ? existing_value : 0) + "\" " +
             "onchange=\"update_requested(this)\">";
         item_HTML += "</th>";

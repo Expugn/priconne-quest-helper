@@ -29,7 +29,8 @@ const all_rarities = ["common", "copper", "silver", "gold", "purple"];
 const quest_filter_settings = Object.freeze({
     ALL: 'filter-all',
     NORMAL: 'filter-normal',
-    HARD: 'filter-hard'
+    HARD: 'filter-hard',
+    VERY_HARD: 'filter-very-hard'
 });
 
 const quest_display_settings = Object.freeze({
@@ -47,6 +48,7 @@ const setting_element_id = Object.freeze({
     QUEST_FILTER_ALL: 'filter-all-quests',
     QUEST_FILTER_NORMAL: 'filter-normal-quests',
     QUEST_FILTER_HARD: 'filter-hard-quests',
+    QUEST_FILTER_VERY_HARD: 'filter-very-hard-quests',
     ITEM_AMOUNT_PER_ROW: 'item-amount-per-row',
     QUEST_DISPLAY_PERCENT: 'display-drop-percent',
     QUEST_DISPLAY_AMOUNT: 'display-amount-required',
@@ -237,6 +239,10 @@ function change_quest_filter()
     else if (document.getElementById(setting_element_id.QUEST_FILTER_HARD).checked)
     {
         quest_filter = quest_filter_settings.HARD;
+    }
+    else if (document.getElementById(setting_element_id.QUEST_FILTER_VERY_HARD).checked)
+    {
+        quest_filter = quest_filter_settings.VERY_HARD;
     }
 
     console.log("[Settings] - Quest Filter Changed to: " + quest_filter);

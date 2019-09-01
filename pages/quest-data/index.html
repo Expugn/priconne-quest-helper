@@ -154,7 +154,13 @@
                     table_html += "<tr>";
 
                     // QUEST NAME
-                    table_html += "<th height='64' width='144'><h3 class=\"quest-title" + (quest_id.includes("H") ? " quest-title-hard" : "") + "\">" + quest_id.replace("H", " <span style=\"color: #ff4d4d\">H</span>") + "</h3></th>";
+                    let quest_title = quest_id;
+                    if (quest_id.includes("H") && quest_id.includes("VH"))
+                        quest_title = quest_id.replace("VH", " <span style=\"color: #ff4d4d\">VH</span>");
+                    else if (quest_id.includes("H") && !quest_id.includes("VH"))
+                        quest_title = quest_id.replace("H", " <span style=\"color: #ff4d4d\">H</span>");
+
+                    table_html += "<th height='64' width='144'><h3 class=\"quest-title" + (quest_id.includes("H") ? " quest-title-hard" : "") + "\">" + quest_title + "</h3></th>";
 
                     // DIVIDER
                     table_html += "<th>";
@@ -195,6 +201,20 @@
                         + "\" src=\"../../" + get_item_image_path(((quest_data.get("item_3").item_name !== "") ? quest_data.get("item_3").item_name.split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
                     table_html += "<div class=\"quest-percent-text\">" + quest_data.get("item_3").drop_percent + "\u0025</div>";
                     table_html += "</th>";
+
+                    // ITEM 4 IMAGE
+                    if (quest_data.get("item_4") !== undefined)
+                    {
+                        table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+                        table_html += "<img class=\"quest-item-image" + ((quest_data.get("item_4").item_name.includes("Fragment") || disable_fragment_check) ? "" : " low-opacity") + "\" title=\"" + ((quest_data.get("item_4").item_name !== "") ? quest_data.get("item_4").item_name : "???")
+                            + "\" src=\"../../" + get_item_image_path(((quest_data.get("item_4").item_name !== "") ? quest_data.get("item_4").item_name.split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
+                        table_html += "<div class=\"quest-percent-text\">" + quest_data.get("item_4").drop_percent + "\u0025</div>";
+                        table_html += "</th>";
+                    }
+                    else
+                    {
+                        table_html += "<th></th>";
+                    }
 
                     // DIVIDER
                     table_html += "<th>";

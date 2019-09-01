@@ -369,6 +369,9 @@
         <br>
         <label for="filter-hard-quests"><span translate_text="settings_tab.show_hard_quests">Show Hard Quests</span></label>
         <input id="filter-hard-quests" type="radio" name="filter-option" value="hard-quests" onclick="change_quest_filter()">
+        <br>
+        <label for="filter-very-hard-quests"><span translate_text="settings_tab.show_very_hard_quests">Show Very Hard Quests</span></label>
+        <input id="filter-very-hard-quests" type="radio" name="filter-option" value="very-hard-quests" onclick="change_quest_filter()">
 
         <br><br>
 
@@ -647,10 +650,14 @@
                 build_character_preset_list();
                 update_progress();
 
+                // CHANGE EQUIPMENT DATA TO LEGACY IF NEEDED
                 if (equipment_data_type === equipment_data_version.LEGACY)
                 {
                     change_equipment_and_character_data();
                 }
+
+                // REVERT LANGUAGE TO PREVIOUS SESSION'S
+                auto_load_language();
             }
         }
 

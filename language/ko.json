@@ -96,6 +96,7 @@
     "show_all_quests": "모든 퀘스트 보기",
     "show_normal_quests": "일반 퀘스트 보기",
     "show_hard_quests": "하드 퀘스트 보기",
+    "show_very_hard_quests": "Show Very Hard Quests",
     "items_displayed_per_row": "한 줄에 표시될 아이템 개수 (1 - 15) :",
     "ignore_item_rarity_in_recipe": "다음 희귀 등급은 필요 아이템 목록에서 제외 :",
     "display_drop_percent": "드랍 확률 표시",
