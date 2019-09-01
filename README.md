@@ -16,8 +16,17 @@ Last Quest Update: `August 15, 2019`
 This is a tool to help you decide which is the best quest to farm to get
 whatever assortment of items you need to rank up your characters.
 
-`priconne-quest-helper` is based off the data from the `Japan` version of `Princess Connect! Re:Dive`<br>
-`Taiwan` or `Korean` servers are not be supported if they are differ in quest drops/rates.
+`priconne-quest-helper` is based off the data from the `Japan` version of `Princess Connect! Re:Dive`.
+
+## Equipment Data for Taiwan and Korean Servers
+As of `August 31, 2019`, the `Japan` servers for `Princess Connect! Re:Dive` have different costs for equipment.
+
+If you play on the `Taiwan` or `Korean` servers, you can continue to use the `Legacy Equipment Data` by:
+1) Go to the `Settings` tab
+2) Change `Equipment Data Type` to `Legacy Equipment Data (Before 2019.08.31) (TW / KR)`
+3) Save Settings (Optional)
+
+The `Recipe Data` and `Statistics` pages also have the ability to use the `Legacy Equipment Data` if desired.
 
 ## Recommended Procedure On How To Use This Tool
 1. Open the tool URL in your phone or PC browser: (<https://expugn.github.io/priconne-quest-helper/>)<br>

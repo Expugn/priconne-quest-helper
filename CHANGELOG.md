@@ -38,6 +38,11 @@ Equipment Cost Update
   - `og:image` width/height set to 50
   - Delete `twitter:image`
   - `twitter:card`: `summary_large_image` -> `summary`
+- Made some changes so that if the current equipment data had new equipment, switching to legacy equipment wouldn't break it
+  - Item tables are now re-built if equipment files change
+  - If a project is saved and contains newer equipment, using the legacy equipment data will just ignore it if a loading the project is attempted
+  - If the equipment data is switched while an item is being focused on, it will remove the focus
+  - If a item is currently required and the current equipment data doesn't know anything about it, it will remove it from the requirements
 ### Fixed
 - Fixed a bug where Add/Sub/Prioritize/Deprioritize buttons were disabled after changing languages when they were supposed to be enabled
 ### Removed

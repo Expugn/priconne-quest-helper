@@ -314,8 +314,6 @@ function change_display_option()
 
 function change_equipment_data()
 {
-
-
     if (document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value === equipment_data_version.LEGACY)
     {
         equipment_data_type = equipment_data_version.LEGACY;
@@ -344,6 +342,9 @@ function change_equipment_and_character_data()
         // READ NEW CHARACTER DATA
         read_character_data(character_data_type, function ()
         {
+            // RE-BUILD ITEM TABLES
+            build_item_tables();
+
             // UPDATE CURRENT REQUIRED INGREDIENTS VALUE
             build_data();
 
@@ -360,6 +361,15 @@ function change_equipment_and_character_data()
             else
             {
                 document.getElementById("character-preset-list-select").value = current_selected_character;
+            }
+
+            // REMOVE ITEM FOCUS
+            if (focused_item_name !== "")
+            {
+                focused_item_name = "";
+                focused_item_element_id = "";
+
+                console.log("[Item Focus] - No longer focusing on an item.");
             }
         });
     });

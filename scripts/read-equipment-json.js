@@ -95,6 +95,11 @@ function get_equipment_data(item_name, key)
     }
 }
 
+function check_if_equipment_exists(item_name)
+{
+    return equipment_map.has(item_name)
+}
+
 function reset_equipment_count()
 {
     return {

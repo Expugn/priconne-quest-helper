@@ -140,7 +140,10 @@ function load_project_data()
         // SET ITEM VALUES
         for (let [item_name, item_amount] of project_data)
         {
-            document.getElementById(get_equipment_data(item_name, "id") + "-amt").value = item_amount;
+            if (check_if_equipment_exists(item_name))
+            {
+                document.getElementById(get_equipment_data(item_name, "id") + "-amt").value = item_amount;
+            }
         }
 
         // UPDATE REQUESTED ITEMS
@@ -186,14 +189,17 @@ function add_project_data()
     // SET ITEM VALUES
     for (let [item_name, item_amount] of project_data)
     {
-        let current_amount = document.getElementById(get_equipment_data(item_name, "id") + "-amt").value;
-        if (current_amount >= 1)
+        if (check_if_equipment_exists(item_name))
         {
-            document.getElementById(get_equipment_data(item_name, "id") + "-amt").value = parseInt(current_amount) + parseInt(item_amount);
-        }
-        else
-        {
-            document.getElementById(get_equipment_data(item_name, "id") + "-amt").value = parseInt(item_amount);
+            let current_amount = document.getElementById(get_equipment_data(item_name, "id") + "-amt").value;
+            if (current_amount >= 1)
+            {
+                document.getElementById(get_equipment_data(item_name, "id") + "-amt").value = parseInt(current_amount) + parseInt(item_amount);
+            }
+            else
+            {
+                document.getElementById(get_equipment_data(item_name, "id") + "-amt").value = parseInt(item_amount);
+            }
         }
     }
 
@@ -211,11 +217,14 @@ function sub_project_data()
     // SET ITEM VALUES
     for (let [item_name, item_amount] of project_data)
     {
-        let current_amount = document.getElementById(get_equipment_data(item_name, "id") + "-amt").value;
-        if (current_amount >= 1)
+        if (check_if_equipment_exists(item_name))
         {
-            let new_value = parseInt(current_amount) - parseInt(item_amount);
-            document.getElementById(get_equipment_data(item_name, "id") + "-amt").value = ((new_value >= 0) ? new_value : 0);
+            let current_amount = document.getElementById(get_equipment_data(item_name, "id") + "-amt").value;
+            if (current_amount >= 1)
+            {
+                let new_value = parseInt(current_amount) - parseInt(item_amount);
+                document.getElementById(get_equipment_data(item_name, "id") + "-amt").value = ((new_value >= 0) ? new_value : 0);
+            }
         }
     }
 
