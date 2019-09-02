@@ -3,6 +3,16 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.1] - 2019-09-02
+### Added
+- New Text
+  - `character_names.chieru`
+  - `character_names.chloe`
+  - `character_names.yuni`
+  - `thematics.transfer_student`
+- Aoi (Transfer Student) blank character data
+### Changed
+- The Statistics page no longer counts characters that have their data incomplete
 
 ## [1.3.0] - 2019-08-31
 Equipment Cost Update

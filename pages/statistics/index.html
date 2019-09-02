@@ -257,40 +257,44 @@
 
         for (let [character_name, character_data] of character_map)
         {
-            let rank_counter = 1;
-
-            while (get_character_data(character_name, "rank_" + rank_counter) !== undefined)
+            // IF CHARACTER DATA IS NOT INCOMPLETE (INDICATED BY NOT HAVING A MISSING RANK 1 ITEM)
+            if (get_character_data(character_name, "rank_1")[0] !== "")
             {
-                // ITERATE THROUGH RANK ITEMS
-                for (let i = 0 ; i < 6 ; i++)
+                let rank_counter = 1;
+
+                while (get_character_data(character_name, "rank_" + rank_counter) !== undefined)
                 {
-                    let item = get_character_data(character_name, "rank_" + rank_counter)[i];
+                    // ITERATE THROUGH RANK ITEMS
+                    for (let i = 0 ; i < 6 ; i++)
+                    {
+                        let item = get_character_data(character_name, "rank_" + rank_counter)[i];
 
-                    // IF ITEM IS EMPTY, CHANGE TO PLACEHOLDER
-                    if (item === "")
-                    {
-                        item = "Placeholder";
-                    }
+                        // IF ITEM IS EMPTY, CHANGE TO PLACEHOLDER
+                        if (item === "")
+                        {
+                            item = "Placeholder";
+                        }
 
-                    // ADD ITEM TO COMPLETE EQUIPMENT MAP
-                    if (all_equipment_map.has(item))
-                    {
-                        all_equipment_map.set(item, all_equipment_map.get(item) + 1);
+                        // ADD ITEM TO COMPLETE EQUIPMENT MAP
+                        if (all_equipment_map.has(item))
+                        {
+                            all_equipment_map.set(item, all_equipment_map.get(item) + 1);
+                        }
+                        else
+                        {
+                            all_equipment_map.set(item, 1);
+                        }
                     }
-                    else
-                    {
-                        all_equipment_map.set(item, 1);
-                    }
+                    rank_counter++;
                 }
-                rank_counter++;
-            }
 
-            if (typeof highest_rank === "undefined")
-            {
-                highest_rank = rank_counter - 1;
-            }
+                if (typeof highest_rank === "undefined")
+                {
+                    highest_rank = rank_counter - 1;
+                }
 
-            character_counter++;
+                character_counter++;
+            }
         }
 
         return all_equipment_map;

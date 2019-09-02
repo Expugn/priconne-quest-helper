@@ -178,7 +178,9 @@
     "arisa": "아리사",
     "ayane": "아야네",
     "ayumi": "아유미",
+    "chieru": "Chieru",
     "chika": "치카",
+    "chloe": "Chloe",
     "christina": "크리스티나",
     "djeeta": "지타",
     "emilia": "에밀리아",
@@ -234,7 +236,8 @@
     "yori": "요리",
     "yui": "유이",
     "yukari": "유카리",
-    "yuki": "유키"
+    "yuki": "유키",
+    "yuni": "Yuni"
   },
 
   "thematics": {
@@ -243,6 +246,7 @@
     "new_year": "신년",
     "oedo": "오에도",
     "summer": "여름",
+    "transfer_student": "Transfer Student",
     "valentine": "발렌타인"
   }
 }

@@ -178,7 +178,9 @@
     "arisa": "Arisa",
     "ayane": "Ayane",
     "ayumi": "Ayumi",
+    "chieru": "Chieru",
     "chika": "Chika",
+    "chloe": "Chloe",
     "christina": "Christina",
     "djeeta": "Djeeta",
     "emilia": "Emilia",
@@ -234,7 +236,8 @@
     "yori": "Yori",
     "yui": "Yui",
     "yukari": "Yukari",
-    "yuki": "Yuki"
+    "yuki": "Yuki",
+    "yuni": "Yuni"
   },
 
   "thematics": {
@@ -243,6 +246,7 @@
     "new_year": "New Year",
     "oedo": "Oedo",
     "summer": "Summer",
+    "transfer_student": "Transfer Student",
     "valentine": "Valentine"
   }
 }

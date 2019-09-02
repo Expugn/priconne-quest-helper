@@ -99,6 +99,26 @@
     "rank_13": ["Armored Bow - Deus Fall", "Heavenly Red Bow", "Rage Queen Dress", "Abyss Bow", "Glorious King's Shield Bangle", "Fury Dragon Pendant"],
     "rank_14": ["", "Armored Bow - Deus Fall", "", "Heavenly Red Bow", "Sea Dragon God's Hair Ornament", "War God's Arm"]
   },
+  "transfer_student_aoi": {
+    "name": "Aoi",
+    "thematic": "Transfer Student",
+    "name_jp": "アオイ",
+    "thematic_jp": "編入生",
+    "rank_1": ["", "", "", "", "", ""],
+    "rank_2": ["", "", "", "", "", ""],
+    "rank_3": ["", "", "", "", "", ""],
+    "rank_4": ["", "", "", "", "", ""],
+    "rank_5": ["", "", "", "", "", ""],
+    "rank_6": ["", "", "", "", "", ""],
+    "rank_7": ["", "", "", "", "", ""],
+    "rank_8": ["", "", "", "", "", ""],
+    "rank_9": ["", "", "", "", "", ""],
+    "rank_10": ["", "", "", "", "", ""],
+    "rank_11": ["", "", "", "", "", ""],
+    "rank_12": ["", "", "", "", "", ""],
+    "rank_13": ["", "", "", "", "", ""],
+    "rank_14": ["", "", "", "", "", ""]
+  },
   "arisa": {
     "name": "Arisa",
     "thematic": "",
