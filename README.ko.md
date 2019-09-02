@@ -1,4 +1,4 @@
-![README Banner](https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/README_Banner.png)
+![README Banner](https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/README_Banner_ko.png)
 
 [🌎 English](README.md)
 
