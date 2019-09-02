@@ -1,5 +1,7 @@
 ![README Banner](https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/README_Banner.png)
 
+[🇰🇷 한국어](README.ko.md)
+
 # Princess Connect! Re:Dive Quest Helper<br>(priconne-quest-helper)
 
 URL: <https://expugn.github.io/priconne-quest-helper/><br>
@@ -67,12 +69,12 @@ The following can be submitted via `GitHub's Issue Tracker` or told to me (`S'pu
 #### Quest Data | Drop Rates | Equipment Recipes
 - `AppMedia`: [Website](https://appmedia.jp/priconne-redive)<br>
 - `GameWith`: [Website](https://gamewith.jp/pricone-re/)<br>
-- `Hatsune's Notes`: [Github](https://github.com/superk589/PrincessGuide)<br>
-- `Prcd-Wiki`: [Github](https://github.com/PaleNeutron/Pcrd-Wiki) | [Website (New)](https://johnlyu.com/en-us/) / [Website (Old)](https://pcrdwiki.xyz/)<br>
+- `Hatsune's Notes`: [GitHub](https://github.com/superk589/PrincessGuide)<br>
+- `Prcd-Wiki`: [GitHub](https://github.com/PaleNeutron/Pcrd-Wiki) | [Website (New)](https://johnlyu.com/en-us/) / [Website (Old)](https://pcrdwiki.xyz/)<br>
 - `rwiki`: [Website](https://rwiki.jp/priconne_redive/)<br>
 
 #### Images
-- `AssetStudio`: [Github](https://github.com/Perfare/AssetStudio)<br>
+- `AssetStudio`: [GitHub](https://github.com/Perfare/AssetStudio)<br>
   - Using the `DMM Game Player` version of `Princess Connect! Re:Dive`
       - Game Folder: `C:\Users\<NAME>\AppData\LocalLow\Cygames\PrincessConnectReDive` (Windows 10)
 - `Jiuhin#7786`

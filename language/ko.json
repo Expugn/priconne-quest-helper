@@ -95,8 +95,8 @@
     "highest_quest_score_displayed": "표시될 가장 높은 퀘스트 점수 :",
     "show_all_quests": "모든 퀘스트 보기",
     "show_normal_quests": "일반 퀘스트 보기",
-    "show_hard_quests": "하드 퀘스트 보기",
-    "show_very_hard_quests": "Show Very Hard Quests",
+    "show_hard_quests": "어려움 퀘스트 보기",
+    "show_very_hard_quests": "매우 어려움 퀘스트 보기",
     "items_displayed_per_row": "한 줄에 표시될 아이템 개수 (1 - 15) :",
     "ignore_item_rarity_in_recipe": "다음 희귀 등급은 필요 아이템 목록에서 제외 :",
     "display_drop_percent": "드랍 확률 표시",
@@ -114,9 +114,9 @@
     "display_saved_settings": "저장된 설정을 표시합니다.",
     "display_saved_settings_button": "저장된 설정 읽어오기",
 
-    "equipment_data_type_label": "Equipment Data Type:",
-    "equipment_data_current_select": "Current Equipment Data (After 2019.08.31) (JP)",
-    "equipment_data_legacy_select": "Legacy Equipment Data (Before 2019.08.31) (TW / KR)"
+    "equipment_data_type_label": "장비 데이터 종류 :",
+    "equipment_data_current_select": "현재 장비 데이터 (2019.08.31. 이후) (일본)",
+    "equipment_data_legacy_select": "이전 장비 데이터 (2019.08.31. 이전) (한국 / 대만)"
   },
 
   "other_tab": {
@@ -213,7 +213,7 @@
     "monika": "모니카",
     "muimi": "무이미",
     "nanaka": "나나카",
-    "neneka": "Neneka",
+    "neneka": "네네카",
     "ninon": "니논",
     "nozomi": "노조미",
     "pecorine": "페코린느",
