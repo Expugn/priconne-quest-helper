@@ -143,7 +143,9 @@
     "changelog": "Changelog",
 
     "data_management_title": "Data Management",
-    "export_saved_data": "Export Saved Data"
+    "export_saved_data": "Export Saved Data",
+
+    "title_background_title": "Title Background"
   },
 
   "toasts": {

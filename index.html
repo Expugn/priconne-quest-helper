@@ -68,6 +68,7 @@
     <script src="scripts/navigation-bar.js"></script>
     <script src="scripts/update-progress.js"></script>
     <script src="scripts/language.js"></script>
+    <script src="scripts/title-background.js"></script>
 
     <!-- CSS STYLE SHEETS -->
     <link rel="stylesheet" href="css/toastr.css"/>
@@ -553,6 +554,13 @@
 
         <br>
     </div>
+
+    <br>
+
+    <div id="title-background-div">
+        <h4><span translate_text="other_tab.title_background_title">Title Background</span></h4>
+        <select id="title-background-select" onchange="change_background()"></select>
+    </div>
 </div>
 
 <div class="data-management" style="display: none;">
@@ -628,6 +636,9 @@
         init_webp();
         init_images();
         add_update_date_to_footer();
+
+        init_background_select();
+        init_background();
 
         // MAKE SURE CHARACTER, EQUIPMENT, AND QUEST DATA ARE LOADED
         setup();

@@ -143,7 +143,9 @@
     "changelog": "変更点一覧",
 
     "data_management_title": "データ管理",
-    "export_saved_data": "保存したデータの書き出し"
+    "export_saved_data": "保存したデータの書き出し",
+
+    "title_background_title": "Title Background"
   },
 
   "toasts": {

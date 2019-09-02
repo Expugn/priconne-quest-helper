@@ -10,8 +10,12 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - `character_names.chloe`
   - `character_names.yuni`
   - `thematics.transfer_student`
+  - `other_tab.title_background_title`
 - Aoi (Transfer Student) blank character data
 - `README.ko.md` (README translated to Korean)
+- Added the ability for users to change the title background to previous backgrounds
+  - Title backgrounds may be changed via the `Title Background` select in the `Other` tab
+  - If a title background is changed, it will default to that title background whenever the page loads
 ### Changed
 - The Statistics page no longer counts characters that have their data incomplete
 - The Character Data page no longer displays the equipment for characters that have their data incomplete

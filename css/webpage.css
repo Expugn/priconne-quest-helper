@@ -72,24 +72,7 @@ body.no-background-body {
     cursor: pointer;
 }
 
-div.div-background-title.png {
-    background-image: url("./../images/webpage/still_502300601_blur.png");
-
-    height: 100%;
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 10%;
-
-    transition: all 0.4s ease-out;
-    overflow: hidden;
-
-    position: relative;
-}
-
-div.div-background-title.webp {
-    background-image: url("./../images/webpage_webp/still_502300601_blur.webp");
-
+div.div-background-title {
     height: 100%;
 
     background-repeat: no-repeat;
