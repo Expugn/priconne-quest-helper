@@ -96,7 +96,7 @@
     "show_all_quests": "全クエスト表示",
     "show_normal_quests": "NORMALクエスト表示",
     "show_hard_quests": "HARDクエスト表示",
-    "show_very_hard_quests": "Show Very Hard Quests",
+    "show_very_hard_quests": "VERY HARDクエスト表示",
     "items_displayed_per_row": "1行あたりの表示個数（1 - 15）：",
     "ignore_item_rarity_in_recipe": "この分類の装備は必要アイテムから除外：",
     "display_drop_percent": "ドロップ確率の表示",
@@ -114,9 +114,9 @@
     "display_saved_settings": "保存した設定を表示します。",
     "display_saved_settings_button": "設定読み込み",
 
-    "equipment_data_type_label": "Equipment Data Type:",
-    "equipment_data_current_select": "Current Equipment Data (After 2019.08.31) (JP)",
-    "equipment_data_legacy_select": "Legacy Equipment Data (Before 2019.08.31) (TW / KR)"
+    "equipment_data_type_label": "装備データのタイプ：",
+    "equipment_data_current_select": "現在の装備データ (2019.08.31. 以後) (JP)",
+    "equipment_data_legacy_select": "過去の装備データ (2019.08.31. 以前) (TW / KR)"
   },
 
   "other_tab": {
