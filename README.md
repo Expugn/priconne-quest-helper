@@ -57,7 +57,7 @@ Quest points is what determines how quests should be sorted in the `Recommended 
 `* Quest points can be shown by toggling the option in Settings.`
 
 ## Bugs, Errors, Feature Suggestions, etc.
-The following can be submitted via `GitHub's Issue Tracker` or told to me (`S'pugn#2612`) over `Discord`.
+The following can be submitted via `GitHub's Issue Tracker`, `Discord` (`S'pugn#2612`), or `Twitter` (`@eSpugn`).
 1. Bugs found while using the tool.
 2. Errors found in the data.
 3. Feature Suggestions on how to make using this tool more easier.

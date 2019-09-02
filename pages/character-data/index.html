@@ -158,76 +158,83 @@
                 table_html += "</th>";
                 */
 
-                for (let i = 0 ; i < num_of_ranks ; i++)
+                if (character_data_map.get("rank_1")[0] !== "")
                 {
-                    let rank_items = character_data_map.get("rank_" + (i + 1));
-                    let rank_color_html = "";
-
-                    switch (i + 1)
+                    for (let i = 0 ; i < num_of_ranks ; i++)
                     {
-                        case 1:
-                            rank_color_html = "background-color: rgba(90, 190, 255, 0.5) !important;";
-                            break;
-                        case 2:
-                        case 3:
-                            rank_color_html = "background-color: rgba(255, 182, 140, 0.5) !important;";
-                            break;
-                        case 4:
-                        case 5:
-                        case 6:
-                            rank_color_html = "background-color: rgba(198, 211, 214, 0.5) !important;";
-                            break;
-                        case 7:
-                        case 8:
-                        case 9:
-                        case 10:
-                            rank_color_html = "background-color: rgba(249, 194, 62, 0.5) !important;";
-                            break;
-                        case 11:
-                        case 12:
-                        case 13:
-                        case 14:
-                            rank_color_html = "background-color: rgba(231, 109, 255, 0.5) !important;";
-                            break;
-                        default:
-                            rank_color_html = "background-color: rgba(90, 190, 255, 0.5) !important;";
-                            break;
+                        let rank_items = character_data_map.get("rank_" + (i + 1));
+                        let rank_color_html = "";
+
+                        switch (i + 1)
+                        {
+                            case 1:
+                                rank_color_html = "background-color: rgba(90, 190, 255, 0.5) !important;";
+                                break;
+                            case 2:
+                            case 3:
+                                rank_color_html = "background-color: rgba(255, 182, 140, 0.5) !important;";
+                                break;
+                            case 4:
+                            case 5:
+                            case 6:
+                                rank_color_html = "background-color: rgba(198, 211, 214, 0.5) !important;";
+                                break;
+                            case 7:
+                            case 8:
+                            case 9:
+                            case 10:
+                                rank_color_html = "background-color: rgba(249, 194, 62, 0.5) !important;";
+                                break;
+                            case 11:
+                            case 12:
+                            case 13:
+                            case 14:
+                                rank_color_html = "background-color: rgba(231, 109, 255, 0.5) !important;";
+                                break;
+                            default:
+                                rank_color_html = "background-color: rgba(90, 190, 255, 0.5) !important;";
+                                break;
+                        }
+
+                        // CHARACTER RANK
+                        table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+                        table_html += "<h3 class=\"quest-title\" style=\"" + rank_color_html + "\">Rank " + (i + 1) + "</h3>";
+                        table_html += "</th>";
+
+                        // DIVIDER
+                        table_html += "<th>";
+                        table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
+                            + "\" src=\"\" alt=\"\">";
+                        table_html += "</th>";
+
+                        for (let a = 0 ; a < 6 ; a++)
+                        {
+                            if (rank_items[a] !== "")
+                            {
+                                table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+                                table_html += "<img class=\"quest-item-image\" title=\"" + rank_items[a]
+                                    + "\" src=\"../../" + get_item_image_path(rank_items[a].split(' ').join('_')) + "\" alt=\"\">";
+                                table_html += "</th>";
+                            }
+                            else
+                            {
+                                table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
+                                table_html += "<img class=\"quest-item-image low-opacity\" title=\"" + "Placeholder"
+                                    + "\" src=\"../../" + get_item_image_path("Placeholder") + "\" alt=\"\">";
+                                table_html += "</th>";
+                            }
+                        }
+
+                        table_html += "</tr><tr>";
                     }
 
-                    // CHARACTER RANK
-                    table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                    table_html += "<h3 class=\"quest-title\" style=\"" + rank_color_html + "\">Rank " + (i + 1) + "</h3>";
-                    table_html += "</th>";
-
-                    // DIVIDER
-                    table_html += "<th>";
-                    table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                        + "\" src=\"\" alt=\"\">";
-                    table_html += "</th>";
-
-                    for (let a = 0 ; a < 6 ; a++)
-                    {
-                        if (rank_items[a] !== "")
-                        {
-                            table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                            table_html += "<img class=\"quest-item-image\" title=\"" + rank_items[a]
-                                + "\" src=\"../../" + get_item_image_path(rank_items[a].split(' ').join('_')) + "\" alt=\"\">";
-                            table_html += "</th>";
-                        }
-                        else
-                        {
-                            table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                            table_html += "<img class=\"quest-item-image low-opacity\" title=\"" + "Placeholder"
-                                + "\" src=\"../../" + get_item_image_path("Placeholder") + "\" alt=\"\">";
-                            table_html += "</th>";
-                        }
-                    }
-
-                    table_html += "</tr><tr>";
+                    // END TABLE ROW
+                    table_html += "</tr> <tr> <th><br><br><br></th> <th></th> <th></th> <th></th> <th></th> <th></th> <th></th> </tr>";
                 }
-
-                // END TABLE ROW
-                table_html += "</tr> <tr> <th><br><br><br></th> <th></th> <th></th> <th></th> <th></th> <th></th> <th></th> </tr>";
+                else
+                {
+                    table_html += "</tr><th><br><br><br>";
+                }
             }
             table_html += "</body>";
 

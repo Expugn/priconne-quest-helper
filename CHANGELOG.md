@@ -11,8 +11,23 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - `character_names.yuni`
   - `thematics.transfer_student`
 - Aoi (Transfer Student) blank character data
+- `README.ko.md` (README translated to Korean)
 ### Changed
 - The Statistics page no longer counts characters that have their data incomplete
+- The Character Data page no longer displays the equipment for characters that have their data incomplete
+- `Japanese` Translation Updated:
+  - `settings_tab.show_very_hard_quests`
+  - `settings_tab.equipment_data_type_label`
+  - `settings_tab.equipment_data_current_select`
+  - `settings_tab.equipment_data_legacy_select`
+- `Korean` Translation Updated:
+  - `settings_tab.show_very_hard_quests`
+  - `settings_tab.equipment_data_type_label`
+  - `settings_tab.equipment_data_current_select`
+  - `settings_tab.equipment_data_legacy_select`
+  - `character_names.neneka`
+### Removed
+- `scripts/jquery-3.3.1.js`
 
 ## [1.3.0] - 2019-08-31
 Equipment Cost Update
