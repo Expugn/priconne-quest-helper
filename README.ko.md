@@ -66,11 +66,11 @@ URL: <https://expugn.github.io/priconne-quest-helper/><br>
 ## 정보 및 데이터 크레딧
 
 #### 퀘스트 데이터 | 드롭 확률 | 장비 합성 데이터
-- `AppMedia`: [Website](https://appmedia.jp/priconne-redive)<br>
-- `GameWith`: [Website](https://gamewith.jp/pricone-re/)<br>
-- `Hatsune's Notes`: [Github](https://github.com/superk589/PrincessGuide)<br>
-- `Prcd-Wiki`: [Github](https://github.com/PaleNeutron/Pcrd-Wiki) | [Website (New)](https://johnlyu.com/en-us/) / [Website (Old)](https://pcrdwiki.xyz/)<br>
-- `rwiki`: [Website](https://rwiki.jp/priconne_redive/)<br>
+- `AppMedia`: [웹사이트](https://appmedia.jp/priconne-redive)<br>
+- `GameWith`: [웹사이트](https://gamewith.jp/pricone-re/)<br>
+- `Hatsune's Notes`: [GitHub](https://github.com/superk589/PrincessGuide)<br>
+- `Prcd-Wiki`: [GitHub](https://github.com/PaleNeutron/Pcrd-Wiki) | [현 웹사이트](https://johnlyu.com/en-us/) / [구 웹사이트](https://pcrdwiki.xyz/)<br>
+- `rwiki`: [웹사이트](https://rwiki.jp/priconne_redive/)<br>
 
 #### 이미지
 - `AssetStudio`: [GitHub](https://github.com/Perfare/AssetStudio)<br>
