@@ -28,12 +28,22 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - `settings_tab.equipment_data_type_label`
   - `settings_tab.equipment_data_current_select`
   - `settings_tab.equipment_data_legacy_select`
+  - `settings_tab.lowest_quest_score_displayed`
+  - `settings_tab.highest_quest_score_displayed`
+  - `other_tab.title_background_title`
 - `Korean` Translation Updated:
   - `settings_tab.show_very_hard_quests`
   - `settings_tab.equipment_data_type_label`
   - `settings_tab.equipment_data_current_select`
   - `settings_tab.equipment_data_legacy_select`
+  - `settings_tab.lowest_quest_score_displayed`
+  - `settings_tab.highest_quest_score_displayed`
+  - `other_tab.title_background_title`
+  - `character_names.chieru`
+  - `character_names.chloe`
   - `character_names.neneka`
+  - `character_names.yuni`
+  - `thematics.transfer_student`
 ### Fixed
 - Incorrect Language File Text
   - `settings_tab.lowest_quest_score_displayed` -> `settings_tab.lowest_quest_chapter_displayed`
