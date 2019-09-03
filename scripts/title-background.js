@@ -3,10 +3,13 @@ const backgrounds = Object.freeze({
     SUMMER_GOURMET_FOOD_PALACE: 'Summer_With_Gourmet_Food_Palace',
     SUMMER_CAON: 'Summer_With_Caon',
     SUMMER_MERCURIUS_FOUNDATION: 'Summer_With_Mercurius_Foundation',
-    FRIENDSHIP_CLUB: 'Friendship_Club'
+    FRIENDSHIP_CLUB: 'Friendship_Club',
+    AOI_DIARY: 'Aoi_Diary',
+    MANARIA_FRIENDS: 'Manaria_Friends',
+    RE_ZERO: 'Re_Zero'
 });
 
-const default_background = backgrounds.FRIENDSHIP_CLUB;
+const default_background = backgrounds.AOI_DIARY;
 
 function init_background_select()
 {
@@ -59,6 +62,7 @@ function init_background()
         {
             // USE DEFAULT BACKGROUND
             set_title_background(default_background);
+            document.getElementById("title-background-select").value = default_background;
         }
     }
 }
@@ -73,7 +77,20 @@ function change_background()
     // SAVE PREFERRED BACKGROUND TO LOCALSTORAGE
     if (typeof(Storage) !== "undefined")
     {
-        localStorage.setItem("background", background_image_name);
+        if (background_image_name === default_background)
+        {
+            // REMOVE LOCALSTORAGE SAVED DATA IF BACKGROUND IS CHANGED TO DEFAULT
+            if (localStorage.getItem("background") !== null)
+            {
+                localStorage.removeItem("background");
+            }
+        }
+        else
+        {
+            // SAVE DESIRED BACKGROUND TO LOCALSTORAGE
+            localStorage.setItem("background", background_image_name);
+        }
+
     }
 }
 

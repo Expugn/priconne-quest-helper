@@ -16,6 +16,10 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Added the ability for users to change the title background to previous backgrounds
   - Title backgrounds may be changed via the `Title Background` select in the `Other` tab
   - If a title background is changed, it will default to that title background whenever the page loads
+- New Title Background Options
+  - AOI_DIARY (New Default)
+  - MANARIA_FRIENDS
+  - RE_ZERO
 ### Changed
 - The Statistics page no longer counts characters that have their data incomplete
 - The Character Data page no longer displays the equipment for characters that have their data incomplete
@@ -31,7 +35,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - `settings_tab.equipment_data_legacy_select`
   - `character_names.neneka`
 ### Fixed
-- `settings_tab.lowest_quest_score_displayed` and `settings_tab.highest_quest_score_displayed` should have been `settings_tab.lowest_quest_chapter_displayed` and `settings_tab.highest_quest_chapter_displayed`
+- Incorrect Language File Text
+  - `settings_tab.lowest_quest_score_displayed` -> `settings_tab.lowest_quest_chapter_displayed`
+  - `settings_tab.highest_quest_score_displayed` -> `settings_tab.highest_quest_chapter_displayed`
 ### Removed
 - `scripts/jquery-3.3.1.js`
 
