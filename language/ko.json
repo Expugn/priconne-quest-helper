@@ -91,8 +91,8 @@
     "sort_by_ascending_quest_list": "오름차순 정렬: 퀘스트 목록 (1장 -> 2장 -> ...)",
     "sort_by_ascending_quest_score": "오름차순 정렬: 퀘스트 점수 (0.5 -> 0.75 -> ...)",
     "hide_quest_score": "퀘스트 점수 숨기기",
-    "lowest_quest_chapter_displayed": "표시될 가장 낮은 퀘스트 점수 :",
-    "highest_quest_chapter_displayed": "표시될 가장 높은 퀘스트 점수 :",
+    "lowest_quest_chapter_displayed": "표시될 가장 낮은 퀘스트 :",
+    "highest_quest_chapter_displayed": "표시될 가장 높은 퀘스트 :",
     "show_all_quests": "모든 퀘스트 보기",
     "show_normal_quests": "일반 퀘스트 보기",
     "show_hard_quests": "어려움 퀘스트 보기",
@@ -145,7 +145,7 @@
     "data_management_title": "데이터 관리",
     "export_saved_data": "저장된 데이터 내보내기",
 
-    "title_background_title": "Title Background"
+    "title_background_title": "타이틀 배경 이미지"
   },
 
   "toasts": {
@@ -180,9 +180,9 @@
     "arisa": "아리사",
     "ayane": "아야네",
     "ayumi": "아유미",
-    "chieru": "Chieru",
+    "chieru": "치에루",
     "chika": "치카",
-    "chloe": "Chloe",
+    "chloe": "클로이",
     "christina": "크리스티나",
     "djeeta": "지타",
     "emilia": "에밀리아",
@@ -239,7 +239,7 @@
     "yui": "유이",
     "yukari": "유카리",
     "yuki": "유키",
-    "yuni": "Yuni"
+    "yuni": "유니"
   },
 
   "thematics": {
@@ -248,7 +248,7 @@
     "new_year": "신년",
     "oedo": "오에도",
     "summer": "여름",
-    "transfer_student": "Transfer Student",
+    "transfer_student": "편입생",
     "valentine": "발렌타인"
   }
 }

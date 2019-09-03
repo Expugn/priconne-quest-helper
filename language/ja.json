@@ -91,8 +91,8 @@
     "sort_by_ascending_quest_list": "昇順：クエスト順序（1章→2章→…）",
     "sort_by_ascending_quest_score": "昇順：クエストスコア（0.5→0.75→…）",
     "hide_quest_score": "クエストスコアを隠す",
-    "lowest_quest_chapter_displayed": "表示する最小クエストスコア：",
-    "highest_quest_chapter_displayed": "表示する最大クエストスコア：",
+    "lowest_quest_chapter_displayed": "表示する最低クエスト：",
+    "highest_quest_chapter_displayed": "表示する最高クエスト：",
     "show_all_quests": "全クエスト表示",
     "show_normal_quests": "NORMALクエスト表示",
     "show_hard_quests": "HARDクエスト表示",
@@ -145,7 +145,7 @@
     "data_management_title": "データ管理",
     "export_saved_data": "保存したデータの書き出し",
 
-    "title_background_title": "Title Background"
+    "title_background_title": "タイトルの背景"
   },
 
   "toasts": {
