@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.2] - 2019-09-03
+### Added
+- Character Data for Aoi (Transfer Student)
+
 ## [1.3.1] - 2019-09-02
 ### Added
 - New Text
