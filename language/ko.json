@@ -145,7 +145,7 @@
     "data_management_title": "데이터 관리",
     "export_saved_data": "저장된 데이터 내보내기",
 
-    "title_background_title": "Title Background"
+    "title_background_title": "타이틀 배경 이미지"
   },
 
   "toasts": {
@@ -180,9 +180,9 @@
     "arisa": "아리사",
     "ayane": "아야네",
     "ayumi": "아유미",
-    "chieru": "Chieru",
+    "chieru": "치에루",
     "chika": "치카",
-    "chloe": "Chloe",
+    "chloe": "클로이",
     "christina": "크리스티나",
     "djeeta": "지타",
     "emilia": "에밀리아",
@@ -239,7 +239,7 @@
     "yui": "유이",
     "yukari": "유카리",
     "yuki": "유키",
-    "yuni": "Yuni"
+    "yuni": "유니"
   },
 
   "thematics": {
@@ -248,7 +248,7 @@
     "new_year": "신년",
     "oedo": "오에도",
     "summer": "여름",
-    "transfer_student": "Transfer Student",
+    "transfer_student": "편입생",
     "valentine": "발렌타인"
   }
 }
