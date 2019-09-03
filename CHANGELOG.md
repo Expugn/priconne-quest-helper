@@ -30,6 +30,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - `settings_tab.equipment_data_current_select`
   - `settings_tab.equipment_data_legacy_select`
   - `character_names.neneka`
+### Fixed
+- `settings_tab.lowest_quest_score_displayed` and `settings_tab.highest_quest_score_displayed` should have been `settings_tab.lowest_quest_chapter_displayed` and `settings_tab.highest_quest_chapter_displayed`
 ### Removed
 - `scripts/jquery-3.3.1.js`
 
