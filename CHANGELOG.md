@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [1.3.3] - 2019-09-14
+Save Data Purge #1: `389` / `502` Files Deleted
 ### Changed
 - `priconne-quest-helper` Saved Data will now be occasionally purged
   - Any URL that is a month old (2,592,000,000 milliseconds) will be deleted
