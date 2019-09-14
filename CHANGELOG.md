@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.3] - 2019-09-14
+### Changed
+- `priconne-quest-helper` Saved Data will now be occasionally purged
+  - Any URL that is a month old (2,592,000,000 milliseconds) will be deleted
+  - This is a manual process, so **URLs are not deleted immediately**
+  - Any expired URL will return a `404` error if it is attempted to load
+  - The note that states that "any month+ old URL generated will be at risk of removal" has been restored to the export-data page 
+
 ## [1.3.2] - 2019-09-03
 ### Added
 - Character Data for Aoi (Transfer Student)
@@ -617,7 +625,7 @@ Initial private-release. Shared news of development in the Salivation/Re:Divine/
 ### Fixed
 - Fixed some quest data issues
 
-## [0.0.3] - 2019-01-19
+## [0.0.4] - 2019-01-19
 ### Added
 - Quest Chapter 6 Hard Data
 - Quest Chapter 7 Normal/Hard Data
@@ -636,7 +644,7 @@ Initial private-release. Shared news of development in the Salivation/Re:Divine/
 - Fixed an issue with mobile users not being able to trigger the title hover
 - Fixed some quest data issues
 
-## [0.0.2] - 2019-01-18
+## [0.0.3] - 2019-01-18
 ### Added
 - Equipment data for Gold rarity items
 - Equipment data for Purple rarity items
