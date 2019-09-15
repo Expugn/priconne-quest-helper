@@ -239,6 +239,26 @@
     "rank_13": ["Heaven Rod - Stellar Sphere", "Atlantis Rod", "Blood Ruby Heel", "Holy Prayer's Crown", "Glorious King's Shield Bangle", "Divine Beast's Prayer"],
     "rank_14": ["", "Heaven Rod - Stellar Sphere", "", "Blood Ruby Heel", "Sea Dragon God's Hair Ornament", "Sophos Bracelet"]
   },
+  "chloe": {
+    "name": "Chloe",
+    "thematic": "",
+    "name_jp": "クロエ",
+    "thematic_jp": "",
+    "rank_1": ["", "", "", "", "", ""],
+    "rank_2": ["", "", "", "", "", ""],
+    "rank_3": ["", "", "", "", "", ""],
+    "rank_4": ["", "", "", "", "", ""],
+    "rank_5": ["", "", "", "", "", ""],
+    "rank_6": ["", "", "", "", "", ""],
+    "rank_7": ["", "", "", "", "", ""],
+    "rank_8": ["", "", "", "", "", ""],
+    "rank_9": ["", "", "", "", "", ""],
+    "rank_10": ["", "", "", "", "", ""],
+    "rank_11": ["", "", "", "", "", ""],
+    "rank_12": ["", "", "", "", "", ""],
+    "rank_13": ["", "", "", "", "", ""],
+    "rank_14": ["", "", "", "", "", ""]
+  },
   "christina": {
     "name": "Christina",
     "thematic": "",

@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.4] - 2019-09-15
+### Added
+- Blank Character Data for Chloe
+
 ## [1.3.3] - 2019-09-14
 Save Data Purge #1: `389` / `502` Files Deleted
 ### Changed
