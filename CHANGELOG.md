@@ -10,9 +10,15 @@ Quest Update (2019-09-16)
   - NIGHTMARE (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Nightmare.png>
 - New Equipment
 - Quest Chapter 27 Normal/Hard data
+- New Character Equipment
+- Character Data for Chloe
 ### Changed
 - Removed a debug message
 - Fixed broken background links in Changelog
+### Fixed
+- Fixed an issue with Chrome users where if only HARD/VERY HARD quests were displayed, the character shard and drop rate would be out of place
+  - This visual error wasn't present when a NORMAL quest was available.
+  - Tested on Samsung Internet and Microsoft Edge; both browsers did not have this visual error.
 
 ## [1.3.4] - 2019-09-15
 ### Added

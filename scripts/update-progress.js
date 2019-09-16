@@ -8,7 +8,7 @@ function update_progress()
     const hard_quest_updated = true;
     const equipment_selection_updated = true;
     const english_translated_names_updated = true;
-    const rank_equipment_updated = false;
+    const rank_equipment_updated = true;
     // and README
     // and Settings Quest Min/Max
     // and Presets Min/Max

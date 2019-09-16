@@ -261,11 +261,9 @@ img.priority-quest-item {
 }
 
 .quest-character-shard-drop-rate {
-    margin-left: -500px;
-    margin-right: -500px;
     position: relative;
     font-size: 14px;
-    left: -527px;
+    left: -33px;
     top: -5px;
 
     text-shadow: 1px 1px 4px #000000,
