@@ -505,7 +505,6 @@ function build_recommended_quest_table(all_recipe_maps_array)
 
         if (quest_list_has_very_hard)
         {
-            console.log("quest list has very hard quest");
             let collection_of_item_4_elems = document.getElementsByClassName("item-4-element");
             for (let i = 0 ; i < collection_of_item_4_elems.length ; i++)
             {

@@ -6,10 +6,11 @@ const backgrounds = Object.freeze({
     FRIENDSHIP_CLUB: 'Friendship_Club',
     AOI_DIARY: 'Aoi_Diary',
     MANARIA_FRIENDS: 'Manaria_Friends',
-    RE_ZERO: 'Re_Zero'
+    RE_ZERO: 'Re_Zero',
+    NIGHTMARE: 'Nightmare'
 });
 
-const default_background = backgrounds.AOI_DIARY;
+const default_background = backgrounds.NIGHTMARE;
 
 function init_background_select()
 {

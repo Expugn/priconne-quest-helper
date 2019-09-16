@@ -91,8 +91,6 @@ lerna-debug.log
 Thumbs.db
 
 # Private Information Files
-scripts/private-information.js
-pages/dev/index.html
 project_files/
-language/te.json
+pages/dev/index.html
 pages/dev/test.css

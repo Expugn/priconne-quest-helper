@@ -3,6 +3,16 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.5] - 2019-09-16
+Quest Update (2019-09-16)
+### Added
+- New Title Background Option: 
+  - NIGHTMARE (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Nightmare.png>
+- New Equipment
+### Changed
+- Removed a debug message
+- Fixed broken background links in Changelog
+
 ## [1.3.4] - 2019-09-15
 ### Added
 - Blank Character Data for Chloe
@@ -34,9 +44,9 @@ Save Data Purge #1: `389` / `502` Files Deleted
   - Title backgrounds may be changed via the `Title Background` select in the `Other` tab
   - If a title background is changed, it will default to that title background whenever the page loads
 - New Title Background Options
-  - AOI_DIARY (New Default)
-  - MANARIA_FRIENDS
-  - RE_ZERO
+  - AOI_DIARY (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Aoi_Diary.png>
+  - MANARIA_FRIENDS <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Manaria_Friends.png>
+  - RE_ZERO <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Re_Zero.png>
 ### Changed
 - The Statistics page no longer counts characters that have their data incomplete
 - The Character Data page no longer displays the equipment for characters that have their data incomplete
@@ -78,7 +88,7 @@ Equipment Cost Update
   - A select option to switch between current or legacy equipment is added to the top of the page.
 - Legacy equipment data support for priconne-quest-helper/pages/statistics/
   - A select option to switch between current or legacy equipment is added to the top of the page.
-- New Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/still_502300601_blur.png>
+- New Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Friendship_Club.png>
 - New Text:
   - `settings_tab.show_very_hard_quests`
   - `settings_tab.equipment_data_type_label`
@@ -119,7 +129,7 @@ Equipment Cost Update
 - Fixed a bug where Add/Sub/Prioritize/Deprioritize buttons were disabled after changing languages when they were supposed to be enabled
 - Fixed an issue with memory pieces not being able to have `500` selected
 ### Removed
-- Old Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/still_500500701_blur.png>
+- Old Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Summer_With_Mercurius_Foundation.png>
 - favicon.ico because it was too low quality
 
 ## [1.2.1] - 2019-08-29
@@ -145,7 +155,7 @@ Quest Update (2019-08-15)
     - Pull Request: <https://github.com/Expugn/priconne-quest-helper/pull/13>
 - New Text:
   - `presets_tab.load_items_and_create_project_button`
-- New Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/still_500500701_blur.png>
+- New Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Summer_With_Mercurius_Foundation.png>
 - Character Data for Maho (Summer)
 - New r14 Equipment Data for all characters
 - New Equipment
@@ -157,7 +167,7 @@ Quest Update (2019-08-15)
 ### Fixed
 - Fixed a bug where completing a project wouldn't enable the `Complete Project` button
 ### Removed
-- Old Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/still_unit_110531_blur.png>
+- Old Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Summer_With_Caon.png>
 
 ## [1.1.2] - 2019-08-12
 ### Added
@@ -211,9 +221,9 @@ Quest Update (2019-08-15)
 ### Added
 - Character data for Makoto (Summer) and Kaori (Summer)
 ### Changed
-- New Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/still_unit_110531_blur.png>
+- New Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Summer_With_Caon.png>
 ### Removed
-- Old Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/still_500400703_blur.png>
+- Old Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Summer_With_Gourmet_Food_Palace.png>
 
 ## [1.0.1] - 2019-07-23
 ### Changed
@@ -258,10 +268,10 @@ Quest Update (2019-07-18)
 ### Added
 - Character Data for Suzuna (Summer) and Io (Summer)
 ### Changed
-- New Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/still_500400703_blur.png>
+- New Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Summer_With_Gourmet_Food_Palace.png>
 - The title now goes invisible if the title background area is hovered over instead of going invisible when the cursor is over the text
 ### Removed
-- Old Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/still_108200401_blur_2.png>
+- Old Title Background: <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Miyako.png>
 
 ## [0.9.3] - 2019-06-29
 ### Added

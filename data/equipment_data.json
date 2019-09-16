@@ -1547,114 +1547,156 @@
     "req_pieces": 20,
     "req_items": [ "Great Sage Gem", "Grand Magician's Robe" ]
   },
+  "senka_dance_armor": {
+    "name": "Senka Dance Armor",
+    "id": "purple-51",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": [ "Princess' Dagger" ]
+  },
+  "extremely_dark_clothes": {
+    "name": "Extremely Dark Clothes",
+    "id": "purple-52",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": [ "Hawk God's Sword" ]
+  },
+  "furious_wind_armor": {
+    "name": "Furious Wind Armor",
+    "id": "purple-53",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Queen's Battle Axe", "Vermilion Plate" ]
+  },
+  "refreshing_ice_garment": {
+    "name": "Refreshing Ice Garment",
+    "id": "purple-54",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Viridian Spiritual Dress", "Saint's Robe" ]
+  },
   "infernal_greaves": {
     "name": "Infernal Greaves",
-    "id": "purple-51",
+    "id": "purple-55",
     "has_fragments": true,
     "req_pieces": 20,
     "req_items": [ "Angel Boots", "Devil's Bow" ]
   },
   "blood_ruby_heel": {
     "name": "Blood Ruby Heel",
-    "id": "purple-52",
+    "id": "purple-56",
     "has_fragments": true,
     "req_pieces": 20,
     "req_items": [ "Aquarius Boots", "Cupid Robe" ]
   },
+  "sky_soaring_gold_shoes": {
+    "name": "Sky Soaring Gold Shoes",
+    "id": "purple-57",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": [ "Angel Bow" ]
+  },
   "holy_prayers_crown": {
     "name": "Holy Prayer's Crown",
-    "id": "purple-53",
+    "id": "purple-58",
     "has_fragments": true,
     "req_pieces": 20,
     "req_items": [ "Pope's Hood", "Lion King's Protective Charm" ]
   },
   "royal_guard_hat": {
     "name": "Royal Guard Hat",
-    "id": "purple-54",
+    "id": "purple-59",
     "has_fragments": true,
     "req_pieces": 20,
     "req_items": [ "Princess' Dagger", "Witch Hat" ]
   },
+  "prosperity_veil": {
+    "name": "Prosperity Veil",
+    "id": "purple-60",
+    "has_fragments": true,
+    "req_pieces": 20,
+    "req_items": [ "Dark Terror Dress", "Pope's Hood" ]
+  },
   "millennium_earrings": {
     "name": "Millennium Earrings",
-    "id": "purple-55",
+    "id": "purple-61",
     "has_fragments": true,
     "req_pieces": 30,
     "req_items": []
   },
   "ocean_gods_earrings": {
     "name": "Ocean God's Earrings",
-    "id": "purple-56",
+    "id": "purple-62",
     "has_fragments": true,
     "req_pieces": 30,
     "req_items": []
   },
   "fairy_kings_guardian_stone": {
     "name": "Fairy King's Guardian Stone",
-    "id": "purple-57",
+    "id": "purple-63",
     "has_fragments": true,
     "req_pieces": 30,
     "req_items": []
   },
   "fury_dragon_pendant": {
     "name": "Fury Dragon Pendant",
-    "id": "purple-58",
+    "id": "purple-64",
     "has_fragments": true,
     "req_pieces": 30,
     "req_items": []
   },
   "divine_beasts_prayer": {
     "name": "Divine Beast's Prayer",
-    "id": "purple-59",
+    "id": "purple-65",
     "has_fragments": true,
     "req_pieces": 30,
     "req_items": []
   },
   "mermaid_princess_spirit_tear": {
     "name": "Mermaid Princess' Spirit Tear",
-    "id": "purple-60",
+    "id": "purple-66",
     "has_fragments": true,
     "req_pieces": 30,
     "req_items": []
   },
   "war_gods_arm": {
     "name": "War God's Arm",
-    "id": "purple-61",
+    "id": "purple-67",
     "has_fragments": true,
     "req_pieces": 30,
     "req_items": []
   },
   "sophos_bracelet": {
     "name": "Sophos Bracelet",
-    "id": "purple-62",
+    "id": "purple-68",
     "has_fragments": true,
     "req_pieces": 30,
     "req_items": []
   },
   "glorious_kings_shield_bangle": {
     "name": "Glorious King's Shield Bangle",
-    "id": "purple-63",
+    "id": "purple-69",
     "has_fragments": true,
     "req_pieces": 30,
     "req_items": []
   },
   "flowering_fire_peony": {
     "name": "Flowering Fire Peony",
-    "id": "purple-64",
+    "id": "purple-70",
     "has_fragments": true,
     "req_pieces": 30,
     "req_items": []
   },
   "sea_dragon_gods_hair_ornament": {
     "name": "Sea Dragon God's Hair Ornament",
-    "id": "purple-65",
+    "id": "purple-71",
     "has_fragments": true,
     "req_pieces": 30,
     "req_items": []
   },
   "little_ice_princess_knot": {
     "name": "Little Ice Princess' Knot",
-    "id": "purple-66",
+    "id": "purple-72",
     "has_fragments": true,
     "req_pieces": 30,
     "req_items": []
