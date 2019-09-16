@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+}
+
+.overlay-main {
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scroll: touch;
+}
+
+.target-image {
+    width: 50px;
+}
+
+.target-name {
+    font-size: 30px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 12px;
+}
+
+.equipment-overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.overlay-content {
+    height: 100%;
+    overflow-y: scroll;
+}
