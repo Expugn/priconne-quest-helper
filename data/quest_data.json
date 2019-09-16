@@ -2861,5 +2861,127 @@
     "char_shard": {"item_name": "Anne Shard", "drop_percent": 54},
     "subdrops": [ "Mermaid Princess' Spirit Tear Fragment", "Divine Blossom Rod Fragment", "Crimson Claw Fragment", "Holy Prayer's Crown Fragment", "Fury Dragon Pendant Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "27-1": {
+    "item_1": {"item_name": "Sea Dragon God's Hair Ornament Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Twin God Sword of Lightning Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Armored Bow - Deus Fall Fragment", "drop_percent": 24},
+    "subdrops": [ "Fury Dragon Pendant Fragment", "Divine Judgement Axe Fragment", "Nine Heavens' Armor Fragment", "Lava Edge Fragment", "Gale Stinger Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "27-2": {
+    "item_1": {"item_name": "Flowering Fire Peony Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Konominato Sword - Aqua Ruler Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "God Roar Axe - Terra Break Fragment", "drop_percent": 24},
+    "subdrops": [ "Genesis Rod Fragment", "Abyss Bow Fragment", "Maiden Cloth Fragment", "Empress Robe Fragment", "Holy Sakura's Armor Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "27-3": {
+    "item_1": {"item_name": "Little Ice Princess' Knot Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Black Snake Dragon's Staff Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Divine Spear - Doom Pain Fragment", "drop_percent": 24},
+    "subdrops": [ "Mermaid Princess' Spirit Tear Fragment", "Divine Blossom Rod Fragment", "Crimson Claw Fragment", "Holy Prayer's Crown Fragment", "Fury Dragon Pendant Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "27-4": {
+    "item_1": {"item_name": "Furious Wind Armor Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Sea Dragon God's Hair Ornament Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Ifrit Katana - Ignite Fragment", "drop_percent": 24},
+    "subdrops": [ "Dawn's Holy Sword Fragment", "Divine Beast's Prayer Fragment", "Infernal Greaves Fragment", "Flowing Azure Blade Fragment", "Fury Dragon Pendant Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "27-5": {
+    "item_1": {"item_name": "Refreshing Ice Garment Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Flowering Fire Peony Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Storm God Tempest Gear Fragment", "drop_percent": 24},
+    "subdrops": [ "Mermaid Princess' Spirit Tear Fragment", "Divine Blossom Rod Fragment", "Crimson Claw Fragment", "Holy Prayer's Crown Fragment", "Fury Dragon Pendant Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "27-6": {
+    "item_1": {"item_name": "Sky Soaring Gold Shoes Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Little Ice Princess' Knot Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Heaven Rod - Stellar Sphere Fragment", "drop_percent": 24},
+    "subdrops": [ "Genesis Rod Fragment", "Abyss Bow Fragment", "Maiden Cloth Fragment", "Empress Robe Fragment", "Holy Sakura's Armor Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "27-7": {
+    "item_1": {"item_name": "Prosperity Veil Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Sea Dragon God's Hair Ornament Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Twin God Sword of Lightning Fragment", "drop_percent": 24},
+    "subdrops": [ "Mermaid Princess' Spirit Tear Fragment", "Divine Blossom Rod Fragment", "Crimson Claw Fragment", "Holy Prayer's Crown Fragment", "Fury Dragon Pendant Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "27-8": {
+    "item_1": {"item_name": "Senka Dance Armor Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Flowering Fire Peony Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Konominato Sword - Aqua Ruler Fragment", "drop_percent": 24},
+    "subdrops": [ "Dawn's Holy Sword Fragment", "Divine Beast's Prayer Fragment", "Infernal Greaves Fragment", "Flowing Azure Blade Fragment", "Fury Dragon Pendant Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "27-9": {
+    "item_1": {"item_name": "Extremely Dark Clothes Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Little Ice Princess' Knot Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Black Snake Dragon's Staff Fragment", "drop_percent": 24},
+    "subdrops": [ "Fury Dragon Pendant Fragment", "Divine Judgement Axe Fragment", "Nine Heavens' Armor Fragment", "Lava Edge Fragment", "Gale Stinger Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "27-10": {
+    "item_1": {"item_name": "Refreshing Ice Garment Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Sea Dragon God's Hair Ornament Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "God Roar Axe - Terra Break Fragment", "drop_percent": 24},
+    "subdrops": [ "Genesis Rod Fragment", "Abyss Bow Fragment", "Maiden Cloth Fragment", "Empress Robe Fragment", "Holy Sakura's Armor Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "27-11": {
+    "item_1": {"item_name": "Sky Soaring Gold Shoes Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Flowering Fire Peony Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Divine Spear - Doom Pain Fragment", "drop_percent": 24},
+    "subdrops": [ "Mermaid Princess' Spirit Tear Fragment", "Divine Blossom Rod Fragment", "Crimson Claw Fragment", "Holy Prayer's Crown Fragment", "Fury Dragon Pendant Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "27-12": {
+    "item_1": {"item_name": "Prosperity Veil Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Sky Soaring Gold Shoes Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Little Ice Princess' Knot Fragment", "drop_percent": 24},
+    "subdrops": [ "Dawn's Holy Sword Fragment", "Divine Beast's Prayer Fragment", "Infernal Greaves Fragment", "Flowing Azure Blade Fragment", "Fury Dragon Pendant Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "27-13": {
+    "item_1": {"item_name": "Senka Dance Armor Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Refreshing Ice Garment Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Sea Dragon God's Hair Ornament Fragment", "drop_percent": 24},
+    "subdrops": [ "Fury Dragon Pendant Fragment", "Divine Judgement Axe Fragment", "Nine Heavens' Armor Fragment", "Lava Edge Fragment", "Gale Stinger Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "27-14": {
+    "item_1": {"item_name": "Extremely Dark Clothes Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Furious Wind Armor Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Flowering Fire Peony Fragment", "drop_percent": 24},
+    "subdrops": [ "Genesis Rod Fragment", "Abyss Bow Fragment", "Maiden Cloth Fragment", "Empress Robe Fragment", "Holy Sakura's Armor Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "27-1H": {
+    "item_1": {"item_name": "Prosperity Veil Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Little Ice Princess' Knot Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Ifrit Katana - Ignite Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Rima Shard", "drop_percent": 54},
+    "subdrops": [ "Fury Dragon Pendant Fragment", "Divine Judgement Axe Fragment", "Nine Heavens' Armor Fragment", "Lava Edge Fragment", "Gale Stinger Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "27-2H": {
+    "item_1": {"item_name": "Senka Dance Armor Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Sea Dragon God's Hair Ornament Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Storm God Tempest Gear Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Shinobu Shard", "drop_percent": 54},
+    "subdrops": [ "Genesis Rod Fragment", "Abyss Bow Fragment", "Maiden Cloth Fragment", "Empress Robe Fragment", "Holy Sakura's Armor Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "27-3H": {
+    "item_1": {"item_name": "Extremely Dark Clothes Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Flowering Fire Peony Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Heaven Rod - Stellar Sphere Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Grea Shard", "drop_percent": 54},
+    "subdrops": [ "Mermaid Princess' Spirit Tear Fragment", "Divine Blossom Rod Fragment", "Crimson Claw Fragment", "Holy Prayer's Crown Fragment", "Fury Dragon Pendant Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   }
 }

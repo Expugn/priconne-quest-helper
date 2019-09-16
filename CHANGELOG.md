@@ -9,6 +9,7 @@ Quest Update (2019-09-16)
 - New Title Background Option: 
   - NIGHTMARE (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Nightmare.png>
 - New Equipment
+- Quest Chapter 27 Normal/Hard data
 ### Changed
 - Removed a debug message
 - Fixed broken background links in Changelog
