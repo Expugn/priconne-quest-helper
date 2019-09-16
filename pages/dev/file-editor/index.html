@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="icon" href="../../../images/webpage/101211_102803_6.png">
+
+    <title>priconne-quest-helper | File Writer</title>
+    <meta name="title" content="priconne-quest-helper | File Editor"/>
+
+    <!-- META DATA -->
+    <meta name="description" content="priconne-quest-helper dev tool - File Editor">
+    <meta name="author" content="S'pugn">
+
+    <!-- OPEN GRAPH / FACEBOOK META DATA -->
+    <meta property="og:title" content="priconne-quest-helper | File Editor"/>
+    <meta property="og:description" content="priconne-quest-helper dev tool - File Editor."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/101211_102803_6.png"/>
+    <meta property="og:image:width" content="50"/>
+    <meta property="og:image:height" content="50"/>
+    <meta property="og:url" content="https://expugn.github.io/priconne-quest-helper/pages/dev/file-editor/"/>
+    <meta property="og:locale" content="en_US"/>
+
+    <!-- TWITTER META DATA -->
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@eSpugn"/>
+    <meta name="twitter:creator" content="@eSpugn"/>
+    <meta name="twitter:title" content="priconne-quest-helper - File Editor"/>
+    <meta name="twitter:description" content="priconne-quest-helper dev tool - File Editor"/>
+
+    <!-- SCRIPTS -->
+    <script src="../../../scripts/jquery-3.4.1.min.js"></script>
+    <script src="../../../scripts/modernizr-custom.js"></script> <!-- WEBP CHECK -->
+    <script src="../../../scripts/image-manager.js"></script>
+    <script src="../../../scripts/read-character-json.js"></script>
+    <script src="../../../scripts/read-equipment-json.js"></script>
+    <script src="../../../scripts/read-quest-json.js"></script>
+    <script src="scripts/system.js"></script>
+    <script src="scripts/write-json.js"></script>
+    <script src="scripts/character_display.js"></script>
+
+    <script src="scripts/navigation-bar.js"></script>
+
+    <!-- CSS STYLE SHEETS -->
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/webpage.css">
+    <link rel="stylesheet" href="../../../css/item_table.css">
+    <link rel="stylesheet" href="file_editor.css">
+</head>
+
+<body class="fancy-body use-webp">
+<h1 class="title">priconne-quest-helper File Editor</h1>
+
+<div class="topnav">
+    <button id="navigation-character" class="is-open" type="button" onclick="switch_selected_navigation_button(this)">Characters</button>
+    <button id="navigation-equipment" type="button" onclick="switch_selected_navigation_button(this)" hidden>Equipment</button>
+    <button id="navigation-quest" type="button" onclick="switch_selected_navigation_button(this)" hidden>Quests</button>
+</div>
+
+<hr>
+
+<div id="character-page">
+    <label for="new-character-name-input">New Character ID: </label>
+    <input id="new-character-name-input" type="text" name="new-character-name">
+    <button id="add-character-button" type="button" onclick="add_new_character();">Add New Character</button>
+
+    <br>
+
+    <button id="add-rank-button" type="button" onclick="add_rank();">Add Rank + 1</button>
+
+    <br><br><br><br>
+
+    <div id="character-data-display">
+        <!-- CHARACTER IMAGE / NAME -->
+        <img class="target-image" id="character-image" src="../../../images/unit_icon/Placeholder.png" onerror="this.src='../../../images/unit_icon/Placeholder.png'">
+        <span class="target-name" id="character-name"></span>
+        <br>
+        <!-- CHARACTER EDITABLE DETAILS -->
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="character-name-input">Character Name:</label></td>
+                    <td><input id="character-name-input" type="text" name="character-name"></td>
+                </tr>
+                <tr>
+                    <td><label for="character-thematic-input">Character Thematic:</label></td>
+                    <td><input id="character-thematic-input" type="text" name="character-name"></td>
+                </tr>
+                <tr>
+                    <td><label for="character-name-jp-input">Character Name (JP):</label></td>
+                    <td><input id="character-name-jp-input" type="text" name="character-name"></td>
+                </tr>
+                <tr>
+                    <td><label for="character-thematic-jp-input">Character Thematic (JP):</label></td>
+                    <td><input id="character-thematic-jp-input" type="text" name="character-name"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <button id="save-character-json" type="button" onclick="save_character_info()">Save Character Info</button>
+
+    <br><br><br>
+
+    <label for="character-select" hidden></label>
+    <select id="character-select" onchange="update_character_display();">
+        <option>[Character...]</option>
+    </select>
+    <button id="next-character-button" type="button">Next Character</button>
+    <button id="prev-character-button" type="button">Previous Character</button>
+
+    <br><br><br>
+
+    <div style="height: 300px; overflow: auto; background-color: rgba(200, 2, 255, 0.2);">
+        <table>
+            <tbody id="character-equipment-table">
+
+            </tbody>
+        </table>
+    </div>
+
+    <br><br>
+
+    <button id="download-character-json" type="button" onclick="download_character_json()">Download Character JSON</button>
+    <br>
+    <label for="character-json-textarea" hidden></label>
+    <textarea id="character-json-textarea" rows='10' cols='101' disabled onclick="this.select();" hidden></textarea>
+</div>
+<div id="equipment-overlay" class="equipment-overlay" hidden>
+    <div class="overlay-content">
+        <table id="equipment-table" class="centerTable" style="overflow: auto"></table>
+    </div>
+</div>
+
+<div id="equipment-page" hidden>
+    <label for="equipment-json-textarea" hidden></label>
+    <textarea id="equipment-json-textarea" rows='10' cols='101' disabled onclick="this.select();"></textarea>
+    <label for="equipment-select" hidden></label>
+    <select id="equipment-select">
+        <option>[Equipment...]</option>
+    </select>
+</div>
+
+
+
+<div id="quest-page" hidden>
+    <label for="quest-json-textarea" hidden></label>
+    <textarea id="quest-json-textarea" rows='10' cols='101' disabled onclick="this.select();"></textarea>
+    <label for="quest-select" hidden></label>
+    <select id="quest-select">
+        <option>[Quest...]</option>
+    </select>
+</div>
+
+
+
+<hr>
+
+
+</body>
+
+<script>
+    // MAKE SURE CHARACTER, EQUIPMENT, AND QUEST DATA ARE LOADED
+    setup();
+
+    function setup()
+    {
+        if (!character_loaded || !equipment_loaded || !quest_loaded)
+        {
+            setTimeout(function () {
+                setup();
+            }, 1000);
+        }
+        else
+        {
+            init_character_select();
+            init_next_prev_buttons();
+            draw_equipment_items();
+        }
+    }
+</script>
+
+</html>
