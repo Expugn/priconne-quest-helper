@@ -263,8 +263,8 @@ img.priority-quest-item {
 .quest-character-shard-drop-rate {
     position: relative;
     font-size: 14px;
-    left: -33px;
-    top: -5px;
+    right: 55px;
+    bottom: 5px;
 
     text-shadow: 1px 1px 4px #000000,
     1px 1px 4px #000000,
@@ -274,38 +274,29 @@ img.priority-quest-item {
     font-family: "Calibri", Arial, serif;
     text-align: right;
 
-    border-radius: 5px;
-    z-index: 2;
+    margin-right: -32px;
 }
 
 img.quest-character-shard {
-    display: inline;
-    max-height: 32px !important;
-    max-width: 32px !important;
-    min-width: 16px !important;
-    min-height: 16px !important;
-    margin-left: -500px;
-    margin-right: -500px;
+    max-height: 32px;
+    max-width: 32px;
 
     position: relative;
-    top: 12px;
-    right: 46px;
-    left: -47px;
+    right: 60px;
+    top: 10px;
+
+    margin-right: -32px;
 }
 
 img.quest-character-shard-grayscale {
-    display: inline;
-    max-height: 32px !important;
-    max-width: 32px !important;
-    min-width: 16px !important;
-    min-height: 16px !important;
-    margin-left: -500px;
-    margin-right: -500px;
+    max-height: 32px;
+    max-width: 32px;
 
     position: relative;
-    top: 3px;
-    right: 46px;
-    left: -47px;
+    right: 60px;
+    top: 2px;
+
+    margin-right: -32px;
 
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
