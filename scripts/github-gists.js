@@ -1,6 +1,6 @@
 const gist_default_data_file_name = "priconne-quest-helper_data.json";
 const gist_default_data_file_description = "Export data for priconne-quest-helper.";
-const gist_default_user_name = "spugn";
+const gist_default_user_name = "Spugn";
 const gist_default_file_timeout = 1209600000;                                           // 2 WEEKS
 const rate_limit_cooldown = 5;                                                          // DISABLE API INFORMATION GATHERING AT THIS AMOUNT OR BELOW
 
