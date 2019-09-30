@@ -2042,6 +2042,14 @@
     "char_shard": {"item_name": "Djeeta Shard", "drop_percent": 54},
     "subdrops": [ "Rod of Life Fragment", "Rod of Sun Fragment", "Angel Boots Fragment", "Pope's Hood Fragment", "Mourning Crescent Moon Fragment" ]
   },
+  "19-1VH": {
+    "item_1": {"item_name": "Extremely Dark Clothes Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Furious Wind Armor Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Konominato Sword - Aqua Ruler Fragment", "drop_percent": 72},
+    "item_4": {"item_name": "Divine Spear - Doom Pain Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Rino Pure Shard", "drop_percent": 54},
+    "subdrops": [ "Solar Sword Fragment", "Princess' Dagger Fragment", "Vermilion Plate Fragment", "Mythril Plate Fragment", "Elemental Heart Fragment" ]
+  },
   "20-1": {
     "item_1": {"item_name": "Crimson Claw Fragment", "drop_percent": 36},
     "item_2": {"item_name": "Gale Stinger Fragment", "drop_percent": 36},

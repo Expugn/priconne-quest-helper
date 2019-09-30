@@ -7,10 +7,11 @@ const backgrounds = Object.freeze({
     AOI_DIARY: 'Aoi_Diary',
     MANARIA_FRIENDS: 'Manaria_Friends',
     RE_ZERO: 'Re_Zero',
-    NIGHTMARE: 'Nightmare'
+    NIGHTMARE: 'Nightmare',
+    HALLOWEEN_LITTLE_LYRICAL: 'Halloween_With_Little_Lyrical'
 });
 
-const default_background = backgrounds.NIGHTMARE;
+const default_background = backgrounds.HALLOWEEN_LITTLE_LYRICAL;
 
 function init_background_select()
 {

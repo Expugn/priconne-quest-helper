@@ -3,6 +3,18 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.7] - 2019-09-29
+### Added
+- New Title Background Option:
+  - HALLOWEEN_LITTLE_LYRICAL (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Halloween_With_Little_Lyrical.png>
+- Character Data for Kyouka (Halloween)
+- Character Data for Misogi (Halloween)
+- Quest Chapter 19 Very Hard (19-1) data
+
+## [1.3.6] - 2019-09-18
+### Fixed
+- Data Importing (Broke on 2019-09-16)
+
 ## [1.3.5] - 2019-09-16
 Quest Update (2019-09-16)
 ### Added

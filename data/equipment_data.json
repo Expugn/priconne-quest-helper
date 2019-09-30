@@ -1904,23 +1904,30 @@
     "req_pieces": 1,
     "req_items": []
   },
+  "rino_pure_shard": {
+    "name": "Rino Pure Shard",
+    "id": "misc-30",
+    "has_fragments": false,
+    "req_pieces": 1,
+    "req_items": []
+  },
   "pecorine_pure_shard": {
     "name": "Pecorine Pure Shard",
-    "id": "misc-30",
+    "id": "misc-31",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "kokkoro_pure_shard": {
     "name": "Kokkoro Pure Shard",
-    "id": "misc-31",
+    "id": "misc-32",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
   },
   "kyaru_pure_shard": {
     "name": "Kyaru Pure Shard",
-    "id": "misc-32",
+    "id": "misc-33",
     "has_fragments": false,
     "req_pieces": 1,
     "req_items": []
