@@ -249,7 +249,7 @@ function add_item_image_to_table(count, item_HTML, item_name, item_id, rarity_cl
     item_HTML += "<th class=\"item-image\">";
     item_HTML += "<button id=\"item-table-button-" + item_id + "\" class=\"ingredient-button pointer-cursor\" " + "onclick=\"focus_on_item(" + "\'" + clean_apostrophes(item_name) + "\', \'" + item_id + "\')\">";
     item_HTML += "<img id=\"" + item_id + "\" " +
-        "class=\"item-image notranslate item-table-item\" " +
+        "class=\"item-image notranslate item-table-item" + ((focused_item_element_id === item_id) ? " focused-item" : "") + "\" " +
         "title=\"" + item_name + "\" " +
         "src=\"" + get_item_image_path(item_name.split(' ').join('_')) + "\" " +
         "alt=\"\">";

@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.8] - 2019-10-06
+### Changed
+- Simple Mode Transition Changes: The following will no longer have a "transition effect" (which should have been the case at the start anyways)
+  - Common/Copper/Silver/Gold/Purple/Misc Item Tables
+  - Recommended Quests
+### Fixed
+- Fixed an issue reported by `attinat#0218`
+  - If an item is focused and the `Items Displayed per Row` setting is modified, the item will retain focus but lose the red highlight
+
 ## [1.3.7] - 2019-09-29
 ### Added
 - New Title Background Option:
