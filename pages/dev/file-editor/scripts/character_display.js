@@ -76,7 +76,7 @@ function update_character_display()
 
 function init_change_equipment(character_id, rank, equip_id)
 {
-    console.log(character_id + ", " + rank + ", " + equip_id);
+    console.log(character_id + ", rank:" + rank + ", item:" + equip_id);
     selected_character_id = character_id;
     selected_rank = rank;
     selected_equip_id = equip_id;
@@ -84,10 +84,11 @@ function init_change_equipment(character_id, rank, equip_id)
 
     document.getElementById("equipment-overlay").hidden = false;
 }
+
 function change_equipment(item_name)
 {
     item_name = item_name.replace("[apostrophe]", "'");
-    console.log("Selected " + item_name);
+    console.log("Selected " + ((item_name !== "") ? item_name : "PLACEHOLDER"));
 
     if (current_equipment_status === change_equipment_status.EDIT_ONE)
     {

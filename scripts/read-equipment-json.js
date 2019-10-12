@@ -11,12 +11,14 @@ const equipment_data_location = Object.freeze({
     LEGACY: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/equipment_data_08.30.2019.json"
 });
 
+const dev_file_editor_location = "dev/file-editor";
+
 let totalItemsCount = reset_equipment_count();
 
 read_equipment_data(equipment_data_version.CURRENT, function ()
 {
     equipment_loaded = true;
-    console.log("[Equipment Reader] - Equipment data loaded!");
+    console.log("[Equipment Reader] - Equipment data loaded!" + (window.location.pathname.includes(dev_file_editor_location) ? " (Using Alternate Format)" : ""));
 });
 
 function read_equipment_data(equipment_file_type, callback)
@@ -55,7 +57,10 @@ function read_equipment_data(equipment_file_type, callback)
                         /** @namespace itemData.req_items */
                         item_data.set("req_items", itemData.req_items);
 
-                        equipment_map.set(itemData.name, item_data);
+                        if (window.location.pathname.includes(dev_file_editor_location))
+                            equipment_map.set(i, item_data);
+                        else
+                            equipment_map.set(itemData.name, item_data);
 
                         // RARITY ITEM COUNTER
                         let rarity_class = itemData.id.substring(0, itemData.id.indexOf('-'));

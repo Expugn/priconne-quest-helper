@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <link rel="icon" href="../../../images/webpage/101211_102803_6.png">
 
-    <title>priconne-quest-helper | File Writer</title>
+    <title>priconne-quest-helper | File Editor</title>
     <meta name="title" content="priconne-quest-helper | File Editor"/>
 
     <!-- META DATA -->
@@ -38,6 +38,7 @@
     <script src="scripts/system.js"></script>
     <script src="scripts/write-json.js"></script>
     <script src="scripts/character_display.js"></script>
+    <script src="scripts/equipment_display.js"></script>
 
     <script src="scripts/navigation-bar.js"></script>
 
@@ -49,11 +50,11 @@
 </head>
 
 <body class="fancy-body use-webp">
-<h1 class="title">priconne-quest-helper File Editor</h1>
+<h1 class="title">priconne-quest-helper<br>File Editor</h1>
 
 <div class="topnav">
     <button id="navigation-character" class="is-open" type="button" onclick="switch_selected_navigation_button(this)">Characters</button>
-    <button id="navigation-equipment" type="button" onclick="switch_selected_navigation_button(this)" hidden>Equipment</button>
+    <button id="navigation-equipment" type="button" onclick="switch_selected_navigation_button(this)">Equipment</button>
     <button id="navigation-quest" type="button" onclick="switch_selected_navigation_button(this)" hidden>Quests</button>
 </div>
 
@@ -72,7 +73,7 @@
 
     <div id="character-data-display">
         <!-- CHARACTER IMAGE / NAME -->
-        <img class="target-image" id="character-image" src="../../../images/unit_icon/Placeholder.png" onerror="this.src='../../../images/unit_icon/Placeholder.png'">
+        <img class="target-image" id="character-image" src="../../../images/unit_icon/Placeholder.png" alt="Character Image" onerror="this.src='../../../images/unit_icon/Placeholder.png'">
         <span class="target-name" id="character-name"></span>
         <br>
         <!-- CHARACTER EDITABLE DETAILS -->
@@ -84,15 +85,15 @@
                 </tr>
                 <tr>
                     <td><label for="character-thematic-input">Character Thematic:</label></td>
-                    <td><input id="character-thematic-input" type="text" name="character-name"></td>
+                    <td><input id="character-thematic-input" type="text" name="character-thematic"></td>
                 </tr>
                 <tr>
                     <td><label for="character-name-jp-input">Character Name (JP):</label></td>
-                    <td><input id="character-name-jp-input" type="text" name="character-name"></td>
+                    <td><input id="character-name-jp-input" type="text" name="character-name-jp"></td>
                 </tr>
                 <tr>
                     <td><label for="character-thematic-jp-input">Character Thematic (JP):</label></td>
-                    <td><input id="character-thematic-jp-input" type="text" name="character-name"></td>
+                    <td><input id="character-thematic-jp-input" type="text" name="character-thematic-jp"></td>
                 </tr>
             </tbody>
         </table>
@@ -112,9 +113,7 @@
 
     <div style="height: 300px; overflow: auto; background-color: rgba(200, 2, 255, 0.2);">
         <table>
-            <tbody id="character-equipment-table">
-
-            </tbody>
+            <tbody id="character-equipment-table"></tbody>
         </table>
     </div>
 
@@ -125,22 +124,96 @@
     <label for="character-json-textarea" hidden></label>
     <textarea id="character-json-textarea" rows='10' cols='101' disabled onclick="this.select();" hidden></textarea>
 </div>
+<!-- DO NOT EDIT BELOW -->
 <div id="equipment-overlay" class="equipment-overlay" hidden>
     <div class="overlay-content">
         <table id="equipment-table" class="centerTable" style="overflow: auto"></table>
     </div>
 </div>
+<!-- ----------------- -->
 
 <div id="equipment-page" hidden>
-    <label for="equipment-json-textarea" hidden></label>
-    <textarea id="equipment-json-textarea" rows='10' cols='101' disabled onclick="this.select();"></textarea>
+    <label for="new-equipment-name-input">New Equipment ID: </label>
+    <input id="new-equipment-name-input" type="text" name="new-equipment-name">
+    <button id="add-equipment-button" type="button" onclick="add_new_equipment();">Add New Equipment</button>
+
+    <br><br><br><br>
+
+    <div id="equipment-data-display">
+        <!-- EQUIPMENT IMAGE / NAME -->
+        <img class="target-image" id="equipment-image" src="../../../images/items/Placeholder.png" alt="Equipment Image" onerror="this.src='../../../images/items/Placeholder.png'">
+        <img class="target-image" id="equipment-fragment-image" src="../../../images/items/Placeholder.png" alt="Equipment Fragment Image" onerror="this.src='../../../images/items/Placeholder.png'" hidden>
+        <span class="target-name" id="equipment-name"></span>
+        <br>
+        <!-- CHARACTER EDITABLE DETAILS -->
+        <table>
+            <tbody>
+            <tr>
+                <td><label for="equipment-name-input">Equipment Name:</label></td>
+                <td><input id="equipment-name-input" type="text" name="equipment-name"></td>
+            </tr>
+            <!--
+            <tr>
+                <td><label for="equipment-id-input">Equipment ID:</label></td>
+                <td><input id="equipment-id-input" type="text" name="equipment-id" disabled></td>
+            </tr>
+            -->
+            <tr>
+                <td><label for="equipment-rarity-input">Equipment Rarity:</label></td>
+                <td><input id="equipment-rarity-input" type="text" name="equipment-rarity"></td>
+            </tr>
+            <!--
+            <tr>
+                <td><label for="equipment-rarity-index-input">Equipment Index:</label></td>
+                <td><input id="equipment-rarity-index-input" type="text" name="equipment-rarity-index" disabled></td>
+            </tr>
+            -->
+            <tr>
+                <td><label for="equipment-has-fragments-input">Has Fragments:</label></td>
+                <td><input id="equipment-has-fragments-input" type="checkbox" name="equipment-has-fragments" checked></td>
+            </tr>
+            <tr>
+                <td><label for="equipment-required-pieces-input">Required Pieces:</label></td>
+                <td><input id="equipment-required-pieces-input" type="number" value="1"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <button id="save-equipment-json" type="button" onclick="save_equipment_info()">Save Equipment Info</button>
+
+    <br><br><br>
+
     <label for="equipment-select" hidden></label>
-    <select id="equipment-select">
+    <select id="equipment-select" onchange="update_equipment_display();">
         <option>[Equipment...]</option>
     </select>
+
+    <button id="next-equipment-button" type="button">Next Equipment</button>
+    <button id="prev-equipment-button" type="button">Previous Equipment</button>
+
+    <br><br><br>
+
+    <div>
+        <table>
+            <tbody id="required-items-table"></tbody>
+        </table>
+    </div>
+
+    <br><br>
+
+    <button id="download-equipment-json" type="button" onclick="download_equipment_json()">Download Equipment JSON</button>
+    <br>
+
+    <label for="equipment-json-textarea" hidden></label>
+    <textarea id="equipment-json-textarea" rows='10' cols='101' disabled onclick="this.select();" hidden></textarea>
 </div>
-
-
+<!-- DO NOT EDIT BELOW -->
+<div id="required-item-overlay" class="equipment-overlay" hidden>
+    <div class="overlay-content">
+        <table id="required-item-table" class="centerTable" style="overflow: auto"></table>
+    </div>
+</div>
+<!-- ----------------- -->
 
 <div id="quest-page" hidden>
     <label for="quest-json-textarea" hidden></label>
@@ -173,8 +246,10 @@
         else
         {
             init_character_select();
+            init_equipment_select();
             init_next_prev_buttons();
             draw_equipment_items();
+            draw_required_items();
         }
     }
 </script>
