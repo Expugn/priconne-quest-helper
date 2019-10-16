@@ -1,5 +1,5 @@
 const system = Object.freeze({
-    DEFAULT_RANK_AMOUNT: 14,
+    DEFAULT_RANK_AMOUNT: 15,
     CHARACTER_RANK_EQUIP_COUNT: 6
 });
 

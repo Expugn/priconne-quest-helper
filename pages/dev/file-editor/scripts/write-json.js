@@ -32,7 +32,7 @@ function write_character_json()
                 {
                     character_json += "\"" + get_character_data(character_id, "rank_" + i)[j] + "\"" + (((j + 1) < system.CHARACTER_RANK_EQUIP_COUNT) ? ", " : "");
                 }
-            character_json += "]" + ((i < system.DEFAULT_RANK_AMOUNT) ? "," : "") + spacing.NEW_LINE;
+            character_json += "]" + ((i < CURRENT_RANK_AMOUNT) ? "," : "") + spacing.NEW_LINE;
         }
 
         // CLOSE CHARACTER DATA ; ADD COMMA AND NEW LINE IF NEEDED
@@ -44,7 +44,7 @@ function write_character_json()
     character_json += "}";
 
     // DISPLAY CHARACTER JSON
-    document.getElementById(text_areas.CHARACTER).innerHTML += character_json;
+    document.getElementById(text_areas.CHARACTER).innerHTML = character_json;
 }
 
 function write_equipment_json()

@@ -8,10 +8,11 @@ const backgrounds = Object.freeze({
     MANARIA_FRIENDS: 'Manaria_Friends',
     RE_ZERO: 'Re_Zero',
     NIGHTMARE: 'Nightmare',
-    HALLOWEEN_LITTLE_LYRICAL: 'Halloween_With_Little_Lyrical'
+    HALLOWEEN_LITTLE_LYRICAL: 'Halloween_With_Little_Lyrical',
+    HALLOWEEN_MIYAKO_SHINOBU: 'Halloween_With_Miyako_and_Shinobu'
 });
 
-const default_background = backgrounds.HALLOWEEN_LITTLE_LYRICAL;
+const default_background = backgrounds.HALLOWEEN_MIYAKO_SHINOBU;
 
 function init_background_select()
 {

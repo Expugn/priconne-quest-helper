@@ -3,6 +3,21 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.0] - 2019-10-16
+Quest Update (2019-10-16)
+### Added
+- New Equipment
+- Normal/Hard Quest Data for Chapter 28
+- New Title Background Option:
+  - HALLOWEEN_MIYAKO_SHINOBU (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Halloween_With_Miyako_and_Shinobu.png>
+- Blank Character Data for Mimi (Halloween)
+### Changed
+- A bit of code cleanup
+- Made some adjustments so that swapping between a file containing a higher or lower character rank file would not have any issues
+- Title Background selection is now hidden in Simple Mode since it's irrelevant there anyways
+### Fixed
+- Fixed some issues with dev/File-Editor
+
 ## [1.3.8] - 2019-10-06
 ### Changed
 - Simple Mode Transition Changes: The following will no longer have a "transition effect" (which should have been the case at the start anyways)

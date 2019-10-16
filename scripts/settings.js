@@ -379,6 +379,33 @@ function change_equipment_and_character_data()
             }
         });
     });
+
+    // UPDATE SETTINGS AND PRESET RANK SELECTION TO BE WITHIN BOUNDS
+    if (equipment_data_type === equipment_data_version.CURRENT)
+    {
+        adjust_max_values(max_character_rank_information.CURRENT);
+    }
+    else
+    {
+        adjust_max_values(max_character_rank_information.LEGACY);
+    }
+
+    function adjust_max_values(max_value)
+    {
+        document.getElementById("preset-character-min-rank-input").max = max_value;
+        document.getElementById("preset-character-max-rank-input").max = max_value;
+
+        if (document.getElementById("preset-character-min-rank-input").value > max_value)
+        {
+            document.getElementById("preset-character-min-rank-input").value = max_value;
+            preset_min_rank = max_value;
+        }
+        if (document.getElementById("preset-character-max-rank-input").value > max_value)
+        {
+            document.getElementById("preset-character-max-rank-input").value = max_value;
+            preset_max_rank = max_value;
+        }
+    }
 }
 
 function toggle_simple_mode()
@@ -411,6 +438,7 @@ function toggle_simple_mode()
             document.getElementById("recommended-quest-div").classList.toggle("no-transition");
             document.getElementById("character-preset-div").classList.toggle("no-background");
             document.getElementById("update-div").classList.toggle("no-background");
+            document.getElementById("title-background-div").hidden = true;
             $("body").toggleClass("no-background-body");
             $("body").toggleClass("fancy-body");
 

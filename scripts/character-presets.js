@@ -1,5 +1,5 @@
 let preset_min_rank = 1;
-let preset_max_rank = 14;
+let preset_max_rank = max_character_rank_information.CURRENT;
 
 function build_character_preset_list()
 {

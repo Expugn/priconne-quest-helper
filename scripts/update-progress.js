@@ -5,10 +5,10 @@ const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
 function update_progress()
 {
     const quest_update_status = Object.freeze({
-        NORMAL_QUEST: false,
-        HARD_QUEST: false,
-        EQUIPMENT_SELECTION: false,
-        EQUIPMENT_ENGLISH_TRANSLATION: false,
+        NORMAL_QUEST: true,
+        HARD_QUEST: true,
+        EQUIPMENT_SELECTION: true,
+        EQUIPMENT_ENGLISH_TRANSLATION: true,
         RANK_EQUIPMENT: false,
     });
     // and README

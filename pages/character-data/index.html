@@ -108,7 +108,7 @@
             for (let [character_id, character_data_map] of character_map)
             {
                 // DISPLAY CHARACTER
-                const num_of_ranks = 14;
+                const num_of_ranks = max_character_rank_information.CURRENT;
                 let character_name = character_data_map.get("name");
                 let character_thematic = character_data_map.get("thematic");
                 let character_thematic_jp = character_data_map.get("thematic_jp");
@@ -145,18 +145,7 @@
 
                 table_html += "</tr>";
 
-
                 table_html += "<tr>";
-
-
-
-                /*
-                // DIVIDER
-                table_html += "<th>";
-                table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                    + "\" src=\"\" alt=\"\">";
-                table_html += "</th>";
-                */
 
                 if (character_data_map.get("rank_1")[0] !== "")
                 {
@@ -189,10 +178,11 @@
                             case 12:
                             case 13:
                             case 14:
+                            case 15:
                                 rank_color_html = "background-color: rgba(231, 109, 255, 0.5) !important;";
                                 break;
                             default:
-                                rank_color_html = "background-color: rgba(90, 190, 255, 0.5) !important;";
+                                rank_color_html = "background-color: rgba(255, 255, 255, 0.5) !important;";
                                 break;
                         }
 

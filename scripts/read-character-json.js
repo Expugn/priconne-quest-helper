@@ -6,6 +6,11 @@ const character_data_version = Object.freeze({
     LEGACY: 'character-data-legacy'
 });
 
+const max_character_rank_information = Object.freeze({
+    CURRENT: 15,
+    LEGACY: 14,
+});
+
 const character_data_location = Object.freeze({
     CURRENT: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/character_data.json",
     LEGACY: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/character_data_08.30.2019.json"
@@ -29,6 +34,8 @@ function read_character_data(character_file_type, callback)
         file_path = character_data_location.CURRENT;
     }
 
+    const max_rank = ((character_file_type === character_data_version.CURRENT) ? max_character_rank_information.CURRENT : max_character_rank_information.LEGACY);
+
     console.log("[Character Reader] - Reading '" + file_path + "'...");
     return $(function () {
         $.ajax({
@@ -41,43 +48,15 @@ function read_character_data(character_file_type, callback)
                     {
                         let character_data = new Map();
 
-                        character_data.set("name", characterData.name);
-                        /** @namespace characterData.thematic */
-                        character_data.set("thematic", characterData.thematic);
+                        character_data.set("name", characterData["name"]);
+                        character_data.set("thematic", characterData["thematic"]);
+                        character_data.set("name_jp", characterData["name_jp"]);
+                        character_data.set("thematic_jp", characterData["thematic_jp"]);
 
-                        /** @namespace characterData.name_jp */
-                        character_data.set("name_jp", characterData.name_jp);
-                        /** @namespace characterData.thematic_jp */
-                        character_data.set("thematic_jp", characterData.thematic_jp);
-
-                        /** @namespace characterData.rank_1 */
-                        character_data.set("rank_1", characterData.rank_1);
-                        /** @namespace characterData.rank_2 */
-                        character_data.set("rank_2", characterData.rank_2);
-                        /** @namespace characterData.rank_3 */
-                        character_data.set("rank_3", characterData.rank_3);
-                        /** @namespace characterData.rank_4 */
-                        character_data.set("rank_4", characterData.rank_4);
-                        /** @namespace characterData.rank_5 */
-                        character_data.set("rank_5", characterData.rank_5);
-                        /** @namespace characterData.rank_6 */
-                        character_data.set("rank_6", characterData.rank_6);
-                        /** @namespace characterData.rank_7 */
-                        character_data.set("rank_7", characterData.rank_7);
-                        /** @namespace characterData.rank_8 */
-                        character_data.set("rank_8", characterData.rank_8);
-                        /** @namespace characterData.rank_9 */
-                        character_data.set("rank_9", characterData.rank_9);
-                        /** @namespace characterData.rank_10 */
-                        character_data.set("rank_10", characterData.rank_10);
-                        /** @namespace characterData.rank_11 */
-                        character_data.set("rank_11", characterData.rank_11);
-                        /** @namespace characterData.rank_12 */
-                        character_data.set("rank_12", characterData.rank_12);
-                        /** @namespace characterData.rank_13 */
-                        character_data.set("rank_13", characterData.rank_13);
-                        /** @namespace characterData.rank_14 */
-                        character_data.set("rank_14", characterData.rank_14);
+                        for (let i = 1 ; i <= max_rank ; i++)
+                        {
+                            character_data.set("rank_" + i, characterData["rank_" + i]);
+                        }
 
                         character_map.set(i, character_data);
                     })

@@ -2991,5 +2991,127 @@
     "char_shard": {"item_name": "Grea Shard", "drop_percent": 54},
     "subdrops": [ "Mermaid Princess' Spirit Tear Fragment", "Divine Blossom Rod Fragment", "Crimson Claw Fragment", "Holy Prayer's Crown Fragment", "Fury Dragon Pendant Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "28-1": {
+    "item_1": {"item_name": "Prosperity Veil Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Refreshing Ice Garment Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Sea Dragon God's Hair Ornament Fragment", "drop_percent": 24},
+    "subdrops": [ "War God's Arm Fragment", "Heavenly Red Bow Fragment", "Heaven's Protective Holy Spear Fragment", "Royal Guard Hat Fragment", "Gaia Axe Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "28-2": {
+    "item_1": {"item_name": "Senka Dance Armor Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Furious Wind Armor Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Flowering Fire Peony Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Wand Fragment", "Atlantis Rod Fragment", "Exomagia Robe Fragment", "Blood Ruby Heel Fragment", "Gold King's Armor Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "28-3": {
+    "item_1": {"item_name": "Extremely Dark Clothes Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Sky Soaring Gold Shoes Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Little Ice Princess' Knot Fragment", "drop_percent": 24},
+    "subdrops": [ "Glorious King's Shield Bangle Fragment", "Tír na nÓg Dagger Fragment", "Cocytus Nail Fragment", "Rage Queen Dress Fragment", "War God's Arm Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "28-4": {
+    "item_1": {"item_name": "Extremely Dark Nail - Bloody Howl Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Prosperity Veil Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Sea Dragon God's Hair Ornament Fragment", "drop_percent": 24},
+    "subdrops": [ "Sophos Bracelet Fragment", "Great Sword of Sin Fragment", "Fire Oni's Tori Fragment", "Blood Raven Sword Fragment", "Lightning Wand Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "28-5": {
+    "item_1": {"item_name": "World Tree's Branch Wand Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Senka Dance Armor Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Flowering Fire Peony Fragment", "drop_percent": 24},
+    "subdrops": [ "War God's Arm Fragment", "Heavenly Red Bow Fragment", "Heaven's Protective Holy Spear Fragment", "Royal Guard Hat Fragment", "Gaia Axe Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "28-6": {
+    "item_1": {"item_name": "Emerald Wind God's Tachi Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Refreshing Ice Garment Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Little Ice Princess' Knot Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Wand Fragment", "Atlantis Rod Fragment", "Exomagia Robe Fragment", "Blood Ruby Heel Fragment", "Gold King's Armor Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "28-7": {
+    "item_1": {"item_name": "Heavenly Black Sword of Obsidian Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Furious Wind Armor Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Sea Dragon God's Hair Ornament Fragment", "drop_percent": 24},
+    "subdrops": [ "Glorious King's Shield Bangle Fragment", "Tír na nÓg Dagger Fragment", "Cocytus Nail Fragment", "Rage Queen Dress Fragment", "War God's Arm Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "28-8": {
+    "item_1": {"item_name": "Machine Axe - Core Breaker Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Sky Soaring Gold Shoes Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Flowering Fire Peony Fragment", "drop_percent": 24},
+    "subdrops": [ "Sophos Bracelet Fragment", "Great Sword of Sin Fragment", "Fire Oni's Tori Fragment", "Blood Raven Sword Fragment", "Lightning Wand Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "28-9": {
+    "item_1": {"item_name": "Ice Bow - Freezing Tear Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Extremely Dark Clothes Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Little Ice Princess' Knot Fragment", "drop_percent": 24},
+    "subdrops": [ "War God's Arm Fragment", "Heavenly Red Bow Fragment", "Heaven's Protective Holy Spear Fragment", "Royal Guard Hat Fragment", "Gaia Axe Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "28-10": {
+    "item_1": {"item_name": "Extremely Dark Nail - Bloody Howl Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Prosperity Veil Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Sea Dragon God's Hair Ornament Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Wand Fragment", "Atlantis Rod Fragment", "Exomagia Robe Fragment", "Blood Ruby Heel Fragment", "Gold King's Armor Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "28-11": {
+    "item_1": {"item_name": "World Tree's Branch Wand Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Senka Dance Armor Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Flowering Fire Peony Fragment", "drop_percent": 24},
+    "subdrops": [ "Glorious King's Shield Bangle Fragment", "Tír na nÓg Dagger Fragment", "Cocytus Nail Fragment", "Rage Queen Dress Fragment", "War God's Arm Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "28-12": {
+    "item_1": {"item_name": "Overlord Light Dragon Sword Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Heavenly Black Sword of Obsidian Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Refreshing Ice Garment Fragment", "drop_percent": 24},
+    "subdrops": [ "Sophos Bracelet Fragment", "Great Sword of Sin Fragment", "Fire Oni's Tori Fragment", "Blood Raven Sword Fragment", "Lightning Wand Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "28-13": {
+    "item_1": {"item_name": "Fire Spear - Prominence Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Machine Axe - Core Breaker Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Furious Wind Armor Fragment", "drop_percent": 24},
+    "subdrops": [ "War God's Arm Fragment", "Heavenly Red Bow Fragment", "Heaven's Protective Holy Spear Fragment", "Royal Guard Hat Fragment", "Gaia Axe Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "28-14": {
+    "item_1": {"item_name": "Abyss Moon Staff - Sacrifice Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Ice Bow - Freezing Tear Fragment", "drop_percent": 36},
+    "item_3": {"item_name": "Sky Soaring Gold Shoes Fragment", "drop_percent": 24},
+    "subdrops": [ "Lightning Wand Fragment", "Atlantis Rod Fragment", "Exomagia Robe Fragment", "Blood Ruby Heel Fragment", "Gold King's Armor Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "28-1H": {
+    "item_1": {"item_name": "Overlord Light Dragon Sword Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Extremely Dark Clothes Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Little Ice Princess' Knot Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Misaki Shard", "drop_percent": 54},
+    "subdrops": [ "War God's Arm Fragment", "Heavenly Red Bow Fragment", "Heaven's Protective Holy Spear Fragment", "Royal Guard Hat Fragment", "Gaia Axe Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "28-2H": {
+    "item_1": {"item_name": "Fire Spear - Prominence Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Prosperity Veil Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Sea Dragon God's Hair Ornament Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Yuki Shard", "drop_percent": 54},
+    "subdrops": [ "Lightning Wand Fragment", "Atlantis Rod Fragment", "Exomagia Robe Fragment", "Blood Ruby Heel Fragment", "Gold King's Armor Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
+  },
+  "28-3H": {
+    "item_1": {"item_name": "Abyss Moon Staff - Sacrifice Fragment", "drop_percent": 72},
+    "item_2": {"item_name": "Senka Dance Armor Fragment", "drop_percent": 72},
+    "item_3": {"item_name": "Flowering Fire Peony Fragment", "drop_percent": 72},
+    "char_shard": {"item_name": "Oedo Kuuka Shard", "drop_percent": 54},
+    "subdrops": [ "Glorious King's Shield Bangle Fragment", "Tír na nÓg Dagger Fragment", "Cocytus Nail Fragment", "Rage Queen Dress Fragment", "War God's Arm Fragment" ],
+    "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   }
 }
