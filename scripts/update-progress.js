@@ -1,19 +1,26 @@
-// AUGUST 15, 2019
-const update_date = new Date(Date.UTC(2019, 8, 16, 12, 0, 0));
+// OCTOBER 16, 2019
+const update_date = new Date(Date.UTC(2019, 9, 16, 24, 0, 0));
 const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
 
 function update_progress()
 {
-    const normal_quest_updated = true;
-    const hard_quest_updated = true;
-    const equipment_selection_updated = true;
-    const english_translated_names_updated = true;
-    const rank_equipment_updated = true;
+    const quest_update_status = Object.freeze({
+        NORMAL_QUEST: false,
+        HARD_QUEST: false,
+        EQUIPMENT_SELECTION: false,
+        EQUIPMENT_ENGLISH_TRANSLATION: false,
+        RANK_EQUIPMENT: false,
+    });
     // and README
     // and Settings Quest Min/Max
     // and Presets Min/Max
+    // and Rank Min/Max
 
-    if (!normal_quest_updated || !hard_quest_updated || !equipment_selection_updated || !english_translated_names_updated || !rank_equipment_updated)
+    if (!quest_update_status.NORMAL_QUEST ||
+        !quest_update_status.HARD_QUEST ||
+        !quest_update_status.EQUIPMENT_SELECTION ||
+        !quest_update_status.EQUIPMENT_ENGLISH_TRANSLATION ||
+        !quest_update_status.RANK_EQUIPMENT)
     {
         console.log("[Update] - Showing Update Progress");
         document.getElementById("update-notification-img").style.display = "inline";
@@ -28,15 +35,15 @@ function update_progress()
         }
 
         // UPDATE PROGRESS
-        document.getElementById("update-quest-data-check").style.display = (normal_quest_updated && hard_quest_updated) ? "inline" : "none";
-        document.getElementById("update-equipment-data-check").style.display = (equipment_selection_updated && english_translated_names_updated) ? "inline" : "none";
-        document.getElementById("update-character-data-check").style.display = (rank_equipment_updated) ? "inline" : "none";
+        document.getElementById("update-quest-data-check").style.display = (quest_update_status.NORMAL_QUEST && quest_update_status.HARD_QUEST) ? "inline" : "none";
+        document.getElementById("update-equipment-data-check").style.display = (quest_update_status.EQUIPMENT_SELECTION && quest_update_status.EQUIPMENT_ENGLISH_TRANSLATION) ? "inline" : "none";
+        document.getElementById("update-character-data-check").style.display = (quest_update_status.RANK_EQUIPMENT) ? "inline" : "none";
 
-        document.getElementById("update-normal-quests-label").style.textDecoration = (normal_quest_updated) ? "" : "line-through";
-        document.getElementById("update-hard-quests-label").style.textDecoration = (hard_quest_updated) ? "" : "line-through";
-        document.getElementById("update-equipment-selection-label").style.textDecoration = (equipment_selection_updated) ? "" : "line-through";
-        document.getElementById("update-en-tl-names-label").style.textDecoration = (english_translated_names_updated) ? "" : "line-through";
-        document.getElementById("update-rank-equip-label").style.textDecoration = (rank_equipment_updated) ? "" : "line-through";
+        document.getElementById("update-normal-quests-label").style.textDecoration = (quest_update_status.NORMAL_QUEST) ? "" : "line-through";
+        document.getElementById("update-hard-quests-label").style.textDecoration = (quest_update_status.HARD_QUEST) ? "" : "line-through";
+        document.getElementById("update-equipment-selection-label").style.textDecoration = (quest_update_status.EQUIPMENT_SELECTION) ? "" : "line-through";
+        document.getElementById("update-en-tl-names-label").style.textDecoration = (quest_update_status.EQUIPMENT_ENGLISH_TRANSLATION) ? "" : "line-through";
+        document.getElementById("update-rank-equip-label").style.textDecoration = (quest_update_status.RANK_EQUIPMENT) ? "" : "line-through";
     }
 
 }
