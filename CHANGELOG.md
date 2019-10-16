@@ -10,7 +10,8 @@ Quest Update (2019-10-16)
 - Normal/Hard Quest Data for Chapter 28
 - New Title Background Option:
   - HALLOWEEN_MIYAKO_SHINOBU (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Halloween_With_Miyako_and_Shinobu.png>
-- Blank Character Data for Mimi (Halloween)
+- Character Data for Mimi (Halloween)
+- New Character Equipment
 ### Changed
 - A bit of code cleanup
 - Made some adjustments so that swapping between a file containing a higher or lower character rank file would not have any issues
