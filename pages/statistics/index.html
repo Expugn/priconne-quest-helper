@@ -240,6 +240,7 @@
 
     function run()
     {
+        highest_rank = undefined;
         equipment_data_map = build_equipment_data_map();
         let all_equipment_map = compile_all_full_equipment();
         all_equipment_map_sorted = new Map([...all_equipment_map.entries()].sort((a, b) => b[1] - a[1]));

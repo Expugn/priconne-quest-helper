@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.1] - 2019-10-17
+### Changed
+- Updated equipment data due to the required amount being adjusted
+  - `Fire Spear - Prominence` | `20` -> `30` Required Pieces
+  - `Machine Axe - Core Breaker` | `30` -> `20` Required Pieces
+  - `World Tree's Branch Wand` | `30` -> `20` Required Pieces
+  - `Abyss Moon Staff - Sacrifice` | `20` -> `30` Required Pieces
+  - `Ice Bow - Freezing Tear` | `20` -> `30` Required Pieces
+
 ## [1.4.0] - 2019-10-16
 Quest Update (2019-10-16)
 ### Added
@@ -18,6 +27,7 @@ Quest Update (2019-10-16)
 - Title Background selection is now hidden in Simple Mode since it's irrelevant there anyways
 ### Fixed
 - Fixed some issues with dev/File-Editor
+- Fixed a bug where the stats footer in the Statistics page would display the incorrect max rank
 
 ## [1.3.8] - 2019-10-06
 ### Changed

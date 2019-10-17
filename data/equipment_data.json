@@ -1333,7 +1333,7 @@
     "name": "Fire Spear - Prominence",
     "id": "purple-20",
     "has_fragments": true,
-    "req_pieces": 20,
+    "req_pieces": 30,
     "req_items": [ "Firelord's Ring" ]
   },
   "necrodim_axe": {
@@ -1368,7 +1368,7 @@
     "name": "Machine Axe - Core Breaker",
     "id": "purple-25",
     "has_fragments": true,
-    "req_pieces": 30,
+    "req_pieces": 20,
     "req_items": [ "Queen's Battle Axe", "Blue Sphere Axe" ]
   },
   "flame_rod": {
@@ -1431,14 +1431,14 @@
     "name": "World Tree's Branch Wand",
     "id": "purple-34",
     "has_fragments": true,
-    "req_pieces": 30,
+    "req_pieces": 20,
     "req_items": [ "Faireal Boots", "Phoenix Rod" ]
   },
   "abyss_moon_staff_sacrifice": {
     "name": "Abyss Moon Staff - Sacrifice",
     "id": "purple-35",
     "has_fragments": true,
-    "req_pieces": 20,
+    "req_pieces": 30,
     "req_items": [ "High Devil Wand" ]
   },
   "silver_wing_bow": {
@@ -1473,7 +1473,7 @@
     "name": "Ice Bow - Freezing Tear",
     "id": "purple-40",
     "has_fragments": true,
-    "req_pieces": 20,
+    "req_pieces": 30,
     "req_items": [ "Ice Claymore" ]
   },
   "moon_cestus": {
