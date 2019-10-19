@@ -6,11 +6,11 @@ function init_webp()
     if ($('html').hasClass('webp'))
     {
         webp_enabled = true;
-        console.log("[Image Manager] .webp images are supported! Using .webp instead of .png.");
+        console.log(get_colored_message("Image Manager") + highlight_code(".webp") + message_status.INFO + " images are supported! Using " + highlight_code(".webp") + message_status.INFO + " instead of " + highlight_code(".png") + message_status.INFO + "...");
     }
     else
     {
-        console.log("[Image Manager] .webp images are NOT supported! Using .png instead of .webp.");
+        console.log(get_colored_message("Image Manager") + highlight_code(".webp") + message_status.INFO + " images are " + console_colors.RED + "NOT" + message_status.INFO + " supported! Using " + highlight_code(".png") + message_status.INFO + " instead of " + highlight_code(".webp") + message_status.INFO + "...");
     }
 }
 

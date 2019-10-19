@@ -186,7 +186,7 @@ function load_preset_character_items()
     // UPDATE REQUESTED ITEMS
     build_data();
 
-    console.log("[Presets] - Loaded \"" + selected_character + "\"'s items for rank " + preset_min_rank + " - " + preset_max_rank);
+    console.log(get_colored_message("Presets", "Loaded ", message_status.INFO) + highlight(selected_character) + message_status.INFO + "'s equipment for rank " + highlight_code(preset_min_rank) + message_status.INFO + " - " + highlight_code(preset_max_rank));
 }
 
 function load_preset_character_items_and_create_project()

@@ -49,6 +49,7 @@
     <script src="scripts/toastr.min.js"></script>
     <script src="scripts/modernizr-custom.js"></script> <!-- WEBP CHECK -->
 
+    <script src="scripts/console.js"></script>
     <script src="scripts/image-manager.js"></script>
     <script src="scripts/read-equipment-json.js"></script>
     <script src="scripts/read-quest-json.js"></script>
@@ -242,6 +243,7 @@
 
 <div id="projects-container" style="display: none;">
     <div id="local-storage-warning" style="display: none">
+        <br>
         <table class="centerTable">
             <tr>
                 <th>
@@ -249,7 +251,6 @@
                 </th>
             </tr>
         </table>
-        <hr>
     </div>
 
     <div id="projects-div">
@@ -286,13 +287,17 @@
             <button id="blacklist-clear-button" type="button" onclick="clear_blacklist()"><span translate_text="projects_tab.clear_blacklist_button">Clear Blacklist</span></button>
             <button id="blacklist-delete-button" type="button" onclick="delete_blacklist()"><span translate_text="projects_tab.delete_blacklist_button">Delete Blacklist</span></button>
 
-            <br><br>
-            <label for="blacklist-common"><span translate_text="items_tab.common_title">Common</span></label>    <input id="blacklist-common" type="checkbox"><br>
-            <label for="blacklist-copper"><span translate_text="items_tab.copper_title">Copper</span></label>    <input id="blacklist-copper" type="checkbox"><br>
-            <label for="blacklist-silver"><span translate_text="items_tab.silver_title">Silver</span></label>    <input id="blacklist-silver" type="checkbox"><br>
-            <label for="blacklist-gold"><span translate_text="items_tab.gold_title">Gold</span></label>        <input id="blacklist-gold" type="checkbox"><br>
-            <label for="blacklist-purple"><span translate_text="items_tab.purple_title">Purple</span></label>    <input id="blacklist-purple" type="checkbox"><br>
-            <button id="blacklist-rarities-button" type="button" onclick="blacklist_selected_rarities()"><span translate_text="projects_tab.blacklist_selected_rarities_button">Blacklist Selected Rarities</span></button>
+            <!--
+            <div hidden>
+                <br><br>
+                <label for="blacklist-common"><span translate_text="items_tab.common_title">Common</span></label>    <input id="blacklist-common" type="checkbox"><br>
+                <label for="blacklist-copper"><span translate_text="items_tab.copper_title">Copper</span></label>    <input id="blacklist-copper" type="checkbox"><br>
+                <label for="blacklist-silver"><span translate_text="items_tab.silver_title">Silver</span></label>    <input id="blacklist-silver" type="checkbox"><br>
+                <label for="blacklist-gold"><span translate_text="items_tab.gold_title">Gold</span></label>        <input id="blacklist-gold" type="checkbox"><br>
+                <label for="blacklist-purple"><span translate_text="items_tab.purple_title">Purple</span></label>    <input id="blacklist-purple" type="checkbox"><br>
+                <button id="blacklist-rarities-button" type="button" onclick="blacklist_selected_rarities()"><span translate_text="projects_tab.blacklist_selected_rarities_button">Blacklist Selected Rarities</span></button>
+            </div>
+            -->
         </div>
     </div>
     <br>
@@ -675,7 +680,7 @@
         // LOCAL STORAGE SUPPORT DOES NOT EXIST
         if (typeof(Storage) === "undefined")
         {
-            console.log("[System] - LocalStorage is not supported on this browser! Disabling Projects, Blacklist, Data Exporting/Importing, and Settings!");
+            console.log(get_colored_message("System", "LocalStorage is not supported on this browser! Disabling Projects, Blacklist, Data Exporting/Importing, and Settings!", message_status.WARNING));
             document.getElementById("projects-div").style.display = "none";
             document.getElementById("data-management-div").style.display = "none";
             document.getElementById("setting-saving-div").style.display = "none";

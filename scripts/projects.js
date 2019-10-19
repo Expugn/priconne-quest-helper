@@ -25,8 +25,7 @@ function init_project_data()
             priority_projects = JSON.parse(priority_project_cookie_data);
         }
 
-
-        if (project_cookie_data !== undefined)
+        if (project_cookie_data !== null)
         {
             // PROJECT COOKIE EXISTS, DECRYPT DATA AND SAVE TO GLOBAL VAR
             projects = map_string_json_to_map_of_maps(project_cookie_data);
@@ -34,7 +33,7 @@ function init_project_data()
             // UPDATE SELECT DISPLAYING SAVED PROJECTS
             update_saved_projects_select();
 
-            console.log("[Projects] - Projects are initialized!");
+            console.log(get_colored_message("Projects", "User projects have been loaded!", message_status.SUCCESS));
         }
     }
 }
@@ -124,7 +123,7 @@ function save_project_data()
             translated_toast.replace("${status}", language_json["toasts"]["saved_status"]));
         toastr.success(translated_toast);
     }
-    console.log("[Projects] - \"" + project_name + "\"'s data has been saved.");
+    console.log(get_colored_message("Projects", "Project ", message_status.SUCCESS) + highlight_code(project_name) + message_status.SUCCESS + " has been saved.");
 }
 
 function load_project_data()
@@ -178,7 +177,7 @@ function load_project_data()
         document.getElementById("project-name-input").value = "";
     }
 
-    console.log("[Projects] - Loaded \"" + project_name + "\"'s data.");
+    console.log(get_colored_message("Projects", "Loaded project ", message_status.INFO) + highlight_code(project_name) + color_text(".", message_status.INFO))
 }
 
 function add_project_data()
@@ -206,7 +205,7 @@ function add_project_data()
     // UPDATE REQUESTED ITEMS
     build_data();
 
-    console.log("[Projects] - Added a set of \"" + project_name + "\"'s items from the selection.");
+    console.log(get_colored_message("Projects", "Added a set of ", message_status.SUCCESS) + highlight_code(project_name) + color_text("'s items to the required items.", message_status.SUCCESS));
 }
 
 function sub_project_data()
@@ -231,7 +230,7 @@ function sub_project_data()
     // UPDATE REQUESTED ITEMS
     build_data();
 
-    console.log("[Projects] - Subtracted a set of \"" + project_name + "\"'s items from the selection.");
+    console.log(get_colored_message("Projects", "Subtracted a set of ", message_status.WARNING) + highlight_code(project_name) + color_text("'s items from the required items.", message_status.WARNING));
 }
 
 function delete_project_data()
@@ -251,7 +250,6 @@ function delete_project_data()
         priority_projects = [];
 
         // DELETE COOKIE SINCE IT'S NOT NEEDED ANYMORE
-        //Cookies.remove('projects');
         localStorage.removeItem('projects');
         localStorage.removeItem('priority_projects');
         get_priority_items();
@@ -269,7 +267,7 @@ function delete_project_data()
         show_prioritize_button(true);
         save_priority_projects();
 
-        console.log("[Priority Projects] - Removing \"" + project_name + "\" from the list due to it being deleted.");
+        console.log(get_colored_message("Projects", "Removing ", message_status.WARNING) + highlight_code(project_name) + color_text(" from the prioritized projects list due to it being deleted.", message_status.WARNING));
     }
 
     update_saved_projects_select();
@@ -294,7 +292,7 @@ function delete_project_data()
 
         toastr.success(translated_toast);
     }
-    console.log("[Projects] - Deleted \"" + project_name + "\"'s data.");
+    console.log(get_colored_message("Projects", "Deleted project ", message_status.SUCCESS) + highlight_code(project_name) + message_status.SUCCESS + ".");
 }
 
 function map_of_maps_to_map_string_json(map_of_maps)
@@ -456,9 +454,9 @@ function update_project_selection()
     let is_project_complete = completed_projects.includes(selected_project);
     disable_complete_project_button(is_project_complete);
 
-    console.log("[Projects] - Selected \"" + selected_project + "\""
-        + (is_project_complete ? " (Completed)" : "")
-        + (is_project_prioritized ? " (Prioritized)" : ""));
+    console.log(get_colored_message("Projects", "Selected ", message_status.INFO) + highlight_code(selected_project) + message_status.INFO + "." +
+        (is_project_complete ? color_text(" (Completed)", console_colors.GREEN) : "") +
+        (is_project_prioritized ? color_text(" (Prioritized)", console_colors.MAGENTA) : ""));
 }
 
 function disable_add_and_sub_buttons(true_or_false)
@@ -505,7 +503,7 @@ function init_blacklist()
                     {
                         document.getElementById("request-button-" + disabled_items[i].split(' ').join('_')).classList.toggle("low-opacity");
                     }
-                    console.log("[Required Items] - Re-enabled " + disabled_items[i]);
+                    //console.log(get_colored_message("Blacklist", "Re-enabled ", message_status.SUCCESS) + highlight(disabled_items[i]) + color_text(".", message_status.SUCCESS));
                 }
                 disabled_items = [];
             }
@@ -520,33 +518,48 @@ function init_blacklist()
             disable_complete_project_button(completed_projects.includes(document.getElementById("saved-projects-select").value));
 
             document.getElementById("blacklist-load-button").title = ((saved_blacklist_array.length > 0) ? button_title_string : "The saved blacklist is empty.");
-            console.log("[Blacklist] - Blacklist is initialized!");
+            console.log(get_colored_message("Blacklist", "User blacklist has been loaded!", message_status.SUCCESS));
         }
     }
 }
 
 function save_blacklist()
 {
-    // SAVE PROJECT MAP TO COOKIE AS COOKIE-SAFE JSON STRING
-    let encrypted_disabled_item_array = JSON.stringify(disabled_items);
-    localStorage.setItem('blacklist', encrypted_disabled_item_array);
-
-    let button_title_string = "";
-    for (let i = 0 ; i < disabled_items.length ; i++)
+    if (disabled_items.length > 0)
     {
-        button_title_string += disabled_items[i] + "\n";
-    }
-    document.getElementById("blacklist-load-button").title = ((disabled_items.length > 0) ? button_title_string : "The saved blacklist is empty.");
+        // SAVE PROJECT MAP TO COOKIE AS COOKIE-SAFE JSON STRING
+        let encrypted_disabled_item_array = JSON.stringify(disabled_items);
+        localStorage.setItem('blacklist', encrypted_disabled_item_array);
 
-    if (current_language === "en")
-    {
-        toastr.success("The item blacklist has been saved!");
+        let button_title_string = "";
+        for (let i = 0 ; i < disabled_items.length ; i++)
+        {
+            button_title_string += disabled_items[i] + "\n";
+        }
+        document.getElementById("blacklist-load-button").title = ((disabled_items.length > 0) ? button_title_string : "The saved blacklist is empty.");
+
+        if (current_language === "en")
+        {
+            toastr.success("The item blacklist has been saved!");
+        }
+        else
+        {
+            toastr.success(language_json["toasts"]["blacklist_saved"]);
+        }
+        console.log(get_colored_message("Blacklist", "The blacklist has been saved.", message_status.SUCCESS));
     }
     else
     {
-        toastr.success(language_json["toasts"]["blacklist_saved"]);
+        if (current_language === "en")
+        {
+            toastr.error("The item blacklist is empty.");
+        }
+        else
+        {
+            toastr.error(language_json["toasts"]["blacklist_empty"]);
+        }
+        console.log(get_colored_message("Blacklist", "The blacklist is empty. Nothing can be saved.", message_status.WARNING));
     }
-    console.log("[Blacklist] - The blacklist has been saved.");
 }
 
 function clear_blacklist()
@@ -559,7 +572,7 @@ function clear_blacklist()
             {
                 document.getElementById("request-button-" + disabled_items[i].split(' ').join('_')).classList.toggle("low-opacity");
             }
-            console.log("[Required Items] - Re-enabled " + disabled_items[i]);
+            //console.log("[Required Items] - Re-enabled " + disabled_items[i]);
         }
         disabled_items = [];
 
@@ -575,7 +588,7 @@ function clear_blacklist()
         {
             toastr.success(language_json["toasts"]["blacklist_cleared"]);
         }
-        console.log("[Blacklist] - The blacklist has been cleared.");
+        console.log(get_colored_message("Blacklist", "The blacklist has been cleared.", message_status.SUCCESS));
     }
     else
     {
@@ -587,7 +600,7 @@ function clear_blacklist()
         {
             toastr.error(language_json["toasts"]["blacklist_empty"]);
         }
-        console.log("[Blacklist] - The blacklist is already empty.");
+        console.log(get_colored_message("Blacklist", "The blacklist is already empty.", message_status.WARNING));
     }
 }
 
@@ -607,7 +620,7 @@ function delete_blacklist()
         {
             toastr.success(language_json["toasts"]["blacklist_deleted"]);
         }
-        console.log("[Blacklist] - The blacklist has been deleted.");
+        console.log(get_colored_message("Blacklist", "The blacklist has been deleted.", message_status.SUCCESS));
     }
     else
     {
@@ -619,7 +632,7 @@ function delete_blacklist()
         {
             toastr.error(language_json["toasts"]["no_saved_blacklist"]);
         }
-        console.log("[Blacklist] - There is no saved item blacklist.");
+        console.log(get_colored_message("Blacklist", "There is no saved blacklist.", message_status.WARNING));
     }
 }
 
@@ -678,7 +691,11 @@ function blacklist_selected_rarities()
                         set_enabled_item(item_name + (has_fragments ? " Fragment" : ""), false);
                     }
                     break;
+                case "misc":
+                    // IGNORED
+                    break;
                 default:
+                    console.log(get_colored_message("Blacklist", "Unknown item found in blacklist: ", message_status.WARNING) + highlight_code(item_name));
                     console.log("[Blacklist] - Unknown Item: " + item_name);
                     break;
             }
@@ -701,6 +718,7 @@ function blacklist_selected_rarities()
 
             toastr.success(temp_rarity_array, language_json["toasts"]["blacklisted_rarities"]);
         }
+        console.log(get_colored_message("Blacklist") + highlight_code(rarity_array.toString()) + color_text(" rarity(s) have been blacklisted.", message_status.SUCCESS));
         console.log("[Blacklist] - " + rarity_array.toString() + " rarity(s) have been blacklisted");
     }
     else
@@ -747,7 +765,7 @@ function prioritize_selected_project(true_or_false)
 
         save_priority_projects();
 
-        console.log("[Priority Projects] - " + (true_or_false ? "Prioritized" : "Deprioritized") + " \"" + selected_project + "\"");
+        console.log(get_colored_message("Projects") + (true_or_false ? color_text("Prioritized ", message_status.SUCCESS) : color_text("Deprioritized ", message_status.WARNING)) + highlight_code(selected_project) + color_text(".", (true_or_false ? message_status.SUCCESS : message_status.WARNING)));
     }
 }
 
@@ -815,7 +833,7 @@ function complete_project()
         show_prioritize_button(true);
         save_priority_projects();
 
-        console.log("[Priority Projects] - Removing \"" + project_name + "\" from the list due to it being completed and deleted.");
+        console.log(get_colored_message("Projects", "Removing ", message_status.WARNING) + highlight_code(project_name) + color_text(" from the priority project list due to it being completed and deleted.", message_status.WARNING));
     }
 
     update_saved_projects_select();
@@ -834,5 +852,5 @@ function complete_project()
 
         toastr.success(translated_toast);
     }
-    console.log("[Projects] - Completed \"" + project_name + "\".");
+    console.log(get_colored_message("Projects", "Completed project ", message_status.SUCCESS) + highlight_code(project_name) + color_text("!", message_status.SUCCESS));
 }

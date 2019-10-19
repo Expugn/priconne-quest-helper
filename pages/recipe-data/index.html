@@ -44,6 +44,7 @@
     <script src="../../scripts/jquery-3.4.1.min.js"></script>
     <script src="../../scripts/toastr.min.js"></script>
     <script src="../../scripts/modernizr-custom.js"></script> <!-- WEBP CHECK -->
+    <script src="../../scripts/console.js"></script>
     <script src="../../scripts/image-manager.js"></script>
     <script src="../../scripts/read-equipment-json.js"></script>
 
@@ -204,7 +205,6 @@
     function change_equipment_data()
     {
         let equipment_data_type = document.getElementById("equipment-data-type").value;
-        console.log(equipment_data_type);
 
         // CLEAR OUT EQUIPMENT MAP
         equipment_map = new Map();

@@ -3,6 +3,22 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.2] - 2019-10-19
+### Added
+- Some fancy colored console messages (Work in Progress)
+### Changed
+- Adjusted some design issues with the LocalStorage disabled message
+- Adjusted some console messages
+- Blacklist can no longer be saved if there are no items blacklisted
+### Fixed
+- Fixed an issue where user projects were being loaded despite not existing
+- Fixed an issue with `Blacklist Selected Rarities` having an issue with `misc` rarity items
+- Fixed the Quest Data being outdated as reported by `attinat#0218`
+  - Cygames changed 28-4 and 28-5 drops so that 28-4 would have different drops than 28-10
+### Removed
+- Removed some console messages from ever appearing
+- Removed the `Blacklist Selected Rarities` option in the projects tab due to it being worse than the `Ignore Item Rarity in Recipe` option in the settings tab
+
 ## [1.4.1] - 2019-10-17
 ### Changed
 - Updated equipment data due to the required amount being adjusted

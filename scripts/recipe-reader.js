@@ -187,14 +187,14 @@ function toggle_enabled_item(item_name)
             disabled_items.splice(item_index, 1);
         }
 
-        console.log("[Required Items] - Re-enabled " + item_name);
+        console.log(get_colored_message("Blacklist", "Re-enabled ", message_status.SUCCESS) + highlight(item_name));
     }
     else
     {
         // DISABLE ITEM
         disabled_items.push(item_name);
 
-        console.log("[Required Items] - Disabled " + item_name);
+        console.log(get_colored_message("Blacklist", "Disabled ", message_status.WARNING) + highlight(item_name));
     }
 
     refresh_quest_table();
@@ -214,14 +214,14 @@ function init_enabled_items(item_name)
             disabled_items.splice(item_index, 1);
         }
 
-        console.log("[Required Items] - Re-enabled " + item_name);
+        //console.log("[Required Items] - Re-enabled " + item_name);
     }
     else
     {
         // DISABLE ITEM
         disabled_items.push(item_name);
 
-        console.log("[Required Items] - Disabled " + item_name);
+        //console.log("[Required Items] - Disabled " + item_name);
     }
 
     if (document.getElementById("request-button-" + item_name.split(' ').join('_')))

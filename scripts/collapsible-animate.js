@@ -47,7 +47,7 @@ function enableCollapsible()
         });
     }
 
-    console.log("[Collapsible] - Enabled Collapsible Menus!");
+    //console.log("[Collapsible] - Enabled Collapsible Menus!");
 
     if (collapsible_ready === false)
     {

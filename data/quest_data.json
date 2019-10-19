@@ -3015,14 +3015,14 @@
   },
   "28-4": {
     "item_1": {"item_name": "Extremely Dark Nail - Bloody Howl Fragment", "drop_percent": 36},
-    "item_2": {"item_name": "Prosperity Veil Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Senka Dance Armor Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Sea Dragon God's Hair Ornament Fragment", "drop_percent": 24},
     "subdrops": [ "Sophos Bracelet Fragment", "Great Sword of Sin Fragment", "Fire Oni's Tori Fragment", "Blood Raven Sword Fragment", "Lightning Wand Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]
   },
   "28-5": {
     "item_1": {"item_name": "World Tree's Branch Wand Fragment", "drop_percent": 36},
-    "item_2": {"item_name": "Senka Dance Armor Fragment", "drop_percent": 36},
+    "item_2": {"item_name": "Prosperity Veil Fragment", "drop_percent": 36},
     "item_3": {"item_name": "Flowering Fire Peony Fragment", "drop_percent": 24},
     "subdrops": [ "War God's Arm Fragment", "Heavenly Red Bow Fragment", "Heaven's Protective Holy Spear Fragment", "Royal Guard Hat Fragment", "Gaia Axe Fragment" ],
     "subdrops_percent": [ 24, 24, 20, 17, 15 ]

@@ -19,7 +19,7 @@ const character_data_location = Object.freeze({
 read_character_data(character_data_version.CURRENT, function ()
 {
     character_loaded = true;
-    console.log("[Character Reader] - Character data loaded!");
+    console.log(get_colored_message("Character Reader", "Character data loaded!", message_status.SUCCESS));
 });
 
 function read_character_data(character_file_type, callback)
@@ -36,7 +36,7 @@ function read_character_data(character_file_type, callback)
 
     const max_rank = ((character_file_type === character_data_version.CURRENT) ? max_character_rank_information.CURRENT : max_character_rank_information.LEGACY);
 
-    console.log("[Character Reader] - Reading '" + file_path + "'...");
+    console.log(get_colored_message("Character Reader", "Reading ", message_status.INFO) + highlight_code(file_path) + message_status.INFO + "...");
     return $(function () {
         $.ajax({
             'global': false,
@@ -76,7 +76,7 @@ function get_character_data(character_name, key)
     }
     else
     {
-        console.log("[Character Reader] - " + character_name + " is not found.");
+        console.log(get_colored_message("Character Reader", "get_character_data() failed: Character ID ", message_status.WARNING) + highlight(character_name) + message_status.WARNING + " does not exist.");
     }
 }
 

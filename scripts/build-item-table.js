@@ -191,7 +191,7 @@ function build_item_tables()
     if (item_table_ready === false)
     {
         item_table_ready = true;
-        console.log("[Table Builder] - Item Tables Built!");
+        //console.log(get_colored_message("Table Builder", "Item tables have been built.", message_status.INFO));
         loadingToast();
     }
 }

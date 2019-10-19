@@ -18,7 +18,7 @@ let totalItemsCount = reset_equipment_count();
 read_equipment_data(equipment_data_version.CURRENT, function ()
 {
     equipment_loaded = true;
-    console.log("[Equipment Reader] - Equipment data loaded!" + (window.location.pathname.includes(dev_file_editor_location) ? " (Using Alternate Format)" : ""));
+    console.log(get_colored_message("Equipment Reader", "Equipment data loaded!", message_status.SUCCESS) + (window.location.pathname.includes(dev_file_editor_location) ? " (Using Alternate Format)" : ""));
 });
 
 function read_equipment_data(equipment_file_type, callback)
@@ -36,7 +36,7 @@ function read_equipment_data(equipment_file_type, callback)
         file_path = equipment_data_location.CURRENT;
     }
 
-    console.log("[Equipment Reader] - Reading '" + file_path + "'...");
+    console.log(get_colored_message("Equipment Reader", "Reading ", message_status.INFO) + highlight_code(file_path) + message_status.INFO + "...");
     return $(function () {
         $.ajax({
             'global': false,
@@ -96,7 +96,7 @@ function get_equipment_data(item_name, key)
     }
     else
     {
-        console.log("[Equipment Reader] - " + item_name + " is not found.");
+        console.log(get_colored_message("Equipment Reader", "get_equipment_data() failed: Equipment ID ", message_status.WARNING) + highlight(item_name) + message_status.WARNING + " does not exist.");
     }
 }
 

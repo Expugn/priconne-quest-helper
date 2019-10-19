@@ -115,7 +115,7 @@ function init_settings()
     }
     equipment_data_type_default = equipment_data_type;
 
-    console.log("[Settings] - Settings are initialized!");
+    //console.log(get_colored_message("Settings", "Settings have been initialized.", message_status.INFO));
 }
 
 function check_checkbox(elementID, checked)
@@ -288,13 +288,13 @@ function toggle_ignored_rarity(rarity)
             ignored_rarities.splice(index, 1);
         }
 
-        console.log("[Settings] - Un-ignoring " + rarity + " Rarity Items.");
+        console.log(get_colored_message("Settings", "Un-ignoring ", message_status.WARNING) + highlight(rarity) + color_text(" rarity items.", message_status.WARNING));
     }
     else
     {
         // IGNORE RARITY
         ignored_rarities.push(rarity);
-        console.log("[Settings] - Ignoring " + rarity + " Rarity Items.");
+        console.log(get_colored_message("Settings", "Ignoring ", message_status.SUCCESS) + highlight(rarity) + color_text(" rarity items.", message_status.SUCCESS));
     }
 
     build_data();
@@ -415,7 +415,7 @@ function toggle_simple_mode()
         let hash = window.location.hash.substring(1);
         if (hash === "simple")
         {
-            console.log("[Simple Mode] Simple Mode Enabled! (No Background Images)");
+            console.log(get_colored_message("Simple Mode", "Simple Mode Enabled! (No Background Images)", message_status.INFO));
             document.getElementById("title-div").classList.toggle("no-background");
             document.getElementById("title-div").classList.toggle("no-transition");
             document.getElementById("title-div").classList.toggle("no-hover");
@@ -553,7 +553,7 @@ function read_cookie()
             document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value = equipment_data_version.CURRENT;
         }
 
-        console.log("[Settings] - Settings have been loaded.");
+        console.log(get_colored_message("Settings", "User settings have been loaded!", message_status.SUCCESS));
 
         if (!settings_loaded)
         {
