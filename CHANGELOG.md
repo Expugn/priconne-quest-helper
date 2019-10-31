@@ -3,6 +3,17 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.3] - 2019-10-31
+Save Data Purge #2: `233` / `296` Files Deleted
+### Added
+- Updated Language Files
+  - `en.json`
+    - `character_names.luna`
+  - `ja.json`
+    - `character_names.luna`
+- New Character: Luna
+- Quest Data for Chapter 19-2 Very Hard
+
 ## [1.4.2] - 2019-10-19
 ### Added
 - Some fancy colored console messages (Work in Progress)
