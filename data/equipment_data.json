@@ -1763,6 +1763,27 @@
     "req_pieces": 30,
     "req_items": []
   },
+  "scarlet_dragons_claw_fire_ring": {
+    "name": "Scarlet Dragon's Claw Fire Ring",
+    "id": "purple-82",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "shield_god_ring_wall_breath": {
+    "name": "Shield God Ring - Wall Breath",
+    "id": "purple-83",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
+  "deep_crystallized_xenocrystal": {
+    "name": "Deep Crystallized Xenocrystal",
+    "id": "purple-84",
+    "has_fragments": true,
+    "req_pieces": 30,
+    "req_items": []
+  },
   "yui_shard": {
     "name": "Yui Shard",
     "id": "misc-1",
