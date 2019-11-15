@@ -18,7 +18,7 @@
     "rank_12": ["Atlantis Rod", "Divine Blossom Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Fairy King's Guardian Stone"],
     "rank_13": ["Heaven Rod - Stellar Sphere", "Atlantis Rod", "Exomagia Robe", "Holy Prayer's Crown", "Sophos Bracelet", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["World Tree's Branch Wand", "Heaven Rod - Stellar Sphere", "Refreshing Ice Garment", "Blood Ruby Heel", "Little Ice Princess' Knot", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "Deep Crystallized Xenocrystal", "Sea Dragon God's Hair Ornament"]
   },
   "akino": {
     "name": "Akino",
@@ -39,7 +39,7 @@
     "rank_12": ["Great Sword of Sin", "Dawn's Holy Sword", "Infernal Greaves", "Astrograph Buckler", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Great Sword of Sin", "Fire Oni's Tori", "Infernal Greaves", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Overlord Light Dragon Sword", "Konominato Sword - Aqua Ruler", "Senka Dance Armor", "Royal Guard Hat", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Overlord Light Dragon Sword", "", "Sky Soaring Gold Shoes", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Overlord Light Dragon Sword", "", "Sky Soaring Gold Shoes", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "anna": {
     "name": "Anna",
@@ -60,7 +60,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Genesis Rod", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Lightning Wand", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "anne": {
     "name": "Anne",
@@ -81,7 +81,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Genesis Rod", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Lightning Wand", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "aoi": {
     "name": "Aoi",
@@ -102,7 +102,7 @@
     "rank_12": ["Heavenly Red Bow", "Abyss Bow", "Holy Sakura's Armor", "Silver Wing Bow", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Armored Bow - Deus Fall", "Heavenly Red Bow", "Rage Queen Dress", "Abyss Bow", "Glorious King's Shield Bangle", "Fury Dragon Pendant"],
     "rank_14": ["Ice Bow - Freezing Tear", "Armored Bow - Deus Fall", "Sky Soaring Gold Shoes", "Heavenly Red Bow", "Sea Dragon God's Hair Ornament", "War God's Arm"],
-    "rank_15": ["", "Ice Bow - Freezing Tear", "", "Armored Bow - Deus Fall", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Ice Bow - Freezing Tear", "", "Armored Bow - Deus Fall", "Shield God Ring - Wall Breath", "Flowering Fire Peony"]
   },
   "transfer_student_aoi": {
     "name": "Aoi",
@@ -123,7 +123,7 @@
     "rank_12": ["Heavenly Red Bow", "Abyss Bow", "Nine Heavens' Armor", "Silver Wing Bow", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Armored Bow - Deus Fall", "Heavenly Red Bow", "Fire Oni's Tori", "Abyss Bow", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Ice Bow - Freezing Tear", "Armored Bow - Deus Fall", "Extremely Dark Clothes", "Heavenly Red Bow", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Ice Bow - Freezing Tear", "", "Armored Bow - Deus Fall", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Ice Bow - Freezing Tear", "", "Armored Bow - Deus Fall", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "arisa": {
     "name": "Arisa",
@@ -144,7 +144,7 @@
     "rank_12": ["Heavenly Red Bow", "Abyss Bow", "Nine Heavens' Armor", "Silver Wing Bow", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Armored Bow - Deus Fall", "Heavenly Red Bow", "Fire Oni's Tori", "Abyss Bow", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Ice Bow - Freezing Tear", "Armored Bow - Deus Fall", "Extremely Dark Clothes", "Heavenly Red Bow", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Ice Bow - Freezing Tear", "", "Armored Bow - Deus Fall", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Ice Bow - Freezing Tear", "", "Armored Bow - Deus Fall", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "ayane": {
     "name": "Ayane",
@@ -165,7 +165,7 @@
     "rank_12": ["Gaia Axe", "Divine Judgement Axe", "Infernal Greaves", "Phantasm Mail", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["God Roar Axe - Terra Break", "Gaia Axe", "Rage Queen Dress", "Nine Heavens' Armor", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Machine Axe - Core Breaker", "God Roar Axe - Terra Break", "Senka Dance Armor", "Rage Queen Dress", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Machine Axe - Core Breaker", "", "Senka Dance Armor", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Machine Axe - Core Breaker", "", "Senka Dance Armor", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "christmas_ayane": {
     "name": "Ayane",
@@ -186,7 +186,7 @@
     "rank_12": ["Gaia Axe", "Gale Stinger", "Infernal Greaves", "Necrodim Axe", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["God Roar Axe - Terra Break", "Heaven's Protective Holy Spear", "Fire Oni's Tori", "Divine Judgement Axe", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Machine Axe - Core Breaker", "Divine Spear - Doom Pain", "Extremely Dark Clothes", "Gaia Axe", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Fire Spear - Prominence", "", "God Roar Axe - Terra Break", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Fire Spear - Prominence", "", "God Roar Axe - Terra Break", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "ayumi": {
     "name": "Ayumi",
@@ -207,7 +207,7 @@
     "rank_12": ["Heaven's Protective Holy Spear", "Gale Stinger", "Nine Heavens' Armor", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Divine Spear - Doom Pain", "Heaven's Protective Holy Spear", "Royal Guard Hat", "Infernal Greaves", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Fire Spear - Prominence", "Divine Spear - Doom Pain", "Sky Soaring Gold Shoes", "Royal Guard Hat", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Fire Spear - Prominence", "", "Sky Soaring Gold Shoes", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Fire Spear - Prominence", "", "Sky Soaring Gold Shoes", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "chika": {
     "name": "Chika",
@@ -228,7 +228,7 @@
     "rank_12": ["Atlantis Rod", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Mermaid Princess' Spirit Tear", "Ocean God's Earrings"],
     "rank_13": ["Heaven Rod - Stellar Sphere", "Atlantis Rod", "Blood Ruby Heel", "Holy Prayer's Crown", "Glorious King's Shield Bangle", "Divine Beast's Prayer"],
     "rank_14": ["World Tree's Branch Wand", "Heaven Rod - Stellar Sphere", "Refreshing Ice Garment", "Blood Ruby Heel", "Sea Dragon God's Hair Ornament", "Sophos Bracelet"],
-    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "Shield God Ring - Wall Breath", "Little Ice Princess' Knot"]
   },
   "christmas_chika": {
     "name": "Chika",
@@ -249,7 +249,7 @@
     "rank_12": ["Atlantis Rod", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Mermaid Princess' Spirit Tear", "Ocean God's Earrings"],
     "rank_13": ["Heaven Rod - Stellar Sphere", "Atlantis Rod", "Blood Ruby Heel", "Holy Prayer's Crown", "Glorious King's Shield Bangle", "Divine Beast's Prayer"],
     "rank_14": ["World Tree's Branch Wand", "Heaven Rod - Stellar Sphere", "Refreshing Ice Garment", "Blood Ruby Heel", "Sea Dragon God's Hair Ornament", "Sophos Bracelet"],
-    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "Shield God Ring - Wall Breath", "Little Ice Princess' Knot"]
   },
   "chloe": {
     "name": "Chloe",
@@ -270,7 +270,7 @@
     "rank_12": ["Tír na nÓg Dagger", "Lava Edge", "Nine Heavens' Armor", "Aegis Coat", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Twin God Sword of Lightning", "Tír na nÓg Dagger", "Fire Oni's Tori", "Maiden Cloth", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Heavenly Black Sword of Obsidian", "Twin God Sword of Lightning", "Extremely Dark Clothes", "Fire Oni's Tori", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Extremely Dark Clothes", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Extremely Dark Clothes", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "christina": {
     "name": "Christina",
@@ -291,7 +291,7 @@
     "rank_12": ["Great Sword of Sin", "Dawn's Holy Sword", "Nine Heavens' Armor", "Lightning Blade", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Great Sword of Sin", "Rage Queen Dress", "Dawn's Holy Sword", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Overlord Light Dragon Sword", "Konominato Sword - Aqua Ruler", "Senka Dance Armor", "Great Sword of Sin", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Overlord Light Dragon Sword", "", "Konominato Sword - Aqua Ruler", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Overlord Light Dragon Sword", "", "Konominato Sword - Aqua Ruler", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "djeeta": {
     "name": "Djeeta",
@@ -312,7 +312,7 @@
     "rank_12": ["Great Sword of Sin", "Dawn's Holy Sword", "Nine Heavens' Armor", "Lightning Blade", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Great Sword of Sin", "Fire Oni's Tori", "Dawn's Holy Sword", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Overlord Light Dragon Sword", "Konominato Sword - Aqua Ruler", "Senka Dance Armor", "Great Sword of Sin", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Overlord Light Dragon Sword", "", "Konominato Sword - Aqua Ruler", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Overlord Light Dragon Sword", "", "Konominato Sword - Aqua Ruler", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "emilia": {
     "name": "Emilia",
@@ -333,7 +333,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Holy Prayer's Crown", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Blood Ruby Heel", "Holy Prayer's Crown", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Blood Ruby Heel", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Prosperity Veil", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Prosperity Veil", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "eriko": {
     "name": "Eriko",
@@ -354,7 +354,7 @@
     "rank_12": ["Gaia Axe", "Divine Judgement Axe", "Infernal Greaves", "Necrodim Axe", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["God Roar Axe - Terra Break", "Gaia Axe", "Fire Oni's Tori", "Divine Judgement Axe", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Machine Axe - Core Breaker", "God Roar Axe - Terra Break", "Extremely Dark Clothes", "Gaia Axe", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Machine Axe - Core Breaker", "", "God Roar Axe - Terra Break", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Machine Axe - Core Breaker", "", "God Roar Axe - Terra Break", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "valentine_eriko": {
     "name": "Eriko",
@@ -375,7 +375,7 @@
     "rank_12": ["Gaia Axe", "Divine Judgement Axe", "Infernal Greaves", "Necrodim Axe", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["God Roar Axe - Terra Break", "Gaia Axe", "Fire Oni's Tori", "Divine Judgement Axe", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Machine Axe - Core Breaker", "God Roar Axe - Terra Break", "Extremely Dark Clothes", "Gaia Axe", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Machine Axe - Core Breaker", "", "God Roar Axe - Terra Break", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Machine Axe - Core Breaker", "", "God Roar Axe - Terra Break", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "grea": {
     "name": "Grea",
@@ -396,7 +396,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Genesis Rod", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Lightning Wand", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "hatsune": {
     "name": "Hatsune",
@@ -417,7 +417,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Holy Prayer's Crown", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Blood Ruby Heel", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Prosperity Veil", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Prosperity Veil", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "hiyori": {
     "name": "Hiyori",
@@ -438,7 +438,7 @@
     "rank_12": ["Cocytus Nail", "Crimson Claw", "Nine Heavens' Armor", "Aegis Coat", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Storm God Tempest Gear", "Cocytus Nail", "Fire Oni's Tori", "Maiden Cloth", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Extremely Dark Nail - Bloody Howl", "Storm God Tempest Gear", "Extremely Dark Clothes", "Fire Oni's Tori", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Extremely Dark Nail - Bloody Howl", "", "Extremely Dark Clothes", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Extremely Dark Nail - Bloody Howl", "", "Extremely Dark Clothes", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "newyear_hiyori": {
     "name": "Hiyori",
@@ -459,7 +459,7 @@
     "rank_12": ["Cocytus Nail", "Crimson Claw", "Nine Heavens' Armor", "Moon Cestus", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Storm God Tempest Gear", "Cocytus Nail", "Fire Oni's Tori", "Crimson Claw", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Extremely Dark Nail - Bloody Howl", "Storm God Tempest Gear", "Extremely Dark Clothes", "Cocytus Nail", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Extremely Dark Nail - Bloody Howl", "", "Storm God Tempest Gear", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Extremely Dark Nail - Bloody Howl", "", "Storm God Tempest Gear", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "ilya": {
     "name": "Ilya",
@@ -480,7 +480,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Genesis Rod", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Lightning Wand", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "io": {
     "name": "Io",
@@ -501,7 +501,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Fairy King's Guardian Stone"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Holy Prayer's Crown", "Sophos Bracelet", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Blood Ruby Heel", "Little Ice Princess' Knot", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Prosperity Veil", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Prosperity Veil", "Deep Crystallized Xenocrystal", "Sea Dragon God's Hair Ornament"]
   },
   "summer_io": {
     "name": "Io",
@@ -522,7 +522,7 @@
     "rank_12": ["Atlantis Rod", "Divine Blossom Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Fairy King's Guardian Stone"],
     "rank_13": ["Heaven Rod - Stellar Sphere", "Atlantis Rod", "Blood Ruby Heel", "Holy Prayer's Crown", "Sophos Bracelet", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["World Tree's Branch Wand", "Heaven Rod - Stellar Sphere", "Prosperity Veil", "Blood Ruby Heel", "Little Ice Princess' Knot", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "World Tree's Branch Wand", "", "Prosperity Veil", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "World Tree's Branch Wand", "", "Prosperity Veil", "Deep Crystallized Xenocrystal", "Sea Dragon God's Hair Ornament"]
   },
   "jun": {
     "name": "Jun",
@@ -543,7 +543,7 @@
     "rank_12": ["Great Sword of Sin", "Dawn's Holy Sword", "Infernal Greaves", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Great Sword of Sin", "Gold King's Armor", "Infernal Greaves", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Overlord Light Dragon Sword", "Konominato Sword - Aqua Ruler", "Senka Dance Armor", "Royal Guard Hat", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Overlord Light Dragon Sword", "", "Sky Soaring Gold Shoes", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Overlord Light Dragon Sword", "", "Sky Soaring Gold Shoes", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "kaori": {
     "name": "Kaori",
@@ -564,7 +564,7 @@
     "rank_12": ["Cocytus Nail", "Crimson Claw", "Nine Heavens' Armor", "Moon Cestus", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Storm God Tempest Gear", "Cocytus Nail", "Fire Oni's Tori", "Crimson Claw", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Extremely Dark Nail - Bloody Howl", "Storm God Tempest Gear", "Extremely Dark Clothes", "Cocytus Nail", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Extremely Dark Nail - Bloody Howl", "", "Storm God Tempest Gear", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Extremely Dark Nail - Bloody Howl", "", "Storm God Tempest Gear", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "summer_kaori": {
     "name": "Kaori",
@@ -585,7 +585,7 @@
     "rank_12": ["Cocytus Nail", "Crimson Claw", "Nine Heavens' Armor", "Moon Cestus", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Storm God Tempest Gear", "Cocytus Nail", "Fire Oni's Tori", "Crimson Claw", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Extremely Dark Nail - Bloody Howl", "Storm God Tempest Gear", "Extremely Dark Clothes", "Cocytus Nail", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Extremely Dark Nail - Bloody Howl", "", "Storm God Tempest Gear", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Extremely Dark Nail - Bloody Howl", "", "Storm God Tempest Gear", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "kasumi": {
     "name": "Kasumi",
@@ -606,7 +606,28 @@
     "rank_12": ["Atlantis Rod", "Divine Blossom Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Fairy King's Guardian Stone"],
     "rank_13": ["Heaven Rod - Stellar Sphere", "Atlantis Rod", "Exomagia Robe", "Holy Prayer's Crown", "Sophos Bracelet", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["World Tree's Branch Wand", "Heaven Rod - Stellar Sphere", "Refreshing Ice Garment", "Blood Ruby Heel", "Little Ice Princess' Knot", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "Deep Crystallized Xenocrystal", "Sea Dragon God's Hair Ornament"]
+  },
+  "kaya": {
+    "name": "Kaya",
+    "thematic": "",
+    "name_jp": "カヤ",
+    "thematic_jp": "",
+    "rank_1": ["Wood Grip", "Killer Pencil", "Leather Overalls", "Leather Boots", "Killer Pencil", "Motivational Bracelet"],
+    "rank_2": ["Leather Knuckle", "Command Knife", "Folklore Clothes", "Crown Boots", "Motivational Bracelet", "Motivational Bracelet"],
+    "rank_3": ["Platinum Knife", "Leather Knuckle", "Shinobi Costume", "Hunting Boots", "Jewel of Courage", "Jewel of Courage"],
+    "rank_4": ["Dragon's Claw", "Platinum Knife", "Millefeuille Cloth", "Shinobi Shoes", "Spike Bangle", "Spike Bangle"],
+    "rank_5": ["Vampire Dagger", "Dragon's Claw", "Palace Cloth", "Fencer Boots", "Opal Earrings", "Opal Earrings"],
+    "rank_6": ["Blazing Gauntlet", "Vampire Dagger", "Cosmos Cloth", "Fencer Boots", "Palace Cloth", "Octogram Pendant"],
+    "rank_7": ["Lion King Gauntlet", "Blazing Gauntlet", "Moonlight Garment", "Scarlet Diamond", "Vampire Dagger", "Lion Eagle's Feather"],
+    "rank_8": ["Blizzard Claw", "Lion King Gauntlet", "Hermit Clothes", "Blazing Gauntlet", "Elemental Heart", "Scarlet Diamond"],
+    "rank_9": ["Lightning Fist", "Blizzard Claw", "Heavenly Robe", "Lion King Gauntlet", "Sun Amulet", "Elemental Heart"],
+    "rank_10": ["Moon Cestus", "Lightning Fist", "Dark Terror Dress", "Blizzard Claw", "Cat God Pendant", "Sun Amulet"],
+    "rank_11": ["Crimson Claw", "Moon Cestus", "Aegis Coat", "Lightning Fist", "Millennium Earrings", "Firelord's Ring"],
+    "rank_12": ["Cocytus Nail", "Crimson Claw", "Nine Heavens' Armor", "Moon Cestus", "Fury Dragon Pendant", "Millennium Earrings"],
+    "rank_13": ["Storm God Tempest Gear", "Cocytus Nail", "Fire Oni's Tori", "Crimson Claw", "War God's Arm", "Fury Dragon Pendant"],
+    "rank_14": ["Extremely Dark Nail - Bloody Howl", "Storm God Tempest Gear", "Extremely Dark Clothes", "Cocytus Nail", "Flowering Fire Peony", "War God's Arm"],
+    "rank_15": ["", "Extremely Dark Nail - Bloody Howl", "", "Storm God Tempest Gear", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "kokkoro": {
     "name": "Kokkoro",
@@ -627,7 +648,7 @@
     "rank_12": ["Heaven's Protective Holy Spear", "Gale Stinger", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Divine Spear - Doom Pain", "Heaven's Protective Holy Spear", "Rage Queen Dress", "Infernal Greaves", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Fire Spear - Prominence", "Divine Spear - Doom Pain", "Sky Soaring Gold Shoes", "Royal Guard Hat", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Fire Spear - Prominence", "", "Extremely Dark Clothes", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Fire Spear - Prominence", "", "Extremely Dark Clothes", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "summer_kokkoro": {
     "name": "Kokkoro",
@@ -648,7 +669,7 @@
     "rank_12": ["Heaven's Protective Holy Spear", "Gale Stinger", "Maiden Cloth", "Aegis Coat", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Divine Spear - Doom Pain", "Heaven's Protective Holy Spear", "Rage Queen Dress", "Maiden Cloth", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Fire Spear - Prominence", "Divine Spear - Doom Pain", "Sky Soaring Gold Shoes", "Fire Oni's Tori", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Fire Spear - Prominence", "", "Extremely Dark Clothes", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Fire Spear - Prominence", "", "Extremely Dark Clothes", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "kurumi": {
     "name": "Kurumi",
@@ -669,7 +690,7 @@
     "rank_12": ["Gaia Axe", "Divine Judgement Axe", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["God Roar Axe - Terra Break", "Gaia Axe", "Rage Queen Dress", "Infernal Greaves", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Machine Axe - Core Breaker", "God Roar Axe - Terra Break", "Furious Wind Armor", "Royal Guard Hat", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Machine Axe - Core Breaker", "", "Sky Soaring Gold Shoes", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Machine Axe - Core Breaker", "", "Sky Soaring Gold Shoes", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "christmas_kurumi": {
     "name": "Kurumi",
@@ -690,7 +711,7 @@
     "rank_12": ["Heaven's Protective Holy Spear", "Gale Stinger", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Divine Spear - Doom Pain", "Heaven's Protective Holy Spear", "Rage Queen Dress", "Infernal Greaves", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Fire Spear - Prominence", "Divine Spear - Doom Pain", "Furious Wind Armor", "Royal Guard Hat", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Fire Spear - Prominence", "", "Sky Soaring Gold Shoes", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Fire Spear - Prominence", "", "Sky Soaring Gold Shoes", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "kuuka": {
     "name": "Kuuka",
@@ -711,7 +732,7 @@
     "rank_12": ["Tír na nÓg Dagger", "Lava Edge", "Maiden Cloth", "Shrine Maiden's Purity Cloth", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Twin God Sword of Lightning", "Tír na nÓg Dagger", "Exomagia Robe", "Empress Robe", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Heavenly Black Sword of Obsidian", "Twin God Sword of Lightning", "Refreshing Ice Garment", "Exomagia Robe", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Refreshing Ice Garment", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Refreshing Ice Garment", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "oedo_kuuka": {
     "name": "Kuuka",
@@ -732,7 +753,7 @@
     "rank_12": ["Atlantis Rod", "Divine Blossom Rod", "Maiden Cloth", "Shrine Maiden's Purity Cloth", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Heaven Rod - Stellar Sphere", "Atlantis Rod", "Exomagia Robe", "Empress Robe", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["World Tree's Branch Wand", "Heaven Rod - Stellar Sphere", "Refreshing Ice Garment", "Exomagia Robe", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "kyaru": {
     "name": "Kyaru",
@@ -753,7 +774,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Genesis Rod", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Lightning Wand", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "summer_kyaru": {
     "name": "Kyaru",
@@ -774,7 +795,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Holy Prayer's Crown", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Genesis Rod", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Lightning Wand", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "kyouka": {
     "name": "Kyouka",
@@ -795,7 +816,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Genesis Rod", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Lightning Wand", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "halloween_kyouka": {
     "name": "Kyouka",
@@ -816,7 +837,7 @@
     "rank_12": ["Atlantis Rod", "Divine Blossom Rod", "Empress Robe", "Flame Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Heaven Rod - Stellar Sphere", "Atlantis Rod", "Exomagia Robe", "Divine Blossom Rod", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["World Tree's Branch Wand", "Heaven Rod - Stellar Sphere", "Prosperity Veil", "Atlantis Rod", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "World Tree's Branch Wand", "", "Heaven Rod - Stellar Sphere", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "World Tree's Branch Wand", "", "Heaven Rod - Stellar Sphere", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "lou": {
     "name": "Lou",
@@ -837,7 +858,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Genesis Rod", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Lightning Wand", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "luna": {
     "name": "Luna",
@@ -858,7 +879,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Genesis Rod", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Lightning Wand", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "mahiru": {
     "name": "Mahiru",
@@ -879,7 +900,7 @@
     "rank_12": ["Heaven's Protective Holy Spear", "Divine Judgement Axe", "Infernal Greaves", "Aegis Coat", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Divine Spear - Doom Pain", "Gaia Axe", "Rage Queen Dress", "Maiden Cloth", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Fire Spear - Prominence", "God Roar Axe - Terra Break", "Senka Dance Armor", "Fire Oni's Tori", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Machine Axe - Core Breaker", "", "Extremely Dark Clothes", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Machine Axe - Core Breaker", "", "Extremely Dark Clothes", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "maho": {
     "name": "Maho",
@@ -900,7 +921,7 @@
     "rank_12": ["Atlantis Rod", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Mermaid Princess' Spirit Tear", "Ocean God's Earrings"],
     "rank_13": ["Heaven Rod - Stellar Sphere", "Atlantis Rod", "Blood Ruby Heel", "Holy Prayer's Crown", "Glorious King's Shield Bangle", "Divine Beast's Prayer"],
     "rank_14": ["World Tree's Branch Wand", "Heaven Rod - Stellar Sphere", "Refreshing Ice Garment", "Blood Ruby Heel", "Sea Dragon God's Hair Ornament", "Sophos Bracelet"],
-    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "Shield God Ring - Wall Breath", "Little Ice Princess' Knot"]
   },
   "summer_maho": {
     "name": "Maho",
@@ -921,7 +942,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Genesis Rod", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Lightning Wand", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "makoto": {
     "name": "Makoto",
@@ -942,7 +963,7 @@
     "rank_12": ["Blood Raven Sword", "Flowing Azure Blade", "Nine Heavens' Armor", "Hundred White Blossom Petals Sword", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Ifrit Katana - Ignite", "Blood Raven Sword", "Rage Queen Dress", "Flowing Azure Blade", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Emerald Wind God's Tachi", "Ifrit Katana - Ignite", "Senka Dance Armor", "Blood Raven Sword", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Emerald Wind God's Tachi", "", "Ifrit Katana - Ignite", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Emerald Wind God's Tachi", "", "Ifrit Katana - Ignite", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "summer_makoto": {
     "name": "Makoto",
@@ -963,7 +984,7 @@
     "rank_12": ["Blood Raven Sword", "Flowing Azure Blade", "Nine Heavens' Armor", "Hundred White Blossom Petals Sword", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Ifrit Katana - Ignite", "Blood Raven Sword", "Rage Queen Dress", "Flowing Azure Blade", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Emerald Wind God's Tachi", "Ifrit Katana - Ignite", "Senka Dance Armor", "Blood Raven Sword", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Emerald Wind God's Tachi", "", "Ifrit Katana - Ignite", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Emerald Wind God's Tachi", "", "Ifrit Katana - Ignite", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "matsuri": {
     "name": "Matsuri",
@@ -984,7 +1005,7 @@
     "rank_12": ["Tír na nÓg Dagger", "Lava Edge", "Infernal Greaves", "Phantasm Mail", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Twin God Sword of Lightning", "Tír na nÓg Dagger", "Rage Queen Dress", "Nine Heavens' Armor", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Heavenly Black Sword of Obsidian", "Twin God Sword of Lightning", "Sky Soaring Gold Shoes", "Rage Queen Dress", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Senka Dance Armor", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Senka Dance Armor", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "mifuyu": {
     "name": "Mifuyu",
@@ -1005,7 +1026,7 @@
     "rank_12": ["Heaven's Protective Holy Spear", "Divine Judgement Axe", "Infernal Greaves", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Millennium Earrings"],
     "rank_13": ["Divine Spear - Doom Pain", "Gaia Axe", "Gold King's Armor", "Infernal Greaves", "Glorious King's Shield Bangle", "Fury Dragon Pendant"],
     "rank_14": ["Fire Spear - Prominence", "God Roar Axe - Terra Break", "Furious Wind Armor", "Royal Guard Hat", "Sea Dragon God's Hair Ornament", "War God's Arm"],
-    "rank_15": ["", "Machine Axe - Core Breaker", "", "Sky Soaring Gold Shoes", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Machine Axe - Core Breaker", "", "Sky Soaring Gold Shoes", "Shield God Ring - Wall Breath", "Flowering Fire Peony"]
   },
   "summer_mifuyu": {
     "name": "Mifuyu",
@@ -1026,7 +1047,7 @@
     "rank_12": ["Heaven's Protective Holy Spear", "Divine Judgement Axe", "Nine Heavens' Armor", "Zero Frost Lance", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Divine Spear - Doom Pain", "Gaia Axe", "Fire Oni's Tori", "Gale Stinger", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Fire Spear - Prominence", "God Roar Axe - Terra Break", "Senka Dance Armor", "Heaven's Protective Holy Spear", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Machine Axe - Core Breaker", "", "Divine Spear - Doom Pain", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Machine Axe - Core Breaker", "", "Divine Spear - Doom Pain", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "mimi": {
     "name": "Mimi",
@@ -1047,7 +1068,7 @@
     "rank_12": ["Great Sword of Sin", "Divine Judgement Axe", "Holy Sakura's Armor", "Astrograph Buckler", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Gaia Axe", "Royal Guard Hat", "Infernal Greaves", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Overlord Light Dragon Sword", "God Roar Axe - Terra Break", "Sky Soaring Gold Shoes", "Royal Guard Hat", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Machine Axe - Core Breaker", "", "Sky Soaring Gold Shoes", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Machine Axe - Core Breaker", "", "Sky Soaring Gold Shoes", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "halloween_mimi": {
     "name": "Mimi",
@@ -1068,7 +1089,7 @@
     "rank_12": ["Great Sword of Sin", "Divine Judgement Axe", "Holy Sakura's Armor", "Astrograph Buckler", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Gaia Axe", "Royal Guard Hat", "Infernal Greaves", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Overlord Light Dragon Sword", "God Roar Axe - Terra Break", "Sky Soaring Gold Shoes", "Royal Guard Hat", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Machine Axe - Core Breaker", "", "Sky Soaring Gold Shoes", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Machine Axe - Core Breaker", "", "Sky Soaring Gold Shoes", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "misaki": {
     "name": "Misaki",
@@ -1089,7 +1110,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Genesis Rod", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Lightning Wand", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "halloween_misaki": {
     "name": "Misaki",
@@ -1110,7 +1131,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Fairy King's Guardian Stone"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Holy Prayer's Crown", "Sophos Bracelet", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Blood Ruby Heel", "Little Ice Princess' Knot", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Prosperity Veil", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Prosperity Veil", "Deep Crystallized Xenocrystal", "Sea Dragon God's Hair Ornament"]
   },
   "misato": {
     "name": "Misato",
@@ -1131,7 +1152,7 @@
     "rank_12": ["Atlantis Rod", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Mermaid Princess' Spirit Tear", "Ocean God's Earrings"],
     "rank_13": ["Heaven Rod - Stellar Sphere", "Atlantis Rod", "Blood Ruby Heel", "Holy Prayer's Crown", "Glorious King's Shield Bangle", "Divine Beast's Prayer"],
     "rank_14": ["World Tree's Branch Wand", "Heaven Rod - Stellar Sphere", "Refreshing Ice Garment", "Blood Ruby Heel", "Sea Dragon God's Hair Ornament", "Sophos Bracelet"],
-    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "Shield God Ring - Wall Breath", "Little Ice Princess' Knot"]
   },
   "misogi": {
     "name": "Misogi",
@@ -1152,7 +1173,7 @@
     "rank_12": ["Cocytus Nail", "Crimson Claw", "Holy Sakura's Armor", "Astrograph Buckler", "Fury Dragon Pendant", "Fairy King's Guardian Stone"],
     "rank_13": ["Storm God Tempest Gear", "Cocytus Nail", "Rage Queen Dress", "Infernal Greaves", "War God's Arm", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Extremely Dark Nail - Bloody Howl", "Storm God Tempest Gear", "Sky Soaring Gold Shoes", "Royal Guard Hat", "Flowering Fire Peony", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Extremely Dark Nail - Bloody Howl", "", "Sky Soaring Gold Shoes", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Extremely Dark Nail - Bloody Howl", "", "Sky Soaring Gold Shoes", "Scarlet Dragon's Claw Fire Ring", "Sea Dragon God's Hair Ornament"]
   },
   "halloween_misogi": {
     "name": "Misogi",
@@ -1173,7 +1194,7 @@
     "rank_12": ["Cocytus Nail", "Crimson Claw", "Nine Heavens' Armor", "Moon Cestus", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Storm God Tempest Gear", "Cocytus Nail", "Fire Oni's Tori", "Crimson Claw", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Extremely Dark Nail - Bloody Howl", "Storm God Tempest Gear", "Extremely Dark Clothes", "Cocytus Nail", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Extremely Dark Nail - Bloody Howl", "", "Storm God Tempest Gear", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Extremely Dark Nail - Bloody Howl", "", "Storm God Tempest Gear", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "mitsuki": {
     "name": "Mitsuki",
@@ -1194,7 +1215,7 @@
     "rank_12": ["Great Sword of Sin", "Dawn's Holy Sword", "Infernal Greaves", "Phantasm Mail", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Great Sword of Sin", "Gold King's Armor", "Nine Heavens' Armor", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Overlord Light Dragon Sword", "Konominato Sword - Aqua Ruler", "Furious Wind Armor", "Rage Queen Dress", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Overlord Light Dragon Sword", "", "Senka Dance Armor", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Overlord Light Dragon Sword", "", "Senka Dance Armor", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "miyako": {
     "name": "Miyako",
@@ -1215,7 +1236,7 @@
     "rank_12": ["Heaven's Protective Holy Spear", "Gale Stinger", "Maiden Cloth", "Aegis Coat", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Divine Spear - Doom Pain", "Heaven's Protective Holy Spear", "Fire Oni's Tori", "Maiden Cloth", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Fire Spear - Prominence", "Divine Spear - Doom Pain", "Sky Soaring Gold Shoes", "Fire Oni's Tori", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Fire Spear - Prominence", "", "Extremely Dark Clothes", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Fire Spear - Prominence", "", "Extremely Dark Clothes", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "halloween_miyako": {
     "name": "Miyako",
@@ -1236,7 +1257,7 @@
     "rank_12": ["Cocytus Nail", "Crimson Claw", "Nine Heavens' Armor", "Aegis Coat", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Storm God Tempest Gear", "Cocytus Nail", "Royal Guard Hat", "Maiden Cloth", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Extremely Dark Nail - Bloody Howl", "Storm God Tempest Gear", "Sky Soaring Gold Shoes", "Fire Oni's Tori", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Extremely Dark Nail - Bloody Howl", "", "Extremely Dark Clothes", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Extremely Dark Nail - Bloody Howl", "", "Extremely Dark Clothes", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "monika": {
     "name": "Monika",
@@ -1257,7 +1278,7 @@
     "rank_12": ["Great Sword of Sin", "Dawn's Holy Sword", "Holy Sakura's Armor", "Aegis Coat", "Fury Dragon Pendant", "Fairy King's Guardian Stone"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Tír na nÓg Dagger", "Rage Queen Dress", "Maiden Cloth", "War God's Arm", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Overlord Light Dragon Sword", "Twin God Sword of Lightning", "Senka Dance Armor", "Fire Oni's Tori", "Flowering Fire Peony", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Extremely Dark Clothes", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Extremely Dark Clothes", "Scarlet Dragon's Claw Fire Ring", "Sea Dragon God's Hair Ornament"]
   },
   "muimi": {
     "name": "Muimi",
@@ -1278,7 +1299,7 @@
     "rank_12": ["Tír na nÓg Dagger", "Lava Edge", "Nine Heavens' Armor", "Lightning Blade", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Twin God Sword of Lightning", "Tír na nÓg Dagger", "Fire Oni's Tori", "Dawn's Holy Sword", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Heavenly Black Sword of Obsidian", "Twin God Sword of Lightning", "Senka Dance Armor", "Great Sword of Sin", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Konominato Sword - Aqua Ruler", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Konominato Sword - Aqua Ruler", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "nanaka": {
     "name": "Nanaka",
@@ -1299,7 +1320,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Holy Prayer's Crown", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Blood Ruby Heel", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Prosperity Veil", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Prosperity Veil", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "neneka": {
     "name": "Neneka",
@@ -1320,7 +1341,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Genesis Rod", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Lightning Wand", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "ninon": {
     "name": "Ninon",
@@ -1341,7 +1362,7 @@
     "rank_12": ["Blood Raven Sword", "Flowing Azure Blade", "Holy Sakura's Armor", "Hundred White Blossom Petals Sword", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Ifrit Katana - Ignite", "Blood Raven Sword", "Royal Guard Hat", "Flowing Azure Blade", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Emerald Wind God's Tachi", "Ifrit Katana - Ignite", "Senka Dance Armor", "Blood Raven Sword", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Emerald Wind God's Tachi", "", "Ifrit Katana - Ignite", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Emerald Wind God's Tachi", "", "Ifrit Katana - Ignite", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "oedo_ninon": {
     "name": "Ninon",
@@ -1362,7 +1383,7 @@
     "rank_12": ["Tír na nÓg Dagger", "Lava Edge", "Nine Heavens' Armor", "Emerald Dagger", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Twin God Sword of Lightning", "Tír na nÓg Dagger", "Fire Oni's Tori", "Lava Edge", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Heavenly Black Sword of Obsidian", "Twin God Sword of Lightning", "Extremely Dark Clothes", "Tír na nÓg Dagger", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Twin God Sword of Lightning", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Twin God Sword of Lightning", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "nozomi": {
     "name": "Nozomi",
@@ -1383,7 +1404,7 @@
     "rank_12": ["Great Sword of Sin", "Dawn's Holy Sword", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Great Sword of Sin", "Rage Queen Dress", "Infernal Greaves", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Overlord Light Dragon Sword", "Konominato Sword - Aqua Ruler", "Furious Wind Armor", "Royal Guard Hat", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Overlord Light Dragon Sword", "", "Sky Soaring Gold Shoes", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Overlord Light Dragon Sword", "", "Sky Soaring Gold Shoes", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "pecorine": {
     "name": "Pecorine",
@@ -1404,7 +1425,7 @@
     "rank_12": ["Great Sword of Sin", "Dawn's Holy Sword", "Infernal Greaves", "Phantasm Mail", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Great Sword of Sin", "Gold King's Armor", "Nine Heavens' Armor", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Overlord Light Dragon Sword", "Konominato Sword - Aqua Ruler", "Furious Wind Armor", "Rage Queen Dress", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Overlord Light Dragon Sword", "", "Senka Dance Armor", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Overlord Light Dragon Sword", "", "Senka Dance Armor", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "summer_pecorine": {
     "name": "Pecorine",
@@ -1425,7 +1446,7 @@
     "rank_12": ["Great Sword of Sin", "Dawn's Holy Sword", "Nine Heavens' Armor", "Lightning Blade", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Great Sword of Sin", "Royal Guard Hat", "Dawn's Holy Sword", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Overlord Light Dragon Sword", "Konominato Sword - Aqua Ruler", "Senka Dance Armor", "Great Sword of Sin", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Overlord Light Dragon Sword", "", "Konominato Sword - Aqua Ruler", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Overlord Light Dragon Sword", "", "Konominato Sword - Aqua Ruler", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "ram": {
     "name": "Ram",
@@ -1446,7 +1467,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Genesis Rod", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Lightning Wand", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "rei": {
     "name": "Rei",
@@ -1467,7 +1488,7 @@
     "rank_12": ["Great Sword of Sin", "Dawn's Holy Sword", "Infernal Greaves", "Phantasm Mail", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Great Sword of Sin", "Fire Oni's Tori", "Nine Heavens' Armor", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Overlord Light Dragon Sword", "Konominato Sword - Aqua Ruler", "Furious Wind Armor", "Rage Queen Dress", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Overlord Light Dragon Sword", "", "Senka Dance Armor", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Overlord Light Dragon Sword", "", "Senka Dance Armor", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "newyear_rei": {
     "name": "Rei",
@@ -1488,7 +1509,7 @@
     "rank_12": ["Great Sword of Sin", "Dawn's Holy Sword", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Great Sword of Sin", "Exomagia Robe", "Infernal Greaves", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Overlord Light Dragon Sword", "Konominato Sword - Aqua Ruler", "Refreshing Ice Garment", "Royal Guard Hat", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Overlord Light Dragon Sword", "", "Refreshing Ice Garment", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Overlord Light Dragon Sword", "", "Refreshing Ice Garment", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "rem": {
     "name": "Rem",
@@ -1509,7 +1530,7 @@
     "rank_12": ["Gaia Axe", "Divine Judgement Axe", "Infernal Greaves", "Necrodim Axe", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["God Roar Axe - Terra Break", "Gaia Axe", "Fire Oni's Tori", "Divine Judgement Axe", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Machine Axe - Core Breaker", "God Roar Axe - Terra Break", "Senka Dance Armor", "Gaia Axe", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Machine Axe - Core Breaker", "", "God Roar Axe - Terra Break", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Machine Axe - Core Breaker", "", "God Roar Axe - Terra Break", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "rima": {
     "name": "Rima",
@@ -1530,7 +1551,7 @@
     "rank_12": ["Great Sword of Sin", "Gale Stinger", "Holy Sakura's Armor", "Azure Armor", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Heaven's Protective Holy Spear", "Gold King's Armor", "Holy Sakura's Armor", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Overlord Light Dragon Sword", "Divine Spear - Doom Pain", "Furious Wind Armor", "Gold King's Armor", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Fire Spear - Prominence", "", "Furious Wind Armor", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Fire Spear - Prominence", "", "Furious Wind Armor", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "rin": {
     "name": "Rin",
@@ -1551,7 +1572,7 @@
     "rank_12": ["Heaven's Protective Holy Spear", "Gale Stinger", "Maiden Cloth", "Aegis Coat", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Divine Spear - Doom Pain", "Heaven's Protective Holy Spear", "Rage Queen Dress", "Maiden Cloth", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Fire Spear - Prominence", "Divine Spear - Doom Pain", "Sky Soaring Gold Shoes", "Fire Oni's Tori", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Fire Spear - Prominence", "", "Extremely Dark Clothes", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Fire Spear - Prominence", "", "Extremely Dark Clothes", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "rino": {
     "name": "Rino",
@@ -1572,7 +1593,7 @@
     "rank_12": ["Heavenly Red Bow", "Abyss Bow", "Nine Heavens' Armor", "Silver Wing Bow", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Armored Bow - Deus Fall", "Heavenly Red Bow", "Fire Oni's Tori", "Abyss Bow", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Ice Bow - Freezing Tear", "Armored Bow - Deus Fall", "Extremely Dark Clothes", "Heavenly Red Bow", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Ice Bow - Freezing Tear", "", "Armored Bow - Deus Fall", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Ice Bow - Freezing Tear", "", "Armored Bow - Deus Fall", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "ruka": {
     "name": "Ruka",
@@ -1593,7 +1614,7 @@
     "rank_12": ["Blood Raven Sword", "Flowing Azure Blade", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Ifrit Katana - Ignite", "Blood Raven Sword", "Rage Queen Dress", "Infernal Greaves", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Emerald Wind God's Tachi", "Ifrit Katana - Ignite", "Extremely Dark Clothes", "Royal Guard Hat", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Emerald Wind God's Tachi", "", "Extremely Dark Clothes", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Emerald Wind God's Tachi", "", "Extremely Dark Clothes", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "saren": {
     "name": "Saren",
@@ -1614,7 +1635,7 @@
     "rank_12": ["Great Sword of Sin", "Dawn's Holy Sword", "Maiden Cloth", "Phantasm Mail", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Great Sword of Sin", "Rage Queen Dress", "Nine Heavens' Armor", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Overlord Light Dragon Sword", "Konominato Sword - Aqua Ruler", "Senka Dance Armor", "Rage Queen Dress", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Overlord Light Dragon Sword", "", "Senka Dance Armor", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Overlord Light Dragon Sword", "", "Senka Dance Armor", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "summer_saren": {
     "name": "Saren",
@@ -1635,7 +1656,7 @@
     "rank_12": ["Great Sword of Sin", "Dawn's Holy Sword", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Great Sword of Sin", "Rage Queen Dress", "Infernal Greaves", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Overlord Light Dragon Sword", "Konominato Sword - Aqua Ruler", "Senka Dance Armor", "Royal Guard Hat", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Overlord Light Dragon Sword", "", "Sky Soaring Gold Shoes", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Overlord Light Dragon Sword", "", "Sky Soaring Gold Shoes", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "shinobu": {
     "name": "Shinobu",
@@ -1656,7 +1677,7 @@
     "rank_12": ["Blood Raven Sword", "Flowing Azure Blade", "Holy Sakura's Armor", "Astrograph Buckler", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Ifrit Katana - Ignite", "Blood Raven Sword", "Rage Queen Dress", "Infernal Greaves", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Emerald Wind God's Tachi", "Ifrit Katana - Ignite", "Extremely Dark Clothes", "Royal Guard Hat", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Emerald Wind God's Tachi", "", "Sky Soaring Gold Shoes", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Emerald Wind God's Tachi", "", "Sky Soaring Gold Shoes", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "halloween_shinobu": {
     "name": "Shinobu",
@@ -1677,7 +1698,7 @@
     "rank_12": ["Blood Raven Sword", "Flowing Azure Blade", "Nine Heavens' Armor", "Astrograph Buckler", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Ifrit Katana - Ignite", "Blood Raven Sword", "Royal Guard Hat", "Infernal Greaves", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Emerald Wind God's Tachi", "Ifrit Katana - Ignite", "Extremely Dark Clothes", "Royal Guard Hat", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Emerald Wind God's Tachi", "", "Extremely Dark Clothes", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Emerald Wind God's Tachi", "", "Extremely Dark Clothes", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "shiori": {
     "name": "Shiori",
@@ -1698,7 +1719,7 @@
     "rank_12": ["Heavenly Red Bow", "Abyss Bow", "Nine Heavens' Armor", "Silver Wing Bow", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Armored Bow - Deus Fall", "Heavenly Red Bow", "Fire Oni's Tori", "Abyss Bow", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Ice Bow - Freezing Tear", "Armored Bow - Deus Fall", "Extremely Dark Clothes", "Heavenly Red Bow", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Ice Bow - Freezing Tear", "", "Armored Bow - Deus Fall", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Ice Bow - Freezing Tear", "", "Armored Bow - Deus Fall", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "shizuru": {
     "name": "Shizuru",
@@ -1719,7 +1740,7 @@
     "rank_12": ["Great Sword of Sin", "Dawn's Holy Sword", "Maiden Cloth", "Astrograph Buckler", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Great Sword of Sin", "Gold King's Armor", "Infernal Greaves", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Overlord Light Dragon Sword", "Konominato Sword - Aqua Ruler", "Furious Wind Armor", "Royal Guard Hat", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Overlord Light Dragon Sword", "", "Sky Soaring Gold Shoes", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Overlord Light Dragon Sword", "", "Sky Soaring Gold Shoes", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "valentine_shizuru": {
     "name": "Shizuru",
@@ -1740,7 +1761,7 @@
     "rank_12": ["Great Sword of Sin", "Dawn's Holy Sword", "Maiden Cloth", "Phantasm Mail", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Great Sword of Sin", "Rage Queen Dress", "Nine Heavens' Armor", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Overlord Light Dragon Sword", "Konominato Sword - Aqua Ruler", "Senka Dance Armor", "Rage Queen Dress", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Overlord Light Dragon Sword", "", "Senka Dance Armor", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Overlord Light Dragon Sword", "", "Senka Dance Armor", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "suzume": {
     "name": "Suzume",
@@ -1761,7 +1782,7 @@
     "rank_12": ["Atlantis Rod", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Heaven Rod - Stellar Sphere", "Atlantis Rod", "Exomagia Robe", "Holy Prayer's Crown", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["World Tree's Branch Wand", "Heaven Rod - Stellar Sphere", "Prosperity Veil", "Blood Ruby Heel", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "World Tree's Branch Wand", "", "Prosperity Veil", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "World Tree's Branch Wand", "", "Prosperity Veil", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "summer_suzume": {
     "name": "Suzume",
@@ -1782,7 +1803,7 @@
     "rank_12": ["Atlantis Rod", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Heaven Rod - Stellar Sphere", "Atlantis Rod", "Blood Ruby Heel", "Holy Prayer's Crown", "Glorious King's Shield Bangle", "Divine Beast's Prayer"],
     "rank_14": ["World Tree's Branch Wand", "Heaven Rod - Stellar Sphere", "Refreshing Ice Garment", "Blood Ruby Heel", "Sea Dragon God's Hair Ornament", "Sophos Bracelet"],
-    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "Shield God Ring - Wall Breath", "Little Ice Princess' Knot"]
   },
   "suzuna": {
     "name": "Suzuna",
@@ -1803,7 +1824,7 @@
     "rank_12": ["Heavenly Red Bow", "Abyss Bow", "Nine Heavens' Armor", "Silver Wing Bow", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Armored Bow - Deus Fall", "Heavenly Red Bow", "Royal Guard Hat", "Abyss Bow", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Ice Bow - Freezing Tear", "Armored Bow - Deus Fall", "Senka Dance Armor", "Heavenly Red Bow", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Ice Bow - Freezing Tear", "", "Armored Bow - Deus Fall", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Ice Bow - Freezing Tear", "", "Armored Bow - Deus Fall", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "summer_suzuna": {
     "name": "Suzuna",
@@ -1824,7 +1845,7 @@
     "rank_12": ["Heavenly Red Bow", "Abyss Bow", "Nine Heavens' Armor", "Silver Wing Bow", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Armored Bow - Deus Fall", "Heavenly Red Bow", "Fire Oni's Tori", "Abyss Bow", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Ice Bow - Freezing Tear", "Armored Bow - Deus Fall", "Extremely Dark Clothes", "Heavenly Red Bow", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Ice Bow - Freezing Tear", "", "Armored Bow - Deus Fall", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Ice Bow - Freezing Tear", "", "Armored Bow - Deus Fall", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "tamaki": {
     "name": "Tamaki",
@@ -1845,7 +1866,7 @@
     "rank_12": ["Tír na nÓg Dagger", "Lava Edge", "Nine Heavens' Armor", "Aegis Coat", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Twin God Sword of Lightning", "Tír na nÓg Dagger", "Fire Oni's Tori", "Maiden Cloth", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Heavenly Black Sword of Obsidian", "Twin God Sword of Lightning", "Extremely Dark Clothes", "Fire Oni's Tori", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Extremely Dark Clothes", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Extremely Dark Clothes", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "summer_tamaki": {
     "name": "Tamaki",
@@ -1866,7 +1887,7 @@
     "rank_12": ["Tír na nÓg Dagger", "Lava Edge", "Nine Heavens' Armor", "Aegis Coat", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Twin God Sword of Lightning", "Tír na nÓg Dagger", "Fire Oni's Tori", "Maiden Cloth", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Heavenly Black Sword of Obsidian", "Twin God Sword of Lightning", "Extremely Dark Clothes", "Fire Oni's Tori", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Extremely Dark Clothes", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Extremely Dark Clothes", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "tomo": {
     "name": "Tomo",
@@ -1887,7 +1908,7 @@
     "rank_12": ["Blood Raven Sword", "Lava Edge", "Nine Heavens' Armor", "Lightning Blade", "Fury Dragon Pendant", "Millennium Earrings"],
     "rank_13": ["Ifrit Katana - Ignite", "Tír na nÓg Dagger", "Fire Oni's Tori", "Dawn's Holy Sword", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["Emerald Wind God's Tachi", "Twin God Sword of Lightning", "Senka Dance Armor", "Great Sword of Sin", "Flowering Fire Peony", "War God's Arm"],
-    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Konominato Sword - Aqua Ruler", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Heavenly Black Sword of Obsidian", "", "Konominato Sword - Aqua Ruler", "Scarlet Dragon's Claw Fire Ring", "Flowering Fire Peony"]
   },
   "tsumugi": {
     "name": "Tsumugi",
@@ -1908,7 +1929,7 @@
     "rank_12": ["Cocytus Nail", "Crimson Claw", "Maiden Cloth", "Aegis Coat", "Mermaid Princess' Spirit Tear", "Millennium Earrings"],
     "rank_13": ["Storm God Tempest Gear", "Cocytus Nail", "Rage Queen Dress", "Maiden Cloth", "Glorious King's Shield Bangle", "Fury Dragon Pendant"],
     "rank_14": ["Extremely Dark Nail - Bloody Howl", "Storm God Tempest Gear", "Senka Dance Armor", "Fire Oni's Tori", "Sea Dragon God's Hair Ornament", "War God's Arm"],
-    "rank_15": ["", "Extremely Dark Nail - Bloody Howl", "", "Extremely Dark Clothes", "", "Flowering Fire Peony"]
+    "rank_15": ["", "Extremely Dark Nail - Bloody Howl", "", "Extremely Dark Clothes", "Shield God Ring - Wall Breath", "Flowering Fire Peony"]
   },
   "yori": {
     "name": "Yori",
@@ -1929,7 +1950,7 @@
     "rank_12": ["Lightning Wand", "Genesis Rod", "Empress Robe", "Xenosphere Rod", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Black Snake Dragon's Staff", "Lightning Wand", "Exomagia Robe", "Genesis Rod", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["Abyss Moon Staff - Sacrifice", "Black Snake Dragon's Staff", "Prosperity Veil", "Lightning Wand", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "Abyss Moon Staff - Sacrifice", "", "Black Snake Dragon's Staff", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   },
   "yui": {
     "name": "Yui",
@@ -1950,7 +1971,7 @@
     "rank_12": ["Atlantis Rod", "Divine Blossom Rod", "Holy Prayer's Crown", "Shrine Maiden's Purity Cloth", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Heaven Rod - Stellar Sphere", "Atlantis Rod", "Blood Ruby Heel", "Empress Robe", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["World Tree's Branch Wand", "Heaven Rod - Stellar Sphere", "Refreshing Ice Garment", "Exomagia Robe", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "newyear_yui": {
     "name": "Yui",
@@ -1971,7 +1992,7 @@
     "rank_12": ["Atlantis Rod", "Divine Blossom Rod", "Holy Prayer's Crown", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Heaven Rod - Stellar Sphere", "Atlantis Rod", "Blood Ruby Heel", "Holy Prayer's Crown", "Glorious King's Shield Bangle", "Divine Beast's Prayer"],
     "rank_14": ["World Tree's Branch Wand", "Heaven Rod - Stellar Sphere", "Refreshing Ice Garment", "Blood Ruby Heel", "Sea Dragon God's Hair Ornament", "Sophos Bracelet"],
-    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "Shield God Ring - Wall Breath", "Little Ice Princess' Knot"]
   },
   "yukari": {
     "name": "Yukari",
@@ -1992,7 +2013,7 @@
     "rank_12": ["Great Sword of Sin", "Dawn's Holy Sword", "Maiden Cloth", "Phantasm Mail", "Mermaid Princess' Spirit Tear", "Fairy King's Guardian Stone"],
     "rank_13": ["Konominato Sword - Aqua Ruler", "Great Sword of Sin", "Gold King's Armor", "Nine Heavens' Armor", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["Overlord Light Dragon Sword", "Konominato Sword - Aqua Ruler", "Furious Wind Armor", "Rage Queen Dress", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"],
-    "rank_15": ["", "Overlord Light Dragon Sword", "", "Senka Dance Armor", "", "Sea Dragon God's Hair Ornament"]
+    "rank_15": ["", "Overlord Light Dragon Sword", "", "Senka Dance Armor", "Shield God Ring - Wall Breath", "Sea Dragon God's Hair Ornament"]
   },
   "yuki": {
     "name": "Yuki",
@@ -2013,6 +2034,6 @@
     "rank_12": ["Atlantis Rod", "Divine Blossom Rod", "Empress Robe", "Mourning Crown", "Divine Beast's Prayer", "Ocean God's Earrings"],
     "rank_13": ["Heaven Rod - Stellar Sphere", "Atlantis Rod", "Exomagia Robe", "Holy Prayer's Crown", "Sophos Bracelet", "Divine Beast's Prayer"],
     "rank_14": ["World Tree's Branch Wand", "Heaven Rod - Stellar Sphere", "Refreshing Ice Garment", "Blood Ruby Heel", "Little Ice Princess' Knot", "Sophos Bracelet"],
-    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "", "Little Ice Princess' Knot"]
+    "rank_15": ["", "World Tree's Branch Wand", "", "Refreshing Ice Garment", "Deep Crystallized Xenocrystal", "Little Ice Princess' Knot"]
   }
 }

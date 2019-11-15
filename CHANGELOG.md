@@ -24,6 +24,8 @@ Quest Update (2019-11-15)
   - TWILIGHT_CARAVAN (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Twilight_Caravan.png>
 - New Equipment
 - Normal/Hard Quest Data for Chapter 29
+- Added new character equipment
+- New Character: Kaya
 ### Changed
 - In the `Statistics` page, items past #3 now have their position displayed in their tooltip
 - Adjusted some console messages

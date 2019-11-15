@@ -9,7 +9,7 @@ function update_progress()
         HARD_QUEST: true,
         EQUIPMENT_SELECTION: true,
         EQUIPMENT_ENGLISH_TRANSLATION: true,
-        RANK_EQUIPMENT: false,
+        RANK_EQUIPMENT: true,
     });
     // and README
     // and Settings Quest Min/Max
