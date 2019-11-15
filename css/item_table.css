@@ -21,6 +21,58 @@ img.focused-item {
     box-shadow: 0 0 2px 2px rgba(255, 0, 0, 1.0);
 }
 
+#focused-item-popup {
+    text-shadow: 1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+    background-color: rgba(255, 50, 0, 0.75);
+
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+
+    margin-bottom: 5%;
+
+    padding: 0 10px;
+    color: white;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+#focused-item-image {
+    width: auto;
+    height: 50%;
+    max-width: 48px;
+    max-height: 48px;
+    min-width: 16px;
+    min-height: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+
+    position: relative;
+    top: 9px;
+}
+
+#lens-image {
+    width: auto;
+    height: 50%;
+    max-width: 32px;
+    max-height: 32px;
+    min-width: 16px;
+    min-height: 16px;
+
+    margin-top: -32px;
+    margin-bottom: -32px;
+
+    position: relative;
+    bottom: 35px;
+    left: 23px;
+}
+
 th.item-image {
     text-align: center;
     width: auto;

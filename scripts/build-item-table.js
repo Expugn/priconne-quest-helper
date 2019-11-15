@@ -12,7 +12,9 @@ function build_item_tables()
     {
         if (item_table_retry_count <= 100)
         {
-            console.log("[Table Builder] - Less than " + amt_of_item_tables + " elements detected... Page must not be done loading yet.\n\tWill pause for .5s and restart.\n\tCurrent Retry: " + item_table_retry_count + "/100");
+            console.log(get_colored_message("Table Builder", color_text("Less than ", message_status.WARNING) + highlight_code(amt_of_item_tables) + color_text(" elements detected... Page must not be done loading yet.\n\t", message_status.WARNING) +
+                color_text("Will pause for .5s and restart.\n\t", message_status.WARNING) +
+                color_text("Current Retry: ", message_status.INFO) + highlight_code(item_table_retry_count + "/100")));
             setTimeout(function () {
                 item_table_retry_count++;
                 build_item_tables();
@@ -21,7 +23,7 @@ function build_item_tables()
         }
         else
         {
-            console.log("[Table Builder] - 100 retries have been performed.\n\tAbandoning task!");
+            console.log(get_colored_message("Table Builder", "100 retries have been performed. Abandoning task!", message_status.WARNING));
             item_table_failed = true;
             loadingToast();
             return;
@@ -167,7 +169,7 @@ function build_item_tables()
                 break;
 
             default:
-                console.log("[Table Builder] - Unknown Item: " + item_name);
+                console.log(get_colored_message("Table Builder", "Unknown Item: " + highlight_code(item_name), message_status.WARNING));
                 break;
         }
     }

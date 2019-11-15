@@ -11,7 +11,9 @@ function enableCollapsible()
     {
         if (collapsible_retry_count <= 100)
         {
-            console.log("[Collapsible] - Less than " + amt_of_collapsible_elements + " elements detected... Page must not be done loading yet.\n\tWill pause for .5s and restart.\n\tCurrent Retry: " + collapsible_retry_count + "/100");
+            console.log(get_colored_message("Collapsible", color_text("Less than ", message_status.WARNING) + highlight_code(amt_of_collapsible_elements) + color_text(" elements detected... Page must not be done loading yet.\n\t", message_status.WARNING) +
+                color_text("Will pause for .5s and restart.\n\t", message_status.WARNING) +
+                color_text("Current Retry: ", message_status.INFO) + highlight_code(collapsible_retry_count + "/100")));
             setTimeout(function () {
                 collapsible_retry_count++;
                 enableCollapsible();
@@ -20,7 +22,7 @@ function enableCollapsible()
         }
         else
         {
-            console.log("[Collapsible] - 100 retries have been performed.\n\tAbandoning task!");
+            console.log(get_colored_message("Collapsible", "100 retries have been performed. Abandoning task!", message_status.WARNING));
             collapsible_failed = true;
             loadingToast();
             return;

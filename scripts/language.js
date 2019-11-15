@@ -45,7 +45,7 @@ function load_language()
             'dataType': "json",
             'success': function (data) {
                 language_json = data;
-                console.log("[Language] - " + lang + ".json loaded.");
+                console.log(get_colored_message("Language", "Now using: " + highlight_code(lang + ".json"), message_status.INFO));
                 current_language = lang;
                 change_language();
 

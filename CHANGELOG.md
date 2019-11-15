@@ -3,6 +3,31 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.0] - 2019-11-15
+Quest Update (2019-11-15)
+### Added
+- Updated Language Files
+  - `en.json`
+    - `character_names.homare`
+    - `character_names.inori`
+    - `character_names.kaya`
+  - `ja.json`
+    - `character_names.homare`
+    - `character_names.inori`
+    - `character_names.kaya`
+- Added a "focused item popup" ; when there is a focused item, this popup will appear to inform the user what is currently focused
+  - Clicking on the "focused item popup" will remove the focus from the item
+- Added the rest(?) of the fancy console messages
+- Putting `#use-png` at the end of the URL now allows you to use force the usage of `.png` files instead of `.webp` (if your browser supports `.webp`)
+  - You can also activate `Simple Mode` alongside this, i.e.: `/priconne-quest-helper/#use-png#simple` or `/priconne-quest-helper/#simple#use-png`
+- New Title Background Option:
+  - TWILIGHT_CARAVAN (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Twilight_Caravan.png>
+### Changed
+- In the `Statistics` page, items past #3 now have their position displayed in their tooltip
+- Adjusted some console messages
+### Removed
+- Cleaned up some unused functions
+
 ## [1.4.3] - 2019-10-31
 Save Data Purge #2: `233` / `296` Files Deleted
 ### Added

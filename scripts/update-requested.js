@@ -19,7 +19,7 @@ function remove_item_from_disabled_items(item_id)
             if (index > -1)
             {
                 disabled_items.splice(index, 1);
-                console.log("[Required Items] - Re-enabled \"" + item + "\" due to an updated \"" + item_name + "\" amount.");
+                console.log(get_colored_message("Required Items", "Re-enabled " + highlight_code(item) + color_text(" due to an updated ", message_status.INFO) + highlight_code(item_name) + color_text(" amount.", message_status.INFO), message_status.INFO));
             }
         }
     }

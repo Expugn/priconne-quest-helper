@@ -1,15 +1,15 @@
-// OCTOBER 16, 2019
-const update_date = new Date(Date.UTC(2019, 9, 16, 24, 0, 0));
+// NOVEMBER 15, 2019
+const update_date = new Date(Date.UTC(2019, 10, 15, 24, 0, 0));
 const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
 
 function update_progress()
 {
     const quest_update_status = Object.freeze({
-        NORMAL_QUEST: true,
-        HARD_QUEST: true,
-        EQUIPMENT_SELECTION: true,
-        EQUIPMENT_ENGLISH_TRANSLATION: true,
-        RANK_EQUIPMENT: true,
+        NORMAL_QUEST: false,
+        HARD_QUEST: false,
+        EQUIPMENT_SELECTION: false,
+        EQUIPMENT_ENGLISH_TRANSLATION: false,
+        RANK_EQUIPMENT: false,
     });
     // and README
     // and Settings Quest Min/Max
@@ -22,7 +22,7 @@ function update_progress()
         !quest_update_status.EQUIPMENT_ENGLISH_TRANSLATION ||
         !quest_update_status.RANK_EQUIPMENT)
     {
-        console.log("[Update] - Showing Update Progress");
+        console.log(get_colored_message("Update", "Showing Update Progress", message_status.INFO));
         document.getElementById("update-notification-img").style.display = "inline";
         document.getElementById("update-div").style.display = "block";
         if (current_language === "en")

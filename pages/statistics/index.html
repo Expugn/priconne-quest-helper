@@ -401,7 +401,7 @@
                         }
 
                         bottom_equipment_html += "<th class\"requested-item-image\">";
-                        bottom_equipment_html += "<img class=\"requested-item-image\" title=\"" + equipment_name + "\" src=\"../../" + get_item_image_path(equipment_name.split(' ').join('_')) + "\" alt=\"\">";
+                        bottom_equipment_html += "<img class=\"requested-item-image\" title=\"#" + (item_counter + 1) + "\n" + equipment_name + "\" src=\"../../" + get_item_image_path(equipment_name.split(' ').join('_')) + "\" alt=\"\">";
                         bottom_equipment_html += "<div class=\"requested-item-text\">\u00D7" + equipment_amount + "</div>";
                         bottom_equipment_html += "</th>";
                     }
@@ -463,7 +463,7 @@
                     }
 
                     bottom_ingredient_html += "<th class\"requested-item-image\">";
-                    bottom_ingredient_html += "<img class=\"requested-item-image\" title=\"" + ingredient_name + "\" src=\"../../" + get_item_image_path(ingredient_name.split(' ').join('_')) + "\" alt=\"\">";
+                    bottom_ingredient_html += "<img class=\"requested-item-image\" title=\"#" + (item_counter + 1) + "\n" + ingredient_name + "\" src=\"../../" + get_item_image_path(ingredient_name.split(' ').join('_')) + "\" alt=\"\">";
                     bottom_ingredient_html += "<div class=\"requested-item-text\">\u00D7" + ingredient_amount + "</div>";
                     bottom_ingredient_html += "</th>";
                 }

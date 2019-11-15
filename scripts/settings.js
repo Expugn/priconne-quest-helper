@@ -114,8 +114,6 @@ function init_settings()
         equipment_data_type = equipment_data_version.CURRENT
     }
     equipment_data_type_default = equipment_data_type;
-
-    //console.log(get_colored_message("Settings", "Settings have been initialized.", message_status.INFO));
 }
 
 function check_checkbox(elementID, checked)
@@ -141,7 +139,7 @@ function change_quest_shown_amt()
         quest_shown_value = min_value;
     }
 
-    console.log("[Settings] - Quest Shown Amount Updated to: " + quest_shown_value);
+    console.log(get_colored_message("Settings", highlight("Quest Shown Amount") + color_text(" changed to ", message_status.INFO) + highlight_code(quest_shown_value)));
 
     refresh_quest_table();
 }
@@ -149,7 +147,7 @@ function change_quest_shown_amt()
 function toggle_ascending_sort_quest_list()
 {
     ascending_sort_quest_list = !ascending_sort_quest_list;
-    console.log("[Settings] - Quest Results are not sorted by Ascending (Quest Chapter/Number): " + ascending_sort_quest_list);
+    console.log(get_colored_message("Settings", highlight("Quest Chapter/Number Sort") + color_text(" changed to ", message_status.INFO) + highlight_code("Sort by Ascending?: " + ascending_sort_quest_list)));
 
     refresh_quest_table();
 }
@@ -157,7 +155,7 @@ function toggle_ascending_sort_quest_list()
 function toggle_ascending_sort_quest_score()
 {
     ascending_sort_quest_score = !ascending_sort_quest_score;
-    console.log("[Settings] - Quest Results are not sorted by Ascending (Quest Score): " + ascending_sort_quest_score);
+    console.log(get_colored_message("Settings", highlight("Quest Score Sort") + color_text(" changed to ", message_status.INFO) + highlight_code("Sort by Ascending?: " + ascending_sort_quest_score)));
 
     refresh_quest_table();
 }
@@ -165,7 +163,7 @@ function toggle_ascending_sort_quest_score()
 function toggle_hide_quest_score()
 {
     hide_quest_score = !hide_quest_score;
-    console.log("[Settings] - Quest scoring is now hidden: " + hide_quest_score);
+    console.log(get_colored_message("Settings", highlight("Quest Scoring Visibility") + color_text(" changed to ", message_status.INFO) + highlight_code("Hidden?: " + hide_quest_score)));
 
     refresh_quest_table();
 }
@@ -193,7 +191,7 @@ function change_min_quest_chapter()
         min_quest_chapter = min_value;
     }
 
-    console.log("[Settings] - Minimum Quest Shown Updated to: " + min_quest_chapter);
+    console.log(get_colored_message("Settings", highlight("Minimum Quest Shown") + color_text(" changed to ", message_status.INFO) + highlight_code(min_quest_chapter)));
 
     refresh_quest_table();
 }
@@ -221,7 +219,7 @@ function change_max_quest_chapter()
         max_quest_chapter = min_quest_chapter;
     }
 
-    console.log("[Settings] - Maximum Quest Shown Updated to: " + max_quest_chapter);
+    console.log(get_colored_message("Settings", highlight("Maximum Quest Shown") + color_text(" changed to ", message_status.INFO) + highlight_code(max_quest_chapter)));
 
     refresh_quest_table();
 }
@@ -245,7 +243,7 @@ function change_quest_filter()
         quest_filter = quest_filter_settings.VERY_HARD;
     }
 
-    console.log("[Settings] - Quest Filter Changed to: " + quest_filter);
+    console.log(get_colored_message("Settings", highlight("Quest Filter") + color_text(" changed to ", message_status.INFO) + highlight_code(quest_filter)));
 
     refresh_quest_table();
 }
@@ -268,7 +266,7 @@ function change_item_amount_per_row()
         item_amount_per_row = min_value;
     }
 
-    console.log("[Settings] - Item Amount Per Row Updated to: " + item_amount_per_row);
+    console.log(get_colored_message("Settings", highlight("Item Amount Per Row") + color_text(" changed to ", message_status.INFO) + highlight_code(item_amount_per_row)));
 
     build_item_tables();
 }
@@ -313,7 +311,7 @@ function change_display_option()
         quest_display = quest_display_settings.AMOUNT;
     }
 
-    console.log("[Settings] - Quest Display Changed to: " + quest_display);
+    console.log(get_colored_message("Settings", highlight("Quest Display") + color_text(" changed to: ", message_status.INFO) + highlight_code(quest_display)));
 
     refresh_quest_table();
 }
@@ -329,7 +327,7 @@ function change_equipment_data()
         equipment_data_type = equipment_data_version.CURRENT;
     }
 
-    console.log("[Settings] - Equipment Data Type Changed to: " + equipment_data_type);
+    console.log(get_colored_message("Settings", highlight("Equipment Data Type") + color_text(" changed to: ", message_status.INFO) + highlight_code(equipment_data_type)));
 
     change_equipment_and_character_data();
 }
@@ -360,7 +358,7 @@ function change_equipment_and_character_data()
             build_character_preset_list();
             if ((check_if_character_exists(current_selected_character) === false) && current_selected_character !== "default_character")
             {
-                console.log("[Equipment Data (Legacy)] - Currently selected character in presets (\"" + current_selected_character + "\") no longer exists. Reverting to default selection.");
+                console.log(get_colored_message("Equipment Data (Legacy)", "Currently selected character in presets " + highlight(current_selected_character) + color_text(" no longer exists. Reverting to default selection.", message_status.INFO), message_status.INFO));
                 document.getElementById("character-preset-list-select").value = "default_character";
                 update_selected_character_preset_details();
             }
@@ -375,7 +373,10 @@ function change_equipment_and_character_data()
                 focused_item_name = "";
                 focused_item_element_id = "";
 
-                console.log("[Item Focus] - No longer focusing on an item.");
+                // HIDE FOCUSED ITEM POPUP
+                document.getElementById("focused-item-popup").hidden = true;
+
+                console.log(get_colored_message("Item Focus", "No longer focusing on an item.", message_status.INFO));
             }
         });
     });
@@ -412,8 +413,8 @@ function toggle_simple_mode()
 {
     if(window.location.hash)
     {
-        let hash = window.location.hash.substring(1);
-        if (hash === "simple")
+        // "simple" HASH IS INCLUDED
+        if (window.location.hash.toLowerCase().split('#').includes("simple"))
         {
             console.log(get_colored_message("Simple Mode", "Simple Mode Enabled! (No Background Images)", message_status.INFO));
             document.getElementById("title-div").classList.toggle("no-background");
@@ -475,11 +476,10 @@ function save_cookie()
     settings_map.equipment_data_type = equipment_data_type;
 
     let encrypted_setting_map = JSON.stringify(settings_map);
-    //console.log(encrypted_setting_map);
     localStorage.setItem('settings', encrypted_setting_map);
 
     toastr.success((current_language === "en") ? "Your settings have been saved!" : language_json["toasts"]["settings_saved"]);
-    console.log("[Settings] - Settings have been saved.");
+    console.log(get_colored_message("Settings", "Settings have been saved.", message_status.SUCCESS));
 }
 
 function delete_cookie()
@@ -489,7 +489,7 @@ function delete_cookie()
         localStorage.removeItem('settings');
 
         toastr.success((current_language === "en") ? "Your saved settings have been deleted." : language_json["toasts"]["settings_deleted"]);
-        console.log("[Settings] - Settings have been deleted.");
+        console.log(get_colored_message("Settings", "Settings have been deleted.", message_status.WARNING));
     }
     else
     {

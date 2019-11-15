@@ -327,24 +327,14 @@ function map_string_json_to_map_of_maps(map_json_string)
     return map_of_maps;
 }
 
-function print_project_map(project_map)
-{
-    for (let [project_name, project_data] of project_map)
-    {
-        console.log(project_name + ":");
-        for (let [item_name, item_amount] of project_data)
-        {
-            console.log("\t" + item_name + " - " + item_amount);
-        }
-    }
-}
-
 function update_saved_projects_select()
 {
     const priority_project_symbol = " [★]";
     const completed_project_symbol = " [✔]";
     let currently_selected_project = document.getElementById("saved-projects-select").value;
 
+    // ADD [All Projects..] SELECT
+    // IF LANGUAGE ISN'T ENGLISH, TRANSLATE [All Projects...] TO APPROPRIATE LANGUAGE
     let select_HTML;
     if (current_language === "en")
     {
@@ -355,6 +345,7 @@ function update_saved_projects_select()
         select_HTML = "<option value=\"[All Projects...]\">" + language_json["projects_tab"]["all_projects_select_option"] + "</option>";
     }
 
+    // ADD PROJECTS TO SELECT
     for (let [project_name, project_data] of projects)
     {
         let project_complete_status = check_project_if_complete(project_data, project_name);
@@ -366,6 +357,7 @@ function update_saved_projects_select()
             + ((project_complete_status || project_prioritized_status) ? " " : "") + project_name + "</option>";
     }
 
+    // DISPLAY SELECT AND RESTORE CURRENT SELECTION
     document.getElementById("saved-projects-select").innerHTML = select_HTML;
     if (currently_selected_project !== "")
     {
@@ -378,7 +370,6 @@ function update_saved_projects_select()
             document.getElementById("saved-projects-select").value = "[All Projects...]";
         }
     }
-
 }
 
 function project_items_toString(project_data)
@@ -696,7 +687,6 @@ function blacklist_selected_rarities()
                     break;
                 default:
                     console.log(get_colored_message("Blacklist", "Unknown item found in blacklist: ", message_status.WARNING) + highlight_code(item_name));
-                    console.log("[Blacklist] - Unknown Item: " + item_name);
                     break;
             }
         }
@@ -719,7 +709,6 @@ function blacklist_selected_rarities()
             toastr.success(temp_rarity_array, language_json["toasts"]["blacklisted_rarities"]);
         }
         console.log(get_colored_message("Blacklist") + highlight_code(rarity_array.toString()) + color_text(" rarity(s) have been blacklisted.", message_status.SUCCESS));
-        console.log("[Blacklist] - " + rarity_array.toString() + " rarity(s) have been blacklisted");
     }
     else
     {

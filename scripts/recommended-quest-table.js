@@ -590,7 +590,10 @@ function focus_on_item(item_name, item_id)
         focused_item_name = "";
         focused_item_element_id = "";
 
-        console.log("[Item Focus] - No longer focusing on an item.");
+        // HIDE FOCUSED ITEM POPUP
+        document.getElementById("focused-item-popup").hidden = true;
+
+        console.log(get_colored_message("Item Focus", "No longer focusing on an item.", message_status.INFO));
     }
     else
     {
@@ -605,7 +608,15 @@ function focus_on_item(item_name, item_id)
         focused_item_name = item_name;
         focused_item_element_id = item_id;
 
-        console.log("[Item Focus] - Now focusing on: \"" + focused_item_name + "\"");
+        // SHOW/UPDATE FOCUSED ITEM POPUP
+        document.getElementById("focused-item-popup").hidden = false;
+        document.getElementById("focused-item-popup").onclick = function ()
+        {
+            focus_on_item(item_name, item_id);
+        };
+        document.getElementById("focused-item-image").src = document.getElementById(focused_item_element_id).src;
+
+        console.log(get_colored_message("Item Focus", "Now focusing on: " + highlight_code(focused_item_name), message_status.INFO));
     }
 
     // REFRESH QUESTS

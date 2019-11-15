@@ -247,7 +247,7 @@ function set_enabled_item(item_name, true_or_false)
             }
             modified_setting = true;
 
-            console.log("[Required Items] - Re-enabled " + item_name);
+            console.log(get_colored_message("Required Items", "Re-enabled " + highlight_code(item_name), message_status.SUCCESS));
         }
     }
     else
@@ -258,7 +258,7 @@ function set_enabled_item(item_name, true_or_false)
             disabled_items.push(item_name);
             modified_setting = true;
 
-            console.log("[Required Items] - Disabled " + item_name);
+            console.log(get_colored_message("Required Items", "Disabled " + highlight_code(item_name), message_status.WARNING));
         }
     }
 

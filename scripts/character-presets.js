@@ -115,7 +115,7 @@ function change_min_rank_preset()
         preset_min_rank = min_value;
     }
 
-    console.log("[Presets] - Minimum Rank Updated to: " + preset_min_rank);
+    console.log(get_colored_message("Presets", highlight("Minimum Rank") + color_text(" changed to ", message_status.INFO) + highlight_code(preset_min_rank)));
 }
 
 function change_max_rank_preset()
@@ -141,7 +141,7 @@ function change_max_rank_preset()
         preset_max_rank = preset_min_rank;
     }
 
-    console.log("[Settings] - Maximum Quest Shown Updated to: " + preset_max_rank);
+    console.log(get_colored_message("Presets", highlight("Maximum Rank") + color_text(" changed to ", message_status.INFO) + highlight_code(preset_max_rank)));
 }
 
 function load_preset_character_items()

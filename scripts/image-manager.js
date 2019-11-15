@@ -2,11 +2,21 @@ let webp_enabled = false;
 
 function init_webp()
 {
+    // "use-png" HASH IS INCLUDED IN HASHES
+    // USE .PNG INSTEAD OF .WEBP
     // CHECK IF THE <html> ELEMENT HAS CLASS 'webp' (GIVEN BY MODERNIZR'S WEBP CHECK)
     if ($('html').hasClass('webp'))
     {
-        webp_enabled = true;
-        console.log(get_colored_message("Image Manager") + highlight_code(".webp") + message_status.INFO + " images are supported! Using " + highlight_code(".webp") + message_status.INFO + " instead of " + highlight_code(".png") + message_status.INFO + "...");
+        if (!window.location.hash.toLowerCase().split('#').includes("use-png"))
+        {
+            webp_enabled = true;
+            console.log(get_colored_message("Image Manager") + highlight_code(".webp") + message_status.INFO + " images are supported! Using " + highlight_code(".webp") + message_status.INFO + " instead of " + highlight_code(".png") + message_status.INFO + "...");
+        }
+        else
+        {
+            console.log(get_colored_message("Image Manager") + highlight_code(".webp") + message_status.INFO + " images are supported, but found the 'use-png' hash! Using " + highlight_code(".png") + message_status.INFO + " instead of " + highlight_code(".webp") + message_status.INFO + "...");
+
+        }
     }
     else
     {

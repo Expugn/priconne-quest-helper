@@ -1,7 +1,5 @@
 const gist_default_data_file_name = "priconne-quest-helper_data.json";
-const gist_default_data_file_description = "Export data for priconne-quest-helper.";
 const gist_default_user_name = "Spugn";
-const gist_default_file_timeout = 1209600000;                                           // 2 WEEKS
 const rate_limit_cooldown = 5;                                                          // DISABLE API INFORMATION GATHERING AT THIS AMOUNT OR BELOW
 
 const gist_seed_string = "b52d24511f112ea";
@@ -13,51 +11,6 @@ const gist_color_code = "06ff8";
 const gist_id_value = "bb3a5078";
 
 // CALLING A FUNCTION USES 1 RATE LIMIT / 60
-
-function create_gist(content)
-{
-    return {
-        "description": gist_default_data_file_description,
-        "public": false,
-        "files": {
-            [gist_default_data_file_name]:
-                {
-                    "content": content
-                }
-        }
-    };
-}
-
-function upload_gist(gist_data, callback)
-{
-    // CREATE GIST
-    $.ajax({
-        url: 'https://api.github.com/gists',
-        type: 'POST',
-        beforeSend: function(xhr) {
-            xhr.setRequestHeader("Authorization", "token " + GITHUB_GIST_KEY);
-        },
-        dataType: 'json',
-        data: JSON.stringify(gist_data),
-        success: function(response) {
-            console.log(JSON.stringify(response));
-            if (callback)
-            {
-                console.log("[Github API] - Success! Gist ID: " + response.id);
-                callback(response.id);
-            }
-        },
-        error: function(e)
-        {
-            console.warn("[Github API] - Gist Saving Error: ", JSON.stringify(e));
-
-            // for export-data
-            document.getElementById("all-export-elements").style.display = "none";
-            document.getElementById("export-failure").innerHTML = "<h2 class='align-center'>" + e["status"] + " - " + e["statusText"] + "</h2>";
-            document.getElementById("export-failure").style.display = "block";
-        }
-    });
-}
 
 function read_gist(gist_id, gist_key, callback)
 {
@@ -79,7 +32,7 @@ function read_gist(gist_id, gist_key, callback)
                     {
                         // GIST IS TRUNCATED (TOO LARGE), FETCH RAW VERSION.
                         let raw_url = response["files"][gist_default_data_file_name]["raw_url"];
-                        console.log("[Github API] - File is truncated... Fetching RAW version: " + raw_url);
+                        console.log(get_colored_message("GitHub API", "File is truncated... Fetching RAW version: " + highlight_code(raw_url), message_status.INFO));
 
                         $.ajax({
                             url: raw_url,
@@ -91,7 +44,7 @@ function read_gist(gist_id, gist_key, callback)
                             },
                             error: function(e)
                             {
-                                console.warn("[Github API] - RAW File Fetch Error: ", JSON.stringify(e));
+                                console.log(get_colored_message("GitHub API", "RAW File Fetch Error: " + highlight_code(JSON.stringify(e)), message_status.WARNING));
 
                                 // for import-data
                                 document.getElementById("import-failure").innerHTML = "<h2 class='align-center'>" + e["status"] + " - " + e["statusText"] + "</h2>";
@@ -102,14 +55,14 @@ function read_gist(gist_id, gist_key, callback)
                     else
                     {
                         // FILE IS COOL AND GOOD
-                        console.log("[Github API] - Gist Read Success!: \"" + response.files[gist_default_data_file_name].content + "\"");
+                        console.log(get_colored_message("GitHub API", "Gist Read Success!: " + highlight_code(response.files[gist_default_data_file_name].content), message_status.SUCCESS));
                         callback(response.files[gist_default_data_file_name].content);
                     }
 
                 }
                 else
                 {
-                    console.log("[Github API] - Fetched Gist is NOT Made By " + gist_default_user_name);
+                    console.log(get_colored_message("GitHub API", "Fetched Gist is NOT made by " + highlight_code(gist_default_user_name), message_status.WARNING));
 
                     // for import-data
                     document.getElementById("import-failure").innerHTML = "<h2 class='align-center'>Invalid ID Provided!</h2>";
@@ -119,97 +72,11 @@ function read_gist(gist_id, gist_key, callback)
         },
         error: function(e)
         {
-            console.warn("[Github API] - Gist Fetch Error: ", JSON.stringify(e));
+            console.log(get_colored_message("GitHub API", "Gist Fetch Error: " + highlight_code(JSON.stringify(e)), message_status.WARNING));
 
             // for import-data
             document.getElementById("import-failure").innerHTML = "<h2 class='align-center'>" + e["status"] + " - " + e["statusText"] + "</h2>";
             document.getElementById("import-failure").style.display = "block";
-        }
-    });
-}
-
-function verify_gist(gist_id, gist_key, callback)
-{
-    // VERIFY THAT THE GIST IS CREATED BY GIT-HUB ACCOUNT "spugn"
-    $.ajax({
-        url: 'https://api.github.com/gists/' + gist_id,
-        type: 'GET',
-        beforeSend: function(xhr) {
-            xhr.setRequestHeader("Authorization", "token " + gist_key);
-        },
-        success: function(response)
-        {
-            if (callback)
-            {
-                callback(response["owner"]["login"] === gist_default_user_name);
-            }
-        },
-        error: function(e)
-        {
-            console.warn("[Github API] - Gist Verify Error: ", JSON.stringify(e));
-        }
-    });
-}
-
-function delete_gist(gist_id, gist_key, callback)
-{
-    // DELETE GIST
-    $.ajax({
-        url: 'https://api.github.com/gists/' + gist_id,
-        type: 'DELETE',
-        beforeSend: function(xhr) {
-            xhr.setRequestHeader("Authorization", "token " + gist_key);
-        },
-        success: function(response)
-        {
-            if (callback)
-            {
-                callback(jQuery.isEmptyObject(response));
-            }
-        },
-        error: function(e)
-        {
-            console.warn("[Github API] - Gist Delete Error: ", JSON.stringify(e));
-        }
-    });
-}
-
-function delete_old_gists(callback)
-{
-    const two_weeks_in_milli = 1209600000;
-    let time = new Date().getTime();
-    let date = new Date(time);
-    //console.log(date.toString() + " - " + date.toISOString());
-
-    // GET ALL OF GIST_DEFAULT_USER_NAME'S GISTS
-    $.ajax({
-        url: 'https://api.github.com/users/' + gist_default_user_name + '/gists',
-        type: 'GET',
-        beforeSend: function(xhr) {
-            xhr.setRequestHeader("Authorization", "token " + GITHUB_GIST_KEY);
-        },
-        since: date.toISOString(),
-        success: function(response)
-        {
-            console.log(JSON.parse(response));
-            /*
-            for (let file of Object.keys(response.files))
-            {
-                console.log("file_name = " + JSON.parse(file));
-
-                // CHECK IF FILE NAME IS THE DEFAULT DATA FILE NAME
-                if (response.files[file.filename] === gist_default_data_file_name)
-                {
-                    // FILE IS CREATED AFTER DEFAULT_TIME_OUT/CREATED BY DEFAULT_USER_NAME/NAMED DEFAULT_FILE_NAME
-                    // DELETE THIS CRAP LOL
-                    console.log("run delete here");
-                }
-            }
-            */
-        },
-        error: function(e)
-        {
-            console.warn("user gists get error", JSON.stringify(e));
         }
     });
 }
@@ -231,12 +98,12 @@ function check_rate_limit_status(gist_key, callback)
                 let rate_limit_reset = parseInt(response["resources"]["core"]["reset"]);
                 let rate_limit_limit = parseInt(response["resources"]["core"]["limit"]);
 
-                console.log("[Github API] - " + rate_limit_remaining + "/" + rate_limit_limit + " API calls remaining.");
+                console.log(get_colored_message("GitHub API", highlight_code(rate_limit_remaining + " / " + rate_limit_limit) + color_text(" API calls remaining.", message_status.INFO)));
                 if (rate_limit_remaining < rate_limit_cooldown)
                 {
                     let time = new Date() + rate_limit_reset;
                     let date = new Date(time);
-                    console.log("[Github API] - Under Cooldown! \"" + date.toString() + "\" for the next reset.");
+                    console.log(get_colored_message("GitHub API", "Under Cooldown! " + highlight_code(date.toString()) + color_text(" for the next reset", message_status.INFO), message_status.WARNING));
                     callback(true, date.toString());
                 }
                 else
@@ -247,7 +114,7 @@ function check_rate_limit_status(gist_key, callback)
         },
         error: function(e)
         {
-            console.warn("[Github API] - Rate Limit Status Check Error: ", JSON.stringify(e));
+            console.log(get_colored_message("GitHub API", "Rate Limit Status Check Error: " + highlight_code(JSON.stringify(e)), message_status.WARNING));
         }
     });
 }
