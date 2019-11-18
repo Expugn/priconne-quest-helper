@@ -8,6 +8,7 @@ New Automatically Generated File Format
 ### Added
 - `equipment_data.json`, `character_data.json`, and `quest_data.json` are now automatically generated
   - Updating is now hopefully faster and will have less errors
+- Japanese item names are now included in `pages/recipe-data/` (CURRENT DATA ONLY)
 ### Changed
 - All Data Files
   - Now spaced for easier reading
@@ -18,12 +19,15 @@ New Automatically Generated File Format
   - Japanese name is now included
 - `character_data.json`
   - Unit ID is now included
+- Replaced `()` with `（）` in `pages/character-data/`
+- Replaced `()` with `（）` for JP thematics only in character presets
+
 ### Fixed
 - Errors from the manually updated `character_data`:
   - `Akari (Rank 3)`: "Clothes of Wisdom" -> "Jewel of Wisdom"
   - `Akino (Rank 2)`: "Crescent Sword" -> "Gear Blade"
-  - `Akari (Rank 6)`: "Scarlet Diamond" -> "Garnet Shield"
-  - `Akari (Rank 6)`: "Feather Blade" -> "Lion Eagle's Feather"
+  - `Akino (Rank 6)`: "Scarlet Diamond" -> "Garnet Shield"
+  - `Akino (Rank 6)`: "Feather Blade" -> "Lion Eagle's Feather"
   - `Anna (Rank 1)`: "Protective Pendant" -> "Fighting Bracelet"
   - `Anna (Rank 2)`: "Protective Pendant" -> "Fighting Bracelet"
   - `Aoi (Rank 6)`: "Fencer Boots" -> "Cosmos Cloth"
@@ -63,6 +67,9 @@ New Automatically Generated File Format
     - `19-1`, `19-3`, `19-5`, `19-6`, `19-8`, `19-9`, `19-11`, `19-12`, `19-14`
     - `20-1`, `20-3`, `20-5`, `20-6`, `20-8`, `20-9`, `20-11`, `20-12`, `20-14`
     - `21-1`, `21-3`, `21-5`, `21-6`, `21-8`, `21-9`, `21-11`, `21-12`, `21-14`
+- The above errors have also been corrected in:
+  - `character_data_08.30.2019.json`
+  - `equipment_data_08.30.2019.json`
 ### Removed
 - Removed the following pages due to being deprecated
   - `pages/dev/file-editor`

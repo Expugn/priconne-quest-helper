@@ -134,13 +134,15 @@
             const display_shards = false;
             if (item_name.includes("Shard") && display_shards === false) { continue; }
 
+            let name_jp = item_data_map["name_jp"];
+
             // DISPLAY ITEM
             let required_items = item_data_map.get("req_items");
 
             table_html += "<tr>";
 
             // ITEM NAME
-            table_html += "<th height='64' width='144'><h3 class=\"quest-title\">" + item_name + "</h3></th>";
+            table_html += "<th height='64' width='144'><h3 class=\"quest-title\">" + item_name + (name_jp !== undefined ? "<br>" + name_jp : "") + "</h3></th>";
 
             // DIVIDER
             table_html += "<th>";

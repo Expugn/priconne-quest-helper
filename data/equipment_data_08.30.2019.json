@@ -530,7 +530,7 @@
   "id": "silver-23",
   "has_fragments": true,
   "req_pieces": 5,
-  "req_items": [ "Shinobi Costume", "Folklore Clothes" ]
+  "req_items": [ "Shinobi Costume" ]
 },
   "palace_cloth": {
     "name": "Palace Cloth",

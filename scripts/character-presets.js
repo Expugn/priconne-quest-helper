@@ -18,7 +18,7 @@ function build_character_preset_list()
         if (current_language === "en")
         {
             let character_en = character_data_map.get("name") + ((character_data_map.get("thematic") !== "") ?  (" (" + character_data_map.get("thematic") + ")") : "");
-            let character_jp = character_data_map.get("name_jp") + ((character_data_map.get("thematic_jp") !== "") ?  (" (" + character_data_map.get("thematic_jp") + ")") : "");
+            let character_jp = character_data_map.get("name_jp") + ((character_data_map.get("thematic_jp") !== "") ?  ("（" + character_data_map.get("thematic_jp") + "）") : "");
             character_preset_html += "<option value=\"" + character_id + "\"" + ((character_data_map.get("rank_1")[0] === "") ? " disabled" : "") + ">" + character_en + " | " + character_jp + "</option>";
         }
         else
@@ -28,6 +28,13 @@ function build_character_preset_list()
 
             let character_en = character_data_map.get("name") + ((character_data_map.get("thematic") !== "") ?  (" (" + character_data_map.get("thematic") + ")") : "");
             let character_translated = language_json["character_names"][name] + ((character_data_map.get("thematic") !== "") ? " (" + language_json["thematics"][thematic] + ")" : "");
+
+            // USE （）IF JP
+            if (current_language === "ja")
+            {
+                character_translated = character_translated.replace(' (', '（').replace(')', '）');
+            }
+
             character_preset_html += "<option value=\"" + character_id + "\"" + ((character_data_map.get("rank_1")[0] === "") ? " disabled" : "") + ">" + character_translated + " | " + character_en + "</option>";
         }
     }
@@ -61,7 +68,7 @@ function update_selected_character_preset_details()
             if (current_language === "en")
             {
                 character_thematic_tl = get_character_data(selected_character, "thematic_jp");
-                character_tl = get_character_data(selected_character, "name_jp") + " " + ((character_thematic_tl === "") ? "" : "(" + character_thematic_tl + ")");
+                character_tl = get_character_data(selected_character, "name_jp") + ((character_thematic_tl === "") ? "" : "（" + character_thematic_tl + "）");
             }
             else
             {
@@ -70,6 +77,12 @@ function update_selected_character_preset_details()
 
                 character_thematic_tl = language_json["thematics"][tl_thematic];
                 character_tl = language_json["character_names"][tl_name] + ((character_thematic === "") ? "" : " (" + character_thematic_tl + ")");
+
+                // USE （）IF JP
+                if (current_language === "ja")
+                {
+                    character_tl = character_tl.replace(' (', '（').replace(')', '）');
+                }
             }
 
 
@@ -88,8 +101,6 @@ function update_selected_character_preset_details()
             document.getElementById("preset-character-max-rank-input").disabled = false;
         }
     }
-
-    //console.log("[Presets] - Selected \"" + selected_character + "\"");
 }
 
 function change_min_rank_preset()

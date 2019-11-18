@@ -11,14 +11,12 @@ const equipment_data_location = Object.freeze({
     LEGACY: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/equipment_data_08.30.2019.json"
 });
 
-const dev_file_editor_location = "dev/file-editor";
-
 let totalItemsCount = reset_equipment_count();
 
 read_equipment_data(equipment_data_version.CURRENT, function ()
 {
     equipment_loaded = true;
-    console.log(get_colored_message("Equipment Reader", "Equipment data loaded!", message_status.SUCCESS) + (window.location.pathname.includes(dev_file_editor_location) ? " (Using Alternate Format)" : ""));
+    console.log(get_colored_message("Equipment Reader", "Equipment data loaded!", message_status.SUCCESS));
 });
 
 function read_equipment_data(equipment_file_type, callback)
@@ -48,19 +46,19 @@ function read_equipment_data(equipment_file_type, callback)
                     {
                         let item_data = new Map();
 
-                        item_data.set("name", itemData.name);
-                        item_data.set("id", itemData.id);
-                        /** @namespace itemData.has_fragments */
-                        item_data.set("has_fragments", itemData.has_fragments);
-                        /** @namespace itemData.req_pieces */
-                        item_data.set("req_pieces", itemData.req_pieces);
-                        /** @namespace itemData.req_items */
-                        item_data.set("req_items", itemData.req_items);
+                        // IF CURRENT VERSION ; ADD name_jp TO MAP
+                        if (equipment_file_type === equipment_data_version.CURRENT)
+                        {
+                            item_data['name_jp'] = itemData['name_jp'];
+                        }
 
-                        if (window.location.pathname.includes(dev_file_editor_location))
-                            equipment_map.set(i, item_data);
-                        else
-                            equipment_map.set(itemData.name, item_data);
+                        item_data.set("name", itemData['name']);
+                        item_data.set("id", itemData['id']);
+                        item_data.set("has_fragments", itemData['has_fragments']);
+                        item_data.set("req_pieces", itemData['req_pieces']);
+                        item_data.set("req_items", itemData['req_items']);
+
+                        equipment_map.set(itemData.name, item_data);
 
                         // RARITY ITEM COUNTER
                         let rarity_class = itemData.id.substring(0, itemData.id.indexOf('-'));
