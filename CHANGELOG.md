@@ -3,6 +3,71 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.1] - 2019-11-17
+New Automatically Generated File Format
+### Added
+- `equipment_data.json`, `character_data.json`, and `quest_data.json` are now automatically generated
+  - Updating is now hopefully faster and will have less errors
+### Changed
+- All Data Files
+  - Now spaced for easier reading
+- `quest_data.json`
+  - Quest name is now included in quest data
+- `equipment_data.json`
+  - Key is now the full equipment's id
+  - Japanese name is now included
+- `character_data.json`
+  - Unit ID is now included
+### Fixed
+- Errors from the manually updated `character_data`:
+  - `Akari (Rank 3)`: "Clothes of Wisdom" -> "Jewel of Wisdom"
+  - `Akino (Rank 2)`: "Crescent Sword" -> "Gear Blade"
+  - `Akari (Rank 6)`: "Scarlet Diamond" -> "Garnet Shield"
+  - `Akari (Rank 6)`: "Feather Blade" -> "Lion Eagle's Feather"
+  - `Anna (Rank 1)`: "Protective Pendant" -> "Fighting Bracelet"
+  - `Anna (Rank 2)`: "Protective Pendant" -> "Fighting Bracelet"
+  - `Aoi (Rank 6)`: "Fencer Boots" -> "Cosmos Cloth"
+  - `Arisa (Rank 6)`: "Angel Bow" -> "Cupid's Bow"
+  - `Hiyori (Rank 6)`: "Millefeuille Cloth" -> "Cosmos Cloth"
+  - `Ilya (Rank 1)`: "Protective Pendant" -> "Fighting Bracelet"
+  - `Ilya (Rank 2)`: "Protective Pendant" -> "Fighting Bracelet"
+  - `Kokkoro (Summer) (Rank 1)`: "Motivational Bracelet" -> "Protective Pendant"
+  - `Kokkoro (Summer) (Rank 2)`: "Motivational Bracelet" -> "Protective Pendant"
+  - `Kurumi (Rank 2)`: "Motivational Bracelet" -> "Protective Pendant"
+  - `Kurumi (Rank 7)`: "Invisible Dress" -> "Angel Armor"
+  - `Kurumi (Rank 7)`: "Lion Eagle's Feather" -> "Octogram Pendant"
+  - `Kurumi (Rank 10)`: "Crusader Plate" -> "Violet Armor"
+  - `Mahiru (Rank 5)`: "Battling Dress" -> "Palace Cloth"
+  - `Maho (Rank 10)`: "Guardian Shield" -> "Necromancer Boots"
+  - `Maho (Rank 10)`: "Sun Amulet" -> "Dragon's Tear"
+  - `Matsuri (Rank 1)`: "Steel Spear" -> "Killer Pencil"
+  - `Mimi (Rank 2)`: "Crescent Sword" -> "Gear Blade"
+  - `Mimi (Rank 3)`: "High-Metal Axe" -> "High Metal Plate"
+  - `Misaki (Halloween) (Rank 10)`: "Mourning Crescent Moon" -> "Moon Bracelet"
+  - `Monika (Rank 12)`: "Dawn's Holy Sword" -> "Lava Edge"
+  - `Ninon (Oedo) (Rank 3)`: "Gear Blade" -> "Crescent Sword"
+  - `Pecorine (Rank 8)`: "Angel Armor" -> "Lion King's Protective Charm"
+  - `Suzume (Summer) (Rank 12)`: "Divine Beast's Prayer" -> "Mermaid Princess' Spirit Tear"
+- Errors from the manually updated `equipment_data`:
+  - `Millefeuille Cloth`: Removed "Folklore Clothes" requirement
+- Errors from the manually updated `quest_data`:
+  - `2-3H`: Swapped "Command Knife" and "Victory Friendship Bracelet" position
+  - `3-3H`: "Metal Axe" was supposed to be "High-Metal Axe"
+  - `5-2H`: "Lightning Axe F." was supposed to be "Lion's Battle Axe F."
+  - `14-3H`: Fixed incorrect drop percent for item_1, item_2, item_3
+  - `19-1VH`: Swapped positioning of "Konominato Sword - Aqua Ruler F." and "Divine Spear - Doom Pain F."
+  - `19-2VH`: Swapped positioning of "Prosperity Veil F." and "Senka Dance Armor F."
+  - Adjusted sub-drop positioning for the following quests:
+    - `10-3`, `10-5`, `10-8`, `10-11`, `10-14`, `10-15`, `10-16`
+    - `18-1`, `18-3`, `18-5`, `18-6`, `18-8`, `18-9`, `18-11`, `18-12`, `18-14`
+    - `19-1`, `19-3`, `19-5`, `19-6`, `19-8`, `19-9`, `19-11`, `19-12`, `19-14`
+    - `20-1`, `20-3`, `20-5`, `20-6`, `20-8`, `20-9`, `20-11`, `20-12`, `20-14`
+    - `21-1`, `21-3`, `21-5`, `21-6`, `21-8`, `21-9`, `21-11`, `21-12`, `21-14`
+### Removed
+- Removed the following pages due to being deprecated
+  - `pages/dev/file-editor`
+  - `pages/dev/json-writer`
+
 ## [1.5.0] - 2019-11-15
 Quest Update (2019-11-15)
 ### Added
