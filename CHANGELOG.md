@@ -42,6 +42,7 @@ Styling Changes
       - Comment: <https://github.com/Expugn/priconne-quest-helper/issues/14#issuecomment-521947391>
     - Based off a-casual's implementation
       - Commit: <https://github.com/a-casual/priconne-quest-helper/commit/9347a90db9d11e6e5e1903103a4c82afbee551c0>
+  - Code Improvements (?)
 ### Fixed
 - You can no longer see bits of drop shadow from the item tables when running `Simple Mode`
   

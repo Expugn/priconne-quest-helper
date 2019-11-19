@@ -248,20 +248,19 @@ hr {
 .rarity-title {
     font-family: "fot-udmarugo_large_prob", Arial, serif;
     text-shadow: 1px 1px 2px #000000, 1px 1px 3px #000000;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     position: relative;
     left: 10px;
     top: 10px;
     display: inline;
-    /*
-    position: absolute;
-    margin-left: 10px;
-    margin-top: 8px;
-    */
-    padding: 3px 5px;
+    padding: 0 5px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.3);
+}
 
+.rarity-title-2 {
+    padding: 8px 5px !important;
+    top: 13px !important;
 }
 
 .rarity-button {
@@ -302,7 +301,7 @@ hr {
     text-align: center;
 
     background-color: rgba(255, 255, 255, 0.3);
-    padding: 3px 5px;
+    padding: 7px 5px;
     border-radius: 5px;
 
     font-size: 20px;
