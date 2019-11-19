@@ -1,5 +1,5 @@
 div.item-table-top-spacing {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 img.item-image {
@@ -190,14 +190,11 @@ th.requested-item-image {
     bottom: -1px;
     text-overflow: ellipsis;
     right: 2px;
-
-
     text-shadow: 1px 1px 4px #000000,
                     1px 1px 4px #000000,
                     1px 1px 4px #000000,
                     1px 1px 4px #000000;
     color: white;
-
     font-size: 16px;
     font-family: "Calibri", Arial, serif;
 }
@@ -216,7 +213,11 @@ th.requested-item-image {
     font-family: "Trebuchet MS", Arial, serif;
     color: white;
     margin-bottom: 10px;
-    text-shadow: 1px 1px 5px #000000, -1px 1px 5px #000000, -1px -1px 5px #000000, 1px -1px 5px #000000, 0 0 5px #000000;
+    text-shadow: 1px 1px 3px #000000,
+                    1px 1px 3px #000000,
+                    1px 1px 3px #000000,
+                    1px 1px 3px #000000,
+                    0 0 3px #000000;
     letter-spacing: 2px;
     line-height: 21px;
     text-align: center;
@@ -283,28 +284,21 @@ img.priority-quest-item {
 }
 
 .quest-title {
-    font-family: "Trebuchet MS", Arial, serif;
-    text-shadow: 1px 1px 4px #000000,
-                    1px 1px 4px #000000,
-                    1px 1px 4px #000000;
+    font-family: "fot-udmarugo_large_prob", Arial, serif;
+    text-shadow: 1px 1px 2px #000000,
+                    1px 1px 2px #000000,
+                    1px 1px 3px #000000;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-
     background-color: rgba(255, 255, 255, 0.5);
-
     position: relative;
-    bottom: 6px;
-
+    bottom: 4px;
     margin-bottom: 5%;
-
     padding: 10px 30px;
-
     letter-spacing: 1px;
-
     color: white;
-
     border-radius: 5px;
-
     white-space: nowrap;
+    font-size: 15px;
 }
 
 .quest-title-hard {

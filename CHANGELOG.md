@@ -3,6 +3,48 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.2] - 2019-11-19
+Styling Changes
+### Added
+- New Font: `FOT-UDMarugo_LargePro-B`
+- New Navigation Bar Design
+  - Added new navigation bar images
+  - Font change to `FOT-UDMarugo_LargePro-B`
+  - Language switch select has a darker color compared to the other items
+- Character presets list is now alphabetically sorted depending on the language you're using
+- Projects are now alphabetically sorted upon save
+  - Based off alexanderabramov's suggestion 
+  - Based off a-casual's implementation
+    - Commit: <https://github.com/a-casual/priconne-quest-helper/commit/6bd4a8a36e142fc728c65293c0d53f3eaaaf12ce>
+  - Figured a lot of people want their projects sorted so why not, I guess
+- Changed webpage icon <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/icon.png>
+  - Affects the following pages:
+    - `/priconne-quest-helper/`
+    - `/priconne-quest-helper/pages/character-data/`
+    - `/priconne-quest-helper/pages/quest-data/`
+    - `/priconne-quest-helper/pages/recipe-data/`
+    - `/priconne-quest-helper/pages/statistics/`
+### Changed
+- Main title font change to `FOT-UDMarugo_LargePro-B` ; Sub-title remains `Trebuchet MS`
+- Adjusted the rarity buttons in the `Items` tab so that they no longer overflow on a language that's not English
+- Rarity buttons, `Requested Items`, `Required Ingredients`, `Recommended Quests` font change to `FOT-UDMarugo_LargePro-B`
+- Adjusted Drop Shadowing for a lot of text to make it look more pleasing
+- Character Name and Translation in `Presets` tab font change to `FOT-UDMarugo_LargePro-B`
+- Adjusted spacing for a lot of elements
+- Removed font sizing from `ja.json` for the navigation titles because it is no longer an issue with the new Navigation Bar
+- Item Name in `pages/recipe-data/` font change to `FOT-UDMarugo_LargePro-B`
+- Quest Titles font change to `FOT-UDMarugo_LargePro-B`
+- All text in `pages/character-data/` font change to `FOT-UDMarugo_LargePro-B`
+- Preset Projects are now saved as `Character_Name (Thematic) [Rank_Low - Rank_High]`
+  - On second thought, ended up accepting alexanderabramov's suggestion.
+    - Based off alexanderabramov's suggestion.
+      - Comment: <https://github.com/Expugn/priconne-quest-helper/issues/14#issuecomment-521947391>
+    - Based off a-casual's implementation
+      - Commit: <https://github.com/a-casual/priconne-quest-helper/commit/9347a90db9d11e6e5e1903103a4c82afbee551c0>
+### Fixed
+- You can no longer see bits of drop shadow from the item tables when running `Simple Mode`
+  
+
 ## [1.5.1] - 2019-11-17
 New Automatically Generated File Format
 ### Added

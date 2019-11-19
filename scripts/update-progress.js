@@ -23,7 +23,7 @@ function update_progress()
         !quest_update_status.RANK_EQUIPMENT)
     {
         console.log(get_colored_message("Update", "Showing Update Progress", message_status.INFO));
-        document.getElementById("update-notification-img").style.display = "inline";
+        document.getElementById("update-notification-img").style.display = "block";
         document.getElementById("update-div").style.display = "block";
         if (current_language === "en")
         {

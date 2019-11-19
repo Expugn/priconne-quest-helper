@@ -14,7 +14,7 @@
 
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
-    <link rel="icon" href="images/webpage/101211_102803_6.png">
+    <link rel="icon" href="images/webpage/icon.png">
 
     <title>Princess Connect! Re:Dive - Quest Helper</title>
     <meta name="title" content="Princess Connect! Re:Dive - Quest Helper"/>
@@ -28,9 +28,9 @@
     <meta property="og:title" content="Princess Connect! Re:Dive - Quest Helper"/>
     <meta property="og:description" content="Quest Choosing Assistance for the Game 'Princess Connect! Re:Dive' (プリンセスコネクト! Re:Dive)."/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/101211_102803_6.png"/>
-    <meta property="og:image:width" content="50"/>
-    <meta property="og:image:height" content="50"/>
+    <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/icon.png"/>
+    <meta property="og:image:width" content="64"/>
+    <meta property="og:image:height" content="64"/>
     <meta property="og:url" content="https://expugn.github.io/priconne-quest-helper/"/>
     <meta property="og:locale" content="en_US"/>
     <meta property="og:locale:alternate" content="ja_JP"/>
@@ -89,13 +89,29 @@
 </div>
 
 <div class="topnav">
-    <button id="navigation-items" class="is-open" type="button" onclick="open_items()"><span translate_text="items_tab.tab_title">Items</span></button>
-    <button id="navigation-presets" type="button" onclick="open_presets()"><span translate_text="presets_tab.tab_title">Presets</span></button>
-    <button id="navigation-projects" type="button" onclick="open_projects()"><span translate_text="projects_tab.tab_title">Projects</span></button>
-    <button id="navigation-settings" type="button" onclick="open_settings()"><span translate_text="settings_tab.tab_title">Settings</span></button>
-    <button id="navigation-other" type="button" onclick="open_other()"><span translate_text="other_tab.tab_title">Other</span><img id="update-notification-img" class="use-webp" image_folder="webpage" file_name="Notification_Icon" src_prefix="" src="" alt="" style="height: 15px; position: relative; bottom: 10px; left: 5px; display: none"></button>
+    <button id="navigation-items" class="is-open nav-button" type="button" onclick="open_items()">
+        <img class="use-webp nav-button-image" image_folder="webpage" file_name="button-icon_items" src_prefix="" src="" alt="">
+        <span class="nav-button-text" translate_text="items_tab.tab_title">Items</span>
+    </button>
+    <button id="navigation-presets" class="nav-button" type="button" onclick="open_presets()">
+        <img class="use-webp nav-button-image" image_folder="webpage" file_name="button-icon_presets" src_prefix="" src="" alt="">
+        <span class="nav-button-text" translate_text="presets_tab.tab_title">Presets</span>
+    </button>
+    <button id="navigation-projects" class="nav-button" type="button" onclick="open_projects()">
+        <img class="use-webp nav-button-image" image_folder="webpage" file_name="button-icon_projects" src_prefix="" src="" alt="">
+        <span class="nav-button-text" translate_text="projects_tab.tab_title">Projects</span>
+    </button>
+    <button id="navigation-settings" class="nav-button" type="button" onclick="open_settings()">
+        <img class="use-webp nav-button-image" image_folder="webpage" file_name="button-icon_settings" src_prefix="" src="" alt="">
+        <span class="nav-button-text" translate_text="settings_tab.tab_title">Settings</span>
+    </button>
+    <button id="navigation-other" class="nav-button" type="button" onclick="open_other()">
+        <img class="use-webp nav-button-image" image_folder="webpage" file_name="button-icon_other" src_prefix="" src="" alt="">
+        <span class="nav-button-text" translate_text="other_tab.tab_title">Other</span>
+        <img id="update-notification-img" class="use-webp" image_folder="webpage" file_name="Notification_Icon" src_prefix="" src="" alt="">
+    </button>
     <label for="language-option" hidden>Language Option</label>
-    <select id="language-option" onchange="load_language()" disabled>
+    <select id="language-option" class="nav-button" onchange="load_language()" disabled>
         <option value="en">English</option>
         <option value="ja">日本語</option>
         <option value="ko">한국어</option>
@@ -190,7 +206,7 @@
                     <td></td>
                     <th>
                         <img id="preset-character-image" class="use-webp" image_folder="unit_icon" file_name="Placeholder" src_prefix="" src="" alt="" style="height: 100px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.30); border-radius: 6px;"><br>
-                        <label id="preset-character-name-label" class="category-title" style="color: navajowhite !important;"></label>
+                        <label id="preset-character-name-label" class="category-title priconne-font" style="color: navajowhite !important; line-height: 24px;"></label>
                     </th>
                     <td></td>
                 </tr>
@@ -236,7 +252,7 @@
                 </tr>
             </table>
         </div>
-        <h3 class="category-title" style="text-shadow: 2px 2px 4px #000000;"><span translate_text="presets_tab.overwrite_warning">Currently selected items will be replaced<br>when the <span style="color: lightpink">Load Item</span> button is pressed.</span></h3>
+        <h3 class="category-title" style="text-shadow: 1px 1px 2px #000000,1px 1px 3px #000000;"><span translate_text="presets_tab.overwrite_warning">Currently selected items will be replaced<br>when the <span style="color: lightpink">Load Item</span> button is pressed.</span></h3>
         <br>
     </div>
 </div>

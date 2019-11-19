@@ -13,18 +13,65 @@ function build_character_preset_list()
         character_preset_html = "<option value=\"default_character\">" + language_json["presets_tab"]["characters_select_option"] + "</option>";
     }
 
-    for (let [character_id, character_data_map] of character_map)
+    // ENGLISH IS ALREADY ALPHABETICALLY SORTED
+    if (current_language === "en")
     {
-        if (current_language === "en")
+        for (let [character_id, character_data_map] of character_map)
         {
             let character_en = character_data_map.get("name") + ((character_data_map.get("thematic") !== "") ?  (" (" + character_data_map.get("thematic") + ")") : "");
             let character_jp = character_data_map.get("name_jp") + ((character_data_map.get("thematic_jp") !== "") ?  ("（" + character_data_map.get("thematic_jp") + "）") : "");
             character_preset_html += "<option value=\"" + character_id + "\"" + ((character_data_map.get("rank_1")[0] === "") ? " disabled" : "") + ">" + character_en + " | " + character_jp + "</option>";
         }
-        else
+    }
+    else
+    {
+        // SORT CHARACTER MAP
+        let sorted_character_map = new Map();
+        let character_thematics = {};
+        for (let [character_id, character_data_map] of character_map)
         {
             let name = character_data_map.get("name").toLowerCase();
             let thematic = character_data_map.get("thematic").replace(" ", "_").toLowerCase();
+            let character_translated = language_json["character_names"][name];
+
+            // IF UNIT IS A THEMATIC ; ADD INFO TO BASE VERSION
+            if (thematic !== "")
+            {
+                if (character_thematics[name] === undefined)
+                {
+                    character_thematics[name] = [];
+                }
+                character_thematics[name].push(character_id);
+            }
+            else
+            {
+                sorted_character_map.set(character_translated, character_data_map)
+            }
+        }
+        sorted_character_map = new Map([...sorted_character_map.entries()].sort());
+
+        // BUILD LIST
+        for (let [character_id, character_data_map] of sorted_character_map)
+        {
+            character_preset_html += get_character_select_html(character_data_map);
+
+            // CHECK THEMATICS
+            let name = character_data_map.get("name").toLowerCase();
+            if (character_thematics[name] !== undefined)
+            {
+                let thematics_array = character_thematics[name];
+                for (let i = 0 ; i < thematics_array.length ; i++)
+                {
+                    character_preset_html += get_character_select_html(character_map.get(thematics_array[i]));
+                }
+            }
+        }
+
+        function get_character_select_html(character_data_map)
+        {
+            let name = character_data_map.get("name").toLowerCase();
+            let thematic = character_data_map.get("thematic").replace(" ", "_").toLowerCase();
+            let id = (thematic !== "" ? thematic + "_" : "") + name;
 
             let character_en = character_data_map.get("name") + ((character_data_map.get("thematic") !== "") ?  (" (" + character_data_map.get("thematic") + ")") : "");
             let character_translated = language_json["character_names"][name] + ((character_data_map.get("thematic") !== "") ? " (" + language_json["thematics"][thematic] + ")" : "");
@@ -35,7 +82,7 @@ function build_character_preset_list()
                 character_translated = character_translated.replace(' (', '（').replace(')', '）');
             }
 
-            character_preset_html += "<option value=\"" + character_id + "\"" + ((character_data_map.get("rank_1")[0] === "") ? " disabled" : "") + ">" + character_translated + " | " + character_en + "</option>";
+            return "<option value=\"" + id + "\"" + ((character_data_map.get("rank_1")[0] === "") ? " disabled" : "") + ">" + character_translated + " | " + character_en + "</option>";
         }
     }
 
@@ -211,7 +258,8 @@ function load_preset_character_items_and_create_project()
     let selected_character = document.getElementById("character-preset-list-select").value;
 
     // DETERMINE PROJECT NAME
-    let project_name = "[" + ((selected_min_rank_value === selected_max_rank_value) ? selected_min_rank_value : (selected_min_rank_value + " - " + selected_max_rank_value)) + "] "; // PREFIX
+    let project_name_suffix = " [" + ((selected_min_rank_value === selected_max_rank_value) ? selected_min_rank_value : (selected_min_rank_value + " - " + selected_max_rank_value)) + "]";
+    let project_name = "";    // SUFFIX
 
     let character_name = get_character_data(selected_character, "name");
     let character_thematic = get_character_data(selected_character, "thematic");
@@ -225,6 +273,11 @@ function load_preset_character_items_and_create_project()
         character_thematic = character_thematic.replace(" ", "_").toLowerCase();
 
         let translated_name = language_json["character_names"][character_name] + ((character_thematic !== "") ? " (" + language_json["thematics"][character_thematic] + ")" : "");
+        // USE （）IF JP
+        if (current_language === "ja")
+        {
+            translated_name = translated_name.replace(' (', '（').replace(')', '）');
+        }
 
         project_name += translated_name;
     }
@@ -248,6 +301,9 @@ function load_preset_character_items_and_create_project()
         }
         project_name = project_name + " (" + name_counter + ")";
     }
+
+    // ADD SUFFIX
+    project_name += project_name_suffix;
 
     // SAVE PROJECT
     document.getElementById("project-name-input").value = project_name;

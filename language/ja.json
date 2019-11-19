@@ -23,14 +23,14 @@
   },
 
   "items_tab": {
-    "tab_title": "<span style='font-size: 1.2em;'>装備</span>",
+    "tab_title": "装備",
 
     "common_title": "青枠",
     "copper_title": "銅枠",
     "silver_title": "銀枠",
     "gold_title": "金枠",
     "purple_title": "紫枠",
-    "miscellaneous_title": "<span style='font-size: 15px;'>メモリーピース</span>",
+    "miscellaneous_title": "<span style='font-size: 20px;'>メモリーピース</span>",
 
     "requested_items_title": "<span style='font-size: 18px;'>要求アイテム</span>",
     "requested_items_help_1": "上で選択したアイテムと個数がここに表示されます。",
@@ -38,7 +38,7 @@
   },
 
   "presets_tab": {
-    "tab_title": "<span style='font-size: 0.875em;'>プリセット</span>",
+    "tab_title": "プリセット",
 
     "character_presets": "キャラクタープリセット",
 
@@ -55,7 +55,7 @@
   },
 
   "projects_tab": {
-    "tab_title": "<span style='font-size: 0.875em;'>プロジェクト</span>",
+    "tab_title": "プロジェクト",
 
     "localstorage_warning": "ブラウザがローカルストレージアクセスを許容していません。<br>プロジェクト、ブラックリスト、データ読み込みと書き出し、設定保存などの機能が無効化されました。",
 
@@ -85,7 +85,7 @@
   },
 
   "settings_tab": {
-    "tab_title": "<span style='font-size: 1.2em;'>設定</span>",
+    "tab_title": "設定",
 
     "amount_of_quests_shown": "クエスト表示個数 (10 - 999)：",
     "sort_by_ascending_quest_list": "昇順：クエスト順序（1章→2章→…）",
@@ -120,7 +120,7 @@
   },
 
   "other_tab": {
-    "tab_title": "<span style='font-size: 0.875em; position: relative; top: 2px;'>その他</span>",
+    "tab_title": "その他",
 
     "update_in_progress": "アップデート中！",
     "quest_update": "クエストアップデート：",

@@ -182,13 +182,14 @@ function build_item_tables()
     purple_item_HTML = close_item_table(purple_count, purple_item_HTML, "purple");
     misc_item_HTML = close_item_table(misc_count, misc_item_HTML, "misc");
 
-    // DISPLAY ITEM TABLES
-    document.getElementById("common-item-table").innerHTML = common_item_HTML;
-    document.getElementById("copper-item-table").innerHTML = copper_item_HTML;
-    document.getElementById("silver-item-table").innerHTML = silver_item_HTML;
-    document.getElementById("gold-item-table").innerHTML = gold_item_HTML;
-    document.getElementById("purple-item-table").innerHTML = purple_item_HTML;
-    document.getElementById("misc-item-table").innerHTML = misc_item_HTML;
+    // DISPLAY ITEM TABLES// APPLY SPACING
+    //         item_HTML += ;
+    document.getElementById("common-item-table").innerHTML = "<tr class=\"spacing\"></tr>" + common_item_HTML + "<tr class=\"spacing\"></tr>";
+    document.getElementById("copper-item-table").innerHTML = "<tr class=\"spacing\"></tr>" + copper_item_HTML + "<tr class=\"spacing\"></tr>";
+    document.getElementById("silver-item-table").innerHTML = "<tr class=\"spacing\"></tr>" + silver_item_HTML + "<tr class=\"spacing\"></tr>";
+    document.getElementById("gold-item-table").innerHTML = "<tr class=\"spacing\"></tr>" + gold_item_HTML + "<tr class=\"spacing\"></tr>";
+    document.getElementById("purple-item-table").innerHTML = "<tr class=\"spacing\"></tr>" + purple_item_HTML + "<tr class=\"spacing\"></tr>";
+    document.getElementById("misc-item-table").innerHTML = "<tr class=\"spacing\"></tr>" + misc_item_HTML + "<tr class=\"spacing\"></tr>";
 
     if (item_table_ready === false)
     {
