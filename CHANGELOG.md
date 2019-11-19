@@ -24,6 +24,7 @@ Styling Changes
     - `/priconne-quest-helper/pages/quest-data/`
     - `/priconne-quest-helper/pages/recipe-data/`
     - `/priconne-quest-helper/pages/statistics/`
+- Added Hyperlink to `priconne-shiritori`, despite it's current irrelevancy
 ### Changed
 - Main title font change to `FOT-UDMarugo_LargePro-B` ; Sub-title remains `Trebuchet MS`
 - Adjusted the rarity buttons in the `Items` tab so that they no longer overflow on a language that's not English
