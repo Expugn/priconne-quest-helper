@@ -47,6 +47,8 @@ function load_language()
                 language_json = data;
                 console.log(get_colored_message("Language", "Now using: " + highlight_code(lang + ".json"), message_status.INFO));
                 current_language = lang;
+                document.documentElement.setAttribute("lang", lang);
+                document.documentElement.setAttribute("xml:lang", lang);
                 change_language();
 
                 // IF LOCALSTORAGE SUPPORT IS AVAILABLE...

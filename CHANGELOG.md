@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ## [1.5.2] - 2019-11-19
 Styling Changes
 ### Added
+- Updated Language Files
+  - `ko.json`
+    - `character_names.homare`
+    - `character_names.inori`
+    - `character_names.kaya`
 - New Font: `FOT-UDMarugo_LargePro-B`
 - New Navigation Bar Design
   - Added new navigation bar images
@@ -13,7 +18,7 @@ Styling Changes
   - Language switch select has a darker color compared to the other items
 - Character presets list is now alphabetically sorted depending on the language you're using
 - Projects are now alphabetically sorted upon save
-  - Based off alexanderabramov's suggestion 
+  - Based off alexanderabramov's suggestion
   - Based off a-casual's implementation
     - Commit: <https://github.com/a-casual/priconne-quest-helper/commit/6bd4a8a36e142fc728c65293c0d53f3eaaaf12ce>
   - Figured a lot of people want their projects sorted so why not, I guess
@@ -43,6 +48,8 @@ Styling Changes
     - Based off a-casual's implementation
       - Commit: <https://github.com/a-casual/priconne-quest-helper/commit/9347a90db9d11e6e5e1903103a4c82afbee551c0>
   - Code Improvements (?)
+- Hyperlink changed from raw `CHANGELOG.md` page to GitHub blob page for Other-Changelog button
+- Change HTML lang attribute too when change the language
 ### Fixed
 - You can no longer see bits of drop shadow from the item tables when running `Simple Mode`
   
