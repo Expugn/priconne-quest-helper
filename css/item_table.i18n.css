@@ -1,0 +1,9 @@
+/* Korean (lang=ko) */
+.tip:lang(ko) {
+    font-family: "Trebuchet MS", "NotoSerifKR", serif;
+}
+
+/* Japanese (lang=ja) */
+.tip:lang(ja) {
+    font-family: "Trebuchet MS", "NotoSerifJP", serif;
+}
