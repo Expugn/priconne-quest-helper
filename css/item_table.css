@@ -142,7 +142,7 @@ input[type=number].item-input {
 }
 
 th.requested-item-image {
-    box-shadow: 0 0 0 0, 0 0 0 0, 0 0; !important;
+    box-shadow: 0 0 0 0, 0 0 0 0, 0 0 !important;
 }
 
 .requested-item-text {
