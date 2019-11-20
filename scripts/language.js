@@ -51,6 +51,22 @@ function load_language()
                 document.documentElement.setAttribute("xml:lang", lang);
                 change_language();
 
+                // DYNAMIC LOAD I18N STYLESHEET
+                if (document.head.getElementsByClassName("stylesheet-i18n").length <= 0) {
+                    const i18n_webpage_stylesheet = document.createElement("link");
+                    i18n_webpage_stylesheet.className = "stylesheet-i18n";
+                    i18n_webpage_stylesheet.rel = "stylesheet";
+                    i18n_webpage_stylesheet.href = "css/webpage.i18n.css";
+
+                    const i18n_item_table_stylesheet = document.createElement("link");
+                    i18n_item_table_stylesheet.className = "stylesheet-i18n";
+                    i18n_item_table_stylesheet.rel = "stylesheet";
+                    i18n_item_table_stylesheet.href = "css/item_table.i18n.css";
+
+                    document.head.appendChild(i18n_webpage_stylesheet);
+                    document.head.appendChild(i18n_item_table_stylesheet);
+                }
+
                 // IF LOCALSTORAGE SUPPORT IS AVAILABLE...
                 if (typeof(Storage) !== "undefined")
                 {
