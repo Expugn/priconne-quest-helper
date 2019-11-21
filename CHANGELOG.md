@@ -50,6 +50,7 @@ Styling Changes
   - Code Improvements (?)
 - Hyperlink changed from raw `CHANGELOG.md` page to GitHub blob page for Other-Changelog button
 - Change HTML lang attribute too when change the language
+- index.html Cleanup
 ### Fixed
 - You can no longer see bits of drop shadow from the item tables when running `Simple Mode`
   

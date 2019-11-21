@@ -113,7 +113,7 @@ function save_project_data()
     // UPDATE PRIORITY ITEMS
     get_priority_items();
 
-    if (current_language === "en")
+    if (current_language === language.ENGLISH)
     {
         toastr.success("Project \"" + project_name + "\" has been " + (project_name_exists ? "overwritten!" : "saved!"));
     }
@@ -277,7 +277,7 @@ function delete_project_data()
     disable_add_and_sub_buttons(true);
     disable_complete_project_button(false);
 
-    if (current_language === "en")
+    if (current_language === language.ENGLISH)
     {
         toastr.success("Project \"" + project_name + "\" has been deleted!");
     }
@@ -339,7 +339,7 @@ function update_saved_projects_select()
     // ADD [All Projects..] SELECT
     // IF LANGUAGE ISN'T ENGLISH, TRANSLATE [All Projects...] TO APPROPRIATE LANGUAGE
     let select_HTML;
-    if (current_language === "en")
+    if (current_language === language.ENGLISH)
     {
         select_HTML = "<option value=\"[All Projects...]\">[All Projects...]</option>";
     }
@@ -532,7 +532,7 @@ function save_blacklist()
         }
         document.getElementById("blacklist-load-button").title = ((disabled_items.length > 0) ? button_title_string : "The saved blacklist is empty.");
 
-        if (current_language === "en")
+        if (current_language === language.ENGLISH)
         {
             toastr.success("The item blacklist has been saved!");
         }
@@ -544,7 +544,7 @@ function save_blacklist()
     }
     else
     {
-        if (current_language === "en")
+        if (current_language === language.ENGLISH)
         {
             toastr.error("The item blacklist is empty.");
         }
@@ -574,7 +574,7 @@ function clear_blacklist()
         update_saved_projects_select();
         disable_complete_project_button(false);
 
-        if (current_language === "en")
+        if (current_language === language.ENGLISH)
         {
             toastr.success("The item blacklist has been cleared!");
         }
@@ -586,7 +586,7 @@ function clear_blacklist()
     }
     else
     {
-        if (current_language === "en")
+        if (current_language === language.ENGLISH)
         {
             toastr.error("The item blacklist is empty.");
         }
@@ -606,7 +606,7 @@ function delete_blacklist()
         localStorage.removeItem('blacklist');
         document.getElementById("blacklist-load-button").title = "There is no saved blacklist.";
 
-        if (current_language === "en")
+        if (current_language === language.ENGLISH)
         {
             toastr.success("The item blacklist has been deleted!");
         }
@@ -618,7 +618,7 @@ function delete_blacklist()
     }
     else
     {
-        if (current_language === "en")
+        if (current_language === language.ENGLISH)
         {
             toastr.error("There is no saved item blacklist.");
         }
@@ -696,7 +696,7 @@ function blacklist_selected_rarities()
         refresh_quest_table();
         update_saved_projects_select();
 
-        if (current_language === "en")
+        if (current_language === language.ENGLISH)
         {
             toastr.success(rarity_array.toString(), "The Following Rarities Have Been Blacklisted:");
         }
@@ -715,7 +715,7 @@ function blacklist_selected_rarities()
     }
     else
     {
-        if (current_language === "en")
+        if (current_language === language.ENGLISH)
         {
             toastr.error("You did not select any rarities.");
         }
@@ -833,7 +833,7 @@ function complete_project()
     disable_complete_project_button(false);
 
     // DISPLAY TOAST
-    if (current_language === "en")
+    if (current_language === language.ENGLISH)
     {
         toastr.success("Project \"" + project_name + "\" has been completed!");
     }

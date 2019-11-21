@@ -478,7 +478,7 @@ function save_cookie()
     let encrypted_setting_map = JSON.stringify(settings_map);
     localStorage.setItem('settings', encrypted_setting_map);
 
-    toastr.success((current_language === "en") ? "Your settings have been saved!" : language_json["toasts"]["settings_saved"]);
+    toastr.success((current_language === language.ENGLISH) ? "Your settings have been saved!" : language_json["toasts"]["settings_saved"]);
     console.log(get_colored_message("Settings", "Settings have been saved.", message_status.SUCCESS));
 }
 
@@ -488,12 +488,12 @@ function delete_cookie()
     {
         localStorage.removeItem('settings');
 
-        toastr.success((current_language === "en") ? "Your saved settings have been deleted." : language_json["toasts"]["settings_deleted"]);
+        toastr.success((current_language === language.ENGLISH) ? "Your saved settings have been deleted." : language_json["toasts"]["settings_deleted"]);
         console.log(get_colored_message("Settings", "Settings have been deleted.", message_status.WARNING));
     }
     else
     {
-        toastr.error((current_language === "en") ? "You did not save any settings." : language_json["toasts"]["no_settings_saved"]);
+        toastr.error((current_language === language.ENGLISH) ? "You did not save any settings." : language_json["toasts"]["no_settings_saved"]);
     }
 }
 
@@ -654,7 +654,7 @@ function reset_settings()
         document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value = equipment_data_version.CURRENT;
     }
 
-    toastr.success((current_language === "en") ? "Settings have been reset." : language_json["toasts"]["settings_reset"]);
+    toastr.success((current_language === language.ENGLISH) ? "Settings have been reset." : language_json["toasts"]["settings_reset"]);
     refresh_quest_table();
     build_item_tables();
     build_data();
@@ -672,7 +672,7 @@ function read_settings()
     }
     else
     {
-        toastr.error((current_language === "en") ? "You did not save any settings." : language_json["toasts"]["no_settings_saved"]);
+        toastr.error((current_language === language.ENGLISH) ? "You did not save any settings." : language_json["toasts"]["no_settings_saved"]);
     }
 }
 

@@ -229,16 +229,6 @@ div.div-background-title:not(.no-hover):hover .title {
     margin-top: -10px;
 }
 
-/*
-.title-hover {
-    transition: all 0.4s ease-out;
-}
-
-.title-hover:not(.no-hover):hover, .title-hover:not(.no-hover):active {
-    opacity: 0.1;
-}
-*/
-
 /* LINE BREAK */
 hr {
     border-top: 2px solid black;
@@ -253,14 +243,9 @@ hr {
     left: 10px;
     top: 10px;
     display: inline;
-    padding: 0 5px;
+    padding: 8px 5px;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.3);
-}
-
-.rarity-title-2 {
-    padding: 8px 5px !important;
-    top: 13px !important;
 }
 
 .rarity-button {
@@ -446,4 +431,22 @@ img.footer {
     bottom: 75px;
     left: 87px;
     display: none;
+}
+
+.update-checkmark {
+    height: 25px;
+    position: relative;
+    left: 15px;
+    top: 25px;
+}
+
+.update-book-img {
+    height: 40px;
+    position: relative;
+    top: 13px;
+}
+
+.hyperlink-bg-img {
+    border: 0;
+    text-decoration: none;
 }

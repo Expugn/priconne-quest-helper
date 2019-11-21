@@ -10,6 +10,9 @@ function update_progress()
         EQUIPMENT_SELECTION: true,
         EQUIPMENT_ENGLISH_TRANSLATION: true,
         RANK_EQUIPMENT: true,
+
+        // SET TO TRUE TO SHOW UPDATE PROGRESS
+        DEBUG_UPDATE_PROGRESS: false,
     });
     // and README
     // and Settings Quest Min/Max
@@ -20,12 +23,13 @@ function update_progress()
         !quest_update_status.HARD_QUEST ||
         !quest_update_status.EQUIPMENT_SELECTION ||
         !quest_update_status.EQUIPMENT_ENGLISH_TRANSLATION ||
-        !quest_update_status.RANK_EQUIPMENT)
+        !quest_update_status.RANK_EQUIPMENT ||
+        quest_update_status.DEBUG_UPDATE_PROGRESS)
     {
         console.log(get_colored_message("Update", "Showing Update Progress", message_status.INFO));
         document.getElementById("update-notification-img").style.display = "block";
         document.getElementById("update-div").style.display = "block";
-        if (current_language === "en")
+        if (current_language === language.ENGLISH)
         {
             document.getElementById("update-name").innerHTML = "Quest Update: " + get_update_date();
         }
@@ -50,7 +54,7 @@ function update_progress()
 
 function get_update_date()
 {
-    if (current_language === "en")
+    if (current_language === language.ENGLISH)
     {
         return update_date.toLocaleDateString("en-US", date_options);
     }
@@ -67,7 +71,7 @@ function add_update_date_to_footer()
 
 function refresh_quest_update_language()
 {
-    if (current_language === "en")
+    if (current_language === language.ENGLISH)
     {
         document.getElementById("update-name").innerHTML = "Quest Update: " + get_update_date();
     }

@@ -1,6 +1,12 @@
 const project_author = "S'pugn";
 
-let current_language = "en";
+const language = Object.freeze({
+    ENGLISH: "en",
+    JAPANESE: "ja",
+    KOREAN: "ko"
+});
+
+let current_language = language.ENGLISH;
 let language_json;
 
 function auto_load_language()
@@ -139,7 +145,7 @@ function change_language()
     update_saved_projects_select();
 
     // BUILD TRANSLATOR CREDITS
-    if (current_language !== "en")
+    if (current_language !== language.ENGLISH)
     {
         document.getElementById("translator-footer").innerHTML = language_json["system"]["translator"] + " " + language_json["system"]["translator_name"];
     }

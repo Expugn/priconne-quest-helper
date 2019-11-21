@@ -4,7 +4,7 @@ let preset_max_rank = max_character_rank_information.CURRENT;
 function build_character_preset_list()
 {
     let character_preset_html;
-    if (current_language === "en")
+    if (current_language === language.ENGLISH)
     {
         character_preset_html = "<option value=\"default_character\">[Character...]</option>";
     }
@@ -14,7 +14,7 @@ function build_character_preset_list()
     }
 
     // ENGLISH IS ALREADY ALPHABETICALLY SORTED
-    if (current_language === "en")
+    if (current_language === language.ENGLISH)
     {
         for (let [character_id, character_data_map] of character_map)
         {
@@ -76,8 +76,8 @@ function build_character_preset_list()
             let character_en = character_data_map.get("name") + ((character_data_map.get("thematic") !== "") ?  (" (" + character_data_map.get("thematic") + ")") : "");
             let character_translated = language_json["character_names"][name] + ((character_data_map.get("thematic") !== "") ? " (" + language_json["thematics"][thematic] + ")" : "");
 
-            // USE （）IF JP
-            if (current_language === "ja")
+            // USE （）IF JAPANESE
+            if (current_language === language.JAPANESE)
             {
                 character_translated = character_translated.replace(' (', '（').replace(')', '）');
             }
@@ -112,7 +112,7 @@ function update_selected_character_preset_details()
             let character_thematic_tl;
             let character_tl;
 
-            if (current_language === "en")
+            if (current_language === language.ENGLISH)
             {
                 character_thematic_tl = get_character_data(selected_character, "thematic_jp");
                 character_tl = get_character_data(selected_character, "name_jp") + ((character_thematic_tl === "") ? "" : "（" + character_thematic_tl + "）");
@@ -126,7 +126,7 @@ function update_selected_character_preset_details()
                 character_tl = language_json["character_names"][tl_name] + ((character_thematic === "") ? "" : " (" + character_thematic_tl + ")");
 
                 // USE （）IF JP
-                if (current_language === "ja")
+                if (current_language === language.JAPANESE)
                 {
                     character_tl = character_tl.replace(' (', '（').replace(')', '）');
                 }
@@ -134,7 +134,7 @@ function update_selected_character_preset_details()
 
 
             document.getElementById("preset-character-image").src = get_unit_icon_image_path(character_image_name.split(' ').join('_'));
-            if (current_language === "en")
+            if (current_language === language.ENGLISH)
             {
                 document.getElementById("preset-character-name-label").innerHTML = ((character_thematic === "") ? character_name : character_name + " (" + character_thematic + ")") + "<br>" + character_tl;
             }
@@ -263,7 +263,7 @@ function load_preset_character_items_and_create_project()
 
     let character_name = get_character_data(selected_character, "name");
     let character_thematic = get_character_data(selected_character, "thematic");
-    if (current_language === "en")
+    if (current_language === language.ENGLISH)
     {
         project_name += character_name + ((character_thematic !== "") ? (" (" + character_thematic + ")") : "");
     }
@@ -274,7 +274,7 @@ function load_preset_character_items_and_create_project()
 
         let translated_name = language_json["character_names"][character_name] + ((character_thematic !== "") ? " (" + language_json["thematics"][character_thematic] + ")" : "");
         // USE （）IF JP
-        if (current_language === "ja")
+        if (current_language === language.JAPANESE)
         {
             translated_name = translated_name.replace(' (', '（').replace(')', '）');
         }
