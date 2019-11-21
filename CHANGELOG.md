@@ -51,6 +51,15 @@ Styling Changes
 - Hyperlink changed from raw `CHANGELOG.md` page to GitHub blob page for Other-Changelog button
 - Change HTML lang attribute too when change the language
 - index.html Cleanup
+- Changed repository/project description
+  - `Quest Choosing Assistance for 'Princess Connect Re:Dive!'` (BEFORE)
+  - `Quest Choosing Assistance and Project Management for 'Princess Connect Re:Dive!' （プリンセスコネクト! Re:Dive）` (AFTER)
+  - Effected Pages
+    - `/priconne-quest-helper/`
+    - `/priconne-quest-helper/pages/character-data/`
+    - `/priconne-quest-helper/pages/quest-data/`
+    - `/priconne-quest-helper/pages/recipe-data/`
+    - `/priconne-quest-helper/pages/statistics/`
 ### Fixed
 - You can no longer see bits of drop shadow from the item tables when running `Simple Mode`
   
