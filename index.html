@@ -54,6 +54,7 @@
     <script src="scripts/read-quest-json.js"></script>
     <script src="scripts/read-character-json.js"></script>
     <script src="scripts/settings.js"></script>
+    <script src="scripts/inventory.js"></script>
     <script src="scripts/sort-options.js"></script>
     <script src="scripts/build-item-table.js"></script>
     <script src="scripts/character-presets.js"></script>
@@ -849,6 +850,10 @@
     <img id="lens-image" class="use-webp" image_folder="webpage" file_name="lens" src_prefix="" src="" alt="">
 </div>
 
+<div id="inventory-inline-editor-prototype" class="inventory-inline-editor" hidden>
+    <button class="minus" value="-30">-30</button><button class="plus" value="+30">+30</button>
+</div>
+
 <!-- RUN JAVASCRIPT -->
 <script>
     loadingToast();
@@ -882,6 +887,7 @@
                 read_cookie();
                 build_item_tables();
                 init_blacklist();
+                init_inventory();
                 init_project_data();
                 build_character_preset_list();
                 update_progress();
