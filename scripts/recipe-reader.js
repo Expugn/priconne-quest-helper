@@ -199,7 +199,6 @@ function toggle_enabled_item(item_name)
 
     refresh_quest_table();
     update_saved_projects_select();
-    disable_complete_project_button(completed_projects.includes(document.getElementById("saved-projects-select").value));
     document.getElementById("request-button-" + item_name.split(' ').join('_')).classList.toggle("low-opacity");
 }
 
