@@ -3,6 +3,17 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.3] - 2019-11-24
+### Added
+- Added Inventory feature written by a-casual
+  - Items in the `Recommended Quest` category can be clicked on to reveal buttons to add or remove inventory
+  - Items with enough inventory to match/exceed the amount required will automatically be removed from the Recommended Quests
+  - Inventory can be cleared by completing projects
+  - Inventory for an item is shown via the top left number when amount required is shown
+  - Inventory is saved to LocalStorage ; Won't be saved if LocalStorage is not supported
+### Changed
+- Items you don't need in Recommended Quests are no longer grayscale ; Switched to low-opacity
+ 
 ## [1.5.2] - 2019-11-19
 Styling Changes
 ### Added
