@@ -43,8 +43,15 @@ function inventory_get_fragment_amount(fragment_name) {
     }
 }
 
-// amount - integer
-function inventory_set_fragment_amount(fragment_name, amount) {
+/**
+ * Validate and set inventory amount
+ *
+ * @param {string} fragment_name -
+ * @param {number} amount - new amount to set, should be non-negative
+ * @param {boolean} do_save - serialize the inventory into local storage, or not
+ * @return {number} - actual amount set, guaranteed to be non-negative
+ */
+function inventory_set_fragment_amount(fragment_name, amount, do_save = true) {
 
     if (typeof(amount) !== "number") {
         amount = parseInt(amount, 10);
@@ -55,7 +62,9 @@ function inventory_set_fragment_amount(fragment_name, amount) {
 
     inventory.fragments[fragment_name] = amount;
 
-    inventory_save();
+    if (do_save) {
+        inventory_save();
+    }
 
     return amount;
 }
@@ -69,4 +78,25 @@ function inventory_check_fragment_amount(fragment_name, amount) {
     } else {
         return false;
     }
+}
+
+/**
+ * Remove specified fragments from the inventory
+ *
+ * @param {Map.<string, number>} items - fragment names and quantities to remove
+ */
+function inventory_remove(items) {
+    for (let [name, amount] of items) {
+        if (typeof(amount) !== "number") {
+            amount = parseInt(amount, 10);
+        }
+        if (amount === 0) {
+            continue;
+        }
+
+        let fragments = inventory_get_fragment_amount(name);
+        inventory_set_fragment_amount(name, fragments - amount, false);
+    }
+
+    inventory_save();
 }

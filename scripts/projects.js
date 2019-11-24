@@ -776,33 +776,56 @@ function save_priority_projects()
     get_priority_items();
 }
 
-function complete_project()
-{
-    // COMPLETING A PROJECT DELETES IT AND RE-ENABLES ANY DISABLED_ITEM THAT WAS IN IT.
-
-    let project_name = document.getElementById("saved-projects-select").value;
+/**
+ * Combine all recipes needed for a project
+ *
+ * @param {string} project_name
+ * @returns {Map.<string, number>}
+ */
+function get_combined_project_items(project_name) {
     let project_data = projects.get(project_name);
 
-    // CLEAN PROJECT ITEMS FROM BLACKLIST
+    let project_recipes = [];
     for (let [item_name, item_amount] of project_data)
     {
-        for (let [comp_name, comp_amount] of get_recipe(item_name, item_amount))
-        {
-            // COMPONENT EXISTS IN disabled_items (BLACKLIST)...
-            if (disabled_items.includes(comp_name))
-            {
-                // REMOVE ITEM FROM DISABLED LIST
-                let index = disabled_items.indexOf(comp_name);
-                if (index > -1)
-                {
-                    disabled_items.splice(index, 1);
-                }
+        project_recipes.push(get_recipe(item_name, item_amount));
+    }
 
-                // TOGGLE LOW OPACITY ON COMPONENT IN REQUIRED INGREDIENTS IF POSSIBLE
-                if (document.getElementById("request-button-" + comp_name.split(' ').join('_')))
-                {
-                    document.getElementById("request-button-" + comp_name.split(' ').join('_')).classList.toggle("low-opacity");
-                }
+    let total_recipe = get_total_recipe(project_recipes);
+
+    return total_recipe;
+}
+
+/**
+ * Complete currently selected project, that is:
+ * - remove the project from the project list
+ * - subtract all project items from the inventory
+ * - remove all project items from the blacklist
+ */
+function complete_project()
+{
+    let project_name = document.getElementById("saved-projects-select").value;
+    let total_recipe = get_combined_project_items(project_name);
+
+    inventory_remove(total_recipe);
+
+    // CLEAN PROJECT ITEMS FROM BLACKLIST
+    for (let [comp_name, comp_amount] of total_recipe)
+    {
+        // COMPONENT EXISTS IN disabled_items (BLACKLIST)...
+        if (disabled_items.includes(comp_name))
+        {
+            // REMOVE ITEM FROM DISABLED LIST
+            let index = disabled_items.indexOf(comp_name);
+            if (index > -1)
+            {
+                disabled_items.splice(index, 1);
+            }
+
+            // TOGGLE LOW OPACITY ON COMPONENT IN REQUIRED INGREDIENTS IF POSSIBLE
+            if (document.getElementById("request-button-" + comp_name.split(' ').join('_')))
+            {
+                document.getElementById("request-button-" + comp_name.split(' ').join('_')).classList.toggle("low-opacity");
             }
         }
     }
