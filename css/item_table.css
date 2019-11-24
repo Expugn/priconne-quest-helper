@@ -367,8 +367,10 @@ img.quest-character-shard-grayscale {
     width: 10px !important;
 }
 
-.quest-hover {
+.quest-hover,
+.quest-item-edit {
     padding-bottom: 0;
+    position: relative;
 }
 
 .quest-req-amount-text {
@@ -394,28 +396,66 @@ img.quest-character-shard-grayscale {
      border-radius: 5px;
  }
 
-.quest-display-top {
+.quest-inv-amount-text {
+     text-shadow: 1px 1px 4px #000000,
+     1px 1px 4px #000000,
+     1px 1px 4px #000000,
+     1px 1px 4px #000000;
+
+     position: absolute;
+     top: 9px;
+     left: 4px;
+
+     color: white;
+     font-family: "Calibri", Arial, serif;
+
+     border-radius: 5px;
+}
+
+.quest-hover.p1 img,
+.quest-hover.p1 .quest-display-top,
+.quest-hover.p1 .quest-display-bottom {
     opacity: 1;
 }
 
-.quest-display-bottom {
-    opacity: 0;
+.quest-hover.p3 img {
+    filter: opacity(30%);
+}
+
+.quest-hover.p3 .quest-display-top,
+.quest-hover.p3 .quest-display-bottom {
+    filter: opacity(50%);
+}
+
+.quest-hover:not(:hover) .quest-display-bottom,
+.quest-hover:hover .quest-display-top,
+.quest-item-edit .quest-percent-text {
+    visibility: hidden;
 }
 
 .quest-hover:hover {
     padding-bottom: 0;
 }
 
-
-.quest-hover:hover .quest-display-top {
-    opacity: 0;
-}
-
-.quest-hover:hover .quest-display-bottom {
-    opacity: 1;
-}
-
 .quest-is-empty-text {
     position: relative;
     bottom: -2px;
+}
+
+.inventory-inline-editor {
+    position: absolute;
+    top: -3px;
+
+    width: 100%;
+
+    font-size: 0.5em;
+}
+
+.inventory-inline-editor button {
+    display: inline-block;
+    width: 48%;
+    padding: 0;
+
+    font-size: 1em;
+    text-align: center;
 }

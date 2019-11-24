@@ -297,7 +297,6 @@ function toggle_ignored_rarity(rarity)
 
     build_data();
     update_saved_projects_select();
-    disable_complete_project_button(completed_projects.includes(document.getElementById("saved-projects-select").value));
 }
 
 function change_display_option()
