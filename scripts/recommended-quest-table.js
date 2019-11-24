@@ -718,9 +718,6 @@ $(function() {
         let $this = $(this);
 
         let $inventory_editor = $('#inventory-inline-editor');
-        if ($inventory_editor.length === 0) {
-            $inventory_editor = $('#inventory-inline-editor-prototype').clone().prop('id', 'inventory-inline-editor');
-        }
 
         if ($inventory_editor.is(':visible')) {
             editor_hide($inventory_editor);
@@ -729,6 +726,12 @@ $(function() {
             if ($this.prev().is($inventory_editor)) {
                 return;
             }
+        }
+
+        if ($inventory_editor.length === 0) {
+            $inventory_editor = $('#inventory-inline-editor-prototype').clone()
+                .prop('id', 'inventory-inline-editor')
+                .prop('hidden', false);
         }
 
         $this.before($inventory_editor);
