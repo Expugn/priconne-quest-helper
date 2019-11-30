@@ -10,10 +10,11 @@ const backgrounds = Object.freeze({
     NIGHTMARE: 'Nightmare',
     HALLOWEEN_LITTLE_LYRICAL: 'Halloween_With_Little_Lyrical',
     HALLOWEEN_MIYAKO_SHINOBU: 'Halloween_With_Miyako_and_Shinobu',
-    TWILIGHT_CARAVAN: 'Twilight_Caravan'
+    TWILIGHT_CARAVAN: 'Twilight_Caravan',
+    CHRISTMAS_2019: 'Christmas_2019',
 });
 
-const default_background = backgrounds.TWILIGHT_CARAVAN;
+const default_background = backgrounds.CHRISTMAS_2019;
 
 function init_background_select()
 {

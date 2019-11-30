@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.4] - 2019-11-29
+### Added
+- New Character: Nozomi (Christmas)
+- New Character: Christina (Christmas)
+- New Quest: 19-3 Very Hard (Io)
+- New Title Background 
+  - CHRISTMAS 2019 (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Christmas_2019.png>
+
 ## [1.5.3] - 2019-11-24
 ### Added
 - Added Inventory feature written by a-casual

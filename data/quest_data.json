@@ -7571,6 +7571,36 @@
             "Bangle of Substitution Fragment"
         ]
     },
+    "19-3VH": {
+        "name": "ファエトン原野・南部 19-3",
+        "item_1": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Emerald Wind God's Tachi Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Fire Spear - Prominence Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Io Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rod of Life Fragment",
+            "Rod of Sun Fragment",
+            "Angel Boots Fragment",
+            "Pope's Hood Fragment",
+            "Mourning Crescent Moon Fragment"
+        ]
+    },
     "20-1": {
         "name": "カスタリア樹林・西部 20-1",
         "item_1": {
