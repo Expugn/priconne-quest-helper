@@ -3,6 +3,17 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.6.0] - 2019-12-20
+Quest Update (2019-12-20)
+### Added
+- New Character: Ilya (Christmas)
+- Chapter 30 Normal / Hard Quest Data
+- New Equipment
+- New Title Background
+  - PECORINE SANDWICH (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Pecorine_Sandwich.png>
+- New Character Equipment
+
+
 ## [1.5.4] - 2019-11-29
 ### Added
 - New Character: Nozomi (Christmas)

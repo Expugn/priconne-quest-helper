@@ -2038,10 +2038,21 @@
             "Princess' Dagger"
         ]
     },
+    "105285": {
+        "name_jp": "麗装ソウルローゼス",
+        "name": "Beautiful Clothes - Soul Rose",
+        "id": "purple-50",
+        "has_fragments": true,
+        "req_pieces": 20,
+        "req_items": [
+            "Heavenly Robe",
+            "Lion King's Protective Charm"
+        ]
+    },
     "105311": {
         "name_jp": "蒼輝の鎧",
         "name": "Azure Armor",
-        "id": "purple-50",
+        "id": "purple-51",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2052,7 +2063,7 @@
     "105312": {
         "name_jp": "聖櫻の鎧",
         "name": "Holy Sakura's Armor",
-        "id": "purple-51",
+        "id": "purple-52",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2063,7 +2074,7 @@
     "105313": {
         "name_jp": "煌金の王鎧",
         "name": "Gold King's Armor",
-        "id": "purple-52",
+        "id": "purple-53",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2074,7 +2085,7 @@
     "105314": {
         "name_jp": "烈風の俊鎧",
         "name": "Furious Wind Armor",
-        "id": "purple-53",
+        "id": "purple-54",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2082,10 +2093,20 @@
             "Vermilion Plate"
         ]
     },
+    "105315": {
+        "name_jp": "熾白銀の鏡鎧",
+        "name": "Glowing Silver Mirror Armor",
+        "id": "purple-55",
+        "has_fragments": true,
+        "req_pieces": 30,
+        "req_items": [
+            "Mythril Plate"
+        ]
+    },
     "105341": {
         "name_jp": "イージスコート",
         "name": "Aegis Coat",
-        "id": "purple-54",
+        "id": "purple-56",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2096,7 +2117,7 @@
     "105342": {
         "name_jp": "メイデンクロース",
         "name": "Maiden Cloth",
-        "id": "purple-55",
+        "id": "purple-57",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2107,7 +2128,7 @@
     "105343": {
         "name_jp": "鬼焔の闘衣",
         "name": "Fire Oni's Tori",
-        "id": "purple-56",
+        "id": "purple-58",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2118,17 +2139,28 @@
     "105344": {
         "name_jp": "極黒の冥衣",
         "name": "Extremely Dark Clothes",
-        "id": "purple-57",
+        "id": "purple-59",
         "has_fragments": true,
         "req_pieces": 30,
         "req_items": [
             "Hawk God's Sword"
         ]
     },
+    "105345": {
+        "name_jp": "流蒼装アズールロンド",
+        "name": "Flowing Blue Dress - Azul Rondo",
+        "id": "purple-60",
+        "has_fragments": true,
+        "req_pieces": 20,
+        "req_items": [
+            "Aquarius Boots",
+            "Hermit Clothes"
+        ]
+    },
     "105371": {
         "name_jp": "純潔の巫女装束",
         "name": "Shrine Maiden's Purity Cloth",
-        "id": "purple-58",
+        "id": "purple-61",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2139,7 +2171,7 @@
     "105372": {
         "name_jp": "エンプレスローブ",
         "name": "Empress Robe",
-        "id": "purple-59",
+        "id": "purple-62",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2150,7 +2182,7 @@
     "105373": {
         "name_jp": "エクゾマギアローブ",
         "name": "Exomagia Robe",
-        "id": "purple-60",
+        "id": "purple-63",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2161,7 +2193,7 @@
     "105374": {
         "name_jp": "爽氷の天衣",
         "name": "Refreshing Ice Garment",
-        "id": "purple-61",
+        "id": "purple-64",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2169,10 +2201,20 @@
             "Saint's Robe"
         ]
     },
+    "105375": {
+        "name_jp": "星詠みの聖霊衣",
+        "name": "Astrologer's Holy Spirit Robe",
+        "id": "purple-65",
+        "has_fragments": true,
+        "req_pieces": 30,
+        "req_items": [
+            "Rod of Sun"
+        ]
+    },
     "105401": {
         "name_jp": "星詠みの円盾",
         "name": "Astrograph Buckler",
-        "id": "purple-62",
+        "id": "purple-66",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2181,10 +2223,20 @@
             "Cosmos Cloth"
         ]
     },
+    "105402": {
+        "name_jp": "熾白銀の鏡盾",
+        "name": "Glowing Silver Mirror Shield",
+        "id": "purple-67",
+        "has_fragments": true,
+        "req_pieces": 30,
+        "req_items": [
+            "Guardian Shield"
+        ]
+    },
     "105431": {
         "name_jp": "インファナルグリーブ",
         "name": "Infernal Greaves",
-        "id": "purple-63",
+        "id": "purple-68",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2195,7 +2247,7 @@
     "105432": {
         "name_jp": "天翔の金靴",
         "name": "Sky Soaring Gold Shoes",
-        "id": "purple-64",
+        "id": "purple-69",
         "has_fragments": true,
         "req_pieces": 30,
         "req_items": [
@@ -2205,7 +2257,7 @@
     "105462": {
         "name_jp": "ブラッドルビーヒール",
         "name": "Blood Ruby Heel",
-        "id": "purple-65",
+        "id": "purple-70",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2213,10 +2265,21 @@
             "Cupid Robe"
         ]
     },
+    "105463": {
+        "name_jp": "熾白銀の鏡脚",
+        "name": "Glowing Silver Mirror Boots",
+        "id": "purple-71",
+        "has_fragments": true,
+        "req_pieces": 20,
+        "req_items": [
+            "Gospel Tiara",
+            "Paladin Greave"
+        ]
+    },
     "105491": {
         "name_jp": "ロイヤルガードハット",
         "name": "Royal Guard Hat",
-        "id": "purple-66",
+        "id": "purple-72",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2227,7 +2290,7 @@
     "105521": {
         "name_jp": "忘哭の冠",
         "name": "Mourning Crown",
-        "id": "purple-67",
+        "id": "purple-73",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2238,7 +2301,7 @@
     "105522": {
         "name_jp": "白祈の聖冠",
         "name": "Holy Prayer's Crown",
-        "id": "purple-68",
+        "id": "purple-74",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2249,7 +2312,7 @@
     "105523": {
         "name_jp": "プロスペリティベール",
         "name": "Prosperity Veil",
-        "id": "purple-69",
+        "id": "purple-75",
         "has_fragments": true,
         "req_pieces": 20,
         "req_items": [
@@ -2260,7 +2323,7 @@
     "105551": {
         "name_jp": "ミレニアムイヤリング",
         "name": "Millennium Earrings",
-        "id": "purple-70",
+        "id": "purple-76",
         "has_fragments": true,
         "req_pieces": 30,
         "req_items": []
@@ -2268,7 +2331,7 @@
     "105552": {
         "name_jp": "赫怒竜のペンダント",
         "name": "Fury Dragon Pendant",
-        "id": "purple-71",
+        "id": "purple-77",
         "has_fragments": true,
         "req_pieces": 30,
         "req_items": []
@@ -2276,7 +2339,7 @@
     "105553": {
         "name_jp": "闘神の荒腕",
         "name": "War God's Arm",
-        "id": "purple-72",
+        "id": "purple-78",
         "has_fragments": true,
         "req_pieces": 30,
         "req_items": []
@@ -2284,7 +2347,7 @@
     "105554": {
         "name_jp": "花簪焔火牡丹",
         "name": "Flowering Fire Peony",
-        "id": "purple-73",
+        "id": "purple-79",
         "has_fragments": true,
         "req_pieces": 30,
         "req_items": []
@@ -2292,7 +2355,7 @@
     "105555": {
         "name_jp": "緋竜の爪火輪",
         "name": "Scarlet Dragon's Claw Fire Ring",
-        "id": "purple-74",
+        "id": "purple-80",
         "has_fragments": true,
         "req_pieces": 30,
         "req_items": []
@@ -2300,7 +2363,7 @@
     "105581": {
         "name_jp": "精霊王の護石",
         "name": "Fairy King's Guardian Stone",
-        "id": "purple-75",
+        "id": "purple-81",
         "has_fragments": true,
         "req_pieces": 30,
         "req_items": []
@@ -2308,7 +2371,7 @@
     "105582": {
         "name_jp": "人魚姫の霊涙",
         "name": "Mermaid Princess' Spirit Tear",
-        "id": "purple-76",
+        "id": "purple-82",
         "has_fragments": true,
         "req_pieces": 30,
         "req_items": []
@@ -2316,7 +2379,7 @@
     "105583": {
         "name_jp": "英盾王の腕輪",
         "name": "Glorious King's Shield Bangle",
-        "id": "purple-77",
+        "id": "purple-83",
         "has_fragments": true,
         "req_pieces": 30,
         "req_items": []
@@ -2324,7 +2387,7 @@
     "105584": {
         "name_jp": "海龍神の髪飾り",
         "name": "Sea Dragon God's Hair Ornament",
-        "id": "purple-78",
+        "id": "purple-84",
         "has_fragments": true,
         "req_pieces": 30,
         "req_items": []
@@ -2332,7 +2395,7 @@
     "105585": {
         "name_jp": "神盾輪ウォールブレス",
         "name": "Shield God Ring - Wall Breath",
-        "id": "purple-79",
+        "id": "purple-85",
         "has_fragments": true,
         "req_pieces": 30,
         "req_items": []
@@ -2340,7 +2403,7 @@
     "105611": {
         "name_jp": "海神の耳飾り",
         "name": "Ocean God's Earrings",
-        "id": "purple-80",
+        "id": "purple-86",
         "has_fragments": true,
         "req_pieces": 30,
         "req_items": []
@@ -2348,7 +2411,7 @@
     "105612": {
         "name_jp": "聖獣の祈念",
         "name": "Divine Beast's Prayer",
-        "id": "purple-81",
+        "id": "purple-87",
         "has_fragments": true,
         "req_pieces": 30,
         "req_items": []
@@ -2356,7 +2419,7 @@
     "105613": {
         "name_jp": "ソフォスブレスレット",
         "name": "Sophos Bracelet",
-        "id": "purple-82",
+        "id": "purple-88",
         "has_fragments": true,
         "req_pieces": 30,
         "req_items": []
@@ -2364,7 +2427,7 @@
     "105614": {
         "name_jp": "細氷姫の結び紐",
         "name": "Little Ice Princess' Knot",
-        "id": "purple-83",
+        "id": "purple-89",
         "has_fragments": true,
         "req_pieces": 30,
         "req_items": []
@@ -2372,7 +2435,7 @@
     "105615": {
         "name_jp": "深結晶ゼノクリスタル",
         "name": "Deep Crystallized Xenocrystal",
-        "id": "purple-84",
+        "id": "purple-90",
         "has_fragments": true,
         "req_pieces": 30,
         "req_items": []

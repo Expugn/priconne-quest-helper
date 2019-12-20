@@ -1,5 +1,5 @@
-// NOVEMBER 15, 2019
-const update_date = new Date(Date.UTC(2019, 10, 15, 24, 0, 0));
+// DECEMBER 20, 2019
+const update_date = new Date(Date.UTC(2019, 11, 20, 24, 0, 0));
 const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
 
 function update_progress()

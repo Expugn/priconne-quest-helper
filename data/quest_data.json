@@ -12412,5 +12412,510 @@
             17,
             15
         ]
+    },
+    "30-1": {
+        "name": "フテラ断崖・北部 30-1",
+        "item_1": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Bow - Freezing Tear Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Extremely Dark Nail - Bloody Howl Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "War God's Arm Fragment",
+            "Heavenly Red Bow Fragment",
+            "Heaven's Protective Holy Spear Fragment",
+            "Royal Guard Hat Fragment",
+            "Gaia Axe Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-2": {
+        "name": "フテラ断崖・北部 30-2",
+        "item_1": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Heavenly Black Sword of Obsidian Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "World Tree's Branch Wand Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Lightning Wand Fragment",
+            "Atlantis Rod Fragment",
+            "Exomagia Robe Fragment",
+            "Blood Ruby Heel Fragment",
+            "Gold King's Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-3": {
+        "name": "フテラ断崖・北部 30-3",
+        "item_1": {
+            "item_name": "Deep Crystallized Xenocrystal Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Emerald Wind God's Tachi Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Machine Axe - Core Breaker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Glorious King's Shield Bangle Fragment",
+            "Tír na nÓg Dagger Fragment",
+            "Cocytus Nail Fragment",
+            "Rage Queen Dress Fragment",
+            "War God's Arm Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-4": {
+        "name": "フテラ断崖・北部 30-4",
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Shield Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice Bow - Freezing Tear Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sophos Bracelet Fragment",
+            "Great Sword of Sin Fragment",
+            "Fire Oni's Tori Fragment",
+            "Blood Raven Sword Fragment",
+            "Lightning Wand Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-5": {
+        "name": "フテラ断崖・北部 30-5",
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Boots Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Heavenly Black Sword of Obsidian Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "War God's Arm Fragment",
+            "Heavenly Red Bow Fragment",
+            "Heaven's Protective Holy Spear Fragment",
+            "Royal Guard Hat Fragment",
+            "Gaia Axe Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-6": {
+        "name": "フテラ断崖・北部 30-6",
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Deep Crystallized Xenocrystal Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Emerald Wind God's Tachi Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Lightning Wand Fragment",
+            "Atlantis Rod Fragment",
+            "Exomagia Robe Fragment",
+            "Blood Ruby Heel Fragment",
+            "Gold King's Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-7": {
+        "name": "フテラ断崖・北部 30-7",
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Shield Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Extremely Dark Nail - Bloody Howl Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Glorious King's Shield Bangle Fragment",
+            "Tír na nÓg Dagger Fragment",
+            "Cocytus Nail Fragment",
+            "Rage Queen Dress Fragment",
+            "War God's Arm Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-8": {
+        "name": "フテラ断崖・北部 30-8",
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Boots Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "World Tree's Branch Wand Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sophos Bracelet Fragment",
+            "Great Sword of Sin Fragment",
+            "Fire Oni's Tori Fragment",
+            "Blood Raven Sword Fragment",
+            "Lightning Wand Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-9": {
+        "name": "フテラ断崖・北部 30-9",
+        "item_1": {
+            "item_name": "Flowing Blue Dress - Azul Rondo Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Deep Crystallized Xenocrystal Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Fire Spear - Prominence Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "War God's Arm Fragment",
+            "Heavenly Red Bow Fragment",
+            "Heaven's Protective Holy Spear Fragment",
+            "Royal Guard Hat Fragment",
+            "Gaia Axe Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-10": {
+        "name": "フテラ断崖・北部 30-10",
+        "item_1": {
+            "item_name": "Beautiful Clothes - Soul Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Overlord Light Dragon Sword Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Lightning Wand Fragment",
+            "Atlantis Rod Fragment",
+            "Exomagia Robe Fragment",
+            "Blood Ruby Heel Fragment",
+            "Gold King's Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-11": {
+        "name": "フテラ断崖・北部 30-11",
+        "item_1": {
+            "item_name": "Astrologer's Holy Spirit Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Abyss Moon Staff - Sacrifice Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Glorious King's Shield Bangle Fragment",
+            "Tír na nÓg Dagger Fragment",
+            "Cocytus Nail Fragment",
+            "Rage Queen Dress Fragment",
+            "War God's Arm Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-12": {
+        "name": "フテラ断崖・北部 30-12",
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Flowing Blue Dress - Azul Rondo Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Deep Crystallized Xenocrystal Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sophos Bracelet Fragment",
+            "Great Sword of Sin Fragment",
+            "Fire Oni's Tori Fragment",
+            "Blood Raven Sword Fragment",
+            "Lightning Wand Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-13": {
+        "name": "フテラ断崖・北部 30-13",
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Shield Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Beautiful Clothes - Soul Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "War God's Arm Fragment",
+            "Heavenly Red Bow Fragment",
+            "Heaven's Protective Holy Spear Fragment",
+            "Royal Guard Hat Fragment",
+            "Gaia Axe Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-14": {
+        "name": "フテラ断崖・北部 30-14",
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Boots Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Astrologer's Holy Spirit Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Lightning Wand Fragment",
+            "Atlantis Rod Fragment",
+            "Exomagia Robe Fragment",
+            "Blood Ruby Heel Fragment",
+            "Gold King's Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-1H": {
+        "name": "フテラ断崖・北部 30-1",
+        "item_1": {
+            "item_name": "Flowing Blue Dress - Azul Rondo Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Deep Crystallized Xenocrystal Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Fire Spear - Prominence Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Yui Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "War God's Arm Fragment",
+            "Heavenly Red Bow Fragment",
+            "Heaven's Protective Holy Spear Fragment",
+            "Royal Guard Hat Fragment",
+            "Gaia Axe Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-2H": {
+        "name": "フテラ断崖・北部 30-2",
+        "item_1": {
+            "item_name": "Beautiful Clothes - Soul Rose Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Overlord Light Dragon Sword Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Eriko Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Lightning Wand Fragment",
+            "Atlantis Rod Fragment",
+            "Exomagia Robe Fragment",
+            "Blood Ruby Heel Fragment",
+            "Gold King's Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-3H": {
+        "name": "フテラ断崖・北部 30-3",
+        "item_1": {
+            "item_name": "Astrologer's Holy Spirit Robe Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Abyss Moon Staff - Sacrifice Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Arisa Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Glorious King's Shield Bangle Fragment",
+            "Tír na nÓg Dagger Fragment",
+            "Cocytus Nail Fragment",
+            "Rage Queen Dress Fragment",
+            "War God's Arm Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }
