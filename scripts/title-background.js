@@ -13,9 +13,10 @@ const backgrounds = Object.freeze({
     TWILIGHT_CARAVAN: 'Twilight_Caravan',
     CHRISTMAS_2019: 'Christmas_2019',
     PECORINE_SANDWICH: 'Pecorine_Sandwich',
+    NEW_YEAR_2020: 'New_Year_2020',
 });
 
-const default_background = backgrounds.PECORINE_SANDWICH;
+const default_background = backgrounds.NEW_YEAR_2020;
 
 function init_background_select()
 {

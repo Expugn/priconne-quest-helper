@@ -7987,6 +7987,36 @@
             "Mourning Crescent Moon Fragment"
         ]
     },
+    "20-1VH": {
+        "name": "カスタリア樹林・西部 20-1",
+        "item_1": {
+            "item_name": "Beautiful Clothes - Soul Rose Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Astrologer's Holy Spirit Robe Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "World Tree's Branch Wand Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Deep Crystallized Xenocrystal Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Yukari Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Solar Sword Fragment",
+            "Princess' Dagger Fragment",
+            "Vermilion Plate Fragment",
+            "Mythril Plate Fragment",
+            "Elemental Heart Fragment"
+        ]
+    },
     "21-1": {
         "name": "カスタリア樹林・東部 21-1",
         "item_1": {

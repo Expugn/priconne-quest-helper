@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.6.1] - 2019-12-30
+### Added
+- New Character: Kyaru (New Year)
+- New Character: Suzume (New Year)
+- New Quest: Chapter 20-1 Very Hard (Yukari)
+- New Title Background
+  - NEW YEAR 2020 (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/New_Year_2020.png>
+
 ## [1.6.0] - 2019-12-20
 Quest Update (2019-12-20)
 ### Added
@@ -12,7 +20,6 @@ Quest Update (2019-12-20)
 - New Title Background
   - PECORINE SANDWICH (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Pecorine_Sandwich.png>
 - New Character Equipment
-
 
 ## [1.5.4] - 2019-11-29
 ### Added
