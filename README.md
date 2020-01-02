@@ -20,12 +20,13 @@ whatever assortment of items you need to rank up your characters.
 
 `priconne-quest-helper` is based off the data from the `Japan` version of `Princess Connect! Re:Dive`.
 
-## Equipment Data for Taiwan and Korean Servers
-As of `August 31, 2019`, the `Japan` servers for `Princess Connect! Re:Dive` have different costs for equipment.
+## Equipment Data for Korean Servers
+As of `August 31, 2019`, the `Japan` servers for `Princess Connect! Re:Dive` have different costs for equipment.<br>
+The `Taiwan` server has been updated to use these different costs as well.
 
-If you play on the `Taiwan` or `Korean` servers, you can continue to use the `Legacy Equipment Data` by:
+If you play on the `Korean` server, you can continue to use the `Legacy Equipment Data` by:
 1) Go to the `Settings` tab
-2) Change `Equipment Data Type` to `Legacy Equipment Data (Before 2019.08.31) (TW / KR)`
+2) Change `Equipment Data Type` to `Legacy Equipment Data (Before 2019.08.31) (KR)`
 3) Save Settings (Optional)
 
 The `Recipe Data` and `Statistics` pages also have the ability to use the `Legacy Equipment Data` if desired.

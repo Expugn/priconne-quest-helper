@@ -10,6 +10,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - New Quest: Chapter 20-1 Very Hard (Yukari)
 - New Title Background
   - NEW YEAR 2020 (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/New_Year_2020.png>
+### Changed
+- Moved `Taiwan` to use the "current" equipment data in settings
+- Updated README to reflect the switch of Taiwan data from "legacy" to "current"
 
 ## [1.6.0] - 2019-12-20
 Quest Update (2019-12-20)

@@ -115,8 +115,8 @@
     "display_saved_settings_button": "設定読み込み",
 
     "equipment_data_type_label": "装備データのタイプ：",
-    "equipment_data_current_select": "現在の装備データ (2019.08.31. 以後) (JP)",
-    "equipment_data_legacy_select": "過去の装備データ (2019.08.31. 以前) (TW / KR)"
+    "equipment_data_current_select": "現在の装備データ (2019.08.31. 以後) (JP / TW)",
+    "equipment_data_legacy_select": "過去の装備データ (2019.08.31. 以前) (KR)"
   },
 
   "other_tab": {
