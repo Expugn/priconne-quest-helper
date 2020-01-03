@@ -94,7 +94,7 @@ function load_language()
 function change_language()
 {
     // TRANSLATE PAGE TITLE
-    document.title = language_json["system"]["title"] + " - " + language_json["system"]["subtitle"];
+    document.title = language_json["system"]["title"] + " - " + language_json["system"]["subtitle"] + " | priconne-quest-helper";
 
     // TRANSLATE EMPTY BLACKLIST TITLE
     if (localStorage.getItem('blacklist') === null)

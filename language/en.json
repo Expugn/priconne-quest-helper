@@ -145,7 +145,8 @@
     "data_management_title": "Data Management",
     "export_saved_data": "Export Saved Data",
 
-    "title_background_title": "Title Background"
+    "title_background_title": "Title Background",
+    "custom_title_background_url": "Image URL: "
   },
 
   "toasts": {

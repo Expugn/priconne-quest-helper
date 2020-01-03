@@ -3,6 +3,34 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.6.3] - 2020-01-03
+### Added
+- Custom Title Backgrounds
+  - Selecting the `CUSTOM` option in `Title Backgrounds` in the `Other` tab will allow you to input an image URL
+  - The image URL you input will replace the title background
+- Updated Language Files
+  - `en.json`
+    - `other_tab.custom_title_background_url`
+  - `ja.json`
+    - `other_tab.custom_title_background_url`
+  - `ko.json`
+    - `other_tab.custom_title_background_url`
+### Changed
+- Modified README.md
+  - Removed Quest Points information due to it being kinda useless
+  - Added "`For Developers: Updating priconne-quest-helper`"
+    - Links to <https://github.com/Expugn/pqh-updater>, a Python script used to update `priconne-quest-helper`
+  - Renamed "`Information/Data Credits`" to "`Other Informative Sites and Tools`"
+    - These sites/tools are no longer used for updating `priconne-quest-helper`, but they're still useful resources
+  - Added "`Special Thanks`" section
+    - Includes people who have helped with this project (resource providing or langauge translation) 
+- Changed Main Page Title to include " | priconne-quest-helper" at the end
+
+## [1.6.2] - 2020-01-02
+### Changed
+- Moved `Taiwan` to use the "current" equipment data in settings
+- Updated README to reflect the switch of Taiwan data from "legacy" to "current"
+
 ## [1.6.1] - 2019-12-30
 ### Added
 - New Character: Kyaru (New Year)
@@ -10,9 +38,6 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - New Quest: Chapter 20-1 Very Hard (Yukari)
 - New Title Background
   - NEW YEAR 2020 (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/New_Year_2020.png>
-### Changed
-- Moved `Taiwan` to use the "current" equipment data in settings
-- Updated README to reflect the switch of Taiwan data from "legacy" to "current"
 
 ## [1.6.0] - 2019-12-20
 Quest Update (2019-12-20)

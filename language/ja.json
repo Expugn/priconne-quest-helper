@@ -145,7 +145,8 @@
     "data_management_title": "データ管理",
     "export_saved_data": "保存したデータの書き出し",
 
-    "title_background_title": "タイトルの背景"
+    "title_background_title": "タイトルの背景",
+    "custom_title_background_url": "Image URL: "
   },
 
   "toasts": {

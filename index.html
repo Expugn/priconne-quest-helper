@@ -16,8 +16,8 @@
 
     <link rel="icon" href="images/webpage/icon.png">
 
-    <title>Princess Connect! Re:Dive - Quest Helper</title>
-    <meta name="title" content="Princess Connect! Re:Dive - Quest Helper"/>
+    <title>Princess Connect! Re:Dive - Quest Helper | priconne-quest-helper</title>
+    <meta name="title" content="Princess Connect! Re:Dive - Quest Helper | priconne-quest-helper"/>
 
     <!-- META DATA -->
     <meta name="description" content="Quest Choosing Assistance and Project Management for the Game 'Princess Connect! Re:Dive' （プリンセスコネクト! Re:Dive）.">
@@ -25,7 +25,7 @@
     <meta name="keywords" content="Princess Connect Re:Dive, プリンセスコネクト! Re:Dive, Quest Helper, S'pugn">
 
     <!-- OPEN GRAPH / FACEBOOK META DATA -->
-    <meta property="og:title" content="Princess Connect! Re:Dive - Quest Helper"/>
+    <meta property="og:title" content="Princess Connect! Re:Dive - Quest Helper | priconne-quest-helper"/>
     <meta property="og:description" content="Quest Choosing Assistance and Project Management for the Game 'Princess Connect! Re:Dive' （プリンセスコネクト! Re:Dive）."/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/icon.png"/>
@@ -40,7 +40,7 @@
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@eSpugn"/>
     <meta name="twitter:creator" content="@eSpugn"/>
-    <meta name="twitter:title" content="Princess Connect! Re:Dive - Quest Helper"/>
+    <meta name="twitter:title" content="Princess Connect! Re:Dive - Quest Helper | priconne-quest-helper"/>
     <meta name="twitter:description" content="Quest Choosing Assistance and Project Management for the Game 'Princess Connect! Re:Dive' （プリンセスコネクト! Re:Dive）."/>
 
     <!-- SCRIPTS -->
@@ -754,7 +754,11 @@
             <span translate_text="other_tab.title_background_title">Title Background</span>
         </h4>
         <label for="title-background-select" hidden>Title Background</label>
-        <select id="title-background-select" onchange="change_background()"></select>
+        <select id="title-background-select" onchange="change_background()"></select><br>
+        <div id="custom-title-input" hidden>
+            <label for="custom-title-url-input"><span translate_text="other_tab.custom_title_background_url">Image URL: </span></label>
+            <input id="custom-title-url-input" type="text" name="custom-title-url" onchange="change_background()">
+        </div>
     </div>
 </div>
 

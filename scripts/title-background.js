@@ -14,6 +14,7 @@ const backgrounds = Object.freeze({
     CHRISTMAS_2019: 'Christmas_2019',
     PECORINE_SANDWICH: 'Pecorine_Sandwich',
     NEW_YEAR_2020: 'New_Year_2020',
+    CUSTOM: 'CUSTOM',
 });
 
 const default_background = backgrounds.NEW_YEAR_2020;
@@ -52,7 +53,38 @@ function init_background()
             // IF SAVED BACKGROUND EXISTS, USE IT ; IF NOT, USE DEFAULT AND DELETE SAVED BACKGROUND
             if (saved_background_exists)
             {
-                set_title_background(saved_background);
+                if (saved_background !== backgrounds.CUSTOM)
+                {
+                    set_title_background(saved_background);
+                }
+                else
+                {
+                    // IF CUSTOM BACKGROUND, SHOW ELEMENT + SET BACKGROUND
+                    let custom_background_url = "";
+                    if (localStorage.getItem("custom_background_url") !== null)
+                    {
+                        custom_background_url = localStorage.getItem("custom_background_url");
+                    }
+                    document.getElementById("custom-title-url-input").value = custom_background_url;
+                    document.getElementById("custom-title-input").hidden = false;
+
+                    // SET CUSTOM TITLE BACKGROUND ; USE DEFAULT IF IT DOES NOT EXIST
+                    if (custom_background_url !== "")
+                    {
+                        set_custom_title_background(custom_background_url);
+                    }
+                    else
+                    {
+                        set_title_background(default_background);
+                    }
+                }
+
+                // SET CUSTOM BACKGROUND TO INPUT IF IT EXISTS
+                if (localStorage.getItem("custom_background_url") !== null)
+                {
+                    document.getElementById("custom-title-url-input").value = localStorage.getItem("custom_background_url");
+                }
+
                 document.getElementById("title-background-select").value = saved_background;
             }
             else
@@ -78,30 +110,75 @@ function change_background()
 {
     let background_image_name = document.getElementById("title-background-select").value;
 
-    // SET BACKGROUND
-    set_title_background(background_image_name);
-
-    // SAVE PREFERRED BACKGROUND TO LOCALSTORAGE
-    if (typeof(Storage) !== "undefined")
+    if (background_image_name !== backgrounds.CUSTOM)
     {
-        if (background_image_name === default_background)
+        // HIDE CUSTOM TITLE BACKGROUND INPUT
+        document.getElementById("custom-title-input").hidden = true;
+
+        // SET BACKGROUND
+        set_title_background(background_image_name);
+
+        // SAVE PREFERRED BACKGROUND TO LOCALSTORAGE
+        if (typeof(Storage) !== "undefined")
         {
-            // REMOVE LOCALSTORAGE SAVED DATA IF BACKGROUND IS CHANGED TO DEFAULT
-            if (localStorage.getItem("background") !== null)
+            if (background_image_name === default_background)
             {
-                localStorage.removeItem("background");
+                // REMOVE LOCALSTORAGE SAVED DATA IF BACKGROUND IS CHANGED TO DEFAULT
+                if (localStorage.getItem("background") !== null)
+                {
+                    localStorage.removeItem("background");
+                }
+            }
+            else
+            {
+                // SAVE DESIRED BACKGROUND TO LOCALSTORAGE
+                localStorage.setItem("background", background_image_name);
             }
         }
-        else
+    }
+    else
+    {
+        // SHOW CUSTOM TITLE BACKGROUND INPUT
+        document.getElementById("custom-title-input").hidden = false;
+
+        let custom_background_url = document.getElementById("custom-title-url-input").value;
+
+        if (typeof(Storage) !== "undefined")
         {
             // SAVE DESIRED BACKGROUND TO LOCALSTORAGE
             localStorage.setItem("background", background_image_name);
+            if (custom_background_url !== "")
+            {
+                localStorage.setItem("custom_background_url", custom_background_url);
+            }
+            else
+            {
+                // REMOVE LOCALSTORAGE SAVED DATA IF CUSTOM BACKGROUND URL IS EMPTY
+                if (localStorage.getItem("custom_background_url") !== null)
+                {
+                    localStorage.removeItem("custom_background_url");
+                }
+            }
         }
 
+        // SET CUSTOM BACKGROUND ; IF IT DOES NOT EXIST THEN USE DEFAULT INSTEAD
+        if (custom_background_url !== "")
+        {
+            set_custom_title_background(custom_background_url);
+        }
+        else
+        {
+            set_title_background(default_background);
+        }
     }
 }
 
 function set_title_background(image_name)
 {
     document.getElementById("title-div").style.backgroundImage = "url('" + get_webpage_image_path("backgrounds/" + image_name) + "')";
+}
+
+function set_custom_title_background(image_url)
+{
+    document.getElementById("title-div").style.backgroundImage = "url('" + image_url + "')";
 }
