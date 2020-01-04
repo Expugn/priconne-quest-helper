@@ -51,31 +51,30 @@
 
     <!-- CSS STYLE SHEETS -->
     <link rel="stylesheet" href="../../css/toastr.css"/>
-    <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/webpage.css">
-    <link rel="stylesheet" href="../../css/item_table.css">
+    <link rel="stylesheet" href="../../css/quest_data.css">
 </head>
-<body class="no-background-body">
+<body>
 
-<div id="title-div" class="div-background-title no-background no-transition no-hover" onclick="">
-    <div id="title-text-div" class="title-hover no-background no-hover">
-        <h1 class="title">Princess Connect! Re:Dive - Quest Helper</h1>
-        <h2 id="sub-title" class="title">Quest Data</h2>
-    </div>
+<div id="title-div">
+    <h1 class="title main-title">Princess Connect! Re:Dive - Quest Helper</h1>
+    <h2 class="title sub-title">Quest Data</h2>
 </div>
 
-<hr> <!-- LINE BREAK -->
+<hr>
 
-<div id="quest-data-div" class="request-info">
+<div id="quest-data-div">
     <table id="quest-data-table" class="centerTable"></table>
 </div>
 
 <br><br>
-<hr> <!-- LINE BREAK -->
+<hr>
 </body>
 
 <footer>
-    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="../../" src="" alt=""></p>
+    <p class="footer">
+        Made With <span class="red-color">❤</span> By S'pugn
+        <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="../../" src="" alt="">
+    </p>
 </footer>
 
 <script>
@@ -104,146 +103,101 @@
 
         function run()
         {
-            // DEBUG | FRAGMENT CHECK: ANY NON-FRAGMENT ITEM WILL BE SET TO LOW-OPACITY
-            const disable_fragment_check = true;
-
             let table_html = "";
 
             table_html += "<tbody>";
             for (let [quest_id, quest_data] of quest_map)
             {
-                if (quest_id !== "-")
+                table_html += "<tr>";
+
+                // QUEST NAME
+                let quest_title = quest_id;
+                if (quest_id.includes("H") && quest_id.includes("VH"))
+                    quest_title = quest_id.replace("VH", " <span class=\"red-color\">VH</span>");
+                else if (quest_id.includes("H") && !quest_id.includes("VH"))
+                    quest_title = quest_id.replace("H", " <span class=\"red-color\">H</span>");
+
+                table_html += "<th height='64' width='144'><h3 class=\"quest-title" + (quest_id.includes("H") ? " quest-title-hard" : "") + "\">" + quest_title + "</h3></th>";
+
+                // DIVIDER
+                table_html += "<th>";
+                table_html += "<img class=\"divider\" title=\"\" src=\"\" alt=\"\">";
+
+                // INCLUDE HARD MODE CHARACTER SHARD IMAGE
+                if (quest_id.includes("H"))
                 {
-                    // DEBUG | FRAGMENT CHECK V2: IF ITEM DOES NOT HAVE "FRAGMENT" IN NAME BUT HAS FRAGMENTS, PRINT TO CONSOLE.
-                    const fragment_check_v2 = false;
-                    if (fragment_check_v2)
-                    {
-                        if (!quest_data.get("item_1").item_name.includes("Fragment"))
-                        {
-                            if (get_equipment_data(quest_data.get("item_1").item_name, "has_fragments"))
-                            {
-                                console.log(quest_id + " - " + quest_data.get("item_1").item_name);
-                            }
-                        }
-                        if (!quest_data.get("item_2").item_name.includes("Fragment"))
-                        {
-                            if (get_equipment_data(quest_data.get("item_2").item_name, "has_fragments"))
-                            {
-                                console.log(quest_id + " - " + quest_data.get("item_2").item_name);
-                            }
-                        }
-                        if (!quest_data.get("item_3").item_name.includes("Fragment"))
-                        {
-                            if (get_equipment_data(quest_data.get("item_3").item_name, "has_fragments"))
-                            {
-                                console.log(quest_id + " - " + quest_data.get("item_3").item_name);
-                            }
-                        }
-                        for (let i = 0 ; i < quest_data.get("subdrops").length ; i++)
-                        {
-                            if (!quest_data.get("subdrops")[i].includes("Fragment"))
-                            {
-                                if (get_equipment_data(quest_data.get("subdrops")[i], "has_fragments"))
-                                {
-                                    console.log(quest_id + " - " + quest_data.get("subdrops")[i]);
-                                }
-                            }
-                        }
-                    }
+                    let character_shard = get_quest_data(quest_id, "char_shard");
+                    let char_shard_name = character_shard["item_name"];
+                    let char_shard_drop_rate = character_shard["drop_percent"];
+
+                    table_html += "<img class=\"item memory-piece\" title=\"" + char_shard_name +
+                        "\" src=\"../../" + get_item_image_path((char_shard_name).split(' ').join('_')) + "\" alt\"\">";
+                    table_html += "<div class=\"drop-rate memory-piece_drop-rate\">" + char_shard_drop_rate + "\u0025</div>";
+                }
 
 
-                    table_html += "<tr>";
+                table_html += "</th>";
 
-                    // QUEST NAME
-                    let quest_title = quest_id;
-                    if (quest_id.includes("H") && quest_id.includes("VH"))
-                        quest_title = quest_id.replace("VH", " <span style=\"color: #ff4d4d\">VH</span>");
-                    else if (quest_id.includes("H") && !quest_id.includes("VH"))
-                        quest_title = quest_id.replace("H", " <span style=\"color: #ff4d4d\">H</span>");
+                // ITEM 1 IMAGE
+                table_html += "<th>";
+                table_html += "<img class=\"item" + (quest_data.get("item_1").item_name.includes("Fragment") ? "" : " low-opacity") + "\" title=\"" + ((quest_data.get("item_1").item_name !== "") ? quest_data.get("item_1").item_name : "???")
+                    + "\" src=\"../../" + get_item_image_path(((quest_data.get("item_1").item_name !== "") ? quest_data.get("item_1").item_name.split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
+                table_html += "<div class=\"drop-rate item_drop-rate\">" + quest_data.get("item_1").drop_percent + "\u0025</div>";
+                table_html += "</th>";
 
-                    table_html += "<th height='64' width='144'><h3 class=\"quest-title" + (quest_id.includes("H") ? " quest-title-hard" : "") + "\">" + quest_title + "</h3></th>";
+                // ITEM 2 IMAGE
+                table_html += "<th>";
+                table_html += "<img class=\"item" + (quest_data.get("item_2").item_name.includes("Fragment") ? "" : " low-opacity") + "\" title=\"" + ((quest_data.get("item_2").item_name !== "") ? quest_data.get("item_2").item_name : "???")
+                    + "\" src=\"../../" + get_item_image_path(((quest_data.get("item_2").item_name !== "") ? quest_data.get("item_2").item_name.split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
+                table_html += "<div class=\"drop-rate item_drop-rate\">" + quest_data.get("item_2").drop_percent + "\u0025</div>";
+                table_html += "</th>";
 
-                    // DIVIDER
+                // ITEM 3 IMAGE
+                table_html += "<th>";
+                table_html += "<img class=\"item" + (quest_data.get("item_3").item_name.includes("Fragment") ? "" : " low-opacity") + "\" title=\"" + ((quest_data.get("item_3").item_name !== "") ? quest_data.get("item_3").item_name : "???")
+                    + "\" src=\"../../" + get_item_image_path(((quest_data.get("item_3").item_name !== "") ? quest_data.get("item_3").item_name.split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
+                table_html += "<div class=\"drop-rate item_drop-rate\">" + quest_data.get("item_3").drop_percent + "\u0025</div>";
+                table_html += "</th>";
+
+                // ITEM 4 IMAGE
+                if (quest_data.get("item_4") !== undefined)
+                {
                     table_html += "<th>";
-                    table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                        + "\" src=\"\" alt=\"\">";
-                    // INCLUDE HARD MODE CHARACTER SHARD IMAGE
-                    if (quest_id.includes("H"))
+                    table_html += "<img class=\"item" + (quest_data.get("item_4").item_name.includes("Fragment") ? "" : " low-opacity") + "\" title=\"" + ((quest_data.get("item_4").item_name !== "") ? quest_data.get("item_4").item_name : "???")
+                        + "\" src=\"../../" + get_item_image_path(((quest_data.get("item_4").item_name !== "") ? quest_data.get("item_4").item_name.split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
+                    table_html += "<div class=\"drop-rate item_drop-rate\">" + quest_data.get("item_4").drop_percent + "\u0025</div>";
+                    table_html += "</th>";
+                }
+                else
+                {
+                    table_html += "<th></th>";
+                }
+
+                // DIVIDER
+                table_html += "<th>";
+                table_html += "<img class=\"divider\" title=\"\" src=\"\" alt=\"\">";
+                table_html += "</th>";
+
+                // SUB-ITEM IMAGES
+                for (let i = 0 ; i < quest_data.get("subdrops").length ; i++)
+                {
+                    table_html += "<th>";
+                    table_html += "<img class=\"item\" title=\"" + ((quest_data.get("subdrops")[i] !== "") ? quest_data.get("subdrops")[i] : "???")
+                        + "\" src=\"../../" + get_item_image_path(((quest_data.get("subdrops")[i] !== "") ? quest_data.get("subdrops")[i].split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
+
+                    if (quest_data.get("subdrops_percent") === undefined)
                     {
-                        let character_shard = get_quest_data(quest_id, "char_shard");
-                        let char_shard_name = character_shard["item_name"];
-                        let char_shard_drop_rate = character_shard["drop_percent"];
-
-                        table_html += "<img class=\"quest-item-image quest-character-shard\" title=\"" + char_shard_name +
-                            "\" src=\"../../" + get_item_image_path((char_shard_name).split(' ').join('_')) + "\" alt\"\">";
-                        table_html += "<div class=\"quest-character-shard-drop-rate\">" + char_shard_drop_rate + "\u0025</div>";
-                    }
-
-
-                    table_html += "</th>";
-
-                    // ITEM 1 IMAGE
-                    table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                    table_html += "<img class=\"quest-item-image" + ((quest_data.get("item_1").item_name.includes("Fragment") || disable_fragment_check) ? "" : " low-opacity") + "\" title=\"" + ((quest_data.get("item_1").item_name !== "") ? quest_data.get("item_1").item_name : "???")
-                        + "\" src=\"../../" + get_item_image_path(((quest_data.get("item_1").item_name !== "") ? quest_data.get("item_1").item_name.split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
-                    table_html += "<div class=\"quest-percent-text\">" + quest_data.get("item_1").drop_percent + "\u0025</div>";
-                    table_html += "</th>";
-
-                    // ITEM 2 IMAGE
-                    table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                    table_html += "<img class=\"quest-item-image" + ((quest_data.get("item_2").item_name.includes("Fragment") || disable_fragment_check) ? "" : " low-opacity") + "\" title=\"" + ((quest_data.get("item_2").item_name !== "") ? quest_data.get("item_2").item_name : "???")
-                        + "\" src=\"../../" + get_item_image_path(((quest_data.get("item_2").item_name !== "") ? quest_data.get("item_2").item_name.split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
-                    table_html += "<div class=\"quest-percent-text\">" + quest_data.get("item_2").drop_percent + "\u0025</div>";
-                    table_html += "</th>";
-
-                    // ITEM 3 IMAGE
-                    table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                    table_html += "<img class=\"quest-item-image" + ((quest_data.get("item_3").item_name.includes("Fragment") || disable_fragment_check) ? "" : " low-opacity") + "\" title=\"" + ((quest_data.get("item_3").item_name !== "") ? quest_data.get("item_3").item_name : "???")
-                        + "\" src=\"../../" + get_item_image_path(((quest_data.get("item_3").item_name !== "") ? quest_data.get("item_3").item_name.split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
-                    table_html += "<div class=\"quest-percent-text\">" + quest_data.get("item_3").drop_percent + "\u0025</div>";
-                    table_html += "</th>";
-
-                    // ITEM 4 IMAGE
-                    if (quest_data.get("item_4") !== undefined)
-                    {
-                        table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                        table_html += "<img class=\"quest-item-image" + ((quest_data.get("item_4").item_name.includes("Fragment") || disable_fragment_check) ? "" : " low-opacity") + "\" title=\"" + ((quest_data.get("item_4").item_name !== "") ? quest_data.get("item_4").item_name : "???")
-                            + "\" src=\"../../" + get_item_image_path(((quest_data.get("item_4").item_name !== "") ? quest_data.get("item_4").item_name.split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
-                        table_html += "<div class=\"quest-percent-text\">" + quest_data.get("item_4").drop_percent + "\u0025</div>";
-                        table_html += "</th>";
+                        table_html += "<div class=\"drop-rate item_drop-rate\">20\u0025</div>";
                     }
                     else
                     {
-                        table_html += "<th></th>";
+                        table_html += "<div class=\"drop-rate item_drop-rate\">" + quest_data.get("subdrops_percent")[i] + "\u0025</div>";
                     }
-
-                    // DIVIDER
-                    table_html += "<th>";
-                    table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                        + "\" src=\"\" alt=\"\">";
                     table_html += "</th>";
-
-                    // SUB-ITEM IMAGES
-                    for (let i = 0 ; i < quest_data.get("subdrops").length ; i++)
-                    {
-                        table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                        table_html += "<img class=\"quest-item-image\" title=\"" + ((quest_data.get("subdrops")[i] !== "") ? quest_data.get("subdrops")[i] : "???")
-                            + "\" src=\"../../" + get_item_image_path(((quest_data.get("subdrops")[i] !== "") ? quest_data.get("subdrops")[i].split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
-
-                        if (quest_data.get("subdrops_percent") === undefined)
-                        {
-                            table_html += "<div class=\"quest-percent-text\">20\u0025</div>";
-                        }
-                        else
-                        {
-                            table_html += "<div class=\"quest-percent-text\">" + quest_data.get("subdrops_percent")[i] + "\u0025</div>";
-                        }
-                        table_html += "</th>";
-                    }
-
-                    // END TABLE ROW
-                    table_html += "</tr>";
                 }
+
+                // END TABLE ROW
+                table_html += "</tr>";
             }
             table_html += "</body>";
 

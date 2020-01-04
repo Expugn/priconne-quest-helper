@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.6.4] - 2020-01-04
+### Added
+- .css file specifically for `pages/quest-data/`
+### Changed
+- Cleaned up code and adjusted styling of `pages/quest-data/`
+### Removed
+- Removed unnecessary code from `pages/quest-data/`
+
 ## [1.6.3] - 2020-01-03
 ### Added
 - Custom Title Backgrounds
