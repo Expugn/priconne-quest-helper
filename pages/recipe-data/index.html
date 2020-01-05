@@ -41,31 +41,26 @@
     <meta name="twitter:description" content="priconne-quest-helper's Currently Loaded Recipe Data."/>
 
     <!-- SCRIPTS -->
-    <script src="../../scripts/jquery-3.4.1.min.js"></script>
-    <script src="../../scripts/toastr.min.js"></script>
-    <script src="../../scripts/modernizr-custom.js"></script> <!-- WEBP CHECK -->
+    <script src="../../vendor/jquery/jquery-3.4.1.min.js"></script>
+    <script src="../../vendor/toastr/toastr.min.js"></script>
+    <script src="../../vendor/modernizr/modernizr-custom.js"></script> <!-- WEBP CHECK -->
     <script src="../../scripts/console.js"></script>
     <script src="../../scripts/image-manager.js"></script>
     <script src="../../scripts/read-equipment-json.js"></script>
 
     <!-- CSS STYLE SHEETS -->
-    <link rel="stylesheet" href="../../css/toastr.css"/>
-    <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/webpage.css">
-    <link rel="stylesheet" href="../../css/item_table.css">
+    <link rel="stylesheet" href="../../vendor/toastr/toastr.css"/>
+    <link rel="stylesheet" href="../../css/main.css"/>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="no-background-body">
+<body>
 
-<div id="title-div" class="div-background-title no-background no-transition no-hover" onclick="">
-    <div id="title-text-div" class="title-hover no-background no-hover">
-        <h1 class="title">Princess Connect! Re:Dive - Quest Helper</h1>
-        <h2 id="sub-title" class="title">Recipe Data</h2>
-    </div>
-</div>
+<h1 class="title main_title">Princess Connect! Re:Dive - Quest Helper</h1>
+<h2 class="title sub_title">Recipe Data</h2>
 
-<hr> <!-- LINE BREAK -->
+<hr>
 
-<table class="centerTable">
+<table id="equipment-type-select">
     <tbody>
         <tr>
             <th>
@@ -79,20 +74,21 @@
     </tbody>
 </table>
 
+<hr>
 
-<hr> <!-- LINE BREAK -->
-
-<div id="quest-data-div" class="request-info">
-    <table id="quest-data-table" class="centerTable"></table>
+<div id="recipe-data-div">
+    <table id="recipe-data-table"></table>
 </div>
 
 <br><br>
-<hr> <!-- LINE BREAK -->
+<hr>
 </body>
 
 <footer>
-    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="../../" src="" alt=""></p>
-    <p class="footer"><span style="font-size: small"></span>(Translated item names may be incorrect.)</p>
+    <p class="footer">Made With <span class="heart-red">❤</span> By S'pugn
+        <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="../../" src="" alt="">
+    </p>
+    <p class="footer">(Translated item names may be incorrect.)</p>
 </footer>
 
 <script>
@@ -116,7 +112,6 @@
             else
             {
                 run();
-
                 toastr.remove();
                 toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: false });
             }
@@ -142,55 +137,51 @@
             table_html += "<tr>";
 
             // ITEM NAME
-            table_html += "<th height='64' width='144'><h3 class=\"quest-title\" style=\"bottom: 0 !important;\">" + item_name + (name_jp !== undefined ? "<br>" + name_jp : "") + "</h3></th>";
+            table_html += "<th><h3 class=\"item-name\">" + item_name + (name_jp !== undefined ? "<br>" + name_jp : "") + "</h3></th>";
 
             // DIVIDER
-            table_html += "<th>";
-            table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                + "\" src=\"\" alt=\"\">";
-            table_html += "</th>";
+            table_html += "<th><img class=\"divider\" title=\"\" src=\"\" alt=\"\"></th>";
 
             // ITEM
-            table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-            table_html += "<img class=\"quest-item-image\" title=\"" + item_name
+            table_html += "<th>";
+            table_html += "<img class=\"item\" title=\"" + item_name
                 + "\" src=\"../../" + get_item_image_path(item_name.split(' ').join('_')) + "\" alt=\"\">";
             table_html += "</th>";
 
             // DIVIDER
-            table_html += "<th>";
-            table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                + "\" src=\"\" alt=\"\">";
-            table_html += "</th>";
+            table_html += "<th><img class=\"divider\" title=\"\" src=\"\" alt=\"\"></th>";
 
+            // FRAGMENTS
             if (item_data_map.get("has_fragments"))
             {
-                table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                table_html += "<img class=\"quest-item-image\" title=\"" + item_name + " Fragment"
+                table_html += "<th>";
+                table_html += "<img class=\"item\" title=\"" + item_name + " Fragment"
                     + "\" src=\"../../" + get_item_image_path(item_name.split(' ').join('_') + "_Fragment") + "\" alt=\"\">";
-                table_html += "<div class=\"requested-item-text\" style='margin-bottom: 3px;'>\u00D7" + item_data_map.get("req_pieces") + "</div>";
+                table_html += "<div class=\"item-amount\">\u00D7" + item_data_map.get("req_pieces") + "</div>";
                 table_html += "</th>";
             }
             else
             {
-                table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                table_html += "<img class=\"quest-item-image low-opacity\" title=\"" + "Placeholder"
+                table_html += "<th>";
+                table_html += "<img class=\"item low-opacity\" title=\"" + "Placeholder"
                     + "\" src=\"../../" + get_item_image_path("Placeholder") + "\" alt=\"\">";
                 table_html += "</th>";
             }
 
+            // OTHER COMPONENTS
             for (let i = 0 ; i < 3 ; i++)
             {
                 if (required_items[i] !== undefined)
                 {
-                    table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                    table_html += "<img class=\"quest-item-image\" title=\"" + required_items[i]
+                    table_html += "<th>";
+                    table_html += "<img class=\"item\" title=\"" + required_items[i]
                         + "\" src=\"../../" + get_item_image_path(required_items[i].split(' ').join('_')) + "\" alt=\"\">";
                     table_html += "</th>";
                 }
                 else
                 {
-                    table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                    table_html += "<img class=\"quest-item-image low-opacity\" title=\"" + "Placeholder"
+                    table_html += "<th>";
+                    table_html += "<img class=\"item low-opacity\" title=\"" + "Placeholder"
                         + "\" src=\"../../" + get_item_image_path("Placeholder") + "\" alt=\"\">";
                     table_html += "</th>";
                 }
@@ -201,7 +192,7 @@
         }
         table_html += "</body>";
 
-        document.getElementById("quest-data-table").innerHTML = table_html;
+        document.getElementById("recipe-data-table").innerHTML = table_html;
     }
 
     function change_equipment_data()

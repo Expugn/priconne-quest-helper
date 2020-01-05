@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'fot-udmarugo_large_prob';
+    src: url('font/FOT-UDMarugo_LargePro-B.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* WEBPAGE DESIGN =================================================================================================== */
+body {
+    background-color: #e3cfcb;
+}
+
+hr {
+    border-top: 2px solid black;
+    border-radius: 3px
+}
+
+p.footer {
+    text-align: right;
+    font-family: "Trebuchet MS", Arial, serif;
+    text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000, 1px 1px 2px #000000;
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+img.footer {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    top: 7px;
+}
+
+.use-webp {
+    /*
+        AN ELEMENT WITH THIS CLASS CAN SWITCH BETWEEN .PNG AND .WEBP DEPENDING ON BROWSER COMPATIBILITY.
+        LOOK AT scripts/image-manager.js#init_images FOR MORE INFORMATION.
+    */
+}
+
+.heart-red {
+    color: #ff4d4d
+}
+
+/* TITLE ============================================================================================================ */
+.title {
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    box-sizing: border-box;
+}
+
+.main_title {
+    font-size: 24px;
+    font-family: "fot-udmarugo_large_prob", Arial, serif;
+}
+
+.sub_title {
+    margin-top: -25px;
+    letter-spacing: 3px;
+    font-family: "Trebuchet MS", Arial, serif;
+}
+
+/* COMMON IMAGE SIZING ============================================================================================== */
+img.item {
+    /* IMAGE SIZE */
+    max-width: 48px;
+    max-height: 48px;
+
+    /* IMAGE DESIGN */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+}
+
+img.memory-piece {
+    /* IMAGE SIZE */
+    max-height: 32px;
+    max-width: 32px;
+
+    /* IMAGE DESIGN */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+}
+
+img.divider {
+    opacity: 0 !important;
+    margin-left: 12px;
+}
+
+button.item-button {
+    /* DESIGN */
+    max-width: 48px;
+    max-height: 48px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.4s ease-out;
+}
+
+img.item-button-image {
+    /* DESIGN */
+    max-width: 48px;
+    max-height: 48px;
+    border-radius: 4px;
+
+    /* POSITIONING */
+    position: relative;
+    right: 8px;
+    bottom: 3px;
+}
+
+/* COMMON TEXT OPTIONS ============================================================================================== */
+.drop-rate {
+    /* TEXT DESIGN */
+    font-family: "Calibri", Arial, serif;
+    text-shadow: 1px 1px 4px #000000,
+        1px 1px 4px #000000,
+        1px 1px 4px #000000,
+        1px 1px 4px #000000;
+    color: lightsalmon;
+    text-align: right;
+}
+
+.item-amount {
+    /* TEXT DESIGN */
+    font-family: "Calibri", Arial, serif;
+    text-shadow: 1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000;
+    color: white;
+    text-align: right;
+}
+
+/* MISCELLANEOUS ==================================================================================================== */
+.blackBorder {
+    border: 1px solid black;
+}
+
+.low-opacity {
+    -webkit-filter: opacity(30%);
+    filter: opacity(30%);
+}
+
+.pointer-cursor:hover {
+    cursor: pointer;
+}
+
+.center-table {
+    margin: 0 auto;
+}
+

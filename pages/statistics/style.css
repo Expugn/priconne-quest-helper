@@ -1,7 +1,27 @@
+/* STATISTICS TABLE ================================================================================================= */
+.white-background {
+    /* DESIGN */
+    text-shadow: 1px 1px 4px #000000,
+        1px 1px 4px #000000,
+        1px 1px 4px #000000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.item-amount {
+    /* POSITIONING */
+    margin-top: -48%;
+    margin-right: 8%;
+    margin-bottom: 3px;
+}
+
 .category-header {
     text-align: center;
     color: aliceblue;
-    text-align: center;
     font-family: "Trebuchet MS", Arial, serif;
     text-shadow: 2px 2px 4px #000000;
     box-sizing: border-box;
@@ -9,19 +29,6 @@
 
 .placement-image {
     max-width: 200px;
-}
-
-.white-background {
-    text-shadow: 1px 1px 4px #000000,
-    1px 1px 4px #000000,
-    1px 1px 4px #000000;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgba(255, 255, 255, 0.5);
-
-    padding: 10px 30px;
-    letter-spacing: 1px;
-    border-radius: 5px;
-    white-space: nowrap;
 }
 
 .first-place-item {
@@ -47,9 +54,9 @@ img.top-three-item-image {
 
 .top-three-item-text {
     text-shadow: 1px 1px 4px #000000,
-    1px 1px 4px #000000,
-    1px 1px 4px #000000,
-    1px 1px 4px #000000;
+        1px 1px 4px #000000,
+        1px 1px 4px #000000,
+        1px 1px 4px #000000;
     color: white;
     font-family: "Calibri", Arial, serif;
     text-align: right;

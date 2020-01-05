@@ -7,12 +7,21 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Added
 - .css file specifically for `pages/quest-data/`
 - .css file specifically for `pages/character-data/`
+- .css file specifically for `pages/recipe-data/`
+- .css file specifically for `pages/statistics/`
+- Compiled common CSS and placed in `css/main.css`
 ### Changed
 - Cleaned up code and adjusted styling of `pages/quest-data/`
 - Cleaned up code and adjusted styling of `pages/character-data/`
+- Cleaned up code and adjusted styling of `pages/recipe-data/`
+- Cleaned up code and adjusted styling of `pages/statistics/`
+- Moved jquery, modernizr, and toastr assets to a `vendor` folder
 ### Removed
 - Removed unnecessary code from `pages/quest-data/`
 - Removed unnecessary code from `pages/character-data/`
+- Removed unnecessary code from `pages/recipe-data/`
+- Removed unnecessary code from `pages/statistics/`
+- Removed `js-cookie` usage
 
 ## [1.6.3] - 2020-01-03
 ### Added

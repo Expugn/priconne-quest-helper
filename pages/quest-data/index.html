@@ -41,16 +41,17 @@
     <meta name="twitter:description" content="priconne-quest-helper's Currently Loaded Quest Data."/>
 
     <!-- SCRIPTS -->
-    <script src="../../scripts/jquery-3.4.1.min.js"></script>
-    <script src="../../scripts/toastr.min.js"></script>
-    <script src="../../scripts/modernizr-custom.js"></script> <!-- WEBP CHECK -->
+    <script src="../../vendor/jquery/jquery-3.4.1.min.js"></script>
+    <script src="../../vendor/toastr/toastr.min.js"></script>
+    <script src="../../vendor/modernizr/modernizr-custom.js"></script> <!-- WEBP CHECK -->
     <script src="../../scripts/console.js"></script>
     <script src="../../scripts/image-manager.js"></script>
     <script src="../../scripts/read-equipment-json.js"></script>
     <script src="../../scripts/read-quest-json.js"></script>
 
     <!-- CSS STYLE SHEETS -->
-    <link rel="stylesheet" href="../../css/toastr.css"/>
+    <link rel="stylesheet" href="../../vendor/toastr/toastr.css"/>
+    <link rel="stylesheet" href="../../css/main.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -70,7 +71,7 @@
 
 <footer>
     <p class="footer">
-        Made With <span class="red-color">❤</span> By S'pugn
+        Made With <span class="heart-red">❤</span> By S'pugn
         <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="../../" src="" alt="">
     </p>
 </footer>
@@ -96,6 +97,8 @@
             else
             {
                 run();
+                toastr.remove();
+                toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: false });
             }
         }
 
@@ -111,9 +114,9 @@
                 // QUEST NAME
                 let quest_title = quest_id;
                 if (quest_id.includes("H") && quest_id.includes("VH"))
-                    quest_title = quest_id.replace("VH", " <span class=\"red-color\">VH</span>");
+                    quest_title = quest_id.replace("VH", " <span class=\"heart-red\">VH</span>");
                 else if (quest_id.includes("H") && !quest_id.includes("VH"))
-                    quest_title = quest_id.replace("H", " <span class=\"red-color\">H</span>");
+                    quest_title = quest_id.replace("H", " <span class=\"heart-red\">H</span>");
 
                 table_html += "<th><h3 class=\"quest-title" + (quest_id.includes("H") ? " quest-title-hard" : "") + "\">" + quest_title + "</h3></th>";
 
@@ -199,9 +202,6 @@
             table_html += "</body>";
 
             document.getElementById("quest-data-table").innerHTML = table_html;
-
-            toastr.remove();
-            toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: false });
         }
     }
 </script>

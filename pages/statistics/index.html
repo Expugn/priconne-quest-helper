@@ -41,9 +41,9 @@
     <meta name="twitter:description" content="Equipment and ingredient usage statistics for 'Princess Connect! Re:Dive' （プリンセスコネクト! Re:Dive）, based on the data used in priconne-quest-helper."/>
 
     <!-- SCRIPTS -->
-    <script src="../../scripts/jquery-3.4.1.min.js"></script>
-    <script src="../../scripts/toastr.min.js"></script>
-    <script src="../../scripts/modernizr-custom.js"></script> <!-- WEBP CHECK -->
+    <script src="../../vendor/jquery/jquery-3.4.1.min.js"></script>
+    <script src="../../vendor/toastr/toastr.min.js"></script>
+    <script src="../../vendor/modernizr/modernizr-custom.js"></script> <!-- WEBP CHECK -->
     <script src="../../scripts/console.js"></script>
     <script src="../../scripts/image-manager.js"></script>
     <script src="../../scripts/read-character-json.js"></script>
@@ -51,61 +51,56 @@
     <script src="../../scripts/recipe-reader.js"></script>
 
     <!-- CSS STYLE SHEETS -->
-    <link rel="stylesheet" href="../../css/toastr.css"/>
-    <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/webpage.css">
-    <link rel="stylesheet" href="../../css/item_table.css">
-    <link rel="stylesheet" href="../../css/statistics.css">
+    <link rel="stylesheet" href="../../vendor/toastr/toastr.css"/>
+    <link rel="stylesheet" href="../../css/main.css"/>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body>
 
-<body class="no-background-body">
-<div id="title-div" class="div-background-title no-background no-transition no-hover" onclick="">
-    <div id="title-text-div" class="title-hover no-background no-hover">
-        <h1 class="title">Princess Connect! Re:Dive - Quest Helper</h1>
-        <h2 id="sub-title" class="title">Statistics</h2>
-    </div>
-</div>
-<hr> <!-- LINE BREAK -->
+<h1 class="title main_title">Princess Connect! Re:Dive - Quest Helper</h1>
+<h2 class="title sub_title">Statistics</h2>
+
+<hr>
 
 <div id="rarity-settings" hidden>
     <br>
-    <table id="rarity-settings-table" class="centerTable white-background">
+    <table id="rarity-settings-table" class="center-table white-background">
         <tbody>
         <tr>
             <th>
-                <button id="ignore-button-common" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('common')">
-                    <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Common Items" image_folder="webpage" file_name="Placeholder_Common" src_prefix="../../" src="" alt="">
+                <button id="ignore-button-common" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('common')">
+                    <img class="item-button-image use-webp" title="Ignore Common Items" image_folder="webpage" file_name="Placeholder_Common" src_prefix="../../" src="" alt="">
                 </button>
             </th>
             <th>
-                <button id="ignore-button-copper" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('copper')">
-                    <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Copper Items" image_folder="webpage" file_name="Placeholder_Copper" src_prefix="../../" src="" alt="">
+                <button id="ignore-button-copper" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('copper')">
+                    <img class="item-button-image use-webp" title="Ignore Copper Items" image_folder="webpage" file_name="Placeholder_Copper" src_prefix="../../" src="" alt="">
                 </button>
             </th>
             <th>
-                <button id="ignore-button-silver" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('silver')">
-                    <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Silver Items" image_folder="webpage" file_name="Placeholder_Silver" src_prefix="../../" src="" alt="">
+                <button id="ignore-button-silver" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('silver')">
+                    <img class="item-button-image use-webp" title="Ignore Silver Items" image_folder="webpage" file_name="Placeholder_Silver" src_prefix="../../" src="" alt="">
                 </button>
             </th>
             <th>
-                <button id="ignore-button-gold" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('gold')">
-                    <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Gold Items" image_folder="webpage" file_name="Placeholder_Gold" src_prefix="../../" src="" alt="">
+                <button id="ignore-button-gold" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('gold')">
+                    <img class="item-button-image use-webp" title="Ignore Gold Items" image_folder="webpage" file_name="Placeholder_Gold" src_prefix="../../" src="" alt="">
                 </button>
             </th>
             <th>
-                <button id="ignore-button-purple" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('purple')">
-                    <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Purple Items" image_folder="webpage" file_name="Placeholder_Purple" src_prefix="../../" src="" alt="">
+                <button id="ignore-button-purple" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('purple')">
+                    <img class="item-button-image use-webp" title="Ignore Purple Items" image_folder="webpage" file_name="Placeholder_Purple" src_prefix="../../" src="" alt="">
                 </button>
             </th>
         </tr>
         </tbody>
     </table>
     <br>
-    <table class="centerTable">
+    <table class="center-table">
         <tbody>
             <tr>
                 <th>
-                    <label for="data-type-select" hidden></label>
+                    <label for="data-type-select" hidden>Data Type Select</label>
                     <select id="data-type-select" onchange="change_display()">
                         <option value="equipment-data">Equipment Usage</option>
                         <option value="ingredient-data">Ingredient Usage</option>
@@ -115,7 +110,7 @@
             <tr>
                 <th>
                     <br>
-                    <label for="equipment-data-type" hidden></label>
+                    <label for="equipment-data-type" hidden>Equipment Data Type</label>
                     <select id="equipment-data-type" onchange="change_equipment_data()">
                         <option value="equipment-data-current">Current Equipment Data (After 2019.08.31)</option>
                         <option value="equipment-data-legacy">Legacy Equipment Data (Before 2019.08.31)</option>
@@ -130,8 +125,8 @@
 
 <div id="all-data">
     <div id="equipment-data">
-        <h2 class="category-title">Equipment Usage Rankings</h2>
-        <table id="top-3-equipment" class="centerTable white-background">
+        <h2 class="category-header">Equipment Usage Rankings</h2>
+        <table id="top-3-equipment" class="center-table white-background">
             <tr>
                 <th><img class="placement-image use-webp" title="1st Place" image_folder="webpage" file_name="1st_Place" src_prefix="../../" src="" alt=""></th>
                 <th><img class="quest-item-image quest-item-divider" title="" src="" alt=""></th>
@@ -154,17 +149,13 @@
         <br>
 
         <div id="all-equipment" hidden>
-            <table id="all-equipment-sorted" class="centerTable white-background"></table>
+            <table id="all-equipment-sorted" class="center-table white-background"></table>
         </div>
-        <br>
-        <hr> <!-- LINE BREAK -->
     </div>
 
-
-
     <div id="ingredient-data" hidden>
-        <h2 class="category-title">Ingredient Usage Rankings</h2>
-        <table id="top-3-ingredient" class="centerTable white-background">
+        <h2 class="category-header">Ingredient Usage Rankings</h2>
+        <table id="top-3-ingredient" class="center-table white-background">
             <tr>
                 <th><img class="placement-image use-webp" title="1st Place" image_folder="webpage" file_name="1st_Place" src_prefix="../../" src="" alt=""></th>
                 <th><img class="quest-item-image quest-item-divider" title="" src="" alt=""></th>
@@ -187,18 +178,22 @@
         <br>
 
         <div id="all-ingredients" hidden>
-            <table id="all-ingredients-sorted" class="centerTable white-background"></table>
+            <table id="all-ingredients-sorted" class="center-table white-background"></table>
         </div>
-        <br>
-        <hr> <!-- LINE BREAK -->
     </div>
+    <br>
+    <hr>
 </div>
 
 </body>
 
 <footer>
-    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="../../" src="" alt=""></p>
-    <p class="footer" id="stats-footer" hidden><br><span id="stats" class="white-background"></span></p>
+    <p class="footer">Made With <span class="heart-red">❤</span> By S'pugn
+        <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="../../" src="" alt="">
+    </p>
+    <p class="footer" id="stats-footer" hidden>
+        <span id="stats" class="white-background"></span>
+    </p>
 </footer>
 
 <script>
@@ -400,9 +395,9 @@
                             bottom_equipment_html += "</tr><tr>";
                         }
 
-                        bottom_equipment_html += "<th class\"requested-item-image\">";
-                        bottom_equipment_html += "<img class=\"requested-item-image\" title=\"#" + (item_counter + 1) + "\n" + equipment_name + "\" src=\"../../" + get_item_image_path(equipment_name.split(' ').join('_')) + "\" alt=\"\">";
-                        bottom_equipment_html += "<div class=\"requested-item-text\">\u00D7" + equipment_amount + "</div>";
+                        bottom_equipment_html += "<th>";
+                        bottom_equipment_html += "<img class=\"item\" title=\"#" + (item_counter + 1) + "\n" + equipment_name + "\" src=\"../../" + get_item_image_path(equipment_name.split(' ').join('_')) + "\" alt=\"\">";
+                        bottom_equipment_html += "<div class=\"item-amount\">\u00D7" + equipment_amount + "</div>";
                         bottom_equipment_html += "</th>";
                     }
                     item_counter++;
@@ -462,9 +457,9 @@
                         bottom_ingredient_html += "</tr><tr>";
                     }
 
-                    bottom_ingredient_html += "<th class\"requested-item-image\">";
-                    bottom_ingredient_html += "<img class=\"requested-item-image\" title=\"#" + (item_counter + 1) + "\n" + ingredient_name + "\" src=\"../../" + get_item_image_path(ingredient_name.split(' ').join('_')) + "\" alt=\"\">";
-                    bottom_ingredient_html += "<div class=\"requested-item-text\">\u00D7" + ingredient_amount + "</div>";
+                    bottom_ingredient_html += "<th>";
+                    bottom_ingredient_html += "<img class=\"item\" title=\"#" + (item_counter + 1) + "\n" + ingredient_name + "\" src=\"../../" + get_item_image_path(ingredient_name.split(' ').join('_')) + "\" alt=\"\">";
+                    bottom_ingredient_html += "<div class=\"item-amount\">\u00D7" + ingredient_amount + "</div>";
                     bottom_ingredient_html += "</th>";
                 }
                 item_counter++;

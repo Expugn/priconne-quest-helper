@@ -1,16 +1,21 @@
 /* QUEST DATA TABLE ================================================================================================= */
-#quest-data-div {
+#equipment-type-select {
+    /* CENTER TABLE */
+    margin: 0 auto;
+}
+
+#recipe-data-div {
     /* POSITIONING */
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
-#quest-data-table {
+#recipe-data-table {
     /* CENTER TABLE */
     margin: 0 auto;
 }
 
-.quest-title {
+.item-name {
     /* TEXT */
     font-family: "fot-udmarugo_large_prob", Arial, serif;
     font-size: 15px;
@@ -26,38 +31,11 @@
     white-space: nowrap;
     border-radius: 5px;
     padding: 10px 30px;
-
-    /* POSITIONING */
-    position: relative;
-    top: 2px;
 }
 
-.quest-title-hard {
-    /* TEXT (SHIFT TO LEFT) */
-    padding-left: 20px;
-    padding-right: 65px;
-}
-
-img.memory-piece {
-    /* POSITIONING */
-    position: relative;
-    right: 62px;
-    top: 13px;
-    margin-right: -32px;
-}
-
-.memory-piece_drop-rate {
-    /* POSITIONING */
-    position: relative;
-    font-size: 14px;
-    right: 56px;
-    bottom: 4px;
-    margin-right: -32px;
-}
-
-.item_drop-rate {
+.item-amount {
     /* POSITIONING */
     margin-top: -48%;
     margin-right: 8%;
-    margin-bottom: -10%;
+    margin-bottom: 3px;
 }
