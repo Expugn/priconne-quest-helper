@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'fot-udmarugo_large_prob';
-    src: url('font/FOT-UDMarugo_LargePro-B.otf');
+    src: url('../../css/font/FOT-UDMarugo_LargePro-B.otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -50,12 +50,12 @@ img.footer {
     box-sizing: border-box;
 }
 
-.main-title {
+.main_title {
     font-size: 24px;
     font-family: "fot-udmarugo_large_prob", Arial, serif;
 }
 
-.sub-title {
+.sub_title {
     margin-top: -25px;
     letter-spacing: 3px;
     font-family: "Trebuchet MS", Arial, serif;
@@ -113,8 +113,6 @@ img.item {
 
 img.divider {
     opacity: 0 !important;
-    box-shadow: 0 0 0 0, 0 0 0 0, 0 0 !important;
-    text-shadow: 0 0 0 !important;
     margin-left: 12px;
 }
 
@@ -155,6 +153,4 @@ img.memory-piece {
     margin-top: -48%;
     margin-right: 8%;
     margin-bottom: -10%;
-
-    border-radius: 5px;
 }

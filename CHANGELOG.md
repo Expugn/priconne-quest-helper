@@ -6,10 +6,13 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ## [1.6.4] - 2020-01-04
 ### Added
 - .css file specifically for `pages/quest-data/`
+- .css file specifically for `pages/character-data/`
 ### Changed
 - Cleaned up code and adjusted styling of `pages/quest-data/`
+- Cleaned up code and adjusted styling of `pages/character-data/`
 ### Removed
 - Removed unnecessary code from `pages/quest-data/`
+- Removed unnecessary code from `pages/character-data/`
 
 ## [1.6.3] - 2020-01-03
 ### Added

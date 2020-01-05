@@ -18,6 +18,8 @@ function update_progress()
     // and Settings Quest Min/Max
     // and Presets Min/Max
     // and Rank Min/Max
+    // and read-character-json.js min/max ranks
+    // and pages/character-data/ rank colors
 
     if (!quest_update_status.NORMAL_QUEST ||
         !quest_update_status.HARD_QUEST ||

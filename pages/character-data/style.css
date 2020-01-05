@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'fot-udmarugo_large_prob';
+    src: url('../../css/font/FOT-UDMarugo_LargePro-B.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* WEBPAGE DESIGN =================================================================================================== */
+body {
+    background-color: #e3cfcb;
+}
+
+hr {
+    border-top: 2px solid black;
+    border-radius: 3px
+}
+
+p.footer {
+    text-align: right;
+    font-family: "Trebuchet MS", Arial, serif;
+    text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000, 1px 1px 2px #000000;
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+img.footer {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    top: 7px;
+}
+
+.use-webp {
+    /*
+        AN ELEMENT WITH THIS CLASS CAN SWITCH BETWEEN .PNG AND .WEBP DEPENDING ON BROWSER COMPATIBILITY.
+        LOOK AT scripts/image-manager.js#init_images FOR MORE INFORMATION.
+    */
+}
+
+.red-color {
+    color: #ff4d4d
+}
+
+/* TITLE ============================================================================================================ */
+.title {
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    box-sizing: border-box;
+}
+
+.main_title {
+    font-size: 24px;
+    font-family: "fot-udmarugo_large_prob", Arial, serif;
+}
+
+.sub_title {
+    margin-top: -25px;
+    letter-spacing: 3px;
+    font-family: "Trebuchet MS", Arial, serif;
+}
+
+/* CHARACTER DATA TABLE ============================================================================================= */
+#character-data-div {
+    /* POSITIONING */
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#character-data-table {
+    /* CENTER TABLE */
+    margin: 0 auto;
+}
+
+.text-box {
+    /* TEXT */
+    font-family: "fot-udmarugo_large_prob", Arial, serif;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px #000000,
+    1px 1px 2px #000000,
+    1px 1px 3px #000000;
+
+    /* TEXT BOX DESIGN */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.5);
+    white-space: nowrap;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+.character-name {
+    /* POSITIONING */
+    position: relative;
+    bottom: 2px;
+}
+
+.character-rank {
+    /* POSITIONING */
+    position: relative;
+    bottom: 3px;
+}
+
+img.character {
+    /* IMAGE SIZE */
+    max-width: 48px;
+    max-height: 48px;
+
+    /* IMAGE DESIGN */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+}
+
+img.item {
+    /* IMAGE SIZE */
+    max-width: 48px;
+    max-height: 48px;
+
+    /* IMAGE DESIGN */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+}
+
+img.divider {
+    opacity: 0 !important;
+    margin-left: 12px;
+}
+
+img.low-opacity {
+    -webkit-filter: opacity(30%);
+    filter: opacity(30%);
+}
+
+/* RANK COLORS ====================================================================================================== */
+.common_color {
+    background-color: rgba(90, 190, 255, 0.5) !important;
+}
+
+.copper_color {
+    background-color: rgba(255, 182, 140, 0.5) !important;
+}
+
+.silver_color {
+    background-color: rgba(198, 211, 214, 0.5) !important;
+}
+
+.gold_color {
+    background-color: rgba(249, 194, 62, 0.5) !important;
+}
+
+.purple_color {
+    background-color: rgba(231, 109, 255, 0.5) !important;
+}
+
+.undefined_color {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}

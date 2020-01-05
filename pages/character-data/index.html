@@ -50,31 +50,28 @@
 
     <!-- CSS STYLE SHEETS -->
     <link rel="stylesheet" href="../../css/toastr.css"/>
-    <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/webpage.css">
-    <link rel="stylesheet" href="../../css/item_table.css">
+    <link rel="stylesheet" href="style.css"/>
 </head>
-<body class="no-background-body">
+<body>
 
-<div id="title-div" class="div-background-title no-background no-transition no-hover" onclick="">
-    <div id="title-text-div" class="title-hover no-background no-hover">
-        <h1 class="title">Princess Connect! Re:Dive - Quest Helper</h1>
-        <h2 id="sub-title" class="title">Character Data</h2>
-    </div>
-</div>
+<h1 class="title main_title">Princess Connect! Re:Dive - Quest Helper</h1>
+<h2 class="title sub_title">Character Data</h2>
 
-<hr> <!-- LINE BREAK -->
+<hr>
 
-<div id="quest-data-div" class="request-info">
-    <table id="character-data-table" class="centerTable"></table>
+<div id="character-data-div">
+    <table id="character-data-table"></table>
 </div>
 
 <br><br>
-<hr> <!-- LINE BREAK -->
+<hr>
 </body>
 
 <footer>
-    <p class="footer">Made With <span style="color:#ff4d4d">❤</span> By S'pugn <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="../../" src="" alt=""></p>
+    <p class="footer">
+        Made With <span style="color:#ff4d4d">❤</span> By S'pugn
+        <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="../../" src="" alt="">
+    </p>
 </footer>
 
 <script>
@@ -113,119 +110,91 @@
                 let character_name = character_data_map.get("name");
                 let character_thematic = character_data_map.get("thematic");
                 let character_thematic_jp = character_data_map.get("thematic_jp");
-                //let character_jp = ((character_thematic_jp === "") ? "" : character_thematic_jp) + character_data_map.get("name_jp");
                 let character_jp = character_data_map.get("name_jp") + ((character_thematic_jp === "") ? "" : "（" + character_thematic_jp + "）");
 
                 table_html += "<tr>";
 
                 // CHARACTER NAME
                 let character_complete_name = ((character_thematic === "") ? character_name : character_name + " (" + character_thematic + ")") + "<br>" + character_jp;
-                table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                table_html += "<h3 class=\"quest-title\">" + character_complete_name + "</h3>";
-                table_html += "</th>";
+                table_html += "<th><h3 class=\"character-name text-box\">" + character_complete_name + "</h3></th>";
 
                 // DIVIDER
-                table_html += "<th>";
-                table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                    + "\" src=\"\" alt=\"\">";
-                table_html += "</th>";
+                table_html += "<th><img class=\"divider\" title=\"\" src=\"\" alt=\"\"></th>";
 
                 // CHARACTER IMAGE
-                let file_name;
-                if (character_data_map.get("rank_1")[0] === "")
+                let file_name = ((character_thematic === "") ? character_name : character_thematic.split(' ').join('_') + "_" + character_name);
+                table_html += "<th><img class=\"character\" title=\"" + character_thematic + " " + character_name + "\" src=\"../../" + get_unit_icon_image_path(file_name) + "\" alt=\"\"></th>";
+
+                table_html += "<th></th> <th></th> <th></th> <th></th> </tr><tr>";
+
+                for (let i = 0 ; i < num_of_ranks ; i++)
                 {
-                    file_name = "";
-                }
-                else
-                {
-                    file_name = ((character_thematic === "") ? character_name : character_thematic.split(' ').join('_') + "_" + character_name);
-                }
-                table_html += "<th height='48' width='48'><img class=\"quest-item-image\" title=\"" + character_thematic + " " + character_name + "\" src=\"../../" + get_unit_icon_image_path(file_name) + "\" alt=\"\"></th>";
+                    let rank_items = character_data_map.get("rank_" + (i + 1));
+                    let rank_color = "";
 
-                table_html += "<th></th> <th></th> <th></th> <th></th>";
-
-                table_html += "</tr>";
-
-                table_html += "<tr>";
-
-                if (character_data_map.get("rank_1")[0] !== "")
-                {
-                    for (let i = 0 ; i < num_of_ranks ; i++)
+                    switch (i + 1)
                     {
-                        let rank_items = character_data_map.get("rank_" + (i + 1));
-                        let rank_color_html = "";
-
-                        switch (i + 1)
-                        {
-                            case 1:
-                                rank_color_html = "background-color: rgba(90, 190, 255, 0.5) !important;";
-                                break;
-                            case 2:
-                            case 3:
-                                rank_color_html = "background-color: rgba(255, 182, 140, 0.5) !important;";
-                                break;
-                            case 4:
-                            case 5:
-                            case 6:
-                                rank_color_html = "background-color: rgba(198, 211, 214, 0.5) !important;";
-                                break;
-                            case 7:
-                            case 8:
-                            case 9:
-                            case 10:
-                                rank_color_html = "background-color: rgba(249, 194, 62, 0.5) !important;";
-                                break;
-                            case 11:
-                            case 12:
-                            case 13:
-                            case 14:
-                            case 15:
-                                rank_color_html = "background-color: rgba(231, 109, 255, 0.5) !important;";
-                                break;
-                            default:
-                                rank_color_html = "background-color: rgba(255, 255, 255, 0.5) !important;";
-                                break;
-                        }
-
-                        // CHARACTER RANK
-                        table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                        table_html += "<h3 class=\"quest-title\" style=\"" + rank_color_html + "\">Rank " + (i + 1) + "</h3>";
-                        table_html += "</th>";
-
-                        // DIVIDER
-                        table_html += "<th>";
-                        table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                            + "\" src=\"\" alt=\"\">";
-                        table_html += "</th>";
-
-                        for (let a = 0 ; a < 6 ; a++)
-                        {
-                            if (rank_items[a] !== "")
-                            {
-                                table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                                table_html += "<img class=\"quest-item-image\" title=\"" + rank_items[a]
-                                    + "\" src=\"../../" + get_item_image_path(rank_items[a].split(' ').join('_')) + "\" alt=\"\">";
-                                table_html += "</th>";
-                            }
-                            else
-                            {
-                                table_html += "<th class=\"quest-item-image\" height='48' width='48'>";
-                                table_html += "<img class=\"quest-item-image low-opacity\" title=\"" + "Placeholder"
-                                    + "\" src=\"../../" + get_item_image_path("Placeholder") + "\" alt=\"\">";
-                                table_html += "</th>";
-                            }
-                        }
-
-                        table_html += "</tr><tr>";
+                        case 1:
+                            rank_color = "common_color";
+                            break;
+                        case 2:
+                        case 3:
+                            rank_color = "copper_color";
+                            break;
+                        case 4:
+                        case 5:
+                        case 6:
+                            rank_color = "silver_color";
+                            break;
+                        case 7:
+                        case 8:
+                        case 9:
+                        case 10:
+                            rank_color = "gold_color";
+                            break;
+                        case 11:
+                        case 12:
+                        case 13:
+                        case 14:
+                        case 15:
+                            rank_color = "purple_color";
+                            break;
+                        default:
+                            rank_color = "undefined_color";
+                            break;
                     }
 
-                    // END TABLE ROW
-                    table_html += "</tr> <tr> <th><br><br><br></th> <th></th> <th></th> <th></th> <th></th> <th></th> <th></th> </tr>";
+                    // CHARACTER RANK
+                    table_html += "<th><h3 class=\"character-rank text-box " + rank_color + "\">Rank " + (i + 1) + "</h3></th>";
+
+                    // DIVIDER
+                    table_html += "<th>";
+                    table_html += "<img class=\"divider\" title=\"\" src=\"\" alt=\"\">";
+                    table_html += "</th>";
+
+                    for (let a = 0 ; a < 6 ; a++)
+                    {
+                        if (rank_items[a] !== "")
+                        {
+                            table_html += "<th>";
+                            table_html += "<img class=\"item\" title=\"" + rank_items[a]
+                                + "\" src=\"../../" + get_item_image_path(rank_items[a].split(' ').join('_')) + "\" alt=\"\">";
+                            table_html += "</th>";
+                        }
+                        else
+                        {
+                            table_html += "<th>";
+                            table_html += "<img class=\"item low-opacity\" title=\"" + "Placeholder"
+                                + "\" src=\"../../" + get_item_image_path("Placeholder") + "\" alt=\"\">";
+                            table_html += "</th>";
+                        }
+                    }
+
+                    table_html += "</tr><tr>";
                 }
-                else
-                {
-                    table_html += "</tr><th><br><br><br>";
-                }
+
+                // END TABLE ROW
+                table_html += "</tr> <tr> <th><br><br><br></th> <th></th> <th></th> <th></th> <th></th> <th></th> <th></th> </tr>";
             }
             table_html += "</body>";
 
