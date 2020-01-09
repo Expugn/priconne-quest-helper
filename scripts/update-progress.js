@@ -41,9 +41,9 @@ function update_progress()
         }
 
         // UPDATE PROGRESS
-        document.getElementById("update-quest-data-check").style.display = (quest_update_status.NORMAL_QUEST && quest_update_status.HARD_QUEST) ? "inline" : "none";
-        document.getElementById("update-equipment-data-check").style.display = (quest_update_status.EQUIPMENT_SELECTION && quest_update_status.EQUIPMENT_ENGLISH_TRANSLATION) ? "inline" : "none";
-        document.getElementById("update-character-data-check").style.display = (quest_update_status.RANK_EQUIPMENT) ? "inline" : "none";
+        document.getElementById("update-quest-data-check").hidden = (!(quest_update_status.NORMAL_QUEST && quest_update_status.HARD_QUEST));
+        document.getElementById("update-equipment-data-check").hidden = (!(quest_update_status.EQUIPMENT_SELECTION && quest_update_status.EQUIPMENT_ENGLISH_TRANSLATION));
+        document.getElementById("update-character-data-check").hidden = (!quest_update_status.RANK_EQUIPMENT);
 
         document.getElementById("update-normal-quests-label").style.textDecoration = (quest_update_status.NORMAL_QUEST) ? "" : "line-through";
         document.getElementById("update-hard-quests-label").style.textDecoration = (quest_update_status.HARD_QUEST) ? "" : "line-through";

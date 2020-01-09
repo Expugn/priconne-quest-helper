@@ -6,6 +6,10 @@
     font-style: normal;
 }
 
+.tip:lang(ko) {
+    font-family: "Trebuchet MS", "NotoSerifKR", serif;
+}
+
 body.fancy-body:lang(ko) {
     font-family: "Trebuchet MS", "NotoSerifKR", serif;
 }
@@ -55,6 +59,10 @@ p.footer:lang(ko) {
     src: local("Noto Serif CJK"), local("Noto Serif CJK JP"), local("Noto Serif JP"), url("font/NotoSerifJP-Regular.otf");
     font-weight: normal;
     font-style: normal;
+}
+
+.tip:lang(ja) {
+    font-family: "Trebuchet MS", "NotoSerifJP", serif;
 }
 
 body.fancy-body:lang(ja) {

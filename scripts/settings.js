@@ -439,7 +439,7 @@ function toggle_simple_mode()
             document.getElementById("character-preset-div").classList.toggle("no-background");
             document.getElementById("update-div").classList.toggle("no-background");
             document.getElementById("title-background-div").hidden = true;
-            $("body").toggleClass("no-background-body");
+            $("body").toggleClass("simple-body");
             $("body").toggleClass("fancy-body");
 
             document.getElementById("fancy-page-link").style.display = "inline";

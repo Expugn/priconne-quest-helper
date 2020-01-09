@@ -124,10 +124,8 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     let item_1_amount = total_recipe.get(item_1_name);
                     if (item_1_amount > 0)
                     {
-                        //console.log(item_1_name);
                         if (priority_items_array.includes(item_1_name)) {
                             quest_score += (item_is_in_top_2_score * priority_item_multiplier);
-                            //console.log("multiplied.")
                         }
                         else if (!inventory_check_fragment_amount(item_1_name, item_1_amount)) {
                             quest_score += item_is_in_top_2_score;
@@ -349,15 +347,15 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 let quest_score_color = "";
                 if (quest_score >= 2)
                 {
-                    quest_score_color = "quest-title-bg-green";
+                    quest_score_color = "quest-title_bg_green";
                 }
                 else if (quest_score >= 1)
                 {
-                    quest_score_color = "quest-title-bg-yellow";
+                    quest_score_color = "quest-title_bg_yellow";
                 }
                 else
                 {
-                    quest_score_color = "quest-title-bg-red";
+                    quest_score_color = "quest-title_bg_red";
                 }
 
                 table_html += "<tr>";
@@ -376,8 +374,8 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     }
 
                     table_html += "<th class='quest-hover " + priority_class + disabled_class + "' height='48' data-item-name=\"" + item_name + "\">";
-                    table_html += "<img class=\"quest-item-image"
-                        + (is_item_a_priority_and_needed(item_name) && total_recipe.has(item_name) ? " priority-quest-item" : "")
+                    table_html += "<img class=\"item quest-item-image"
+                        + (is_item_a_priority_and_needed(item_name) && total_recipe.has(item_name) ? " quest_priority-item" : "")
                         + ((is_item_4) ? " item-4-element" : "")
                         + "\" title=\"" + item_name
                         + "\" src=\"" + get_item_image_path(item_name.split(' ').join('_')) + "\" alt=\"\"" + (is_item_4 ? " hidden" : "")  + ">";
@@ -386,13 +384,13 @@ function build_recommended_quest_table(all_recipe_maps_array)
                         if (quest_display === quest_display_settings.AMOUNT)
                         {
                             table_html += "<div class=\"quest-inv-amount-text quest-display-top" + ((is_item_4) ? " item-4-element" : "") + "\">" + "\u00D7" + inv_frag_amount + "</div>";
-                            table_html += "<div class=\"quest-percent-text quest-display-bottom" + ((is_item_4) ? " item-4-element" : "") + "\">" + item_drop_percent + "\u0025" + "</div>";
+                            table_html += "<div class=\"drop-rate quest-percent-text quest-display-bottom" + ((is_item_4) ? " item-4-element" : "") + "\">" + item_drop_percent + "\u0025" + "</div>";
                             table_html += "<div class=\"quest-req-amount-text quest-display-top" + ((is_item_4) ? " item-4-element" : "") + "\">" + "\u00D7" + item_amount + "</div>";
                         }
                         else
                         {
                             table_html += "<div class=\"quest-inv-amount-text quest-display-bottom" + ((is_item_4) ? " item-4-element" : "") + "\">" + "\u00D7" + inv_frag_amount + "</div>";
-                            table_html += "<div class=\"quest-percent-text quest-display-top" + ((is_item_4) ? " item-4-element" : "") + "\">" + item_drop_percent + "\u0025" + "</div>";
+                            table_html += "<div class=\"drop-rate quest-percent-text quest-display-top" + ((is_item_4) ? " item-4-element" : "") + "\">" + item_drop_percent + "\u0025" + "</div>";
                             table_html += "<div class=\"quest-req-amount-text quest-display-bottom" + ((is_item_4) ? " item-4-element" : "") + "\">" + "\u00D7" + item_amount + "</div>";
                         }
                     }
@@ -402,32 +400,31 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 // QUEST NAME
                 let quest_is_hard_difficulty = quest_id.includes("H") && !quest_id.includes("VH");
                 let quest_is_very_hard_difficulty = quest_id.includes("H") && quest_id.includes("VH");
-                table_html += "<th height='64' width='144'>" +
+                table_html += "<th>" +
                     "<h3 class=\"quest-title " + quest_score_color +
-                        (quest_is_hard_difficulty || quest_is_very_hard_difficulty ? " quest-title-hard" : "") + "\">" +
+                        (quest_is_hard_difficulty || quest_is_very_hard_difficulty ? " quest-title_hard" : "") + "\">" +
                     (!quest_id.includes("H") ? quest_id : "") +
-                    (quest_is_hard_difficulty ? quest_id.replace("H", " <span style=\"color: #ff4d4d\">H</span>") : "")  +
-                    (quest_is_very_hard_difficulty ? quest_id.replace("VH", " <span style=\"color: #ff4d4d\">VH</span>") : "") + "</h3>" +
+                    (quest_is_hard_difficulty ? quest_id.replace("H", " <span class=\"heart-red\">H</span>") : "")  +
+                    (quest_is_very_hard_difficulty ? quest_id.replace("VH", " <span class=\"heart-red\">VH</span>") : "") + "</h3>" +
                     "</th>";
 
                 // DIVIDER
-                table_html += "<th>";
-                table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                    + "\" src=\"\" alt=\"\">";
+                table_html += "<th><img class=\"divider\" title=\"\" src=\"\" alt=\"\">";
+
                 // INCLUDE HARD/VERY HARD MODE CHARACTER SHARD IMAGE
                 if (quest_id.includes("H"))
                 {
                     if (total_recipe.has(char_shard_name))
                     {
-                        table_html += "<img class=\"quest-item-image quest-character-shard"
-                                + (is_item_a_priority_and_needed(char_shard_name) ? " priority-quest-item" : "")
+                        table_html += "<img class=\"item memory-piece"
+                                + (is_item_a_priority_and_needed(char_shard_name) ? " quest_priority-item" : "")
                             + "\" title=\"" + char_shard_name +
                             "\" src=\"" + get_item_image_path((char_shard_name).split(' ').join('_')) + "\" alt\"\">";
-                        table_html += "<div class=\"quest-character-shard-drop-rate\">" + char_shard_drop_rate + "\u0025</div>";
+                        table_html += "<div class=\"drop-rate memory-piece_drop-rate\">" + char_shard_drop_rate + "\u0025</div>";
                     }
                     else
                     {
-                        table_html += "<img class=\"quest-item-image quest-character-shard-grayscale\" title=\"" + char_shard_name +
+                        table_html += "<img class=\"item memory-piece memory-piece_no-drop grayscale\" title=\"" + char_shard_name +
                             "\" src=\"" + get_item_image_path((char_shard_name).split(' ').join('_')) + "\" alt\"\">";
                     }
 
@@ -455,10 +452,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 }
 
                 // DIVIDER
-                table_html += "<th>";
-                table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                    + "\" src=\"\" alt=\"\">";
-                table_html += "</th>";
+                table_html += "<th><img class=\"divider\" title=\"\" src=\"\" alt=\"\"></th>";
 
                 // SUB-ITEM IMAGES
                 for (let i = 0 ; i < subdrops.length ; i++)
@@ -476,8 +470,8 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     }
 
                     table_html += "<th class='quest-hover " + priority_class + disabled_class + "' height='48' data-item-name=\"" + item_name + "\">";
-                    table_html += "<img class=\"quest-item-image"
-                            + (is_item_a_priority_and_needed(subdrops[i]) && total_recipe.has(subdrops[i]) ? " priority-quest-item" : "")
+                    table_html += "<img class=\"item quest-item-image"
+                            + (is_item_a_priority_and_needed(subdrops[i]) && total_recipe.has(subdrops[i]) ? " quest_priority-item" : "")
                         + "\" title=\"" + ((subdrops[i] !== "") ? subdrops[i] : "???")
                         + "\" src=\"" + get_item_image_path(((subdrops[i] !== "") ? subdrops[i].split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
                     if (show_text)
@@ -487,11 +481,11 @@ function build_recommended_quest_table(all_recipe_maps_array)
                             table_html += "<div class=\"quest-inv-amount-text quest-display-top\">" + "\u00D7" + inv_frag_amount + "</div>";
                             if (subdrops_percent === undefined)
                             {
-                                table_html += "<div class=\"quest-percent-text quest-display-bottom\">20\u0025</div>";
+                                table_html += "<div class=\"drop-rate quest-percent-text quest-display-bottom\">20\u0025</div>";
                             }
                             else
                             {
-                                table_html += "<div class=\"quest-percent-text quest-display-bottom\">" + subdrops_percent[i] + "\u0025</div>";
+                                table_html += "<div class=\"drop-rate quest-percent-text quest-display-bottom\">" + subdrops_percent[i] + "\u0025</div>";
                             }
                             table_html += "<div class=\"quest-req-amount-text quest-display-top\">" + "\u00D7" + item_amount + "</div>";
                         }
@@ -500,11 +494,11 @@ function build_recommended_quest_table(all_recipe_maps_array)
                             table_html += "<div class=\"quest-inv-amount-text quest-display-bottom\">" + "\u00D7" + inv_frag_amount + "</div>";
                             if (subdrops_percent === undefined)
                             {
-                                table_html += "<div class=\"quest-percent-text quest-display-top\">20\u0025</div>";
+                                table_html += "<div class=\"drop-rate quest-percent-text quest-display-top\">20\u0025</div>";
                             }
                             else
                             {
-                                table_html += "<div class=\"quest-percent-text quest-display-top\">" + subdrops_percent[i] + "\u0025</div>";
+                                table_html += "<div class=\"drop-rate quest-percent-text quest-display-top\">" + subdrops_percent[i] + "\u0025</div>";
                             }
                             table_html += "<div class=\"quest-req-amount-text quest-display-bottom\">" + "\u00D7" + item_amount + "</div>";
                         }
@@ -515,13 +509,10 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 if (!hide_quest_score)
                 {
                     // DIVIDER
-                    table_html += "<th>";
-                    table_html += "<img class=\"quest-item-image quest-item-divider\" title=\""
-                        + "\" src=\"\" alt=\"\">";
-                    table_html += "</th>";
+                    table_html += "<th><img class=\"divider\" title=\"\" src=\"\" alt=\"\"></th>";
 
                     // QUEST POINTS
-                    table_html += "<th height='64' width='144'><h3 class=\"quest-title " + quest_score_color + "\">" + quest_score + " pts</h3></th>";
+                    table_html += "<th><h3 class=\"quest-title " + quest_score_color + "\">" + quest_score + " pts</h3></th>";
                 }
 
                 // END TABLE ROW
@@ -611,9 +602,6 @@ function get_priority_items()
     {
         refresh_quest_table();
     }
-
-    //console.log(JSON.stringify(priority_items_array));
-    //console.log("[Priority Projects] - Priority Item list compiled!");
 }
 
 function focus_on_item(item_name, item_id)

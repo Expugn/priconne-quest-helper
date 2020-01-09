@@ -51,26 +51,26 @@ img.character {
 }
 
 /* RANK COLORS ====================================================================================================== */
-.common_color {
+.common-rank_color {
     background-color: rgba(90, 190, 255, 0.5) !important;
 }
 
-.copper_color {
+.copper-rank_color {
     background-color: rgba(255, 182, 140, 0.5) !important;
 }
 
-.silver_color {
+.silver-rank_color {
     background-color: rgba(198, 211, 214, 0.5) !important;
 }
 
-.gold_color {
+.gold-rank_color {
     background-color: rgba(249, 194, 62, 0.5) !important;
 }
 
-.purple_color {
+.purple-rank_color {
     background-color: rgba(231, 109, 255, 0.5) !important;
 }
 
-.undefined_color {
+.undefined-rank_color {
     background-color: rgba(255, 255, 255, 0.5) !important;
 }

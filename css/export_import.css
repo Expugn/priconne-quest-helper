@@ -98,3 +98,9 @@ label {
 .auto-overflow-x {
     overflow-x: auto;
 }
+
+.item-amount {
+    /* POSITIONING */
+    margin-top: -48%;
+    margin-right: 8%;
+}

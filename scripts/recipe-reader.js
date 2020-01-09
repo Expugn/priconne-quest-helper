@@ -115,13 +115,13 @@ function figure_out_total_ingredients(all_recipe_maps_array)
     {
         for (let [item, value] of total_recipe)
         {
-            // add table row start if first item
+            // ADD TABLE ROW START IF FIRST ITEM
             if (item_counter === 0)
             {
                 table_html += "<tr>";
             }
 
-            // close table row and start new if 7 items have been made
+            // CLOSE TABLE ROW AND START NEW IF 7 ITEMS HAVE BEEN MADE
             if (item_counter % 7 === 0 && item_counter !== 0)
             {
                 table_html += "</tr>";
@@ -130,14 +130,15 @@ function figure_out_total_ingredients(all_recipe_maps_array)
             }
 
             // IMAGE
-            table_html += "<th class=\"requested-item-image\">";
-            table_html += "<button id=\"request-button-" + item.split(' ').join('_') + "\" class=\"ingredient-button all-ingredient-comp pointer-cursor" + (disabled_items.includes(item) ? " low-opacity" : "") + "\" onclick=\"toggle_enabled_item(" + "\'" + clean_apostrophes(item) + "\'" + ")\"><img class=\"ingredient-button-image ingredient-button all-ingredient-comp\" title=\"" + item + "\" src=\"" + get_item_image_path(item.split(' ').join('_')) + "\" alt=\"\"><div class='ingredient-button-text all-ingredient-comp'>\u00D7" + value + "</div></button>";
+            table_html += "<th>";
+            table_html += "<button id=\"request-button-" + item.split(' ').join('_') + "\" class=\"item-button pointer-cursor" + (disabled_items.includes(item) ? " low-opacity" : "") + "\" onclick=\"toggle_enabled_item(" + "\'" + clean_apostrophes(item) + "\'" + ")\"><img class=\"item-button-image\" title=\"" + item + "\" src=\"" + get_item_image_path(item.split(' ').join('_')) + "\" alt=\"\"><div class=\"item-amount required-ingredients_button_item-amount\">\u00D7" + value + "</div></button>";
             table_html += "</th>";
 
             item_counter++;
         }
-        // close table row
+        // CLOSE TABLE ROW
         table_html += "</tr>";
+        table_html += "<tr class=\"item-table-spacing\"></tr>";
     }
     table_html += "</tbody>";
 

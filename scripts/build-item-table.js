@@ -183,18 +183,16 @@ function build_item_tables()
     misc_item_HTML = close_item_table(misc_count, misc_item_HTML, "misc");
 
     // DISPLAY ITEM TABLES// APPLY SPACING
-    //         item_HTML += ;
-    document.getElementById("common-item-table").innerHTML = "<tr class=\"spacing\"></tr>" + common_item_HTML + "<tr class=\"spacing\"></tr>";
-    document.getElementById("copper-item-table").innerHTML = "<tr class=\"spacing\"></tr>" + copper_item_HTML + "<tr class=\"spacing\"></tr>";
-    document.getElementById("silver-item-table").innerHTML = "<tr class=\"spacing\"></tr>" + silver_item_HTML + "<tr class=\"spacing\"></tr>";
-    document.getElementById("gold-item-table").innerHTML = "<tr class=\"spacing\"></tr>" + gold_item_HTML + "<tr class=\"spacing\"></tr>";
-    document.getElementById("purple-item-table").innerHTML = "<tr class=\"spacing\"></tr>" + purple_item_HTML + "<tr class=\"spacing\"></tr>";
-    document.getElementById("misc-item-table").innerHTML = "<tr class=\"spacing\"></tr>" + misc_item_HTML + "<tr class=\"spacing\"></tr>";
+    document.getElementById("common-item-table").innerHTML = "<tr class=\"item-table-spacing\"></tr>" + common_item_HTML + "<tr class=\"item-table-spacing\"></tr>";
+    document.getElementById("copper-item-table").innerHTML = "<tr class=\"item-table-spacing\"></tr>" + copper_item_HTML + "<tr class=\"item-table-spacing\"></tr>";
+    document.getElementById("silver-item-table").innerHTML = "<tr class=\"item-table-spacing\"></tr>" + silver_item_HTML + "<tr class=\"item-table-spacing\"></tr>";
+    document.getElementById("gold-item-table").innerHTML = "<tr class=\"item-table-spacing\"></tr>" + gold_item_HTML + "<tr class=\"item-table-spacing\"></tr>";
+    document.getElementById("purple-item-table").innerHTML = "<tr class=\"item-table-spacing\"></tr>" + purple_item_HTML + "<tr class=\"item-table-spacing\"></tr>";
+    document.getElementById("misc-item-table").innerHTML = "<tr class=\"item-table-spacing\"</tr>" + misc_item_HTML + "<tr class=\"item-table-spacing\"></tr>";
 
     if (item_table_ready === false)
     {
         item_table_ready = true;
-        //console.log(get_colored_message("Table Builder", "Item tables have been built.", message_status.INFO));
         loadingToast();
     }
 }
@@ -228,10 +226,10 @@ function add_item_image_to_table(count, item_HTML, item_name, item_id, rarity_cl
                 }
             }
 
-            item_HTML += "<th class=\"item-amt\">";
+            item_HTML += "<th>";
             item_HTML += "<label for=\"" + rarity_class + "-" + (i + 1) + "-amt\"></label>";
             item_HTML += "<input id=\"" + rarity_class + "-" + (i + 1) + "-amt\" " +
-                "class=\"item-input notranslate\" " +
+                "class=\"notranslate\" " +
                 "type=\"number\" " +
                 "min=\"0\" " +
                 "max=\"" + ((rarity_class === "misc") ? 500 : 99) + "\" " +
@@ -242,17 +240,17 @@ function add_item_image_to_table(count, item_HTML, item_name, item_id, rarity_cl
         item_HTML += "</tr>";
 
         // APPLY SPACING
-        item_HTML += "<tr class=\"spacing\"></tr>";
+        item_HTML += "<tr class=\"item-table-spacing\"></tr>";
 
         // BEGIN NEW ITEM IMAGE ROW
         item_HTML += "<tr>";
     }
 
     // INSERT ITEM IMAGE
-    item_HTML += "<th class=\"item-image\">";
-    item_HTML += "<button id=\"item-table-button-" + item_id + "\" class=\"ingredient-button pointer-cursor\" " + "onclick=\"focus_on_item(" + "\'" + clean_apostrophes(item_name) + "\', \'" + item_id + "\')\">";
+    item_HTML += "<th class='item-table_padding'>";
+    item_HTML += "<button id=\"item-table-button-" + item_id + "\" class=\"item-button pointer-cursor\" " + "onclick=\"focus_on_item(" + "\'" + clean_apostrophes(item_name) + "\', \'" + item_id + "\')\">";
     item_HTML += "<img id=\"" + item_id + "\" " +
-        "class=\"item-image notranslate item-table-item" + ((focused_item_element_id === item_id) ? " focused-item" : "") + "\" " +
+        "class=\"item-button-image item-table-item notranslate" + ((focused_item_element_id === item_id) ? " focused-item" : "") + "\" " +
         "title=\"" + item_name + "\" " +
         "src=\"" + get_item_image_path(item_name.split(' ').join('_')) + "\" " +
         "alt=\"\">";
@@ -287,10 +285,10 @@ function close_item_table(count, item_HTML, rarity_class)
             }
         }
 
-        item_HTML += "<th class=\"item-amt\">";
+        item_HTML += "<th>";
         item_HTML += "<label for=\"" + rarity_class + "-" + (i + 1) + "-amt\"></label>";
         item_HTML += "<input id=\"" + rarity_class + "-" + (i + 1) + "-amt\" " +
-            "class=\"item-input notranslate\" " +
+            "class=\"notranslate\" " +
             "type=\"number\" " +
             "min=\"0\" " +
             "max=\"" + ((rarity_class === "misc") ? 500 : 99) + "\" " +
@@ -301,7 +299,7 @@ function close_item_table(count, item_HTML, rarity_class)
     item_HTML += "</tr>";
 
     // APPLY SPACING
-    item_HTML += "<tr class=\"spacing\"></tr>";
+    item_HTML += "<tr class=\"item-table-spacing\"></tr>";
 
     // END TABLE BODY
     item_HTML += "</tbody>";

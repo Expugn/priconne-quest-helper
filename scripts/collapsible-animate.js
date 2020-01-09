@@ -32,7 +32,7 @@ function enableCollapsible()
     for (let i = 0; i < coll.length; i++) {
         coll[i].addEventListener("click", function() {
             let content = this.nextElementSibling;
-            this.classList.toggle("active");
+            this.classList.toggle("collapsible-active");
 
             if (content.style.maxHeight){
                 /* HIDE CONTENT */
@@ -48,8 +48,6 @@ function enableCollapsible()
             }
         });
     }
-
-    //console.log("[Collapsible] - Enabled Collapsible Menus!");
 
     if (collapsible_ready === false)
     {

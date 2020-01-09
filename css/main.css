@@ -31,6 +31,7 @@ img.footer {
     top: 7px;
 }
 
+/* SCRIPT CLASSES =================================================================================================== */
 .use-webp {
     /*
         AN ELEMENT WITH THIS CLASS CAN SWITCH BETWEEN .PNG AND .WEBP DEPENDING ON BROWSER COMPATIBILITY.
@@ -38,8 +39,39 @@ img.footer {
     */
 }
 
+.notranslate {
+    /*
+        CLASS THAT PREVENTS GOOGLE TRANSLATION
+    */
+}
+
+/* COLORS =========================================================================================================== */
 .heart-red {
     color: #ff4d4d
+}
+
+.text-color_common {
+    color: #88acf0;
+}
+
+.text-color_copper {
+    color: #f7ba9c;
+}
+
+.text-color_silver {
+    color: #deebf7;
+}
+
+.text-color_gold {
+    color: #ffdf73;
+}
+
+.text-color_purple {
+    color: #d67dff;
+}
+
+.text-color_misc {
+    color: #a1e9ff;
 }
 
 /* TITLE ============================================================================================================ */
@@ -125,9 +157,9 @@ img.item-button-image {
     /* TEXT DESIGN */
     font-family: "Calibri", Arial, serif;
     text-shadow: 1px 1px 4px #000000,
-    1px 1px 4px #000000,
-    1px 1px 4px #000000,
-    1px 1px 4px #000000;
+        1px 1px 4px #000000,
+        1px 1px 4px #000000,
+        1px 1px 4px #000000;
     color: white;
     text-align: right;
 }
@@ -140,6 +172,11 @@ img.item-button-image {
 .low-opacity {
     -webkit-filter: opacity(30%);
     filter: opacity(30%);
+}
+
+.grayscale {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 .pointer-cursor:hover {

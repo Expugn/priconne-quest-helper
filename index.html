@@ -60,7 +60,6 @@
     <script src="scripts/recipe-reader.js"></script>
     <script src="scripts/projects.js"></script>
     <script src="scripts/recommended-quest-table.js"></script>
-    <script src="scripts/requested-item-table.js"></script>
     <script src="scripts/read-item.js"></script>
     <script src="scripts/update-requested.js"></script>
     <script src="scripts/collapsible-animate.js"></script>
@@ -72,20 +71,20 @@
 
     <!-- CSS STYLE SHEETS -->
     <link rel="stylesheet" href="vendor/toastr/toastr.css"/>
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/webpage.css">
-    <link rel="stylesheet" href="css/item_table.css">
 </head>
 
 <body class="fancy-body">
 <!-- TITLE ( PRINCESS CONNECT RE:DIVE - QUEST HELPER ) -->
-<div id="title-div" class="use-webp div-background-title" onclick="">
-    <div id="title-text-div" class="title-hover">
-        <h1 class="title">
+<div id="title-div" class="title-background use-webp" onclick="">
+    <div id="title-text-div">
+        <h1 class="title main_title">
             <span translate_text="system.title">
                 Princess Connect! Re:Dive
             </span>
         </h1>
-        <h2 id="sub-title" class="title">
+        <h2 id="sub-title" class="title sub_title">
             <span translate_text="system.subtitle">
                 Quest Helper
             </span>
@@ -94,40 +93,40 @@
 </div>
 
 <!-- NAVIGATION BAR -->
-<div class="topnav">
-    <button id="navigation-items" class="is-open nav-button" type="button" onclick="open_items()">
-        <img class="use-webp nav-button-image" image_folder="webpage" file_name="button-icon_items" src_prefix="" src="" alt="">
-        <span class="nav-button-text" translate_text="items_tab.tab_title">
+<div class="navigation-bar">
+    <button id="navigation-items" class="is-open" type="button" onclick="open_items()">
+        <img class="navigation-bar-image use-webp" image_folder="webpage" file_name="button-icon_items" src_prefix="" src="" alt="">
+        <span class="navigation-bar-text" translate_text="items_tab.tab_title">
             Items
         </span>
     </button>
-    <button id="navigation-presets" class="nav-button" type="button" onclick="open_presets()">
-        <img class="use-webp nav-button-image" image_folder="webpage" file_name="button-icon_presets" src_prefix="" src="" alt="">
-        <span class="nav-button-text" translate_text="presets_tab.tab_title">
+    <button id="navigation-presets" type="button" onclick="open_presets()">
+        <img class="navigation-bar-image use-webp" image_folder="webpage" file_name="button-icon_presets" src_prefix="" src="" alt="">
+        <span class="navigation-bar-text" translate_text="presets_tab.tab_title">
             Presets
         </span>
     </button>
-    <button id="navigation-projects" class="nav-button" type="button" onclick="open_projects()">
-        <img class="use-webp nav-button-image" image_folder="webpage" file_name="button-icon_projects" src_prefix="" src="" alt="">
-        <span class="nav-button-text" translate_text="projects_tab.tab_title">
+    <button id="navigation-projects" type="button" onclick="open_projects()">
+        <img class="navigation-bar-image use-webp" image_folder="webpage" file_name="button-icon_projects" src_prefix="" src="" alt="">
+        <span class="navigation-bar-text" translate_text="projects_tab.tab_title">
             Projects
         </span>
     </button>
-    <button id="navigation-settings" class="nav-button" type="button" onclick="open_settings()">
-        <img class="use-webp nav-button-image" image_folder="webpage" file_name="button-icon_settings" src_prefix="" src="" alt="">
-        <span class="nav-button-text" translate_text="settings_tab.tab_title">
+    <button id="navigation-settings" type="button" onclick="open_settings()">
+        <img class="navigation-bar-image use-webp" image_folder="webpage" file_name="button-icon_settings" src_prefix="" src="" alt="">
+        <span class="navigation-bar-text" translate_text="settings_tab.tab_title">
             Settings
         </span>
     </button>
-    <button id="navigation-other" class="nav-button" type="button" onclick="open_other()">
-        <img class="use-webp nav-button-image" image_folder="webpage" file_name="button-icon_other" src_prefix="" src="" alt="">
-        <span class="nav-button-text" translate_text="other_tab.tab_title">
+    <button id="navigation-other" type="button" onclick="open_other()">
+        <img class="navigation-bar-image use-webp" image_folder="webpage" file_name="button-icon_other" src_prefix="" src="" alt="">
+        <span class="navigation-bar-text" translate_text="other_tab.tab_title">
             Other
         </span>
         <img id="update-notification-img" class="use-webp" image_folder="webpage" file_name="Notification_Icon" src_prefix="" src="" alt="">
     </button>
     <label for="language-option" hidden>Language Option</label>
-    <select id="language-option" class="nav-button" onchange="load_language()" disabled>
+    <select id="language-option" onchange="load_language()" disabled>
         <option value="en">English</option>
         <option value="ja">日本語</option>
         <option value="ko">한국어</option>
@@ -138,84 +137,84 @@
 
 <!-- ITEMS TAB -->
 <div id="items-container">
-    <div id="common-div" class="use-webp div-background div-background-common text-overflow">
-        <h2 class="common-color rarity-title rarity-button collapsible">
+    <div id="common-div" class="use-webp item-table-background item-table-common">
+        <h2 class="text-color_common rarity-button collapsible">
             <span translate_text="items_tab.common_title">Common</span>
         </h2>
-        <div id="common-item-content" class="common-items item-table-top-spacing collapsible-content">
+        <div id="common-item-content" class="collapsible-content">
             <!-- COMMON ITEMS GET ADDED BELOW -->
-            <table id="common-item-table" class="centerTable itemTable"></table>
+            <table id="common-item-table" class="center-table itemTable"></table>
         </div>
     </div>
 
     <hr>
 
-    <div id="copper-div" class="use-webp div-background div-background-copper text-overflow">
-        <h2 class="copper-color rarity-title rarity-button collapsible">
+    <div id="copper-div" class="use-webp item-table-background item-table-copper">
+        <h2 class="text-color_copper rarity-button collapsible">
             <span translate_text="items_tab.copper_title">Copper</span>
         </h2>
-        <div id="copper-item-content" class="copper-items item-table-top-spacing collapsible-content">
+        <div id="copper-item-content" class="collapsible-content">
             <!-- COPPER ITEMS GET ADDED BELOW -->
-            <table id="copper-item-table" class="centerTable itemTable"></table>
+            <table id="copper-item-table" class="center-table itemTable"></table>
         </div>
     </div>
     <hr>
 
-    <div id="silver-div" class="use-webp div-background div-background-silver text-overflow">
-        <h2 class="silver-color rarity-title rarity-button collapsible">
+    <div id="silver-div" class="use-webp item-table-background item-table-silver">
+        <h2 class="text-color_silver rarity-button collapsible">
             <span translate_text="items_tab.silver_title">Silver</span>
         </h2>
-        <div id="silver-item-content" class="silver-items item-table-top-spacing collapsible-content">
+        <div id="silver-item-content" class="collapsible-content">
             <!-- SILVER ITEMS GET ADDED BELOW -->
-            <table id="silver-item-table" class="centerTable itemTable"></table>
+            <table id="silver-item-table" class="center-table itemTable"></table>
         </div>
     </div>
 
     <hr>
 
-    <div id="gold-div" class="use-webp div-background div-background-gold text-overflow">
-        <h2 class="gold-color rarity-title rarity-button collapsible">
+    <div id="gold-div" class="use-webp item-table-background item-table-gold">
+        <h2 class="text-color_gold rarity-button collapsible">
             <span translate_text="items_tab.gold_title">Gold</span>
         </h2>
-        <div id="gold-item-content" class="gold-items item-table-top-spacing collapsible-content">
+        <div id="gold-item-content" class="collapsible-content">
             <!-- GOLD ITEMS GET ADDED BELOW -->
-            <table id="gold-item-table" class="centerTable itemTable"></table>
+            <table id="gold-item-table" class="center-table itemTable"></table>
         </div>
     </div>
 
     <hr>
 
-    <div id="purple-div" class="use-webp div-background div-background-purple text-overflow">
-        <h2 class="purple-color rarity-title rarity-button collapsible">
+    <div id="purple-div" class="use-webp item-table-background item-table-purple">
+        <h2 class="text-color_purple rarity-button collapsible">
             <span translate_text="items_tab.purple_title">Purple</span>
         </h2>
-        <div id="purple-item-content" class="purple-items item-table-top-spacing collapsible-content">
+        <div id="purple-item-content" class="collapsible-content">
             <!-- PURPLE ITEMS GET ADDED BELOW -->
-            <table id="purple-item-table" class="centerTable itemTable"></table>
+            <table id="purple-item-table" class="center-table itemTable"></table>
         </div>
     </div>
 
     <hr>
 
-    <div id="misc-div" class="use-webp div-background div-background-misc text-overflow">
-        <h2 class="misc-color rarity-title rarity-button collapsible">
+    <div id="misc-div" class="use-webp item-table-background item-table-misc">
+        <h2 class="text-color_misc rarity-button collapsible">
             <span translate_text="items_tab.miscellaneous_title">Misc.</span>
         </h2>
-        <div id="misc-item-content" class="misc-items item-table-top-spacing collapsible-content">
+        <div id="misc-item-content" class="collapsible-content">
             <!-- MEMORY PIECE / MISC ITEMS GET ADDED BELOW -->
-            <table id="misc-item-table" class="centerTable itemTable"></table>
+            <table id="misc-item-table" class="center-table itemTable"></table>
         </div>
     </div>
 
     <hr>
 
-    <div id="requested-div" class="use-webp div-background div-background-requested text-overflow-auto">
-        <h2 class="request-title">
+    <div id="requested-div" class="use-webp item-table-background item-table-requested">
+        <h2 class="item-table_category-title">
             <span translate_text="items_tab.requested_items_title">Requested Items</span>
         </h2>
         <div class="request-info">
             <!-- REQUESTED ITEMS (FULL EQUIPMENT) GET ADDED BELOW -->
-            <table id="requested-item-table" class="centerTable">
+            <table id="requested-item-table" class="center-table">
                 <!-- STARTING TIP FOR REQUESTED ITEMS -->
                 <tr><th>
                     <h4 class="tip">
@@ -230,11 +229,13 @@
 </div>
 
 <!-- PRESETS TAB -->
-<div id="presets-container" style="display: none;">
+<div id="presets-container" hidden>
     <div id="character-preset-div" class="use-webp">
-        <h2 class="category-title"><span translate_text="presets_tab.character_presets">Character Presets</span></h2>
-        <div class="text-overflow-auto">
-            <table class="centerTable">
+        <h2 class="category-title">
+            <span translate_text="presets_tab.character_presets">Character Presets</span>
+        </h2>
+        <div class="text-overflow_auto">
+            <table class="center-table">
                 <!-- SELECT LIST OF CHARACTERS FOUND IN data/character_data.json -->
                 <tr><th></th><th>
                     <label>
@@ -244,8 +245,8 @@
 
                 <!-- SELECTED CHARACTER IMAGE AND NAME -->
                 <tr><td></td><th>
-                    <img id="preset-character-image" class="use-webp" image_folder="unit_icon" file_name="Placeholder" src_prefix="" src="" alt="" style="height: 100px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.30); border-radius: 6px;"><br>
-                    <label id="preset-character-name-label" class="category-title priconne-font" style="color: navajowhite !important; line-height: 24px;"></label>
+                    <img id="preset-character-image" class="use-webp presets_unit-icon" image_folder="unit_icon" file_name="Placeholder" src_prefix="" src="" alt=""><br>
+                    <label id="preset-character-name-label" class="category-title presets_unit-info priconne-font"></label>
                 </th><td></td></tr>
 
                 <!-- MIN RANK TO MAX RANK OPTIONS -->
@@ -292,7 +293,7 @@
         </div>
 
         <!-- ITEM TABLE OVERWRITE WARNING -->
-        <h3 class="category-title" style="text-shadow: 1px 1px 2px #000000,1px 1px 3px #000000;">
+        <h3 class="category-title presets_overwrite-warning">
             <span translate_text="presets_tab.overwrite_warning">
                 Currently selected items will be replaced<br>
                 when the <span style="color: lightpink">Load Item</span> button is pressed.
@@ -302,11 +303,11 @@
 </div>
 
 <!-- PROJECTS TAB -->
-<div id="projects-container" style="display: none;">
+<div id="projects-container" hidden>
     <!-- LOCAL STORAGE WARNING ; DISPLAYS IF LOCAL STORAGE ISN'T AVAILABLE -->
-    <div id="local-storage-warning" style="display: none">
+    <div id="local-storage-warning" hidden>
         <br>
-        <table class="centerTable">
+        <table class="center-table">
             <tr><th>
                     <label style="color: red; font-weight: bolder;">
                         <span translate_text="projects_tab.localstorage_warning">
@@ -323,7 +324,7 @@
         <br>
 
         <!-- PROJECT SAVING | PROJECT NAME INPUT ; SAVE BUTTON -->
-        <div id="save-project-div">
+        <div>
             <label for="project-name-input"><span translate_text="projects_tab.project_name_label">Project Name:</span> </label>
             <input id="project-name-input" type="text" name="project-name">
             <button id="project-save-button" type="button" onclick="save_project_data()"><span translate_text="projects_tab.save_project_button">Save Project</span></button>
@@ -332,7 +333,7 @@
         <br>
 
         <!-- PROJECT OPTIONS | SAVED PROJECT SELECT ; LOAD ; ADD/SUB ITEMS ; PRIORITIZE ; DELETE ; COMPLETE ; CLEAR ITEM TABLES -->
-        <div id="project-options-div">
+        <div>
             <label for="saved-projects-select">
                 <span translate_text="projects_tab.select_saved_project_label">Select Saved Project:</span>
             </label>
@@ -372,7 +373,7 @@
         <br><br>
 
         <!-- BLACKLIST OPTIONS | SAVE ; LOAD ; CLEAR ; DELETE -->
-        <div id="project-blacklist-options-div">
+        <div>
             <button id="blacklist-save-button" type="button" onclick="save_blacklist()">
                 <span translate_text="projects_tab.save_blacklist_button">Save Blacklist</span>
             </button>
@@ -391,7 +392,7 @@
 </div>
 
 <!-- SETTINGS TAB -->
-<div id="settings-container" style="display: none;">
+<div id="settings-container" hidden>
     <!-- SETTINGS -->
     <div id="settings-div">
         <br>
@@ -448,7 +449,6 @@
             <span translate_text="settings_tab.lowest_quest_chapter_displayed">Lowest Quest Chapter Displayed:</span>
         </label>
         <input id="min-quest-chapter"
-               class="item-input"
                type="number"
                min="1"
                max="30"
@@ -461,7 +461,6 @@
             <span translate_text="settings_tab.highest_quest_chapter_displayed">Highest Quest Chapter Displayed:</span>
         </label>
         <input id="max-quest-chapter"
-               class="item-input"
                type="number"
                min="1"
                max="30"
@@ -496,7 +495,6 @@
             <span translate_text="settings_tab.items_displayed_per_row">Items Displayed per Row (1 - 15):</span>
         </label>
         <input id="item-amount-per-row"
-               class="item-input"
                type="number"
                min="1"
                max="15"
@@ -508,20 +506,20 @@
         <label>
             <span translate_text="settings_tab.ignore_item_rarity_in_recipe">Ignore Item Rarity in Recipe:</span>
         </label><br>
-        <button id="ignore-button-common" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('common')">
-            <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Common Items" image_folder="webpage" file_name="Placeholder_Common" src_prefix="" src="" alt="">
+        <button id="ignore-button-common" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('common')">
+            <img class="item-button-image use-webp" title="Ignore Common Items" image_folder="webpage" file_name="Placeholder_Common" src_prefix="" src="" alt="">
         </button>
-        <button id="ignore-button-copper" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('copper')">
-            <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Copper Items" image_folder="webpage" file_name="Placeholder_Copper" src_prefix="" src="" alt="">
+        <button id="ignore-button-copper" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('copper')">
+            <img class="item-button-image use-webp" title="Ignore Copper Items" image_folder="webpage" file_name="Placeholder_Copper" src_prefix="" src="" alt="">
         </button>
-        <button id="ignore-button-silver" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('silver')">
-            <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Silver Items" image_folder="webpage" file_name="Placeholder_Silver" src_prefix="" src="" alt="">
+        <button id="ignore-button-silver" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('silver')">
+            <img class="item-button-image use-webp" title="Ignore Silver Items" image_folder="webpage" file_name="Placeholder_Silver" src_prefix="" src="" alt="">
         </button>
-        <button id="ignore-button-gold" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('gold')">
-            <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Gold Items" image_folder="webpage" file_name="Placeholder_Gold" src_prefix="" src="" alt="">
+        <button id="ignore-button-gold" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('gold')">
+            <img class="item-button-image use-webp" title="Ignore Gold Items" image_folder="webpage" file_name="Placeholder_Gold" src_prefix="" src="" alt="">
         </button>
-        <button id="ignore-button-purple" class="ingredient-button all-ingredient-comp pointer-cursor" onclick="toggle_ignored_rarity('purple')">
-            <img class="ingredient-button-image ingredient-button all-ingredient-comp use-webp" title="Ignore Purple Items" image_folder="webpage" file_name="Placeholder_Purple" src_prefix="" src="" alt="">
+        <button id="ignore-button-purple" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('purple')">
+            <img class="item-button-image use-webp" title="Ignore Purple Items" image_folder="webpage" file_name="Placeholder_Purple" src_prefix="" src="" alt="">
         </button>
 
         <br><br>
@@ -579,13 +577,13 @@
 </div>
 
 <!-- OTHER TAB -->
-<div id="other-container" style="display: none;">
+<div id="other-container" hidden>
     <!-- UPDATE IN PROGRESS STATUS -->
     <div id="update-div" class="use-webp">
         <h2 class="category-title">
             <span translate_text="other_tab.update_in_progress">Update in Progress!</span><br><span id="update-name"></span>
         </h2>
-        <table class="centerTable">
+        <table class="center-table">
             <tbody>
                 <!-- QUEST DATA -->
                 <tr><td>
@@ -601,7 +599,7 @@
                         </label>
                     </td>
                     <td>
-                        <img id="update-quest-data-check" class="use-webp update-checkmark" image_folder="webpage" file_name="Checkmark" src_prefix="" src="" style="display: none;" alt="">
+                        <img id="update-quest-data-check" class="use-webp update-checkmark" image_folder="webpage" file_name="Checkmark" src_prefix="" src="" alt="" hidden>
                     </td>
                 </tr>
 
@@ -620,7 +618,7 @@
                         </label>
                     </td>
                     <td>
-                        <img id="update-equipment-data-check" class="use-webp update-checkmark" image_folder="webpage" file_name="Checkmark" src_prefix="" src="" style="display: none;" alt="">
+                        <img id="update-equipment-data-check" class="use-webp update-checkmark" image_folder="webpage" file_name="Checkmark" src_prefix="" src="" alt="" hidden>
                     </td>
                 </tr>
 
@@ -636,7 +634,7 @@
                         </label>
                     </td>
                     <td>
-                        <img id="update-character-data-check" class="use-webp update-checkmark" image_folder="webpage" file_name="Checkmark" src_prefix="" src="" style="display: none;" alt="">
+                        <img id="update-character-data-check" class="use-webp update-checkmark" image_folder="webpage" file_name="Checkmark" src_prefix="" src="" alt="" hidden>
                     </td>
                 </tr>
             </tbody>
@@ -728,8 +726,8 @@
         <!-- priconne-shiritori -->
         <a href="https://expugn.github.io/priconne-shiritori/" target="_blank" style="text-decoration: none;">
             <div class="hyperlink-image">
-                <img class="hyperlink-bg-img" style="max-height: 64px; max-width: 64px;" src="https://raw.githubusercontent.com/Expugn/priconne-shiritori/master/images/game/yuni.png" alt="priconne-shiritori">
-                <span class="hyperlink-text" style="font-size: 14px !important; top: 62px;">priconne<br>shiritori<br>( JP )</span>
+                <img class="hyperlink-bg-img app-hyperlink_image" src="https://raw.githubusercontent.com/Expugn/priconne-shiritori/master/images/game/yuni.png" alt="priconne-shiritori">
+                <span class="hyperlink-text app-hyperlink_text">priconne<br>shiritori<br>( JP )</span>
             </div>
         </a>
         <br><br>
@@ -763,13 +761,13 @@
 <hr>
 
 <!-- REQUIRED INGREDIENTS (EQUIPMENT FRAGMENTS) -->
-<div id="required-div" class="use-webp div-background div-background-required text-overflow-auto">
-    <h2 class="request-title">
+<div id="required-div" class="use-webp item-table-background item-table-required">
+    <h2 class="item-table_category-title">
         <span translate_text="system.required_ingredients_title">Required Ingredients</span>
     </h2>
     <div class="request-info">
         <!-- REQUIRED INGREDIENTS FROM REQUESTED ITEMS DISPLAYED BELOW -->
-        <table id="required-ingredient-table" class="centerTable">
+        <table id="required-ingredient-table" class="center-table">
             <!-- STARTING TIP FOR REQUIRED INGREDIENTS -->
             <tr><th>
                     <h4 class="tip">
@@ -793,14 +791,14 @@
 <hr>
 
 <!-- RECOMMENDED QUESTS -->
-<div id="recommended-div" class="use-webp div-background div-background-recommended text-overflow-auto">
-    <h2 class="request-title">
+<div id="recommended-div" class="use-webp item-table-background item-table-recommended">
+    <h2 class="item-table_category-title">
         <span translate_text="system.recommended_quest_title">Recommended Quests</span>
     </h2>
     <!-- RECOMMENDED QUESTS DISPLAY -->
-    <div id="recommended-quest-div" class="request-info transition">
+    <div id="recommended-quest-div" class="request-info">
         <!-- RECOMMENDED QUESTS FOUND FROM REQUIRED INGREDIENTS DISPLAYED BELOW -->
-        <table id="recommended-quest-table" class="centerTable">
+        <table id="recommended-quest-table" class="center-table">
             <!-- STARTING TIP FOR RECOMMENDED QUESTS -->
             <tr><th>
                 <h4 class="tip">
@@ -847,7 +845,7 @@
 </footer>
 
 <!-- FOCUSED ITEM POPUP -->
-<div id="focused-item-popup" class="centerTable" hidden>
+<div id="focused-item-popup" hidden>
     <img id="focused-item-image" class="use-webp" src="images/items/Placeholder.png" alt=""><br>
     <img id="lens-image" class="use-webp" image_folder="webpage" file_name="lens" src_prefix="" src="" alt="">
 </div>
@@ -909,10 +907,10 @@
         if (typeof(Storage) === "undefined")
         {
             console.log(get_colored_message("System", "LocalStorage is not supported on this browser! Disabling Projects, Blacklist, Data Exporting/Importing, and Settings!", message_status.WARNING));
-            document.getElementById("projects-div").style.display = "none";
-            document.getElementById("data-management-div").style.display = "none";
-            document.getElementById("setting-saving-div").style.display = "none";
-            document.getElementById("local-storage-warning").style.display = "inline";
+            document.getElementById("projects-div").hidden = true;
+            document.getElementById("data-management-div").hidden = true;
+            document.getElementById("setting-saving-div").hidden = true;
+            document.getElementById("local-storage-warning").hidden = false;
         }
     };
 </script>

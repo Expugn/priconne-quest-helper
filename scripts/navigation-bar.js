@@ -7,7 +7,7 @@ function open_items()
     let item_nav = document.getElementById("navigation-items");
 
     // SHOW ITEM CONTAINER AND HIDE OTHER ELEMENTS
-    item_container.style.display = "block";
+    item_container.hidden = false;
 
     // CHANGE BUTTON COLOR
     if (!item_nav.classList.contains("is-open")) { item_nav.classList.add("is-open"); }
@@ -22,7 +22,7 @@ function open_presets()
     let presets_nav = document.getElementById("navigation-presets");
 
     // SHOW ITEM CONTAINER AND HIDE OTHER ELEMENTS
-    presets_container.style.display = "block";
+    presets_container.hidden = false;
 
     // CHANGE BUTTON COLOR
     if (!presets_nav.classList.contains("is-open")) { presets_nav.classList.add("is-open"); }
@@ -37,7 +37,7 @@ function open_projects()
     let projects_nav = document.getElementById("navigation-projects");
 
     // SHOW ITEM CONTAINER AND HIDE OTHER ELEMENTS
-    projects_container.style.display = "block";
+    projects_container.hidden = false;
 
     // CHANGE BUTTON COLOR
     if (!projects_nav.classList.contains("is-open")) { projects_nav.classList.add("is-open"); }
@@ -52,7 +52,7 @@ function open_settings()
     let settings_nav = document.getElementById("navigation-settings");
 
     // SHOW ITEM CONTAINER AND HIDE OTHER ELEMENTS
-    settings_container.style.display = "block";
+    settings_container.hidden = false;
 
     // CHANGE BUTTON COLOR
     if (!settings_nav.classList.contains("is-open")) { settings_nav.classList.add("is-open"); }
@@ -67,7 +67,7 @@ function open_other()
     let other_nav = document.getElementById("navigation-other");
 
     // SHOW ITEM CONTAINER AND HIDE OTHER ELEMENTS
-    other_container.style.display = "block";
+    other_container.hidden = false;
 
     // CHANGE BUTTON COLOR
     if (!other_nav.classList.contains("is-open")) { other_nav.classList.add("is-open"); }
@@ -89,11 +89,11 @@ function close_everything()
     let other_nav = document.getElementById("navigation-other");
 
     // SHOW ITEM CONTAINER AND HIDE OTHER ELEMENTS
-    item_container.style.display = "none";
-    presets_container.style.display = "none";
-    projects_container.style.display = "none";
-    settings_container.style.display = "none";
-    other_container.style.display = "none";
+    item_container.hidden = true;
+    presets_container.hidden = true;
+    projects_container.hidden = true;
+    settings_container.hidden = true;
+    other_container.hidden = true;
 
     // CHANGE BUTTON COLOR
     if (item_nav.classList.contains("is-open")) { item_nav.classList.remove("is-open"); }

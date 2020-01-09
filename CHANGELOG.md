@@ -3,6 +3,25 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.6.5] - 2020-01-08
+### Changed
+- Cleaned up `css/webpage.css`
+- Cleaned up `index.html`
+  - Removed useless element IDs
+  - Removed useless classes
+- Renamed some css class names so they're easier to figure out from a glance
+- Title background now expands `50px` top and bottom when hovered over instead of `100px` for just top
+- Minor changes to `pages/export-data/` and `pages/import-data/` so they work with the new .css files
+- Clicking the `Awesome! Take Me Back to the Main Page!` button in `pages/import-data/` no longer leaves a `?` in the URL when redirected
+- Changed `pages/export-data/`'s title to `priconne-quest-helper Data Export` from `Export Data | priconne-quest-helper`
+- Changed `pages/import-data/`'s title to `priconne-quest-helper Data Import` from `Import Data | priconne-quest-helper`
+### Removed
+- Removed `css/item_table.css` (MOVED CONTENTS TO `css/webpage.css`)
+- Removed `css/item_table.i18n.css` (MOVED CONTENTS TO `css/webpage.i18n.css`)
+- Removed `scripts/requested-item-table.js` (MOVED CONTENTS TO `scripts/update-requested.js`)
+### Fixed
+- Fixed a bug where clicking on a Memory Piece image in `Recommended Quests` would give a console error since Inventory was never intended to work with Memory Pieces.
+
 ## [1.6.4] - 2020-01-04
 ### Added
 - .css file specifically for `pages/quest-data/`

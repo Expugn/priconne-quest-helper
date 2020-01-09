@@ -52,7 +52,7 @@ function build_project_display(project_json)
 
         // NEW TABLE + OPEN TBODY
         let count = 0;
-        project_display_HTML += "<div style=\"overflow-x: auto; overflow-y: hidden\"><table class=\"centerTable\"><tbody>";
+        project_display_HTML += "<div style=\"overflow-x: auto; overflow-y: hidden\"><table class=\"center-table\"><tbody>";
 
         for (let [item_name, item_amount] of project_data)
         {
@@ -87,13 +87,13 @@ function build_project_display(project_json)
                 }
             });
             */
-            project_display_HTML += "<th class=\"requested-item-image\">";
+            project_display_HTML += "<th>";
             project_display_HTML += "<img " +
-                "class=\"requested-item-image\" " +
+                "class=\"item\" " +
                 "title=\"" + item_name + "\" " +
                 "src=\"../../" + get_item_image_path(item_name.split(' ').join('_')) + "\" " +
                 "alt=\"\">";
-            project_display_HTML += "<div class=\"requested-item-text\">\u00D7" + item_amount + "</div>";
+            project_display_HTML += "<div class=\"item-amount\">\u00D7" + item_amount + "</div>";
 
             count++;
         }
@@ -116,7 +116,7 @@ function build_blacklist_display(blacklist_json)
 
     // NEW TABLE + OPEN TBODY
     let count = 0;
-    blacklist_display_HTML += "<div style=\"overflow-x: auto; overflow-y: hidden\"><table class=\"centerTable\"><tbody>";
+    blacklist_display_HTML += "<div style=\"overflow-x: auto; overflow-y: hidden\"><table class=\"center-table\"><tbody>";
     for (let i = 0 ; i < blacklist_array.length ; i++)
     {
         let item_name = blacklist_array[i];
@@ -153,9 +153,9 @@ function build_blacklist_display(blacklist_json)
         });
         */
 
-        blacklist_display_HTML += "<th class=\"requested-item-image\">";
+        blacklist_display_HTML += "<th>";
         blacklist_display_HTML += "<img " +
-            "class=\"requested-item-image low-opacity\" " +
+            "class=\"item low-opacity\" " +
             "title=\"" + item_name + "\" " +
             "src=\"../../" +  get_item_image_path(item_name.split(' ').join('_')) + "\" " +
             "alt=\"\">";
