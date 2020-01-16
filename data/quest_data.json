@@ -12947,5 +12947,510 @@
             17,
             15
         ]
+    },
+    "31-1": {
+        "name": "フテラ断崖・南部 31-1",
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Boots Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Astrologer's Holy Spirit Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Flowering Fire Peony Fragment",
+            "Prosperity Veil Fragment",
+            "Heaven Rod - Stellar Sphere Fragment",
+            "Divine Spear - Doom Pain Fragment",
+            "Armored Bow - Deus Fall Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "31-2": {
+        "name": "フテラ断崖・南部 31-2",
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Beautiful Clothes - Soul Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Little Ice Princess' Knot Fragment",
+            "Extremely Dark Clothes Fragment",
+            "Sky Soaring Gold Shoes Fragment",
+            "Refreshing Ice Garment Fragment",
+            "Furious Wind Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "31-3": {
+        "name": "フテラ断崖・南部 31-3",
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Shield Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Glowing Silver Mirror Boots Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Deep Crystallized Xenocrystal Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sea Dragon God's Hair Ornament Fragment",
+            "Konominato Sword - Aqua Ruler Fragment",
+            "Ifrit Katana - Ignite Fragment",
+            "God Roar Axe - Terra Break Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "31-4": {
+        "name": "フテラ断崖・南部 31-4",
+        "item_1": {
+            "item_name": "Star Nuclear Bow - Erzvogen Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Glowing Silver Mirror Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Senka Dance Armor Fragment",
+            "Black Snake Dragon's Staff Fragment",
+            "Storm God Tempest Gear Fragment",
+            "Twin God Sword of Lightning Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "31-5": {
+        "name": "フテラ断崖・南部 31-5",
+        "item_1": {
+            "item_name": "Phoenix Staff - Rise Flare Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Glowing Silver Mirror Shield Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Flowering Fire Peony Fragment",
+            "Prosperity Veil Fragment",
+            "Heaven Rod - Stellar Sphere Fragment",
+            "Divine Spear - Doom Pain Fragment",
+            "Armored Bow - Deus Fall Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "31-6": {
+        "name": "フテラ断崖・南部 31-6",
+        "item_1": {
+            "item_name": "Turquoise Noah Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Flowing Blue Dress - Azul Rondo Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Deep Crystallized Xenocrystal Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Little Ice Princess' Knot Fragment",
+            "Extremely Dark Clothes Fragment",
+            "Sky Soaring Gold Shoes Fragment",
+            "Refreshing Ice Garment Fragment",
+            "Furious Wind Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "31-7": {
+        "name": "フテラ断崖・南部 31-7",
+        "item_1": {
+            "item_name": "Green Butterfly Wand Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Astrologer's Holy Spirit Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sea Dragon God's Hair Ornament Fragment",
+            "Konominato Sword - Aqua Ruler Fragment",
+            "Ifrit Katana - Ignite Fragment",
+            "God Roar Axe - Terra Break Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "31-8": {
+        "name": "フテラ断崖・南部 31-8",
+        "item_1": {
+            "item_name": "Star Nuclear Spear - Ertz Borg Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Beautiful Clothes - Soul Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Senka Dance Armor Fragment",
+            "Black Snake Dragon's Staff Fragment",
+            "Storm God Tempest Gear Fragment",
+            "Twin God Sword of Lightning Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "31-9": {
+        "name": "フテラ断崖・南部 31-9",
+        "item_1": {
+            "item_name": "Star Nuclear Fist - Elzloa Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Glowing Silver Mirror Boots Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Deep Crystallized Xenocrystal Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Flowering Fire Peony Fragment",
+            "Prosperity Veil Fragment",
+            "Heaven Rod - Stellar Sphere Fragment",
+            "Divine Spear - Doom Pain Fragment",
+            "Armored Bow - Deus Fall Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "31-10": {
+        "name": "フテラ断崖・南部 31-10",
+        "item_1": {
+            "item_name": "Star Nuclear Bow - Erzvogen Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Glowing Silver Mirror Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Little Ice Princess' Knot Fragment",
+            "Extremely Dark Clothes Fragment",
+            "Sky Soaring Gold Shoes Fragment",
+            "Refreshing Ice Garment Fragment",
+            "Furious Wind Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "31-11": {
+        "name": "フテラ断崖・南部 31-11",
+        "item_1": {
+            "item_name": "Phoenix Staff - Rise Flare Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Glowing Silver Mirror Shield Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sea Dragon God's Hair Ornament Fragment",
+            "Konominato Sword - Aqua Ruler Fragment",
+            "Ifrit Katana - Ignite Fragment",
+            "God Roar Axe - Terra Break Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "31-12": {
+        "name": "フテラ断崖・南部 31-12",
+        "item_1": {
+            "item_name": "Turquoise Noah Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Gehenna Dragon Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Flowing Blue Dress - Azul Rondo Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Senka Dance Armor Fragment",
+            "Black Snake Dragon's Staff Fragment",
+            "Storm God Tempest Gear Fragment",
+            "Twin God Sword of Lightning Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "31-13": {
+        "name": "フテラ断崖・南部 31-13",
+        "item_1": {
+            "item_name": "Green Butterfly Wand Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Branch Blade of Divine Descent Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Astrologer's Holy Spirit Robe Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Flowering Fire Peony Fragment",
+            "Prosperity Veil Fragment",
+            "Heaven Rod - Stellar Sphere Fragment",
+            "Divine Spear - Doom Pain Fragment",
+            "Armored Bow - Deus Fall Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "31-14": {
+        "name": "フテラ断崖・南部 31-14",
+        "item_1": {
+            "item_name": "Star Nuclear Spear - Ertz Borg Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Star Nuclear Sword - Ertz Schneide Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Beautiful Clothes - Soul Rose Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Little Ice Princess' Knot Fragment",
+            "Extremely Dark Clothes Fragment",
+            "Sky Soaring Gold Shoes Fragment",
+            "Refreshing Ice Garment Fragment",
+            "Furious Wind Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "31-1H": {
+        "name": "フテラ断崖・南部 31-1",
+        "item_1": {
+            "item_name": "Gehenna Dragon Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Flowing Blue Dress - Azul Rondo Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Deep Crystallized Xenocrystal Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Kurumi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Flowering Fire Peony Fragment",
+            "Prosperity Veil Fragment",
+            "Heaven Rod - Stellar Sphere Fragment",
+            "Divine Spear - Doom Pain Fragment",
+            "Armored Bow - Deus Fall Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "31-2H": {
+        "name": "フテラ断崖・南部 31-2",
+        "item_1": {
+            "item_name": "Branch Blade of Divine Descent Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Astrologer's Holy Spirit Robe Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mimi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Little Ice Princess' Knot Fragment",
+            "Extremely Dark Clothes Fragment",
+            "Sky Soaring Gold Shoes Fragment",
+            "Refreshing Ice Garment Fragment",
+            "Furious Wind Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "31-3H": {
+        "name": "フテラ断崖・南部 31-3",
+        "item_1": {
+            "item_name": "Star Nuclear Sword - Ertz Schneide Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Beautiful Clothes - Soul Rose Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Ilya Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Sea Dragon God's Hair Ornament Fragment",
+            "Konominato Sword - Aqua Ruler Fragment",
+            "Ifrit Katana - Ignite Fragment",
+            "God Roar Axe - Terra Break Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }

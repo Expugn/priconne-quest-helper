@@ -3,6 +3,17 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.7.0] - 2020-01-16
+Quest Update (2020-01-16)
+### Added
+- New Equipment
+- New Character Data
+- Chapter 31 Quest Data
+- Added `fragment_id` to `data/equipment_data.json` for future plans
+- New Character: Kokkoro (New Year)
+### Changed
+- Edited `scripts/read-quest-json.js` a bit
+
 ## [1.6.5] - 2020-01-08
 ### Changed
 - Cleaned up `css/webpage.css`

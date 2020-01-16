@@ -118,12 +118,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Phoenix Staff - Rise Flare",
             "World Tree's Branch Wand",
             "Glowing Silver Mirror Boots",
             "Refreshing Ice Garment",
             "Deep Crystallized Xenocrystal",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Glowing Silver Mirror Boots",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "akino": {
@@ -245,12 +253,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Overlord Light Dragon Sword",
             "Glowing Silver Mirror Armor",
             "Sky Soaring Gold Shoes",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Glowing Silver Mirror Armor",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "anna": {
@@ -372,12 +388,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Black Snake Dragon's Staff",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "anne": {
@@ -499,12 +523,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Black Snake Dragon's Staff",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "aoi": {
@@ -626,12 +658,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Bow - Erzvogen",
             "Ice Bow - Freezing Tear",
             "Flowing Blue Dress - Azul Rondo",
             "Armored Bow - Deus Fall",
             "Shield God Ring - Wall Breath",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Bow - Erzvogen",
+            "",
+            "Ice Bow - Freezing Tear",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "transfer_student_aoi": {
@@ -753,12 +793,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Bow - Erzvogen",
             "Ice Bow - Freezing Tear",
             "Flowing Blue Dress - Azul Rondo",
             "Armored Bow - Deus Fall",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Bow - Erzvogen",
+            "",
+            "Ice Bow - Freezing Tear",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "arisa": {
@@ -880,12 +928,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Bow - Erzvogen",
             "Ice Bow - Freezing Tear",
             "Flowing Blue Dress - Azul Rondo",
             "Armored Bow - Deus Fall",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Bow - Erzvogen",
+            "",
+            "Ice Bow - Freezing Tear",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "ayane": {
@@ -1007,12 +1063,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Turquoise Noah",
             "Machine Axe - Core Breaker",
             "Glowing Silver Mirror Shield",
             "Senka Dance Armor",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Turquoise Noah",
+            "",
+            "Glowing Silver Mirror Shield",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "christmas_ayane": {
@@ -1134,12 +1198,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Turquoise Noah",
             "Fire Spear - Prominence",
             "Glowing Silver Mirror Armor",
             "God Roar Axe - Terra Break",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "",
+            "Machine Axe - Core Breaker",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "ayumi": {
@@ -1261,12 +1333,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Spear - Ertz Borg",
             "Fire Spear - Prominence",
             "Glowing Silver Mirror Shield",
             "Sky Soaring Gold Shoes",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "",
+            "Glowing Silver Mirror Shield",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "chika": {
@@ -1388,12 +1468,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Phoenix Staff - Rise Flare",
             "World Tree's Branch Wand",
             "Glowing Silver Mirror Boots",
             "Refreshing Ice Garment",
             "Shield God Ring - Wall Breath",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Glowing Silver Mirror Boots",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "christmas_chika": {
@@ -1515,12 +1603,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Phoenix Staff - Rise Flare",
             "World Tree's Branch Wand",
             "Glowing Silver Mirror Boots",
             "Refreshing Ice Garment",
             "Shield God Ring - Wall Breath",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Glowing Silver Mirror Boots",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "chloe": {
@@ -1642,12 +1738,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Gehenna Dragon",
             "Heavenly Black Sword of Obsidian",
             "Beautiful Clothes - Soul Rose",
             "Extremely Dark Clothes",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Gehenna Dragon",
+            "",
+            "Beautiful Clothes - Soul Rose",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "christina": {
@@ -1769,12 +1873,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Overlord Light Dragon Sword",
             "Beautiful Clothes - Soul Rose",
             "Konominato Sword - Aqua Ruler",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Overlord Light Dragon Sword",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "christmas_christina": {
@@ -1896,12 +2008,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Overlord Light Dragon Sword",
             "Beautiful Clothes - Soul Rose",
             "Konominato Sword - Aqua Ruler",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Overlord Light Dragon Sword",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "djeeta": {
@@ -2023,12 +2143,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Overlord Light Dragon Sword",
             "Beautiful Clothes - Soul Rose",
             "Konominato Sword - Aqua Ruler",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Overlord Light Dragon Sword",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "emilia": {
@@ -2150,12 +2278,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Prosperity Veil",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Astrologer's Holy Spirit Robe",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "eriko": {
@@ -2277,12 +2413,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Turquoise Noah",
             "Machine Axe - Core Breaker",
             "Beautiful Clothes - Soul Rose",
             "God Roar Axe - Terra Break",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Turquoise Noah",
+            "",
+            "Machine Axe - Core Breaker",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "valentine_eriko": {
@@ -2404,12 +2548,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Turquoise Noah",
             "Machine Axe - Core Breaker",
             "Beautiful Clothes - Soul Rose",
             "God Roar Axe - Terra Break",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Turquoise Noah",
+            "",
+            "Machine Axe - Core Breaker",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "grea": {
@@ -2531,12 +2683,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Black Snake Dragon's Staff",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "hatsune": {
@@ -2658,12 +2818,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Prosperity Veil",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Astrologer's Holy Spirit Robe",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "hiyori": {
@@ -2785,12 +2953,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Fist - Elzloa",
             "Extremely Dark Nail - Bloody Howl",
             "Beautiful Clothes - Soul Rose",
             "Extremely Dark Clothes",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Beautiful Clothes - Soul Rose",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "new_year_hiyori": {
@@ -2912,12 +3088,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Fist - Elzloa",
             "Extremely Dark Nail - Bloody Howl",
             "Beautiful Clothes - Soul Rose",
             "Storm God Tempest Gear",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Extremely Dark Nail - Bloody Howl",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "ilya": {
@@ -3039,12 +3223,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Black Snake Dragon's Staff",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "christmas_ilya": {
@@ -3166,12 +3358,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Black Snake Dragon's Staff",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "io": {
@@ -3293,12 +3493,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Prosperity Veil",
             "Deep Crystallized Xenocrystal",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Astrologer's Holy Spirit Robe",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "summer_io": {
@@ -3420,12 +3628,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Phoenix Staff - Rise Flare",
             "World Tree's Branch Wand",
             "Astrologer's Holy Spirit Robe",
             "Prosperity Veil",
             "Deep Crystallized Xenocrystal",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Astrologer's Holy Spirit Robe",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "jun": {
@@ -3547,12 +3763,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Overlord Light Dragon Sword",
             "Glowing Silver Mirror Armor",
             "Sky Soaring Gold Shoes",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Glowing Silver Mirror Armor",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "kaori": {
@@ -3674,12 +3898,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Fist - Elzloa",
             "Extremely Dark Nail - Bloody Howl",
             "Beautiful Clothes - Soul Rose",
             "Storm God Tempest Gear",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Extremely Dark Nail - Bloody Howl",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "summer_kaori": {
@@ -3801,12 +4033,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Fist - Elzloa",
             "Extremely Dark Nail - Bloody Howl",
             "Flowing Blue Dress - Azul Rondo",
             "Storm God Tempest Gear",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Extremely Dark Nail - Bloody Howl",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "kasumi": {
@@ -3928,12 +4168,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Phoenix Staff - Rise Flare",
             "World Tree's Branch Wand",
             "Glowing Silver Mirror Boots",
             "Refreshing Ice Garment",
             "Deep Crystallized Xenocrystal",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Glowing Silver Mirror Boots",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "kaya": {
@@ -4055,12 +4303,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Fist - Elzloa",
             "Extremely Dark Nail - Bloody Howl",
             "Beautiful Clothes - Soul Rose",
             "Storm God Tempest Gear",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Extremely Dark Nail - Bloody Howl",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "kokkoro": {
@@ -4182,12 +4438,155 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Spear - Ertz Borg",
             "Fire Spear - Prominence",
             "Glowing Silver Mirror Shield",
             "Extremely Dark Clothes",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "",
+            "Glowing Silver Mirror Shield",
+            "",
+            "Shield God Ring - Wall Breath"
+        ]
+    },
+    "new_year_kokkoro": {
+        "unit_id": 111901,
+        "name": "Kokkoro",
+        "thematic": "New Year",
+        "name_jp": "コッコロ",
+        "thematic_jp": "ニューイヤー",
+        "rank_1": [
+            "Steel Spear",
+            "Steel Spear",
+            "Leather Overalls",
+            "Leather Boots",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Flame Spear",
+            "Trident",
+            "Folklore Clothes",
+            "Cute Caskets",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Knight's Pride",
+            "Flame Spear",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Jewel of Love",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Absolute Spear",
+            "Knight's Pride",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Victory Friendship Bracelet",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Absolute Spear",
+            "Palace Cloth",
+            "Fencer Boots",
+            "Emerald Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Scarlet Dragon",
+            "Lightning Axe",
+            "Cosmos Cloth",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Palace Cloth"
+        ],
+        "rank_7": [
+            "Queen Bee Spear",
+            "Scarlet Dragon",
+            "Moonlight Garment",
+            "Lion King's Protective Charm",
+            "Scarlet Diamond",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Storm Bringer",
+            "Queen Bee Spear",
+            "Angel Boots",
+            "Feather Waltz",
+            "Bangle of Substitution",
+            "Lion King's Protective Charm"
+        ],
+        "rank_9": [
+            "Gaia Bardiche",
+            "Storm Bringer",
+            "Heavenly Robe",
+            "Hermit Clothes",
+            "Moon Bracelet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Zero Frost Lance",
+            "Gaia Bardiche",
+            "Faireal Boots",
+            "Heavenly Robe",
+            "Congregation Pendant",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Gale Stinger",
+            "Zero Frost Lance",
+            "Astrograph Buckler",
+            "Faireal Boots",
+            "Fairy King's Guardian Stone",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Heaven's Protective Holy Spear",
+            "Gale Stinger",
+            "Maiden Cloth",
+            "Astrograph Buckler",
+            "Mermaid Princess' Spirit Tear",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Divine Spear - Doom Pain",
+            "Heaven's Protective Holy Spear",
+            "Rage Queen Dress",
+            "Infernal Greaves",
+            "Glorious King's Shield Bangle",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "Fire Spear - Prominence",
+            "Divine Spear - Doom Pain",
+            "Sky Soaring Gold Shoes",
+            "Royal Guard Hat",
+            "Sea Dragon God's Hair Ornament",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "Star Nuclear Spear - Ertz Borg",
+            "Fire Spear - Prominence",
+            "Glowing Silver Mirror Shield",
+            "Extremely Dark Clothes",
+            "Shield God Ring - Wall Breath",
+            "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "",
+            "Glowing Silver Mirror Shield",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "summer_kokkoro": {
@@ -4309,12 +4708,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Spear - Ertz Borg",
             "Fire Spear - Prominence",
             "Flowing Blue Dress - Azul Rondo",
             "Extremely Dark Clothes",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "",
+            "Flowing Blue Dress - Azul Rondo",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "kurumi": {
@@ -4436,12 +4843,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Turquoise Noah",
             "Machine Axe - Core Breaker",
             "Glowing Silver Mirror Armor",
             "Sky Soaring Gold Shoes",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Turquoise Noah",
+            "",
+            "Glowing Silver Mirror Armor",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "christmas_kurumi": {
@@ -4563,12 +4978,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Spear - Ertz Borg",
             "Fire Spear - Prominence",
             "Glowing Silver Mirror Armor",
             "Sky Soaring Gold Shoes",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "",
+            "Glowing Silver Mirror Armor",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "kuuka": {
@@ -4690,12 +5113,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Gehenna Dragon",
             "Heavenly Black Sword of Obsidian",
             "Glowing Silver Mirror Boots",
             "Refreshing Ice Garment",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Gehenna Dragon",
+            "",
+            "Glowing Silver Mirror Boots",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "oedo_kuuka": {
@@ -4817,12 +5248,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Phoenix Staff - Rise Flare",
             "World Tree's Branch Wand",
             "Glowing Silver Mirror Boots",
             "Refreshing Ice Garment",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Glowing Silver Mirror Boots",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "kyaru": {
@@ -4944,12 +5383,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Black Snake Dragon's Staff",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "new_year_kyaru": {
@@ -5071,12 +5518,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Black Snake Dragon's Staff",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "summer_kyaru": {
@@ -5198,12 +5653,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Black Snake Dragon's Staff",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "kyouka": {
@@ -5325,12 +5788,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Black Snake Dragon's Staff",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "halloween_kyouka": {
@@ -5452,12 +5923,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Phoenix Staff - Rise Flare",
             "World Tree's Branch Wand",
             "Glowing Silver Mirror Boots",
             "Heaven Rod - Stellar Sphere",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "World Tree's Branch Wand",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "lou": {
@@ -5579,12 +6058,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Black Snake Dragon's Staff",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "luna": {
@@ -5706,12 +6193,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Black Snake Dragon's Staff",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "mahiru": {
@@ -5833,12 +6328,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Spear - Ertz Borg",
             "Machine Axe - Core Breaker",
             "Glowing Silver Mirror Armor",
             "Extremely Dark Clothes",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Turquoise Noah",
+            "",
+            "Glowing Silver Mirror Armor",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "maho": {
@@ -5960,12 +6463,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Phoenix Staff - Rise Flare",
             "World Tree's Branch Wand",
             "Glowing Silver Mirror Boots",
             "Refreshing Ice Garment",
             "Shield God Ring - Wall Breath",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Glowing Silver Mirror Boots",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "summer_maho": {
@@ -6087,12 +6598,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Black Snake Dragon's Staff",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "makoto": {
@@ -6214,12 +6733,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Branch Blade of Divine Descent",
             "Emerald Wind God's Tachi",
             "Beautiful Clothes - Soul Rose",
             "Ifrit Katana - Ignite",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Branch Blade of Divine Descent",
+            "",
+            "Emerald Wind God's Tachi",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "summer_makoto": {
@@ -6341,12 +6868,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Branch Blade of Divine Descent",
             "Emerald Wind God's Tachi",
             "Beautiful Clothes - Soul Rose",
             "Ifrit Katana - Ignite",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Branch Blade of Divine Descent",
+            "",
+            "Emerald Wind God's Tachi",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "matsuri": {
@@ -6468,12 +7003,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Gehenna Dragon",
             "Heavenly Black Sword of Obsidian",
             "Glowing Silver Mirror Shield",
             "Senka Dance Armor",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Gehenna Dragon",
+            "",
+            "Glowing Silver Mirror Shield",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "mifuyu": {
@@ -6595,12 +7138,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Spear - Ertz Borg",
             "Machine Axe - Core Breaker",
             "Glowing Silver Mirror Armor",
             "Sky Soaring Gold Shoes",
             "Shield God Ring - Wall Breath",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Turquoise Noah",
+            "",
+            "Glowing Silver Mirror Armor",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "summer_mifuyu": {
@@ -6722,12 +7273,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Spear - Ertz Borg",
             "Machine Axe - Core Breaker",
             "Beautiful Clothes - Soul Rose",
             "Divine Spear - Doom Pain",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Turquoise Noah",
+            "",
+            "Fire Spear - Prominence",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "mimi": {
@@ -6849,12 +7408,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Machine Axe - Core Breaker",
             "Flowing Blue Dress - Azul Rondo",
             "Sky Soaring Gold Shoes",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Turquoise Noah",
+            "",
+            "Flowing Blue Dress - Azul Rondo",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "halloween_mimi": {
@@ -6976,12 +7543,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Machine Axe - Core Breaker",
             "Beautiful Clothes - Soul Rose",
             "Sky Soaring Gold Shoes",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Turquoise Noah",
+            "",
+            "Beautiful Clothes - Soul Rose",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "misaki": {
@@ -7103,12 +7678,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Black Snake Dragon's Staff",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "halloween_misaki": {
@@ -7230,12 +7813,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Glowing Silver Mirror Boots",
             "Prosperity Veil",
             "Deep Crystallized Xenocrystal",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Glowing Silver Mirror Boots",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "misato": {
@@ -7357,12 +7948,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Phoenix Staff - Rise Flare",
             "World Tree's Branch Wand",
             "Astrologer's Holy Spirit Robe",
             "Refreshing Ice Garment",
             "Shield God Ring - Wall Breath",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Astrologer's Holy Spirit Robe",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "misogi": {
@@ -7484,12 +8083,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Fist - Elzloa",
             "Extremely Dark Nail - Bloody Howl",
             "Flowing Blue Dress - Azul Rondo",
             "Sky Soaring Gold Shoes",
             "Scarlet Dragon's Claw Fire Ring",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Flowing Blue Dress - Azul Rondo",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "halloween_misogi": {
@@ -7611,12 +8218,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Fist - Elzloa",
             "Extremely Dark Nail - Bloody Howl",
             "Flowing Blue Dress - Azul Rondo",
             "Storm God Tempest Gear",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Extremely Dark Nail - Bloody Howl",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "mitsuki": {
@@ -7738,12 +8353,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Overlord Light Dragon Sword",
             "Glowing Silver Mirror Shield",
             "Senka Dance Armor",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Glowing Silver Mirror Shield",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "miyako": {
@@ -7865,12 +8488,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Spear - Ertz Borg",
             "Fire Spear - Prominence",
             "Flowing Blue Dress - Azul Rondo",
             "Extremely Dark Clothes",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "",
+            "Flowing Blue Dress - Azul Rondo",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "halloween_miyako": {
@@ -7992,12 +8623,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Fist - Elzloa",
             "Extremely Dark Nail - Bloody Howl",
             "Flowing Blue Dress - Azul Rondo",
             "Extremely Dark Clothes",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Flowing Blue Dress - Azul Rondo",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "monika": {
@@ -8119,12 +8758,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Heavenly Black Sword of Obsidian",
             "Glowing Silver Mirror Shield",
             "Extremely Dark Clothes",
             "Scarlet Dragon's Claw Fire Ring",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Gehenna Dragon",
+            "",
+            "Glowing Silver Mirror Shield",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "muimi": {
@@ -8246,12 +8893,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Gehenna Dragon",
             "Heavenly Black Sword of Obsidian",
             "Beautiful Clothes - Soul Rose",
             "Konominato Sword - Aqua Ruler",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Gehenna Dragon",
+            "",
+            "Overlord Light Dragon Sword",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "nanaka": {
@@ -8373,12 +9028,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Prosperity Veil",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Astrologer's Holy Spirit Robe",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "neneka": {
@@ -8500,12 +9163,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Black Snake Dragon's Staff",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "ninon": {
@@ -8627,12 +9298,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Branch Blade of Divine Descent",
             "Emerald Wind God's Tachi",
             "Flowing Blue Dress - Azul Rondo",
             "Ifrit Katana - Ignite",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Branch Blade of Divine Descent",
+            "",
+            "Emerald Wind God's Tachi",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "oedo_ninon": {
@@ -8754,12 +9433,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Gehenna Dragon",
             "Heavenly Black Sword of Obsidian",
             "Beautiful Clothes - Soul Rose",
             "Twin God Sword of Lightning",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Gehenna Dragon",
+            "",
+            "Heavenly Black Sword of Obsidian",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "nozomi": {
@@ -8881,12 +9568,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Overlord Light Dragon Sword",
             "Glowing Silver Mirror Shield",
             "Sky Soaring Gold Shoes",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Glowing Silver Mirror Shield",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "christmas_nozomi": {
@@ -9008,12 +9703,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Overlord Light Dragon Sword",
             "Glowing Silver Mirror Shield",
             "Sky Soaring Gold Shoes",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Glowing Silver Mirror Shield",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "pecorine": {
@@ -9135,12 +9838,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Overlord Light Dragon Sword",
             "Glowing Silver Mirror Armor",
             "Senka Dance Armor",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Glowing Silver Mirror Armor",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "summer_pecorine": {
@@ -9262,12 +9973,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Overlord Light Dragon Sword",
             "Flowing Blue Dress - Azul Rondo",
             "Konominato Sword - Aqua Ruler",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Overlord Light Dragon Sword",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "ram": {
@@ -9389,12 +10108,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Glowing Silver Mirror Boots",
             "Black Snake Dragon's Staff",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "rei": {
@@ -9516,12 +10243,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Overlord Light Dragon Sword",
             "Beautiful Clothes - Soul Rose",
             "Senka Dance Armor",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Beautiful Clothes - Soul Rose",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "new_year_rei": {
@@ -9643,12 +10378,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Overlord Light Dragon Sword",
             "Glowing Silver Mirror Shield",
             "Refreshing Ice Garment",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Glowing Silver Mirror Shield",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "rem": {
@@ -9770,12 +10513,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Turquoise Noah",
             "Machine Axe - Core Breaker",
             "Flowing Blue Dress - Azul Rondo",
             "God Roar Axe - Terra Break",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Turquoise Noah",
+            "",
+            "Machine Axe - Core Breaker",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "rima": {
@@ -9897,12 +10648,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Fire Spear - Prominence",
             "Glowing Silver Mirror Armor",
             "Furious Wind Armor",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "",
+            "Glowing Silver Mirror Armor",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "rin": {
@@ -10024,12 +10783,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Spear - Ertz Borg",
             "Fire Spear - Prominence",
             "Glowing Silver Mirror Shield",
             "Extremely Dark Clothes",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "",
+            "Glowing Silver Mirror Shield",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "rino": {
@@ -10151,12 +10918,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Bow - Erzvogen",
             "Ice Bow - Freezing Tear",
             "Flowing Blue Dress - Azul Rondo",
             "Armored Bow - Deus Fall",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Bow - Erzvogen",
+            "",
+            "Ice Bow - Freezing Tear",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "ruka": {
@@ -10278,12 +11053,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Branch Blade of Divine Descent",
             "Emerald Wind God's Tachi",
             "Glowing Silver Mirror Shield",
             "Extremely Dark Clothes",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Branch Blade of Divine Descent",
+            "",
+            "Glowing Silver Mirror Shield",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "saren": {
@@ -10405,12 +11188,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Overlord Light Dragon Sword",
             "Glowing Silver Mirror Shield",
             "Senka Dance Armor",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Glowing Silver Mirror Shield",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "summer_saren": {
@@ -10532,12 +11323,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Overlord Light Dragon Sword",
             "Flowing Blue Dress - Azul Rondo",
             "Sky Soaring Gold Shoes",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Flowing Blue Dress - Azul Rondo",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "shinobu": {
@@ -10659,12 +11458,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Branch Blade of Divine Descent",
             "Emerald Wind God's Tachi",
             "Beautiful Clothes - Soul Rose",
             "Sky Soaring Gold Shoes",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Branch Blade of Divine Descent",
+            "",
+            "Beautiful Clothes - Soul Rose",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "halloween_shinobu": {
@@ -10786,12 +11593,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Branch Blade of Divine Descent",
             "Emerald Wind God's Tachi",
             "Flowing Blue Dress - Azul Rondo",
             "Extremely Dark Clothes",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Branch Blade of Divine Descent",
+            "",
+            "Flowing Blue Dress - Azul Rondo",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "shiori": {
@@ -10913,12 +11728,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Bow - Erzvogen",
             "Ice Bow - Freezing Tear",
             "Flowing Blue Dress - Azul Rondo",
             "Armored Bow - Deus Fall",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Bow - Erzvogen",
+            "",
+            "Ice Bow - Freezing Tear",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "shizuru": {
@@ -11040,12 +11863,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Overlord Light Dragon Sword",
             "Glowing Silver Mirror Armor",
             "Sky Soaring Gold Shoes",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Glowing Silver Mirror Armor",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "valentine_shizuru": {
@@ -11167,12 +11998,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Overlord Light Dragon Sword",
             "Glowing Silver Mirror Armor",
             "Senka Dance Armor",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Glowing Silver Mirror Armor",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "suzume": {
@@ -11294,12 +12133,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Phoenix Staff - Rise Flare",
             "World Tree's Branch Wand",
             "Astrologer's Holy Spirit Robe",
             "Prosperity Veil",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Astrologer's Holy Spirit Robe",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "new_year_suzume": {
@@ -11421,12 +12268,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Phoenix Staff - Rise Flare",
             "World Tree's Branch Wand",
             "Astrologer's Holy Spirit Robe",
             "Refreshing Ice Garment",
             "Shield God Ring - Wall Breath",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Astrologer's Holy Spirit Robe",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "summer_suzume": {
@@ -11548,12 +12403,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Phoenix Staff - Rise Flare",
             "World Tree's Branch Wand",
             "Glowing Silver Mirror Boots",
             "Refreshing Ice Garment",
             "Shield God Ring - Wall Breath",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Glowing Silver Mirror Boots",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "suzuna": {
@@ -11675,12 +12538,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Bow - Erzvogen",
             "Ice Bow - Freezing Tear",
             "Flowing Blue Dress - Azul Rondo",
             "Armored Bow - Deus Fall",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Bow - Erzvogen",
+            "",
+            "Ice Bow - Freezing Tear",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "summer_suzuna": {
@@ -11802,12 +12673,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Bow - Erzvogen",
             "Ice Bow - Freezing Tear",
             "Flowing Blue Dress - Azul Rondo",
             "Armored Bow - Deus Fall",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Bow - Erzvogen",
+            "",
+            "Ice Bow - Freezing Tear",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "tamaki": {
@@ -11929,12 +12808,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Gehenna Dragon",
             "Heavenly Black Sword of Obsidian",
             "Flowing Blue Dress - Azul Rondo",
             "Extremely Dark Clothes",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Gehenna Dragon",
+            "",
+            "Flowing Blue Dress - Azul Rondo",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "summer_tamaki": {
@@ -12056,12 +12943,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Gehenna Dragon",
             "Heavenly Black Sword of Obsidian",
             "Beautiful Clothes - Soul Rose",
             "Extremely Dark Clothes",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Gehenna Dragon",
+            "",
+            "Beautiful Clothes - Soul Rose",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "tomo": {
@@ -12183,12 +13078,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Branch Blade of Divine Descent",
             "Heavenly Black Sword of Obsidian",
             "Beautiful Clothes - Soul Rose",
             "Konominato Sword - Aqua Ruler",
             "Scarlet Dragon's Claw Fire Ring",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Gehenna Dragon",
+            "",
+            "Overlord Light Dragon Sword",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "tsumugi": {
@@ -12310,12 +13213,20 @@
             "War God's Arm"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Fist - Elzloa",
             "Extremely Dark Nail - Bloody Howl",
             "Flowing Blue Dress - Azul Rondo",
             "Extremely Dark Clothes",
             "Shield God Ring - Wall Breath",
             "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Flowing Blue Dress - Azul Rondo",
+            "",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "yori": {
@@ -12437,12 +13348,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Green Butterfly Wand",
             "Abyss Moon Staff - Sacrifice",
             "Astrologer's Holy Spirit Robe",
             "Black Snake Dragon's Staff",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "yui": {
@@ -12564,12 +13483,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Phoenix Staff - Rise Flare",
             "World Tree's Branch Wand",
             "Glowing Silver Mirror Boots",
             "Refreshing Ice Garment",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Glowing Silver Mirror Boots",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "new_year_yui": {
@@ -12691,12 +13618,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Phoenix Staff - Rise Flare",
             "World Tree's Branch Wand",
             "Glowing Silver Mirror Boots",
             "Refreshing Ice Garment",
             "Shield God Ring - Wall Breath",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Glowing Silver Mirror Boots",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     },
     "yukari": {
@@ -12818,12 +13753,20 @@
             "Glorious King's Shield Bangle"
         ],
         "rank_15": [
-            "",
+            "Star Nuclear Sword - Ertz Schneide",
             "Overlord Light Dragon Sword",
             "Glowing Silver Mirror Shield",
             "Senka Dance Armor",
             "Shield God Ring - Wall Breath",
             "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Glowing Silver Mirror Shield",
+            "",
+            "Shield God Ring - Wall Breath"
         ]
     },
     "yuki": {
@@ -12945,12 +13888,20 @@
             "Sophos Bracelet"
         ],
         "rank_15": [
-            "",
+            "Phoenix Staff - Rise Flare",
             "World Tree's Branch Wand",
             "Glowing Silver Mirror Boots",
             "Refreshing Ice Garment",
             "Deep Crystallized Xenocrystal",
             "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Glowing Silver Mirror Boots",
+            "",
+            "Deep Crystallized Xenocrystal"
         ]
     }
 }
