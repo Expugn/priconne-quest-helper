@@ -3,6 +3,19 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.7.1] - 2020-01-31
+### Added
+- New Character: Kasumi (Magical)
+- New Character: Shiori (Magical)
+- Updated Language Files
+  - `en.json`
+    - `thematics.magical`
+  - `ja.json`
+    - `thematics.magical`
+  - `ko.json`
+    - `thematics.magical`  
+- New Quest: Chapter 20-2 Very Hard (Maho)
+
 ## [1.7.0] - 2020-01-16
 Quest Update (2020-01-16)
 ### Added

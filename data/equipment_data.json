@@ -3084,10 +3084,19 @@
         "req_pieces": 1,
         "req_items": []
     },
+    "32010": {
+        "name": "Maho Pure Shard",
+        "name_jp": "マホのピュアメモリーピース",
+        "id": "misc-32",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
     "32011": {
         "name": "Rino Pure Shard",
         "name_jp": "リノのピュアメモリーピース",
-        "id": "misc-32",
+        "id": "misc-33",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3096,7 +3105,7 @@
     "32018": {
         "name": "Io Pure Shard",
         "name_jp": "イオのピュアメモリーピース",
-        "id": "misc-33",
+        "id": "misc-34",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3105,7 +3114,7 @@
     "32034": {
         "name": "Yukari Pure Shard",
         "name_jp": "ユカリのピュアメモリーピース",
-        "id": "misc-34",
+        "id": "misc-35",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3114,7 +3123,7 @@
     "32052": {
         "name": "Rima Pure Shard",
         "name_jp": "リマのピュアメモリーピース",
-        "id": "misc-35",
+        "id": "misc-36",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3123,7 +3132,7 @@
     "32058": {
         "name": "Pecorine Pure Shard",
         "name_jp": "ペコリーヌのピュアメモリーピース",
-        "id": "misc-36",
+        "id": "misc-37",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3132,7 +3141,7 @@
     "32059": {
         "name": "Kokkoro Pure Shard",
         "name_jp": "コッコロのピュアメモリーピース",
-        "id": "misc-37",
+        "id": "misc-38",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3141,7 +3150,7 @@
     "32060": {
         "name": "Kyaru Pure Shard",
         "name_jp": "キャルのピュアメモリーピース",
-        "id": "misc-38",
+        "id": "misc-39",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
