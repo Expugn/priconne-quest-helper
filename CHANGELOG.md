@@ -3,6 +3,22 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.8.0] - 2020-02-15
+Quest Update (2020-02-15)
+### Added
+- Updated Language Files
+  - `en.json`
+    - `thematics.princess`
+  - `ja.json`
+    - `thematics.princess`
+  - `ko.json`
+    - `thematics.magical`
+    - `thematics.princess`  
+- Chapter 32 Quest Data
+- New Character: Pecorine (Princess)
+- New Equipment
+- New Character Data
+    
 ## [1.7.1] - 2020-01-31
 ### Added
 - New Character: Kasumi (Magical)

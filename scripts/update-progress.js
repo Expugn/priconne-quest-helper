@@ -1,5 +1,5 @@
-// JANUARY 16, 2020
-const update_date = new Date(Date.UTC(2020, 0, 16, 24, 0, 0));
+// FEBRUARY 15, 2020
+const update_date = new Date(Date.UTC(2020, 1, 15, 24, 0, 0));
 const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
 
 function update_progress()
