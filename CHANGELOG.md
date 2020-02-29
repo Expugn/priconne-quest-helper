@@ -33,6 +33,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Disabled `Inventory` feature due to lack of completion/usage
   - Possibly will rework to make less confusing and bring back in the future
   - The `inventory` LocalStorage saved data will be auto deleted on page load
+### Fixed
+- Fixed a problem where Mio (Deresute) and Uzuki (Deresute) would not appear in character presets when using `ja` or `ko` due to them lacking a base version
 
 ## [1.8.0] - 2020-02-15
 Quest Update (2020-02-15)

@@ -48,23 +48,42 @@ function build_character_preset_list()
                 sorted_character_map.set(character_translated, character_data_map)
             }
         }
+        // HOT-FIX FOR 'Mio' AND 'Uzuki' ; THESE UNITS DO NOT HAVE BASE UNITS
+        // PROBABLY CHANGE THIS IN THE FUTURE
+        sorted_character_map.set(language_json["character_names"]["mio"], null);
+        sorted_character_map.set(language_json["character_names"]["uzuki"], null);
+
         sorted_character_map = new Map([...sorted_character_map.entries()].sort());
 
         // BUILD LIST
         for (let [character_id, character_data_map] of sorted_character_map)
         {
-            character_preset_html += get_character_select_html(character_data_map);
-
-            // CHECK THEMATICS
-            let name = character_data_map.get("name").toLowerCase();
-            if (character_thematics[name] !== undefined)
+            // HOT-FIX FOR 'Mio and Uzuki' ; THESE UNITS DO NOT HAVE BASE UNITS
+            // PROBABLY CHANGE THIS IN THE FUTURE
+            if (character_id === language_json["character_names"]["mio"])
             {
-                let thematics_array = character_thematics[name];
-                for (let i = 0 ; i < thematics_array.length ; i++)
+                character_preset_html += get_character_select_html(character_map.get("deresute_mio"));
+            }
+            else if (character_id === language_json["character_names"]["uzuki"])
+            {
+                character_preset_html += get_character_select_html(character_map.get("deresute_uzuki"));
+            }
+            else
+            {
+                character_preset_html += get_character_select_html(character_data_map);
+
+                // CHECK THEMATICS
+                let name = character_data_map.get("name").toLowerCase();
+                if (character_thematics[name] !== undefined)
                 {
-                    character_preset_html += get_character_select_html(character_map.get(thematics_array[i]));
+                    let thematics_array = character_thematics[name];
+                    for (let i = 0 ; i < thematics_array.length ; i++)
+                    {
+                        character_preset_html += get_character_select_html(character_map.get(thematics_array[i]));
+                    }
                 }
             }
+
         }
 
         function get_character_select_html(character_data_map)
