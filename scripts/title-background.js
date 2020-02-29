@@ -14,10 +14,11 @@ const backgrounds = Object.freeze({
     CHRISTMAS_2019: 'Christmas_2019',
     PECORINE_SANDWICH: 'Pecorine_Sandwich',
     NEW_YEAR_2020: 'New_Year_2020',
+    IDOLMASTER: 'iDOLM@STER',
     CUSTOM: 'CUSTOM',
 });
 
-const default_background = backgrounds.NEW_YEAR_2020;
+const default_background = backgrounds.IDOLMASTER;
 
 function init_background_select()
 {

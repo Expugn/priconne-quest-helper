@@ -8047,6 +8047,36 @@
             "Bangle of Substitution Fragment"
         ]
     },
+    "20-3VH": {
+        "name": "カスタリア樹林・西部 20-3",
+        "item_1": {
+            "item_name": "Chaotic Choker Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Phoenix Staff - Rise Flare Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Glowing Silver Mirror Boots Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Turquoise Noah Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Yui Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rod of Life Fragment",
+            "Rod of Sun Fragment",
+            "Angel Boots Fragment",
+            "Pope's Hood Fragment",
+            "Mourning Crescent Moon Fragment"
+        ]
+    },
     "21-1": {
         "name": "カスタリア樹林・東部 21-1",
         "item_1": {
@@ -8431,6 +8461,66 @@
             "Angel Boots Fragment",
             "Pope's Hood Fragment",
             "Mourning Crescent Moon Fragment"
+        ]
+    },
+    "21-1VH": {
+        "name": "カスタリア樹林・東部 21-1",
+        "item_1": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Star Nuclear Spear - Ertz Borg Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Flowing Blue Dress - Azul Rondo Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Star Nuclear Bow - Erzvogen Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Rei Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Solar Sword Fragment",
+            "Princess' Dagger Fragment",
+            "Vermilion Plate Fragment",
+            "Mythril Plate Fragment",
+            "Elemental Heart Fragment"
+        ]
+    },
+    "21-2VH": {
+        "name": "カスタリア樹林・東部 21-2",
+        "item_1": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Star Nuclear Fist - Elzloa Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Glowing Silver Mirror Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Green Butterfly Wand Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Hiyori Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Queen Bee Spear Fragment",
+            "Angel Bow Fragment",
+            "Hermit Clothes Fragment",
+            "Saint's Robe Fragment",
+            "Bangle of Substitution Fragment"
         ]
     },
     "22-1": {

@@ -3,6 +3,37 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.8.1] - 2020-02-29
+### Added
+- Better mobile interface (WIP)
+  - Created `css/webpage-mobile.css` to manage mobile interface design
+  - WORK IN PROGRESS, so some areas may not look great and are subject to change
+- Updated Language Files
+  - `en.json`
+    - `character_names.mio`
+    - `character_names.uzuki`
+    - `thematics.deresute`
+  - `ja.json`
+    - `items_tab.miscellaneous_title`
+    - `character_names.mio`
+    - `character_names.uzuki`
+    - `thematics.deresute`
+  - `ko.json`
+    - `character_names.mio`
+    - `character_names.uzuki`
+    - `thematics.deresute`
+- New Character: Mio (Deresute)
+- New Character: Uzuki (Deresute)
+- New Quest: Chapter 20-3 Very Hard (Yui)
+- New Quest: Chapter 21-1 Very Hard (Rei)
+- New Quest: Chapter 21-2 Very Hard (Hiyori)
+- New Title Background
+  - IDOLMASTER (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/iDOLM@ASTER.png>
+### Removed
+- Disabled `Inventory` feature due to lack of completion/usage
+  - Possibly will rework to make less confusing and bring back in the future
+  - The `inventory` LocalStorage saved data will be auto deleted on page load
+
 ## [1.8.0] - 2020-02-15
 Quest Update (2020-02-15)
 ### Added

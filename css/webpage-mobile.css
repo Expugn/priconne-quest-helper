@@ -1,0 +1,112 @@
+/* GENERAL ========================================================================================================== */
+.main_title {
+    font-size: 6vw;
+}
+
+.sub_title {
+    font-size: 5vw;
+    letter-spacing: 1px;
+    margin-top: -5vw !important;
+}
+
+.tip {
+    font-size: 3vw;
+}
+
+p.footer {
+    font-size: 3vw;
+}
+
+img.footer {
+    height: 5vw;
+    width: 5vw;
+    position: relative;
+    top: 1.5vw;
+}
+
+.category-title {
+    font-size: 5vw;
+}
+
+img.item {
+    /* IMAGE SIZE */
+    max-width: 12vw;
+    max-height: 12vw;
+}
+
+img.memory-piece {
+    max-height: 7vw;
+    max-width: 7vw;
+    right: 15.5vw !important;
+}
+
+.memory-piece_drop-rate {
+    font-size: 4vw !important;
+}
+
+img.item-button-image {
+    max-width: 12vw;
+    max-height: 12vw;
+}
+
+button.item-button {
+    /* DESIGN */
+    max-width: 12vw;
+    max-height: 12vw;
+}
+
+/*
+.required-ingredients_button_item-amount {
+    font-size: 4.4vw !important;
+    left: 0.4vw !important;
+    bottom: 6.8vw !important;
+}
+*/
+
+.requested-items_item-amount {
+    position: relative;
+    bottom: 2px;
+}
+
+.quest-title {
+    font-size: 4vw !important;
+    padding: 1vw 10vw !important;
+    left: 1vw;
+}
+
+.quest-title_hard {
+    /* TEXT (SHIFT TO LEFT) */
+    padding-left: 0vw !important;
+    padding-right: 10vw !important;
+}
+
+.quest-inv-amount-text {
+    top: 9px !important;
+}
+
+.quest-percent-text {
+    position: relative;
+    bottom: 0.3vh;
+}
+
+/* ITEMS TAB ======================================================================================================== */
+.rarity-button {
+    font-size: 5vw !important;
+}
+
+.item-table_category-title {
+    font-size: 5vw !important;
+}
+
+#character-preset-list-select {
+    width: 60vw;
+}
+
+.presets_unit-icon {
+    height: 24vw !important;
+    width: 24vw;
+}
+
+.presets_unit-info {
+    font-size: 4vw;
+}

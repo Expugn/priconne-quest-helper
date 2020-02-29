@@ -212,6 +212,7 @@
     "matsuri": "Matsuri",
     "mifuyu": "Mifuyu",
     "mimi": "Mimi",
+    "mio": "Mio",
     "misaki": "Misaki",
     "misato": "Misato",
     "misogi": "Misogi",
@@ -240,6 +241,7 @@
     "tamaki": "Tamaki",
     "tomo": "Tomo",
     "tsumugi": "Tsumugi",
+    "uzuki": "Uzuki",
     "yori": "Yori",
     "yui": "Yui",
     "yukari": "Yukari",
@@ -249,6 +251,7 @@
 
   "thematics": {
     "christmas": "Christmas",
+    "deresute": "Deresute",
     "halloween": "Halloween",
     "magical": "Magical",
     "new_year": "New Year",

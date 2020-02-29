@@ -30,7 +30,7 @@
     "silver_title": "銀枠",
     "gold_title": "金枠",
     "purple_title": "紫枠",
-    "miscellaneous_title": "<span style='font-size: 20px;'>メモリーピース</span>",
+    "miscellaneous_title": "メモリーピース",
 
     "requested_items_title": "<span style='font-size: 18px;'>要求アイテム</span>",
     "requested_items_help_1": "上で選択したアイテムと個数がここに表示されます。",
@@ -212,6 +212,7 @@
     "matsuri": "マツリ",
     "mifuyu": "ミフユ",
     "mimi": "ミミ",
+    "mio": "ミオ",
     "misaki": "ミサキ",
     "misato": "ミサト",
     "misogi": "ミソギ",
@@ -240,6 +241,7 @@
     "tamaki": "タマキ",
     "tomo": "トモ",
     "tsumugi": "ツムギ",
+    "uzuki": "ウヅキ",
     "yori": "ヨリ",
     "yui": "ユイ",
     "yukari": "ユカリ",
@@ -249,6 +251,7 @@
 
   "thematics": {
     "christmas": "クリスマス",
+    "deresute": "デレマス",
     "halloween": "ハロウィン",
     "magical": "マジカル",
     "new_year": "ニューイヤー",

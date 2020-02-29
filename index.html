@@ -23,6 +23,7 @@
     <meta name="description" content="Quest Choosing Assistance and Project Management for the Game 'Princess Connect! Re:Dive' （プリンセスコネクト! Re:Dive）.">
     <meta name="author" content="S'pugn">
     <meta name="keywords" content="Princess Connect Re:Dive, プリンセスコネクト! Re:Dive, Quest Helper, S'pugn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- OPEN GRAPH / FACEBOOK META DATA -->
     <meta property="og:title" content="Princess Connect! Re:Dive - Quest Helper | priconne-quest-helper"/>
@@ -53,7 +54,10 @@
     <script src="scripts/read-quest-json.js"></script>
     <script src="scripts/read-character-json.js"></script>
     <script src="scripts/settings.js"></script>
+    <!--
+    DISABLED AS OF [1.8.1] 2/29/2020 - READ CHANGELOG
     <script src="scripts/inventory.js"></script>
+    -->
     <script src="scripts/sort-options.js"></script>
     <script src="scripts/build-item-table.js"></script>
     <script src="scripts/character-presets.js"></script>
@@ -70,9 +74,11 @@
     <script src="scripts/title-background.js"></script>
 
     <!-- CSS STYLE SHEETS -->
-    <link rel="stylesheet" href="vendor/toastr/toastr.css"/>
+    <link rel="stylesheet" href="vendor/toastr/toastr.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="css/webpage-mobile.css">
     <link rel="stylesheet" href="css/webpage.css">
+
 </head>
 
 <body class="fancy-body">
@@ -850,9 +856,12 @@
     <img id="lens-image" class="use-webp" image_folder="webpage" file_name="lens" src_prefix="" src="" alt="">
 </div>
 
+<!--
+DISABLED AS OF [1.8.1] 2/29/2020 - READ CHANGELOG
 <div id="inventory-inline-editor-prototype" class="inventory-inline-editor" hidden>
     <button class="minus" value="-30">-30</button><button class="plus" value="+30">+30</button>
 </div>
+-->
 
 <!-- RUN JAVASCRIPT -->
 <script>
@@ -887,7 +896,10 @@
                 read_cookie();
                 build_item_tables();
                 init_blacklist();
+                /*
+                DISABLED AS OF [1.8.1] 2/29/2020 - READ CHANGELOG
                 init_inventory();
+                */
                 init_project_data();
                 build_character_preset_list();
                 update_progress();
@@ -911,6 +923,15 @@
             document.getElementById("data-management-div").hidden = true;
             document.getElementById("setting-saving-div").hidden = true;
             document.getElementById("local-storage-warning").hidden = false;
+        }
+        else
+        {
+            // REMOVE 'inventory' DUE TO THE FEATURE BEING DISABLED:
+            // DISABLED AS OF [1.8.1] 2/29/2020 - READ CHANGELOG
+            if (localStorage.getItem("inventory") !== null) {
+                localStorage.removeItem("inventory");
+            }
+
         }
     };
 </script>
