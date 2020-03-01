@@ -42,48 +42,50 @@ function build_character_preset_list()
                     character_thematics[name] = [];
                 }
                 character_thematics[name].push(character_id);
+
+                // CHECK IF THERE IS A BASE VERSION OF THE CHARACTER, IF NOT THEN ADD ONE
+                // THIS IS TO DEAL WITH CHARACTERS LIKE 'Mio (Deresute)' AND 'Uzuki (Deresute)'
+                // CHARACTER NAME IS SAVED IN PLACE OF character_data_map TO PULL UP THEMATICS LATER
+                if (!sorted_character_map.has(character_translated))
+                {
+                    sorted_character_map.set(character_translated, name);
+                }
             }
             else
             {
                 sorted_character_map.set(character_translated, character_data_map)
             }
         }
-        // HOT-FIX FOR 'Mio' AND 'Uzuki' ; THESE UNITS DO NOT HAVE BASE UNITS
-        // PROBABLY CHANGE THIS IN THE FUTURE
-        sorted_character_map.set(language_json["character_names"]["mio"], null);
-        sorted_character_map.set(language_json["character_names"]["uzuki"], null);
-
         sorted_character_map = new Map([...sorted_character_map.entries()].sort());
 
         // BUILD LIST
         for (let [character_id, character_data_map] of sorted_character_map)
         {
-            // HOT-FIX FOR 'Mio and Uzuki' ; THESE UNITS DO NOT HAVE BASE UNITS
-            // PROBABLY CHANGE THIS IN THE FUTURE
-            if (character_id === language_json["character_names"]["mio"])
+            // IGNORE IF character_data_map IS A STRING (MEANING NO BASE VERSION EXISTS)
+            // THIS IS TO ACCOUNT FOR CHARACTERS THAT DON'T HAVE A BASE VERSION
+            // SUCH AS 'Mio (Deresute)' AND 'Utsuki (Deresute)'
+            let name;
+            if (!((typeof character_data_map) === 'string'))
             {
-                character_preset_html += get_character_select_html(character_map.get("deresute_mio"));
-            }
-            else if (character_id === language_json["character_names"]["uzuki"])
-            {
-                character_preset_html += get_character_select_html(character_map.get("deresute_uzuki"));
+                // ADD BASE VERSION TO LIST
+                character_preset_html += get_character_select_html(character_data_map);
+                name = character_data_map.get("name").toLowerCase();
             }
             else
             {
-                character_preset_html += get_character_select_html(character_data_map);
-
-                // CHECK THEMATICS
-                let name = character_data_map.get("name").toLowerCase();
-                if (character_thematics[name] !== undefined)
-                {
-                    let thematics_array = character_thematics[name];
-                    for (let i = 0 ; i < thematics_array.length ; i++)
-                    {
-                        character_preset_html += get_character_select_html(character_map.get(thematics_array[i]));
-                    }
-                }
+                // character_data_map IS A STRING BECAUSE A BASE VERSION DOES NOT EXIST.
+                name = character_data_map;
             }
 
+            // CHECK THEMATICS
+            if (character_thematics[name] !== undefined)
+            {
+                let thematics_array = character_thematics[name];
+                for (let i = 0 ; i < thematics_array.length ; i++)
+                {
+                    character_preset_html += get_character_select_html(character_map.get(thematics_array[i]));
+                }
+            }
         }
 
         function get_character_select_html(character_data_map)
