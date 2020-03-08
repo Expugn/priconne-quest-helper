@@ -60,8 +60,26 @@
 
 <hr>
 
-<div id="character-data-div">
+<script>
+    function unit_search(active) {
+        document.getElementById("search-overlay").hidden = !active;
+        document.body.style.overflow = (active ? "hidden" : "");
+    }
+</script>
+
+<div id="search-overlay" hidden onclick="unit_search(false)">
+    <div id="unit-list-div">
+        <div id="unit-list"></div>
+    </div>
+</div>
+
+<div id="character-data-div" style="overflow-x: auto">
     <table id="character-data-table"></table>
+</div>
+
+<!-- UNIT SEARCH POPUP -->
+<div id="unit-search-popup" onclick="unit_search(true)" hidden>
+    <img id="lens-image" class="use-webp" image_folder="webpage" file_name="lens" src_prefix="../../" src="" alt="">
 </div>
 
 <br><br>
@@ -98,12 +116,16 @@
                 run();
                 toastr.remove();
                 toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: false });
+
+                // SHOW UNIT SEARCH
+                document.getElementById("unit-search-popup").hidden = false;
             }
         }
 
         function run()
         {
             let table_html = "";
+            let search_html = "";
 
             table_html += "<tbody>";
             for (let [character_id, character_data_map] of character_map)
@@ -119,7 +141,7 @@
 
                 // CHARACTER NAME
                 let character_complete_name = ((character_thematic === "") ? character_name : character_name + " (" + character_thematic + ")") + "<br>" + character_jp;
-                table_html += "<th><h3 class=\"character-name text-box\">" + character_complete_name + "</h3></th>";
+                table_html += "<th><h3 id=\"" + character_id + "\" class=\"character-name text-box\">" + character_complete_name + "</h3></th>";
 
                 // DIVIDER
                 table_html += "<th><img class=\"divider\" title=\"\" src=\"\" alt=\"\"></th>";
@@ -199,10 +221,16 @@
 
                 // END TABLE ROW
                 table_html += "</tr> <tr> <th><br><br><br></th> <th></th> <th></th> <th></th> <th></th> <th></th> <th></th> </tr>";
+
+                // ADD UNIT TO SEARCH
+                search_html += "<a href='#" + character_id + "'>" +
+                    "<img class='unit-icon' src='../../images/unit_icon/" + file_name + ".png' title='" + character_complete_name.replace("<br>", "\n") + "" + "' alt=''>" +
+                    "</a> ";
             }
             table_html += "</body>";
 
             document.getElementById("character-data-table").innerHTML = table_html;
+            document.getElementById("unit-list").innerHTML = search_html;
         }
     }
 </script>

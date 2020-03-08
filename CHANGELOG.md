@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.8.2] - 2020-03-07
+### Added
+- Unit search feature for `pages/character-data`
+
 ## [1.8.1] - 2020-02-29
 ### Added
 - Better mobile interface (WIP)
