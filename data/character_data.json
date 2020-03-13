@@ -11204,6 +11204,141 @@
             "Shield God Ring - Wall Breath"
         ]
     },
+    "deresute_rin": {
+        "unit_id": 112501,
+        "name": "Rin",
+        "thematic": "Deresute",
+        "name_jp": "リン",
+        "thematic_jp": "デレマス",
+        "rank_1": [
+            "Iron Blade",
+            "Killer Pencil",
+            "Leather Overalls",
+            "Tree Shield",
+            "Motivational Bracelet",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Crescent Sword",
+            "Gear Blade",
+            "Scale Mail",
+            "Legion Helm",
+            "Leather Boots",
+            "Protective Pendant"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Tower Shield",
+            "Light Plate",
+            "Tower Shield",
+            "Gear Blade",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Moonlight Sword",
+            "Sparkling Sword",
+            "Gorgeous Armor",
+            "Emerald Earrings",
+            "Tower Shield",
+            "Victory Friendship Bracelet"
+        ],
+        "rank_5": [
+            "Thunder God Sword",
+            "Garnet Shield",
+            "Battling Dress",
+            "Fencer Boots",
+            "Emerald Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Butterfly Katana",
+            "Thunder God Sword",
+            "Heavy Metal Armor",
+            "Dragon Head",
+            "Garnet Shield",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Bright Sword",
+            "Feather Waltz",
+            "Angel Armor",
+            "Lion King's Protective Charm",
+            "Lion King's Protective Charm",
+            "Garnet Shield"
+        ],
+        "rank_8": [
+            "Hawk God's Sword",
+            "Bright Sword",
+            "Angel Boots",
+            "Feather Waltz",
+            "Bangle of Substitution",
+            "Lion King's Protective Charm"
+        ],
+        "rank_9": [
+            "Phoenix Sword",
+            "Hawk God's Sword",
+            "Crusader Plate",
+            "Mythril Plate",
+            "Moon Bracelet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Hundred White Blossom Petals Sword",
+            "Phoenix Sword",
+            "Dragonic Armor",
+            "Crusader Plate",
+            "Congregation Pendant",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Flowing Azure Blade",
+            "Hundred White Blossom Petals Sword",
+            "Phantasm Mail",
+            "Faireal Boots",
+            "Fairy King's Guardian Stone",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Blood Raven Sword",
+            "Flowing Azure Blade",
+            "Infernal Greaves",
+            "Phantasm Mail",
+            "Mermaid Princess' Spirit Tear",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Ifrit Katana - Ignite",
+            "Blood Raven Sword",
+            "Gold King's Armor",
+            "Nine Heavens' Armor",
+            "Glorious King's Shield Bangle",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "Emerald Wind God's Tachi",
+            "Ifrit Katana - Ignite",
+            "Furious Wind Armor",
+            "Rage Queen Dress",
+            "Sea Dragon God's Hair Ornament",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "Branch Blade of Divine Descent",
+            "Emerald Wind God's Tachi",
+            "Glowing Silver Mirror Armor",
+            "Senka Dance Armor",
+            "Shield God Ring - Wall Breath",
+            "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Branch Blade of Divine Descent",
+            "",
+            "Glowing Silver Mirror Armor",
+            "Elfin Choker",
+            "Shield God Ring - Wall Breath"
+        ]
+    },
     "rino": {
         "unit_id": 101101,
         "name": "Rino",
