@@ -23,6 +23,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Script improvements
   - Max character rank and max quest chapter values are no longer hard-coded
 - Minor font tweaks
+- Selecting a unit from the preset grid search will now auto-scroll to have the presets visible
 
 ## [1.8.3] - 2020-03-21
 ### Added

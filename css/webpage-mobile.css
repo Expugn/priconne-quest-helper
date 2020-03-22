@@ -116,7 +116,7 @@ button.item-button {
 }
 
 .preset-item-button-padding {
-    margin-left: 25% !important;
+    margin-left: 24% !important;
 }
 
 #preset-items-div {
@@ -132,5 +132,5 @@ button.item-button {
 }
 
 #preset-item-settings {
-    margin-top: -10px !important;
+    margin-top: -35px !important;
 }

@@ -378,6 +378,7 @@ function select_unit_from_preset_grid(unit_id)
     document.getElementById("character-preset-list-select").value = unit_id;
     update_selected_character_preset_details();
     toggle_preset_grid_display();
+    document.getElementById("presets-container").scrollIntoView();
 }
 
 function add_preset_item(item_name)
