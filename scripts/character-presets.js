@@ -413,6 +413,19 @@ function get_preset_items() {
         get_character_data(selected_character, "rank_" + preset_items_rank).forEach( function (item_name) {
             document.getElementById("preset-item-" + counter).src = get_item_image_path(item_name.replace(/ /g, "_"));
             document.getElementById("preset-item-" + counter).title = item_name;
+
+            let plus_element = document.getElementById("preset-item-" + counter).nextElementSibling;
+            if (item_name === "") {
+                if (!plus_element.classList.contains("grayscale")) {
+                    plus_element.classList.toggle("grayscale");
+                }
+            }
+            else {
+                if (plus_element.classList.contains("grayscale")) {
+                    plus_element.classList.toggle("grayscale");
+                }
+            }
+
             counter++;
         });
     }

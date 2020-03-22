@@ -22,7 +22,7 @@ body.fancy-body:lang(ko) {
 }
 
 h1.title:lang(ko) {
-    font-family: "NanumGothic", "Arita-Dotum-Medium", "나눔고딕", "NotoSerifKR", serif;
+    font-family: "Arita-Dotum-Medium", "NanumGothic", "나눔고딕", "NotoSerifKR", serif;
 }
 
 h2.title:lang(ko) {
@@ -35,11 +35,11 @@ h2.title:lang(ko) {
 }
 
 .rarity-title:lang(ko) {
-    font-family: "NanumGothic", "Arita-Dotum-Medium", "나눔고딕", "NotoSerifKR", serif;
+    font-family: "Arita-Dotum-Medium", "NanumGothic", "나눔고딕", "NotoSerifKR", serif;
 }
 
 .request-title:lang(ko) {
-    font-family: "NanumGothic", "Arita-Dotum-Medium", "나눔고딕", "NotoSerifKR", serif;
+    font-family: "Arita-Dotum-Medium", "NanumGothic", "나눔고딕", "NotoSerifKR", serif;
 }
 
 p.footer:lang(ko) {
@@ -51,13 +51,13 @@ p.footer:lang(ko) {
 }
 
 .priconne-font:lang(ko) {
-    font-family: "NanumGothic", "Arita-Dotum-Medium", "나눔고딕", "NotoSerifKR", serif !important;
+    font-family: "Arita-Dotum-Medium", "NanumGothic", "나눔고딕", "NotoSerifKR", serif !important;
 }
 
 .nav-button-text:lang(ko) {
     bottom: 38px;
     font-weight: bold;
-    font-family: "NanumGothic", "Arita-Dotum-Medium",  "나눔고딕", "NotoSerifKR", serif;
+    font-family: "Arita-Dotum-Medium", "NanumGothic", "나눔고딕", "NotoSerifKR", serif;
 }
 
 /* Japanese (lang=ja) */

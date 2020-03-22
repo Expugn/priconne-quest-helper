@@ -115,25 +115,22 @@ button.item-button {
     font-size: 4vw;
 }
 
-.preset-item-div_left {
-    margin-right: 32% !important;
-}
-
-.preset-item-div_right {
-    margin-left: 32% !important;
+.preset-item-button-padding {
+    margin-left: 60% !important;
 }
 
 #preset-items-div {
-    margin-left: 3% !important;
-    margin-right: 3% !important;
-    margin-top: -100px !important;
+    margin-left: 1px !important;
+    margin-right: 1px !important;
+    margin-top: -80px !important;
 }
 
 .preset-item-rank-button-text {
     font-size: 10px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
 }
 
 #preset-item-settings {
     margin-top: -10px !important;
-;
 }
