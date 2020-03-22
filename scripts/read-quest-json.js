@@ -1,6 +1,9 @@
 let quest_map = new Map();
 let quest_loaded = false;
 
+// INITIALIZED IN read_quest_data()
+let max_quest_chapter_information = 0;
+
 read_quest_data(function ()
 {
     quest_loaded = true;
@@ -32,6 +35,11 @@ function read_quest_data(callback)
                         if (questData["char_shard"] !== undefined) { quest_data.set("char_shard", questData["char_shard"]); }
 
                         quest_map.set(i, quest_data);
+
+                        let quest_chapter = parseInt(i.split('-')[0]);
+                        if (quest_chapter > max_quest_chapter_information) {
+                            max_quest_chapter_information = quest_chapter;
+                        }
                     })
                 ).then(function () {
                     callback();

@@ -241,6 +241,10 @@
             <span translate_text="presets_tab.character_presets">Character Presets</span>
         </h2>
         <div id="character-preset-settings">
+            <!-- BULK MODE BUTTON -->
+            <div class="center-div">
+                <button id="preset-bulk-mode-button" onclick="toggle_bulk_mode()"><span translate_text="presets_tab.bulk_mode">Bulk Mode</span></button>
+            </div>
             <!-- SELECT LIST OF CHARACTERS FOUND IN data/character_data.json -->
             <div class="center-div">
                 <label>
@@ -256,60 +260,99 @@
                 <img id="preset-character-image" class="use-webp presets_unit-icon" image_folder="unit_icon" file_name="Placeholder" src_prefix="" src="" alt=""><br>
                 <label id="preset-character-name-label" class="presets_unit-info priconne-font"></label>
             </div>
-            <!-- MIN RANK TO MAX RANK OPTIONS -->
-            <div class="center-div text-overflow_auto">
-                <div style="display: inline-block; width: 25%; font-weight: bold;">
-                    <label class="category-title"><span translate_text="presets_tab.minimum_rank">Min Rank</span></label><br>
-                    <label for="preset-character-min-rank-input" hidden></label>
-                    <input
-                            id="preset-character-min-rank-input"
-                            class="item-input"
-                            type="number"
-                            min="1"
-                            max="16"
-                            value="1"
-                            disabled
-                            onchange="change_min_rank_preset()">
+            <div id="preset-bulk-settings">
+                <!-- MIN RANK TO MAX RANK OPTIONS -->
+                <div class="center-div text-overflow_auto">
+                    <div style="display: inline-block; width: 25%; font-weight: bold;">
+                        <label class="category-title"><span translate_text="presets_tab.minimum_rank">Min Rank</span></label><br>
+                        <label for="preset-character-min-rank-input" hidden></label>
+                        <input
+                                id="preset-character-min-rank-input"
+                                class="item-input"
+                                type="number"
+                                min="1"
+                                max="1"
+                                value="1"
+                                disabled
+                                onchange="change_min_rank_preset()">
+                    </div>
+                    <label class="category-title" style="padding-left: 25px; padding-right: 25px; font-weight: bold;"><span translate_text="presets_tab.to">to</span></label>
+                    <div style="display: inline-block; width: 25%; font-weight: bold;">
+                        <label class="category-title"><span translate_text="presets_tab.maximum_rank">Max Rank</span></label><br>
+                        <label for="preset-character-max-rank-input" hidden></label>
+                        <input
+                                id="preset-character-max-rank-input"
+                                class="item-input"
+                                type="number"
+                                min="1"
+                                max="1"
+                                value="1"
+                                disabled
+                                onchange="change_max_rank_preset()">
+                    </div>
                 </div>
-                <label class="category-title" style="padding-left: 25px; padding-right: 25px; font-weight: bold;"><span translate_text="presets_tab.to">to</span></label>
-                <div style="display: inline-block; width: 25%; font-weight: bold;">
-                    <label class="category-title"><span translate_text="presets_tab.maximum_rank">Max Rank</span></label><br>
-                    <label for="preset-character-max-rank-input" hidden></label>
-                    <input
-                            id="preset-character-max-rank-input"
-                            class="item-input"
-                            type="number"
-                            min="1"
-                            max="16"
-                            value="16"
-                            disabled
-                            onchange="change_max_rank_preset()">
+                <br>
+                <!-- LOAD PRESET BUTTON AND LOAD PRESET AND SAVE PROJECT BUTTON -->
+                <div class="center-div">
+                    <button id="preset-character-load-button" type="button" disabled onclick="load_preset_character_items()"><span translate_text="presets_tab.load_items_button">Load Items</span></button><br><br>
+                    <button id="preset-character-load-and-create-project-button" type="button" disabled onclick="load_preset_character_items_and_create_project()"><span translate_text="presets_tab.load_items_and_create_project_button">Load Items and Create Project</span></button>
                 </div>
-            </div>
-            <br>
-            <!-- LOAD PRESET BUTTON AND LOAD PRESET AND SAVE PROJECT BUTTON -->
-            <div class="center-div">
-                <button id="preset-character-load-button" type="button" disabled onclick="load_preset_character_items()"><span translate_text="presets_tab.load_items_button">Load Items</span></button><br><br>
-                <button id="preset-character-load-and-create-project-button" type="button" disabled onclick="load_preset_character_items_and_create_project()"><span translate_text="presets_tab.load_items_and_create_project_button">Load Items and Create Project</span></button>
-            </div>
 
-            <!-- ITEM TABLE OVERWRITE WARNING -->
-            <h3 class="category-title presets_overwrite-warning">
+                <!-- ITEM TABLE OVERWRITE WARNING -->
+                <h3 class="category-title presets_overwrite-warning">
                 <span translate_text="presets_tab.overwrite_warning">
                     Currently selected items will be replaced<br>
                     when the <span style="color: lightpink">Load Item</span> button is pressed.
                 </span>
-            </h3>
+                </h3>
+            </div>
+            <div id="preset-single-settings" hidden>
+                <div id="preset-items-div" class="center-div grayscale">
+                    <div class="preset-item-div preset-item-div_left" onclick="add_preset_item(document.getElementById('preset-item-1').title);">
+                        <img id="preset-item-1" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
+                        <img class="preset-plus-img use-webp" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                    </div>
+                    <div class="preset-item-div preset-item-div_right" onclick="add_preset_item(document.getElementById('preset-item-2').title);">
+                        <img id="preset-item-2" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
+                        <img class="preset-plus-img use-webp" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                    </div>
+                    <br>
+                    <div class="preset-item-div preset-item-div_left" onclick="add_preset_item(document.getElementById('preset-item-3').title);">
+                        <img id="preset-item-3" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
+                        <img class="preset-plus-img use-webp" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                    </div>
+                    <div class="preset-item-div preset-item-div_right" onclick="add_preset_item(document.getElementById('preset-item-4').title);">
+                        <img id="preset-item-4" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
+                        <img class="preset-plus-img use-webp" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                    </div>
+                    <br>
+                    <div class="preset-item-div preset-item-div_left" onclick="add_preset_item(document.getElementById('preset-item-5').title);">
+                        <img id="preset-item-5" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
+                        <img class="preset-plus-img use-webp" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                    </div>
+                    <div class="preset-item-div preset-item-div_right" onclick="add_preset_item(document.getElementById('preset-item-6').title);">
+                        <img id="preset-item-6" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
+                        <img class="preset-plus-img use-webp" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                    </div>
+                </div>
+                <div id="preset-item-settings" class="center-div">
+                    <label id="preset-items-rank-label" class="text-color_common">Rank 1</label>
+                    <br>
+                    <button id="preset-items-previous-rank-button" onclick="previous_preset_rank();" disabled>
+                        <span class="preset-item-rank-button-text">&laquo; Rank</span>
+                    </button>
+                    <span style="padding: 40px;"></span>
+                    <button id="preset-items-next-rank-button" onclick="next_preset_rank();" disabled>
+                        <span class="preset-item-rank-button-text">Rank &raquo;</span>
+                    </button>
+                </div>
+            </div>
         </div>
         <div id="character-preset-grid" hidden>
             <div class="center-div">
                 <button onclick="toggle_preset_grid_display();"><span translate_text="presets_tab.cancel">Cancel</span></button>
                 <br><br>
-                <div id="preset-grid-display" class="center-div">
-                    <button class="preset-grid-button" onclick="select_unit_from_preset_grid('deresute_uzuki');">
-                        <img class="preset-grid-button-img" src="images/unit_icon/Deresute_Uzuki.png" alt="">
-                    </button>
-                </div>
+                <div id="preset-grid-display" class="center-div"></div>
             </div>
         </div>
         <br>
@@ -465,7 +508,7 @@
         <input id="min-quest-chapter"
                type="number"
                min="1"
-               max="32"
+               max="1"
                value="1"
                onchange="change_min_quest_chapter()">
 
@@ -477,8 +520,8 @@
         <input id="max-quest-chapter"
                type="number"
                min="1"
-               max="32"
-               value="32"
+               max="1"
+               value="1"
                onchange="change_max_quest_chapter()">
 
         <br><br>
@@ -900,6 +943,18 @@ DISABLED AS OF [1.8.1] 2/29/2020 - READ CHANGELOG
             }
             else
             {
+                // UPDATE SPECIFIC ELEMENTS WITH MAX RANK
+                document.getElementById("preset-character-min-rank-input").max = max_character_rank_information.CURRENT;
+                document.getElementById("preset-character-max-rank-input").max = max_character_rank_information.CURRENT;
+                document.getElementById("preset-character-max-rank-input").value = max_character_rank_information.CURRENT;
+
+                // UPDATE SPECIFIC ELEMENTS WITH MAX QUEST CHAPTER
+                document.getElementById("min-quest-chapter").max = max_quest_chapter_information;
+                document.getElementById("max-quest-chapter").max = max_quest_chapter_information;
+                document.getElementById("max-quest-chapter").value = max_quest_chapter_information;
+
+                preset_max_rank = max_character_rank_information.CURRENT;
+
                 enableCollapsible();
                 read_cookie();
                 build_item_tables();
@@ -939,7 +994,6 @@ DISABLED AS OF [1.8.1] 2/29/2020 - READ CHANGELOG
             if (localStorage.getItem("inventory") !== null) {
                 localStorage.removeItem("inventory");
             }
-
         }
     };
 </script>

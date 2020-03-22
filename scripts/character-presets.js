@@ -1,5 +1,6 @@
 let preset_min_rank = 1;
-let preset_max_rank = max_character_rank_information.CURRENT;
+let preset_max_rank;    // INITIATED IN index.html
+let preset_items_rank = 1;
 
 function build_character_preset_list()
 {
@@ -145,6 +146,12 @@ function update_selected_character_preset_details()
         document.getElementById("preset-character-load-and-create-project-button").disabled = true;
         document.getElementById("preset-character-min-rank-input").disabled = true;
         document.getElementById("preset-character-max-rank-input").disabled = true;
+        clear_preset_items();
+        if (!document.getElementById("preset-items-div").classList.contains("grayscale")) {
+            document.getElementById("preset-items-div").classList.toggle("grayscale");
+        }
+        document.getElementById("preset-items-previous-rank-button").disabled = true;
+        document.getElementById("preset-items-next-rank-button").disabled = true;
     }
     else
     {
@@ -176,7 +183,6 @@ function update_selected_character_preset_details()
                 }
             }
 
-
             document.getElementById("preset-character-image").src = get_unit_icon_image_path(character_image_name.split(' ').join('_'));
             if (current_language === language.ENGLISH)
             {
@@ -190,6 +196,13 @@ function update_selected_character_preset_details()
             document.getElementById("preset-character-load-and-create-project-button").disabled = false;
             document.getElementById("preset-character-min-rank-input").disabled = false;
             document.getElementById("preset-character-max-rank-input").disabled = false;
+            if (document.getElementById("preset-items-div").classList.contains("grayscale")) {
+                document.getElementById("preset-items-div").classList.toggle("grayscale");
+            }
+            document.getElementById("preset-items-previous-rank-button").disabled = false;
+            document.getElementById("preset-items-next-rank-button").disabled = false;
+
+            get_preset_items();
         }
     }
 }
@@ -365,4 +378,97 @@ function select_unit_from_preset_grid(unit_id)
     document.getElementById("character-preset-list-select").value = unit_id;
     update_selected_character_preset_details();
     toggle_preset_grid_display();
+}
+
+function add_preset_item(item_name)
+{
+    if (item_name !== "") {
+        const item_id = get_equipment_data(item_name, "id");
+        document.getElementById(item_id + "-amt").value++;
+
+        // UPDATE REQUESTED ITEMS
+        build_data();
+    }
+}
+
+function toggle_bulk_mode()
+{
+    document.getElementById("preset-bulk-mode-button").classList.toggle("low-opacity");
+    document.getElementById("preset-bulk-settings").hidden = !document.getElementById("preset-bulk-settings").hidden;
+    document.getElementById("preset-single-settings").hidden = !document.getElementById("preset-single-settings").hidden;
+}
+
+function clear_preset_items()
+{
+    for (let i = 1 ; i <= 6 ; i++) {
+        document.getElementById("preset-item-" + i).src = get_item_image_path("Placeholder");
+        document.getElementById("preset-item-" + i).title = "";
+    }
+}
+
+function get_preset_items() {
+    let selected_character = document.getElementById("character-preset-list-select").value;
+    if (selected_character !== "default_character") {
+        let counter = 1;
+        get_character_data(selected_character, "rank_" + preset_items_rank).forEach( function (item_name) {
+            document.getElementById("preset-item-" + counter).src = get_item_image_path(item_name.replace(/ /g, "_"));
+            document.getElementById("preset-item-" + counter).title = item_name;
+            counter++;
+        });
+    }
+}
+
+function next_preset_rank() {
+    if ((preset_items_rank + 1) <= max_character_rank_information.LOADED) {
+        preset_items_rank++;
+        get_preset_items();
+        update_preset_rank_label();
+    }
+
+}
+
+function previous_preset_rank() {
+    if ((preset_items_rank - 1) >= 1) {
+        preset_items_rank--;
+        get_preset_items();
+        update_preset_rank_label();
+    }
+}
+
+function update_preset_rank_label() {
+    const preset_items_rank_label_element = document.getElementById("preset-items-rank-label");
+    preset_items_rank_label_element.innerHTML = "Rank " + preset_items_rank;
+    preset_items_rank_label_element.className = "";
+
+    // UPDATE TEXT COLOR
+    switch (preset_items_rank) {
+        case 1:
+            preset_items_rank_label_element.classList.toggle("text-color_common");
+            break;
+        case 2:
+        case 3:
+            preset_items_rank_label_element.classList.toggle("text-color_copper");
+            break;
+        case 4:
+        case 5:
+        case 6:
+            preset_items_rank_label_element.classList.toggle("text-color_silver");
+            break;
+        case 7:
+        case 8:
+        case 9:
+        case 10:
+            preset_items_rank_label_element.classList.toggle("text-color_gold");
+            break;
+        case 11:
+        case 12:
+        case 13:
+        case 14:
+        case 15:
+        case 16:
+            preset_items_rank_label_element.classList.toggle("text-color_purple");
+            break;
+        default:
+            break;
+    }
 }

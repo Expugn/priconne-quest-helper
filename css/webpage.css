@@ -605,6 +605,68 @@ div.item-table-recommended.webp {
     margin-top: -3px;
 }
 
+.preset-item-div {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.preset-item-div_left {
+    margin-right: 120px;
+}
+
+.preset-item-div_right {
+    margin-left: 120px;
+}
+
+.preset-item-img {
+    max-width: 48px;
+    max-height: 48px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+
+    margin-left: -3px;
+}
+
+.preset-plus-img {
+    width: 20px;
+    margin-left: -28px;
+    margin-bottom: 3px;
+}
+
+#preset-items-div {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -110px;
+}
+
+#preset-items-rank-label {
+    font-family: 'fot-udmarugo_large_prob', 'Trebuchet MS', Arial, serif;
+    line-height: 24px;
+    font-weight: bold;
+    text-shadow: 0 1px 2px #000000, 1px 1px 2px #000000;
+    text-align: center;
+}
+
+#preset-item-settings {
+    margin-top: -26px;
+}
+
+.preset-item-rank-button-text {
+    font-family: 'fot-udmarugo_large_prob', 'Trebuchet MS', Arial, serif;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#preset-bulk-mode-button {
+    font-size: 16px;
+}
+
 /* UPDATE INFORMATION =============================================================================================== */
 #update-div {
     background-size: cover;

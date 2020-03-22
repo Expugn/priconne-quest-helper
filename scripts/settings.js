@@ -354,6 +354,10 @@ function change_equipment_and_character_data()
 
             // UPDATE CHARACTER PRESETS LIST
             let current_selected_character = document.getElementById("character-preset-list-select").value;
+            if (preset_items_rank > max_character_rank_information.LOADED) {
+                preset_items_rank = max_character_rank_information.LOADED;
+                update_preset_rank_label();
+            }
             update_selected_character_preset_details();
             build_character_preset_list();
             if ((check_if_character_exists(current_selected_character) === false) && current_selected_character !== "default_character")
@@ -378,18 +382,20 @@ function change_equipment_and_character_data()
 
                 console.log(get_colored_message("Item Focus", "No longer focusing on an item.", message_status.INFO));
             }
+
+            // UPDATE SETTINGS AND PRESET RANK SELECTION TO BE WITHIN BOUNDS
+            if (equipment_data_type === equipment_data_version.CURRENT)
+            {
+                adjust_max_values(max_character_rank_information.CURRENT);
+            }
+            else
+            {
+                adjust_max_values(max_character_rank_information.LEGACY);
+            }
         });
     });
 
-    // UPDATE SETTINGS AND PRESET RANK SELECTION TO BE WITHIN BOUNDS
-    if (equipment_data_type === equipment_data_version.CURRENT)
-    {
-        adjust_max_values(max_character_rank_information.CURRENT);
-    }
-    else
-    {
-        adjust_max_values(max_character_rank_information.LEGACY);
-    }
+
 
     function adjust_max_values(max_value)
     {

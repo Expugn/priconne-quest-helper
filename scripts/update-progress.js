@@ -15,10 +15,6 @@ function update_progress()
         DEBUG_UPDATE_PROGRESS: false,
     });
     // and README
-    // and Settings Quest Min/Max
-    // and Presets Min/Max
-    // and Rank Min/Max
-    // and read-character-json.js min/max ranks
     // and pages/character-data/ rank colors
 
     if (!quest_update_status.NORMAL_QUEST ||

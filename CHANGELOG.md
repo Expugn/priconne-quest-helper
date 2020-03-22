@@ -3,6 +3,26 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.8.4] - 2020-03-22
+### Added
+- Bulk and Single Preset Mode
+  - Suggested by `UgroPnz#4246`
+  - Presets as they were before are now referred to as "Bulk Mode"
+  - Clicking the `Bulk Mode` button will switch presets to be `Single Mode`
+  - `Single Mode` displays the `6` items a character needs to rank up
+  - Clicking on an item will add `1` of that item to your requested items
+  - Ranks can be increased or decreased by using the `Rank »` or `« Rank` buttons
+- Updated Language Files
+  - `en.json`
+    - `presets_tab.bulk_mode`
+  - `ja.json`
+    - `presets_tab.bulk_mode`
+  - `ko.json`
+    - `presets_tab.bulk_mode`
+### Changed
+- Script improvements
+  - Max character rank and max quest chapter values are no longer hard-coded
+
 ## [1.8.3] - 2020-03-21
 ### Added
 - New Fonts
@@ -35,6 +55,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - Moved grayscale images seen in recommended quests up `1px` to align them with non-grayscale images
 - Other CSS modifications
 - HTML improvements(?)
+- Made some changes so that max character rank and max quest chapter are automatically updated for future updates instead of being hard-coded
 
 ## [1.8.2] - 2020-03-07
 ### Added
