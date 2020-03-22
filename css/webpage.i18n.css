@@ -30,11 +30,11 @@ h2.title:lang(ko) {
     margin-top: -15px;
 }
 
-.category-title:lang(ko) {
+.item-table_category-title:lang(ko) {
     font-family: "Trebuchet MS", "Arita-Dotum-Medium", "NotoSerifKR", serif;
 }
 
-.rarity-title:lang(ko) {
+.rarity-button:lang(ko) {
     font-family: "Arita-Dotum-Medium", "NanumGothic", "나눔고딕", "NotoSerifKR", serif;
 }
 
@@ -54,7 +54,7 @@ p.footer:lang(ko) {
     font-family: "Arita-Dotum-Medium", "NanumGothic", "나눔고딕", "NotoSerifKR", serif !important;
 }
 
-.nav-button-text:lang(ko) {
+.navigation-bar-text:lang(ko) {
     bottom: 38px;
     font-weight: bold;
     font-family: "Arita-Dotum-Medium", "NanumGothic", "나눔고딕", "NotoSerifKR", serif;
@@ -80,7 +80,7 @@ h2.title:lang(ja) {
     font-family: "Trebuchet MS", "Hiragino Kaku Gothic Pro W3", "NotoSerifJP", serif;
 }
 
-.category-title:lang(ja) {
+.item-table_category-title:lang(ja) {
     font-family: "Trebuchet MS", "Hiragino Kaku Gothic Pro W3", "NotoSerifJP", serif;
 }
 
