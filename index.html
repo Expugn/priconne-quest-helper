@@ -240,71 +240,79 @@
         <h2 class="category-title">
             <span translate_text="presets_tab.character_presets">Character Presets</span>
         </h2>
-        <div class="text-overflow_auto">
-            <table class="center-table">
-                <!-- SELECT LIST OF CHARACTERS FOUND IN data/character_data.json -->
-                <tr><th></th><th>
-                    <label>
-                        <select id="character-preset-list-select" onchange="update_selected_character_preset_details()"></select>
-                    </label>
-                </th><th></th></tr>
+        <div id="character-preset-settings">
+            <!-- SELECT LIST OF CHARACTERS FOUND IN data/character_data.json -->
+            <div class="center-div">
+                <label>
+                    <select id="character-preset-list-select" onchange="update_selected_character_preset_details()"></select>
+                    <button id="preset-search-button" onclick="toggle_preset_grid_display();">
+                        <img id="preset-lens-image" class="use-webp" image_folder="webpage" file_name="lens" src_prefix="" src="" alt="">
+                    </button>
+                </label>
+            </div>
+            <br>
+            <!-- SELECTED CHARACTER IMAGE AND NAME -->
+            <div class="center-div">
+                <img id="preset-character-image" class="use-webp presets_unit-icon" image_folder="unit_icon" file_name="Placeholder" src_prefix="" src="" alt=""><br>
+                <label id="preset-character-name-label" class="presets_unit-info priconne-font"></label>
+            </div>
+            <!-- MIN RANK TO MAX RANK OPTIONS -->
+            <div class="center-div text-overflow_auto">
+                <div style="display: inline-block; width: 25%; font-weight: bold;">
+                    <label class="category-title"><span translate_text="presets_tab.minimum_rank">Min Rank</span></label><br>
+                    <label for="preset-character-min-rank-input" hidden></label>
+                    <input
+                            id="preset-character-min-rank-input"
+                            class="item-input"
+                            type="number"
+                            min="1"
+                            max="16"
+                            value="1"
+                            disabled
+                            onchange="change_min_rank_preset()">
+                </div>
+                <label class="category-title" style="padding-left: 25px; padding-right: 25px; font-weight: bold;"><span translate_text="presets_tab.to">to</span></label>
+                <div style="display: inline-block; width: 25%; font-weight: bold;">
+                    <label class="category-title"><span translate_text="presets_tab.maximum_rank">Max Rank</span></label><br>
+                    <label for="preset-character-max-rank-input" hidden></label>
+                    <input
+                            id="preset-character-max-rank-input"
+                            class="item-input"
+                            type="number"
+                            min="1"
+                            max="16"
+                            value="16"
+                            disabled
+                            onchange="change_max_rank_preset()">
+                </div>
+            </div>
+            <br>
+            <!-- LOAD PRESET BUTTON AND LOAD PRESET AND SAVE PROJECT BUTTON -->
+            <div class="center-div">
+                <button id="preset-character-load-button" type="button" disabled onclick="load_preset_character_items()"><span translate_text="presets_tab.load_items_button">Load Items</span></button><br><br>
+                <button id="preset-character-load-and-create-project-button" type="button" disabled onclick="load_preset_character_items_and_create_project()"><span translate_text="presets_tab.load_items_and_create_project_button">Load Items and Create Project</span></button>
+            </div>
 
-                <!-- SELECTED CHARACTER IMAGE AND NAME -->
-                <tr><td></td><th>
-                    <img id="preset-character-image" class="use-webp presets_unit-icon" image_folder="unit_icon" file_name="Placeholder" src_prefix="" src="" alt=""><br>
-                    <label id="preset-character-name-label" class="category-title presets_unit-info priconne-font"></label>
-                </th><td></td></tr>
-
-                <!-- MIN RANK TO MAX RANK OPTIONS -->
-                <tr>
-                    <th>
-                        <label class="category-title"><span translate_text="presets_tab.minimum_rank">Min Rank</span></label><br>
-                        <label for="preset-character-min-rank-input" hidden></label>
-                        <input
-                                id="preset-character-min-rank-input"
-                                class="item-input"
-                                type="number"
-                                min="1"
-                                max="16"
-                                value="1"
-                                disabled
-                                onchange="change_min_rank_preset()">
-                    </th>
-                    <th>
-                        <label class="category-title"><span translate_text="presets_tab.to">to</span></label>
-                    </th>
-                    <th>
-                        <label class="category-title"><span translate_text="presets_tab.maximum_rank">Max Rank</span></label><br>
-                        <label for="preset-character-max-rank-input" hidden></label>
-                        <input
-                                id="preset-character-max-rank-input"
-                                class="item-input"
-                                type="number"
-                                min="1"
-                                max="16"
-                                value="16"
-                                disabled
-                                onchange="change_max_rank_preset()">
-                    </th>
-                </tr>
-                <!-- LOAD PRESET BUTTON AND LOAD PRESET AND SAVE PROJECT BUTTON -->
-                <tr>
-                    <th></th><th>
-                        <br>
-                        <button id="preset-character-load-button" type="button" disabled onclick="load_preset_character_items()"><span translate_text="presets_tab.load_items_button">Load Items</span></button><br><br>
-                        <button id="preset-character-load-and-create-project-button" type="button" disabled onclick="load_preset_character_items_and_create_project()"><span translate_text="presets_tab.load_items_and_create_project_button">Load Items and Create Project</span></button>
-                    </th><th></th>
-                </tr>
-            </table>
+            <!-- ITEM TABLE OVERWRITE WARNING -->
+            <h3 class="category-title presets_overwrite-warning">
+                <span translate_text="presets_tab.overwrite_warning">
+                    Currently selected items will be replaced<br>
+                    when the <span style="color: lightpink">Load Item</span> button is pressed.
+                </span>
+            </h3>
         </div>
-
-        <!-- ITEM TABLE OVERWRITE WARNING -->
-        <h3 class="category-title presets_overwrite-warning">
-            <span translate_text="presets_tab.overwrite_warning">
-                Currently selected items will be replaced<br>
-                when the <span style="color: lightpink">Load Item</span> button is pressed.
-            </span>
-        </h3><br>
+        <div id="character-preset-grid" hidden>
+            <div class="center-div">
+                <button onclick="toggle_preset_grid_display();"><span translate_text="presets_tab.cancel">Cancel</span></button>
+                <br><br>
+                <div id="preset-grid-display" class="center-div">
+                    <button class="preset-grid-button" onclick="select_unit_from_preset_grid('deresute_uzuki');">
+                        <img class="preset-grid-button-img" src="images/unit_icon/Deresute_Uzuki.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <br>
     </div>
 </div>
 

@@ -100,6 +100,12 @@
         <tbody>
             <tr>
                 <th>
+                    <button id="version-history-button" onclick="toggle_version_history_display()" disabled>Version History</button>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <br>
                     <label for="data-type-select" hidden>Data Type Select</label>
                     <select id="data-type-select" onchange="change_display()">
                         <option value="equipment-data">Equipment Usage</option>
@@ -120,6 +126,36 @@
         </tbody>
     </table>
     <br>
+    <hr>
+</div>
+
+<div id="version-settings" hidden>
+    <div style="margin: auto; text-align: center;">
+        <button onclick="toggle_version_history_display()">Back to Statistics</button>
+        <br><br>
+        <label style="font-family: 'Trebuchet MS', Arial, serif;">
+            Show Fragment History
+            <input style="position: relative; top: 1px;" type="checkbox" onchange="toggle_version_history_type()">
+        </label>
+        <br><br>
+        <div style="display: inline-block;">
+            <label for="version-after" hidden>Version After</label><select id="version-after" onchange="document.getElementById('version-after-link').href = 'https://github.com/Expugn/priconne-quest-helper/commit/' + document.getElementById('version-after').value;"></select>
+            <br>
+            <a id="version-after-link" href="" target="_blank" class="commit-hyperlink">
+                Commit Information
+            </a>
+        </div>
+        <span id="version-arrow" style="padding-right: 10px; padding-left: 10px;"> ← </span>
+        <div style="display: inline-block;">
+            <label for="version-before" hidden>Version Before</label><select id="version-before" onchange="document.getElementById('version-before-link').href = 'https://github.com/Expugn/priconne-quest-helper/commit/' + document.getElementById('version-before').value;"></select>
+            <br>
+            <a id="version-before-link" href="" target="_blank" class="commit-hyperlink">
+                Commit Information
+            </a>
+        </div>
+        <br><br>
+        <button onclick="compare_versions()">Compare Versions</button>
+    </div>
     <hr>
 </div>
 
@@ -181,9 +217,18 @@
             <table id="all-ingredients-sorted" class="center-table white-background"></table>
         </div>
     </div>
-    <br>
-    <hr>
 </div>
+
+<div id="version-history" class="center-div" hidden>
+    <div id="equipment-history">
+
+    </div>
+    <div id="fragment-history" hidden>
+
+    </div>
+</div>
+<br>
+<hr>
 
 </body>
 
@@ -204,6 +249,7 @@
     let all_ingredients_map_sorted;
     let equipment_data_map;
     let current_display = "equipment-data";
+    let version_history_json = {};
 
     let character_counter = 0;
     let highest_rank;
@@ -245,6 +291,7 @@
         build_full_ingredient_html();
         update_stats();
         document.getElementById("rarity-settings").hidden = false;
+        setup_version_history();
     }
 
     function compile_all_full_equipment()
@@ -534,6 +581,232 @@
                 run();
             });
         });
+    }
+
+    function setup_version_history()
+    {
+        // NUMBER BETWEEN () IS THE AMOUNT OF ENTRIES OBTAINED.
+        // ENTRY AMOUNT MAX IS 30
+        const ENTRY_AMOUNT = (5) - 1;
+        let select_html = "";
+
+        get_raw_urls(function (file_json) {
+            let counter = 0;
+            // GO THROUGH RAW URLS OBTAINED FROM get_raw_urls() AND BUILD version_history_json
+            for (const [sha, obj] of Object.entries(file_json)) {
+                // ADD SELECT OPTION
+                select_html += "<option value='" + sha + "'>" + new Date(obj["date"]).toDateString() + "</option>";
+
+                if (counter === 0) {
+                    document.getElementById("version-after-link").href = "https://github.com/Expugn/priconne-quest-helper/commit/" + sha;
+                    document.getElementById("version-before-link").href = "https://github.com/Expugn/priconne-quest-helper/commit/" + sha;
+                }
+
+                // GO THROUGH EQUIPMENT DATA OF SPECIFIC COMMIT
+                get_items(obj["raw_url"], function (items_json) {
+                    // ADD ITEMS
+                    file_json[sha]["items"] = items_json;
+
+                    // WHEN ENOUGH DATA HAS BEEN COLLECTED...
+                    // SETUP ELEMENTS
+                    if (counter++ === ENTRY_AMOUNT) {
+                        // SETUP ELEMENTS
+                        document.getElementById("version-history-button").disabled = false;
+                        document.getElementById("version-after").innerHTML = select_html;
+                        document.getElementById("version-before").innerHTML = select_html;
+
+                        // STORE VERSION HISTORY FOR LATER USE
+                        version_history_json = file_json;
+                    }
+                });
+            }
+        });
+
+        function get_raw_urls(callback) {
+            // FIND ANY COMMITS THAT HAVE MODIFIED data/character_data.json
+            const commits_url = "https://api.github.com/repos/Expugn/priconne-quest-helper/commits?path=data/character_data.json";
+            let file_json = {};
+            $.ajax({
+                url: commits_url,
+                type: 'GET',
+                dataType: 'json',
+                success: function(response) {
+                    $.each(response, function (index, obj) {
+                        file_json[obj["sha"]] = {};
+                        file_json[obj["sha"]]["raw_url"] = "https://raw.githubusercontent.com/Expugn/priconne-quest-helper/" + obj["sha"] + "/data/character_data.json";
+                        file_json[obj["sha"]]["date"] = obj["commit"]["author"]["date"];
+                        file_json[obj["sha"]]["items"] = {};
+
+                        // END LOOP WHEN INDEX = ENTRY_AMOUNT (ENOUGH COMMIT DATA HAS BEEN COLLECTED)
+                        if (index === ENTRY_AMOUNT) {
+                            return false;
+                        }
+                    });
+
+                    // RETURN RAW URLS TO CALLBACK
+                    callback(file_json);
+                },
+                error: function(e) {
+                    console.log(get_colored_message("Version History", "FAILED TO GET VERSION HISTORY! Page refresh may be necessary.", message_status.SUCCESS));
+
+                    // MODIFY ELEMENTS
+                    document.getElementById("version-history-button").innerHTML = "FAILED TO GET VERSION HISTORY<br>Refresh the page to try again.";
+                }
+            });
+        }
+
+        function get_items(raw_url, callback)
+        {
+            let items_json = {};
+            $.ajax({
+                url: raw_url,
+                type: 'GET',
+                dataType: 'json',
+                success: function(response) {
+                    $.when(
+                        $.each(response, function(i, character_obj) {
+                            for (let i = 1 ; character_obj["rank_" + i] !== undefined ; i++) {
+                                character_obj["rank_" + i].forEach(function (item_name) {
+                                    // CHECK IF ITEM IS EMPTY OR NOT
+                                    if (item_name !== "") {
+                                        // CHECK IF ENTRY EXISTS, IF NOT THEN CREATE NEW ENTRY
+                                        if (items_json[item_name] !== undefined) {
+                                            items_json[item_name]++;
+                                        }
+                                        else {
+                                            items_json[item_name] = 1;
+                                        }
+                                    }
+                                });
+                            }
+                        })
+                    ).then(function () {
+                        callback(items_json);
+                    });
+                },
+                error: function(e) {
+                    console.log(get_colored_message("Version History", "FAILED TO GET ITEMS FROM RAW URLS! Page refresh may be necessary.", message_status.SUCCESS));
+
+                    // MODIFY ELEMENTS
+                    document.getElementById("version-history-button").innerHTML = "FAILED TO GET VERSION HISTORY<br>Refresh the page to try again.";
+                }
+            });
+        }
+    }
+
+    function compare_versions()
+    {
+        let equipment_html = "";
+        let ingredient_html = "";
+        const version_1 = version_history_json[document.getElementById("version-after").value];
+        const version_2 = version_history_json[document.getElementById("version-before").value];
+        let items = {...version_2["items"], ...version_1["items"]};
+        let ingredients = new Map();
+
+        // DETERMINE DIFFERENCES
+        Object.entries(items).forEach(function (item)
+        {
+            const item_name = item[0];
+            let difference = items[item_name] - (version_2["items"].hasOwnProperty(item_name) ? version_2["items"][item_name] : 0);
+            let is_new_item = (version_1["items"].hasOwnProperty(item_name) && !version_2["items"].hasOwnProperty(item_name)) ||
+                (!version_1["items"].hasOwnProperty(item_name) && version_2["items"].hasOwnProperty(item_name));
+            if (difference !== 0 || is_new_item) {
+                if (is_new_item && (!version_1["items"].hasOwnProperty(item_name) && version_2["items"].hasOwnProperty(item_name))) {
+                    // ITEM EXISTS IN VERSION_2 BUT NOT VERSION_1, MEANING VERSION_2 IS PROBABLY A MORE RECENT VERSION.
+                    items[item_name] = -(version_2["items"][item_name]);
+                }
+                else {
+                    // THERE IS A DIFFERENCE IN AMOUNTS, ADD TO ITEMS.
+                    items[item_name] = difference;
+                }
+            }
+            else
+            {
+                // NO DIFFERENCE DETECTED, REMOVE FROM LIST
+                delete items[item_name];
+            }
+        });
+
+        if (Object.keys(items).length === 0 && items.constructor === Object)
+        {
+            // NO CHANGES BETWEEN VERSIONS DETECTED
+            const no_changes_detected_html = "<div style='margin: auto; text-align: center;'><br><span style='font-family: \"Trebuchet MS\", Arial, serif;'>No Changes Detected!</span></div>";
+            document.getElementById("equipment-history").innerHTML = no_changes_detected_html;
+            document.getElementById("fragment-history").innerHTML = no_changes_detected_html;
+        }
+        else
+        {
+            // SORT ITEMS (MOST -> LEAST)
+            let items_sorted = Object.keys(items).sort(function (a, b) {
+                return items[b]-items[a];
+            });
+
+            // MAKE EQUIPMENT HTML
+            items_sorted.forEach(function (item_name) {
+                const difference = items[item_name];
+                equipment_html += "<div class='item-div" + (difference > 0 ? " green-background" : " red-background") + "'>";
+                equipment_html += "<img class='item' src=\"../../" + get_item_image_path(item_name.split(' ').join('_')) + "\" title=\"" + item_name + "\" alt=''>";
+                equipment_html += "<span class='item-amount version-item-amount'>" + ((difference > 0) ? "+ " : "- ") + Math.abs(difference) + "</span>";
+                equipment_html += "</div>";
+
+                // COLLECT AND STORE RECIPE DATA FOR LATER USE
+                let item_recipe = get_recipe(item_name, Math.abs(difference));
+                item_recipe.forEach(function (ingredient_amount, ingredient_name) {
+                    if (ingredients.has(ingredient_name)) {
+                        if (difference > 0) {
+                            ingredients.set(ingredient_name, ingredients.get(ingredient_name) + ingredient_amount);
+                        }
+                        else {
+                            ingredients.set(ingredient_name, ingredients.get(ingredient_name) + (-Math.abs(ingredient_amount)));
+                        }
+                    }
+                    else {
+                        if (difference > 0) {
+                            ingredients.set(ingredient_name, ingredient_amount);
+                        }
+                        else {
+                            ingredients.set(ingredient_name, (-Math.abs(ingredient_amount)));
+                        }
+                    }
+                });
+            });
+
+            // BUILD INGREDIENT HTML
+            new Map([...ingredients.entries()].sort((a, b) => b[1] - a[1])).forEach(function (ingredient_amount, ingredient_name) {
+                if (ingredient_amount !== 0) {
+                    ingredient_html += "<div class='item-div" + (ingredient_amount > 0 ? " green-background" : " red-background") + "'>";
+                    ingredient_html += "<img class='item' src=\"../../" + get_item_image_path(ingredient_name.split(' ').join('_')) + "\" title=\"" + ingredient_name + "\" alt=''>";
+                    ingredient_html += "<span class='item-amount version-item-amount'>" + ((ingredient_amount > 0) ? "+ " : "- ") + Math.abs(ingredient_amount) + "</span>";
+                    ingredient_html += "</div>";
+                }
+            });
+            document.getElementById("equipment-history").innerHTML = equipment_html;
+            document.getElementById("fragment-history").innerHTML = ingredient_html;
+        }
+    }
+
+    let temp_ignored_rarities = [];
+    function toggle_version_history_display()
+    {
+        document.getElementById("rarity-settings").hidden = !document.getElementById("rarity-settings").hidden;
+        document.getElementById("version-settings").hidden = !document.getElementById("version-settings").hidden;
+        document.getElementById("all-data").hidden = !document.getElementById("all-data").hidden;
+        document.getElementById("version-history").hidden = !document.getElementById("version-history").hidden;
+
+        // IF LOOKING AT VERSION HISTORY, CLEAR IGNORED RARITIES
+        // ELSE, RESTORE SAVED SETTINGS.
+        if (document.getElementById("rarity-settings").hidden) {
+            temp_ignored_rarities = ignored_rarities;
+            ignored_rarities = [];
+        }
+        else {
+            ignored_rarities = temp_ignored_rarities;
+        }
+    }
+    
+    function toggle_version_history_type() {
+        document.getElementById("equipment-history").hidden = !document.getElementById("equipment-history").hidden;
+        document.getElementById("fragment-history").hidden = !document.getElementById("fragment-history").hidden;
     }
 </script>
 

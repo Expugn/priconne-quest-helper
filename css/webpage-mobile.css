@@ -59,7 +59,7 @@ button.item-button {
 
 
 .required-ingredients_button_item-amount {
-    margin-left: -6px;
+    left: -1px !important;
 }
 
 .requested-items_item-amount {
@@ -70,6 +70,11 @@ button.item-button {
 .quest-title {
     font-size: 4vw !important;
     left: 1vw;
+}
+
+.grayscale {
+    position: relative;
+    bottom: 1px;
 }
 
 .quest-title_hard {

@@ -5,6 +5,20 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Hiragino Kaku Gothic Pro W3';
+    src: local("ヒラギノ角ゴ Pro W3"), local("Hiragino Kaku Gothic Pro"), local("Hiragino Kaku Gothic Pro W3"), url('font/Hiragino-Kaku-Gothic-Pro_W3.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hiragino Kaku Gothic Pro W6';
+    src: local("ヒラギノ角ゴ Pro W6"), local("Hiragino Kaku Gothic Pro W6"), url('font/Hiragino-Kaku-Gothic-Pro_W6.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* WEBPAGE DESIGN =================================================================================================== */
 body {
     background-color: #e3cfcb;
@@ -187,3 +201,7 @@ img.item-button-image {
     margin: 0 auto;
 }
 
+.center-div {
+    margin: auto;
+    text-align: center;
+}

@@ -51,7 +51,9 @@
     "load_items_button": "アイテム読み込み",
     "load_items_and_create_project_button": "アイテム読み込み & プロジェクト作成",
 
-    "overwrite_warning": "現在選択したアイテムは、<br><span style='color: lightpink'>アイテム読み込み</span>ボタンを押すと上書きされます。"
+    "overwrite_warning": "現在選択したアイテムは、<br><span style='color: lightpink'>アイテム読み込み</span>ボタンを押すと上書きされます。",
+
+    "cancel": "キャンセル"
   },
 
   "projects_tab": {

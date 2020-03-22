@@ -3,6 +3,39 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.8.3] - 2020-03-21
+### Added
+- New Fonts
+  - Added `Arita-Dotum-Medium`
+  - Added `Hiragino-Kaku-Gothic-Pro` (`W3` and `W6`)
+- Version History in `pages/statistics/`
+  - View the last `5` modifications to `data/character_data.json`
+  - The amount of equipment added/removed is displayed
+  - An option to view the amount of equipment fragments added/removed is available as well
+  - A hyperlink to go to the commit for more information on what changed is provided below the list
+- Added Character Preset Grid Search
+  - Suggested by `UgroPnz#4246`
+  - Clicking the lens button next to the unit list in the presets tab will open a grid of unit images
+  - Clicking on a unit image is the same as clicking them in the list
+- Updated Language Files
+  - `en.json`
+    - `presets_tab.cancel`
+  - `ja.json`
+    - `presets_tab.cancel`
+  - `ko.json`
+    - `presets_tab.cancel`
+    - `character_names.mio`
+    - `character_names.uzuki`
+    - `thematics.deresute`
+### Changed
+- Font Changes
+  - `NotoSerifKR` replaced by `Arita Dotum Medium`
+  - `NotoSerifJP` replaced by `Hiragino Kaku Gothic Pro`
+- Adjusted mobile site CSS
+  - Moved grayscale images seen in recommended quests up `1px` to align them with non-grayscale images
+- Other CSS modifications
+- HTML improvements(?)
+
 ## [1.8.2] - 2020-03-07
 ### Added
 - Unit search feature for `pages/character-data`

@@ -4,6 +4,7 @@ let preset_max_rank = max_character_rank_information.CURRENT;
 function build_character_preset_list()
 {
     let character_preset_html;
+    let character_preset_grid_html = "";
     if (current_language === language.ENGLISH)
     {
         character_preset_html = "<option value=\"default_character\">[Character...]</option>";
@@ -21,6 +22,7 @@ function build_character_preset_list()
             let character_en = character_data_map.get("name") + ((character_data_map.get("thematic") !== "") ?  (" (" + character_data_map.get("thematic") + ")") : "");
             let character_jp = character_data_map.get("name_jp") + ((character_data_map.get("thematic_jp") !== "") ?  ("（" + character_data_map.get("thematic_jp") + "）") : "");
             character_preset_html += "<option value=\"" + character_id + "\"" + ((character_data_map.get("rank_1")[0] === "") ? " disabled" : "") + ">" + character_en + " | " + character_jp + "</option>";
+            character_preset_grid_html += get_character_grid_html(character_id, character_data_map);
         }
     }
     else
@@ -63,13 +65,15 @@ function build_character_preset_list()
         {
             // IGNORE IF character_data_map IS A STRING (MEANING NO BASE VERSION EXISTS)
             // THIS IS TO ACCOUNT FOR CHARACTERS THAT DON'T HAVE A BASE VERSION
-            // SUCH AS 'Mio (Deresute)' AND 'Utsuki (Deresute)'
+            // SUCH AS 'Mio (Deresute)' AND 'Uzuki (Deresute)'
             let name;
             if (!((typeof character_data_map) === 'string'))
             {
+                name = character_data_map.get("name").toLowerCase();
+
                 // ADD BASE VERSION TO LIST
                 character_preset_html += get_character_select_html(character_data_map);
-                name = character_data_map.get("name").toLowerCase();
+                character_preset_grid_html += get_character_grid_html(name, character_data_map);
             }
             else
             {
@@ -84,6 +88,7 @@ function build_character_preset_list()
                 for (let i = 0 ; i < thematics_array.length ; i++)
                 {
                     character_preset_html += get_character_select_html(character_map.get(thematics_array[i]));
+                    character_preset_grid_html += get_character_grid_html(thematics_array[i], character_map.get(thematics_array[i]));
                 }
             }
         }
@@ -108,6 +113,24 @@ function build_character_preset_list()
     }
 
     document.getElementById("character-preset-list-select").innerHTML = character_preset_html;
+    document.getElementById("preset-grid-display").innerHTML = character_preset_grid_html;
+
+    function get_character_grid_html(character_id, character_data_map) {
+        if ((character_data_map.get("rank_1")[0] !== "")) {
+            // UNIT IS ENABLED IN SELECT LIST ; DISPLAY IN GRID
+            let name = character_data_map.get("name");
+            let thematic = character_data_map.get("thematic").replace(' ', '_');
+            let file_name = (thematic === "") ? name : thematic + "_" + name;
+            return "<button class='preset-grid-button' onclick='select_unit_from_preset_grid(\"" + character_id + "\");'>" +
+                "<img class='preset-grid-button-img' src=\"" + get_unit_icon_image_path(file_name) + "\" alt=''>" +
+                "</button>";
+        }
+        else {
+            // UNIT IS DISABLED IN SELECT LIST ; DO NOT DISPLAY IN GRID
+            return "";
+        }
+
+    }
 }
 
 function update_selected_character_preset_details()
@@ -329,4 +352,17 @@ function load_preset_character_items_and_create_project()
     // SAVE PROJECT
     document.getElementById("project-name-input").value = project_name;
     save_project_data();
+}
+
+function toggle_preset_grid_display()
+{
+    document.getElementById("character-preset-settings").hidden = !document.getElementById("character-preset-settings").hidden;
+    document.getElementById("character-preset-grid").hidden = !document.getElementById("character-preset-grid").hidden;
+}
+
+function select_unit_from_preset_grid(unit_id)
+{
+    document.getElementById("character-preset-list-select").value = unit_id;
+    update_selected_character_preset_details();
+    toggle_preset_grid_display();
 }

@@ -316,6 +316,9 @@ img.focused-item {
     position: relative;
     bottom: 26px;
     left: 4px;
+
+    /* TO DEAL WITH NUMBERS GREATER THAN 999 */
+    margin-left: -24%;
 }
 
 /* FOCUSED ITEM ===================================================================================================== */
@@ -562,10 +565,44 @@ div.item-table-recommended.webp {
 .presets_unit-info {
     color: navajowhite;
     line-height: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
 }
 
 .presets_overwrite-warning {
     text-shadow: 1px 1px 2px #000000,1px 1px 3px #000000;
+}
+
+#preset-search-button {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 15px;
+}
+
+#preset-lens-image {
+    width: 32px;
+    position: relative;
+    right: 8px;
+    bottom: 4px;
+}
+
+.preset-grid-button {
+    width: 64px;
+    height: 64px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 3px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.preset-grid-button-img {
+    width: 64px;
+    height: 64px;
+    margin-left: -8px;
+    margin-top: -3px;
 }
 
 /* UPDATE INFORMATION =============================================================================================== */
