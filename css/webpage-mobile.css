@@ -121,8 +121,8 @@ button.item-button {
 }
 
 #preset-items-div {
-    margin-left: 1px !important;
-    margin-right: 1px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     margin-top: -80px !important;
 }
 
