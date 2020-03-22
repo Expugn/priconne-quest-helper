@@ -606,16 +606,12 @@ div.item-table-recommended.webp {
 }
 
 .preset-item-button {
-    width: 48px;
-    height: 48px;
+    line-height: 0;
     cursor: pointer;
     display: inline-block;
     margin-bottom: 5px;
     margin-top: 5px;
     border-radius: 5px;
-
-    /* REMOVE HIGHLIGHT */
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .preset-item-button-padding {
@@ -630,16 +626,13 @@ div.item-table-recommended.webp {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 4px;
 
-    position: relative;
-    right: 8px;
-    bottom: 3px;
+    margin: -3px -32px -3px -8px;
 }
 
 .preset-plus-img {
     width: 20px;
     position: relative;
-    bottom: 29px;
-    left: 11px;
+    left: 5px;
 }
 
 #preset-items-div {

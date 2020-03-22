@@ -946,15 +946,17 @@ DISABLED AS OF [1.8.1] 2/29/2020 - READ CHANGELOG
             }
             else
             {
-                // UPDATE SPECIFIC ELEMENTS WITH MAX RANK
-                document.getElementById("preset-character-min-rank-input").max = max_character_rank_information.CURRENT;
-                document.getElementById("preset-character-max-rank-input").max = max_character_rank_information.CURRENT;
-                document.getElementById("preset-character-max-rank-input").value = max_character_rank_information.CURRENT;
-
                 // UPDATE SPECIFIC ELEMENTS WITH MAX QUEST CHAPTER
                 document.getElementById("min-quest-chapter").max = max_quest_chapter_information;
                 document.getElementById("max-quest-chapter").max = max_quest_chapter_information;
                 document.getElementById("max-quest-chapter").value = max_quest_chapter_information;
+                max_quest_chapter_default = max_quest_chapter_information;
+                max_quest_chapter = max_quest_chapter_information;
+
+                // UPDATE SPECIFIC ELEMENTS WITH MAX RANK
+                document.getElementById("preset-character-min-rank-input").max = max_character_rank_information.CURRENT;
+                document.getElementById("preset-character-max-rank-input").max = max_character_rank_information.CURRENT;
+                document.getElementById("preset-character-max-rank-input").value = max_character_rank_information.CURRENT;
 
                 preset_max_rank = max_character_rank_information.CURRENT;
 

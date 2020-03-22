@@ -73,8 +73,9 @@ function init_settings()
     min_quest_chapter_default = document.getElementById(setting_element_id.MIN_QUEST_CHAPTER).value;
     min_quest_chapter = min_quest_chapter_default;
 
-    max_quest_chapter_default = document.getElementById(setting_element_id.MAX_QUEST_CHAPTER).value;
-    max_quest_chapter = max_quest_chapter_default;
+    // INITIALIZED IN index.html
+    //max_quest_chapter_default = document.getElementById(setting_element_id.MAX_QUEST_CHAPTER).value;
+    //max_quest_chapter = max_quest_chapter_default;
 
     if (document.getElementById(setting_element_id.QUEST_FILTER_ALL).checked)
     {
