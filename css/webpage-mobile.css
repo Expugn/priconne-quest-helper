@@ -116,7 +116,8 @@ button.item-button {
 }
 
 .preset-item-button-padding {
-    margin-left: 60% !important;
+    margin-left: 30% !important;
+    margin-right: 30%;
 }
 
 #preset-items-div {

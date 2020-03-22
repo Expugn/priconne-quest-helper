@@ -612,13 +612,15 @@ div.item-table-recommended.webp {
     display: inline-block;
     margin-bottom: 5px;
     margin-top: 5px;
+    border-radius: 5px;
 
     /* REMOVE HIGHLIGHT */
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .preset-item-button-padding {
-    margin-left: 250px;
+    margin-left: 125px;
+    margin-right: 125px;
 }
 
 .preset-item-img {
