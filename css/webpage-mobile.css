@@ -124,12 +124,16 @@ button.item-button {
 }
 
 #preset-items-div {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+    margin-top: -100px !important;
 }
 
 .preset-item-rank-button-text {
-    font-size: 12px !important;
-    margin-left: 5% !important;
-    margin-right: 5% !important;
+    font-size: 10px !important;
+}
+
+#preset-item-settings {
+    margin-top: -10px !important;
+;
 }
