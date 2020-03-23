@@ -132,6 +132,10 @@ button.item-button {
     margin-top: -80px !important;
 }
 
+#preset-items-rank-select {
+    height: 30px;
+}
+
 .preset-item-rank-button-text {
     font-size: 10px !important;
     margin-left: 20px !important;

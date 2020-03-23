@@ -480,7 +480,7 @@ function update_preset_item_rank_select() {
         html += "<option class=\"preset-items-rank-option " + get_rank_color_class(i) + "\" value=\"" + i + "\">Rank " + i + "</option>";
     }
     document.getElementById("preset-items-rank-select").innerHTML = html;
-    document.getElementById("preset-items-rank-select").size = document.getElementById("preset-items-rank-select").length / 3;
+    document.getElementById("preset-items-rank-select").size = document.getElementById("preset-items-rank-select").length / 2;
 }
 
 function get_rank_color_class(rank) {
