@@ -435,6 +435,7 @@ function next_preset_rank() {
         preset_items_rank++;
         get_preset_items();
         update_preset_rank_label();
+        document.getElementById("preset-items-rank-select").value = preset_items_rank + "";
     }
 
 }
@@ -444,6 +445,7 @@ function previous_preset_rank() {
         preset_items_rank--;
         get_preset_items();
         update_preset_rank_label();
+        document.getElementById("preset-items-rank-select").value = preset_items_rank + "";
     }
 }
 
