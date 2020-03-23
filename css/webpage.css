@@ -687,6 +687,22 @@ div.item-table-recommended.webp {
     font-weight: bold;
     text-shadow: 0 1px 2px #000000, 1px 1px 2px #000000;
     text-align: center;
+    cursor: pointer;
+
+    padding: 5px 15px;
+}
+
+#preset-items-rank-select {
+    font-family: 'fot-udmarugo_large_prob', 'Trebuchet MS', Arial, serif;
+    background-color: navajowhite;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.preset-items-rank-option {
+    cursor: pointer;
+    padding: 2px 15px;
+    text-shadow: 0 1px 2px #000000, 0 1px 2px #000000;
 }
 
 #preset-item-settings {

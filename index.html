@@ -345,15 +345,19 @@
                     </div>
                 </div>
                 <div id="preset-item-settings" class="center-div">
-                    <label id="preset-items-rank-label" class="text-color_common">Rank 1</label>
+                    <span id="preset-items-rank-label" class="text-color_common" onclick="open_preset_rank_dropdown()">Rank 1</span>
+                    <label for="preset-items-rank-select" hidden></label>
+                    <select id="preset-items-rank-select" onchange="close_preset_rank_dropdown()" hidden></select>
                     <br><br>
-                    <button id="preset-items-previous-rank-button" onclick="previous_preset_rank();" disabled>
-                        <span class="preset-item-rank-button-text">&laquo; Rank</span>
-                    </button>
-                    <span style="padding: 40px;"></span>
-                    <button id="preset-items-next-rank-button" onclick="next_preset_rank();" disabled>
-                        <span class="preset-item-rank-button-text">Rank &raquo;</span>
-                    </button>
+                    <div id="preset-items-rank-buttons">
+                        <button id="preset-items-previous-rank-button" onclick="previous_preset_rank();" disabled>
+                            <span class="preset-item-rank-button-text">&laquo; Rank</span>
+                        </button>
+                        <span style="padding: 40px; position: relative; top: 30px;"></span>
+                        <button id="preset-items-next-rank-button" onclick="next_preset_rank();" disabled>
+                            <span class="preset-item-rank-button-text">Rank &raquo;</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

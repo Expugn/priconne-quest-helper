@@ -361,6 +361,7 @@ function change_equipment_and_character_data()
             }
             update_selected_character_preset_details();
             build_character_preset_list();
+            update_preset_item_rank_select();
             if ((check_if_character_exists(current_selected_character) === false) && current_selected_character !== "default_character")
             {
                 console.log(get_colored_message("Equipment Data (Legacy)", "Currently selected character in presets " + highlight(current_selected_character) + color_text(" no longer exists. Reverting to default selection.", message_status.INFO), message_status.INFO));

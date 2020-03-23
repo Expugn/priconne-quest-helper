@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [1.8.5] - 2020-03-23
+### Added
+- Preset Single Mode: Rank Select Dropdown
+  - Clicking on the `Rank #` text will now open a select element where the user can choose a specific rank to jump to
 ### Changed
 - Font tweaks
 - Placeholder images (empty items) in Preset single mode no longer have the `+` image visible

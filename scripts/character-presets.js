@@ -116,6 +116,8 @@ function build_character_preset_list()
     document.getElementById("character-preset-list-select").innerHTML = character_preset_html;
     document.getElementById("preset-grid-display").innerHTML = character_preset_grid_html;
 
+    update_preset_item_rank_select();
+
     function get_character_grid_html(character_id, character_data_map) {
         if ((character_data_map.get("rank_1")[0] !== "")) {
             // UNIT IS ENABLED IN SELECT LIST ; DISPLAY IN GRID
@@ -451,34 +453,60 @@ function update_preset_rank_label() {
     preset_items_rank_label_element.className = "";
 
     // UPDATE TEXT COLOR
-    switch (preset_items_rank) {
+    preset_items_rank_label_element.classList.toggle(get_rank_color_class(preset_items_rank));
+}
+
+function open_preset_rank_dropdown() {
+    document.getElementById("preset-items-rank-select").hidden = false;
+    document.getElementById("preset-items-rank-label").hidden = true;
+    document.getElementById("preset-items-rank-buttons").hidden = true;
+}
+
+function close_preset_rank_dropdown() {
+    preset_items_rank = parseInt(document.getElementById("preset-items-rank-select").value);
+    get_preset_items();
+    update_preset_rank_label();
+
+    document.getElementById("preset-items-rank-select").hidden = true;
+    document.getElementById("preset-items-rank-label").hidden = false;
+    document.getElementById("preset-items-rank-buttons").hidden = false;
+
+    document.getElementById("presets-container").scrollIntoView();
+}
+
+function update_preset_item_rank_select() {
+    let html = "";
+    for (let i = 1 ; i <= max_character_rank_information.LOADED ; i++) {
+        html += "<option class=\"preset-items-rank-option " + get_rank_color_class(i) + "\" value=\"" + i + "\">Rank " + i + "</option>";
+    }
+    document.getElementById("preset-items-rank-select").innerHTML = html;
+    document.getElementById("preset-items-rank-select").size = document.getElementById("preset-items-rank-select").length / 3;
+}
+
+function get_rank_color_class(rank) {
+    switch (rank) {
         case 1:
-            preset_items_rank_label_element.classList.toggle("text-color_common");
-            break;
+            return "text-color_common";
         case 2:
         case 3:
-            preset_items_rank_label_element.classList.toggle("text-color_copper");
-            break;
+            return "text-color_copper";
         case 4:
         case 5:
         case 6:
-            preset_items_rank_label_element.classList.toggle("text-color_silver");
-            break;
+            return "text-color_silver";
         case 7:
         case 8:
         case 9:
         case 10:
-            preset_items_rank_label_element.classList.toggle("text-color_gold");
-            break;
+            return "text-color_gold";
         case 11:
         case 12:
         case 13:
         case 14:
         case 15:
         case 16:
-            preset_items_rank_label_element.classList.toggle("text-color_purple");
-            break;
+            return "text-color_purple";
         default:
-            break;
+            return "text-color_misc";
     }
 }
