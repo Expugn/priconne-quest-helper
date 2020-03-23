@@ -417,14 +417,10 @@ function get_preset_items() {
 
             let plus_element = document.getElementById("preset-item-" + counter).nextElementSibling;
             if (item_name === "") {
-                if (!plus_element.classList.contains("grayscale")) {
-                    plus_element.classList.toggle("grayscale");
-                }
+                plus_element.style = "opacity: 0;";
             }
             else {
-                if (plus_element.classList.contains("grayscale")) {
-                    plus_element.classList.toggle("grayscale");
-                }
+                plus_element.style = "";
             }
 
             counter++;

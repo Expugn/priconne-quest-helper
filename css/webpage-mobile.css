@@ -57,14 +57,21 @@ button.item-button {
     max-height: 12vw;
 }
 
-
-.required-ingredients_button_item-amount {
-    left: -1px !important;
+.required-ingredients_item-img {
+    width: 12vw !important;
+    height: 12vw !important;
 }
 
-.requested-items_item-amount {
+.required-ingredients_button_item-amount {
+    font-size: 4.4vw !important;
+
+    margin-right: -13px !important;
+    margin-left: -1px !important;
+    margin-top: -20px !important;
+
     position: relative;
-    bottom: 2px;
+    top: 4px !important;
+    right: 8px !important;
 }
 
 .quest-title {

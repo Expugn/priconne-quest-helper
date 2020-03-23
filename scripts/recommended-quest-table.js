@@ -34,12 +34,12 @@ function build_recommended_quest_table(all_recipe_maps_array)
         /* ITERATE THROUGH ALL QUESTS, GENERATE QUEST SCORE */
         let quest_score_map = new Map();
 
-        const item_is_in_top_2_score = 1.0;
-        const item_is_in_3rd_slot = 0.75;
-        const item_is_in_subitem_score = 0.5;
-        const item_is_in_subitem17_score = 0.45;
-        const item_is_in_subitem15_score = 0.40;
-        const priority_item_multiplier = 2.0;
+        const QUEST_SCORE_VALUES = Object.freeze({
+            TOP_TWO: 1.0,
+            THIRD: 0.75,
+            SUBDROP: 0.5,
+            PRIORITY_MULTIPLIER: 2.0,
+        });
 
         for (let [quest_id, quest_data] of quests)
         {
@@ -81,15 +81,15 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     // IF FOCUSED ITEM IS NOT ITEM 1-3 OR IN SUBDROPS... FILTER OUT QUEST
                     // btw this whole " Fragment" fix is really lazy. don't do this at home.
                     if (!(
-                            quest_data.get("item_1").item_name === focused_item_name ||
-                            quest_data.get("item_2").item_name === focused_item_name ||
-                            quest_data.get("item_3").item_name === focused_item_name ||
+                            quest_data.get("item_1")["item_name"] === focused_item_name ||
+                            quest_data.get("item_2")["item_name"] === focused_item_name ||
+                            quest_data.get("item_3")["item_name"] === focused_item_name ||
                             quest_data.get("subdrops").includes(focused_item_name) ||
-                            (quest_is_hard_difficulty && quest_data.get("char_shard").item_name === focused_item_name) ||
-                            (quest_is_very_hard_difficulty && quest_data.get("char_shard").item_name === focused_item_name) ||
-                            quest_data.get("item_1").item_name === focused_item_name + " Fragment" ||
-                            quest_data.get("item_2").item_name === focused_item_name + " Fragment" ||
-                            quest_data.get("item_3").item_name === focused_item_name + " Fragment" ||
+                            (quest_is_hard_difficulty && quest_data.get("char_shard")["item_name"] === focused_item_name) ||
+                            (quest_is_very_hard_difficulty && quest_data.get("char_shard")["item_name"] === focused_item_name) ||
+                            quest_data.get("item_1")["item_name"] === focused_item_name + " Fragment" ||
+                            quest_data.get("item_2")["item_name"] === focused_item_name + " Fragment" ||
+                            quest_data.get("item_3")["item_name"] === focused_item_name + " Fragment" ||
                             quest_data.get("subdrops").includes(focused_item_name + " Fragment")
                         ))
                     {
@@ -97,200 +97,85 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     }
                 }
 
-                if (!filter_exclude_quest)
-                {
-                    let item_1_name = quest_data.get("item_1").item_name;       // OBJECT
-                    let item_2_name = quest_data.get("item_2").item_name;       // OBJECT
-                    let item_3_name = quest_data.get("item_3").item_name;       // OBJECT
-                    let item_1_dp = quest_data.get("item_1").drop_percent;      // OBJECT
-                    let item_3_dp = quest_data.get("item_3").drop_percent;      // OBJECT
-                    let quest_subdrops = quest_data.get("subdrops");            // ARRAY
-                    let q_subdrops_percent = quest_data.get("subdrops_percent");// ARRAY
+                if (!filter_exclude_quest) {
+                    let item_1_name = quest_data.get("item_1")["item_name"];       // OBJECT
+                    let item_2_name = quest_data.get("item_2")["item_name"];       // OBJECT
+                    let item_3_name = quest_data.get("item_3")["item_name"];       // OBJECT
+                    let item_1_dp = quest_data.get("item_1")["drop_percent"];      // OBJECT
+                    let item_3_dp = quest_data.get("item_3")["drop_percent"];      // OBJECT
+                    let quest_subdrops = quest_data.get("subdrops");               // ARRAY
+                    let q_subdrops_percent = quest_data.get("subdrops_percent");   // ARRAY
 
                     let char_shard = "";
-                    if (quest_is_hard_difficulty || quest_is_very_hard_difficulty) { char_shard = quest_data.get("char_shard").item_name; } // OBJECT
+                    if (quest_is_hard_difficulty || quest_is_very_hard_difficulty) { char_shard = quest_data.get("char_shard")["item_name"]; } // OBJECT
 
                     let item_4_name = "";
                     let item_4_dp = "";
-                    if (quest_is_very_hard_difficulty)
-                    {
-                        item_4_name = quest_data.get("item_4").item_name;
-                        item_4_dp = quest_data.get("item_4").drop_percent;
+                    if (quest_is_very_hard_difficulty) {
+                        item_4_name = quest_data.get("item_4")["item_name"];
+                        item_4_dp = quest_data.get("item_4")["drop_percent"];
                     }
 
                     let quest_score = 0;
 
-                    // CHECK ITEM 1 - 3
-                    /*
-                    DISABLED AS OF [1.8.1] 2/29/2020 - READ CHANGELOG
-
-                    let item_1_amount = total_recipe.get(item_1_name);
-                    if (item_1_amount > 0)
-                    {
-                        if (priority_items_array.includes(item_1_name)) {
-                            quest_score += (item_is_in_top_2_score * priority_item_multiplier);
-                        }
-                        else if (!inventory_check_fragment_amount(item_1_name, item_1_amount)) {
-                            quest_score += item_is_in_top_2_score;
-                        }
+                    // GO THROUGH ITEMS 1 - 4 TO COLLECT QUEST SCORE
+                    if (total_recipe.has(item_1_name)) {
+                        quest_score += QUEST_SCORE_VALUES.TOP_TWO * (priority_items_array.includes(item_1_name) ? QUEST_SCORE_VALUES.PRIORITY_MULTIPLIER : 1);
+                    }
+                    if (total_recipe.has(item_2_name)) {
+                        quest_score += QUEST_SCORE_VALUES.TOP_TWO * (priority_items_array.includes(item_2_name) ? QUEST_SCORE_VALUES.PRIORITY_MULTIPLIER : 1);
+                    }
+                    if (total_recipe.has(item_3_name)) {
+                        // IF ITEM_3 DROP PERCENT === ITEM_1 DROP PERCENT, USE `TOP TWO` SCORE VALUE, ELSE USE `THIRD`
+                        quest_score += ((item_1_dp === item_3_dp) ? QUEST_SCORE_VALUES.TOP_TWO : QUEST_SCORE_VALUES.THIRD) *
+                            (priority_items_array.includes(item_3_name) ? QUEST_SCORE_VALUES.PRIORITY_MULTIPLIER : 1);
+                    }
+                    if (total_recipe.has(item_4_name)) {
+                        // ITEM_4 IS CURRENTLY EXCLUSIVE TO VERY HARD QUESTS ONLY.
+                        // IT'S DROP PERCENT WILL ALWAYS EQUAL ITEMS 1 - 3
+                        quest_score += QUEST_SCORE_VALUES.TOP_TWO * (priority_items_array.includes(item_4_name) ? QUEST_SCORE_VALUES.PRIORITY_MULTIPLIER : 1);
                     }
 
-                    let item_2_amount = total_recipe.get(item_2_name);
-                    if (item_2_amount > 0)
-                    {
-                        if (priority_items_array.includes(item_2_name)) { quest_score += item_is_in_top_2_score * priority_item_multiplier; }
-                        else if (!inventory_check_fragment_amount(item_2_name, item_2_amount)) {
-                            quest_score += item_is_in_top_2_score;
-                        }
-                    }
-
-                    let item_3_amount = total_recipe.get(item_3_name);
-                    if (item_3_amount > 0)
-                    {
-                        let score_to_be_added;
-                        // IF ITEM 3 DROP PERCENT == ITEM 1 DROP PERCENT, GIVE SCORE EQUAL AS IF ITEM WAS IN TOP 2
-                        if (item_1_dp === item_3_dp)
-                        {
-                            score_to_be_added = item_is_in_top_2_score;
-                        }
-                        else
-                        {
-                            score_to_be_added = item_is_in_3rd_slot;
-                        }
-
-                        if (priority_items_array.includes(item_3_name)) { quest_score += score_to_be_added * priority_item_multiplier; }
-                        else if (!inventory_check_fragment_amount(item_3_name, item_3_amount)) {
-                            quest_score += score_to_be_added;
-                        }
-                    }
-
-                    let item_4_amount = total_recipe.get(item_4_name);
-                    if (item_4_amount > 0)
-                    {
-                        // ITEM 4 IS A VERY HARD DIFFICULTY EXCLUSIVE, SO IT WILL ALWAYS BE EQUAL TO ITEMS 1 - 3
-                        if (priority_items_array.includes(item_4_name)) { quest_score += (item_is_in_top_2_score * priority_item_multiplier); }
-                        else if (!inventory_check_fragment_amount(item_4_name, item_4_amount)) {
-                            quest_score += item_is_in_top_2_score;
-                        }
-                    }
-                    */
-                    if (total_recipe.has(item_1_name))
-                    {
-                        if (priority_items_array.includes(item_1_name)) {
-                            quest_score += (item_is_in_top_2_score * priority_item_multiplier);
-                        }
-                        else {
-                            quest_score += item_is_in_top_2_score;
-                        }
-                    }
-
-                    if (total_recipe.has(item_2_name))
-                    {
-                        if (priority_items_array.includes(item_2_name)) {
-                            quest_score += item_is_in_top_2_score * priority_item_multiplier;
-                        }
-                        else {
-                            quest_score += item_is_in_top_2_score;
-                        }
-                    }
-
-                    if (total_recipe.has(item_3_name))
-                    {
-                        let score_to_be_added;
-                        // IF ITEM 3 DROP PERCENT == ITEM 1 DROP PERCENT, GIVE SCORE EQUAL AS IF ITEM WAS IN TOP 2
-                        if (item_1_dp === item_3_dp)
-                        {
-                            score_to_be_added = item_is_in_top_2_score;
-                        }
-                        else
-                        {
-                            score_to_be_added = item_is_in_3rd_slot;
-                        }
-
-                        if (priority_items_array.includes(item_3_name)) {
-                            quest_score += score_to_be_added * priority_item_multiplier;
-                        }
-                        else {
-                            quest_score += score_to_be_added;
-                        }
-                    }
-
-                    if (total_recipe.has(item_4_name))
-                    {
-                        // ITEM 4 IS A VERY HARD DIFFICULTY EXCLUSIVE, SO IT WILL ALWAYS BE EQUAL TO ITEMS 1 - 3
-                        if (priority_items_array.includes(item_4_name)) {
-                            quest_score += (item_is_in_top_2_score * priority_item_multiplier);
-                        }
-                        else {
-                            quest_score += item_is_in_top_2_score;
-                        }
-                    }
-
-                    // CHECK SUBDROPS
-                    for (let i = 0 ; i < quest_subdrops.length ; i++)
-                    {
-                        //let item_name = quest_subdrops[i];
-                        //let item_amount = total_recipe.get(item_name);
-                        //if (item_amount > 0)
+                    // GO THROUGH SUBDROPS TO COLLECT QUEST SCORE
+                    for (let i = 0 ; i < quest_subdrops.length ; i++) {
                         if (total_recipe.has(quest_subdrops[i]))
                         {
-                            if (q_subdrops_percent === undefined)
-                            {
-                                if (priority_items_array.includes(quest_subdrops[i])) {
-                                    quest_score += item_is_in_subitem_score * priority_item_multiplier;
-                                }
-                                else {
-                                    quest_score += item_is_in_subitem_score;
-                                }
-                                //else if (!inventory_check_fragment_amount(item_name, item_amount)) {
-                                //    quest_score += item_is_in_subitem_score;
-                                //}
+                            if (q_subdrops_percent === undefined) {
+                                // QUEST SUBDROPS ARE ALL 20% DROP RATE
+                                quest_score += QUEST_SCORE_VALUES.SUBDROP * (priority_items_array.includes(quest_subdrops[i]) ? QUEST_SCORE_VALUES.PRIORITY_MULTIPLIER : 1);
                             }
-                            else
-                            {
+                            else {
+                                // QUEST SUBDROPS HAVE DIFFERENT DROP RATES
                                 let score_to_be_added;
-                                switch (q_subdrops_percent[i])
-                                {
+                                switch (q_subdrops_percent[i]) {
                                     case 24:
-                                        score_to_be_added = item_is_in_3rd_slot;
+                                        score_to_be_added = QUEST_SCORE_VALUES.THIRD;
                                         break;
                                     case 20:
-                                        score_to_be_added = item_is_in_subitem_score;
+                                        score_to_be_added = QUEST_SCORE_VALUES.SUBDROP;
                                         break;
                                     case 17:
-                                        score_to_be_added = item_is_in_subitem17_score;
+                                        score_to_be_added = QUEST_SCORE_VALUES.SUBDROP / 2;
                                         break;
                                     case 15:
-                                        score_to_be_added = item_is_in_subitem15_score;
+                                        score_to_be_added = QUEST_SCORE_VALUES.SUBDROP / 3;
                                         break;
                                     default:
-                                        score_to_be_added = item_is_in_subitem_score;
+                                        score_to_be_added = QUEST_SCORE_VALUES.SUBDROP;
                                         break;
                                 }
-
-                                if (priority_items_array.includes(quest_subdrops[i])) {
-                                    quest_score += score_to_be_added * priority_item_multiplier;
-                                }
-                                else {
-                                    quest_score += score_to_be_added;
-                                }
-                                //else if (!inventory_check_fragment_amount(item_name, item_amount)) {
-                                //    quest_score += score_to_be_added;
-                                //}
+                                quest_score += score_to_be_added * (priority_items_array.includes(quest_subdrops[i]) ? QUEST_SCORE_VALUES.PRIORITY_MULTIPLIER : 1);
                             }
                         }
                     }
 
-                    // CHECK CHARACTER SHARD
-                    if (total_recipe.has(char_shard))
-                    {
-                        if (priority_items_array.includes(char_shard)) { quest_score += item_is_in_top_2_score * priority_item_multiplier; }
-                        else { quest_score += item_is_in_top_2_score; }
+                    // CHECK CHARACTER SHARD AND COLLECT QUEST SCORE
+                    if (total_recipe.has(char_shard)) {
+                        quest_score += QUEST_SCORE_VALUES.TOP_TWO * (priority_items_array.includes(char_shard) ? QUEST_SCORE_VALUES.PRIORITY_MULTIPLIER : 1);
                     }
 
                     // IF QUEST SCORE IS NOT ZERO, ADD TO QUEST TABLE
-                    if (quest_score !== 0)
-                    {
+                    if (quest_score !== 0) {
                         quest_score_map.set(quest_id, +quest_score.toFixed(2));
                     }
                 }
@@ -339,7 +224,6 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 }
                 let y_quest_value = (parseInt(y_quest_chapter) * 10000) + (parseInt(y_quest_quest) * 10) + y_quest_hard + y_quest_very_hard;
 
-
                 // SORTING CODE
                 let n = (ascending_sort_quest_score ? sort_ascending(x[1], y[1]) : sort_descending(x[1], y[1]));
                 if (n !== 0)
@@ -351,7 +235,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
             });
         };
 
-        /* CONSTRUCT LIST */
+        // CONSTRUCT QUEST LIST
         let table_html = "";
 
         let quest_count = 0;
@@ -389,8 +273,8 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     }
 
                     item_4 = get_quest_data(quest_id, "item_4");
-                    item_4_name = item_4.item_name;
-                    item_4_drop_percent = item_4.drop_percent;
+                    item_4_name = item_4["item_name"];
+                    item_4_drop_percent = item_4["drop_percent"];
                 }
 
                 let character_shard = "";

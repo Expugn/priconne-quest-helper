@@ -57,42 +57,15 @@ function build_data()
 
 function build_requested_item_table(requested_items_map)
 {
-    let table_html = "";
-    let item_counter = 0;
-
-    table_html += "<tbody>";
-
-    if (requested_items_map.size > 0)
-    {
-        for (let [item, value] of requested_items_map)
-        {
-            // ADD TABLE ROW START IF FIRST ITEM
-            if (item_counter === 0)
-            {
-                table_html += "<tr>";
-            }
-
-            // CLOSE TABLE ROW AND START NEW IF 7 ITEMS HAVE BEEN MADE
-            if (item_counter % 7 === 0 && item_counter !== 0)
-            {
-                table_html += "</tr>";
-
-                table_html += "<tr>";
-            }
-
-            // IMAGE
-            table_html += "<th>";
-            table_html += "<img class=\"item\" title=\"" + item + "\" src=\"" + get_item_image_path(item.split(' ').join('_')) + "\" alt=\"\">";
-            table_html += "<div class=\"item-amount requested-items_item-amount\">\u00D7" + value + "</div>";
-            table_html += "</th>";
-
-            item_counter++;
+    let html = "";
+    if (requested_items_map.size > 0) {
+        for (let [item, value] of requested_items_map) {
+            html += "<div class=\"requested-item_div\">" +
+                "<img class=\"item\" title=\"" + item + "\" src=\"" + get_item_image_path(item.split(' ').join('_')) + "\" alt=\"\">" +
+                "<div class=\"item-amount requested-items_item-amount\">\u00D7" + value + "</div>" +
+                "</div>";
         }
-        // CLOSE TABLE ROW
-        table_html += "</tr>";
-        table_html += "<tr class=\"item-table-spacing\"></tr>";
     }
-    table_html += "</body>";
 
-    document.getElementById("requested-item-table").innerHTML = table_html;
+    document.getElementById("requested-item-table").innerHTML = html;
 }

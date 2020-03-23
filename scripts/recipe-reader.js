@@ -99,50 +99,23 @@ function figure_out_total_ingredients(all_recipe_maps_array)
 {
     let total_recipe = get_total_recipe(all_recipe_maps_array);
 
-    /* SORT */
+    // SORT REQUIRED INGREDIENTS BY AMOUNT (GREATEST > LEAST)
     total_recipe[Symbol.iterator] = function* () {
         yield* [...this.entries()].sort((a, b) => b[1] - a[1]);
     };
 
-
-    /* BUILD HTML */
-    let table_html = "";
-    let item_counter = 0;
-
-    table_html += "<tbody>";
-
-    if (total_recipe.size > 0)
-    {
-        for (let [item, value] of total_recipe)
-        {
-            // ADD TABLE ROW START IF FIRST ITEM
-            if (item_counter === 0)
-            {
-                table_html += "<tr>";
-            }
-
-            // CLOSE TABLE ROW AND START NEW IF 7 ITEMS HAVE BEEN MADE
-            if (item_counter % 7 === 0 && item_counter !== 0)
-            {
-                table_html += "</tr>";
-
-                table_html += "<tr>";
-            }
-
-            // IMAGE
-            table_html += "<th>";
-            table_html += "<button id=\"request-button-" + item.split(' ').join('_') + "\" class=\"item-button pointer-cursor" + (disabled_items.includes(item) ? " low-opacity" : "") + "\" onclick=\"toggle_enabled_item(" + "\'" + clean_apostrophes(item) + "\'" + ")\"><img class=\"item-button-image\" title=\"" + item + "\" src=\"" + get_item_image_path(item.split(' ').join('_')) + "\" alt=\"\"><div class=\"item-amount required-ingredients_button_item-amount\">\u00D7" + value + "</div></button>";
-            table_html += "</th>";
-
-            item_counter++;
+    // BUILD HTML FOR REQUIRED INGREDIENTS
+    let html = "";
+    if (total_recipe.size > 0) {
+        for (let [item, value] of total_recipe) {
+            html += "<button id=\"request-button-" + item.split(' ').join('_') + "\" class=\"required-ingredients_button pointer-cursor" + (disabled_items.includes(item) ? " low-opacity" : "") + "\" onclick=\"toggle_enabled_item(" + "\'" + clean_apostrophes(item) + "\'" + ")\">" +
+                "<img class=\"required-ingredients_item-img\" title=\"" + item + "\" src=\"" + get_item_image_path(item.split(' ').join('_')) + "\" alt=\"\">" +
+                "<div class=\"item-amount required-ingredients_button_item-amount\">\u00D7" + value + "</div>" +
+                "</button>";
         }
-        // CLOSE TABLE ROW
-        table_html += "</tr>";
-        table_html += "<tr class=\"item-table-spacing\"></tr>";
     }
-    table_html += "</tbody>";
 
-    document.getElementById("required-ingredient-table").innerHTML = table_html;
+    document.getElementById("required-ingredient-table").innerHTML = html;
 }
 
 function clean_apostrophes(string)
@@ -214,15 +187,11 @@ function init_enabled_items(item_name)
         {
             disabled_items.splice(item_index, 1);
         }
-
-        //console.log("[Required Items] - Re-enabled " + item_name);
     }
     else
     {
         // DISABLE ITEM
         disabled_items.push(item_name);
-
-        //console.log("[Required Items] - Disabled " + item_name);
     }
 
     if (document.getElementById("request-button-" + item_name.split(' ').join('_')))

@@ -3,6 +3,23 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.8.5] - 2020-03-23
+### Changed
+- Font tweaks
+- Placeholder images (empty items) in Preset single mode no longer have the `+` image visible
+- Quest Score related code cleanup
+  - There is no longer a specific score for `subdrop17` and `subdrop15`
+  - Subdrops with `17%` drop rate are now `SUBDROP_SCORE / 2` (previously `0.45`)
+  - Subdrops with `15%` drop rate are now `SUBDROP_SCORE / 3` (previously `0.40`)
+  - For reference, `SUBDROP_SCORE == 0.50` as of this writing
+  - Due to this change, some quests may be scored lower than usual
+- Revised `Required Ingredients` display
+  - Removed `<table>` usage, replaced with `<div>` so the items will now adjust with your browser width (less white-space!)
+  - Adjusted CSS for both desktop and mobile so that they should look better on both and item amounts should be positioned correctly
+- Revised `Requested Items` display
+  - Removed `<table>` usage, replaced with `<div>` so the items will now adjust with your browser width (less white-space!)
+  - Adjusted CSS for desktop
+
 ## [1.8.4] - 2020-03-22
 ### Added
 - Bulk and Single Preset Mode

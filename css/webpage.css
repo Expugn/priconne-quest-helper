@@ -301,25 +301,65 @@ img.focused-item {
     transition: all 0.4s ease-in-out;
 }
 
-.requested-items_item-amount {
-    /* POSITIONING */
-    margin-top: -48%;
-    margin-right: 8%;
+#requested-item-table {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.required-ingredients_button_item-amount {
-    /* DESIGN */
+.requested-item_div {
+    display: inline-block;
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-top: 3px;
+}
+
+.requested-items_item-amount {
     font-size: 16px;
     font-weight: bold;
 
-    /* POSITIONING */
-    position: relative;
-    bottom: 26px;
-    left: 4px;
+    margin-top: -23px;
 
-    /* TO DEAL WITH NUMBERS GREATER THAN 999 */
-    margin-left: -24%;
+    position: relative;
+    right: 4px;
 }
+
+#required-ingredient-table {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.required-ingredients_button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+    transition: all 0.4s ease-out;
+    margin-right: 1px;
+    margin-left: 1px;
+    margin-top: 3px;
+}
+
+.required-ingredients_item-img {
+    width: 48px;
+    height: 48px;
+    margin: -3px -8px -6px -8px;
+}
+
+.required-ingredients_button_item-amount {
+    font-size: 16px;
+    font-weight: bold;
+
+    margin-right: -8px;
+    margin-left: -1px;
+    margin-top: -20px;
+
+    position: relative;
+    top: 3px;
+    right: 4px;
+}
+
 
 /* FOCUSED ITEM ===================================================================================================== */
 #focused-item-popup {
