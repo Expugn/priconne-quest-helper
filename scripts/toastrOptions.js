@@ -26,16 +26,9 @@ function loadingToast()
         document.getElementById("language-option").disabled = false;
     }
 
-    if (collapsible_failed === true || item_table_failed === true)
+    if (collapsible_failed)
     {
         toastr.remove();
-        if (collapsible_failed)
-        {
-            toastr.warning("Failed to enable Collapsible Menus", "Failure", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
-        }
-        if (item_table_failed)
-        {
-            toastr.warning("Failed to build Item Tables", "Failure", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
-        }
+        toastr.warning("Failed to enable Collapsible Menus", "Failure", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
     }
 }

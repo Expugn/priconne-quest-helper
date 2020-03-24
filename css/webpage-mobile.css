@@ -57,20 +57,35 @@ button.item-button {
     max-height: 12vw;
 }
 
+.item-table_div {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+#requested-item-table {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+#required-ingredient-table {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
 .required-ingredients_item-img {
-    width: 12vw !important;
-    height: 12vw !important;
+    width: 44px !important;
+    height: 44px !important;
 }
 
 .required-ingredients_button_item-amount {
-    font-size: 4.4vw !important;
+    font-size: 15px !important;
 
     margin-right: -13px !important;
     margin-left: -1px !important;
     margin-top: -20px !important;
 
     position: relative;
-    top: 4px !important;
+    top: 5px !important;
     right: 8px !important;
 }
 

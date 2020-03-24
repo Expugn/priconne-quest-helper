@@ -149,7 +149,7 @@
         </h2>
         <div id="common-item-content" class="collapsible-content">
             <!-- COMMON ITEMS GET ADDED BELOW -->
-            <table id="common-item-table" class="center-table itemTable"></table>
+            <div id="common-item-table" class="center-div item-table_div"></div>
         </div>
     </div>
 
@@ -161,7 +161,7 @@
         </h2>
         <div id="copper-item-content" class="collapsible-content">
             <!-- COPPER ITEMS GET ADDED BELOW -->
-            <table id="copper-item-table" class="center-table itemTable"></table>
+            <div id="copper-item-table" class="center-div item-table_div"></div>
         </div>
     </div>
     <hr>
@@ -172,7 +172,7 @@
         </h2>
         <div id="silver-item-content" class="collapsible-content">
             <!-- SILVER ITEMS GET ADDED BELOW -->
-            <table id="silver-item-table" class="center-table itemTable"></table>
+            <div id="silver-item-table" class="center-div item-table_div"></div>
         </div>
     </div>
 
@@ -184,7 +184,7 @@
         </h2>
         <div id="gold-item-content" class="collapsible-content">
             <!-- GOLD ITEMS GET ADDED BELOW -->
-            <table id="gold-item-table" class="center-table itemTable"></table>
+            <div id="gold-item-table" class="center-div item-table_div"></div>
         </div>
     </div>
 
@@ -196,7 +196,7 @@
         </h2>
         <div id="purple-item-content" class="collapsible-content">
             <!-- PURPLE ITEMS GET ADDED BELOW -->
-            <table id="purple-item-table" class="center-table itemTable"></table>
+            <div id="purple-item-table" class="center-div item-table_div"></div>
         </div>
     </div>
 
@@ -208,7 +208,7 @@
         </h2>
         <div id="misc-item-content" class="collapsible-content">
             <!-- MEMORY PIECE / MISC ITEMS GET ADDED BELOW -->
-            <table id="misc-item-table" class="center-table itemTable"></table>
+            <div id="misc-item-table" class="center-div item-table_div"></div>
         </div>
     </div>
 
@@ -313,39 +313,39 @@
                     <div>
                         <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-1').title);">
                             <img id="preset-item-1" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
-                            <img class="preset-plus-img use-webp" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
                         </button>
                         <span class="preset-item-button-padding"></span>
                         <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-2').title);">
                             <img id="preset-item-2" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
-                            <img class="preset-plus-img use-webp" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
                         </button>
                     </div>
                     <div>
                         <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-3').title);">
                             <img id="preset-item-3" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
-                            <img class="preset-plus-img use-webp" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
                         </button>
                         <span class="preset-item-button-padding"></span>
                         <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-4').title);">
                             <img id="preset-item-4" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
-                            <img class="preset-plus-img use-webp" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
                         </button>
                     </div>
                     <div>
                         <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-5').title);">
                             <img id="preset-item-5" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
-                            <img class="preset-plus-img use-webp" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
                         </button>
                         <span class="preset-item-button-padding"></span>
                         <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-6').title);">
                             <img id="preset-item-6" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
-                            <img class="preset-plus-img use-webp" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
                         </button>
                     </div>
                 </div>
                 <div id="preset-item-settings" class="center-div">
-                    <span id="preset-items-rank-label" class="text-color_common" onclick="open_preset_rank_dropdown()">Rank 1</span>
+                    <span id="preset-items-rank-label" class="grayscale text-color_common" onclick="open_preset_rank_dropdown()">Rank 1</span>
                     <label for="preset-items-rank-select" hidden></label>
                     <select id="preset-items-rank-select" onchange="close_preset_rank_dropdown()" hidden></select>
                     <br><br>
@@ -558,18 +558,6 @@
             <span translate_text="settings_tab.show_very_hard_quests">Show Very Hard Quests</span>
         </label>
         <input id="filter-very-hard-quests" type="radio" name="filter-option" value="very-hard-quests" onclick="change_quest_filter()">
-
-        <br><br>
-
-        <label for="item-amount-per-row">
-            <span translate_text="settings_tab.items_displayed_per_row">Items Displayed per Row (1 - 15):</span>
-        </label>
-        <input id="item-amount-per-row"
-               type="number"
-               min="1"
-               max="15"
-               value="7"
-               onchange="change_item_amount_per_row()">
 
         <br><br>
 

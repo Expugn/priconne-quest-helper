@@ -3,6 +3,25 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.8.6] - 2020-03-24
+### Changed
+- Rank Label for Preset Single Mode becomes grayscale when it's disabled
+- Removed plus images in Preset Single Mode when `[Character...]` is selected
+- Removed margins for mobile devices in `Requested Items` and `Required Ingredients`
+  - The new change only allowed for max `6` items per row when previously you would have `7`
+  - Removing margins allows for mobile devices to have `7` items again
+- Reduced margins for Desktop/Tablet users in `Requested Items` and `Required Ingredients` from `10%` to `5%`
+- Adjusted CSS for `Required Ingredients` on mobile devices
+  - Item image width/height `12vw` -> `44px`
+  - Item amount font size `4.4vw` -> `15px`
+  - Doing this to make sure there is no weird display problem depending on your mobile device's width
+- Item Table Code Revision
+  - Item tables now generate similarly to how `Requested Items` and `Required Ingredients` are displayed
+  - Cleaned up a lot of inefficient/no longer relevant code
+### Removed
+- Deprecated Setting: `item_amount_per_row`
+  - Deprecated due to the item table code revision
+
 ## [1.8.5] - 2020-03-23
 ### Added
 - Preset Single Mode: Rank Select Dropdown

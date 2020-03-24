@@ -216,6 +216,38 @@ input[type=number] {
 }
 
 /* ITEM TABLES ====================================================================================================== */
+.item-table_div {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.item-table-item_div {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.item-table-item_button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    transition: all 0.4s ease-out;
+    outline: none;
+}
+
+.item-table-item_input {
+    margin-top: 5px;
+}
+
+.item-table-item_button-img {
+    width: 48px;
+    height: 48px;
+    margin: -3px -8px -6px;
+    border-radius: 5px;
+}
+
 .rarity-button {
     /* FONT DESIGN */
     font-family: "fot-udmarugo_large_prob", Arial, serif;
@@ -302,8 +334,8 @@ img.focused-item {
 }
 
 #requested-item-table {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -326,8 +358,8 @@ img.focused-item {
 }
 
 #required-ingredient-table {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-top: 10px;
     padding-bottom: 10px;
 }

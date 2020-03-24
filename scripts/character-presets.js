@@ -151,6 +151,7 @@ function update_selected_character_preset_details()
         clear_preset_items();
         if (!document.getElementById("preset-items-div").classList.contains("grayscale")) {
             document.getElementById("preset-items-div").classList.toggle("grayscale");
+            document.getElementById("preset-items-rank-label").classList.toggle("grayscale");
         }
         document.getElementById("preset-items-previous-rank-button").disabled = true;
         document.getElementById("preset-items-next-rank-button").disabled = true;
@@ -200,6 +201,7 @@ function update_selected_character_preset_details()
             document.getElementById("preset-character-max-rank-input").disabled = false;
             if (document.getElementById("preset-items-div").classList.contains("grayscale")) {
                 document.getElementById("preset-items-div").classList.toggle("grayscale");
+                document.getElementById("preset-items-rank-label").classList.toggle("grayscale");
             }
             document.getElementById("preset-items-previous-rank-button").disabled = false;
             document.getElementById("preset-items-next-rank-button").disabled = false;
@@ -406,6 +408,7 @@ function clear_preset_items()
     for (let i = 1 ; i <= 6 ; i++) {
         document.getElementById("preset-item-" + i).src = get_item_image_path("Placeholder");
         document.getElementById("preset-item-" + i).title = "";
+        document.getElementById("preset-item-" + i).nextElementSibling.style = "opacity: 0;"
     }
 }
 
@@ -414,7 +417,7 @@ function get_preset_items() {
     if (selected_character !== "default_character") {
         let counter = 1;
         get_character_data(selected_character, "rank_" + preset_items_rank).forEach( function (item_name) {
-            document.getElementById("preset-item-" + counter).src = get_item_image_path(item_name.replace(/ /g, "_"));
+            document.getElementById("preset-item-" + counter).src = get_item_image_path(item_name.split(' ').join('_'));
             document.getElementById("preset-item-" + counter).title = item_name;
 
             let plus_element = document.getElementById("preset-item-" + counter).nextElementSibling;

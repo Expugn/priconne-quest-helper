@@ -8,7 +8,6 @@ let hide_quest_score;                   // default = false
 let min_quest_chapter;                  // default = 1
 let max_quest_chapter;                  // default = whatever is the highest chapter
 let quest_filter;                       // default = filter-all
-let item_amount_per_row;                // default = 7
 let ignored_rarities;                   // default = [] (empty array)
 let quest_display;                      // default = display-percent
 let equipment_data_type;                // default = equipment-data-current
@@ -20,7 +19,6 @@ let hide_quest_score_default;
 let min_quest_chapter_default;
 let max_quest_chapter_default;
 let quest_filter_default;
-let item_amount_per_row_default;
 let quest_display_default;
 let equipment_data_type_default;
 
@@ -49,7 +47,6 @@ const setting_element_id = Object.freeze({
     QUEST_FILTER_NORMAL: 'filter-normal-quests',
     QUEST_FILTER_HARD: 'filter-hard-quests',
     QUEST_FILTER_VERY_HARD: 'filter-very-hard-quests',
-    ITEM_AMOUNT_PER_ROW: 'item-amount-per-row',
     QUEST_DISPLAY_PERCENT: 'display-drop-percent',
     QUEST_DISPLAY_AMOUNT: 'display-amount-required',
     EQUIPMENT_DATA_TYPE: 'equipment-data-type'
@@ -90,9 +87,6 @@ function init_settings()
         quest_filter_default = quest_filter_settings.HARD;
     }
     quest_filter = quest_filter_default;
-
-    item_amount_per_row_default = document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).value;
-    item_amount_per_row = item_amount_per_row_default;
 
     ignored_rarities = [];
 
@@ -247,29 +241,6 @@ function change_quest_filter()
     console.log(get_colored_message("Settings", highlight("Quest Filter") + color_text(" changed to ", message_status.INFO) + highlight_code(quest_filter)));
 
     refresh_quest_table();
-}
-
-function change_item_amount_per_row()
-{
-    const max_value = document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).max;
-    const min_value = document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).min;
-
-    item_amount_per_row = Math.round(document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).value);
-
-    if (item_amount_per_row > max_value)
-    {
-        document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).value = max_value;
-        item_amount_per_row = max_value;
-    }
-    if (item_amount_per_row < min_value)
-    {
-        document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).value = min_value;
-        item_amount_per_row = min_value;
-    }
-
-    console.log(get_colored_message("Settings", highlight("Item Amount Per Row") + color_text(" changed to ", message_status.INFO) + highlight_code(item_amount_per_row)));
-
-    build_item_tables();
 }
 
 function toggle_ignored_rarity(rarity)
@@ -478,7 +449,6 @@ function save_cookie()
     settings_map.min_quest_chapter = min_quest_chapter;
     settings_map.max_quest_chapter = max_quest_chapter;
     settings_map.quest_filter = quest_filter;
-    settings_map.item_amount_per_row = item_amount_per_row;
     settings_map.ignored_rarities = ignored_rarities;
     settings_map.quest_display = quest_display;
     settings_map.equipment_data_type = equipment_data_type;
@@ -536,7 +506,6 @@ function read_cookie()
             check_checkbox(setting_element_id.QUEST_FILTER_NORMAL, false);
             check_checkbox(setting_element_id.QUEST_FILTER_HARD, true);
         }
-        document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).value = item_amount_per_row;
         for (let i = 0 ; i < ignored_rarities.length ; i++)
         {
             let ignored_rarity_document_id = "ignore-button-" + ignored_rarities[i];
@@ -580,7 +549,6 @@ function set_settings_to_default()
     min_quest_chapter = min_quest_chapter_default;
     max_quest_chapter = max_quest_chapter_default;
     quest_filter = quest_filter_default;
-    item_amount_per_row = item_amount_per_row_default;
     ignored_rarities = [];
     quest_display = quest_display_default;
     equipment_data_type = equipment_data_type_default;
@@ -624,7 +592,6 @@ function reset_settings()
         check_checkbox(setting_element_id.QUEST_FILTER_NORMAL, false);
         check_checkbox(setting_element_id.QUEST_FILTER_HARD, true);
     }
-    document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).value = item_amount_per_row;
     for (let i = 0 ; i < all_rarities.length ; i++)
     {
         let ignored_rarity_document_id = "ignore-button-" + all_rarities[i];
@@ -718,11 +685,6 @@ function set_values_from_cookie()
 
         saved_settings_map.min_quest_chapter = ((saved_settings_map.min_quest_chapter > saved_settings_map.max_quest_chapter) ? saved_settings_map.max_quest_chapter : saved_settings_map.min_quest_chapter);
 
-        max_value = parseInt(document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).max);
-        min_value = parseInt(document.getElementById(setting_element_id.ITEM_AMOUNT_PER_ROW).min);
-        saved_settings_map.item_amount_per_row = ((saved_settings_map.item_amount_per_row > max_value) ? max_value : saved_settings_map.item_amount_per_row);
-        saved_settings_map.item_amount_per_row = ((saved_settings_map.item_amount_per_row < min_value) ? min_value : saved_settings_map.item_amount_per_row);
-
         quest_shown_value = saved_settings_map.quest_shown_value;
         ascending_sort_quest_list = saved_settings_map.ascending_sort_quest_list;
         ascending_sort_quest_score = saved_settings_map.ascending_sort_quest_score;
@@ -730,7 +692,6 @@ function set_values_from_cookie()
         min_quest_chapter = saved_settings_map.min_quest_chapter;
         max_quest_chapter = saved_settings_map.max_quest_chapter;
         quest_filter = saved_settings_map.quest_filter;
-        item_amount_per_row = saved_settings_map.item_amount_per_row;
         ignored_rarities = saved_settings_map.ignored_rarities;
         quest_display = saved_settings_map.quest_display;
         equipment_data_type = saved_settings_map.equipment_data_type;
@@ -747,7 +708,6 @@ function set_values_from_cookie()
         settings_map.min_quest_chapter = min_quest_chapter;
         settings_map.max_quest_chapter = max_quest_chapter;
         settings_map.quest_filter = quest_filter;
-        settings_map.item_amount_per_row = item_amount_per_row;
         settings_map.ignored_rarities = ignored_rarities;
         settings_map.quest_display = quest_display;
         settings_map.equipment_data_type = equipment_data_type;
@@ -766,7 +726,6 @@ function check_for_undefined_settings()
     min_quest_chapter = (min_quest_chapter === undefined ? min_quest_chapter_default : min_quest_chapter);
     max_quest_chapter = (max_quest_chapter === undefined ? max_quest_chapter_default : max_quest_chapter);
     quest_filter = (quest_filter === undefined ? quest_filter_default : quest_filter);
-    item_amount_per_row = (item_amount_per_row === undefined ? item_amount_per_row_default : item_amount_per_row);
     ignored_rarities = (ignored_rarities === undefined ? [] : ignored_rarities);
     quest_display = (quest_display === undefined ? quest_display_default : quest_display);
     equipment_data_type = (equipment_data_type === undefined ? equipment_data_type_default : equipment_data_type);
