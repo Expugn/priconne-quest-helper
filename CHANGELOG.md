@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [1.8.6] - 2020-03-24
+### Added
+- No JavaScript Warnings
+  - Page content is hidden and a warning is displayed if JavaScript is disabled
+  - Effected Pages
+    - `/priconne-quest-helper/`
+    - `/priconne-quest-helper/pages/character-data/`
+    - `/priconne-quest-helper/pages/export-data/`
+    - `/priconne-quest-helper/pages/import-data/`
+    - `/priconne-quest-helper/pages/quest-data/`
+    - `/priconne-quest-helper/pages/recipe-data/`
+    - `/priconne-quest-helper/pages/statistics/`
 ### Changed
 - Rank Label for Preset Single Mode becomes grayscale when it's disabled
 - Removed plus images in Preset Single Mode when `[Character...]` is selected
