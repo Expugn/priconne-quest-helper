@@ -13,7 +13,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Reduced margins for Desktop/Tablet users in `Requested Items` and `Required Ingredients` from `10%` to `5%`
 - Adjusted CSS for `Required Ingredients` on mobile devices
   - Item image width/height `12vw` -> `44px`
-  - Item amount font size `4.4vw` -> `15px`
+  - Item amount font size `4.4vw` -> `14px`
   - Doing this to make sure there is no weird display problem depending on your mobile device's width
 - Item Table Code Revision
   - Item tables now generate similarly to how `Requested Items` and `Required Ingredients` are displayed
@@ -21,6 +21,13 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Removed
 - Deprecated Setting: `item_amount_per_row`
   - Deprecated due to the item table code revision
+- Updated Language Files
+  - `en.json`
+    - `settings_tab.items_displayed_per_row`
+  - `ja.json`
+    - `settings_tab.items_displayed_per_row`
+  - `ko.json`
+    - `settings_tab.items_displayed_per_row`
 
 ## [1.8.5] - 2020-03-23
 ### Added

@@ -78,14 +78,14 @@ button.item-button {
 }
 
 .required-ingredients_button_item-amount {
-    font-size: 15px !important;
+    font-size: 14px !important;
 
     margin-right: -13px !important;
     margin-left: -1px !important;
     margin-top: -20px !important;
 
     position: relative;
-    top: 5px !important;
+    top: 6px !important;
     right: 8px !important;
 }
 
