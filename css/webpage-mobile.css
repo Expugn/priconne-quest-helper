@@ -57,65 +57,13 @@ button.item-button {
     max-height: 12vw;
 }
 
-.item-table_div {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-}
-
-#requested-item-table {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-}
-
-#required-ingredient-table {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-}
-
-.required-ingredients_item-img {
-    width: 44px !important;
-    height: 44px !important;
-}
-
-.required-ingredients_button_item-amount {
-    font-size: 14px !important;
-
-    margin-right: -13px !important;
-    margin-left: -1px !important;
-    margin-top: -20px !important;
-
-    position: relative;
-    top: 6px !important;
-    right: 8px !important;
-}
-
-.quest-title {
-    font-size: 4vw !important;
-    left: 1vw;
-}
-
-.grayscale {
-    position: relative;
-    bottom: 1px;
-}
-
-.quest-title_hard {
-    /* TEXT (SHIFT TO LEFT) */
-    padding-left: 2vw !important;
-    padding-right: 15vw !important;
-}
-
-.quest-req-amount-text {
-    bottom: 6px !important;
-}
-
-.quest-percent-text {
-    position: relative;
-    bottom: 2px;
-    margin-bottom: -5px !important;
-}
 
 /* ITEMS TAB ======================================================================================================== */
+.item-table_div {
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+}
+
 .rarity-button {
     font-size: 5vw !important;
 }
@@ -124,6 +72,7 @@ button.item-button {
     font-size: 5vw !important;
 }
 
+/* PRESETS TAB ====================================================================================================== */
 #character-preset-list-select {
     width: 58vw;
 }
@@ -159,4 +108,58 @@ button.item-button {
 
 #preset-item-settings {
     margin-top: -35px !important;
+}
+
+/* REQUIRED / REQUESTED ITEMS ======================================================================================= */
+#requested-item-table {
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+}
+
+#required-ingredient-table {
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+}
+
+.required-ingredients_item-img {
+    width: 44px !important;
+    height: 44px !important;
+}
+
+.required-ingredients_button_item-amount {
+    font-size: 14px !important;
+
+    margin-right: -13px !important;
+    margin-left: -1px !important;
+    margin-top: -20px !important;
+
+    position: relative;
+    top: 6px !important;
+    right: 8px !important;
+}
+
+/* RECOMMENDED QUESTS =============================================================================================== */
+.quest_title {
+    font-size: 10px !important;
+    padding: 5px 10px !important;
+}
+
+.quest_score {
+    font-size: 12px !important;
+    width: 60px !important;
+}
+
+.quest_item-img {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.quest_drop-percent {
+    font-size: 14px !important;
+    margin-top: -21px !important;
+}
+
+.quest_required-amount {
+    font-size: 14px !important;
+    margin-top: -17px !important;
 }

@@ -371,6 +371,7 @@ img.focused-item {
     margin-right: 1px;
     margin-left: 1px;
     margin-top: 3px;
+    outline: none;
 }
 
 .required-ingredients_item-img {
@@ -468,59 +469,260 @@ img.quest_priority-item {
     100% { box-shadow: 0 0 4px #c4a300; }
 }
 
-.quest-title {
-    /* TEXT */
+#recommended-quest-div {
+    padding-bottom: 20px;
+}
+
+#recommended-quest-table {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+.quest {
+    text-align: center;
+    margin-bottom: 5px;
+
+    border-radius: 5px;
+    padding: 5px 10px;
+
+    min-width: 820px;
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.quest.odd {
+    background-color: rgba(0, 0, 0, 0.40);
+}
+
+.quest.even {
+    background-color: rgba(64, 64, 64, 0.40);
+}
+
+.quest_header {
+    display: inline-block;
+    margin-right: 25px;
+    float: left;
+}
+
+.quest_title {
+    display: inline-block;
+
     font-family: "fot-udmarugo_large_prob", Arial, serif;
-    font-size: 15px;
+    font-size: 14px;
     color: white;
+
     letter-spacing: 2px;
     text-shadow: 1px 1px 2px #000000,
     1px 1px 2px #000000,
     1px 1px 3px #000000;
 
-    /* TEXT BOX DESIGN */
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    white-space: nowrap;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+        0 3px 10px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     padding: 10px 30px;
 
-    /* POSITIONING */
-    position: relative;
-    top: 2px;
+    margin-bottom: 10px;
+    width: 100px;
+    text-align: center;
 }
 
-.quest-title_hard {
-    /* TEXT (SHIFT TO LEFT) */
-    padding-left: 20px;
-    padding-right: 65px;
-}
+.quest_score {
+    display: inline-block;
+    float: right;
 
-img.memory-piece {
-    /* POSITIONING */
-    position: relative;
-    right: 65px;
-    top: 5px;
-    margin-right: -32px;
-}
-
-.memory-piece_drop-rate {
-    /* POSITIONING */
-    position: relative;
+    font-family: "Calibri", Arial, serif;
     font-size: 14px;
-    right: 35px;
-    bottom: 0px;
-    margin-right: -32px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.50);
+
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px #000000,
+        1px 1px 2px #000000,
+        1px 1px 3px #000000;
+
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+        0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    padding: 5px 0;
+    width: 75px;
+    text-align: center;
+    font-weight: bold;
 }
 
-.memory-piece_no-drop {
-    right: 67px;
+.quest_memory-piece {
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    margin-left: 5px;
 }
 
-.drop-rate {
-    /* POSITION */
-    margin-top: -48%;
-    margin-right: 8%;
-    margin-bottom: -10%;
+.quest_memory-piece-img {
+    width: 32px;
+    height: 32px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+}
+
+.quest_memory-piece-percent {
+    font-family: "Calibri", Arial, serif;
+    text-shadow: 1px 1px 4px #000000,
+        1px 1px 4px #000000,
+        1px 1px 4px #000000,
+        1px 1px 4px #000000;
+    color: lightsalmon;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -15px;
+
+    position: relative;
+    left: 5px;
+}
+
+.quest_line {
+    display: none;
+}
+
+.quest_line-2 {
+    display: none;
+}
+
+.quest_items {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.quest_subdrops {
+    display: inline-block;
+}
+
+.quest_items, .quest_subdrops {
+    position: relative;
+    top: 5px;
+    margin-bottom: 10px;
+}
+
+.quest_item {
+    display: inline-block;
+}
+
+.quest_item-img {
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+}
+
+.quest_drop-percent {
+    font-family: "Calibri", Arial, serif;
+    text-shadow: 1px 1px 4px #000000,
+        1px 1px 4px #000000,
+        1px 1px 4px #000000,
+        1px 1px 4px #000000;
+    color: lightsalmon;
+    text-align: right;
+    font-weight: bold;
+    font-size: 16px;
+
+    margin-top: -24px;
+    margin-right: 4px;
+}
+
+.quest_required-amount {
+    font-family: "Calibri", Arial, serif;
+    text-shadow: 1px 1px 4px #000000,
+        1px 1px 4px #000000,
+        1px 1px 4px #000000,
+        1px 1px 4px #000000;
+    color: white;
+    text-align: right;
+    font-weight: bold;
+    font-size: 16px;
+
+    margin-top: -19px;
+    margin-right: 5px;
+}
+
+/* SCREEN RESIZING - ADJUST ELEMENTS TO LOOK BETTER */
+@media only screen and (max-width: 1000px) {
+    .quest_line {
+        display: block;
+    }
+    .quest {
+        text-align: left !important;
+        min-width: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .quest_header {
+        float: none;
+    }
+    .quest.odd,
+    .quest.even {
+        background-color: rgba(0, 0, 0, 0.25);
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .quest_line-2 {
+        display: block;
+    }
+}
+
+/* QUEST DROP PERCENT / QUEST AMOUNT SWAP */
+.quest_item:not(:hover) .quest_display-bottom,
+.quest_item:hover .quest_display-top {
+    opacity: 0;
+}
+
+/* QUEST ELEMENT HIDE (REMOVE) */
+.remove {
+    /* APPLY THIS CLASS TO REMOVE THE ELEMENT COMPLETELY */
+    /* APPLICABLE TO:
+        .quest_item
+        .quest_score
+        .quest_memory-piece
+    */
+}
+
+.quest_item.remove,
+.quest_score.remove
+{
+    display: none;
+}
+.quest_memory-piece.remove
+{
+    opacity: 0;
+}
+
+/* QUEST ELEMENT DISABLE (GRAYSCALE OR HIDE) */
+.disabled {
+    /* APPLY THIS CLASS TO GRAYSCALE THE ELEMENT AND HIDE SOME INFORMATION */
+    /* APPLICABLE TO:
+        .quest_memory-piece
+        .quest_item
+    */
+}
+.quest_memory-piece.disabled .quest_memory-piece-img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.quest_memory-piece.disabled .quest_memory-piece-percent {
+    opacity: 0;
+}
+
+.quest_item.disabled .quest_item-img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    opacity: 30%;
+}
+.quest_item.disabled .quest_drop-percent,
+.quest_item.disabled .quest_required-amount {
+    visibility: hidden;
 }
 
 /* ITEM TABLE BACKGROUNDS =========================================================================================== */
@@ -814,98 +1016,4 @@ div.item-table-recommended.webp {
 .app-hyperlink_text {
     font-size: 14px;
     top: 62px;
-}
-
-/* INVENTORY ======================================================================================================== */
-.quest-hover,
-.quest-item-edit {
-    padding-bottom: 0;
-    position: relative;
-}
-
-.quest-req-amount-text {
-    text-shadow: 1px 1px 4px #000000,
-    1px 1px 4px #000000,
-    1px 1px 4px #000000,
-    1px 1px 4px #000000;
-
-
-    position: relative;
-    bottom: 4px;
-    right: 4px;
-
-    padding-bottom: 5px;
-
-    line-height: 0;
-
-
-    color: white;
-    font-family: "Calibri", Arial, serif;
-    text-align: right;
-
-    border-radius: 5px;
-}
-
-.quest-inv-amount-text {
-    text-shadow: 1px 1px 4px #000000,
-    1px 1px 4px #000000,
-    1px 1px 4px #000000,
-    1px 1px 4px #000000;
-
-    position: absolute;
-    top: 17px;
-    left: 4px;
-
-    color: white;
-    font-family: "Calibri", Arial, serif;
-
-    border-radius: 5px;
-}
-
-.quest-hover.p1 img,
-.quest-hover.p1 .quest-display-top,
-.quest-hover.p1 .quest-display-bottom {
-    opacity: 1;
-}
-
-.quest-hover.p3 img {
-    filter: opacity(30%);
-}
-
-.quest-hover.p3 .quest-display-top,
-.quest-hover.p3 .quest-display-bottom {
-    filter: opacity(50%);
-}
-
-.quest-hover:not(:hover) .quest-display-bottom,
-.quest-hover:hover .quest-display-top,
-.quest-item-edit .quest-percent-text {
-    visibility: hidden;
-}
-
-.quest-hover:hover {
-    padding-bottom: 0;
-}
-
-.quest-is-empty-text {
-    position: relative;
-    bottom: -2px;
-}
-
-.inventory-inline-editor {
-    position: absolute;
-    top: -3px;
-
-    width: 100%;
-
-    font-size: 0.5em;
-}
-
-.inventory-inline-editor button {
-    display: inline-block;
-    width: 48%;
-    padding: 0;
-
-    font-size: 1em;
-    text-align: center;
 }

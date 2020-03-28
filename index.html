@@ -869,24 +869,22 @@
     <!-- RECOMMENDED QUESTS DISPLAY -->
     <div id="recommended-quest-div" class="request-info">
         <!-- RECOMMENDED QUESTS FOUND FROM REQUIRED INGREDIENTS DISPLAYED BELOW -->
-        <table id="recommended-quest-table" class="center-table">
+        <div id="recommended-quest-table" class="center-div">
             <!-- STARTING TIP FOR RECOMMENDED QUESTS -->
-            <tr><th>
-                <h4 class="tip">
-                    <span style="color: navajowhite" translate_text="system.recommended_quest_help_1">
-                        Suggested quests to complete will be shown here once you start selecting items.
-                    </span>
-                    <br><br>
-                    <span translate_text="system.recommended_quest_help_2">
-                        Quests are sorted by <span style="color: yellow">the amount of items you can collect from the quest</span> that you need, starting from chapter 1.
-                    </span>
-                    <br><br>
-                    <span translate_text="system.recommended_quest_help_3">
-                        Up to <span style="color: #6DFF7F">ten</span> quests will be shown at a time by default.
-                    </span>
-                </h4>
-            </th></tr>
-        </table>
+            <h4 class="tip center-div">
+                <span style="color: navajowhite" translate_text="system.recommended_quest_help_1">
+                    Suggested quests to complete will be shown here once you start selecting items.
+                </span>
+                <br><br>
+                <span translate_text="system.recommended_quest_help_2">
+                    Quests are sorted by <span style="color: yellow">the amount of items you can collect from the quest</span> that you need, starting from chapter 1.
+                </span>
+                <br><br>
+                <span translate_text="system.recommended_quest_help_3">
+                    Up to <span style="color: #6DFF7F">ten</span> quests will be shown at a time by default.
+                </span>
+            </h4>
+        </div>
     </div>
 </div>
 </body>
@@ -920,13 +918,6 @@
     <img id="focused-item-image" class="use-webp" src="images/items/Placeholder.png" alt=""><br>
     <img id="lens-image" class="use-webp" image_folder="webpage" file_name="lens" src_prefix="" src="" alt="">
 </div>
-
-<!--
-DISABLED AS OF [1.8.1] 2/29/2020 - READ CHANGELOG
-<div id="inventory-inline-editor-prototype" class="inventory-inline-editor" hidden>
-    <button class="minus" value="-30">-30</button><button class="plus" value="+30">+30</button>
-</div>
--->
 
 <!-- RUN JAVASCRIPT -->
 <script>
@@ -1013,5 +1004,4 @@ DISABLED AS OF [1.8.1] 2/29/2020 - READ CHANGELOG
         }
     };
 </script>
-
 </html>

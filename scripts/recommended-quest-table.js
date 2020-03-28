@@ -237,56 +237,29 @@ function build_recommended_quest_table(all_recipe_maps_array)
 
         // CONSTRUCT QUEST LIST
         let table_html = "";
-
         let quest_count = 0;
-
-        table_html += "<tbody>";
-
-        let quest_list_has_very_hard = false;
         if (quest_score_map.size > 0)
         {
             for (let [quest_id, quest_score] of quest_score_map)
             {
-                let item_1 = get_quest_data(quest_id, "item_1");
-                let item_1_name = item_1["item_name"];
-                let item_1_drop_percent = item_1["drop_percent"];
-
-                let item_2 = get_quest_data(quest_id, "item_2");
-                let item_2_name = item_2["item_name"];
-                let item_2_drop_percent = item_2["drop_percent"];
-
-                let item_3 = get_quest_data(quest_id, "item_3");
-                let item_3_name = item_3["item_name"];
-                let item_3_drop_percent = item_3["drop_percent"];
-
-                let subdrops = get_quest_data(quest_id, "subdrops");
-                let subdrops_percent = get_quest_data(quest_id, "subdrops_percent");
-
-                let item_4;
-                let item_4_name = "";
-                let item_4_drop_percent = "";
-                if (quest_id.includes("VH"))    // QUEST IS VERY HARD
-                {
-                    if (!quest_list_has_very_hard)
-                    {
-                        quest_list_has_very_hard = true;
-                    }
-
-                    item_4 = get_quest_data(quest_id, "item_4");
-                    item_4_name = item_4["item_name"];
-                    item_4_drop_percent = item_4["drop_percent"];
-                }
-
-                let character_shard = "";
-                let char_shard_name = "";
-                let char_shard_drop_rate = "";
-
-                if (quest_id.includes("H"))     // QUEST IS HARD OR VERY HARD
-                {
-                    character_shard = get_quest_data(quest_id, "char_shard");
-                    char_shard_name = character_shard["item_name"];
-                    char_shard_drop_rate = character_shard["drop_percent"];
-                }
+                // INITIALIZE VARIABLES
+                const item_1 = get_quest_data(quest_id, "item_1");
+                const item_1_name = item_1["item_name"];
+                const item_1_drop_percent = item_1["drop_percent"];
+                const item_2 = get_quest_data(quest_id, "item_2");
+                const item_2_name = item_2["item_name"];
+                const item_2_drop_percent = item_2["drop_percent"];
+                const item_3 = get_quest_data(quest_id, "item_3");
+                const item_3_name = item_3["item_name"];
+                const item_3_drop_percent = item_3["drop_percent"];
+                const item_4 = (quest_id.includes("VH") ? get_quest_data(quest_id, "item_4") : null);
+                const item_4_name = (quest_id.includes("VH") ? item_4["item_name"] : null);
+                const item_4_drop_percent = (quest_id.includes("VH") ? item_4["drop_percent"] : null);
+                const character_shard = (quest_id.includes("H") ? get_quest_data(quest_id, "char_shard") : null);
+                const char_shard_name = (quest_id.includes("H") ? character_shard["item_name"] : null);
+                const char_shard_drop_rate = (quest_id.includes("H") ? character_shard["drop_percent"] : null);
+                const subdrops = get_quest_data(quest_id, "subdrops");
+                const subdrops_percent = get_quest_data(quest_id, "subdrops_percent");
 
                 // APPLY COLOR ACCORDING TO QUEST SCORE
                 let quest_score_color = "";
@@ -303,207 +276,98 @@ function build_recommended_quest_table(all_recipe_maps_array)
                     quest_score_color = "quest-title_bg_red";
                 }
 
-                table_html += "<tr>";
-
-                function write_item_image_html(item_name, item_drop_percent, is_item_4)
-                {
-                    let item_amount = total_recipe.get(item_name);
-                    let is_not_included_in_disabled = !disabled_items.includes(item_name);
-                    //let show_text = item_amount > 0 && is_not_included_in_disabled;
-                    //let disabled_class = show_text ? "" : " quest-is-empty-text";
-
-                    table_html += "<th class='quest-hover" + ((item_amount > 0 && is_not_included_in_disabled) ? "" : " quest-is-empty-text") + "' height='48'>";
-                    //let inv_frag_amount = inventory_get_fragment_amount(item_name);
-                    //let priority_class = "p1";
-                    //if (!total_recipe.has(item_name) || inv_frag_amount >= item_amount) {
-                    //    priority_class = "p3";
-                    //}
-
-                    //table_html += "<th class='quest-hover " + priority_class + disabled_class + "' height='48' data-item-name=\"" + item_name + "\">";
-                    table_html += "<img class=\"item quest-item-image"
-                        + (total_recipe.has(item_name) ? "" : " grayscale")
-                        + (is_item_a_priority_and_needed(item_name) && total_recipe.has(item_name) ? " quest_priority-item" : "")
-                        + ((is_item_4) ? " item-4-element" : "")
-                        + "\" title=\"" + item_name
-                        + "\" src=\"" + get_item_image_path(item_name.split(' ').join('_')) + "\" alt=\"\"" + (is_item_4 ? " hidden" : "")  + ">";
-                    //if (show_text)
-                    if (item_amount > 0 && is_not_included_in_disabled)
-                    {
-                        if (quest_display === quest_display_settings.AMOUNT)
-                        {
-                            //table_html += "<div class=\"quest-inv-amount-text quest-display-top" + ((is_item_4) ? " item-4-element" : "") + "\">" + "\u00D7" + inv_frag_amount + "</div>";
-                            table_html += "<div class=\"drop-rate quest-percent-text quest-display-bottom" + ((is_item_4) ? " item-4-element" : "") + "\">" + item_drop_percent + "\u0025" + "</div>";
-                            table_html += "<div class=\"quest-req-amount-text quest-display-top" + ((is_item_4) ? " item-4-element" : "") + "\">" + "\u00D7" + item_amount + "</div>";
-                        }
-                        else
-                        {
-                            //table_html += "<div class=\"quest-inv-amount-text quest-display-bottom" + ((is_item_4) ? " item-4-element" : "") + "\">" + "\u00D7" + inv_frag_amount + "</div>";
-                            table_html += "<div class=\"drop-rate quest-percent-text quest-display-top" + ((is_item_4) ? " item-4-element" : "") + "\">" + item_drop_percent + "\u0025" + "</div>";
-                            table_html += "<div class=\"quest-req-amount-text quest-display-bottom" + ((is_item_4) ? " item-4-element" : "") + "\">" + "\u00D7" + item_amount + "</div>";
-                        }
-                    }
-                    table_html += "</th>";
+                function write_quest_item(item_name, drop_percent) {
+                    const required_amount = (total_recipe.get(item_name) !== undefined ? total_recipe.get(item_name) : 0);
+                    item_name = (item_name === null ? "Placeholder" : item_name);
+                    return "<div class='quest_item" + (item_name === "Placeholder" ? " remove" : "") + (total_recipe.has(item_name) ? "" : " disabled") + "'>" +
+                        "<img class='quest_item-img" +
+                            (is_item_a_priority_and_needed(item_name) && total_recipe.has(item_name) ? " quest_priority-item" : "") +
+                            "' src=\"" + get_item_image_path(item_name.split(' ').join('_')) + "\" title=\"" + item_name + "\" alt=''>" +
+                        "<div class='quest_drop-percent " + (quest_display !== quest_display_settings.AMOUNT ? "quest_display-top" : "quest_display-bottom") + "'>" +
+                            drop_percent + "%</div>" +
+                        "<div class='quest_required-amount " + (quest_display !== quest_display_settings.AMOUNT ? "quest_display-bottom" : "quest_display-top") + "'>" +
+                            "\u00D7" + required_amount + "</div></div>";
                 }
 
-                // QUEST NAME
+                // START QUEST HTML
+                table_html += "<div class='quest " + (quest_count % 2 === 0 ? "even" : "odd") + "'>";
+
+                // START QUEST HEADER
+                table_html += "<div class='quest_header'>";
+
+                // QUEST TITLE
                 let quest_is_hard_difficulty = quest_id.includes("H") && !quest_id.includes("VH");
                 let quest_is_very_hard_difficulty = quest_id.includes("H") && quest_id.includes("VH");
-                table_html += "<th>" +
-                    "<h3 class=\"quest-title " + quest_score_color +
-                        (quest_is_hard_difficulty || quest_is_very_hard_difficulty ? " quest-title_hard" : "") + "\">" +
-                    (!quest_id.includes("H") ? quest_id : "") +
-                    (quest_is_hard_difficulty ? quest_id.replace("H", " <span class=\"heart-red\">H</span>") : "")  +
-                    (quest_is_very_hard_difficulty ? quest_id.replace("VH", " <span class=\"heart-red\">VH</span>") : "") + "</h3>" +
-                    "</th>";
+                table_html += "<div class='quest_title " + quest_score_color + "'>" +
+                    (!quest_id.includes("H") ? quest_id : "") +                                                                 // NORMAL
+                    (quest_is_hard_difficulty ? quest_id.replace("H", "<span class='heart-red'> H</span>") : "") +              // HARD
+                    (quest_is_very_hard_difficulty ? quest_id.replace("VH", "<span class='heart-red'> VH</span>") : "") +       // VERY HARD
+                    "</div>";
 
-                // DIVIDER
-                table_html += "<th><img class=\"divider\" title=\"\" src=\"\" alt=\"\">";
+                // MEMORY PIECE
+                const is_char_shard_exists = character_shard !== null;
+                table_html += "<div class='quest_memory-piece" + (is_char_shard_exists ? "" : " remove") + (total_recipe.has(char_shard_name) ? "" : " disabled") + "'>" +
+                    "<img class='quest_memory-piece-img' src=\"" + get_item_image_path((is_char_shard_exists ? char_shard_name.split(' ').join('_') : "Placeholder")) + "\" " +
+                        "title=\"" + (is_char_shard_exists ? char_shard_name : "") + "\" alt=''>" +
+                    "<div class='quest_memory-piece-percent'>" + (is_char_shard_exists ? char_shard_drop_rate : 0) + "%</div>" +
+                    "</div>";
 
-                // INCLUDE HARD/VERY HARD MODE CHARACTER SHARD IMAGE
-                if (quest_id.includes("H"))
-                {
-                    if (total_recipe.has(char_shard_name))
-                    {
-                        table_html += "<img class=\"item memory-piece"
-                                + (is_item_a_priority_and_needed(char_shard_name) ? " quest_priority-item" : "")
-                            + "\" title=\"" + char_shard_name +
-                            "\" src=\"" + get_item_image_path((char_shard_name).split(' ').join('_')) + "\" alt\"\">";
-                        table_html += "<div class=\"drop-rate memory-piece_drop-rate\">" + char_shard_drop_rate + "\u0025</div>";
-                    }
-                    else
-                    {
-                        table_html += "<img class=\"item memory-piece memory-piece_no-drop grayscale\" title=\"" + char_shard_name +
-                            "\" src=\"" + get_item_image_path((char_shard_name).split(' ').join('_')) + "\" alt\"\">";
-                    }
+                // END QUEST HEADER
+                table_html += "</div>";
 
+                // QUEST SCORE
+                table_html += "<div class='quest_score" + (hide_quest_score ? " remove" : "") + "'>" + quest_score + " pts</div>";
+
+                // QUEST LINE 1
+                table_html += "<br class='quest_line'>";
+
+                // QUEST ITEMS (1 TO 4)
+                table_html += "<div class='quest_items'>" +
+                    write_quest_item(item_1_name, item_1_drop_percent) +
+                    write_quest_item(item_2_name, item_2_drop_percent) +
+                    write_quest_item(item_3_name, item_3_drop_percent) +
+                    write_quest_item(item_4_name, item_4_drop_percent) +
+                    "</div>";
+
+                // QUEST LINE 2
+                table_html += "<br class='quest_line-2'>";
+
+                // QUEST SUBDROPS
+                table_html += "<div class='quest_subdrops'>";
+                for (let i = 0 ; i < subdrops.length ; i++) {
+                    const drop_percent = (subdrops_percent !== undefined ? subdrops_percent[i] : 20);
+                    table_html += write_quest_item(subdrops[i], drop_percent);
                 }
-                table_html += "</th>";
+                table_html += "</div>";
 
-                // ITEM 1 IMAGE
-                write_item_image_html(item_1_name, item_1_drop_percent, false);
+                // END QUEST HTML
+                table_html += "</div>";
 
-                // ITEM 2 IMAGE
-                write_item_image_html(item_2_name, item_2_drop_percent, false);
-
-                // ITEM 3 IMAGE
-                write_item_image_html(item_3_name, item_3_drop_percent, false);
-
-                // ITEM 4 IMAGE
-                if (item_4 !== undefined)
-                {
-                    write_item_image_html(item_4_name, item_4_drop_percent, true);
-                }
-                else
-                {
-                    // PLACEHOLDER IF ITEM 4 DOES NOT EXIST
-                    table_html += "<th></th>";
-                }
-
-                // DIVIDER
-                table_html += "<th><img class=\"divider\" title=\"\" src=\"\" alt=\"\"></th>";
-
-                // SUB-ITEM IMAGES
-                for (let i = 0 ; i < subdrops.length ; i++)
-                {
-                    //let item_name = subdrops[i];
-                    let item_amount = total_recipe.get(subdrops[i]);
-                    let is_not_included_in_disabled = !disabled_items.includes(subdrops[i]);
-                    table_html += "<th class='quest-hover" + ((item_amount > 0 && is_not_included_in_disabled) ? "" : " quest-is-empty-text") + "' height='48'>";
-                    /*
-                    let show_text = item_amount > 0 && is_not_included_in_disabled;
-                    let disabled_class = show_text ? "" : " quest-is-empty-text";
-                    let inv_frag_amount = inventory_get_fragment_amount(subdrops[i]);
-
-                    let priority_class = "p1";
-                    if (!total_recipe.has(item_name) || inv_frag_amount >= item_amount) {
-                        priority_class = "p3";
-                    }
-
-                    table_html += "<th class='quest-hover " + priority_class + disabled_class + "' height='48' data-item-name=\"" + item_name + "\">";
-                    */
-
-                    table_html += "<img class=\"item quest-item-image"
-                        + (total_recipe.has(subdrops[i]) ? "" : " grayscale")
-                        + (is_item_a_priority_and_needed(subdrops[i]) && total_recipe.has(subdrops[i]) ? " quest_priority-item" : "")
-                        + "\" title=\"" + ((subdrops[i] !== "") ? subdrops[i] : "???")
-                        + "\" src=\"" + get_item_image_path(((subdrops[i] !== "") ? subdrops[i].split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
-                    //if (show_text)
-                    if (item_amount > 0 && is_not_included_in_disabled)
-                    {
-                        if (quest_display === quest_display_settings.AMOUNT)
-                        {
-                            //table_html += "<div class=\"quest-inv-amount-text quest-display-top\">" + "\u00D7" + inv_frag_amount + "</div>";
-                            if (subdrops_percent === undefined)
-                            {
-                                table_html += "<div class=\"drop-rate quest-percent-text quest-display-bottom\">20\u0025</div>";
-                            }
-                            else
-                            {
-                                table_html += "<div class=\"drop-rate quest-percent-text quest-display-bottom\">" + subdrops_percent[i] + "\u0025</div>";
-                            }
-                            table_html += "<div class=\"quest-req-amount-text quest-display-top\">" + "\u00D7" + item_amount + "</div>";
-                        }
-                        else
-                        {
-                            //table_html += "<div class=\"quest-inv-amount-text quest-display-bottom\">" + "\u00D7" + inv_frag_amount + "</div>";
-                            if (subdrops_percent === undefined)
-                            {
-                                table_html += "<div class=\"drop-rate quest-percent-text quest-display-top\">20\u0025</div>";
-                            }
-                            else
-                            {
-                                table_html += "<div class=\"drop-rate quest-percent-text quest-display-top\">" + subdrops_percent[i] + "\u0025</div>";
-                            }
-                            table_html += "<div class=\"quest-req-amount-text quest-display-bottom\">" + "\u00D7" + item_amount + "</div>";
-                        }
-                    }
-                    table_html += "</th>";
-                }
-
-                if (!hide_quest_score)
-                {
-                    // DIVIDER
-                    table_html += "<th><img class=\"divider\" title=\"\" src=\"\" alt=\"\"></th>";
-
-                    // QUEST POINTS
-                    table_html += "<th><h3 class=\"quest-title " + quest_score_color + "\">" + quest_score + " pts</h3></th>";
-                }
-
-                // END TABLE ROW
-                table_html += "</tr>";
-
-
-
+                // INCREMENT AND CHECK QUEST COUNT
                 quest_count++;
-
-                if (quest_count >= quest_shown_value)
-                {
+                if (quest_count >= quest_shown_value) {
                     break;
                 }
             }
         }
-        table_html += "</body>";
 
         quest_table.innerHTML = table_html;
 
-        if (quest_list_has_very_hard)
-        {
-            let collection_of_item_4_elems = document.getElementsByClassName("item-4-element");
-            for (let i = 0 ; i < collection_of_item_4_elems.length ; i++)
-            {
-                collection_of_item_4_elems[i].hidden = false;
-            }
-        }
-
+        // SHOW QUESTS ; ALSO DO SOME FUNKY STUFF FOR A NICE ANIMATION
         document.getElementById("recommended-quest-div").style.height = quest_table.scrollHeight + "px";
         setTimeout(function () {
             document.getElementById("recommended-quest-div").style.overflow = "auto";
+            document.getElementById("recommended-quest-div").style.height = null;
         }, 400);
     }
     else
     {
-        document.getElementById("recommended-quest-div").style.height = "2px";
+        // HIDE QUESTS ; ALSO DO SOME FUNKY STUFF FOR A NICE ANIMATION
+        document.getElementById("recommended-quest-div").style.height = quest_table.scrollHeight + "px";
         document.getElementById("recommended-quest-div").style.overflow = "hidden";
+        setTimeout(function () {
+            document.getElementById("recommended-quest-div").style.height = "0";
+        }, 50);
     }
 }
 
@@ -602,137 +466,3 @@ function focus_on_item(item_name, item_id)
     // REFRESH QUESTS
     refresh_quest_table();
 }
-
-/*
-DISABLED AS OF [1.8.1] 2/29/2020 - READ CHANGELOG
-$(function() {
-
-    function get_priority_class(inventory_amount, recipe_amount) {
-        let priority_class = "p1";
-        if (inventory_amount >= recipe_amount) {
-            priority_class = "p3";
-        }
-        return priority_class;
-    }
-
-    // hide inline inventory editor and stop editing mode
-    function editor_hide($inventory_editor) {
-
-        $inventory_editor.hide();
-
-        let $current_item_parent = $inventory_editor.parent();
-        if ($current_item_parent.hasClass('quest-item-edit')) {
-            $current_item_parent.removeClass('quest-item-edit').addClass('quest-hover');
-        }
-    }
-
-    // update recommended table after editing is complete:
-    // - redraw the table if scoring changed
-    // - update displayed inventory quantity
-    // - update priority class if priority changed
-    function update_table_after_inventory_change($inventory_editor) {
-        let $current_item_parent = $inventory_editor.parent();
-        let item_name = $current_item_parent.data('item-name');
-        let total_recipe_amount = parseInt($current_item_parent.children('.quest-req-amount-text').text().substring(1));
-        let old_amount = $inventory_editor.data('old-amount');
-        let new_amount = parseInt($current_item_parent.children('.quest-inv-amount-text').text().substring(1));
-
-        let $affected_nodes = $('#recommended-quest-table .quest-hover[data-item-name="' + item_name + '"]');
-        $('.quest-inv-amount-text', $affected_nodes).text('\u00D7' + new_amount);
-
-        let old_priority_class = get_priority_class(old_amount, total_recipe_amount);
-        let new_priority_class = get_priority_class(new_amount, total_recipe_amount);
-
-        if (new_priority_class !== old_priority_class) {
-            if (old_priority_class === "p3" || new_priority_class == "p3") {
-                // here the idea is that only p3 as opposed to p1 and p2 would exclude the item from scoring quests
-                return refresh_quest_table();
-            }
-            $affected_nodes.removeClass(old_priority_class).addClass(new_priority_class);
-        }
-    }
-
-    $('#recommended-quest-table').on('click', '.quest-item-image', function(event) {
-        // open the editor if it's not shown
-        // close it if it's shown on the current item
-        // move it if it's shown on a different item
-
-        event.stopPropagation();
-
-        let $this = $(this);
-
-        let $inventory_editor = $('#inventory-inline-editor');
-
-        if ($inventory_editor.is(':visible')) {
-            editor_hide($inventory_editor);
-            update_table_after_inventory_change($inventory_editor);
-
-            if ($this.prev().is($inventory_editor)) {
-                return;
-            }
-        }
-
-        if ($inventory_editor.length === 0) {
-            $inventory_editor = $('#inventory-inline-editor-prototype').clone()
-                .prop('id', 'inventory-inline-editor')
-                .prop('hidden', false);
-        }
-
-        $this.before($inventory_editor);
-
-        let $current_parent = $this.parent();
-        let item_name = $current_parent.data('item-name');
-        let current_amount = inventory_get_fragment_amount(item_name);
-
-        $inventory_editor.data('old-amount', current_amount);
-
-        let increment = equipment_map.get(item_name.replace(' Fragment', '')).get("req_pieces");
-        if (increment < 10) {
-            increment = 10;
-        }
-
-        let $plus_button = $('button.plus', $inventory_editor);
-        $plus_button.text('+' + increment);
-        $plus_button[0].value = '+' + increment;
-
-        let $minus_button = $('button.minus', $inventory_editor);
-        $minus_button.text('-' + increment);
-        $minus_button[0].value = '-' + increment;
-
-        $current_parent.removeClass('quest-hover').addClass('quest-item-edit');
-
-        $inventory_editor.show();
-    });
-
-    $('#recommended-div').on('click', function(event) {
-        // close the editor on clicking away
-
-        let $inventory_editor = $('#inventory-inline-editor');
-        if ($inventory_editor.length !== 0 && $inventory_editor.is(':visible') ) {
-            editor_hide($inventory_editor);
-            update_table_after_inventory_change($inventory_editor);
-        }
-
-        event.stopPropagation();
-    });
-
-    $('#recommended-quest-table').on('click', '#inventory-inline-editor button', function(event) {
-        // add or remove inventory items
-
-        let $this = $(this);
-
-        let $current_parent = $this.parent().parent();
-
-        let item_name = $current_parent.data('item-name');
-
-        let amount = parseInt(this.value);
-
-        let current_amount = inventory_get_fragment_amount(item_name);
-        let new_amount = inventory_set_fragment_amount(item_name, current_amount + amount);
-
-        $('.quest-inv-amount-text', $current_parent).text('\u00D7' + new_amount);
-
-        event.stopPropagation();
-    });
-});
-*/

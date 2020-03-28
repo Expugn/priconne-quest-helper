@@ -3,6 +3,18 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.8.7] - 2020-03-28
+### Changed
+- `Recommended Quests` Redesign
+  - `Recommended Quests` updated to look better on desktop and mobile
+  - Removed usage of `<table>`
+  - Depending on screen width, changes look to fit the window better
+- Margin for `Requested Items` and `Required Ingredients` changed to `1%` from `0` on mobile devices
+- Design for items that are in quests but are not needed changed to `grayscale + low-opacity` from `grayscale`
+- Removed outline for `Required Ingredients` buttons
+### Removed
+- Removed some unused stuff
+
 ## [1.8.6] - 2020-03-24
 ### Added
 - No JavaScript Warnings
