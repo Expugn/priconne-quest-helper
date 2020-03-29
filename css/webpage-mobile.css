@@ -161,10 +161,12 @@ button.item-button {
 
 .quest_drop-percent {
     font-size: 14px !important;
-    margin-top: -21px !important;
+    margin-top: -20px !important;
+    margin-right: 3px !important;
 }
 
 .quest_required-amount {
     font-size: 14px !important;
-    margin-top: -17px !important;
+    margin-top: -16px !important;
+    margin-right: 3px !important;
 }

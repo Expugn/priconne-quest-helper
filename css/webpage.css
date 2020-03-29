@@ -717,14 +717,12 @@ img.quest_priority-item {
 
 .quest_item.disabled .quest_item-img {
     -webkit-filter: grayscale(100%) opacity(30%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-    opacity: 30%;
+    filter: grayscale(100%) opacity(30%);
     transition: all 0.4s ease-out;
 }
 .quest_item.disabled:hover .quest_item-img {
     -webkit-filter: grayscale(50%) opacity(75%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(50%);
-    opacity: 75%;
+    filter: grayscale(50%) opacity(75%);
 }
 .quest_item.disabled .quest_drop-percent,
 .quest_item.disabled .quest_required-amount {
