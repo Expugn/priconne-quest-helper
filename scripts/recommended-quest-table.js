@@ -353,21 +353,34 @@ function build_recommended_quest_table(all_recipe_maps_array)
 
         quest_table.innerHTML = table_html;
 
-        // SHOW QUESTS ; ALSO DO SOME FUNKY STUFF FOR A NICE ANIMATION
-        document.getElementById("recommended-quest-div").style.height = quest_table.scrollHeight + "px";
-        setTimeout(function () {
-            document.getElementById("recommended-quest-div").style.overflow = "auto";
-            document.getElementById("recommended-quest-div").style.height = null;
-        }, 400);
+        // SHOW QUESTS
+        document.getElementById("recommended-quest-div").style.height = (quest_table.scrollHeight + 10) + "px";
+
+        const waitForFinal = (function () {
+            let timers = {};
+            return function (callback, ms, uniqueID) {
+                if (!uniqueID) {
+                    uniqueID = "Don't call this twice without an uniqueID";
+                }
+                if (timers[uniqueID]) {
+                    clearTimeout(timers[uniqueID]);
+                }
+                timers[uniqueID] = setTimeout(callback, ms);
+            }
+        })();
+        $(window).on("resize", function () {
+            // WAIT FOR FINAL RESIZE EVENT BEFORE RESIZING QUEST TABLE
+            waitForFinal(function () {
+                document.getElementById("recommended-quest-div").style.height = (document.getElementById("recommended-quest-table").scrollHeight + 10) + "px";
+            }, 500, "quest-resize");
+        });
     }
     else
     {
-        // HIDE QUESTS ; ALSO DO SOME FUNKY STUFF FOR A NICE ANIMATION
-        document.getElementById("recommended-quest-div").style.height = quest_table.scrollHeight + "px";
-        document.getElementById("recommended-quest-div").style.overflow = "hidden";
-        setTimeout(function () {
-            document.getElementById("recommended-quest-div").style.height = "0";
-        }, 50);
+        // HIDE QUESTS
+        document.getElementById("recommended-quest-div").style.height = "10px";
+        quest_table.innerHTML = "";
+        $(window).off("resize");
     }
 }
 

@@ -139,6 +139,11 @@ button.item-button {
 }
 
 /* RECOMMENDED QUESTS =============================================================================================== */
+#recommended-quest-table {
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+}
+
 .quest_title {
     font-size: 10px !important;
     padding: 5px 10px !important;
