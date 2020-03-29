@@ -9,6 +9,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - `Recommended Quests` updated to look better on desktop and mobile
   - Removed usage of `<table>`
   - Depending on screen width, changes look to fit the window better
+  - Hovering your mouse over a disabled item (`low-opacity grayscale`) will increase the opacity so that you can see what item it is
 - Margin for `Requested Items` and `Required Ingredients` changed to `1%` from `0` on mobile devices
 - Design for items that are in quests but are not needed changed to `grayscale + low-opacity` from `grayscale`
 - Removed outline for `Required Ingredients` buttons
