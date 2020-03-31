@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.8.8] - 2020-03-31
+### Added
+- New Character: Yuni
+- New Quest: 21-3 VH (Hatsune)
+## Changed
+- Title Background Default: `IDOLMASTER` -> `FRIENDSHIP_CLUB`
+
 ## [1.8.7] - 2020-03-28
 ### Changed
 - `Recommended Quests` Redesign

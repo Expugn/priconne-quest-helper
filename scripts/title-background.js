@@ -18,7 +18,7 @@ const backgrounds = Object.freeze({
     CUSTOM: 'CUSTOM',
 });
 
-const default_background = backgrounds.IDOLMASTER;
+const default_background = backgrounds.FRIENDSHIP_CLUB;
 
 function init_background_select()
 {
