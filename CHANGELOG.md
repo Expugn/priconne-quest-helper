@@ -9,6 +9,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - New Quest: 21-3 VH (Hatsune)
 ## Changed
 - Title Background Default: `IDOLMASTER` -> `FRIENDSHIP_CLUB`
+## Fixed
+- Fixed a bug where `Rei (New Year)`, `Hiyori (New Year)`, and `Yui (New Year)` could not be selected in presets when using the `Korean` language and `Legacy` equipment data
+  - Issue Tracker Report (Reported by `lyjjrs`): <https://github.com/Expugn/priconne-quest-helper/issues/24>
 
 ## [1.8.7] - 2020-03-28
 ### Changed

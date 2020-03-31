@@ -379,7 +379,7 @@
     "rank_13": ["Storm God Tempest Gear", "Cocytus Nail", "Fire Oni's Tori", "Maiden Cloth", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["", "Storm God Tempest Gear", "", "Fire Oni's Tori", "Flowering Fire Peony", "War God's Arm"]
   },
-  "newyear_hiyori": {
+  "new_year_hiyori": {
     "name": "Hiyori",
     "thematic": "New Year",
     "name_jp": "ヒヨリ",
@@ -1259,7 +1259,7 @@
     "rank_13": ["Konominato Sword - Aqua Ruler", "Great Sword of Sin", "Fire Oni's Tori", "Nine Heavens' Armor", "War God's Arm", "Fury Dragon Pendant"],
     "rank_14": ["", "Konominato Sword - Aqua Ruler", "", "Rage Queen Dress", "Flowering Fire Peony", "War God's Arm"]
   },
-  "newyear_rei": {
+  "new_year_rei": {
     "name": "Rei",
     "thematic": "New Year",
     "name_jp": "レイ",
@@ -1719,7 +1719,7 @@
     "rank_13": ["Heaven Rod - Stellar Sphere", "Atlantis Rod", "Blood Ruby Heel", "Empress Robe", "Glorious King's Shield Bangle", "Mermaid Princess' Spirit Tear"],
     "rank_14": ["", "Heaven Rod - Stellar Sphere", "", "Exomagia Robe", "Sea Dragon God's Hair Ornament", "Glorious King's Shield Bangle"]
   },
-  "newyear_yui": {
+  "new_year_yui": {
     "name": "Yui",
     "thematic": "New Year",
     "name_jp": "ユイ",
