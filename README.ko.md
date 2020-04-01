@@ -1,4 +1,4 @@
-![README Banner](https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/README_Banner_ko.png)
+![README Banner](https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/README_Banner.png)
 
 [🌎 English](README.md)
 
@@ -13,6 +13,10 @@ URL: <https://expugn.github.io/priconne-quest-helper/><br>
 변경 사항: [/priconne-quest-helper/CHANGELOG.md](CHANGELOG.md)
 
 마지막 퀘스트 데이터의 업데이트 일자는 [영어 README의 Last Quest Update](README.md)를 확인해주세요.
+
+<br>
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E21KEV4)
 
 ## 정보
 캐릭터의 랭크 업 등에 필요한 아이템을 얻기 위해 돌아야 되는 최적의 퀘스트를 찾아주는 도우미 프로젝트입니다.
@@ -39,21 +43,6 @@ URL: <https://expugn.github.io/priconne-quest-helper/><br>
 <br>비활성화한 아이템은 `추천 퀘스트 목록` 산정에 고려되지 않습니다.
 6. 퀘스트 목록(기본값으로 최대 10개)이 `추천 퀘스트 목록` 카테고리에 표시됩니다.
 <br>남은 스태미나를 고려하여 최선의 퀘스트를 도세요!
-
-## 퀘스트 점수란?
-퀘스트 점수는 `추천 퀘스트 목록`에서 퀘스트를 정렬할 때 기준이 되는 수치입니다.
-
-| 사유 | 부여되는 퀘스트 점수 |
-| :---: | :---: |
-| `재료가 첫 번째 혹은 두 번째 슬롯에 있음`<br><br>첫 번째 혹은 두 번째 슬롯에 있는 재료는 세 번째 슬롯에 있는 재료에 비해 드롭률이 보통 더 높습니다. | `1.0` |
-| `재료가 세 번째 슬롯에 있음`<br><br>세 번째 슬롯에 있는 재료는 첫 번째 혹은 두 번째 슬롯에 있는 재료에 비해 드롭률이 보통 더 낮습니다. | `0.75` |
-| `재료가 메모리 피스임`<br><br>어려움 퀘스트의 메모리 피스는 높은 중요도를 가집니다. | `1.0` |
-| `재료가 세 번째 슬롯에 있지만 첫 번째 및 두 번째 슬롯의 재료와 드롭률을 공유함`<br><br>초기의 퀘스트(첫 세 아이템은 `54%`)나 어려움 퀘스트(첫 세 아이템은 `72%`)의 경우에 해당됩니다. | `1.0` |
-| `재료가 부수적으로 드롭되는 아이템임`<br><br>부수적으로 드롭되는 아이템은 퀘스트 창에서 표시되지 않지만, 세 슬롯의 아이템보다 낮은 확률로 드롭되는 아이템을 말합니다.<br>모든 퀘스트마다 5개의 부수적으로 드롭되는 아이템이 있으며 각각 `20%`의 드롭률을 가집니다. | `0.5` |
-| `재료가 부수적으로 드롭되는 아이템임 (17%)`<br><br>일반적인 부수적 드롭 아이템보다 낮은 드롭률을 가집니다. | `0.45` |
-| `재료가 부수적으로 드롭되는 아이템임 (15%)`<br><br>일반적인 부수적 드롭 아이템보다 낮은 드롭률을 가집니다. | `0.40` |
-
-`* 설정 탭에서 퀘스트 점수가 표시되도록 설정할 수 있습니다.`
 
 ## 버그, 오류, 기능 제안, 그 외
 다음 사항은 `GitHub 이슈 트래커`나 `Discord`의 `S'pugn#2612`로 알려주세요.

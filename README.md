@@ -14,6 +14,10 @@ Changelog: [/priconne-quest-helper/CHANGELOG.md](CHANGELOG.md)
 
 Last Quest Update: `February 15, 2020`
 
+<br>
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E21KEV4)
+
 ## Information
 This is a tool to help you decide which is the best quest to farm to get
 whatever assortment of items you need to rank up your characters.
