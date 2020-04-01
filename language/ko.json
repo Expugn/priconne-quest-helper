@@ -97,6 +97,7 @@
     "hide_quest_score": "퀘스트 점수 숨기기",
     "lowest_quest_chapter_displayed": "표시될 가장 낮은 퀘스트 :",
     "highest_quest_chapter_displayed": "표시될 가장 높은 퀘스트 :",
+    "max": "최대",
     "show_all_quests": "모든 퀘스트 보기",
     "show_normal_quests": "일반 퀘스트 보기",
     "show_hard_quests": "어려움 퀘스트 보기",
@@ -150,6 +151,12 @@
 
     "title_background_title": "타이틀 배경 이미지",
     "custom_title_background_url": "Image URL: "
+  },
+
+  "inventory": {
+    "title": "아이엠",
+    "add_item": "아이템 추가",
+    "inventory_empty": "아이템 목록이 비어 있습니다..."
   },
 
   "toasts": {

@@ -11,17 +11,13 @@ function get_recipe(item_name, amount)
     let item_id = get_equipment_data(item_name, "id");                      // string
     let rarity_class = item_id.substring(0, item_id.indexOf('-'));
 
-    if (!ignored_rarities.includes(rarity_class))
-    {
+    if (!ignored_rarities.includes(rarity_class)) {
         // ADD FRAGMENT/ITEM COUNT TO RECIPE
-        if (required_pieces > 0)
-        {
-            if (has_fragments)
-            {
+        if (required_pieces > 0) {
+            if (has_fragments) {
                 recipe = add_items_to_recipe(recipe, item_name + " Fragment", required_pieces * amount);
             }
-            else
-            {
+            else {
                 recipe = add_items_to_recipe(recipe, item_name, required_pieces * amount);
             }
         }
@@ -99,6 +95,9 @@ function figure_out_total_ingredients(all_recipe_maps_array)
 {
     let total_recipe = get_total_recipe(all_recipe_maps_array);
 
+    // APPLY INVENTORY IF AVAILABLE
+    total_recipe = apply_inventory_to_total_recipe(total_recipe, false, true, true);
+
     // SORT REQUIRED INGREDIENTS BY AMOUNT (GREATEST > LEAST)
     total_recipe[Symbol.iterator] = function* () {
         yield* [...this.entries()].sort((a, b) => b[1] - a[1]);
@@ -108,10 +107,20 @@ function figure_out_total_ingredients(all_recipe_maps_array)
     let html = "";
     if (total_recipe.size > 0) {
         for (let [item, value] of total_recipe) {
-            html += "<button id=\"request-button-" + item.split(' ').join('_') + "\" class=\"required-ingredients_button pointer-cursor" + (disabled_items.includes(item) ? " low-opacity" : "") + "\" onclick=\"toggle_enabled_item(" + "\'" + clean_apostrophes(item) + "\'" + ")\">" +
-                "<img class=\"required-ingredients_item-img\" title=\"" + item + "\" src=\"" + get_item_image_path(item.split(' ').join('_')) + "\" alt=\"\">" +
-                "<div class=\"item-amount required-ingredients_button_item-amount\">\u00D7" + value + "</div>" +
-                "</button>";
+            if (value > 0) {
+                html += "<button id=\"request-button-" + item.split(' ').join('_') + "\" class=\"required-ingredients_button pointer-cursor" + (disabled_items.includes(item) ? " low-opacity" : "") + (value <= 0 ? " disabled" : "") + "\" onclick=\"toggle_enabled_item(" + "\'" + clean_apostrophes(item) + "\'" + ")\">" +
+                    "<img class=\"required-ingredients_item-img\" title=\"" + item + "\" src=\"" + get_item_image_path(item.split(' ').join('_')) + "\" alt=\"\">" +
+                    "<div class=\"item-amount required-ingredients_button_item-amount\">\u00D7" + value + "</div>" +
+                    "</button>";
+            }
+            else {
+                // DISABLED ITEM DUE TO INVENTORY HAVING ENOUGH
+                html += "<button id=\"request-button-" + item.split(' ').join('_') + "\" class=\"required-ingredients_button disabled" + "\">" +
+                    "<img class=\"required-ingredients_item-img\" title=\"" + item + "\" src=\"" + get_item_image_path(item.split(' ').join('_')) + "\" alt=\"\">" +
+                    "<div class=\"item-amount required-ingredients_button_item-amount\">\u00D7" + Math.abs(value) + "</div>" +
+                    "<img class='required-ingredients_button_inventory-crate' src='" + get_webpage_image_path("Inventory_Crate") + "' alt=''>" +
+                    "</button>";
+            }
         }
     }
 

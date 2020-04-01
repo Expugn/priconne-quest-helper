@@ -97,6 +97,7 @@
     "hide_quest_score": "Hide Quest Score",
     "lowest_quest_chapter_displayed": "Lowest Quest Chapter Displayed:",
     "highest_quest_chapter_displayed": "Highest Quest Chapter Displayed:",
+    "max": "Max",
     "show_all_quests": "Show All Quests",
     "show_normal_quests": "Show Normal Quests",
     "show_hard_quests": "Show Hard Quests",
@@ -150,6 +151,12 @@
 
     "title_background_title": "Title Background",
     "custom_title_background_url": "Image URL: "
+  },
+
+  "inventory": {
+    "title": "Inventory",
+    "add_item": "Add Item",
+    "inventory_empty": "The inventory is empty..."
   },
 
   "toasts": {

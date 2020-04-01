@@ -20,6 +20,9 @@ function build_recommended_quest_table(all_recipe_maps_array)
         }
     }
 
+    // APPLY INVENTORY TO TOTAL RECIPE IF POSSIBLE
+    total_recipe = apply_inventory_to_total_recipe(total_recipe, true, false);
+
     // COMPILE LIST OF PRIORITY ITEMS FROM PRIORITY PROJECTS
     if (!priority_items_compiled)
     {
@@ -290,7 +293,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
                 }
 
                 // START QUEST HTML
-                table_html += "<div class='quest " + (quest_count % 2 === 0 ? "even" : "odd") + "'>";
+                table_html += "<div class='quest " + (quest_count % 2 === 0 ? "odd" : "even") + "'>";
 
                 // START QUEST HEADER
                 table_html += "<div class='quest_header'>";

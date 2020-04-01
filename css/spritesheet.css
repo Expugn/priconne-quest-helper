@@ -1,0 +1,36 @@
+/* HYPERLINK BUTTONS ================================================================================================ */
+.ss_hyperlink-button {
+    display: inline-block;
+    width: 204px;
+    height: 54px;
+}
+.no-webp .ss_hyperlink-button {background: url("../images/webpage/spritesheets/hyperlink_buttons.png");}
+.webp .ss_hyperlink-button {background: url("../images/webpage_webp/spritesheets/hyperlink_buttons.webp");}
+
+#hyperlink_quest-data .ss_hyperlink-button     {background-position: 0 0;}
+#hyperlink_recipe-data .ss_hyperlink-button    {background-position: 0 -55px;}
+#hyperlink_character-data .ss_hyperlink-button {background-position: 0 -110px;}
+#hyperlink_statistics .ss_hyperlink-button     {background-position: 0 -165px;}
+#hyperlink_github .ss_hyperlink-button         {background-position: 0 -220px;}
+#hyperlink_changelog .ss_hyperlink-button      {background-position: 0 -275px;}
+#hyperlink_wiki .ss_hyperlink-button           {background-position: 0 -330px;}
+#hyperlink_simple-mode .ss_hyperlink-button    {background-position: 0 -385px;}
+#hyperlink_fancy-mode .ss_hyperlink-button     {background-position: 0 -440px;}
+
+/* NAVIGATION BUTTONS =============================================================================================== */
+.ss_navigation-button {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+
+    -webkit-filter: opacity(30%);
+    filter: opacity(30%);
+}
+.no-webp .ss_navigation-button {background: url("../images/webpage/spritesheets/navigation_buttons.png");}
+.webp .ss_navigation-button {background: url("../images/webpage_webp/spritesheets/navigation_buttons.webp");}
+
+#navigation-items .ss_navigation-button    {background-position: 0 0;}
+#navigation-presets .ss_navigation-button  {background-position: 0 -51px;}
+#navigation-projects .ss_navigation-button {background-position: 0 -102px;}
+#navigation-settings .ss_navigation-button {background-position: 0 -153px;}
+#navigation-other .ss_navigation-button    {background-position: 0 -204px;}

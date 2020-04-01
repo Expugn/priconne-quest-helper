@@ -36,10 +36,12 @@ h2.title:lang(ko) {
 
 .item-table_category-title:lang(ko) {
     font-family: "Trebuchet MS", "Arita-Dotum-Medium", "NotoSerifKR", serif;
+    top: 15px;
 }
 
 .rarity-button:lang(ko) {
     font-family: "Arita-Dotum-Medium", "NanumGothic", "나눔고딕", "NotoSerifKR", serif;
+    top: 15px;
 }
 
 .request-title:lang(ko) {
@@ -92,6 +94,11 @@ p.footer:lang(ja) {
     font-family: "Trebuchet MS", "Hiragino Kaku Gothic Pro W3", "NotoSerifJP", serif;
 }
 
-.hyperlink-text:lang(ja) {
+.hyperlink-text:not(.app-hyperlink_text):lang(ja) {
     font-family: "Trebuchet MS", "Hiragino Kaku Gothic Pro W3", "NotoSerifJP", serif;
+    top: 10px;
+}
+
+#hyperlink_github-text {
+    top: 14px;
 }

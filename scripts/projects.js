@@ -391,44 +391,61 @@ function project_items_toString(project_data)
 
 function check_project_if_complete(project_data, project_name)
 {
-    if (typeof disabled_items === 'undefined')
-    {
+    if (typeof disabled_items === 'undefined' && Object.keys(inventory.fragments).length === 0) {
         // BLACKLIST DATA IS NOT DEFINED.
+        // INVENTORY DOES NOT EXIST AS WELL
         return false;
     }
-    else
-    {
-        for (let [item_name, item_amount] of project_data)
-        {
-            for (let [comp_name, comp_amount] of get_recipe(item_name, item_amount))
-            {
+    else {
+        let total_recipe = new Map();
+        for (let [item_name, item_amount] of project_data) {
+            for (let [comp_name, comp_amount] of get_recipe(item_name, item_amount)) {
                 // CHECK IF ITEM IS MISSING IN disabled_items (BLACKLIST)
-                if (!disabled_items.includes(comp_name))
-                {
-                    // REMOVE PROJECT FROM COMPLETION
-                    if (completed_projects.includes(project_name))
-                    {
-                        let index = completed_projects.indexOf(project_name);
-                        if (index > -1)
-                        {
-                            completed_projects.splice(index, 1);
+                // ALSO CHECK IF THERE IS AT LEAST THE comp_amount IN INVENTORY IF THE ITEM IS MISSING FROM BLACKLIST
+                if (!disabled_items.includes(comp_name)) {
+                    // SECOND CHANCE: IF INVENTORY HAS ENOUGH FRAGMENTS THEN CONTINUE
+                    if (inventory_check_fragment_amount(comp_name, comp_amount)) {
+                        // ADD COMPONENT TO TOTAL RECIPE
+                        if (total_recipe.has(comp_name)) {
+                            total_recipe.set(comp_name, total_recipe.get(comp_name) + comp_amount);
                         }
+                        else {
+                            total_recipe.set(comp_name, comp_amount);
+                        }
+                        continue;
                     }
-
-                    // PROJECT IS NOT COMPLETE
+                    // PROJECT IS NOT COMPLETE: DOES NOT EXIST IN BLACKLIST AND INVENTORY DOES NOT HAVE ENOUGH FOR THIS COMPONENT
+                    mark_project_as_incomplete();
                     return false;
                 }
             }
-
         }
-        // ADD PROJECT TO COMPLETED LIST IF DOES NOT EXIST
-        if (!completed_projects.includes(project_name))
-        {
+
+        // CHECK IF INVENTORY HAS ENOUGH ITEMS TO COMPLETE THE PROJECT
+        total_recipe = apply_inventory_to_total_recipe(total_recipe, true, false);
+        if (total_recipe.size > 0) {
+            // THERE ARE STILL INCOMPLETE ITEMS, PROJECT IS INCOMPLETE
+            mark_project_as_incomplete();
+            return false;
+        }
+
+        // ALL TESTS PASSED ; PROJECT SHOULD BE COMPLETE
+        mark_project_as_complete();
+        return true;
+    }
+
+    function mark_project_as_complete() {
+        if (!completed_projects.includes(project_name)) {
             completed_projects.push(project_name);
         }
-
-        // PROJECT IS COMPLETE
-        return true;
+    }
+    function mark_project_as_incomplete() {
+        if (completed_projects.includes(project_name)) {
+            let index = completed_projects.indexOf(project_name);
+            if (index > -1) {
+                completed_projects.splice(index, 1);
+            }
+        }
     }
 }
 
@@ -837,7 +854,7 @@ function complete_project()
     // DELETE PROJECT
     projects.delete(project_name);
 
-    // SAVE PROJECT MAP TO COOKIE AS COOKIE-SAFE JSON STRING
+    // SAVE PROJECT MAP TO LOCAL STORAGE
     localStorage.setItem('projects', map_of_maps_to_map_string_json(projects));
 
     if (priority_projects.includes(project_name))
@@ -858,6 +875,9 @@ function complete_project()
     update_saved_projects_select();
     disable_add_and_sub_buttons(true);
     disable_complete_project_button(false);
+
+    // REFRESH REQUIRED INGREDIENTS AND RECOMMENDED QUESTS
+    build_data();
 
     // DISPLAY TOAST
     if (current_language === language.ENGLISH)

@@ -3,12 +3,12 @@
     "title": "プリンセスコネクト！Re:Dive",
     "subtitle": "クエストヘルパー",
 
-    "required_ingredients_title": "<span style='font-size: 18px;'>必要アイテム</span>",
+    "required_ingredients_title": "必要アイテム",
     "required_ingredients_help_1": "ここに必要なアイテムと個数が表示されます。",
     "required_ingredients_help_2": "アイテムを押すと<span style='color: darkorange'>選択から除外し</span>、また押すと再び選択されます。",
     "required_ingredients_help_3": "<span style='color: orange'>除外したアイテム</span>は、<span style='color: yellow'>おすすめクエストリスト</span>に<span style='color: salmon; font-style: italic'>表示されません</span>。",
 
-    "recommended_quest_title": "<span style='font-size: 18px;'>おすすめクエストリスト</span>",
+    "recommended_quest_title": "おすすめクエストリスト",
     "recommended_quest_help_1": "アイテムを選択するとここにおすすめのクエストが表示されます。",
     "recommended_quest_help_2": "クエストは、<span style='color: yellow'>必要個数</span>順に整列されます。",
     "recommended_quest_help_3": "基本的におすすめクエストは<span style='color: #6DFF7F'>10</span>個まで表示します。",
@@ -32,7 +32,7 @@
     "purple_title": "紫枠",
     "miscellaneous_title": "メモリーピース",
 
-    "requested_items_title": "<span style='font-size: 18px;'>要求アイテム</span>",
+    "requested_items_title": "要求アイテム",
     "requested_items_help_1": "上で選択したアイテムと個数がここに表示されます。",
     "requested_items_help_2": "カテゴリの名前を押すとそのカテゴリの全アイテムが表示されます。"
   },
@@ -97,6 +97,7 @@
     "hide_quest_score": "クエストスコアを隠す",
     "lowest_quest_chapter_displayed": "表示する最低クエスト：",
     "highest_quest_chapter_displayed": "表示する最高クエスト：",
+    "max": "最大",
     "show_all_quests": "全クエスト表示",
     "show_normal_quests": "NORMALクエスト表示",
     "show_hard_quests": "HARDクエスト表示",
@@ -135,13 +136,13 @@
     "updated_rank_equipment": "アップデートされた新装備",
 
     "other_pages_title": "他のページ",
-    "quest_data": "<span style='position: relative; top: 6px;'>クエスト情報</span>",
+    "quest_data": "クエスト情報",
     "recipe_data": "装備情報",
-    "character_data": "<span style='position: relative; top: 6px;'>キャラクター情報</span>",
+    "character_data": "キャラクター情報",
     "github": "GitHub",
-    "simple_mode": "<span style='position: relative; top: 6px;'>シンプルモード</span>",
-    "fancy_mode": "<span style='position: relative; top: 6px;'>ファンシーモード</span>",
-    "help": "<span style='position: relative; top: 6px;'>ヘルプ</span>",
+    "simple_mode": "シンプルモード",
+    "fancy_mode": "ファンシーモード",
+    "help": "ヘルプ",
     "statistics": "統計",
     "changelog": "変更点一覧",
 
@@ -150,6 +151,12 @@
 
     "title_background_title": "タイトルの背景",
     "custom_title_background_url": "Image URL: "
+  },
+
+  "inventory": {
+    "title": "アイテム",
+    "add_item": "アイテム追加",
+    "inventory_empty": "アイテムが存在しません……"
   },
 
   "toasts": {

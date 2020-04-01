@@ -7,11 +7,81 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Added
 - New Character: Yuni
 - New Quest: 21-3 VH (Hatsune)
+- New Setting
+  - `Auto Max Quest Chapter`
+    - When enabled, the highest quest chapter will automatically be used and the value set in `Highest Quest Chapter Displayed` is ignored
+    - Useful for setting and forgetting so that when there's a new quest update you do not need to save any new settings
+    - `Highest Quest Chapter Displayed` cannot be modified if `Auto Max Quest Chapter` is enabled
+    - `Auto Max Quest Chapter` can be enabled by checking the checkbox next to the "`Max`" next to `Highest Quest Chapter Displayed`
+- `css/spritesheet.css`
+  - Using "sprite-sheets" to reduce the amount of images needed to be downloaded
+  - Currently, the `Navigation Bar Button`s (5 images) and `Hyperlink Button`s (9 images) use sprite-sheets for their images
+  - Moved individual files that make up sprite-sheets to `images/webpage/spritesheets/assets/<spritesheet_name>/`
+- Updated Language Files
+  - `en.json`
+    - `settings_tab.max`
+    - `inventory`
+  - `ja.json`
+    - `system.required_ingredients_title`
+    - `system.recommended_quest_title`
+    - `items_tab.requested_items_title`
+    - `settings_tab.max`
+    - `other_tab.quest_data`
+    - `other_tab.character_data`
+    - `other_tab.simple_mode`
+    - `other_tab.fancy_mode`
+    - `other_tab.help`
+    - `inventory`
+  - `ko.json`
+    - `settings_tab.max`
+    - `inventory`
+- Made a ko-fi page to sell myself out. I greatly appreciate any support given!
+  - <https://ko-fi.com/priconne_quest_helper>
+- New/Reworked Feature: Inventory
+  - The long awaited and requested feature, lol.
+  - **I consider the Inventory feature to be BETA ; More features may be added in the future.**
+  - Inventory can be accessed via the `Crate` image near `Required Ingredients`
+  - There are 4 inventory modes: `List` / `Add` / `Remove`
+    - Inventory Mode: `List`
+      - Displays all items in your inventory
+      - Clicking on an item will show an input where you can change the amount of that item you have (max `9999`)
+      - Setting an item's amount to `0` or lower will delete it from your inventory
+    - Inventory Mode: `Add`
+      - Displays all available items depending on your current loaded equipment data
+      - Clicking on an image will open a prompt if possible you can choose between adding individual `Fragment` pieces, or whole `Equipment`
+      - If choosing to add whole `Equipment`, you can see how much `Fragment` pieces as well as other components will be added
+      - Inputting a number and clicking `Add Item` will add your selection to your inventory
+      - Note that max inventory amount is 9999, so going over that limit will put you back down to 9999
+    - Inventory Mode: `Remove`
+      - Clicking on an item while under this mode will delete it from your inventory
+      - The `Delete All` Button will become visible while `Inventory Mode`: `Remove` is active
+      - CLICKING THE DELETE ALL BUTTON WILL DELETE EVERYTHING IN YOUR INVENTORY ; THERE IS NO PROMPT TO CONFIRM YOUR DECISION 
+  - Inventory Benefits
+    - `Required Ingredients` that you have enough of in your inventory will automatically be disabled
+      - Items you have enough of will be indicated by the item being grayscale + transparent with a crate image on the top left of the image
+    - `Recommended Quests` will not show items you have enough of in your inventory
+    - Using the `Complete Project` button in the `Projects` tab will automatically remove items from your inventory 
+  - NOTE: AS OF THIS WRITING, `Inventory` CANNOT BE EXPORTED/IMPORTED VIA `Data Export`/`Data Import`
 ## Changed
 - Title Background Default: `IDOLMASTER` -> `FRIENDSHIP_CLUB`
+- CSS Tweaks
+  - Swapped `opacity:0` to `visibility:hidden` for disabled memory piece drop rates so text cannot be highlighted
+  - Adjust quest background coloring for compact sizes to match the current `odd quest` colors
+  - Moved memory piece images down on mobile devices to align better with the quest title
+  - Increase margin between `Princess Connect! Re:Dive` and `Quest Helper` for `Korean` language on desktop/mobile
+  - Remove positioning CSS in `language/ja.json` in favor of putting the css `css/webpage.i18n.css`
+  - Move `rarity button`s and `item table category title`s down a bit for `Korean` language
+  - Removed `outline` for preset single mode item buttons
+  - Reduce main title (`Princess Connect! Re:Dive`) size for `EN`/`JA` on mobile
+  - Increase main title (`프린세스 커넥트! Re:Dive`) and reduce sub title (`퀘스트 도우미`) size for `KO` on mobile
+  - Optimized css for backgrounds
+- Code Optimizations
+  - `recipeArray` in `update-requested.js::build_data()` was storing empty recipes (given if the item rarity was ignored); this is no longer the case
 ## Fixed
 - Fixed a bug where `Rei (New Year)`, `Hiyori (New Year)`, and `Yui (New Year)` could not be selected in presets when using the `Korean` language and `Legacy` equipment data
   - Issue Tracker Report (Reported by `lyjjrs`): <https://github.com/Expugn/priconne-quest-helper/issues/24>
+- Fixed a css error where some `.webp` backgrounds weren't actually `.webp`
+- Fixed a minor issue where `odd`/`even` quests (used in coloring quest backgrounds) weren't actually `odd`/`even`
 
 ## [1.8.7] - 2020-03-28
 ### Changed
