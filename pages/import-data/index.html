@@ -139,12 +139,14 @@
     let project_data;
     let priority_project_data;
     let blacklist_data;
+    let inventory_data;
     let settings_data;
     let gist_id;
 
     let project_json;
     let priority_project_json;
     let blacklist_json;
+    let inventory_json;
     let settings_json;
 
     let sample_text = gist_max + gist_favorite_league_role + gist_year;
@@ -187,31 +189,34 @@
                             project_data = converted_gist_data["projects"];
                             priority_project_data = converted_gist_data["priority_projects"];
                             blacklist_data = converted_gist_data["blacklist"];
+                            inventory_data = converted_gist_data["inventory"];
                             settings_data = converted_gist_data["settings"];
 
                             // CHECK IF ANY DATA IS MISSING/NOT PROVIDED
                             let include_projects = project_data !== undefined;
                             let include_priority_projects = priority_project_data !== undefined;
                             let include_blacklist = blacklist_data !== undefined;
+                            let include_inventory = inventory_data !== undefined;
                             let include_settings = settings_data !== undefined;
 
                             // CONVERT DATA
                             project_json = (include_projects ? JSON.parse(project_data) : "");
                             priority_project_json = (include_priority_projects ? JSON.parse(priority_project_data) : "");
                             blacklist_json = (include_blacklist ? JSON.parse(blacklist_data) : "");
+                            inventory_json = (include_inventory ? JSON.parse(inventory_data) : "");
                             settings_json = (include_settings ? JSON.parse(settings_data) : "");
 
                             // BUILD DATA DISPLAY
                             try
                             {
                                 // CHECK IF THERE'S ANY DATA FIRST
-                                if (!include_projects && !include_blacklist && !include_settings)
+                                if (!include_projects && !include_blacklist && !include_inventory && !include_settings)
                                 {
                                     throw "No Data Has Been Provided!";
                                 }
 
                                 // BUILD DATA
-                                display_data("data-display", project_json, blacklist_json, settings_json);
+                                display_data("data-display", project_json, blacklist_json, inventory_json, settings_json);
 
                                 // DISPLAY CONTENT/IMPORT CONFIRMATION
                                 document.getElementById("confirmation-div").style.display = "block";
@@ -266,6 +271,10 @@
         if (blacklist_data !== undefined)
         {
             localStorage.setItem('blacklist', blacklist_data);
+        }
+        if (inventory_data !== undefined)
+        {
+            localStorage.setItem('inventory', inventory_data);
         }
         if (settings_data !== undefined)
         {

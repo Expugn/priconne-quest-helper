@@ -587,13 +587,11 @@ function set_settings_to_default()
 function reset_settings()
 {
     /* TODO UPDATE WHENEVER A NEW SETTING IS ADDED */
-    if (is_cookies_exist())
-    {
+    if (is_cookies_exist()) {
         // SET COOKIE VALUES
         set_values_from_cookie();
     }
-    else
-    {
+    else {
         // SET SYSTEM DEFAULTS
         set_settings_to_default();
     }
@@ -604,13 +602,14 @@ function reset_settings()
     check_checkbox(setting_element_id.HIDE_QUEST_SCORE, hide_quest_score);
     document.getElementById(setting_element_id.MIN_QUEST_CHAPTER).value = min_quest_chapter;
     document.getElementById(setting_element_id.MAX_QUEST_CHAPTER).value = max_quest_chapter;
-    if (auto_max_quest_chapter)
-    {
-        check_checkbox(setting_element_id.AUTO_MAX_QUEST_CHAPTER, auto_max_quest_chapter);
-        document.getElementById(setting_element_id.MAX_QUEST_CHAPTER).disabled = true;
+
+    check_checkbox(setting_element_id.AUTO_MAX_QUEST_CHAPTER, auto_max_quest_chapter);
+    document.getElementById(setting_element_id.MAX_QUEST_CHAPTER).disabled = auto_max_quest_chapter;
+    if (auto_max_quest_chapter) {
         document.getElementById(setting_element_id.MAX_QUEST_CHAPTER).value = max_quest_chapter_information;
         max_quest_chapter = max_quest_chapter_information;
     }
+
     if (quest_filter === quest_filter_settings.ALL)
     {
         check_checkbox(setting_element_id.QUEST_FILTER_ALL, true);

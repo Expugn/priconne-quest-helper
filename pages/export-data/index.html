@@ -90,27 +90,28 @@
     <div id="all-export-elements" style="display: none">
         <div id="export-settings" style="overflow-x: auto;">
             <h2 class='align-center'>Export Options</h2>
-            <table class="center">
-                <tbody>
-                <tr class="export">
-                    <th class="export"><label class="center" for="include-projects">Projects</label></th>
-                    <th class="export"><label class="center" for="include-blacklist">Blacklist</label></th>
-                    <th class="export"><label class="center" for="include-settings">Settings</label></th>
-                </tr>
-                <tr class="export">
-                    <td class="export"><input id="include-projects" type="checkbox" checked onchange="checked_checkbox()"></td>
-                    <td class="export"><input id="include-blacklist" type="checkbox" checked onchange="checked_checkbox()"></td>
-                    <td class="export"><input id="include-settings" type="checkbox" onchange="checked_checkbox()"></td>
-                </tr>
-                <tr class="export">
-                    <td class="export"></td>
-                    <td class="export">
-                        <button id="generate-url-button" type="button" class="align-center" onclick="generate_url()">Generate URL</button>
-                    </td>
-                    <td class="export"></td>
-                </tr>
-                </tbody>
-            </table>
+            <div class="center-div">
+                <div style="display: inline-block; padding: 0 15px;">
+                    <label style="display: block;" for="include-projects">Projects</label>
+                    <input id="include-projects" type="checkbox" checked onchange="checked_checkbox()">
+                </div>
+                <div style="display: inline-block; padding: 0 15px;">
+                    <label style="display: block;" for="include-blacklist">Blacklist</label>
+                    <input id="include-blacklist" type="checkbox" checked onchange="checked_checkbox()">
+                </div>
+                <div style="display: inline-block; padding: 0 15px;">
+                    <label style="display: block;" for="include-inventory">Inventory</label>
+                    <input id="include-inventory" type="checkbox" checked onchange="checked_checkbox()">
+                </div>
+                <div style="display: inline-block; padding: 0 15px;">
+                    <label style="display: block;" for="include-settings">Settings</label>
+                    <input id="include-settings" type="checkbox" onchange="checked_checkbox()">
+                </div>
+            </div>
+            <div class="center-div">
+                <button id="generate-url-button" type="button" class="align-center" onclick="generate_url()">Generate URL</button>
+            </div>
+            <br>
         </div>
 
         <div id="generated-links" style="display: none">
@@ -149,11 +150,13 @@
     let project_data;
     let priority_project_data;
     let blacklist_data;
+    let inventory_data;
     let settings_data;
 
     let project_json;
     let priority_project_json;
     let blacklist_json;
+    let inventory_json;
     let settings_json;
 
     let url;
@@ -229,11 +232,13 @@
             project_data = localStorage.getItem('projects');
             priority_project_data = localStorage.getItem('priority_projects');
             blacklist_data = localStorage.getItem('blacklist');
+            inventory_data = localStorage.getItem('inventory');
             settings_data = localStorage.getItem('settings');
 
             project_json = (project_data !== null ? JSON.parse(project_data) : "");
             priority_project_json = (priority_project_data !== null ? JSON.parse(priority_project_data) : "");
             blacklist_json = (blacklist_data !== null ? JSON.parse(blacklist_data) : "");
+            inventory_json = (inventory_data !== null ? JSON.parse(inventory_data) : "");
             settings_json = (settings_data !== null ? JSON.parse(settings_data) : "");
 
             sample_text += gist_seed_string + gist_number_of_users;
@@ -251,7 +256,7 @@
     {
         try
         {
-            display_data("data-display", project_json, blacklist_json, settings_json);
+            display_data("data-display", project_json, blacklist_json, inventory_json, settings_json);
 
             if (project_data === null)
             {
@@ -262,6 +267,11 @@
             {
                 document.getElementById("include-blacklist").checked = false;
                 document.getElementById("include-blacklist").disabled = true;
+            }
+            if (inventory_data === null)
+            {
+                document.getElementById("include-inventory").checked = false;
+                document.getElementById("include-inventory").disabled = true;
             }
             if (settings_data === null)
             {
@@ -285,6 +295,7 @@
         document.getElementById("generate-url-button").disabled = true;
         document.getElementById("include-projects").disabled = true;
         document.getElementById("include-blacklist").disabled = true;
+        document.getElementById("include-inventory").disabled = true;
         document.getElementById("include-settings").disabled = true;
         sample_text += gist_id_value + gist_color_code;
 
@@ -296,6 +307,7 @@
                 // DO STUFF
                 let include_projects = document.getElementById("include-projects").checked;
                 let include_blacklist = document.getElementById("include-blacklist").checked;
+                let include_inventory = document.getElementById("include-inventory").checked;
                 let include_settings = document.getElementById("include-settings").checked;
 
                 url = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/pages/import-data/?id=";
@@ -313,6 +325,8 @@
                 else if (project_data !== null) { document.getElementById("project-display").style.display = "none"; }
                 if (include_blacklist) { content_map["blacklist"] = localStorage.getItem('blacklist'); }
                 else if (blacklist_data !== null) { document.getElementById("blacklist-display").style.display = "none"; }
+                if (include_inventory) {content_map["inventory"] = localStorage.getItem('inventory');}
+                else if (inventory_data !== null) { /*document.getElementById("inventory-display").style.display = "none";*/ }
                 if (include_settings) { content_map["settings"] = localStorage.getItem('settings'); }
                 else if (settings_data !== null) { document.getElementById("settings-display").style.display = "none"; }
 
@@ -345,7 +359,7 @@
 
     function checked_checkbox()
     {
-        document.getElementById("generate-url-button").disabled = !(document.getElementById("include-projects").checked || document.getElementById("include-blacklist").checked || document.getElementById("include-settings").checked);
+        document.getElementById("generate-url-button").disabled = !(document.getElementById("include-projects").checked || document.getElementById("include-blacklist").checked || document.getElementById("include-inventory").checked || document.getElementById("include-settings").checked);
     }
 
     function onMessage(messageEvent)

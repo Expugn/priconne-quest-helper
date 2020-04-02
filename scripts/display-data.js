@@ -1,6 +1,6 @@
 // read-equipment-json.js NEEDS TO BE INCLUDED AND LOADED!
 
-function display_data(div_id, projects_json, blacklist_json, settings_json)
+function display_data(div_id, projects_json, blacklist_json, inventory_json, settings_json)
 {
     let div_element = document.getElementById(div_id);
     if (div_element)
@@ -8,9 +8,10 @@ function display_data(div_id, projects_json, blacklist_json, settings_json)
         // DIV ELEMENT EXISTS, DISPLAY INFORMATION NOW
         let projects_provided = projects_json !== "";
         let blacklist_provided = blacklist_json !== "";
+        let inventory_provided = inventory_json !== "";
         let settings_provided = settings_json !== "";
 
-        if (!projects_provided && !blacklist_provided && !settings_provided)
+        if (!projects_provided && !blacklist_provided && !inventory_provided && !settings_provided)
         {
             // !!ERROR!! NO DATA IS PROVIDED
             throw "No Data Available to Export!";
@@ -21,6 +22,7 @@ function display_data(div_id, projects_json, blacklist_json, settings_json)
 
             if (projects_provided) { div_html += build_project_display(projects_json); }
             if (blacklist_provided) { div_html += build_blacklist_display(blacklist_json); }
+            if (inventory_provided) { div_html += build_inventory_display(inventory_json); }
             if (settings_provided) { div_html += build_settings_display(settings_json); }
 
             div_element.innerHTML = div_html;
@@ -40,7 +42,7 @@ function build_project_display(project_json)
         project_map.set(project_name, JSON.parse(data_string_json));
     }
 
-    let project_display_HTML = "<div id=\"project-display\" style=\"overflow-x: auto\"><h1 class=\"align-center\">⸻ Projects ⸻</h1>";
+    let project_display_HTML = "<div id=\"project-display\" style=\"overflow-x: auto\"><h1 class=\"align-center\">\u2E3A Projects \u2E3A</h1>";
     project_display_HTML += "<h4 class=\"align-center item-count\">" + project_map.size + " project(s) found.</h4>";
 
     for (let [project_name, project_data] of project_map)
@@ -77,16 +79,6 @@ function build_project_display(project_json)
             }
 
             // ITEM IMAGE
-            /*
-            $.ajax({
-                url: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/images/items/" + item_name.split(' ').join('_') + ".png",
-                type: 'HEAD',
-                error: function ()
-                {
-                    data_failure();
-                }
-            });
-            */
             project_display_HTML += "<th>";
             project_display_HTML += "<img " +
                 "class=\"item\" " +
@@ -111,7 +103,7 @@ function build_blacklist_display(blacklist_json)
     // SAVE MAP JSON STRING AS ARRAY
     let blacklist_array = blacklist_json;
 
-    let blacklist_display_HTML = "<div id=\"blacklist-display\"><h1 class=\"align-center\">⸻ Blacklist ⸻</h1>";
+    let blacklist_display_HTML = "<div id=\"blacklist-display\"><h1 class=\"align-center\">\u2E3A Blacklist \u2E3A</h1>";
     blacklist_display_HTML += "<h4 class=\"align-center item-count\">" + blacklist_array.length + " blacklisted item(s) found.</h4><br>";
 
     // NEW TABLE + OPEN TBODY
@@ -142,17 +134,6 @@ function build_blacklist_display(blacklist_json)
         }
 
         // ITEM IMAGE
-        /*
-        $.ajax({
-            url: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/images/items/" + item_name.split(' ').join('_') + ".png",
-            type: 'HEAD',
-            error: function ()
-            {
-                data_failure();
-            }
-        });
-        */
-
         blacklist_display_HTML += "<th>";
         blacklist_display_HTML += "<img " +
             "class=\"item low-opacity\" " +
@@ -168,6 +149,17 @@ function build_blacklist_display(blacklist_json)
     return blacklist_display_HTML;
 }
 
+function build_inventory_display(inventory_json) {
+    let html = "<h1 class=\"align-center\">\u2E3A Inventory \u2E3A</h1><div class='center-div'>";
+    Object.keys(inventory_json.fragments).forEach(function (frag_name) {
+        html += "<div style='display: inline-block;'>" +
+            "<img class='item ' title=\"" + frag_name + "\" src=\"../../" + get_item_image_path(frag_name.split(' ').join('_')) + "\" alt=''>" +
+            "<div class='item-amount'>\u00D7" + inventory_json.fragments[frag_name] + "</div>" +
+            "</div>";
+    });
+    return html + "</div><br><hr>";
+}
+
 function build_settings_display(settings_json)
 {
     let saved_settings_map = settings_json;
@@ -180,14 +172,13 @@ function build_settings_display(settings_json)
         !saved_settings_map.hasOwnProperty("min_quest_chapter") ||
         !saved_settings_map.hasOwnProperty("max_quest_chapter") ||
         !saved_settings_map.hasOwnProperty("quest_filter") ||
-        !saved_settings_map.hasOwnProperty("item_amount_per_row") ||
         !(saved_settings_map.quest_filter === "filter-all" || saved_settings_map.quest_filter === "filter-normal" || saved_settings_map.quest_filter === "filter-hard"))
     {
         throw "Error Found in Settings Data!";
     }
     else
     {
-        let settings_display_HTML = "<div id=\"settings-display\"><h1 class=\"align-center\">⸻ Settings ⸻</h1>";
+        let settings_display_HTML = "<div id=\"settings-display\"><h1 class=\"align-center\">\u2E3A Settings \u2E3A</h1>";
         settings_display_HTML += "<table class='center'><tbody><tr><td>";
         settings_display_HTML += "<textarea rows='10' cols='37' disabled>";
 

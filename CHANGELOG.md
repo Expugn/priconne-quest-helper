@@ -3,6 +3,24 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.8.9] - 2020-04-01
+Save Data Purge #3: `524` / `720` Files Deleted
+### Added
+- Inventory can now be exported or imported via `Export Data`/`Import Data` functions
+### Removed
+- Revert `Revue Starlight: Re LIVE` Stuff (April Fools')
+  - Title Backgrounds can be changed again
+  - Title is no longer `Revue Starlight: Re LIVE - Quest Helper`
+  - Webpage Title is no longer `Revue Starlight: Re LIVE - Quest Helper | sutarira-quest-helper`
+  - Webpage Icon changed back to `Hatsune` from `Ichie Otonashi`
+  - `Ichie Otonashi` Title Background Image URL for `CUSTOM`: <br> 
+        **PNG:** `https://raw.githubusercontent.com/Expugn/priconne-quest-helper/93d9d84e80e2345d9c6c969568ae1a6e93fa7bc4/images/webpage/backgrounds/Ichie_Otonashi.png`<br>
+        **WEBP:** `https://raw.githubusercontent.com/Expugn/priconne-quest-helper/93d9d84e80e2345d9c6c969568ae1a6e93fa7bc4/images/webpage_webp/backgrounds/Ichie_Otonashi.webp`
+## Fixed 
+- Export Data would not work because of "Error Found in Settings Data"
+- Removed text decoration near ko-fi donation hyperlink because it showed a tiny blue line still
+- Fixed an issue where `Auto Max Quest Chapter` would not reset
+
 ## [1.8.8] - 2020-03-31
 ### Added
 - New Character: Yuni
@@ -35,8 +53,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - `ko.json`
     - `settings_tab.max`
     - `inventory`
-- Made a ko-fi page to sell myself out. I greatly appreciate any support given!
-  - <https://ko-fi.com/priconne_quest_helper>
+- Made a ko-fi page to sell myself out. I greatly appreciate any support given!<br>
+    [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E21KEV4)
 - New/Reworked Feature: Inventory
   - The long awaited and requested feature, lol.
   - **I consider the Inventory feature to be BETA ; More features may be added in the future.**
