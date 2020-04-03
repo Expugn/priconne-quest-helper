@@ -1,5 +1,6 @@
 let character_map = new Map();
 let character_loaded = false;
+let character_data_error;
 
 const character_data_version = Object.freeze({
     CURRENT: 'character-data-current',
@@ -78,6 +79,9 @@ function read_character_data(character_file_type, callback)
                     }
                     callback();
                 });
+            },
+            'error': function (e) {
+                character_data_error = e;
             }
         });
     });

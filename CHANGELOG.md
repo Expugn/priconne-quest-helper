@@ -3,6 +3,32 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.8.10] - 2020-04-02
+### Added
+- New fancy loading screen
+  - When using `Fancy Mode`, this loading screen replaces the "loading" toast
+  - Miyako will run or die depending on site load status
+### Changed
+- Friendship ended with Hatsune, now Miyako is my best friend
+  - <img src="https://raw.githubusercontent.com/wiki/Expugn/priconne-quest-helper/images/readme/meme_1.png" alt="" width="300">
+  - Miyako now takes the role of site mascot since Hatsune art wasn't used much compared to Miyako's usage
+- Attempting to reduce the amount of DOM elements used to increase site speed
+  - Removed `<hr>` usage on main page ; categories are now divided by margins
+  - Unused DOM elements are now deleted if no longer needed
+- `Javascript Not Enabled` modified to include Miyako from the loading screen
+- The webpage will lock you out if the following cannot be done:
+  - Complete setup within `180` attempts (about `3` minutes)
+  - `data/character_data.json` failed to load
+  - `data/equipment_data.json` failed to load
+  - `data/quest_data.json` failed to load
+  - **NO IDEA HOW THIS WILL EFFECT PEOPLE AWAY FROM GITHUB'S SERVERS WHO HAVE SLOW LOAD SPEEDS ; REPORT YOUR ISSUES TO ME IF YOU HAVE PROBLEMS**
+- Due to the removal of `<hr>`, `Simple Mode` categories now have a dark tint for a background if needed
+- Title Background Default: `FRIENDSHIP CLUB` -> `MIYAKO`
+  - To celebrate Miyako's promotion to mascot
+### Removed
+- Removed some script files and moved their contents to wherever needs them
+- Removed update progress screen since it's no longer used
+
 ## [1.8.9] - 2020-04-01
 Save Data Purge #3: `524` / `720` Files Deleted
 ### Added

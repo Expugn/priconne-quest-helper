@@ -1,5 +1,6 @@
 let quest_map = new Map();
 let quest_loaded = false;
+let quest_data_error;
 
 // INITIALIZED IN read_quest_data()
 let max_quest_chapter_information = 0;
@@ -44,6 +45,9 @@ function read_quest_data(callback)
                 ).then(function () {
                     callback();
                 });
+            },
+            'error': function (e) {
+                quest_data_error = e;
             }
         });
     });

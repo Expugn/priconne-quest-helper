@@ -40,7 +40,10 @@ function load_language()
     let lang = document.getElementById("language-option").value;
 
     // PUT TOAST WARNING (IN CASE PEOPLE DON'T REALIZE IT'S LOADING)
-    toastr.warning("Loading " + lang + ".json", "Language Change", { timeOut:1000 });
+    const show_toast = (document.getElementById("miyako") === null) || $("body").hasClass("simple-body");
+    if (show_toast) {
+        toastr.warning("Loading " + lang + ".json", "Language Change", { timeOut:1000 });
+    }
 
     // IF LANGUAGE SELECTED IS DIFFERENT FROM CURRENT LANGUAGE
     if (lang !== current_language)
@@ -147,9 +150,6 @@ function change_language()
     {
         document.getElementById("translator-footer").innerHTML = "";
     }
-
-    // UPDATE UPDATE PROGRESS
-    refresh_quest_update_language();
 
     // UPDATE EQUIPMENT DATA TYPE SETTING CHOICES
     document.getElementById("equipment-data-type-current-option").innerHTML = language_json["settings_tab"]["equipment_data_current_select"];

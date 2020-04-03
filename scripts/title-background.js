@@ -18,7 +18,7 @@ const backgrounds = Object.freeze({
     CUSTOM: 'CUSTOM',
 });
 
-const default_background = backgrounds.FRIENDSHIP_CLUB;
+const default_background = backgrounds.MIYAKO;
 
 function init_background_select()
 {

@@ -90,7 +90,6 @@ lerna-debug.log
 .DS_Store
 Thumbs.db
 
-# Private Information Files
+# Private Files
 project_files/
-pages/dev/index.html
-pages/dev/test.css
+pages/dev/

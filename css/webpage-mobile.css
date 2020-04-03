@@ -1,3 +1,16 @@
+/* LOADING COVER ==================================================================================================== */
+body.fancy-body #miyako {
+    top: 30% !important;
+}
+
+body.fancy-body #miyako.run.end {
+    animation: run 750ms steps(19) infinite, end_move 2500ms forwards !important;
+}
+
+body.fancy-body #loading-text.end {
+    animation: end_move 2500ms forwards !important;
+}
+
 /* GENERAL ========================================================================================================== */
 .main_title {
     font-size: 4.75vw;

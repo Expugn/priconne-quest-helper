@@ -44,6 +44,10 @@
     <meta name="twitter:title" content="Princess Connect! Re:Dive - Quest Helper | priconne-quest-helper"/>
     <meta name="twitter:description" content="Quest Choosing Assistance and Project Management for the Game 'Princess Connect! Re:Dive' （プリンセスコネクト! Re:Dive）."/>
 
+    <!-- PRELOAD -->
+    <link rel="preload" href="images/webpage/spritesheets/miyako.png" as="image">
+    <link rel="preload" href="images/webpage/adv_mask_C.png" as="image">
+
     <!-- SCRIPTS -->
     <script src="vendor/jquery/jquery-3.4.1.min.js"></script>
     <script src="vendor/toastr/toastr.min.js"></script>
@@ -54,10 +58,7 @@
     <script src="scripts/read-quest-json.js"></script>
     <script src="scripts/read-character-json.js"></script>
     <script src="scripts/settings.js"></script>
-
     <script src="scripts/inventory.js"></script>
-
-    <script src="scripts/sort-options.js"></script>
     <script src="scripts/build-item-table.js"></script>
     <script src="scripts/character-presets.js"></script>
     <script src="scripts/recipe-reader.js"></script>
@@ -78,23 +79,41 @@
     <link rel="stylesheet" media="only screen and (max-device-width: 400px)" href="css/webpage-mobile.css">
     <link rel="stylesheet" href="css/webpage.css">
     <link rel="stylesheet" href="css/spritesheet.css">
-
 </head>
 
 <body class="fancy-body">
+<div id="page-loading">
+    <div id="page-cover"></div>
+    <img id="miyako" src alt=""/>
+    <div id="loading-text">loading priconne-quest-helper...</div>
+    <script>
+        // MAKE MIYAKO RUN
+        setTimeout(function () {
+            document.getElementById("miyako").classList.add("run");
+        }, 750);
+    </script>
+</div>
+
 <noscript>
     <style type="text/css">
-        div {display: none;}
+        div:not(#page-loading) {display: none;}
         hr {display: none;}
         footer {display: none;}
+        #miyako { left: 51%; top: 30% !important; background: url("images/webpage/spritesheets/miyako_death.png") !important; animation: death 1250ms steps(18) forwards; }
+        @media (max-width: 650px) {
+            #javascript-warning {
+                top: 65% !important;
+                width: 80%;
+            }
+        }
     </style>
-    <h1 style="color: white; font-family: 'Trebuchet MS', Arial, serif; text-align:center; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); text-shadow: 1px 1px 3px #000000, 1px 1px 4px #000000;">
+    <h4 id="javascript-warning" style="color: white; font-family: 'Trebuchet MS', Arial, serif; text-align:center; position: fixed; top: 55%; left: 50%; transform: translate(-50%, -50%); text-shadow: 1px 1px 3px #000000, 1px 1px 4px #000000; z-index: 4; background: rgba(0, 0, 0, 0.30); padding: 10px 30px; border-radius: 6px;">
         <span style="color: orangered;">JavaScript is disabled!</span>
-        <br><br>
+        <br>
         <span style="color: #e3cfcb;">priconne-quest-helper</span> cannot function without JavaScript.
-        <br><br>
+        <br>
         <span style="color: #ffdf73;">Please enable JavaScript to continue!</span>
-    </h1>
+    </h4>
 </noscript>
 
 <!-- TITLE ( PRINCESS CONNECT RE:DIVE - QUEST HELPER ) -->
@@ -114,47 +133,43 @@
 </div>
 
 <!-- NAVIGATION BAR -->
-<div class="navigation-bar">
+<div id="navigation-bar">
     <button id="navigation-items" class="is-open" type="button" onclick="open_items()">
-        <img class="navigation-bar-image ss_navigation-button" src="" alt="">
+        <img class="navigation-bar-image ss_navigation-button" src alt="">
         <span class="navigation-bar-text" translate_text="items_tab.tab_title">
             Items
         </span>
     </button>
     <button id="navigation-presets" type="button" onclick="open_presets()">
-        <img class="navigation-bar-image ss_navigation-button" src="" alt="">
+        <img class="navigation-bar-image ss_navigation-button" src alt=""/>
         <span class="navigation-bar-text" translate_text="presets_tab.tab_title">
             Presets
         </span>
     </button>
     <button id="navigation-projects" type="button" onclick="open_projects()">
-        <img class="navigation-bar-image ss_navigation-button" src="" alt="">
+        <img class="navigation-bar-image ss_navigation-button" src alt="">
         <span class="navigation-bar-text" translate_text="projects_tab.tab_title">
             Projects
         </span>
     </button>
     <button id="navigation-settings" type="button" onclick="open_settings()">
-        <img class="navigation-bar-image ss_navigation-button" src="" alt="">
+        <img class="navigation-bar-image ss_navigation-button" src alt="">
         <span class="navigation-bar-text" translate_text="settings_tab.tab_title">
             Settings
         </span>
     </button>
     <button id="navigation-other" type="button" onclick="open_other()">
-        <img class="navigation-bar-image ss_navigation-button" src="" alt="">
+        <img class="navigation-bar-image ss_navigation-button" src alt="">
         <span class="navigation-bar-text" translate_text="other_tab.tab_title">
             Other
         </span>
-        <img id="update-notification-img" class="use-webp" image_folder="webpage" file_name="Notification_Icon" src_prefix="" src="" alt="">
     </button>
-    <label for="language-option" hidden>Language Option</label>
     <select id="language-option" onchange="load_language()" disabled>
         <option value="en">English</option>
         <option value="ja">日本語</option>
         <option value="ko">한국어</option>
     </select>
 </div>
-
-<hr>
 
 <!-- ITEMS TAB -->
 <div id="items-container">
@@ -168,8 +183,6 @@
         </div>
     </div>
 
-    <hr>
-
     <div id="copper-div">
         <h2 class="text-color_copper rarity-button collapsible">
             <span translate_text="items_tab.copper_title">Copper</span>
@@ -179,7 +192,6 @@
             <div id="copper-item-table" class="center-div item-table_div"></div>
         </div>
     </div>
-    <hr>
 
     <div id="silver-div">
         <h2 class="text-color_silver rarity-button collapsible">
@@ -191,8 +203,6 @@
         </div>
     </div>
 
-    <hr>
-
     <div id="gold-div">
         <h2 class="text-color_gold rarity-button collapsible">
             <span translate_text="items_tab.gold_title">Gold</span>
@@ -202,8 +212,6 @@
             <div id="gold-item-table" class="center-div item-table_div"></div>
         </div>
     </div>
-
-    <hr>
 
     <div id="purple-div">
         <h2 class="text-color_purple rarity-button collapsible">
@@ -215,8 +223,6 @@
         </div>
     </div>
 
-    <hr>
-
     <div id="misc-div">
         <h2 class="text-color_misc rarity-button collapsible">
             <span translate_text="items_tab.miscellaneous_title">Misc.</span>
@@ -226,8 +232,6 @@
             <div id="misc-item-table" class="center-div item-table_div"></div>
         </div>
     </div>
-
-    <hr>
 
     <div id="requested-div">
         <h2 class="item-table_category-title">
@@ -264,17 +268,15 @@
             </div>
             <!-- SELECT LIST OF CHARACTERS FOUND IN data/character_data.json -->
             <div class="center-div">
-                <label>
-                    <select id="character-preset-list-select" onchange="update_selected_character_preset_details()"></select>
-                    <button id="preset-search-button" onclick="toggle_preset_grid_display();">
-                        <img id="preset-lens-image" class="use-webp" image_folder="webpage" file_name="lens" src_prefix="" src="" alt="">
-                    </button>
-                </label>
+                <select id="character-preset-list-select" onchange="update_selected_character_preset_details()"></select>
+                <button id="preset-search-button" onclick="toggle_preset_grid_display();">
+                    <img id="preset-lens-image" class="use-webp" image_folder="webpage" file_name="lens" src_prefix="" src alt="">
+                </button>
             </div>
             <br>
             <!-- SELECTED CHARACTER IMAGE AND NAME -->
             <div class="center-div">
-                <img id="preset-character-image" class="use-webp presets_unit-icon" image_folder="unit_icon" file_name="Placeholder" src_prefix="" src="" alt=""><br>
+                <img id="preset-character-image" class="use-webp presets_unit-icon" image_folder="unit_icon" file_name="Placeholder" src_prefix="" src alt=""><br>
                 <label id="preset-character-name-label" class="presets_unit-info priconne-font"></label>
             </div>
             <div id="preset-bulk-settings">
@@ -282,7 +284,6 @@
                 <div class="center-div text-overflow_auto">
                     <div style="display: inline-block; width: 25%; font-weight: bold;">
                         <label class="category-title"><span translate_text="presets_tab.minimum_rank">Min Rank</span></label><br>
-                        <label for="preset-character-min-rank-input" hidden></label>
                         <input
                                 id="preset-character-min-rank-input"
                                 class="item-input"
@@ -296,7 +297,6 @@
                     <label class="category-title" style="padding-left: 25px; padding-right: 25px; font-weight: bold;"><span translate_text="presets_tab.to">to</span></label>
                     <div style="display: inline-block; width: 25%; font-weight: bold;">
                         <label class="category-title"><span translate_text="presets_tab.maximum_rank">Max Rank</span></label><br>
-                        <label for="preset-character-max-rank-input" hidden></label>
                         <input
                                 id="preset-character-max-rank-input"
                                 class="item-input"
@@ -327,41 +327,40 @@
                 <div id="preset-items-div" class="center-div grayscale">
                     <div>
                         <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-1').title);">
-                            <img id="preset-item-1" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
-                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                            <img id="preset-item-1" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src alt="">
+                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src alt="">
                         </button>
                         <span class="preset-item-button-padding"></span>
                         <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-2').title);">
-                            <img id="preset-item-2" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
-                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                            <img id="preset-item-2" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src alt="">
+                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src alt="">
                         </button>
                     </div>
                     <div>
                         <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-3').title);">
-                            <img id="preset-item-3" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
-                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                            <img id="preset-item-3" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src alt="">
+                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src alt="">
                         </button>
                         <span class="preset-item-button-padding"></span>
                         <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-4').title);">
-                            <img id="preset-item-4" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
-                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                            <img id="preset-item-4" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src alt="">
+                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src alt="">
                         </button>
                     </div>
                     <div>
                         <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-5').title);">
-                            <img id="preset-item-5" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
-                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                            <img id="preset-item-5" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src alt="">
+                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src alt="">
                         </button>
                         <span class="preset-item-button-padding"></span>
                         <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-6').title);">
-                            <img id="preset-item-6" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src="" alt="">
-                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                            <img id="preset-item-6" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src alt="">
+                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src alt="">
                         </button>
                     </div>
                 </div>
                 <div id="preset-item-settings" class="center-div">
                     <span id="preset-items-rank-label" class="grayscale text-color_common" onclick="open_preset_rank_dropdown()">Rank 1</span>
-                    <label for="preset-items-rank-select" hidden></label>
                     <select id="preset-items-rank-select" onchange="close_preset_rank_dropdown()" hidden></select>
                     <br><br>
                     <div id="preset-items-rank-buttons">
@@ -389,8 +388,8 @@
 
 <!-- PROJECTS TAB -->
 <div id="projects-container" hidden>
-    <!-- LOCAL STORAGE WARNING ; DISPLAYS IF LOCAL STORAGE ISN'T AVAILABLE -->
     <div id="local-storage-warning" hidden>
+        <!-- LOCAL STORAGE WARNING ; DISPLAYS IF LOCAL STORAGE ISN'T AVAILABLE -->
         <br>
         <table class="center-table">
             <tr><th>
@@ -588,19 +587,19 @@
             <span translate_text="settings_tab.ignore_item_rarity_in_recipe">Ignore Item Rarity in Recipe:</span>
         </label><br>
         <button id="ignore-button-common" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('common')">
-            <img class="item-button-image use-webp" title="Ignore Common Items" image_folder="webpage" file_name="Placeholder_Common" src_prefix="" src="" alt="">
+            <img class="item-button-image use-webp" title="Ignore Common Items" image_folder="webpage" file_name="Placeholder_Common" src_prefix="" src alt="">
         </button>
         <button id="ignore-button-copper" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('copper')">
-            <img class="item-button-image use-webp" title="Ignore Copper Items" image_folder="webpage" file_name="Placeholder_Copper" src_prefix="" src="" alt="">
+            <img class="item-button-image use-webp" title="Ignore Copper Items" image_folder="webpage" file_name="Placeholder_Copper" src_prefix="" src alt="">
         </button>
         <button id="ignore-button-silver" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('silver')">
-            <img class="item-button-image use-webp" title="Ignore Silver Items" image_folder="webpage" file_name="Placeholder_Silver" src_prefix="" src="" alt="">
+            <img class="item-button-image use-webp" title="Ignore Silver Items" image_folder="webpage" file_name="Placeholder_Silver" src_prefix="" src alt="">
         </button>
         <button id="ignore-button-gold" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('gold')">
-            <img class="item-button-image use-webp" title="Ignore Gold Items" image_folder="webpage" file_name="Placeholder_Gold" src_prefix="" src="" alt="">
+            <img class="item-button-image use-webp" title="Ignore Gold Items" image_folder="webpage" file_name="Placeholder_Gold" src_prefix="" src alt="">
         </button>
         <button id="ignore-button-purple" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('purple')">
-            <img class="item-button-image use-webp" title="Ignore Purple Items" image_folder="webpage" file_name="Placeholder_Purple" src_prefix="" src="" alt="">
+            <img class="item-button-image use-webp" title="Ignore Purple Items" image_folder="webpage" file_name="Placeholder_Purple" src_prefix="" src alt="">
         </button>
 
         <br><br>
@@ -659,71 +658,6 @@
 
 <!-- OTHER TAB -->
 <div id="other-container" hidden>
-    <!-- UPDATE IN PROGRESS STATUS -->
-    <div id="update-div" class="use-webp">
-        <h2 class="category-title">
-            <span translate_text="other_tab.update_in_progress">Update in Progress!</span><br><span id="update-name"></span>
-        </h2>
-        <table class="center-table">
-            <tbody>
-                <!-- QUEST DATA -->
-                <tr><td>
-                        <h3 class="category-title">
-                            <img class="use-webp update-book-img" image_folder="webpage" file_name="album_2" src_prefix="" src="" alt="">
-                            <span translate_text="other_tab.quest_data">Quest Data</span>
-                        </h3>
-                        <label id="update-normal-quests-label" class="category-title">
-                            <span translate_text="other_tab.normal_quests">Normal Quests</span>
-                        </label><br>
-                        <label id="update-hard-quests-label" class="category-title">
-                            <span translate_text="other_tab.hard_quests">Hard Quests</span>
-                        </label>
-                    </td>
-                    <td>
-                        <img id="update-quest-data-check" class="use-webp update-checkmark" image_folder="webpage" file_name="Checkmark" src_prefix="" src="" alt="" hidden>
-                    </td>
-                </tr>
-
-                <!-- EQUIPMENT DATA -->
-                <tr>
-                    <td>
-                        <h3 class="category-title">
-                            <img class="use-webp update-book-img" image_folder="webpage" file_name="album_1" src_prefix="" src="" alt="">
-                            <span translate_text="other_tab.equipment_data">Equipment Data</span>
-                        </h3>
-                        <label id="update-equipment-selection-label" class="category-title">
-                            <span translate_text="other_tab.equipment_selection">Equipment Selection</span>
-                        </label><br>
-                        <label id="update-en-tl-names-label" class="category-title">
-                            <span translate_text="other_tab.en_translated_names">English Translated Names</span>
-                        </label>
-                    </td>
-                    <td>
-                        <img id="update-equipment-data-check" class="use-webp update-checkmark" image_folder="webpage" file_name="Checkmark" src_prefix="" src="" alt="" hidden>
-                    </td>
-                </tr>
-
-                <!-- CHARACTER DATA -->
-                <tr>
-                    <td>
-                        <h3 class="category-title">
-                            <img class="use-webp update-book-img" image_folder="webpage" file_name="album_4" src_prefix="" src="" alt="">
-                            <span translate_text="other_tab.character_data">Character Data</span>
-                        </h3>
-                        <label id="update-rank-equip-label" class="category-title">
-                            <span translate_text="other_tab.updated_rank_equipment">Updated Rank Equipment</span>
-                        </label>
-                    </td>
-                    <td>
-                        <img id="update-character-data-check" class="use-webp update-checkmark" image_folder="webpage" file_name="Checkmark" src_prefix="" src="" alt="" hidden>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <br>
-    </div>
-
-    <!-- OTHER CONTENT -->
     <div id="data-div">
         <!-- OTHER PAGE HYPERLINKS -->
         <h4>
@@ -733,7 +667,7 @@
         <!-- pages/quest-data/ -->
         <a href="pages/quest-data/" target="_blank" style="text-decoration: none;">
             <div id="hyperlink_quest-data" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src="" alt="">
+                <img class="ss_hyperlink-button" src alt="">
                 <span class="hyperlink-text" translate_text="other_tab.quest_data">Quest Data</span>
             </div>
         </a>
@@ -741,7 +675,7 @@
         <!-- pages/recipe-data/ -->
         <a href="pages/recipe-data/" target="_blank" style="text-decoration: none;">
             <div id="hyperlink_recipe-data" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src="" alt="">
+                <img class="ss_hyperlink-button" src alt="">
                 <span class="hyperlink-text" translate_text="other_tab.recipe_data">Recipe Data</span>
             </div>
         </a><br>
@@ -749,7 +683,7 @@
         <!-- pages/character-data/ -->
         <a href="pages/character-data/" target="_blank" style="text-decoration: none;">
             <div id="hyperlink_character-data" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src="" alt="">
+                <img class="ss_hyperlink-button" src alt="">
                 <span class="hyperlink-text" translate_text="other_tab.character_data">Character Data</span>
             </div>
         </a>
@@ -757,7 +691,7 @@
         <!-- pages/statistics/ -->
         <a href="pages/statistics/" target="_blank" style="text-decoration: none;">
             <div id="hyperlink_statistics" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src="" alt="">
+                <img class="ss_hyperlink-button" src alt="">
                 <span class="hyperlink-text" translate_text="other_tab.statistics">Statistics</span>
             </div>
         </a><br>
@@ -765,7 +699,7 @@
         <!-- GITHUB -->
         <a href="https://github.com/Expugn/priconne-quest-helper" target="_blank" style="text-decoration: none;">
             <div id="hyperlink_github" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src="" alt="">
+                <img class="ss_hyperlink-button" src alt="">
                 <span id="hyperlink_github-text" class="hyperlink-text" translate_text="other_tab.github">GitHub</span>
             </div>
         </a>
@@ -773,7 +707,7 @@
         <!-- CHANGELOG -->
         <a href="https://github.com/Expugn/priconne-quest-helper/blob/master/CHANGELOG.md" target="_blank" style="text-decoration: none;">
             <div id="hyperlink_changelog" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src="" alt="">
+                <img class="ss_hyperlink-button" src alt="">
                 <span class="hyperlink-text" translate_text="other_tab.changelog">Changelog</span>
             </div>
         </a><br>
@@ -781,21 +715,21 @@
         <!-- WIKI -->
         <a href="https://github.com/Expugn/priconne-quest-helper/wiki" target="_blank" style="text-decoration: none;">
             <div id="hyperlink_wiki" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src="" alt="">
+                <img class="ss_hyperlink-button" src alt="">
                 <span class="hyperlink-text" translate_text="other_tab.help">Help (Wiki)</span>
             </div>
         </a>
 
         <!-- SIMPLE MODE / FANCY MODE | ONE LINK HIDDEN DEPENDING ON THE CURRENT MODE -->
-        <a id="simple-page-link" href="../priconne-quest-helper/#simple" onclick="window.location.hash = '#simple'; window.location.reload();" style="text-decoration: none; display: none;">
+        <a id="simple-page-link" href="../priconne-quest-helper/#simple" onclick="window.location.hash = '#simple'; window.location.reload();" style="text-decoration: none; display: inline;">
             <div id="hyperlink_simple-mode" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src="" alt="">
+                <img class="ss_hyperlink-button" src alt="">
                 <span class="hyperlink-text" translate_text="other_tab.simple_mode">Simple Mode</span>
             </div>
         </a>
-        <a id="fancy-page-link" href="../priconne-quest-helper/" onclick="window.location.hash = ''; window.location.reload();" style="text-decoration: none; display: none;">
+        <a id="fancy-page-link" href="../priconne-quest-helper/" onclick="window.location.hash = ''; window.location.reload();" style="text-decoration: none; display: inline;">
             <div id="hyperlink_fancy-mode" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src="" alt="">
+                <img class="ss_hyperlink-button" src alt="">
                 <span class="hyperlink-text" translate_text="other_tab.fancy_mode">Fancy Mode</span>
             </div>
         </a><br>
@@ -834,7 +768,6 @@
         <h4>
             <span translate_text="other_tab.title_background_title">Title Background</span>
         </h4>
-        <label for="title-background-select" hidden>Title Background</label>
         <select id="title-background-select" onchange="change_background()"></select><br>
         <div id="custom-title-input" hidden>
             <label for="custom-title-url-input"><span translate_text="other_tab.custom_title_background_url">Image URL: </span></label>
@@ -843,15 +776,13 @@
     </div>
 </div>
 
-<hr>
-
 <!-- REQUIRED INGREDIENTS (EQUIPMENT FRAGMENTS) -->
 <div id="required-div">
     <h2 class="item-table_category-title">
         <span translate_text="system.required_ingredients_title">Required Ingredients</span>
     </h2>
     <button id="inventory_open-button" onclick="toggle_inventory_modal()" hidden>
-        <img id="inventory_crate-img" class="use-webp" image_folder="webpage" file_name="Inventory_Crate" src_prefix="" src="" alt="">
+        <img id="inventory_crate-img" class="use-webp" image_folder="webpage" file_name="Inventory_Crate" src_prefix="" src alt="">
     </button>
     <div class="request-info">
         <!-- REQUIRED INGREDIENTS FROM REQUESTED ITEMS DISPLAYED BELOW -->
@@ -873,8 +804,6 @@
         </div>
     </div>
 </div>
-
-<hr>
 
 <!-- RECOMMENDED QUESTS -->
 <div id="recommended-div">
@@ -904,15 +833,13 @@
 </div>
 </body>
 
-<hr>
-
 <footer>
     <!-- AUTHOR CREDITS -->
     <p class="footer">
         <span translate_text="system.made_with_love" class="notranslate">
             Made With <span style="color:#ff4d4d">❤</span> By S'pugn
         </span>
-        <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="" src="" alt="">
+        <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="" src alt="">
     </p>
 
     <!-- TRANSLATOR CREDITS (APPEARS ONLY ON NON-ENGLISH LANGUAGES) -->
@@ -930,8 +857,8 @@
 
 <!-- FOCUSED ITEM POPUP -->
 <div id="focused-item-popup" hidden>
-    <img id="focused-item-image" src="" alt=""><br>
-    <img id="lens-image" class="use-webp" image_folder="webpage" file_name="lens" src_prefix="" src="" alt="">
+    <img id="focused-item-image" src alt=""><br>
+    <img id="lens-image" class="use-webp" image_folder="webpage" file_name="lens" src_prefix="" src alt="">
 </div>
 
 <!-- INVENTORY MODAL -->
@@ -944,19 +871,19 @@
             <span id="inventory_title" translate_text="inventory.title">Inventory</span>
             <div style="display: inline-block;">
                 <button id="inventory_toolbar-button_list" class="inventory_modal_toolbar-button is-open" onclick="inventory_switch_mode(inventory_mode.LIST);">
-                    <img class="inventory_modal_toolbar-button-img use-webp" image_folder="webpage" file_name="Inventory_Crate" src_prefix="" src="" alt="">
+                    <img class="inventory_modal_toolbar-button-img use-webp" image_folder="webpage" file_name="Inventory_Crate" src_prefix="" src alt="">
                 </button>
                 <button id="inventory_toolbar-button_add" class="inventory_modal_toolbar-button" onclick="inventory_switch_mode(inventory_mode.ADD);">
-                    <img class="inventory_modal_toolbar-button-img use-webp" image_folder="webpage" file_name="Inventory_Crate" src_prefix="" src="" alt="">
-                    <img id="inventory_modal_toolbar-button-plus-img" class="use-webp" image_folder="webpage" file_name="plus" src_prefix="" src="" alt="">
+                    <img class="inventory_modal_toolbar-button-img use-webp" image_folder="webpage" file_name="Inventory_Crate" src_prefix="" src alt="">
+                    <img id="inventory_modal_toolbar-button-plus-img" class="use-webp" image_folder="webpage" file_name="plus" src_prefix="" src alt="">
                 </button>
                 <button id="inventory_toolbar-button_remove" class="inventory_modal_toolbar-button" onclick="inventory_switch_mode(inventory_mode.REMOVE);">
-                    <img class="inventory_modal_toolbar-button-img use-webp" image_folder="webpage" file_name="Inventory_Crate" src_prefix="" src="" alt="">
-                    <img id="inventory_modal_toolbar-button-remove-img" class="use-webp" image_folder="webpage" file_name="minus" src_prefix="" src="" alt="">
+                    <img class="inventory_modal_toolbar-button-img use-webp" image_folder="webpage" file_name="Inventory_Crate" src_prefix="" src alt="">
+                    <img id="inventory_modal_toolbar-button-remove-img" class="use-webp" image_folder="webpage" file_name="minus" src_prefix="" src alt="">
                 </button>
                 <button id="inventory_toolbar-button_delete" class="inventory_modal_toolbar-button" onclick="inventory_delete_all_button()">
-                    <img class="inventory_modal_toolbar-button-img use-webp" image_folder="webpage" file_name="Inventory_Crate" src_prefix="" src="" alt="">
-                    <img id="inventory_modal_toolbar-button-delete-img" class="use-webp" image_folder="webpage" file_name="red_x" src_prefix="" src="" alt="">
+                    <img class="inventory_modal_toolbar-button-img use-webp" image_folder="webpage" file_name="Inventory_Crate" src_prefix="" src alt="">
+                    <img id="inventory_modal_toolbar-button-delete-img" class="use-webp" image_folder="webpage" file_name="red_x" src_prefix="" src alt="">
                 </button>
             </div>
         </div>
@@ -965,15 +892,15 @@
         <div id="inventory_catalog" class="center-div" hidden></div>
         <div id="inventory_catalog-add-prompt" class="center-div" hidden>
             <div id="inventory_add-prompt_options" style="margin-top: 30px; margin-bottom: 10px;">
-                <img id="inventory_add-prompt_fragment-option" style="cursor:pointer; display:inline-block; width: 48px; margin-right: 50px;" src="" alt="" onclick="inventory_catalog_add_option_toggle(this)">
-                <img id="inventory_add-prompt_equipment-option" style="cursor: pointer; width: 48px;" src="" alt="" onclick="inventory_catalog_add_option_toggle(this)">
+                <img id="inventory_add-prompt_fragment-option" style="cursor:pointer; display:inline-block; width: 48px; margin-right: 50px;" src alt="" onclick="inventory_catalog_add_option_toggle(this)">
+                <img id="inventory_add-prompt_equipment-option" style="cursor: pointer; width: 48px;" src alt="" onclick="inventory_catalog_add_option_toggle(this)">
             </div>
             <div style="background: rgba(0, 0, 0, 0.50); border-radius: 7px;">
                 <div id="inventory_catalog_add-fragment">
-                    <img id="inventory_add-fragment_main" class="inventory_catalog_add_main-item" src="" alt="">
+                    <img id="inventory_add-fragment_main" class="inventory_catalog_add_main-item" src alt="">
                 </div>
                 <div id="inventory_catalog_add-equipment">
-                    <img id="inventory_add-equipment_main" class="inventory_catalog_add_main-item" src="" alt="">
+                    <img id="inventory_add-equipment_main" class="inventory_catalog_add_main-item" src alt="">
                     <div id="inventory_catalog_add-equipment_arrow">&darr;</div>
                     <div id="inventory_catalog_add-equipment_sub-items"></div>
                 </div>
@@ -994,32 +921,74 @@
     </div>
 </div>
 
-<!-- RUN JAVASCRIPT -->
-<script>
+<script id="startup">
+    toggle_simple_mode();
     loadingToast();
 
-    toggle_simple_mode();
     init_settings();
     setToastrOptions();
 
     window.onload = function () {
         init_webp();
         init_images();
+
         add_update_date_to_footer();
 
         init_background_select();
         init_background();
 
         // MAKE SURE CHARACTER, EQUIPMENT, AND QUEST DATA ARE LOADED
-        setup();
+        setup(0);
 
-        function setup()
+        function setup(run_count)
         {
+            // RUN MAX 180 TIMES ; SHOULD BE ABOUT 3 MINUTES
+            const MAX_SETUP_ATTEMPTS = 180;
+
             if (!character_loaded || !equipment_loaded || !quest_loaded)
             {
-                setTimeout(function () {
-                    setup();
-                }, 1000);
+                if (run_count >= MAX_SETUP_ATTEMPTS || character_data_error !== undefined ||
+                    equipment_data_error !== undefined || quest_data_error !== undefined) {
+                    let is_simple = $("body").hasClass("simple-body");
+                    document.getElementById("miyako").classList.add("death");
+                    if (is_simple) {
+                        toastr.remove();
+                        document.getElementById("page-cover").classList.add("failed");
+                        document.getElementById("page-loading").style.visibility = "visible";
+                        document.getElementById("miyako").style.visibility = "hidden";
+                        document.getElementById("loading-text").style.visibility = "hidden";
+                    }
+
+                    if (run_count >= MAX_SETUP_ATTEMPTS) {
+                        if (is_simple) {
+                            toastr.error("Load timed out", "Failure", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
+                        }
+                        document.getElementById("loading-text").innerHTML = "<span class='heart-red'>load timed out</span>";
+                    }
+                    else if (character_data_error !== undefined) {
+                        if (is_simple) {
+                            toastr.error("Failed to load character data", "Failure", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
+                        }
+                        document.getElementById("loading-text").innerHTML = "<span class='heart-red'>failed to load character data</span>";
+                    }
+                    else if (equipment_data_error !== undefined) {
+                        if (is_simple) {
+                            toastr.error("Failed to load equipment data", "Failure", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
+                        }
+                        document.getElementById("loading-text").innerHTML = "<span class='heart-red'>failed to load equipment data</span>";
+                    }
+                    else if (quest_data_error !== undefined) {
+                        if (is_simple) {
+                            toastr.error("Failed to load quest data", "Failure", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
+                        }
+                        document.getElementById("loading-text").innerHTML = "<span class='heart-red'>failed to load quest data</span>";
+                    }
+                }
+                else {
+                    setTimeout(function () {
+                        setup(++run_count);
+                    }, 1000);
+                }
             }
             else
             {
@@ -1042,32 +1011,56 @@
                 build_item_tables();
                 init_blacklist();
                 init_inventory();
+                document.getElementById("inventory_open-button").hidden = false;
                 init_project_data();
                 build_character_preset_list();
-                update_progress();
 
                 // CHANGE EQUIPMENT DATA TO LEGACY IF NEEDED
-                if (equipment_data_type === equipment_data_version.LEGACY)
-                {
+                if (equipment_data_type === equipment_data_version.LEGACY) {
                     change_equipment_and_character_data();
                 }
 
                 // REVERT LANGUAGE TO PREVIOUS SESSION'S
                 auto_load_language();
 
-                // SHOW INVENTORY BUTTON
-                document.getElementById("inventory_open-button").hidden = false;
+                // DELETE UNUSED FANCY OR SIMPLE MODE BUTTON
+                let is_simple = $("body").hasClass("simple-body");
+                if (is_simple) {
+                    $("#simple-page-link").remove();
+                }
+                else {
+                    $("#fancy-page-link").remove();
+                }
+
+                // REVEAL PAGE
+                setTimeout(function () {
+                    document.getElementById("miyako").classList.add("end");
+                    document.getElementById("page-cover").classList.add("end");
+                    document.getElementById("loading-text").classList.add("end");
+
+                    // ENABLE LANGUAGE SWITCH TO BE USED
+                    document.getElementById("language-option").disabled = false;
+
+                    setTimeout(function () {
+                        $("#page-loading").remove();
+                        $("#startup").remove();
+                        $("noscript").remove();
+                    }, 3000);
+                }, 3000);
+
             }
         }
 
         // LOCAL STORAGE SUPPORT DOES NOT EXIST
-        if (typeof(Storage) === "undefined")
-        {
+        if (typeof(Storage) === "undefined") {
             console.log(get_colored_message("System", "LocalStorage is not supported on this browser! Disabling Projects, Blacklist, Data Exporting/Importing, and Settings!", message_status.WARNING));
             document.getElementById("projects-div").hidden = true;
             document.getElementById("data-management-div").hidden = true;
             document.getElementById("setting-saving-div").hidden = true;
             document.getElementById("local-storage-warning").hidden = false;
+        }
+        else {
+            $("#local-storage-warning").remove();
         }
     };
 </script>

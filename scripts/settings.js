@@ -416,6 +416,7 @@ function toggle_simple_mode()
         // "simple" HASH IS INCLUDED
         if (window.location.hash.toLowerCase().split('#').includes("simple"))
         {
+            $("body").toggleClass("simple-body fancy-body");
             console.log(get_colored_message("Simple Mode", "Simple Mode Enabled! (No Background Images)", message_status.INFO));
             document.getElementById("title-div").classList.toggle("no-background");
             document.getElementById("title-div").classList.toggle("no-transition");
@@ -438,23 +439,10 @@ function toggle_simple_mode()
             document.getElementById("recommended-div").classList.toggle("no-background");
             document.getElementById("recommended-quest-div").classList.toggle("no-transition");
             document.getElementById("character-preset-div").classList.toggle("no-background");
-            document.getElementById("update-div").classList.toggle("no-background");
             document.getElementById("title-background-div").hidden = true;
-            $("body").toggleClass("simple-body");
-            $("body").toggleClass("fancy-body");
-
-            document.getElementById("fancy-page-link").style.display = "inline";
 
             document.getElementById("sub-title").innerHTML = "Quest Helper<br><br><span style='font-family: \"Arial\", serif; font-weight: bold; letter-spacing: 1px !important; color: aliceblue; text-shadow: 1px 1px 1px #000000 !important;'>Simple Mode</span>";
         }
-        else
-        {
-            document.getElementById("simple-page-link").style.display = "inline";
-        }
-    }
-    else
-    {
-        document.getElementById("simple-page-link").style.display = "inline";
     }
 }
 

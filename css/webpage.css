@@ -1,4 +1,8 @@
 /* WEBPAGE DESIGN =================================================================================================== */
+img[src=""] {
+    content:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=");
+}
+
 body.fancy-body {
     /* BACKGROUND IMAGE */
     background-image: url("./../images/webpage/adv_mask_C.png");
@@ -11,6 +15,171 @@ body.fancy-body {
 body.simple-body {
     /* TEXT DESIGN */
     color: black;
+}
+
+body.simple-body:lang(en) {
+    font-family: "Trebuchet MS", Arial, serif;
+}
+
+body.simple-body #page-loading {
+    /* HIDE PAGE LOADING IF SIMPLE MODE */
+    visibility: hidden;
+}
+
+body.fancy-body div#page-cover {
+    background-image: url("./../images/webpage/adv_mask_C.png");
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 4px 0 5px 5px rgba(0, 0, 0, 0.8),
+        4px 0 5px 10px rgba(0, 0, 0, 0.5),
+        4px 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+body.simple-body div#page-cover.failed {
+    background-image: url("./../images/webpage/adv_mask_C.png");
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+body.fancy-body #miyako {
+    background: url("../images/webpage/spritesheets/miyako.png");
+
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    top: 38%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    /* MIYAKO SPRITE NEEDS TO BE ABOVE #page-cover */
+    z-index: 2;
+}
+
+body.fancy-body #miyako.run {
+    /* PAGE BOOTED UP ; RUN TO CENTER OF SCREEN AND STAY THERE */
+    animation: run 750ms steps(19) infinite, start_move 1s forwards;
+}
+
+body.fancy-body #loading-text {
+    /* NEEDS TO BE ABOVE #page-cover */
+    position: fixed;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    white-space: nowrap;
+    text-align: center;
+    animation: fade_in 1s forwards;
+}
+
+body.fancy-body #miyako.run.death {
+    background: url("../images/webpage/spritesheets/miyako_death.png");
+}
+
+body.fancy-body #miyako.run.end {
+    /* PAGE LOAD COMPLETE ; RUN OFF SCREEN */
+    opacity: 1;
+    animation: run 750ms steps(19) infinite, end_move 3s forwards;
+}
+
+body.fancy-body #miyako.run.death {
+    /* PAGE LOAD FAILED ; GO COMMIT DEAD */
+    opacity: 1;
+    animation: death 1000ms steps(18) forwards;
+}
+
+body.fancy-body #page-cover.end {
+    animation: cover_reveal 3s forwards;
+}
+
+body.fancy-body #loading-text.end {
+    animation: end_move 2750ms forwards;
+}
+
+@keyframes run {
+    from {
+        background-position-y: 0;
+    }
+    to {
+        background-position-y: -7600px;
+    }
+}
+
+@keyframes start_move {
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes end_move {
+    from {
+        left: 51%;
+    }
+    to {
+        left: 150%;
+    }
+}
+
+@keyframes death {
+    from {
+        background-position-y: 0;
+    }
+    to {
+        background-position-y: -7200px;
+    }
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes cover_reveal {
+    from {
+        left: 0;
+    }
+    to {
+        left: 130%;
+    }
+}
+
+@keyframes fade_in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+#navigation-bar, #common-div, #copper-div, #silver-div,
+#gold-div, #purple-div, #misc-div,
+#requested-div, #required-div, #recommended-div,
+#character-preset-div, #other-container {
+    /* REPLACE <hr> */
+    margin-bottom: 10px;
+}
+
+body.simple-body #simple-page-link {
+    visibility: hidden;
+}
+
+body.fancy-body #fancy-page-link {
+    visibility: hidden;
 }
 
 /* TITLE BACKGROUND ================================================================================================= */
@@ -126,19 +295,22 @@ input[type=number] {
     background-image: none !important;
 }
 
+.no-background:not(#title-div) {
+    background: rgba(217, 197, 193, 0.50);
+}
+
 .no-transition {
     transition: none !important;
 }
 
 /* NAVIGATION BAR =================================================================================================== */
-.navigation-bar {
-    /* NAVIGATION BAR */
+#navigation-bar {
     overflow: hidden;
     background-color: #30333d;
     margin-top: 10px;
 }
 
-.navigation-bar button {
+#navigation-bar button {
     /* NAVIGATION BAR BUTTONS */
     background-color: #30333d;
     border: none;
@@ -155,18 +327,18 @@ input[type=number] {
     text-align: center;
 }
 
-.navigation-bar button:hover {
+#navigation-bar button:hover {
     /* NAVIGATION BAR BUTTONS WHEN HOVERED */
     background-color: #4f4f4f;
     cursor: pointer;
 }
 
-.navigation-bar button.is-open {
+#navigation-bar button.is-open {
     /* SELECTED NAVIGATION BAR BUTTON */
     background-color: #5a5f73;
 }
 
-.navigation-bar select {
+#navigation-bar select {
     /* NAVIGATION BAR ; LANGUAGE SELECT */
     background-color: #2c2f38;
     float: left;
@@ -182,7 +354,7 @@ input[type=number] {
     text-align: center;
 }
 
-.navigation-bar select:hover {
+#navigation-bar select:hover {
     /* NAVIGATION BAR ; LANGUAGE SELECT WHEN HOVERED*/
     background-color: #4f4f4f;
     cursor: pointer;
@@ -207,14 +379,6 @@ input[type=number] {
     filter: opacity(30%);
     width: 150px;
     height: 50px;
-}
-
-#update-notification-img {
-    height: 15px;
-    position: relative;
-    bottom: 75px;
-    left: 87px;
-    display: none;
 }
 
 /* ITEM TABLES ====================================================================================================== */

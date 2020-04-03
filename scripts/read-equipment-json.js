@@ -1,5 +1,6 @@
 let equipment_map = new Map();
 let equipment_loaded = false;
+let equipment_data_error;
 
 const equipment_data_version = Object.freeze({
     CURRENT: 'equipment-data-current',
@@ -80,7 +81,9 @@ function read_equipment_data(equipment_file_type, callback)
                 ).then(function () {
                     callback();
                 });
-
+            },
+            'error': function (e) {
+                equipment_data_error = e;
             }
         });
     });
