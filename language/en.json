@@ -150,6 +150,7 @@
     "export_saved_data": "Export Saved Data",
 
     "title_background_title": "Title Background",
+    "disable_title_background_hover": "Disable Title Background Hover",
     "custom_title_background_url": "Image URL: "
   },
 

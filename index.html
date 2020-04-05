@@ -44,10 +44,6 @@
     <meta name="twitter:title" content="Princess Connect! Re:Dive - Quest Helper | priconne-quest-helper"/>
     <meta name="twitter:description" content="Quest Choosing Assistance and Project Management for the Game 'Princess Connect! Re:Dive' （プリンセスコネクト! Re:Dive）."/>
 
-    <!-- PRELOAD -->
-    <link rel="preload" href="images/webpage/spritesheets/miyako.png" as="image">
-    <link rel="preload" href="images/webpage/adv_mask_C.png" as="image">
-
     <!-- SCRIPTS -->
     <script src="vendor/jquery/jquery-3.4.1.min.js"></script>
     <script src="vendor/toastr/toastr.min.js"></script>
@@ -79,13 +75,19 @@
     <link rel="stylesheet" media="only screen and (max-device-width: 400px)" href="css/webpage-mobile.css">
     <link rel="stylesheet" href="css/webpage.css">
     <link rel="stylesheet" href="css/spritesheet.css">
+
+    <!-- PRELOAD -->
+    <link rel="preload" href="images/webpage/spritesheets/miyako.png" as="image">
+    <link rel="preload" href="images/webpage/adv_mask_C.png" as="image">
 </head>
 
 <body class="fancy-body">
 <div id="page-loading">
     <div id="page-cover"></div>
-    <img id="miyako" src alt=""/>
-    <div id="loading-text">loading priconne-quest-helper...</div>
+    <div id="loading-div" class="center-div">
+        <img id="miyako" src alt=""/>
+        <div id="loading-text">loading priconne-quest-helper...</div>
+    </div>
     <script>
         // MAKE MIYAKO RUN
         setTimeout(function () {
@@ -96,18 +98,24 @@
 
 <noscript>
     <style type="text/css">
-        div:not(#page-loading) {display: none;}
+        div:not(#page-loading):not(#loading-div) {display: none;}
         hr {display: none;}
         footer {display: none;}
-        #miyako { left: 51%; top: 30% !important; background: url("images/webpage/spritesheets/miyako_death.png") !important; animation: death 1250ms steps(18) forwards; }
+        #miyako {!important; background: url("images/webpage/spritesheets/miyako_death.png") !important; animation: death 1250ms steps(18) forwards; }
+        #loading-div { top: 40% !important; }
         @media (max-width: 650px) {
             #javascript-warning {
-                top: 65% !important;
                 width: 80%;
+                top: 60% !important;
+            }
+        }
+        @media (max-height: 650px) {
+            #javascript-warning {
+                top: 80% !important;
             }
         }
     </style>
-    <h4 id="javascript-warning" style="color: white; font-family: 'Trebuchet MS', Arial, serif; text-align:center; position: fixed; top: 55%; left: 50%; transform: translate(-50%, -50%); text-shadow: 1px 1px 3px #000000, 1px 1px 4px #000000; z-index: 4; background: rgba(0, 0, 0, 0.30); padding: 10px 30px; border-radius: 6px;">
+    <h4 id="javascript-warning" style="color: white; font-family: 'Trebuchet MS', Arial, serif; text-align:center; position: fixed; top: 56%; left: 50%; transform: translate(-50%, -50%); text-shadow: 1px 1px 3px #000000, 1px 1px 4px #000000; z-index: 4; background: rgba(0, 0, 0, 0.30); padding: 10px 30px; border-radius: 6px;">
         <span style="color: orangered;">JavaScript is disabled!</span>
         <br>
         <span style="color: #e3cfcb;">priconne-quest-helper</span> cannot function without JavaScript.
@@ -768,11 +776,16 @@
         <h4>
             <span translate_text="other_tab.title_background_title">Title Background</span>
         </h4>
+
         <select id="title-background-select" onchange="change_background()"></select><br>
         <div id="custom-title-input" hidden>
             <label for="custom-title-url-input"><span translate_text="other_tab.custom_title_background_url">Image URL: </span></label>
             <input id="custom-title-url-input" type="text" name="custom-title-url" onchange="change_background()">
         </div>
+        <label>
+            <span translate_text="other_tab.disable_title_background_hover">Disable Title Background Hover</span>
+            <input id="custom-title-hover-disable" type="checkbox" onchange="save_background_data()">
+        </label>
     </div>
 </div>
 
@@ -1032,11 +1045,11 @@
                     $("#fancy-page-link").remove();
                 }
 
+
                 // REVEAL PAGE
                 setTimeout(function () {
-                    document.getElementById("miyako").classList.add("end");
+                    document.getElementById("loading-div").classList.add("end");
                     document.getElementById("page-cover").classList.add("end");
-                    document.getElementById("loading-text").classList.add("end");
 
                     // ENABLE LANGUAGE SWITCH TO BE USED
                     document.getElementById("language-option").disabled = false;

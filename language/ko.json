@@ -150,6 +150,7 @@
     "export_saved_data": "저장된 데이터 내보내기",
 
     "title_background_title": "타이틀 배경 이미지",
+    "disable_title_background_hover": "Disable Title Background Hover",
     "custom_title_background_url": "Image URL: "
   },
 

@@ -1,14 +1,10 @@
 /* LOADING COVER ==================================================================================================== */
-body.fancy-body #miyako {
-    top: 30% !important;
+body.fancy-body #loading-div {
+    top: 40% !important;
 }
 
-body.fancy-body #miyako.run.end {
-    animation: run 750ms steps(19) infinite, end_move 2500ms forwards !important;
-}
-
-body.fancy-body #loading-text.end {
-    animation: end_move 2500ms forwards !important;
+body.fancy-body #loading-div.end {
+    animation: end_move 2200ms forwards !important;
 }
 
 /* GENERAL ========================================================================================================== */

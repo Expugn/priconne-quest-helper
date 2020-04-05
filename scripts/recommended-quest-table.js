@@ -483,12 +483,10 @@ function focus_on_item(item_name, item_id)
     refresh_quest_table();
 }
 
-function sort_ascending(x, y)
-{
+function sort_ascending(x, y) {
     return x - y;
 }
 
-function sort_descending(x, y)
-{
+function sort_descending(x, y) {
     return y - x;
 }

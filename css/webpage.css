@@ -50,19 +50,23 @@ body.simple-body div#page-cover.failed {
     opacity: 0.5;
 }
 
-body.fancy-body #miyako {
-    background: url("../images/webpage/spritesheets/miyako.png");
-
-    display: inline-block;
-    width: 400px;
-    height: 400px;
+body.fancy-body #loading-div {
     position: fixed;
-    top: 38%;
+    top: 50%;
     left: 51%;
     transform: translate(-50%, -50%);
-    opacity: 0;
-    /* MIYAKO SPRITE NEEDS TO BE ABOVE #page-cover */
+
+    /* #loading-div MUST BE ABOVE #page-cover */
     z-index: 2;
+}
+
+body.fancy-body #miyako {
+    background: url("../images/webpage/spritesheets/miyako.png");
+    display: block;
+    width: 400px;
+    height: 400px;
+    opacity: 0;
+    margin-top: -150px;
 }
 
 body.fancy-body #miyako.run {
@@ -71,12 +75,7 @@ body.fancy-body #miyako.run {
 }
 
 body.fancy-body #loading-text {
-    /* NEEDS TO BE ABOVE #page-cover */
-    position: fixed;
-    top: 64%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
+    font-family: "Trebuchet MS", Arial, serif;
     white-space: nowrap;
     text-align: center;
     animation: fade_in 1s forwards;
@@ -84,12 +83,6 @@ body.fancy-body #loading-text {
 
 body.fancy-body #miyako.run.death {
     background: url("../images/webpage/spritesheets/miyako_death.png");
-}
-
-body.fancy-body #miyako.run.end {
-    /* PAGE LOAD COMPLETE ; RUN OFF SCREEN */
-    opacity: 1;
-    animation: run 750ms steps(19) infinite, end_move 3s forwards;
 }
 
 body.fancy-body #miyako.run.death {
@@ -102,7 +95,7 @@ body.fancy-body #page-cover.end {
     animation: cover_reveal 3s forwards;
 }
 
-body.fancy-body #loading-text.end {
+body.fancy-body #loading-div.end {
     animation: end_move 2750ms forwards;
 }
 

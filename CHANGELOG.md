@@ -3,6 +3,27 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.8.11] - 2020-04-05
+### Added
+- `Disable Title Background Hover`
+  - Enabling this option will disable the title background expansion if you mouse over the title background
+  - Located under `Title Background` in the `Other` tab
+- Updated Language Files
+  - `en.json`
+    - `other_tab.disable_title_background_hover`
+  - `ja.json`
+    - `other_tab.disable_title_background_hover` **(NOT TRANSLATED)**
+  - `ko.json`
+    - `other_tab.disable_title_background_hover` **(NOT TRANSLATED)**
+### Changed
+- Adjusted loading screen
+  - Miyako and "`loading priconne-quest-helper...`" text now move together instead of separately
+  - Tweaked CSS so Miyako and other text displayed should look better in all resolutions
+  - "`loading priconne-quest-helper...`" now locked down to be `Trebuchet MS`
+- Changed format in which information related to `Title Background` is saved in `LocalStorage`
+  - Older data is converted into this new format
+  - Removed usage of `custom_background_url` in `LocalStorage`
+
 ## [1.8.10] - 2020-04-02
 ### Added
 - New fancy loading screen
