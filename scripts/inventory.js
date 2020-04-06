@@ -60,7 +60,13 @@ function inventory_set_fragment_amount(fragment_name, amount, do_save = true) {
         amount = 0;
     }
 
-    inventory.fragments[fragment_name] = amount;
+    if (amount > 0) {
+        amount = (amount > inventory_status.MAX_ITEM_AMOUNT ? inventory_status.MAX_ITEM_AMOUNT : amount);
+        inventory.fragments[fragment_name] = amount;
+    }
+    else {
+        delete inventory.fragments[fragment_name];
+    }
 
     if (do_save) {
         inventory_save();
@@ -135,6 +141,7 @@ let inventory_status = {
     MAX_ITEM_AMOUNT: 9999,
     SAVED_IGNORED_RARITIES: null,
     UNSAVED_CHANGES: false,
+    INLINE_EDITOR_START_AMOUNT: 0,
 };
 
 function toggle_inventory_modal() {

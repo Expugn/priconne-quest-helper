@@ -77,7 +77,6 @@
     <link rel="stylesheet" href="css/spritesheet.css">
 
     <!-- PRELOAD -->
-    <link rel="preload" href="images/webpage/spritesheets/miyako.png" as="image">
     <link rel="preload" href="images/webpage/adv_mask_C.png" as="image">
 </head>
 
@@ -742,10 +741,9 @@
             </div>
         </a><br>
         <!-- ko-fi -->
-        <a href='https://ko-fi.com/E1E21KEV4' target='_blank'>
-            <img height='36' style='border:0;height:36px;text-decoration:none;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+        <a href='https://ko-fi.com/E1E21KEV4' target='_blank' style="text-decoration:none;">
+            <img height='36' border='0' style='border:0;height:36px;' class="use-webp" image_folder="webpage" file_name="kofi" src_prefix="" src alt='Buy Me a Coffee at ko-fi.com'/>
         </a>
-
         <br><br>
 
         <!-- HYPERLINKS TO OTHER TOOLS -->
@@ -753,7 +751,7 @@
         <!-- priconne-shiritori -->
         <a href="https://expugn.github.io/priconne-shiritori/" target="_blank" style="text-decoration: none;">
             <div class="hyperlink-image">
-                <img class="hyperlink-bg-img app-hyperlink_image" src="https://raw.githubusercontent.com/Expugn/priconne-shiritori/master/images/game/yuni.png" alt="priconne-shiritori">
+                <img class="hyperlink-bg-img app-hyperlink_image use-webp" image_folder="webpage" file_name="priconne-shiritori_icon" src_prefix="" src alt="priconne-shiritori">
                 <span class="hyperlink-text app-hyperlink_text">priconne<br>shiritori<br>( JP )</span>
             </div>
         </a>
@@ -932,6 +930,14 @@
             </button>
         </div>
     </div>
+</div>
+
+<div id="inventory-inline-editor-prototype" class="inventory-inline-editor" hidden>
+    <div class="quest_inline-inventory">
+        <img class="quest_inline-crate use-webp" image_folder="webpage" file_name="Inventory_Crate" src_prefix="" src alt="">
+        <div class="quest_inventory-amount">0</div>
+    </div>
+    <button class="minus" value="-30">-30</button><button class="plus" value="+30">+30</button>
 </div>
 
 <script id="startup">

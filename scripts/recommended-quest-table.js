@@ -21,7 +21,7 @@ function build_recommended_quest_table(all_recipe_maps_array)
     }
 
     // APPLY INVENTORY TO TOTAL RECIPE IF POSSIBLE
-    total_recipe = apply_inventory_to_total_recipe(total_recipe, true, false);
+    total_recipe = apply_inventory_to_total_recipe(total_recipe, true, true);
 
     // COMPILE LIST OF PRIORITY ITEMS FROM PRIORITY PROJECTS
     if (!priority_items_compiled)
@@ -490,3 +490,90 @@ function sort_ascending(x, y) {
 function sort_descending(x, y) {
     return y - x;
 }
+
+$(function() {
+    // hide inline inventory editor and stop editing mode
+    function editor_hide($inventory_editor) {
+        $inventory_editor.hide();
+        let $current_item_parent = $inventory_editor.parent();
+        if ($current_item_parent.hasClass('quest-item-edit')) {
+            $current_item_parent.removeClass('quest-item-edit');
+        }
+
+        // RE-ENABLE INVENTORY BUTTON
+        document.getElementById("inventory_open-button").disabled = false;
+        document.getElementById("inventory_open-button").classList.remove("disabled");
+    }
+    // update recommended table after editing is complete:
+    // - redraw the table if scoring changed
+    function update_table_after_inventory_change($inventory_editor) {
+        const current_inventory_amount = parseInt($inventory_editor.children('.quest_inline-inventory').children('.quest_inventory-amount').text());
+        if (inventory_status.INLINE_EDITOR_START_AMOUNT !== current_inventory_amount) {
+            // REFRESH REQUIRED INGREDIENTS AND RECOMMENDED QUESTS IF A CHANGE IS DETECTED
+            build_data();
+            update_saved_projects_select();
+            disable_complete_project_button(completed_projects.includes(document.getElementById("saved-projects-select").value));
+            inventory_status.INLINE_EDITOR_START_AMOUNT = 0;
+        }
+    }
+    $('#recommended-quest-table').on('click', '.quest_item-img', function(event) {
+        // open the editor if it's not shown
+        // close it if it's shown on the current item
+        // move it if it's shown on a different item
+        event.stopPropagation();
+        let $this = $(this);
+        let $inventory_editor = $('#inventory-inline-editor');
+        if ($inventory_editor.is(':visible')) {
+            editor_hide($inventory_editor);
+            update_table_after_inventory_change($inventory_editor);
+            if ($this.prev().is($inventory_editor)) {
+                return;
+            }
+        }
+        if ($inventory_editor.length === 0) {
+            $inventory_editor = $('#inventory-inline-editor-prototype').clone()
+                .prop('id', 'inventory-inline-editor')
+                .prop('hidden', false);
+        }
+        $this.before($inventory_editor);
+        let item_name = $this.attr('title');
+        let current_amount = inventory_get_fragment_amount(item_name);
+        inventory_status.INLINE_EDITOR_START_AMOUNT = current_amount;
+        $inventory_editor.children('.quest_inline-inventory').children('.quest_inventory-amount').text(current_amount);
+        let increment = equipment_map.get(item_name.replace(' Fragment', '')).get("req_pieces");
+        if (increment < 10) {
+            increment = 10;
+        }
+        let $plus_button = $('button.plus', $inventory_editor);
+        $plus_button.text('+' + increment);
+        $plus_button[0].value = '+' + increment;
+        let $minus_button = $('button.minus', $inventory_editor);
+        $minus_button.text('-' + increment);
+        $minus_button[0].value = '-' + increment;
+        $this.parent().removeClass('quest-hover').addClass('quest-item-edit');
+        $inventory_editor.show();
+
+        // DISABLE INVENTORY BUTTON TO AVOID CONFLICTING CHANGES
+        document.getElementById("inventory_open-button").disabled = true;
+        document.getElementById("inventory_open-button").classList.add("disabled");
+    });
+    $('#recommended-div').on('click', function(event) {
+        // close the editor on clicking away
+        let $inventory_editor = $('#inventory-inline-editor');
+        if ($inventory_editor.length !== 0 && $inventory_editor.is(':visible') ) {
+            editor_hide($inventory_editor);
+            update_table_after_inventory_change($inventory_editor);
+        }
+        event.stopPropagation();
+    });
+    $('#recommended-quest-table').on('click', '#inventory-inline-editor button', function(event) {
+        // add or remove inventory items
+        let $this = $(this);
+        let item_name = $this.parent().parent().children(".quest_item-img").attr("title");
+        let amount = parseInt(this.value);
+        let current_amount = inventory_get_fragment_amount(item_name);
+        let new_amount = inventory_set_fragment_amount(item_name, current_amount + amount);
+        $this.parent().children('.quest_inline-inventory').children('.quest_inventory-amount').text(new_amount);
+        event.stopPropagation();
+    });
+});

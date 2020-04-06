@@ -15,6 +15,20 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
     - `other_tab.disable_title_background_hover` **(NOT TRANSLATED)**
   - `ko.json`
     - `other_tab.disable_title_background_hover` **(NOT TRANSLATED)**
+- Re-added and updated/modified `a-casual`'s inventory inline editor
+  - Click an item image in `Recommended Quests` to use
+  - **UPDATED:** 
+    - Inline editor now works with new quest display format
+    - If inline editor is active, then `Inventory` button is disabled to avoid conflicting changes
+  - **MODIFIED:**
+    - Inventory amount display is now above the add/sub buttons instead of displayed top-left 
+      - The number shown below above the item image is the required ingredient amount
+      - Similar to the previous version, drop rate cannot be seen while the editor is active for that item
+    - `Required Ingredients`, `Recommended Quests`, etc are only updated if there is a change in inventory amount compared to when it was opened
+    - Removed usage of deprecated CSS classes
+    - Max amount that can be added via inline editor changed to `9999` 
+    - Inventory amounts set to `0` are deleted from inventory
+- Added `.webp` versions of `ko-fi banner`, `priconne-shiritori_icon`, `miyako` so they aren't locked to strictly `.png`
 ### Changed
 - Adjusted loading screen
   - Miyako and "`loading priconne-quest-helper...`" text now move together instead of separately
@@ -23,6 +37,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Changed format in which information related to `Title Background` is saved in `LocalStorage`
   - Older data is converted into this new format
   - Removed usage of `custom_background_url` in `LocalStorage`
+- `Recommended Quests` item amounts no longer subtract from inventory
+### Fixed
+- The text decoration for the `ko-fi` hyperlink is now actually hidden (no more blue underline)
 
 ## [1.8.10] - 2020-04-02
 ### Added

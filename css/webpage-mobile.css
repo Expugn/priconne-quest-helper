@@ -199,6 +199,11 @@ button.item-button {
     margin-right: 4px !important;
 }
 
+.quest_item.quest-item-edit .quest_drop-percent,
+.quest_item.quest-item-edit .quest_required-amount {
+    right: 23px !important;
+}
+
 /* INVENTORY ======================================================================================================== */
 #inventory_modal-dialog {
     width: 85% !important;
