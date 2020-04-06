@@ -1207,10 +1207,6 @@ img.quest_priority-item {
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
 }
-#inventory_open-button.disabled {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
 
 #inventory_crate-img {
     width: 32px;

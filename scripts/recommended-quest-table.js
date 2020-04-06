@@ -499,10 +499,6 @@ $(function() {
         if ($current_item_parent.hasClass('quest-item-edit')) {
             $current_item_parent.removeClass('quest-item-edit');
         }
-
-        // RE-ENABLE INVENTORY BUTTON
-        document.getElementById("inventory_open-button").disabled = false;
-        document.getElementById("inventory_open-button").classList.remove("disabled");
     }
     // update recommended table after editing is complete:
     // - redraw the table if scoring changed
@@ -552,10 +548,6 @@ $(function() {
         $minus_button[0].value = '-' + increment;
         $this.parent().removeClass('quest-hover').addClass('quest-item-edit');
         $inventory_editor.show();
-
-        // DISABLE INVENTORY BUTTON TO AVOID CONFLICTING CHANGES
-        document.getElementById("inventory_open-button").disabled = true;
-        document.getElementById("inventory_open-button").classList.add("disabled");
     });
     $('#recommended-div').on('click', function(event) {
         // close the editor on clicking away

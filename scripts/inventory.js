@@ -145,6 +145,12 @@ let inventory_status = {
 };
 
 function toggle_inventory_modal() {
+    let $inventory_editor = $('#inventory-inline-editor');
+    if ($inventory_editor.length !== 0 && $inventory_editor.is(':visible') ) {
+        console.log(get_colored_message("Inventory", "Cannot open inventory modal due to the inventory inline editor being open.", message_status.WARNING));
+        return;
+    }
+
     document.getElementById("inventory_modal").hidden = (!document.getElementById("inventory_modal").hidden);
     document.body.style.overflow = (!document.getElementById("inventory_modal").hidden ? "hidden" : "");
 
