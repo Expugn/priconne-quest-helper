@@ -14107,5 +14107,510 @@
             17,
             15
         ]
+    },
+    "33-1": {
+        "name": "ファスキア森林・東部 33-1",
+        "item_1": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Star Nuclear Bow - Erzvogen Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Star Nuclear Spear - Ertz Borg Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Flowering Fire Peony Fragment",
+            "Prosperity Veil Fragment",
+            "Heaven Rod - Stellar Sphere Fragment",
+            "Divine Spear - Doom Pain Fragment",
+            "Armored Bow - Deus Fall Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-2": {
+        "name": "ファスキア森林・東部 33-2",
+        "item_1": {
+            "item_name": "Chaotic Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Star Nuclear Sword - Ertz Schneide Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Star Nuclear Fist - Elzloa Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Little Ice Princess' Knot Fragment",
+            "Extremely Dark Clothes Fragment",
+            "Sky Soaring Gold Shoes Fragment",
+            "Refreshing Ice Garment Fragment",
+            "Furious Wind Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-3": {
+        "name": "ファスキア森林・東部 33-3",
+        "item_1": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Green Butterfly Wand Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Phoenix Staff - Rise Flare Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sea Dragon God's Hair Ornament Fragment",
+            "Konominato Sword - Aqua Ruler Fragment",
+            "Ifrit Katana - Ignite Fragment",
+            "God Roar Axe - Terra Break Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-4": {
+        "name": "ファスキア森林・東部 33-4",
+        "item_1": {
+            "item_name": "Southern Heaven Blazing Blue Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Turquoise Noah Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Senka Dance Armor Fragment",
+            "Black Snake Dragon's Staff Fragment",
+            "Storm God Tempest Gear Fragment",
+            "Twin God Sword of Lightning Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-5": {
+        "name": "ファスキア森林・東部 33-5",
+        "item_1": {
+            "item_name": "Eastern Heaven Green Wind Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Chaotic Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Star Nuclear Bow - Erzvogen Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Flowering Fire Peony Fragment",
+            "Prosperity Veil Fragment",
+            "Heaven Rod - Stellar Sphere Fragment",
+            "Divine Spear - Doom Pain Fragment",
+            "Armored Bow - Deus Fall Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-6": {
+        "name": "ファスキア森林・東部 33-6",
+        "item_1": {
+            "item_name": "Western Heaven Saintly Guide Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Gehenna Dragon Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Little Ice Princess' Knot Fragment",
+            "Extremely Dark Clothes Fragment",
+            "Sky Soaring Gold Shoes Fragment",
+            "Refreshing Ice Garment Fragment",
+            "Furious Wind Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-7": {
+        "name": "ファスキア森林・東部 33-7",
+        "item_1": {
+            "item_name": "Heavenly Wing Saint Shoes Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Green Butterfly Wand Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sea Dragon God's Hair Ornament Fragment",
+            "Konominato Sword - Aqua Ruler Fragment",
+            "Ifrit Katana - Ignite Fragment",
+            "God Roar Axe - Terra Break Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-8": {
+        "name": "ファスキア森林・東部 33-8",
+        "item_1": {
+            "item_name": "Eastern Heaven Green Wind Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Phoenix Staff - Rise Flare Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Senka Dance Armor Fragment",
+            "Black Snake Dragon's Staff Fragment",
+            "Storm God Tempest Gear Fragment",
+            "Twin God Sword of Lightning Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-9": {
+        "name": "ファスキア森林・東部 33-9",
+        "item_1": {
+            "item_name": "Heavenly Wing Wise Saint Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Star Nuclear Sword - Ertz Schneide Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Flowering Fire Peony Fragment",
+            "Prosperity Veil Fragment",
+            "Heaven Rod - Stellar Sphere Fragment",
+            "Divine Spear - Doom Pain Fragment",
+            "Armored Bow - Deus Fall Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-10": {
+        "name": "ファスキア森林・東部 33-10",
+        "item_1": {
+            "item_name": "Northern Heaven Supreme Flame Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Star Nuclear Fist - Elzloa Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Little Ice Princess' Knot Fragment",
+            "Extremely Dark Clothes Fragment",
+            "Sky Soaring Gold Shoes Fragment",
+            "Refreshing Ice Garment Fragment",
+            "Furious Wind Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-11": {
+        "name": "ファスキア森林・東部 33-11",
+        "item_1": {
+            "item_name": "Southern Heaven Blazing Blue Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Branch Blade of Divine Descent Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sea Dragon God's Hair Ornament Fragment",
+            "Konominato Sword - Aqua Ruler Fragment",
+            "Ifrit Katana - Ignite Fragment",
+            "God Roar Axe - Terra Break Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-12": {
+        "name": "ファスキア森林・東部 33-12",
+        "item_1": {
+            "item_name": "Eastern Heaven Green Wind Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Southern Heaven Blazing Blue Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Senka Dance Armor Fragment",
+            "Black Snake Dragon's Staff Fragment",
+            "Storm God Tempest Gear Fragment",
+            "Twin God Sword of Lightning Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-13": {
+        "name": "ファスキア森林・東部 33-13",
+        "item_1": {
+            "item_name": "Heavenly Wing Saint Shoes Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Northern Heaven Supreme Flame Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Flowering Fire Peony Fragment",
+            "Prosperity Veil Fragment",
+            "Heaven Rod - Stellar Sphere Fragment",
+            "Divine Spear - Doom Pain Fragment",
+            "Armored Bow - Deus Fall Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-14": {
+        "name": "ファスキア森林・東部 33-14",
+        "item_1": {
+            "item_name": "Heavenly Wing Wise Saint Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Western Heaven Saintly Guide Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Chaotic Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Little Ice Princess' Knot Fragment",
+            "Extremely Dark Clothes Fragment",
+            "Sky Soaring Gold Shoes Fragment",
+            "Refreshing Ice Garment Fragment",
+            "Furious Wind Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-1H": {
+        "name": "ファスキア森林・東部 33-1",
+        "item_1": {
+            "item_name": "Southern Heaven Blazing Blue Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Chaotic Choker Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Star Nuclear Spear - Ertz Borg Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Aoi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Flowering Fire Peony Fragment",
+            "Prosperity Veil Fragment",
+            "Heaven Rod - Stellar Sphere Fragment",
+            "Divine Spear - Doom Pain Fragment",
+            "Armored Bow - Deus Fall Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-2H": {
+        "name": "ファスキア森林・東部 33-2",
+        "item_1": {
+            "item_name": "Western Heaven Saintly Guide Robe Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Star Nuclear Sword - Ertz Schneide Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mahiru Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Little Ice Princess' Knot Fragment",
+            "Extremely Dark Clothes Fragment",
+            "Sky Soaring Gold Shoes Fragment",
+            "Refreshing Ice Garment Fragment",
+            "Furious Wind Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-3H": {
+        "name": "ファスキア森林・東部 33-3",
+        "item_1": {
+            "item_name": "Eastern Heaven Green Wind Dress Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Green Butterfly Wand Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Chloe Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Sea Dragon God's Hair Ornament Fragment",
+            "Konominato Sword - Aqua Ruler Fragment",
+            "Ifrit Katana - Ignite Fragment",
+            "God Roar Axe - Terra Break Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }

@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.9.0] - 2020-04-15
+Quest Update (2020-04-15)
+### Added
+- New Character: Chieru
+- Chapter 33 Quests
+- New Equipment
+
+
 ## [1.8.11] - 2020-04-05
 ### Added
 - `Disable Title Background Hover`
