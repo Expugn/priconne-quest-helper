@@ -1,0 +1,97 @@
+body {
+    background-color: #e9ad8a;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Arial, serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+hr {
+    border-top: 2px solid black;
+    border-radius: 3px
+}
+
+.title {
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.main_title {
+    font-size: 26px;
+}
+
+.sub_title {
+    margin-top: -15px;
+    letter-spacing: 2px;
+}
+
+.simple_title {
+    display: none;
+    font-size: 4vw;
+}
+
+input[type='checkbox'] {
+    zoom: 1.5;
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+}
+
+/* ================================================================================================================== */
+#all-export-elements {
+    margin: auto;
+    text-align: center;
+}
+
+#generate-url-button {
+    margin-top: 20px;
+}
+
+span.amount {
+    display: block;
+    font-family: "Calibri", Arial, serif;
+    text-shadow: 1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000;
+    text-align: right;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    margin-right: 5px;
+    position: relative;
+    top: 27px;
+}
+
+span.amount:before {
+    content: '\00D7';
+}
+
+#url {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#generated-links button {
+    display: block;
+    margin: auto auto 20px;
+}
+
+@media (max-width: 800px) {
+    .main_title,
+    .sub_title {
+        display: none;
+    }
+
+    .simple_title {
+        display: block;
+    }
+}

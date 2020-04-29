@@ -1,63 +1,177 @@
-/* QUEST DATA TABLE ================================================================================================= */
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #e3cfcb;
+}
+
+hr {
+    border-top: 2px solid black;
+    border-radius: 3px
+}
+
+p.footer {
+    text-align: right;
+    text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000, 1px 1px 2px #000000;
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+i.footer {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    top: 7px;
+}
+
+.heart-red {
+    color: #ff4d4d
+}
+
+.title {
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.main_title {
+    font-size: 26px;
+}
+
+.sub_title {
+    margin-top: -20px;
+    letter-spacing: 2px;
+}
+
+.simple_title {
+    display: none;
+    font-size: 4vw;
+}
+
+/* QUEST TABLE ====================================================================================================== */
+
 #quest-data-div {
-    /* POSITIONING */
-    margin-top: 30px;
-    margin-bottom: 10px;
+    text-align: center;
+    margin: auto auto 30px;
 }
 
-#quest-data-table {
-    /* CENTER TABLE */
-    margin: 0 auto;
+.quest {
+    margin-bottom: -10px;
 }
 
-.quest-title {
-    /* TEXT */
-    font-family: "fot-udmarugo_large_prob", Arial, serif;
-    font-size: 15px;
+.quest .title {
+    font-size: 16px;
+    font-weight: bold;
     color: white;
     letter-spacing: 2px;
-    text-shadow: 1px 1px 2px #000000,
-        1px 1px 2px #000000,
-        1px 1px 3px #000000;
-
-    /* TEXT BOX DESIGN */
+    text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000, 1px 1px 2px #000000;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgba(255, 255, 255, 0.5);
-    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     padding: 10px 30px;
+    width: 100px;
+}
 
-    /* POSITIONING */
+.quest .shard div {
+    transform: scale(calc(43/64));
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
     position: relative;
-    top: 2px;
+    top: 19px;
 }
 
-.quest-title-hard {
-    /* TEXT (SHIFT TO LEFT) */
-    padding-left: 20px;
-    padding-right: 65px;
+.quest .items,
+.quest .subdrops {
+    bottom: 12px;
 }
 
-img.memory-piece {
-    /* POSITIONING */
+.quest .title,
+.quest .shard,
+.quest .items,
+.quest .subdrops {
+    display: inline-block;
+    margin-left: 20px;
     position: relative;
-    right: 62px;
-    top: 13px;
-    margin-right: -32px;
 }
 
-.memory-piece_drop-rate {
-    /* POSITIONING */
+.quest .shard {
+    margin-left: 10px;
+}
+
+.quest .shard span,
+.quest .items span,
+.quest .subdrops span {
+    font-family: "Calibri", Arial, serif;
+    text-shadow: 1px 1px 4px #000000,
+        1px 1px 4px #000000,
+        1px 1px 4px #000000,
+        1px 1px 4px #000000;
+    color: lightsalmon;
+    text-align: right;
+    font-weight: bold;
     position: relative;
-    font-size: 14px;
-    right: 56px;
-    bottom: 4px;
-    margin-right: -32px;
 }
 
-.item_drop-rate {
-    /* POSITIONING */
-    margin-top: -48%;
-    margin-right: 8%;
-    margin-bottom: -10%;
+.quest .shard span {
+    left: -27px;
+    top: 12px;
+}
+
+.quest .items span,
+.quest .subdrops span {
+    top: 26px;
+    left: 5px;
+}
+
+.quest .shard.disabled,
+.quest .items .item-sprite.disabled {
+    visibility: hidden;
+}
+
+.quest br {
+    display: none;
+}
+
+@media (max-width: 770px) {
+    .main_title,
+    .sub_title {
+        display: none;
+    }
+
+    .simple_title {
+        display: block;
+    }
+
+    #quest-data-div {
+        text-align: left;
+    }
+
+    .quest {
+        background-color: rgba(50, 50, 50, 0.10);
+        margin-bottom: 3px;
+        border-radius: 10px;
+    }
+
+    .quest .title {
+        margin-bottom: 20px;
+    }
+    .quest br {
+        display: block;
+    }
+
+    .quest .items .item-sprite.disabled {
+        display: none;
+    }
+
+    .quest .items span,
+    .quest .subdrops span {
+        left: 16px;
+    }
+}
+
+@media (max-width: 300px) {
+    .quest .title {
+        padding: 10px 10px;
+        width: 80px;
+        margin-left: 5px;
+    }
 }

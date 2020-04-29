@@ -1,41 +1,287 @@
-/* QUEST DATA TABLE ================================================================================================= */
-#equipment-type-select {
-    /* CENTER TABLE */
-    margin: 0 auto;
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #e3cfcb;
 }
 
-#recipe-data-div {
-    /* POSITIONING */
-    margin-top: 30px;
-    margin-bottom: 10px;
+hr {
+    border-top: 2px solid black;
+    border-radius: 3px
 }
 
-#recipe-data-table {
-    /* CENTER TABLE */
-    margin: 0 auto;
+p.footer {
+    text-align: right;
+    text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000, 1px 1px 2px #000000;
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
 
-.item-name {
-    /* TEXT */
-    font-family: "fot-udmarugo_large_prob", Arial, serif;
-    font-size: 15px;
-    color: white;
+i.footer {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    top: 7px;
+}
+
+.heart-red {
+    color: #ff4d4d
+}
+
+.title {
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.main_title {
+    font-size: 26px;
+}
+
+.sub_title {
+    margin-top: -20px;
     letter-spacing: 2px;
-    text-shadow: 1px 1px 2px #000000,
-        1px 1px 2px #000000,
-        1px 1px 3px #000000;
-
-    /* TEXT BOX DESIGN */
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgba(255, 255, 255, 0.5);
-    white-space: nowrap;
-    border-radius: 5px;
-    padding: 10px 30px;
 }
 
-.item-amount {
-    /* POSITIONING */
-    margin-top: -48%;
-    margin-right: 8%;
-    margin-bottom: 3px;
+.simple_title {
+    display: none;
+    font-size: 4vw;
+}
+
+#back {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 32px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* RECIPE DATA ====================================================================================================== */
+#recipe-data-div,
+#catalog {
+    text-align: center;
+    margin: auto;
+}
+
+#catalog div {
+    margin-top: 10px;
+}
+
+#catalog div i {
+    cursor: pointer;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.names {
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.names .name_en,
+.names .name_jp {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px 35px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000, 1px 1px 2px #000000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    width: 200px;
+    margin-top: 10px;
+}
+
+.names .name_jp {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.images {
+    display: inline-block;
+}
+
+.images .equip_img,
+.images .frag_img {
+    width: 100px;
+    margin-bottom: -24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.images .frag_img {
+    margin-left: 5px;
+}
+
+.current,
+.legacy {
+    margin-top: 50px;
+}
+
+.current span.title,
+.legacy span.title,
+.usage span.title,
+.comp-usage span.title {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000, 1px 1px 2px #000000;
+    width: 200px;
+}
+
+.usage span.title,
+.comp-usage span.title {
+    display: block;
+    margin: 50px auto 10px;
+}
+
+.usage {
+    margin-bottom: 30px;
+}
+
+p.node-desc,
+.recipe_result .item-sprite span {
+    font-family: "Calibri", Arial, serif;
+    text-shadow: 1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000;
+    text-align: right;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    position: relative;
+}
+
+p.node-desc:before,
+.recipe_result .item-sprite span:before {
+    content: '\00D7';
+}
+
+p.node-desc {
+    font-family: "Calibri", Arial, serif;
+    text-shadow: 1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000;
+    text-align: right;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    margin-right: 5px;
+    top: 12px;
+}
+p.node-desc:before {
+    content: '\00D7';
+}
+div.node {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.recipe_result {
+    margin-top: 10px;
+}
+
+.recipe_result .item-sprite {
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.recipe_result .item-sprite span {
+    display: block;
+    text-align: right;
+    margin-right: 5px;
+    top: 28px;
+}
+
+#current_recipe,
+#legacy_recipe {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.comp-usage i.item-sprite {
+    cursor: pointer;
+}
+
+span.unit-sprite,
+.comp-usage i.item-sprite {
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 1px 4px #000000,
+        1px 1px 4px #000000,
+        1px 1px 4px #000000,
+        1px 1px 4px #000000;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 2px;
+}
+
+span.rank-1 {
+    color: rgb(90, 190, 255)
+}
+span.rank-2,
+span.rank-3 {
+    color: rgb(255, 182, 140)
+}
+span.rank-4,
+span.rank-5,
+span.rank-6 {
+    color: rgb(198, 211, 214)
+}
+span.rank-7,
+span.rank-8,
+span.rank-9,
+span.rank-10 {
+    color: rgb(249, 194, 62)
+}
+span.rank-11,
+span.rank-12,
+span.rank-13,
+span.rank-14,
+span.rank-15,
+span.rank-16 {
+    color: rgb(231, 109, 255)
+}
+
+@media (max-width: 600px) {
+    .main_title,
+    .sub_title {
+        display: none;
+    }
+
+    .simple_title {
+        display: block;
+    }
+}
+
+@media (max-width: 560px) {
+    .names {
+        margin-right: 0;
+    }
+    .names .name_en,
+    .names .name_jp {
+        width: 40vw;
+    }
+    .images {
+        display: block;
+        margin: 10px auto auto;
+    }
+    .images .equip_img,
+    .images .frag_img {
+        width: 75px;
+        border-radius: 8px;
+    }
 }

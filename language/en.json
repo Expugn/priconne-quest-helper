@@ -13,7 +13,6 @@
     "recommended_quest_help_2": "Quests are sorted by <span style='color: yellow'>the amount of items you can collect from the quest</span> that you need, starting from chapter 1.",
     "recommended_quest_help_3": "Up to <span style='color: #6DFF7F'>ten</span> quests will be shown at a time by default.",
 
-    "made_with_love": "Made With <span style='color:#ff4d4d'>❤</span> By ${project_author}",
     "last_quest_update": "Last Quest Update: <span style='color: #6DFF7F'>${last_update_date}</span>",
 
     "translator": "Translator:",
@@ -106,16 +105,9 @@
     "display_drop_percent": "Display Drop Percent",
     "display_amount_required": "Display Amount Required",
 
-    "save_settings": "Save Settings to Local Storage",
     "save_settings_button": "Save Settings",
-
-    "delete_settings": "Delete Settings From Local Storage",
     "delete_settings_button": "Delete Settings",
-
-    "reset_settings": "Reset Settings to System Default if Saved Data does not Exist, or to Saved Data",
     "reset_settings_button": "Reset Settings",
-
-    "display_saved_settings": "Display Saved Settings",
     "display_saved_settings_button": "Read Saved Settings",
 
     "equipment_data_type_label": "Equipment Data Type:",
@@ -126,20 +118,10 @@
   "other_tab": {
     "tab_title": "Other",
 
-    "update_in_progress": "Update in Progress!",
-    "quest_update": "Quest Update:",
-    "normal_quests": "Normal Quests",
-    "hard_quests": "Hard Quests",
-    "equipment_data": "Equipment Data",
-    "equipment_selection": "Equipment Selection",
-    "en_translated_names": "English Translated Names",
-    "updated_rank_equipment": "Updated Rank Equipment",
-
     "other_pages_title": "Other Pages",
     "quest_data": "Quest Data",
     "recipe_data": "Recipe Data",
     "character_data": "Character Data",
-    "github": "GitHub",
     "simple_mode": "Simple Mode",
     "fancy_mode": "Fancy Mode",
     "help": "Help (Wiki)",
@@ -268,6 +250,7 @@
     "new_year": "New Year",
     "oedo": "Oedo",
     "princess": "Princess",
+    "ranger": "Ranger",
     "summer": "Summer",
     "transfer_student": "Transfer Student",
     "valentine": "Valentine"

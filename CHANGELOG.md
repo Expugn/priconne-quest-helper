@@ -3,13 +3,103 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2020-04-29
+Code Rewrite
+### Added
+- New Font Design
+  - Now using Google's `Noto` font line to keep things consistent
+    - `Noto Sans`, `Noto Sans JP`, `Noto Sans KR` 
+- Inventory Quality of Life Additions
+  - You can now press `ENTER` to confirm your changes in `Inventory List Mode` rather than having to click away
+  - You can now press `ENTER` to confirm the amount while adding an item from the `Inventory Catalog` rather than having to press `Add Item`
+- `css/data.css`, `webpage/spritesheets/items`, `webpage/spritesheets/units`
+  - Added these files to lower the amount of resources and requests needed to load the webpage
+  - `css/data.css` contains all information about positioning for the `webpage/spritesheets/items` and `webpage/spritesheets/units` spritesheets
+- Merged all static webpage icons into `webpage/spritesheets/spritesheet`
+- `pages/character-data` Rework
+  - Opening the page now starts you off with a grid of characters
+  - Selecting a character from the grid will show you the equipment a character needs to rank up like before
+- `pages/recipe-data` Rework
+  - When using `pages/recipe-data`, you now start with a grid of all items
+  - Clicking on one of the items in the grid will show you the current and legacy (if available) recipes in a tree display with the total required ingredients below that tree
+  - Clicking on an item also shows you the characters and the ranks that they use that item
+  - Clicking on an item also shows you the "parent" items that use the current viewing item as an ingredient
+- A lot of comments to code
+- Updated Language Files
+  - `en.json`
+    - `thematics.ranger`
+  - `ja.json`
+    - `thematics.ranger`
+  - `ko.json`
+    - `thematics.ranger`
+### Changed
+- Webpage Optimizations
+  - Reworked code to lower the requests and resources needed for the initial page load
+  - Webpage loading statistics using `webp` and `MIYAKO` default background
+    - **BEFORE** (v1.0): `505` Requests ; `9.0MB` Resources
+    - **AFTER**  (v2.0): `43`  Requests ; `3.1MB` Resources
+- Setting the item quantity in `Inventory List Mode` to `0` no longer instantly deletes the item
+  - Adding a new item from the `Inventory Catalog`, switching to `Inventory Remove Mode`, or closing and opening the `Inventory Modal` will remove all items with quantity `0`
+- `Select Saved Project` is now spaced a bit away from the `Load`/`Add`/`Subtract`/`Prioritize` project buttons
+- Compressed all scripts into two scripts: `scripts/priconne-quest-helper.js` and `scripts/priconne-data.js`
+  - `scripts/priconne-quest-helper.js` now manages all main webpage functionality
+  - `scripts/priconne-data.js` now manages all equipment/character/quest data reading or other related functions
+  - Any other script that a different page uses (`pages/recipe-data`, `pages/character-data`, etc) will be in their `index.html`
+- Hyperlink Changes
+  - `kofi`'s hyperlink now takes `GitHub`'s hyperlink location
+  - `GitHub` hyperlink moved to the bottom of the page
+- `jQuery` is now retrieved from Google's CDN so a new copy of `jQuery` won't have to be downloaded every 10 minutes due to GitHub Pages' low cache life
+- `toastr` is now retrieved from Cloudflare's CDN so a new copy of `toastr` won't have to be downloaded every 10 minutes due to GitHub Pages' low cache life 
+- Merged `css/webpage-mobile.css` and `css/webpage.i18n.css` contents into `css/webpage.css`
+- "Mobile Formatting" is now available for Desktop users if the browser window width is small enough
+- Corrected most issues in `index.html`
+- Updated/Optimized `pages/quest-data`
+  - Mobile friendly CSS added
+  - Reduce requests and download size needed during startup
+    - **BEFORE**: `348` Requests ; `7.3MB` Resources
+    - **AFTER** : `18`  Requests ; `1.4MB` Resources
+- Updated/Optimized `pages/character-data`
+  - Mobile friendly CSS added
+  - Reduce requests and download size needed during startup
+    - **BEFORE**: `526` Requests ; `9.6MB` Resources
+    - **AFTER** : `18`  Requests ; `1.3MB` Resources
+- Updated/Optimized `pages/recipe-data`
+  - Mobile friendly CSS added
+  - Reduce requests and download size needed during startup
+    - **BEFORE**: `543` Requests ; `8.0MB` Resources
+    - **AFTER** : `23`  Requests ; `1.9MB` Resources
+- Updated/Optimized `pages/statistics`
+  - Increased items per row from `12` to `22`
+  - Mobile friendly CSS added
+  - Reduce requests and download size needed during startup
+    - **BEFORE**: `557` Requests ; `10.5MB` Resources (WITH VERSION HISTORY)
+    - **AFTER** : `28`  Requests ; `3.6MB` Resources  (WITH VERSION HISTORY)
+    - **AFTER** : `22`  Requests ; `1.5MB` Resources  (NO VERSION HISTORY)
+- Removed the error checking in `pages/export-data` and `pages/import-data` to reduce amount of potential errors when changes to settings have been made
+### Removed
+- `css/font/`
+  - Removing all fonts in this folder due to their required download size and possible licensing issues
+- Removed the labels from `Save`/`Delete`/`Reset`/`Read Saved` settings buttons due to it being kind of redundant
+- `scripts/console.js`
+- `css/webpage-mobile.css`
+- `css/webpage.i18n.css`
+- `webpage/spritesheets/navigation_buttons`
+- `webpage/spritesheets/hyperlink_buttons`
+- Unused images and other unused files
+- Unused translation text from language files
+### Fixed
+- Fixed an issue with `Inventory List Mode` where setting an item's quantity to `0` and then clicking on another item will cause some issues
+- Fixed an issue where `Settings` could not properly restore `Show Very Hard Quests`
+- Fixed an issue where you could not use Data Exporting if you had the `Show Very Hard Quests` setting saved
+- Fixed an issue where you could change the rank in Preset Single Mode when you aren't supposed to
+- Inline inventory editor will now open even if you click on the item amount/drop percent
+
 ## [1.9.0] - 2020-04-15
 Quest Update (2020-04-15)
 ### Added
 - New Character: Chieru
 - Chapter 33 Quests
 - New Equipment
-
 
 ## [1.8.11] - 2020-04-05
 ### Added

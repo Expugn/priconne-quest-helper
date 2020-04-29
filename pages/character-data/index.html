@@ -22,6 +22,7 @@
     <meta name="description" content="Character data used in priconne-quest-helper, a tool for that provides quest choosing assistance and project management for the game 'Princess Connect! Re:Dive' （プリンセスコネクト! Re:Dive）.">
     <meta name="author" content="S'pugn">
     <meta name="keywords" content="Princess Connect Re:Dive, プリンセスコネクト! Re:Dive, Quest Helper, S'pugn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- OPEN GRAPH / FACEBOOK META DATA -->
     <meta property="og:title" content="Princess Connect! Re:Dive - Quest Helper | Character Data"/>
@@ -41,17 +42,15 @@
     <meta name="twitter:description" content="priconne-quest-helper's Currently Loaded Character Data."/>
 
     <!-- SCRIPTS -->
-    <script src="../../vendor/jquery/jquery-3.4.1.min.js"></script>
-    <script src="../../vendor/toastr/toastr.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../../vendor/modernizr/modernizr-custom.js"></script> <!-- WEBP CHECK -->
-    <script src="../../scripts/console.js"></script>
-    <script src="../../scripts/image-manager.js"></script>
-    <script src="../../scripts/read-character-json.js"></script>
+    <script src="../../scripts/priconne-data.js"></script>
 
     <!-- CSS STYLE SHEETS -->
-    <link rel="stylesheet" href="../../vendor/toastr/toastr.css"/>
-    <link rel="stylesheet" href="../../css/main.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="../../css/spritesheet.css">
+    <link rel="stylesheet" href="../../css/data.css">
 </head>
 <body>
 <noscript>
@@ -60,10 +59,10 @@
         hr {display: none;}
         footer {display: none;}
     </style>
-    <h1 style="color: white; font-family: 'Trebuchet MS', Arial, serif; text-align:center; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); text-shadow: 1px 1px 3px #000000, 1px 1px 4px #000000;">
+    <h1 style="color: white; font-family: 'Trebuchet MS', Arial, serif; text-align:center; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); text-shadow: 1px 1px 2px #000000;">
         <span style="color: orangered;">JavaScript is disabled!</span>
         <br><br>
-        <span style="color: #e3cfcb;">priconne-quest-helper/character-data/</span> cannot function without JavaScript.
+        <span style="color: deepskyblue;">priconne-quest-helper/character-data/</span> cannot function without JavaScript.
         <br><br>
         <span style="color: #ffdf73;">Please enable JavaScript to continue!</span>
     </h1>
@@ -72,181 +71,123 @@
 <div>
     <h1 class="title main_title">Princess Connect! Re:Dive - Quest Helper</h1>
     <h2 class="title sub_title">Character Data</h2>
+    <h1 class="title simple_title">priconne-quest-helper &boxv; Character Data</h1>
 </div>
+<div id="back" onclick="toggle_grid()" hidden>&larrhk;</div>
 
 <hr>
-
-<script>
-    function unit_search(active) {
-        document.getElementById("search-overlay").hidden = !active;
-        document.body.style.overflow = (active ? "hidden" : "");
-    }
-</script>
-
-<div id="search-overlay" hidden onclick="unit_search(false)">
-    <div id="unit-list-div">
-        <div id="unit-list"></div>
-    </div>
-</div>
-
-<div id="character-data-div" style="overflow-x: auto">
-    <table id="character-data-table"></table>
-</div>
-
-<!-- UNIT SEARCH POPUP -->
-<div id="unit-search-popup" onclick="unit_search(true)" hidden>
-    <img id="lens-image" class="use-webp" image_folder="webpage" file_name="lens" src_prefix="../../" src="" alt="">
-</div>
-
-<br><br>
+<div id="character-grid"></div>
+<div id="character-data" hidden></div>
 <hr>
 </body>
 
 <footer>
     <p class="footer">
         Made With <span class="heart-red">❤</span> By S'pugn
-        <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="../../" src="" alt="">
+        <i class="footer webpage webpage-HAhaa"></i>
     </p>
 </footer>
 
 <script>
-    toastr.warning("Loading...", "Status", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
-    window.onload = function ()
-    {
-        init_webp();
-        init_images();
+    function get_item_sprite_class(item_name) {
+        if (item_name === "") {
+            return "disabled";
+        }
+        return "is__" + item_name.replace("'", "").replace(/\W/g, '-').toLowerCase().replace('---', '-');
+    }
+    function get_unit_sprite_class(unit_id) {
+        return "us__" + unit_id.replace(/_/g, '-').toLowerCase().replace('---', '-');
+    }
+    function get_unit_icon_image_path(file_name = "") {
+        file_name = file_name.split(' ').join('_');
+        return "../../images/unit_icon" + ($("html").hasClass("webp") ? "_webp/" + file_name + ".webp" : "/" + file_name + ".png");
+    }
+    function toggle_grid() {
+        const grid = document.getElementById("character-grid"),
+            data = document.getElementById("character-data"),
+            back = document.getElementById("back");
+        grid.hidden = !grid.hidden;
+        data.hidden = back.hidden = !data.hidden;
+    }
 
-        // MAKE SURE CHARACTER DATA IS LOADED
-        setup();
 
-        function setup()
-        {
-            if (!character_loaded)
-            {
-                setTimeout(function () {
-                    setup();
-                }, 1000);
-            }
+    window.onload = function () {
+        character_data.read_data(function (success) {
+            if (success)
+                build_grid();
             else
-            {
-                run();
-                toastr.remove();
-                toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: false });
+                document.getElementById("character-grid").innerHTML = "failed to read character data";
+        });
+        
+        function build_grid() {
+            const char_data = character_data.data();
 
-                // SHOW UNIT SEARCH
-                document.getElementById("unit-search-popup").hidden = false;
+            for (const unit_id in char_data) {
+                let unit_icon = document.createElement("i");
+                unit_icon.classList.add("unit-sprite", get_unit_sprite_class(unit_id));
+                unit_icon.title = char_data[unit_id]["name"] + (char_data[unit_id]["thematic"] !== "" ? " (" + char_data[unit_id]["thematic"] + ")" : "");
+                unit_icon.id = unit_id;
+                unit_icon.onclick = function() {
+                    get_data(unit_id);
+                };
+
+                document.getElementById("character-grid").appendChild(unit_icon);
             }
         }
 
-        function run()
-        {
-            let table_html = "";
-            let search_html = "";
+        function get_data(unit_id) {
+            const unit_data = character_data.data()[unit_id],
+                  data_div = document.getElementById("character-data"),
+                  unit = document.createElement("div");
+            data_div.innerHTML = "";
 
-            table_html += "<tbody>";
-            for (let [character_id, character_data_map] of character_map)
-            {
-                // DISPLAY CHARACTER
-                const num_of_ranks = max_character_rank_information.CURRENT;
-                let character_name = character_data_map.get("name");
-                let character_thematic = character_data_map.get("thematic");
-                let character_thematic_jp = character_data_map.get("thematic_jp");
-                let character_jp = character_data_map.get("name_jp") + ((character_thematic_jp === "") ? "" : "（" + character_thematic_jp + "）");
+            const unit_name = unit_data["name"],
+                  unit_thematic = unit_data["thematic"],
+                  has_thematic = unit_thematic !== "";
 
-                table_html += "<tr>";
+            let name_div = document.createElement("div"),
+                name_en_div = document.createElement("span"),
+                name_jp_div = document.createElement("span");
+            name_div.classList.add("name");
+            name_en_div.innerText = unit_name + (has_thematic ? "\n(" + unit_thematic + ")" : "");
+            name_en_div.classList.add("name_en");
+            name_jp_div.innerText = unit_data["name_jp"] + (has_thematic ? "\n（" + unit_data["thematic_jp"] + "）" : "");
+            name_jp_div.classList.add("name_jp");
+            name_div.appendChild(name_en_div);
+            name_div.appendChild(name_jp_div);
+            unit.appendChild(name_div);
 
-                // CHARACTER NAME
-                let character_complete_name = ((character_thematic === "") ? character_name : character_name + " (" + character_thematic + ")") + "<br>" + character_jp;
-                table_html += "<th><h3 id=\"" + character_id + "\" class=\"character-name text-box\">" + character_complete_name + "</h3></th>";
+            let img = document.createElement("img");
+            img.src = get_unit_icon_image_path((has_thematic ? unit_thematic + " " : "") + unit_name);
+            unit.appendChild(img);
 
-                // DIVIDER
-                table_html += "<th><img class=\"divider\" title=\"\" src=\"\" alt=\"\"></th>";
+            let ranks = document.createElement("div");
+            ranks.classList.add("ranks");
+            for (let i = 1 ; unit_data["rank_" + i] !== undefined ; i++) {
+                const rank_data = unit_data["rank_" + i];
+                let rank = document.createElement("div");
+                rank.classList.add("rank", ("rank-" + i));
 
-                // CHARACTER IMAGE
-                let file_name = ((character_thematic === "") ? character_name : character_thematic.split(' ').join('_') + "_" + character_name);
-                table_html += "<th><img class=\"character\" title=\"" + character_thematic + " " + character_name + "\" src=\"../../" + get_unit_icon_image_path(file_name) + "\" alt=\"\"></th>";
+                let title = document.createElement("span");
+                title.innerText = "Rank " + i;
+                rank.appendChild(title);
 
-                table_html += "<th></th> <th></th> <th></th> <th></th> </tr><tr>";
-
-                for (let i = 0 ; i < num_of_ranks ; i++)
-                {
-                    let rank_items = character_data_map.get("rank_" + (i + 1));
-                    let rank_color = "";
-
-                    switch (i + 1)
-                    {
-                        case 1:
-                            rank_color = "common-rank_color";
-                            break;
-                        case 2:
-                        case 3:
-                            rank_color = "copper-rank_color";
-                            break;
-                        case 4:
-                        case 5:
-                        case 6:
-                            rank_color = "silver-rank_color";
-                            break;
-                        case 7:
-                        case 8:
-                        case 9:
-                        case 10:
-                            rank_color = "gold-rank_color";
-                            break;
-                        case 11:
-                        case 12:
-                        case 13:
-                        case 14:
-                        case 15:
-                        case 16:
-                            rank_color = "purple-rank_color";
-                            break;
-                        default:
-                            rank_color = "undefined-rank_color";
-                            break;
-                    }
-
-                    // CHARACTER RANK
-                    table_html += "<th><h3 class=\"character-rank text-box " + rank_color + "\">Rank " + (i + 1) + "</h3></th>";
-
-                    // DIVIDER
-                    table_html += "<th>";
-                    table_html += "<img class=\"divider\" title=\"\" src=\"\" alt=\"\">";
-                    table_html += "</th>";
-
-                    for (let a = 0 ; a < 6 ; a++)
-                    {
-                        if (rank_items[a] !== "")
-                        {
-                            table_html += "<th>";
-                            table_html += "<img class=\"item\" title=\"" + rank_items[a]
-                                + "\" src=\"../../" + get_item_image_path(rank_items[a].split(' ').join('_')) + "\" alt=\"\">";
-                            table_html += "</th>";
-                        }
-                        else
-                        {
-                            table_html += "<th>";
-                            table_html += "<img class=\"item low-opacity\" title=\"" + "Placeholder"
-                                + "\" src=\"../../" + get_item_image_path("Placeholder") + "\" alt=\"\">";
-                            table_html += "</th>";
-                        }
-                    }
-
-                    table_html += "</tr><tr>";
+                let items = document.createElement("div");
+                for (let j = 0, k = rank_data.length ; j < k ; j++) {
+                    let item = document.createElement("i");
+                    item.classList.add("item-sprite", get_item_sprite_class(rank_data[j]));
+                    item.title = rank_data[j];
+                    items.append(item);
                 }
+                rank.appendChild(items);
 
-                // END TABLE ROW
-                table_html += "</tr> <tr> <th><br><br><br></th> <th></th> <th></th> <th></th> <th></th> <th></th> <th></th> </tr>";
-
-                // ADD UNIT TO SEARCH
-                search_html += "<a href='#" + character_id + "'>" +
-                    "<img class='unit-icon' src='../../images/unit_icon/" + file_name + ".png' title='" + character_complete_name.replace("<br>", "\n") + "" + "' alt=''>" +
-                    "</a> ";
+                unit.append(rank);
             }
-            table_html += "</body>";
 
-            document.getElementById("character-data-table").innerHTML = table_html;
-            document.getElementById("unit-list").innerHTML = search_html;
+            toggle_grid();
+            data_div.appendChild(unit);
+            data_div.hidden = false;
+            window.scrollTo(0, 0);
         }
     }
 </script>

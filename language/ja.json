@@ -13,7 +13,6 @@
     "recommended_quest_help_2": "クエストは、<span style='color: yellow'>必要個数</span>順に整列されます。",
     "recommended_quest_help_3": "基本的におすすめクエストは<span style='color: #6DFF7F'>10</span>個まで表示します。",
 
-    "made_with_love": "Made With <span style='color:#ff4d4d'>❤</span> By ${project_author}",
     "last_quest_update": "クエストデータの最終アップデート : <span style='color: #6DFF7F'>${last_update_date}</span>",
 
     "translator": "翻訳者 :",
@@ -106,16 +105,9 @@
     "display_drop_percent": "ドロップ確率の表示",
     "display_amount_required": "必要個数の表示",
 
-    "save_settings": "設定をストレージに保存します。",
     "save_settings_button": "設定保存",
-
-    "delete_settings": "設定をストレージから削除します。",
     "delete_settings_button": "設定削除",
-
-    "reset_settings": "保存した設定にリセットします。保存した設定がない場合、システム基本にリセットします。",
     "reset_settings_button": "設定リセット",
-
-    "display_saved_settings": "保存した設定を表示します。",
     "display_saved_settings_button": "設定読み込み",
 
     "equipment_data_type_label": "装備データのタイプ：",
@@ -126,20 +118,10 @@
   "other_tab": {
     "tab_title": "その他",
 
-    "update_in_progress": "アップデート中！",
-    "quest_update": "クエストアップデート：",
-    "normal_quests": "NORMALクエスト",
-    "hard_quests": "HARDクエスト",
-    "equipment_data": "装備情報",
-    "equipment_selection": "装備選択",
-    "en_translated_names": "英語名",
-    "updated_rank_equipment": "アップデートされた新装備",
-
     "other_pages_title": "他のページ",
     "quest_data": "クエスト情報",
     "recipe_data": "装備情報",
     "character_data": "キャラクター情報",
-    "github": "GitHub",
     "simple_mode": "シンプルモード",
     "fancy_mode": "ファンシーモード",
     "help": "ヘルプ",
@@ -268,6 +250,7 @@
     "new_year": "ニューイヤー",
     "oedo": "オーエド",
     "princess": "プリンセス",
+    "ranger": "レンジャー",
     "summer": "サマー",
     "transfer_student": "編入生",
     "valentine": "バレンタイン"
