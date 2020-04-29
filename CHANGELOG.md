@@ -94,6 +94,13 @@ Code Rewrite
 - Fixed an issue where you could change the rank in Preset Single Mode when you aren't supposed to
 - Inline inventory editor will now open even if you click on the item amount/drop percent
 
+## [1.9.0] - 2020-04-15
+Quest Update (2020-04-15)
+### Added
+- New Character: Chieru
+- Chapter 33 Quests
+- New Equipment
+
 ## [1.8.11] - 2020-04-05
 ### Added
 - `Disable Title Background Hover`
