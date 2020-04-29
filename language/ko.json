@@ -13,7 +13,6 @@
     "recommended_quest_help_2": "퀘스트는 1장부터 시작해서 <span style='color: yellow'>모아야 하는 개수</span> 순서대로 정렬됩니다.",
     "recommended_quest_help_3": "기본값으로 추천 퀘스트는 <span style='color: #6DFF7F'>10</span>개까지 보여집니다.",
 
-    "made_with_love": "Made With <span style='color:#ff4d4d'>❤</span> By ${project_author}",
     "last_quest_update": "마지막 퀘스트 업데이트 : <span style='color: #6DFF7F'>${last_update_date}</span>",
 
     "translator": "번역가 :",
@@ -106,16 +105,9 @@
     "display_drop_percent": "드랍 확률 표시",
     "display_amount_required": "필요 개수 표시",
 
-    "save_settings": "설정을 저장 공간에 저장합니다.",
     "save_settings_button": "설정 저장",
-
-    "delete_settings": "설정을 저장 공간에서 삭제합니다.",
     "delete_settings_button": "설정 삭제",
-
-    "reset_settings": "저장된 설정으로 초기화합니다. 설정이 없으면 시스템 기본값으로 초기화합니다.",
     "reset_settings_button": "설정 초기화",
-
-    "display_saved_settings": "저장된 설정을 표시합니다.",
     "display_saved_settings_button": "저장된 설정 읽어오기",
 
     "equipment_data_type_label": "장비 데이터 종류 :",
@@ -126,20 +118,10 @@
   "other_tab": {
     "tab_title": "기타",
 
-    "update_in_progress": "업데이트 중입니다!",
-    "quest_update": "퀘스트 업데이트 :",
-    "normal_quests": "일반 퀘스트",
-    "hard_quests": "하드 퀘스트",
-    "equipment_data": "장비 정보",
-    "equipment_selection": "장비 선택",
-    "en_translated_names": "영어 이름",
-    "updated_rank_equipment": "업데이트된 신규 장비",
-
     "other_pages_title": "기타 페이지",
     "quest_data": "퀘스트 정보",
     "recipe_data": "재료 정보",
     "character_data": "캐릭터 정보",
-    "github": "GitHub",
     "simple_mode": "간단 모드",
     "fancy_mode": "고급 모드",
     "help": "도움말 (위키)",
@@ -268,6 +250,7 @@
     "new_year": "신년",
     "oedo": "오에도",
     "princess": "공주",
+    "ranger": "레인저",
     "summer": "여름",
     "transfer_student": "편입생",
     "valentine": "발렌타인"

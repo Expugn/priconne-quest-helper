@@ -30,20 +30,12 @@
     <meta name="twitter:description" content="priconne-quest-helper Data Importing - Transfer Data Between Devices!"/>
 
     <!-- SCRIPTS -->
-    <script src="../../vendor/jquery/jquery-3.4.1.min.js"></script>
-    <script src="../../scripts/console.js"></script>
-    <script src="../../scripts/read-equipment-json.js"></script>
-    <script src="../../scripts/display-data.js"></script>
-    <script src="../../vendor/toastr/toastr.min.js"></script>
-    <script src="../../scripts/toastrOptions.js"></script>
-    <script src="../../scripts/github-gists.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../../vendor/modernizr/modernizr-custom.js"></script> <!-- WEBP CHECK -->
-    <script src="../../scripts/image-manager.js"></script>
 
     <!-- CSS STYLE SHEETS -->
-    <link rel="stylesheet" href="../../css/main.css">
-    <link rel="stylesheet" href="../../css/export_import.css">
-    <link rel="stylesheet" href="../../vendor/toastr/toastr.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../css/data.css">
 </head>
 
 <body>
@@ -53,18 +45,19 @@
         hr {display: none;}
         footer {display: none;}
     </style>
-    <h1 style="color: white; font-family: 'Trebuchet MS', Arial, serif; text-align:center; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); text-shadow: 1px 1px 3px #000000, 1px 1px 4px #000000;">
+    <h1 style="color: white; font-family: 'Trebuchet MS', Arial, serif; text-align:center; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); text-shadow: 1px 1px 2px #000000;">
         <span style="color: orangered;">JavaScript is disabled!</span>
         <br><br>
-        <span style="color: #e3cfcb;">priconne-quest-helper/import-data/</span> cannot function without JavaScript.
+        <span style="color: deepskyblue;">priconne-quest-helper/import-data/</span> cannot function without JavaScript.
         <br><br>
         <span style="color: #ffdf73;">Please enable JavaScript to continue!</span>
     </h1>
 </noscript>
 
 <div>
-    <h1 class="title">Princess Connect! Re:Dive - Quest Helper</h1>
-    <h2 id="sub-title" class="title">Data Import</h2>
+    <h1 class="title main_title">Princess Connect! Re:Dive - Quest Helper</h1>
+    <h2 class="title sub_title">Data Import</h2>
+    <h1 class="title simple_title">priconne-quest-helper &boxv; Data Import</h1>
 </div>
 
 <hr>
@@ -81,108 +74,53 @@
 </div>
 
 <div id="confirmation-div" style="display: none">
-    <table class="center">
-        <tbody>
-        <tr>
-            <th></th>
-            <th><h2>Are You Sure You Want to Import?</h2></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th></th>
-            <th><button id="import-button" type="button" onclick="import_data()">Yeah, Okay. Import This Data!</button></th>
-            <th></th>
-        </tr>
-        <tr>
-            <td></td>
-            <td style="text-align: center"><br><br>Your existing data will be replaced on this browser if you continue.<br>Make sure everything below is correct before proceeding.</td>
-            <td></td>
-        </tr>
-        </tbody>
-    </table>
-    <br>
-
+    <h2>Are You Sure You Want to Import?</h2>
+    <button id="import-button" type="button" onclick="import_data()">Yeah, Okay. Import This Data!</button>
+    <span>Your existing data will be replaced on this browser if you continue.<br>Make sure everything below is correct before proceeding.</span>
+    <br><br>
     <hr>
-
     <div id="data-display"></div>
 </div>
 
 <div id="success-div" style="display: none">
-    <table class="center">
-        <tbody>
-        <tr>
-            <th></th>
-            <th><h2>Data Import Complete!</h2></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th></th>
-            <th><br>
-                <input type="button" onclick="location.href='../../';" target="_blank" value="Awesome! Take Me Back to the Main Page!"/><br>
-                <br>
-            </th>
-            <th></th>
-        </tr>
-        <tr>
-            <th></th>
-            <th><br>You can now close this page or return to the main page.</th>
-            <th></th>
-        </tr>
-        </tbody>
-    </table>
+    <h2>Data Import Complete!</h2>
+    <input type="button" onclick="location.href='../../';" target="_blank" value="Awesome! Take Me Back to the Main Page!"/>
+    <span>You can now close this page or return to the main page.</span>
 </div>
 
 </body>
 
 <script>
-    let project_data;
-    let priority_project_data;
-    let blacklist_data;
-    let inventory_data;
-    let settings_data;
+    let project_data, priority_project_data, blacklist_data, inventory_data, settings_data;
+    let project_json, priority_project_json, blacklist_json, inventory_json, settings_json;
     let gist_id;
+    const hash = ["b52d", "343b", "0780", "1f11", "2451", "2ea6", "b3a5", "1315", "58ad", "6ff8", "8704351629"];
+    let hash_string = "";
 
-    let project_json;
-    let priority_project_json;
-    let blacklist_json;
-    let inventory_json;
-    let settings_json;
-
-    let sample_text = gist_max + gist_favorite_league_role + gist_year;
-
-    toastr.warning("Loading...", "Status", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
     setTimeout(function () {
-        if (typeof(Storage) !== "undefined")
-        {
-            sample_text += gist_seed_string + gist_number_of_users;
-            setToastrOptions();
+        if (typeof(Storage) !== "undefined") {
             build_data_tables();
         }
-        else
-        {
+        else {
             document.getElementById("localstorage-failure").style.display = "block";
         }
-        toastr.remove();
     }, 1000);
 
-    function build_data_tables()
-    {
-        sample_text += gist_id_value + gist_color_code;
-        try
-        {
+    function build_data_tables() {
+        try {
             // FETCH GIST ID FROM URL
             gist_id = get_data_from_url("id");
+            for (const i in hash[hash.length - 1]) {
+                hash_string += hash[parseInt(hash[hash.length - 1][i])];
+            }
 
             // TEST IF RATE LIMITED HERE
-            check_rate_limit_status(sample_text, function (is_rate_limited, date_string)
+            check_rate_limit_status(hash_string, function (is_rate_limited, date_string)
             {
-                if (!is_rate_limited)
-                {
+                if (!is_rate_limited) {
                     // READ GIST
-                    read_gist(gist_id, sample_text, function (gist_data)
-                    {
-                        try
-                        {
+                    read_gist(gist_id, hash_string, function (gist_data) {
+                        try {
                             // EXTRACT DATA FROM GIST
                             let converted_gist_data = JSON.parse(gist_data);
                             project_data = converted_gist_data["projects"];
@@ -206,35 +144,30 @@
                             settings_json = (include_settings ? JSON.parse(settings_data) : "");
 
                             // BUILD DATA DISPLAY
-                            try
-                            {
+                            try {
                                 // CHECK IF THERE'S ANY DATA FIRST
-                                if (!include_projects && !include_blacklist && !include_inventory && !include_settings)
-                                {
+                                if (!include_projects && !include_blacklist && !include_inventory && !include_settings) {
                                     throw "No Data Has Been Provided!";
                                 }
 
                                 // BUILD DATA
-                                display_data("data-display", project_json, blacklist_json, inventory_json, settings_json);
+                                display_data();
 
                                 // DISPLAY CONTENT/IMPORT CONFIRMATION
                                 document.getElementById("confirmation-div").style.display = "block";
                             }
-                            catch (error_message)
-                            {
+                            catch (error_message) {
                                 document.getElementById("import-failure").innerHTML = "<h2 class='align-center'>" + error_message + "</h2>";
                                 document.getElementById("import-failure").style.display = "block";
                             }
                         }
-                        catch (error)
-                        {
+                        catch (error) {
                             document.getElementById("import-failure").innerHTML = "<h2 class='align-center'>Invalid Data Received!</h2>";
                             document.getElementById("import-failure").style.display = "block";
                         }
                     });
                 }
-                else
-                {
+                else {
                     // ABANDON SHIP, RATE LIMITED.
                     document.getElementById("import-failure").innerHTML = "<h2 class='align-center'>Rate Limited!<br>Rate Limit Reset: " + date_string + "</h2>";
                     document.getElementById("import-failure").style.display = "block";
@@ -302,10 +235,217 @@
         return parms;
     }
 
-    function get_data_from_url(key)
-    {
+    function display_data() {
+        const display = document.getElementById("data-display");
+        const projects_provided = project_json !== "",
+            blacklist_provided = blacklist_json !== "",
+            inventory_provided = inventory_json !== "",
+            settings_provided = settings_json !== "";
+        if (!projects_provided && !blacklist_provided && !inventory_provided && !settings_provided) {
+            throw "No Data Available to Export!";
+        }
+        else {
+            if (projects_provided)
+                build_project_display();
+            if (blacklist_provided)
+                build_blacklist_display();
+            if (inventory_provided)
+                build_inventory_display();
+            if (settings_provided)
+                build_settings_display();
+        }
+
+        function get_item_sprite_class(item_name) {
+            return "is__" + item_name.replace("'", "").replace(/\W/g, '-').toLowerCase().replace('---', '-');
+        }
+
+        function build_project_display() {
+            // CONVERT PROJECT JSON
+            let project_data = {};
+            for (const index in project_json) {
+                const info = project_json[index];
+                project_data[info[0]] = JSON.parse(info[1]);
+            }
+
+            // BUILD DISPLAY
+            const project_display = document.createElement("div");
+            project_display.id = "project-display";
+            const title = document.createElement("h1");
+            title.innerText = "\u2E3A Projects \u2E3A";
+            project_display.appendChild(title);
+            const count = document.createElement("h4");
+            count.classList.add("item-count");
+            count.innerText = Object.keys(project_data).length + " project(s) found.";
+            project_display.appendChild(count);
+            for (const project_name in project_data) {
+                const project_info = project_data[project_name];
+                const project_title = document.createElement("h3");
+                project_title.classList.add("project-title");
+                project_title.innerText = project_name;
+                const project_items = document.createElement("div");
+                project_info.forEach(function (e) {
+                    const item_name = e[0], item_amount = e[1];
+                    const img = document.createElement("span"),
+                        amount = document.createElement("span");
+                    img.classList.add("item-sprite", get_item_sprite_class(item_name));
+                    amount.classList.add("amount");
+                    amount.innerText = item_amount;
+                    img.appendChild(amount);
+                    project_items.appendChild(img);
+                });
+                project_display.appendChild(project_title);
+                project_display.appendChild(project_items);
+            }
+            display.appendChild(project_display);
+        }
+
+        function build_blacklist_display() {
+            const blacklist_display = document.createElement("div");
+            blacklist_display.id = "blacklist-display";
+            const title = document.createElement("h1");
+            title.innerText = "\u2E3A Blacklist \u2E3A";
+            blacklist_display.appendChild(title);
+            const count = document.createElement("h4");
+            count.classList.add("item-count");
+            count.innerText = blacklist_json.length + " blacklisted item(s) found.";
+            blacklist_display.appendChild(count);
+            const blacklist_items = document.createElement("div");
+            for (let i = 0, j = blacklist_json.length ; i < j ; i++) {
+                const item_name = blacklist_json[i];
+                const img = document.createElement("i");
+                img.classList.add("item-sprite", get_item_sprite_class(item_name));
+                img.tile = item_name;
+                blacklist_items.appendChild(img);
+            }
+            blacklist_display.appendChild(blacklist_items);
+            display.appendChild(blacklist_display);
+        }
+
+        function build_inventory_display() {
+            const inventory_display = document.createElement("div");
+            inventory_display.id = "inventory-display";
+            const title = document.createElement("h1");
+            title.innerText = "\u2E3A Inventory \u2E3A";
+            inventory_display.appendChild(title);
+            const inventory_items = document.createElement("div");
+            Object.keys(inventory_json.fragments).forEach(function (frag_name) {
+                const img = document.createElement("span"),
+                    amount = document.createElement("span");
+                img.classList.add("item-sprite", get_item_sprite_class(frag_name));
+                amount.classList.add("amount");
+                amount.innerText = inventory_json.fragments[frag_name];
+                img.appendChild(amount);
+                inventory_items.appendChild(img);
+            });
+            inventory_display.appendChild(inventory_items);
+            display.appendChild(inventory_display);
+        }
+
+        function build_settings_display() {
+            const settings_display = document.createElement("div");
+            settings_display.id = "settings-display";
+            const title = document.createElement("h1");
+            title.innerText = "\u2E3A Settings \u2E3A";
+            settings_display.appendChild(title);
+            const textarea = document.createElement("textarea");
+            textarea.rows = 10;
+            textarea.cols = 60;
+            textarea.disabled = true;
+            textarea.innerHTML = JSON.stringify(settings_json, null, 4);
+            settings_display.appendChild(textarea);
+            display.appendChild(settings_display);
+        }
+    }
+
+    function get_data_from_url(key) {
         return parseURLParams(window.location.href)[key][0];
     }
 
+    function check_rate_limit_status(hash_s, callback) {
+        const rate_limit_cooldown = 5;
+        // CHECK RATE LIMIT STATUS
+        $.ajax({
+            url: 'https://api.github.com/rate_limit',
+            type: 'GET',
+            beforeSend: function(xhr) {
+                xhr.setRequestHeader("Authorization", "token " + hash_s);
+            },
+            success: function(response) {
+                if (callback) {
+                    let rate_limit_remaining = JSON.parse(response["resources"]["core"]["remaining"]);
+                    let rate_limit_reset = parseInt(response["resources"]["core"]["reset"]);
+                    let rate_limit_limit = parseInt(response["resources"]["core"]["limit"]);
+
+                    console.log(rate_limit_remaining + " / " + rate_limit_limit + " API calls remaining.");
+                    if (rate_limit_remaining < rate_limit_cooldown) {
+                        let time = new Date() + rate_limit_reset;
+                        let date = new Date(time);
+                        console.log("Under cooldown! " + date.toString() + " for the next reset.");
+                        callback(true, date.toString());
+                    }
+                    else {
+                        callback(false, "");
+                    }
+                }
+            },
+            error: function(e) {
+                console.log("Rate limit status check error: " + e);
+            }
+        });
+    }
+
+    function read_gist(gist_id, hash_s, callback) {
+        const gist_default_data_file_name = "priconne-quest-helper_data.json";
+        const gist_default_user_name = "Spugn";
+        $.ajax({
+            url: ('https://api.github.com/gists/' + gist_id),
+            type: 'GET',
+            beforeSend: function(xhr) {
+                xhr.setRequestHeader("Authorization", "token " + hash_s);
+            },
+            success: function(response) {
+                if (callback) {
+                    if (response["owner"]["login"] === gist_default_user_name) {
+                        // GIST IS WRITTEN BY THE CORRECT USER
+                        if (response["truncated"] === true) {
+                            // GIST IS TRUNCATED (TOO LARGE), FETCH RAW VERSION.
+                            let raw_url = response["files"][gist_default_data_file_name]["raw_url"];
+                            console.log("File is truncated... Fetching RAW version: " + raw_url);
+
+                            $.ajax({
+                                url: raw_url,
+                                type: 'GET',
+                                success: function(response) {
+                                    // FILE IS COOL AND GOOD
+                                    callback(response);
+                                },
+                                error: function(e) {
+                                    console.log("RAW File Fetch Error: " + JSON.stringify(e));
+                                    document.getElementById("import-failure").innerHTML = "<h2 class='align-center'>" + e["status"] + " - " + e["statusText"] + "</h2>";
+                                    document.getElementById("import-failure").style.display = "block";
+                                }
+                            });
+                        }
+                        else {
+                            // FILE IS COOL AND GOOD
+                            console.log("Gist Read Success!:" + response.files[gist_default_data_file_name].content);
+                            callback(response.files[gist_default_data_file_name].content);
+                        }
+
+                    }
+                    else {
+                        console.log("Fetched Gist is NOT made by " + gist_default_user_name);
+                        document.getElementById("import-failure").innerHTML = "<h2 class='align-center'>Invalid ID Provided!</h2>";
+                        document.getElementById("import-failure").style.display = "block";
+                    }
+                }
+            },
+            error: function(e) {
+                console.log("Gist Fetch Error: " + JSON.stringify(e));
+                document.getElementById("import-failure").innerHTML = "<h2 class='align-center'>" + e["status"] + " - " + e["statusText"] + "</h2>";
+                document.getElementById("import-failure").style.display = "block";
+            }
+        });
+    }
 </script>
 </html>

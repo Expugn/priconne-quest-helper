@@ -45,48 +45,34 @@
     <meta name="twitter:description" content="Quest Choosing Assistance and Project Management for the Game 'Princess Connect! Re:Dive' （プリンセスコネクト! Re:Dive）."/>
 
     <!-- SCRIPTS -->
-    <script src="vendor/jquery/jquery-3.4.1.min.js"></script>
-    <script src="vendor/toastr/toastr.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <script src="vendor/modernizr/modernizr-custom.js"></script> <!-- WEBP CHECK -->
-    <script src="scripts/console.js"></script>
-    <script src="scripts/image-manager.js"></script>
-    <script src="scripts/read-equipment-json.js"></script>
-    <script src="scripts/read-quest-json.js"></script>
-    <script src="scripts/read-character-json.js"></script>
-    <script src="scripts/settings.js"></script>
-    <script src="scripts/inventory.js"></script>
-    <script src="scripts/build-item-table.js"></script>
-    <script src="scripts/character-presets.js"></script>
-    <script src="scripts/recipe-reader.js"></script>
-    <script src="scripts/projects.js"></script>
-    <script src="scripts/recommended-quest-table.js"></script>
-    <script src="scripts/read-item.js"></script>
-    <script src="scripts/update-requested.js"></script>
-    <script src="scripts/collapsible-animate.js"></script>
-    <script src="scripts/toastrOptions.js"></script>
-    <script src="scripts/navigation-bar.js"></script>
-    <script src="scripts/update-progress.js"></script>
-    <script src="scripts/language.js"></script>
-    <script src="scripts/title-background.js"></script>
+    <script src="scripts/priconne-data.js"></script>
+    <script src="scripts/priconne-quest-helper.js"></script>
 
     <!-- CSS STYLE SHEETS -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Noto+Sans+KR:wght@400;500;700&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="vendor/toastr/toastr.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/webpage.css">
     <link rel="stylesheet" href="css/spritesheet.css">
-
+    <link rel="stylesheet" href="css/data.css">
     <!-- PRELOAD -->
     <link rel="preload" href="images/webpage/adv_mask_C.png" as="image">
 </head>
 
-<body class="fancy-body">
+<body class="fancy-body no-js">
 <div id="page-loading">
     <div id="page-cover"></div>
     <div id="loading-div" class="center-div">
-        <img id="miyako" src alt=""/>
+        <i id="miyako"></i>
         <div id="loading-text">loading priconne-quest-helper...</div>
     </div>
     <script>
+        // REMOVE .no-js AS AN INDICATOR THAT JAVASCRIPT IS SUPPORTED
+        $("body").toggleClass("no-js");
+
         // MAKE MIYAKO RUN
         setTimeout(function () {
             document.getElementById("miyako").classList.add("run");
@@ -95,25 +81,7 @@
 </div>
 
 <noscript>
-    <style type="text/css">
-        div:not(#page-loading):not(#loading-div) {display: none;}
-        hr {display: none;}
-        footer {display: none;}
-        #miyako {!important; background: url("images/webpage/spritesheets/miyako_death.png") !important; animation: death 1250ms steps(18) forwards; }
-        #loading-div { top: 40% !important; }
-        @media (max-width: 650px) {
-            #javascript-warning {
-                width: 80%;
-                top: 60% !important;
-            }
-        }
-        @media (max-height: 650px) {
-            #javascript-warning {
-                top: 80% !important;
-            }
-        }
-    </style>
-    <h4 id="javascript-warning" style="color: white; font-family: 'Trebuchet MS', Arial, serif; text-align:center; position: fixed; top: 56%; left: 50%; transform: translate(-50%, -50%); text-shadow: 1px 1px 3px #000000, 1px 1px 4px #000000; z-index: 4; background: rgba(0, 0, 0, 0.30); padding: 10px 30px; border-radius: 6px;">
+    <h4 id="javascript-warning">
         <span style="color: orangered;">JavaScript is disabled!</span>
         <br>
         <span style="color: #e3cfcb;">priconne-quest-helper</span> cannot function without JavaScript.
@@ -123,54 +91,54 @@
 </noscript>
 
 <!-- TITLE ( PRINCESS CONNECT RE:DIVE - QUEST HELPER ) -->
-<div id="title-div" class="title-background use-webp" onclick="">
+<div id="title-div" class="title-background" onclick="">
     <div id="title-text-div">
         <h1 class="title main_title">
-            <span translate_text="system.title">
+            <translate text="system.title">
                 Princess Connect! Re:Dive
-            </span>
+            </translate>
         </h1>
         <h2 id="sub-title" class="title sub_title">
-            <span translate_text="system.subtitle">
+            <translate text="system.subtitle">
                 Quest Helper
-            </span>
+            </translate>
         </h2>
     </div>
 </div>
 
 <!-- NAVIGATION BAR -->
 <div id="navigation-bar">
-    <button id="navigation-items" class="is-open" type="button" onclick="open_items()">
-        <img class="navigation-bar-image ss_navigation-button" src alt="">
-        <span class="navigation-bar-text" translate_text="items_tab.tab_title">
+    <button id="navigation-items" class="is-open" type="button" onclick="webpage.navigation.items()">
+        <i class="webpage webpage-items navigation-bar-image"></i>
+        <translate class="navigation-bar-text" text="items_tab.tab_title">
             Items
-        </span>
+        </translate>
     </button>
-    <button id="navigation-presets" type="button" onclick="open_presets()">
-        <img class="navigation-bar-image ss_navigation-button" src alt=""/>
-        <span class="navigation-bar-text" translate_text="presets_tab.tab_title">
+    <button id="navigation-presets" type="button" onclick="webpage.navigation.presets()">
+        <i class="webpage webpage-presets navigation-bar-image"></i>
+        <translate class="navigation-bar-text" text="presets_tab.tab_title">
             Presets
-        </span>
+        </translate>
     </button>
-    <button id="navigation-projects" type="button" onclick="open_projects()">
-        <img class="navigation-bar-image ss_navigation-button" src alt="">
-        <span class="navigation-bar-text" translate_text="projects_tab.tab_title">
+    <button id="navigation-projects" type="button" onclick="webpage.navigation.projects()">
+        <i class="webpage webpage-projects navigation-bar-image"></i>
+        <translate class="navigation-bar-text" text="projects_tab.tab_title">
             Projects
-        </span>
+        </translate>
     </button>
-    <button id="navigation-settings" type="button" onclick="open_settings()">
-        <img class="navigation-bar-image ss_navigation-button" src alt="">
-        <span class="navigation-bar-text" translate_text="settings_tab.tab_title">
+    <button id="navigation-settings" type="button" onclick="webpage.navigation.settings()">
+        <i class="webpage webpage-settings navigation-bar-image"></i>
+        <translate class="navigation-bar-text" text="settings_tab.tab_title">
             Settings
-        </span>
+        </translate>
     </button>
-    <button id="navigation-other" type="button" onclick="open_other()">
-        <img class="navigation-bar-image ss_navigation-button" src alt="">
-        <span class="navigation-bar-text" translate_text="other_tab.tab_title">
+    <button id="navigation-other" type="button" onclick="webpage.navigation.other()">
+        <i class="webpage webpage-other navigation-bar-image"></i>
+        <translate class="navigation-bar-text" text="other_tab.tab_title">
             Other
-        </span>
+        </translate>
     </button>
-    <select id="language-option" onchange="load_language()" disabled>
+    <select id="language-option" onchange="webpage.language.load()" disabled>
         <option value="en">English</option>
         <option value="ja">日本語</option>
         <option value="ko">한국어</option>
@@ -181,7 +149,7 @@
 <div id="items-container">
     <div id="common-div">
         <h2 class="text-color_common rarity-button collapsible">
-            <span translate_text="items_tab.common_title">Common</span>
+            <translate text="items_tab.common_title">Common</translate>
         </h2>
         <div id="common-item-content" class="collapsible-content">
             <!-- COMMON ITEMS GET ADDED BELOW -->
@@ -191,7 +159,7 @@
 
     <div id="copper-div">
         <h2 class="text-color_copper rarity-button collapsible">
-            <span translate_text="items_tab.copper_title">Copper</span>
+            <translate text="items_tab.copper_title">Copper</translate>
         </h2>
         <div id="copper-item-content" class="collapsible-content">
             <!-- COPPER ITEMS GET ADDED BELOW -->
@@ -201,7 +169,7 @@
 
     <div id="silver-div">
         <h2 class="text-color_silver rarity-button collapsible">
-            <span translate_text="items_tab.silver_title">Silver</span>
+            <translate text="items_tab.silver_title">Silver</translate>
         </h2>
         <div id="silver-item-content" class="collapsible-content">
             <!-- SILVER ITEMS GET ADDED BELOW -->
@@ -211,7 +179,7 @@
 
     <div id="gold-div">
         <h2 class="text-color_gold rarity-button collapsible">
-            <span translate_text="items_tab.gold_title">Gold</span>
+            <translate text="items_tab.gold_title">Gold</translate>
         </h2>
         <div id="gold-item-content" class="collapsible-content">
             <!-- GOLD ITEMS GET ADDED BELOW -->
@@ -221,7 +189,7 @@
 
     <div id="purple-div">
         <h2 class="text-color_purple rarity-button collapsible">
-            <span translate_text="items_tab.purple_title">Purple</span>
+            <translate text="items_tab.purple_title">Purple</translate>
         </h2>
         <div id="purple-item-content" class="collapsible-content">
             <!-- PURPLE ITEMS GET ADDED BELOW -->
@@ -231,7 +199,7 @@
 
     <div id="misc-div">
         <h2 class="text-color_misc rarity-button collapsible">
-            <span translate_text="items_tab.miscellaneous_title">Misc.</span>
+            <translate text="items_tab.miscellaneous_title">Misc.</translate>
         </h2>
         <div id="misc-item-content" class="collapsible-content">
             <!-- MEMORY PIECE / MISC ITEMS GET ADDED BELOW -->
@@ -241,20 +209,20 @@
 
     <div id="requested-div">
         <h2 class="item-table_category-title">
-            <span translate_text="items_tab.requested_items_title">Requested Items</span>
+            <translate text="items_tab.requested_items_title">Requested Items</translate>
         </h2>
         <div class="request-info">
             <!-- REQUESTED ITEMS (FULL EQUIPMENT) GETS ADDED BELOW -->
             <div id="requested-item-table" class="center-div">
                 <!-- STARTING TIP FOR REQUESTED ITEMS -->
                 <h4 class="tip center-div">
-                    <span style="color: navajowhite"><span translate_text="items_tab.requested_items_help_1">
+                    <span style="color: navajowhite"><translate text="items_tab.requested_items_help_1">
                         The items and amount you selected from the categories above will be displayed here.
-                    </span></span>
+                    </translate></span>
                     <br><br>
-                    <span translate_text="items_tab.requested_items_help_2">
+                    <translate text="items_tab.requested_items_help_2">
                         Clicking on the category title will open or close a table of all the items in that rarity class.
-                    </span>
+                    </translate>
                 </h4>
             </div>
         </div>
@@ -265,31 +233,31 @@
 <div id="presets-container" hidden>
     <div id="character-preset-div">
         <h2 class="category-title">
-            <span translate_text="presets_tab.character_presets">Character Presets</span>
+            <translate text="presets_tab.character_presets">Character Presets</translate>
         </h2>
         <div id="character-preset-settings">
             <!-- BULK MODE BUTTON -->
             <div class="center-div">
-                <button id="preset-bulk-mode-button" onclick="toggle_bulk_mode()"><span translate_text="presets_tab.bulk_mode">Bulk Mode</span></button>
+                <button id="preset-bulk-mode-button" onclick="presets.toggle_bulk_mode()"><translate text="presets_tab.bulk_mode">Bulk Mode</translate></button>
             </div>
             <!-- SELECT LIST OF CHARACTERS FOUND IN data/character_data.json -->
             <div class="center-div">
-                <select id="character-preset-list-select" onchange="update_selected_character_preset_details()"></select>
-                <button id="preset-search-button" onclick="toggle_preset_grid_display();">
-                    <img id="preset-lens-image" class="use-webp" image_folder="webpage" file_name="lens" src_prefix="" src alt="">
+                <select id="character-preset-list-select" onchange="presets.update_details()"></select>
+                <button id="preset-search-button" onclick="presets.toggle_grid_display()">
+                    <img-webp id="preset-lens-image" image_folder="webpage" file_name="lens" src_prefix=""></img-webp>
                 </button>
             </div>
             <br>
             <!-- SELECTED CHARACTER IMAGE AND NAME -->
             <div class="center-div">
-                <img id="preset-character-image" class="use-webp presets_unit-icon" image_folder="unit_icon" file_name="Placeholder" src_prefix="" src alt=""><br>
-                <label id="preset-character-name-label" class="presets_unit-info priconne-font"></label>
+                <img-webp id="preset-character-image" class="presets_unit-icon" image_folder="unit_icon" file_name="Placeholder" src_prefix=""></img-webp><br>
+                <label id="preset-character-name-label" class="presets_unit-info"></label>
             </div>
             <div id="preset-bulk-settings">
                 <!-- MIN RANK TO MAX RANK OPTIONS -->
-                <div class="center-div text-overflow_auto">
+                <div class="center-div">
                     <div style="display: inline-block; width: 25%; font-weight: bold;">
-                        <label class="category-title"><span translate_text="presets_tab.minimum_rank">Min Rank</span></label><br>
+                        <label class="category-title"><translate text="presets_tab.minimum_rank">Min Rank</translate></label><br>
                         <input
                                 id="preset-character-min-rank-input"
                                 class="item-input"
@@ -298,11 +266,11 @@
                                 max="1"
                                 value="1"
                                 disabled
-                                onchange="change_min_rank_preset()">
+                                onchange="presets.change_min_rank()">
                     </div>
-                    <label class="category-title" style="padding-left: 25px; padding-right: 25px; font-weight: bold;"><span translate_text="presets_tab.to">to</span></label>
+                    <label class="category-title" style="padding-left: 25px; padding-right: 25px; font-weight: bold;"><translate text="presets_tab.to">to</translate></label>
                     <div style="display: inline-block; width: 25%; font-weight: bold;">
-                        <label class="category-title"><span translate_text="presets_tab.maximum_rank">Max Rank</span></label><br>
+                        <label class="category-title"><translate text="presets_tab.maximum_rank">Max Rank</translate></label><br>
                         <input
                                 id="preset-character-max-rank-input"
                                 class="item-input"
@@ -311,70 +279,64 @@
                                 max="1"
                                 value="1"
                                 disabled
-                                onchange="change_max_rank_preset()">
+                                onchange="presets.change_max_rank()">
                     </div>
                 </div>
                 <br>
                 <!-- LOAD PRESET BUTTON AND LOAD PRESET AND SAVE PROJECT BUTTON -->
                 <div class="center-div">
-                    <button id="preset-character-load-button" type="button" disabled onclick="load_preset_character_items()"><span translate_text="presets_tab.load_items_button">Load Items</span></button><br><br>
-                    <button id="preset-character-load-and-create-project-button" type="button" disabled onclick="load_preset_character_items_and_create_project()"><span translate_text="presets_tab.load_items_and_create_project_button">Load Items and Create Project</span></button>
+                    <button id="preset-character-load-button" type="button" disabled onclick="presets.load()"><translate text="presets_tab.load_items_button">Load Items</translate></button><br><br>
+                    <button id="preset-character-load-and-create-project-button" type="button" disabled onclick="presets.load_and_save()"><translate text="presets_tab.load_items_and_create_project_button">Load Items and Create Project</translate></button>
                 </div>
 
                 <!-- ITEM TABLE OVERWRITE WARNING -->
                 <h3 class="category-title presets_overwrite-warning">
-                <span translate_text="presets_tab.overwrite_warning">
+                <translate text="presets_tab.overwrite_warning">
                     Currently selected items will be replaced<br>
                     when the <span style="color: lightpink">Load Item</span> button is pressed.
-                </span>
+                </translate>
                 </h3>
             </div>
             <div id="preset-single-settings" hidden>
                 <div id="preset-items-div" class="center-div grayscale">
                     <div>
-                        <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-1').title);">
-                            <img id="preset-item-1" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src alt="">
-                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src alt="">
+                        <button id="preset-item-1" class="item-sprite_button preset-item-button item-sprite" onclick="presets.add_preset_item(this.title);">
+                            <img-webp class="preset-plus-img" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix=""></img-webp>
                         </button>
                         <span class="preset-item-button-padding"></span>
-                        <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-2').title);">
-                            <img id="preset-item-2" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src alt="">
-                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src alt="">
+                        <button id="preset-item-2" class="item-sprite_button preset-item-button item-sprite" onclick="presets.add_preset_item(this.title);">
+                            <img-webp class="preset-plus-img" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix=""></img-webp>
                         </button>
                     </div>
                     <div>
-                        <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-3').title);">
-                            <img id="preset-item-3" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src alt="">
-                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src alt="">
+                        <button id="preset-item-3" class="item-sprite_button preset-item-button item-sprite" onclick="presets.add_preset_item(this.title);">
+                            <img-webp class="preset-plus-img" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix=""></img-webp>
                         </button>
                         <span class="preset-item-button-padding"></span>
-                        <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-4').title);">
-                            <img id="preset-item-4" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src alt="">
-                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src alt="">
+                        <button id="preset-item-4" class="item-sprite_button preset-item-button item-sprite" onclick="presets.add_preset_item(this.title);">
+                            <img-webp class="preset-plus-img" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix=""></img-webp>
                         </button>
                     </div>
                     <div>
-                        <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-5').title);">
-                            <img id="preset-item-5" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src alt="">
-                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src alt="">
+                        <button id="preset-item-5" class="item-sprite_button preset-item-button item-sprite" onclick="presets.add_preset_item(this.title);">
+                            <img-webp class="preset-plus-img" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix=""></img-webp>
                         </button>
                         <span class="preset-item-button-padding"></span>
-                        <button class="preset-item-button" onclick="add_preset_item(document.getElementById('preset-item-6').title);">
-                            <img id="preset-item-6" class="preset-item-img use-webp" title="" image_folder="items" file_name="Placeholder" src_prefix="" src alt="">
-                            <img class="preset-plus-img use-webp" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix="" src alt="">
+                        <button id="preset-item-6" class="item-sprite_button preset-item-button item-sprite" onclick="presets.add_preset_item(this.title);">
+                            <img-webp class="preset-plus-img" style="opacity: 0;" image_folder="webpage" file_name="plus" src_prefix=""></img-webp>
                         </button>
                     </div>
                 </div>
                 <div id="preset-item-settings" class="center-div">
-                    <span id="preset-items-rank-label" class="grayscale text-color_common" onclick="open_preset_rank_dropdown()">Rank 1</span>
-                    <select id="preset-items-rank-select" onchange="close_preset_rank_dropdown()" hidden></select>
+                    <span id="preset-items-rank-label" class="grayscale text-color_common" onclick="presets.open_rank_select()">Rank 1</span>
+                    <select id="preset-items-rank-select" onchange="presets.close_rank_select()" hidden></select>
                     <br><br>
                     <div id="preset-items-rank-buttons">
-                        <button id="preset-items-previous-rank-button" onclick="previous_preset_rank();" disabled>
+                        <button id="preset-items-previous-rank-button" onclick="presets.previous_rank()" disabled>
                             <span class="preset-item-rank-button-text">&laquo; Rank</span>
                         </button>
                         <span style="padding: 40px; position: relative; top: 30px;"></span>
-                        <button id="preset-items-next-rank-button" onclick="next_preset_rank();" disabled>
+                        <button id="preset-items-next-rank-button" onclick="presets.next_rank()" disabled>
                             <span class="preset-item-rank-button-text">Rank &raquo;</span>
                         </button>
                     </div>
@@ -383,7 +345,7 @@
         </div>
         <div id="character-preset-grid" hidden>
             <div class="center-div">
-                <button onclick="toggle_preset_grid_display();"><span translate_text="presets_tab.cancel">Cancel</span></button>
+                <button class="pointer-cursor" onclick="presets.toggle_grid_display()"><translate text="presets_tab.cancel">Cancel</translate></button>
                 <br><br>
                 <div id="preset-grid-display" class="center-div"></div>
             </div>
@@ -400,10 +362,10 @@
         <table class="center-table">
             <tr><th>
                     <label style="color: red; font-weight: bolder;">
-                        <span translate_text="projects_tab.localstorage_warning">
+                        <translate text="projects_tab.localstorage_warning">
                             Your browser does not support LocalStorage.<br>
                             Projects, Blacklist, Data Importing/Exporting, and Settings Saving have been disabled.
-                        </span>
+                        </translate>
                     </label>
             </th></tr>
         </table>
@@ -415,9 +377,9 @@
 
         <!-- PROJECT SAVING | PROJECT NAME INPUT ; SAVE BUTTON -->
         <div>
-            <label for="project-name-input"><span translate_text="projects_tab.project_name_label">Project Name:</span> </label>
+            <label for="project-name-input"><translate text="projects_tab.project_name_label">Project Name:</translate> </label>
             <input id="project-name-input" type="text" name="project-name">
-            <button id="project-save-button" type="button" onclick="save_project_data()"><span translate_text="projects_tab.save_project_button">Save Project</span></button>
+            <button id="project-save-button" type="button" onclick="projects.save()"><translate text="projects_tab.save_project_button">Save Project</translate></button>
         </div>
 
         <br>
@@ -425,38 +387,40 @@
         <!-- PROJECT OPTIONS | SAVED PROJECT SELECT ; LOAD ; ADD/SUB ITEMS ; PRIORITIZE ; DELETE ; COMPLETE ; CLEAR ITEM TABLES -->
         <div>
             <label for="saved-projects-select">
-                <span translate_text="projects_tab.select_saved_project_label">Select Saved Project:</span>
+                <translate text="projects_tab.select_saved_project_label">Select Saved Project:</translate>
             </label>
             <!-- SAVED PROJECTS ARE ADDED BELOW -->
-            <select id="saved-projects-select" onchange="update_project_selection()">
-                <option value="[All Projects...]">[All Projects...]</option>
+            <select id="saved-projects-select" onchange="projects.update()">
+                <option value="[All Projects...]">
+                    <translate text="projects_tab.all_projects_select_option">[All Projects...]</translate>
+                </option>
             </select>
             <br>
-            <button id="project-load-button" type="button" onclick="load_project_data()">
-                <span translate_text="projects_tab.load_project_button">Load Project</span>
+            <button id="project-load-button" type="button" onclick="projects.load()">
+                <translate text="projects_tab.load_project_button">Load Project</translate>
             </button>
-            <button id="project-add-button" disabled type="button" onclick="add_project_data()">
-                <span translate_text="projects_tab.add_project_items_button">Add Project Items</span>
+            <button id="project-add-button" disabled type="button" onclick="projects.add()">
+                <translate text="projects_tab.add_project_items_button">Add Project Items</translate>
             </button>
-            <button id="project-sub-button" disabled type="button" onclick="sub_project_data()">
-                <span translate_text="projects_tab.subtract_project_items_button">Subtract Project Items</span>
+            <button id="project-sub-button" disabled type="button" onclick="projects.sub()">
+                <translate text="projects_tab.subtract_project_items_button">Subtract Project Items</translate>
             </button>
-            <button id="prioritize-project-button" disabled type="button" onclick="prioritize_selected_project(true)">
-                <span translate_text="projects_tab.prioritize_project_button">Prioritize Project</span>
+            <button id="prioritize-project-button" disabled type="button" onclick="projects.prioritize(true)">
+                <translate text="projects_tab.prioritize_project_button">Prioritize Project</translate>
             </button>
-            <button id="deprioritize-project-button" disabled hidden type="button" onclick="prioritize_selected_project(false)">
-                <span translate_text="projects_tab.deprioritize_project_button">Deprioritize Project</span>
-            </button>
-            <br><br><br>
-            <button id="project-delete-button" type="button" onclick="delete_project_data()">
-                <span translate_text="projects_tab.delete_project_button">Delete Project</span>
-            </button>
-            <button id="project-complete-button" disabled type="button" onclick="complete_project()">
-                <span translate_text="projects_tab.complete_project_button">Complete Project</span>
+            <button id="deprioritize-project-button" disabled hidden type="button" onclick="projects.prioritize(false)">
+                <translate text="projects_tab.deprioritize_project_button">Deprioritize Project</translate>
             </button>
             <br><br><br>
-            <button type="button" onclick="clear_all_item_tables()">
-                <span translate_text="projects_tab.clear_item_tables_button">Clear Item Tables</span>
+            <button id="project-delete-button" type="button" onclick="projects.remove()">
+                <translate text="projects_tab.delete_project_button">Delete Project</translate>
+            </button>
+            <button id="project-complete-button" disabled type="button" onclick="projects.complete()">
+                <translate text="projects_tab.complete_project_button">Complete Project</translate>
+            </button>
+            <br><br><br>
+            <button type="button" onclick="data_display.item_table.clear(); data_display.build();">
+                <translate text="projects_tab.clear_item_tables_button">Clear Item Tables</translate>
             </button>
         </div>
 
@@ -464,17 +428,17 @@
 
         <!-- BLACKLIST OPTIONS | SAVE ; LOAD ; CLEAR ; DELETE -->
         <div>
-            <button id="blacklist-save-button" type="button" onclick="save_blacklist()">
-                <span translate_text="projects_tab.save_blacklist_button">Save Blacklist</span>
+            <button id="blacklist-save-button" type="button" onclick="projects.blacklist.save()">
+                <translate text="projects_tab.save_blacklist_button">Save Blacklist</translate>
             </button>
-            <button id="blacklist-load-button" type="button" onclick="init_blacklist()" title="There is no saved blacklist.">
-                <span translate_text="projects_tab.load_saved_blacklist_button">Load Saved Blacklist</span>
+            <button id="blacklist-load-button" type="button" onclick="projects.blacklist.init()" title="There is no saved blacklist.">
+                <translate text="projects_tab.load_saved_blacklist_button">Load Saved Blacklist</translate>
             </button>
-            <button id="blacklist-clear-button" type="button" onclick="clear_blacklist()">
-                <span translate_text="projects_tab.clear_blacklist_button">Clear Blacklist</span>
+            <button id="blacklist-clear-button" type="button" onclick="projects.blacklist.clear()">
+                <translate text="projects_tab.clear_blacklist_button">Clear Blacklist</translate>
             </button>
-            <button id="blacklist-delete-button" type="button" onclick="delete_blacklist()">
-                <span translate_text="projects_tab.delete_blacklist_button">Delete Blacklist</span>
+            <button id="blacklist-delete-button" type="button" onclick="projects.blacklist.remove()">
+                <translate text="projects_tab.delete_blacklist_button">Delete Blacklist</translate>
             </button>
         </div>
     </div>
@@ -488,7 +452,7 @@
         <br>
 
         <label for="quest-shown-amt">
-            <span translate_text="settings_tab.amount_of_quests_shown">Amount of Quests Shown (10 - 999):</span>
+            <translate text="settings_tab.amount_of_quests_shown">Amount of Quests Shown (10 - 999):</translate>
         </label>
         <input id="quest-shown-amt"
                class="item-input"
@@ -496,136 +460,126 @@
                min="10"
                max="999"
                value="10"
-               onchange="change_quest_shown_amt()">
+               onchange="settings.change_quest_shown_amt()">
 
         <br><br>
 
         <label for="sort-ascending-quest-list">
-            <span translate_text="settings_tab.sort_by_ascending_quest_list">Sort by Ascending: Quest List (Chapter 1 -> Chapter 2 -> ...)</span>
+            <translate text="settings_tab.sort_by_ascending_quest_list">Sort by Ascending: Quest List (Chapter 1 -> Chapter 2 -> ...)</translate>
         </label>
         <input id="sort-ascending-quest-list"
                type="checkbox"
                name="ascending_sort: quest_list"
                value="ascending_sort_quest_list"
                checked
-               onchange="toggle_ascending_sort_quest_list()">
+               onchange="settings.toggle_ascending_sort_quest_list()">
 
         <br>
 
         <label for="sort-ascending-quest-score">
-            <span translate_text="settings_tab.sort_by_ascending_quest_score">Sort by Ascending: Quest Score (0.5 -> 0.75 -> ...)</span>
+            <translate text="settings_tab.sort_by_ascending_quest_score">Sort by Ascending: Quest Score (0.5 -> 0.75 -> ...)</translate>
         </label>
         <input id="sort-ascending-quest-score"
                type="checkbox"
                name="ascending_sort: quest_score"
                value="ascending_sort_quest_score"
-               onchange="toggle_ascending_sort_quest_score()">
+               onchange="settings.toggle_ascending_sort_quest_score()">
 
         <br><br>
 
         <label for="hide-quest-score">
-            <span translate_text="settings_tab.hide_quest_score">Hide Quest Score</span>
+            <translate text="settings_tab.hide_quest_score">Hide Quest Score</translate>
         </label>
         <input id="hide-quest-score"
                type="checkbox"
                name="hide quest score"
                value="hide_quest_score"
                checked
-               onchange="toggle_hide_quest_score()">
+               onchange="settings.toggle_hide_quest_score()">
 
         <br><br>
 
         <label for="min-quest-chapter">
-            <span translate_text="settings_tab.lowest_quest_chapter_displayed">Lowest Quest Chapter Displayed:</span>
+            <translate text="settings_tab.lowest_quest_chapter_displayed">Lowest Quest Chapter Displayed:</translate>
         </label>
         <input id="min-quest-chapter"
                type="number"
                min="1"
                max="1"
                value="1"
-               onchange="change_min_quest_chapter()">
+               onchange="settings.change_min_quest_chapter()">
 
         <br>
 
         <label for="max-quest-chapter">
-            <span translate_text="settings_tab.highest_quest_chapter_displayed">Highest Quest Chapter Displayed:</span>
+            <translate text="settings_tab.highest_quest_chapter_displayed">Highest Quest Chapter Displayed:</translate>
         </label>
         <input id="max-quest-chapter"
                type="number"
                min="1"
                max="1"
                value="1"
-               onchange="change_max_quest_chapter()">
+               onchange="settings.change_max_quest_chapter()">
         <div style="display: inline-block;">
             <label for="auto-max-quest-chapter">
-                <span translate_text="settings_tab.max" style="margin-left: 25px;">Max</span>
+                <translate text="settings_tab.max" style="margin-left: 25px;">Max</translate>
             </label>
             <input id="auto-max-quest-chapter"
                    type="checkbox"
-                   onchange="toggle_auto_max_quest_chapter()">
+                   onchange="settings.toggle_auto_max_quest_chapter()">
         </div>
 
         <br><br>
 
         <label for="filter-all-quests">
-            <span translate_text="settings_tab.show_all_quests">Show All Quests</span>
+            <translate text="settings_tab.show_all_quests">Show All Quests</translate>
         </label>
-        <input id="filter-all-quests" type="radio" name="filter-option" value="all-quests" onclick="change_quest_filter()" checked>
+        <input id="filter-all-quests" type="radio" name="filter-option" value="all-quests" onclick="settings.change_quest_filter()" checked>
         <br>
         <label for="filter-normal-quests">
-            <span translate_text="settings_tab.show_normal_quests">Show Normal Quests</span>
+            <translate text="settings_tab.show_normal_quests">Show Normal Quests</translate>
         </label>
-        <input id="filter-normal-quests" type="radio" name="filter-option" value="normal-quests" onclick="change_quest_filter()">
+        <input id="filter-normal-quests" type="radio" name="filter-option" value="normal-quests" onclick="settings.change_quest_filter()">
         <br>
         <label for="filter-hard-quests">
-            <span translate_text="settings_tab.show_hard_quests">Show Hard Quests</span>
+            <translate text="settings_tab.show_hard_quests">Show Hard Quests</translate>
         </label>
-        <input id="filter-hard-quests" type="radio" name="filter-option" value="hard-quests" onclick="change_quest_filter()">
+        <input id="filter-hard-quests" type="radio" name="filter-option" value="hard-quests" onclick="settings.change_quest_filter()">
         <br>
         <label for="filter-very-hard-quests">
-            <span translate_text="settings_tab.show_very_hard_quests">Show Very Hard Quests</span>
+            <translate text="settings_tab.show_very_hard_quests">Show Very Hard Quests</translate>
         </label>
-        <input id="filter-very-hard-quests" type="radio" name="filter-option" value="very-hard-quests" onclick="change_quest_filter()">
+        <input id="filter-very-hard-quests" type="radio" name="filter-option" value="very-hard-quests" onclick="settings.change_quest_filter()">
 
         <br><br>
 
         <label>
-            <span translate_text="settings_tab.ignore_item_rarity_in_recipe">Ignore Item Rarity in Recipe:</span>
+            <translate text="settings_tab.ignore_item_rarity_in_recipe">Ignore Item Rarity in Recipe:</translate>
         </label><br>
-        <button id="ignore-button-common" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('common')">
-            <img class="item-button-image use-webp" title="Ignore Common Items" image_folder="webpage" file_name="Placeholder_Common" src_prefix="" src alt="">
-        </button>
-        <button id="ignore-button-copper" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('copper')">
-            <img class="item-button-image use-webp" title="Ignore Copper Items" image_folder="webpage" file_name="Placeholder_Copper" src_prefix="" src alt="">
-        </button>
-        <button id="ignore-button-silver" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('silver')">
-            <img class="item-button-image use-webp" title="Ignore Silver Items" image_folder="webpage" file_name="Placeholder_Silver" src_prefix="" src alt="">
-        </button>
-        <button id="ignore-button-gold" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('gold')">
-            <img class="item-button-image use-webp" title="Ignore Gold Items" image_folder="webpage" file_name="Placeholder_Gold" src_prefix="" src alt="">
-        </button>
-        <button id="ignore-button-purple" class="item-button pointer-cursor" onclick="toggle_ignored_rarity('purple')">
-            <img class="item-button-image use-webp" title="Ignore Purple Items" image_folder="webpage" file_name="Placeholder_Purple" src_prefix="" src alt="">
-        </button>
+        <button id="ignore-button-common" class="item-sprite_button webpage webpage-Placeholder_Common" onclick="settings.toggle_ignored_rarity('common')"></button>
+        <button id="ignore-button-copper" class="item-sprite_button webpage webpage-Placeholder_Copper" onclick="settings.toggle_ignored_rarity('copper')"></button>
+        <button id="ignore-button-silver" class="item-sprite_button webpage webpage-Placeholder_Silver" onclick="settings.toggle_ignored_rarity('silver')"></button>
+        <button id="ignore-button-gold" class="item-sprite_button webpage webpage-Placeholder_Gold" onclick="settings.toggle_ignored_rarity('gold')"></button>
+        <button id="ignore-button-purple" class="item-sprite_button webpage webpage-Placeholder_Purple" onclick="settings.toggle_ignored_rarity('purple')"></button>
 
         <br><br>
 
         <label for="display-drop-percent">
-            <span translate_text="settings_tab.display_drop_percent">Display Drop Percent</span>
+            <translate text="settings_tab.display_drop_percent">Display Drop Percent</translate>
         </label>
-        <input id="display-drop-percent" type="radio" name="display-option" value="drop-percent" onclick="change_display_option()" checked>
+        <input id="display-drop-percent" type="radio" name="display-option" value="drop-percent" onclick="settings.change_display_option()" checked>
         <br>
         <label for="display-amount-required">
-            <span translate_text="settings_tab.display_amount_required">Display Amount Required</span>
+            <translate text="settings_tab.display_amount_required">Display Amount Required</translate>
         </label>
-        <input id="display-amount-required" type="radio" name="display-option" value="amount-required" onclick="change_display_option()">
+        <input id="display-amount-required" type="radio" name="display-option" value="amount-required" onclick="settings.change_display_option()">
 
         <br><br>
 
         <label for="equipment-data-type">
-            <span translate_text="settings_tab.equipment_data_type_label">Equipment Data Type:</span>
+            <translate text="settings_tab.equipment_data_type_label">Equipment Data Type:</translate>
         </label>
-        <select id="equipment-data-type" onchange="change_equipment_data()">
+        <select id="equipment-data-type" onchange="settings.change_equipment_data()">
             <option id="equipment-data-type-current-option" value="equipment-data-current">Current Equipment Data (After 2019.08.31) (JP / TW)</option>
             <option id="equipment-data-type-legacy-option" value="equipment-data-legacy">Legacy Equipment Data (Before 2019.08.31) (KR)</option>
         </select>
@@ -633,30 +587,17 @@
         <br><br>
 
         <div id="setting-saving-div">
-            <label for="save-settings-button">
-                <span translate_text="settings_tab.save_settings">Save Settings to Local Storage</span>
-            </label><br>
-            <button id="save-settings-button" type="button" onclick="save_cookie()">
-                <span translate_text="settings_tab.save_settings_button">Save Settings</span>
-            </button><br>
-            <label for="delete-settings-button">
-                <span translate_text="settings_tab.delete_settings">Delete Settings From Local Storage</span>
-            </label><br>
-            <button id="delete-settings-button" type="button" onclick="delete_cookie()">
-                <span translate_text="settings_tab.delete_settings_button">Delete Settings</span>
-            </button>
-            <br>
-            <label for="reset-settings-button">
-                <span translate_text="settings_tab.reset_settings">Reset Settings to System Default if Saved Data Does not Exist, or to Saved Data</span>
-            </label><br>
-            <button id="reset-settings-button" type="button" onclick="reset_settings()">
-                <span translate_text="settings_tab.reset_settings_button">Reset Settings</span>
-            </button><br>
-            <label for="read-settings-button">
-                <span translate_text="settings_tab.display_saved_settings">Display Saved Settings</span>
-            </label><br>
-            <button id="read-settings-button" type="button" onclick="read_settings()">
-                <span translate_text="settings_tab.display_saved_settings_button">Read Saved Settings</span>
+            <button id="save-settings-button" type="button" onclick="settings.save_settings()">
+                <translate text="settings_tab.save_settings_button">Save Settings</translate>
+            </button><br><br>
+            <button id="delete-settings-button" type="button" onclick="settings.delete_settings()">
+                <translate text="settings_tab.delete_settings_button">Delete Settings</translate>
+            </button><br><br>
+            <button id="reset-settings-button" type="button" onclick="settings.reset_settings()">
+                <translate text="settings_tab.reset_settings_button">Reset Settings</translate>
+            </button><br><br>
+            <button id="read-settings-button" type="button" onclick="settings.print_settings()">
+                <translate text="settings_tab.display_saved_settings_button">Read Saved Settings</translate>
             </button><br><br>
         </div>
     </div>
@@ -667,90 +608,83 @@
     <div id="data-div">
         <!-- OTHER PAGE HYPERLINKS -->
         <h4>
-            <span translate_text="other_tab.other_pages_title">Other Pages</span>
+            <translate text="other_tab.other_pages_title">Other Pages</translate>
         </h4>
 
         <!-- pages/quest-data/ -->
-        <a href="pages/quest-data/" target="_blank" style="text-decoration: none;">
-            <div id="hyperlink_quest-data" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src alt="">
-                <span class="hyperlink-text" translate_text="other_tab.quest_data">Quest Data</span>
+        <a href="pages/quest-data/" target="_blank">
+            <div class="hyperlink-image">
+                <i class="webpage webpage-quest_data"></i>
+                <translate class="hyperlink-text" text="other_tab.quest_data">Quest Data</translate>
             </div>
         </a>
 
         <!-- pages/recipe-data/ -->
-        <a href="pages/recipe-data/" target="_blank" style="text-decoration: none;">
-            <div id="hyperlink_recipe-data" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src alt="">
-                <span class="hyperlink-text" translate_text="other_tab.recipe_data">Recipe Data</span>
+        <a href="pages/recipe-data/" target="_blank">
+            <div class="hyperlink-image">
+                <i class="webpage webpage-recipe_data"></i>
+                <translate class="hyperlink-text" text="other_tab.recipe_data">Recipe Data</translate>
             </div>
         </a><br>
 
         <!-- pages/character-data/ -->
-        <a href="pages/character-data/" target="_blank" style="text-decoration: none;">
-            <div id="hyperlink_character-data" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src alt="">
-                <span class="hyperlink-text" translate_text="other_tab.character_data">Character Data</span>
+        <a href="pages/character-data/" target="_blank">
+            <div class="hyperlink-image">
+                <i class="webpage webpage-character_data"></i>
+                <translate class="hyperlink-text" text="other_tab.character_data">Character Data</translate>
             </div>
         </a>
 
         <!-- pages/statistics/ -->
-        <a href="pages/statistics/" target="_blank" style="text-decoration: none;">
-            <div id="hyperlink_statistics" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src alt="">
-                <span class="hyperlink-text" translate_text="other_tab.statistics">Statistics</span>
+        <a href="pages/statistics/" target="_blank">
+            <div class="hyperlink-image">
+                <i class="webpage webpage-statistics"></i>
+                <translate class="hyperlink-text" text="other_tab.statistics">Statistics</translate>
             </div>
         </a><br>
 
-        <!-- GITHUB -->
-        <a href="https://github.com/Expugn/priconne-quest-helper" target="_blank" style="text-decoration: none;">
-            <div id="hyperlink_github" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src alt="">
-                <span id="hyperlink_github-text" class="hyperlink-text" translate_text="other_tab.github">GitHub</span>
-            </div>
+        <!-- ko-fi -->
+        <a href='https://ko-fi.com/E1E21KEV4' target='_blank'>
+            <i class="webpage webpage-kofi"></i>
         </a>
 
         <!-- CHANGELOG -->
-        <a href="https://github.com/Expugn/priconne-quest-helper/blob/master/CHANGELOG.md" target="_blank" style="text-decoration: none;">
-            <div id="hyperlink_changelog" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src alt="">
-                <span class="hyperlink-text" translate_text="other_tab.changelog">Changelog</span>
+        <a href="https://github.com/Expugn/priconne-quest-helper/blob/master/CHANGELOG.md" target="_blank">
+            <div class="hyperlink-image">
+                <i class="webpage webpage-changelog"></i>
+                <translate class="hyperlink-text" text="other_tab.changelog">Changelog</translate>
             </div>
         </a><br>
 
         <!-- WIKI -->
-        <a href="https://github.com/Expugn/priconne-quest-helper/wiki" target="_blank" style="text-decoration: none;">
-            <div id="hyperlink_wiki" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src alt="">
-                <span class="hyperlink-text" translate_text="other_tab.help">Help (Wiki)</span>
+        <a href="https://github.com/Expugn/priconne-quest-helper/wiki" target="_blank">
+            <div class="hyperlink-image">
+                <i class="webpage webpage-wiki"></i>
+                <translate class="hyperlink-text" text="other_tab.help">Help (Wiki)</translate>
             </div>
         </a>
 
         <!-- SIMPLE MODE / FANCY MODE | ONE LINK HIDDEN DEPENDING ON THE CURRENT MODE -->
-        <a id="simple-page-link" href="../priconne-quest-helper/#simple" onclick="window.location.hash = '#simple'; window.location.reload();" style="text-decoration: none; display: inline;">
-            <div id="hyperlink_simple-mode" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src alt="">
-                <span class="hyperlink-text" translate_text="other_tab.simple_mode">Simple Mode</span>
+        <a id="simple-page-link" href="../priconne-quest-helper/#simple" onclick="window.location.hash = '#simple'; window.location.reload();" style="display: inline;">
+            <div class="hyperlink-image">
+                <i class="webpage webpage-simple_mode"></i>
+                <translate class="hyperlink-text" text="other_tab.simple_mode">Simple Mode</translate>
             </div>
         </a>
-        <a id="fancy-page-link" href="../priconne-quest-helper/" onclick="window.location.hash = ''; window.location.reload();" style="text-decoration: none; display: inline;">
-            <div id="hyperlink_fancy-mode" class="hyperlink-image">
-                <img class="ss_hyperlink-button" src alt="">
-                <span class="hyperlink-text" translate_text="other_tab.fancy_mode">Fancy Mode</span>
+        <a id="fancy-page-link" href="../priconne-quest-helper/" onclick="window.location.hash = ''; window.location.reload();" style="display: inline;">
+            <div class="hyperlink-image">
+                <i class="webpage webpage-fancy_mode"></i>
+                <translate class="hyperlink-text" text="other_tab.fancy_mode">Fancy Mode</translate>
             </div>
         </a><br>
-        <!-- ko-fi -->
-        <a href='https://ko-fi.com/E1E21KEV4' target='_blank' style="text-decoration:none;">
-            <img height='36' border='0' style='border:0;height:36px;' class="use-webp" image_folder="webpage" file_name="kofi" src_prefix="" src alt='Buy Me a Coffee at ko-fi.com'/>
-        </a>
         <br><br>
 
         <!-- HYPERLINKS TO OTHER TOOLS -->
 
         <!-- priconne-shiritori -->
-        <a href="https://expugn.github.io/priconne-shiritori/" target="_blank" style="text-decoration: none;">
+        <a href="https://expugn.github.io/priconne-shiritori/" target="_blank">
             <div class="hyperlink-image">
-                <img class="hyperlink-bg-img app-hyperlink_image use-webp" image_folder="webpage" file_name="priconne-shiritori_icon" src_prefix="" src alt="priconne-shiritori">
+                <i class="webpage webpage-priconne-shiritori_icon"></i>
                 <span class="hyperlink-text app-hyperlink_text">priconne<br>shiritori<br>( JP )</span>
             </div>
         </a>
@@ -762,7 +696,7 @@
     <!-- DATA MANAGEMENT -->
     <div id="data-management-div">
         <h4>
-            <span translate_text="other_tab.data_management_title">Data Management</span>
+            <translate text="other_tab.data_management_title">Data Management</translate>
         </h4>
         <input id="export-data-button" type="button" onclick="location.href='pages/export-data/';" target="_blank" value="Export Saved Data"/><br>
     </div>
@@ -771,17 +705,17 @@
 
     <div id="title-background-div">
         <h4>
-            <span translate_text="other_tab.title_background_title">Title Background</span>
+            <translate text="other_tab.title_background_title">Title Background</translate>
         </h4>
 
-        <select id="title-background-select" onchange="change_background()"></select><br>
+        <select id="title-background-select" onchange="title_background.change_background()"></select><br>
         <div id="custom-title-input" hidden>
-            <label for="custom-title-url-input"><span translate_text="other_tab.custom_title_background_url">Image URL: </span></label>
-            <input id="custom-title-url-input" type="text" name="custom-title-url" onchange="change_background()">
+            <label for="custom-title-url-input"><translate text="other_tab.custom_title_background_url">Image URL: </translate></label>
+            <input id="custom-title-url-input" type="text" name="custom-title-url" onchange="title_background.change_background()">
         </div>
         <label>
-            <span translate_text="other_tab.disable_title_background_hover">Disable Title Background Hover</span>
-            <input id="custom-title-hover-disable" type="checkbox" onchange="save_background_data()">
+            <translate text="other_tab.disable_title_background_hover">Disable Title Background Hover</translate>
+            <input id="title-hover-disable" type="checkbox" onchange="title_background.save_background_data()">
         </label>
     </div>
 </div>
@@ -789,27 +723,27 @@
 <!-- REQUIRED INGREDIENTS (EQUIPMENT FRAGMENTS) -->
 <div id="required-div">
     <h2 class="item-table_category-title">
-        <span translate_text="system.required_ingredients_title">Required Ingredients</span>
+        <translate text="system.required_ingredients_title">Required Ingredients</translate>
     </h2>
-    <button id="inventory_open-button" onclick="toggle_inventory_modal()" hidden>
-        <img id="inventory_crate-img" class="use-webp" image_folder="webpage" file_name="Inventory_Crate" src_prefix="" src alt="">
+    <button id="inventory_open-button" onclick="inventory.toggle_inventory_modal()" hidden>
+        <img-webp id="inventory_crate-img" image_folder="webpage" file_name="Inventory_Crate" src_prefix=""></img-webp>
     </button>
     <div class="request-info">
         <!-- REQUIRED INGREDIENTS FROM REQUESTED ITEMS DISPLAYED BELOW -->
         <div id="required-ingredient-table" class="center-div">
             <!-- STARTING TIP FOR REQUIRED INGREDIENTS -->
             <h4 class="tip center-div">
-                <span style="color: navajowhite" translate_text="system.required_ingredients_help_1">
+                <translate style="color: navajowhite" text="system.required_ingredients_help_1">
                     The items and amount you need to create your requested items will be displayed here.
-                </span>
+                </translate>
                 <br><br>
-                <span translate_text="system.required_ingredients_help_2">
+                <translate text="system.required_ingredients_help_2">
                     Tapping on an item displayed in here will toggle if it is <span style="color: darkorange">disabled</span> or not.
-                </span>
+                </translate>
                 <br><br>
-                <span translate_text="system.required_ingredients_help_3">
+                <translate text="system.required_ingredients_help_3">
                     <span style="color: orange">Disabled</span> items will <span style="color: salmon; font-style: italic">not</span> appear in the <span style="color: yellow">Recommended Quest</span> list.
-                </span>
+                </translate>
             </h4>
         </div>
     </div>
@@ -818,7 +752,7 @@
 <!-- RECOMMENDED QUESTS -->
 <div id="recommended-div">
     <h2 class="item-table_category-title">
-        <span translate_text="system.recommended_quest_title">Recommended Quests</span>
+        <translate text="system.recommended_quest_title">Recommended Quests</translate>
     </h2>
     <!-- RECOMMENDED QUESTS DISPLAY -->
     <div id="recommended-quest-div" class="request-info">
@@ -826,17 +760,17 @@
         <div id="recommended-quest-table" class="center-div">
             <!-- STARTING TIP FOR RECOMMENDED QUESTS -->
             <h4 class="tip center-div">
-                <span style="color: navajowhite" translate_text="system.recommended_quest_help_1">
+                <translate style="color: navajowhite" text="system.recommended_quest_help_1">
                     Suggested quests to complete will be shown here once you start selecting items.
-                </span>
+                </translate>
                 <br><br>
-                <span translate_text="system.recommended_quest_help_2">
+                <translate text="system.recommended_quest_help_2">
                     Quests are sorted by <span style="color: yellow">the amount of items you can collect from the quest</span> that you need, starting from chapter 1.
-                </span>
+                </translate>
                 <br><br>
-                <span translate_text="system.recommended_quest_help_3">
+                <translate text="system.recommended_quest_help_3">
                     Up to <span style="color: #6DFF7F">ten</span> quests will be shown at a time by default.
-                </span>
+                </translate>
             </h4>
         </div>
     </div>
@@ -845,13 +779,10 @@
 
 <footer>
     <!-- AUTHOR CREDITS -->
-    <p class="footer">
-        <span translate_text="system.made_with_love" class="notranslate">
-            Made With <span style="color:#ff4d4d">❤</span> By S'pugn
-        </span>
-        <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="" src alt="">
+    <p class="footer notranslate">
+        Made With <span style="color:#ff4d4d">❤</span> By S'pugn
+        <i class="webpage webpage-HAhaa footer"></i>
     </p>
-
     <!-- TRANSLATOR CREDITS (APPEARS ONLY ON NON-ENGLISH LANGUAGES) -->
     <p class="footer">
         <span id="translator-footer" class="notranslate"></span>
@@ -859,16 +790,23 @@
 
     <!-- LAST QUEST UPDATE TEXT ; DETERMINED BY SETTING IN scripts/language.js -->
     <p class="footer">
-        <span translate_text="system.last_quest_update">
+        <translate text="system.last_quest_update">
             Last Quest Update: <span id="update-date-span" style="color: #6DFF7F;">...</span>
-        </span>
+        </translate>
+    </p>
+
+    <!-- SOCIAL MEDIA LINKS -->
+    <p class="footer">
+        <a href="https://github.com/Expugn/priconne-quest-helper" target="_blank">
+            <i class="webpage webpage-GitHub-Mark"></i>
+        </a>
     </p>
 </footer>
 
 <!-- FOCUSED ITEM POPUP -->
 <div id="focused-item-popup" hidden>
-    <img id="focused-item-image" src alt=""><br>
-    <img id="lens-image" class="use-webp" image_folder="webpage" file_name="lens" src_prefix="" src alt="">
+    <i id="focused-item-image" src="" alt=""></i><br>
+    <img-webp id="lens-image" image_folder="webpage" file_name="lens" src_prefix=""></img-webp>
 </div>
 
 <!-- INVENTORY MODAL -->
@@ -878,22 +816,22 @@
     </div>
     <div id="inventory_modal-dialog">
         <div id="inventory_modal_toolbar">
-            <span id="inventory_title" translate_text="inventory.title">Inventory</span>
+            <translate id="inventory_title" text="inventory.title">Inventory</translate>
             <div style="display: inline-block;">
-                <button id="inventory_toolbar-button_list" class="inventory_modal_toolbar-button is-open" onclick="inventory_switch_mode(inventory_mode.LIST);">
-                    <img class="inventory_modal_toolbar-button-img use-webp" image_folder="webpage" file_name="Inventory_Crate" src_prefix="" src alt="">
+                <button id="inventory_toolbar-button_list" class="inventory_modal_toolbar-button is-open" onclick="inventory.switch_mode(this.id);">
+                    <img-webp class="inventory_modal_toolbar-button-img" image_folder="webpage" file_name="Inventory_Crate" src_prefix=""></img-webp>
                 </button>
-                <button id="inventory_toolbar-button_add" class="inventory_modal_toolbar-button" onclick="inventory_switch_mode(inventory_mode.ADD);">
-                    <img class="inventory_modal_toolbar-button-img use-webp" image_folder="webpage" file_name="Inventory_Crate" src_prefix="" src alt="">
-                    <img id="inventory_modal_toolbar-button-plus-img" class="use-webp" image_folder="webpage" file_name="plus" src_prefix="" src alt="">
+                <button id="inventory_toolbar-button_add" class="inventory_modal_toolbar-button" onclick="inventory.switch_mode(this.id);">
+                    <img-webp class="inventory_modal_toolbar-button-img" image_folder="webpage" file_name="Inventory_Crate" src_prefix=""></img-webp>
+                    <img-webp id="inventory_modal_toolbar-button-plus-img" image_folder="webpage" file_name="plus" src_prefix=""></img-webp>
                 </button>
-                <button id="inventory_toolbar-button_remove" class="inventory_modal_toolbar-button" onclick="inventory_switch_mode(inventory_mode.REMOVE);">
-                    <img class="inventory_modal_toolbar-button-img use-webp" image_folder="webpage" file_name="Inventory_Crate" src_prefix="" src alt="">
-                    <img id="inventory_modal_toolbar-button-remove-img" class="use-webp" image_folder="webpage" file_name="minus" src_prefix="" src alt="">
+                <button id="inventory_toolbar-button_remove" class="inventory_modal_toolbar-button" onclick="inventory.switch_mode(this.id);">
+                    <img-webp class="inventory_modal_toolbar-button-img" image_folder="webpage" file_name="Inventory_Crate" src_prefix=""></img-webp>
+                    <img-webp id="inventory_modal_toolbar-button-remove-img" image_folder="webpage" file_name="minus" src_prefix=""></img-webp>
                 </button>
-                <button id="inventory_toolbar-button_delete" class="inventory_modal_toolbar-button" onclick="inventory_delete_all_button()">
-                    <img class="inventory_modal_toolbar-button-img use-webp" image_folder="webpage" file_name="Inventory_Crate" src_prefix="" src alt="">
-                    <img id="inventory_modal_toolbar-button-delete-img" class="use-webp" image_folder="webpage" file_name="red_x" src_prefix="" src alt="">
+                <button id="inventory_toolbar-button_delete" class="inventory_modal_toolbar-button" onclick="inventory.delete_all_button()">
+                    <img-webp class="inventory_modal_toolbar-button-img" image_folder="webpage" file_name="Inventory_Crate" src_prefix=""></img-webp>
+                    <img-webp id="inventory_modal_toolbar-button-delete-img" image_folder="webpage" file_name="red_x" src_prefix=""></img-webp>
                 </button>
             </div>
         </div>
@@ -902,15 +840,15 @@
         <div id="inventory_catalog" class="center-div" hidden></div>
         <div id="inventory_catalog-add-prompt" class="center-div" hidden>
             <div id="inventory_add-prompt_options" style="margin-top: 30px; margin-bottom: 10px;">
-                <img id="inventory_add-prompt_fragment-option" style="cursor:pointer; display:inline-block; width: 48px; margin-right: 50px;" src alt="" onclick="inventory_catalog_add_option_toggle(this)">
-                <img id="inventory_add-prompt_equipment-option" style="cursor: pointer; width: 48px;" src alt="" onclick="inventory_catalog_add_option_toggle(this)">
+                <i id="inventory_add-prompt_fragment-option" style="cursor:pointer; margin-right: 50px;" class="item-sprite" title="" onclick="inventory.catalog_prompt_option_toggle(this)"></i>
+                <i id="inventory_add-prompt_equipment-option" style="cursor: pointer;" class="item-sprite" title="" onclick="inventory.catalog_prompt_option_toggle(this)"></i>
             </div>
             <div style="background: rgba(0, 0, 0, 0.50); border-radius: 7px;">
                 <div id="inventory_catalog_add-fragment">
-                    <img id="inventory_add-fragment_main" class="inventory_catalog_add_main-item" src alt="">
+                    <i id="inventory_add-fragment_main" class="inventory_catalog_add_main-item item-sprite" title=""></i>
                 </div>
                 <div id="inventory_catalog_add-equipment">
-                    <img id="inventory_add-equipment_main" class="inventory_catalog_add_main-item" src alt="">
+                    <i id="inventory_add-equipment_main" class="inventory_catalog_add_main-item item-sprite" title=""></i>
                     <div id="inventory_catalog_add-equipment_arrow">&darr;</div>
                     <div id="inventory_catalog_add-equipment_sub-items"></div>
                 </div>
@@ -920,166 +858,75 @@
             </label>
             <input id="inventory_catalog_input" value="0" type="number">
             <br>
-            <button id="inventory_catalog_add-button" onclick="inventory_catalog_add()">
-                <span translate_text="inventory.add_item">Add Item</span>
+            <button id="inventory_catalog_add-button" onclick="inventory.catalog_prompt_add()">
+                <translate text="inventory.add_item">Add Item</translate>
             </button>
             <br>
-            <button id="inventory_catalog_cancel-button" onclick="inventory_cancel_catalog_add()">
-                <span translate_text="presets_tab.cancel">Cancel</span>
+            <button id="inventory_catalog_cancel-button" onclick="inventory.catalog_prompt_cancel()">
+                <translate text="presets_tab.cancel">Cancel</translate>
             </button>
         </div>
     </div>
 </div>
 
-<div id="inventory-inline-editor-prototype" class="inventory-inline-editor" hidden>
-    <div class="quest_inline-inventory">
-        <img class="quest_inline-crate use-webp" image_folder="webpage" file_name="Inventory_Crate" src_prefix="" src alt="">
-        <div class="quest_inventory-amount">0</div>
+<!-- TEMPLATES -->
+<template id="template_item-table-item">
+    <div class="item-table-item_div">
+        <button id="{item_id}" class="item-table-item item-sprite_button item-sprite" onclick=""></button><br>
+        <input id="{item_id}-amt" class="notranslate item-table-item_input" type="number" min="0" max="" value="" onchange="">
     </div>
-    <button class="minus" value="-30">-30</button><button class="plus" value="+30">+30</button>
-</div>
+</template>
+<template id="template_requested-item">
+    <div class="requested-item item-amount item-sprite">
+        <span></span>
+    </div>
+</template>
+<template id="template_required-ingredient">
+    <button id="request-button-{item_name}" class="required-ingredients_button item-sprite_button item-amount item-sprite">
+        <span></span>
+        <img class="required-ingredients_button_inventory-crate" src="" alt="">
+    </button>
+</template>
+<template id="template_quest-entry">
+    <div class="quest">
+        <div class="quest_header">
+            <div class="quest_title"></div>
+            <div class="quest_memory-piece">
+                <img class="quest_memory-piece-img" title="" src="" alt="">
+                <div class="quest_memory-piece-percent"></div>
+            </div>
+        </div>
+        <div class="quest_score"></div>
+        <br class="quest_line">
+        <div class="quest_items"></div>
+        <br class="quest_line-2">
+        <div class="quest_subdrops"></div>
+    </div>
+</template>
+<template id="template_quest-item">
+    <div class="quest_item item-sprite">
+        <span class="quest_drop-percent"></span>
+        <span class="quest_required-amount"></span>
+    </div>
+</template>
+<template id="template_inventory-item">
+    <div id="inventory_item-{num}" class="inventory_item item-sprite" onclick="">
+        <img id="inventory_item-{num}-delete" class="inventory_item-delete-img" src="" alt="">
+        <span id="inventory_item-{num}-amount" class="inventory_item-text"></span>
+        <input id="inventory_item-{num}-input" class="inventory_item-input" type="number" hidden>
+    </div>
+</template>
+<template id="template_inventory-inline-editor">
+    <div class="inventory-inline-editor">
+        <div class="quest_inline-inventory">
+            <img class="quest_inline-crate" src="" alt="">
+            <div class="quest_inventory-amount">0</div>
+        </div>
+        <button class="minus" value="-30">-30</button><button class="plus" value="+30">+30</button>
+    </div>
+</template>
 
 <script id="startup">
-    toggle_simple_mode();
-    loadingToast();
-
-    init_settings();
-    setToastrOptions();
-
-    window.onload = function () {
-        init_webp();
-        init_images();
-
-        add_update_date_to_footer();
-
-        init_background_select();
-        init_background();
-
-        // MAKE SURE CHARACTER, EQUIPMENT, AND QUEST DATA ARE LOADED
-        setup(0);
-
-        function setup(run_count)
-        {
-            // RUN MAX 180 TIMES ; SHOULD BE ABOUT 3 MINUTES
-            const MAX_SETUP_ATTEMPTS = 180;
-
-            if (!character_loaded || !equipment_loaded || !quest_loaded)
-            {
-                if (run_count >= MAX_SETUP_ATTEMPTS || character_data_error !== undefined ||
-                    equipment_data_error !== undefined || quest_data_error !== undefined) {
-                    let is_simple = $("body").hasClass("simple-body");
-                    document.getElementById("miyako").classList.add("death");
-                    if (is_simple) {
-                        toastr.remove();
-                        document.getElementById("page-cover").classList.add("failed");
-                        document.getElementById("page-loading").style.visibility = "visible";
-                        document.getElementById("miyako").style.visibility = "hidden";
-                        document.getElementById("loading-text").style.visibility = "hidden";
-                    }
-
-                    if (run_count >= MAX_SETUP_ATTEMPTS) {
-                        if (is_simple) {
-                            toastr.error("Load timed out", "Failure", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
-                        }
-                        document.getElementById("loading-text").innerHTML = "<span class='heart-red'>load timed out</span>";
-                    }
-                    else if (character_data_error !== undefined) {
-                        if (is_simple) {
-                            toastr.error("Failed to load character data", "Failure", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
-                        }
-                        document.getElementById("loading-text").innerHTML = "<span class='heart-red'>failed to load character data</span>";
-                    }
-                    else if (equipment_data_error !== undefined) {
-                        if (is_simple) {
-                            toastr.error("Failed to load equipment data", "Failure", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
-                        }
-                        document.getElementById("loading-text").innerHTML = "<span class='heart-red'>failed to load equipment data</span>";
-                    }
-                    else if (quest_data_error !== undefined) {
-                        if (is_simple) {
-                            toastr.error("Failed to load quest data", "Failure", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
-                        }
-                        document.getElementById("loading-text").innerHTML = "<span class='heart-red'>failed to load quest data</span>";
-                    }
-                }
-                else {
-                    setTimeout(function () {
-                        setup(++run_count);
-                    }, 1000);
-                }
-            }
-            else
-            {
-                // UPDATE SPECIFIC ELEMENTS WITH MAX QUEST CHAPTER
-                document.getElementById("min-quest-chapter").max = max_quest_chapter_information;
-                document.getElementById("max-quest-chapter").max = max_quest_chapter_information;
-                document.getElementById("max-quest-chapter").value = max_quest_chapter_information;
-                max_quest_chapter_default = max_quest_chapter_information;
-                max_quest_chapter = max_quest_chapter_information;
-
-                // UPDATE SPECIFIC ELEMENTS WITH MAX RANK
-                document.getElementById("preset-character-min-rank-input").max = max_character_rank_information.CURRENT;
-                document.getElementById("preset-character-max-rank-input").max = max_character_rank_information.CURRENT;
-                document.getElementById("preset-character-max-rank-input").value = max_character_rank_information.CURRENT;
-
-                preset_max_rank = max_character_rank_information.CURRENT;
-
-                enableCollapsible();
-                read_cookie();
-                build_item_tables();
-                init_blacklist();
-                init_inventory();
-                document.getElementById("inventory_open-button").hidden = false;
-                init_project_data();
-                build_character_preset_list();
-
-                // CHANGE EQUIPMENT DATA TO LEGACY IF NEEDED
-                if (equipment_data_type === equipment_data_version.LEGACY) {
-                    change_equipment_and_character_data();
-                }
-
-                // REVERT LANGUAGE TO PREVIOUS SESSION'S
-                auto_load_language();
-
-                // DELETE UNUSED FANCY OR SIMPLE MODE BUTTON
-                let is_simple = $("body").hasClass("simple-body");
-                if (is_simple) {
-                    $("#simple-page-link").remove();
-                }
-                else {
-                    $("#fancy-page-link").remove();
-                }
-
-
-                // REVEAL PAGE
-                setTimeout(function () {
-                    document.getElementById("loading-div").classList.add("end");
-                    document.getElementById("page-cover").classList.add("end");
-
-                    // ENABLE LANGUAGE SWITCH TO BE USED
-                    document.getElementById("language-option").disabled = false;
-
-                    setTimeout(function () {
-                        $("#page-loading").remove();
-                        $("#startup").remove();
-                        $("noscript").remove();
-                    }, 3000);
-                }, 3000);
-
-            }
-        }
-
-        // LOCAL STORAGE SUPPORT DOES NOT EXIST
-        if (typeof(Storage) === "undefined") {
-            console.log(get_colored_message("System", "LocalStorage is not supported on this browser! Disabling Projects, Blacklist, Data Exporting/Importing, and Settings!", message_status.WARNING));
-            document.getElementById("projects-div").hidden = true;
-            document.getElementById("data-management-div").hidden = true;
-            document.getElementById("setting-saving-div").hidden = true;
-            document.getElementById("local-storage-warning").hidden = false;
-        }
-        else {
-            $("#local-storage-warning").remove();
-        }
-    };
+    webpage.init();
 </script>
 </html>

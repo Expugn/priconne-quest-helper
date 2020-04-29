@@ -22,6 +22,7 @@
     <meta name="description" content="Equipment recipe data used in priconne-quest-helper, a tool for that provides quest choosing assistance and project management for the game 'Princess Connect! Re:Dive' （プリンセスコネクト! Re:Dive）.">
     <meta name="author" content="S'pugn">
     <meta name="keywords" content="Princess Connect Re:Dive, プリンセスコネクト! Re:Dive, Quest Helper, S'pugn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- OPEN GRAPH / FACEBOOK META DATA -->
     <meta property="og:title" content="Princess Connect! Re:Dive - Quest Helper | Recipe Data"/>
@@ -41,17 +42,18 @@
     <meta name="twitter:description" content="priconne-quest-helper's Currently Loaded Recipe Data."/>
 
     <!-- SCRIPTS -->
-    <script src="../../vendor/jquery/jquery-3.4.1.min.js"></script>
-    <script src="../../vendor/toastr/toastr.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/treant-js/1.0/Treant.min.js"></script>
     <script src="../../vendor/modernizr/modernizr-custom.js"></script> <!-- WEBP CHECK -->
-    <script src="../../scripts/console.js"></script>
-    <script src="../../scripts/image-manager.js"></script>
-    <script src="../../scripts/read-equipment-json.js"></script>
+    <script src="../../scripts/priconne-data.js"></script>
 
     <!-- CSS STYLE SHEETS -->
-    <link rel="stylesheet" href="../../vendor/toastr/toastr.css"/>
-    <link rel="stylesheet" href="../../css/main.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/treant-js/1.0/Treant.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../css/spritesheet.css">
+    <link rel="stylesheet" href="../../css/data.css">
 </head>
 <body>
 <noscript>
@@ -59,171 +61,411 @@
         div {display: none;}
         hr {display: none;}
         footer {display: none;}
-        table {display: none;}
     </style>
-    <h1 style="color: white; font-family: 'Trebuchet MS', Arial, serif; text-align:center; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); text-shadow: 1px 1px 3px #000000, 1px 1px 4px #000000;">
+    <h1 style="color: white; font-family: 'Trebuchet MS', Arial, serif; text-align:center; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); text-shadow: 1px 1px 2px #000000;">
         <span style="color: orangered;">JavaScript is disabled!</span>
         <br><br>
-        <span style="color: #e3cfcb;">priconne-quest-helper/recipe-data/</span> cannot function without JavaScript.
+        <span style="color: deepskyblue;">priconne-quest-helper/recipe-data/</span> cannot function without JavaScript.
         <br><br>
         <span style="color: #ffdf73;">Please enable JavaScript to continue!</span>
     </h1>
 </noscript>
+<div id="back" onclick="toggle_catalog()" hidden>&larrhk;</div>
 
 <div>
     <h1 class="title main_title">Princess Connect! Re:Dive - Quest Helper</h1>
     <h2 class="title sub_title">Recipe Data</h2>
+    <h1 class="title simple_title">priconne-quest-helper &boxv; Recipe Data</h1>
 </div>
 
 <hr>
-
-<table id="equipment-type-select">
-    <tbody>
-        <tr>
-            <th>
-                <label for="equipment-data-type" hidden>Equipment Data Type</label>
-                <select id="equipment-data-type" onchange="change_equipment_data()">
-                    <option value="equipment-data-current">Current Equipment Data (After 2019.08.31)</option>
-                    <option value="equipment-data-legacy">Legacy Equipment Data (Before 2019.08.31)</option>
-                </select>
-            </th>
-        </tr>
-    </tbody>
-</table>
-
-<hr>
-
-<div id="recipe-data-div">
-    <table id="recipe-data-table"></table>
-</div>
-
-<br><br>
+<div id="catalog"></div>
+<div id="recipe-data-div" class="notranslate"></div>
 <hr>
 </body>
 
 <footer>
-    <p class="footer">Made With <span class="heart-red">❤</span> By S'pugn
-        <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="../../" src="" alt="">
+    <p class="footer">
+        Made With <span class="heart-red">❤</span> By S'pugn
+        <i class="footer webpage webpage-HAhaa"></i>
     </p>
     <p class="footer">(Translated item names may be incorrect.)</p>
 </footer>
 
 <script>
-    toastr.warning("Loading...", "Status", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
+    let legacy_data, current_data, item_usage = {}, component_usage = {};
+    function get_item_sprite_class(item_name) {
+        return "is__" + item_name.replace("'", "").replace(/\W/g, '-').toLowerCase().replace('---', '-');
+    }
+    function get_item_image_path(file_name = "") {
+        file_name = file_name.split(' ').join('_');
+        return "../../images/items" + ($("html").hasClass("webp") ? "_webp/" + file_name + ".webp" : "/" + file_name + ".png");
+    }
+    function get_unit_sprite_class(unit_id) {
+        return "us__" + unit_id.replace(/_/g, '-').toLowerCase().replace('---', '-');
+    }
+    function toggle_catalog() {
+        const catalog = document.getElementById("catalog"),
+              data = document.getElementById("recipe-data-div"),
+              back = document.getElementById("back");
+        catalog.hidden = !catalog.hidden;
+        data.hidden = back.hidden = !data.hidden;
+        if (data.hidden) {
+            $(window).off();
+        }
+        window.scrollTo(0, 0);
+    }
     window.onload = function ()
     {
-        init_webp();
-        init_images();
-
-        // MAKE SURE EQUIPMENT DATA IS LOADED
-        setup();
-
-        function setup()
-        {
-            if (!equipment_loaded)
-            {
-                setTimeout(function () {
-                    setup();
-                }, 1000);
+        equipment_data.read_data(function (success) {
+            if (success) {
+                current_data = equipment_data.data();
+                equipment_data.set_loaded_version(equipment_data.version.LEGACY);
+                equipment_data.read_data(function (success) {
+                    if (success) {
+                        legacy_data = equipment_data.data();
+                        character_data.read_data(function (success) {
+                            if (success)
+                                build_catalog();
+                            else
+                                document.getElementById("catalog").innerHTML = "failed to read character data";
+                        });
+                    }
+                    else
+                        document.getElementById("catalog").innerHTML = "failed to read equipment data (legacy)";
+                });
             }
             else
-            {
-                run();
-                toastr.remove();
-                toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: false });
+                document.getElementById("catalog").innerHTML = "failed to read equipment data (current)";
+        });
+
+        function build_catalog() {
+            // BUILD CATALOG
+            const catalog = document.getElementById("catalog");
+            let misc_items = document.createElement("div"),
+                item_div = document.createElement("div"),
+                current_rarity = equipment_data.rarity.COMMON;
+            item_div.classList.add(current_rarity);
+            misc_items.classList.add(equipment_data.rarity.MISC);
+            for (const item_name in current_data) {
+                let item = document.createElement("i");
+                item.classList.add("item-sprite", get_item_sprite_class(item_name));
+                item.title = item_name;
+                item.onclick = function () {
+                    document.getElementById("catalog").hidden = true;
+                    document.getElementById("recipe-data-div").hidden = document.getElementById("back").hidden = false;
+                    build_data(item_name);
+                    window.scrollTo(0, 0);
+                };
+
+                const item_rarity = current_data[item_name]["rarity"];
+                if (item_rarity === equipment_data.rarity.MISC) {
+                    misc_items.appendChild(item);
+                    continue;
+                }
+
+                if (item_rarity !== current_rarity) {
+                    catalog.appendChild(item_div);
+                    item_div = document.createElement("div");
+                    current_rarity = item_rarity;
+                    item_div.classList.add(current_rarity);
+                }
+
+                item_div.appendChild(item);
+
+                // BUILD COMPONENT USAGE DATA
+                for (const comp_name of current_data[item_name]["req_items"]) {
+                    if (component_usage.hasOwnProperty(comp_name)) {
+                        component_usage[comp_name].push(item_name);
+                    }
+                    else {
+                        component_usage[comp_name] = [ item_name ];
+                    }
+                }
+            }
+
+            catalog.appendChild(item_div);
+            catalog.appendChild(misc_items);
+
+            // BUILD ITEM USAGE
+            const char_data = character_data.data();
+            for (const unit_id in char_data) {
+                for (let i = 1, j = character_data.max_rank() ; i <= j ; i++) {
+                    const rank_array = char_data[unit_id]["rank_" + i];
+                    for (const item_name of rank_array) {
+                        const unit_string = unit_id + "." + i;
+                        if (item_usage.hasOwnProperty(item_name)) {
+                            if (!item_usage[item_name].includes(unit_string))
+                                item_usage[item_name].push(unit_string);
+                        }
+                        else {
+                            item_usage[item_name] = [ unit_string ];
+                        }
+                    }
+                }
+            }
+            console.dir(item_usage);
+        }
+        
+        function build_data(item_name) {
+            const item = document.createElement("div"),
+                  data_div = document.getElementById("recipe-data-div");
+            let is_exists_in_legacy = legacy_data.hasOwnProperty(item_name);
+            data_div.innerHTML = "";
+
+            // ITEM NAME
+            let name_div = document.createElement("div"),
+                name_en = document.createElement("span"),
+                name_jp = document.createElement("span");
+            name_div.classList.add("names");
+            name_en.innerText = item_name;
+            name_en.classList.add("name_en");
+            name_jp.innerText = current_data[item_name]["name_jp"];
+            name_jp.classList.add("name_jp");
+            name_div.appendChild(name_en);
+            name_div.appendChild(name_jp);
+            item.appendChild(name_div);
+
+            // ITEM IMAGE
+            let images = document.createElement("div");
+            images.classList.add("images");
+            let equip_img = document.createElement("img");
+            equip_img.classList.add("equip_img");
+            equip_img.title = item_name;
+            equip_img.src = get_item_image_path(item_name);
+            images.appendChild(equip_img);
+            if (current_data[item_name]["has_fragments"]) {
+                let frag_img = document.createElement("img");
+                frag_img.classList.add("frag_img");
+                frag_img.title = item_name + " Fragment";
+                frag_img.src = get_item_image_path(item_name + " Fragment");
+                images.appendChild(frag_img);
+            }
+            item.appendChild(images);
+
+
+            // CURRENT/LEGACY RECIPES
+            let current = document.createElement("div");
+            current.classList.add("current");
+            if (is_exists_in_legacy) {
+                let current_span = document.createElement("span");
+                current_span.classList.add("title");
+                current_span.innerText = "Current Recipe";
+                current.appendChild(current_span);
+            }
+            let current_recipe_div = document.createElement("div");
+            current_recipe_div.id = "current_recipe";
+            current.appendChild(current_recipe_div);
+            current.appendChild(get_recipe_elem(item_name, current_data));
+            item.appendChild(current);
+
+            if (is_exists_in_legacy) {
+                let legacy = document.createElement("div");
+                legacy.classList.add("legacy");
+                let legacy_span = document.createElement("span");
+                legacy_span.classList.add("title");
+                legacy_span.innerText = "Legacy Recipe";
+                legacy.appendChild(legacy_span);
+                let legacy_recipe_div = document.createElement("div");
+                legacy_recipe_div.id = "legacy_recipe";
+                legacy.appendChild(legacy_recipe_div);
+                legacy.appendChild(get_recipe_elem(item_name, legacy_data));
+
+                if (current.querySelector(".recipe_result").innerHTML === legacy.querySelector(".recipe_result").innerHTML) {
+                    // IF BOTH RECIPES ARE THE SAME, NO NEED TO DISPLAY THE LEGACY RECIPE.
+                    // DELETE THE "Current Recipe" TITLE TOO
+                    is_exists_in_legacy = false;
+                    current.removeChild(current.querySelector("span.title"));
+                }
+                else {
+                    item.appendChild(legacy);
+                }
+            }
+
+            // COMPONENT USAGE
+            const comp_usage = component_usage[item_name],
+                  comp_usage_elem = document.createElement("div");
+            if (typeof comp_usage !== "undefined") {
+                comp_usage_elem.classList.add("comp-usage");
+                const comp_usage_title = document.createElement("span");
+                comp_usage_title.classList.add("title");
+                comp_usage_title.innerText = "Equipment Usage";
+                comp_usage_elem.appendChild(comp_usage_title);
+                for (const parent_item of comp_usage) {
+                    const elem = document.createElement("i");
+                    elem.classList.add("item-sprite", get_item_sprite_class(parent_item));
+                    elem.title = parent_item;
+                    elem.onclick = function() {
+                        build_data(parent_item);
+                    };
+                    comp_usage_elem.appendChild(elem);
+                }
+                item.appendChild(comp_usage_elem);
+            }
+
+            // CHARACTER USAGE
+            const usage = item_usage[item_name],
+                  usage_elem = document.createElement("div");
+            if (typeof usage !== "undefined") {
+                usage_elem.classList.add("usage");
+                const usage_title = document.createElement("span");
+                usage_title.classList.add("title");
+                usage_title.innerText = "Character Usage";
+                usage_elem.appendChild(usage_title);
+                for (const usage_string of usage) {
+                    const u = usage_string.split('.'),
+                        elem = document.createElement("span");
+                    elem.classList.add("unit-sprite", get_unit_sprite_class(u[0]), "rank-" + u[1]);
+                    elem.innerText = u[1];
+                    usage_elem.appendChild(elem);
+                }
+                item.appendChild(usage_elem);
+            }
+
+            data_div.appendChild(item);
+
+            let current_config = build_treant(item_name, current_data, "current_recipe");
+            let legacy_config;
+            if (is_exists_in_legacy) {
+                legacy_config = build_treant(item_name, legacy_data, "legacy_recipe");
+                // REBUILD CURRENT RECIPE Treant BECAUSE AFTER LEGACY RECIPE IS ADDED IT WILL BE MISPOSITIONED
+                new Treant(current_config);
+            }
+
+            const waitForFinal = (function () {
+                let timers = {};
+                return function (callback, ms, uniqueID) {
+                    if (!uniqueID) {
+                        uniqueID = "Don't call this twice without an uniqueID";
+                    }
+                    if (timers[uniqueID]) {
+                        clearTimeout(timers[uniqueID]);
+                    }
+                    timers[uniqueID] = setTimeout(callback, ms);
+                }
+            })();
+            $(window).on("resize", function () {
+                waitForFinal(function () {
+                    new Treant(current_config);
+                    if (is_exists_in_legacy) {
+                        new Treant(legacy_config);
+                    }
+                }, 500, "treant-resize");
+            });
+
+            function get_recipe_elem(item_name, data) {
+                let recipe_elem = document.createElement("div");
+                recipe_elem.classList.add("recipe_result");
+                const recipe = get_recipe(item_name, data);
+                for (const frag_name in recipe) {
+                    let frag = document.createElement("div");
+                    frag.title = frag_name;
+                    frag.classList.add("item-sprite", get_item_sprite_class(frag_name));
+                    let amt = document.createElement("span");
+                    amt.innerText = recipe[frag_name];
+                    frag.appendChild(amt);
+                    recipe_elem.appendChild(frag);
+                }
+                return recipe_elem;
+
+                function get_recipe(item_name, data) {
+                    const item_data = data[item_name];
+                    let recipe = {};
+                    if (item_data["req_pieces"] > 0) {
+                        recipe[item_data["name"] + (item_data["has_fragments"] ? " Fragment" : "")] = item_data["req_pieces"];
+                    }
+
+                    // ADD REQUIRED ITEM RECIPES
+                    const required_items = item_data["req_items"];
+                    for (let i = 0, j = required_items.length ; i < j ; i++) {
+                        recipe = merge_recipes(recipe, get_recipe(required_items[i], data));
+                    }
+
+                    return recipe;
+
+                    function merge_recipes(...recipes) {
+                        return recipes.reduce((a, b) => {
+                            for (let f in b) {
+                                if (b.hasOwnProperty(f)) {
+                                    a[f] = (a[f] || 0) + b[f];
+                                }
+                            }
+                            return a;
+                        }, {});
+                    }
+                }
+            }
+
+
+            function build_treant(item_name, data, element_id) {
+                let config = {
+                    chart: {
+                        container: "#" + element_id,
+                        rootOrientation: "NORTH",
+                        connectors: {
+                            type: "step",
+                            style: {
+                                "stroke-width": 3
+                            }
+                        }
+                    },
+                    nodeStructure: {
+                        HTMLclass: "",
+                        children: []
+                    }
+                };
+                const item_data = data[item_name];
+                let frag_name = item_data["name"] + (item_data["has_fragments"] ? " Fragment" : ""),
+                    frag_amount = item_data["req_pieces"];
+                config["nodeStructure"]["HTMLclass"] = "item-sprite " + get_item_sprite_class(item_name);
+                if (frag_amount > 0) {
+                    config["nodeStructure"]["children"] = [
+                        {
+                            HTMLclass: "item-sprite " + get_item_sprite_class(frag_name),
+                            text: {
+                                desc: frag_amount
+                            }
+                        }
+                    ];
+                }
+                else {
+                    config["nodeStructure"]["children"] = [];
+                }
+
+                // ADD REQUIRED ITEM RECIPES
+                const required_items = item_data["req_items"];
+                for (let i = 0, j = required_items.length ; i < j ; i++) {
+                    config["nodeStructure"]["children"].push(get_req_item(required_items[i]));
+                }
+                
+                function get_req_item(item_name) {
+                    let obj = {},
+                        name = data[item_name]["name"] + (data[item_name]["has_fragments"] ? " Fragment" : ""),
+                        amount = data[item_name]["req_pieces"];
+                    obj["HTMLclass"] = "item-sprite " + get_item_sprite_class(item_name);
+                    if (amount > 0) {
+                        obj["children"] = [
+                            {
+                                HTMLclass: "item-sprite " + get_item_sprite_class(name),
+                                text: {
+                                    desc: amount
+                                }
+                            }];
+                    }
+                    else {
+                        obj["children"] = [];
+                    }
+
+                    let req = data[item_name]["req_items"];
+                    for (let i = 0, j = req.length ; i < j ; i++) {
+                        obj["children"].push(get_req_item(req[i]));
+                    }
+                    return obj;
+                }
+                new Treant(config);
+                return config;
             }
         }
     };
-
-    function run()
-    {
-        let table_html = "";
-
-        table_html += "<tbody>";
-        for (let [item_name, item_data_map] of equipment_map)
-        {
-            // HIDE CHARACTER SHARDS
-            const display_shards = false;
-            if (item_name.includes("Shard") && display_shards === false) { continue; }
-
-            let name_jp = item_data_map["name_jp"];
-
-            // DISPLAY ITEM
-            let required_items = item_data_map.get("req_items");
-
-            table_html += "<tr>";
-
-            // ITEM NAME
-            table_html += "<th><h3 class=\"item-name\">" + item_name + (name_jp !== undefined ? "<br>" + name_jp : "") + "</h3></th>";
-
-            // DIVIDER
-            table_html += "<th><img class=\"divider\" title=\"\" src=\"\" alt=\"\"></th>";
-
-            // ITEM
-            table_html += "<th>";
-            table_html += "<img class=\"item\" title=\"" + item_name
-                + "\" src=\"../../" + get_item_image_path(item_name.split(' ').join('_')) + "\" alt=\"\">";
-            table_html += "</th>";
-
-            // DIVIDER
-            table_html += "<th><img class=\"divider\" title=\"\" src=\"\" alt=\"\"></th>";
-
-            // FRAGMENTS
-            if (item_data_map.get("has_fragments"))
-            {
-                table_html += "<th>";
-                table_html += "<img class=\"item\" title=\"" + item_name + " Fragment"
-                    + "\" src=\"../../" + get_item_image_path(item_name.split(' ').join('_') + "_Fragment") + "\" alt=\"\">";
-                table_html += "<div class=\"item-amount\">\u00D7" + item_data_map.get("req_pieces") + "</div>";
-                table_html += "</th>";
-            }
-            else
-            {
-                table_html += "<th>";
-                table_html += "<img class=\"item low-opacity\" title=\"" + "Placeholder"
-                    + "\" src=\"../../" + get_item_image_path("Placeholder") + "\" alt=\"\">";
-                table_html += "</th>";
-            }
-
-            // OTHER COMPONENTS
-            for (let i = 0 ; i < 3 ; i++)
-            {
-                if (required_items[i] !== undefined)
-                {
-                    table_html += "<th>";
-                    table_html += "<img class=\"item\" title=\"" + required_items[i]
-                        + "\" src=\"../../" + get_item_image_path(required_items[i].split(' ').join('_')) + "\" alt=\"\">";
-                    table_html += "</th>";
-                }
-                else
-                {
-                    table_html += "<th>";
-                    table_html += "<img class=\"item low-opacity\" title=\"" + "Placeholder"
-                        + "\" src=\"../../" + get_item_image_path("Placeholder") + "\" alt=\"\">";
-                    table_html += "</th>";
-                }
-            }
-
-            // END TABLE ROW
-            table_html += "</tr>";
-        }
-        table_html += "</body>";
-
-        document.getElementById("recipe-data-table").innerHTML = table_html;
-    }
-
-    function change_equipment_data()
-    {
-        let equipment_data_type = document.getElementById("equipment-data-type").value;
-
-        // CLEAR OUT EQUIPMENT MAP
-        equipment_map = new Map();
-
-        // READ NEW EQUIPMENT DATA
-        read_equipment_data(equipment_data_type, function ()
-        {
-            run();
-        });
-    }
 </script>
 </html>
