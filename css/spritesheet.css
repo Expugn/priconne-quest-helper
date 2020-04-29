@@ -1,36 +1,139 @@
-/* HYPERLINK BUTTONS ================================================================================================ */
-.ss_hyperlink-button {
+.webpage {
+    background-repeat: no-repeat;
     display: inline-block;
+}
+
+.no-webp .webpage {background-image: url('../images/webpage/spritesheets/spritesheet.png');}
+.webp .webpage {background-image: url('../images/webpage_webp/spritesheets/spritesheet.webp');}
+
+.webpage-GitHub-Mark {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -5px;
+}
+
+.webpage-HAhaa {
+    width: 24px;
+    height: 24px;
+    background-position: -47px -5px;
+}
+
+.webpage-Placeholder_Common {
+    width: 48px;
+    height: 48px;
+    background-position: -81px -5px;
+}
+
+.webpage-Placeholder_Copper {
+    width: 48px;
+    height: 48px;
+    background-position: -139px -5px;
+}
+
+.webpage-Placeholder_Gold {
+    width: 48px;
+    height: 48px;
+    background-position: -197px -5px;
+}
+
+.webpage-Placeholder_Purple {
+    width: 48px;
+    height: 48px;
+    background-position: -255px -5px;
+}
+
+.webpage-Placeholder_Silver {
+    width: 48px;
+    height: 48px;
+    background-position: -313px -5px;
+}
+
+.webpage-changelog {
     width: 204px;
     height: 54px;
+    background-position: -5px -63px;
 }
-.no-webp .ss_hyperlink-button {background: url("../images/webpage/spritesheets/hyperlink_buttons.png");}
-.webp .ss_hyperlink-button {background: url("../images/webpage_webp/spritesheets/hyperlink_buttons.webp");}
 
-#hyperlink_quest-data .ss_hyperlink-button     {background-position: 0 0;}
-#hyperlink_recipe-data .ss_hyperlink-button    {background-position: 0 -55px;}
-#hyperlink_character-data .ss_hyperlink-button {background-position: 0 -110px;}
-#hyperlink_statistics .ss_hyperlink-button     {background-position: 0 -165px;}
-#hyperlink_github .ss_hyperlink-button         {background-position: 0 -220px;}
-#hyperlink_changelog .ss_hyperlink-button      {background-position: 0 -275px;}
-#hyperlink_wiki .ss_hyperlink-button           {background-position: 0 -330px;}
-#hyperlink_simple-mode .ss_hyperlink-button    {background-position: 0 -385px;}
-#hyperlink_fancy-mode .ss_hyperlink-button     {background-position: 0 -440px;}
+.webpage-character_data {
+    width: 204px;
+    height: 54px;
+    background-position: -219px -63px;
+}
 
-/* NAVIGATION BUTTONS =============================================================================================== */
-.ss_navigation-button {
-    display: inline-block;
+.webpage-fancy_mode {
+    width: 204px;
+    height: 54px;
+    background-position: -5px -127px;
+}
+
+.webpage-items {
     width: 150px;
     height: 50px;
-
-    -webkit-filter: opacity(30%);
-    filter: opacity(30%);
+    background-position: -219px -127px;
 }
-.no-webp .ss_navigation-button {background: url("../images/webpage/spritesheets/navigation_buttons.png");}
-.webp .ss_navigation-button {background: url("../images/webpage_webp/spritesheets/navigation_buttons.webp");}
 
-#navigation-items .ss_navigation-button    {background-position: 0 0;}
-#navigation-presets .ss_navigation-button  {background-position: 0 -51px;}
-#navigation-projects .ss_navigation-button {background-position: 0 -102px;}
-#navigation-settings .ss_navigation-button {background-position: 0 -153px;}
-#navigation-other .ss_navigation-button    {background-position: 0 -204px;}
+.webpage-kofi {
+    width: 204px;
+    height: 54px;
+    background-position: -219px -187px;
+}
+
+.webpage-other {
+    width: 150px;
+    height: 50px;
+    background-position: -5px -251px;
+}
+
+.webpage-presets {
+    width: 150px;
+    height: 50px;
+    background-position: -165px -251px;
+}
+
+.webpage-priconne-shiritori_icon {
+    width: 64px;
+    height: 64px;
+    background-position: -325px -251px;
+}
+
+.webpage-projects {
+    width: 150px;
+    height: 50px;
+    background-position: -5px -311px;
+}
+
+.webpage-quest_data {
+    width: 204px;
+    height: 54px;
+    background-position: -165px -325px;
+}
+
+.webpage-recipe_data {
+    width: 204px;
+    height: 54px;
+    background-position: -433px -5px;
+}
+
+.webpage-settings {
+    width: 150px;
+    height: 50px;
+    background-position: -433px -69px;
+}
+
+.webpage-simple_mode {
+    width: 204px;
+    height: 54px;
+    background-position: -433px -129px;
+}
+
+.webpage-statistics {
+    width: 204px;
+    height: 54px;
+    background-position: -433px -193px;
+}
+
+.webpage-wiki {
+    width: 204px;
+    height: 54px;
+    background-position: -399px -257px;
+}

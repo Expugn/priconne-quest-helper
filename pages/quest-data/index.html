@@ -22,6 +22,7 @@
     <meta name="description" content="Quest data used in priconne-quest-helper, a tool for that provides quest choosing assistance and project management for the game 'Princess Connect! Re:Dive' （プリンセスコネクト! Re:Dive）.">
     <meta name="author" content="S'pugn">
     <meta name="keywords" content="Princess Connect Re:Dive, プリンセスコネクト! Re:Dive, Quest Helper, S'pugn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- OPEN GRAPH / FACEBOOK META DATA -->
     <meta property="og:title" content="Princess Connect! Re:Dive - Quest Helper | Quest Data"/>
@@ -41,18 +42,15 @@
     <meta name="twitter:description" content="priconne-quest-helper's Currently Loaded Quest Data."/>
 
     <!-- SCRIPTS -->
-    <script src="../../vendor/jquery/jquery-3.4.1.min.js"></script>
-    <script src="../../vendor/toastr/toastr.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../../vendor/modernizr/modernizr-custom.js"></script> <!-- WEBP CHECK -->
-    <script src="../../scripts/console.js"></script>
-    <script src="../../scripts/image-manager.js"></script>
-    <script src="../../scripts/read-equipment-json.js"></script>
-    <script src="../../scripts/read-quest-json.js"></script>
+    <script src="../../scripts/priconne-data.js"></script>
 
     <!-- CSS STYLE SHEETS -->
-    <link rel="stylesheet" href="../../vendor/toastr/toastr.css"/>
-    <link rel="stylesheet" href="../../css/main.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../css/spritesheet.css"/>
+    <link rel="stylesheet" href="../../css/data.css"/>
 </head>
 <body>
 <noscript>
@@ -61,10 +59,10 @@
         hr {display: none;}
         footer {display: none;}
     </style>
-    <h1 style="color: white; font-family: 'Trebuchet MS', Arial, serif; text-align:center; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); text-shadow: 1px 1px 3px #000000, 1px 1px 4px #000000;">
+    <h1 style="color: white; font-family: 'Trebuchet MS', Arial, serif; text-align:center; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); text-shadow: 1px 1px 2px #000000;">
         <span style="color: orangered;">JavaScript is disabled!</span>
         <br><br>
-        <span style="color: #e3cfcb;">priconne-quest-helper/quest-data/</span> cannot function without JavaScript.
+        <span style="color: deepskyblue;">priconne-quest-helper/quest-data/</span> cannot function without JavaScript.
         <br><br>
         <span style="color: #ffdf73;">Please enable JavaScript to continue!</span>
     </h1>
@@ -73,152 +71,134 @@
 <div>
     <h1 class="title main_title">Princess Connect! Re:Dive - Quest Helper</h1>
     <h2 class="title sub_title">Quest Data</h2>
+    <h1 class="title simple_title">priconne-quest-helper &boxv; Quest Data</h1>
 </div>
-
 
 <hr>
-
-<div id="quest-data-div">
-    <table id="quest-data-table"></table>
-</div>
-
-<br><br>
+<div id="quest-data-div"></div>
 <hr>
 </body>
 
 <footer>
     <p class="footer">
         Made With <span class="heart-red">❤</span> By S'pugn
-        <img class="footer use-webp" image_folder="webpage" file_name="HAhaa" src_prefix="../../" src="" alt="">
+        <i class="footer webpage webpage-HAhaa"></i>
     </p>
 </footer>
 
 <script>
-    toastr.warning("Loading...", "Status", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false });
-    window.onload = function ()
-    {
-        init_webp();
-        init_images();
+    function get_item_sprite_class(item_name) {
+        return "is__" + item_name.replace("'", "").replace(/\W/g, '-').toLowerCase().replace('---', '-');
+    }
 
-        // MAKE SURE EQUIPMENT AND QUEST DATA ARE LOADED
-        setup();
-
-        function setup()
-        {
-            if (!equipment_loaded || !quest_loaded)
-            {
-                setTimeout(function () {
-                    setup();
-                }, 1000);
-            }
-            else
-            {
+    window.onload = function () {
+        quest_data.read_data(function (success) {
+            if (success)
                 run();
-                toastr.remove();
-                toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: false });
-            }
-        }
+            else
+                document.getElementById("quest-data-div").innerHTML = "failed to read quest data";
+        });
 
-        function run()
-        {
-            let table_html = "";
+        function run() {
+            const quests = quest_data.data();
+            for (const quest_id in quests) {
+                let quest_div = document.createElement("div");
+                quest_div.classList.add("quest");
 
-            table_html += "<tbody>";
-            for (let [quest_id, quest_data] of quest_map)
-            {
-                table_html += "<tr>";
-
-                // QUEST NAME
-                let quest_title = quest_id;
-                if (quest_id.includes("H") && quest_id.includes("VH"))
-                    quest_title = quest_id.replace("VH", " <span class=\"heart-red\">VH</span>");
-                else if (quest_id.includes("H") && !quest_id.includes("VH"))
-                    quest_title = quest_id.replace("H", " <span class=\"heart-red\">H</span>");
-
-                table_html += "<th><h3 class=\"quest-title" + (quest_id.includes("H") ? " quest-title-hard" : "") + "\">" + quest_title + "</h3></th>";
-
-                // DIVIDER
-                table_html += "<th>";
-                table_html += "<img class=\"divider\" title=\"\" src=\"\" alt=\"\">";
-
-                // INCLUDE HARD MODE CHARACTER SHARD IMAGE
-                if (quest_id.includes("H"))
-                {
-                    let character_shard = get_quest_data(quest_id, "char_shard");
-                    let char_shard_name = character_shard["item_name"];
-                    let char_shard_drop_rate = character_shard["drop_percent"];
-
-                    table_html += "<img class=\"item memory-piece\" title=\"" + char_shard_name +
-                        "\" src=\"../../" + get_item_image_path((char_shard_name).split(' ').join('_')) + "\" alt\"\">";
-                    table_html += "<div class=\"drop-rate memory-piece_drop-rate\">" + char_shard_drop_rate + "\u0025</div>";
+                // QUEST TITLE
+                let difficulty = document.createElement("span");
+                let title = document.createElement("h3");
+                difficulty.classList.add("heart-red");
+                if (quest_id.includes("VH")) {
+                    difficulty.innerText = "VH";
                 }
-
-                table_html += "</th>";
-
-                function draw_image(title, src, drop_rate)
-                {
-                    table_html += "<th>";
-                    table_html += "<img class=\"item\" title=\"" + title + "\" src=\"../../" + src + "\" alt=\"\">";
-                    table_html += "<div class=\"drop-rate item_drop-rate\">" + drop_rate + "\u0025</div>";
-                    table_html += "</th>";
+                else if (quest_id.includes("H") && !quest_id.includes("VH")) {
+                    difficulty.innerText = "H";
                 }
+                title.classList.add("title");
+                title.innerHTML = quest_id.replace("VH", " ").replace("H", " ");
+                title.appendChild(difficulty);
+                quest_div.appendChild(title);
 
-                // ITEM 1 IMAGE
-                draw_image(((quest_data.get("item_1").item_name !== "") ? quest_data.get("item_1").item_name : "???"),
-                            get_item_image_path(((quest_data.get("item_1").item_name !== "") ? quest_data.get("item_1").item_name.split(' ').join('_') : "Placeholder")),
-                            quest_data.get("item_1").drop_percent);
-
-                // ITEM 2 IMAGE
-                draw_image(((quest_data.get("item_2").item_name !== "") ? quest_data.get("item_2").item_name : "???"),
-                            get_item_image_path(((quest_data.get("item_2").item_name !== "") ? quest_data.get("item_2").item_name.split(' ').join('_') : "Placeholder")),
-                            quest_data.get("item_2").drop_percent);
-
-                // ITEM 3 IMAGE
-                draw_image(((quest_data.get("item_3").item_name !== "") ? quest_data.get("item_3").item_name : "???"),
-                            get_item_image_path(((quest_data.get("item_3").item_name !== "") ? quest_data.get("item_3").item_name.split(' ').join('_') : "Placeholder")),
-                            quest_data.get("item_3").drop_percent);
-
-                // ITEM 4 IMAGE
-                if (quest_data.get("item_4") !== undefined)
-                {
-                    draw_image(((quest_data.get("item_4").item_name !== "") ? quest_data.get("item_4").item_name : "???"),
-                                get_item_image_path(((quest_data.get("item_4").item_name !== "") ? quest_data.get("item_4").item_name.split(' ').join('_') : "Placeholder")),
-                                quest_data.get("item_4").drop_percent);
+                // MEMORY PIECE
+                let memory_piece_div = document.createElement("div");
+                memory_piece_div.classList.add("shard");
+                let memory_piece = document.createElement("div");
+                memory_piece.classList.add("item-sprite");
+                if (quest_id.includes("H")) {
+                    const shard_name = quests[quest_id][quest_data.tags.CHAR_SHARD]["item_name"];
+                    memory_piece.title = shard_name;
+                    memory_piece.classList.add(get_item_sprite_class(shard_name));
                 }
-                else
-                {
-                    table_html += "<th></th>";
+                else {
+                    memory_piece_div.classList.add("disabled");
                 }
+                memory_piece.alt = "";
+                let memory_piece_drop = document.createElement("span");
+                if (quest_id.includes("H")) {
+                    memory_piece_drop.innerText = quests[quest_id][quest_data.tags.CHAR_SHARD]["drop_percent"] + "\u0025";
+                }
+                else {
+                    memory_piece_drop.innerText = "00\u0025";
+                }
+                memory_piece_div.appendChild(memory_piece);
+                memory_piece_div.appendChild(memory_piece_drop);
+                quest_div.appendChild(memory_piece_div);
 
-                // DIVIDER
-                table_html += "<th>";
-                table_html += "<img class=\"divider\" title=\"\" src=\"\" alt=\"\">";
-                table_html += "</th>";
+                // LINE BREAK
+                let line_break = document.createElement("br");
+                quest_div.appendChild(line_break);
 
-                // SUB-ITEM IMAGES
-                for (let i = 0 ; i < quest_data.get("subdrops").length ; i++)
-                {
-                    table_html += "<th>";
-                    table_html += "<img class=\"item\" title=\"" + ((quest_data.get("subdrops")[i] !== "") ? quest_data.get("subdrops")[i] : "???")
-                        + "\" src=\"../../" + get_item_image_path(((quest_data.get("subdrops")[i] !== "") ? quest_data.get("subdrops")[i].split(' ').join('_') : "Placeholder")) + "\" alt=\"\">";
+                // ITEMS
+                let items_div = document.createElement("div");
+                items_div.classList.add("items");
+                for (let i = 1 ; quests[quest_id]["item_" + i] !== undefined ; i++) {
+                    const item = quests[quest_id]["item_" + i];
+                    let item_entry = document.createElement("div");
+                    item_entry.classList.add("item-sprite", get_item_sprite_class(item["item_name"]));
+                    item_entry.title = item["item_name"];
+                    let item_percent = document.createElement("span");
+                    item_percent.classList.add("drop-rate", "item_drop-rate");
+                    item_percent.innerText = item["drop_percent"] + "\u0025";
+                    item_entry.appendChild(item_percent);
+                    items_div.appendChild(item_entry);
 
-                    if (quest_data.get("subdrops_percent") === undefined)
-                    {
-                        table_html += "<div class=\"drop-rate item_drop-rate\">20\u0025</div>";
+                    if (i === 3 && quests[quest_id]["item_" + (i + 1)] === undefined) {
+                        let item_entry = document.createElement("div");
+                        item_entry.classList.add("item-sprite", "disabled");
+                        let item_percent = document.createElement("span");
+                        item_percent.classList.add("drop-rate", "item_drop-rate");
+                        item_percent.innerText = "0\u0025";
+                        item_entry.appendChild(item_percent);
+                        items_div.appendChild(item_entry);
                     }
-                    else
-                    {
-                        table_html += "<div class=\"drop-rate item_drop-rate\">" + quest_data.get("subdrops_percent")[i] + "\u0025</div>";
-                    }
-                    table_html += "</th>";
                 }
+                quest_div.appendChild(items_div);
 
-                // END TABLE ROW
-                table_html += "</tr>";
+                // SUBDROPS
+                let subdrops_div = document.createElement("div");
+                subdrops_div.classList.add("subdrops");
+                const subdrops = quests[quest_id]["subdrops"];
+                const subdrops_percent = quests[quest_id]["subdrops_percent"];
+                for (let i = 0, j = subdrops.length ; i < j ; i++) {
+                    let item_entry = document.createElement("div");
+                    item_entry.classList.add("item-sprite", get_item_sprite_class(subdrops[i]));
+                    item_entry.title = subdrops[i];
+                    let item_percent = document.createElement("span");
+                    item_percent.classList.add("drop-rate", "item_drop-rate");
+                    if (subdrops_percent !== undefined) {
+                        item_percent.innerText = subdrops_percent[i] + "\u0025";
+                    }
+                    else {
+                        item_percent.innerText = "20\u0025";
+                    }
+                    item_entry.appendChild(item_percent);
+                    subdrops_div.appendChild(item_entry);
+                }
+                quest_div.appendChild(subdrops_div);
+
+                document.getElementById("quest-data-div").appendChild(quest_div);
             }
-            table_html += "</body>";
-
-            document.getElementById("quest-data-table").innerHTML = table_html;
         }
     }
 </script>

@@ -1,141 +1,206 @@
-/* CHARACTER DATA TABLE ============================================================================================= */
-#character-data-div {
-    /* POSITIONING */
-    margin-top: 30px;
-    margin-bottom: 10px;
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #e3cfcb;
 }
 
-#character-data-table {
-    /* CENTER TABLE */
-    margin: 0 auto;
+hr {
+    border-top: 2px solid black;
+    border-radius: 3px
 }
 
-.text-box {
-    /* TEXT */
-    font-family: "fot-udmarugo_large_prob", Arial, serif;
-    font-size: 15px;
-    color: white;
+p.footer {
+    text-align: right;
+    text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000, 1px 1px 2px #000000;
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+i.footer {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    top: 7px;
+}
+
+.heart-red {
+    color: #ff4d4d
+}
+
+.title {
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.main_title {
+    font-size: 26px;
+}
+
+.sub_title {
+    margin-top: -20px;
     letter-spacing: 2px;
-    text-shadow: 1px 1px 2px #000000,
-    1px 1px 2px #000000,
-    1px 1px 3px #000000;
-
-    /* TEXT BOX DESIGN */
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgba(255, 255, 255, 0.5);
-    white-space: nowrap;
-    border-radius: 5px;
-    padding: 10px 30px;
 }
 
-.character-name {
-    /* POSITIONING */
-    position: relative;
-    bottom: 2px;
+.simple_title {
+    display: none;
+    font-size: 4vw;
 }
 
-.character-rank {
-    /* POSITIONING */
-    position: relative;
-    bottom: 3px;
-}
-
-img.character {
-    /* IMAGE SIZE */
-    max-width: 48px;
-    max-height: 48px;
-
-    /* IMAGE DESIGN */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 4px;
-}
-
-/* CHARACTER SEARCH OVERLAY ========================================================================================= */
-#search-overlay {
-    /* FULL SCREEN */
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-
-    /* DESIGN */
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-#unit-list-div {
-    /* POSITIONING */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px 50px;
-    z-index: 2;
-
-    /* SIZE */
-    width: 75%;
-    height: 50%;
-
-    /* DESIGN */
-    background-color: white;
-    overflow-y: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-}
-
-#unit-search-popup {
-    /* POPUP DESIGN */
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgba(255, 255, 255, 0.75);
-    margin-bottom: 5%;
-    padding: 0 10px;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-
-    /* POSITION */
+#back {
     position: fixed;
     top: 10px;
-    right: 10px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 32px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
 }
 
-#lens-image {
-    /* IMAGE DESIGN */
-    width: 48px;
+/* CHARACTER DATA =================================================================================================== */
+#character-grid {
+    text-align: center;
+    margin: 40px auto;
 }
 
-a {
-    text-decoration: none;
+#character-grid .unit-sprite {
+    margin-right: 4px;
+    cursor: pointer;
 }
 
-.unit-icon {
-    width: 64px;
+#character-data {
+    text-align: center;
+    margin: auto auto 30px;
 }
 
-/* RANK COLORS ====================================================================================================== */
-.common-rank_color {
-    background-color: rgba(90, 190, 255, 0.5) !important;
+#character-data .name {
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
 }
 
-.copper-rank_color {
-    background-color: rgba(255, 182, 140, 0.5) !important;
+#character-data .name .name_en,
+#character-data .name .name_jp {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px 35px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000, 1px 1px 2px #000000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    width: 200px;
+    margin-top: 10px;
 }
 
-.silver-rank_color {
-    background-color: rgba(198, 211, 214, 0.5) !important;
+#character-data .name .name_jp {
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
-.gold-rank_color {
-    background-color: rgba(249, 194, 62, 0.5) !important;
+#character-data .name .name_en {
+    margin-right: 4px;
 }
 
-.purple-rank_color {
-    background-color: rgba(231, 109, 255, 0.5) !important;
+#character-data img {
+    width: 100px;
+    margin-bottom: -23px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-.undefined-rank_color {
-    background-color: rgba(255, 255, 255, 0.5) !important;
+#character-data .rank span {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000, 1px 1px 2px #000000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px 35px;
+    border-radius: 10px;
+    color: white;
+}
+
+.rank.rank-1 span {
+    background-color: rgba(90, 190, 255, 0.5);
+}
+
+.rank.rank-2 span,
+.rank.rank-3 span {
+    background-color: rgba(255, 182, 140, 0.5);
+}
+
+.rank.rank-4 span,
+.rank.rank-5 span,
+.rank.rank-6 span {
+    background-color: rgba(198, 211, 214, 0.5);
+}
+
+.rank.rank-7 span,
+.rank.rank-8 span,
+.rank.rank-9 span,
+.rank.rank-10 span {
+    background-color: rgba(249, 194, 62, 0.5);
+}
+
+.rank.rank-11 span,
+.rank.rank-12 span,
+.rank.rank-13 span,
+.rank.rank-14 span,
+.rank.rank-15 span,
+.rank.rank-16 span {
+    background-color: rgba(231, 109, 255, 0.5);
+}
+
+#character-data .rank div {
+    display: inline-block;
+}
+
+#character-data .rank i {
+    position: relative;
+    top: 18px;
+}
+
+#character-data .rank i.disabled {
+    opacity: 0.20;
+}
+
+
+@media (max-width: 600px) {
+    .main_title,
+    .sub_title {
+        display: none;
+    }
+
+    .simple_title {
+        display: block;
+    }
+}
+
+@media (max-width: 510px) {
+    #character-data .name {
+        margin-right: 0;
+    }
+    #character-data .name .name_en,
+    #character-data .name .name_jp {
+        width: 40vw;
+    }
+    #character-data img {
+        display: block;
+        margin: 10px auto auto;
+        width: 100px;
+    }
+    #character-data .rank span {
+        margin-top: 30px;
+    }
+    #character-data .rank div {
+        display: block;
+        position: relative;
+        bottom: 13px;
+    }
 }
