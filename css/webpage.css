@@ -293,10 +293,10 @@ i.footer {
 
 /* COMMON CLASSES =================================================================================================== */
 .category-title {
-    /* TEXT DESIGN */
     color: aliceblue;
     text-align: center;
     text-shadow: 2px 2px 4px #000000;
+    font-size: 24px;
 }
 
 /* SCRIPT CLASSES =================================================================================================== */
@@ -548,6 +548,7 @@ i.footer {
     line-height: 18px;
     text-align: center;
     overflow: auto;
+    font-size: 14px;
 
     margin-bottom: 10px;
     max-width: 500px;
@@ -1124,13 +1125,35 @@ i.footer {
 .webp #character-preset-div {background-image: url('./../images/webpage_webp/bg_530010_blur.webp');}
 
 .presets_unit-icon {
-    /* IMAGE SIZE */
     height: 100px;
-
-    /* DESIGN */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3),
         0 6px 20px 0 rgba(0, 0, 0, 0.30);
-    border-radius: 6px;
+    border-radius: 10px;
+}
+
+#preset-bulk-settings div div {
+    display: inline-block;
+    width: 25%;
+    font-weight: bold;
+}
+
+#preset-bulk-settings translate[text="presets_tab.to"],
+#preset-bulk-settings translate[text="presets_tab.minimum_rank"],
+#preset-bulk-settings translate[text="presets_tab.maximum_rank"] {
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    font-weight: bold;
+}
+
+#preset-bulk-settings translate[text="presets_tab.to"] {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 16px;
+}
+
+#preset-bulk-settings translate[text="presets_tab.minimum_rank"],
+#preset-bulk-settings translate[text="presets_tab.maximum_rank"] {
+    font-size: 14px;
 }
 
 .presets_unit-info {
@@ -1143,6 +1166,7 @@ i.footer {
 
 .presets_overwrite-warning {
     text-shadow: 1px 1px 2px #000000,1px 1px 3px #000000;
+    font-size: 16px;
 }
 
 #preset-search-button {
@@ -1165,6 +1189,7 @@ i.footer {
     margin-left: 2px;
     margin-right: 2px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .preset-item-button {
@@ -1232,7 +1257,7 @@ i.footer {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
     #preset-item-1,
     #preset-item-3,
     #preset-item-5 {
