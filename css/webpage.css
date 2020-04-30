@@ -10,6 +10,15 @@ a {
     text-decoration: none;
 }
 
+body {
+    background-color: #e3cfcb;
+}
+
+hr {
+    border-top: 2px solid black;
+    border-radius: 3px
+}
+
 /* FONTS ============================================================================================================ */
 body:lang(en), translate:lang(en), select:lang(en), option:lang(en) {
     font-family: 'Noto Sans', sans-serif;
@@ -236,8 +245,36 @@ div.title-background:not(.no-hover):hover .title {
 
 /* TITLE ============================================================================================================ */
 .title {
-    /* TITLE TEXT TRANSITION */
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    box-sizing: border-box;
     transition: all 0.4s ease-out;
+}
+
+.main_title {
+    font-size: 28px;
+}
+
+.sub_title {
+    margin-top: -25px;
+    letter-spacing: 3px;
+}
+
+p.footer {
+    text-align: right;
+    font-family: "Trebuchet MS", Arial, serif;
+    text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000, 1px 1px 2px #000000;
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+i.footer {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    top: 7px;
 }
 
 @media (max-width: 400px) {
@@ -263,18 +300,24 @@ div.title-background:not(.no-hover):hover .title {
 }
 
 /* SCRIPT CLASSES =================================================================================================== */
+.notranslate {
+    /*
+        CLASS THAT PREVENTS GOOGLE TRANSLATION
+    */
+}
+
 .collapsible {
     /*
         AN ELEMENT WITH THIS CLASS WILL CONVERT THE NEXT ELEMENT TO A "COLLAPSIBLE" ONE
         COLLAPSIBLE ELEMENTS WILL APPEAR/DISAPPEAR IF THE ELEMENT WITH THE "collapsible" ELEMENT IS INTERACTED WITH
-        LOOK AT scripts/collapsible-animate.js FOR MORE INFORMATION
+        LOOK AT scripts/priconne-quest-helper.js::webpage.init().enable_collapsible() FOR MORE INFORMATION
      */
 }
 
 .itemTable {
     /*
         AN ELEMENT WITH THIS CLASS WILL BE FILLED WITH EQUIPMENT ITEMS ACCORDING TO THEIR RARITY
-        LOOK AT scripts/build-item-table.js FOR MORE INFORMATION
+        LOOK AT scripts/priconne-quest-helper.js::data_display.item_table FOR MORE INFORMATION
      */
 }
 
@@ -283,14 +326,14 @@ div.title-background:not(.no-hover):hover .title {
         AN ELEMENT WITH THIS CLASS IS THE FOURTH (MAIN) ITEM IN A QUEST.
         FOURTH ITEMS ARE USUALLY FOUND IN VERY HARD QUESTS
         IF THIS CLASS IS FOUND, THAT MEANS THERE IS A QUEST THAT HAS A FOURTH ITEM SO IT WILL BE REVEALED.
-        LOOK AT scripts/recommended-quest-table.js FOR MORE INFORMATION
+        LOOK AT scripts/priconne-quest-helper.js::data_display.recommended-quests FOR MORE INFORMATION
     */
 }
 
 .item-table-item {
     /*
         USED WHEN SWITCHING BETWEEN CURRENT AND LEGACY EQUIPMENT DATA
-        LOOK AT scripts/build-item-table.js FOR MORE INFORMATION
+        LOOK AT scripts/priconne-quest-helper.js::data_display.item_table FOR MORE INFORMATION
     */
 }
 
@@ -556,11 +599,8 @@ div.title-background:not(.no-hover):hover .title {
 }
 
 .required-ingredients_button.disabled {
-    filter: opacity(60%);
+    filter: grayscale(100%) opacity(60%);
     cursor: auto;
-}
-.required-ingredients_button.disabled {
-    filter: grayscale(100%);
 }
 
 .required-ingredients_button span {
@@ -585,8 +625,8 @@ div.title-background:not(.no-hover):hover .title {
     height: 16px;
     margin-top: -16px;
     position: relative;
-    right: 5px;
-    bottom: 18px;
+    right: 4px;
+    bottom: 16px;
     filter: opacity(100%);
 }
 
@@ -1133,10 +1173,26 @@ div.title-background:not(.no-hover):hover .title {
     transition: none !important;
 }
 
+#preset-item-1,
+#preset-item-3,
+#preset-item-5 {
+    margin-right: 260px !important;
+}
+
+#preset-items-previous-rank-button,
+#preset-items-next-rank-button {
+    height: 30px;
+    font-weight: bold;
+}
+#preset-items-previous-rank-button {
+    margin-right: 100px;
+}
+/*
 .preset-item-button-padding {
     margin-left: 125px;
     margin-right: 125px;
 }
+*/
 
 .preset-plus-img {
     width: 20px;
@@ -1162,18 +1218,38 @@ div.title-background:not(.no-hover):hover .title {
 }
 
 @media (max-width: 450px) {
-    .presets_unit-info {
-        font-size: 4vw;
-        letter-spacing: -1px;
+    #preset-item-1,
+    #preset-item-3,
+    #preset-item-5 {
+        margin-right: 60% !important;
     }
-    .preset-item-button-padding {
-        margin-left: 24%;
+    #preset-character-name-label {
+        display: inline-block;
+        width: 55%;
+    }
+    #preset-items-previous-rank-button {
+        margin-right: 20px;
     }
 }
 
-@media (max-width: 350px) {
-    .preset-item-button-padding {
-        margin-left: 0;
+@media (max-width: 300px) {
+    #preset-item-1,
+    #preset-item-3,
+    #preset-item-5 {
+        margin-right: 0 !important;
+    }
+    #preset-items-div {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    #preset-items-previous-rank-button {
+        text-align: center;
+        display: inline-block;
+        margin: auto 0 10px auto;
+    }
+    #preset-character-name-label {
+        display: inline-block;
+        width: 100%;
     }
 }
 
@@ -1534,4 +1610,63 @@ div.title-background:not(.no-hover):hover .title {
 
 #inventory_catalog_add-button, #inventory_catalog_cancel-button {
     margin-top: 5px;
+}
+
+/* MISCELLANEOUS ==================================================================================================== */
+.item-amount {
+    font-family: "Calibri", Arial, serif;
+    text-shadow: 1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000,
+    1px 1px 4px #000000;
+    color: white;
+    text-align: right;
+}
+
+.low-opacity {
+    -webkit-filter: opacity(30%);
+    filter: opacity(30%);
+}
+
+.grayscale {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.pointer-cursor:hover {
+    cursor: pointer;
+}
+
+.center-div {
+    margin: auto;
+    text-align: center;
+}
+
+/* COLORS =========================================================================================================== */
+.heart-red {
+    color: #ff4d4d
+}
+
+.text-color_common {
+    color: #88acf0;
+}
+
+.text-color_copper {
+    color: #f7ba9c;
+}
+
+.text-color_silver {
+    color: #deebf7;
+}
+
+.text-color_gold {
+    color: #ffdf73;
+}
+
+.text-color_purple {
+    color: #d67dff;
+}
+
+.text-color_misc {
+    color: #a1e9ff;
 }

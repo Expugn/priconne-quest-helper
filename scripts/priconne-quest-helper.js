@@ -1171,7 +1171,7 @@ const presets = (function () {
                   char_name = char_data[selected_char][character_data.tags.NAME],
                   char_thematic = char_data[selected_char][character_data.tags.THEMATIC],
                   is_thematic_exists = char_thematic !== "",
-                  char_image = (is_thematic_exists ? char_thematic + "_" + char_name : char_name).replace('/ /g', '_');
+                  char_image = (is_thematic_exists ? char_thematic + "_" + char_name : char_name).split(' ').join('_');
             let char_thematic_tl, char_tl;
 
             if (webpage.language.is_english()) {
@@ -4154,7 +4154,7 @@ const webpage = (function () {
             // TRANSLATE SIMPLE MODE SUBTITLE IF NEEDED
             if (simple_mode_enabled) {
                 document.getElementById("sub-title").innerHTML = data[tags.SYSTEM]["subtitle"] +
-                    "<br><br><span style='font-family: \"Arial\", serif; font-weight: bold; letter-spacing: 1px !important; color: aliceblue; text-shadow: 1px 1px 1px #000000 !important;'>" +
+                    "<br><br><span style='font-weight: bold; letter-spacing: 1px !important; color: aliceblue; text-shadow: 1px 1px 1px #000000 !important;'>" +
                     data[tags.OTHER_TAB]["simple_mode"] + "</span>";
             }
 
@@ -4385,7 +4385,7 @@ const webpage = (function () {
                 $("#recommended-quest-div").toggleClass(classes.NO_TRANSITION);
                 $("#character-preset-div").toggleClass(classes.NO_BACKGROUND);
                 $("#title-background-div").hide();
-                document.getElementById("sub-title").innerHTML = "Quest Helper<br><br><span style='font-family: \"Arial\", serif; font-weight: bold; letter-spacing: 1px !important; color: aliceblue; text-shadow: 1px 1px 1px #000000 !important;'>Simple Mode</span>";
+                document.getElementById("sub-title").innerHTML = "Quest Helper<br><br><span style='font-weight: bold; letter-spacing: 1px !important; color: aliceblue; text-shadow: 1px 1px 1px #000000 !important;'>Simple Mode</span>";
 
                 print("Simple Mode Enabled! (No Background Images)", "Simple Mode");
                 simple_mode_enabled = true;
