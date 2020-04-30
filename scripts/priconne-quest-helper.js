@@ -4390,6 +4390,9 @@ const webpage = (function () {
                 print("Simple Mode Enabled! (No Background Images)", "Simple Mode");
                 simple_mode_enabled = true;
             }
+            else {
+                document.querySelector("i.webpage.webpage-GitHub-Mark").classList.add("invert");
+            }
         }
 
         /**

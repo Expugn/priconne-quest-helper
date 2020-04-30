@@ -277,6 +277,10 @@ i.footer {
     top: 7px;
 }
 
+.invert {
+    filter: invert(100%);
+}
+
 @media (max-width: 400px) {
     .main_title {
         font-size: 6vw;
@@ -418,7 +422,7 @@ i.footer {
 }
 
 #navigation-bar select:hover {
-    /* NAVIGATION BAR ; LANGUAGE SELECT WHEN HOVERED*/
+    /* NAVIGATION BAR ; LANGUAGE SELECT WHEN HOVERED */
     background-color: #4f4f4f;
     cursor: pointer;
 }
@@ -428,26 +432,18 @@ i.footer {
     position: relative;
     text-align: center;
     text-shadow: 1px 1px 3px #000000;
-    display: block;
     font-weight: bold;
-}
-
-.navigation-bar-text:lang(en) {
-    bottom: 42px;
-}
-.navigation-bar-text:lang(ja), .navigation-bar-text:lang(ko) {
-    bottom: 44px;
+    display: block;
+    margin-top: -25px;
 }
 
 .navigation-bar-image {
+    margin-left: -16px;
+    margin-top: -19px;
     position: relative;
-    display: block;
-    bottom: 14px;
-    right: 16px;
+    top: 5px;
     -webkit-filter: opacity(30%);
     filter: opacity(30%);
-    width: 150px;
-    height: 50px;
 }
 
 /* ITEM TABLES ====================================================================================================== */
@@ -1029,6 +1025,8 @@ i.footer {
 .quest_inline-inventory {
     background: rgba(0, 0, 0, 0.5);
     width: 74px;
+    position: relative;
+    top: 3px;
 }
 
 @media (max-width: 1000px) {
@@ -1512,6 +1510,15 @@ i.footer {
     margin-top: 5px;
 }
 
+@media (max-width: 350px) {
+    #inventory_modal_close-button {
+        width: 33px;
+        height: 33px;
+        margin-right: 0;
+        margin-top: 0;
+    }
+}
+
 #inventory_modal_close-button-text {
     display: block;
     color: white;
@@ -1526,9 +1533,26 @@ i.footer {
         0 0 3px #000000;
 }
 
+#inventory_modal_close-button-text:lang(ja) {
+    position: relative;
+    top: 2px;
+    font-size: 28px;
+}
+
+#inventory_modal_close-button-text:lang(ko) {
+    position: relative;
+    bottom: 4px;
+}
+
 #inventory_content_list {
     background-color: rgba(0, 0, 0, 0.10);
     border-radius: 5px;
+}
+
+@media (max-width: 400px) {
+    #inventory_content_list {
+        margin: auto -20px;
+    }
 }
 
 .inventory_item {
