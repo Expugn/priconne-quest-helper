@@ -32,6 +32,8 @@ Code Rewrite
     - `thematics.ranger`
   - `ko.json`
     - `thematics.ranger`
+- New Character: Rin (Ranger)
+- New Quest: 22-1 VH (Tamaki)
 ### Changed
 - Webpage Optimizations
   - Reworked code to lower the requests and resources needed for the initial page load
