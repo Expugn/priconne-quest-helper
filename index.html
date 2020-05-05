@@ -864,63 +864,6 @@
     </div>
 </div>
 
-<!-- TEMPLATES -->
-<template id="template_item-table-item">
-    <div class="item-table-item_div">
-        <button id="{item_id}" class="item-table-item item-sprite_button item-sprite" onclick=""></button><br>
-        <input id="{item_id}-amt" class="notranslate item-table-item_input" type="number" min="0" max="" value="" onchange="">
-    </div>
-</template>
-<template id="template_requested-item">
-    <div class="requested-item item-amount item-sprite">
-        <span></span>
-    </div>
-</template>
-<template id="template_required-ingredient">
-    <button id="request-button-{item_name}" class="required-ingredients_button item-sprite_button item-amount item-sprite">
-        <span></span>
-        <img class="required-ingredients_button_inventory-crate" src="" alt="">
-    </button>
-</template>
-<template id="template_quest-entry">
-    <div class="quest">
-        <div class="quest_header">
-            <div class="quest_title"></div>
-            <div class="quest_memory-piece">
-                <img class="quest_memory-piece-img" title="" src="" alt="">
-                <div class="quest_memory-piece-percent"></div>
-            </div>
-        </div>
-        <div class="quest_score"></div>
-        <br class="quest_line">
-        <div class="quest_items"></div>
-        <br class="quest_line-2">
-        <div class="quest_subdrops"></div>
-    </div>
-</template>
-<template id="template_quest-item">
-    <div class="quest_item item-sprite">
-        <span class="quest_drop-percent"></span>
-        <span class="quest_required-amount"></span>
-    </div>
-</template>
-<template id="template_inventory-item">
-    <div id="inventory_item-{num}" class="inventory_item item-sprite" onclick="">
-        <img id="inventory_item-{num}-delete" class="inventory_item-delete-img" src="" alt="">
-        <span id="inventory_item-{num}-amount" class="inventory_item-text"></span>
-        <input id="inventory_item-{num}-input" class="inventory_item-input" type="number" hidden>
-    </div>
-</template>
-<template id="template_inventory-inline-editor">
-    <div class="inventory-inline-editor">
-        <div class="quest_inline-inventory">
-            <img class="quest_inline-crate" src="" alt="">
-            <div class="quest_inventory-amount">0</div>
-        </div>
-        <button class="minus" value="-30">-30</button><button class="plus" value="+30">+30</button>
-    </div>
-</template>
-
 <script id="startup">
     webpage.init();
 </script>

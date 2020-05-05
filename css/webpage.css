@@ -571,8 +571,7 @@ i.footer {
 
 .requested-item {
     display: inline-block;
-    margin-right: -1px;
-    margin-left: -1px;
+    margin: auto 1px;
 }
 
 .requested-item span {
@@ -592,7 +591,7 @@ i.footer {
 
 .required-ingredients_button {
     /* USING !important TO OVERPOWER .item-sprite_button */
-    margin: 3px -1px 0 !important;
+    margin: 3px 1px 0 !important;
 }
 
 .required-ingredients_button.disabled {
@@ -1001,14 +1000,16 @@ i.footer {
 }
 
 .inventory-inline-editor {
-    width: 78px;
+    width: 100px;
+    position: relative;
+    right: 15px;
 }
 
-.quest_item.quest-item-edit .inventory-inline-editor button.minus {
-    margin-left: -2px;
-}
+.quest_item.quest-item-edit .inventory-inline-editor button.minus,
 .quest_item.quest-item-edit .inventory-inline-editor button.plus {
-    margin-left: 1px;
+    width: 50px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .quest_item.quest-item-edit span {
@@ -1023,22 +1024,18 @@ i.footer {
 }
 
 .quest_inline-inventory {
+    display: block;
     background: rgba(0, 0, 0, 0.5);
-    width: 74px;
+    width: 100px;
     position: relative;
     top: 3px;
-}
-
-@media (max-width: 1000px) {
-    .quest_item.quest-item-edit .inventory-inline-editor button.minus {
-        margin-left: -1px;
-    }
 }
 
 .quest_inline-crate {
     width: 24px;
     height: 24px;
     margin-top: 3px;
+    margin-right: 5px;
 }
 
 .quest_inventory-amount {

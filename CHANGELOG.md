@@ -3,6 +3,17 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.1] - 2020-05-05
+### Changed
+- Modified Inventory Inline Editor CSS
+### Removed
+- Removed `index.html` templates in favor of writing them from scratch in code
+### Fixed
+- All these fixed issues were tested on `Firefox 76.0 (64-bit)`, Chrome/Chromium based browsers did not have these issues (Thank you `Mars Club` for the report!)
+  - Fixed an issue where updating the inventory via Item Tables would not work
+  - Fixed an issue where attempting to remove an item via `Inventory Remove Mode` would not work
+  - Fixed an issue where attempting to change an item's quantity via `Inventory List Mode` would not work
+
 ## [2.0.0] - 2020-04-29
 Code Rewrite
 ### Added

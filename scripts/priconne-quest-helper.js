@@ -1518,7 +1518,7 @@ const projects = (function () {
                     clean();
                     for (let i = 0, j = saved_data.length ; i < j ; i++) {
                         const item_name = saved_data[i];
-                        const elem = document.getElementById("request-button-" + item_name.replace('/ /g', '_'));
+                        const elem = document.getElementById("request-button-" + item_name.split(' ').join('_'));
                         list.push(item_name);
                         if (elem) {
                             elem.classList.add(classes.LOW_OPACITY);
@@ -1613,7 +1613,7 @@ const projects = (function () {
             data_display.quests.refresh();
             update_list();
             disable_complete_project_button(undefined, true);
-            document.getElementById("request-button-" + item_name.replace('/ /g', '_')).classList.toggle("low-opacity");
+            document.getElementById("request-button-" + item_name.split(' ').join('_')).classList.toggle("low-opacity");
             return !is_disabled;
         }
 
@@ -1677,7 +1677,7 @@ const projects = (function () {
         function clean() {
             if (list.length > 0) {
                 for (let i = 0, j = list.length ; i < j ; i++) {
-                    const elem = document.getElementById("request-button-" + list[i].replace('/ /g', '_'));
+                    const elem = document.getElementById("request-button-" + list[i].split(' ').join('_'));
                     if (elem) {
                         elem.classList.remove(classes.LOW_OPACITY);
                     }
@@ -2211,7 +2211,7 @@ const projects = (function () {
         // REMOVE PROJECT ITEMS FROM BLACKLIST
         for (const item_name in project_recipe) {
             if (blacklist.remove_item(item_name)) {
-                const req_ingredient_button = document.getElementById("request-button-" + item_name.replace('/ /g', '_'));
+                const req_ingredient_button = document.getElementById("request-button-" + item_name.split(' ').join('_'));
                 if (req_ingredient_button) {
                     req_ingredient_button.classList.remove("low-opacity");
                 }
@@ -2362,7 +2362,6 @@ const inventory = (function () {
         INLINE_EDITOR: "inventory-inline-editor",
         MODAL: "inventory_modal",
         CLOSE: "inventory_modal_close-button",
-        ITEM_TEMPLATE: "template_inventory-item",
         INVENTORY_LIST: "inventory_content_list",
         CATALOG: "inventory_catalog",
         PROMPT: "inventory_catalog-add-prompt",
@@ -2448,8 +2447,13 @@ const inventory = (function () {
                     }
                 }
                 if ($inventory_editor.length === 0) {
-                    $inventory_editor = $($('#template\\_inventory\\-inline\\-editor').html());
-                    $("div img", $inventory_editor).attr("src", webpage.get_webpage_image_path("Inventory_Crate"));
+                    $inventory_editor = $($.parseHTML('<div class="inventory-inline-editor">' +
+                        '<div class="quest_inline-inventory">' +
+                        '<img class="quest_inline-crate" src="' + webpage.get_webpage_image_path("Inventory_Crate") + '" alt="">' +
+                        '<div class="quest_inventory-amount">0</div>' +
+                        '</div>' +
+                        '<button class="minus" value="-30">-30</button><button class="plus" value="+30">+30</button>' +
+                        '</div>'));
                 }
                 $("span.quest_drop-percent", $this).before($inventory_editor);
                 let item_name = $this.attr('title');
@@ -2915,25 +2919,35 @@ const inventory = (function () {
          * @param {number}    item_amount    AMOUNT OF THE ITEM THAT EXISTS IN THE INVENTORY.
          */
         function append_inventory_item(elem_id, item_name, item_amount) {
-            let template = document.getElementById(element_id.ITEM_TEMPLATE).content.cloneNode(true);
-            let div = template.querySelector("div");
+            const div = document.createElement("div");
             div.id = elem_id;
-            div.classList.add(webpage.get_item_sprite_class(item_name));
+            div.classList.add("inventory_item", "item-sprite", webpage.get_item_sprite_class(item_name));
             div.title = item_name;
-            div.onclick = function () {
+            div.onclick = () => {
                 onclick_inventory_item(elem_id, event);
             };
 
-            let span = div.querySelector("span");
-            span.id = elem_id + "-amount";
-            span.innerHTML = item_amount + "";
-
-            let delete_img = div.querySelector("img");
+            const delete_img = document.createElement("img");
             delete_img.id = elem_id + "-delete";
+            delete_img.classList.add("inventory_item-delete-img");
             delete_img.src = webpage.get_webpage_image_path("red_x");
-            div.querySelector("input").id = elem_id + "-input";
+            delete_img.alt = "";
+            div.appendChild(delete_img);
 
-            list_elem.appendChild(template);
+            const span = document.createElement("span");
+            span.id = elem_id + "-amount";
+            span.classList.add("inventory_item-text");
+            span.innerHTML = item_amount + "";
+            div.appendChild(span);
+
+            const input = document.createElement("input");
+            input.id = elem_id + "-input";
+            input.classList.add("inventory_item-input");
+            input.type = "number";
+            input.hidden = true;
+            div.appendChild(input);
+
+            list_elem.appendChild(div);
 
             // SETUP KEY EVENT TO CHECK IF INPUT ELEMENT IS SELECTED AND ENTER KEY IS PRESSED
             $("#" + elem_id + "-input").off().keyup(function (event) {
@@ -3191,8 +3205,7 @@ const data_display = (function () {
             SILVER_TABLE: "silver-item-table",
             GOLD_TABLE: "gold-item-table",
             PURPLE_TABLE: "purple-item-table",
-            MISC_TABLE: "misc-item-table",
-            ITEM_TABLE_ITEM_TEMPLATE: "template_item-table-item",
+            MISC_TABLE: "misc-item-table"
         });
         const max_input = Object.freeze({
             ALL: 99,    // MAX AMOUNT YOU CAN ENTER FOR COMMON/COPPER/GOLD/PURPLE/ETC ITEMS
@@ -3263,19 +3276,23 @@ const data_display = (function () {
              * @param {string}    rarity       ITEM RARITY CLASS ; i.e. "common".
              */
             function append_item (table_id, item_name, item_id, rarity) {
-                let template = document.getElementById(element_id.ITEM_TABLE_ITEM_TEMPLATE).content.cloneNode(true);
+                const item_div = document.createElement("div");
+                item_div.classList.add("item-table-item_div");
 
                 // SETUP BUTTON
-                let button = template.querySelector("div button");
+                const button = document.createElement("button");
                 button.id = item_id;
-                button.onclick = function () {
-                    data_display.item_focus.focus(equipment_data.apostrophe.CONVERT(item_name), button.id);
-                };
-                button.classList.add(webpage.get_item_sprite_class(item_name));
                 button.title = item_name;
+                button.classList.add("item-table-item", "item-sprite_button", "item-sprite", webpage.get_item_sprite_class(item_name));
                 if (data_display.item_focus.data().ID === button.id) {
                     button.classList.add(data_display.item_focus.FOCUSED_ITEM_CLASS);
                 }
+                button.onclick = () => {
+                    data_display.item_focus.focus(equipment_data.apostrophe.CONVERT(item_name), button.id);
+                };
+                button.style.display = "block";
+                button.style.margin = "auto";
+                item_div.appendChild(button);
 
                 // SETUP INPUT
                 let existing = -1;
@@ -3283,15 +3300,19 @@ const data_display = (function () {
                     existing = status.SELECTED[item_id];
                     delete status.SELECTED[item_id];
                 }
-                let input = template.querySelector("div input");
+                const input = document.createElement("input");
                 input.id = item_id + "-amt";
+                input.classList.add("notranslate", "item-table-item_input");
+                input.type = "number";
+                input.min = 0;
                 input.max = ((rarity === equipment_data.rarity.MISC) ? max_input.MISC : max_input.ALL);
                 input.value = ((existing > -1) ? existing : 0);
                 input.onchange = function () {
                     data_display.update(this);
                 };
+                item_div.appendChild(input);
 
-                document.getElementById(table_id).appendChild(template);
+                document.getElementById(table_id).appendChild(item_div);
             }
 
             // BUILD HTML
@@ -3466,8 +3487,7 @@ const data_display = (function () {
     })();
     const requested_items = (function () {
         const element_id = Object.freeze({
-            TABLE: "requested-item-table",
-            ITEM_TEMPLATE: "template_requested-item"
+            TABLE: "requested-item-table"
         });
 
         /**
@@ -3482,12 +3502,15 @@ const data_display = (function () {
             table.innerHTML = "";
             if (!jQuery.isEmptyObject(items)) {
                 for (const item_name in items) {
-                    let template = document.getElementById(element_id.ITEM_TEMPLATE).content.cloneNode(true);
-                    let div = template.querySelector("div");
+                    const div = document.createElement("div");
                     div.title = item_name;
-                    div.classList.add(webpage.get_item_sprite_class(item_name));
-                    div.querySelector("span").innerHTML = items[item_name];
-                    table.appendChild(template);
+                    div.classList.add("requested-item", "item-amount", "item-sprite", webpage.get_item_sprite_class(item_name));
+
+                    const span = document.createElement("span");
+                    span.innerHTML = items[item_name];
+                    div.appendChild(span);
+
+                    table.appendChild(div);
                 }
             }
         }
@@ -3498,8 +3521,7 @@ const data_display = (function () {
     })();
     const required_ingredients = (function () {
         const element_id = Object.freeze({
-            TABLE: "required-ingredient-table",
-            ITEM_TEMPLATE: "template_required-ingredient"
+            TABLE: "required-ingredient-table"
         });
 
         /**
@@ -3523,31 +3545,34 @@ const data_display = (function () {
                     const is_disabled = amount <= 0;
                     amount = Math.abs(amount);
 
-                    let template = document.getElementById(element_id.ITEM_TEMPLATE).content.cloneNode(true);
-                    let button = template.querySelector("button");
-                    let inventory_crate = button.querySelector("img.required-ingredients_button_inventory-crate");
+                    const button = document.createElement("button");
+                    button.id = "request-button-" + item_name.split(' ').join('_');
+                    button.title = item_name;
+                    button.classList.add("required-ingredients_button", "item-sprite_button", "item-amount", "item-sprite", webpage.get_item_sprite_class(item_name));
 
-                    button.id = "request-button-" + item_name.replace('/ /g', '_');
+                    const span = document.createElement("span");
+                    span.innerHTML = amount;
+                    button.appendChild(span);
+
                     if (is_disabled) {
                         button.classList.add("disabled");
-                        inventory_crate.src = webpage.get_webpage_image_path("Inventory_Crate");
+                        const crate = document.createElement("img");
+                        crate.classList.add("required-ingredients_button_inventory-crate");
+                        crate.src = webpage.get_webpage_image_path("Inventory_Crate");
+                        crate.alt = "";
+                        button.appendChild(crate);
                     }
                     else {
                         button.classList.add("pointer-cursor");
                         if (projects.blacklist.is_item_exist(item_name)) {
                             button.classList.add("low-opacity");
                         }
-                        button.onclick = function() {
+                        button.onclick = () => {
                             webpage.print((projects.blacklist.toggle(item_name) ? "Disabled " : "Enabled ") + item_name, "Blacklist");
                         };
-                        inventory_crate.parentNode.removeChild(inventory_crate);
                     }
-                    button.title = item_name;
-                    button.classList.add(webpage.get_item_sprite_class(item_name));
 
-                    button.querySelector("span").innerHTML = amount;
-
-                    table.appendChild(template);
+                    table.appendChild(button);
                 }
             }
         }
@@ -3559,9 +3584,7 @@ const data_display = (function () {
     const recommended_quests = (function () {
         const element_id = Object.freeze({
             TABLE: "recommended-quest-table",
-            DIV: "recommended-quest-div",
-            QUEST_ENTRY_TEMPLATE: "template_quest-entry",
-            QUEST_ITEM_TEMPLATE: "template_quest-item"
+            DIV: "recommended-quest-div"
         });
         const score_values = Object.freeze({
             TOP_TWO: 1.0,
@@ -3782,60 +3805,31 @@ const data_display = (function () {
                         const is_hard = quest_id.includes(difficulty.HARD) && !quest_id.includes(difficulty.VERY_HARD);
                         const is_very_hard = quest_id.includes(difficulty.VERY_HARD);
 
-                        let entry_template = document.getElementById(element_id.QUEST_ENTRY_TEMPLATE).content.cloneNode(true);
-
-                        let quest_div = entry_template.querySelector("div.quest");
-                        quest_div.classList.add((quest_count % 2 === 0 ? classes.ODD_QUEST : classes.EVEN_QUEST));
-
-                        // QUEST TITLE
-                        let quest_title_div = quest_div.querySelector("div.quest_header div.quest_title");
-                        if (quest_score >= 2) {
-                            quest_title_div.classList.add(classes.TITLE_COLOR_GREEN);
-                        }
-                        else if (quest_score >= 1) {
-                            quest_title_div.classList.add(classes.TITLE_COLOR_YELLOW);
-                        }
-                        else {
-                            quest_title_div.classList.add(classes.TITLE_COLOR_RED);
-                        }
-                        quest_title_div.innerHTML = (is_normal ? quest_id : "") +
-                            (is_hard ? quest_id.replace(difficulty.HARD, "<span class='heart-red'> H</span>") : "") +
-                            (is_very_hard ? quest_id.replace(difficulty.VERY_HARD, "<span class='heart-red'> VH</span>") : "");
-
-                        // MEMORY PIECE
-                        const shard = quest_info[quest_data.tags.CHAR_SHARD];
-                        const is_shard_exists = shard !== undefined;
-                        const shard_name = (is_shard_exists ? shard[quest_data.tags.ITEM_NAME] : "");
-                        let memory_piece_div = quest_div.querySelector("div.quest_header div.quest_memory-piece");
-                        if (!is_shard_exists) {
-                            memory_piece_div.classList.add(classes.REMOVE);
-                        }
-                        else if (!merged_recipes.hasOwnProperty(shard_name)) {
-                            memory_piece_div.classList.add(classes.DISABLED);
-                        }
-                        let memory_piece_img = memory_piece_div.querySelector("img");
-                        memory_piece_img.src = webpage.get_item_image_path(is_shard_exists ? shard_name.split(' ').join('_') : PLACEHOLDER_IMAGE_NAME);
-                        memory_piece_img.title = (is_shard_exists ? shard_name : "");
-                        memory_piece_div.querySelector("div").innerHTML = (is_shard_exists ? shard[quest_data.tags.DROP_PERCENT] : 0) + "%";
-
-                        // QUEST SCORE
-                        let quest_score_div = quest_div.querySelector("div.quest_score");
-                        if (setting.hide_quest_score) {
-                            quest_score_div.classList.add(classes.REMOVE);
-                        }
-                        quest_score_div.innerHTML = quest_score + " pts";
-
-                        // QUEST ITEMS/SUBDROPS
+                        /**
+                         * HELPER FUNCTION ; CHECKS IF THE ITEM IS IN A PRIORITIZED PROJECT AND IS NOT BLACKLISTED.
+                         *
+                         * @param {string}    item_name    ITEM NAME IN ENGLISH ; i.e. "Iron Blade".
+                         * @return {boolean} TRUE IF THE ITEM IS A PRIORITIZED AND REQUIRED ITEM.
+                         */
                         function is_item_priority_and_needed(item_name) {
                             if (projects.data().items.includes(item_name)) {
                                 return !projects.blacklist.get().includes(item_name);
                             }
                         }
+
+                        /**
+                         * CREATES A "QUEST ITEM" ELEMENT AND APPENDS IT TO THE PROVIDED ELEMENT.
+                         *
+                         * @param {Object}    element         DOCUMENT ELEMENT TO APPEND THE QUEST ITEM ELEMENT TO.
+                         * @param {String}    item_name       ITEM NAME IN ENGLISH ; i.e. "Iron Blade".
+                         * @param {number}    drop_percent    DROP PERCENTAGE THAT THE ITEM HAS ; i.e. 20.
+                         */
                         function append_quest_item(element, item_name, drop_percent) {
                             const required_amount = merged_recipes.hasOwnProperty(item_name) ? merged_recipes[item_name] : 0;
                             item_name = (item_name === null ? PLACEHOLDER_IMAGE_NAME : item_name);
-                            let item_template = document.getElementById(element_id.QUEST_ITEM_TEMPLATE).content.cloneNode(true);
-                            let item_div = item_template.querySelector("div");
+                            const item_div = document.createElement("div");
+                            item_div.title = item_name;
+                            item_div.classList.add("quest_item", "item-sprite", webpage.get_item_sprite_class(item_name));
                             if (item_name === PLACEHOLDER_IMAGE_NAME) {
                                 item_div.classList.add(classes.REMOVE);
                             }
@@ -3845,34 +3839,109 @@ const data_display = (function () {
                             if (is_item_priority_and_needed(item_name) && merged_recipes.hasOwnProperty(item_name)) {
                                 item_div.classList.add(classes.PRIORITY_ITEM);
                             }
-                            item_div.classList.add(webpage.get_item_sprite_class(item_name));
-                            item_div.title = item_name;
-                            let drop_percent_div = item_div.querySelector("span.quest_drop-percent");
-                            drop_percent_div.classList.add(setting.quest_display !== settings.display_options.AMOUNT ? classes.DISPLAY_TOP : classes.DISPLAY_BOTTOM);
+                            const drop_percent_div = document.createElement("span");
+                            drop_percent_div.classList.add("quest_drop-percent", (setting.quest_display !== settings.display_options.AMOUNT ? classes.DISPLAY_TOP : classes.DISPLAY_BOTTOM));
                             drop_percent_div.innerHTML = drop_percent;
-                            let req_amount_div = item_div.querySelector("span.quest_required-amount");
-                            req_amount_div.classList.add(setting.quest_display !== settings.display_options.AMOUNT ? classes.DISPLAY_BOTTOM : classes.DISPLAY_TOP);
+                            item_div.appendChild(drop_percent_div);
+                            const req_amount_div = document.createElement("span");
+                            req_amount_div.classList.add("quest_required-amount", (setting.quest_display !== settings.display_options.AMOUNT ? classes.DISPLAY_BOTTOM : classes.DISPLAY_TOP));
                             req_amount_div.innerHTML = required_amount;
+                            item_div.appendChild(req_amount_div);
 
-                            element.appendChild(item_template);
+                            element.appendChild(item_div);
                         }
-                        let quest_items_div = quest_div.querySelector("div.quest_items");
+
+                        const quest = document.createElement("div");
+                        quest.classList.add("quest", (quest_count % 2 === 0 ? classes.ODD_QUEST : classes.EVEN_QUEST));
+
+                        // QUEST HEADER
+                        const quest_header = document.createElement("div");
+                        quest_header.classList.add("quest_header");
+                        // QUEST TITLE
+                        const quest_title = document.createElement("div");
+                        quest_title.classList.add("quest_title");
+                        if (quest_score >= 2) {
+                            quest_title.classList.add(classes.TITLE_COLOR_GREEN);
+                        }
+                        else if (quest_score >= 1) {
+                            quest_title.classList.add(classes.TITLE_COLOR_YELLOW);
+                        }
+                        else {
+                            quest_title.classList.add(classes.TITLE_COLOR_RED);
+                        }
+                        quest_title.innerHTML = (is_normal ? quest_id : "") +
+                            (is_hard ? quest_id.replace(difficulty.HARD, "<span class='heart-red'> H</span>") : "") +
+                            (is_very_hard ? quest_id.replace(difficulty.VERY_HARD, "<span class='heart-red'> VH</span>") : "");
+                        quest_header.appendChild(quest_title);
+                        // MEMORY PIECE
+                        const quest_memory_piece = document.createElement("div"),
+                            shard = quest_info[quest_data.tags.CHAR_SHARD],
+                            is_shard_exists = shard !== undefined,
+                            shard_name = (is_shard_exists ? shard[quest_data.tags.ITEM_NAME] : "");
+                        quest_memory_piece.classList.add("quest_memory-piece");
+                        if (!is_shard_exists) {
+                            quest_memory_piece.classList.add(classes.REMOVE);
+                        }
+                        else if (!merged_recipes.hasOwnProperty(shard_name)) {
+                            quest_memory_piece.classList.add(classes.DISABLED);
+                        }
+                        const memory_piece_img = document.createElement("img");
+                        memory_piece_img.classList.add("quest_memory-piece-img");
+                        memory_piece_img.title = (is_shard_exists ? shard_name : "");
+                        memory_piece_img.src = webpage.get_item_image_path(is_shard_exists ? shard_name.split(' ').join('_') : PLACEHOLDER_IMAGE_NAME);
+                        memory_piece_img.alt = "";
+                        quest_memory_piece.appendChild(memory_piece_img);
+                        const memory_piece_percent = document.createElement("div");
+                        memory_piece_percent.classList.add("quest_memory-piece-percent");
+                        memory_piece_percent.innerHTML = (is_shard_exists ? shard[quest_data.tags.DROP_PERCENT] : 0) + "%";
+                        quest_memory_piece.appendChild(memory_piece_percent);
+                        quest_header.appendChild(quest_memory_piece);
+                        quest.appendChild(quest_header);
+
+                        // QUEST SCORE
+                        const quest_score_div = document.createElement("div");
+                        quest_score_div.classList.add("quest_score");
+                        if (setting.hide_quest_score) {
+                            quest_score_div.classList.add(classes.REMOVE);
+                        }
+                        quest_score_div.innerHTML = quest_score + " pts";
+                        quest.appendChild(quest_score_div);
+
+                        // QUEST LINE 1
+                        const quest_line_1 = document.createElement("br");
+                        quest_line_1.classList.add("quest_line");
+                        quest.appendChild(quest_line_1);
+
+                        // QUEST ITEMS
+                        const quest_items_div = document.createElement("div");
+                        quest_items_div.classList.add("quest_items");
                         for (let i = 1, item = quest_info[quest_data.tags.ITEM + i] ;
                              item !== undefined ;
                              i++, item = quest_info[quest_data.tags.ITEM + i]) {
                             append_quest_item(quest_items_div, item[quest_data.tags.ITEM_NAME], item[quest_data.tags.DROP_PERCENT]);
                         }
-                        let quest_subdrops_div = quest_div.querySelector("div.quest_subdrops");
+                        quest.appendChild(quest_items_div);
+
+                        // QUEST LINE 2
+                        const quest_line_2 = document.createElement("br");
+                        quest_line_2.classList.add("quest_line-2");
+                        quest.appendChild(quest_line_2);
+
+                        // QUEST SUBDROPS
+                        const quest_subdrops_div = document.createElement("div");
+                        quest_subdrops_div.classList.add("quest_subdrops");
                         const subdrops = quest_info[quest_data.tags.SUBDROPS];
                         for (let i = 0, j = subdrops.length ; i < j ; i++) {
                             const subdrops_percent = quest_info[quest_data.tags.SUBDROPS_PERCENT];
                             const drop_percent = subdrops_percent !== undefined ? subdrops_percent[i] : 20;
                             append_quest_item(quest_subdrops_div, subdrops[i], drop_percent);
                         }
+                        quest.appendChild(quest_subdrops_div);
 
                         // APPEND TO QUEST TABLE
-                        quest_table.appendChild(entry_template);
+                        quest_table.appendChild(quest);
                         if (++quest_count >= setting.quest_shown_value) {
+                            // STOP ADDING QUESTS IF THE AMOUNT EQUALS/EXCEEDS THE MAX AMOUNT IN SETTINGS
                             break;
                         }
                     }
