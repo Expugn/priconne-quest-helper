@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0] - 2020-05-15
+Quest Update (2020-05-15)
+### Added
+- New Character: Mahiru (Ranger)
+- Chapter 34 Quests
+- New Equipment
+### Changed
+- If an inventory inline editor is active and the inventory modal is requested to be opened, The inline editor will close and save whatever changes were made
+
 ## [2.0.1] - 2020-05-05
 ### Changed
 - Modified Inventory Inline Editor CSS

@@ -2651,8 +2651,21 @@ const inventory = (function () {
         const $inventory_editor = $(".inventory-inline-editor"),
               modal = document.getElementById(element_id.MODAL);
         if ($inventory_editor.length !== 0 && $inventory_editor.is(":visible")) {
-            webpage.print("Cannot open inventory modal because there is an inventory inline editor active at the moment.", "Inventory");
-            return;
+            // HIDE EDITOR
+            $inventory_editor.hide();
+            let $current_item_parent = $inventory_editor.parent();
+            if ($current_item_parent.hasClass('quest-item-edit')) {
+                $current_item_parent.removeClass('quest-item-edit');
+            }
+            // UPDATE TABLE IF INVENTORY CHANGED
+            const current_inventory_amount = parseInt($inventory_editor.children('.quest_inline-inventory').children('.quest_inventory-amount').text());
+            if (status.INLINE_EDITOR_START_AMOUNT !== current_inventory_amount) {
+                // REFRESH REQUIRED INGREDIENTS AND RECOMMENDED QUESTS IF A CHANGE IS DETECTED
+                data_display.build();
+                projects.update_list();
+                projects.disable_complete_project_button(undefined, true);
+                status.INLINE_EDITOR_START_AMOUNT = 0;
+            }
         }
 
         modal.hidden = !modal.hidden;
@@ -4052,7 +4065,7 @@ const webpage = (function () {
     const debug = true;
     let simple_mode_enabled = false;
     let webp_enabled = false;
-    const update_date = new Date(Date.UTC(2020, 3, 15, 24, 0, 0));
+    const update_date = new Date(Date.UTC(2020, 4, 15, 24, 0, 0));
     const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
 
     const navigation = (function () {

@@ -204,9 +204,8 @@
                     }
                 }
             }
-            console.dir(item_usage);
         }
-        
+
         function build_data(item_name) {
             const item = document.createElement("div"),
                   data_div = document.getElementById("recipe-data-div");
@@ -437,7 +436,7 @@
                 for (let i = 0, j = required_items.length ; i < j ; i++) {
                     config["nodeStructure"]["children"].push(get_req_item(required_items[i]));
                 }
-                
+
                 function get_req_item(item_name) {
                     let obj = {},
                         name = data[item_name]["name"] + (data[item_name]["has_fragments"] ? " Fragment" : ""),
