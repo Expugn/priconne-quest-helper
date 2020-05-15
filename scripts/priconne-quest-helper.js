@@ -1460,6 +1460,7 @@ const presets = (function () {
             case 14:
             case 15:
             case 16:
+            case 17:
                 return "text-color_purple";
             default:
                 return "text-color_misc";
