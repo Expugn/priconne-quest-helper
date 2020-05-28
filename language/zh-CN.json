@@ -1,1 +1,258 @@
-
+{
+    "system": {
+      "title": "公主连接 Re:Dive!",
+      "subtitle": "关卡助手",
+  
+      "required_ingredients_title": "需要的装备素材",
+      "required_ingredients_help_1": "制作你需要的所有装备的素材将被显示在这里",
+      "required_ingredients_help_2": "点击素材图标以切换将该素材计入或者<span style='color: darkorange'>移出</span>计算列表.",
+      "required_ingredients_help_3": "<span style='color: orange'>被移出</span>的素材<span style='color: salmon; font-style: italic'>不会</span>出现在<span style='color: yellow'>建议关卡</span>列表.",
+  
+      "recommended_quest_title": "建议关卡列表",
+      "recommended_quest_help_1": "在你选择了装备需求之后这里就会出现建议的关卡.",
+      "recommended_quest_help_2": "关卡将被按照<span style='color: yellow'>关卡中你需求的素材掉落概率</span>进行排序.",
+      "recommended_quest_help_3": "列表的关卡显示数量默认为<span style='color: #6DFF7F'>10</span>.",
+  
+      "last_quest_update": "上一次关卡列表更新: <span style='color: #6DFF7F'>${last_update_date}</span>",
+  
+      "translator": "翻译贡献者:",
+      "translator_name": "URARUA",
+  
+      "date_locale": "zh-CN"
+    },
+  
+    "items_tab": {
+      "tab_title": "装备计算",
+  
+      "common_title": "一般",
+      "copper_title": "铜装",
+      "silver_title": "银装",
+      "gold_title": "金装",
+      "purple_title": "紫装",
+      "miscellaneous_title": "记忆碎片",
+  
+      "requested_items_title": "装备需求",
+      "requested_items_help_1": "在上面的列表中选择的装备和数量将在这里显示.",
+      "requested_items_help_2": "点击目录标题将会展开/收起该稀有度装备的列表."
+    },
+  
+    "presets_tab": {
+      "tab_title": "角色计算",
+  
+      "character_presets": "角色计算",
+  
+      "bulk_mode": "rank模式(由具体rank装备需求选择)",
+  
+      "characters_select_option": "[人物选择]",
+  
+      "minimum_rank": "当前rank",
+      "to": "到",
+      "maximum_rank": "目标rank",
+  
+      "load_items_button": "载入装备需求",
+      "load_items_and_create_project_button": "载入装备需求并生成规划",
+  
+      "overwrite_warning": "当前选择的装备列表将在<br>点击<span style='color: lightpink'>'载入装备需求'</span>后清空.",
+  
+      "cancel": "取消"
+    },
+  
+    "projects_tab": {
+      "tab_title": "规划",
+  
+      "localstorage_warning": "当前使用的浏览器不支持本地数据存储.<br>规划, 黑名单, 数据导入/导出,和设置保存的功能已被禁用.",
+  
+      "project_name_label": "规划名称:",
+      "save_project_button": "保存规划",
+  
+      "select_saved_project_label": "选择已保存的规划:",
+      "all_projects_select_option": "[所有规划]",
+  
+      "load_project_button": "载入规划",
+      "add_project_items_button": "增加(一套)规划中的装备",
+      "subtract_project_items_button": "减去(一套)规划中的装备",
+      "delete_project_button": "删除这个规划",
+      "prioritize_project_button": "星标规划",
+      "deprioritize_project_button": "取消星标规划",
+      "complete_project_button": "完成规划",
+  
+      "clear_item_tables_button": "清空装备列表",
+  
+      "save_blacklist_button": "保存装备黑名单",
+      "load_saved_blacklist_button": "载入已保存的黑名单",
+      "no_saved_blacklist_message": "没有已保存的黑名单.",
+      "clear_blacklist_button": "清空黑名单",
+      "delete_blacklist_button": "删除黑名单",
+  
+      "blacklist_selected_rarities_button": "已被黑名单选择的稀有度"
+    },
+  
+    "settings_tab": {
+      "tab_title": "设置",
+  
+      "amount_of_quests_shown": "显示的关卡数量 (10 - 999):",
+      "sort_by_ascending_quest_list": "排序依据: 关卡顺序 (Chapter 1 -> Chapter 2 -> ...)",
+      "sort_by_ascending_quest_score": "排序依据: 关卡评分 (0.5 -> 0.75 -> ...)",
+      "hide_quest_score": "隐藏关卡评分",
+      "lowest_quest_chapter_displayed": "列表中的最低章节:",
+      "highest_quest_chapter_displayed": "列表中的最高章节:",
+      "max": "最新",
+      "show_all_quests": "显示所有关卡",
+      "show_normal_quests": "仅显示NORMAL关卡",
+      "show_hard_quests": "仅显示HARD关卡",
+      "show_very_hard_quests": "仅显示VERY HARD关卡",
+      "ignore_item_rarity_in_recipe": "忽略未实装的装备:",
+      "display_drop_percent": "显示掉落率",
+      "display_amount_required": "显示需求数量",
+  
+      "save_settings_button": "保存当前设置",
+      "delete_settings_button": "删除保存的设置",
+      "reset_settings_button": "重置默认设置",
+      "display_saved_settings_button": "读取已保存的设置",
+  
+      "equipment_data_type_label": "装备数据类型:",
+      "equipment_data_current_select": "当前装备数据 (2019.08.31之后) (JP / TW)",
+      "equipment_data_legacy_select": "旧的装备数据 (2019.08.31之前) (KR)"
+    },
+  
+    "other_tab": {
+      "tab_title": "其他",
+  
+      "other_pages_title": "其他页面",
+      "quest_data": "关卡数据",
+      "recipe_data": "装备数据",
+      "character_data": "人物数据",
+      "simple_mode": "简洁模式",
+      "fancy_mode": "标准模式",
+      "help": "帮助 (Wiki)",
+      "statistics": "装备使用数量排行榜",
+      "changelog": "更新日志",
+  
+      "data_management_title": "数据管理",
+      "export_saved_data": "导出已保存的数据",
+  
+      "title_background_title": "标题背景",
+      "disable_title_background_hover": "禁止标题背景自动展开",
+      "custom_title_background_url": "图片链接: "
+    },
+  
+    "inventory": {
+      "title": "仓库",
+      "add_item": "添加物品",
+      "inventory_empty": "这个仓库是空的.."
+    },
+  
+    "toasts": {
+      "project_saved": "规划\"${project_name}\"已被${status}!",
+      "overwritten_status": "覆盖",
+      "saved_status": "保存",
+  
+      "project_deleted": "规划\"${project_name}\"已删除!",
+      "project_completed": "规划\"${project_name}\"已完成!",
+  
+      "blacklist_saved": "物品黑名单已保存!",
+      "blacklist_cleared": "物品黑名单已被清空!",
+      "blacklist_empty": "物品黑名单是空的.",
+      "blacklist_deleted": "物品黑名单已删除.",
+      "no_saved_blacklist": "没有已保存的物品黑名单.",
+  
+      "blacklisted_rarities": "这个稀有度的装备已全部加入黑名单:",
+      "no_rarities_selected": "没有选择稀有度.",
+  
+      "settings_saved": "设置已保存!",
+      "settings_deleted": "保存的设置已删除.",
+      "no_settings_saved": "没有保存任何设置.",
+      "settings_reset": "已重置默认设置."
+    },
+  
+    "character_names": {
+      "akari": "茜里",
+      "akino": "秋乃",
+      "anne": "安",
+      "anna": "杏奈",
+      "aoi": "碧",
+      "arisa": "亚里莎",
+      "ayane": "绫音",
+      "ayumi": "步未",
+      "chieru": "琪爱儿",
+      "chika": "千歌",
+      "chloe": "克萝依",
+      "christina": "克里斯提娜",
+      "djeeta": "吉塔",
+      "emilia": "爱蜜莉雅",
+      "eriko": "惠理子",
+      "grea": "古蕾姬",
+      "hatsune": "初音",
+      "hiyori": "日和",
+      "homare": "Homare",
+      "ilya": "伊利亚",
+      "inori": "Inori",
+      "io": "伊绪",
+      "jun": "纯",
+      "kaori": "香织",
+      "kasumi": "霞",
+      "kaya": "嘉夜",
+      "kokkoro": "可可萝",
+      "kurumi": "胡桃",
+      "kuuka": "空花",
+      "kyaru": "凯留",
+      "kyouka": "镜华",
+      "lou": "露",
+      "luna": "露娜",
+      "mahiru": "真阳",
+      "maho": "真步",
+      "makoto": "真琴",
+      "matsuri": "茉莉",
+      "mifuyu": "美冬",
+      "mimi": "美美",
+      "mio": "Mio",
+      "misaki": "美咲",
+      "misato": "美里",
+      "misogi": "禊",
+      "mitsuki": "深月",
+      "miyako": "宫子",
+      "monika": "莫妮卡",
+      "muimi": "矛依未",
+      "nanaka": "七七香",
+      "neneka": "似似花",
+      "ninon": "妮诺",
+      "nozomi": "望",
+      "pecorine": "佩可",
+      "ram": "拉姆",
+      "rei": "怜",
+      "rem": "蕾姆",
+      "rima": "莉玛",
+      "rin": "铃",
+      "rino": "璃乃",
+      "ruka": "流夏",
+      "saren": "咲恋",
+      "shinobu": "忍",
+      "shiori": "栞",
+      "shizuru": "静流",
+      "suzume": "铃莓",
+      "suzuna": "玲奈",
+      "tamaki": "珠希",
+      "tomo": "智",
+      "tsumugi": "纺希",
+      "uzuki": "卯月",
+      "yori": "依里",
+      "yui": "优衣",
+      "yukari": "优花梨",
+      "yuki": "雪",
+      "yuni": "优妮"
+    },
+  
+    "thematics": {
+      "christmas": "圣诞",
+      "deresute": "爱抖露",
+      "halloween": "万圣",
+      "magical": "魔法少女",
+      "new_year": "新年",
+      "oedo": "大江户",
+      "princess": "公主",
+      "ranger": "游骑兵",
+      "summer": "夏日",
+      "transfer_student": "交换生",
+      "valentine": "情人节"
+    }
+  }
