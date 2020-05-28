@@ -111,8 +111,8 @@
       "display_saved_settings_button": "读取已保存的设置",
   
       "equipment_data_type_label": "装备数据类型:",
-      "equipment_data_current_select": "当前装备数据 (2019.08.31之后) (JP / TW)",
-      "equipment_data_legacy_select": "旧的装备数据 (2019.08.31之前) (KR)"
+      "equipment_data_current_select": "当前装备数据 (JP服2019.08.31版本之后) (Cygames服,So-Net服适用)",
+      "equipment_data_legacy_select": "初版装备数据 (JP服2019.08.31版本之前) (Kakao服,中国大陆服适用)"
     },
   
     "other_tab": {
@@ -184,9 +184,9 @@
       "grea": "古蕾姬",
       "hatsune": "初音",
       "hiyori": "日和",
-      "homare": "Homare",
+      "homare": "誉",
       "ilya": "伊利亚",
-      "inori": "Inori",
+      "inori": "祈",
       "io": "伊绪",
       "jun": "纯",
       "kaori": "香织",
@@ -205,7 +205,7 @@
       "matsuri": "茉莉",
       "mifuyu": "美冬",
       "mimi": "美美",
-      "mio": "Mio",
+      "mio": "未央",
       "misaki": "美咲",
       "misato": "美里",
       "misogi": "禊",
