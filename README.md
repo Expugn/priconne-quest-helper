@@ -1,6 +1,6 @@
 ![README Banner](https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/README_Banner.png)
 
-[🇰🇷 한국어](README.ko.md)
+[🇰🇷 한국어](README.ko.md)<br>
 [简体中文](README.zh-CN.md)
 
 # Princess Connect! Re:Dive Quest Helper<br>(priconne-quest-helper)

@@ -3,6 +3,21 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+### Added
+- Item Name Translation Support
+### Deprecated
+- Every single `Export Data` save
+  - When the `Item Name Translation Support` is added, the current save files may not continue to work
+  - Support for older saves may be added
+
+## [2.1.1] - 2020-05-29
+### Added
+- Chinese (Simplified) Translation (Thank you URARUA and BronyDee!)
+### Changed
+- Switched to using Cloudflare CDN instead of Google's CDN for jQuery
+- Changed initializing message
+
 ## [2.1.0] - 2020-05-15
 Quest Update (2020-05-15)
 ### Added

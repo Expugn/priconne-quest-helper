@@ -42,7 +42,7 @@
     <meta name="twitter:description" content="Equipment and ingredient usage statistics for 'Princess Connect! Re:Dive' （プリンセスコネクト! Re:Dive）, based on the data used in priconne-quest-helper."/>
 
     <!-- SCRIPTS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../../vendor/modernizr/modernizr-custom.js"></script> <!-- WEBP CHECK -->
     <script src="../../scripts/priconne-data.js"></script>
 
@@ -239,7 +239,7 @@
         document.getElementById("rarity-settings").hidden = false;
         document.getElementById("all-equipment").hidden = false;
         document.getElementById("all-ingredients").hidden = false;
-        
+
         function compile_equipment() {
             const char_data = character_data.data();
             for (const unit_id in char_data) {
@@ -261,7 +261,7 @@
                 }
             }
         }
-        
+
         function compile_ingredient() {
             for (const item_name in equipment) {
                 const recipe = equipment_data.recipe.get(item_name, equipment[item_name]);
@@ -276,7 +276,7 @@
                 }
             }
         }
-        
+
         function sort() {
             equipment_sorted = Object.keys(equipment)
                 .map(i => [i, equipment[i]])
