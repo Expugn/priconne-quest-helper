@@ -36,19 +36,19 @@ body:lang(zh-CN), translate:lang(zh-CN), select:lang(zh-CN), option:lang(zh-CN),
     font-family: 'Open Sans', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
 }
 
-p.footer:lang(en), button, .quest_required-amount, .quest_drop-percent {
+p.footer:lang(en), .toast-message:lang(en), button, .quest_required-amount, .quest_drop-percent {
     font-family: 'Trebuchet', 'Trebuchet MS', 'Roboto', 'Segoe UI', 'San Francisco', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
-p.footer:lang(ja) {
+p.footer:lang(ja), .toast-message:lang(jp) {
     font-family: 'Trebuchet', 'Trebuchet MS', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', 'Noto Sans JP', sans-serif;
 }
 
-p.footer:lang(ko) {
+p.footer:lang(ko), .toast-message:lang(ko) {
     font-family: 'Trebuchet', 'Trebuchet MS', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Dotum, 'Malgun Gothic', 'NanumBarunGothic', 'Noto Sans KR', sans-serif;
 }
 
-p.footer:lang(zh-CN) {
+p.footer:lang(zh-CN), .toast-message:lang(zh-CN) {
     font-family: 'Trebuchet', 'Trebuchet MS', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
 }
 
