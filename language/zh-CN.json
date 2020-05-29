@@ -76,7 +76,7 @@
       "deprioritize_project_button": "取消规划高优先级标识",
       "complete_project_button": "完成规划",
   
-      "clear_item_tables_button": "素材需求清单",
+      "clear_item_tables_button": "清空素材需求清单",
   
       "save_blacklist_button": "保存装备黑名单",
       "load_saved_blacklist_button": "读取已保存的黑名单",
