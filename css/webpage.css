@@ -36,7 +36,7 @@ body:lang(zh-CN), translate:lang(zh-CN), select:lang(zh-CN), option:lang(zh-CN),
     font-family: 'Open Sans', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
 }
 
-p.footer:lang(en), .toast-message:lang(en), button, .quest_required-amount, .quest_drop-percent {
+p.footer:lang(en), .toast-message:lang(en), button, .quest_required-amount, .quest_drop-percent, .item-amount {
     font-family: 'Trebuchet', 'Trebuchet MS', 'Roboto', 'Segoe UI', 'San Francisco', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
