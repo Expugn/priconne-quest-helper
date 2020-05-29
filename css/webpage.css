@@ -20,17 +20,38 @@ hr {
 }
 
 /* FONTS ============================================================================================================ */
-body:lang(en), translate:lang(en), select:lang(en), option:lang(en) {
-    font-family: 'Noto Sans', sans-serif;
+body:lang(en), translate:lang(en), select:lang(en), option:lang(en), input:lang(en) {
+    font-family: 'Open Sans', 'Roboto', 'Segoe UI', 'San Francisco', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
-body:lang(ja), translate:lang(ja), select:lang(ja), option:lang(ja) {
-    font-family: 'Noto Sans JP', sans-serif;
+body:lang(ja), translate:lang(ja), select:lang(ja), option:lang(ja), input:lang(ja) {
+    font-family: 'Open Sans', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', 'Noto Sans JP', sans-serif;
 }
 
-body:lang(ko), translate:lang(ko), select:lang(ko), option:lang(ko) {
-    font-family: 'Noto Sans KR', sans-serif;
+body:lang(ko), translate:lang(ko), select:lang(ko), option:lang(ko), input:lang(ko) {
+    font-family: 'Open Sans', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Dotum, 'Malgun Gothic', 'NanumBarunGothic', 'Noto Sans KR', sans-serif;
 }
+
+body:lang(zh-CN), translate:lang(zh-CN), select:lang(zh-CN), option:lang(zh-CN), input:lang(zh-CN) {
+    font-family: 'Open Sans', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+}
+
+p.footer:lang(en), button, .quest_required-amount, .quest_drop-percent {
+    font-family: 'Trebuchet', 'Trebuchet MS', 'Roboto', 'Segoe UI', 'San Francisco', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+}
+
+p.footer:lang(ja) {
+    font-family: 'Trebuchet', 'Trebuchet MS', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', 'Noto Sans JP', sans-serif;
+}
+
+p.footer:lang(ko) {
+    font-family: 'Trebuchet', 'Trebuchet MS', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Dotum, 'Malgun Gothic', 'NanumBarunGothic', 'Noto Sans KR', sans-serif;
+}
+
+p.footer:lang(zh-CN) {
+    font-family: 'Trebuchet', 'Trebuchet MS', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+}
+
 
 /* FANCY/SIMPLE MODE ================================================================================================ */
 body.fancy-body {
@@ -263,7 +284,6 @@ div.title-background:not(.no-hover):hover .title {
 
 p.footer {
     text-align: right;
-    font-family: "Trebuchet MS", Arial, serif;
     text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000, 1px 1px 2px #000000;
     color: aliceblue;
     letter-spacing: 1px;
@@ -760,8 +780,7 @@ i.footer {
 .quest_score {
     display: inline-block;
     float: right;
-
-    font-family: "Calibri", Arial, serif;
+    
     font-size: 14px;
     color: white;
     background-color: rgba(255, 255, 255, 0.50);
@@ -796,7 +815,6 @@ i.footer {
 }
 
 .quest_memory-piece-percent {
-    font-family: "Calibri", Arial, serif;
     text-shadow: 1px 1px 4px #000000,
         1px 1px 4px #000000,
         1px 1px 4px #000000,
@@ -849,7 +867,6 @@ i.footer {
 
 .quest_drop-percent,
 .quest_required-amount {
-    font-family: "Calibri", Arial, serif;
     text-shadow: 1px 1px 4px #000000,
         1px 1px 4px #000000,
         1px 1px 4px #000000,
@@ -1040,7 +1057,6 @@ i.footer {
 
 .quest_inventory-amount {
     display: inline-block;
-    font-family: "Calibri", Arial, serif;
     text-shadow: 1px 1px 4px #000000,
     1px 1px 4px #000000,
     1px 1px 4px #000000,
@@ -1573,7 +1589,6 @@ i.footer {
 
 .inventory_item span {
     display: block;
-    font-family: 'Calibri', Arial, serif;
     text-align: right;
     font-weight: bold;
     font-size: 16px;
@@ -1627,7 +1642,6 @@ i.footer {
 }
 
 #inventory_catalog_add-equipment_arrow {
-    font-family: 'Calibri', Arial, serif;
     font-weight: bold;
     color: white;
     font-size: 24px;
@@ -1635,7 +1649,6 @@ i.footer {
 }
 
 #inventory_catalog_add-equipment_sub-items div span {
-    font-family: 'Calibri', Arial, serif;
     font-weight: bold;
     display: block;
     margin-top: 33px;
@@ -1660,7 +1673,6 @@ i.footer {
 
 /* MISCELLANEOUS ==================================================================================================== */
 .item-amount {
-    font-family: "Calibri", Arial, serif;
     text-shadow: 1px 1px 4px #000000,
     1px 1px 4px #000000,
     1px 1px 4px #000000,
