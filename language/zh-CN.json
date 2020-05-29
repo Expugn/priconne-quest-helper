@@ -6,12 +6,12 @@
       "required_ingredients_title": "素材需求清单",
       "required_ingredients_help_1": "所选择装备的所有必需素材将显示在这里。",
       "required_ingredients_help_2": "点击素材图标可以将其<span style='color: darkorange'>暂时禁用</span>。",
-      "required_ingredients_help_3": "<span style='color: orange'>暂时禁用</span>的素材<span style='color: salmon; font-style: italic'>不会</span>出现在<span style='color: yellow'>建议关卡</span>列表。",
+      "required_ingredients_help_3": "<span style='color: orange'>暂时禁用</span>的素材<span style='color: salmon; font-style: italic'>不会</span>出现在<span style='color: yellow'>建议关卡</span>清单中。",
   
       "recommended_quest_title": "建议关卡清单",
       "recommended_quest_help_1": "根据上面的装备素材需求清单，这里会显示推荐扫荡的关卡。",
       "recommended_quest_help_2": "关卡将被按照<span style='color: yellow'>关卡中你需求的素材掉落数量</span>进行排序。",
-      "recommended_quest_help_3": "根据默认设置，列表中的关卡数量不会超过<span style='color: #6DFF7F'> 10 </span>个。",
+      "recommended_quest_help_3": "根据默认设置，清单中的关卡数量不会超过<span style='color: #6DFF7F'> 10 </span>个。",
   
       "last_quest_update": "关卡掉落数据更新于 <span style='color: #6DFF7F'>${last_update_date}</span>",
   
@@ -31,8 +31,8 @@
       "purple_title": "紫装",
       "miscellaneous_title": "其他",
   
-      "requested_items_title": "装备需求",
-      "requested_items_help_1": "在上面的列表中选择的装备和其数量将在此汇总。",
+      "requested_items_title": "装备需求清单",
+      "requested_items_help_1": "在上面的清单中选择的装备和其数量将在此汇总。",
       "requested_items_help_2": "点击分类标题将会展开/收起该稀有度装备的列表。"
     },
   
