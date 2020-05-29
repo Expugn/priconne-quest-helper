@@ -1,6 +1,7 @@
 ![README Banner](https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/README_Banner.png)
 
 [🇰🇷 한국어](README.ko.md)
+[简体中文](README.zh-CN.md)
 
 # Princess Connect! Re:Dive Quest Helper<br>(priconne-quest-helper)
 
@@ -63,7 +64,7 @@ This script is not useful for most users.
 ## Other Informative Sites and Tools
 - `AssetStudio`: [GitHub](https://github.com/Perfare/AssetStudio)<br>
   - Using the `DMM Game Player` version of `Princess Connect! Re:Dive`
-      - Game Folder: `C:\Users\<NAME>\AppData\LocalLow\Cygames\PrincessConnectReDive` (Windows 10)
+      - Game Folder: `C:\Users\%UserName%\AppData\LocalLow\Cygames\PrincessConnectReDive` (Windows 10)
 - `AppMedia`: [Website](https://appmedia.jp/priconne-redive)
 - `GameWith`: [Website](https://gamewith.jp/pricone-re/)
 - `Hatsune's Notes`: [GitHub](https://github.com/superk589/PrincessGuide)
@@ -76,7 +77,7 @@ This script is not useful for most users.
 #### Language Translation
 - `Japanese`: SD SkyKlouD (Translation) | mino-s2000 (Proofreading)
 - `Korean`: Celesti (Translation) | SD SkyKlouD (Translation) | NewWorld_ (Inspection)
-
+- `Simplified Chinese`: URARUA (Initial translation) | BronyDee (Proofreading)
 
 ## Other Stuff
 This is a non-profit fan project with the purpose of practice and entertainment.<br>
