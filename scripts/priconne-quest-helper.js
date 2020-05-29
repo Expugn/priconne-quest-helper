@@ -4142,9 +4142,10 @@ const webpage = (function () {
     })();
     const language = (function () {
         const option = Object.freeze({
-            ENGLISH: "en",
-            JAPANESE: "ja",
-            KOREAN: "ko"
+            ENGLISH: "en-US",
+            JAPANESE: "ja-JP",
+            KOREAN: "ko-KR",
+            CHINESE: 'zh-CN',
         });
         const document_id = Object.freeze({
             OPTION: "language-option"
