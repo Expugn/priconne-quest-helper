@@ -1429,6 +1429,149 @@
             "Elfin Choker"
         ]
     },
+    "wonder_ayumi": {
+        "unit_id": 113001,
+        "name": "Ayumi",
+        "thematic": "Wonder",
+        "name_jp": "アユミ",
+        "thematic_jp": "ワンダー",
+        "rank_1": [
+            "Steel Spear",
+            "Steel Spear",
+            "Leather Overalls",
+            "Leather Boots",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Flame Spear",
+            "Trident",
+            "Folklore Clothes",
+            "Cute Caskets",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Knight's Pride",
+            "Flame Spear",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Jewel of Love",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Absolute Spear",
+            "Knight's Pride",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Victory Friendship Bracelet",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Absolute Spear",
+            "Palace Cloth",
+            "Fencer Boots",
+            "Emerald Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Scarlet Dragon",
+            "Lightning Axe",
+            "Cosmos Cloth",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Palace Cloth"
+        ],
+        "rank_7": [
+            "Queen Bee Spear",
+            "Scarlet Dragon",
+            "Invisible Dress",
+            "Lion King's Protective Charm",
+            "Scarlet Diamond",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Storm Bringer",
+            "Queen Bee Spear",
+            "Angel Boots",
+            "Feather Waltz",
+            "Bangle of Substitution",
+            "Lion King's Protective Charm"
+        ],
+        "rank_9": [
+            "Gaia Bardiche",
+            "Storm Bringer",
+            "Crusader Plate",
+            "Mythril Plate",
+            "Moon Bracelet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Zero Frost Lance",
+            "Gaia Bardiche",
+            "Faireal Boots",
+            "Crusader Plate",
+            "Congregation Pendant",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Gale Stinger",
+            "Zero Frost Lance",
+            "Phantasm Mail",
+            "Faireal Boots",
+            "Fairy King's Guardian Stone",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Heaven's Protective Holy Spear",
+            "Gale Stinger",
+            "Nine Heavens' Armor",
+            "Astrograph Buckler",
+            "Mermaid Princess' Spirit Tear",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Divine Spear - Doom Pain",
+            "Heaven's Protective Holy Spear",
+            "Royal Guard Hat",
+            "Infernal Greaves",
+            "Glorious King's Shield Bangle",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "Fire Spear - Prominence",
+            "Divine Spear - Doom Pain",
+            "Sky Soaring Gold Shoes",
+            "Royal Guard Hat",
+            "Sea Dragon God's Hair Ornament",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "Star Nuclear Spear - Ertz Borg",
+            "Fire Spear - Prominence",
+            "Glowing Silver Mirror Shield",
+            "Sky Soaring Gold Shoes",
+            "Shield God Ring - Wall Breath",
+            "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "Saintly Deer Spear - Alma Benard",
+            "Star Nuclear Spear - Ertz Borg",
+            "Heavenly Wing Saint Shoes",
+            "Glowing Silver Mirror Shield",
+            "Elfin Choker",
+            "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Heavenly Wing Saint Shoes",
+            "",
+            "Elfin Choker"
+        ]
+    },
     "chieru": {
         "unit_id": 110901,
         "name": "Chieru",
@@ -5143,6 +5286,149 @@
             "Saintly Deer Spear - Alma Benard",
             "",
             "Eastern Heaven Green Wind Dress",
+            "",
+            "Elfin Choker"
+        ]
+    },
+    "princess_kokkoro": {
+        "unit_id": 180501,
+        "name": "Kokkoro",
+        "thematic": "Princess",
+        "name_jp": "コッコロ",
+        "thematic_jp": "プリンセス",
+        "rank_1": [
+            "Steel Spear",
+            "Steel Spear",
+            "Leather Overalls",
+            "Steel Spear",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Flame Spear",
+            "Trident",
+            "Folklore Clothes",
+            "Trident",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Knight's Pride",
+            "Flame Spear",
+            "Shinobi Costume",
+            "Nun's Hood",
+            "Jewel of Love",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Absolute Spear",
+            "Knight's Pride",
+            "Millefeuille Cloth",
+            "Knight's Pride",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Absolute Spear",
+            "Palace Cloth",
+            "Absolute Spear",
+            "Emerald Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Scarlet Dragon",
+            "Lightning Axe",
+            "Cosmos Cloth",
+            "Absolute Spear",
+            "Lion Eagle's Feather",
+            "Palace Cloth"
+        ],
+        "rank_7": [
+            "Queen Bee Spear",
+            "Scarlet Dragon",
+            "Moonlight Garment",
+            "Lion King's Protective Charm",
+            "Laurel's Sorrow",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Storm Bringer",
+            "Queen Bee Spear",
+            "Angel Boots",
+            "Scarlet Dragon",
+            "Bangle of Substitution",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "Gaia Bardiche",
+            "Storm Bringer",
+            "Heavenly Robe",
+            "Angel Boots",
+            "Sun Amulet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Zero Frost Lance",
+            "Gaia Bardiche",
+            "Faireal Boots",
+            "Storm Bringer",
+            "Congregation Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Gale Stinger",
+            "Zero Frost Lance",
+            "Astrograph Buckler",
+            "Faireal Boots",
+            "Fairy King's Guardian Stone",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Heaven's Protective Holy Spear",
+            "Gale Stinger",
+            "Maiden Cloth",
+            "Zero Frost Lance",
+            "Mermaid Princess' Spirit Tear",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Divine Spear - Doom Pain",
+            "Heaven's Protective Holy Spear",
+            "Rage Queen Dress",
+            "Gale Stinger",
+            "Glorious King's Shield Bangle",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "Fire Spear - Prominence",
+            "Divine Spear - Doom Pain",
+            "Sky Soaring Gold Shoes",
+            "Heaven's Protective Holy Spear",
+            "Sea Dragon God's Hair Ornament",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "Star Nuclear Spear - Ertz Borg",
+            "Fire Spear - Prominence",
+            "Glowing Silver Mirror Shield",
+            "Divine Spear - Doom Pain",
+            "Shield God Ring - Wall Breath",
+            "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "Saintly Deer Spear - Alma Benard",
+            "Star Nuclear Spear - Ertz Borg",
+            "Heavenly Wing Saint Shoes",
+            "Fire Spear - Prominence",
+            "Elfin Choker",
+            "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Star Nuclear Spear - Ertz Borg",
             "",
             "Elfin Choker"
         ]

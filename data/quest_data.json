@@ -9088,6 +9088,36 @@
             "Elemental Heart Fragment"
         ]
     },
+    "22-2VH": {
+        "name": "マティルド岩峯・南部 22-2",
+        "item_1": {
+            "item_name": "Black Snake's Fiendish Flame Staff Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Rabbit God's Great Sword Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Western Heaven Saintly Guide Robe Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Southern Heaven Blazing Blue Armor Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mifuyu Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Queen Bee Spear Fragment",
+            "Angel Bow Fragment",
+            "Hermit Clothes Fragment",
+            "Saint's Robe Fragment",
+            "Bangle of Substitution Fragment"
+        ]
+    },
     "23-1": {
         "name": "マティルド岩峯・北部 23-1",
         "item_1": {

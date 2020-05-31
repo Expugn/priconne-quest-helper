@@ -11,6 +11,15 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - When the `Item Name Translation Support` is added, the current save files may not continue to work
   - Support for older saves may be added
 
+## [2.1.2] - 2020-05-30
+### Added
+- New Characters
+  - Ayumi (Wonder)
+  - Kokkoro (Princess)
+- New Quest: 22-2 VH (Mifuyu)
+- Updated Language Files
+  - `thematics.wonder`
+
 ## [2.1.1] - 2020-05-29
 ### Added
 - Chinese (Simplified) Translation (Thank you URARUA and BronyDee!)
