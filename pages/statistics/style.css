@@ -1,5 +1,15 @@
+/* FONT SETTINGS OVERRIDE */
+body, select, option, input, button, .commit-hyperlink {
+    font-family: 'Open Sans', 'Roboto', 'Segoe UI', 'San Francisco', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+}
+
+span.amount, .version-item-amount, #version-arrow, div.top-three-item-text, p.footer {
+    font-family: 'Trebuchet', 'Trebuchet MS', 'Roboto', 'Segoe UI', 'San Francisco', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+}
+
+/* BEGIN BODY PART */
+
 body {
-    font-family: 'Open Sans', sans-serif;
     background-color: #e3cfcb;
 }
 
@@ -157,7 +167,6 @@ i.placement-image {
 
 div.top-three-item-text,
 span.amount {
-    font-family: "Calibri", Arial, serif;
     text-shadow: 1px 1px 4px #000000,
     1px 1px 4px #000000,
     1px 1px 4px #000000,
@@ -200,7 +209,6 @@ span.amount {
 }
 
 .version-item-amount {
-    font-family: "Calibri", Arial, serif;
     font-weight: bold;
     color: white;
     text-shadow: 1px 1px 4px #000000,
@@ -211,7 +219,6 @@ span.amount {
 
 #version-arrow {
     /* TEXT DESIGN */
-    font-family: "Calibri", Arial, serif;
     text-shadow: 1px 1px 4px #000000,
     1px 1px 4px #000000,
     1px 1px 4px #000000,
@@ -261,7 +268,6 @@ span.amount {
     padding: 3px 5px;
     text-align: center;
     margin-top: 10px;
-    font-family: "Calibri", Arial, serif;
     font-weight: bold;
 }
 
