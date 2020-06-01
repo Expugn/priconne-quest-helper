@@ -75,9 +75,7 @@
       "prioritize_project_button": "高优先级规划",
       "deprioritize_project_button": "取消规划高优先级标识",
       "complete_project_button": "完成规划",
-
-      "clear_item_tables_button": "素材需求清单",
-
+      "clear_item_tables_button": "清空素材需求清单",
       "save_blacklist_button": "保存装备黑名单",
       "load_saved_blacklist_button": "读取已保存的黑名单",
       "no_saved_blacklist_message": "没有已保存的黑名单。",
@@ -92,7 +90,7 @@
 
       "amount_of_quests_shown": "显示的关卡数量 (10 - 999):",
       "sort_by_ascending_quest_list": "排序依据: 关卡顺序 (第 1 章 -> 第 2 章 -> ...)",
-      "sort_by_ascending_quest_score": "排序依据: 关卡评分 (0.5 -> 0.75 -> ...)",
+      "sort_by_ascending_quest_score": "排序依据: 关卡评分倒序排列 (0.5 -> 0.75 -> ...)",
       "hide_quest_score": "隐藏关卡评分",
       "lowest_quest_chapter_displayed": "列表中的最低章节:",
       "highest_quest_chapter_displayed": "列表中的最高章节:",
@@ -143,7 +141,7 @@
     },
 
     "toasts": {
-      "project_saved": "规划\"${project_name}\"已${status}。",
+      "project_saved": "规划 \"${project_name}\" 已${status}。",
       "overwritten_status": "覆盖",
       "saved_status": "保存",
 
@@ -183,7 +181,7 @@
       "eriko": "惠理子",
       "grea": "古蕾雅",
       "hatsune": "初音",
-      "hiyori": "日和",
+      "hiyori": "日和莉",
       "homare": "嘉夜",
       "ilya": "伊利亚",
       "inori": "祈梨",
@@ -195,7 +193,7 @@
       "kokkoro": "可可萝",
       "kurumi": "胡桃",
       "kuuka": "空花",
-      "kyaru": "凯留",
+      "kyaru": "凯露",
       "kyouka": "镜华",
       "lou": "露",
       "luna": "露娜",
@@ -215,7 +213,7 @@
       "muimi": "矛依未",
       "nanaka": "七七香",
       "neneka": "似似花",
-      "ninon": "妮诺",
+      "ninon": "妮侬",
       "nozomi": "望",
       "pecorine": "佩可莉姆",
       "ram": "拉姆",
@@ -230,14 +228,14 @@
       "shiori": "栞",
       "shizuru": "静流",
       "suzume": "铃莓",
-      "suzuna": "玲奈",
+      "suzuna": "铃奈",
       "tamaki": "珠希",
       "tomo": "智",
       "tsumugi": "纺希",
       "uzuki": "卯月",
       "yori": "依里",
       "yui": "优衣",
-      "yukari": "优花梨",
+      "yukari": "由加莉",
       "yuki": "雪",
       "yuni": "优妮"
     },
