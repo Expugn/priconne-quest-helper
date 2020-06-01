@@ -2,72 +2,72 @@
     "system": {
       "title": "公主连接 Re:Dive!",
       "subtitle": "关卡助手",
-  
+
       "required_ingredients_title": "素材需求清单",
       "required_ingredients_help_1": "所选择装备的所有必需素材将显示在这里。",
       "required_ingredients_help_2": "点击素材图标可以将其<span style='color: darkorange'>暂时禁用</span>。",
       "required_ingredients_help_3": "<span style='color: orange'>暂时禁用</span>的素材<span style='color: salmon; font-style: italic'>不会</span>出现在<span style='color: yellow'>建议关卡</span>清单中。",
-  
+
       "recommended_quest_title": "建议关卡清单",
       "recommended_quest_help_1": "根据上面的装备素材需求清单，这里会显示推荐扫荡的关卡。",
       "recommended_quest_help_2": "关卡将被按照<span style='color: yellow'>关卡中你需求的素材掉落数量</span>进行排序。",
       "recommended_quest_help_3": "根据默认设置，清单中的关卡数量不会超过<span style='color: #6DFF7F'> 10 </span>个。",
-  
+
       "last_quest_update": "关卡掉落数据更新于 <span style='color: #6DFF7F'>${last_update_date}</span>",
-  
+
       "translator": "翻译贡献者:",
       "translator_name": "URARUA (初版) BronyDee (润色)",
-  
+
       "date_locale": "zh-CN"
     },
-  
+
     "items_tab": {
       "tab_title": "装备",
-  
+
       "common_title": "蓝装",
       "copper_title": "铜装",
       "silver_title": "银装",
       "gold_title": "金装",
       "purple_title": "紫装",
       "miscellaneous_title": "其他",
-  
+
       "requested_items_title": "装备需求清单",
       "requested_items_help_1": "在上面的清单中选择的装备和其数量将在此汇总。",
       "requested_items_help_2": "点击分类标题将会展开/收起该稀有度装备的列表。"
     },
-  
+
     "presets_tab": {
       "tab_title": "角色",
-  
+
       "character_presets": "按角色选择装备",
-  
+
       "bulk_mode": "批量模式 (按 Rank 选择装备)",
-  
+
       "characters_select_option": "[人物选择]",
-  
+
       "minimum_rank": "当前 Rank",
       "to": "到",
       "maximum_rank": "目标 Rank",
-  
+
       "load_items_button": "读取该角色装备需求",
       "load_items_and_create_project_button": "读取该角色装备需求并生成规划",
-  
+
       "overwrite_warning": "点击<span style='color: lightpink'>读取该角色装备需求</span>后<br>素材需求清单将被重置。",
-  
+
       "cancel": "取消"
     },
-  
+
     "projects_tab": {
       "tab_title": "规划",
-  
+
       "localstorage_warning": "由于您使用的浏览器不支持 LocalStorage API，因此<br>规划、黑名单、数据导入/导出和设置保存的功能已被禁用。",
-  
+
       "project_name_label": "规划名称:",
       "save_project_button": "保存规划",
-  
+
       "select_saved_project_label": "选择已保存的规划:",
       "all_projects_select_option": "[所有规划…]",
-  
+
       "load_project_button": "读取规划",
       "add_project_items_button": "增加规划中的某个装备",
       "subtract_project_items_button": "删除规划中的某个装备",
@@ -75,21 +75,19 @@
       "prioritize_project_button": "高优先级规划",
       "deprioritize_project_button": "取消规划高优先级标识",
       "complete_project_button": "完成规划",
-  
       "clear_item_tables_button": "清空素材需求清单",
-  
       "save_blacklist_button": "保存装备黑名单",
       "load_saved_blacklist_button": "读取已保存的黑名单",
       "no_saved_blacklist_message": "没有已保存的黑名单。",
       "clear_blacklist_button": "清空黑名单",
       "delete_blacklist_button": "删除黑名单",
-  
+
       "blacklist_selected_rarities_button": "将所选稀有度下的所有装备加入黑名单"
     },
-  
+
     "settings_tab": {
       "tab_title": "设置",
-  
+
       "amount_of_quests_shown": "显示的关卡数量 (10 - 999):",
       "sort_by_ascending_quest_list": "排序依据: 关卡顺序 (第 1 章 -> 第 2 章 -> ...)",
       "sort_by_ascending_quest_score": "排序依据: 关卡评分倒序排列 (0.5 -> 0.75 -> ...)",
@@ -104,20 +102,20 @@
       "ignore_item_rarity_in_recipe": "忽略下列稀有度的装备:",
       "display_drop_percent": "显示掉率",
       "display_amount_required": "显示需求数量",
-  
+
       "save_settings_button": "保存当前设置",
       "delete_settings_button": "删除保存的设置",
       "reset_settings_button": "重置为默认设置",
       "display_saved_settings_button": "读取已保存的设置",
-  
+
       "equipment_data_type_label": "装备数据类型:",
       "equipment_data_current_select": "当前装备数据 (日服2019.08.31版本之后) (适用 Cygames 服、So-net 服)",
       "equipment_data_legacy_select": "初版装备数据 (日服2019.08.31版本之前) (适用中国大陆服、Kakao 服)"
     },
-  
+
     "other_tab": {
       "tab_title": "其他",
-  
+
       "other_pages_title": "其他页面",
       "quest_data": "关卡数据",
       "recipe_data": "装备数据",
@@ -127,44 +125,44 @@
       "help": "帮助 (Wiki)",
       "statistics": "装备需求量排行榜",
       "changelog": "更新日志",
-  
+
       "data_management_title": "数据管理",
       "export_saved_data": "导出已保存的数据",
-  
+
       "title_background_title": "头图",
       "disable_title_background_hover": "禁用鼠标悬停时头图自动展开效果",
       "custom_title_background_url": "图片链接: "
     },
-  
+
     "inventory": {
       "title": "库存物品",
       "add_item": "添加物品",
       "inventory_empty": "库存里空空如也。"
     },
-  
+
     "toasts": {
       "project_saved": "规划 \"${project_name}\" 已${status}。",
       "overwritten_status": "覆盖",
       "saved_status": "保存",
-  
+
       "project_deleted": "规划 \"${project_name}\" 已删除。",
       "project_completed": "规划 \"${project_name}\" 已标记为完成。",
-  
+
       "blacklist_saved": "物品黑名单已保存。",
       "blacklist_cleared": "物品黑名单已被清空。",
       "blacklist_empty": "物品黑名单是空的。",
       "blacklist_deleted": "物品黑名单已被删除。",
       "no_saved_blacklist": "没有物品黑名单可以进行操作。",
-  
+
       "blacklisted_rarities": "以下稀有度的装备已全部加入黑名单:",
       "no_rarities_selected": "您没有选择任何稀有度。",
-  
+
       "settings_saved": "设置已保存。",
       "settings_deleted": "保存的设置已删除。",
       "no_settings_saved": "没有保存任何设置。",
       "settings_reset": "已重置为默认设置。"
     },
-  
+
     "character_names": {
       "akari": "茜里",
       "akino": "秋乃",
@@ -241,7 +239,7 @@
       "yuki": "雪",
       "yuni": "优妮"
     },
-  
+
     "thematics": {
       "christmas": "圣诞",
       "deresute": "偶像大师",
@@ -253,6 +251,7 @@
       "ranger": "游骑兵",
       "summer": "夏日",
       "transfer_student": "交换生",
-      "valentine": "情人节"
+      "valentine": "情人节",
+      "wonder": "漫游奇境"
     }
   }

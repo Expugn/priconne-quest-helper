@@ -3392,10 +3392,19 @@
         "req_pieces": 1,
         "req_items": []
     },
+    "32048": {
+        "name": "Mifuyu Pure Shard",
+        "name_jp": "ミフユのピュアメモリーピース",
+        "id": "misc-44",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
     "32052": {
         "name": "Rima Pure Shard",
         "name_jp": "リマのピュアメモリーピース",
-        "id": "misc-44",
+        "id": "misc-45",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3404,7 +3413,7 @@
     "32058": {
         "name": "Pecorine Pure Shard",
         "name_jp": "ペコリーヌのピュアメモリーピース",
-        "id": "misc-45",
+        "id": "misc-46",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3413,7 +3422,7 @@
     "32059": {
         "name": "Kokkoro Pure Shard",
         "name_jp": "コッコロのピュアメモリーピース",
-        "id": "misc-46",
+        "id": "misc-47",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3422,7 +3431,7 @@
     "32060": {
         "name": "Kyaru Pure Shard",
         "name_jp": "キャルのピュアメモリーピース",
-        "id": "misc-47",
+        "id": "misc-48",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,

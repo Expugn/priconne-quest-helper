@@ -20,15 +20,15 @@ hr {
 }
 
 /* FONTS ============================================================================================================ */
-body:lang(en), translate:lang(en), select:lang(en), option:lang(en), input:lang(en) {
+body:lang(en-US), translate:lang(en-US), select:lang(en-US), option:lang(en-US), input:lang(en-US) {
     font-family: 'Open Sans', 'Roboto', 'Segoe UI', 'San Francisco', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
-body:lang(ja), translate:lang(ja), select:lang(ja), option:lang(ja), input:lang(ja) {
+body:lang(ja-JP), translate:lang(ja-JP), select:lang(ja-JP), option:lang(ja-JP), input:lang(ja-JP) {
     font-family: 'Open Sans', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', 'Noto Sans JP', sans-serif;
 }
 
-body:lang(ko), translate:lang(ko), select:lang(ko), option:lang(ko), input:lang(ko) {
+body:lang(ko-KR), translate:lang(ko-KR), select:lang(ko-KR), option:lang(ko-KR), input:lang(ko-KR) {
     font-family: 'Open Sans', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Dotum, 'Malgun Gothic', 'NanumBarunGothic', 'Noto Sans KR', sans-serif;
 }
 
@@ -36,15 +36,15 @@ body:lang(zh-CN), translate:lang(zh-CN), select:lang(zh-CN), option:lang(zh-CN),
     font-family: 'Open Sans', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
 }
 
-p.footer:lang(en), .toast-message:lang(en), button, .quest_required-amount, .quest_drop-percent, .item-amount {
+p.footer:lang(en-US), .toast-message:lang(en-US), button, .quest_required-amount, .quest_drop-percent, .item-amount {
     font-family: 'Trebuchet', 'Trebuchet MS', 'Roboto', 'Segoe UI', 'San Francisco', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
-p.footer:lang(ja), .toast-message:lang(jp) {
+p.footer:lang(ja-JP), .toast-message:lang(ja-JP) {
     font-family: 'Trebuchet', 'Trebuchet MS', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', 'Noto Sans JP', sans-serif;
 }
 
-p.footer:lang(ko), .toast-message:lang(ko) {
+p.footer:lang(ko-KR), .toast-message:lang(ko-KR) {
     font-family: 'Trebuchet', 'Trebuchet MS', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Dotum, 'Malgun Gothic', 'NanumBarunGothic', 'Noto Sans KR', sans-serif;
 }
 
@@ -310,7 +310,7 @@ i.footer {
         margin-top: -16px;
         letter-spacing: 2px;
     }
-    .sub_title:lang(ja), .sub_title:lang(ko) {
+    .sub_title:lang(ja-JP), .sub_title:lang(ko-KR) {
         margin-top: -12px;
     }
 }
@@ -439,6 +439,7 @@ i.footer {
     /* NAVIGATION BAR ; LANGUAGE SELECT */
     background-color: #2c2f38;
     font-size: 14px;
+    outline: none;
 }
 
 #navigation-bar select:hover {
@@ -780,7 +781,7 @@ i.footer {
 .quest_score {
     display: inline-block;
     float: right;
-    
+
     font-size: 14px;
     color: white;
     background-color: rgba(255, 255, 255, 0.50);
@@ -1005,8 +1006,8 @@ i.footer {
     top: 55px;
 }
 
-.quest_item.quest-item-edit:lang(ja),
-.quest_item.quest-item-edit:lang(ko) {
+.quest_item.quest-item-edit:lang(ja-JP),
+.quest_item.quest-item-edit:lang(ko-KR) {
     top: 57px;
 }
 
@@ -1035,8 +1036,8 @@ i.footer {
     left: 0;
 }
 
-.quest_item.quest-item-edit span:lang(ja),
-.quest_item.quest-item-edit span:lang(ko) {
+.quest_item.quest-item-edit span:lang(ja-JP),
+.quest_item.quest-item-edit span:lang(ko-KR) {
     top: -48px;
 }
 
@@ -1371,7 +1372,7 @@ i.footer {
     bottom: 33%;
 }
 
-.hyperlink-text:lang(ja), .hyperlink-text:lang(ko) {
+.hyperlink-text:lang(ja-JP), .hyperlink-text:lang(ko-KR) {
     bottom: 30%;
 }
 
@@ -1546,13 +1547,13 @@ i.footer {
         0 0 3px #000000;
 }
 
-#inventory_modal_close-button-text:lang(ja) {
+#inventory_modal_close-button-text:lang(ja-JP) {
     position: relative;
     top: 2px;
     font-size: 28px;
 }
 
-#inventory_modal_close-button-text:lang(ko) {
+#inventory_modal_close-button-text:lang(ko-KR) {
     position: relative;
     bottom: 4px;
 }

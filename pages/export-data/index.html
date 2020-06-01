@@ -30,7 +30,7 @@
     <meta name="twitter:description" content="priconne-quest-helper Data Exporting - Transfer Data Between Devices!"/>
 
     <!-- SCRIPTS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../../vendor/modernizr/modernizr-custom.js"></script> <!-- WEBP CHECK -->
 
     <!-- CSS STYLE SHEETS -->
@@ -293,7 +293,7 @@
     function checked_checkbox() {
         document.getElementById("generate-url-button").disabled = !(document.getElementById("include-projects").checked || document.getElementById("include-blacklist").checked || document.getElementById("include-inventory").checked || document.getElementById("include-settings").checked);
     }
-    
+
     function display_data() {
         const display = document.getElementById("data-display");
         const projects_provided = project_json !== "",
@@ -357,7 +357,7 @@
             }
             display.appendChild(project_display);
         }
-        
+
         function build_blacklist_display() {
             const blacklist_display = document.createElement("div");
             blacklist_display.id = "blacklist-display";
@@ -399,7 +399,7 @@
             inventory_display.appendChild(inventory_items);
             display.appendChild(inventory_display);
         }
-        
+
         function build_settings_display() {
             const settings_display = document.createElement("div");
             settings_display.id = "settings-display";
