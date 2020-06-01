@@ -1,3 +1,4 @@
+@charset "UTF-8";
 img[src=""] {
     content:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=");
 }
@@ -26,7 +27,7 @@ body:lang(en-US), translate:lang(en-US), select:lang(en-US), option:lang(en-US),
 
 body:lang(ja-JP), translate:lang(ja-JP), select:lang(ja-JP), option:lang(ja-JP), input:lang(ja-JP) {
     font-family: 'Open Sans', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', 'Noto Sans JP', sans-serif;
-}
+}   
 
 body:lang(ko-KR), translate:lang(ko-KR), select:lang(ko-KR), option:lang(ko-KR), input:lang(ko-KR) {
     font-family: 'Open Sans', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Dotum, 'Malgun Gothic', 'NanumBarunGothic', 'Noto Sans KR', sans-serif;
