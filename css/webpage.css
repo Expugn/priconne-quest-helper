@@ -30,7 +30,7 @@ body:lang(ja-JP), translate:lang(ja-JP), select:lang(ja-JP), option:lang(ja-JP),
 }   
 
 body:lang(ko-KR), translate:lang(ko-KR), select:lang(ko-KR), option:lang(ko-KR), input:lang(ko-KR) {
-    font-family: 'Open Sans', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Dotum, 'Malgun Gothic', 'NanumBarunGothic', 'Noto Sans KR', sans-serif;
+    font-family: 'Open Sans', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', 'NanumBarunGothic', 'Noto Sans KR', Dotum, sans-serif;
 }
 
 body:lang(zh-CN), translate:lang(zh-CN), select:lang(zh-CN), option:lang(zh-CN), input:lang(zh-CN) {
@@ -46,7 +46,7 @@ p.footer:lang(ja-JP), .toast-message:lang(ja-JP) {
 }
 
 p.footer:lang(ko-KR), .toast-message:lang(ko-KR) {
-    font-family: 'Trebuchet', 'Trebuchet MS', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Dotum, 'Malgun Gothic', 'NanumBarunGothic', 'Noto Sans KR', sans-serif;
+    font-family: 'Trebuchet', 'Trebuchet MS', 'Roboto', 'Segoe UI', 'San Francisco', Helvetica, Arial, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', 'NanumBarunGothic', 'Noto Sans KR', Dotum, sans-serif;
 }
 
 p.footer:lang(zh-CN), .toast-message:lang(zh-CN) {
