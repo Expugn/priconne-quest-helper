@@ -2407,6 +2407,13 @@ const inventory = (function () {
                 if ($current_item_parent.hasClass('quest-item-edit')) {
                     $current_item_parent.removeClass('quest-item-edit');
                 }
+                if ($current_item_parent.hasClass('input-enabled')) {
+                    $current_item_parent.removeClass('input-enabled');
+                    let plus = $inventory_editor.children('button.plus');
+                    let minus = $inventory_editor.children('button.minus');
+                    plus.prop('disabled', !plus.attr('disabled'));
+                    minus.prop('disabled', !minus.attr('disabled'));
+                }
             }
 
             /**
@@ -2452,6 +2459,8 @@ const inventory = (function () {
                         '<div class="quest_inline-inventory">' +
                         '<img class="quest_inline-crate" src="' + webpage.get_webpage_image_path("Inventory_Crate") + '" alt="">' +
                         '<div class="quest_inventory-amount">0</div>' +
+                        '<input class="quest_inline-input" type="number">' +
+                        '<button class="input-confirm" value="OK">OK</button>' +
                         '</div>' +
                         '<button class="minus" value="-30">-30</button><button class="plus" value="+30">+30</button>' +
                         '</div>'));
@@ -2475,13 +2484,55 @@ const inventory = (function () {
                 $inventory_editor.show();
             }).on('click', '.inventory-inline-editor button', function(event) {
                 let $this = $(this);
-                let item_name = $this.parent().parent().attr("title");
-                let amount = parseInt(this.value);
-                let current_amount = get_amount(item_name);
-                let new_amount = set_amount(item_name, current_amount + amount);
-                $this.parent().children('.quest_inline-inventory').children('.quest_inventory-amount').text(new_amount);
+                if (this.value === 'OK') {
+                    // OK BUTTON PRESSED
+                    let item_name = $this.parent().parent().parent().attr("title");
+                    let input = $this.parent().children('input.quest_inline-input');
+                    let new_amount = set_amount(item_name, input.val());
+                    $this.parent().children('.quest_inventory-amount').text(new_amount);
+                    toggle_input($this.parent().parent());
+                }
+                else {
+                    // NUMBER +/- BUTTON PRESSED
+                    let item_name = $this.parent().parent().attr("title");
+                    let amount = parseInt(this.value);
+                    let current_amount = get_amount(item_name);
+                    let new_amount = set_amount(item_name, current_amount + amount);
+                    $this.parent().children('.quest_inline-inventory').children('.quest_inventory-amount').text(new_amount);
+                }
+                event.stopPropagation();
+            }).on('click', '.quest_inline-inventory', function(event) {
+                toggle_input($(this).parent());
+                event.stopPropagation();
+            }).on('click', '.quest_inline-input', function (event) {
                 event.stopPropagation();
             });
+
+            function toggle_input(editor) {
+                // editor == div.inventory-inline-editor
+                let plus = editor.children('button.plus');
+                let minus = editor.children('button.minus');
+                plus.prop('disabled', !plus.attr('disabled'));
+                minus.prop('disabled', !minus.attr('disabled'));
+                editor.parent().toggleClass('input-enabled');
+                if (editor.parent().hasClass('input-enabled')) {
+                    let current_amount = get_amount(editor.parent().attr("title"));
+                    let input = editor.children('.quest_inline-inventory').children('.quest_inline-input');
+                    input.val(current_amount);
+                    input.select();
+
+                    // WHEN THE ENTER KEY IS PRESSED, PERFORM SAME OPERATION AS PRESSING THE "OK" BUTTON
+                    input.off().keyup(function (event) {
+                        if (event.key === "Enter") {
+                            let item_name = editor.parent().attr("title");
+                            let new_amount = set_amount(item_name, input.val());
+                            input.parent().children('.quest_inventory-amount').text(new_amount);
+                            toggle_input(editor);
+                            input.off();
+                        }
+                    });
+                }
+            }
 
             /**
              * IF ANYWHERE IN THE RECOMMENDED QUESTS DIV IS CLICKED ON, CLOSE THE ACTIVE INVENTORY EDITOR.
@@ -2549,6 +2600,9 @@ const inventory = (function () {
     function set_amount(frag_name, amount, do_save = true) {
         if (typeof(amount) !== "number") {
             amount = parseInt(amount + "", 10);
+        }
+        if (isNaN(amount)) {
+            amount = 0;
         }
         if (amount < 0) {
             amount = 0;

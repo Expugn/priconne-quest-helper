@@ -11,6 +11,14 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - When the `Item Name Translation Support` is added, the current save files may not continue to work
   - Support for older saves may be added
 
+## [2.1.4] - 2020-06-10
+### Added
+- Input option for inventory inline editor
+  - Suggested by `Akenaide`: <https://github.com/Expugn/priconne-quest-helper/issues/31>
+  - Clicking on the current inventory amount on the inventory inline editor will now reveal an input and a OK button
+  - Changing the value of the input and selecting OK will adjust your inventory to be that value
+  - Pressing the ENTER key while the input is selected will be as if you pressed the OK button
+
 ## [2.1.3] - 2020-06-03
 ### Added
 - New Character: Rino (Wonder)
