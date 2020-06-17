@@ -11,6 +11,15 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - When the `Item Name Translation Support` is added, the current save files may not continue to work
   - Support for older saves may be added
 
+## [2.2.0] - 2020-06-17
+Quest Update (2020-06-17)
+### Added
+- Chapter 35 Quests
+- New Equipment
+- New Character: Inori
+### Changed
+- Changed "`Miyako is coming to fetch your pudding`" to "`Miyako is coming for your pudding`" because the "fetch" sounds kinda weird
+
 ## [2.1.4] - 2020-06-10
 ### Added
 - Input option for inventory inline editor

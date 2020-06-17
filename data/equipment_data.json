@@ -2897,10 +2897,19 @@
         "req_pieces": 30,
         "req_items": []
     },
+    "105557": {
+        "name_jp": "紅鳥のクラリオンブローチ",
+        "name": "Cardinal Clarion Brooch",
+        "id": "purple-106",
+        "has_fragments": true,
+        "fragment_id": "115557",
+        "req_pieces": 30,
+        "req_items": []
+    },
     "105581": {
         "name_jp": "精霊王の護石",
         "name": "Fairy King's Guardian Stone",
-        "id": "purple-106",
+        "id": "purple-107",
         "has_fragments": true,
         "fragment_id": "115581",
         "req_pieces": 30,
@@ -2909,7 +2918,7 @@
     "105582": {
         "name_jp": "人魚姫の霊涙",
         "name": "Mermaid Princess' Spirit Tear",
-        "id": "purple-107",
+        "id": "purple-108",
         "has_fragments": true,
         "fragment_id": "115582",
         "req_pieces": 30,
@@ -2918,7 +2927,7 @@
     "105583": {
         "name_jp": "英盾王の腕輪",
         "name": "Glorious King's Shield Bangle",
-        "id": "purple-108",
+        "id": "purple-109",
         "has_fragments": true,
         "fragment_id": "115583",
         "req_pieces": 30,
@@ -2927,7 +2936,7 @@
     "105584": {
         "name_jp": "海龍神の髪飾り",
         "name": "Sea Dragon God's Hair Ornament",
-        "id": "purple-109",
+        "id": "purple-110",
         "has_fragments": true,
         "fragment_id": "115584",
         "req_pieces": 30,
@@ -2936,7 +2945,7 @@
     "105585": {
         "name_jp": "神盾輪ウォールブレス",
         "name": "Shield God Ring - Wall Breath",
-        "id": "purple-110",
+        "id": "purple-111",
         "has_fragments": true,
         "fragment_id": "115585",
         "req_pieces": 30,
@@ -2945,16 +2954,25 @@
     "105586": {
         "name_jp": "エルフィンチョーカー",
         "name": "Elfin Choker",
-        "id": "purple-111",
+        "id": "purple-112",
         "has_fragments": true,
         "fragment_id": "115586",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "105587": {
+        "name_jp": "翆奏のハープブローチ",
+        "name": "Jade Harp Brooch",
+        "id": "purple-113",
+        "has_fragments": true,
+        "fragment_id": "115587",
         "req_pieces": 30,
         "req_items": []
     },
     "105611": {
         "name_jp": "海神の耳飾り",
         "name": "Ocean God's Earrings",
-        "id": "purple-112",
+        "id": "purple-114",
         "has_fragments": true,
         "fragment_id": "115611",
         "req_pieces": 30,
@@ -2963,7 +2981,7 @@
     "105612": {
         "name_jp": "聖獣の祈念",
         "name": "Divine Beast's Prayer",
-        "id": "purple-113",
+        "id": "purple-115",
         "has_fragments": true,
         "fragment_id": "115612",
         "req_pieces": 30,
@@ -2972,7 +2990,7 @@
     "105613": {
         "name_jp": "ソフォスブレスレット",
         "name": "Sophos Bracelet",
-        "id": "purple-114",
+        "id": "purple-116",
         "has_fragments": true,
         "fragment_id": "115613",
         "req_pieces": 30,
@@ -2981,7 +2999,7 @@
     "105614": {
         "name_jp": "細氷姫の結び紐",
         "name": "Little Ice Princess' Knot",
-        "id": "purple-115",
+        "id": "purple-117",
         "has_fragments": true,
         "fragment_id": "115614",
         "req_pieces": 30,
@@ -2990,7 +3008,7 @@
     "105615": {
         "name_jp": "深結晶ゼノクリスタル",
         "name": "Deep Crystallized Xenocrystal",
-        "id": "purple-116",
+        "id": "purple-118",
         "has_fragments": true,
         "fragment_id": "115615",
         "req_pieces": 30,
@@ -2999,9 +3017,18 @@
     "105616": {
         "name_jp": "ケイオティックチョーカー",
         "name": "Chaotic Choker",
-        "id": "purple-117",
+        "id": "purple-119",
         "has_fragments": true,
         "fragment_id": "115616",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "105617": {
+        "name_jp": "蒼夜のノクターンブローチ",
+        "name": "Blue Night Nocturne Brooch",
+        "id": "purple-120",
+        "has_fragments": true,
+        "fragment_id": "115617",
         "req_pieces": 30,
         "req_items": []
     },
@@ -3311,10 +3338,19 @@
         "req_pieces": 1,
         "req_items": []
     },
+    "31114": {
+        "name": "Luna Shard",
+        "name_jp": "ルナのメモリーピース",
+        "id": "misc-35",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
     "32001": {
         "name": "Hiyori Pure Shard",
         "name_jp": "ヒヨリのピュアメモリーピース",
-        "id": "misc-35",
+        "id": "misc-36",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3323,7 +3359,7 @@
     "32002": {
         "name": "Yui Pure Shard",
         "name_jp": "ユイのピュアメモリーピース",
-        "id": "misc-36",
+        "id": "misc-37",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3332,7 +3368,7 @@
     "32003": {
         "name": "Rei Pure Shard",
         "name_jp": "レイのピュアメモリーピース",
-        "id": "misc-37",
+        "id": "misc-38",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3341,7 +3377,7 @@
     "32010": {
         "name": "Maho Pure Shard",
         "name_jp": "マホのピュアメモリーピース",
-        "id": "misc-38",
+        "id": "misc-39",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3350,7 +3386,7 @@
     "32011": {
         "name": "Rino Pure Shard",
         "name_jp": "リノのピュアメモリーピース",
-        "id": "misc-39",
+        "id": "misc-40",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3359,7 +3395,7 @@
     "32012": {
         "name": "Hatsune Pure Shard",
         "name_jp": "ハツネのピュアメモリーピース",
-        "id": "misc-40",
+        "id": "misc-41",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3368,7 +3404,7 @@
     "32018": {
         "name": "Io Pure Shard",
         "name_jp": "イオのピュアメモリーピース",
-        "id": "misc-41",
+        "id": "misc-42",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3377,7 +3413,7 @@
     "32034": {
         "name": "Yukari Pure Shard",
         "name_jp": "ユカリのピュアメモリーピース",
-        "id": "misc-42",
+        "id": "misc-43",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3386,7 +3422,7 @@
     "32046": {
         "name": "Tamaki Pure Shard",
         "name_jp": "タマキのピュアメモリーピース",
-        "id": "misc-43",
+        "id": "misc-44",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3395,7 +3431,7 @@
     "32048": {
         "name": "Mifuyu Pure Shard",
         "name_jp": "ミフユのピュアメモリーピース",
-        "id": "misc-44",
+        "id": "misc-45",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3404,7 +3440,7 @@
     "32052": {
         "name": "Rima Pure Shard",
         "name_jp": "リマのピュアメモリーピース",
-        "id": "misc-45",
+        "id": "misc-46",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3413,7 +3449,7 @@
     "32058": {
         "name": "Pecorine Pure Shard",
         "name_jp": "ペコリーヌのピュアメモリーピース",
-        "id": "misc-46",
+        "id": "misc-47",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3422,7 +3458,7 @@
     "32059": {
         "name": "Kokkoro Pure Shard",
         "name_jp": "コッコロのピュアメモリーピース",
-        "id": "misc-47",
+        "id": "misc-48",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -3431,7 +3467,7 @@
     "32060": {
         "name": "Kyaru Pure Shard",
         "name_jp": "キャルのピュアメモリーピース",
-        "id": "misc-48",
+        "id": "misc-49",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
