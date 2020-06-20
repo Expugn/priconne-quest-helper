@@ -1,6 +1,7 @@
 ![README Banner](https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/README_Banner.png)
 
-[🌎 English](README.md)
+[🌎 English](README.md)  
+[🇨🇳 简体中文](README.zh-CN.md)
 
 # 프린세스 커넥트! 리다이브 퀘스트 도우미<br>(priconne-quest-helper)
 
@@ -23,12 +24,13 @@ URL: <https://expugn.github.io/priconne-quest-helper/><br>
 
 `priconne-quest-helper`는 `프린세스 커넥트! 리다이브`의 `일본 클라이언트` 데이터를 기반으로 제작되고 있습니다.
 
-## 한국 및 대만 서버의 아이템 데이터
-`2019년 8월 31일`을 기점으로 위 서버는 `일본` 서버와 장비(아이템) 비용 데이터를 공유하지 않습니다.
+## 한국 서버의 아이템 데이터
+`2019년 8월 31일`을 기점으로 위 서버는 `일본` 서버와 장비(아이템) 비용 데이터를 공유하지 않습니다.  
+`대만` 서버는 이미 `일본` 서버의 비용 데이터를 사용하도록 업데이트 되었습니다.
 
-`한국` 서버나 `대만` 서버에서 플레이 중이시라면, `이전 장비 데이터`를 사용해주세요.
+`한국` 서버에서 플레이 중이시라면, `이전 장비 데이터`를 사용해주세요.
 1) `설정` 탭으로 이동
-2) `장비 데이터 종류`를 `이전 장비 데이터 (2019.08.31. 이전) (한국 / 대만)`로 설정
+2) `장비 데이터 종류`를 `이전 장비 데이터 (2019.08.31. 이전) (한국)`로 설정
 3) 설정 저장 (필수 아님)
 
 `장비 합성 데이터`와 `통계` 페이지는 `장비 데이터 종류`에서 설정한 옵션을 따릅니다.
@@ -45,32 +47,31 @@ URL: <https://expugn.github.io/priconne-quest-helper/><br>
 <br>남은 스태미나를 고려하여 최선의 퀘스트를 도세요!
 
 ## 버그, 오류, 기능 제안, 그 외
-다음 사항은 `GitHub 이슈 트래커`나 `Discord`의 `S'pugn#2612`로 알려주세요.
+다음 사항은 `GitHub 이슈 트래커`나 `Discord` (`S'pugn#2612`), 또는 `트위터` (`@eSpugn`)로 알려주세요.
 1. 도우미 사용 중 발생한 버그
 2. 잘못된 데이터
 3. 쉬운 도우미 사용을 위한 기능 제안
 4. `GameWith`나 `AppMedia`에서 아직 갱신되지 않은 새로운 데이터
 5. 도우미에 관련되어 하고 싶은 말, 논리적이고 생산적인 비판, 기타 등등.
 
-## 정보 및 데이터 크레딧
-
 #### 퀘스트 데이터 | 드롭 확률 | 장비 합성 데이터
-- `AppMedia`: [웹사이트](https://appmedia.jp/priconne-redive)<br>
-- `GameWith`: [웹사이트](https://gamewith.jp/pricone-re/)<br>
-- `Hatsune's Notes`: [GitHub](https://github.com/superk589/PrincessGuide)<br>
-- `Prcd-Wiki`: [GitHub](https://github.com/PaleNeutron/Pcrd-Wiki) | [현 웹사이트](https://johnlyu.com/en-us/) / [구 웹사이트](https://pcrdwiki.xyz/)<br>
-- `rwiki`: [웹사이트](https://rwiki.jp/priconne_redive/)<br>
-
-#### 이미지
-- `AssetStudio`: [GitHub](https://github.com/Perfare/AssetStudio)<br>
+- `AssetStudio`: [GitHub](https://github.com/Perfare/AssetStudio)
   - `DMM Game Player` 버전의 `프린세스 커넥트! 리다이브` 사용
-      - 게임 폴더: `C:\Users\<NAME>\AppData\LocalLow\Cygames\PrincessConnectReDive` (Windows 10)
-- `Jiuhin#7786`
+      - 게임 폴더: `C:\Users\%UserName%\AppData\LocalLow\Cygames\PrincessConnectReDive` (Windows 10)
+- `AppMedia`: [웹사이트](https://appmedia.jp/priconne-redive)
+- `GameWith`: [웹사이트](https://gamewith.jp/pricone-re/)
+- `Hatsune's Notes`: [GitHub](https://github.com/superk589/PrincessGuide)
+- `Prcd-Wiki`: [GitHub](https://github.com/PaleNeutron/Pcrd-Wiki) | [현 웹사이트](https://johnlyu.com/en-us/) / [구 웹사이트](https://pcrdwiki.xyz/)
+- `rwiki`: [웹사이트](https://rwiki.jp/priconne_redive/)
 
+
+## 도움을 주신 분들
+#### 이미지 컬렉션
+- `Jiuhin#7786`
 #### 번역
 - `한국어`: Celesti (번역) | SD SkyKlouD (번역) | NewWorld_ (검수)
 - `일본어`: SD SkyKlouD (번역) | mino-s2000 (교정)
-
+- `중국어 (간체)`: URARUA (초기 번역) | BronyDee (교정)
 
 ## 참고
 이 프로젝트는 연습 및 게임을 즐기기 위한 목적으로 만들어진 비영리 팬메이드 프로젝트입니다.<br>
