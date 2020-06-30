@@ -11,6 +11,13 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - When the `Item Name Translation Support` is added, the current save files may not continue to work
   - Support for older saves may be added
 
+## [2.2.1] - 2020-06-29
+### Added
+- New Characters
+  - Anna (Summer)
+  - Yui (Princess)
+- New Quest: 22-3 VH (Shizuru)
+
 ## [2.2.0] - 2020-06-17
 Quest Update (2020-06-17)
 ### Added
