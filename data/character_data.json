@@ -13441,6 +13441,149 @@
             "Elfin Choker"
         ]
     },
+    "summer_ruka": {
+        "unit_id": 113101,
+        "name": "Ruka",
+        "thematic": "Summer",
+        "name_jp": "ルカ",
+        "thematic_jp": "サマー",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Leather Overalls",
+            "Motivational Bracelet",
+            "Iron Blade",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Crescent Sword",
+            "Command Knife",
+            "Folklore Clothes",
+            "Jewel of Courage",
+            "Iron Blade",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Crescent Sword",
+            "Shinobi Costume",
+            "Spike Bangle",
+            "Command Knife",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Moonlight Sword",
+            "Platinum Knife",
+            "Millefeuille Cloth",
+            "Opal Earrings",
+            "Crescent Sword",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Thunder God Sword",
+            "Moonlight Sword",
+            "Palace Cloth",
+            "Lion Eagle's Feather",
+            "Platinum Knife",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Butterfly Katana",
+            "Thunder God Sword",
+            "Cosmos Cloth",
+            "Lion Eagle's Feather",
+            "Moonlight Sword",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Bright Sword",
+            "Butterfly Katana",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Scarlet Diamond",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Hawk God's Sword",
+            "Bright Sword",
+            "Hermit Clothes",
+            "Butterfly Katana",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Phoenix Sword",
+            "Hawk God's Sword",
+            "Heavenly Robe",
+            "Bright Sword",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Hundred White Blossom Petals Sword",
+            "Phoenix Sword",
+            "Dark Terror Dress",
+            "Hawk God's Sword",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Flowing Azure Blade",
+            "Hundred White Blossom Petals Sword",
+            "Phantasm Mail",
+            "Phoenix Sword",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Blood Raven Sword",
+            "Flowing Azure Blade",
+            "Nine Heavens' Armor",
+            "Hundred White Blossom Petals Sword",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Ifrit Katana - Ignite",
+            "Blood Raven Sword",
+            "Fire Oni's Tori",
+            "Flowing Azure Blade",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Emerald Wind God's Tachi",
+            "Ifrit Katana - Ignite",
+            "Extremely Dark Clothes",
+            "Blood Raven Sword",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Branch Blade of Divine Descent",
+            "Emerald Wind God's Tachi",
+            "Flowing Blue Dress - Azul Rondo",
+            "Ifrit Katana - Ignite",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Prosperous Carp God's Katana",
+            "Branch Blade of Divine Descent",
+            "Eastern Heaven Green Wind Dress",
+            "Emerald Wind God's Tachi",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Prosperous Carp God's Katana",
+            "",
+            "Branch Blade of Divine Descent",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ]
+    },
     "saren": {
         "unit_id": 102801,
         "name": "Saren",

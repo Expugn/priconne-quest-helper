@@ -11,6 +11,24 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - When the `Item Name Translation Support` is added, the current save files may not continue to work
   - Support for older saves may be added
 
+## [2.2.2] - 2020-07-03
+### Added
+- New Character: Ruka (Summer)
+### Changed
+- Cygames modified `22-3 VH` subdrops:
+  - **OLD**
+    - `Queen Bee Spear Fragment`
+    - `Angel Bow Fragment`
+    - `Hermit Clothes Fragment` 
+    - `Saint's Robe Fragment` 
+    - `Bangle of Substitution Fragment`
+  - **NEW**
+    - `Rod of Life Fragment`
+    - `Rod of Sun Fragment`
+    - `Angel Boots Fragment`
+    - `Pope's Hood Fragment`
+    - `Mourning Crescent Moon Fragment`
+
 ## [2.2.1] - 2020-06-29
 ### Added
 - New Characters
