@@ -17,9 +17,11 @@ Quest Update (2020-06-17)
 - New Character: Nanaka (Summer)
 - Chapter 36 Quests
 - New Equipment
+### Fixed
+- Fixed a bug where in `pages/statistics`, changing the toggled rarities would not update the other display 
 ### Removed
 - ko-fi Support Stuff
-  - Dunno, kinda hated asking for donations anyways.
+  - Dunno, kinda hated asking for donations anyways
 
 ## [2.2.2] - 2020-07-03
 ### Added
