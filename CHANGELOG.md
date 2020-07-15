@@ -11,6 +11,16 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - When the `Item Name Translation Support` is added, the current save files may not continue to work
   - Support for older saves may be added
 
+## [2.3.0] - 2020-07-14
+Quest Update (2020-06-17)
+### Added
+- New Character: Nanaka (Summer)
+- Chapter 36 Quests
+- New Equipment
+### Removed
+- ko-fi Support Stuff
+  - Dunno, kinda hated asking for donations anyways.
+
 ## [2.2.2] - 2020-07-03
 ### Added
 - New Character: Ruka (Summer)

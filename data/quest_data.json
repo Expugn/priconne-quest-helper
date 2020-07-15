@@ -15712,5 +15712,510 @@
             17,
             15
         ]
+    },
+    "36-1": {
+        "name": "ヴェーナ湖畔道・南部 36-1",
+        "item_1": {
+            "item_name": "Cardinal Clarion Brooch Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Heaven Traveling Hook - Sharp Bite Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Heaven Penetrating Falcon's Bow Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Scarlet Dragon's Claw Fire Ring Fragment",
+            "Glowing Silver Mirror Shield Fragment",
+            "World Tree's Branch Wand Fragment",
+            "Machine Axe - Core Breaker Fragment",
+            "Emerald Wind God's Tachi Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "36-2": {
+        "name": "ヴェーナ湖畔道・南部 36-2",
+        "item_1": {
+            "item_name": "Jade Harp Brooch Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Black Snake's Fiendish Flame Staff Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Prosperous Carp God's Katana Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Shield God Ring - Wall Breath Fragment",
+            "Extremely Dark Nail - Bloody Howl Fragment",
+            "Glowing Silver Mirror Armor Fragment",
+            "Beautiful Clothes - Soul Rose Fragment",
+            "Heavenly Black Sword of Obsidian Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "36-3": {
+        "name": "ヴェーナ湖畔道・南部 36-3",
+        "item_1": {
+            "item_name": "Cardinal Clarion Brooch Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Dark Blade - Heavenly Raven's Guard Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Red Bear Emperor's Claw Battle Axe Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Deep Crystallized Xenocrystal Fragment",
+            "Overlord Light Dragon Sword Fragment",
+            "Ice Bow - Freezing Tear Fragment",
+            "Flowing Blue Dress - Azul Rondo Fragment",
+            "Scarlet Dragon's Claw Fire Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "36-4": {
+        "name": "ヴェーナ湖畔道・南部 36-4",
+        "item_1": {
+            "item_name": "Overlord Thorn Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Jade Harp Brooch Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Heaven Penetrating Falcon's Bow Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Abyss Moon Staff - Sacrifice Fragment",
+            "Astrologer's Holy Spirit Robe Fragment",
+            "Fire Spear - Prominence Fragment",
+            "Glowing Silver Mirror Boots Fragment",
+            "Scarlet Dragon's Claw Fire Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "36-5": {
+        "name": "ヴェーナ湖畔道・南部 36-5",
+        "item_1": {
+            "item_name": "Sacred Ring - Heavenly Lotus Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Cardinal Clarion Brooch Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Dark Blade - Heavenly Raven's Guard Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Scarlet Dragon's Claw Fire Ring Fragment",
+            "Glowing Silver Mirror Shield Fragment",
+            "World Tree's Branch Wand Fragment",
+            "Machine Axe - Core Breaker Fragment",
+            "Emerald Wind God's Tachi Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "36-6": {
+        "name": "ヴェーナ湖畔道・南部 36-6",
+        "item_1": {
+            "item_name": "Pride of the Roses Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Jade Harp Brooch Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Rabbit God's Great Sword Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Shield God Ring - Wall Breath Fragment",
+            "Extremely Dark Nail - Bloody Howl Fragment",
+            "Glowing Silver Mirror Armor Fragment",
+            "Beautiful Clothes - Soul Rose Fragment",
+            "Heavenly Black Sword of Obsidian Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "36-7": {
+        "name": "ヴェーナ湖畔道・南部 36-7",
+        "item_1": {
+            "item_name": "Sacred Ring - Heavenly Lotus Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Blue Night Nocturne Brooch Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Black Snake's Fiendish Flame Staff Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Deep Crystallized Xenocrystal Fragment",
+            "Overlord Light Dragon Sword Fragment",
+            "Ice Bow - Freezing Tear Fragment",
+            "Flowing Blue Dress - Azul Rondo Fragment",
+            "Scarlet Dragon's Claw Fire Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "36-8": {
+        "name": "ヴェーナ湖畔道・南部 36-8",
+        "item_1": {
+            "item_name": "Overlord Thorn Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Cardinal Clarion Brooch Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Saintly Deer Spear - Alma Benard Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Abyss Moon Staff - Sacrifice Fragment",
+            "Astrologer's Holy Spirit Robe Fragment",
+            "Fire Spear - Prominence Fragment",
+            "Glowing Silver Mirror Boots Fragment",
+            "Scarlet Dragon's Claw Fire Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "36-9": {
+        "name": "ヴェーナ湖畔道・南部 36-9",
+        "item_1": {
+            "item_name": "Holy Light's Lily Plate Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Jade Harp Brooch Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "White Snake's Holy Water Rod Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Scarlet Dragon's Claw Fire Ring Fragment",
+            "Glowing Silver Mirror Shield Fragment",
+            "World Tree's Branch Wand Fragment",
+            "Machine Axe - Core Breaker Fragment",
+            "Emerald Wind God's Tachi Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "36-10": {
+        "name": "ヴェーナ湖畔道・南部 36-10",
+        "item_1": {
+            "item_name": "Scarlet Tulip Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Blue Night Nocturne Brooch Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Black Snake's Fiendish Flame Staff Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Shield God Ring - Wall Breath Fragment",
+            "Extremely Dark Nail - Bloody Howl Fragment",
+            "Glowing Silver Mirror Armor Fragment",
+            "Beautiful Clothes - Soul Rose Fragment",
+            "Heavenly Black Sword of Obsidian Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "36-11": {
+        "name": "ヴェーナ湖畔道・南部 36-11",
+        "item_1": {
+            "item_name": "White Haze Flower Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Cardinal Clarion Brooch Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Rabbit God's Great Sword Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Deep Crystallized Xenocrystal Fragment",
+            "Overlord Light Dragon Sword Fragment",
+            "Ice Bow - Freezing Tear Fragment",
+            "Flowing Blue Dress - Azul Rondo Fragment",
+            "Scarlet Dragon's Claw Fire Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "36-12": {
+        "name": "ヴェーナ湖畔道・南部 36-12",
+        "item_1": {
+            "item_name": "Overlord Thorn Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sacred Ring - Heavenly Lotus Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Jade Harp Brooch Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Abyss Moon Staff - Sacrifice Fragment",
+            "Astrologer's Holy Spirit Robe Fragment",
+            "Fire Spear - Prominence Fragment",
+            "Glowing Silver Mirror Boots Fragment",
+            "Scarlet Dragon's Claw Fire Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "36-13": {
+        "name": "ヴェーナ湖畔道・南部 36-13",
+        "item_1": {
+            "item_name": "Scarlet Tulip Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pride of the Roses Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Blue Night Nocturne Brooch Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Scarlet Dragon's Claw Fire Ring Fragment",
+            "Glowing Silver Mirror Shield Fragment",
+            "World Tree's Branch Wand Fragment",
+            "Machine Axe - Core Breaker Fragment",
+            "Emerald Wind God's Tachi Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "36-14": {
+        "name": "ヴェーナ湖畔道・南部 36-14",
+        "item_1": {
+            "item_name": "Holy Light's Lily Plate Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "White Haze Flower Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Cardinal Clarion Brooch Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Shield God Ring - Wall Breath Fragment",
+            "Extremely Dark Nail - Bloody Howl Fragment",
+            "Glowing Silver Mirror Armor Fragment",
+            "Beautiful Clothes - Soul Rose Fragment",
+            "Heavenly Black Sword of Obsidian Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "36-1H": {
+        "name": "ヴェーナ湖畔道・南部 36-1",
+        "item_1": {
+            "item_name": "White Haze Flower Dress Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Jade Harp Brooch Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "White Snake's Holy Water Rod Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Misaki Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Scarlet Dragon's Claw Fire Ring Fragment",
+            "Glowing Silver Mirror Shield Fragment",
+            "World Tree's Branch Wand Fragment",
+            "Machine Axe - Core Breaker Fragment",
+            "Emerald Wind God's Tachi Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "36-2H": {
+        "name": "ヴェーナ湖畔道・南部 36-2",
+        "item_1": {
+            "item_name": "Scarlet Tulip Dress Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Blue Night Nocturne Brooch Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Black Snake's Fiendish Flame Staff Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mifuyu Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Shield God Ring - Wall Breath Fragment",
+            "Extremely Dark Nail - Bloody Howl Fragment",
+            "Glowing Silver Mirror Armor Fragment",
+            "Beautiful Clothes - Soul Rose Fragment",
+            "Heavenly Black Sword of Obsidian Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "36-3H": {
+        "name": "ヴェーナ湖畔道・南部 36-3",
+        "item_1": {
+            "item_name": "Holy Light's Lily Plate Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Cardinal Clarion Brooch Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Rabbit God's Great Sword Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Kaya Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Deep Crystallized Xenocrystal Fragment",
+            "Overlord Light Dragon Sword Fragment",
+            "Ice Bow - Freezing Tear Fragment",
+            "Flowing Blue Dress - Azul Rondo Fragment",
+            "Scarlet Dragon's Claw Fire Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }

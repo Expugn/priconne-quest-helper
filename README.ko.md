@@ -17,8 +17,6 @@ URL: <https://expugn.github.io/priconne-quest-helper/><br>
 
 <br>
 
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E21KEV4)
-
 ## 정보
 캐릭터의 랭크 업 등에 필요한 아이템을 얻기 위해 돌아야 되는 최적의 퀘스트를 찾아주는 도우미 프로젝트입니다.
 
