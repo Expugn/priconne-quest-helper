@@ -2462,7 +2462,8 @@ const inventory = (function () {
                         '<input class="quest_inline-input" type="number">' +
                         '<button class="input-confirm" value="OK">OK</button>' +
                         '</div>' +
-                        '<button class="minus" value="-30">-30</button><button class="plus" value="+30">+30</button>' +
+                        '<button class="plus increment" value="+30">+30</button><button class="plus" value="+5">+5</button><button class="plus" value="+1">+1</button>' +
+                        '<button class="minus increment" value="-30">-30</button><button class="minus" value="-5">-5</button><button class="minus" value="-1">-1</button><br>' +
                         '</div>'));
                 }
                 $("span.quest_drop-percent", $this).before($inventory_editor);
@@ -2474,10 +2475,10 @@ const inventory = (function () {
                 if (increment < 10) {
                     increment = 10;
                 }
-                let $plus_button = $('button.plus', $inventory_editor);
+                let $plus_button = $('button.plus.increment', $inventory_editor);
                 $plus_button.text('+' + increment);
                 $plus_button[0].value = '+' + increment;
-                let $minus_button = $('button.minus', $inventory_editor);
+                let $minus_button = $('button.minus.increment', $inventory_editor);
                 $minus_button.text('-' + increment);
                 $minus_button[0].value = '-' + increment;
                 $this.removeClass('quest-hover').addClass('quest-item-edit');
@@ -4383,7 +4384,15 @@ const webpage = (function () {
                             quest_data.read_data(function (success) {
                                 if (success) {
                                     print("Quest data loaded!", "Webpage");
-                                    finalize_setup();
+                                    dictionary.read_data(function (success) {
+                                        if (success) {
+                                            print("Dictionary loaded!", "Webpage");
+                                            finalize_setup();
+                                        }
+                                        else {
+                                            setup_failed("Failed to load dictionary");
+                                        }
+                                    });
                                 }
                                 else {
                                     setup_failed("Failed to load quest data");

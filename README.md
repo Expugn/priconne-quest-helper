@@ -23,13 +23,13 @@ whatever assortment of items you need to rank up your characters.
 
 `priconne-quest-helper` is based off the data from the `Japan` version of `Princess Connect! Re:Dive`.
 
-## Equipment Data for Korean Servers
+## Equipment Data for Korean/China Servers
 As of `August 31, 2019`, the `Japan` servers for `Princess Connect! Re:Dive` have different costs for equipment.<br>
 The `Taiwan` server has been updated to use these different costs as well.
 
-If you play on the `Korean` server, you can continue to use the `Legacy Equipment Data` by:
+If you play on the `Korean`/`China` server, you can continue to use the `Legacy Equipment Data` by:
 1) Go to the `Settings` tab
-2) Change `Equipment Data Type` to `Legacy Equipment Data (Before 2019.08.31) (KR)`
+2) Change `Equipment Data Type` to `Legacy Equipment Data (Before 2019.08.31) (KR/CN)`
 3) Save Settings (Optional)
 
 The `Recipe Data` and `Statistics` pages also have the ability to use the `Legacy Equipment Data` if desired.
@@ -55,7 +55,7 @@ The following can be submitted via `GitHub's Issue Tracker`, `Discord` (`S'pugn#
 
 ## For Developers: Updating priconne-quest-helper
 If you are interested in how `priconne-quest-helper` is updated for any reason:<br>
-The Python script that is used to simplify the updating process is available in <https://github.com/Expugn/pqh-updater>
+The code that is used to simplify the updating process is available in <https://github.com/Expugn/pqh-updater>
 
 This script is not useful for most users.
 

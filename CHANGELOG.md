@@ -3,13 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## [2.3.1] - 2020-07-17
 ### Added
-- Item Name Translation Support
-### Deprecated
-- Every single `Export Data` save
-  - When the `Item Name Translation Support` is added, the current save files may not continue to work
-  - Support for older saves may be added
+- Inline inventory editor now has `+1` / `+5` / `+<craft_amount>` / `-1` / `-5` / `-<craft_amount>` buttons
+  - Suggested by `koma-cute` <https://github.com/Expugn/priconne-quest-helper/issues/33>
+- Start implementation of Dictionary
+  - Dictionary's purpose is to provide item name translations for items with a given item ID
+  - Dictionary currently isn't used for anything at the moment, but it will be loaded and updated
+### Changed
+- Updated some strings to include `CN` server
 
 ## [2.3.0] - 2020-07-14
 Quest Update (2020-06-17)

@@ -403,3 +403,74 @@ const quest_data = (function () {
         get_quest_number: get_quest_number
     }
 })();
+
+const dictionary = (function () {
+    const info = Object.freeze({
+        EQUIPMENT: "10",
+        FRAGMENT: "11",
+        BLUEPRINT: "12",
+        MEMORY_PIECE: "31",
+        PURE_MEMORY_PIECE: "32"
+    });
+    let data = null;
+
+    function read_data(callback = function () { return undefined; }) {
+        let is_success = false;
+        const file_path = "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/dictionary.json";
+        $.getJSON(file_path, function(raw) {
+            data = raw;
+        })
+            .done(function () {
+                is_success = true;
+            })
+            .always(function () {
+                callback(is_success);
+            });
+    }
+
+    function convert_fragmentID_to_equipmentID(fragmentID) {
+        return "10" + fragmentID.substring(2, fragmentID.length);
+    }
+
+    function get_entry(item_id, language) {
+        const default_language = "en-US";
+        const item_type = item_id.substring(0, 2);
+        let item_name, suffix, item_name_default, suffix_default;
+
+        // GET TRANSLATION
+        switch (item_type) {
+            case info.EQUIPMENT:
+            case info.MEMORY_PIECE:
+            case info.PURE_MEMORY_PIECE:
+                item_name = data["equipment"][item_id][language];
+                suffix = suffix_default = "";
+                item_name_default = data["equipment"][item_id][default_language];
+                break;
+            case info.FRAGMENT:
+            case info.BLUEPRINT:
+                item_name = data["equipment"][convert_fragmentID_to_equipmentID(item_id)][language];
+                suffix = data["suffix"][(item_type === info.FRAGMENT ? "fragment" : "blueprint")][language];
+                item_name_default = data["equipment"][convert_fragmentID_to_equipmentID(item_id)][default_language];
+                suffix_default = data["suffix"][(item_type === info.FRAGMENT ? "fragment" : "blueprint")][default_language];
+                break;
+            default:
+                console.log("unknown item type", "(" + item_type + ")", item_id);
+                return "";
+        }
+
+        // FALLBACK TO DEFAULT LANGUAGE (ENGLISH) TRANSLATIONS IF THEY DON'T EXIST
+        if (item_name === "") {
+            item_name = item_name_default;
+        }
+        if (suffix === "") {
+            suffix = suffix_default;
+        }
+
+        return item_name + suffix;
+    }
+
+    return {
+        read_data: read_data,
+        get: get_entry,
+    }
+})();
