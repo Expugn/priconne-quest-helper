@@ -3102,8 +3102,8 @@
         "req_items": []
     },
     "31002": {
-        "name": "Yui Shard",
         "name_jp": "ユイのメモリーピース",
+        "name": "Yui Shard",
         "id": "misc-1",
         "has_fragments": false,
         "fragment_id": "",
@@ -3111,8 +3111,8 @@
         "req_items": []
     },
     "31003": {
-        "name": "Rei Shard",
         "name_jp": "レイのメモリーピース",
+        "name": "Rei Shard",
         "id": "misc-2",
         "has_fragments": false,
         "fragment_id": "",
@@ -3120,8 +3120,8 @@
         "req_items": []
     },
     "31008": {
-        "name": "Yuki Shard",
         "name_jp": "ユキのメモリーピース",
+        "name": "Yuki Shard",
         "id": "misc-3",
         "has_fragments": false,
         "fragment_id": "",
@@ -3129,8 +3129,8 @@
         "req_items": []
     },
     "31014": {
-        "name": "Kasumi Shard",
         "name_jp": "カスミのメモリーピース",
+        "name": "Kasumi Shard",
         "id": "misc-4",
         "has_fragments": false,
         "fragment_id": "",
@@ -3138,8 +3138,8 @@
         "req_items": []
     },
     "31020": {
-        "name": "Mimi Shard",
         "name_jp": "ミミのメモリーピース",
+        "name": "Mimi Shard",
         "id": "misc-5",
         "has_fragments": false,
         "fragment_id": "",
@@ -3147,8 +3147,8 @@
         "req_items": []
     },
     "31021": {
-        "name": "Kurumi Shard",
         "name_jp": "クルミのメモリーピース",
+        "name": "Kurumi Shard",
         "id": "misc-6",
         "has_fragments": false,
         "fragment_id": "",
@@ -3156,8 +3156,8 @@
         "req_items": []
     },
     "31027": {
-        "name": "Eriko Shard",
         "name_jp": "エリコのメモリーピース",
+        "name": "Eriko Shard",
         "id": "misc-7",
         "has_fragments": false,
         "fragment_id": "",
@@ -3165,8 +3165,8 @@
         "req_items": []
     },
     "31028": {
-        "name": "Saren Shard",
         "name_jp": "サレンのメモリーピース",
+        "name": "Saren Shard",
         "id": "misc-8",
         "has_fragments": false,
         "fragment_id": "",
@@ -3174,8 +3174,8 @@
         "req_items": []
     },
     "31030": {
-        "name": "Ninon Shard",
         "name_jp": "ニノンのメモリーピース",
+        "name": "Ninon Shard",
         "id": "misc-9",
         "has_fragments": false,
         "fragment_id": "",
@@ -3183,8 +3183,8 @@
         "req_items": []
     },
     "31031": {
-        "name": "Shinobu Shard",
         "name_jp": "シノブのメモリーピース",
+        "name": "Shinobu Shard",
         "id": "misc-10",
         "has_fragments": false,
         "fragment_id": "",
@@ -3192,8 +3192,8 @@
         "req_items": []
     },
     "31032": {
-        "name": "Akino Shard",
         "name_jp": "アキノのメモリーピース",
+        "name": "Akino Shard",
         "id": "misc-11",
         "has_fragments": false,
         "fragment_id": "",
@@ -3201,8 +3201,8 @@
         "req_items": []
     },
     "31033": {
-        "name": "Mahiru Shard",
         "name_jp": "マヒルのメモリーピース",
+        "name": "Mahiru Shard",
         "id": "misc-12",
         "has_fragments": false,
         "fragment_id": "",
@@ -3210,8 +3210,8 @@
         "req_items": []
     },
     "31036": {
-        "name": "Kyouka Shard",
         "name_jp": "キョウカのメモリーピース",
+        "name": "Kyouka Shard",
         "id": "misc-13",
         "has_fragments": false,
         "fragment_id": "",
@@ -3219,8 +3219,8 @@
         "req_items": []
     },
     "31037": {
-        "name": "Tomo Shard",
         "name_jp": "トモのメモリーピース",
+        "name": "Tomo Shard",
         "id": "misc-14",
         "has_fragments": false,
         "fragment_id": "",
@@ -3228,8 +3228,8 @@
         "req_items": []
     },
     "31038": {
-        "name": "Shiori Shard",
         "name_jp": "シオリのメモリーピース",
+        "name": "Shiori Shard",
         "id": "misc-15",
         "has_fragments": false,
         "fragment_id": "",
@@ -3237,8 +3237,8 @@
         "req_items": []
     },
     "31040": {
-        "name": "Aoi Shard",
         "name_jp": "アオイのメモリーピース",
+        "name": "Aoi Shard",
         "id": "misc-16",
         "has_fragments": false,
         "fragment_id": "",
@@ -3246,8 +3246,8 @@
         "req_items": []
     },
     "31044": {
-        "name": "Ilya Shard",
         "name_jp": "イリヤのメモリーピース",
+        "name": "Ilya Shard",
         "id": "misc-17",
         "has_fragments": false,
         "fragment_id": "",
@@ -3255,8 +3255,8 @@
         "req_items": []
     },
     "31047": {
-        "name": "Jun Shard",
         "name_jp": "ジュンのメモリーピース",
+        "name": "Jun Shard",
         "id": "misc-18",
         "has_fragments": false,
         "fragment_id": "",
@@ -3264,8 +3264,8 @@
         "req_items": []
     },
     "31048": {
-        "name": "Mifuyu Shard",
         "name_jp": "ミフユのメモリーピース",
+        "name": "Mifuyu Shard",
         "id": "misc-19",
         "has_fragments": false,
         "fragment_id": "",
@@ -3273,8 +3273,8 @@
         "req_items": []
     },
     "31049": {
-        "name": "Shizuru Shard",
         "name_jp": "シズルのメモリーピース",
+        "name": "Shizuru Shard",
         "id": "misc-20",
         "has_fragments": false,
         "fragment_id": "",
@@ -3282,8 +3282,8 @@
         "req_items": []
     },
     "31050": {
-        "name": "Misaki Shard",
         "name_jp": "ミサキのメモリーピース",
+        "name": "Misaki Shard",
         "id": "misc-21",
         "has_fragments": false,
         "fragment_id": "",
@@ -3291,8 +3291,8 @@
         "req_items": []
     },
     "31052": {
-        "name": "Rima Shard",
         "name_jp": "リマのメモリーピース",
+        "name": "Rima Shard",
         "id": "misc-22",
         "has_fragments": false,
         "fragment_id": "",
@@ -3300,8 +3300,8 @@
         "req_items": []
     },
     "31056": {
-        "name": "Ruka Shard",
         "name_jp": "ルカのメモリーピース",
+        "name": "Ruka Shard",
         "id": "misc-23",
         "has_fragments": false,
         "fragment_id": "",
@@ -3309,8 +3309,8 @@
         "req_items": []
     },
     "31057": {
-        "name": "Djeeta Shard",
         "name_jp": "ジータのメモリーピース",
+        "name": "Djeeta Shard",
         "id": "misc-24",
         "has_fragments": false,
         "fragment_id": "",
@@ -3318,8 +3318,8 @@
         "req_items": []
     },
     "31058": {
-        "name": "Pecorine Shard",
         "name_jp": "ペコリーヌのメモリーピース",
+        "name": "Pecorine Shard",
         "id": "misc-25",
         "has_fragments": false,
         "fragment_id": "",
@@ -3327,8 +3327,8 @@
         "req_items": []
     },
     "31059": {
-        "name": "Kokkoro Shard",
         "name_jp": "コッコロのメモリーピース",
+        "name": "Kokkoro Shard",
         "id": "misc-26",
         "has_fragments": false,
         "fragment_id": "",
@@ -3336,8 +3336,8 @@
         "req_items": []
     },
     "31063": {
-        "name": "Arisa Shard",
         "name_jp": "アリサのメモリーピース",
+        "name": "Arisa Shard",
         "id": "misc-27",
         "has_fragments": false,
         "fragment_id": "",
@@ -3345,8 +3345,8 @@
         "req_items": []
     },
     "31065": {
-        "name": "Kaya Shard",
         "name_jp": "カヤのメモリーピース",
+        "name": "Kaya Shard",
         "id": "misc-28",
         "has_fragments": false,
         "fragment_id": "",
@@ -3354,8 +3354,8 @@
         "req_items": []
     },
     "31092": {
-        "name": "Anne Shard",
         "name_jp": "アンのメモリーピース",
+        "name": "Anne Shard",
         "id": "misc-29",
         "has_fragments": false,
         "fragment_id": "",
@@ -3363,8 +3363,8 @@
         "req_items": []
     },
     "31094": {
-        "name": "Grea Shard",
         "name_jp": "グレアのメモリーピース",
+        "name": "Grea Shard",
         "id": "misc-30",
         "has_fragments": false,
         "fragment_id": "",
@@ -3372,8 +3372,8 @@
         "req_items": []
     },
     "31095": {
-        "name": "Oedo Kuuka Shard",
         "name_jp": "クウカ（オーエド）のメモリーピース",
+        "name": "Oedo Kuuka Shard",
         "id": "misc-31",
         "has_fragments": false,
         "fragment_id": "",
@@ -3381,8 +3381,8 @@
         "req_items": []
     },
     "31096": {
-        "name": "Oedo Ninon Shard",
         "name_jp": "ニノン（オーエド）のメモリーピース",
+        "name": "Oedo Ninon Shard",
         "id": "misc-32",
         "has_fragments": false,
         "fragment_id": "",
@@ -3390,8 +3390,8 @@
         "req_items": []
     },
     "31107": {
-        "name": "Transfer Student Aoi Shard",
         "name_jp": "アオイ（編入生）のメモリーピース",
+        "name": "Transfer Student Aoi Shard",
         "id": "misc-33",
         "has_fragments": false,
         "fragment_id": "",
@@ -3399,8 +3399,8 @@
         "req_items": []
     },
     "31108": {
-        "name": "Chloe Shard",
         "name_jp": "クロエのメモリーピース",
+        "name": "Chloe Shard",
         "id": "misc-34",
         "has_fragments": false,
         "fragment_id": "",
@@ -3408,8 +3408,8 @@
         "req_items": []
     },
     "31113": {
-        "name": "Halloween Mimi Shard",
         "name_jp": "ミミ（ハロウィン）のメモリーピース",
+        "name": "Halloween Mimi Shard",
         "id": "misc-35",
         "has_fragments": false,
         "fragment_id": "",
@@ -3417,8 +3417,8 @@
         "req_items": []
     },
     "31114": {
-        "name": "Luna Shard",
         "name_jp": "ルナのメモリーピース",
+        "name": "Luna Shard",
         "id": "misc-36",
         "has_fragments": false,
         "fragment_id": "",
@@ -3426,8 +3426,8 @@
         "req_items": []
     },
     "32001": {
-        "name": "Hiyori Pure Shard",
         "name_jp": "ヒヨリのピュアメモリーピース",
+        "name": "Hiyori Pure Shard",
         "id": "misc-37",
         "has_fragments": false,
         "fragment_id": "",
@@ -3435,8 +3435,8 @@
         "req_items": []
     },
     "32002": {
-        "name": "Yui Pure Shard",
         "name_jp": "ユイのピュアメモリーピース",
+        "name": "Yui Pure Shard",
         "id": "misc-38",
         "has_fragments": false,
         "fragment_id": "",
@@ -3444,8 +3444,8 @@
         "req_items": []
     },
     "32003": {
-        "name": "Rei Pure Shard",
         "name_jp": "レイのピュアメモリーピース",
+        "name": "Rei Pure Shard",
         "id": "misc-39",
         "has_fragments": false,
         "fragment_id": "",
@@ -3453,8 +3453,8 @@
         "req_items": []
     },
     "32010": {
-        "name": "Maho Pure Shard",
         "name_jp": "マホのピュアメモリーピース",
+        "name": "Maho Pure Shard",
         "id": "misc-40",
         "has_fragments": false,
         "fragment_id": "",
@@ -3462,8 +3462,8 @@
         "req_items": []
     },
     "32011": {
-        "name": "Rino Pure Shard",
         "name_jp": "リノのピュアメモリーピース",
+        "name": "Rino Pure Shard",
         "id": "misc-41",
         "has_fragments": false,
         "fragment_id": "",
@@ -3471,8 +3471,8 @@
         "req_items": []
     },
     "32012": {
-        "name": "Hatsune Pure Shard",
         "name_jp": "ハツネのピュアメモリーピース",
+        "name": "Hatsune Pure Shard",
         "id": "misc-42",
         "has_fragments": false,
         "fragment_id": "",
@@ -3480,8 +3480,8 @@
         "req_items": []
     },
     "32018": {
-        "name": "Io Pure Shard",
         "name_jp": "イオのピュアメモリーピース",
+        "name": "Io Pure Shard",
         "id": "misc-43",
         "has_fragments": false,
         "fragment_id": "",
@@ -3489,8 +3489,8 @@
         "req_items": []
     },
     "32034": {
-        "name": "Yukari Pure Shard",
         "name_jp": "ユカリのピュアメモリーピース",
+        "name": "Yukari Pure Shard",
         "id": "misc-44",
         "has_fragments": false,
         "fragment_id": "",
@@ -3498,8 +3498,8 @@
         "req_items": []
     },
     "32046": {
-        "name": "Tamaki Pure Shard",
         "name_jp": "タマキのピュアメモリーピース",
+        "name": "Tamaki Pure Shard",
         "id": "misc-45",
         "has_fragments": false,
         "fragment_id": "",
@@ -3507,8 +3507,8 @@
         "req_items": []
     },
     "32048": {
-        "name": "Mifuyu Pure Shard",
         "name_jp": "ミフユのピュアメモリーピース",
+        "name": "Mifuyu Pure Shard",
         "id": "misc-46",
         "has_fragments": false,
         "fragment_id": "",
@@ -3516,8 +3516,8 @@
         "req_items": []
     },
     "32049": {
-        "name": "Shizuru Pure Shard",
         "name_jp": "シズルのピュアメモリーピース",
+        "name": "Shizuru Pure Shard",
         "id": "misc-47",
         "has_fragments": false,
         "fragment_id": "",
@@ -3525,8 +3525,8 @@
         "req_items": []
     },
     "32052": {
-        "name": "Rima Pure Shard",
         "name_jp": "リマのピュアメモリーピース",
+        "name": "Rima Pure Shard",
         "id": "misc-48",
         "has_fragments": false,
         "fragment_id": "",
@@ -3534,8 +3534,8 @@
         "req_items": []
     },
     "32058": {
-        "name": "Pecorine Pure Shard",
         "name_jp": "ペコリーヌのピュアメモリーピース",
+        "name": "Pecorine Pure Shard",
         "id": "misc-49",
         "has_fragments": false,
         "fragment_id": "",
@@ -3543,8 +3543,8 @@
         "req_items": []
     },
     "32059": {
-        "name": "Kokkoro Pure Shard",
         "name_jp": "コッコロのピュアメモリーピース",
+        "name": "Kokkoro Pure Shard",
         "id": "misc-50",
         "has_fragments": false,
         "fragment_id": "",
@@ -3552,8 +3552,8 @@
         "req_items": []
     },
     "32060": {
-        "name": "Kyaru Pure Shard",
         "name_jp": "キャルのピュアメモリーピース",
+        "name": "Kyaru Pure Shard",
         "id": "misc-51",
         "has_fragments": false,
         "fragment_id": "",

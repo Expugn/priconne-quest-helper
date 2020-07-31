@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.3.2] - 2020-07-30
+### Added
+- New Characters
+  - Hatsune (Summer)
+  - Misato (Summer)
+
 ## [2.3.1] - 2020-07-17
 ### Added
 - Inline inventory editor now has `+1` / `+5` / `+<craft_amount>` / `-1` / `-5` / `-<craft_amount>` buttons
@@ -20,7 +26,7 @@ Quest Update (2020-06-17)
 - Chapter 36 Quests
 - New Equipment
 ### Fixed
-- Fixed a bug where in `pages/statistics`, changing the toggled rarities would not update the other display 
+- Fixed a bug where in `pages/statistics`, changing the toggled rarities would not update the other display
 ### Removed
 - ko-fi Support Stuff
   - Dunno, kinda hated asking for donations anyways
@@ -33,8 +39,8 @@ Quest Update (2020-06-17)
   - **OLD**
     - `Queen Bee Spear Fragment`
     - `Angel Bow Fragment`
-    - `Hermit Clothes Fragment` 
-    - `Saint's Robe Fragment` 
+    - `Hermit Clothes Fragment`
+    - `Saint's Robe Fragment`
     - `Bangle of Substitution Fragment`
   - **NEW**
     - `Rod of Life Fragment`
@@ -112,7 +118,7 @@ Code Rewrite
 ### Added
 - New Font Design
   - Now using Google's `Noto` font line to keep things consistent
-    - `Noto Sans`, `Noto Sans JP`, `Noto Sans KR` 
+    - `Noto Sans`, `Noto Sans JP`, `Noto Sans KR`
 - Inventory Quality of Life Additions
   - You can now press `ENTER` to confirm your changes in `Inventory List Mode` rather than having to click away
   - You can now press `ENTER` to confirm the amount while adding an item from the `Inventory Catalog` rather than having to press `Add Item`
@@ -155,7 +161,7 @@ Code Rewrite
   - `kofi`'s hyperlink now takes `GitHub`'s hyperlink location
   - `GitHub` hyperlink moved to the bottom of the page
 - `jQuery` is now retrieved from Google's CDN so a new copy of `jQuery` won't have to be downloaded every 10 minutes due to GitHub Pages' low cache life
-- `toastr` is now retrieved from Cloudflare's CDN so a new copy of `toastr` won't have to be downloaded every 10 minutes due to GitHub Pages' low cache life 
+- `toastr` is now retrieved from Cloudflare's CDN so a new copy of `toastr` won't have to be downloaded every 10 minutes due to GitHub Pages' low cache life
 - Merged `css/webpage-mobile.css` and `css/webpage.i18n.css` contents into `css/webpage.css`
 - "Mobile Formatting" is now available for Desktop users if the browser window width is small enough
 - Corrected most issues in `index.html`
@@ -221,16 +227,16 @@ Quest Update (2020-04-15)
     - `other_tab.disable_title_background_hover` **(NOT TRANSLATED)**
 - Re-added and updated/modified `a-casual`'s inventory inline editor
   - Click an item image in `Recommended Quests` to use
-  - **UPDATED:** 
+  - **UPDATED:**
     - Inline editor now works with new quest display format
     - If inline editor is active, then `Inventory` button is disabled to avoid conflicting changes
   - **MODIFIED:**
-    - Inventory amount display is now above the add/sub buttons instead of displayed top-left 
+    - Inventory amount display is now above the add/sub buttons instead of displayed top-left
       - The number shown below above the item image is the required ingredient amount
       - Similar to the previous version, drop rate cannot be seen while the editor is active for that item
     - `Required Ingredients`, `Recommended Quests`, etc are only updated if there is a change in inventory amount compared to when it was opened
     - Removed usage of deprecated CSS classes
-    - Max amount that can be added via inline editor changed to `9999` 
+    - Max amount that can be added via inline editor changed to `9999`
     - Inventory amounts set to `0` are deleted from inventory
 - Added `.webp` versions of `ko-fi banner`, `priconne-shiritori_icon`, `miyako` so they aren't locked to strictly `.png`
 ### Changed
@@ -281,10 +287,10 @@ Save Data Purge #3: `524` / `720` Files Deleted
   - Title is no longer `Revue Starlight: Re LIVE - Quest Helper`
   - Webpage Title is no longer `Revue Starlight: Re LIVE - Quest Helper | sutarira-quest-helper`
   - Webpage Icon changed back to `Hatsune` from `Ichie Otonashi`
-  - `Ichie Otonashi` Title Background Image URL for `CUSTOM`: <br> 
+  - `Ichie Otonashi` Title Background Image URL for `CUSTOM`: <br>
         **PNG:** `https://raw.githubusercontent.com/Expugn/priconne-quest-helper/93d9d84e80e2345d9c6c969568ae1a6e93fa7bc4/images/webpage/backgrounds/Ichie_Otonashi.png`<br>
         **WEBP:** `https://raw.githubusercontent.com/Expugn/priconne-quest-helper/93d9d84e80e2345d9c6c969568ae1a6e93fa7bc4/images/webpage_webp/backgrounds/Ichie_Otonashi.webp`
-## Fixed 
+## Fixed
 - Export Data would not work because of "Error Found in Settings Data"
 - Removed text decoration near ko-fi donation hyperlink because it showed a tiny blue line still
 - Fixed an issue where `Auto Max Quest Chapter` would not reset
@@ -341,12 +347,12 @@ Save Data Purge #3: `524` / `720` Files Deleted
     - Inventory Mode: `Remove`
       - Clicking on an item while under this mode will delete it from your inventory
       - The `Delete All` Button will become visible while `Inventory Mode`: `Remove` is active
-      - CLICKING THE DELETE ALL BUTTON WILL DELETE EVERYTHING IN YOUR INVENTORY ; THERE IS NO PROMPT TO CONFIRM YOUR DECISION 
+      - CLICKING THE DELETE ALL BUTTON WILL DELETE EVERYTHING IN YOUR INVENTORY ; THERE IS NO PROMPT TO CONFIRM YOUR DECISION
   - Inventory Benefits
     - `Required Ingredients` that you have enough of in your inventory will automatically be disabled
       - Items you have enough of will be indicated by the item being grayscale + transparent with a crate image on the top left of the image
     - `Recommended Quests` will not show items you have enough of in your inventory
-    - Using the `Complete Project` button in the `Projects` tab will automatically remove items from your inventory 
+    - Using the `Complete Project` button in the `Projects` tab will automatically remove items from your inventory
   - NOTE: AS OF THIS WRITING, `Inventory` CANNOT BE EXPORTED/IMPORTED VIA `Data Export`/`Data Import`
 ## Changed
 - Title Background Default: `IDOLMASTER` -> `FRIENDSHIP_CLUB`
@@ -542,12 +548,12 @@ Quest Update (2020-02-15)
     - `thematics.princess`
   - `ko.json`
     - `thematics.magical`
-    - `thematics.princess`  
+    - `thematics.princess`
 - Chapter 32 Quest Data
 - New Character: Pecorine (Princess)
 - New Equipment
 - New Character Data
-    
+
 ## [1.7.1] - 2020-01-31
 ### Added
 - New Character: Kasumi (Magical)
@@ -558,7 +564,7 @@ Quest Update (2020-02-15)
   - `ja.json`
     - `thematics.magical`
   - `ko.json`
-    - `thematics.magical`  
+    - `thematics.magical`
 - New Quest: Chapter 20-2 Very Hard (Maho)
 
 ## [1.7.0] - 2020-01-16
@@ -631,7 +637,7 @@ Quest Update (2020-01-16)
   - Renamed "`Information/Data Credits`" to "`Other Informative Sites and Tools`"
     - These sites/tools are no longer used for updating `priconne-quest-helper`, but they're still useful resources
   - Added "`Special Thanks`" section
-    - Includes people who have helped with this project (resource providing or langauge translation) 
+    - Includes people who have helped with this project (resource providing or langauge translation)
 - Changed Main Page Title to include " | priconne-quest-helper" at the end
 
 ## [1.6.2] - 2020-01-02
@@ -662,7 +668,7 @@ Quest Update (2019-12-20)
 - New Character: Nozomi (Christmas)
 - New Character: Christina (Christmas)
 - New Quest: 19-3 Very Hard (Io)
-- New Title Background 
+- New Title Background
   - CHRISTMAS 2019 (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Christmas_2019.png>
 
 ## [1.5.3] - 2019-11-24
@@ -675,7 +681,7 @@ Quest Update (2019-12-20)
   - Inventory is saved to LocalStorage ; Won't be saved if LocalStorage is not supported
 ### Changed
 - Items you don't need in Recommended Quests are no longer grayscale ; Switched to low-opacity
- 
+
 ## [1.5.2] - 2019-11-19
 Styling Changes
 ### Added
@@ -735,7 +741,7 @@ Styling Changes
     - `/priconne-quest-helper/pages/statistics/`
 ### Fixed
 - You can no longer see bits of drop shadow from the item tables when running `Simple Mode`
-  
+
 
 ## [1.5.1] - 2019-11-17
 New Automatically Generated File Format
@@ -915,7 +921,7 @@ Quest Update (2019-10-16)
 ## [1.3.5] - 2019-09-16
 Quest Update (2019-09-16)
 ### Added
-- New Title Background Option: 
+- New Title Background Option:
   - NIGHTMARE (NEW DEFAULT) <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Nightmare.png>
 - New Equipment
 - Quest Chapter 27 Normal/Hard data
@@ -940,7 +946,7 @@ Save Data Purge #1: `389` / `502` Files Deleted
   - Any URL that is a month old (2,592,000,000 milliseconds) will be deleted
   - This is a manual process, so **URLs are not deleted immediately**
   - Any expired URL will return a `404` error if it is attempted to load
-  - The note that states that "any month+ old URL generated will be at risk of removal" has been restored to the export-data page 
+  - The note that states that "any month+ old URL generated will be at risk of removal" has been restored to the export-data page
 
 ## [1.3.2] - 2019-09-03
 ### Added
@@ -1027,7 +1033,7 @@ Equipment Cost Update
     - `25` -> `20` Required Pieces
   - `Gold` equipment:
     - `30` -> `25` OR `20` Required Pieces
-    - `20` -> `15` OR `10` Required Pieces 
+    - `20` -> `15` OR `10` Required Pieces
   - `Silver` equipment:
     - `5` -> `3` Required Pieces
 - If there are no items selected, using the `Clear Item Tables` button will no longer remove the initial page tips
@@ -1116,7 +1122,7 @@ Quest Update (2019-08-15)
       - `other_tab.changelog`
       - `toasts.project_completed`
 - Remove `viewport` meta tag on all pages to help with mobile users
-      
+
 ## [1.1.0] - 2019-08-10
 ### Added
 - New Feature: Project Completion
@@ -1601,7 +1607,7 @@ Initial private-release. Shared news of development in the Salivation/Re:Divine/
 - Equipment data for Silver rarity items
 ### Changed
 - Requested Items category now displays items via image rather than text
- 
+
 ## [0.0.1] - 2019-01-16
 Project repository created on GitHub
 ### Added
