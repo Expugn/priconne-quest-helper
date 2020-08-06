@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.3.3] - 2020-08-05
+### Added
+- New Quest: 23-1 VH (Ayane)
+
 ## [2.3.2] - 2020-07-30
 ### Added
 - New Characters

@@ -9653,6 +9653,36 @@
             15
         ]
     },
+    "23-1VH": {
+        "name": "マティルド岩峯・北部 23-1",
+        "item_1": {
+            "item_name": "Holy Light's Lily Plate Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Pride of the Roses Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Black Snake's Fiendish Flame Staff Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Cardinal Clarion Brooch Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Ayane Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Solar Sword Fragment",
+            "Princess' Dagger Fragment",
+            "Vermilion Plate Fragment",
+            "Mythril Plate Fragment",
+            "Elemental Heart Fragment"
+        ]
+    },
     "24-1": {
         "name": "レディウス群峰・西麓 24-1",
         "item_1": {
