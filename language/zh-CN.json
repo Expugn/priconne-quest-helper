@@ -29,6 +29,7 @@
       "silver_title": "银装",
       "gold_title": "金装",
       "purple_title": "紫装",
+      "red_title": "红装",
       "miscellaneous_title": "其他",
 
       "requested_items_title": "装备需求清单",
@@ -195,6 +196,7 @@
       "kuuka": "空花",
       "kyaru": "凯露",
       "kyouka": "镜华",
+      "labyrista": "ラビリスタ",
       "lou": "露",
       "luna": "露娜",
       "mahiru": "真阳",

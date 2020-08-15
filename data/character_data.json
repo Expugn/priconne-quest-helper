@@ -134,12 +134,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Pride of the Roses",
             "Heavenly Wing Wise Saint Hat",
             "Blue Night Nocturne Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Pride of the Roses",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "akino": {
@@ -277,12 +285,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "Overlord Thorn Armor",
             "Northern Heaven Supreme Flame Armor",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Overlord Thorn Armor",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "anna": {
@@ -420,12 +436,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "summer_anna": {
@@ -563,12 +587,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "anne": {
@@ -706,12 +738,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "aoi": {
@@ -849,12 +889,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Blue God Bow - Mercy Sapiros",
             "Heaven Penetrating Falcon's Bow",
             "White Haze Flower Dress",
             "Star Nuclear Bow - Erzvogen",
             "Jade Harp Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Blue God Bow - Mercy Sapiros",
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "transfer_student_aoi": {
@@ -992,12 +1040,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Blue God Bow - Mercy Sapiros",
             "Heaven Penetrating Falcon's Bow",
             "White Haze Flower Dress",
             "Star Nuclear Bow - Erzvogen",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Blue God Bow - Mercy Sapiros",
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "arisa": {
@@ -1135,12 +1191,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Blue God Bow - Mercy Sapiros",
             "Heaven Penetrating Falcon's Bow",
             "Holy Light's Lily Plate",
             "Star Nuclear Bow - Erzvogen",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Blue God Bow - Mercy Sapiros",
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "ayane": {
@@ -1278,12 +1342,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Brass Cleft Axe",
             "Red Bear Emperor's Claw Battle Axe",
             "Sacred Ring - Heavenly Lotus",
             "Eastern Heaven Green Wind Dress",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Brass Cleft Axe",
+            "",
+            "Sacred Ring - Heavenly Lotus",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "christmas_ayane": {
@@ -1421,12 +1493,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Brass Cleft Axe",
             "Saintly Deer Spear - Alma Benard",
             "White Haze Flower Dress",
             "Turquoise Noah",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crystallos Spike",
+            "",
+            "Red Bear Emperor's Claw Battle Axe",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "ayumi": {
@@ -1564,12 +1644,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Crystallos Spike",
             "Saintly Deer Spear - Alma Benard",
             "Sacred Ring - Heavenly Lotus",
             "Heavenly Wing Saint Shoes",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crystallos Spike",
+            "",
+            "Sacred Ring - Heavenly Lotus",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "wonder_ayumi": {
@@ -1707,12 +1795,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Crystallos Spike",
             "Saintly Deer Spear - Alma Benard",
             "Sacred Ring - Heavenly Lotus",
             "Heavenly Wing Saint Shoes",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crystallos Spike",
+            "",
+            "Sacred Ring - Heavenly Lotus",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "chieru": {
@@ -1850,12 +1946,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Opal Sparge Fist",
             "Heaven Traveling Hook - Sharp Bite",
             "White Haze Flower Dress",
             "Eastern Heaven Green Wind Dress",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Opal Sparge Fist",
+            "",
+            "White Haze Flower Dress",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "chika": {
@@ -1993,12 +2097,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Pride of the Roses",
             "Western Heaven Saintly Guide Robe",
             "Jade Harp Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Pride of the Roses",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "christmas_chika": {
@@ -2136,12 +2248,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Pride of the Roses",
             "Heavenly Wing Wise Saint Hat",
             "Jade Harp Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Pride of the Roses",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "chloe": {
@@ -2279,12 +2399,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Jade Wind Blade - Emerald Edge",
             "Dark Blade - Heavenly Raven's Guard",
             "Holy Light's Lily Plate",
             "Southern Heaven Blazing Blue Armor",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Jade Wind Blade - Emerald Edge",
+            "",
+            "Holy Light's Lily Plate",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "christina": {
@@ -2422,12 +2550,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "Holy Light's Lily Plate",
             "Star Nuclear Sword - Ertz Schneide",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "christmas_christina": {
@@ -2565,12 +2701,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "Holy Light's Lily Plate",
             "Star Nuclear Sword - Ertz Schneide",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "djeeta": {
@@ -2708,12 +2852,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "Holy Light's Lily Plate",
             "Star Nuclear Sword - Ertz Schneide",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "emilia": {
@@ -2851,12 +3003,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Western Heaven Saintly Guide Robe",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Scarlet Tulip Dress",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "eriko": {
@@ -2994,12 +3154,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Brass Cleft Axe",
             "Red Bear Emperor's Claw Battle Axe",
             "Holy Light's Lily Plate",
             "Turquoise Noah",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Brass Cleft Axe",
+            "",
+            "Red Bear Emperor's Claw Battle Axe",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "valentine_eriko": {
@@ -3137,12 +3305,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Brass Cleft Axe",
             "Red Bear Emperor's Claw Battle Axe",
             "Holy Light's Lily Plate",
             "Turquoise Noah",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Brass Cleft Axe",
+            "",
+            "Red Bear Emperor's Claw Battle Axe",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "grea": {
@@ -3280,12 +3456,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "hatsune": {
@@ -3423,12 +3607,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Western Heaven Saintly Guide Robe",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Scarlet Tulip Dress",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "summer_hatsune": {
@@ -3566,12 +3758,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Western Heaven Saintly Guide Robe",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Scarlet Tulip Dress",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "hiyori": {
@@ -3709,12 +3909,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Opal Sparge Fist",
             "Heaven Traveling Hook - Sharp Bite",
             "Holy Light's Lily Plate",
             "Southern Heaven Blazing Blue Armor",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Opal Sparge Fist",
+            "",
+            "Holy Light's Lily Plate",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "new_year_hiyori": {
@@ -3852,12 +4060,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Opal Sparge Fist",
             "Heaven Traveling Hook - Sharp Bite",
             "Holy Light's Lily Plate",
             "Star Nuclear Fist - Elzloa",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Opal Sparge Fist",
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "ilya": {
@@ -3995,12 +4211,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "christmas_ilya": {
@@ -4138,12 +4362,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "inori": {
@@ -4281,12 +4513,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Brass Cleft Axe",
             "Saintly Deer Spear - Alma Benard",
             "Sacred Ring - Heavenly Lotus",
             "Eastern Heaven Green Wind Dress",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crystallos Spike",
+            "",
+            "Sacred Ring - Heavenly Lotus",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "io": {
@@ -4424,12 +4664,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Heavenly Wing Wise Saint Hat",
             "Blue Night Nocturne Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Scarlet Tulip Dress",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "summer_io": {
@@ -4567,12 +4815,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Scarlet Tulip Dress",
             "Western Heaven Saintly Guide Robe",
             "Blue Night Nocturne Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Scarlet Tulip Dress",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "jun": {
@@ -4710,12 +4966,171 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "Overlord Thorn Armor",
             "Northern Heaven Supreme Flame Armor",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Overlord Thorn Armor",
+            "",
+            "Jade Harp Brooch"
+        ]
+    },
+    "summer_jun": {
+        "unit_id": 113601,
+        "name": "Jun",
+        "thematic": "Summer",
+        "name_jp": "ジュン",
+        "thematic_jp": "サマー",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Iron Blade",
+            "Tree Shield",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Blue Blood",
+            "Gear Blade",
+            "Clothes of Wisdom",
+            "Legion Helm",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Blue Blood",
+            "Blue Blood",
+            "Tower Shield",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Sparkling Sword",
+            "Gorgeous Armor",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Ryuumon Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Feather Blade",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Angel Blade",
+            "Invisible Dress",
+            "Scarlet Diamond",
+            "Lion King's Protective Charm",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Vermilion Plate",
+            "Feather Waltz",
+            "Bangle of Substitution",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Guardian Shield",
+            "Mythril Plate",
+            "Moon Bracelet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Dragonic Armor",
+            "Crusader Plate",
+            "Congregation Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Lightning Blade",
+            "Azure Armor",
+            "Scarlet Mail",
+            "Fairy King's Guardian Stone",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Dawn's Holy Sword",
+            "Infernal Greaves",
+            "Phantasm Mail",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Gold King's Armor",
+            "Nine Heavens' Armor",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "Konominato Sword - Aqua Ruler",
+            "Furious Wind Armor",
+            "Rage Queen Dress",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Sword - Ertz Schneide",
+            "Overlord Light Dragon Sword",
+            "Glowing Silver Mirror Shield",
+            "Senka Dance Armor",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Rabbit God's Great Sword",
+            "Star Nuclear Sword - Ertz Schneide",
+            "Heavenly Wing Saint Shoes",
+            "Glowing Silver Mirror Shield",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Shining Sword - Adamas",
+            "Rabbit God's Great Sword",
+            "Sacred Ring - Heavenly Lotus",
+            "Heavenly Wing Saint Shoes",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Sacred Ring - Heavenly Lotus",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "kaori": {
@@ -4853,12 +5268,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Opal Sparge Fist",
             "Heaven Traveling Hook - Sharp Bite",
             "Holy Light's Lily Plate",
             "Star Nuclear Fist - Elzloa",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Opal Sparge Fist",
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "summer_kaori": {
@@ -4996,12 +5419,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Opal Sparge Fist",
             "Heaven Traveling Hook - Sharp Bite",
             "White Haze Flower Dress",
             "Star Nuclear Fist - Elzloa",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Opal Sparge Fist",
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "kasumi": {
@@ -5139,12 +5570,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Pride of the Roses",
             "Heavenly Wing Wise Saint Hat",
             "Blue Night Nocturne Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Pride of the Roses",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "magical_kasumi": {
@@ -5282,12 +5721,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Pride of the Roses",
             "Heavenly Wing Wise Saint Hat",
             "Blue Night Nocturne Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Pride of the Roses",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "kaya": {
@@ -5425,12 +5872,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Opal Sparge Fist",
             "Heaven Traveling Hook - Sharp Bite",
             "Holy Light's Lily Plate",
             "Star Nuclear Fist - Elzloa",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Opal Sparge Fist",
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "kokkoro": {
@@ -5568,12 +6023,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Crystallos Spike",
             "Saintly Deer Spear - Alma Benard",
             "White Haze Flower Dress",
             "Heavenly Wing Saint Shoes",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crystallos Spike",
+            "",
+            "White Haze Flower Dress",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "new_year_kokkoro": {
@@ -5711,12 +6174,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Crystallos Spike",
             "Saintly Deer Spear - Alma Benard",
             "White Haze Flower Dress",
             "Eastern Heaven Green Wind Dress",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crystallos Spike",
+            "",
+            "White Haze Flower Dress",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "princess_kokkoro": {
@@ -5854,12 +6325,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Crystallos Spike",
             "Saintly Deer Spear - Alma Benard",
             "White Haze Flower Dress",
             "Star Nuclear Spear - Ertz Borg",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crystallos Spike",
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "summer_kokkoro": {
@@ -5997,12 +6476,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Crystallos Spike",
             "Saintly Deer Spear - Alma Benard",
             "White Haze Flower Dress",
             "Eastern Heaven Green Wind Dress",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crystallos Spike",
+            "",
+            "White Haze Flower Dress",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "kurumi": {
@@ -6140,12 +6627,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Brass Cleft Axe",
             "Red Bear Emperor's Claw Battle Axe",
             "Overlord Thorn Armor",
             "Northern Heaven Supreme Flame Armor",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Brass Cleft Axe",
+            "",
+            "Overlord Thorn Armor",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "christmas_kurumi": {
@@ -6283,12 +6778,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Crystallos Spike",
             "Saintly Deer Spear - Alma Benard",
             "Overlord Thorn Armor",
             "Northern Heaven Supreme Flame Armor",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crystallos Spike",
+            "",
+            "Overlord Thorn Armor",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "kuuka": {
@@ -6426,12 +6929,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Jade Wind Blade - Emerald Edge",
             "Dark Blade - Heavenly Raven's Guard",
             "Pride of the Roses",
             "Heavenly Wing Wise Saint Hat",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Jade Wind Blade - Emerald Edge",
+            "",
+            "Pride of the Roses",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "oedo_kuuka": {
@@ -6569,12 +7080,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Pride of the Roses",
             "Heavenly Wing Wise Saint Hat",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Pride of the Roses",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "kyaru": {
@@ -6712,12 +7231,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "new_year_kyaru": {
@@ -6855,12 +7382,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "summer_kyaru": {
@@ -6998,12 +7533,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "kyouka": {
@@ -7141,12 +7684,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "halloween_kyouka": {
@@ -7284,12 +7835,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Scarlet Tulip Dress",
             "Phoenix Staff - Rise Flare",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "lou": {
@@ -7427,12 +7986,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "luna": {
@@ -7570,12 +8137,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "mahiru": {
@@ -7713,12 +8288,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Crystallos Spike",
             "Red Bear Emperor's Claw Battle Axe",
             "Overlord Thorn Armor",
             "Northern Heaven Supreme Flame Armor",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Brass Cleft Axe",
+            "",
+            "Overlord Thorn Armor",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "ranger_mahiru": {
@@ -7856,12 +8439,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Crystallos Spike",
             "Saintly Deer Spear - Alma Benard",
             "Holy Light's Lily Plate",
             "Star Nuclear Spear - Ertz Borg",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crystallos Spike",
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "maho": {
@@ -7999,12 +8590,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Pride of the Roses",
             "Heavenly Wing Wise Saint Hat",
             "Jade Harp Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Pride of the Roses",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "summer_maho": {
@@ -8142,12 +8741,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "makoto": {
@@ -8285,12 +8892,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Crimson Jade Katana - Scarlet Moon",
             "Prosperous Carp God's Katana",
             "Holy Light's Lily Plate",
             "Branch Blade of Divine Descent",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crimson Jade Katana - Scarlet Moon",
+            "",
+            "Prosperous Carp God's Katana",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "summer_makoto": {
@@ -8428,12 +9043,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Crimson Jade Katana - Scarlet Moon",
             "Prosperous Carp God's Katana",
             "Holy Light's Lily Plate",
             "Branch Blade of Divine Descent",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crimson Jade Katana - Scarlet Moon",
+            "",
+            "Prosperous Carp God's Katana",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "matsuri": {
@@ -8571,12 +9194,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Jade Wind Blade - Emerald Edge",
             "Dark Blade - Heavenly Raven's Guard",
             "Sacred Ring - Heavenly Lotus",
             "Heavenly Wing Saint Shoes",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Jade Wind Blade - Emerald Edge",
+            "",
+            "Sacred Ring - Heavenly Lotus",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "mifuyu": {
@@ -8714,12 +9345,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Crystallos Spike",
             "Red Bear Emperor's Claw Battle Axe",
             "Overlord Thorn Armor",
             "Northern Heaven Supreme Flame Armor",
             "Jade Harp Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Brass Cleft Axe",
+            "",
+            "Overlord Thorn Armor",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "summer_mifuyu": {
@@ -8857,12 +9496,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Crystallos Spike",
             "Red Bear Emperor's Claw Battle Axe",
             "Holy Light's Lily Plate",
             "Star Nuclear Spear - Ertz Borg",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Brass Cleft Axe",
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "mimi": {
@@ -9000,12 +9647,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Red Bear Emperor's Claw Battle Axe",
             "Holy Light's Lily Plate",
             "Southern Heaven Blazing Blue Armor",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Brass Cleft Axe",
+            "",
+            "Holy Light's Lily Plate",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "halloween_mimi": {
@@ -9143,12 +9798,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Red Bear Emperor's Claw Battle Axe",
             "Holy Light's Lily Plate",
             "Eastern Heaven Green Wind Dress",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Brass Cleft Axe",
+            "",
+            "Holy Light's Lily Plate",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "deresute_mio": {
@@ -9286,12 +9949,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "misaki": {
@@ -9429,12 +10100,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "halloween_misaki": {
@@ -9572,12 +10251,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Pride of the Roses",
             "Heavenly Wing Wise Saint Hat",
             "Blue Night Nocturne Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Pride of the Roses",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "misato": {
@@ -9715,12 +10402,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Pride of the Roses",
             "Western Heaven Saintly Guide Robe",
             "Jade Harp Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Pride of the Roses",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "summer_misato": {
@@ -9858,12 +10553,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Pride of the Roses",
             "Western Heaven Saintly Guide Robe",
             "Jade Harp Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Pride of the Roses",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "misogi": {
@@ -10001,12 +10704,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Opal Sparge Fist",
             "Heaven Traveling Hook - Sharp Bite",
             "White Haze Flower Dress",
             "Eastern Heaven Green Wind Dress",
             "Cardinal Clarion Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Opal Sparge Fist",
+            "",
+            "White Haze Flower Dress",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "halloween_misogi": {
@@ -10144,12 +10855,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Opal Sparge Fist",
             "Heaven Traveling Hook - Sharp Bite",
             "White Haze Flower Dress",
             "Star Nuclear Fist - Elzloa",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Opal Sparge Fist",
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "mitsuki": {
@@ -10287,12 +11006,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "Sacred Ring - Heavenly Lotus",
             "Heavenly Wing Saint Shoes",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Sacred Ring - Heavenly Lotus",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "miyako": {
@@ -10430,12 +11157,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Crystallos Spike",
             "Saintly Deer Spear - Alma Benard",
             "White Haze Flower Dress",
             "Eastern Heaven Green Wind Dress",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crystallos Spike",
+            "",
+            "White Haze Flower Dress",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "halloween_miyako": {
@@ -10573,12 +11308,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Opal Sparge Fist",
             "Heaven Traveling Hook - Sharp Bite",
             "White Haze Flower Dress",
             "Southern Heaven Blazing Blue Armor",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Opal Sparge Fist",
+            "",
+            "White Haze Flower Dress",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "monika": {
@@ -10716,12 +11459,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Dark Blade - Heavenly Raven's Guard",
             "Sacred Ring - Heavenly Lotus",
             "Heavenly Wing Saint Shoes",
             "Cardinal Clarion Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Jade Wind Blade - Emerald Edge",
+            "",
+            "Sacred Ring - Heavenly Lotus",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "muimi": {
@@ -10859,12 +11610,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Jade Wind Blade - Emerald Edge",
             "Dark Blade - Heavenly Raven's Guard",
             "Holy Light's Lily Plate",
             "Star Nuclear Sword - Ertz Schneide",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Jade Wind Blade - Emerald Edge",
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "nanaka": {
@@ -11002,12 +11761,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Western Heaven Saintly Guide Robe",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Scarlet Tulip Dress",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "summer_nanaka": {
@@ -11145,12 +11912,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Scarlet Tulip Dress",
             "Phoenix Staff - Rise Flare",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "neneka": {
@@ -11288,12 +12063,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "ninon": {
@@ -11431,12 +12214,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Crimson Jade Katana - Scarlet Moon",
             "Prosperous Carp God's Katana",
             "Holy Light's Lily Plate",
             "Branch Blade of Divine Descent",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crimson Jade Katana - Scarlet Moon",
+            "",
+            "Prosperous Carp God's Katana",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "oedo_ninon": {
@@ -11574,12 +12365,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Jade Wind Blade - Emerald Edge",
             "Dark Blade - Heavenly Raven's Guard",
             "Holy Light's Lily Plate",
             "Gehenna Dragon",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Jade Wind Blade - Emerald Edge",
+            "",
+            "Dark Blade - Heavenly Raven's Guard",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "nozomi": {
@@ -11717,12 +12516,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "Sacred Ring - Heavenly Lotus",
             "Heavenly Wing Saint Shoes",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Sacred Ring - Heavenly Lotus",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "christmas_nozomi": {
@@ -11860,12 +12667,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "Sacred Ring - Heavenly Lotus",
             "Heavenly Wing Saint Shoes",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Sacred Ring - Heavenly Lotus",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "pecorine": {
@@ -12003,12 +12818,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "Overlord Thorn Armor",
             "Northern Heaven Supreme Flame Armor",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Overlord Thorn Armor",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "princess_pecorine": {
@@ -12146,12 +12969,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "Overlord Thorn Armor",
             "Northern Heaven Supreme Flame Armor",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Overlord Thorn Armor",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "summer_pecorine": {
@@ -12289,12 +13120,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "Holy Light's Lily Plate",
             "Star Nuclear Sword - Ertz Schneide",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "ram": {
@@ -12432,12 +13271,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Pride of the Roses",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "rei": {
@@ -12575,12 +13422,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "Holy Light's Lily Plate",
             "Southern Heaven Blazing Blue Armor",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Holy Light's Lily Plate",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "new_year_rei": {
@@ -12718,12 +13573,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "Sacred Ring - Heavenly Lotus",
             "Heavenly Wing Saint Shoes",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Sacred Ring - Heavenly Lotus",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "rem": {
@@ -12861,12 +13724,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Brass Cleft Axe",
             "Red Bear Emperor's Claw Battle Axe",
             "White Haze Flower Dress",
             "Turquoise Noah",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Brass Cleft Axe",
+            "",
+            "Red Bear Emperor's Claw Battle Axe",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "rima": {
@@ -13004,12 +13875,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Saintly Deer Spear - Alma Benard",
             "Overlord Thorn Armor",
             "Northern Heaven Supreme Flame Armor",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crystallos Spike",
+            "",
+            "Overlord Thorn Armor",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "rin": {
@@ -13147,12 +14026,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Crystallos Spike",
             "Saintly Deer Spear - Alma Benard",
             "Sacred Ring - Heavenly Lotus",
             "Heavenly Wing Saint Shoes",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crystallos Spike",
+            "",
+            "Sacred Ring - Heavenly Lotus",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "deresute_rin": {
@@ -13290,12 +14177,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Crimson Jade Katana - Scarlet Moon",
             "Prosperous Carp God's Katana",
             "Overlord Thorn Armor",
             "Northern Heaven Supreme Flame Armor",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crimson Jade Katana - Scarlet Moon",
+            "",
+            "Overlord Thorn Armor",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "ranger_rin": {
@@ -13433,12 +14328,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Crystallos Spike",
             "Saintly Deer Spear - Alma Benard",
             "Overlord Thorn Armor",
             "Star Nuclear Spear - Ertz Borg",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crystallos Spike",
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "rino": {
@@ -13576,12 +14479,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Blue God Bow - Mercy Sapiros",
             "Heaven Penetrating Falcon's Bow",
             "Holy Light's Lily Plate",
             "Star Nuclear Bow - Erzvogen",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Blue God Bow - Mercy Sapiros",
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "wonder_rino": {
@@ -13719,12 +14630,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Blue God Bow - Mercy Sapiros",
             "Heaven Penetrating Falcon's Bow",
             "White Haze Flower Dress",
             "Star Nuclear Bow - Erzvogen",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Blue God Bow - Mercy Sapiros",
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "ruka": {
@@ -13862,12 +14781,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Crimson Jade Katana - Scarlet Moon",
             "Prosperous Carp God's Katana",
             "Sacred Ring - Heavenly Lotus",
             "Heavenly Wing Saint Shoes",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crimson Jade Katana - Scarlet Moon",
+            "",
+            "Sacred Ring - Heavenly Lotus",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "summer_ruka": {
@@ -14005,12 +14932,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Crimson Jade Katana - Scarlet Moon",
             "Prosperous Carp God's Katana",
             "White Haze Flower Dress",
             "Branch Blade of Divine Descent",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crimson Jade Katana - Scarlet Moon",
+            "",
+            "Prosperous Carp God's Katana",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "saren": {
@@ -14148,12 +15083,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "Sacred Ring - Heavenly Lotus",
             "Heavenly Wing Saint Shoes",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Sacred Ring - Heavenly Lotus",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "summer_saren": {
@@ -14291,12 +15234,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "White Haze Flower Dress",
             "Eastern Heaven Green Wind Dress",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "White Haze Flower Dress",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "shinobu": {
@@ -14434,12 +15385,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Crimson Jade Katana - Scarlet Moon",
             "Prosperous Carp God's Katana",
             "Holy Light's Lily Plate",
             "Eastern Heaven Green Wind Dress",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crimson Jade Katana - Scarlet Moon",
+            "",
+            "Holy Light's Lily Plate",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "halloween_shinobu": {
@@ -14577,12 +15536,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Crimson Jade Katana - Scarlet Moon",
             "Prosperous Carp God's Katana",
             "Holy Light's Lily Plate",
             "Southern Heaven Blazing Blue Armor",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Crimson Jade Katana - Scarlet Moon",
+            "",
+            "Holy Light's Lily Plate",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "shiori": {
@@ -14720,12 +15687,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Blue God Bow - Mercy Sapiros",
             "Heaven Penetrating Falcon's Bow",
             "Holy Light's Lily Plate",
             "Star Nuclear Bow - Erzvogen",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Blue God Bow - Mercy Sapiros",
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "magical_shiori": {
@@ -14863,12 +15838,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Blue God Bow - Mercy Sapiros",
             "Heaven Penetrating Falcon's Bow",
             "Holy Light's Lily Plate",
             "Star Nuclear Bow - Erzvogen",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Blue God Bow - Mercy Sapiros",
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "shizuru": {
@@ -15006,12 +15989,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "Overlord Thorn Armor",
             "Northern Heaven Supreme Flame Armor",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Overlord Thorn Armor",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "valentine_shizuru": {
@@ -15149,12 +16140,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "Overlord Thorn Armor",
             "Northern Heaven Supreme Flame Armor",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Overlord Thorn Armor",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "suzume": {
@@ -15292,12 +16291,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Scarlet Tulip Dress",
             "Heavenly Wing Wise Saint Hat",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Scarlet Tulip Dress",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "new_year_suzume": {
@@ -15435,12 +16442,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Pride of the Roses",
             "Heavenly Wing Wise Saint Hat",
             "Jade Harp Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Pride of the Roses",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "summer_suzume": {
@@ -15578,12 +16593,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Pride of the Roses",
             "Heavenly Wing Wise Saint Hat",
             "Jade Harp Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Pride of the Roses",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "suzuna": {
@@ -15721,12 +16744,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Blue God Bow - Mercy Sapiros",
             "Heaven Penetrating Falcon's Bow",
             "Holy Light's Lily Plate",
             "Star Nuclear Bow - Erzvogen",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Blue God Bow - Mercy Sapiros",
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "summer_suzuna": {
@@ -15864,12 +16895,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Blue God Bow - Mercy Sapiros",
             "Heaven Penetrating Falcon's Bow",
             "White Haze Flower Dress",
             "Star Nuclear Bow - Erzvogen",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Blue God Bow - Mercy Sapiros",
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "tamaki": {
@@ -16007,12 +17046,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Jade Wind Blade - Emerald Edge",
             "Dark Blade - Heavenly Raven's Guard",
             "White Haze Flower Dress",
             "Eastern Heaven Green Wind Dress",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Jade Wind Blade - Emerald Edge",
+            "",
+            "White Haze Flower Dress",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "summer_tamaki": {
@@ -16150,12 +17197,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Jade Wind Blade - Emerald Edge",
             "Dark Blade - Heavenly Raven's Guard",
             "White Haze Flower Dress",
             "Southern Heaven Blazing Blue Armor",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Jade Wind Blade - Emerald Edge",
+            "",
+            "White Haze Flower Dress",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "tomo": {
@@ -16293,12 +17348,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Crimson Jade Katana - Scarlet Moon",
             "Dark Blade - Heavenly Raven's Guard",
             "Holy Light's Lily Plate",
             "Star Nuclear Sword - Ertz Schneide",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Jade Wind Blade - Emerald Edge",
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "tsumugi": {
@@ -16436,12 +17499,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Opal Sparge Fist",
             "Heaven Traveling Hook - Sharp Bite",
             "White Haze Flower Dress",
             "Eastern Heaven Green Wind Dress",
             "Jade Harp Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Opal Sparge Fist",
+            "",
+            "White Haze Flower Dress",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "deresute_uzuki": {
@@ -16579,12 +17650,20 @@
             "Scarlet Dragon's Claw Fire Ring"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "White Haze Flower Dress",
             "Star Nuclear Sword - Ertz Schneide",
             "Cardinal Clarion Brooch",
             "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Cardinal Clarion Brooch"
         ]
     },
     "yori": {
@@ -16722,12 +17801,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "yui": {
@@ -16865,12 +17952,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Pride of the Roses",
             "Heavenly Wing Wise Saint Hat",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Pride of the Roses",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "new_year_yui": {
@@ -17008,12 +18103,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Pride of the Roses",
             "Heavenly Wing Wise Saint Hat",
             "Jade Harp Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Pride of the Roses",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "princess_yui": {
@@ -17151,12 +18254,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Dark Prison Staff of the Black Pearl",
             "Black Snake's Fiendish Flame Staff",
             "Scarlet Tulip Dress",
             "Green Butterfly Wand",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Dark Prison Staff of the Black Pearl",
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "yukari": {
@@ -17294,12 +18405,20 @@
             "Shield God Ring - Wall Breath"
         ],
         "rank_17": [
-            "",
+            "Shining Sword - Adamas",
             "Rabbit God's Great Sword",
             "Sacred Ring - Heavenly Lotus",
             "Heavenly Wing Saint Shoes",
             "Jade Harp Brooch",
             "Elfin Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Sacred Ring - Heavenly Lotus",
+            "",
+            "Jade Harp Brooch"
         ]
     },
     "yuki": {
@@ -17437,12 +18556,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Pride of the Roses",
             "Heavenly Wing Wise Saint Hat",
             "Blue Night Nocturne Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Pride of the Roses",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     },
     "yuni": {
@@ -17580,12 +18707,20 @@
             "Deep Crystallized Xenocrystal"
         ],
         "rank_17": [
-            "",
+            "Heavenly Wand of the White Pearl",
             "White Snake's Holy Water Rod",
             "Pride of the Roses",
             "Heavenly Wing Wise Saint Hat",
             "Jade Harp Brooch",
             "Chaotic Choker"
+        ],
+        "rank_18": [
+            "",
+            "Heavenly Wand of the White Pearl",
+            "",
+            "Pride of the Roses",
+            "",
+            "Blue Night Nocturne Brooch"
         ]
     }
 }

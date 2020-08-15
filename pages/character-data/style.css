@@ -158,6 +158,10 @@ i.footer {
     background-color: rgba(231, 109, 255, 0.5);
 }
 
+.rank.rank-18 span {
+    background-color: rgba(247, 81, 90, 0.5);
+}
+
 #character-data .rank div {
     display: inline-block;
 }

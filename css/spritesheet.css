@@ -42,10 +42,16 @@
     background-position: -255px -5px;
 }
 
-.webpage-Placeholder_Silver {
+.webpage-Placeholder_Red {
     width: 48px;
     height: 48px;
     background-position: -313px -5px;
+}
+
+.webpage-Placeholder_Silver {
+    width: 48px;
+    height: 48px;
+    background-position: -371px -5px;
 }
 
 .webpage-changelog {
@@ -69,71 +75,65 @@
 .webpage-items {
     width: 150px;
     height: 50px;
-    background-position: -219px -128px;
-}
-
-.webpage-kofi {
-    width: 204px;
-    height: 54px;
-    background-position: -219px -187px;
+    background-position: -219px -127px;
 }
 
 .webpage-other {
     width: 150px;
     height: 50px;
-    background-position: -5px -252px;
+    background-position: -219px -187px;
 }
 
 .webpage-presets {
     width: 150px;
     height: 50px;
-    background-position: -165px -252px;
+    background-position: -5px -247px;
 }
 
 .webpage-priconne-shiritori_icon {
     width: 64px;
     height: 64px;
-    background-position: -325px -251px;
+    background-position: -165px -247px;
 }
 
 .webpage-projects {
     width: 150px;
     height: 50px;
-    background-position: -5px -312px;
+    background-position: -239px -247px;
 }
 
 .webpage-quest_data {
     width: 204px;
     height: 54px;
-    background-position: -165px -325px;
+    background-position: -5px -321px;
 }
 
 .webpage-recipe_data {
     width: 204px;
     height: 54px;
-    background-position: -433px -5px;
+    background-position: -219px -321px;
 }
 
 .webpage-settings {
     width: 150px;
     height: 50px;
-    background-position: -433px -70px;
+    background-position: -433px -5px;
 }
 
 .webpage-simple_mode {
     width: 204px;
     height: 54px;
-    background-position: -433px -129px;
+    background-position: -379px -127px;
 }
 
 .webpage-statistics {
     width: 204px;
     height: 54px;
-    background-position: -433px -193px;
+    background-position: -5px -385px;
 }
 
 .webpage-wiki {
     width: 204px;
     height: 54px;
-    background-position: -399px -257px;
+    background-position: -219px -385px;
 }

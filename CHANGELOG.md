@@ -3,6 +3,27 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.4.0] - 2020-08-15
+Quest Update (2020-08-15)
+### Added
+- New Equipment
+- Chapter 37 Quests
+- New Character: Jun (Summer)
+- Support for `Red` rarity equipment on all pages
+- ***REGARDING Cygames' IMPLEMENTATION OF IN-GAME QUEST HELPER ON JAPAN REGION***
+  - As of this update, Cygames released an easier way for players to find quests through an in game feature. Eventually,
+  this update will be on all versions of the game. ***If this feature proves to be useful enough so that `priconne-quest-helper` 
+  is no longer needed, then I will discontinue the `priconne-quest-helper` project***.
+  - If a reason to continue the `priconne-quest-helper` project exists, then I will continue updating it. However, as of right 
+  now it seems that every other piece of information provided (character data, recipe data, quest data, statistics(?)) can be found 
+  through other websites.
+  - It seems the quest helper feature does not include finding items in subdrops, which seems to be the only advantage 
+  I can think of to use `priconne-quest-helper` over the in-game quest helper. As long as they don't include any way to find specific items 
+  in a quest subdrop list, then I will probably continue to update `priconne-quest-helper`.
+### Changed
+- Updated `spritesheet.css` and `images/webpage/spritesheets/spritesheet.png` 
+- Updated language files
+
 ## [2.3.3] - 2020-08-05
 ### Added
 - New Quest: 23-1 VH (Ayane)

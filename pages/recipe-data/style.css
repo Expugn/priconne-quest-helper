@@ -256,6 +256,9 @@ span.rank-16,
 span.rank-17 {
     color: rgb(231, 109, 255)
 }
+span.rank-18 {
+    color: rgb(247, 81, 90)
+}
 
 @media (max-width: 600px) {
     .main_title,

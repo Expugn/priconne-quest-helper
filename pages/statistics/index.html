@@ -83,6 +83,7 @@
         <button id="ignore-button-silver" class="webpage webpage-Placeholder_Silver" title="Ignore Silver Items" onclick="toggle_rarity(this)"></button>
         <button id="ignore-button-gold" class="webpage webpage-Placeholder_Gold" title="Ignore Gold Items" onclick="toggle_rarity(this)"></button>
         <button id="ignore-button-purple" class="webpage webpage-Placeholder_Purple" title="Ignore Purple Items" onclick="toggle_rarity(this)"></button>
+        <button id="ignore-button-red" class="webpage webpage-Placeholder_Red" title="Ignore Red Items" onclick="toggle_rarity(this)"></button>
     </div>
     <div id="data-settings">
         <button id="version-history-button" onclick="toggle_version_history_display()" disabled>Version History</button>
@@ -212,7 +213,8 @@
         "copper": !$("#ignore-button-copper").hasClass("disabled"),
         "silver": !$("#ignore-button-silver").hasClass("disabled"),
         "gold": !$("#ignore-button-gold").hasClass("disabled"),
-        "purple": !$("#ignore-button-purple").hasClass("disabled")
+        "purple": !$("#ignore-button-purple").hasClass("disabled"),
+        "red": !$("#ignore-button-red").hasClass("disabled")
     };
     let equipment_sorted, ingredient_sorted, current_display = display.EQUIPMENT;
     window.onload = function () {
@@ -295,6 +297,34 @@
         let counter = 0;
 
         elem.innerHTML = "";
+
+        // RESET TOP 3
+        let current_display = document.getElementById(is_equipment_display ? "equipment-data" : "ingredient-data"),
+            first = current_display.querySelector("div.first-place"),
+            second = current_display.querySelector("div.second-place"),
+            third = current_display.querySelector("div.third-place"),
+            first_image = first.querySelector("div.item-sprite"),
+            second_image = second.querySelector("div.item-sprite"),
+            third_image = third.querySelector("div.item-sprite"),
+            first_amount = first.querySelector("div.top-three-item-text"),
+            second_amount = second.querySelector("div.top-three-item-text"),
+            third_amount = third.querySelector("div.top-three-item-text");
+        if (first_image.title !== "") {
+            first_image.classList.remove(get_item_sprite_class(first_image.title));
+            first_image.title = "";
+            first_amount.hidden = true;
+        }
+        if (second_image.title !== "") {
+            second_image.classList.remove(get_item_sprite_class(second_image.title));
+            second_image.title = "";
+            second_amount.hidden = true;
+        }
+        if (third_image.title !== "") {
+            third_image.classList.remove(get_item_sprite_class(third_image.title));
+            third_image.title = "";
+            third_amount.hidden = true;
+        }
+
         sorted_data.forEach(function (e) {
             const item_name = e[0], amount = e[1];
             if (ignored_rarities[equip_data[(is_equipment_display ? item_name : item_name.replace(" Fragment", ""))]["rarity"]]) {
@@ -350,7 +380,8 @@
             "copper": !$("#ignore-button-copper").hasClass("disabled"),
             "silver": !$("#ignore-button-silver").hasClass("disabled"),
             "gold": !$("#ignore-button-gold").hasClass("disabled"),
-            "purple": !$("#ignore-button-purple").hasClass("disabled")
+            "purple": !$("#ignore-button-purple").hasClass("disabled"),
+            "red": !$("#ignore-button-red").hasClass("disabled")
         };
 
         let counter = 0;

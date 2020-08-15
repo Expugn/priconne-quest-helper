@@ -266,6 +266,13 @@
             "zh-CN": "",
             "is_fragment": false
         },
+        "31117": {
+            "ja-JP": "イリヤ（クリスマス）のメモリーピース",
+            "en-US": "Christmas Ilya Memory Piece",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
         "32001": {
             "ja-JP": "ヒヨリのピュアメモリーピース",
             "en-US": "Hiyori Pure Memory Piece",
@@ -2456,6 +2463,69 @@
             "ko-KR": "",
             "zh-CN": "",
             "is_fragment": true
+        },
+        "106011": {
+            "ja-JP": "輝光剣アダマス",
+            "en-US": "Shining Sword - Adamas",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
+        "106041": {
+            "ja-JP": "紅玉刀スカーレットムーン",
+            "en-US": "Crimson Jade Katana - Scarlet Moon",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
+        "106071": {
+            "ja-JP": "翠風刃エメラルドエッジ",
+            "en-US": "Jade Wind Blade - Emerald Edge",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
+        "106101": {
+            "ja-JP": "オパルスパージフィスト",
+            "en-US": "Opal Sparge Fist",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
+        "106131": {
+            "ja-JP": "蒼神弓マーシーサピロス",
+            "en-US": "Blue God Bow - Mercy Sapiros",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
+        "106161": {
+            "ja-JP": "クリスタロススパイク",
+            "en-US": "Crystallos Spike",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
+        "106191": {
+            "ja-JP": "黄銅の裂戦斧",
+            "en-US": "Brass Cleft Axe",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
+        "106221": {
+            "ja-JP": "黒真珠の闇獄杖",
+            "en-US": "Dark Prison Staff of the Black Pearl",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
+        "106251": {
+            "ja-JP": "白真珠の光天杖",
+            "en-US": "Heavenly Wand of the White Pearl",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
         }
     }
 }
