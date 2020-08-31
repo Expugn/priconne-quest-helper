@@ -7851,6 +7851,157 @@
             "Blue Night Nocturne Brooch"
         ]
     },
+    "labyrista": {
+        "unit_id": 106801,
+        "name": "Labyrista",
+        "thematic": "",
+        "name_jp": "ラビリスタ",
+        "thematic_jp": "",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Leather Overalls",
+            "Tree Shield",
+            "Killer Pencil",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Aurora Sword",
+            "Gear Blade",
+            "Scale Mail",
+            "Legion Helm",
+            "Killer Pencil",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Aurora Sword",
+            "Light Plate",
+            "Tower Shield",
+            "Command Knife",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Sparkling Sword",
+            "Gorgeous Armor",
+            "Emerald Earrings",
+            "Victory Friendship Bracelet",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Ryuumon Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Platinum Knife",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Feather Blade",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Angel Blade",
+            "Angel Armor",
+            "Scarlet Diamond",
+            "Vampire Dagger",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Vermilion Plate",
+            "Empress Shield",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Guardian Shield",
+            "Angel Boots",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Scarlet Mail",
+            "Guardian Shield",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Lightning Blade",
+            "Phantasm Mail",
+            "Scarlet Mail",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Dawn's Holy Sword",
+            "Maiden Cloth",
+            "Phantasm Mail",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Rage Queen Dress",
+            "Nine Heavens' Armor",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "Konominato Sword - Aqua Ruler",
+            "Senka Dance Armor",
+            "Rage Queen Dress",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Sword - Ertz Schneide",
+            "Overlord Light Dragon Sword",
+            "Glowing Silver Mirror Armor",
+            "Senka Dance Armor",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Rabbit God's Great Sword",
+            "Star Nuclear Sword - Ertz Schneide",
+            "Northern Heaven Supreme Flame Armor",
+            "Glowing Silver Mirror Armor",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Shining Sword - Adamas",
+            "Rabbit God's Great Sword",
+            "Overlord Thorn Armor",
+            "Northern Heaven Supreme Flame Armor",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "",
+            "Shining Sword - Adamas",
+            "",
+            "Overlord Thorn Armor",
+            "",
+            "Cardinal Clarion Brooch"
+        ]
+    },
     "lou": {
         "unit_id": 109301,
         "name": "Lou",

@@ -196,7 +196,7 @@
       "kuuka": "空花",
       "kyaru": "凯露",
       "kyouka": "镜华",
-      "labyrista": "ラビリスタ",
+      "labyrista": "Labyrista",
       "lou": "露",
       "luna": "露娜",
       "mahiru": "真阳",
@@ -243,6 +243,7 @@
     },
 
     "thematics": {
+      "angel": "Angel",
       "christmas": "圣诞",
       "deresute": "偶像大师",
       "halloween": "万圣",

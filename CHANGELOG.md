@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.4.1] - 2020-08-31
+### Added
+- New Character: Labyrista
+- Updated language files
+  - Added `thematic.angel`
+  - Changed `character_names.labyrista` to use her English name on `ko-KR` and `zh-CN`
+
 ## [2.4.0] - 2020-08-15
 Quest Update (2020-08-15)
 ### Added

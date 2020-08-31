@@ -198,7 +198,7 @@
     "kuuka": "쿠우카",
     "kyaru": "캬루",
     "kyouka": "쿄우카",
-    "labyrista": "ラビリスタ",
+    "labyrista": "Labyrista",
     "lou": "루",
     "luna": "루나",
     "mahiru": "마히루",
@@ -245,6 +245,7 @@
   },
 
   "thematics": {
+    "angel": "Angel",
     "christmas": "크리스마스",
     "deresute": "데레스테",
     "halloween": "할로윈",
