@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.4.2] - 2020-09-03
+### Added
+- New Character: Akari (Angel)
+
 ## [2.4.1] - 2020-08-31
 ### Added
 - New Character: Labyrista
