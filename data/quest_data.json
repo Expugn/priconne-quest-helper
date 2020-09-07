@@ -9683,6 +9683,66 @@
             "Elemental Heart Fragment"
         ]
     },
+    "23-2VH": {
+        "name": "マティルド岩峯・北部 23-2",
+        "item_1": {
+            "item_name": "Heavenly Wand of the White Pearl Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Opal Sparge Fist Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Cardinal Clarion Brooch Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Pride of the Roses Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Saren Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Queen Bee Spear Fragment",
+            "Angel Bow Fragment",
+            "Hermit Clothes Fragment",
+            "Saint's Robe Fragment",
+            "Bangle of Substitution Fragment"
+        ]
+    },
+    "23-3VH": {
+        "name": "マティルド岩峯・北部 23-3",
+        "item_1": {
+            "item_name": "Dark Prison Staff of the Black Pearl Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Shining Sword - Adamas Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Blue Night Nocturne Brooch Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Sacred Ring - Heavenly Lotus Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Akino Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rod of Life Fragment",
+            "Rod of Sun Fragment",
+            "Angel Boots Fragment",
+            "Pope's Hood Fragment",
+            "Mourning Crescent Moon Fragment"
+        ]
+    },
     "24-1": {
         "name": "レディウス群峰・西麓 24-1",
         "item_1": {

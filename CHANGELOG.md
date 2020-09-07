@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.4.3] - 2020-09-06
+### Added
+- New Quests
+  - `23-2 VH` (Saren)
+  - `23-3 VH` (Akino)
+
 ## [2.4.2] - 2020-09-03
 ### Added
 - New Character: Akari (Angel)
