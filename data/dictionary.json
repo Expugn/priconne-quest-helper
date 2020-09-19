@@ -273,6 +273,13 @@
             "zh-CN": "",
             "is_fragment": false
         },
+        "31122": {
+            "ja-JP": "カスミ（マジカル）のメモリーピース",
+            "en-US": "Magical Kasumi Memory Piece",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
         "32001": {
             "ja-JP": "ヒヨリのピュアメモリーピース",
             "en-US": "Hiyori Pure Memory Piece",
@@ -2540,6 +2547,27 @@
             "ko-KR": "",
             "zh-CN": "",
             "is_fragment": false
+        },
+        "106551": {
+            "ja-JP": "神紅輪ルビーローズ",
+            "en-US": "Godly Red Ring - Ruby Rose",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
+        "106581": {
+            "ja-JP": "常盤の緑環",
+            "en-US": "Evergreen Green Ring",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
+        "106611": {
+            "ja-JP": "白聖石ダイヤモンドスター",
+            "en-US": "White Sacred Stone - Diamond Star",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
         }
     }
 }

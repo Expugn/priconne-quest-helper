@@ -16812,5 +16812,510 @@
             17,
             15
         ]
+    },
+    "38-1": {
+        "name": "ラトゥス断崖・南部 38-1",
+        "item_1": {
+            "item_name": "Blue God Bow - Mercy Sapiros Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pride of the Roses Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Overlord Thorn Armor Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Rose Choker Fragment",
+            "Star Nuclear Spear - Ertz Borg Fragment",
+            "Phoenix Staff - Rise Flare Fragment",
+            "Heavenly Wing Wise Saint Hat Fragment",
+            "Branch Blade of Divine Descent Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "38-2": {
+        "name": "ラトゥス断崖・南部 38-2",
+        "item_1": {
+            "item_name": "Opal Sparge Fist Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "White Haze Flower Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Scarlet Tulip Dress Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Elfin Choker Fragment",
+            "Eastern Heaven Green Wind Dress Fragment",
+            "Star Nuclear Sword - Ertz Schneide Fragment",
+            "Southern Heaven Blazing Blue Armor Fragment",
+            "Gehenna Dragon Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "38-3": {
+        "name": "ラトゥス断崖・南部 38-3",
+        "item_1": {
+            "item_name": "Crystallos Spike Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sacred Ring - Heavenly Lotus Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Holy Light's Lily Plate Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Chaotic Choker Fragment",
+            "Heavenly Wing Saint Shoes Fragment",
+            "Star Nuclear Fist - Elzloa Fragment",
+            "Western Heaven Saintly Guide Robe Fragment",
+            "Ruby Rose Choker Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "38-4": {
+        "name": "ラトゥス断崖・南部 38-4",
+        "item_1": {
+            "item_name": "White Sacred Stone - Diamond Star Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Crimson Jade Katana - Scarlet Moon Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Scarlet Tulip Dress Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Green Butterfly Wand Fragment",
+            "Star Nuclear Bow - Erzvogen Fragment",
+            "Northern Heaven Supreme Flame Armor Fragment",
+            "Turquoise Noah Fragment",
+            "Ruby Rose Choker Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "38-5": {
+        "name": "ラトゥス断崖・南部 38-5",
+        "item_1": {
+            "item_name": "Godly Red Ring - Ruby Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Jade Wind Blade - Emerald Edge Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Holy Light's Lily Plate Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Rose Choker Fragment",
+            "Star Nuclear Spear - Ertz Borg Fragment",
+            "Phoenix Staff - Rise Flare Fragment",
+            "Heavenly Wing Wise Saint Hat Fragment",
+            "Branch Blade of Divine Descent Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "38-6": {
+        "name": "ラトゥス断崖・南部 38-6",
+        "item_1": {
+            "item_name": "Evergreen Green Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Crystallos Spike Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Scarlet Tulip Dress Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Elfin Choker Fragment",
+            "Eastern Heaven Green Wind Dress Fragment",
+            "Star Nuclear Sword - Ertz Schneide Fragment",
+            "Southern Heaven Blazing Blue Armor Fragment",
+            "Gehenna Dragon Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "38-7": {
+        "name": "ラトゥス断崖・南部 38-7",
+        "item_1": {
+            "item_name": "Godly Red Ring - Ruby Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Brass Cleft Axe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pride of the Roses Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Chaotic Choker Fragment",
+            "Heavenly Wing Saint Shoes Fragment",
+            "Star Nuclear Fist - Elzloa Fragment",
+            "Western Heaven Saintly Guide Robe Fragment",
+            "Ruby Rose Choker Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "38-8": {
+        "name": "ラトゥス断崖・南部 38-8",
+        "item_1": {
+            "item_name": "White Sacred Stone - Diamond Star Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Dark Prison Staff of the Black Pearl Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Overlord Thorn Armor Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Green Butterfly Wand Fragment",
+            "Star Nuclear Bow - Erzvogen Fragment",
+            "Northern Heaven Supreme Flame Armor Fragment",
+            "Turquoise Noah Fragment",
+            "Ruby Rose Choker Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "38-9": {
+        "name": "ラトゥス断崖・南部 38-9",
+        "item_1": {
+            "item_name": "Godly Red Ring - Ruby Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Blue God Bow - Mercy Sapiros Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "White Haze Flower Dress Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Rose Choker Fragment",
+            "Star Nuclear Spear - Ertz Borg Fragment",
+            "Phoenix Staff - Rise Flare Fragment",
+            "Heavenly Wing Wise Saint Hat Fragment",
+            "Branch Blade of Divine Descent Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "38-10": {
+        "name": "ラトゥス断崖・南部 38-10",
+        "item_1": {
+            "item_name": "Evergreen Green Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Dark Prison Staff of the Black Pearl Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sacred Ring - Heavenly Lotus Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Elfin Choker Fragment",
+            "Eastern Heaven Green Wind Dress Fragment",
+            "Star Nuclear Sword - Ertz Schneide Fragment",
+            "Southern Heaven Blazing Blue Armor Fragment",
+            "Gehenna Dragon Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "38-11": {
+        "name": "ラトゥス断崖・南部 38-11",
+        "item_1": {
+            "item_name": "Godly Red Ring - Ruby Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Shining Sword - Adamas Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "White Haze Flower Dress Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Chaotic Choker Fragment",
+            "Heavenly Wing Saint Shoes Fragment",
+            "Star Nuclear Fist - Elzloa Fragment",
+            "Western Heaven Saintly Guide Robe Fragment",
+            "Ruby Rose Choker Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "38-12": {
+        "name": "ラトゥス断崖・南部 38-12",
+        "item_1": {
+            "item_name": "White Sacred Stone - Diamond Star Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Godly Red Ring - Ruby Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Heavenly Wand of the White Pearl Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Green Butterfly Wand Fragment",
+            "Star Nuclear Bow - Erzvogen Fragment",
+            "Northern Heaven Supreme Flame Armor Fragment",
+            "Turquoise Noah Fragment",
+            "Ruby Rose Choker Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "38-13": {
+        "name": "ラトゥス断崖・南部 38-13",
+        "item_1": {
+            "item_name": "Evergreen Green Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "White Sacred Stone - Diamond Star Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Dark Prison Staff of the Black Pearl Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Rose Choker Fragment",
+            "Star Nuclear Spear - Ertz Borg Fragment",
+            "Phoenix Staff - Rise Flare Fragment",
+            "Heavenly Wing Wise Saint Hat Fragment",
+            "Branch Blade of Divine Descent Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "38-14": {
+        "name": "ラトゥス断崖・南部 38-14",
+        "item_1": {
+            "item_name": "Godly Red Ring - Ruby Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Evergreen Green Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Dark Prison Staff of the Black Pearl Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Elfin Choker Fragment",
+            "Eastern Heaven Green Wind Dress Fragment",
+            "Star Nuclear Sword - Ertz Schneide Fragment",
+            "Southern Heaven Blazing Blue Armor Fragment",
+            "Gehenna Dragon Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "38-1H": {
+        "name": "ラトゥス断崖・南部 38-1",
+        "item_1": {
+            "item_name": "Evergreen Green Ring Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Heavenly Wand of the White Pearl Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Overlord Thorn Armor Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Kurumi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ruby Rose Choker Fragment",
+            "Star Nuclear Spear - Ertz Borg Fragment",
+            "Phoenix Staff - Rise Flare Fragment",
+            "Heavenly Wing Wise Saint Hat Fragment",
+            "Branch Blade of Divine Descent Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "38-2H": {
+        "name": "ラトゥス断崖・南部 38-2",
+        "item_1": {
+            "item_name": "White Sacred Stone - Diamond Star Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Dark Prison Staff of the Black Pearl Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Sacred Ring - Heavenly Lotus Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mahiru Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Elfin Choker Fragment",
+            "Eastern Heaven Green Wind Dress Fragment",
+            "Star Nuclear Sword - Ertz Schneide Fragment",
+            "Southern Heaven Blazing Blue Armor Fragment",
+            "Gehenna Dragon Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "38-3H": {
+        "name": "ラトゥス断崖・南部 38-3",
+        "item_1": {
+            "item_name": "Godly Red Ring - Ruby Rose Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Shining Sword - Adamas Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "White Haze Flower Dress Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Magical Kasumi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Chaotic Choker Fragment",
+            "Heavenly Wing Saint Shoes Fragment",
+            "Star Nuclear Fist - Elzloa Fragment",
+            "Western Heaven Saintly Guide Robe Fragment",
+            "Ruby Rose Choker Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }
