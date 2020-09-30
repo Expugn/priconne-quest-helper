@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.5.1] - 2020-09-30
+### Added
+- New Characters
+  - Tsumugi (Halloween)
+  - Matsuri (Halloween)
+
 ## [2.5.0] - 2020-09-19
 Quest Update (2020-09-19)
 ### Added
