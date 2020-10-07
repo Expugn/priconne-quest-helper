@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.5.2] - 2020-10-07
+### Notice
+- ***REGARDING THE CHINA SERVER'S NEW EXCLUSIVE CHARACTER: 环亲***
+  - The China server has announced a new character named Kanna (`环亲`).
+  - `priconne-quest-helper` uses the **Japan** version of the game's data, so **unless Kanna (`环亲`) is added to the Japan server's data as well, she will NOT be supported by `priconne-quest-helper`**.
+  - *This includes all other server exclusive characters that may be added in the future*. **Only characters that exist in the Japan version will be supported.**
+### Added
+- New Quest: `24-1 VH` (Ninon)
+
 ## [2.5.1] - 2020-09-30
 ### Added
 - New Characters
@@ -35,11 +44,7 @@ Quest Update (2020-09-19)
 
 ## [2.4.0] - 2020-08-15
 Quest Update (2020-08-15)
-### Added
-- New Equipment
-- Chapter 37 Quests
-- New Character: Jun (Summer)
-- Support for `Red` rarity equipment on all pages
+### Notice
 - ***REGARDING Cygames' IMPLEMENTATION OF IN-GAME QUEST HELPER ON JAPAN REGION***
   - As of this update, Cygames released an easier way for players to find quests through an in game feature. Eventually,
   this update will be on all versions of the game. ***If this feature proves to be useful enough so that `priconne-quest-helper` 
@@ -50,6 +55,12 @@ Quest Update (2020-08-15)
   - It seems the quest helper feature does not include finding items in subdrops, which seems to be the only advantage 
   I can think of to use `priconne-quest-helper` over the in-game quest helper. As long as they don't include any way to find specific items 
   in a quest subdrop list, then I will probably continue to update `priconne-quest-helper`.
+### Added
+- New Equipment
+- Chapter 37 Quests
+- New Character: Jun (Summer)
+- Support for `Red` rarity equipment on all pages
+
 ### Changed
 - Updated `spritesheet.css` and `images/webpage/spritesheets/spritesheet.png` 
 - Updated language files

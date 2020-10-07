@@ -10248,6 +10248,36 @@
             15
         ]
     },
+    "24-1VH": {
+        "name": "レディウス群峰・西麓 24-1",
+        "item_1": {
+            "item_name": "Godly Red Ring - Ruby Rose Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Evergreen Green Ring Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Holy Light's Lily Plate Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Crimson Jade Katana - Scarlet Moon Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Ninon Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rod of Life Fragment",
+            "Rod of Sun Fragment",
+            "Angel Boots Fragment",
+            "Pope's Hood Fragment",
+            "Mourning Crescent Moon Fragment"
+        ]
+    },
     "25-1": {
         "name": "レディウス群峰・東麓 25-1",
         "item_1": {
