@@ -252,6 +252,13 @@
             "zh-CN": "",
             "is_fragment": false
         },
+        "31110": {
+            "ja-JP": "ユニのメモリーピース",
+            "en-US": "Yuni Memory Piece",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
         "31113": {
             "ja-JP": "ミミ（ハロウィン）のメモリーピース",
             "en-US": "Halloween Mimi Memory Piece",
@@ -2554,6 +2561,48 @@
             "ko-KR": "",
             "zh-CN": "",
             "is_fragment": false
+        },
+        "106281": {
+            "ja-JP": "白金の煌鱗鎧",
+            "en-US": "Platinum Scale Armor",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
+        "106311": {
+            "ja-JP": "金無垢の聖彫重甲",
+            "en-US": "Holy Engraved Armor of Pure Gold",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
+        "106341": {
+            "ja-JP": "ピンクコーラルドレス",
+            "en-US": "Pink Coral Dress",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
+        "106371": {
+            "ja-JP": "黒瑪瑙の祈装衣",
+            "en-US": "Black Agate Prayer Dress",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
+        "106401": {
+            "ja-JP": "アイオライトシールド",
+            "en-US": "Iolite Shield",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
+        "106461": {
+            "ja-JP": "ムーンクリスタルヒール",
+            "en-US": "Moon Crystal Heels",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
         },
         "106551": {
             "ja-JP": "神紅輪ルビーローズ",

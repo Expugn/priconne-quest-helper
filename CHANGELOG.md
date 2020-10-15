@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.6.0] - 2020-10-15
+Quest Update (2020-10-15)
+### Added
+- New Character: Rei (Halloween)
+- New Equipment
+- Chapter 39 Quests
+
 ## [2.5.2] - 2020-10-07
 ### Notice
 - ***REGARDING THE CHINA SERVER'S NEW EXCLUSIVE CHARACTER: 环亲***
