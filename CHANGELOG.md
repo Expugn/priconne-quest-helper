@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.6.2] - 2020-11-05
+### Added
+- New Quest: `24-2 VH` (Mahiru)
+
 ## [2.6.1] - 2020-10-31
 ### Added
 - New Character: Monika (Magical)
