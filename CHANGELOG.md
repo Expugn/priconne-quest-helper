@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.7.0] - 2020-11-21
+Quest Update (2020-11-21)
+### Added
+- New Character: Tomo (Magical)
+- New Equipment
+- Chapter 40 Quests
+- Rank 19 Support
+
 ## [2.6.2] - 2020-11-05
 ### Added
 - New Quest: `24-2 VH` (Mahiru)

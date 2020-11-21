@@ -252,6 +252,13 @@
             "zh-CN": "",
             "is_fragment": false
         },
+        "31109": {
+            "ja-JP": "チエルのメモリーピース",
+            "en-US": "Chieru Memory Piece",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
         "31110": {
             "ja-JP": "ユニのメモリーピース",
             "en-US": "Yuni Memory Piece",
@@ -2513,9 +2520,23 @@
             "zh-CN": "",
             "is_fragment": false
         },
+        "106012": {
+            "ja-JP": "チョコスティックブレード",
+            "en-US": "Choco Stick Blade",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
         "106041": {
             "ja-JP": "紅玉刀スカーレットムーン",
             "en-US": "Crimson Jade Katana - Scarlet Moon",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
+        "106042": {
+            "ja-JP": "ソフタイスシュベールト",
+            "en-US": "Soft Ice Sherbet",
             "ko-KR": "",
             "zh-CN": "",
             "is_fragment": true
@@ -2527,9 +2548,23 @@
             "zh-CN": "",
             "is_fragment": true
         },
+        "106072": {
+            "ja-JP": "チョコバナナダガー",
+            "en-US": "Chocolate Banana Dagger",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
         "106101": {
             "ja-JP": "オパルスパージフィスト",
             "en-US": "Opal Sparge Fist",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
+        "106102": {
+            "ja-JP": "シューナックル",
+            "en-US": "Cream Puff Knuckle",
             "ko-KR": "",
             "zh-CN": "",
             "is_fragment": false
@@ -2541,9 +2576,23 @@
             "zh-CN": "",
             "is_fragment": true
         },
+        "106132": {
+            "ja-JP": "キャンディーシュガーボウ",
+            "en-US": "Candy Sugar Bow",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
         "106161": {
             "ja-JP": "クリスタロススパイク",
             "en-US": "Crystallos Spike",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
+        "106162": {
+            "ja-JP": "ショコラートランス",
+            "en-US": "Chocolate Lance",
             "ko-KR": "",
             "zh-CN": "",
             "is_fragment": false
@@ -2555,6 +2604,13 @@
             "zh-CN": "",
             "is_fragment": true
         },
+        "106192": {
+            "ja-JP": "クレープアックス",
+            "en-US": "Crepe Axe",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
         "106221": {
             "ja-JP": "黒真珠の闇獄杖",
             "en-US": "Dark Prison Staff of the Black Pearl",
@@ -2562,9 +2618,23 @@
             "zh-CN": "",
             "is_fragment": false
         },
+        "106222": {
+            "ja-JP": "ロリポップステッキ",
+            "en-US": "Lollipop Stick",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
         "106251": {
             "ja-JP": "白真珠の光天杖",
             "en-US": "Heavenly Wand of the White Pearl",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
+        "106252": {
+            "ja-JP": "トリプルアイスロッド",
+            "en-US": "Triple Ice Rod",
             "ko-KR": "",
             "zh-CN": "",
             "is_fragment": false
