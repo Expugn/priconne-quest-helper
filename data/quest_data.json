@@ -10308,6 +10308,36 @@
             "Mourning Crescent Moon Fragment"
         ]
     },
+    "24-3VH": {
+        "name": "レディウス群峰・西麓 24-3",
+        "item_1": {
+            "item_name": "Soft Ice Sherbet Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Chocolate Banana Dagger Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Godly Red Ring - Ruby Rose Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Iolite Shield Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Suzuna Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rod of Life Fragment",
+            "Rod of Sun Fragment",
+            "Angel Boots Fragment",
+            "Pope's Hood Fragment",
+            "Mourning Crescent Moon Fragment"
+        ]
+    },
     "25-1": {
         "name": "レディウス群峰・東麓 25-1",
         "item_1": {

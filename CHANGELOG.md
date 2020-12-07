@@ -3,6 +3,17 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.7.2] - 2020-12-07
+### Added
+- New Quest: `24-3 VH` (Suzuna)
+### Changed
+- Text Changes
+  - Removed references to regions in "Current Equipment Data" and "Legacy Equipment Data".
+    Reason is because with so many new regions for `Princess Connect Re:Dive!` coming out, it's difficult 
+    to track what type of data each region uses without playing the region myself.
+    - `Current Equipment Data (After 2019.08.31) (JP / TW)` -> `Current Equipment Data (After 2019.08.31)`
+    - `Legacy Equipment Data (Before 2019.08.31) (KR / CN)` -> `Legacy Equipment Data (Before 2019.08.31)`
+
 ## [2.7.1] - 2020-11-30
 ### Added
 - New Characters

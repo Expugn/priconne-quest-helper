@@ -112,8 +112,8 @@
     "display_saved_settings_button": "Read Saved Settings",
 
     "equipment_data_type_label": "Equipment Data Type:",
-    "equipment_data_current_select": "Current Equipment Data (After 2019.08.31) (JP / TW)",
-    "equipment_data_legacy_select": "Legacy Equipment Data (Before 2019.08.31) (KR / CN)"
+    "equipment_data_current_select": "Current Equipment Data (After 2019.08.31)",
+    "equipment_data_legacy_select": "Legacy Equipment Data (Before 2019.08.31)"
   },
 
   "other_tab": {

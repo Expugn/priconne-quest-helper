@@ -112,8 +112,8 @@
     "display_saved_settings_button": "저장된 설정 읽어오기",
 
     "equipment_data_type_label": "장비 데이터 종류 :",
-    "equipment_data_current_select": "현재 장비 데이터 (2019.08.31. 이후) (일본 / 대만)",
-    "equipment_data_legacy_select": "이전 장비 데이터 (2019.08.31. 이전) (한국 / 중국)"
+    "equipment_data_current_select": "현재 장비 데이터 (2019.08.31. 이후)",
+    "equipment_data_legacy_select": "이전 장비 데이터 (2019.08.31. 이전)"
   },
 
   "other_tab": {
