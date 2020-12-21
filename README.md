@@ -13,7 +13,7 @@ Character Data: <https://expugn.github.io/priconne-quest-helper/pages/character-
 Statistics: <https://expugn.github.io/priconne-quest-helper/pages/statistics/><br>
 Changelog: [/priconne-quest-helper/CHANGELOG.md](CHANGELOG.md)
 
-Last Quest Update: `November 21, 2020`
+Last Quest Update: `December 21, 2020`
 
 <br>
 
@@ -23,11 +23,20 @@ whatever assortment of items you need to rank up your characters.
 
 `priconne-quest-helper` is based off the data from the `Japan` version of `Princess Connect! Re:Dive`.
 
-## Equipment Data for Korean/China Servers
+## Regarding Current and Legacy Equipment Data
 As of `August 31, 2019`, the `Japan` servers for `Princess Connect! Re:Dive` have different costs for equipment.<br>
-The `Taiwan` server has been updated to use these different costs as well.
+***Some regions may not have updated to use these new costs.*** If your region still uses the old costs, use `Legacy Equipment Data` instead of `Current Equipment Data`
 
-If you play on the `Korean`/`China` server, you can continue to use the `Legacy Equipment Data` by:
+You can tell if your region uses `Legacy Equipment Data` by going to <https://expugn.github.io/priconne-quest-helper/pages/recipe-data/> and reviewing the recipes of some items.
+For example:
+- Justice God's Staff
+  - LEGACY: `30` Fragments Required
+  - CURRENT: `20` Fragments Required
+- Lion Eagle's Feather
+  - LEGACY: `5` Fragments Required
+  - CURRENT: `3` Fragments Required
+
+If your region's server uses `Legacy Equipment Data`, you can continue to use the `Legacy Equipment Data` by:
 1) Go to the `Settings` tab
 2) Change `Equipment Data Type` to `Legacy Equipment Data (Before 2019.08.31) (KR/CN)`
 3) Save Settings (Optional)

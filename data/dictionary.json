@@ -294,6 +294,13 @@
             "zh-CN": "",
             "is_fragment": false
         },
+        "31127": {
+            "ja-JP": "リン（レンジャー）のメモリーピース",
+            "en-US": "Ranger Rin Memory Piece",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
         "32001": {
             "ja-JP": "ヒヨリのピュアメモリーピース",
             "en-US": "Hiyori Pure Memory Piece",
@@ -2695,6 +2702,13 @@
             "zh-CN": "",
             "is_fragment": true
         },
+        "106552": {
+            "ja-JP": "ポップコーンネックレス",
+            "en-US": "Popcorn Necklace",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
         "106581": {
             "ja-JP": "常盤の緑環",
             "en-US": "Evergreen Green Ring",
@@ -2702,9 +2716,23 @@
             "zh-CN": "",
             "is_fragment": true
         },
+        "106582": {
+            "ja-JP": "マカロンペンダント",
+            "en-US": "Macaron Pendant",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
         "106611": {
             "ja-JP": "白聖石ダイヤモンドスター",
             "en-US": "White Sacred Stone - Diamond Star",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
+        "106612": {
+            "ja-JP": "ドーナツチョーカー",
+            "en-US": "Doughnut Choker",
             "ko-KR": "",
             "zh-CN": "",
             "is_fragment": true

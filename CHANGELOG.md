@@ -3,6 +3,17 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.8.0] - 2020-12-21
+Quest Update (2020-12-21)
+### Added
+- New Character: Saren (Christmas)
+- New Equipment
+- Chapter 41 Quests
+### Changed
+- Changed `README.md` to be more general about Current and Legacy Equipment data
+### Fixed
+- Incorrect color for `Rank 19` in Presets `Single Mode`
+
 ## [2.7.2] - 2020-12-07
 ### Added
 - New Quest: `24-3 VH` (Suzuna)
