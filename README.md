@@ -38,7 +38,7 @@ For example:
 
 If your region's server uses `Legacy Equipment Data`, you can continue to use the `Legacy Equipment Data` by:
 1) Go to the `Settings` tab
-2) Change `Equipment Data Type` to `Legacy Equipment Data (Before 2019.08.31) (KR/CN)`
+2) Change `Equipment Data Type` to `Legacy Equipment Data (Before 2019.08.31)`
 3) Save Settings (Optional)
 
 The `Recipe Data` and `Statistics` pages also have the ability to use the `Legacy Equipment Data` if desired.
