@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.8.3] - 2021-01-06
+### Added
+- New Quest: `25-1 VH` (Akari)
+
 ## [2.8.2] - 2021-01-03
 ### Added
 - New Character: Pecorine (New Year)
