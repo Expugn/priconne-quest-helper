@@ -4393,6 +4393,8 @@ const webpage = (function () {
                             quest_data.read_data(function (success) {
                                 if (success) {
                                     print("Quest data loaded!", "Webpage");
+                                    finalize_setup();
+                                    /*
                                     dictionary.read_data(function (success) {
                                         if (success) {
                                             print("Dictionary loaded!", "Webpage");
@@ -4402,6 +4404,7 @@ const webpage = (function () {
                                             setup_failed("Failed to load dictionary");
                                         }
                                     });
+                                    */
                                 }
                                 else {
                                     setup_failed("Failed to load quest data");

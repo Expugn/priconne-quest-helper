@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.8.4] - 2021-01-19
+### Added
+- Pre-connecting to Google Fonts now, so hopefully there won't be any more error messages sometimes
+### Changed
+- Selling out and adding back the ko-fi donation button, sorry I'm poor
+### Removed
+- Dictionary is no longer loaded since I don't think I'll bother with it
+  - Considering discontinuing updates for the file/removing it entirely
+
 ## [2.8.3] - 2021-01-06
 ### Added
 - New Quest: `25-1 VH` (Akari)
