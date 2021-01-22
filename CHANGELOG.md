@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.9.0] - 2021-01-22
+Quest Update (2021-01-22)
+### Notice
+- Next quest update, `data/dictionary.json` will not be updated and considered deprecated
+### Added
+- New Character: Neneka (New Year)
+- Chapter 42 Quests
+- New Equipment
+
 ## [2.8.4] - 2021-01-19
 ### Added
 - Pre-connecting to Google Fonts now, so hopefully there won't be any more error messages sometimes

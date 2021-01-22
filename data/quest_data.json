@@ -18952,5 +18952,510 @@
             17,
             15
         ]
+    },
+    "42-1": {
+        "name": "ペクトス氷峰・西壁 42-1",
+        "item_1": {
+            "item_name": "Popcorn Necklace Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Cream Puff Knuckle Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Candy Sugar Bow Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Cardinal Clarion Brooch Fragment",
+            "Black Snake's Fiendish Flame Staff Fragment",
+            "Heaven Penetrating Falcon's Bow Fragment",
+            "Prosperous Carp God's Katana Fragment",
+            "Heaven Traveling Hook - Sharp Bite Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "42-2": {
+        "name": "ペクトス氷峰・西壁 42-2",
+        "item_1": {
+            "item_name": "Doughnut Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Lollipop Stick Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Choco Stick Blade Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Jade Harp Brooch Fragment",
+            "Sacred Ring - Heavenly Lotus Fragment",
+            "Scarlet Tulip Dress Fragment",
+            "White Haze Flower Dress Fragment",
+            "Dark Blade - Heavenly Raven's Guard Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "42-3": {
+        "name": "ペクトス氷峰・西壁 42-3",
+        "item_1": {
+            "item_name": "Macaron Pendant Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Chocolate Banana Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Soft Ice Sherbet Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Blue Night Nocturne Brooch Fragment",
+            "White Snake's Holy Water Rod Fragment",
+            "Rabbit God's Great Sword Fragment",
+            "Saintly Deer Spear - Alma Benard Fragment",
+            "Cardinal Clarion Brooch Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "42-4": {
+        "name": "ペクトス氷峰・西壁 42-4",
+        "item_1": {
+            "item_name": "Magic Pancake Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Doughnut Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Lollipop Stick Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pride of the Roses Fragment",
+            "Overlord Thorn Armor Fragment",
+            "Red Bear Emperor's Claw Battle Axe Fragment",
+            "Holy Light's Lily Plate Fragment",
+            "Cardinal Clarion Brooch Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "42-5": {
+        "name": "ペクトス氷峰・西壁 42-5",
+        "item_1": {
+            "item_name": "Fancy Macaron Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Macaron Pendant Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Crepe Axe Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Cardinal Clarion Brooch Fragment",
+            "Black Snake's Fiendish Flame Staff Fragment",
+            "Heaven Penetrating Falcon's Bow Fragment",
+            "Prosperous Carp God's Katana Fragment",
+            "Heaven Traveling Hook - Sharp Bite Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "42-6": {
+        "name": "ペクトス氷峰・西壁 42-6",
+        "item_1": {
+            "item_name": "Chocolate Mint Ice Heels Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Popcorn Necklace Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Choco Stick Blade Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Jade Harp Brooch Fragment",
+            "Sacred Ring - Heavenly Lotus Fragment",
+            "Scarlet Tulip Dress Fragment",
+            "White Haze Flower Dress Fragment",
+            "Dark Blade - Heavenly Raven's Guard Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "42-7": {
+        "name": "ペクトス氷峰・西壁 42-7",
+        "item_1": {
+            "item_name": "Chocolate Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Macaron Pendant Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Candy Sugar Bow Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Blue Night Nocturne Brooch Fragment",
+            "White Snake's Holy Water Rod Fragment",
+            "Rabbit God's Great Sword Fragment",
+            "Saintly Deer Spear - Alma Benard Fragment",
+            "Cardinal Clarion Brooch Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "42-8": {
+        "name": "ペクトス氷峰・西壁 42-8",
+        "item_1": {
+            "item_name": "Sheet Tart Beret Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Doughnut Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Triple Ice Rod Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pride of the Roses Fragment",
+            "Overlord Thorn Armor Fragment",
+            "Red Bear Emperor's Claw Battle Axe Fragment",
+            "Holy Light's Lily Plate Fragment",
+            "Cardinal Clarion Brooch Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "42-9": {
+        "name": "ペクトス氷峰・西壁 42-9",
+        "item_1": {
+            "item_name": "Rose Strawberry Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Popcorn Necklace Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Chocolate Lance Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Cardinal Clarion Brooch Fragment",
+            "Black Snake's Fiendish Flame Staff Fragment",
+            "Heaven Penetrating Falcon's Bow Fragment",
+            "Prosperous Carp God's Katana Fragment",
+            "Heaven Traveling Hook - Sharp Bite Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "42-10": {
+        "name": "ペクトス氷峰・西壁 42-10",
+        "item_1": {
+            "item_name": "Magic Pancake Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Macaron Pendant Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Lollipop Stick Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Jade Harp Brooch Fragment",
+            "Sacred Ring - Heavenly Lotus Fragment",
+            "Scarlet Tulip Dress Fragment",
+            "White Haze Flower Dress Fragment",
+            "Dark Blade - Heavenly Raven's Guard Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "42-11": {
+        "name": "ペクトス氷峰・西壁 42-11",
+        "item_1": {
+            "item_name": "Fancy Macaron Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Popcorn Necklace Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Chocolate Banana Dagger Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Blue Night Nocturne Brooch Fragment",
+            "White Snake's Holy Water Rod Fragment",
+            "Rabbit God's Great Sword Fragment",
+            "Saintly Deer Spear - Alma Benard Fragment",
+            "Cardinal Clarion Brooch Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "42-12": {
+        "name": "ペクトス氷峰・西壁 42-12",
+        "item_1": {
+            "item_name": "Chocolate Mint Ice Heels Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Chocolate Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Macaron Pendant Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pride of the Roses Fragment",
+            "Overlord Thorn Armor Fragment",
+            "Red Bear Emperor's Claw Battle Axe Fragment",
+            "Holy Light's Lily Plate Fragment",
+            "Cardinal Clarion Brooch Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "42-13": {
+        "name": "ペクトス氷峰・西壁 42-13",
+        "item_1": {
+            "item_name": "Sheet Tart Beret Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Magic Pancake Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Doughnut Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Cardinal Clarion Brooch Fragment",
+            "Black Snake's Fiendish Flame Staff Fragment",
+            "Heaven Penetrating Falcon's Bow Fragment",
+            "Prosperous Carp God's Katana Fragment",
+            "Heaven Traveling Hook - Sharp Bite Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "42-14": {
+        "name": "ペクトス氷峰・西壁 42-14",
+        "item_1": {
+            "item_name": "Rose Strawberry Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Fancy Macaron Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Popcorn Necklace Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Jade Harp Brooch Fragment",
+            "Sacred Ring - Heavenly Lotus Fragment",
+            "Scarlet Tulip Dress Fragment",
+            "White Haze Flower Dress Fragment",
+            "Dark Blade - Heavenly Raven's Guard Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "42-1H": {
+        "name": "ペクトス氷峰・西壁 42-1",
+        "item_1": {
+            "item_name": "Chocolate Mint Ice Heels Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Macaron Pendant Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Soft Ice Sherbet Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Rima Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Cardinal Clarion Brooch Fragment",
+            "Black Snake's Fiendish Flame Staff Fragment",
+            "Heaven Penetrating Falcon's Bow Fragment",
+            "Prosperous Carp God's Katana Fragment",
+            "Heaven Traveling Hook - Sharp Bite Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "42-2H": {
+        "name": "ペクトス氷峰・西壁 42-2",
+        "item_1": {
+            "item_name": "Chocolate Mail Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Popcorn Necklace Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Choco Stick Blade Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Shiori Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Jade Harp Brooch Fragment",
+            "Sacred Ring - Heavenly Lotus Fragment",
+            "Scarlet Tulip Dress Fragment",
+            "White Haze Flower Dress Fragment",
+            "Dark Blade - Heavenly Raven's Guard Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "42-3H": {
+        "name": "ペクトス氷峰・西壁 42-3",
+        "item_1": {
+            "item_name": "Sheet Tart Beret Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Doughnut Choker Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Triple Ice Rod Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Ranger Mahiru Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Blue Night Nocturne Brooch Fragment",
+            "White Snake's Holy Water Rod Fragment",
+            "Rabbit God's Great Sword Fragment",
+            "Saintly Deer Spear - Alma Benard Fragment",
+            "Cardinal Clarion Brooch Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }

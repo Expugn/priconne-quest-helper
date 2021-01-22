@@ -301,6 +301,13 @@
             "zh-CN": "",
             "is_fragment": false
         },
+        "31128": {
+            "ja-JP": "マヒル（レンジャー）のメモリーピース",
+            "en-US": "Ranger Mahiru Memory Piece",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
         "32001": {
             "ja-JP": "ヒヨリのピュアメモリーピース",
             "en-US": "Hiyori Pure Memory Piece",
@@ -2667,9 +2674,23 @@
             "zh-CN": "",
             "is_fragment": false
         },
+        "106282": {
+            "ja-JP": "チョコレートメイル",
+            "en-US": "Chocolate Mail",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
         "106311": {
             "ja-JP": "金無垢の聖彫重甲",
             "en-US": "Holy Engraved Armor of Pure Gold",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
+        "106312": {
+            "ja-JP": "ロゼストロベリーアーマー",
+            "en-US": "Rose Strawberry Armor",
             "ko-KR": "",
             "zh-CN": "",
             "is_fragment": true
@@ -2681,6 +2702,13 @@
             "zh-CN": "",
             "is_fragment": false
         },
+        "106342": {
+            "ja-JP": "ファンシーマカロンドレス",
+            "en-US": "Fancy Macaron Dress",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
+        },
         "106371": {
             "ja-JP": "黒瑪瑙の祈装衣",
             "en-US": "Black Agate Prayer Dress",
@@ -2688,9 +2716,23 @@
             "zh-CN": "",
             "is_fragment": false
         },
+        "106372": {
+            "ja-JP": "マジックパンケーキローブ",
+            "en-US": "Magic Pancake Robe",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
         "106401": {
             "ja-JP": "アイオライトシールド",
             "en-US": "Iolite Shield",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": true
+        },
+        "106431": {
+            "ja-JP": "チョコミントアイスヒール",
+            "en-US": "Chocolate Mint Ice Heels",
             "ko-KR": "",
             "zh-CN": "",
             "is_fragment": true
@@ -2701,6 +2743,13 @@
             "ko-KR": "",
             "zh-CN": "",
             "is_fragment": true
+        },
+        "106521": {
+            "ja-JP": "シーツタルトベレー",
+            "en-US": "Sheet Tart Beret",
+            "ko-KR": "",
+            "zh-CN": "",
+            "is_fragment": false
         },
         "106551": {
             "ja-JP": "神紅輪ルビーローズ",
