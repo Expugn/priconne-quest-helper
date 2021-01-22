@@ -11,6 +11,8 @@ Quest Update (2021-01-22)
 - New Character: Neneka (New Year)
 - Chapter 42 Quests
 - New Equipment
+### Changed
+- Simple Mode now removes the text shadow from "Min Rank", "to", and "Max Rank" in the Presets tab
 
 ## [2.8.4] - 2021-01-19
 ### Added

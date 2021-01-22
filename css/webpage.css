@@ -401,6 +401,10 @@ i.footer {
     transition: none !important;
 }
 
+.no-text-shadow {
+    text-shadow: none !important;
+}
+
 /* NAVIGATION BAR =================================================================================================== */
 #navigation-bar {
     overflow: hidden;

@@ -4514,6 +4514,7 @@ const webpage = (function () {
                     NO_BACKGROUND: "no-background",
                     NO_TRANSITION: "no-transition",
                     NO_HOVER: "no-hover",
+                    NO_TEXT_SHADOW: "no-text-shadow",
                     /**
                      * JOINS TWO OR MORE STRINGS TOGETHER BY SPACES.
                      * @param {...string}    s    TWO OR MORE STRINGS TO BE MERGED BY SPACES.
@@ -4545,6 +4546,9 @@ const webpage = (function () {
                 $("#recommended-div").toggleClass(classes.NO_BACKGROUND);
                 $("#recommended-quest-div").toggleClass(classes.NO_TRANSITION);
                 $("#character-preset-div").toggleClass(classes.NO_BACKGROUND);
+                $("#presets-min-rank-text").toggleClass(classes.NO_TEXT_SHADOW);
+                $("#presets-to-text").toggleClass(classes.NO_TEXT_SHADOW);
+                $("#presets-max-rank-text").toggleClass(classes.NO_TEXT_SHADOW);
                 $("#title-background-div").hide();
                 document.getElementById("sub-title").innerHTML = "Quest Helper<br><br><span style='font-weight: bold; letter-spacing: 1px !important; color: aliceblue; text-shadow: 1px 1px 1px #000000 !important;'>Simple Mode</span>";
 
