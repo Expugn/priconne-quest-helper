@@ -1,6 +1,7 @@
 {
     "1-1": {
         "name": "ジュノー平野 1-1",
+        "stamina": 6,
         "item_1": {
             "item_name": "Iron Blade",
             "drop_percent": 54
@@ -23,6 +24,7 @@
     },
     "1-2": {
         "name": "ジュノー平野 1-2",
+        "stamina": 8,
         "item_1": {
             "item_name": "Fragrant Wood Wand",
             "drop_percent": 54
@@ -45,6 +47,7 @@
     },
     "1-3": {
         "name": "ジュノー平野 1-3",
+        "stamina": 8,
         "item_1": {
             "item_name": "Steel Spear",
             "drop_percent": 54
@@ -67,6 +70,7 @@
     },
     "1-4": {
         "name": "ジュノー平野 1-4",
+        "stamina": 8,
         "item_1": {
             "item_name": "Wood Grip",
             "drop_percent": 54
@@ -89,6 +93,7 @@
     },
     "1-5": {
         "name": "ジュノー平野 1-5",
+        "stamina": 8,
         "item_1": {
             "item_name": "Steel Spear",
             "drop_percent": 54
@@ -111,6 +116,7 @@
     },
     "1-6": {
         "name": "ジュノー平野 1-6",
+        "stamina": 8,
         "item_1": {
             "item_name": "Killer Pencil",
             "drop_percent": 54
@@ -133,6 +139,7 @@
     },
     "1-7": {
         "name": "ジュノー平野 1-7",
+        "stamina": 8,
         "item_1": {
             "item_name": "One Handed Axe",
             "drop_percent": 54
@@ -155,6 +162,7 @@
     },
     "1-8": {
         "name": "ジュノー平野 1-8",
+        "stamina": 8,
         "item_1": {
             "item_name": "Wood Grip",
             "drop_percent": 54
@@ -177,6 +185,7 @@
     },
     "1-9": {
         "name": "ジュノー平野 1-9",
+        "stamina": 8,
         "item_1": {
             "item_name": "Hunter's Bow",
             "drop_percent": 54
@@ -199,6 +208,7 @@
     },
     "1-10": {
         "name": "ジュノー平野 1-10",
+        "stamina": 8,
         "item_1": {
             "item_name": "Iron Blade",
             "drop_percent": 54
@@ -221,6 +231,7 @@
     },
     "1-1H": {
         "name": "ジュノー平野 1-1",
+        "stamina": 16,
         "item_1": {
             "item_name": "Steel Spear",
             "drop_percent": 72
@@ -247,6 +258,7 @@
     },
     "1-2H": {
         "name": "ジュノー平野 1-2",
+        "stamina": 16,
         "item_1": {
             "item_name": "Leather Overalls",
             "drop_percent": 72
@@ -273,6 +285,7 @@
     },
     "1-3H": {
         "name": "ジュノー平野 1-3",
+        "stamina": 16,
         "item_1": {
             "item_name": "Crystal Bow",
             "drop_percent": 72
@@ -299,6 +312,7 @@
     },
     "2-1": {
         "name": "パラス高原 2-1",
+        "stamina": 8,
         "item_1": {
             "item_name": "Gear Blade",
             "drop_percent": 36
@@ -321,6 +335,7 @@
     },
     "2-2": {
         "name": "パラス高原 2-2",
+        "stamina": 8,
         "item_1": {
             "item_name": "Doctorless Staff",
             "drop_percent": 36
@@ -343,6 +358,7 @@
     },
     "2-3": {
         "name": "パラス高原 2-3",
+        "stamina": 8,
         "item_1": {
             "item_name": "Trident",
             "drop_percent": 36
@@ -365,6 +381,7 @@
     },
     "2-4": {
         "name": "パラス高原 2-4",
+        "stamina": 8,
         "item_1": {
             "item_name": "Green Rod",
             "drop_percent": 36
@@ -387,6 +404,7 @@
     },
     "2-5": {
         "name": "パラス高原 2-5",
+        "stamina": 8,
         "item_1": {
             "item_name": "Metal Axe",
             "drop_percent": 36
@@ -409,6 +427,7 @@
     },
     "2-6": {
         "name": "パラス高原 2-6",
+        "stamina": 8,
         "item_1": {
             "item_name": "Command Knife",
             "drop_percent": 36
@@ -431,6 +450,7 @@
     },
     "2-7": {
         "name": "パラス高原 2-7",
+        "stamina": 8,
         "item_1": {
             "item_name": "Scale Mail Fragment",
             "drop_percent": 36
@@ -453,6 +473,7 @@
     },
     "2-8": {
         "name": "パラス高原 2-8",
+        "stamina": 8,
         "item_1": {
             "item_name": "Clothes of Wisdom",
             "drop_percent": 36
@@ -475,6 +496,7 @@
     },
     "2-9": {
         "name": "パラス高原 2-9",
+        "stamina": 8,
         "item_1": {
             "item_name": "Crown Boots Fragment",
             "drop_percent": 36
@@ -497,6 +519,7 @@
     },
     "2-10": {
         "name": "パラス高原 2-10",
+        "stamina": 8,
         "item_1": {
             "item_name": "Folklore Clothes Fragment",
             "drop_percent": 36
@@ -519,6 +542,7 @@
     },
     "2-11": {
         "name": "パラス高原 2-11",
+        "stamina": 8,
         "item_1": {
             "item_name": "Legion Helm Fragment",
             "drop_percent": 36
@@ -541,6 +565,7 @@
     },
     "2-12": {
         "name": "パラス高原 2-12",
+        "stamina": 8,
         "item_1": {
             "item_name": "Cute Caskets Fragment",
             "drop_percent": 36
@@ -563,6 +588,7 @@
     },
     "2-1H": {
         "name": "パラス高原 2-1",
+        "stamina": 16,
         "item_1": {
             "item_name": "Gear Blade",
             "drop_percent": 72
@@ -589,6 +615,7 @@
     },
     "2-2H": {
         "name": "パラス高原 2-2",
+        "stamina": 16,
         "item_1": {
             "item_name": "Doctorless Staff",
             "drop_percent": 72
@@ -615,6 +642,7 @@
     },
     "2-3H": {
         "name": "パラス高原 2-3",
+        "stamina": 16,
         "item_1": {
             "item_name": "Legion Helm Fragment",
             "drop_percent": 72
@@ -641,6 +669,7 @@
     },
     "3-1": {
         "name": "ヘーベ丘陵 3-1",
+        "stamina": 8,
         "item_1": {
             "item_name": "Legion Helm Fragment",
             "drop_percent": 36
@@ -663,6 +692,7 @@
     },
     "3-2": {
         "name": "ヘーベ丘陵 3-2",
+        "stamina": 8,
         "item_1": {
             "item_name": "Cute Caskets Fragment",
             "drop_percent": 36
@@ -685,6 +715,7 @@
     },
     "3-3": {
         "name": "ヘーベ丘陵 3-3",
+        "stamina": 8,
         "item_1": {
             "item_name": "Flame Spear",
             "drop_percent": 36
@@ -707,6 +738,7 @@
     },
     "3-4": {
         "name": "ヘーベ丘陵 3-4",
+        "stamina": 8,
         "item_1": {
             "item_name": "Little Dragon Rod",
             "drop_percent": 36
@@ -729,6 +761,7 @@
     },
     "3-5": {
         "name": "ヘーベ丘陵 3-5",
+        "stamina": 8,
         "item_1": {
             "item_name": "Blue Blood",
             "drop_percent": 36
@@ -751,6 +784,7 @@
     },
     "3-6": {
         "name": "ヘーベ丘陵 3-6",
+        "stamina": 8,
         "item_1": {
             "item_name": "Aurora Sword",
             "drop_percent": 36
@@ -773,6 +807,7 @@
     },
     "3-7": {
         "name": "ヘーベ丘陵 3-7",
+        "stamina": 8,
         "item_1": {
             "item_name": "Crescent Sword",
             "drop_percent": 36
@@ -795,6 +830,7 @@
     },
     "3-8": {
         "name": "ヘーベ丘陵 3-8",
+        "stamina": 8,
         "item_1": {
             "item_name": "High Metal Plate Fragment",
             "drop_percent": 36
@@ -817,6 +853,7 @@
     },
     "3-9": {
         "name": "ヘーベ丘陵 3-9",
+        "stamina": 8,
         "item_1": {
             "item_name": "Nordic Robe Fragment",
             "drop_percent": 36
@@ -839,6 +876,7 @@
     },
     "3-10": {
         "name": "ヘーベ丘陵 3-10",
+        "stamina": 8,
         "item_1": {
             "item_name": "Hunting Boots Fragment",
             "drop_percent": 36
@@ -861,6 +899,7 @@
     },
     "3-11": {
         "name": "ヘーベ丘陵 3-11",
+        "stamina": 8,
         "item_1": {
             "item_name": "Spike Bangle",
             "drop_percent": 36
@@ -883,6 +922,7 @@
     },
     "3-12": {
         "name": "ヘーベ丘陵 3-12",
+        "stamina": 8,
         "item_1": {
             "item_name": "Pattern Bracelet Fragment",
             "drop_percent": 36
@@ -905,6 +945,7 @@
     },
     "3-1H": {
         "name": "ヘーベ丘陵 3-1",
+        "stamina": 16,
         "item_1": {
             "item_name": "Blue Blood",
             "drop_percent": 72
@@ -931,6 +972,7 @@
     },
     "3-2H": {
         "name": "ヘーベ丘陵 3-2",
+        "stamina": 16,
         "item_1": {
             "item_name": "Flame Spear",
             "drop_percent": 72
@@ -957,6 +999,7 @@
     },
     "3-3H": {
         "name": "ヘーベ丘陵 3-3",
+        "stamina": 16,
         "item_1": {
             "item_name": "Blue Sphere Axe Fragment",
             "drop_percent": 72
@@ -983,6 +1026,7 @@
     },
     "4-1": {
         "name": "ベスタ渓谷 4-1",
+        "stamina": 9,
         "item_1": {
             "item_name": "Leather Knuckle",
             "drop_percent": 36
@@ -1005,6 +1049,7 @@
     },
     "4-2": {
         "name": "ベスタ渓谷 4-2",
+        "stamina": 9,
         "item_1": {
             "item_name": "Aurora Sword",
             "drop_percent": 36
@@ -1027,6 +1072,7 @@
     },
     "4-3": {
         "name": "ベスタ渓谷 4-3",
+        "stamina": 9,
         "item_1": {
             "item_name": "Platinum Knife Fragment",
             "drop_percent": 36
@@ -1049,6 +1095,7 @@
     },
     "4-4": {
         "name": "ベスタ渓谷 4-4",
+        "stamina": 9,
         "item_1": {
             "item_name": "Sparkling Sword Fragment",
             "drop_percent": 36
@@ -1071,6 +1118,7 @@
     },
     "4-5": {
         "name": "ベスタ渓谷 4-5",
+        "stamina": 9,
         "item_1": {
             "item_name": "Knight's Pride Fragment",
             "drop_percent": 36
@@ -1093,6 +1141,7 @@
     },
     "4-6": {
         "name": "ベスタ渓谷 4-6",
+        "stamina": 9,
         "item_1": {
             "item_name": "Thorn Blood Rod Fragment",
             "drop_percent": 36
@@ -1115,6 +1164,7 @@
     },
     "4-7": {
         "name": "ベスタ渓谷 4-7",
+        "stamina": 9,
         "item_1": {
             "item_name": "Fashion Armor Fragment",
             "drop_percent": 36
@@ -1137,6 +1187,7 @@
     },
     "4-8": {
         "name": "ベスタ渓谷 4-8",
+        "stamina": 9,
         "item_1": {
             "item_name": "Gorgeous Armor Fragment",
             "drop_percent": 36
@@ -1159,6 +1210,7 @@
     },
     "4-9": {
         "name": "ベスタ渓谷 4-9",
+        "stamina": 9,
         "item_1": {
             "item_name": "Millefeuille Cloth Fragment",
             "drop_percent": 36
@@ -1181,6 +1233,7 @@
     },
     "4-10": {
         "name": "ベスタ渓谷 4-10",
+        "stamina": 9,
         "item_1": {
             "item_name": "Shinobi Shoes Fragment",
             "drop_percent": 36
@@ -1203,6 +1256,7 @@
     },
     "4-11": {
         "name": "ベスタ渓谷 4-11",
+        "stamina": 9,
         "item_1": {
             "item_name": "Opal Earrings Fragment",
             "drop_percent": 36
@@ -1225,6 +1279,7 @@
     },
     "4-12": {
         "name": "ベスタ渓谷 4-12",
+        "stamina": 9,
         "item_1": {
             "item_name": "Turquoise Earrings Fragment",
             "drop_percent": 36
@@ -1247,6 +1302,7 @@
     },
     "4-13": {
         "name": "ベスタ渓谷 4-13",
+        "stamina": 9,
         "item_1": {
             "item_name": "Lion's Battle Axe Fragment",
             "drop_percent": 36
@@ -1269,6 +1325,7 @@
     },
     "4-1H": {
         "name": "ベスタ渓谷 4-1",
+        "stamina": 18,
         "item_1": {
             "item_name": "Knight's Pride Fragment",
             "drop_percent": 72
@@ -1295,6 +1352,7 @@
     },
     "4-2H": {
         "name": "ベスタ渓谷 4-2",
+        "stamina": 18,
         "item_1": {
             "item_name": "Flower Bud Wand Fragment",
             "drop_percent": 72
@@ -1321,6 +1379,7 @@
     },
     "4-3H": {
         "name": "ベスタ渓谷 4-3",
+        "stamina": 18,
         "item_1": {
             "item_name": "Garnet Shield Fragment",
             "drop_percent": 72
@@ -1347,6 +1406,7 @@
     },
     "5-1": {
         "name": "ケレス森林 5-1",
+        "stamina": 9,
         "item_1": {
             "item_name": "Knight's Pride Fragment",
             "drop_percent": 36
@@ -1369,6 +1429,7 @@
     },
     "5-2": {
         "name": "ケレス森林 5-2",
+        "stamina": 9,
         "item_1": {
             "item_name": "Thorn Blood Rod Fragment",
             "drop_percent": 36
@@ -1391,6 +1452,7 @@
     },
     "5-3": {
         "name": "ケレス森林 5-3",
+        "stamina": 9,
         "item_1": {
             "item_name": "Lion's Battle Axe Fragment",
             "drop_percent": 36
@@ -1413,6 +1475,7 @@
     },
     "5-4": {
         "name": "ケレス森林 5-4",
+        "stamina": 9,
         "item_1": {
             "item_name": "Ryuumon Sword Fragment",
             "drop_percent": 36
@@ -1435,6 +1498,7 @@
     },
     "5-5": {
         "name": "ケレス森林 5-5",
+        "stamina": 9,
         "item_1": {
             "item_name": "Absolute Spear Fragment",
             "drop_percent": 36
@@ -1457,6 +1521,7 @@
     },
     "5-6": {
         "name": "ケレス森林 5-6",
+        "stamina": 9,
         "item_1": {
             "item_name": "Moonlight Sword Fragment",
             "drop_percent": 36
@@ -1479,6 +1544,7 @@
     },
     "5-7": {
         "name": "ケレス森林 5-7",
+        "stamina": 9,
         "item_1": {
             "item_name": "Palace Cloth Fragment",
             "drop_percent": 36
@@ -1501,6 +1567,7 @@
     },
     "5-8": {
         "name": "ケレス森林 5-8",
+        "stamina": 9,
         "item_1": {
             "item_name": "Cupid Robe Fragment",
             "drop_percent": 36
@@ -1523,6 +1590,7 @@
     },
     "5-9": {
         "name": "ケレス森林 5-9",
+        "stamina": 9,
         "item_1": {
             "item_name": "Battling Dress Fragment",
             "drop_percent": 36
@@ -1545,6 +1613,7 @@
     },
     "5-10": {
         "name": "ケレス森林 5-10",
+        "stamina": 9,
         "item_1": {
             "item_name": "Garnet Shield Fragment",
             "drop_percent": 36
@@ -1567,6 +1636,7 @@
     },
     "5-11": {
         "name": "ケレス森林 5-11",
+        "stamina": 9,
         "item_1": {
             "item_name": "Lion Eagle's Feather Fragment",
             "drop_percent": 36
@@ -1589,6 +1659,7 @@
     },
     "5-12": {
         "name": "ケレス森林 5-12",
+        "stamina": 9,
         "item_1": {
             "item_name": "Octogram Pendant Fragment",
             "drop_percent": 36
@@ -1611,6 +1682,7 @@
     },
     "5-13": {
         "name": "ケレス森林 5-13",
+        "stamina": 9,
         "item_1": {
             "item_name": "Vampire Dagger Fragment",
             "drop_percent": 36
@@ -1633,6 +1705,7 @@
     },
     "5-1H": {
         "name": "ケレス森林 5-1",
+        "stamina": 18,
         "item_1": {
             "item_name": "Battling Dress Fragment",
             "drop_percent": 72
@@ -1659,6 +1732,7 @@
     },
     "5-2H": {
         "name": "ケレス森林 5-2",
+        "stamina": 18,
         "item_1": {
             "item_name": "Lion's Battle Axe Fragment",
             "drop_percent": 72
@@ -1685,6 +1759,7 @@
     },
     "5-3H": {
         "name": "ケレス森林 5-3",
+        "stamina": 18,
         "item_1": {
             "item_name": "Cupid's Bow Fragment",
             "drop_percent": 72
@@ -1711,6 +1786,7 @@
     },
     "6-1": {
         "name": "フローラ湖畔 6-1",
+        "stamina": 9,
         "item_1": {
             "item_name": "Dragon's Claw Fragment",
             "drop_percent": 36
@@ -1733,6 +1809,7 @@
     },
     "6-2": {
         "name": "フローラ湖畔 6-2",
+        "stamina": 9,
         "item_1": {
             "item_name": "Absolute Spear Fragment",
             "drop_percent": 36
@@ -1755,6 +1832,7 @@
     },
     "6-3": {
         "name": "フローラ湖畔 6-3",
+        "stamina": 9,
         "item_1": {
             "item_name": "Lightning Axe Fragment",
             "drop_percent": 36
@@ -1777,6 +1855,7 @@
     },
     "6-4": {
         "name": "フローラ湖畔 6-4",
+        "stamina": 9,
         "item_1": {
             "item_name": "Devil's Bow Fragment",
             "drop_percent": 36
@@ -1799,6 +1878,7 @@
     },
     "6-5": {
         "name": "フローラ湖畔 6-5",
+        "stamina": 9,
         "item_1": {
             "item_name": "Feather Blade Fragment",
             "drop_percent": 36
@@ -1821,6 +1901,7 @@
     },
     "6-6": {
         "name": "フローラ湖畔 6-6",
+        "stamina": 9,
         "item_1": {
             "item_name": "Thunder God Sword Fragment",
             "drop_percent": 36
@@ -1843,6 +1924,7 @@
     },
     "6-7": {
         "name": "フローラ湖畔 6-7",
+        "stamina": 9,
         "item_1": {
             "item_name": "Heavy Metal Armor Fragment",
             "drop_percent": 36
@@ -1865,6 +1947,7 @@
     },
     "6-8": {
         "name": "フローラ湖畔 6-8",
+        "stamina": 9,
         "item_1": {
             "item_name": "Cosmos Cloth Fragment",
             "drop_percent": 36
@@ -1887,6 +1970,7 @@
     },
     "6-9": {
         "name": "フローラ湖畔 6-9",
+        "stamina": 9,
         "item_1": {
             "item_name": "Philosopher's Robe Fragment",
             "drop_percent": 36
@@ -1909,6 +1993,7 @@
     },
     "6-10": {
         "name": "フローラ湖畔 6-10",
+        "stamina": 9,
         "item_1": {
             "item_name": "Scarlet Diamond Fragment",
             "drop_percent": 36
@@ -1931,6 +2016,7 @@
     },
     "6-11": {
         "name": "フローラ湖畔 6-11",
+        "stamina": 9,
         "item_1": {
             "item_name": "Laurel's Sorrow Fragment",
             "drop_percent": 36
@@ -1953,6 +2039,7 @@
     },
     "6-12": {
         "name": "フローラ湖畔 6-12",
+        "stamina": 9,
         "item_1": {
             "item_name": "Lion King's Protective Charm Fragment",
             "drop_percent": 36
@@ -1975,6 +2062,7 @@
     },
     "6-13": {
         "name": "フローラ湖畔 6-13",
+        "stamina": 9,
         "item_1": {
             "item_name": "Lightning Bow Fragment",
             "drop_percent": 36
@@ -1997,6 +2085,7 @@
     },
     "6-14": {
         "name": "フローラ湖畔 6-14",
+        "stamina": 9,
         "item_1": {
             "item_name": "Blazing Gauntlet Fragment",
             "drop_percent": 36
@@ -2019,6 +2108,7 @@
     },
     "6-1H": {
         "name": "フローラ湖畔 6-1",
+        "stamina": 18,
         "item_1": {
             "item_name": "Devil's Horn Fragment",
             "drop_percent": 72
@@ -2045,6 +2135,7 @@
     },
     "6-2H": {
         "name": "フローラ湖畔 6-2",
+        "stamina": 18,
         "item_1": {
             "item_name": "Lightning Axe Fragment",
             "drop_percent": 72
@@ -2071,6 +2162,7 @@
     },
     "6-3H": {
         "name": "フローラ湖畔 6-3",
+        "stamina": 18,
         "item_1": {
             "item_name": "Feather Blade Fragment",
             "drop_percent": 72
@@ -2097,6 +2189,7 @@
     },
     "7-1": {
         "name": "メティス大瀑布 7-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Devil's Horn Fragment",
             "drop_percent": 36
@@ -2119,6 +2212,7 @@
     },
     "7-2": {
         "name": "メティス大瀑布 7-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Feather Blade Fragment",
             "drop_percent": 36
@@ -2141,6 +2235,7 @@
     },
     "7-3": {
         "name": "メティス大瀑布 7-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Moon Wand Fragment",
             "drop_percent": 36
@@ -2163,6 +2258,7 @@
     },
     "7-4": {
         "name": "メティス大瀑布 7-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Angel Blade Fragment",
             "drop_percent": 36
@@ -2185,6 +2281,7 @@
     },
     "7-5": {
         "name": "メティス大瀑布 7-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Blazing Gauntlet Fragment",
             "drop_percent": 36
@@ -2207,6 +2304,7 @@
     },
     "7-6": {
         "name": "メティス大瀑布 7-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Scarlet Dragon Fragment",
             "drop_percent": 36
@@ -2229,6 +2327,7 @@
     },
     "7-7": {
         "name": "メティス大瀑布 7-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Butterfly Katana Fragment",
             "drop_percent": 36
@@ -2251,6 +2350,7 @@
     },
     "7-8": {
         "name": "メティス大瀑布 7-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Angel Blade Fragment",
             "drop_percent": 36
@@ -2273,6 +2373,7 @@
     },
     "7-9": {
         "name": "メティス大瀑布 7-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Invisible Dress Fragment",
             "drop_percent": 36
@@ -2295,6 +2396,7 @@
     },
     "7-10": {
         "name": "メティス大瀑布 7-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Fury Rod Fragment",
             "drop_percent": 36
@@ -2317,6 +2419,7 @@
     },
     "7-11": {
         "name": "メティス大瀑布 7-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Angel Armor Fragment",
             "drop_percent": 36
@@ -2339,6 +2442,7 @@
     },
     "7-12": {
         "name": "メティス大瀑布 7-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Moonlight Garment Fragment",
             "drop_percent": 36
@@ -2361,6 +2465,7 @@
     },
     "7-13": {
         "name": "メティス大瀑布 7-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Grand Magician's Robe Fragment",
             "drop_percent": 36
@@ -2383,6 +2488,7 @@
     },
     "7-14": {
         "name": "メティス大瀑布 7-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Empress Shield Fragment",
             "drop_percent": 36
@@ -2405,6 +2511,7 @@
     },
     "7-1H": {
         "name": "メティス大瀑布 7-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Lion King's Protective Charm Fragment",
             "drop_percent": 72
@@ -2431,6 +2538,7 @@
     },
     "7-2H": {
         "name": "メティス大瀑布 7-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Shiryuu Axe Fragment",
             "drop_percent": 72
@@ -2457,6 +2565,7 @@
     },
     "7-3H": {
         "name": "メティス大瀑布 7-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Butterfly Katana Fragment",
             "drop_percent": 72
@@ -2483,6 +2592,7 @@
     },
     "8-1": {
         "name": "イリス樹海 8-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Butterfly Katana Fragment",
             "drop_percent": 36
@@ -2505,6 +2615,7 @@
     },
     "8-2": {
         "name": "イリス樹海 8-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Lightning Bow Fragment",
             "drop_percent": 36
@@ -2527,6 +2638,7 @@
     },
     "8-3": {
         "name": "イリス樹海 8-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Blazing Gauntlet Fragment",
             "drop_percent": 36
@@ -2549,6 +2661,7 @@
     },
     "8-4": {
         "name": "イリス樹海 8-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Shiryuu Axe Fragment",
             "drop_percent": 36
@@ -2571,6 +2684,7 @@
     },
     "8-5": {
         "name": "イリス樹海 8-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Invisible Dress Fragment",
             "drop_percent": 36
@@ -2593,6 +2707,7 @@
     },
     "8-6": {
         "name": "イリス樹海 8-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Angel Armor Fragment",
             "drop_percent": 36
@@ -2615,6 +2730,7 @@
     },
     "8-7": {
         "name": "イリス樹海 8-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Moonlight Garment Fragment",
             "drop_percent": 36
@@ -2637,6 +2753,7 @@
     },
     "8-8": {
         "name": "イリス樹海 8-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Paladin Greave Fragment",
             "drop_percent": 36
@@ -2659,6 +2776,7 @@
     },
     "8-9": {
         "name": "イリス樹海 8-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Wizard Hood Fragment",
             "drop_percent": 36
@@ -2681,6 +2799,7 @@
     },
     "8-10": {
         "name": "イリス樹海 8-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Empress Shield Fragment",
             "drop_percent": 36
@@ -2703,6 +2822,7 @@
     },
     "8-11": {
         "name": "イリス樹海 8-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Grand Magician's Robe Fragment",
             "drop_percent": 36
@@ -2725,6 +2845,7 @@
     },
     "8-12": {
         "name": "イリス樹海 8-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Moonlight Garment Fragment",
             "drop_percent": 36
@@ -2747,6 +2868,7 @@
     },
     "8-13": {
         "name": "イリス樹海 8-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Feather Waltz Fragment",
             "drop_percent": 36
@@ -2769,6 +2891,7 @@
     },
     "8-14": {
         "name": "イリス樹海 8-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Wizard Boots Fragment",
             "drop_percent": 36
@@ -2791,6 +2914,7 @@
     },
     "8-15": {
         "name": "イリス樹海 8-15",
+        "stamina": 10,
         "item_1": {
             "item_name": "Grand Magician's Robe Fragment",
             "drop_percent": 36
@@ -2813,6 +2937,7 @@
     },
     "8-1H": {
         "name": "イリス樹海 8-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Angel Blade Fragment",
             "drop_percent": 72
@@ -2839,6 +2964,7 @@
     },
     "8-2H": {
         "name": "イリス樹海 8-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Moon Wand Fragment",
             "drop_percent": 72
@@ -2865,6 +2991,7 @@
     },
     "8-3H": {
         "name": "イリス樹海 8-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Angel Blade Fragment",
             "drop_percent": 72
@@ -2891,6 +3018,7 @@
     },
     "9-1": {
         "name": "フリガ雪原 9-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Moon Wand Fragment",
             "drop_percent": 36
@@ -2913,6 +3041,7 @@
     },
     "9-2": {
         "name": "フリガ雪原 9-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Angel Blade Fragment",
             "drop_percent": 36
@@ -2935,6 +3064,7 @@
     },
     "9-3": {
         "name": "フリガ雪原 9-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Shiryuu Axe Fragment",
             "drop_percent": 36
@@ -2957,6 +3087,7 @@
     },
     "9-4": {
         "name": "フリガ雪原 9-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Queen Bee Spear Fragment",
             "drop_percent": 36
@@ -2979,6 +3110,7 @@
     },
     "9-5": {
         "name": "フリガ雪原 9-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Solar Sword Fragment",
             "drop_percent": 36
@@ -3001,6 +3133,7 @@
     },
     "9-6": {
         "name": "フリガ雪原 9-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Hell-Fire Axe Fragment",
             "drop_percent": 36
@@ -3023,6 +3156,7 @@
     },
     "9-7": {
         "name": "フリガ雪原 9-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Angel Bow Fragment",
             "drop_percent": 36
@@ -3045,6 +3179,7 @@
     },
     "9-8": {
         "name": "フリガ雪原 9-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Rod of Sun Fragment",
             "drop_percent": 36
@@ -3067,6 +3202,7 @@
     },
     "9-9": {
         "name": "フリガ雪原 9-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Princess' Dagger Fragment",
             "drop_percent": 36
@@ -3089,6 +3225,7 @@
     },
     "9-10": {
         "name": "フリガ雪原 9-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Queen Bee Spear Fragment",
             "drop_percent": 36
@@ -3111,6 +3248,7 @@
     },
     "9-11": {
         "name": "フリガ雪原 9-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Solar Sword Fragment",
             "drop_percent": 36
@@ -3133,6 +3271,7 @@
     },
     "9-12": {
         "name": "フリガ雪原 9-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Lion King Gauntlet Fragment",
             "drop_percent": 36
@@ -3155,6 +3294,7 @@
     },
     "9-13": {
         "name": "フリガ雪原 9-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Rod of Life Fragment",
             "drop_percent": 36
@@ -3177,6 +3317,7 @@
     },
     "9-14": {
         "name": "フリガ雪原 9-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Bright Sword Fragment",
             "drop_percent": 36
@@ -3199,6 +3340,7 @@
     },
     "9-15": {
         "name": "フリガ雪原 9-15",
+        "stamina": 10,
         "item_1": {
             "item_name": "Solar Sword Fragment",
             "drop_percent": 36
@@ -3221,6 +3363,7 @@
     },
     "9-1H": {
         "name": "フリガ雪原 9-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Angel Bow Fragment",
             "drop_percent": 72
@@ -3247,6 +3390,7 @@
     },
     "9-2H": {
         "name": "フリガ雪原 9-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Hell-Fire Axe Fragment",
             "drop_percent": 72
@@ -3273,6 +3417,7 @@
     },
     "9-3H": {
         "name": "フリガ雪原 9-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Solar Sword Fragment",
             "drop_percent": 72
@@ -3299,6 +3444,7 @@
     },
     "10-1": {
         "name": "ロレッタ海岸 10-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Hell-Fire Axe Fragment",
             "drop_percent": 36
@@ -3321,6 +3467,7 @@
     },
     "10-2": {
         "name": "ロレッタ海岸 10-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Rod of Sun Fragment",
             "drop_percent": 36
@@ -3343,6 +3490,7 @@
     },
     "10-3": {
         "name": "ロレッタ海岸 10-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Rod of Life Fragment",
             "drop_percent": 36
@@ -3365,6 +3513,7 @@
     },
     "10-4": {
         "name": "ロレッタ海岸 10-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Mythril Plate Fragment",
             "drop_percent": 36
@@ -3387,6 +3536,7 @@
     },
     "10-5": {
         "name": "ロレッタ海岸 10-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Saint's Robe Fragment",
             "drop_percent": 36
@@ -3409,6 +3559,7 @@
     },
     "10-6": {
         "name": "ロレッタ海岸 10-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Vermilion Plate Fragment",
             "drop_percent": 36
@@ -3431,6 +3582,7 @@
     },
     "10-7": {
         "name": "ロレッタ海岸 10-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Pope's Hood Fragment",
             "drop_percent": 36
@@ -3453,6 +3605,7 @@
     },
     "10-8": {
         "name": "ロレッタ海岸 10-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Angel Boots Fragment",
             "drop_percent": 36
@@ -3475,6 +3628,7 @@
     },
     "10-9": {
         "name": "ロレッタ海岸 10-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Hermit Clothes Fragment",
             "drop_percent": 36
@@ -3497,6 +3651,7 @@
     },
     "10-10": {
         "name": "ロレッタ海岸 10-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Saint's Robe Fragment",
             "drop_percent": 36
@@ -3519,6 +3674,7 @@
     },
     "10-11": {
         "name": "ロレッタ海岸 10-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Vermilion Plate Fragment",
             "drop_percent": 36
@@ -3541,6 +3697,7 @@
     },
     "10-12": {
         "name": "ロレッタ海岸 10-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Hermit Clothes Fragment",
             "drop_percent": 36
@@ -3563,6 +3720,7 @@
     },
     "10-13": {
         "name": "ロレッタ海岸 10-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Pope's Hood Fragment",
             "drop_percent": 36
@@ -3585,6 +3743,7 @@
     },
     "10-14": {
         "name": "ロレッタ海岸 10-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Angel Boots Fragment",
             "drop_percent": 36
@@ -3607,6 +3766,7 @@
     },
     "10-15": {
         "name": "ロレッタ海岸 10-15",
+        "stamina": 10,
         "item_1": {
             "item_name": "Mythril Plate Fragment",
             "drop_percent": 36
@@ -3629,6 +3789,7 @@
     },
     "10-16": {
         "name": "ロレッタ海岸 10-16",
+        "stamina": 10,
         "item_1": {
             "item_name": "Hermit Clothes Fragment",
             "drop_percent": 36
@@ -3651,6 +3812,7 @@
     },
     "10-17": {
         "name": "ロレッタ海岸 10-17",
+        "stamina": 10,
         "item_1": {
             "item_name": "Vermilion Plate Fragment",
             "drop_percent": 36
@@ -3673,6 +3835,7 @@
     },
     "10-1H": {
         "name": "ロレッタ海岸 10-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Pope's Hood Fragment",
             "drop_percent": 72
@@ -3699,6 +3862,7 @@
     },
     "10-2H": {
         "name": "ロレッタ海岸 10-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Angel Boots Fragment",
             "drop_percent": 72
@@ -3725,6 +3889,7 @@
     },
     "10-3H": {
         "name": "ロレッタ海岸 10-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Vermilion Plate Fragment",
             "drop_percent": 72
@@ -3751,6 +3916,7 @@
     },
     "11-1": {
         "name": "ゲヌア砂漠 11-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Mythril Plate Fragment",
             "drop_percent": 36
@@ -3773,6 +3939,7 @@
     },
     "11-2": {
         "name": "ゲヌア砂漠 11-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Saint's Robe Fragment",
             "drop_percent": 36
@@ -3795,6 +3962,7 @@
     },
     "11-3": {
         "name": "ゲヌア砂漠 11-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Hermit Clothes Fragment",
             "drop_percent": 36
@@ -3817,6 +3985,7 @@
     },
     "11-4": {
         "name": "ゲヌア砂漠 11-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Dark Matter Edge Fragment",
             "drop_percent": 36
@@ -3839,6 +4008,7 @@
     },
     "11-5": {
         "name": "ゲヌア砂漠 11-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Storm Bringer Fragment",
             "drop_percent": 36
@@ -3861,6 +4031,7 @@
     },
     "11-6": {
         "name": "ゲヌア砂漠 11-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Ice Claymore Fragment",
             "drop_percent": 36
@@ -3883,6 +4054,7 @@
     },
     "11-7": {
         "name": "ゲヌア砂漠 11-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Justice God's Staff Fragment",
             "drop_percent": 36
@@ -3905,6 +4077,7 @@
     },
     "11-8": {
         "name": "ゲヌア砂漠 11-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Artemis Bow Fragment",
             "drop_percent": 36
@@ -3927,6 +4100,7 @@
     },
     "11-9": {
         "name": "ゲヌア砂漠 11-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Dark Matter Edge Fragment",
             "drop_percent": 36
@@ -3949,6 +4123,7 @@
     },
     "11-10": {
         "name": "ゲヌア砂漠 11-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Storm Bringer Fragment",
             "drop_percent": 36
@@ -3971,6 +4146,7 @@
     },
     "11-11": {
         "name": "ゲヌア砂漠 11-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Phoenix Rod Fragment",
             "drop_percent": 36
@@ -3993,6 +4169,7 @@
     },
     "11-12": {
         "name": "ゲヌア砂漠 11-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Ice Claymore Fragment",
             "drop_percent": 36
@@ -4015,6 +4192,7 @@
     },
     "11-13": {
         "name": "ゲヌア砂漠 11-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Queen's Battle Axe Fragment",
             "drop_percent": 36
@@ -4037,6 +4215,7 @@
     },
     "11-14": {
         "name": "ゲヌア砂漠 11-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Justice God's Staff Fragment",
             "drop_percent": 36
@@ -4059,6 +4238,7 @@
     },
     "11-15": {
         "name": "ゲヌア砂漠 11-15",
+        "stamina": 10,
         "item_1": {
             "item_name": "Blizzard Claw Fragment",
             "drop_percent": 36
@@ -4081,6 +4261,7 @@
     },
     "11-16": {
         "name": "ゲヌア砂漠 11-16",
+        "stamina": 10,
         "item_1": {
             "item_name": "Artemis Bow Fragment",
             "drop_percent": 36
@@ -4103,6 +4284,7 @@
     },
     "11-17": {
         "name": "ゲヌア砂漠 11-17",
+        "stamina": 10,
         "item_1": {
             "item_name": "Hawk God's Sword Fragment",
             "drop_percent": 36
@@ -4125,6 +4307,7 @@
     },
     "11-1H": {
         "name": "ゲヌア砂漠 11-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Storm Bringer Fragment",
             "drop_percent": 72
@@ -4151,6 +4334,7 @@
     },
     "11-2H": {
         "name": "ゲヌア砂漠 11-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Queen's Battle Axe Fragment",
             "drop_percent": 72
@@ -4177,6 +4361,7 @@
     },
     "11-3H": {
         "name": "ゲヌア砂漠 11-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Ice Claymore Fragment",
             "drop_percent": 72
@@ -4203,6 +4388,7 @@
     },
     "12-1": {
         "name": "ボノニア砂丘 12-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Queen's Battle Axe Fragment",
             "drop_percent": 36
@@ -4225,6 +4411,7 @@
     },
     "12-2": {
         "name": "ボノニア砂丘 12-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Justice God's Staff Fragment",
             "drop_percent": 36
@@ -4247,6 +4434,7 @@
     },
     "12-3": {
         "name": "ボノニア砂丘 12-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Phoenix Rod Fragment",
             "drop_percent": 36
@@ -4269,6 +4457,7 @@
     },
     "12-4": {
         "name": "ボノニア砂丘 12-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Violet Armor Fragment",
             "drop_percent": 36
@@ -4291,6 +4480,7 @@
     },
     "12-5": {
         "name": "ボノニア砂丘 12-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Necromancer Boots Fragment",
             "drop_percent": 36
@@ -4313,6 +4503,7 @@
     },
     "12-6": {
         "name": "ボノニア砂丘 12-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Crusader Plate Fragment",
             "drop_percent": 36
@@ -4335,6 +4526,7 @@
     },
     "12-7": {
         "name": "ボノニア砂丘 12-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Gospel Tiara Fragment",
             "drop_percent": 36
@@ -4357,6 +4549,7 @@
     },
     "12-8": {
         "name": "ボノニア砂丘 12-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Guardian Shield Fragment",
             "drop_percent": 36
@@ -4379,6 +4572,7 @@
     },
     "12-9": {
         "name": "ボノニア砂丘 12-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Heavenly Robe Fragment",
             "drop_percent": 36
@@ -4401,6 +4595,7 @@
     },
     "12-10": {
         "name": "ボノニア砂丘 12-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Necromancer Boots Fragment",
             "drop_percent": 36
@@ -4423,6 +4618,7 @@
     },
     "12-11": {
         "name": "ボノニア砂丘 12-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Crusader Plate Fragment",
             "drop_percent": 36
@@ -4445,6 +4641,7 @@
     },
     "12-12": {
         "name": "ボノニア砂丘 12-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Heavenly Robe Fragment",
             "drop_percent": 36
@@ -4467,6 +4664,7 @@
     },
     "12-13": {
         "name": "ボノニア砂丘 12-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Gospel Tiara Fragment",
             "drop_percent": 36
@@ -4489,6 +4687,7 @@
     },
     "12-14": {
         "name": "ボノニア砂丘 12-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Guardian Shield Fragment",
             "drop_percent": 36
@@ -4511,6 +4710,7 @@
     },
     "12-15": {
         "name": "ボノニア砂丘 12-15",
+        "stamina": 10,
         "item_1": {
             "item_name": "Violet Armor Fragment",
             "drop_percent": 36
@@ -4533,6 +4733,7 @@
     },
     "12-16": {
         "name": "ボノニア砂丘 12-16",
+        "stamina": 10,
         "item_1": {
             "item_name": "Heavenly Robe Fragment",
             "drop_percent": 36
@@ -4555,6 +4756,7 @@
     },
     "12-17": {
         "name": "ボノニア砂丘 12-17",
+        "stamina": 10,
         "item_1": {
             "item_name": "Crusader Plate Fragment",
             "drop_percent": 36
@@ -4577,6 +4779,7 @@
     },
     "12-1H": {
         "name": "ボノニア砂丘 12-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Crusader Plate Fragment",
             "drop_percent": 72
@@ -4603,6 +4806,7 @@
     },
     "12-2H": {
         "name": "ボノニア砂丘 12-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Heavenly Robe Fragment",
             "drop_percent": 72
@@ -4629,6 +4833,7 @@
     },
     "12-3H": {
         "name": "ボノニア砂丘 12-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Violet Armor Fragment",
             "drop_percent": 72
@@ -4655,6 +4860,7 @@
     },
     "13-1": {
         "name": "ドロテア湿地 13-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Crusader Plate Fragment",
             "drop_percent": 36
@@ -4677,6 +4883,7 @@
     },
     "13-2": {
         "name": "ドロテア湿地 13-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Gospel Tiara Fragment",
             "drop_percent": 36
@@ -4699,6 +4906,7 @@
     },
     "13-3": {
         "name": "ドロテア湿地 13-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Guardian Shield Fragment",
             "drop_percent": 36
@@ -4721,6 +4929,7 @@
     },
     "13-4": {
         "name": "ドロテア湿地 13-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Unicorn Knife Fragment",
             "drop_percent": 36
@@ -4743,6 +4952,7 @@
     },
     "13-5": {
         "name": "ドロテア湿地 13-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Gaia Bardiche Fragment",
             "drop_percent": 36
@@ -4765,6 +4975,7 @@
     },
     "13-6": {
         "name": "ドロテア湿地 13-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Chaos Blade Fragment",
             "drop_percent": 36
@@ -4787,6 +4998,7 @@
     },
     "13-7": {
         "name": "ドロテア湿地 13-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "High Devil Wand Fragment",
             "drop_percent": 36
@@ -4809,6 +5021,7 @@
     },
     "13-8": {
         "name": "ドロテア湿地 13-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Spirit Tree Bow Fragment",
             "drop_percent": 36
@@ -4831,6 +5044,7 @@
     },
     "13-9": {
         "name": "ドロテア湿地 13-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Unicorn Knife Fragment",
             "drop_percent": 36
@@ -4853,6 +5067,7 @@
     },
     "13-10": {
         "name": "ドロテア湿地 13-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Gaia Bardiche Fragment",
             "drop_percent": 36
@@ -4875,6 +5090,7 @@
     },
     "13-11": {
         "name": "ドロテア湿地 13-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "High Angel Rod Fragment",
             "drop_percent": 36
@@ -4897,6 +5113,7 @@
     },
     "13-12": {
         "name": "ドロテア湿地 13-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Chaos Blade Fragment",
             "drop_percent": 36
@@ -4919,6 +5136,7 @@
     },
     "13-13": {
         "name": "ドロテア湿地 13-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Aqua Slasher Fragment",
             "drop_percent": 36
@@ -4941,6 +5159,7 @@
     },
     "13-14": {
         "name": "ドロテア湿地 13-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "High Devil Wand Fragment",
             "drop_percent": 36
@@ -4963,6 +5182,7 @@
     },
     "13-15": {
         "name": "ドロテア湿地 13-15",
+        "stamina": 10,
         "item_1": {
             "item_name": "Lightning Fist Fragment",
             "drop_percent": 36
@@ -4985,6 +5205,7 @@
     },
     "13-16": {
         "name": "ドロテア湿地 13-16",
+        "stamina": 10,
         "item_1": {
             "item_name": "Spirit Tree Bow Fragment",
             "drop_percent": 36
@@ -5007,6 +5228,7 @@
     },
     "13-17": {
         "name": "ドロテア湿地 13-17",
+        "stamina": 10,
         "item_1": {
             "item_name": "Phoenix Sword Fragment",
             "drop_percent": 36
@@ -5029,6 +5251,7 @@
     },
     "13-1H": {
         "name": "ドロテア湿地 13-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Gaia Bardiche Fragment",
             "drop_percent": 72
@@ -5055,6 +5278,7 @@
     },
     "13-2H": {
         "name": "ドロテア湿地 13-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "High Angel Rod Fragment",
             "drop_percent": 72
@@ -5081,6 +5305,7 @@
     },
     "13-3H": {
         "name": "ドロテア湿地 13-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Chaos Blade Fragment",
             "drop_percent": 72
@@ -5107,6 +5332,7 @@
     },
     "14-1": {
         "name": "ウジェニア熱地 14-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Chaos Blade Fragment",
             "drop_percent": 36
@@ -5129,6 +5355,7 @@
     },
     "14-2": {
         "name": "ウジェニア熱地 14-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Spirit Tree Bow Fragment",
             "drop_percent": 36
@@ -5151,6 +5378,7 @@
     },
     "14-3": {
         "name": "ウジェニア熱地 14-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "High Devil Wand Fragment",
             "drop_percent": 36
@@ -5173,6 +5401,7 @@
     },
     "14-4": {
         "name": "ウジェニア熱地 14-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Firelord's Ring Fragment",
             "drop_percent": 36
@@ -5195,6 +5424,7 @@
     },
     "14-5": {
         "name": "ウジェニア熱地 14-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Great Sage Gem Fragment",
             "drop_percent": 36
@@ -5217,6 +5447,7 @@
     },
     "14-6": {
         "name": "ウジェニア熱地 14-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Congregation Pendant Fragment",
             "drop_percent": 36
@@ -5239,6 +5470,7 @@
     },
     "14-7": {
         "name": "ウジェニア熱地 14-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Cat God Pendant Fragment",
             "drop_percent": 36
@@ -5261,6 +5493,7 @@
     },
     "14-8": {
         "name": "ウジェニア熱地 14-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Firelord's Ring Fragment",
             "drop_percent": 36
@@ -5283,6 +5516,7 @@
     },
     "14-9": {
         "name": "ウジェニア熱地 14-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Great Sage Gem Fragment",
             "drop_percent": 36
@@ -5305,6 +5539,7 @@
     },
     "14-10": {
         "name": "ウジェニア熱地 14-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Congregation Pendant Fragment",
             "drop_percent": 36
@@ -5327,6 +5562,7 @@
     },
     "14-11": {
         "name": "ウジェニア熱地 14-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Cat God Pendant Fragment",
             "drop_percent": 36
@@ -5349,6 +5585,7 @@
     },
     "14-12": {
         "name": "ウジェニア熱地 14-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Congregation Pendant Fragment",
             "drop_percent": 36
@@ -5371,6 +5608,7 @@
     },
     "14-13": {
         "name": "ウジェニア熱地 14-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Cat God Pendant Fragment",
             "drop_percent": 36
@@ -5393,6 +5631,7 @@
     },
     "14-14": {
         "name": "ウジェニア熱地 14-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Firelord's Ring Fragment",
             "drop_percent": 36
@@ -5415,6 +5654,7 @@
     },
     "14-1H": {
         "name": "ウジェニア熱地 14-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Congregation Pendant Fragment",
             "drop_percent": 72
@@ -5441,6 +5681,7 @@
     },
     "14-2H": {
         "name": "ウジェニア熱地 14-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Cat God Pendant Fragment",
             "drop_percent": 72
@@ -5467,6 +5708,7 @@
     },
     "14-3H": {
         "name": "ウジェニア熱地 14-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Firelord's Ring Fragment",
             "drop_percent": 72
@@ -5493,6 +5735,7 @@
     },
     "15-1": {
         "name": "タリア火山 15-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Congregation Pendant Fragment",
             "drop_percent": 36
@@ -5515,6 +5758,7 @@
     },
     "15-2": {
         "name": "タリア火山 15-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Great Sage Gem Fragment",
             "drop_percent": 36
@@ -5537,6 +5781,7 @@
     },
     "15-3": {
         "name": "タリア火山 15-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Firelord's Ring Fragment",
             "drop_percent": 36
@@ -5559,6 +5804,7 @@
     },
     "15-4": {
         "name": "タリア火山 15-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Scarlet Mail Fragment",
             "drop_percent": 36
@@ -5581,6 +5827,7 @@
     },
     "15-5": {
         "name": "タリア火山 15-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Faireal Boots Fragment",
             "drop_percent": 36
@@ -5603,6 +5850,7 @@
     },
     "15-6": {
         "name": "タリア火山 15-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Viridian Spiritual Dress Fragment",
             "drop_percent": 36
@@ -5625,6 +5873,7 @@
     },
     "15-7": {
         "name": "タリア火山 15-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Dragonic Armor Fragment",
             "drop_percent": 36
@@ -5647,6 +5896,7 @@
     },
     "15-8": {
         "name": "タリア火山 15-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Dark Terror Dress Fragment",
             "drop_percent": 36
@@ -5669,6 +5919,7 @@
     },
     "15-9": {
         "name": "タリア火山 15-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Aquarius Boots Fragment",
             "drop_percent": 36
@@ -5691,6 +5942,7 @@
     },
     "15-10": {
         "name": "タリア火山 15-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Dark Terror Dress Fragment",
             "drop_percent": 36
@@ -5713,6 +5965,7 @@
     },
     "15-11": {
         "name": "タリア火山 15-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Scarlet Mail Fragment",
             "drop_percent": 36
@@ -5735,6 +5988,7 @@
     },
     "15-12": {
         "name": "タリア火山 15-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Viridian Spiritual Dress Fragment",
             "drop_percent": 36
@@ -5757,6 +6011,7 @@
     },
     "15-13": {
         "name": "タリア火山 15-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Dragonic Armor Fragment",
             "drop_percent": 36
@@ -5779,6 +6034,7 @@
     },
     "15-14": {
         "name": "タリア火山 15-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Faireal Boots Fragment",
             "drop_percent": 36
@@ -5801,6 +6057,7 @@
     },
     "15-1H": {
         "name": "タリア火山 15-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Viridian Spiritual Dress Fragment",
             "drop_percent": 72
@@ -5827,6 +6084,7 @@
     },
     "15-2H": {
         "name": "タリア火山 15-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Scarlet Mail Fragment",
             "drop_percent": 72
@@ -5853,6 +6111,7 @@
     },
     "15-3H": {
         "name": "タリア火山 15-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Faireal Boots Fragment",
             "drop_percent": 72
@@ -5879,6 +6138,7 @@
     },
     "16-1": {
         "name": "テミス銀嶺 16-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Dragonic Armor Fragment",
             "drop_percent": 36
@@ -5901,6 +6161,7 @@
     },
     "16-2": {
         "name": "テミス銀嶺 16-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Viridian Spiritual Dress Fragment",
             "drop_percent": 36
@@ -5923,6 +6184,7 @@
     },
     "16-3": {
         "name": "テミス銀嶺 16-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Faireal Boots Fragment",
             "drop_percent": 36
@@ -5945,6 +6207,7 @@
     },
     "16-4": {
         "name": "テミス銀嶺 16-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Emerald Dagger Fragment",
             "drop_percent": 36
@@ -5967,6 +6230,7 @@
     },
     "16-5": {
         "name": "テミス銀嶺 16-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Zero Frost Lance Fragment",
             "drop_percent": 36
@@ -5989,6 +6253,7 @@
     },
     "16-6": {
         "name": "テミス銀嶺 16-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Lightning Blade Fragment",
             "drop_percent": 36
@@ -6011,6 +6276,7 @@
     },
     "16-7": {
         "name": "テミス銀嶺 16-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Xenosphere Rod Fragment",
             "drop_percent": 36
@@ -6033,6 +6299,7 @@
     },
     "16-8": {
         "name": "テミス銀嶺 16-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Hundred White Blossom Petals Sword Fragment",
             "drop_percent": 36
@@ -6055,6 +6322,7 @@
     },
     "16-9": {
         "name": "テミス銀嶺 16-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Emerald Dagger Fragment",
             "drop_percent": 36
@@ -6077,6 +6345,7 @@
     },
     "16-10": {
         "name": "テミス銀嶺 16-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Moon Cestus Fragment",
             "drop_percent": 36
@@ -6099,6 +6368,7 @@
     },
     "16-11": {
         "name": "テミス銀嶺 16-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Flame Rod Fragment",
             "drop_percent": 36
@@ -6121,6 +6391,7 @@
     },
     "16-12": {
         "name": "テミス銀嶺 16-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Lightning Blade Fragment",
             "drop_percent": 36
@@ -6143,6 +6414,7 @@
     },
     "16-13": {
         "name": "テミス銀嶺 16-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Silver Wing Bow Fragment",
             "drop_percent": 36
@@ -6165,6 +6437,7 @@
     },
     "16-14": {
         "name": "テミス銀嶺 16-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Xenosphere Rod Fragment",
             "drop_percent": 36
@@ -6187,6 +6460,7 @@
     },
     "16-1H": {
         "name": "テミス銀嶺 16-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Silver Wing Bow Fragment",
             "drop_percent": 72
@@ -6213,6 +6487,7 @@
     },
     "16-2H": {
         "name": "テミス銀嶺 16-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Zero Frost Lance Fragment",
             "drop_percent": 72
@@ -6239,6 +6514,7 @@
     },
     "16-3H": {
         "name": "テミス銀嶺 16-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Xenosphere Rod Fragment",
             "drop_percent": 72
@@ -6265,6 +6541,7 @@
     },
     "17-1": {
         "name": "フィデス氷原 17-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Zero Frost Lance Fragment",
             "drop_percent": 36
@@ -6287,6 +6564,7 @@
     },
     "17-2": {
         "name": "フィデス氷原 17-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Necrodim Axe Fragment",
             "drop_percent": 36
@@ -6309,6 +6587,7 @@
     },
     "17-3": {
         "name": "フィデス氷原 17-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Hundred White Blossom Petals Sword Fragment",
             "drop_percent": 36
@@ -6331,6 +6610,7 @@
     },
     "17-4": {
         "name": "フィデス氷原 17-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Fairy King's Guardian Stone Fragment",
             "drop_percent": 36
@@ -6353,6 +6633,7 @@
     },
     "17-5": {
         "name": "フィデス氷原 17-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Ocean God's Earrings Fragment",
             "drop_percent": 36
@@ -6375,6 +6656,7 @@
     },
     "17-6": {
         "name": "フィデス氷原 17-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Millennium Earrings Fragment",
             "drop_percent": 36
@@ -6397,6 +6679,7 @@
     },
     "17-7": {
         "name": "フィデス氷原 17-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Fairy King's Guardian Stone Fragment",
             "drop_percent": 36
@@ -6419,6 +6702,7 @@
     },
     "17-8": {
         "name": "フィデス氷原 17-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Ocean God's Earrings Fragment",
             "drop_percent": 36
@@ -6441,6 +6725,7 @@
     },
     "17-9": {
         "name": "フィデス氷原 17-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Millennium Earrings Fragment",
             "drop_percent": 36
@@ -6463,6 +6748,7 @@
     },
     "17-10": {
         "name": "フィデス氷原 17-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Fairy King's Guardian Stone Fragment",
             "drop_percent": 36
@@ -6485,6 +6771,7 @@
     },
     "17-11": {
         "name": "フィデス氷原 17-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Ocean God's Earrings Fragment",
             "drop_percent": 36
@@ -6507,6 +6794,7 @@
     },
     "17-12": {
         "name": "フィデス氷原 17-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Millennium Earrings Fragment",
             "drop_percent": 36
@@ -6529,6 +6817,7 @@
     },
     "17-13": {
         "name": "フィデス氷原 17-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Fairy King's Guardian Stone Fragment",
             "drop_percent": 36
@@ -6551,6 +6840,7 @@
     },
     "17-14": {
         "name": "フィデス氷原 17-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Ocean God's Earrings Fragment",
             "drop_percent": 36
@@ -6573,6 +6863,7 @@
     },
     "17-1H": {
         "name": "フィデス氷原 17-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Fairy King's Guardian Stone Fragment",
             "drop_percent": 72
@@ -6599,6 +6890,7 @@
     },
     "17-2H": {
         "name": "フィデス氷原 17-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Millennium Earrings Fragment",
             "drop_percent": 72
@@ -6625,6 +6917,7 @@
     },
     "17-3H": {
         "name": "フィデス氷原 17-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Ocean God's Earrings Fragment",
             "drop_percent": 72
@@ -6651,6 +6944,7 @@
     },
     "18-1": {
         "name": "ファエトン原野・北部 18-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Millennium Earrings Fragment",
             "drop_percent": 36
@@ -6673,6 +6967,7 @@
     },
     "18-2": {
         "name": "ファエトン原野・北部 18-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Fairy King's Guardian Stone Fragment",
             "drop_percent": 36
@@ -6695,6 +6990,7 @@
     },
     "18-3": {
         "name": "ファエトン原野・北部 18-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Ocean God's Earrings Fragment",
             "drop_percent": 36
@@ -6717,6 +7013,7 @@
     },
     "18-4": {
         "name": "ファエトン原野・北部 18-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Astrograph Buckler Fragment",
             "drop_percent": 36
@@ -6739,6 +7036,7 @@
     },
     "18-5": {
         "name": "ファエトン原野・北部 18-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Aegis Coat Fragment",
             "drop_percent": 36
@@ -6761,6 +7059,7 @@
     },
     "18-6": {
         "name": "ファエトン原野・北部 18-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Mourning Crown Fragment",
             "drop_percent": 36
@@ -6783,6 +7082,7 @@
     },
     "18-7": {
         "name": "ファエトン原野・北部 18-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Phantasm Mail Fragment",
             "drop_percent": 36
@@ -6805,6 +7105,7 @@
     },
     "18-8": {
         "name": "ファエトン原野・北部 18-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Azure Armor Fragment",
             "drop_percent": 36
@@ -6827,6 +7128,7 @@
     },
     "18-9": {
         "name": "ファエトン原野・北部 18-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Shrine Maiden's Purity Cloth Fragment",
             "drop_percent": 36
@@ -6849,6 +7151,7 @@
     },
     "18-10": {
         "name": "ファエトン原野・北部 18-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Aegis Coat Fragment",
             "drop_percent": 36
@@ -6871,6 +7174,7 @@
     },
     "18-11": {
         "name": "ファエトン原野・北部 18-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Mourning Crown Fragment",
             "drop_percent": 36
@@ -6893,6 +7197,7 @@
     },
     "18-12": {
         "name": "ファエトン原野・北部 18-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Azure Armor Fragment",
             "drop_percent": 36
@@ -6915,6 +7220,7 @@
     },
     "18-13": {
         "name": "ファエトン原野・北部 18-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Shrine Maiden's Purity Cloth Fragment",
             "drop_percent": 36
@@ -6937,6 +7243,7 @@
     },
     "18-14": {
         "name": "ファエトン原野・北部 18-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Phantasm Mail Fragment",
             "drop_percent": 36
@@ -6959,6 +7266,7 @@
     },
     "18-1H": {
         "name": "ファエトン原野・北部 18-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Phantasm Mail Fragment",
             "drop_percent": 72
@@ -6985,6 +7293,7 @@
     },
     "18-2H": {
         "name": "ファエトン原野・北部 18-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Aegis Coat Fragment",
             "drop_percent": 72
@@ -7011,6 +7320,7 @@
     },
     "18-3H": {
         "name": "ファエトン原野・北部 18-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Astrograph Buckler Fragment",
             "drop_percent": 72
@@ -7037,6 +7347,7 @@
     },
     "18-1VH": {
         "name": "ファエトン原野・北部 18-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Flowering Fire Peony Fragment",
             "drop_percent": 72
@@ -7067,6 +7378,7 @@
     },
     "18-2VH": {
         "name": "ファエトン原野・北部 18-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Sea Dragon God's Hair Ornament Fragment",
             "drop_percent": 72
@@ -7097,6 +7409,7 @@
     },
     "18-3VH": {
         "name": "ファエトン原野・北部 18-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Little Ice Princess' Knot Fragment",
             "drop_percent": 72
@@ -7127,6 +7440,7 @@
     },
     "19-1": {
         "name": "ファエトン原野・南部 19-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Shrine Maiden's Purity Cloth Fragment",
             "drop_percent": 36
@@ -7149,6 +7463,7 @@
     },
     "19-2": {
         "name": "ファエトン原野・南部 19-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Azure Armor Fragment",
             "drop_percent": 36
@@ -7171,6 +7486,7 @@
     },
     "19-3": {
         "name": "ファエトン原野・南部 19-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Mourning Crown Fragment",
             "drop_percent": 36
@@ -7193,6 +7509,7 @@
     },
     "19-4": {
         "name": "ファエトン原野・南部 19-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Lava Edge Fragment",
             "drop_percent": 36
@@ -7215,6 +7532,7 @@
     },
     "19-5": {
         "name": "ファエトン原野・南部 19-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Dawn's Holy Sword Fragment",
             "drop_percent": 36
@@ -7237,6 +7555,7 @@
     },
     "19-6": {
         "name": "ファエトン原野・南部 19-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Genesis Rod Fragment",
             "drop_percent": 36
@@ -7259,6 +7578,7 @@
     },
     "19-7": {
         "name": "ファエトン原野・南部 19-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Flowing Azure Blade Fragment",
             "drop_percent": 36
@@ -7281,6 +7601,7 @@
     },
     "19-8": {
         "name": "ファエトン原野・南部 19-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Divine Blossom Rod Fragment",
             "drop_percent": 36
@@ -7303,6 +7624,7 @@
     },
     "19-9": {
         "name": "ファエトン原野・南部 19-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Lava Edge Fragment",
             "drop_percent": 36
@@ -7325,6 +7647,7 @@
     },
     "19-10": {
         "name": "ファエトン原野・南部 19-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Flowing Azure Blade Fragment",
             "drop_percent": 36
@@ -7347,6 +7670,7 @@
     },
     "19-11": {
         "name": "ファエトン原野・南部 19-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Divine Blossom Rod Fragment",
             "drop_percent": 36
@@ -7369,6 +7693,7 @@
     },
     "19-12": {
         "name": "ファエトン原野・南部 19-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Dawn's Holy Sword Fragment",
             "drop_percent": 36
@@ -7391,6 +7716,7 @@
     },
     "19-13": {
         "name": "ファエトン原野・南部 19-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Abyss Bow Fragment",
             "drop_percent": 36
@@ -7413,6 +7739,7 @@
     },
     "19-14": {
         "name": "ファエトン原野・南部 19-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Genesis Rod Fragment",
             "drop_percent": 36
@@ -7435,6 +7762,7 @@
     },
     "19-1H": {
         "name": "ファエトン原野・南部 19-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Genesis Rod Fragment",
             "drop_percent": 72
@@ -7461,6 +7789,7 @@
     },
     "19-2H": {
         "name": "ファエトン原野・南部 19-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Gale Stinger Fragment",
             "drop_percent": 72
@@ -7487,6 +7816,7 @@
     },
     "19-3H": {
         "name": "ファエトン原野・南部 19-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Dawn's Holy Sword Fragment",
             "drop_percent": 72
@@ -7513,6 +7843,7 @@
     },
     "19-1VH": {
         "name": "ファエトン原野・南部 19-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Extremely Dark Clothes Fragment",
             "drop_percent": 72
@@ -7543,6 +7874,7 @@
     },
     "19-2VH": {
         "name": "ファエトン原野・南部 19-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Abyss Moon Staff - Sacrifice Fragment",
             "drop_percent": 72
@@ -7573,6 +7905,7 @@
     },
     "19-3VH": {
         "name": "ファエトン原野・南部 19-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
             "drop_percent": 72
@@ -7603,6 +7936,7 @@
     },
     "20-1": {
         "name": "カスタリア樹林・西部 20-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Crimson Claw Fragment",
             "drop_percent": 36
@@ -7625,6 +7959,7 @@
     },
     "20-2": {
         "name": "カスタリア樹林・西部 20-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Divine Judgement Axe Fragment",
             "drop_percent": 36
@@ -7647,6 +7982,7 @@
     },
     "20-3": {
         "name": "カスタリア樹林・西部 20-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Flowing Azure Blade Fragment",
             "drop_percent": 36
@@ -7669,6 +8005,7 @@
     },
     "20-4": {
         "name": "カスタリア樹林・西部 20-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Mermaid Princess' Spirit Tear Fragment",
             "drop_percent": 36
@@ -7691,6 +8028,7 @@
     },
     "20-5": {
         "name": "カスタリア樹林・西部 20-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Divine Beast's Prayer Fragment",
             "drop_percent": 36
@@ -7713,6 +8051,7 @@
     },
     "20-6": {
         "name": "カスタリア樹林・西部 20-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Fury Dragon Pendant Fragment",
             "drop_percent": 36
@@ -7735,6 +8074,7 @@
     },
     "20-7": {
         "name": "カスタリア樹林・西部 20-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Mermaid Princess' Spirit Tear Fragment",
             "drop_percent": 36
@@ -7757,6 +8097,7 @@
     },
     "20-8": {
         "name": "カスタリア樹林・西部 20-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Divine Beast's Prayer Fragment",
             "drop_percent": 36
@@ -7779,6 +8120,7 @@
     },
     "20-9": {
         "name": "カスタリア樹林・西部 20-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Fury Dragon Pendant Fragment",
             "drop_percent": 36
@@ -7801,6 +8143,7 @@
     },
     "20-10": {
         "name": "カスタリア樹林・西部 20-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Mermaid Princess' Spirit Tear Fragment",
             "drop_percent": 36
@@ -7823,6 +8166,7 @@
     },
     "20-11": {
         "name": "カスタリア樹林・西部 20-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Divine Beast's Prayer Fragment",
             "drop_percent": 36
@@ -7845,6 +8189,7 @@
     },
     "20-12": {
         "name": "カスタリア樹林・西部 20-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Fury Dragon Pendant Fragment",
             "drop_percent": 36
@@ -7867,6 +8212,7 @@
     },
     "20-13": {
         "name": "カスタリア樹林・西部 20-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Mermaid Princess' Spirit Tear Fragment",
             "drop_percent": 36
@@ -7889,6 +8235,7 @@
     },
     "20-14": {
         "name": "カスタリア樹林・西部 20-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Divine Beast's Prayer Fragment",
             "drop_percent": 36
@@ -7911,6 +8258,7 @@
     },
     "20-1H": {
         "name": "カスタリア樹林・西部 20-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Mermaid Princess' Spirit Tear Fragment",
             "drop_percent": 72
@@ -7937,6 +8285,7 @@
     },
     "20-2H": {
         "name": "カスタリア樹林・西部 20-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Divine Beast's Prayer Fragment",
             "drop_percent": 72
@@ -7963,6 +8312,7 @@
     },
     "20-3H": {
         "name": "カスタリア樹林・西部 20-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Fury Dragon Pendant Fragment",
             "drop_percent": 72
@@ -7989,6 +8339,7 @@
     },
     "20-1VH": {
         "name": "カスタリア樹林・西部 20-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Beautiful Clothes - Soul Rose Fragment",
             "drop_percent": 72
@@ -8019,6 +8370,7 @@
     },
     "20-2VH": {
         "name": "カスタリア樹林・西部 20-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Green Butterfly Wand Fragment",
             "drop_percent": 72
@@ -8049,6 +8401,7 @@
     },
     "20-3VH": {
         "name": "カスタリア樹林・西部 20-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Chaotic Choker Fragment",
             "drop_percent": 72
@@ -8079,6 +8432,7 @@
     },
     "21-1": {
         "name": "カスタリア樹林・東部 21-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Fury Dragon Pendant Fragment",
             "drop_percent": 36
@@ -8101,6 +8455,7 @@
     },
     "21-2": {
         "name": "カスタリア樹林・東部 21-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Mermaid Princess' Spirit Tear Fragment",
             "drop_percent": 36
@@ -8123,6 +8478,7 @@
     },
     "21-3": {
         "name": "カスタリア樹林・東部 21-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Divine Beast's Prayer Fragment",
             "drop_percent": 36
@@ -8145,6 +8501,7 @@
     },
     "21-4": {
         "name": "カスタリア樹林・東部 21-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Infernal Greaves Fragment",
             "drop_percent": 36
@@ -8167,6 +8524,7 @@
     },
     "21-5": {
         "name": "カスタリア樹林・東部 21-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Maiden Cloth Fragment",
             "drop_percent": 36
@@ -8189,6 +8547,7 @@
     },
     "21-6": {
         "name": "カスタリア樹林・東部 21-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Holy Prayer's Crown Fragment",
             "drop_percent": 36
@@ -8211,6 +8570,7 @@
     },
     "21-7": {
         "name": "カスタリア樹林・東部 21-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Nine Heavens' Armor Fragment",
             "drop_percent": 36
@@ -8233,6 +8593,7 @@
     },
     "21-8": {
         "name": "カスタリア樹林・東部 21-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Holy Sakura's Armor Fragment",
             "drop_percent": 36
@@ -8255,6 +8616,7 @@
     },
     "21-9": {
         "name": "カスタリア樹林・東部 21-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Empress Robe Fragment",
             "drop_percent": 36
@@ -8277,6 +8639,7 @@
     },
     "21-10": {
         "name": "カスタリア樹林・東部 21-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Maiden Cloth Fragment",
             "drop_percent": 36
@@ -8299,6 +8662,7 @@
     },
     "21-11": {
         "name": "カスタリア樹林・東部 21-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Holy Prayer's Crown Fragment",
             "drop_percent": 36
@@ -8321,6 +8685,7 @@
     },
     "21-12": {
         "name": "カスタリア樹林・東部 21-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Holy Sakura's Armor Fragment",
             "drop_percent": 36
@@ -8343,6 +8708,7 @@
     },
     "21-13": {
         "name": "カスタリア樹林・東部 21-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Empress Robe Fragment",
             "drop_percent": 36
@@ -8365,6 +8731,7 @@
     },
     "21-14": {
         "name": "カスタリア樹林・東部 21-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Nine Heavens' Armor Fragment",
             "drop_percent": 36
@@ -8387,6 +8754,7 @@
     },
     "21-1H": {
         "name": "カスタリア樹林・東部 21-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Holy Prayer's Crown Fragment",
             "drop_percent": 72
@@ -8413,6 +8781,7 @@
     },
     "21-2H": {
         "name": "カスタリア樹林・東部 21-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Holy Sakura's Armor Fragment",
             "drop_percent": 72
@@ -8439,6 +8808,7 @@
     },
     "21-3H": {
         "name": "カスタリア樹林・東部 21-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Nine Heavens' Armor Fragment",
             "drop_percent": 72
@@ -8465,6 +8835,7 @@
     },
     "21-1VH": {
         "name": "カスタリア樹林・東部 21-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Ruby Rose Choker Fragment",
             "drop_percent": 72
@@ -8495,6 +8866,7 @@
     },
     "21-2VH": {
         "name": "カスタリア樹林・東部 21-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Elfin Choker Fragment",
             "drop_percent": 72
@@ -8525,6 +8897,7 @@
     },
     "21-3VH": {
         "name": "カスタリア樹林・東部 21-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Ruby Rose Choker Fragment",
             "drop_percent": 72
@@ -8555,6 +8928,7 @@
     },
     "22-1": {
         "name": "マティルド岩峯・南部 22-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Infernal Greaves Fragment",
             "drop_percent": 36
@@ -8584,6 +8958,7 @@
     },
     "22-2": {
         "name": "マティルド岩峯・南部 22-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Maiden Cloth Fragment",
             "drop_percent": 36
@@ -8613,6 +8988,7 @@
     },
     "22-3": {
         "name": "マティルド岩峯・南部 22-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Holy Prayer's Crown Fragment",
             "drop_percent": 36
@@ -8642,6 +9018,7 @@
     },
     "22-4": {
         "name": "マティルド岩峯・南部 22-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Tír na nÓg Dagger Fragment",
             "drop_percent": 36
@@ -8671,6 +9048,7 @@
     },
     "22-5": {
         "name": "マティルド岩峯・南部 22-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Great Sword of Sin Fragment",
             "drop_percent": 36
@@ -8700,6 +9078,7 @@
     },
     "22-6": {
         "name": "マティルド岩峯・南部 22-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Lightning Wand Fragment",
             "drop_percent": 36
@@ -8729,6 +9108,7 @@
     },
     "22-7": {
         "name": "マティルド岩峯・南部 22-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Blood Raven Sword Fragment",
             "drop_percent": 36
@@ -8758,6 +9138,7 @@
     },
     "22-8": {
         "name": "マティルド岩峯・南部 22-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Atlantis Rod Fragment",
             "drop_percent": 36
@@ -8787,6 +9168,7 @@
     },
     "22-9": {
         "name": "マティルド岩峯・南部 22-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Tír na nÓg Dagger Fragment",
             "drop_percent": 36
@@ -8816,6 +9198,7 @@
     },
     "22-10": {
         "name": "マティルド岩峯・南部 22-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Blood Raven Sword Fragment",
             "drop_percent": 36
@@ -8845,6 +9228,7 @@
     },
     "22-11": {
         "name": "マティルド岩峯・南部 22-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Atlantis Rod Fragment",
             "drop_percent": 36
@@ -8874,6 +9258,7 @@
     },
     "22-12": {
         "name": "マティルド岩峯・南部 22-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Great Sword of Sin Fragment",
             "drop_percent": 36
@@ -8903,6 +9288,7 @@
     },
     "22-13": {
         "name": "マティルド岩峯・南部 22-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Heavenly Red Bow Fragment",
             "drop_percent": 36
@@ -8932,6 +9318,7 @@
     },
     "22-14": {
         "name": "マティルド岩峯・南部 22-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Lightning Wand Fragment",
             "drop_percent": 36
@@ -8961,6 +9348,7 @@
     },
     "22-1H": {
         "name": "マティルド岩峯・南部 22-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Gaia Axe Fragment",
             "drop_percent": 72
@@ -8994,6 +9382,7 @@
     },
     "22-2H": {
         "name": "マティルド岩峯・南部 22-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Heaven's Protective Holy Spear Fragment",
             "drop_percent": 72
@@ -9027,6 +9416,7 @@
     },
     "22-3H": {
         "name": "マティルド岩峯・南部 22-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Great Sword of Sin Fragment",
             "drop_percent": 72
@@ -9060,6 +9450,7 @@
     },
     "22-1VH": {
         "name": "マティルド岩峯・南部 22-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Northern Heaven Supreme Flame Armor Fragment",
             "drop_percent": 72
@@ -9090,6 +9481,7 @@
     },
     "22-2VH": {
         "name": "マティルド岩峯・南部 22-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Black Snake's Fiendish Flame Staff Fragment",
             "drop_percent": 72
@@ -9120,6 +9512,7 @@
     },
     "22-3VH": {
         "name": "マティルド岩峯・南部 22-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Cardinal Clarion Brooch Fragment",
             "drop_percent": 72
@@ -9150,6 +9543,7 @@
     },
     "23-1": {
         "name": "マティルド岩峯・北部 23-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Cocytus Nail Fragment",
             "drop_percent": 36
@@ -9179,6 +9573,7 @@
     },
     "23-2": {
         "name": "マティルド岩峯・北部 23-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Lightning Wand Fragment",
             "drop_percent": 36
@@ -9208,6 +9603,7 @@
     },
     "23-3": {
         "name": "マティルド岩峯・北部 23-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Atlantis Rod Fragment",
             "drop_percent": 36
@@ -9237,6 +9633,7 @@
     },
     "23-4": {
         "name": "マティルド岩峯・北部 23-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Glorious King's Shield Bangle Fragment",
             "drop_percent": 36
@@ -9266,6 +9663,7 @@
     },
     "23-5": {
         "name": "マティルド岩峯・北部 23-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Sophos Bracelet Fragment",
             "drop_percent": 36
@@ -9295,6 +9693,7 @@
     },
     "23-6": {
         "name": "マティルド岩峯・北部 23-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "War God's Arm Fragment",
             "drop_percent": 36
@@ -9324,6 +9723,7 @@
     },
     "23-7": {
         "name": "マティルド岩峯・北部 23-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Glorious King's Shield Bangle Fragment",
             "drop_percent": 36
@@ -9353,6 +9753,7 @@
     },
     "23-8": {
         "name": "マティルド岩峯・北部 23-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Sophos Bracelet Fragment",
             "drop_percent": 36
@@ -9382,6 +9783,7 @@
     },
     "23-9": {
         "name": "マティルド岩峯・北部 23-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "War God's Arm Fragment",
             "drop_percent": 36
@@ -9411,6 +9813,7 @@
     },
     "23-10": {
         "name": "マティルド岩峯・北部 23-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Glorious King's Shield Bangle Fragment",
             "drop_percent": 36
@@ -9440,6 +9843,7 @@
     },
     "23-11": {
         "name": "マティルド岩峯・北部 23-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Sophos Bracelet Fragment",
             "drop_percent": 36
@@ -9469,6 +9873,7 @@
     },
     "23-12": {
         "name": "マティルド岩峯・北部 23-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Glorious King's Shield Bangle Fragment",
             "drop_percent": 36
@@ -9498,6 +9903,7 @@
     },
     "23-13": {
         "name": "マティルド岩峯・北部 23-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Sophos Bracelet Fragment",
             "drop_percent": 36
@@ -9527,6 +9933,7 @@
     },
     "23-14": {
         "name": "マティルド岩峯・北部 23-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "War God's Arm Fragment",
             "drop_percent": 36
@@ -9556,6 +9963,7 @@
     },
     "23-1H": {
         "name": "マティルド岩峯・北部 23-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Sophos Bracelet Fragment",
             "drop_percent": 72
@@ -9589,6 +9997,7 @@
     },
     "23-2H": {
         "name": "マティルド岩峯・北部 23-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Glorious King's Shield Bangle Fragment",
             "drop_percent": 72
@@ -9622,6 +10031,7 @@
     },
     "23-3H": {
         "name": "マティルド岩峯・北部 23-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "War God's Arm Fragment",
             "drop_percent": 72
@@ -9655,6 +10065,7 @@
     },
     "23-1VH": {
         "name": "マティルド岩峯・北部 23-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Holy Light's Lily Plate Fragment",
             "drop_percent": 72
@@ -9685,6 +10096,7 @@
     },
     "23-2VH": {
         "name": "マティルド岩峯・北部 23-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Heavenly Wand of the White Pearl Fragment",
             "drop_percent": 72
@@ -9715,6 +10127,7 @@
     },
     "23-3VH": {
         "name": "マティルド岩峯・北部 23-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Dark Prison Staff of the Black Pearl Fragment",
             "drop_percent": 72
@@ -9745,6 +10158,7 @@
     },
     "24-1": {
         "name": "レディウス群峰・西麓 24-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "War God's Arm Fragment",
             "drop_percent": 36
@@ -9774,6 +10188,7 @@
     },
     "24-2": {
         "name": "レディウス群峰・西麓 24-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Sophos Bracelet Fragment",
             "drop_percent": 36
@@ -9803,6 +10218,7 @@
     },
     "24-3": {
         "name": "レディウス群峰・西麓 24-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Glorious King's Shield Bangle Fragment",
             "drop_percent": 36
@@ -9832,6 +10248,7 @@
     },
     "24-4": {
         "name": "レディウス群峰・西麓 24-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Royal Guard Hat Fragment",
             "drop_percent": 36
@@ -9861,6 +10278,7 @@
     },
     "24-5": {
         "name": "レディウス群峰・西麓 24-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Fire Oni's Tori Fragment",
             "drop_percent": 36
@@ -9890,6 +10308,7 @@
     },
     "24-6": {
         "name": "レディウス群峰・西麓 24-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Exomagia Robe Fragment",
             "drop_percent": 36
@@ -9919,6 +10338,7 @@
     },
     "24-7": {
         "name": "レディウス群峰・西麓 24-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Rage Queen Dress Fragment",
             "drop_percent": 36
@@ -9948,6 +10368,7 @@
     },
     "24-8": {
         "name": "レディウス群峰・西麓 24-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Gold King's Armor Fragment",
             "drop_percent": 36
@@ -9977,6 +10398,7 @@
     },
     "24-9": {
         "name": "レディウス群峰・西麓 24-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Blood Ruby Heel Fragment",
             "drop_percent": 36
@@ -10006,6 +10428,7 @@
     },
     "24-10": {
         "name": "レディウス群峰・西麓 24-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Fire Oni's Tori Fragment",
             "drop_percent": 36
@@ -10035,6 +10458,7 @@
     },
     "24-11": {
         "name": "レディウス群峰・西麓 24-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Exomagia Robe Fragment",
             "drop_percent": 36
@@ -10064,6 +10488,7 @@
     },
     "24-12": {
         "name": "レディウス群峰・西麓 24-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Gold King's Armor Fragment",
             "drop_percent": 36
@@ -10093,6 +10518,7 @@
     },
     "24-13": {
         "name": "レディウス群峰・西麓 24-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Exomagia Robe Fragment",
             "drop_percent": 36
@@ -10122,6 +10548,7 @@
     },
     "24-14": {
         "name": "レディウス群峰・西麓 24-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Fire Oni's Tori Fragment",
             "drop_percent": 36
@@ -10151,6 +10578,7 @@
     },
     "24-1H": {
         "name": "レディウス群峰・西麓 24-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Rage Queen Dress Fragment",
             "drop_percent": 72
@@ -10184,6 +10612,7 @@
     },
     "24-2H": {
         "name": "レディウス群峰・西麓 24-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Blood Ruby Heel Fragment",
             "drop_percent": 72
@@ -10217,6 +10646,7 @@
     },
     "24-3H": {
         "name": "レディウス群峰・西麓 24-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Royal Guard Hat Fragment",
             "drop_percent": 72
@@ -10250,6 +10680,7 @@
     },
     "24-1VH": {
         "name": "レディウス群峰・西麓 24-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Godly Red Ring - Ruby Rose Fragment",
             "drop_percent": 72
@@ -10280,6 +10711,7 @@
     },
     "24-2VH": {
         "name": "レディウス群峰・西麓 24-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Holy Engraved Armor of Pure Gold Fragment",
             "drop_percent": 72
@@ -10310,6 +10742,7 @@
     },
     "24-3VH": {
         "name": "レディウス群峰・西麓 24-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Soft Ice Sherbet Fragment",
             "drop_percent": 72
@@ -10340,6 +10773,7 @@
     },
     "25-1": {
         "name": "レディウス群峰・東麓 25-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Rage Queen Dress Fragment",
             "drop_percent": 36
@@ -10369,6 +10803,7 @@
     },
     "25-2": {
         "name": "レディウス群峰・東麓 25-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Fire Oni's Tori Fragment",
             "drop_percent": 36
@@ -10398,6 +10833,7 @@
     },
     "25-3": {
         "name": "レディウス群峰・東麓 25-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Exomagia Robe Fragment",
             "drop_percent": 36
@@ -10427,6 +10863,7 @@
     },
     "25-4": {
         "name": "レディウス群峰・東麓 25-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Heaven Rod - Stellar Sphere Fragment",
             "drop_percent": 36
@@ -10456,6 +10893,7 @@
     },
     "25-5": {
         "name": "レディウス群峰・東麓 25-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Storm God Tempest Gear Fragment",
             "drop_percent": 36
@@ -10485,6 +10923,7 @@
     },
     "25-6": {
         "name": "レディウス群峰・東麓 25-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Black Snake Dragon's Staff Fragment",
             "drop_percent": 36
@@ -10514,6 +10953,7 @@
     },
     "25-7": {
         "name": "レディウス群峰・東麓 25-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Konominato Sword - Aqua Ruler Fragment",
             "drop_percent": 36
@@ -10543,6 +10983,7 @@
     },
     "25-8": {
         "name": "レディウス群峰・東麓 25-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "God Roar Axe - Terra Break Fragment",
             "drop_percent": 36
@@ -10572,6 +11013,7 @@
     },
     "25-9": {
         "name": "レディウス群峰・東麓 25-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Divine Spear - Doom Pain Fragment",
             "drop_percent": 36
@@ -10601,6 +11043,7 @@
     },
     "25-10": {
         "name": "レディウス群峰・東麓 25-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Twin God Sword of Lightning Fragment",
             "drop_percent": 36
@@ -10630,6 +11073,7 @@
     },
     "25-11": {
         "name": "レディウス群峰・東麓 25-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Armored Bow - Deus Fall Fragment",
             "drop_percent": 36
@@ -10659,6 +11103,7 @@
     },
     "25-12": {
         "name": "レディウス群峰・東麓 25-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Ifrit Katana - Ignite Fragment",
             "drop_percent": 36
@@ -10688,6 +11133,7 @@
     },
     "25-13": {
         "name": "レディウス群峰・東麓 25-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Black Snake Dragon's Staff Fragment",
             "drop_percent": 36
@@ -10717,6 +11163,7 @@
     },
     "25-14": {
         "name": "レディウス群峰・東麓 25-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Konominato Sword - Aqua Ruler Fragment",
             "drop_percent": 36
@@ -10746,6 +11193,7 @@
     },
     "25-1H": {
         "name": "レディウス群峰・東麓 25-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Konominato Sword - Aqua Ruler Fragment",
             "drop_percent": 72
@@ -10779,6 +11227,7 @@
     },
     "25-2H": {
         "name": "レディウス群峰・東麓 25-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Black Snake Dragon's Staff Fragment",
             "drop_percent": 72
@@ -10812,6 +11261,7 @@
     },
     "25-3H": {
         "name": "レディウス群峰・東麓 25-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Heaven Rod - Stellar Sphere Fragment",
             "drop_percent": 72
@@ -10845,6 +11295,7 @@
     },
     "25-1VH": {
         "name": "レディウス群峰・東麓 25-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Doughnut Choker Fragment",
             "drop_percent": 72
@@ -10875,6 +11326,7 @@
     },
     "26-1": {
         "name": "ペテロ大森林・西部 26-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Twin God Sword of Lightning Fragment",
             "drop_percent": 36
@@ -10904,6 +11356,7 @@
     },
     "26-2": {
         "name": "ペテロ大森林・西部 26-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Black Snake Dragon's Staff Fragment",
             "drop_percent": 36
@@ -10933,6 +11386,7 @@
     },
     "26-3": {
         "name": "ペテロ大森林・西部 26-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Konominato Sword - Aqua Ruler Fragment",
             "drop_percent": 36
@@ -10962,6 +11416,7 @@
     },
     "26-4": {
         "name": "ペテロ大森林・西部 26-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Flowering Fire Peony Fragment",
             "drop_percent": 36
@@ -10991,6 +11446,7 @@
     },
     "26-5": {
         "name": "ペテロ大森林・西部 26-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Sea Dragon God's Hair Ornament Fragment",
             "drop_percent": 36
@@ -11020,6 +11476,7 @@
     },
     "26-6": {
         "name": "ペテロ大森林・西部 26-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Little Ice Princess' Knot Fragment",
             "drop_percent": 36
@@ -11049,6 +11506,7 @@
     },
     "26-7": {
         "name": "ペテロ大森林・西部 26-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Flowering Fire Peony Fragment",
             "drop_percent": 36
@@ -11078,6 +11536,7 @@
     },
     "26-8": {
         "name": "ペテロ大森林・西部 26-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Sea Dragon God's Hair Ornament Fragment",
             "drop_percent": 36
@@ -11107,6 +11566,7 @@
     },
     "26-9": {
         "name": "ペテロ大森林・西部 26-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Little Ice Princess' Knot Fragment",
             "drop_percent": 36
@@ -11136,6 +11596,7 @@
     },
     "26-10": {
         "name": "ペテロ大森林・西部 26-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Flowering Fire Peony Fragment",
             "drop_percent": 36
@@ -11165,6 +11626,7 @@
     },
     "26-11": {
         "name": "ペテロ大森林・西部 26-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Sea Dragon God's Hair Ornament Fragment",
             "drop_percent": 36
@@ -11194,6 +11656,7 @@
     },
     "26-12": {
         "name": "ペテロ大森林・西部 26-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Little Ice Princess' Knot Fragment",
             "drop_percent": 36
@@ -11223,6 +11686,7 @@
     },
     "26-13": {
         "name": "ペテロ大森林・西部 26-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Flowering Fire Peony Fragment",
             "drop_percent": 36
@@ -11252,6 +11716,7 @@
     },
     "26-14": {
         "name": "ペテロ大森林・西部 26-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Sea Dragon God's Hair Ornament Fragment",
             "drop_percent": 36
@@ -11281,6 +11746,7 @@
     },
     "26-1H": {
         "name": "ペテロ大森林・西部 26-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Little Ice Princess' Knot Fragment",
             "drop_percent": 72
@@ -11314,6 +11780,7 @@
     },
     "26-2H": {
         "name": "ペテロ大森林・西部 26-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Sea Dragon God's Hair Ornament Fragment",
             "drop_percent": 72
@@ -11347,6 +11814,7 @@
     },
     "26-3H": {
         "name": "ペテロ大森林・西部 26-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Flowering Fire Peony Fragment",
             "drop_percent": 72
@@ -11380,6 +11848,7 @@
     },
     "27-1": {
         "name": "ペテロ大森林・東部 27-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Sea Dragon God's Hair Ornament Fragment",
             "drop_percent": 36
@@ -11409,6 +11878,7 @@
     },
     "27-2": {
         "name": "ペテロ大森林・東部 27-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Flowering Fire Peony Fragment",
             "drop_percent": 36
@@ -11438,6 +11908,7 @@
     },
     "27-3": {
         "name": "ペテロ大森林・東部 27-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Little Ice Princess' Knot Fragment",
             "drop_percent": 36
@@ -11467,6 +11938,7 @@
     },
     "27-4": {
         "name": "ペテロ大森林・東部 27-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Furious Wind Armor Fragment",
             "drop_percent": 36
@@ -11496,6 +11968,7 @@
     },
     "27-5": {
         "name": "ペテロ大森林・東部 27-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Refreshing Ice Garment Fragment",
             "drop_percent": 36
@@ -11525,6 +11998,7 @@
     },
     "27-6": {
         "name": "ペテロ大森林・東部 27-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Sky Soaring Gold Shoes Fragment",
             "drop_percent": 36
@@ -11554,6 +12028,7 @@
     },
     "27-7": {
         "name": "ペテロ大森林・東部 27-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Prosperity Veil Fragment",
             "drop_percent": 36
@@ -11583,6 +12058,7 @@
     },
     "27-8": {
         "name": "ペテロ大森林・東部 27-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Senka Dance Armor Fragment",
             "drop_percent": 36
@@ -11612,6 +12088,7 @@
     },
     "27-9": {
         "name": "ペテロ大森林・東部 27-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Extremely Dark Clothes Fragment",
             "drop_percent": 36
@@ -11641,6 +12118,7 @@
     },
     "27-10": {
         "name": "ペテロ大森林・東部 27-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Refreshing Ice Garment Fragment",
             "drop_percent": 36
@@ -11670,6 +12148,7 @@
     },
     "27-11": {
         "name": "ペテロ大森林・東部 27-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Sky Soaring Gold Shoes Fragment",
             "drop_percent": 36
@@ -11699,6 +12178,7 @@
     },
     "27-12": {
         "name": "ペテロ大森林・東部 27-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Prosperity Veil Fragment",
             "drop_percent": 36
@@ -11728,6 +12208,7 @@
     },
     "27-13": {
         "name": "ペテロ大森林・東部 27-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Senka Dance Armor Fragment",
             "drop_percent": 36
@@ -11757,6 +12238,7 @@
     },
     "27-14": {
         "name": "ペテロ大森林・東部 27-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Extremely Dark Clothes Fragment",
             "drop_percent": 36
@@ -11786,6 +12268,7 @@
     },
     "27-1H": {
         "name": "ペテロ大森林・東部 27-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Prosperity Veil Fragment",
             "drop_percent": 72
@@ -11819,6 +12302,7 @@
     },
     "27-2H": {
         "name": "ペテロ大森林・東部 27-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Senka Dance Armor Fragment",
             "drop_percent": 72
@@ -11852,6 +12336,7 @@
     },
     "27-3H": {
         "name": "ペテロ大森林・東部 27-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Extremely Dark Clothes Fragment",
             "drop_percent": 72
@@ -11885,6 +12370,7 @@
     },
     "28-1": {
         "name": "ディズタル河食岸・北部 28-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Prosperity Veil Fragment",
             "drop_percent": 36
@@ -11914,6 +12400,7 @@
     },
     "28-2": {
         "name": "ディズタル河食岸・北部 28-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Senka Dance Armor Fragment",
             "drop_percent": 36
@@ -11943,6 +12430,7 @@
     },
     "28-3": {
         "name": "ディズタル河食岸・北部 28-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Extremely Dark Clothes Fragment",
             "drop_percent": 36
@@ -11972,6 +12460,7 @@
     },
     "28-4": {
         "name": "ディズタル河食岸・北部 28-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Extremely Dark Nail - Bloody Howl Fragment",
             "drop_percent": 36
@@ -12001,6 +12490,7 @@
     },
     "28-5": {
         "name": "ディズタル河食岸・北部 28-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "World Tree's Branch Wand Fragment",
             "drop_percent": 36
@@ -12030,6 +12520,7 @@
     },
     "28-6": {
         "name": "ディズタル河食岸・北部 28-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Emerald Wind God's Tachi Fragment",
             "drop_percent": 36
@@ -12059,6 +12550,7 @@
     },
     "28-7": {
         "name": "ディズタル河食岸・北部 28-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Heavenly Black Sword of Obsidian Fragment",
             "drop_percent": 36
@@ -12088,6 +12580,7 @@
     },
     "28-8": {
         "name": "ディズタル河食岸・北部 28-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Machine Axe - Core Breaker Fragment",
             "drop_percent": 36
@@ -12117,6 +12610,7 @@
     },
     "28-9": {
         "name": "ディズタル河食岸・北部 28-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Ice Bow - Freezing Tear Fragment",
             "drop_percent": 36
@@ -12146,6 +12640,7 @@
     },
     "28-10": {
         "name": "ディズタル河食岸・北部 28-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Extremely Dark Nail - Bloody Howl Fragment",
             "drop_percent": 36
@@ -12175,6 +12670,7 @@
     },
     "28-11": {
         "name": "ディズタル河食岸・北部 28-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "World Tree's Branch Wand Fragment",
             "drop_percent": 36
@@ -12204,6 +12700,7 @@
     },
     "28-12": {
         "name": "ディズタル河食岸・北部 28-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Overlord Light Dragon Sword Fragment",
             "drop_percent": 36
@@ -12233,6 +12730,7 @@
     },
     "28-13": {
         "name": "ディズタル河食岸・北部 28-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Fire Spear - Prominence Fragment",
             "drop_percent": 36
@@ -12262,6 +12760,7 @@
     },
     "28-14": {
         "name": "ディズタル河食岸・北部 28-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Abyss Moon Staff - Sacrifice Fragment",
             "drop_percent": 36
@@ -12291,6 +12790,7 @@
     },
     "28-1H": {
         "name": "ディズタル河食岸・北部 28-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Overlord Light Dragon Sword Fragment",
             "drop_percent": 72
@@ -12324,6 +12824,7 @@
     },
     "28-2H": {
         "name": "ディズタル河食岸・北部 28-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Fire Spear - Prominence Fragment",
             "drop_percent": 72
@@ -12357,6 +12858,7 @@
     },
     "28-3H": {
         "name": "ディズタル河食岸・北部 28-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Abyss Moon Staff - Sacrifice Fragment",
             "drop_percent": 72
@@ -12390,6 +12892,7 @@
     },
     "29-1": {
         "name": "ディズタル河食岸・南部 29-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Machine Axe - Core Breaker Fragment",
             "drop_percent": 36
@@ -12419,6 +12922,7 @@
     },
     "29-2": {
         "name": "ディズタル河食岸・南部 29-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Ice Bow - Freezing Tear Fragment",
             "drop_percent": 36
@@ -12448,6 +12952,7 @@
     },
     "29-3": {
         "name": "ディズタル河食岸・南部 29-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Heavenly Black Sword of Obsidian Fragment",
             "drop_percent": 36
@@ -12477,6 +12982,7 @@
     },
     "29-4": {
         "name": "ディズタル河食岸・南部 29-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Shield God Ring - Wall Breath Fragment",
             "drop_percent": 36
@@ -12506,6 +13012,7 @@
     },
     "29-5": {
         "name": "ディズタル河食岸・南部 29-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
             "drop_percent": 36
@@ -12535,6 +13042,7 @@
     },
     "29-6": {
         "name": "ディズタル河食岸・南部 29-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Deep Crystallized Xenocrystal Fragment",
             "drop_percent": 36
@@ -12564,6 +13072,7 @@
     },
     "29-7": {
         "name": "ディズタル河食岸・南部 29-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Shield God Ring - Wall Breath Fragment",
             "drop_percent": 36
@@ -12593,6 +13102,7 @@
     },
     "29-8": {
         "name": "ディズタル河食岸・南部 29-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
             "drop_percent": 36
@@ -12622,6 +13132,7 @@
     },
     "29-9": {
         "name": "ディズタル河食岸・南部 29-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Deep Crystallized Xenocrystal Fragment",
             "drop_percent": 36
@@ -12651,6 +13162,7 @@
     },
     "29-10": {
         "name": "ディズタル河食岸・南部 29-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Shield God Ring - Wall Breath Fragment",
             "drop_percent": 36
@@ -12680,6 +13192,7 @@
     },
     "29-11": {
         "name": "ディズタル河食岸・南部 29-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
             "drop_percent": 36
@@ -12709,6 +13222,7 @@
     },
     "29-12": {
         "name": "ディズタル河食岸・南部 29-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Deep Crystallized Xenocrystal Fragment",
             "drop_percent": 36
@@ -12738,6 +13252,7 @@
     },
     "29-13": {
         "name": "ディズタル河食岸・南部 29-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Shield God Ring - Wall Breath Fragment",
             "drop_percent": 36
@@ -12767,6 +13282,7 @@
     },
     "29-14": {
         "name": "ディズタル河食岸・南部 29-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
             "drop_percent": 36
@@ -12796,6 +13312,7 @@
     },
     "29-1H": {
         "name": "ディズタル河食岸・南部 29-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Deep Crystallized Xenocrystal Fragment",
             "drop_percent": 72
@@ -12829,6 +13346,7 @@
     },
     "29-2H": {
         "name": "ディズタル河食岸・南部 29-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Shield God Ring - Wall Breath Fragment",
             "drop_percent": 72
@@ -12862,6 +13380,7 @@
     },
     "29-3H": {
         "name": "ディズタル河食岸・南部 29-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
             "drop_percent": 72
@@ -12895,6 +13414,7 @@
     },
     "30-1": {
         "name": "フテラ断崖・北部 30-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Shield God Ring - Wall Breath Fragment",
             "drop_percent": 36
@@ -12924,6 +13444,7 @@
     },
     "30-2": {
         "name": "フテラ断崖・北部 30-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
             "drop_percent": 36
@@ -12953,6 +13474,7 @@
     },
     "30-3": {
         "name": "フテラ断崖・北部 30-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Deep Crystallized Xenocrystal Fragment",
             "drop_percent": 36
@@ -12982,6 +13504,7 @@
     },
     "30-4": {
         "name": "フテラ断崖・北部 30-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Glowing Silver Mirror Shield Fragment",
             "drop_percent": 36
@@ -13011,6 +13534,7 @@
     },
     "30-5": {
         "name": "フテラ断崖・北部 30-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Glowing Silver Mirror Boots Fragment",
             "drop_percent": 36
@@ -13040,6 +13564,7 @@
     },
     "30-6": {
         "name": "フテラ断崖・北部 30-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Glowing Silver Mirror Armor Fragment",
             "drop_percent": 36
@@ -13069,6 +13594,7 @@
     },
     "30-7": {
         "name": "フテラ断崖・北部 30-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Glowing Silver Mirror Shield Fragment",
             "drop_percent": 36
@@ -13098,6 +13624,7 @@
     },
     "30-8": {
         "name": "フテラ断崖・北部 30-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Glowing Silver Mirror Boots Fragment",
             "drop_percent": 36
@@ -13127,6 +13654,7 @@
     },
     "30-9": {
         "name": "フテラ断崖・北部 30-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Flowing Blue Dress - Azul Rondo Fragment",
             "drop_percent": 36
@@ -13156,6 +13684,7 @@
     },
     "30-10": {
         "name": "フテラ断崖・北部 30-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Beautiful Clothes - Soul Rose Fragment",
             "drop_percent": 36
@@ -13185,6 +13714,7 @@
     },
     "30-11": {
         "name": "フテラ断崖・北部 30-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Astrologer's Holy Spirit Robe Fragment",
             "drop_percent": 36
@@ -13214,6 +13744,7 @@
     },
     "30-12": {
         "name": "フテラ断崖・北部 30-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Glowing Silver Mirror Armor Fragment",
             "drop_percent": 36
@@ -13243,6 +13774,7 @@
     },
     "30-13": {
         "name": "フテラ断崖・北部 30-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Glowing Silver Mirror Shield Fragment",
             "drop_percent": 36
@@ -13272,6 +13804,7 @@
     },
     "30-14": {
         "name": "フテラ断崖・北部 30-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Glowing Silver Mirror Boots Fragment",
             "drop_percent": 36
@@ -13301,6 +13834,7 @@
     },
     "30-1H": {
         "name": "フテラ断崖・北部 30-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Flowing Blue Dress - Azul Rondo Fragment",
             "drop_percent": 72
@@ -13334,6 +13868,7 @@
     },
     "30-2H": {
         "name": "フテラ断崖・北部 30-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Beautiful Clothes - Soul Rose Fragment",
             "drop_percent": 72
@@ -13367,6 +13902,7 @@
     },
     "30-3H": {
         "name": "フテラ断崖・北部 30-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Astrologer's Holy Spirit Robe Fragment",
             "drop_percent": 72
@@ -13400,6 +13936,7 @@
     },
     "31-1": {
         "name": "フテラ断崖・南部 31-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Glowing Silver Mirror Boots Fragment",
             "drop_percent": 36
@@ -13429,6 +13966,7 @@
     },
     "31-2": {
         "name": "フテラ断崖・南部 31-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Glowing Silver Mirror Armor Fragment",
             "drop_percent": 36
@@ -13458,6 +13996,7 @@
     },
     "31-3": {
         "name": "フテラ断崖・南部 31-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Glowing Silver Mirror Shield Fragment",
             "drop_percent": 36
@@ -13487,6 +14026,7 @@
     },
     "31-4": {
         "name": "フテラ断崖・南部 31-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Star Nuclear Bow - Erzvogen Fragment",
             "drop_percent": 36
@@ -13516,6 +14056,7 @@
     },
     "31-5": {
         "name": "フテラ断崖・南部 31-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Phoenix Staff - Rise Flare Fragment",
             "drop_percent": 36
@@ -13545,6 +14086,7 @@
     },
     "31-6": {
         "name": "フテラ断崖・南部 31-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Turquoise Noah Fragment",
             "drop_percent": 36
@@ -13574,6 +14116,7 @@
     },
     "31-7": {
         "name": "フテラ断崖・南部 31-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Green Butterfly Wand Fragment",
             "drop_percent": 36
@@ -13603,6 +14146,7 @@
     },
     "31-8": {
         "name": "フテラ断崖・南部 31-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Star Nuclear Spear - Ertz Borg Fragment",
             "drop_percent": 36
@@ -13632,6 +14176,7 @@
     },
     "31-9": {
         "name": "フテラ断崖・南部 31-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Star Nuclear Fist - Elzloa Fragment",
             "drop_percent": 36
@@ -13661,6 +14206,7 @@
     },
     "31-10": {
         "name": "フテラ断崖・南部 31-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Star Nuclear Bow - Erzvogen Fragment",
             "drop_percent": 36
@@ -13690,6 +14236,7 @@
     },
     "31-11": {
         "name": "フテラ断崖・南部 31-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Phoenix Staff - Rise Flare Fragment",
             "drop_percent": 36
@@ -13719,6 +14266,7 @@
     },
     "31-12": {
         "name": "フテラ断崖・南部 31-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Turquoise Noah Fragment",
             "drop_percent": 36
@@ -13748,6 +14296,7 @@
     },
     "31-13": {
         "name": "フテラ断崖・南部 31-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Green Butterfly Wand Fragment",
             "drop_percent": 36
@@ -13777,6 +14326,7 @@
     },
     "31-14": {
         "name": "フテラ断崖・南部 31-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Star Nuclear Spear - Ertz Borg Fragment",
             "drop_percent": 36
@@ -13806,6 +14356,7 @@
     },
     "31-1H": {
         "name": "フテラ断崖・南部 31-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Gehenna Dragon Fragment",
             "drop_percent": 72
@@ -13839,6 +14390,7 @@
     },
     "31-2H": {
         "name": "フテラ断崖・南部 31-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Branch Blade of Divine Descent Fragment",
             "drop_percent": 72
@@ -13872,6 +14424,7 @@
     },
     "31-3H": {
         "name": "フテラ断崖・南部 31-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Star Nuclear Sword - Ertz Schneide Fragment",
             "drop_percent": 72
@@ -13905,6 +14458,7 @@
     },
     "32-1": {
         "name": "ファスキア森林・南部 32-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Branch Blade of Divine Descent Fragment",
             "drop_percent": 36
@@ -13934,6 +14488,7 @@
     },
     "32-2": {
         "name": "ファスキア森林・南部 32-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Green Butterfly Wand Fragment",
             "drop_percent": 36
@@ -13963,6 +14518,7 @@
     },
     "32-3": {
         "name": "ファスキア森林・南部 32-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Phoenix Staff - Rise Flare Fragment",
             "drop_percent": 36
@@ -13992,6 +14548,7 @@
     },
     "32-4": {
         "name": "ファスキア森林・南部 32-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Ruby Rose Choker Fragment",
             "drop_percent": 36
@@ -14021,6 +14578,7 @@
     },
     "32-5": {
         "name": "ファスキア森林・南部 32-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Chaotic Choker Fragment",
             "drop_percent": 36
@@ -14050,6 +14608,7 @@
     },
     "32-6": {
         "name": "ファスキア森林・南部 32-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Ruby Rose Choker Fragment",
             "drop_percent": 36
@@ -14079,6 +14638,7 @@
     },
     "32-7": {
         "name": "ファスキア森林・南部 32-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Elfin Choker Fragment",
             "drop_percent": 36
@@ -14108,6 +14668,7 @@
     },
     "32-8": {
         "name": "ファスキア森林・南部 32-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Ruby Rose Choker Fragment",
             "drop_percent": 36
@@ -14137,6 +14698,7 @@
     },
     "32-9": {
         "name": "ファスキア森林・南部 32-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Elfin Choker Fragment",
             "drop_percent": 36
@@ -14166,6 +14728,7 @@
     },
     "32-10": {
         "name": "ファスキア森林・南部 32-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Ruby Rose Choker Fragment",
             "drop_percent": 36
@@ -14195,6 +14758,7 @@
     },
     "32-11": {
         "name": "ファスキア森林・南部 32-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Chaotic Choker Fragment",
             "drop_percent": 36
@@ -14224,6 +14788,7 @@
     },
     "32-12": {
         "name": "ファスキア森林・南部 32-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Elfin Choker Fragment",
             "drop_percent": 36
@@ -14253,6 +14818,7 @@
     },
     "32-13": {
         "name": "ファスキア森林・南部 32-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Chaotic Choker Fragment",
             "drop_percent": 36
@@ -14282,6 +14848,7 @@
     },
     "32-14": {
         "name": "ファスキア森林・南部 32-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Ruby Rose Choker Fragment",
             "drop_percent": 36
@@ -14311,6 +14878,7 @@
     },
     "32-1H": {
         "name": "ファスキア森林・南部 32-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Chaotic Choker Fragment",
             "drop_percent": 72
@@ -14344,6 +14912,7 @@
     },
     "32-2H": {
         "name": "ファスキア森林・南部 32-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Elfin Choker Fragment",
             "drop_percent": 72
@@ -14377,6 +14946,7 @@
     },
     "32-3H": {
         "name": "ファスキア森林・南部 32-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Ruby Rose Choker Fragment",
             "drop_percent": 72
@@ -14410,6 +14980,7 @@
     },
     "33-1": {
         "name": "ファスキア森林・東部 33-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Elfin Choker Fragment",
             "drop_percent": 36
@@ -14439,6 +15010,7 @@
     },
     "33-2": {
         "name": "ファスキア森林・東部 33-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Chaotic Choker Fragment",
             "drop_percent": 36
@@ -14468,6 +15040,7 @@
     },
     "33-3": {
         "name": "ファスキア森林・東部 33-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Ruby Rose Choker Fragment",
             "drop_percent": 36
@@ -14497,6 +15070,7 @@
     },
     "33-4": {
         "name": "ファスキア森林・東部 33-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Southern Heaven Blazing Blue Armor Fragment",
             "drop_percent": 36
@@ -14526,6 +15100,7 @@
     },
     "33-5": {
         "name": "ファスキア森林・東部 33-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Eastern Heaven Green Wind Dress Fragment",
             "drop_percent": 36
@@ -14555,6 +15130,7 @@
     },
     "33-6": {
         "name": "ファスキア森林・東部 33-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Western Heaven Saintly Guide Robe Fragment",
             "drop_percent": 36
@@ -14584,6 +15160,7 @@
     },
     "33-7": {
         "name": "ファスキア森林・東部 33-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Heavenly Wing Saint Shoes Fragment",
             "drop_percent": 36
@@ -14613,6 +15190,7 @@
     },
     "33-8": {
         "name": "ファスキア森林・東部 33-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Eastern Heaven Green Wind Dress Fragment",
             "drop_percent": 36
@@ -14642,6 +15220,7 @@
     },
     "33-9": {
         "name": "ファスキア森林・東部 33-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Heavenly Wing Wise Saint Hat Fragment",
             "drop_percent": 36
@@ -14671,6 +15250,7 @@
     },
     "33-10": {
         "name": "ファスキア森林・東部 33-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Northern Heaven Supreme Flame Armor Fragment",
             "drop_percent": 36
@@ -14700,6 +15280,7 @@
     },
     "33-11": {
         "name": "ファスキア森林・東部 33-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Southern Heaven Blazing Blue Armor Fragment",
             "drop_percent": 36
@@ -14729,6 +15310,7 @@
     },
     "33-12": {
         "name": "ファスキア森林・東部 33-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Eastern Heaven Green Wind Dress Fragment",
             "drop_percent": 36
@@ -14758,6 +15340,7 @@
     },
     "33-13": {
         "name": "ファスキア森林・東部 33-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Heavenly Wing Saint Shoes Fragment",
             "drop_percent": 36
@@ -14787,6 +15370,7 @@
     },
     "33-14": {
         "name": "ファスキア森林・東部 33-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Heavenly Wing Wise Saint Hat Fragment",
             "drop_percent": 36
@@ -14816,6 +15400,7 @@
     },
     "33-1H": {
         "name": "ファスキア森林・東部 33-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Southern Heaven Blazing Blue Armor Fragment",
             "drop_percent": 72
@@ -14849,6 +15434,7 @@
     },
     "33-2H": {
         "name": "ファスキア森林・東部 33-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Western Heaven Saintly Guide Robe Fragment",
             "drop_percent": 72
@@ -14882,6 +15468,7 @@
     },
     "33-3H": {
         "name": "ファスキア森林・東部 33-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Eastern Heaven Green Wind Dress Fragment",
             "drop_percent": 72
@@ -14915,6 +15502,7 @@
     },
     "34-1": {
         "name": "デクスティア岩崖・西壁 34-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Southern Heaven Blazing Blue Armor Fragment",
             "drop_percent": 36
@@ -14944,6 +15532,7 @@
     },
     "34-2": {
         "name": "デクスティア岩崖・西壁 34-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Heavenly Wing Saint Shoes Fragment",
             "drop_percent": 36
@@ -14973,6 +15562,7 @@
     },
     "34-3": {
         "name": "デクスティア岩崖・西壁 34-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Northern Heaven Supreme Flame Armor Fragment",
             "drop_percent": 36
@@ -15002,6 +15592,7 @@
     },
     "34-4": {
         "name": "デクスティア岩崖・西壁 34-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Saintly Deer Spear - Alma Benard Fragment",
             "drop_percent": 36
@@ -15031,6 +15622,7 @@
     },
     "34-5": {
         "name": "デクスティア岩崖・西壁 34-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Dark Blade - Heavenly Raven's Guard Fragment",
             "drop_percent": 36
@@ -15060,6 +15652,7 @@
     },
     "34-6": {
         "name": "デクスティア岩崖・西壁 34-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Heaven Penetrating Falcon's Bow Fragment",
             "drop_percent": 36
@@ -15089,6 +15682,7 @@
     },
     "34-7": {
         "name": "デクスティア岩崖・西壁 34-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Prosperous Carp God's Katana Fragment",
             "drop_percent": 36
@@ -15118,6 +15712,7 @@
     },
     "34-8": {
         "name": "デクスティア岩崖・西壁 34-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Red Bear Emperor's Claw Battle Axe Fragment",
             "drop_percent": 36
@@ -15147,6 +15742,7 @@
     },
     "34-9": {
         "name": "デクスティア岩崖・西壁 34-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Dark Blade - Heavenly Raven's Guard Fragment",
             "drop_percent": 36
@@ -15176,6 +15772,7 @@
     },
     "34-10": {
         "name": "デクスティア岩崖・西壁 34-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Heaven Penetrating Falcon's Bow Fragment",
             "drop_percent": 36
@@ -15205,6 +15802,7 @@
     },
     "34-11": {
         "name": "デクスティア岩崖・西壁 34-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Red Bear Emperor's Claw Battle Axe Fragment",
             "drop_percent": 36
@@ -15234,6 +15832,7 @@
     },
     "34-12": {
         "name": "デクスティア岩崖・西壁 34-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Heaven Traveling Hook - Sharp Bite Fragment",
             "drop_percent": 36
@@ -15263,6 +15862,7 @@
     },
     "34-13": {
         "name": "デクスティア岩崖・西壁 34-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Rabbit God's Great Sword Fragment",
             "drop_percent": 36
@@ -15292,6 +15892,7 @@
     },
     "34-14": {
         "name": "デクスティア岩崖・西壁 34-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Black Snake's Fiendish Flame Staff Fragment",
             "drop_percent": 36
@@ -15321,6 +15922,7 @@
     },
     "34-1H": {
         "name": "デクスティア岩崖・西壁 34-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "White Snake's Holy Water Rod Fragment",
             "drop_percent": 72
@@ -15354,6 +15956,7 @@
     },
     "34-2H": {
         "name": "デクスティア岩崖・西壁 34-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Rabbit God's Great Sword Fragment",
             "drop_percent": 72
@@ -15387,6 +15990,7 @@
     },
     "34-3H": {
         "name": "デクスティア岩崖・西壁 34-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Black Snake's Fiendish Flame Staff Fragment",
             "drop_percent": 72
@@ -15420,6 +16024,7 @@
     },
     "35-1": {
         "name": "デクスティア岩崖・東壁 35-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Saintly Deer Spear - Alma Benard Fragment",
             "drop_percent": 36
@@ -15449,6 +16054,7 @@
     },
     "35-2": {
         "name": "デクスティア岩崖・東壁 35-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Prosperous Carp God's Katana Fragment",
             "drop_percent": 36
@@ -15478,6 +16084,7 @@
     },
     "35-3": {
         "name": "デクスティア岩崖・東壁 35-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Heaven Penetrating Falcon's Bow Fragment",
             "drop_percent": 36
@@ -15507,6 +16114,7 @@
     },
     "35-4": {
         "name": "デクスティア岩崖・東壁 35-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Blue Night Nocturne Brooch Fragment",
             "drop_percent": 36
@@ -15536,6 +16144,7 @@
     },
     "35-5": {
         "name": "デクスティア岩崖・東壁 35-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Cardinal Clarion Brooch Fragment",
             "drop_percent": 36
@@ -15565,6 +16174,7 @@
     },
     "35-6": {
         "name": "デクスティア岩崖・東壁 35-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Jade Harp Brooch Fragment",
             "drop_percent": 36
@@ -15594,6 +16204,7 @@
     },
     "35-7": {
         "name": "デクスティア岩崖・東壁 35-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Cardinal Clarion Brooch Fragment",
             "drop_percent": 36
@@ -15623,6 +16234,7 @@
     },
     "35-8": {
         "name": "デクスティア岩崖・東壁 35-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Blue Night Nocturne Brooch Fragment",
             "drop_percent": 36
@@ -15652,6 +16264,7 @@
     },
     "35-9": {
         "name": "デクスティア岩崖・東壁 35-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Cardinal Clarion Brooch Fragment",
             "drop_percent": 36
@@ -15681,6 +16294,7 @@
     },
     "35-10": {
         "name": "デクスティア岩崖・東壁 35-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Jade Harp Brooch Fragment",
             "drop_percent": 36
@@ -15710,6 +16324,7 @@
     },
     "35-11": {
         "name": "デクスティア岩崖・東壁 35-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Cardinal Clarion Brooch Fragment",
             "drop_percent": 36
@@ -15739,6 +16354,7 @@
     },
     "35-12": {
         "name": "デクスティア岩崖・東壁 35-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Blue Night Nocturne Brooch Fragment",
             "drop_percent": 36
@@ -15768,6 +16384,7 @@
     },
     "35-13": {
         "name": "デクスティア岩崖・東壁 35-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Jade Harp Brooch Fragment",
             "drop_percent": 36
@@ -15797,6 +16414,7 @@
     },
     "35-14": {
         "name": "デクスティア岩崖・東壁 35-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Cardinal Clarion Brooch Fragment",
             "drop_percent": 36
@@ -15826,6 +16444,7 @@
     },
     "35-1H": {
         "name": "デクスティア岩崖・東壁 35-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Jade Harp Brooch Fragment",
             "drop_percent": 72
@@ -15859,6 +16478,7 @@
     },
     "35-2H": {
         "name": "デクスティア岩崖・東壁 35-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Blue Night Nocturne Brooch Fragment",
             "drop_percent": 72
@@ -15892,6 +16512,7 @@
     },
     "35-3H": {
         "name": "デクスティア岩崖・東壁 35-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Cardinal Clarion Brooch Fragment",
             "drop_percent": 72
@@ -15925,6 +16546,7 @@
     },
     "36-1": {
         "name": "ヴェーナ湖畔道・南部 36-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Cardinal Clarion Brooch Fragment",
             "drop_percent": 36
@@ -15954,6 +16576,7 @@
     },
     "36-2": {
         "name": "ヴェーナ湖畔道・南部 36-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Jade Harp Brooch Fragment",
             "drop_percent": 36
@@ -15983,6 +16606,7 @@
     },
     "36-3": {
         "name": "ヴェーナ湖畔道・南部 36-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Cardinal Clarion Brooch Fragment",
             "drop_percent": 36
@@ -16012,6 +16636,7 @@
     },
     "36-4": {
         "name": "ヴェーナ湖畔道・南部 36-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Overlord Thorn Armor Fragment",
             "drop_percent": 36
@@ -16041,6 +16666,7 @@
     },
     "36-5": {
         "name": "ヴェーナ湖畔道・南部 36-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Sacred Ring - Heavenly Lotus Fragment",
             "drop_percent": 36
@@ -16070,6 +16696,7 @@
     },
     "36-6": {
         "name": "ヴェーナ湖畔道・南部 36-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Pride of the Roses Fragment",
             "drop_percent": 36
@@ -16099,6 +16726,7 @@
     },
     "36-7": {
         "name": "ヴェーナ湖畔道・南部 36-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Sacred Ring - Heavenly Lotus Fragment",
             "drop_percent": 36
@@ -16128,6 +16756,7 @@
     },
     "36-8": {
         "name": "ヴェーナ湖畔道・南部 36-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Overlord Thorn Armor Fragment",
             "drop_percent": 36
@@ -16157,6 +16786,7 @@
     },
     "36-9": {
         "name": "ヴェーナ湖畔道・南部 36-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Holy Light's Lily Plate Fragment",
             "drop_percent": 36
@@ -16186,6 +16816,7 @@
     },
     "36-10": {
         "name": "ヴェーナ湖畔道・南部 36-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Scarlet Tulip Dress Fragment",
             "drop_percent": 36
@@ -16215,6 +16846,7 @@
     },
     "36-11": {
         "name": "ヴェーナ湖畔道・南部 36-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "White Haze Flower Dress Fragment",
             "drop_percent": 36
@@ -16244,6 +16876,7 @@
     },
     "36-12": {
         "name": "ヴェーナ湖畔道・南部 36-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Overlord Thorn Armor Fragment",
             "drop_percent": 36
@@ -16273,6 +16906,7 @@
     },
     "36-13": {
         "name": "ヴェーナ湖畔道・南部 36-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Scarlet Tulip Dress Fragment",
             "drop_percent": 36
@@ -16302,6 +16936,7 @@
     },
     "36-14": {
         "name": "ヴェーナ湖畔道・南部 36-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Holy Light's Lily Plate Fragment",
             "drop_percent": 36
@@ -16331,6 +16966,7 @@
     },
     "36-1H": {
         "name": "ヴェーナ湖畔道・南部 36-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "White Haze Flower Dress Fragment",
             "drop_percent": 72
@@ -16364,6 +17000,7 @@
     },
     "36-2H": {
         "name": "ヴェーナ湖畔道・南部 36-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Scarlet Tulip Dress Fragment",
             "drop_percent": 72
@@ -16397,6 +17034,7 @@
     },
     "36-3H": {
         "name": "ヴェーナ湖畔道・南部 36-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Holy Light's Lily Plate Fragment",
             "drop_percent": 72
@@ -16430,6 +17068,7 @@
     },
     "37-1": {
         "name": "ヴェーナ湖畔道・北部 37-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Scarlet Tulip Dress Fragment",
             "drop_percent": 36
@@ -16459,6 +17098,7 @@
     },
     "37-2": {
         "name": "ヴェーナ湖畔道・北部 37-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Pride of the Roses Fragment",
             "drop_percent": 36
@@ -16488,6 +17128,7 @@
     },
     "37-3": {
         "name": "ヴェーナ湖畔道・北部 37-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Holy Light's Lily Plate Fragment",
             "drop_percent": 36
@@ -16517,6 +17158,7 @@
     },
     "37-4": {
         "name": "ヴェーナ湖畔道・北部 37-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Jade Wind Blade - Emerald Edge Fragment",
             "drop_percent": 36
@@ -16546,6 +17188,7 @@
     },
     "37-5": {
         "name": "ヴェーナ湖畔道・北部 37-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Crimson Jade Katana - Scarlet Moon Fragment",
             "drop_percent": 36
@@ -16575,6 +17218,7 @@
     },
     "37-6": {
         "name": "ヴェーナ湖畔道・北部 37-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Brass Cleft Axe Fragment",
             "drop_percent": 36
@@ -16604,6 +17248,7 @@
     },
     "37-7": {
         "name": "ヴェーナ湖畔道・北部 37-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Crimson Jade Katana - Scarlet Moon Fragment",
             "drop_percent": 36
@@ -16633,6 +17278,7 @@
     },
     "37-8": {
         "name": "ヴェーナ湖畔道・北部 37-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Jade Wind Blade - Emerald Edge Fragment",
             "drop_percent": 36
@@ -16662,6 +17308,7 @@
     },
     "37-9": {
         "name": "ヴェーナ湖畔道・北部 37-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Crystallos Spike Fragment",
             "drop_percent": 36
@@ -16691,6 +17338,7 @@
     },
     "37-10": {
         "name": "ヴェーナ湖畔道・北部 37-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Blue God Bow - Mercy Sapiros Fragment",
             "drop_percent": 36
@@ -16720,6 +17368,7 @@
     },
     "37-11": {
         "name": "ヴェーナ湖畔道・北部 37-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Brass Cleft Axe Fragment",
             "drop_percent": 36
@@ -16749,6 +17398,7 @@
     },
     "37-12": {
         "name": "ヴェーナ湖畔道・北部 37-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Crystallos Spike Fragment",
             "drop_percent": 36
@@ -16778,6 +17428,7 @@
     },
     "37-13": {
         "name": "ヴェーナ湖畔道・北部 37-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Shining Sword - Adamas Fragment",
             "drop_percent": 36
@@ -16807,6 +17458,7 @@
     },
     "37-14": {
         "name": "ヴェーナ湖畔道・北部 37-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Dark Prison Staff of the Black Pearl Fragment",
             "drop_percent": 36
@@ -16836,6 +17488,7 @@
     },
     "37-1H": {
         "name": "ヴェーナ湖畔道・北部 37-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Heavenly Wand of the White Pearl Fragment",
             "drop_percent": 72
@@ -16869,6 +17522,7 @@
     },
     "37-2H": {
         "name": "ヴェーナ湖畔道・北部 37-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Shining Sword - Adamas Fragment",
             "drop_percent": 72
@@ -16902,6 +17556,7 @@
     },
     "37-3H": {
         "name": "ヴェーナ湖畔道・北部 37-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Dark Prison Staff of the Black Pearl Fragment",
             "drop_percent": 72
@@ -16935,6 +17590,7 @@
     },
     "38-1": {
         "name": "ラトゥス断崖・南部 38-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Blue God Bow - Mercy Sapiros Fragment",
             "drop_percent": 36
@@ -16964,6 +17620,7 @@
     },
     "38-2": {
         "name": "ラトゥス断崖・南部 38-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Opal Sparge Fist Fragment",
             "drop_percent": 36
@@ -16993,6 +17650,7 @@
     },
     "38-3": {
         "name": "ラトゥス断崖・南部 38-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Crystallos Spike Fragment",
             "drop_percent": 36
@@ -17022,6 +17680,7 @@
     },
     "38-4": {
         "name": "ラトゥス断崖・南部 38-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "White Sacred Stone - Diamond Star Fragment",
             "drop_percent": 36
@@ -17051,6 +17710,7 @@
     },
     "38-5": {
         "name": "ラトゥス断崖・南部 38-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Godly Red Ring - Ruby Rose Fragment",
             "drop_percent": 36
@@ -17080,6 +17740,7 @@
     },
     "38-6": {
         "name": "ラトゥス断崖・南部 38-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Evergreen Green Ring Fragment",
             "drop_percent": 36
@@ -17109,6 +17770,7 @@
     },
     "38-7": {
         "name": "ラトゥス断崖・南部 38-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Godly Red Ring - Ruby Rose Fragment",
             "drop_percent": 36
@@ -17138,6 +17800,7 @@
     },
     "38-8": {
         "name": "ラトゥス断崖・南部 38-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "White Sacred Stone - Diamond Star Fragment",
             "drop_percent": 36
@@ -17167,6 +17830,7 @@
     },
     "38-9": {
         "name": "ラトゥス断崖・南部 38-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Godly Red Ring - Ruby Rose Fragment",
             "drop_percent": 36
@@ -17196,6 +17860,7 @@
     },
     "38-10": {
         "name": "ラトゥス断崖・南部 38-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Evergreen Green Ring Fragment",
             "drop_percent": 36
@@ -17225,6 +17890,7 @@
     },
     "38-11": {
         "name": "ラトゥス断崖・南部 38-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Godly Red Ring - Ruby Rose Fragment",
             "drop_percent": 36
@@ -17254,6 +17920,7 @@
     },
     "38-12": {
         "name": "ラトゥス断崖・南部 38-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "White Sacred Stone - Diamond Star Fragment",
             "drop_percent": 36
@@ -17283,6 +17950,7 @@
     },
     "38-13": {
         "name": "ラトゥス断崖・南部 38-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Evergreen Green Ring Fragment",
             "drop_percent": 36
@@ -17312,6 +17980,7 @@
     },
     "38-14": {
         "name": "ラトゥス断崖・南部 38-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Godly Red Ring - Ruby Rose Fragment",
             "drop_percent": 36
@@ -17341,6 +18010,7 @@
     },
     "38-1H": {
         "name": "ラトゥス断崖・南部 38-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Evergreen Green Ring Fragment",
             "drop_percent": 72
@@ -17374,6 +18044,7 @@
     },
     "38-2H": {
         "name": "ラトゥス断崖・南部 38-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "White Sacred Stone - Diamond Star Fragment",
             "drop_percent": 72
@@ -17407,6 +18078,7 @@
     },
     "38-3H": {
         "name": "ラトゥス断崖・南部 38-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Godly Red Ring - Ruby Rose Fragment",
             "drop_percent": 72
@@ -17440,6 +18112,7 @@
     },
     "39-1": {
         "name": "ラトゥス断崖・北部 39-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Godly Red Ring - Ruby Rose Fragment",
             "drop_percent": 36
@@ -17469,6 +18142,7 @@
     },
     "39-2": {
         "name": "ラトゥス断崖・北部 39-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Evergreen Green Ring Fragment",
             "drop_percent": 36
@@ -17498,6 +18172,7 @@
     },
     "39-3": {
         "name": "ラトゥス断崖・北部 39-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "White Sacred Stone - Diamond Star Fragment",
             "drop_percent": 36
@@ -17527,6 +18202,7 @@
     },
     "39-4": {
         "name": "ラトゥス断崖・北部 39-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Holy Engraved Armor of Pure Gold Fragment",
             "drop_percent": 36
@@ -17556,6 +18232,7 @@
     },
     "39-5": {
         "name": "ラトゥス断崖・北部 39-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Iolite Shield Fragment",
             "drop_percent": 36
@@ -17585,6 +18262,7 @@
     },
     "39-6": {
         "name": "ラトゥス断崖・北部 39-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Moon Crystal Heels Fragment",
             "drop_percent": 36
@@ -17614,6 +18292,7 @@
     },
     "39-7": {
         "name": "ラトゥス断崖・北部 39-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Iolite Shield Fragment",
             "drop_percent": 36
@@ -17643,6 +18322,7 @@
     },
     "39-8": {
         "name": "ラトゥス断崖・北部 39-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Holy Engraved Armor of Pure Gold Fragment",
             "drop_percent": 36
@@ -17672,6 +18352,7 @@
     },
     "39-9": {
         "name": "ラトゥス断崖・北部 39-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Platinum Scale Armor Fragment",
             "drop_percent": 36
@@ -17701,6 +18382,7 @@
     },
     "39-10": {
         "name": "ラトゥス断崖・北部 39-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Black Agate Prayer Dress Fragment",
             "drop_percent": 36
@@ -17730,6 +18412,7 @@
     },
     "39-11": {
         "name": "ラトゥス断崖・北部 39-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Pink Coral Dress Fragment",
             "drop_percent": 36
@@ -17759,6 +18442,7 @@
     },
     "39-12": {
         "name": "ラトゥス断崖・北部 39-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Holy Engraved Armor of Pure Gold Fragment",
             "drop_percent": 36
@@ -17788,6 +18472,7 @@
     },
     "39-13": {
         "name": "ラトゥス断崖・北部 39-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Black Agate Prayer Dress Fragment",
             "drop_percent": 36
@@ -17817,6 +18502,7 @@
     },
     "39-14": {
         "name": "ラトゥス断崖・北部 39-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Platinum Scale Armor Fragment",
             "drop_percent": 36
@@ -17846,6 +18532,7 @@
     },
     "39-1H": {
         "name": "ラトゥス断崖・北部 39-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Black Agate Prayer Dress Fragment",
             "drop_percent": 72
@@ -17879,6 +18566,7 @@
     },
     "39-2H": {
         "name": "ラトゥス断崖・北部 39-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Platinum Scale Armor Fragment",
             "drop_percent": 72
@@ -17912,6 +18600,7 @@
     },
     "39-3H": {
         "name": "ラトゥス断崖・北部 39-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Moon Crystal Heels Fragment",
             "drop_percent": 72
@@ -17945,6 +18634,7 @@
     },
     "40-1": {
         "name": "スカプ山系・西麓 40-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Moon Crystal Heels Fragment",
             "drop_percent": 36
@@ -17974,6 +18664,7 @@
     },
     "40-2": {
         "name": "スカプ山系・西麓 40-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Holy Engraved Armor of Pure Gold Fragment",
             "drop_percent": 36
@@ -18003,6 +18694,7 @@
     },
     "40-3": {
         "name": "スカプ山系・西麓 40-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Iolite Shield Fragment",
             "drop_percent": 36
@@ -18032,6 +18724,7 @@
     },
     "40-4": {
         "name": "スカプ山系・西麓 40-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Cream Puff Knuckle Fragment",
             "drop_percent": 36
@@ -18061,6 +18754,7 @@
     },
     "40-5": {
         "name": "スカプ山系・西麓 40-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Chocolate Lance Fragment",
             "drop_percent": 36
@@ -18090,6 +18784,7 @@
     },
     "40-6": {
         "name": "スカプ山系・西麓 40-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Triple Ice Rod Fragment",
             "drop_percent": 36
@@ -18119,6 +18814,7 @@
     },
     "40-7": {
         "name": "スカプ山系・西麓 40-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Lollipop Stick Fragment",
             "drop_percent": 36
@@ -18148,6 +18844,7 @@
     },
     "40-8": {
         "name": "スカプ山系・西麓 40-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Candy Sugar Bow Fragment",
             "drop_percent": 36
@@ -18177,6 +18874,7 @@
     },
     "40-9": {
         "name": "スカプ山系・西麓 40-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Chocolate Banana Dagger Fragment",
             "drop_percent": 36
@@ -18206,6 +18904,7 @@
     },
     "40-10": {
         "name": "スカプ山系・西麓 40-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Choco Stick Blade Fragment",
             "drop_percent": 36
@@ -18235,6 +18934,7 @@
     },
     "40-11": {
         "name": "スカプ山系・西麓 40-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Crepe Axe Fragment",
             "drop_percent": 36
@@ -18264,6 +18964,7 @@
     },
     "40-12": {
         "name": "スカプ山系・西麓 40-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Lollipop Stick Fragment",
             "drop_percent": 36
@@ -18293,6 +18994,7 @@
     },
     "40-13": {
         "name": "スカプ山系・西麓 40-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Chocolate Banana Dagger Fragment",
             "drop_percent": 36
@@ -18322,6 +19024,7 @@
     },
     "40-14": {
         "name": "スカプ山系・西麓 40-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Soft Ice Sherbet Fragment",
             "drop_percent": 36
@@ -18351,6 +19054,7 @@
     },
     "40-1H": {
         "name": "スカプ山系・西麓 40-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Choco Stick Blade Fragment",
             "drop_percent": 72
@@ -18384,6 +19088,7 @@
     },
     "40-2H": {
         "name": "スカプ山系・西麓 40-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Lollipop Stick Fragment",
             "drop_percent": 72
@@ -18417,6 +19122,7 @@
     },
     "40-3H": {
         "name": "スカプ山系・西麓 40-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Candy Sugar Bow Fragment",
             "drop_percent": 72
@@ -18450,6 +19156,7 @@
     },
     "41-1": {
         "name": "スカプ山系・東麓 41-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Soft Ice Sherbet Fragment",
             "drop_percent": 36
@@ -18479,6 +19186,7 @@
     },
     "41-2": {
         "name": "スカプ山系・東麓 41-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Triple Ice Rod Fragment",
             "drop_percent": 36
@@ -18508,6 +19216,7 @@
     },
     "41-3": {
         "name": "スカプ山系・東麓 41-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Choco Stick Blade Fragment",
             "drop_percent": 36
@@ -18537,6 +19246,7 @@
     },
     "41-4": {
         "name": "スカプ山系・東麓 41-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Doughnut Choker Fragment",
             "drop_percent": 36
@@ -18566,6 +19276,7 @@
     },
     "41-5": {
         "name": "スカプ山系・東麓 41-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Popcorn Necklace Fragment",
             "drop_percent": 36
@@ -18595,6 +19306,7 @@
     },
     "41-6": {
         "name": "スカプ山系・東麓 41-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Macaron Pendant Fragment",
             "drop_percent": 36
@@ -18624,6 +19336,7 @@
     },
     "41-7": {
         "name": "スカプ山系・東麓 41-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Popcorn Necklace Fragment",
             "drop_percent": 36
@@ -18653,6 +19366,7 @@
     },
     "41-8": {
         "name": "スカプ山系・東麓 41-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Doughnut Choker Fragment",
             "drop_percent": 36
@@ -18682,6 +19396,7 @@
     },
     "41-9": {
         "name": "スカプ山系・東麓 41-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Popcorn Necklace Fragment",
             "drop_percent": 36
@@ -18711,6 +19426,7 @@
     },
     "41-10": {
         "name": "スカプ山系・東麓 41-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Macaron Pendant Fragment",
             "drop_percent": 36
@@ -18740,6 +19456,7 @@
     },
     "41-11": {
         "name": "スカプ山系・東麓 41-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Popcorn Necklace Fragment",
             "drop_percent": 36
@@ -18769,6 +19486,7 @@
     },
     "41-12": {
         "name": "スカプ山系・東麓 41-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Doughnut Choker Fragment",
             "drop_percent": 36
@@ -18798,6 +19516,7 @@
     },
     "41-13": {
         "name": "スカプ山系・東麓 41-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Macaron Pendant Fragment",
             "drop_percent": 36
@@ -18827,6 +19546,7 @@
     },
     "41-14": {
         "name": "スカプ山系・東麓 41-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Popcorn Necklace Fragment",
             "drop_percent": 36
@@ -18856,6 +19576,7 @@
     },
     "41-1H": {
         "name": "スカプ山系・東麓 41-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Macaron Pendant Fragment",
             "drop_percent": 72
@@ -18889,6 +19610,7 @@
     },
     "41-2H": {
         "name": "スカプ山系・東麓 41-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Doughnut Choker Fragment",
             "drop_percent": 72
@@ -18922,6 +19644,7 @@
     },
     "41-3H": {
         "name": "スカプ山系・東麓 41-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Popcorn Necklace Fragment",
             "drop_percent": 72
@@ -18955,6 +19678,7 @@
     },
     "42-1": {
         "name": "ペクトス氷峰・西壁 42-1",
+        "stamina": 10,
         "item_1": {
             "item_name": "Popcorn Necklace Fragment",
             "drop_percent": 36
@@ -18984,6 +19708,7 @@
     },
     "42-2": {
         "name": "ペクトス氷峰・西壁 42-2",
+        "stamina": 10,
         "item_1": {
             "item_name": "Doughnut Choker Fragment",
             "drop_percent": 36
@@ -19013,6 +19738,7 @@
     },
     "42-3": {
         "name": "ペクトス氷峰・西壁 42-3",
+        "stamina": 10,
         "item_1": {
             "item_name": "Macaron Pendant Fragment",
             "drop_percent": 36
@@ -19042,6 +19768,7 @@
     },
     "42-4": {
         "name": "ペクトス氷峰・西壁 42-4",
+        "stamina": 10,
         "item_1": {
             "item_name": "Magic Pancake Robe Fragment",
             "drop_percent": 36
@@ -19071,6 +19798,7 @@
     },
     "42-5": {
         "name": "ペクトス氷峰・西壁 42-5",
+        "stamina": 10,
         "item_1": {
             "item_name": "Fancy Macaron Dress Fragment",
             "drop_percent": 36
@@ -19100,6 +19828,7 @@
     },
     "42-6": {
         "name": "ペクトス氷峰・西壁 42-6",
+        "stamina": 10,
         "item_1": {
             "item_name": "Chocolate Mint Ice Heels Fragment",
             "drop_percent": 36
@@ -19129,6 +19858,7 @@
     },
     "42-7": {
         "name": "ペクトス氷峰・西壁 42-7",
+        "stamina": 10,
         "item_1": {
             "item_name": "Chocolate Mail Fragment",
             "drop_percent": 36
@@ -19158,6 +19888,7 @@
     },
     "42-8": {
         "name": "ペクトス氷峰・西壁 42-8",
+        "stamina": 10,
         "item_1": {
             "item_name": "Sheet Tart Beret Fragment",
             "drop_percent": 36
@@ -19187,6 +19918,7 @@
     },
     "42-9": {
         "name": "ペクトス氷峰・西壁 42-9",
+        "stamina": 10,
         "item_1": {
             "item_name": "Rose Strawberry Armor Fragment",
             "drop_percent": 36
@@ -19216,6 +19948,7 @@
     },
     "42-10": {
         "name": "ペクトス氷峰・西壁 42-10",
+        "stamina": 10,
         "item_1": {
             "item_name": "Magic Pancake Robe Fragment",
             "drop_percent": 36
@@ -19245,6 +19978,7 @@
     },
     "42-11": {
         "name": "ペクトス氷峰・西壁 42-11",
+        "stamina": 10,
         "item_1": {
             "item_name": "Fancy Macaron Dress Fragment",
             "drop_percent": 36
@@ -19274,6 +20008,7 @@
     },
     "42-12": {
         "name": "ペクトス氷峰・西壁 42-12",
+        "stamina": 10,
         "item_1": {
             "item_name": "Chocolate Mint Ice Heels Fragment",
             "drop_percent": 36
@@ -19303,6 +20038,7 @@
     },
     "42-13": {
         "name": "ペクトス氷峰・西壁 42-13",
+        "stamina": 10,
         "item_1": {
             "item_name": "Sheet Tart Beret Fragment",
             "drop_percent": 36
@@ -19332,6 +20068,7 @@
     },
     "42-14": {
         "name": "ペクトス氷峰・西壁 42-14",
+        "stamina": 10,
         "item_1": {
             "item_name": "Rose Strawberry Armor Fragment",
             "drop_percent": 36
@@ -19361,6 +20098,7 @@
     },
     "42-1H": {
         "name": "ペクトス氷峰・西壁 42-1",
+        "stamina": 20,
         "item_1": {
             "item_name": "Chocolate Mint Ice Heels Fragment",
             "drop_percent": 72
@@ -19394,6 +20132,7 @@
     },
     "42-2H": {
         "name": "ペクトス氷峰・西壁 42-2",
+        "stamina": 20,
         "item_1": {
             "item_name": "Chocolate Mail Fragment",
             "drop_percent": 72
@@ -19427,6 +20166,7 @@
     },
     "42-3H": {
         "name": "ペクトス氷峰・西壁 42-3",
+        "stamina": 20,
         "item_1": {
             "item_name": "Sheet Tart Beret Fragment",
             "drop_percent": 72

@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.9.1] - 2021-01-23
+### Added
+- `Quest Stamina` information added to `data/quest_data.json`
+  - `Quest Stamina` is now visible under `Recommended Quests` if you disable `Hide Quest Score`
+### Changed
+- Quest Score Tweaks
+  - Suggested by an anonymous donator, thank you!
+  - Quest Score is now calculated by adding all `drop_percent`s together and dividing it by the quest stamina.
+
 ## [2.9.0] - 2021-01-22
 Quest Update (2021-01-22)
 ### Notice

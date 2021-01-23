@@ -3787,13 +3787,13 @@ const data_display = (function () {
 
                         let quest_score = 0;
                         // CHECK MAIN ITEMS
-                        quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + 1], score_values.TOP_TWO);
-                        quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + 2], score_values.TOP_TWO);
-                        quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + 3],
-                            (quest_info[quest_data.tags.ITEM + 1][quest_data.tags.DROP_PERCENT] === quest_info[quest_data.tags.ITEM + 3][quest_data.tags.DROP_PERCENT])
-                                ? score_values.TOP_TWO : score_values.THIRD);
-                        quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + 4], score_values.TOP_TWO);
-                        quest_score += get_quest_score(quest_info[quest_data.tags.CHAR_SHARD], score_values.TOP_TWO);
+                        quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + 1], quest_info[quest_data.tags.ITEM + 1][quest_data.tags.DROP_PERCENT]);
+                        quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + 2], quest_info[quest_data.tags.ITEM + 2][quest_data.tags.DROP_PERCENT]);
+                        quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + 3], quest_info[quest_data.tags.ITEM + 3][quest_data.tags.DROP_PERCENT]);
+                        quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + 4],
+                            (typeof(quest_info[quest_data.tags.ITEM + 4]) === "object") ? quest_info[quest_data.tags.ITEM + 4][quest_data.tags.DROP_PERCENT] : 0);
+                        quest_score += get_quest_score(quest_info[quest_data.tags.CHAR_SHARD],
+                            (typeof(quest_info[quest_data.tags.CHAR_SHARD]) === "object") ? quest_info[quest_data.tags.CHAR_SHARD][quest_data.tags.DROP_PERCENT] : 0);
 
                         // CHECK SUBDROPS
                         const quest_subdrops = quest_info[quest_data.tags.SUBDROPS];
@@ -3804,27 +3804,12 @@ const data_display = (function () {
                                 quest_score += get_quest_score(quest_subdrops[i], score_values.SUBDROP);
                             }
                             else {
-                                switch (subdrops_percent[i]) {
-                                    case 24:
-                                        quest_score += get_quest_score(quest_subdrops[i], score_values.THIRD);
-                                        break;
-                                    case 20:
-                                        quest_score += get_quest_score(quest_subdrops[i], score_values.SUBDROP);
-                                        break;
-                                    case 17:
-                                        quest_score += get_quest_score(quest_subdrops[i], score_values.SUBDROP / 2);
-                                        break;
-                                    case 15:
-                                        quest_score += get_quest_score(quest_subdrops[i], score_values.SUBDROP / 3);
-                                        break;
-                                    default:
-                                        quest_score += get_quest_score(quest_subdrops[i], score_values.SUBDROP);
-                                        break;
-                                }
+                                quest_score += get_quest_score(quest_subdrops[i], subdrops_percent[i]);
                             }
                         }
 
                         if (quest_score > 0) {
+                            quest_score /= quest_info["stamina"];
                             quest_scores.push([quest_id, +quest_score.toFixed(2)]);
                         }
                     }
@@ -3937,10 +3922,10 @@ const data_display = (function () {
                         // QUEST TITLE
                         const quest_title = document.createElement("div");
                         quest_title.classList.add("quest_title");
-                        if (quest_score >= 2) {
+                        if (quest_score >= 7.2) {
                             quest_title.classList.add(classes.TITLE_COLOR_GREEN);
                         }
-                        else if (quest_score >= 1) {
+                        else if (quest_score >= 3.6) {
                             quest_title.classList.add(classes.TITLE_COLOR_YELLOW);
                         }
                         else {
@@ -3981,7 +3966,7 @@ const data_display = (function () {
                         if (setting.hide_quest_score) {
                             quest_score_div.classList.add(classes.REMOVE);
                         }
-                        quest_score_div.innerHTML = quest_score + " pts";
+                        quest_score_div.innerHTML = quest_score + " pts<br>" + quest_info["stamina"] + " stamina";
                         quest.appendChild(quest_score_div);
 
                         // QUEST LINE 1

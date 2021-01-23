@@ -800,7 +800,7 @@ i.footer {
         0 3px 10px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     padding: 5px 0;
-    width: 75px;
+    width: 100px;
     text-align: center;
     font-weight: bold;
 }
@@ -808,7 +808,7 @@ i.footer {
 .quest_memory-piece {
     display: inline-block;
     position: relative;
-    top: 12px;
+    top: 14px;
     margin-left: 5px;
 }
 
