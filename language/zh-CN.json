@@ -196,7 +196,7 @@
       "kuuka": "空花",
       "kyaru": "凯露",
       "kyouka": "镜华",
-      "labyrista": "Labyrista",
+      "labyrista": "拉比林斯达",
       "lou": "露",
       "luna": "露娜",
       "mahiru": "真阳",
@@ -208,7 +208,7 @@
       "mio": "未央",
       "misaki": "美咲",
       "misato": "美里",
-      "misogi": "未奏希",
+      "misogi": "未奏希/禊",
       "mitsuki": "深月",
       "miyako": "宫子",
       "monika": "莫妮卡",
@@ -243,18 +243,18 @@
     },
 
     "thematics": {
-      "angel": "Angel",
-      "christmas": "圣诞",
-      "deresute": "偶像大师",
-      "halloween": "万圣",
+      "angel": "天使",
+      "christmas": "圣诞节",
+      "deresute": "NGs",
+      "halloween": "万圣节",
       "magical": "魔法少女",
       "new_year": "新年",
       "oedo": "大江户",
-      "princess": "公主形态",
-      "ranger": "游骑兵",
+      "princess": "公主",
+      "ranger": "游侠",
       "summer": "夏日",
-      "transfer_student": "交换生",
+      "transfer_student": "插班生",
       "valentine": "情人节",
-      "wonder": "漫游奇境"
+      "wonder": "奇幻"
     }
   }
