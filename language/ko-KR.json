@@ -15,7 +15,7 @@
 
     "last_quest_update": "마지막 퀘스트 업데이트 : <span style='color: #6DFF7F'>${last_update_date}</span>",
 
-    "translator": "번역가 :",
+    "translator": "번역자 :",
     "translator_name": "Celesti | SD SkyKlouD | NewWorld_",
 
     "date_locale": "ko-KR"
@@ -198,7 +198,7 @@
     "kuuka": "쿠우카",
     "kyaru": "캬루",
     "kyouka": "쿄우카",
-    "labyrista": "Labyrista",
+    "labyrista": "라비리스타",
     "lou": "루",
     "luna": "루나",
     "mahiru": "마히루",
@@ -245,14 +245,14 @@
   },
 
   "thematics": {
-    "angel": "Angel",
+    "angel": "엔젤",
     "christmas": "크리스마스",
     "deresute": "데레스테",
     "halloween": "할로윈",
-    "magical": "마법",
-    "new_year": "신년",
+    "magical": "매지컬",
+    "new_year": "뉴이어",
     "oedo": "오에도",
-    "princess": "공주",
+    "princess": "프린세스",
     "ranger": "레인저",
     "summer": "여름",
     "transfer_student": "편입생",
