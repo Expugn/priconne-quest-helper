@@ -105,6 +105,7 @@
     "ignore_item_rarity_in_recipe": "다음 희귀 등급은 필요 아이템 목록에서 제외 :",
     "display_drop_percent": "드랍 확률 표시",
     "display_amount_required": "필요 개수 표시",
+    "subtract_amount_from_inventory": "인벤토리에서 금액 빼기",
 
     "save_settings_button": "설정 저장",
     "delete_settings_button": "설정 삭제",
@@ -246,6 +247,7 @@
 
   "thematics": {
     "angel": "엔젤",
+    "ceremonial_attire": "의식복장",
     "christmas": "크리스마스",
     "deresute": "데레스테",
     "halloween": "할로윈",

@@ -105,6 +105,7 @@
     "ignore_item_rarity_in_recipe": "この分類の装備は必要アイテムから除外：",
     "display_drop_percent": "ドロップ確率の表示",
     "display_amount_required": "必要個数の表示",
+    "subtract_amount_from_inventory": "在庫から金額を差し引く",
 
     "save_settings_button": "設定保存",
     "delete_settings_button": "設定削除",
@@ -246,6 +247,7 @@
 
   "thematics": {
     "angel": "エンジェル",
+    "ceremonial_attire": "儀装束",
     "christmas": "クリスマス",
     "deresute": "デレマス",
     "halloween": "ハロウィン",

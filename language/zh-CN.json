@@ -103,6 +103,7 @@
       "ignore_item_rarity_in_recipe": "忽略下列稀有度的装备:",
       "display_drop_percent": "显示掉率",
       "display_amount_required": "显示需求数量",
+      "subtract_amount_from_inventory": "从库存中减去金额",
 
       "save_settings_button": "保存当前设置",
       "delete_settings_button": "删除保存的设置",
@@ -244,6 +245,7 @@
 
     "thematics": {
       "angel": "天使",
+      "ceremonial_attire": "儀装束",
       "christmas": "圣诞节",
       "deresute": "NGs",
       "halloween": "万圣节",

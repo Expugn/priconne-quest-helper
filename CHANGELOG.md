@@ -3,6 +3,19 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.9.2] - 2021-01-30
+Save Data Purge #4: `1377` / `1627` Files Deleted
+### Added
+- New Setting: `Subtract Amount From Inventory`
+  - Suggested by `Notoriouzb`: <https://github.com/Expugn/priconne-quest-helper/issues/35>
+  - Subtracts the `Amount Required` from the amount of that item you have in your `Inventory`
+  - For more information, see <https://github.com/Expugn/priconne-quest-helper/wiki/Display-Settings>
+- Added new text to language files (some translations may be incorrect)
+  - `settings_tab.subtract_amount_from_inventory`
+  - `thematics.ceremonial_attire`
+### Changed
+- Adjusted styling for `pages/statistics`
+
 ## [2.9.1] - 2021-01-23
 ### Added
 - `Quest Stamina` information added to `data/quest_data.json`

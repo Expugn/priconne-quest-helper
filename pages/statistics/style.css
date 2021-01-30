@@ -186,16 +186,16 @@ span.amount:before {
 }
 
 div.top-three-item-text {
-    font-size: 26px;
-    margin-right: 69px;
-    margin-top: -29px;
+    font-size: 24px;
+    margin-right: 65px;
+    margin-top: -27px;
 }
 
 span.amount {
     display: block;
-    top: 28px;
-    margin-right: 4px;
-    font-size: 16px;
+    top: 30px;
+    margin-right: 2px;
+    font-size: 15px;
 }
 
 #stats {
@@ -243,6 +243,10 @@ span.amount {
     border-radius: 10px;
     width: 110px;
     height: 48px;
+}
+
+div.item-sprite {
+    margin: 0 2px 1px;
 }
 
 .green-background {

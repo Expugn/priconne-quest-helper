@@ -584,6 +584,11 @@
             <translate text="settings_tab.display_amount_required">Display Amount Required</translate>
         </label>
         <input id="display-amount-required" type="radio" name="display-option" value="amount-required" onclick="settings.change_display_option()">
+        <br>
+        <label for="subtract-amount-from-inventory">
+            <translate text="settings_tab.subtract_amount_from_inventory">Subtract Amount From Inventory</translate>
+        </label>
+        <input id="subtract-amount-from-inventory" type="checkbox" onclick="settings.toggle_subtract_amount_from_inventory()">
 
         <br><br>
 
@@ -781,34 +786,6 @@
         </div>
     </div>
 </div>
-</body>
-
-<footer>
-    <!-- AUTHOR CREDITS -->
-    <p class="footer notranslate">
-        Made with <span style="color:#ff4d4d">❤</span> by S'pugn
-        <i class="webpage webpage-HAhaa footer"></i>
-    </p>
-    <!-- TRANSLATOR CREDITS (APPEARS ONLY ON NON-ENGLISH LANGUAGES) -->
-    <p class="footer">
-        <span id="translator-footer" class="notranslate"></span>
-    </p>
-
-    <!-- LAST QUEST UPDATE TEXT ; DETERMINED BY SETTING IN scripts/language.js -->
-    <p class="footer">
-        <translate text="system.last_quest_update">
-            Last Quest Update: <span id="update-date-span" style="color: #6DFF7F;">...</span>
-        </translate>
-    </p>
-
-    <!-- SOCIAL MEDIA LINKS -->
-    <p class="footer">
-        <a href='https://ko-fi.com/E1E21KEV4' target='_blank'><img height='36' style='border:0;height:36px;position: relative;top:2px;right:5px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-        <a href="https://github.com/Expugn/priconne-quest-helper" target="_blank">
-            <i class="webpage webpage-GitHub-Mark"></i>
-        </a>
-    </p>
-</footer>
 
 <!-- FOCUSED ITEM POPUP -->
 <div id="focused-item-popup" hidden>
@@ -875,6 +852,34 @@
         </div>
     </div>
 </div>
+</body>
+
+<footer>
+    <!-- AUTHOR CREDITS -->
+    <p class="footer notranslate">
+        Made with <span style="color:#ff4d4d">❤</span> by S'pugn
+        <i class="webpage webpage-HAhaa footer"></i>
+    </p>
+    <!-- TRANSLATOR CREDITS (APPEARS ONLY ON NON-ENGLISH LANGUAGES) -->
+    <p class="footer">
+        <span id="translator-footer" class="notranslate"></span>
+    </p>
+
+    <!-- LAST QUEST UPDATE TEXT ; DETERMINED BY SETTING IN scripts/language.js -->
+    <p class="footer">
+        <translate text="system.last_quest_update">
+            Last Quest Update: <span id="update-date-span" style="color: #6DFF7F;">...</span>
+        </translate>
+    </p>
+
+    <!-- SOCIAL MEDIA LINKS -->
+    <p class="footer">
+        <a href='https://ko-fi.com/E1E21KEV4' target='_blank'><img height='36' style='border:0;height:36px;position: relative;top:2px;right:5px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+        <a href="https://github.com/Expugn/priconne-quest-helper" target="_blank">
+            <i class="webpage webpage-GitHub-Mark"></i>
+        </a>
+    </p>
+</footer>
 
 <script id="startup">
     webpage.init();

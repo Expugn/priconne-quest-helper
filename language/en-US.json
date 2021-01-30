@@ -105,6 +105,7 @@
     "ignore_item_rarity_in_recipe": "Ignore Item Rarity in Recipe:",
     "display_drop_percent": "Display Drop Percent",
     "display_amount_required": "Display Amount Required",
+    "subtract_amount_from_inventory": "Subtract Amount From Inventory",
 
     "save_settings_button": "Save Settings",
     "delete_settings_button": "Delete Settings",
@@ -246,6 +247,7 @@
 
   "thematics": {
     "angel": "Angel",
+    "ceremonial_attire": "Ceremonial Attire",
     "christmas": "Christmas",
     "deresute": "Deresute",
     "halloween": "Halloween",

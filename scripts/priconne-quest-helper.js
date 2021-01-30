@@ -23,6 +23,7 @@ const settings = (function () {
         QUEST_FILTER_VERY_HARD: "filter-very-hard-quests",
         QUEST_DISPLAY_PERCENT: "display-drop-percent",
         QUEST_DISPLAY_AMOUNT: "display-amount-required",
+        SUBTRACT_AMOUNT_FROM_INVENTORY: "subtract-amount-from-inventory",
         EQUIPMENT_DATA_TYPE: "equipment-data-type"
     });
     const tags = Object.freeze({
@@ -36,6 +37,7 @@ const settings = (function () {
         QUEST_FILTER: "quest_filter",
         IGNORED_RARITIES: "ignored_rarities",
         QUEST_DISPLAY: "quest_display",
+        SUBTRACT_AMOUNT_FROM_INVENTORY: "subtract_amount_from_inventory",
         EQUIPMENT_DATA_TYPE: "equipment_data_type"
     });
     const LOCALSTORAGE_KEY = "settings";
@@ -51,6 +53,7 @@ const settings = (function () {
         quest_filter: quest_filter_settings.ALL,
         ignored_rarities: [],
         quest_display: quest_display_settings.PERCENT,
+        subtract_amount_from_inventory: false,
         equipment_data_type: equipment_data.version.CURRENT,
     };
 
@@ -94,6 +97,9 @@ const settings = (function () {
             settings_default.quest_display = quest_display_settings.AMOUNT;
         }
         settings.quest_display = settings_default.quest_display;
+
+        settings_default.subtract_amount_from_inventory = document.getElementById(setting_element_id.SUBTRACT_AMOUNT_FROM_INVENTORY).checked;
+        settings.subtract_amount_from_inventory = settings_default.subtract_amount_from_inventory;
 
         if (document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value === equipment_data.version.LEGACY) {
             settings_default.equipment_data_type = equipment_data.version.LEGACY
@@ -309,6 +315,12 @@ const settings = (function () {
         data_display.quests.refresh();
     }
 
+    function toggle_subtract_amount_from_inventory() {
+        settings.subtract_amount_from_inventory = !settings.subtract_amount_from_inventory;
+        webpage.print("\"Subtract Amount From Inventory\" changed to (Active?: " + settings.auto_max_quest_chapter + ")", "Settings");
+        data_display.quests.refresh();
+    }
+
     /**
      * CHANGES THE EQUIPMENT DATA TO CURRENT OR LEGACY.
      *      CURRENT DATA: LATEST UP TO DATE DATA FROM JAPAN SERVER.
@@ -454,6 +466,7 @@ const settings = (function () {
         const is_quest_display_percent = settings.quest_display === quest_display_settings.PERCENT;
         check_checkbox(setting_element_id.QUEST_DISPLAY_PERCENT, is_quest_display_percent);
         check_checkbox(setting_element_id.QUEST_DISPLAY_AMOUNT, !is_quest_display_percent);
+        check_checkbox(setting_element_id.SUBTRACT_AMOUNT_FROM_INVENTORY, settings.subtract_amount_from_inventory);
         document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value = ((settings.equipment_data_type === equipment_data.version.LEGACY) ? equipment_data.version.LEGACY : equipment_data.version.CURRENT);
     }
 
@@ -554,6 +567,7 @@ const settings = (function () {
             quest_filter: (settings.quest_filter === undefined ? settings_default.quest_filter : settings.quest_filter),
             ignored_rarities: (settings.ignored_rarities === undefined ? [] : settings.ignored_rarities),
             quest_display: (settings.quest_display === undefined ? settings_default.quest_display : settings.quest_display),
+            subtract_amount_from_inventory: (settings.subtract_amount_from_inventory === undefined ? settings_default.subtract_amount_from_inventory : settings.subtract_amount_from_inventory),
             equipment_data_type: (settings.equipment_data_type === undefined ? settings_default.equipment_data_type : settings.equipment_data_type),
         };
     }
@@ -594,6 +608,7 @@ const settings = (function () {
         toggle_ignored_rarity: toggle_ignored_rarity,
         change_display_option: change_display_option,
         display_options: quest_display_settings,
+        toggle_subtract_amount_from_inventory: toggle_subtract_amount_from_inventory,
         change_equipment_data: change_equipment_data,
 
         save_settings: save_settings,
@@ -3254,6 +3269,7 @@ const inventory = (function () {
     return {
         init: init,
         remove: remove,
+        get_amount: get_amount,
         check_amount: check_amount,
         switch_mode: switch_mode,
         delete_all_button: delete_all_button,
@@ -3903,11 +3919,16 @@ const data_display = (function () {
                             }
                             const drop_percent_div = document.createElement("span");
                             drop_percent_div.classList.add("quest_drop-percent", (setting.quest_display !== settings.display_options.AMOUNT ? classes.DISPLAY_TOP : classes.DISPLAY_BOTTOM));
-                            drop_percent_div.innerHTML = drop_percent;
+                            drop_percent_div.innerHTML = drop_percent + "";
                             item_div.appendChild(drop_percent_div);
                             const req_amount_div = document.createElement("span");
                             req_amount_div.classList.add("quest_required-amount", (setting.quest_display !== settings.display_options.AMOUNT ? classes.DISPLAY_BOTTOM : classes.DISPLAY_TOP));
-                            req_amount_div.innerHTML = required_amount;
+                            if (!setting.subtract_amount_from_inventory) {
+                                req_amount_div.innerHTML = required_amount;
+                            }
+                            else {
+                                req_amount_div.innerHTML = required_amount - inventory.get_amount(item_name);
+                            }
                             item_div.appendChild(req_amount_div);
 
                             element.appendChild(item_div);
