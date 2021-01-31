@@ -13,6 +13,9 @@ Save Data Purge #4: `1377` / `1627` Files Deleted
 - Added new text to language files (some translations may be incorrect)
   - `settings_tab.subtract_amount_from_inventory`
   - `thematics.ceremonial_attire`
+- New Characters
+  - Kokkoro (Ceremonial Attire)
+  - Yui (Ceremonial Attire)
 ### Changed
 - Adjusted styling for `pages/statistics`
 

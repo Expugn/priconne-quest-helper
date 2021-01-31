@@ -317,7 +317,7 @@ const settings = (function () {
 
     function toggle_subtract_amount_from_inventory() {
         settings.subtract_amount_from_inventory = !settings.subtract_amount_from_inventory;
-        webpage.print("\"Subtract Amount From Inventory\" changed to (Active?: " + settings.auto_max_quest_chapter + ")", "Settings");
+        webpage.print("\"Subtract Amount From Inventory\" changed to (Active?: " + settings.subtract_amount_from_inventory + ")", "Settings");
         data_display.quests.refresh();
     }
 
