@@ -62,9 +62,23 @@ i.footer {
     z-index: 1;
 }
 
+#character-box-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
 /* RECIPE DATA ====================================================================================================== */
 #recipe-data-div,
-#catalog {
+#catalog,
+#character-box {
     text-align: center;
     margin: auto;
 }
@@ -211,7 +225,8 @@ div.node {
     text-align: left;
 }
 
-.comp-usage i.item-sprite {
+.comp-usage i.item-sprite,
+#character-box span {
     cursor: pointer;
 }
 
@@ -227,6 +242,18 @@ span.unit-sprite,
     margin-left: 1px;
     margin-right: 1px;
     margin-top: 2px;
+}
+
+#character-box span:not(.enabled),
+span.unit-sprite.disabled {
+    -webkit-filter: grayscale(100%) opacity(50%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%) opacity(50%);
+    transition: all 0.4s ease-out;
+}
+
+#character-box span:not(.enabled):hover {
+    -webkit-filter: grayscale(0%) opacity(90%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%) opacity(90%);
 }
 
 span.rank-1 {

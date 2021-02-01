@@ -71,6 +71,7 @@
     </h1>
 </noscript>
 <div id="back" onclick="toggle_catalog()" hidden>&larrhk;</div>
+<img id="character-box-button" src="../../images/webpage/Inventory_Crate.png" onclick="toggle_character_box()" alt="" hidden>
 
 <div>
     <h1 class="title main_title">Princess Connect! Re:Dive - Quest Helper</h1>
@@ -80,7 +81,8 @@
 
 <hr>
 <div id="catalog"></div>
-<div id="recipe-data-div" class="notranslate"></div>
+<div id="character-box" hidden></div>
+<div id="recipe-data-div" class="notranslate" hidden></div>
 <hr>
 </body>
 
@@ -93,7 +95,8 @@
 </footer>
 
 <script>
-    let legacy_data, current_data, item_usage = {}, component_usage = {};
+    let legacy_data, current_data, item_usage = {}, component_usage = {}, localstorage_data = null;
+    const LOCALSTORAGE_KEY = "recipe-data_characters";
     function get_item_sprite_class(item_name) {
         return "is__" + item_name.replace("'", "").replace(/\W/g, '-').toLowerCase().replace('---', '-');
     }
@@ -107,13 +110,21 @@
     function toggle_catalog() {
         const catalog = document.getElementById("catalog"),
               data = document.getElementById("recipe-data-div"),
-              back = document.getElementById("back");
-        catalog.hidden = !catalog.hidden;
+              back = document.getElementById("back"),
+              character_box = document.getElementById("character-box-button");
+        catalog.hidden = character_box.hidden = !catalog.hidden;
         data.hidden = back.hidden = !data.hidden;
         if (data.hidden) {
             $(window).off();
         }
         window.scrollTo(0, 0);
+    }
+    function toggle_character_box() {
+        const catalog = document.getElementById("catalog"),
+              character_box = document.getElementById("character-box");
+        catalog.hidden = !catalog.hidden;
+        character_box.hidden = !character_box.hidden;
+
     }
     window.onload = function ()
     {
@@ -141,7 +152,8 @@
 
         function build_catalog() {
             // BUILD CATALOG
-            const catalog = document.getElementById("catalog");
+            const catalog = document.getElementById("catalog"),
+                  character_box = document.getElementById("character-box");
             let misc_items = document.createElement("div"),
                 item_div = document.createElement("div"),
                 current_rarity = equipment_data.rarity.COMMON;
@@ -153,6 +165,7 @@
                 item.title = item_name;
                 item.onclick = function () {
                     document.getElementById("catalog").hidden = true;
+                    document.getElementById("character-box-button").hidden = true;
                     document.getElementById("recipe-data-div").hidden = document.getElementById("back").hidden = false;
                     build_data(item_name);
                     window.scrollTo(0, 0);
@@ -187,9 +200,54 @@
             catalog.appendChild(item_div);
             catalog.appendChild(misc_items);
 
-            // BUILD ITEM USAGE
+            // IF LOCALSTORAGE SUPPORT IS AVAILABLE...
+            if (typeof(Storage) !== "undefined") {
+                // REVEAL CHARACTER BOX BUTTON
+                document.getElementById("character-box-button").hidden = false;
+                localstorage_data = localStorage.getItem(LOCALSTORAGE_KEY);
+                if (localstorage_data !== null) {
+                    localstorage_data = JSON.parse(localstorage_data);
+                }
+                else {
+                    localstorage_data = [];
+                }
+            }
+
+            // BUILD ITEM USAGE / CHARACTER BOX
             const char_data = character_data.data();
             for (const unit_id in char_data) {
+                // ADD CHARACTER TO CHARACTER BOX
+                const elem = document.createElement("span");
+                elem.classList.add("unit-sprite", get_unit_sprite_class(unit_id));
+                if (localstorage_data.includes(unit_id)) {
+                    elem.classList.add("enabled");
+                }
+                elem.onclick = (mouseEvent) => {
+                    const enabled = mouseEvent.srcElement.classList.toggle("enabled");
+                    if (typeof(Storage) !== "undefined") {
+                        if (enabled) {
+                            localstorage_data.push(unit_id);
+                            localStorage.setItem(LOCALSTORAGE_KEY, JSON.stringify(localstorage_data));
+                        }
+                        else {
+                            if (localstorage_data.includes(unit_id)) {
+                                const index = localstorage_data.indexOf(unit_id);
+                                if (index > -1) {
+                                    localstorage_data.splice(index, 1);
+                                }
+                            }
+                            if (localstorage_data.length === 0) {
+                                localStorage.removeItem(LOCALSTORAGE_KEY);
+                            }
+                            else {
+                                localStorage.setItem(LOCALSTORAGE_KEY, JSON.stringify(localstorage_data));
+                            }
+                        }
+                    }
+                }
+                character_box.appendChild(elem);
+
+                // BUILD ITEM USAGE
                 for (let i = 1, j = character_data.max_rank() ; i <= j ; i++) {
                     const rank_array = char_data[unit_id]["rank_" + i];
                     for (const item_name of rank_array) {
@@ -311,13 +369,37 @@
                 usage_title.classList.add("title");
                 usage_title.innerText = "Character Usage";
                 usage_elem.appendChild(usage_title);
+                let disabled_characters = [];
                 for (const usage_string of usage) {
                     const u = usage_string.split('.'),
                         elem = document.createElement("span");
                     elem.classList.add("unit-sprite", get_unit_sprite_class(u[0]), "rank-" + u[1]);
                     elem.innerText = u[1];
-                    usage_elem.appendChild(elem);
+                    // IF CHARACTER BOX DATA DOESN'T EXIST...
+                    if (localstorage_data.length === 0) {
+                        // CREATE AND ADD ELEMENT AS NORMAL
+                        usage_elem.appendChild(elem);
+                    }
+                    else {
+                        // CHARACTER BOX DATA EXISTS, ADD UNITS THAT THE USER HAS FIRST
+                        if (localstorage_data.includes(u[0])) {
+                            usage_elem.appendChild(elem);
+                        }
+                        else {
+                            // USER DOES NOT HAVE THIS UNIT, DISABLE IT AND ADD IT LATER
+                            elem.classList.add("disabled");
+                            disabled_characters.push(elem);
+                        }
+                    }
                 }
+
+                // ADD DISABLED CHARACTERS IF APPLICABLE
+                if (disabled_characters.length > 0) {
+                    for (const elem of disabled_characters) {
+                        usage_elem.appendChild(elem);
+                    }
+                }
+
                 item.appendChild(usage_elem);
             }
 

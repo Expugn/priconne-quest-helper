@@ -3,6 +3,16 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.9.3] - 2021-02-01
+### Added
+- `pages/recipe-data` Character Usage Filtering
+  - Suggested by `nightbasilisk`: <https://github.com/Expugn/priconne-quest-helper/issues/36>
+  - `pages/recipe-data` now has a "Character Box" button on the top right of the initial state.
+  - Clicking on the "Character Box" button opens up a GUI where you can select characters you have.
+  - Characters you have will be displayed first on "Character Usage" of items
+  - Characters you DON'T have will be grayscale and displayed after characters you DO have, if applicable.
+  - If no characters are selected, information will be displayed as normal.
+
 ## [2.9.2] - 2021-01-30
 Save Data Purge #4: `1377` / `1627` Files Deleted
 ### Added
