@@ -11324,6 +11324,37 @@
             "Sun Amulet Fragment"
         ]
     },
+    "25-2VH": {
+        "name": "レディウス群峰・東麓 25-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Magic Pancake Robe Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Triple Ice Rod Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Rose Strawberry Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Doughnut Choker Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Yori Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ice Claymore Fragment",
+            "Dark Matter Edge Fragment",
+            "Violet Armor Fragment",
+            "Crusader Plate Fragment",
+            "Sun Amulet Fragment"
+        ]
+    },
     "26-1": {
         "name": "ペテロ大森林・西部 26-1",
         "stamina": 10,
