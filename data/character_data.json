@@ -150,12 +150,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Doughnut Choker",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Sheet Tart Beret",
+            "",
+            "Macaron Pendant"
         ]
     },
     "angel_akari": {
@@ -309,12 +317,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "akino": {
@@ -468,12 +484,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Rose Strawberry Armor",
             "Platinum Scale Armor",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Rose Strawberry Armor",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "christmas_akino": {
@@ -627,12 +651,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Chocolate Mail",
             "Shining Sword - Adamas",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Choco Stick Blade",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "anna": {
@@ -786,12 +818,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "summer_anna": {
@@ -945,12 +985,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "anne": {
@@ -1104,12 +1152,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "aoi": {
@@ -1263,12 +1319,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "White Rain Bow",
             "Candy Sugar Bow",
             "Chocolate Mail",
             "Blue God Bow - Mercy Sapiros",
             "Macaron Pendant",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "White Rain Bow",
+            "",
+            "Candy Sugar Bow",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "transfer_student_aoi": {
@@ -1422,12 +1486,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "White Rain Bow",
             "Candy Sugar Bow",
             "Fancy Macaron Dress",
             "Blue God Bow - Mercy Sapiros",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "White Rain Bow",
+            "",
+            "Candy Sugar Bow",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "arisa": {
@@ -1581,12 +1653,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "White Rain Bow",
             "Candy Sugar Bow",
             "Chocolate Mail",
             "Blue God Bow - Mercy Sapiros",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "White Rain Bow",
+            "",
+            "Candy Sugar Bow",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "ayane": {
@@ -1740,12 +1820,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Polar Light Belt Axe",
             "Crepe Axe",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Polar Light Belt Axe",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "christmas_ayane": {
@@ -1899,12 +1987,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Polar Light Belt Axe",
             "Chocolate Lance",
             "Fancy Macaron Dress",
             "Brass Cleft Axe",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Lightning Spear",
+            "",
+            "Crepe Axe",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "ayumi": {
@@ -2058,12 +2154,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Lightning Spear",
             "Chocolate Lance",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Lightning Spear",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Macaron Pendant"
         ]
     },
     "wonder_ayumi": {
@@ -2217,12 +2321,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Lightning Spear",
             "Chocolate Lance",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Lightning Spear",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Macaron Pendant"
         ]
     },
     "chieru": {
@@ -2376,12 +2488,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Sand Dust Knuckle",
             "Cream Puff Knuckle",
             "Fancy Macaron Dress",
             "Pink Coral Dress",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Fancy Macaron Dress",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "chika": {
@@ -2535,12 +2655,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Macaron Pendant",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Magic Pancake Robe",
+            "",
+            "Doughnut Choker"
         ]
     },
     "christmas_chika": {
@@ -2694,12 +2822,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Macaron Pendant",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Magic Pancake Robe",
+            "",
+            "Doughnut Choker"
         ]
     },
     "chloe": {
@@ -2853,12 +2989,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Purple Mist Dagger",
             "Chocolate Banana Dagger",
             "Fancy Macaron Dress",
             "Pink Coral Dress",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Purple Mist Dagger",
+            "",
+            "Fancy Macaron Dress",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "christina": {
@@ -3012,12 +3156,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Chocolate Mail",
             "Shining Sword - Adamas",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Choco Stick Blade",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "christmas_christina": {
@@ -3171,12 +3323,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Chocolate Mail",
             "Shining Sword - Adamas",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Choco Stick Blade",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "djeeta": {
@@ -3330,12 +3490,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Chocolate Mail",
             "Shining Sword - Adamas",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Choco Stick Blade",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "emilia": {
@@ -3489,12 +3657,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Black Agate Prayer Dress",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Sheet Tart Beret",
+            "",
+            "Doughnut Choker"
         ]
     },
     "eriko": {
@@ -3648,12 +3824,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Polar Light Belt Axe",
             "Crepe Axe",
             "Chocolate Mail",
             "Brass Cleft Axe",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Polar Light Belt Axe",
+            "",
+            "Crepe Axe",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "valentine_eriko": {
@@ -3807,12 +3991,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Polar Light Belt Axe",
             "Crepe Axe",
             "Chocolate Mail",
             "Brass Cleft Axe",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Polar Light Belt Axe",
+            "",
+            "Crepe Axe",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "grea": {
@@ -3966,12 +4158,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "hatsune": {
@@ -4125,12 +4325,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Black Agate Prayer Dress",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Sheet Tart Beret",
+            "",
+            "Doughnut Choker"
         ]
     },
     "summer_hatsune": {
@@ -4284,12 +4492,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Black Agate Prayer Dress",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Sheet Tart Beret",
+            "",
+            "Doughnut Choker"
         ]
     },
     "hiyori": {
@@ -4443,12 +4659,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Sand Dust Knuckle",
             "Cream Puff Knuckle",
             "Chocolate Mail",
             "Platinum Scale Armor",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Chocolate Mail",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "new_year_hiyori": {
@@ -4602,12 +4826,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Sand Dust Knuckle",
             "Cream Puff Knuckle",
             "Chocolate Mail",
             "Opal Sparge Fist",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Cream Puff Knuckle",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "princess_hiyori": {
@@ -4761,12 +4993,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Sand Dust Knuckle",
             "Cream Puff Knuckle",
             "Fancy Macaron Dress",
             "Opal Sparge Fist",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Cream Puff Knuckle",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "ilya": {
@@ -4920,12 +5160,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "christmas_ilya": {
@@ -5079,12 +5327,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "inori": {
@@ -5238,12 +5494,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Polar Light Belt Axe",
             "Chocolate Lance",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Lightning Spear",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "io": {
@@ -5397,12 +5661,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Sheet Tart Beret",
             "Black Agate Prayer Dress",
             "Doughnut Choker",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Magic Pancake Robe",
+            "",
+            "Macaron Pendant"
         ]
     },
     "summer_io": {
@@ -5556,12 +5828,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Black Agate Prayer Dress",
             "Doughnut Choker",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Sheet Tart Beret",
+            "",
+            "Macaron Pendant"
         ]
     },
     "jun": {
@@ -5715,12 +5995,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Rose Strawberry Armor",
             "Holy Engraved Armor of Pure Gold",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Rose Strawberry Armor",
+            "",
+            "Macaron Pendant"
         ]
     },
     "summer_jun": {
@@ -5874,12 +6162,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "kaori": {
@@ -6033,12 +6329,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Sand Dust Knuckle",
             "Cream Puff Knuckle",
             "Chocolate Mail",
             "Opal Sparge Fist",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Cream Puff Knuckle",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "summer_kaori": {
@@ -6192,12 +6496,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Sand Dust Knuckle",
             "Cream Puff Knuckle",
             "Fancy Macaron Dress",
             "Opal Sparge Fist",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Cream Puff Knuckle",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "kasumi": {
@@ -6351,12 +6663,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Doughnut Choker",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Magic Pancake Robe",
+            "",
+            "Macaron Pendant"
         ]
     },
     "magical_kasumi": {
@@ -6510,12 +6830,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Doughnut Choker",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Magic Pancake Robe",
+            "",
+            "Macaron Pendant"
         ]
     },
     "kaya": {
@@ -6669,12 +6997,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Sand Dust Knuckle",
             "Cream Puff Knuckle",
             "Chocolate Mail",
             "Opal Sparge Fist",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Cream Puff Knuckle",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "kokkoro": {
@@ -6828,12 +7164,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Lightning Spear",
             "Chocolate Lance",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Lightning Spear",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Macaron Pendant"
         ]
     },
     "ceremonial_attire_kokkoro": {
@@ -6987,12 +7331,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Purple Mist Dagger",
             "Chocolate Banana Dagger",
             "Fancy Macaron Dress",
             "Shining Sword - Adamas",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Purple Mist Dagger",
+            "",
+            "Choco Stick Blade",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "new_year_kokkoro": {
@@ -7146,12 +7498,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Lightning Spear",
             "Chocolate Lance",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Lightning Spear",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Macaron Pendant"
         ]
     },
     "princess_kokkoro": {
@@ -7305,12 +7665,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Lightning Spear",
             "Chocolate Lance",
             "Chocolate Mint Ice Heels",
             "Crystallos Spike",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Lightning Spear",
+            "",
+            "Chocolate Lance",
+            "",
+            "Macaron Pendant"
         ]
     },
     "summer_kokkoro": {
@@ -7464,12 +7832,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Lightning Spear",
             "Chocolate Lance",
             "Fancy Macaron Dress",
             "Pink Coral Dress",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Lightning Spear",
+            "",
+            "Fancy Macaron Dress",
+            "",
+            "Macaron Pendant"
         ]
     },
     "kurumi": {
@@ -7623,12 +7999,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Polar Light Belt Axe",
             "Crepe Axe",
             "Rose Strawberry Armor",
             "Holy Engraved Armor of Pure Gold",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Polar Light Belt Axe",
+            "",
+            "Rose Strawberry Armor",
+            "",
+            "Macaron Pendant"
         ]
     },
     "christmas_kurumi": {
@@ -7782,12 +8166,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Lightning Spear",
             "Chocolate Lance",
             "Rose Strawberry Armor",
             "Holy Engraved Armor of Pure Gold",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Lightning Spear",
+            "",
+            "Rose Strawberry Armor",
+            "",
+            "Macaron Pendant"
         ]
     },
     "kuuka": {
@@ -7941,12 +8333,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Purple Mist Dagger",
             "Chocolate Banana Dagger",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Purple Mist Dagger",
+            "",
+            "Magic Pancake Robe",
+            "",
+            "Macaron Pendant"
         ]
     },
     "oedo_kuuka": {
@@ -8100,12 +8500,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Magic Pancake Robe",
+            "",
+            "Macaron Pendant"
         ]
     },
     "kyaru": {
@@ -8259,12 +8667,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "new_year_kyaru": {
@@ -8418,12 +8834,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "summer_kyaru": {
@@ -8577,12 +9001,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "kyouka": {
@@ -8736,12 +9168,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "halloween_kyouka": {
@@ -8895,12 +9335,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Heavenly Wand of the White Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Triple Ice Rod",
+            "",
+            "Doughnut Choker"
         ]
     },
     "labyrista": {
@@ -9054,12 +9502,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Rose Strawberry Armor",
             "Holy Engraved Armor of Pure Gold",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Rose Strawberry Armor",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "lou": {
@@ -9213,12 +9669,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "luna": {
@@ -9372,12 +9836,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "mahiru": {
@@ -9531,12 +10003,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Lightning Spear",
             "Crepe Axe",
             "Rose Strawberry Armor",
             "Holy Engraved Armor of Pure Gold",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Polar Light Belt Axe",
+            "",
+            "Rose Strawberry Armor",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "ranger_mahiru": {
@@ -9690,12 +10170,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Lightning Spear",
             "Chocolate Lance",
             "Chocolate Mail",
             "Crystallos Spike",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Lightning Spear",
+            "",
+            "Chocolate Lance",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "maho": {
@@ -9849,12 +10337,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Macaron Pendant",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Magic Pancake Robe",
+            "",
+            "Doughnut Choker"
         ]
     },
     "summer_maho": {
@@ -10008,12 +10504,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "makoto": {
@@ -10167,12 +10671,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Summer Breeze's Blossom",
             "Soft Ice Sherbet",
             "Chocolate Mail",
             "Crimson Jade Katana - Scarlet Moon",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Summer Breeze's Blossom",
+            "",
+            "Soft Ice Sherbet",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "summer_makoto": {
@@ -10326,12 +10838,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Summer Breeze's Blossom",
             "Soft Ice Sherbet",
             "Fancy Macaron Dress",
             "Crimson Jade Katana - Scarlet Moon",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Summer Breeze's Blossom",
+            "",
+            "Soft Ice Sherbet",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "matsuri": {
@@ -10485,12 +11005,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Purple Mist Dagger",
             "Chocolate Banana Dagger",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Purple Mist Dagger",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Macaron Pendant"
         ]
     },
     "halloween_matsuri": {
@@ -10644,12 +11172,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Sand Dust Knuckle",
             "Cream Puff Knuckle",
             "Fancy Macaron Dress",
             "Opal Sparge Fist",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Cream Puff Knuckle",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "mifuyu": {
@@ -10803,12 +11339,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Lightning Spear",
             "Crepe Axe",
             "Rose Strawberry Armor",
             "Holy Engraved Armor of Pure Gold",
             "Macaron Pendant",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Polar Light Belt Axe",
+            "",
+            "Rose Strawberry Armor",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "summer_mifuyu": {
@@ -10962,12 +11506,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Lightning Spear",
             "Crepe Axe",
             "Fancy Macaron Dress",
             "Crystallos Spike",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Polar Light Belt Axe",
+            "",
+            "Chocolate Lance",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "mimi": {
@@ -11121,12 +11673,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Crepe Axe",
             "Chocolate Mail",
             "Platinum Scale Armor",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Polar Light Belt Axe",
+            "",
+            "Chocolate Mail",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "halloween_mimi": {
@@ -11280,12 +11840,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Crepe Axe",
             "Chocolate Mail",
             "Platinum Scale Armor",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Polar Light Belt Axe",
+            "",
+            "Chocolate Mail",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "deresute_mio": {
@@ -11439,12 +12007,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Sheet Tart Beret",
+            "",
+            "Doughnut Choker"
         ]
     },
     "misaki": {
@@ -11598,12 +12174,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "halloween_misaki": {
@@ -11757,12 +12341,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Doughnut Choker",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Sheet Tart Beret",
+            "",
+            "Macaron Pendant"
         ]
     },
     "misato": {
@@ -11916,12 +12508,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Macaron Pendant",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Magic Pancake Robe",
+            "",
+            "Doughnut Choker"
         ]
     },
     "summer_misato": {
@@ -12075,12 +12675,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Macaron Pendant",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Magic Pancake Robe",
+            "",
+            "Doughnut Choker"
         ]
     },
     "misogi": {
@@ -12234,12 +12842,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Sand Dust Knuckle",
             "Cream Puff Knuckle",
             "Chocolate Mail",
             "Platinum Scale Armor",
             "Popcorn Necklace",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Chocolate Mail",
+            "",
+            "Macaron Pendant"
         ]
     },
     "halloween_misogi": {
@@ -12393,12 +13009,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Sand Dust Knuckle",
             "Cream Puff Knuckle",
             "Fancy Macaron Dress",
             "Opal Sparge Fist",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Cream Puff Knuckle",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "mitsuki": {
@@ -12552,12 +13176,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "miyako": {
@@ -12711,12 +13343,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Lightning Spear",
             "Chocolate Lance",
             "Fancy Macaron Dress",
             "Pink Coral Dress",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Purple Mist Dagger",
+            "",
+            "Fancy Macaron Dress",
+            "",
+            "Macaron Pendant"
         ]
     },
     "halloween_miyako": {
@@ -12870,12 +13510,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Sand Dust Knuckle",
             "Cream Puff Knuckle",
             "Fancy Macaron Dress",
             "Pink Coral Dress",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Fancy Macaron Dress",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "monika": {
@@ -13029,12 +13677,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Chocolate Banana Dagger",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Popcorn Necklace",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Purple Mist Dagger",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Macaron Pendant"
         ]
     },
     "magical_monika": {
@@ -13188,12 +13844,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "muimi": {
@@ -13347,12 +14011,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Purple Mist Dagger",
             "Chocolate Banana Dagger",
             "Fancy Macaron Dress",
             "Shining Sword - Adamas",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Purple Mist Dagger",
+            "",
+            "Choco Stick Blade",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "new_year_muimi": {
@@ -13506,12 +14178,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Purple Mist Dagger",
             "Chocolate Banana Dagger",
             "Fancy Macaron Dress",
             "Pink Coral Dress",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Purple Mist Dagger",
+            "",
+            "Fancy Macaron Dress",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "nanaka": {
@@ -13665,12 +14345,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Black Agate Prayer Dress",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Sheet Tart Beret",
+            "",
+            "Doughnut Choker"
         ]
     },
     "summer_nanaka": {
@@ -13824,12 +14512,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Heavenly Wand of the White Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Triple Ice Rod",
+            "",
+            "Doughnut Choker"
         ]
     },
     "neneka": {
@@ -13983,12 +14679,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "new_year_neneka": {
@@ -14142,12 +14846,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Heavenly Wand of the White Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Triple Ice Rod",
+            "",
+            "Doughnut Choker"
         ]
     },
     "ninon": {
@@ -14301,12 +15013,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Summer Breeze's Blossom",
             "Soft Ice Sherbet",
             "Chocolate Mail",
             "Crimson Jade Katana - Scarlet Moon",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Summer Breeze's Blossom",
+            "",
+            "Soft Ice Sherbet",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "oedo_ninon": {
@@ -14460,12 +15180,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Purple Mist Dagger",
             "Chocolate Banana Dagger",
             "Chocolate Mail",
             "Jade Wind Blade - Emerald Edge",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Purple Mist Dagger",
+            "",
+            "Chocolate Banana Dagger",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "nozomi": {
@@ -14619,12 +15347,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Macaron Pendant"
         ]
     },
     "christmas_nozomi": {
@@ -14778,12 +15514,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Macaron Pendant"
         ]
     },
     "pecorine": {
@@ -14937,12 +15681,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Rose Strawberry Armor",
             "Holy Engraved Armor of Pure Gold",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Rose Strawberry Armor",
+            "",
+            "Macaron Pendant"
         ]
     },
     "new_year_pecorine": {
@@ -15096,12 +15848,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Macaron Pendant"
         ]
     },
     "princess_pecorine": {
@@ -15255,12 +16015,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Rose Strawberry Armor",
             "Holy Engraved Armor of Pure Gold",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Rose Strawberry Armor",
+            "",
+            "Macaron Pendant"
         ]
     },
     "summer_pecorine": {
@@ -15414,12 +16182,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Chocolate Mail",
             "Shining Sword - Adamas",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Choco Stick Blade",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "ram": {
@@ -15573,12 +16349,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Sheet Tart Beret",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "rei": {
@@ -15732,12 +16516,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Chocolate Mail",
             "Platinum Scale Armor",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Chocolate Mail",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "halloween_rei": {
@@ -15891,12 +16683,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Fancy Macaron Dress",
             "Shining Sword - Adamas",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Choco Stick Blade",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "new_year_rei": {
@@ -16050,12 +16850,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Macaron Pendant"
         ]
     },
     "rem": {
@@ -16209,12 +17017,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Polar Light Belt Axe",
             "Crepe Axe",
             "Fancy Macaron Dress",
             "Brass Cleft Axe",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Polar Light Belt Axe",
+            "",
+            "Crepe Axe",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "rima": {
@@ -16368,12 +17184,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Lightning Spear",
             "Chocolate Lance",
             "Rose Strawberry Armor",
             "Holy Engraved Armor of Pure Gold",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Lightning Spear",
+            "",
+            "Rose Strawberry Armor",
+            "",
+            "Macaron Pendant"
         ]
     },
     "rin": {
@@ -16527,12 +17351,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Lightning Spear",
             "Chocolate Lance",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Lightning Spear",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Macaron Pendant"
         ]
     },
     "deresute_rin": {
@@ -16686,12 +17518,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Summer Breeze's Blossom",
             "Soft Ice Sherbet",
             "Rose Strawberry Armor",
             "Holy Engraved Armor of Pure Gold",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Summer Breeze's Blossom",
+            "",
+            "Rose Strawberry Armor",
+            "",
+            "Macaron Pendant"
         ]
     },
     "ranger_rin": {
@@ -16845,12 +17685,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Lightning Spear",
             "Chocolate Lance",
             "Rose Strawberry Armor",
             "Crystallos Spike",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Lightning Spear",
+            "",
+            "Chocolate Lance",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "rino": {
@@ -17004,12 +17852,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "White Rain Bow",
             "Candy Sugar Bow",
             "Chocolate Mail",
             "Blue God Bow - Mercy Sapiros",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "White Rain Bow",
+            "",
+            "Candy Sugar Bow",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "wonder_rino": {
@@ -17163,12 +18019,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "White Rain Bow",
             "Candy Sugar Bow",
             "Fancy Macaron Dress",
             "Blue God Bow - Mercy Sapiros",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "White Rain Bow",
+            "",
+            "Candy Sugar Bow",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "ruka": {
@@ -17322,12 +18186,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Summer Breeze's Blossom",
             "Soft Ice Sherbet",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Summer Breeze's Blossom",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Macaron Pendant"
         ]
     },
     "summer_ruka": {
@@ -17481,12 +18353,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Summer Breeze's Blossom",
             "Soft Ice Sherbet",
             "Fancy Macaron Dress",
             "Crimson Jade Katana - Scarlet Moon",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Summer Breeze's Blossom",
+            "",
+            "Soft Ice Sherbet",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "saren": {
@@ -17640,12 +18520,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Chocolate Mint Ice Heels",
             "Platinum Scale Armor",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "christmas_saren": {
@@ -17799,12 +18687,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Rose Strawberry Armor",
             "Holy Engraved Armor of Pure Gold",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Rose Strawberry Armor",
+            "",
+            "Macaron Pendant"
         ]
     },
     "summer_saren": {
@@ -17958,12 +18854,187 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Fancy Macaron Dress",
             "Pink Coral Dress",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Fancy Macaron Dress",
+            "",
+            "Macaron Pendant"
+        ]
+    },
+    "sheffy": {
+        "unit_id": 106401,
+        "name": "Sheffy",
+        "thematic": "",
+        "name_jp": "シェフィ",
+        "thematic_jp": "",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Leather Overalls",
+            "Tree Shield",
+            "Iron Blade",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Blue Blood",
+            "Gear Blade",
+            "Clothes of Wisdom",
+            "Legion Helm",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Blue Blood",
+            "Light Plate",
+            "Tower Shield",
+            "Gear Blade",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Sparkling Sword",
+            "Fashion Armor",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Ryuumon Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Platinum Knife",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Feather Blade",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Angel Blade",
+            "Invisible Dress",
+            "Scarlet Diamond",
+            "Feather Blade",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Mythril Plate",
+            "Angel Blade",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Guardian Shield",
+            "Solar Sword",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Scarlet Mail",
+            "Ice Claymore",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Lightning Blade",
+            "Phantasm Mail",
+            "Chaos Blade",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Dawn's Holy Sword",
+            "Nine Heavens' Armor",
+            "Lightning Blade",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Fire Oni's Tori",
+            "Dawn's Holy Sword",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "Konominato Sword - Aqua Ruler",
+            "Senka Dance Armor",
+            "Great Sword of Sin",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Sword - Ertz Schneide",
+            "Overlord Light Dragon Sword",
+            "Beautiful Clothes - Soul Rose",
+            "Konominato Sword - Aqua Ruler",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Rabbit God's Great Sword",
+            "Star Nuclear Sword - Ertz Schneide",
+            "Southern Heaven Blazing Blue Armor",
+            "Overlord Light Dragon Sword",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Shining Sword - Adamas",
+            "Rabbit God's Great Sword",
+            "Holy Light's Lily Plate",
+            "Star Nuclear Sword - Ertz Schneide",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Choco Stick Blade",
+            "Shining Sword - Adamas",
+            "Platinum Scale Armor",
+            "Rabbit God's Great Sword",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Blazing Red Sun Sword",
+            "Choco Stick Blade",
+            "Chocolate Mail",
+            "Shining Sword - Adamas",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Choco Stick Blade",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "shinobu": {
@@ -18117,12 +19188,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Summer Breeze's Blossom",
             "Soft Ice Sherbet",
             "Chocolate Mail",
             "Platinum Scale Armor",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Summer Breeze's Blossom",
+            "",
+            "Chocolate Mail",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "halloween_shinobu": {
@@ -18276,12 +19355,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Summer Breeze's Blossom",
             "Soft Ice Sherbet",
             "Chocolate Mail",
             "Platinum Scale Armor",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Summer Breeze's Blossom",
+            "",
+            "Soft Ice Sherbet",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "shiori": {
@@ -18435,12 +19522,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "White Rain Bow",
             "Candy Sugar Bow",
             "Fancy Macaron Dress",
             "Blue God Bow - Mercy Sapiros",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "White Rain Bow",
+            "",
+            "Candy Sugar Bow",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "magical_shiori": {
@@ -18594,12 +19689,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "White Rain Bow",
             "Candy Sugar Bow",
             "Fancy Macaron Dress",
             "Blue God Bow - Mercy Sapiros",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "White Rain Bow",
+            "",
+            "Candy Sugar Bow",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "shizuru": {
@@ -18753,12 +19856,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Rose Strawberry Armor",
             "Holy Engraved Armor of Pure Gold",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Rose Strawberry Armor",
+            "",
+            "Macaron Pendant"
         ]
     },
     "valentine_shizuru": {
@@ -18912,12 +20023,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Rose Strawberry Armor",
             "Holy Engraved Armor of Pure Gold",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Rose Strawberry Armor",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "suzume": {
@@ -19071,12 +20190,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Black Agate Prayer Dress",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Sheet Tart Beret",
+            "",
+            "Doughnut Choker"
         ]
     },
     "new_year_suzume": {
@@ -19230,12 +20357,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Macaron Pendant",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Sheet Tart Beret",
+            "",
+            "Doughnut Choker"
         ]
     },
     "summer_suzume": {
@@ -19389,12 +20524,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Macaron Pendant",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Magic Pancake Robe",
+            "",
+            "Doughnut Choker"
         ]
     },
     "suzuna": {
@@ -19548,12 +20691,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "White Rain Bow",
             "Candy Sugar Bow",
             "Chocolate Mail",
             "Blue God Bow - Mercy Sapiros",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "White Rain Bow",
+            "",
+            "Candy Sugar Bow",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "summer_suzuna": {
@@ -19707,12 +20858,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "White Rain Bow",
             "Candy Sugar Bow",
             "Fancy Macaron Dress",
             "Blue God Bow - Mercy Sapiros",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "White Rain Bow",
+            "",
+            "Candy Sugar Bow",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "tamaki": {
@@ -19866,12 +21025,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Purple Mist Dagger",
             "Chocolate Banana Dagger",
             "Fancy Macaron Dress",
             "Pink Coral Dress",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Purple Mist Dagger",
+            "",
+            "Fancy Macaron Dress",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "summer_tamaki": {
@@ -20025,12 +21192,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Purple Mist Dagger",
             "Chocolate Banana Dagger",
             "Fancy Macaron Dress",
             "Pink Coral Dress",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Purple Mist Dagger",
+            "",
+            "Fancy Macaron Dress",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "tomo": {
@@ -20184,12 +21359,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Summer Breeze's Blossom",
             "Chocolate Banana Dagger",
             "Chocolate Mail",
             "Shining Sword - Adamas",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Purple Mist Dagger",
+            "",
+            "Choco Stick Blade",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "magical_tomo": {
@@ -20343,12 +21526,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Summer Breeze's Blossom",
             "Chocolate Banana Dagger",
             "Fancy Macaron Dress",
             "Shining Sword - Adamas",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Purple Mist Dagger",
+            "",
+            "Choco Stick Blade",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "tsumugi": {
@@ -20502,12 +21693,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Sand Dust Knuckle",
             "Cream Puff Knuckle",
             "Fancy Macaron Dress",
             "Platinum Scale Armor",
             "Macaron Pendant",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Fancy Macaron Dress",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "halloween_tsumugi": {
@@ -20661,12 +21860,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Purple Mist Dagger",
             "Chocolate Banana Dagger",
             "Fancy Macaron Dress",
             "Iolite Shield",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Purple Mist Dagger",
+            "",
+            "Fancy Macaron Dress",
+            "",
+            "Macaron Pendant"
         ]
     },
     "deresute_uzuki": {
@@ -20820,12 +22027,20 @@
             "Cardinal Clarion Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Chocolate Mail",
             "Shining Sword - Adamas",
             "Popcorn Necklace",
             "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Choco Stick Blade",
+            "",
+            "Popcorn Necklace"
         ]
     },
     "yori": {
@@ -20979,12 +22194,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "angel_yori": {
@@ -21138,12 +22361,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Magic Pancake Robe",
+            "",
+            "Macaron Pendant"
         ]
     },
     "yui": {
@@ -21297,12 +22528,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Magic Pancake Robe",
+            "",
+            "Macaron Pendant"
         ]
     },
     "ceremonial_attire_yui": {
@@ -21456,12 +22695,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Doughnut Choker",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Magic Pancake Robe",
+            "",
+            "Macaron Pendant"
         ]
     },
     "new_year_yui": {
@@ -21615,12 +22862,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Macaron Pendant",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Magic Pancake Robe",
+            "",
+            "Doughnut Choker"
         ]
     },
     "princess_yui": {
@@ -21774,12 +23029,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Dark Moon Arc Cane",
             "Lollipop Stick",
             "Magic Pancake Robe",
             "Dark Prison Staff of the Black Pearl",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Lollipop Stick",
+            "",
+            "Doughnut Choker"
         ]
     },
     "yukari": {
@@ -21933,12 +23196,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Chocolate Mint Ice Heels",
             "Iolite Shield",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Chocolate Mint Ice Heels",
+            "",
+            "Macaron Pendant"
         ]
     },
     "christmas_yukari": {
@@ -22092,12 +23363,20 @@
             "Jade Harp Brooch"
         ],
         "rank_19": [
-            "",
+            "Blazing Red Sun Sword",
             "Choco Stick Blade",
             "Fancy Macaron Dress",
             "Pink Coral Dress",
             "Macaron Pendant",
             "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Fancy Macaron Dress",
+            "",
+            "Macaron Pendant"
         ]
     },
     "yuki": {
@@ -22251,12 +23530,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Doughnut Choker",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Magic Pancake Robe",
+            "",
+            "Doughnut Choker"
         ]
     },
     "yuni": {
@@ -22410,12 +23697,20 @@
             "Blue Night Nocturne Brooch"
         ],
         "rank_19": [
-            "",
+            "Icy Snow Flower Cane",
             "Triple Ice Rod",
             "Sheet Tart Beret",
             "Moon Crystal Heels",
             "Macaron Pendant",
             "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Magic Pancake Robe",
+            "",
+            "Doughnut Choker"
         ]
     }
 }

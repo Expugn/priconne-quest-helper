@@ -3,6 +3,16 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.10.0] - 2021-02-15
+Quest Update (2021-02-15)
+### Added
+- Chapter 43 Quests
+- New Equipment
+- Updated Language Files (EN/JP) ; (KR/CN are ***UN-TRANSLATED***)
+  - `character_names.sheffy`
+- Rank 20 Support
+- New Character: Sheffy
+
 ## [2.9.4] - 2021-02-07
 ### Added
 - New Quest: `25-2 VH` (Yori)

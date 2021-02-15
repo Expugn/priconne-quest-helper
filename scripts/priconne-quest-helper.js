@@ -1479,6 +1479,7 @@ const presets = (function () {
                 return "text-color_purple";
             case 18:
             case 19:
+            case 20:
                 return "text-color_red";
             default:
                 return "text-color_misc";
@@ -4136,7 +4137,7 @@ const webpage = (function () {
     const debug = true;
     let simple_mode_enabled = false;
     let webp_enabled = false;
-    const update_date = new Date(Date.UTC(2021, 0, 22, 24, 0, 0));
+    const update_date = new Date(Date.UTC(2021, 1, 15, 24, 0, 0));
     const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
 
     const navigation = (function () {
