@@ -141,7 +141,10 @@
   "inventory": {
     "title": "Inventory",
     "add_item": "Add Item",
-    "inventory_empty": "The inventory is empty..."
+    "inventory_empty": "The inventory is empty...",
+    "no_sorting": "No Sorting",
+    "quantity_ascending": "Quantity: Ascending",
+    "quantity_descending": "Quantity: Descending"
   },
 
   "toasts": {

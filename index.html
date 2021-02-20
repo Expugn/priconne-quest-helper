@@ -818,6 +818,13 @@
                     <img-webp id="inventory_modal_toolbar-button-delete-img" image_folder="webpage" file_name="red_x" src_prefix=""></img-webp>
                 </button>
             </div>
+            <div id="inventory_sorting_options" style="padding-top: 5px;">
+                <select id="inventory_sorting-options-list" onchange="inventory.build_list()">
+                    <option id="inventory_sort-none" value="no_sort" selected>No Sorting</option>
+                    <option id="inventory_sort-quantity-ascending" value="quantity_ascending">Quantity: Ascending</option>
+                    <option id="inventory_sort-quantity-descending" value="quantity_descending">Quantity: Descending</option>
+                </select>
+            </div>
         </div>
 
         <div id="inventory_content_list" class="center-div"></div>

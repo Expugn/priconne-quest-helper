@@ -141,7 +141,10 @@
   "inventory": {
     "title": "아이템",
     "add_item": "아이템 추가",
-    "inventory_empty": "아이템 목록이 비어 있습니다..."
+    "inventory_empty": "아이템 목록이 비어 있습니다...",
+    "no_sorting": "지정되지 않음",
+    "quantity_ascending": "소지 수: 오름차순",
+    "quantity_descending": "소지 수: 내림차순"
   },
 
   "toasts": {
@@ -229,7 +232,7 @@
     "rino": "리노",
     "ruka": "루카",
     "saren": "사렌",
-    "sheffy": "Sheffy",
+    "sheffy": "셰피",
     "shinobu": "시노부",
     "shiori": "시오리",
     "shizuru": "시즈루",

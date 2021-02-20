@@ -2393,7 +2393,9 @@ const inventory = (function () {
         PROMPT_SUB_ITEMS: "inventory_catalog_add-equipment_sub-items",
         PROMPT_FRAGMENT_OPTION: "inventory_add-prompt_fragment-option",
         PROMPT_EQUIPMENT_OPTION: "inventory_add-prompt_equipment-option",
-        PROMPT_INPUT: "inventory_catalog_input"
+        PROMPT_INPUT: "inventory_catalog_input",
+        SORTING_OPTIONS: "inventory_sorting_options",
+        SORTING_OPTIONS_LIST: "inventory_sorting-options-list"
     });
     const LOCALSTORAGE_KEY = "inventory";
     let status = {
@@ -2980,15 +2982,32 @@ const inventory = (function () {
      * IF THERE IS NOTHING IN THE INVENTORY, AN "INVENTORY IS EMPTY" MESSAGE WILL BE DISPLAYED INSTEAD.
      */
     function build_list() {
+        const sorting_options = {
+            NO_SORT: "no_sort",
+            QUANTITY_ASCENDING: "quantity_ascending",
+            QUANTITY_DESCENDING: "quantity_descending"
+        };
         const list_elem = document.getElementById(element_id.INVENTORY_LIST),
-              inventory_keys = Object.keys(data.fragments);
+              inventory_keys = Object.keys(data.fragments),
+              selected_sort = document.getElementById(element_id.SORTING_OPTIONS_LIST).value;
         list_elem.innerHTML = "";
         if (inventory_keys.length > 0) {
             // ADD INVENTORY
             let counter = 0;
-            inventory_keys.forEach(function (frag_name) {
+            if (selected_sort === sorting_options.QUANTITY_ASCENDING) {
+                Object.keys(get_sorted_inventory()).forEach(frag_name => add_item(frag_name));
+            }
+            else if (selected_sort === sorting_options.QUANTITY_DESCENDING) {
+                Object.keys(get_sorted_inventory(false)).forEach(frag_name => add_item(frag_name));
+            }
+            else {
+                // NO SORT
+                inventory_keys.forEach(frag_name => add_item(frag_name));
+            }
+
+            function add_item(frag_name) {
                 append_inventory_item("inventory_item-" + (counter++), frag_name, get_amount(frag_name));
-            });
+            }
         }
         else {
             // INVENTORY IS EMPTY ; CREATE/DISPLAY MESSAGE
@@ -3088,6 +3107,10 @@ const inventory = (function () {
             if (target_mode === element_id.ADD) {
                 list_elem.hidden = true;
                 catalog_elem.hidden = false;
+                $("#" + element_id.SORTING_OPTIONS).hide();
+            }
+            else {
+                $("#" + element_id.SORTING_OPTIONS).show();
             }
             status.MODE = target_mode;
         }
@@ -3267,6 +3290,19 @@ const inventory = (function () {
         return Object.keys(data.fragments).length === 0;
     }
 
+    function get_sorted_inventory(ascending = true) {
+        return Object.entries(data.fragments)
+            .sort(([, a],[, b]) => {
+                if (ascending) {
+                    return a - b;
+                }
+                else {
+                    return b - a;
+                }
+            })
+            .reduce((r, [k, v]) => ({ ...r, [k]: v }), {});
+    }
+
     return {
         init: init,
         remove: remove,
@@ -3281,7 +3317,8 @@ const inventory = (function () {
         catalog_prompt_add: catalog_prompt_add,
         catalog_prompt_cancel: catalog_prompt_cancel,
         apply_to_recipe: apply_inventory_to_recipe,
-        is_empty: is_inventory_empty
+        is_empty: is_inventory_empty,
+        build_list: build_list
     }
 })();
 const data_display = (function () {
@@ -4346,6 +4383,11 @@ const webpage = (function () {
             // UPDATE EQUIPMENT DATA TYPE SETTING CHOICES
             document.getElementById("equipment-data-type-current-option").innerHTML = data[tags.SETTINGS_TAB]["equipment_data_current_select"];
             document.getElementById("equipment-data-type-legacy-option").innerHTML = data[tags.SETTINGS_TAB]["equipment_data_legacy_select"];
+
+            // UPDATE INVENTORY SORTING OPTIONS
+            document.getElementById("inventory_sort-none").innerHTML = data[tags.INVENTORY]["no_sorting"];
+            document.getElementById("inventory_sort-quantity-ascending").innerHTML = data[tags.INVENTORY]["quantity_ascending"];
+            document.getElementById("inventory_sort-quantity-descending").innerHTML = data[tags.INVENTORY]["quantity_descending"];
         }
 
         function get_current_language() {

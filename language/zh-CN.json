@@ -139,7 +139,10 @@
     "inventory": {
       "title": "库存物品",
       "add_item": "添加物品",
-      "inventory_empty": "库存里空空如也。"
+      "inventory_empty": "库存里空空如也。",
+      "no_sorting": "未指定",
+      "quantity_ascending": "所持数: 升序",
+      "quantity_descending": "所持数: 降序"
     },
 
     "toasts": {
@@ -227,7 +230,7 @@
       "rino": "璃乃",
       "ruka": "流夏",
       "saren": "咲恋",
-      "sheffy": "Sheffy",
+      "sheffy": "谢菲",
       "shinobu": "忍",
       "shiori": "栞",
       "shizuru": "静流",

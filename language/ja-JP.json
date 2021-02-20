@@ -141,7 +141,10 @@
   "inventory": {
     "title": "アイテム",
     "add_item": "アイテム追加",
-    "inventory_empty": "アイテムが存在しません……"
+    "inventory_empty": "アイテムが存在しません……",
+    "no_sorting": "指定なし",
+    "quantity_ascending": "所持数: 昇順",
+    "quantity_descending": "所持数: 降順"
   },
 
   "toasts": {

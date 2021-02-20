@@ -3,6 +3,23 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.10.1] - 2021-02-20
+### Added
+- Inventory: Quantity Sorting
+  - Suggested by `MonbanZ`: <https://github.com/Expugn/priconne-quest-helper/issues/38>
+  - There's now a list of 3 sorting options:
+    - `No Sorting`
+    - `Quantity: Ascending`
+    - `Quantity: Descending`
+  - Choosing an option from the list will perform the sort
+  - If quantity for an item is modified, item position will not refresh until the Inventory Modal is closed or updated in case of user input error
+- Updated Language Files
+  - `inventory.no_sorting`
+  - `inventory.quantity_ascending`
+  - `inventory.quantity_descending`
+- Updated Language Files (KR/CN) **TRANSLATIONS MAY BE INCORRECT**
+  - `character_names.sheffy` 
+
 ## [2.10.0] - 2021-02-15
 Quest Update (2021-02-15)
 ### Added
