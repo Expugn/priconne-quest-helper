@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.10.2] - 2021-02-23
+### Added
+- New Character: Kasumi (Summer)
+
 ## [2.10.1] - 2021-02-20
 ### Added
 - Inventory: Quantity Sorting

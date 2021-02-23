@@ -1,7 +1,6 @@
 ![README Banner](https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/webpage/README_Banner.png)
 
-[🇰🇷 한국어](README.ko.md)<br>
-[简体中文](README.zh-CN.md)
+[🇰🇷 한국어](README.ko.md)
 
 # Princess Connect! Re:Dive Quest Helper<br>(priconne-quest-helper)
 
@@ -13,7 +12,7 @@ Character Data: <https://expugn.github.io/priconne-quest-helper/pages/character-
 Statistics: <https://expugn.github.io/priconne-quest-helper/pages/statistics/><br>
 Changelog: [/priconne-quest-helper/CHANGELOG.md](CHANGELOG.md)
 
-Last Quest Update: `January 22, 2021`
+Last Quest Update: `February 22, 2021`
 
 <br>
 
