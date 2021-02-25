@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.10.3] - 2021-02-24
+### Fixed
+- Fixed Miyako's death animation for the `No JavaScript` error screen
+  - Animation was not playing correctly due to an `!important` tag
+
 ## [2.10.2] - 2021-02-23
 ### Added
 - New Character: Kasumi (Summer)

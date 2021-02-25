@@ -214,7 +214,7 @@ button.item-sprite_button {
 .no-js hr {display: none;}
 .no-js footer {display: none;}
 .no-js #miyako {
-    background: url("../images/webpage/spritesheets/miyako_death.png") !important;
+    background: url("../images/webpage/spritesheets/miyako_death.png");
     animation: death 1250ms steps(18) forwards;
 }
 .no-js #loading-div { top: 40% !important; }
