@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.10.4] - 2021-02-27
+### Added
+- Updated Language Files (EN/JP) ; (KR/CN ***MAY BE INCORRECT***)
+  - `thematics.cinderella`
+- New Characters:
+  - Kyaru (Princess)
+  - Rima (Cinderella)
+
 ## [2.10.3] - 2021-02-24
 ### Fixed
 - Fixed Miyako's death animation for the `No JavaScript` error screen
