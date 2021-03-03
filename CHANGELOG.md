@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.10.5] - 2021-03-03
+### Added
+- New Character: Makoto (Cinderella)
+
 ## [2.10.4] - 2021-02-27
 ### Added
 - Updated Language Files (EN/JP) ; (KR/CN ***MAY BE INCORRECT***)

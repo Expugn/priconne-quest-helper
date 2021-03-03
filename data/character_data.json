@@ -11021,6 +11021,173 @@
             "Popcorn Necklace"
         ]
     },
+    "cinderella_makoto": {
+        "unit_id": 115901,
+        "name": "Makoto",
+        "thematic": "Cinderella",
+        "name_jp": "マコト",
+        "thematic_jp": "シンデレラ",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Leather Overalls",
+            "Tree Shield",
+            "Iron Blade",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Crescent Sword",
+            "Gear Blade",
+            "Clothes of Wisdom",
+            "Legion Helm",
+            "Iron Blade",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Crescent Sword",
+            "Light Plate",
+            "Tower Shield",
+            "Gear Blade",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Moonlight Sword",
+            "Sparkling Sword",
+            "Fashion Armor",
+            "Opal Earrings",
+            "Crescent Sword",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Thunder God Sword",
+            "Moonlight Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Sparkling Sword",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Butterfly Katana",
+            "Thunder God Sword",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Moonlight Sword",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Bright Sword",
+            "Butterfly Katana",
+            "Invisible Dress",
+            "Lion King's Protective Charm",
+            "Thunder God Sword",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Hawk God's Sword",
+            "Bright Sword",
+            "Mythril Plate",
+            "Butterfly Katana",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Phoenix Sword",
+            "Hawk God's Sword",
+            "Violet Armor",
+            "Bright Sword",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Hundred White Blossom Petals Sword",
+            "Phoenix Sword",
+            "Dark Terror Dress",
+            "Hawk God's Sword",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Flowing Azure Blade",
+            "Hundred White Blossom Petals Sword",
+            "Phantasm Mail",
+            "Phoenix Sword",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Blood Raven Sword",
+            "Flowing Azure Blade",
+            "Nine Heavens' Armor",
+            "Hundred White Blossom Petals Sword",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Ifrit Katana - Ignite",
+            "Blood Raven Sword",
+            "Rage Queen Dress",
+            "Flowing Azure Blade",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Emerald Wind God's Tachi",
+            "Ifrit Katana - Ignite",
+            "Senka Dance Armor",
+            "Blood Raven Sword",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Branch Blade of Divine Descent",
+            "Emerald Wind God's Tachi",
+            "Beautiful Clothes - Soul Rose",
+            "Ifrit Katana - Ignite",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Prosperous Carp God's Katana",
+            "Branch Blade of Divine Descent",
+            "Southern Heaven Blazing Blue Armor",
+            "Emerald Wind God's Tachi",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Crimson Jade Katana - Scarlet Moon",
+            "Prosperous Carp God's Katana",
+            "Holy Light's Lily Plate",
+            "Branch Blade of Divine Descent",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Soft Ice Sherbet",
+            "Crimson Jade Katana - Scarlet Moon",
+            "Platinum Scale Armor",
+            "Prosperous Carp God's Katana",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Summer Breeze's Blossom",
+            "Soft Ice Sherbet",
+            "Chocolate Mail",
+            "Crimson Jade Katana - Scarlet Moon",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Summer Breeze's Blossom",
+            "",
+            "Soft Ice Sherbet",
+            "",
+            "Popcorn Necklace"
+        ]
+    },
     "summer_makoto": {
         "unit_id": 110401,
         "name": "Makoto",
