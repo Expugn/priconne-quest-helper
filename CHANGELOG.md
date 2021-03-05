@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.10.6] - 2021-03-04
+### Added
+- New Quests
+  - `25-3 VH` (Misogi)
+  - `26-1 VH` (Mimi)
+  - `26-2 VH` (Kyouka)
+
 ## [2.10.5] - 2021-03-03
 ### Added
 - New Character: Makoto (Cinderella)
