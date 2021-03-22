@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.11.1] - 2021-03-22
+### Added
+- New Character: Maho (Cinderella)
+
 ## [2.11.0] - 2021-03-16
 Quest Update (2021-03-16)
 ### Added
