@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.11.2] - 2021-03-31
+### Added
+- New Character: Chieru (School Festival)
+- Updated Language Files (EN/JP) ; (KR/CN ***MAY BE INCORRECT***)
+  - `thematics.school_festival`
+
 ## [2.11.1] - 2021-03-22
 ### Added
 - New Character: Maho (Cinderella)
