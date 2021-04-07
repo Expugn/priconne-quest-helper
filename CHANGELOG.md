@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.11.3] - 2021-04-07
+### Added
+- New Quest: `26-3 VH` (Nozomi)
+
 ## [2.11.2] - 2021-03-31
 ### Added
 - New Character: Chieru (School Festival)
