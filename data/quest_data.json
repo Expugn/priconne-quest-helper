@@ -21396,5 +21396,527 @@
             17,
             15
         ]
+    },
+    "45-1": {
+        "name": "スクァーマ氷脈・東壁 45-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Heavenly Hell Earrings Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Blazing Red Sun Sword Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "White Rain Bow Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Godly Red Ring - Ruby Rose Fragment",
+            "Dark Prison Staff of the Black Pearl Fragment",
+            "Pink Coral Dress Fragment",
+            "Jade Wind Blade - Emerald Edge Fragment",
+            "Brass Cleft Axe Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "45-2": {
+        "name": "スクァーマ氷脈・東壁 45-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Whirlwind Earrings Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Summer Breeze's Blossom Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Purple Mist Dagger Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Evergreen Green Ring Fragment",
+            "Moon Crystal Heels Fragment",
+            "Holy Engraved Armor of Pure Gold Fragment",
+            "Platinum Scale Armor Fragment",
+            "Opal Sparge Fist Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "45-3": {
+        "name": "スクァーマ氷脈・東壁 45-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Rain's Blessing Earrings Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Dark Moon Arc Cane Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Icy Snow Flower Cane Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "White Sacred Stone - Diamond Star Fragment",
+            "Iolite Shield Fragment",
+            "Blue God Bow - Mercy Sapiros Fragment",
+            "Crimson Jade Katana - Scarlet Moon Fragment",
+            "Godly Red Ring - Ruby Rose Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "45-4": {
+        "name": "スクァーマ氷脈・東壁 45-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Scattered Sakura Wide Brimmed Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Heavenly Hell Earrings Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Lightning Spear Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Shining Sword - Adamas Fragment",
+            "Heavenly Wand of the White Pearl Fragment",
+            "Black Agate Prayer Dress Fragment",
+            "Crystallos Spike Fragment",
+            "Godly Red Ring - Ruby Rose Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "45-5": {
+        "name": "スクァーマ氷脈・東壁 45-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Blizzard Woven Heels Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Whirlwind Earrings Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Summer Breeze's Blossom Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Godly Red Ring - Ruby Rose Fragment",
+            "Dark Prison Staff of the Black Pearl Fragment",
+            "Pink Coral Dress Fragment",
+            "Jade Wind Blade - Emerald Edge Fragment",
+            "Brass Cleft Axe Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "45-6": {
+        "name": "スクァーマ氷脈・東壁 45-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Thin Red Sakura Saintly Cloth Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Heavenly Hell Earrings Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sand Dust Knuckle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Evergreen Green Ring Fragment",
+            "Moon Crystal Heels Fragment",
+            "Holy Engraved Armor of Pure Gold Fragment",
+            "Platinum Scale Armor Fragment",
+            "Opal Sparge Fist Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "45-7": {
+        "name": "スクァーマ氷脈・東壁 45-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Eight Weight Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Whirlwind Earrings Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Polar Light Belt Axe Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "White Sacred Stone - Diamond Star Fragment",
+            "Iolite Shield Fragment",
+            "Blue God Bow - Mercy Sapiros Fragment",
+            "Crimson Jade Katana - Scarlet Moon Fragment",
+            "Godly Red Ring - Ruby Rose Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "45-8": {
+        "name": "スクァーマ氷脈・東壁 45-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "White Snow Sakura Magic Clothes Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Rain's Blessing Earrings Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Dark Moon Arc Cane Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Shining Sword - Adamas Fragment",
+            "Heavenly Wand of the White Pearl Fragment",
+            "Black Agate Prayer Dress Fragment",
+            "Crystallos Spike Fragment",
+            "Godly Red Ring - Ruby Rose Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "45-9": {
+        "name": "スクァーマ氷脈・東壁 45-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Evening Sakura Purple Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Heavenly Hell Earrings Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Blazing Red Sun Sword Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Godly Red Ring - Ruby Rose Fragment",
+            "Dark Prison Staff of the Black Pearl Fragment",
+            "Pink Coral Dress Fragment",
+            "Jade Wind Blade - Emerald Edge Fragment",
+            "Brass Cleft Axe Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "45-10": {
+        "name": "スクァーマ氷脈・東壁 45-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Scattered Sakura Wide Brimmed Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Whirlwind Earrings Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "White Rain Bow Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Evergreen Green Ring Fragment",
+            "Moon Crystal Heels Fragment",
+            "Holy Engraved Armor of Pure Gold Fragment",
+            "Platinum Scale Armor Fragment",
+            "Opal Sparge Fist Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "45-11": {
+        "name": "スクァーマ氷脈・東壁 45-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Blizzard Woven Heels Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Rain's Blessing Earrings Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Icy Snow Flower Cane Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "White Sacred Stone - Diamond Star Fragment",
+            "Iolite Shield Fragment",
+            "Blue God Bow - Mercy Sapiros Fragment",
+            "Crimson Jade Katana - Scarlet Moon Fragment",
+            "Godly Red Ring - Ruby Rose Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "45-12": {
+        "name": "スクァーマ氷脈・東壁 45-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Thin Red Sakura Saintly Cloth Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Eight Weight Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Whirlwind Earrings Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Shining Sword - Adamas Fragment",
+            "Heavenly Wand of the White Pearl Fragment",
+            "Black Agate Prayer Dress Fragment",
+            "Crystallos Spike Fragment",
+            "Godly Red Ring - Ruby Rose Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "45-13": {
+        "name": "スクァーマ氷脈・東壁 45-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "White Snow Sakura Magic Clothes Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Blizzard Woven Heels Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Rain's Blessing Earrings Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Godly Red Ring - Ruby Rose Fragment",
+            "Dark Prison Staff of the Black Pearl Fragment",
+            "Pink Coral Dress Fragment",
+            "Jade Wind Blade - Emerald Edge Fragment",
+            "Brass Cleft Axe Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "45-14": {
+        "name": "スクァーマ氷脈・東壁 45-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Evening Sakura Purple Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Scattered Sakura Wide Brimmed Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Heavenly Hell Earrings Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Evergreen Green Ring Fragment",
+            "Moon Crystal Heels Fragment",
+            "Holy Engraved Armor of Pure Gold Fragment",
+            "Platinum Scale Armor Fragment",
+            "Opal Sparge Fist Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "45-1H": {
+        "name": "スクァーマ氷脈・東壁 45-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Sakura Eight Weight Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Whirlwind Earrings Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Purple Mist Dagger Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Kokkoro Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Godly Red Ring - Ruby Rose Fragment",
+            "Dark Prison Staff of the Black Pearl Fragment",
+            "Pink Coral Dress Fragment",
+            "Jade Wind Blade - Emerald Edge Fragment",
+            "Brass Cleft Axe Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "45-2H": {
+        "name": "スクァーマ氷脈・東壁 45-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Thin Red Sakura Saintly Cloth Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Heavenly Hell Earrings Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Blazing Red Sun Sword Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mifuyu Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Evergreen Green Ring Fragment",
+            "Moon Crystal Heels Fragment",
+            "Holy Engraved Armor of Pure Gold Fragment",
+            "Platinum Scale Armor Fragment",
+            "Opal Sparge Fist Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "45-3H": {
+        "name": "スクァーマ氷脈・東壁 45-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "White Snow Sakura Magic Clothes Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Rain's Blessing Earrings Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Dark Moon Arc Cane Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Summer Nanaka Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "White Sacred Stone - Diamond Star Fragment",
+            "Iolite Shield Fragment",
+            "Blue God Bow - Mercy Sapiros Fragment",
+            "Crimson Jade Katana - Scarlet Moon Fragment",
+            "Godly Red Ring - Ruby Rose Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }

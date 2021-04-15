@@ -160,7 +160,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Macaron Pendant"
@@ -327,7 +327,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -494,7 +494,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -661,7 +661,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -828,7 +828,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -995,7 +995,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -1162,7 +1162,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -1329,7 +1329,7 @@
         "rank_20": [
             "",
             "White Rain Bow",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Candy Sugar Bow",
             "Whirlwind Earrings",
             "Popcorn Necklace"
@@ -1496,7 +1496,7 @@
         "rank_20": [
             "",
             "White Rain Bow",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Candy Sugar Bow",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -1663,7 +1663,7 @@
         "rank_20": [
             "",
             "White Rain Bow",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Candy Sugar Bow",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -1830,7 +1830,7 @@
         "rank_20": [
             "",
             "Polar Light Belt Axe",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -1997,7 +1997,7 @@
         "rank_20": [
             "",
             "Lightning Spear",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Crepe Axe",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -2164,7 +2164,7 @@
         "rank_20": [
             "",
             "Lightning Spear",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -2331,7 +2331,7 @@
         "rank_20": [
             "",
             "Lightning Spear",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -2498,7 +2498,7 @@
         "rank_20": [
             "",
             "Sand Dust Knuckle",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Fancy Macaron Dress",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -2665,7 +2665,7 @@
         "rank_20": [
             "",
             "Sand Dust Knuckle",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Cream Puff Knuckle",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -2832,7 +2832,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Doughnut Choker"
@@ -2999,7 +2999,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Doughnut Choker"
@@ -3166,7 +3166,174 @@
         "rank_20": [
             "",
             "Purple Mist Dagger",
+            "Thin Red Sakura Saintly Cloth",
+            "Fancy Macaron Dress",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ]
+    },
+    "school_festival_chloe": {
+        "unit_id": 116201,
+        "name": "Chloe",
+        "thematic": "School Festival",
+        "name_jp": "クロエ",
+        "thematic_jp": "聖学祭",
+        "rank_1": [
+            "Killer Pencil",
+            "Killer Pencil",
+            "Leather Overalls",
+            "Leather Boots",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Crescent Sword",
+            "Command Knife",
+            "Crown Boots",
+            "Crown Boots",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Crescent Sword",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Moonlight Sword",
+            "Shinobi Shoes",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Vampire Dagger",
+            "Moonlight Sword",
+            "Palace Cloth",
+            "Fencer Boots",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Precious Knife",
+            "Vampire Dagger",
+            "Cosmos Cloth",
+            "Fencer Boots",
+            "Lion Eagle's Feather",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Princess' Dagger",
+            "Precious Knife",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Vampire Dagger",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Dark Matter Edge",
+            "Princess' Dagger",
+            "Hermit Clothes",
+            "Paladin Greave",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Unicorn Knife",
+            "Dark Matter Edge",
+            "Heavenly Robe",
+            "Lion King Gauntlet",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Emerald Dagger",
+            "Unicorn Knife",
+            "Faireal Boots",
+            "Blizzard Claw",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Lava Edge",
+            "Emerald Dagger",
+            "Astrograph Buckler",
+            "Dark Terror Dress",
+            "Millennium Earrings",
+            "Cat God Pendant"
+        ],
+        "rank_12": [
+            "Tír na nÓg Dagger",
+            "Lava Edge",
+            "Nine Heavens' Armor",
+            "Aegis Coat",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Twin God Sword of Lightning",
+            "Tír na nÓg Dagger",
+            "Fire Oni's Tori",
+            "Lava Edge",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Heavenly Black Sword of Obsidian",
+            "Twin God Sword of Lightning",
+            "Extremely Dark Clothes",
+            "Fire Oni's Tori",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Gehenna Dragon",
+            "Heavenly Black Sword of Obsidian",
+            "Beautiful Clothes - Soul Rose",
+            "Extremely Dark Clothes",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Dark Blade - Heavenly Raven's Guard",
+            "Gehenna Dragon",
+            "Southern Heaven Blazing Blue Armor",
+            "Beautiful Clothes - Soul Rose",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Jade Wind Blade - Emerald Edge",
+            "Dark Blade - Heavenly Raven's Guard",
+            "Holy Light's Lily Plate",
+            "Southern Heaven Blazing Blue Armor",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Chocolate Banana Dagger",
+            "Jade Wind Blade - Emerald Edge",
+            "Pink Coral Dress",
+            "Holy Light's Lily Plate",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Purple Mist Dagger",
+            "Chocolate Banana Dagger",
+            "Fancy Macaron Dress",
+            "Pink Coral Dress",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
             "",
+            "Purple Mist Dagger",
+            "Thin Red Sakura Saintly Cloth",
             "Fancy Macaron Dress",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -3333,7 +3500,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -3500,7 +3667,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -3667,7 +3834,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -3834,7 +4001,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -4001,7 +4168,7 @@
         "rank_20": [
             "",
             "Polar Light Belt Axe",
-            "",
+            "Evening Sakura Purple Armor",
             "Crepe Axe",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -4168,7 +4335,7 @@
         "rank_20": [
             "",
             "Polar Light Belt Axe",
-            "",
+            "Evening Sakura Purple Armor",
             "Crepe Axe",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -4335,7 +4502,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -4502,7 +4669,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -4669,7 +4836,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -4836,7 +5003,7 @@
         "rank_20": [
             "",
             "Sand Dust Knuckle",
-            "",
+            "Evening Sakura Purple Armor",
             "Chocolate Mail",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -5003,7 +5170,7 @@
         "rank_20": [
             "",
             "Sand Dust Knuckle",
-            "",
+            "Evening Sakura Purple Armor",
             "Cream Puff Knuckle",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -5170,7 +5337,7 @@
         "rank_20": [
             "",
             "Sand Dust Knuckle",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Cream Puff Knuckle",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -5337,7 +5504,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -5504,7 +5671,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -5671,7 +5838,7 @@
         "rank_20": [
             "",
             "Lightning Spear",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -5838,7 +6005,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Rain's Blessing Earrings",
             "Macaron Pendant"
@@ -6005,7 +6172,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Macaron Pendant"
@@ -6172,7 +6339,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -6339,7 +6506,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Chocolate Mint Ice Heels",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -6506,7 +6673,7 @@
         "rank_20": [
             "",
             "Sand Dust Knuckle",
-            "",
+            "Evening Sakura Purple Armor",
             "Cream Puff Knuckle",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -6673,7 +6840,7 @@
         "rank_20": [
             "",
             "Sand Dust Knuckle",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Cream Puff Knuckle",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -6840,7 +7007,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Rain's Blessing Earrings",
             "Macaron Pendant"
@@ -7007,7 +7174,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Rain's Blessing Earrings",
             "Macaron Pendant"
@@ -7174,7 +7341,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Triple Ice Rod",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -7341,7 +7508,7 @@
         "rank_20": [
             "",
             "Sand Dust Knuckle",
-            "",
+            "Evening Sakura Purple Armor",
             "Cream Puff Knuckle",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -7508,7 +7675,7 @@
         "rank_20": [
             "",
             "Lightning Spear",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -7675,7 +7842,7 @@
         "rank_20": [
             "",
             "Purple Mist Dagger",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -7842,7 +8009,7 @@
         "rank_20": [
             "",
             "Lightning Spear",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -8009,7 +8176,7 @@
         "rank_20": [
             "",
             "Lightning Spear",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Chocolate Lance",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -8176,7 +8343,7 @@
         "rank_20": [
             "",
             "Lightning Spear",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Fancy Macaron Dress",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -8343,7 +8510,7 @@
         "rank_20": [
             "",
             "Polar Light Belt Axe",
-            "",
+            "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -8510,7 +8677,7 @@
         "rank_20": [
             "",
             "Lightning Spear",
-            "",
+            "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -8677,7 +8844,7 @@
         "rank_20": [
             "",
             "Purple Mist Dagger",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -8844,7 +9011,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -9011,7 +9178,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -9178,7 +9345,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -9345,7 +9512,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -9512,7 +9679,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -9679,7 +9846,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -9846,7 +10013,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Triple Ice Rod",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -10013,7 +10180,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -10180,7 +10347,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -10347,7 +10514,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -10514,7 +10681,7 @@
         "rank_20": [
             "",
             "Polar Light Belt Axe",
-            "",
+            "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -10681,7 +10848,7 @@
         "rank_20": [
             "",
             "Lightning Spear",
-            "",
+            "Evening Sakura Purple Armor",
             "Chocolate Lance",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -10848,7 +11015,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Doughnut Choker"
@@ -11015,7 +11182,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Triple Ice Rod",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -11182,7 +11349,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -11349,7 +11516,7 @@
         "rank_20": [
             "",
             "Summer Breeze's Blossom",
-            "",
+            "Evening Sakura Purple Armor",
             "Soft Ice Sherbet",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -11516,7 +11683,7 @@
         "rank_20": [
             "",
             "Summer Breeze's Blossom",
-            "",
+            "Evening Sakura Purple Armor",
             "Soft Ice Sherbet",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -11683,7 +11850,7 @@
         "rank_20": [
             "",
             "Summer Breeze's Blossom",
-            "",
+            "Evening Sakura Purple Armor",
             "Soft Ice Sherbet",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -11850,7 +12017,7 @@
         "rank_20": [
             "",
             "Purple Mist Dagger",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -12017,7 +12184,7 @@
         "rank_20": [
             "",
             "Sand Dust Knuckle",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Cream Puff Knuckle",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -12184,7 +12351,7 @@
         "rank_20": [
             "",
             "Polar Light Belt Axe",
-            "",
+            "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Popcorn Necklace"
@@ -12351,7 +12518,7 @@
         "rank_20": [
             "",
             "Polar Light Belt Axe",
-            "",
+            "Evening Sakura Purple Armor",
             "Chocolate Lance",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -12518,7 +12685,7 @@
         "rank_20": [
             "",
             "Polar Light Belt Axe",
-            "",
+            "Evening Sakura Purple Armor",
             "Chocolate Mail",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -12685,7 +12852,7 @@
         "rank_20": [
             "",
             "Polar Light Belt Axe",
-            "",
+            "Evening Sakura Purple Armor",
             "Chocolate Mail",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -12852,7 +13019,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -13019,7 +13186,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -13186,7 +13353,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Macaron Pendant"
@@ -13353,7 +13520,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Doughnut Choker"
@@ -13520,7 +13687,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Doughnut Choker"
@@ -13687,7 +13854,7 @@
         "rank_20": [
             "",
             "Sand Dust Knuckle",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mail",
             "Heavenly Hell Earrings",
             "Macaron Pendant"
@@ -13854,7 +14021,7 @@
         "rank_20": [
             "",
             "Sand Dust Knuckle",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Cream Puff Knuckle",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -14021,7 +14188,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Chocolate Mint Ice Heels",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -14188,7 +14355,7 @@
         "rank_20": [
             "",
             "Purple Mist Dagger",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Fancy Macaron Dress",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -14355,7 +14522,7 @@
         "rank_20": [
             "",
             "Sand Dust Knuckle",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Fancy Macaron Dress",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -14522,7 +14689,7 @@
         "rank_20": [
             "",
             "Purple Mist Dagger",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Chocolate Mint Ice Heels",
             "Heavenly Hell Earrings",
             "Macaron Pendant"
@@ -14689,7 +14856,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -14856,7 +15023,7 @@
         "rank_20": [
             "",
             "Purple Mist Dagger",
-            "",
+            "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -15023,7 +15190,7 @@
         "rank_20": [
             "",
             "Purple Mist Dagger",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Fancy Macaron Dress",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -15190,7 +15357,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -15357,7 +15524,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Triple Ice Rod",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -15524,7 +15691,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -15691,7 +15858,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Triple Ice Rod",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -15858,7 +16025,7 @@
         "rank_20": [
             "",
             "Summer Breeze's Blossom",
-            "",
+            "Evening Sakura Purple Armor",
             "Soft Ice Sherbet",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -16025,7 +16192,7 @@
         "rank_20": [
             "",
             "Purple Mist Dagger",
-            "",
+            "Evening Sakura Purple Armor",
             "Chocolate Banana Dagger",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -16192,7 +16359,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -16359,7 +16526,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -16526,7 +16693,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -16693,7 +16860,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -16860,7 +17027,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -17027,7 +17194,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -17194,7 +17361,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -17361,7 +17528,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Chocolate Mail",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -17528,7 +17695,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -17695,7 +17862,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -17862,7 +18029,7 @@
         "rank_20": [
             "",
             "Polar Light Belt Axe",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Crepe Axe",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -18029,7 +18196,7 @@
         "rank_20": [
             "",
             "Lightning Spear",
-            "",
+            "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -18196,7 +18363,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -18363,7 +18530,7 @@
         "rank_20": [
             "",
             "Lightning Spear",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -18530,7 +18697,7 @@
         "rank_20": [
             "",
             "Summer Breeze's Blossom",
-            "",
+            "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -18697,7 +18864,7 @@
         "rank_20": [
             "",
             "Lightning Spear",
-            "",
+            "Sakura Eight Weight Armor",
             "Chocolate Lance",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -18864,7 +19031,7 @@
         "rank_20": [
             "",
             "White Rain Bow",
-            "",
+            "Evening Sakura Purple Armor",
             "Candy Sugar Bow",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -19031,7 +19198,7 @@
         "rank_20": [
             "",
             "White Rain Bow",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Candy Sugar Bow",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -19198,7 +19365,7 @@
         "rank_20": [
             "",
             "Summer Breeze's Blossom",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -19365,7 +19532,7 @@
         "rank_20": [
             "",
             "Summer Breeze's Blossom",
-            "",
+            "Evening Sakura Purple Armor",
             "Soft Ice Sherbet",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -19532,7 +19699,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Chocolate Mint Ice Heels",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -19699,7 +19866,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -19866,7 +20033,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Fancy Macaron Dress",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -20033,7 +20200,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -20200,7 +20367,7 @@
         "rank_20": [
             "",
             "Summer Breeze's Blossom",
-            "",
+            "Evening Sakura Purple Armor",
             "Chocolate Mail",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -20367,7 +20534,7 @@
         "rank_20": [
             "",
             "Summer Breeze's Blossom",
-            "",
+            "Evening Sakura Purple Armor",
             "Soft Ice Sherbet",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -20534,7 +20701,7 @@
         "rank_20": [
             "",
             "White Rain Bow",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Candy Sugar Bow",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -20701,7 +20868,7 @@
         "rank_20": [
             "",
             "White Rain Bow",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Candy Sugar Bow",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -20868,7 +21035,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -21035,7 +21202,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -21202,7 +21369,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -21369,7 +21536,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Sheet Tart Beret",
             "Whirlwind Earrings",
             "Doughnut Choker"
@@ -21536,7 +21703,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Doughnut Choker"
@@ -21703,7 +21870,7 @@
         "rank_20": [
             "",
             "White Rain Bow",
-            "",
+            "Evening Sakura Purple Armor",
             "Candy Sugar Bow",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -21870,7 +22037,7 @@
         "rank_20": [
             "",
             "White Rain Bow",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Candy Sugar Bow",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -22037,7 +22204,7 @@
         "rank_20": [
             "",
             "Purple Mist Dagger",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Fancy Macaron Dress",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -22204,7 +22371,7 @@
         "rank_20": [
             "",
             "Purple Mist Dagger",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Fancy Macaron Dress",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -22371,7 +22538,7 @@
         "rank_20": [
             "",
             "Purple Mist Dagger",
-            "",
+            "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -22538,7 +22705,7 @@
         "rank_20": [
             "",
             "Purple Mist Dagger",
-            "",
+            "Thin Red Sakura Saintly Cloth",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -22705,7 +22872,7 @@
         "rank_20": [
             "",
             "Sand Dust Knuckle",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Fancy Macaron Dress",
             "Whirlwind Earrings",
             "Popcorn Necklace"
@@ -22872,7 +23039,7 @@
         "rank_20": [
             "",
             "Purple Mist Dagger",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Fancy Macaron Dress",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -23039,7 +23206,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
@@ -23206,7 +23373,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -23373,7 +23540,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -23540,7 +23707,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -23707,7 +23874,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Rain's Blessing Earrings",
             "Macaron Pendant"
@@ -23874,7 +24041,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Doughnut Choker"
@@ -24041,7 +24208,7 @@
         "rank_20": [
             "",
             "Dark Moon Arc Cane",
-            "",
+            "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -24208,7 +24375,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -24375,7 +24542,7 @@
         "rank_20": [
             "",
             "Blazing Red Sun Sword",
-            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "Fancy Macaron Dress",
             "Whirlwind Earrings",
             "Macaron Pendant"
@@ -24542,7 +24709,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
@@ -24709,7 +24876,7 @@
         "rank_20": [
             "",
             "Icy Snow Flower Cane",
-            "",
+            "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Doughnut Choker"
