@@ -106,6 +106,8 @@
     "display_drop_percent": "ドロップ確率の表示",
     "display_amount_required": "必要個数の表示",
     "subtract_amount_from_inventory": "在庫から金額を差し引く",
+    "display_priority_item_amount": "装備優先順位個数の表示",
+    "show_priority_items_first": "装備優先順位の表示最初",
 
     "save_settings_button": "設定保存",
     "delete_settings_button": "設定削除",

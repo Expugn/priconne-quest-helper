@@ -3,6 +3,21 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.12.1] - 2021-04-18
+### Added
+- New Settings: 
+  - `Show Priority Items First`
+    - Enabling this setting will split Priority Items (items that exist in a Priority Project) from regular items in `Required Ingredients`
+    - Items that are satisfied by Inventory amount are not Priority Items
+  - `Display Priority Item Amount`
+    - Suggested by `AlterNirvana`: <https://github.com/Expugn/priconne-quest-helper/issues/39>
+    - Replaces Amount Required in `Recommended Quests` with total amount required from Priority Projects
+- Updated Language Files (JP/KR/CN ***MAY BE INCORRECT***)
+  - `settings_tab.display_priority_item_amount`
+  - `settings_tab.show_priority_items_first`
+### Fixed
+- No LocalStorage warning should now display properly
+
 ## [2.12.0] - 2021-04-15
 Quest Update (2021-04-15)
 ### Added

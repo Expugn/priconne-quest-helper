@@ -366,19 +366,15 @@
 
 <!-- PROJECTS TAB -->
 <div id="projects-container" hidden>
-    <div id="local-storage-warning" hidden>
+    <div id="local-storage-warning" class="center-div" hidden>
         <!-- LOCAL STORAGE WARNING ; DISPLAYS IF LOCAL STORAGE ISN'T AVAILABLE -->
         <br>
-        <table class="center-table">
-            <tr><th>
-                    <label style="color: red; font-weight: bolder;">
-                        <translate text="projects_tab.localstorage_warning">
-                            Your browser does not support LocalStorage.<br>
-                            Projects, Blacklist, Data Importing/Exporting, and Settings Saving have been disabled.
-                        </translate>
-                    </label>
-            </th></tr>
-        </table>
+        <label style="color: red; font-weight: bolder;">
+            <translate text="projects_tab.localstorage_warning">
+                Your browser does not support LocalStorage.<br>
+                Projects, Blacklist, Data Importing/Exporting, and Settings Saving have been disabled.
+            </translate>
+        </label>
     </div>
 
     <!-- PROJECT SELECT AND OPTIONS -->
@@ -421,7 +417,9 @@
             <button id="deprioritize-project-button" disabled hidden type="button" onclick="projects.prioritize(false)">
                 <translate text="projects_tab.deprioritize_project_button">Deprioritize Project</translate>
             </button>
-            <br><br><br>
+            <br><br>
+
+            <br>
             <button id="project-delete-button" type="button" onclick="projects.remove()">
                 <translate text="projects_tab.delete_project_button">Delete Project</translate>
             </button>
@@ -589,6 +587,18 @@
             <translate text="settings_tab.subtract_amount_from_inventory">Subtract Amount From Inventory</translate>
         </label>
         <input id="subtract-amount-from-inventory" type="checkbox" onclick="settings.toggle_subtract_amount_from_inventory()">
+        <br>
+        <label for="display-priority-item-amount">
+            <translate text="settings_tab.display_priority_item_amount">Display Priority Item Amount</translate>
+        </label>
+        <input id="display-priority-item-amount" type="checkbox" onclick="settings.toggle_display_priority_item_amount()">
+
+        <br><br>
+
+        <label for="show-priority-items-first">
+            <translate text="settings_tab.show_priority_items_first">Show Priority Items First</translate>
+        </label>
+        <input id="show-priority-items-first" type="checkbox" onclick="settings.toggle_show_priority_items_first()">
 
         <br><br>
 

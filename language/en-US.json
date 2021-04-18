@@ -106,6 +106,8 @@
     "display_drop_percent": "Display Drop Percent",
     "display_amount_required": "Display Amount Required",
     "subtract_amount_from_inventory": "Subtract Amount From Inventory",
+    "display_priority_item_amount": "Display Priority Item Amount",
+    "show_priority_items_first": "Show Priority Items First",
 
     "save_settings_button": "Save Settings",
     "delete_settings_button": "Delete Settings",

@@ -106,6 +106,8 @@
     "display_drop_percent": "드랍 확률 표시",
     "display_amount_required": "필요 개수 표시",
     "subtract_amount_from_inventory": "인벤토리에서 금액 빼기",
+    "display_priority_item_amount": "장비 우선 순위 개수 표시",
+    "show_priority_items_first": "장비 우선 순위 먼저 보기",
 
     "save_settings_button": "설정 저장",
     "delete_settings_button": "설정 삭제",

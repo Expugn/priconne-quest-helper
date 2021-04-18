@@ -24,6 +24,8 @@ const settings = (function () {
         QUEST_DISPLAY_PERCENT: "display-drop-percent",
         QUEST_DISPLAY_AMOUNT: "display-amount-required",
         SUBTRACT_AMOUNT_FROM_INVENTORY: "subtract-amount-from-inventory",
+        DISPLAY_PRIORITY_ITEM_AMOUNT: "display-priority-item-amount",
+        SHOW_PRIORITY_ITEMS_FIRST: "show-priority-items-first",
         EQUIPMENT_DATA_TYPE: "equipment-data-type"
     });
     const tags = Object.freeze({
@@ -38,6 +40,8 @@ const settings = (function () {
         IGNORED_RARITIES: "ignored_rarities",
         QUEST_DISPLAY: "quest_display",
         SUBTRACT_AMOUNT_FROM_INVENTORY: "subtract_amount_from_inventory",
+        DISPLAY_PRIORITY_ITEM_AMOUNT: "display_priority_item_amount",
+        SHOW_PRIORITY_ITEMS_FIRST: "show_priority_items_first",
         EQUIPMENT_DATA_TYPE: "equipment_data_type"
     });
     const LOCALSTORAGE_KEY = "settings";
@@ -54,6 +58,8 @@ const settings = (function () {
         ignored_rarities: [],
         quest_display: quest_display_settings.PERCENT,
         subtract_amount_from_inventory: false,
+        display_priority_item_amount: false,
+        show_priority_items_first: false,
         equipment_data_type: equipment_data.version.CURRENT,
     };
 
@@ -100,6 +106,12 @@ const settings = (function () {
 
         settings_default.subtract_amount_from_inventory = document.getElementById(setting_element_id.SUBTRACT_AMOUNT_FROM_INVENTORY).checked;
         settings.subtract_amount_from_inventory = settings_default.subtract_amount_from_inventory;
+
+        settings_default.display_priority_item_amount = document.getElementById(setting_element_id.DISPLAY_PRIORITY_ITEM_AMOUNT).checked;
+        settings.display_priority_item_amount = settings_default.display_priority_item_amount;
+
+        settings_default.show_priority_items_first = document.getElementById(setting_element_id.SHOW_PRIORITY_ITEMS_FIRST).checked;
+        settings.show_priority_items_first = settings_default.show_priority_items_first;
 
         if (document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value === equipment_data.version.LEGACY) {
             settings_default.equipment_data_type = equipment_data.version.LEGACY
@@ -315,10 +327,43 @@ const settings = (function () {
         data_display.quests.refresh();
     }
 
+    /***
+     * MAKES IT SO THAT THE SHOWN QUANTITY FOR ITEMS IS REDUCED BY CURRENT AMOUNT IN INVENTORY
+     * WHEN DISPLAYED IN "RECOMMENDED QUESTS".
+     * THE QUEST TABLE IS REFRESHED AFTER.
+     */
     function toggle_subtract_amount_from_inventory() {
         settings.subtract_amount_from_inventory = !settings.subtract_amount_from_inventory;
         webpage.print("\"Subtract Amount From Inventory\" changed to (Active?: " + settings.subtract_amount_from_inventory + ")", "Settings");
         data_display.quests.refresh();
+    }
+
+    /**
+     * REPLACES AMOUNT REQUIRED IN "RECOMMENDED QUESTS" WITH THE TOTAL AMOUNT OF ITEMS REQUIRED IN A PRIORITY PROJECT.
+     * FOR EXAMPLE:
+     *   - Project 1 (Priority): 3 Iron Sword, 1 Killer Pencil
+     *   - Project 2 (Priority): 5 Iron Sword
+     *   - Project 3: 10 Iron Sword, 5 Killer Pencil
+     *   Total Priority Item Required: 8 Iron Sword, 1 Killer Pencil
+     *
+     *   Project 3 is loaded...
+     *   Required Ingredients: 10 Iron Sword, 5 Killer Pencil
+     *   Recommended Quests: 8 Iron Sword Needed
+     */
+    function toggle_display_priority_item_amount() {
+        settings.display_priority_item_amount = !settings.display_priority_item_amount;
+        webpage.print("\"Display Priority Item Amount\" changed to (Active?: " + settings.display_priority_item_amount + ")", "Settings");
+        data_display.quests.refresh();
+    }
+
+    /**
+     * SHIFTS EVERY ITEM THAT'S IN A PRIORITY PROJECT TO BE ABOVE OTHER ITEMS IN "REQUIRED INGREDIENTS".
+     * THE ENTIRE DATA DISPLAY IS REFRESHED AFTER.
+     */
+    function toggle_show_priority_items_first() {
+        settings.show_priority_items_first = !settings.show_priority_items_first;
+        webpage.print("\"Show Priority Items First\" changed to (Active?: " + settings.show_priority_items_first + ")", "Settings");
+        data_display.build();
     }
 
     /**
@@ -467,6 +512,8 @@ const settings = (function () {
         check_checkbox(setting_element_id.QUEST_DISPLAY_PERCENT, is_quest_display_percent);
         check_checkbox(setting_element_id.QUEST_DISPLAY_AMOUNT, !is_quest_display_percent);
         check_checkbox(setting_element_id.SUBTRACT_AMOUNT_FROM_INVENTORY, settings.subtract_amount_from_inventory);
+        check_checkbox(setting_element_id.DISPLAY_PRIORITY_ITEM_AMOUNT, settings.display_priority_item_amount);
+        check_checkbox(setting_element_id.SHOW_PRIORITY_ITEMS_FIRST, settings.show_priority_items_first);
         document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value = ((settings.equipment_data_type === equipment_data.version.LEGACY) ? equipment_data.version.LEGACY : equipment_data.version.CURRENT);
     }
 
@@ -568,6 +615,8 @@ const settings = (function () {
             ignored_rarities: (settings.ignored_rarities === undefined ? [] : settings.ignored_rarities),
             quest_display: (settings.quest_display === undefined ? settings_default.quest_display : settings.quest_display),
             subtract_amount_from_inventory: (settings.subtract_amount_from_inventory === undefined ? settings_default.subtract_amount_from_inventory : settings.subtract_amount_from_inventory),
+            display_priority_item_amount: (settings.display_priority_item_amount === undefined ? settings_default.display_priority_item_amount : settings.display_priority_item_amount),
+            show_priority_items_first: (settings.show_priority_items_first === undefined ? settings_default.show_priority_items_first : settings.show_priority_items_first),
             equipment_data_type: (settings.equipment_data_type === undefined ? settings_default.equipment_data_type : settings.equipment_data_type),
         };
     }
@@ -609,6 +658,8 @@ const settings = (function () {
         change_display_option: change_display_option,
         display_options: quest_display_settings,
         toggle_subtract_amount_from_inventory: toggle_subtract_amount_from_inventory,
+        toggle_display_priority_item_amount: toggle_display_priority_item_amount,
+        toggle_show_priority_items_first: toggle_show_priority_items_first,
         change_equipment_data: change_equipment_data,
 
         save_settings: save_settings,
@@ -3664,6 +3715,11 @@ const data_display = (function () {
             merged_recipe = inventory.apply_to_recipe(merged_recipe, false, true, true);
             const table = document.getElementById(element_id.TABLE);
 
+            // GET PRIORITY ITEMS (MAKE SURE THEY'RE BUILT BEFORE USED)
+            if (!projects.data().items_compiled) {
+                projects.build_priority_items();
+            }
+
             // SORT RECIPE BY AMOUNT NEEDED ; DESCENDING
             let sorted = Object.keys(merged_recipe)
                 .map(i => [i, merged_recipe[i]])
@@ -3672,7 +3728,14 @@ const data_display = (function () {
             // CLEAR EXISTING HTML AND APPEND FRAGMENT ELEMENTS
             table.innerHTML = "";
             if (sorted.length > 0) {
+                let priority_item_elements = [];
                 for (let [item_name, amount] of sorted) {
+                    let is_priority = false;
+                    if (projects.data().items.includes(item_name) && settings.get_settings()[settings.tags.SHOW_PRIORITY_ITEMS_FIRST]) {
+                        // ITEM EXISTS IN A PRIORITY PROJECT
+                        is_priority = true;
+                    }
+
                     const is_disabled = amount <= 0;
                     amount = Math.abs(amount);
 
@@ -3692,6 +3755,9 @@ const data_display = (function () {
                         crate.src = webpage.get_webpage_image_path("Inventory_Crate");
                         crate.alt = "";
                         button.appendChild(crate);
+
+                        // ITEM ALREADY COMPLETED (SUFFICIENT ITEMS IN INVENTORY) ; REMOVE PRIORITY
+                        is_priority = false;
                     }
                     else {
                         button.classList.add("pointer-cursor");
@@ -3703,7 +3769,26 @@ const data_display = (function () {
                         };
                     }
 
-                    table.appendChild(button);
+                    if (is_priority) {
+                        // ADD PRIORITY ITEMS TO AN ARRAY TO ADD LATER
+                        priority_item_elements.push(button);
+                    }
+                    else {
+                        table.appendChild(button);
+                    }
+                }
+
+                // ADD PRIORITIZED ITEMS ABOVE THE REST
+                if (priority_item_elements.length > 0) {
+                    // ADD <br> ELEMENTS TO EASILY IDENTIFY PRIORITY ITEMS
+                    table.insertBefore(document.createElement("br"), table.firstChild);
+                    table.insertBefore(document.createElement("br"), table.firstChild);
+
+                    // REVERSE ARRAY SO THAT LOWER QUANTITY ITEMS ARE ADDED FIRST
+                    priority_item_elements.reverse();
+                    for (let button of priority_item_elements) {
+                        table.insertBefore(button, table.firstChild);
+                    }
                 }
             }
         }
@@ -3789,9 +3874,17 @@ const data_display = (function () {
             // APPLY INVENTORY
             merged_recipes = inventory.apply_to_recipe(merged_recipes, true, true);
 
-            // GET PRIORITY ITEMS
+            // GET PRIORITY ITEMS AND FIGURE OUT AMOUNT
+            let priority_items = {};
             if (!projects.data().items_compiled) {
                 projects.build_priority_items();
+            }
+            if (projects.data().items.length > 0) {
+                for (let prioritized_project of projects.data().projects_priority) {
+                    for (const [item_name, item_amount] of projects.data().projects[prioritized_project]) {
+                        priority_items = equipment_data.recipe.merge(priority_items, equipment_data.recipe.get(item_name, item_amount))
+                    }
+                }
             }
 
             if (!jQuery.isEmptyObject(merged_recipes)) {
@@ -3941,7 +4034,7 @@ const data_display = (function () {
                          * @param {number}    drop_percent    DROP PERCENTAGE THAT THE ITEM HAS ; i.e. 20.
                          */
                         function append_quest_item(element, item_name, drop_percent) {
-                            const required_amount = merged_recipes.hasOwnProperty(item_name) ? merged_recipes[item_name] : 0;
+                            let required_amount = merged_recipes.hasOwnProperty(item_name) ? merged_recipes[item_name] : 0;
                             item_name = (item_name === null ? PLACEHOLDER_IMAGE_NAME : item_name);
                             const item_div = document.createElement("div");
                             item_div.title = item_name;
@@ -3961,11 +4054,22 @@ const data_display = (function () {
                             item_div.appendChild(drop_percent_div);
                             const req_amount_div = document.createElement("span");
                             req_amount_div.classList.add("quest_required-amount", (setting.quest_display !== settings.display_options.AMOUNT ? classes.DISPLAY_BOTTOM : classes.DISPLAY_TOP));
-                            if (!setting.subtract_amount_from_inventory) {
-                                req_amount_div.innerHTML = required_amount;
+
+                            // SET REQUIRED AMOUNT TO AMOUNT IN PRIORITY PROJECTS IF SETTING IS ENABLED
+                            if (setting[settings.tags.DISPLAY_PRIORITY_ITEM_AMOUNT]) {
+                                // ONLY MODIFY REQUIRED AMOUNT FOR PRIORITIZED ITEMS
+                                if (is_item_priority_and_needed(item_name) && required_amount > 0) {
+                                    required_amount = priority_items[item_name];
+                                }
+                            }
+
+                            // SUBTRACT REQUIRED AMOUNT FROM INVENTORY AMOUNT IF SETTING IS ENABLED
+                            if (setting[settings.tags.SUBTRACT_AMOUNT_FROM_INVENTORY]) {
+                                let amount_after_inventory = required_amount - inventory.get_amount(item_name);
+                                req_amount_div.innerHTML = (amount_after_inventory > 0 ? amount_after_inventory : 0);
                             }
                             else {
-                                req_amount_div.innerHTML = required_amount - inventory.get_amount(item_name);
+                                req_amount_div.innerHTML = required_amount;
                             }
                             item_div.appendChild(req_amount_div);
 
@@ -4167,6 +4271,7 @@ const data_display = (function () {
 
         item_table: item_table,
         item_focus: item_focus,
+        required_items: required_ingredients,
         quests: recommended_quests
     }
 })();
@@ -4443,17 +4548,6 @@ const webpage = (function () {
                                 if (success) {
                                     print("Quest data loaded!", "Webpage");
                                     finalize_setup();
-                                    /*
-                                    dictionary.read_data(function (success) {
-                                        if (success) {
-                                            print("Dictionary loaded!", "Webpage");
-                                            finalize_setup();
-                                        }
-                                        else {
-                                            setup_failed("Failed to load dictionary");
-                                        }
-                                    });
-                                    */
                                 }
                                 else {
                                     setup_failed("Failed to load quest data");
@@ -4481,7 +4575,7 @@ const webpage = (function () {
                 $("#projects-div").hide();
                 $("#data-management-div").hide();
                 $("#setting-saving-div").hide();
-                $("#local-storage-warning").hide();
+                $("#local-storage-warning").show();
             }
             else {
                 $("#local-storage-warning").remove();
