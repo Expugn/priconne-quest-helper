@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.12.2] - 2021-04-30
+### Added
+- New Character: Inori (Time Traveler)
+- Updated Language Files (KR/CN ***MAY BE INCORRECT***)
+  - `thematics.time_traveler`
+
 ## [2.12.1] - 2021-04-18
 ### Added
 - New Settings: 

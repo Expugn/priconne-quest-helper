@@ -5844,6 +5844,173 @@
             "Popcorn Necklace"
         ]
     },
+    "time_traveler_inori": {
+        "unit_id": 116501,
+        "name": "Inori",
+        "thematic": "Time Traveler",
+        "name_jp": "イノリ",
+        "thematic_jp": "タイムトラベル",
+        "rank_1": [
+            "One Handed Axe",
+            "One Handed Axe",
+            "Tree Shield",
+            "One Handed Axe",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "High-Metal Axe",
+            "Metal Axe",
+            "Scale Mail",
+            "Metal Axe",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Blue Sphere Axe",
+            "High-Metal Axe",
+            "High Metal Plate",
+            "High-Metal Axe",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Lion's Battle Axe",
+            "Blue Sphere Axe",
+            "Gorgeous Armor",
+            "Blue Sphere Axe",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Lion's Battle Axe",
+            "Battling Dress",
+            "Lion's Battle Axe",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Shiryuu Axe",
+            "Lightning Axe",
+            "Heavy Metal Armor",
+            "Lion's Battle Axe",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Hell-Fire Axe",
+            "Shiryuu Axe",
+            "Angel Armor",
+            "Lightning Axe",
+            "Scarlet Diamond",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Queen's Battle Axe",
+            "Hell-Fire Axe",
+            "Vermilion Plate",
+            "Shiryuu Axe",
+            "Bangle of Substitution",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Aqua Slasher",
+            "Queen's Battle Axe",
+            "Violet Armor",
+            "Hell-Fire Axe",
+            "Moon Bracelet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Necrodim Axe",
+            "Aqua Slasher",
+            "Dragonic Armor",
+            "Queen's Battle Axe",
+            "Cat God Pendant",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Divine Judgement Axe",
+            "Necrodim Axe",
+            "Azure Armor",
+            "Aqua Slasher",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Gaia Axe",
+            "Divine Judgement Axe",
+            "Holy Sakura's Armor",
+            "Necrodim Axe",
+            "Mermaid Princess' Spirit Tear",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "God Roar Axe - Terra Break",
+            "Gaia Axe",
+            "Gold King's Armor",
+            "Divine Judgement Axe",
+            "War God's Arm",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "Machine Axe - Core Breaker",
+            "God Roar Axe - Terra Break",
+            "Furious Wind Armor",
+            "Gaia Axe",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Turquoise Noah",
+            "Machine Axe - Core Breaker",
+            "Glowing Silver Mirror Armor",
+            "God Roar Axe - Terra Break",
+            "Shield God Ring - Wall Breath",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Red Bear Emperor's Claw Battle Axe",
+            "Turquoise Noah",
+            "Northern Heaven Supreme Flame Armor",
+            "Machine Axe - Core Breaker",
+            "Ruby Rose Choker",
+            "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "Brass Cleft Axe",
+            "Red Bear Emperor's Claw Battle Axe",
+            "Overlord Thorn Armor",
+            "Turquoise Noah",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Crepe Axe",
+            "Brass Cleft Axe",
+            "Holy Engraved Armor of Pure Gold",
+            "Red Bear Emperor's Claw Battle Axe",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Polar Light Belt Axe",
+            "Crepe Axe",
+            "Rose Strawberry Armor",
+            "Brass Cleft Axe",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Polar Light Belt Axe",
+            "Sakura Eight Weight Armor",
+            "Crepe Axe",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ]
+    },
     "io": {
         "unit_id": 101801,
         "name": "Io",
