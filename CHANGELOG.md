@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.12.3] - 2021-05-07
+### Added
+- New Quest: `27-1 VH` (Suzume)
+
 ## [2.12.2] - 2021-04-30
 ### Added
 - New Character: Inori (Time Traveler)

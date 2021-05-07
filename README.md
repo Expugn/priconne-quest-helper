@@ -58,8 +58,7 @@ The following can be submitted via `GitHub's Issue Tracker`, `Discord` (`S'pugn#
 1. Bugs found while using the tool.
 2. Errors found in the data.
 3. Feature Suggestions on how to make using this tool more easier.
-4. Providing missing data that information sources like `GameWith` or `AppMedia` failed to provide quickly.
-5. Comments, Constructive Criticism, etc.
+4. Comments, Constructive Criticism, etc.
 
 ## For Developers: Updating priconne-quest-helper
 If you are interested in how `priconne-quest-helper` is updated for any reason:<br>
