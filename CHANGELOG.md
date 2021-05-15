@@ -10,6 +10,8 @@ Quest Update (2021-05-15)
 - Rank 21 Support
 - Chapter 46 Quests
 - New Equipment
+- Updated Language Files (JP/KR/CN ***MAY BE INCORRECT***)
+  - `items_tab.green_title`
 
 ## [2.12.3] - 2021-05-07
 ### Added
