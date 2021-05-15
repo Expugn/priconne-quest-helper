@@ -158,12 +158,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "angel_akari": {
@@ -325,12 +333,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "akino": {
@@ -492,12 +508,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Eight Weight Armor",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "christmas_akino": {
@@ -659,12 +683,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "anna": {
@@ -826,12 +858,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "summer_anna": {
@@ -993,12 +1033,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "anne": {
@@ -1160,12 +1208,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "aoi": {
@@ -1327,12 +1383,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Weeping Sakura Bow",
             "White Rain Bow",
             "Thin Red Sakura Saintly Cloth",
             "Candy Sugar Bow",
             "Whirlwind Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "White Rain Bow",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "transfer_student_aoi": {
@@ -1494,12 +1558,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Weeping Sakura Bow",
             "White Rain Bow",
             "Thin Red Sakura Saintly Cloth",
             "Candy Sugar Bow",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "White Rain Bow",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "arisa": {
@@ -1661,12 +1733,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Weeping Sakura Bow",
             "White Rain Bow",
             "Thin Red Sakura Saintly Cloth",
             "Candy Sugar Bow",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "White Rain Bow",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "ayane": {
@@ -1828,12 +1908,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Axe",
             "Polar Light Belt Axe",
             "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Axe",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "christmas_ayane": {
@@ -1995,12 +2083,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Axe",
             "Lightning Spear",
             "Thin Red Sakura Saintly Cloth",
             "Crepe Axe",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Gust Spear",
+            "",
+            "Polar Light Belt Axe",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "ayumi": {
@@ -2162,12 +2258,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Gust Spear",
             "Lightning Spear",
             "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Gust Spear",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "wonder_ayumi": {
@@ -2329,12 +2433,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Gust Spear",
             "Lightning Spear",
             "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Gust Spear",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "chieru": {
@@ -2496,12 +2608,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Hand Brace",
             "Sand Dust Knuckle",
             "Thin Red Sakura Saintly Cloth",
             "Fancy Macaron Dress",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Thin Red Sakura Saintly Cloth",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "school_festival_chieru": {
@@ -2663,12 +2783,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Hand Brace",
             "Sand Dust Knuckle",
             "Thin Red Sakura Saintly Cloth",
             "Cream Puff Knuckle",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "chika": {
@@ -2830,12 +2958,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "christmas_chika": {
@@ -2997,12 +3133,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "chloe": {
@@ -3164,12 +3308,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Petal Dagger",
             "Purple Mist Dagger",
             "Thin Red Sakura Saintly Cloth",
             "Fancy Macaron Dress",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Petal Dagger",
+            "",
+            "Thin Red Sakura Saintly Cloth",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "school_festival_chloe": {
@@ -3331,12 +3483,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Petal Dagger",
             "Purple Mist Dagger",
             "Thin Red Sakura Saintly Cloth",
             "Fancy Macaron Dress",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Petal Dagger",
+            "",
+            "Thin Red Sakura Saintly Cloth",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "christina": {
@@ -3498,12 +3658,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "christmas_christina": {
@@ -3665,12 +3833,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "djeeta": {
@@ -3832,12 +4008,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "emilia": {
@@ -3999,12 +4183,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "White Snow Sakura Magic Clothes",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "eriko": {
@@ -4166,12 +4358,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Axe",
             "Polar Light Belt Axe",
             "Evening Sakura Purple Armor",
             "Crepe Axe",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Axe",
+            "",
+            "Polar Light Belt Axe",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "valentine_eriko": {
@@ -4333,12 +4533,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Axe",
             "Polar Light Belt Axe",
             "Evening Sakura Purple Armor",
             "Crepe Axe",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Axe",
+            "",
+            "Polar Light Belt Axe",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "grea": {
@@ -4500,12 +4708,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "hatsune": {
@@ -4667,12 +4883,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "White Snow Sakura Magic Clothes",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "summer_hatsune": {
@@ -4834,12 +5058,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "White Snow Sakura Magic Clothes",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "hiyori": {
@@ -5001,12 +5233,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Hand Brace",
             "Sand Dust Knuckle",
             "Evening Sakura Purple Armor",
             "Chocolate Mail",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Evening Sakura Purple Armor",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "new_year_hiyori": {
@@ -5168,12 +5408,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Hand Brace",
             "Sand Dust Knuckle",
             "Evening Sakura Purple Armor",
             "Cream Puff Knuckle",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "princess_hiyori": {
@@ -5335,12 +5583,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Hand Brace",
             "Sand Dust Knuckle",
             "Thin Red Sakura Saintly Cloth",
             "Cream Puff Knuckle",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "ilya": {
@@ -5502,12 +5758,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "christmas_ilya": {
@@ -5669,12 +5933,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "inori": {
@@ -5836,12 +6108,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Axe",
             "Lightning Spear",
             "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Gust Spear",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "time_traveler_inori": {
@@ -6003,12 +6283,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Axe",
             "Polar Light Belt Axe",
             "Sakura Eight Weight Armor",
             "Crepe Axe",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Axe",
+            "",
+            "Polar Light Belt Axe",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "io": {
@@ -6170,12 +6458,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Rain's Blessing Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "summer_io": {
@@ -6337,12 +6633,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "jun": {
@@ -6504,12 +6808,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Eight Weight Armor",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "summer_jun": {
@@ -6671,12 +6983,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Thin Red Sakura Saintly Cloth",
             "Chocolate Mint Ice Heels",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Thin Red Sakura Saintly Cloth",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "kaori": {
@@ -6838,12 +7158,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Hand Brace",
             "Sand Dust Knuckle",
             "Evening Sakura Purple Armor",
             "Cream Puff Knuckle",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "summer_kaori": {
@@ -7005,12 +7333,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Hand Brace",
             "Sand Dust Knuckle",
             "Thin Red Sakura Saintly Cloth",
             "Cream Puff Knuckle",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "kasumi": {
@@ -7172,12 +7508,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Rain's Blessing Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "magical_kasumi": {
@@ -7339,12 +7683,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Rain's Blessing Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "summer_kasumi": {
@@ -7506,12 +7858,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Triple Ice Rod",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "kaya": {
@@ -7673,12 +8033,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Hand Brace",
             "Sand Dust Knuckle",
             "Evening Sakura Purple Armor",
             "Cream Puff Knuckle",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "kokkoro": {
@@ -7840,12 +8208,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Gust Spear",
             "Lightning Spear",
             "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Gust Spear",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "ceremonial_attire_kokkoro": {
@@ -8007,12 +8383,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Petal Dagger",
             "Purple Mist Dagger",
             "Thin Red Sakura Saintly Cloth",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Petal Dagger",
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "new_year_kokkoro": {
@@ -8174,12 +8558,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Gust Spear",
             "Lightning Spear",
             "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Gust Spear",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "princess_kokkoro": {
@@ -8341,12 +8733,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Gust Spear",
             "Lightning Spear",
             "Thin Red Sakura Saintly Cloth",
             "Chocolate Lance",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Gust Spear",
+            "",
+            "Lightning Spear",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "summer_kokkoro": {
@@ -8508,12 +8908,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Gust Spear",
             "Lightning Spear",
             "Thin Red Sakura Saintly Cloth",
             "Fancy Macaron Dress",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Gust Spear",
+            "",
+            "Thin Red Sakura Saintly Cloth",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "kurumi": {
@@ -8675,12 +9083,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Axe",
             "Polar Light Belt Axe",
             "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Axe",
+            "",
+            "Sakura Eight Weight Armor",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "christmas_kurumi": {
@@ -8842,12 +9258,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Gust Spear",
             "Lightning Spear",
             "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Gust Spear",
+            "",
+            "Sakura Eight Weight Armor",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "kuuka": {
@@ -9009,12 +9433,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherry Petal Dagger",
             "Purple Mist Dagger",
             "Scattered Sakura Wide Brimmed Hat",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Petal Dagger",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "oedo_kuuka": {
@@ -9176,12 +9608,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "kyaru": {
@@ -9343,12 +9783,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "new_year_kyaru": {
@@ -9510,12 +9958,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "princess_kyaru": {
@@ -9677,12 +10133,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "summer_kyaru": {
@@ -9844,12 +10308,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "kyouka": {
@@ -10011,12 +10483,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "halloween_kyouka": {
@@ -10178,12 +10658,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Triple Ice Rod",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "labyrista": {
@@ -10345,12 +10833,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Eight Weight Armor",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "lou": {
@@ -10512,12 +11008,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "luna": {
@@ -10679,12 +11183,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "mahiru": {
@@ -10846,12 +11358,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Gust Spear",
             "Polar Light Belt Axe",
             "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Axe",
+            "",
+            "Sakura Eight Weight Armor",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "ranger_mahiru": {
@@ -11013,12 +11533,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Gust Spear",
             "Lightning Spear",
             "Evening Sakura Purple Armor",
             "Chocolate Lance",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Gust Spear",
+            "",
+            "Lightning Spear",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "maho": {
@@ -11180,12 +11708,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "cinderella_maho": {
@@ -11347,12 +11883,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Triple Ice Rod",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "summer_maho": {
@@ -11514,12 +12058,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "makoto": {
@@ -11681,12 +12233,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Yoito Kage Sakura",
             "Summer Breeze's Blossom",
             "Evening Sakura Purple Armor",
             "Soft Ice Sherbet",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Yoito Kage Sakura",
+            "",
+            "Summer Breeze's Blossom",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "cinderella_makoto": {
@@ -11848,12 +12408,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Yoito Kage Sakura",
             "Summer Breeze's Blossom",
             "Evening Sakura Purple Armor",
             "Soft Ice Sherbet",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Yoito Kage Sakura",
+            "",
+            "Summer Breeze's Blossom",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "summer_makoto": {
@@ -12015,12 +12583,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Yoito Kage Sakura",
             "Summer Breeze's Blossom",
             "Evening Sakura Purple Armor",
             "Soft Ice Sherbet",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Yoito Kage Sakura",
+            "",
+            "Summer Breeze's Blossom",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "matsuri": {
@@ -12182,12 +12758,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherry Petal Dagger",
             "Purple Mist Dagger",
             "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Petal Dagger",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "halloween_matsuri": {
@@ -12349,12 +12933,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Hand Brace",
             "Sand Dust Knuckle",
             "Thin Red Sakura Saintly Cloth",
             "Cream Puff Knuckle",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "mifuyu": {
@@ -12516,12 +13108,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Gust Spear",
             "Polar Light Belt Axe",
             "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Axe",
+            "",
+            "Sakura Eight Weight Armor",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "summer_mifuyu": {
@@ -12683,12 +13283,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Gust Spear",
             "Polar Light Belt Axe",
             "Evening Sakura Purple Armor",
             "Chocolate Lance",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Axe",
+            "",
+            "Lightning Spear",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "mimi": {
@@ -12850,12 +13458,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Polar Light Belt Axe",
             "Evening Sakura Purple Armor",
             "Chocolate Mail",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Axe",
+            "",
+            "Evening Sakura Purple Armor",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "halloween_mimi": {
@@ -13017,12 +13633,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Polar Light Belt Axe",
             "Evening Sakura Purple Armor",
             "Chocolate Mail",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Axe",
+            "",
+            "Evening Sakura Purple Armor",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "deresute_mio": {
@@ -13184,12 +13808,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "White Snow Sakura Magic Clothes",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "White Snow Sakura Magic Clothes",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "misaki": {
@@ -13351,12 +13983,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "halloween_misaki": {
@@ -13518,12 +14158,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "Sakura Blizzard Woven Heels",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "misato": {
@@ -13685,12 +14333,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "summer_misato": {
@@ -13852,12 +14508,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "misogi": {
@@ -14019,12 +14683,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Hand Brace",
             "Sand Dust Knuckle",
             "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mail",
             "Heavenly Hell Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "halloween_misogi": {
@@ -14186,12 +14858,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Hand Brace",
             "Sand Dust Knuckle",
             "Thin Red Sakura Saintly Cloth",
             "Cream Puff Knuckle",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "mitsuki": {
@@ -14353,12 +15033,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Thin Red Sakura Saintly Cloth",
             "Chocolate Mint Ice Heels",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Thin Red Sakura Saintly Cloth",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "miyako": {
@@ -14520,12 +15208,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Gust Spear",
             "Purple Mist Dagger",
             "Scattered Sakura Wide Brimmed Hat",
             "Fancy Macaron Dress",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Petal Dagger",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "halloween_miyako": {
@@ -14687,12 +15383,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Hand Brace",
             "Sand Dust Knuckle",
             "Thin Red Sakura Saintly Cloth",
             "Fancy Macaron Dress",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Thin Red Sakura Saintly Cloth",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "monika": {
@@ -14854,12 +15558,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Purple Mist Dagger",
             "Thin Red Sakura Saintly Cloth",
             "Chocolate Mint Ice Heels",
             "Heavenly Hell Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Petal Dagger",
+            "",
+            "Thin Red Sakura Saintly Cloth",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "magical_monika": {
@@ -15021,12 +15733,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "muimi": {
@@ -15188,12 +15908,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Petal Dagger",
             "Purple Mist Dagger",
             "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Petal Dagger",
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "new_year_muimi": {
@@ -15355,12 +16083,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Petal Dagger",
             "Purple Mist Dagger",
             "Thin Red Sakura Saintly Cloth",
             "Fancy Macaron Dress",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Petal Dagger",
+            "",
+            "Thin Red Sakura Saintly Cloth",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "nanaka": {
@@ -15522,12 +16258,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "White Snow Sakura Magic Clothes",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "summer_nanaka": {
@@ -15689,12 +16433,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Triple Ice Rod",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "neneka": {
@@ -15856,12 +16608,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "new_year_neneka": {
@@ -16023,12 +16783,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Triple Ice Rod",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Icy Snow Flower Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "ninon": {
@@ -16190,12 +16958,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Yoito Kage Sakura",
             "Summer Breeze's Blossom",
             "Evening Sakura Purple Armor",
             "Soft Ice Sherbet",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Yoito Kage Sakura",
+            "",
+            "Summer Breeze's Blossom",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "oedo_ninon": {
@@ -16357,12 +17133,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Petal Dagger",
             "Purple Mist Dagger",
             "Evening Sakura Purple Armor",
             "Chocolate Banana Dagger",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Petal Dagger",
+            "",
+            "Purple Mist Dagger",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "nozomi": {
@@ -16524,12 +17308,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "christmas_nozomi": {
@@ -16691,12 +17483,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "pecorine": {
@@ -16858,12 +17658,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Eight Weight Armor",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "new_year_pecorine": {
@@ -17025,12 +17833,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "princess_pecorine": {
@@ -17192,12 +18008,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Eight Weight Armor",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "summer_pecorine": {
@@ -17359,12 +18183,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "ram": {
@@ -17526,12 +18358,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "Sakura Blizzard Woven Heels",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "rei": {
@@ -17693,12 +18533,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Thin Red Sakura Saintly Cloth",
             "Chocolate Mail",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Thin Red Sakura Saintly Cloth",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "halloween_rei": {
@@ -17860,12 +18708,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Thin Red Sakura Saintly Cloth",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "new_year_rei": {
@@ -18027,12 +18883,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "rem": {
@@ -18194,12 +19058,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Axe",
             "Polar Light Belt Axe",
             "Thin Red Sakura Saintly Cloth",
             "Crepe Axe",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Axe",
+            "",
+            "Polar Light Belt Axe",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "rima": {
@@ -18361,12 +19233,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Gust Spear",
             "Lightning Spear",
             "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Gust Spear",
+            "",
+            "Sakura Eight Weight Armor",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "cinderella_rima": {
@@ -18528,12 +19408,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "rin": {
@@ -18695,12 +19583,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Gust Spear",
             "Lightning Spear",
             "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Gust Spear",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "deresute_rin": {
@@ -18862,12 +19758,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Yoito Kage Sakura",
             "Summer Breeze's Blossom",
             "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Yoito Kage Sakura",
+            "",
+            "Sakura Eight Weight Armor",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "ranger_rin": {
@@ -19029,12 +19933,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Gust Spear",
             "Lightning Spear",
             "Sakura Eight Weight Armor",
             "Chocolate Lance",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Gust Spear",
+            "",
+            "Lightning Spear",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "rino": {
@@ -19196,12 +20108,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Weeping Sakura Bow",
             "White Rain Bow",
             "Evening Sakura Purple Armor",
             "Candy Sugar Bow",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "White Rain Bow",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "wonder_rino": {
@@ -19363,12 +20283,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Weeping Sakura Bow",
             "White Rain Bow",
             "Thin Red Sakura Saintly Cloth",
             "Candy Sugar Bow",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "White Rain Bow",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "ruka": {
@@ -19530,12 +20458,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Yoito Kage Sakura",
             "Summer Breeze's Blossom",
             "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Yoito Kage Sakura",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "summer_ruka": {
@@ -19697,12 +20633,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Yoito Kage Sakura",
             "Summer Breeze's Blossom",
             "Evening Sakura Purple Armor",
             "Soft Ice Sherbet",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Yoito Kage Sakura",
+            "",
+            "Summer Breeze's Blossom",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "saren": {
@@ -19864,12 +20808,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Thin Red Sakura Saintly Cloth",
             "Chocolate Mint Ice Heels",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Thin Red Sakura Saintly Cloth",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "christmas_saren": {
@@ -20031,12 +20983,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Eight Weight Armor",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "summer_saren": {
@@ -20198,12 +21158,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Thin Red Sakura Saintly Cloth",
             "Fancy Macaron Dress",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Thin Red Sakura Saintly Cloth",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "sheffy": {
@@ -20365,12 +21333,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "shinobu": {
@@ -20532,12 +21508,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Yoito Kage Sakura",
             "Summer Breeze's Blossom",
             "Evening Sakura Purple Armor",
             "Chocolate Mail",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Yoito Kage Sakura",
+            "",
+            "Evening Sakura Purple Armor",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "halloween_shinobu": {
@@ -20699,12 +21683,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Yoito Kage Sakura",
             "Summer Breeze's Blossom",
             "Evening Sakura Purple Armor",
             "Soft Ice Sherbet",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Yoito Kage Sakura",
+            "",
+            "Summer Breeze's Blossom",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "shiori": {
@@ -20866,12 +21858,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Weeping Sakura Bow",
             "White Rain Bow",
             "Thin Red Sakura Saintly Cloth",
             "Candy Sugar Bow",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "White Rain Bow",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "magical_shiori": {
@@ -21033,12 +22033,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Weeping Sakura Bow",
             "White Rain Bow",
             "Thin Red Sakura Saintly Cloth",
             "Candy Sugar Bow",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "White Rain Bow",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "shizuru": {
@@ -21200,12 +22208,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Eight Weight Armor",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "valentine_shizuru": {
@@ -21367,12 +22383,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Sakura Eight Weight Armor",
             "Rose Strawberry Armor",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Eight Weight Armor",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "suzume": {
@@ -21534,12 +22558,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "White Snow Sakura Magic Clothes",
             "Sheet Tart Beret",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "White Snow Sakura Magic Clothes",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "new_year_suzume": {
@@ -21701,12 +22733,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Sheet Tart Beret",
             "Whirlwind Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "summer_suzume": {
@@ -21868,12 +22908,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "suzuna": {
@@ -22035,12 +23083,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Weeping Sakura Bow",
             "White Rain Bow",
             "Evening Sakura Purple Armor",
             "Candy Sugar Bow",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "White Rain Bow",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "summer_suzuna": {
@@ -22202,12 +23258,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Weeping Sakura Bow",
             "White Rain Bow",
             "Thin Red Sakura Saintly Cloth",
             "Candy Sugar Bow",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "White Rain Bow",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "tamaki": {
@@ -22369,12 +23433,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Petal Dagger",
             "Purple Mist Dagger",
             "Thin Red Sakura Saintly Cloth",
             "Fancy Macaron Dress",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Petal Dagger",
+            "",
+            "Thin Red Sakura Saintly Cloth",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "summer_tamaki": {
@@ -22536,12 +23608,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Petal Dagger",
             "Purple Mist Dagger",
             "Thin Red Sakura Saintly Cloth",
             "Fancy Macaron Dress",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Petal Dagger",
+            "",
+            "Thin Red Sakura Saintly Cloth",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "tomo": {
@@ -22703,12 +23783,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Yoito Kage Sakura",
             "Purple Mist Dagger",
             "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Petal Dagger",
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "magical_tomo": {
@@ -22870,12 +23958,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Yoito Kage Sakura",
             "Purple Mist Dagger",
             "Thin Red Sakura Saintly Cloth",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Petal Dagger",
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "tsumugi": {
@@ -23037,12 +24133,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Sakura Hand Brace",
             "Sand Dust Knuckle",
             "Scattered Sakura Wide Brimmed Hat",
             "Fancy Macaron Dress",
             "Whirlwind Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "halloween_tsumugi": {
@@ -23204,12 +24308,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherry Petal Dagger",
             "Purple Mist Dagger",
             "Scattered Sakura Wide Brimmed Hat",
             "Fancy Macaron Dress",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Petal Dagger",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "deresute_uzuki": {
@@ -23371,12 +24483,20 @@
             "Godly Red Ring - Ruby Rose"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Evening Sakura Purple Armor",
             "Choco Stick Blade",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Heavenly Hell Earrings"
         ]
     },
     "yori": {
@@ -23538,12 +24658,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "angel_yori": {
@@ -23705,12 +24833,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "yui": {
@@ -23872,12 +25008,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "ceremonial_attire_yui": {
@@ -24039,12 +25183,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Rain's Blessing Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "new_year_yui": {
@@ -24206,12 +25358,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "princess_yui": {
@@ -24373,12 +25533,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Cherishrod",
             "Dark Moon Arc Cane",
             "White Snow Sakura Magic Clothes",
             "Lollipop Stick",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Cherishrod",
+            "",
+            "Dark Moon Arc Cane",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "yukari": {
@@ -24540,12 +25708,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "christmas_yukari": {
@@ -24707,12 +25883,20 @@
             "Evergreen Green Ring"
         ],
         "rank_20": [
-            "",
+            "Cherry Blossom",
             "Blazing Red Sun Sword",
             "Scattered Sakura Wide Brimmed Hat",
             "Fancy Macaron Dress",
             "Whirlwind Earrings",
             "Macaron Pendant"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Blossom",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
+            "",
+            "Whirlwind Earrings"
         ]
     },
     "yuki": {
@@ -24874,12 +26058,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Rain's Blessing Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Rain's Blessing Earrings"
         ]
     },
     "yuni": {
@@ -25041,12 +26233,20 @@
             "White Sacred Stone - Diamond Star"
         ],
         "rank_20": [
-            "",
+            "Sakura Dance Wand",
             "Icy Snow Flower Cane",
             "Sakura Blizzard Woven Heels",
             "Magic Pancake Robe",
             "Whirlwind Earrings",
             "Doughnut Choker"
+        ],
+        "rank_21": [
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Sakura Blizzard Woven Heels",
+            "",
+            "Rain's Blessing Earrings"
         ]
     }
 }

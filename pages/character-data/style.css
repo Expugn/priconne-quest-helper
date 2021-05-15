@@ -164,6 +164,10 @@ i.footer {
     background-color: rgba(247, 81, 90, 0.5);
 }
 
+.rank.rank-21 span {
+    background-color: rgba(41, 223, 123, 0.5);
+}
+
 #character-data .rank div {
     display: inline-block;
 }

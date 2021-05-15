@@ -1532,6 +1532,8 @@ const presets = (function () {
             case 19:
             case 20:
                 return "text-color_red";
+            case 21:
+                return "text-color_green";
             default:
                 return "text-color_misc";
         }
@@ -3383,6 +3385,7 @@ const data_display = (function () {
             GOLD_TABLE: "gold-item-table",
             PURPLE_TABLE: "purple-item-table",
             RED_TABLE: "red-item-table",
+            GREEN_TABLE: "green-item-table",
             MISC_TABLE: "misc-item-table"
         });
         const max_input = Object.freeze({
@@ -3500,6 +3503,7 @@ const data_display = (function () {
             $("#" + element_id.GOLD_TABLE).empty();
             $("#" + element_id.PURPLE_TABLE).empty();
             $("#" + element_id.RED_TABLE).empty();
+            $("#" + element_id.GREEN_TABLE).empty();
             $("#" + element_id.MISC_TABLE).empty();
             for (const item_name in data) {
                 const item_data = data[item_name];
@@ -3523,6 +3527,9 @@ const data_display = (function () {
                         break;
                     case equipment_data.rarity.RED:
                         append_item(element_id.RED_TABLE, item_name, id, rarity);
+                        break;
+                    case equipment_data.rarity.GREEN:
+                        append_item(element_id.GREEN_TABLE, item_name, id, rarity);
                         break;
                     case equipment_data.rarity.MISC:
                         append_item(element_id.MISC_TABLE, item_name, id, rarity);
@@ -4241,6 +4248,7 @@ const data_display = (function () {
             ...item_table.get(equipment_data.rarity.GOLD),
             ...item_table.get(equipment_data.rarity.PURPLE),
             ...item_table.get(equipment_data.rarity.RED),
+            ...item_table.get(equipment_data.rarity.GREEN),
             ...item_table.get(equipment_data.rarity.MISC)};
 
         requested_items.build(items);
@@ -4279,7 +4287,7 @@ const webpage = (function () {
     const debug = true;
     let simple_mode_enabled = false;
     let webp_enabled = false;
-    const update_date = new Date(Date.UTC(2021, 3, 15, 24, 0, 0));
+    const update_date = new Date(Date.UTC(2021, 4, 15, 24, 0, 0));
     const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
 
     const navigation = (function () {
@@ -4682,6 +4690,8 @@ const webpage = (function () {
                 $("#purple-item-content").toggleClass(classes.NO_TRANSITION);
                 $("#red-div").toggleClass(classes.NO_BACKGROUND);
                 $("#red-item-content").toggleClass(classes.NO_TRANSITION);
+                $("#green-div").toggleClass(classes.NO_BACKGROUND);
+                $("#green-item-content").toggleClass(classes.NO_TRANSITION);
                 $("#misc-div").toggleClass(classes.NO_BACKGROUND);
                 $("#misc-item-content").toggleClass(classes.NO_TRANSITION);
                 $("#requested-div").toggleClass(classes.NO_BACKGROUND);

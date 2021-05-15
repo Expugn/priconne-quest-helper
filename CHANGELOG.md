@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.13.0] - 2021-05-15
+Quest Update (2021-05-15)
+### Added
+- Green Equipment Support
+- Rank 21 Support
+- Chapter 46 Quests
+- New Equipment
+
 ## [2.12.3] - 2021-05-07
 ### Added
 - New Quest: `27-1 VH` (Suzume)

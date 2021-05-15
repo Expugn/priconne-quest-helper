@@ -25,6 +25,7 @@ const equipment_data = (function () {
         GOLD: "gold",
         PURPLE: "purple",
         RED: "red",
+        GREEN: "green",
         MISC: "misc"        // ITEMS WITH NO RARITY, USUALLY MEMORY PIECES
     });
     let equipment_count = reset_equipment_count();
@@ -80,6 +81,7 @@ const equipment_data = (function () {
             "gold": 0,
             "purple": 0,
             "red": 0,
+            "green": 0,
             "misc": 0
         }
     }
