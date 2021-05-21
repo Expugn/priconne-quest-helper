@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.13.1] - 2021-05-21
+### Added
+- New Character: Kaya (Time Traveler)
+
 ## [2.13.0] - 2021-05-15
 Quest Update (2021-05-15)
 ### Added
