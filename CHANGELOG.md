@@ -3,6 +3,18 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.13.2] - 2021-05-31
+### Added
+- New Characters:
+  - Aoi (Work Overalls)
+  - Tamaki (Work Overalls)
+- Updated Language Files (KR/CN ***MAY BE INCORRECT***)
+  - `thematics.work_overalls`
+### Changed
+- Updated README.md
+  - Added notes for methods of communication
+  - Added <https://github.com/Expugn/priconne-en_db-fetch> under `For Developers`
+
 ## [2.13.1] - 2021-05-21
 ### Added
 - New Character: Kaya (Time Traveler)

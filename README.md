@@ -54,17 +54,28 @@ If on a mobile phone, horizontal viewing is probably best.
 <br>Decide for yourself which quest is the best for you and most cost efficient for your stamina.
 
 ## Bugs, Errors, Feature Suggestions, etc.
-The following can be submitted via `GitHub's Issue Tracker`, `Discord` (`S'pugn#2612`), or `Twitter` (`@eSpugn`).
+The following can be submitted via `GitHub's Issue Tracker` (**PREFERRED**) or `Discord` (`S'pugn#2612`).
 1. Bugs found while using the tool.
 2. Errors found in the data.
 3. Feature Suggestions on how to make using this tool more easier.
 4. Comments, Constructive Criticism, etc.
 
-## For Developers: Updating priconne-quest-helper
+Note that for `Discord`, ***I do not accept random friend requests.*** <br>
+Please join the Discord-partnered server (<https://discord.com/invite/priconne>) to send me (`S'pugn#2612`) a direct message or mention.
+
+## For Developers
+### Updating priconne-quest-helper
 If you are interested in how `priconne-quest-helper` is updated for any reason:<br>
 The code that is used to simplify the updating process is available in <https://github.com/Expugn/pqh-updater>
 
 This script is not useful for most users.
+
+### Getting `priconne-en`'s Master Database
+If you are interested in getting `priconne-en`'s master data for your own project:<br>
+Bare-bones code that does that is available in <https://github.com/Expugn/priconne-en_db-fetch>
+
+This will get ONLY the master database; image collection is not included.<br>
+*This may break at any point if Crunchyroll decides to change how the master database is downloaded or encrypted.*
 
 ## Other Informative Sites and Tools
 - `AssetStudio`: [GitHub](https://github.com/Perfare/AssetStudio)<br>
