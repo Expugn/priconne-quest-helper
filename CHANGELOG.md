@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.13.3] - 2021-06-07
+### Added
+- New Quest `27-2 VH` (Kurumi)
+
 ## [2.13.2] - 2021-05-31
 ### Added
 - New Characters:
