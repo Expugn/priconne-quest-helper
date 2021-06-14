@@ -3,6 +3,26 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.13.4] - 2021-06-14
+### Added
+- 2x and 3x Event Selection
+  - Written by `OrkunKocyigit`: <https://github.com/Expugn/priconne-quest-helper/pull/40>
+  - Modifies quest score depending on selection
+    - `quest_score * 2` if 2x event
+    - `quest_score * 3` if 3x event
+  - Updated Language Files (JP/KR/CN ***MAY BE INCORRECT***)
+    - `settings_tab.normal-quest-drop-event`
+    - `settings_tab.hard-quest-drop-event`
+    - `settings_tab.very-hard-quest-drop-event`
+    - `settings_tab.drop-event-no-buff-select`
+    - `settings_tab.drop-event-double-buff-select`
+    - `settings_tab.drop-event-triple-buff-select`
+  - Changes from initial pull request
+    - Added settings saving and data export/import support
+    - Fix spelling mistake: i.e. `normal_quest_drop_multiplayer` -> `normal_quest_drop_multiplier`
+    - Adjusted spacing of page elements
+    - Change CN's `settings_tab.drop-event-triple-buff-select` from `3 倍掉落量` -> `3x 倍掉落量`
+
 ## [2.13.3] - 2021-06-07
 ### Added
 - New Quest `27-2 VH` (Kurumi)

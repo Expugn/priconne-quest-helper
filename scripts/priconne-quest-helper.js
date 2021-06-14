@@ -26,10 +26,10 @@ const settings = (function () {
         SUBTRACT_AMOUNT_FROM_INVENTORY: "subtract-amount-from-inventory",
         DISPLAY_PRIORITY_ITEM_AMOUNT: "display-priority-item-amount",
         SHOW_PRIORITY_ITEMS_FIRST: "show-priority-items-first",
-        EQUIPMENT_DATA_TYPE: "equipment-data-type",
         NORMAL_DROP_EVENT: "normal-quest-drop-event",
         HARD_DROP_EVENT: "hard-quest-drop-event",
-        VERY_HARD_DROP_EVENT: "very-hard-quest-drop-event"
+        VERY_HARD_DROP_EVENT: "very-hard-quest-drop-event",
+        EQUIPMENT_DATA_TYPE: "equipment-data-type"
     });
     const tags = Object.freeze({
         QUEST_SHOWN_VALUE: "quest_shown_value",
@@ -45,6 +45,9 @@ const settings = (function () {
         SUBTRACT_AMOUNT_FROM_INVENTORY: "subtract_amount_from_inventory",
         DISPLAY_PRIORITY_ITEM_AMOUNT: "display_priority_item_amount",
         SHOW_PRIORITY_ITEMS_FIRST: "show_priority_items_first",
+        NORMAL_DROP_EVENT: "normal_drop_multiplier",
+        HARD_DROP_EVENT: "hard_drop_multiplier",
+        VERY_HARD_DROP_EVENT: "very_hard_drop_multiplier",
         EQUIPMENT_DATA_TYPE: "equipment_data_type"
     });
     const LOCALSTORAGE_KEY = "settings";
@@ -63,9 +66,9 @@ const settings = (function () {
         subtract_amount_from_inventory: false,
         display_priority_item_amount: false,
         show_priority_items_first: false,
-        normal_quest_drop_multiplayer: 1,
-        hard_quest_drop_multiplayer: 1,
-        very_hard_quest_drop_multiplayer: 1,
+        normal_quest_drop_multiplier: 1,
+        hard_quest_drop_multiplier: 1,
+        very_hard_quest_drop_multiplier: 1,
         equipment_data_type: equipment_data.version.CURRENT,
     };
 
@@ -118,6 +121,13 @@ const settings = (function () {
 
         settings_default.show_priority_items_first = document.getElementById(setting_element_id.SHOW_PRIORITY_ITEMS_FIRST).checked;
         settings.show_priority_items_first = settings_default.show_priority_items_first;
+
+        settings_default.normal_quest_drop_multiplier = document.getElementById(setting_element_id.NORMAL_DROP_EVENT).value;
+        settings.normal_quest_drop_multiplier = settings_default.normal_quest_drop_multiplier;
+        settings_default.hard_quest_drop_multiplier = document.getElementById(setting_element_id.HARD_DROP_EVENT).value;
+        settings.hard_quest_drop_multiplier = settings_default.hard_quest_drop_multiplier;
+        settings_default.very_hard_quest_drop_multiplier = document.getElementById(setting_element_id.VERY_HARD_DROP_EVENT).value;
+        settings.very_hard_quest_drop_multiplier = settings_default.very_hard_quest_drop_multiplier;
 
         if (document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value === equipment_data.version.LEGACY) {
             settings_default.equipment_data_type = equipment_data.version.LEGACY
@@ -380,8 +390,8 @@ const settings = (function () {
      * THE QUEST TABLE IS REFRESHED TO REFLECT NEW PRIORITY LIST
      */
     function change_normal_quest_drop_event() {
-        settings.normal_quest_drop_multiplayer = Number(document.getElementById(setting_element_id.NORMAL_DROP_EVENT).value);
-        webpage.print("\"Normal Quests Drop Buff\" changed to " + settings.normal_quest_drop_multiplayer, "Settings");
+        settings.normal_quest_drop_multiplier = Number(document.getElementById(setting_element_id.NORMAL_DROP_EVENT).value);
+        webpage.print("\"Normal Quests Drop Buff\" changed to " + settings.normal_quest_drop_multiplier, "Settings");
         data_display.quests.refresh();
     }
 
@@ -393,8 +403,8 @@ const settings = (function () {
      * THE QUEST TABLE IS REFRESHED TO REFLECT NEW PRIORITY LIST
      */
     function change_hard_quest_drop_event() {
-        settings.hard_quest_drop_multiplayer = Number(document.getElementById(setting_element_id.HARD_DROP_EVENT).value);
-        webpage.print("\"Hard Quests Drop Buff\" changed to " + settings.hard_quest_drop_multiplayer, "Settings");
+        settings.hard_quest_drop_multiplier = Number(document.getElementById(setting_element_id.HARD_DROP_EVENT).value);
+        webpage.print("\"Hard Quests Drop Buff\" changed to " + settings.hard_quest_drop_multiplier, "Settings");
         data_display.quests.refresh();
     }
 
@@ -406,8 +416,8 @@ const settings = (function () {
      * THE QUEST TABLE IS REFRESHED TO REFLECT NEW PRIORITY LIST
      */
     function change_very_hard_quest_drop_event() {
-        settings.very_hard_quest_drop_multiplayer = Number(document.getElementById(setting_element_id.VERY_HARD_DROP_EVENT).value);
-        webpage.print("\"Very Hard Quests Drop Buff\" changed to " + settings.very_hard_quest_drop_multiplayer, "Settings");
+        settings.very_hard_quest_drop_multiplier = Number(document.getElementById(setting_element_id.VERY_HARD_DROP_EVENT).value);
+        webpage.print("\"Very Hard Quests Drop Buff\" changed to " + settings.very_hard_quest_drop_multiplier, "Settings");
         data_display.quests.refresh();
     }
 
@@ -559,6 +569,9 @@ const settings = (function () {
         check_checkbox(setting_element_id.SUBTRACT_AMOUNT_FROM_INVENTORY, settings.subtract_amount_from_inventory);
         check_checkbox(setting_element_id.DISPLAY_PRIORITY_ITEM_AMOUNT, settings.display_priority_item_amount);
         check_checkbox(setting_element_id.SHOW_PRIORITY_ITEMS_FIRST, settings.show_priority_items_first);
+        document.getElementById(setting_element_id.NORMAL_DROP_EVENT).value = settings.normal_quest_drop_multiplier;
+        document.getElementById(setting_element_id.HARD_DROP_EVENT).value = settings.hard_quest_drop_multiplier;
+        document.getElementById(setting_element_id.VERY_HARD_DROP_EVENT).value = settings.very_hard_quest_drop_multiplier;
         document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value = ((settings.equipment_data_type === equipment_data.version.LEGACY) ? equipment_data.version.LEGACY : equipment_data.version.CURRENT);
     }
 
@@ -662,9 +675,9 @@ const settings = (function () {
             subtract_amount_from_inventory: (settings.subtract_amount_from_inventory === undefined ? settings_default.subtract_amount_from_inventory : settings.subtract_amount_from_inventory),
             display_priority_item_amount: (settings.display_priority_item_amount === undefined ? settings_default.display_priority_item_amount : settings.display_priority_item_amount),
             show_priority_items_first: (settings.show_priority_items_first === undefined ? settings_default.show_priority_items_first : settings.show_priority_items_first),
-            normal_quest_drop_multiplayer: (settings.normal_quest_drop_multiplayer === undefined ? settings_default.normal_quest_drop_multiplayer : settings.normal_quest_drop_multiplayer),
-            hard_quest_drop_multiplayer: (settings.hard_quest_drop_multiplayer === undefined ? settings_default.hard_quest_drop_multiplayer : settings.hard_quest_drop_multiplayer),
-            very_hard_quest_drop_multiplayer: (settings.very_hard_quest_drop_multiplayer === undefined ? settings_default.very_hard_quest_drop_multiplayer : settings.very_hard_quest_drop_multiplayer),
+            normal_quest_drop_multiplier: (settings.normal_quest_drop_multiplier === undefined ? settings_default.normal_quest_drop_multiplier : settings.normal_quest_drop_multiplier),
+            hard_quest_drop_multiplier: (settings.hard_quest_drop_multiplier === undefined ? settings_default.hard_quest_drop_multiplier : settings.hard_quest_drop_multiplier),
+            very_hard_quest_drop_multiplier: (settings.very_hard_quest_drop_multiplier === undefined ? settings_default.very_hard_quest_drop_multiplier : settings.very_hard_quest_drop_multiplier),
             equipment_data_type: (settings.equipment_data_type === undefined ? settings_default.equipment_data_type : settings.equipment_data_type),
         };
     }
@@ -4016,13 +4029,16 @@ const data_display = (function () {
                         }
 
                         if (quest_score > 0) {
+                            // 2x/3x EVENT ; MODIFY QUEST SCORE AS NEEDED
                             if (is_normal) {
-                                quest_score *= setting.normal_quest_drop_multiplayer;
+                                quest_score *= setting.normal_quest_drop_multiplier;
                             } else if (is_hard) {
-                                quest_score *= setting.hard_quest_drop_multiplayer;
+                                quest_score *= setting.hard_quest_drop_multiplier;
                             } else if (is_very_hard) {
-                                quest_score *= setting.very_hard_quest_drop_multiplayer;
+                                quest_score *= setting.very_hard_quest_drop_multiplier;
                             }
+
+                            // CALCULATE QUEST SCORE
                             quest_score /= quest_info["stamina"];
                             quest_scores.push([quest_id, +quest_score.toFixed(2)]);
                         }
