@@ -115,6 +115,13 @@
     "reset_settings_button": "설정 초기화",
     "display_saved_settings_button": "저장된 설정 읽어오기",
 
+    "normal-quest-drop-event": "일반 퀘스트 드롭 버프 :",
+    "hard-quest-drop-event": "하드 퀘스트 드롭 버프 :",
+    "very-hard-quest-drop-event": "매우 어려운 퀘스트 드롭 버프 :",
+    "drop-event-no-buff-select": "일반 드랍 금액",
+    "drop-event-double-buff-select": "드롭 금액 2 배",
+    "drop-event-triple-buff-select": "드롭 금액 3 배",
+
     "equipment_data_type_label": "장비 데이터 종류 :",
     "equipment_data_current_select": "현재 장비 데이터 (2019.08.31. 이후)",
     "equipment_data_legacy_select": "이전 장비 데이터 (2019.08.31. 이전)"

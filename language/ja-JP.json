@@ -115,6 +115,13 @@
     "reset_settings_button": "設定リセット",
     "display_saved_settings_button": "設定読み込み",
 
+    "normal-quest-drop-event": "通常のクエストドロップバフ：",
+    "hard-quest-drop-event": "ハードクエストドロップバフ：",
+    "very-hard-quest-drop-event": "非常に難しいクエストドロップバフ：",
+    "drop-event-no-buff-select": "ドロップ量通常",
+    "drop-event-double-buff-select": "ドロップ量2倍",
+    "drop-event-triple-buff-select": "ドロップ量3倍",
+
     "equipment_data_type_label": "装備データのタイプ：",
     "equipment_data_current_select": "現在の装備データ (2019.08.31. 以後)",
     "equipment_data_legacy_select": "過去の装備データ (2019.08.31. 以前)"

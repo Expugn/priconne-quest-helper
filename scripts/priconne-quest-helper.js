@@ -26,7 +26,10 @@ const settings = (function () {
         SUBTRACT_AMOUNT_FROM_INVENTORY: "subtract-amount-from-inventory",
         DISPLAY_PRIORITY_ITEM_AMOUNT: "display-priority-item-amount",
         SHOW_PRIORITY_ITEMS_FIRST: "show-priority-items-first",
-        EQUIPMENT_DATA_TYPE: "equipment-data-type"
+        EQUIPMENT_DATA_TYPE: "equipment-data-type",
+        NORMAL_DROP_EVENT: "normal-quest-drop-event",
+        HARD_DROP_EVENT: "hard-quest-drop-event",
+        VERY_HARD_DROP_EVENT: "very-hard-quest-drop-event"
     });
     const tags = Object.freeze({
         QUEST_SHOWN_VALUE: "quest_shown_value",
@@ -60,6 +63,9 @@ const settings = (function () {
         subtract_amount_from_inventory: false,
         display_priority_item_amount: false,
         show_priority_items_first: false,
+        normal_quest_drop_multiplayer: 1,
+        hard_quest_drop_multiplayer: 1,
+        very_hard_quest_drop_multiplayer: 1,
         equipment_data_type: equipment_data.version.CURRENT,
     };
 
@@ -367,6 +373,45 @@ const settings = (function () {
     }
 
     /**
+     * CHANGES AMOUNT OF ITEMS DROP IN NORMAL QUEST MAPS.
+     *      NO EVENT: ITEMS DROP AT NORMAL RATE: 1 ITEM AT A TIME
+     *      2X EVENT: ITEMS DROP AT TWO AT A TIME
+     *      3X EVENT: ITEMS DROP AT THREE AT A TIME
+     * THE QUEST TABLE IS REFRESHED TO REFLECT NEW PRIORITY LIST
+     */
+    function change_normal_quest_drop_event() {
+        settings.normal_quest_drop_multiplayer = Number(document.getElementById(setting_element_id.NORMAL_DROP_EVENT).value);
+        webpage.print("\"Normal Quests Drop Buff\" changed to " + settings.normal_quest_drop_multiplayer, "Settings");
+        data_display.quests.refresh();
+    }
+
+    /**
+     * CHANGES AMOUNT OF ITEMS DROP IN HARD QUEST MAPS.
+     *      NO EVENT: ITEMS DROP AT NORMAL RATE: 1 ITEM AT A TIME
+     *      2X EVENT: ITEMS DROP AT TWO AT A TIME
+     *      3X EVENT: ITEMS DROP AT THREE AT A TIME
+     * THE QUEST TABLE IS REFRESHED TO REFLECT NEW PRIORITY LIST
+     */
+    function change_hard_quest_drop_event() {
+        settings.hard_quest_drop_multiplayer = Number(document.getElementById(setting_element_id.HARD_DROP_EVENT).value);
+        webpage.print("\"Hard Quests Drop Buff\" changed to " + settings.hard_quest_drop_multiplayer, "Settings");
+        data_display.quests.refresh();
+    }
+
+    /**
+     * CHANGES AMOUNT OF ITEMS DROP IN VERY HARD QUEST MAPS.
+     *      NO EVENT: ITEMS DROP AT NORMAL RATE: 1 ITEM AT A TIME
+     *      2X EVENT: ITEMS DROP AT TWO AT A TIME
+     *      3X EVENT: ITEMS DROP AT THREE AT A TIME
+     * THE QUEST TABLE IS REFRESHED TO REFLECT NEW PRIORITY LIST
+     */
+    function change_very_hard_quest_drop_event() {
+        settings.very_hard_quest_drop_multiplayer = Number(document.getElementById(setting_element_id.VERY_HARD_DROP_EVENT).value);
+        webpage.print("\"Very Hard Quests Drop Buff\" changed to " + settings.very_hard_quest_drop_multiplayer, "Settings");
+        data_display.quests.refresh();
+    }
+
+    /**
      * CHANGES THE EQUIPMENT DATA TO CURRENT OR LEGACY.
      *      CURRENT DATA: LATEST UP TO DATE DATA FROM JAPAN SERVER.
      *      LEGACY DATA: RETIRED DATA THAT SOME SERVERS MAY STILL USE THAT HAS HIGHER EQUIPMENT CRAFTING COSTS.
@@ -617,6 +662,9 @@ const settings = (function () {
             subtract_amount_from_inventory: (settings.subtract_amount_from_inventory === undefined ? settings_default.subtract_amount_from_inventory : settings.subtract_amount_from_inventory),
             display_priority_item_amount: (settings.display_priority_item_amount === undefined ? settings_default.display_priority_item_amount : settings.display_priority_item_amount),
             show_priority_items_first: (settings.show_priority_items_first === undefined ? settings_default.show_priority_items_first : settings.show_priority_items_first),
+            normal_quest_drop_multiplayer: (settings.normal_quest_drop_multiplayer === undefined ? settings_default.normal_quest_drop_multiplayer : settings.normal_quest_drop_multiplayer),
+            hard_quest_drop_multiplayer: (settings.hard_quest_drop_multiplayer === undefined ? settings_default.hard_quest_drop_multiplayer : settings.hard_quest_drop_multiplayer),
+            very_hard_quest_drop_multiplayer: (settings.very_hard_quest_drop_multiplayer === undefined ? settings_default.very_hard_quest_drop_multiplayer : settings.very_hard_quest_drop_multiplayer),
             equipment_data_type: (settings.equipment_data_type === undefined ? settings_default.equipment_data_type : settings.equipment_data_type),
         };
     }
@@ -660,6 +708,11 @@ const settings = (function () {
         toggle_subtract_amount_from_inventory: toggle_subtract_amount_from_inventory,
         toggle_display_priority_item_amount: toggle_display_priority_item_amount,
         toggle_show_priority_items_first: toggle_show_priority_items_first,
+
+        change_normal_quest_drop_event: change_normal_quest_drop_event,
+        change_hard_quest_drop_event: change_hard_quest_drop_event,
+        change_very_hard_quest_drop_event: change_very_hard_quest_drop_event,
+
         change_equipment_data: change_equipment_data,
 
         save_settings: save_settings,
@@ -3963,6 +4016,13 @@ const data_display = (function () {
                         }
 
                         if (quest_score > 0) {
+                            if (is_normal) {
+                                quest_score *= setting.normal_quest_drop_multiplayer;
+                            } else if (is_hard) {
+                                quest_score *= setting.hard_quest_drop_multiplayer;
+                            } else if (is_very_hard) {
+                                quest_score *= setting.very_hard_quest_drop_multiplayer;
+                            }
                             quest_score /= quest_info["stamina"];
                             quest_scores.push([quest_id, +quest_score.toFixed(2)]);
                         }
@@ -4492,6 +4552,17 @@ const webpage = (function () {
             else {
                 document.getElementById("translator-footer").innerHTML = "";
             }
+
+            // UPDATE DROP EVENT SETTING CHOICES
+            document.getElementById("normal-quest-drop-event-no-buff-option").innerHTML = data[tags.SETTINGS_TAB]["drop-event-no-buff-select"];
+            document.getElementById("normal-quest-drop-event-double-buff-option").innerHTML = data[tags.SETTINGS_TAB]["drop-event-double-buff-select"];
+            document.getElementById("normal-quest-drop-event-triple-buff-option").innerHTML = data[tags.SETTINGS_TAB]["drop-event-triple-buff-select"];
+            document.getElementById("hard-quest-drop-event-no-buff-option").innerHTML = data[tags.SETTINGS_TAB]["drop-event-no-buff-select"];
+            document.getElementById("hard-quest-drop-event-double-buff-option").innerHTML = data[tags.SETTINGS_TAB]["drop-event-double-buff-select"];
+            document.getElementById("hard-quest-drop-event-triple-buff-option").innerHTML = data[tags.SETTINGS_TAB]["drop-event-triple-buff-select"];
+            document.getElementById("very-hard-quest-drop-event-no-buff-option").innerHTML = data[tags.SETTINGS_TAB]["drop-event-no-buff-select"];
+            document.getElementById("very-hard-quest-drop-event-double-buff-option").innerHTML = data[tags.SETTINGS_TAB]["drop-event-double-buff-select"];
+            document.getElementById("very-hard-quest-drop-event-triple-buff-option").innerHTML = data[tags.SETTINGS_TAB]["drop-event-triple-buff-select"];
 
             // UPDATE EQUIPMENT DATA TYPE SETTING CHOICES
             document.getElementById("equipment-data-type-current-option").innerHTML = data[tags.SETTINGS_TAB]["equipment_data_current_select"];
