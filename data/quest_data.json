@@ -22502,5 +22502,527 @@
             17,
             15
         ]
+    },
+    "47-1": {
+        "name": "ラテリ連山・崖下 47-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Cherishrod Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Blizzard Woven Heels Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "White Snow Sakura Magic Clothes Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-2": {
+        "name": "ラテリ連山・崖下 47-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Cherry Blossom Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Thin Red Sakura Saintly Cloth Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Scattered Sakura Wide Brimmed Hat Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-3": {
+        "name": "ラテリ連山・崖下 47-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Cherry Petal Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Eight Weight Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Evening Sakura Purple Armor Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-4": {
+        "name": "ラテリ連山・崖下 47-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Hand Brace Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Thin Red Sakura Saintly Cloth Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Magic Pancake Robe Fragment",
+            "Fancy Macaron Dress Fragment",
+            "Soft Ice Sherbet Fragment",
+            "Chocolate Mail Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-5": {
+        "name": "ラテリ連山・崖下 47-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Gust Spear Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Eight Weight Armor Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-6": {
+        "name": "ラテリ連山・崖下 47-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Cherishrod Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Blizzard Woven Heels Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-7": {
+        "name": "ラテリ連山・崖下 47-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Cherry Blossom Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Scattered Sakura Wide Brimmed Hat Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-8": {
+        "name": "ラテリ連山・崖下 47-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Yoito Kage Sakura Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Evening Sakura Purple Armor Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Magic Pancake Robe Fragment",
+            "Fancy Macaron Dress Fragment",
+            "Soft Ice Sherbet Fragment",
+            "Chocolate Mail Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-9": {
+        "name": "ラテリ連山・崖下 47-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Wand Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "White Snow Sakura Magic Clothes Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-10": {
+        "name": "ラテリ連山・崖下 47-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Gust Spear Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Thin Red Sakura Saintly Cloth Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-11": {
+        "name": "ラテリ連山・崖下 47-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Hand Brace Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Blizzard Woven Heels Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-12": {
+        "name": "ラテリ連山・崖下 47-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Weeping Sakura Bow Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Magic Pancake Robe Fragment",
+            "Fancy Macaron Dress Fragment",
+            "Soft Ice Sherbet Fragment",
+            "Chocolate Mail Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-13": {
+        "name": "ラテリ連山・崖下 47-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Axe Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-14": {
+        "name": "ラテリ連山・崖下 47-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Wand Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-1H": {
+        "name": "ラテリ連山・崖下 47-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Cherry Petal Dagger Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Scattered Sakura Wide Brimmed Hat Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Yui Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-2H": {
+        "name": "ラテリ連山・崖下 47-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Cherry Blossom Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Evening Sakura Purple Armor Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Eriko Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-3H": {
+        "name": "ラテリ連山・崖下 47-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Wand Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Sakura Blizzard Woven Heels Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Angel Akari Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }

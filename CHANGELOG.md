@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.14.0] - 2021-06-16
+Quest Update (2021-06-16)
+### Added
+- Chapter 47 Quests
+- New Character: Mifuyu (Work Overalls)
+- New Equipment
+
 ## [2.13.4] - 2021-06-14
 ### Added
 - 2x and 3x Event Selection

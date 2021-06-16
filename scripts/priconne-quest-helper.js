@@ -4363,7 +4363,7 @@ const webpage = (function () {
     const debug = true;
     let simple_mode_enabled = false;
     let webp_enabled = false;
-    const update_date = new Date(Date.UTC(2021, 4, 15, 24, 0, 0));
+    const update_date = new Date(Date.UTC(2021, 5, 16, 24, 0, 0));
     const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
 
     const navigation = (function () {
