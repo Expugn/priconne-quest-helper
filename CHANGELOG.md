@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.14.1] - 2021-06-30
+### Added
+- New Character: Rei (Princess)
+
 ## [2.14.0] - 2021-06-16
 Quest Update (2021-06-16)
 ### Added
