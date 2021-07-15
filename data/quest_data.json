@@ -23055,5 +23055,527 @@
             17,
             15
         ]
+    },
+    "48-1": {
+        "name": "エスタ荒野・南部 48-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Cherry Petal Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Yoito Kage Sakura Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-2": {
+        "name": "エスタ荒野・南部 48-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Cherishrod Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Wand Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-3": {
+        "name": "エスタ荒野・南部 48-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Gust Spear Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Axe Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-4": {
+        "name": "エスタ荒野・南部 48-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Parasol One Piece Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Cherishrod Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Magic Pancake Robe Fragment",
+            "Fancy Macaron Dress Fragment",
+            "Soft Ice Sherbet Fragment",
+            "Chocolate Mail Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-5": {
+        "name": "エスタ荒野・南部 48-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Beach Floater Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Hand Brace Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-6": {
+        "name": "エスタ荒野・南部 48-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Summer Light Bikini Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Cherry Blossom Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-7": {
+        "name": "エスタ荒野・南部 48-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Hibiscus Sandals Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Wand Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-8": {
+        "name": "エスタ荒野・南部 48-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Weeping Sakura Bow Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Magic Pancake Robe Fragment",
+            "Fancy Macaron Dress Fragment",
+            "Soft Ice Sherbet Fragment",
+            "Chocolate Mail Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-9": {
+        "name": "エスタ荒野・南部 48-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sunflower Straw Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Cherry Petal Dagger Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-10": {
+        "name": "エスタ荒野・南部 48-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Parasol One Piece Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Cherishrod Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-11": {
+        "name": "エスタ荒野・南部 48-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Gust Spear Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-12": {
+        "name": "エスタ荒野・南部 48-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Hibiscus Sandals Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Parasol One Piece Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Magic Pancake Robe Fragment",
+            "Fancy Macaron Dress Fragment",
+            "Soft Ice Sherbet Fragment",
+            "Chocolate Mail Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-13": {
+        "name": "エスタ荒野・南部 48-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Beach Floater Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sunflower Straw Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-14": {
+        "name": "エスタ荒野・南部 48-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Summer Light Bikini Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-1H": {
+        "name": "エスタ荒野・南部 48-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Summer Light Bikini Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Yoito Kage Sakura Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Aoi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-2H": {
+        "name": "エスタ荒野・南部 48-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Sunflower Straw Hat Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Cherry Blossom Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Shiori Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-3H": {
+        "name": "エスタ荒野・南部 48-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Hibiscus Sandals Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Wand Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Angel Yori Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }
