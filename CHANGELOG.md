@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.15.1] - 2021-07-31
+### Added
+- New Characters: 
+  - Nozomi (Summer)
+  - Tsumugi (Summer)
+
 ## [2.15.0] - 2021-07-15
 Quest Update (2021-07-15)
 ### Added
