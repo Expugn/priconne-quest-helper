@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.15.2] - 2021-08-06
+### Added
+- New Quest `28-1 VH` (Aoi)
+
 ## [2.15.1] - 2021-07-31
 ### Added
 - New Characters: 
