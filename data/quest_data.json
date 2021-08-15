@@ -23608,5 +23608,493 @@
             17,
             15
         ]
+    },
+    "49-1": {
+        "name": "エスタ荒野・北部 49-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Hibiscus Sandals Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-2": {
+        "name": "エスタ荒野・北部 49-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Beach Floater Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-3": {
+        "name": "エスタ荒野・北部 49-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Summer Light Bikini Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-4": {
+        "name": "エスタ荒野・北部 49-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Clione Blade Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sunflower Straw Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Dark Moon Arc Cane Fragment",
+            "Icy Snow Flower Cane Fragment",
+            "Polar Light Belt Axe Fragment",
+            "Lightning Spear Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-5": {
+        "name": "エスタ荒野・北部 49-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Jewel Shell Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Parasol One Piece Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-6": {
+        "name": "エスタ荒野・北部 49-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Jellyfish Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Hibiscus Sandals Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-7": {
+        "name": "エスタ荒野・北部 49-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Shark Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-8": {
+        "name": "エスタ荒野・北部 49-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Crab Scissor Spear Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Parasol One Piece Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Dark Moon Arc Cane Fragment",
+            "Icy Snow Flower Cane Fragment",
+            "Polar Light Belt Axe Fragment",
+            "Lightning Spear Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-9": {
+        "name": "エスタ荒野・北部 49-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Orca Sword Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sunflower Straw Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-10": {
+        "name": "エスタ荒野・北部 49-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Turtle Gauntlet Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Summer Light Bikini Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-11": {
+        "name": "エスタ荒野・北部 49-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Clownfish Bow Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-12": {
+        "name": "エスタ荒野・北部 49-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Whale Axe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Clione Blade Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sunflower Straw Hat Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Dark Moon Arc Cane Fragment",
+            "Icy Snow Flower Cane Fragment",
+            "Polar Light Belt Axe Fragment",
+            "Lightning Spear Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-13": {
+        "name": "エスタ荒野・北部 49-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Jewel Shell Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Jellyfish Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Hibiscus Sandals Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-14": {
+        "name": "エスタ荒野・北部 49-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Shark Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Orca Sword Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Beach Floater Mail Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-1H": {
+        "name": "エスタ荒野・北部 49-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Clione Blade Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Summer Light Bikini Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Pecorine Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-2H": {
+        "name": "エスタ荒野・北部 49-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Whale Axe Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mimi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }

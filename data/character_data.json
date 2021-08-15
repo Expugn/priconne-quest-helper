@@ -166,12 +166,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Immortal Sakura Wish Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "angel_akari": {
@@ -341,12 +349,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "akino": {
@@ -516,12 +532,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Beach Floater Mail",
             "Sakura Eight Weight Armor",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Beach Floater Mail",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "christmas_akino": {
@@ -691,12 +715,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Sunflower Straw Hat",
             "Blazing Red Sun Sword",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "anna": {
@@ -866,12 +898,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "summer_anna": {
@@ -1041,12 +1081,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "anne": {
@@ -1216,12 +1264,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "aoi": {
@@ -1391,12 +1447,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clownfish Bow",
             "Weeping Sakura Bow",
             "Summer Reflection Yukata of Morning Glory",
             "White Rain Bow",
             "Sakura Flower Moonlight Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clownfish Bow",
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "transfer_student_aoi": {
@@ -1566,12 +1630,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clownfish Bow",
             "Weeping Sakura Bow",
             "Summer Reflection Yukata of Morning Glory",
             "White Rain Bow",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clownfish Bow",
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "work_overalls_aoi": {
@@ -1741,12 +1813,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clownfish Bow",
             "Weeping Sakura Bow",
             "Summer Reflection Yukata of Morning Glory",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clownfish Bow",
+            "",
+            "Summer Reflection Yukata of Morning Glory",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "arisa": {
@@ -1916,12 +1996,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clownfish Bow",
             "Weeping Sakura Bow",
             "Sunflower Straw Hat",
             "White Rain Bow",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clownfish Bow",
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "ayane": {
@@ -2091,12 +2179,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Whale Axe",
             "Sakura Axe",
             "Summer Light Bikini Armor",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Whale Axe",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "christmas_ayane": {
@@ -2266,12 +2362,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Whale Axe",
             "Sakura Gust Spear",
             "Sunflower Straw Hat",
             "Polar Light Belt Axe",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Crab Scissor Spear",
+            "",
+            "Sakura Axe",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "ayumi": {
@@ -2441,12 +2545,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Crab Scissor Spear",
             "Sakura Gust Spear",
             "Summer Light Bikini Armor",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Crab Scissor Spear",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "wonder_ayumi": {
@@ -2616,12 +2728,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Crab Scissor Spear",
             "Sakura Gust Spear",
             "Summer Reflection Yukata of Morning Glory",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Crab Scissor Spear",
+            "",
+            "Summer Reflection Yukata of Morning Glory",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "chieru": {
@@ -2791,12 +2911,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Turtle Gauntlet",
             "Sakura Hand Brace",
             "Sunflower Straw Hat",
             "Thin Red Sakura Saintly Cloth",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Turtle Gauntlet",
+            "",
+            "Sunflower Straw Hat",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "school_festival_chieru": {
@@ -2966,12 +3094,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Turtle Gauntlet",
             "Sakura Hand Brace",
             "Sunflower Straw Hat",
             "Sand Dust Knuckle",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Turtle Gauntlet",
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "chika": {
@@ -3141,12 +3277,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Sakura Flower Moonlight Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "christmas_chika": {
@@ -3316,12 +3460,203 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Sakura Flower Moonlight Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Immortal Sakura Wish Hairpin"
+        ]
+    },
+    "summer_chika": {
+        "unit_id": 117301,
+        "name": "Chika",
+        "thematic": "Summer",
+        "name_jp": "チカ",
+        "thematic_jp": "サマー",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fragrant Wood Wand",
+            "Journey Robe",
+            "Fashionable Beret",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_2": [
+            "Compassion of the Unicorn",
+            "Doctorless Staff",
+            "Spring Color Robe",
+            "Witch Boots",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_3": [
+            "Celestial Sphere Watcher",
+            "Compassion of the Unicorn",
+            "Nordic Robe",
+            "Nun's Hood",
+            "Jewel of Wisdom",
+            "Magic Glasses"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Celestial Sphere Watcher",
+            "Witch Headband",
+            "Witch Headband",
+            "Pattern Bracelet",
+            "Magic Monocle"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Flower Bud Wand",
+            "Cupid Robe",
+            "Witch Palace Boots",
+            "Pearl Earrings",
+            "Turquoise Earrings"
+        ],
+        "rank_6": [
+            "Moon Wand",
+            "Devil's Horn",
+            "Philosopher's Robe",
+            "Witch Hat",
+            "Sorcerer's Glasses",
+            "Sorcerer's Glasses"
+        ],
+        "rank_7": [
+            "Rod of Life",
+            "Wizard Hood",
+            "Grand Magician's Robe",
+            "Laurel's Sorrow",
+            "Lion King's Protective Charm",
+            "Sorcerer's Glasses"
+        ],
+        "rank_8": [
+            "Phoenix Rod",
+            "Rod of Life",
+            "Saint's Robe",
+            "Wizard Boots",
+            "Bangle of Substitution",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "High Angel Rod",
+            "Phoenix Rod",
+            "Gospel Tiara",
+            "Saint's Robe",
+            "Moon Bracelet",
+            "Mourning Crescent Moon"
+        ],
+        "rank_10": [
+            "Flame Rod",
+            "High Angel Rod",
+            "Viridian Spiritual Dress",
+            "Necromancer Boots",
+            "Great Sage Gem",
+            "Dragon's Tear"
+        ],
+        "rank_11": [
+            "Divine Blossom Rod",
+            "Flame Rod",
+            "Shrine Maiden's Purity Cloth",
+            "Aquarius Boots",
+            "Fairy King's Guardian Stone",
+            "Great Sage Gem"
+        ],
+        "rank_12": [
+            "Atlantis Rod",
+            "Divine Blossom Rod",
+            "Holy Prayer's Crown",
+            "Mourning Crown",
+            "Mermaid Princess' Spirit Tear",
+            "Ocean God's Earrings"
+        ],
+        "rank_13": [
+            "Heaven Rod - Stellar Sphere",
+            "Atlantis Rod",
+            "Blood Ruby Heel",
+            "Holy Prayer's Crown",
+            "Glorious King's Shield Bangle",
+            "Divine Beast's Prayer"
+        ],
+        "rank_14": [
+            "World Tree's Branch Wand",
+            "Heaven Rod - Stellar Sphere",
+            "Refreshing Ice Garment",
+            "Blood Ruby Heel",
+            "Sea Dragon God's Hair Ornament",
+            "Sophos Bracelet"
+        ],
+        "rank_15": [
+            "Phoenix Staff - Rise Flare",
+            "World Tree's Branch Wand",
+            "Glowing Silver Mirror Boots",
+            "Refreshing Ice Garment",
+            "Shield God Ring - Wall Breath",
+            "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "White Snake's Holy Water Rod",
+            "Phoenix Staff - Rise Flare",
+            "Western Heaven Saintly Guide Robe",
+            "Glowing Silver Mirror Boots",
+            "Elfin Choker",
+            "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "Heavenly Wand of the White Pearl",
+            "White Snake's Holy Water Rod",
+            "Pride of the Roses",
+            "Western Heaven Saintly Guide Robe",
+            "Jade Harp Brooch",
+            "Chaotic Choker"
+        ],
+        "rank_18": [
+            "Triple Ice Rod",
+            "Heavenly Wand of the White Pearl",
+            "Moon Crystal Heels",
+            "Pride of the Roses",
+            "Evergreen Green Ring",
+            "Blue Night Nocturne Brooch"
+        ],
+        "rank_19": [
+            "Icy Snow Flower Cane",
+            "Triple Ice Rod",
+            "Sheet Tart Beret",
+            "Moon Crystal Heels",
+            "Macaron Pendant",
+            "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "Sakura Dance Wand",
+            "Icy Snow Flower Cane",
+            "Sakura Blizzard Woven Heels",
+            "Magic Pancake Robe",
+            "Whirlwind Earrings",
+            "Doughnut Choker"
+        ],
+        "rank_21": [
+            "Jellyfish Rod",
+            "Sakura Dance Wand",
+            "Hibiscus Sandals",
+            "Sakura Blizzard Woven Heels",
+            "Sakura Flower Moonlight Hairpin",
+            "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "chloe": {
@@ -3491,12 +3826,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Shark Dagger",
             "Cherry Petal Dagger",
             "Sunflower Straw Hat",
             "Thin Red Sakura Saintly Cloth",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Shark Dagger",
+            "",
+            "Sunflower Straw Hat",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "school_festival_chloe": {
@@ -3666,12 +4009,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Shark Dagger",
             "Cherry Petal Dagger",
             "Sunflower Straw Hat",
             "Thin Red Sakura Saintly Cloth",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Shark Dagger",
+            "",
+            "Sunflower Straw Hat",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "christina": {
@@ -3841,12 +4192,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Light Bikini Armor",
             "Blazing Red Sun Sword",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "christmas_christina": {
@@ -4016,12 +4375,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Light Bikini Armor",
             "Blazing Red Sun Sword",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "djeeta": {
@@ -4191,12 +4558,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Reflection Yukata of Morning Glory",
             "Blazing Red Sun Sword",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "emilia": {
@@ -4366,12 +4741,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "White Snow Sakura Magic Clothes",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Parasol One Piece",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "eriko": {
@@ -4541,12 +4924,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Whale Axe",
             "Sakura Axe",
             "Sunflower Straw Hat",
             "Polar Light Belt Axe",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Whale Axe",
+            "",
+            "Sakura Axe",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "summer_eriko": {
@@ -4716,12 +5107,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Whale Axe",
             "Sakura Axe",
             "Sunflower Straw Hat",
             "Polar Light Belt Axe",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Whale Axe",
+            "",
+            "Sakura Axe",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "valentine_eriko": {
@@ -4891,12 +5290,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Whale Axe",
             "Sakura Axe",
             "Sunflower Straw Hat",
             "Polar Light Belt Axe",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Whale Axe",
+            "",
+            "Sakura Axe",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "grea": {
@@ -5066,12 +5473,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "hatsune": {
@@ -5241,12 +5656,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "White Snow Sakura Magic Clothes",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Parasol One Piece",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "summer_hatsune": {
@@ -5416,12 +5839,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "White Snow Sakura Magic Clothes",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Parasol One Piece",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "hiyori": {
@@ -5591,12 +6022,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Turtle Gauntlet",
             "Sakura Hand Brace",
             "Summer Light Bikini Armor",
             "Evening Sakura Purple Armor",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Turtle Gauntlet",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "new_year_hiyori": {
@@ -5766,12 +6205,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Turtle Gauntlet",
             "Sakura Hand Brace",
             "Summer Reflection Yukata of Morning Glory",
             "Sand Dust Knuckle",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Turtle Gauntlet",
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "princess_hiyori": {
@@ -5941,12 +6388,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Turtle Gauntlet",
             "Sakura Hand Brace",
             "Summer Reflection Yukata of Morning Glory",
             "Sand Dust Knuckle",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Turtle Gauntlet",
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "ilya": {
@@ -6116,12 +6571,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "christmas_ilya": {
@@ -6291,12 +6754,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "inori": {
@@ -6466,12 +6937,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Whale Axe",
             "Sakura Gust Spear",
             "Summer Light Bikini Armor",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Crab Scissor Spear",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "time_traveler_inori": {
@@ -6641,12 +7120,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Whale Axe",
             "Sakura Axe",
             "Beach Floater Mail",
             "Polar Light Belt Axe",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Whale Axe",
+            "",
+            "Sakura Axe",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "io": {
@@ -6816,12 +7303,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Immortal Sakura Wish Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "summer_io": {
@@ -6991,12 +7486,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Immortal Sakura Wish Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "jun": {
@@ -7166,12 +7669,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Beach Floater Mail",
             "Sakura Eight Weight Armor",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Beach Floater Mail",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "summer_jun": {
@@ -7341,12 +7852,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Reflection Yukata of Morning Glory",
             "Thin Red Sakura Saintly Cloth",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Summer Reflection Yukata of Morning Glory",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "kaori": {
@@ -7516,12 +8035,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Turtle Gauntlet",
             "Sakura Hand Brace",
             "Summer Reflection Yukata of Morning Glory",
             "Sand Dust Knuckle",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Turtle Gauntlet",
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "summer_kaori": {
@@ -7691,12 +8218,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Turtle Gauntlet",
             "Sakura Hand Brace",
             "Summer Light Bikini Armor",
             "Sand Dust Knuckle",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Turtle Gauntlet",
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "kasumi": {
@@ -7866,12 +8401,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Immortal Sakura Wish Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "magical_kasumi": {
@@ -8041,12 +8584,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Immortal Sakura Wish Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "summer_kasumi": {
@@ -8216,12 +8767,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Icy Snow Flower Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "kaya": {
@@ -8391,12 +8950,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Turtle Gauntlet",
             "Sakura Hand Brace",
             "Summer Reflection Yukata of Morning Glory",
             "Sand Dust Knuckle",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Turtle Gauntlet",
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "time_traveler_kaya": {
@@ -8566,12 +9133,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Turtle Gauntlet",
             "Sakura Hand Brace",
             "Summer Reflection Yukata of Morning Glory",
             "Sand Dust Knuckle",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Turtle Gauntlet",
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "kokkoro": {
@@ -8741,12 +9316,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Crab Scissor Spear",
             "Sakura Gust Spear",
             "Summer Reflection Yukata of Morning Glory",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Crab Scissor Spear",
+            "",
+            "Summer Reflection Yukata of Morning Glory",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "ceremonial_attire_kokkoro": {
@@ -8916,12 +9499,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Shark Dagger",
             "Cherry Petal Dagger",
             "Summer Light Bikini Armor",
             "Blazing Red Sun Sword",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Shark Dagger",
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "new_year_kokkoro": {
@@ -9091,12 +9682,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Crab Scissor Spear",
             "Sakura Gust Spear",
             "Summer Reflection Yukata of Morning Glory",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Crab Scissor Spear",
+            "",
+            "Summer Reflection Yukata of Morning Glory",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "princess_kokkoro": {
@@ -9266,12 +9865,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Crab Scissor Spear",
             "Sakura Gust Spear",
             "Summer Reflection Yukata of Morning Glory",
             "Lightning Spear",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Crab Scissor Spear",
+            "",
+            "Sakura Gust Spear",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "summer_kokkoro": {
@@ -9441,12 +10048,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Crab Scissor Spear",
             "Sakura Gust Spear",
             "Summer Reflection Yukata of Morning Glory",
             "Thin Red Sakura Saintly Cloth",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Crab Scissor Spear",
+            "",
+            "Summer Reflection Yukata of Morning Glory",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "kurumi": {
@@ -9616,12 +10231,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Whale Axe",
             "Sakura Axe",
             "Beach Floater Mail",
             "Sakura Eight Weight Armor",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Whale Axe",
+            "",
+            "Beach Floater Mail",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "christmas_kurumi": {
@@ -9791,12 +10414,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Crab Scissor Spear",
             "Sakura Gust Spear",
             "Beach Floater Mail",
             "Sakura Eight Weight Armor",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Crab Scissor Spear",
+            "",
+            "Beach Floater Mail",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "kuuka": {
@@ -9966,12 +10597,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Shark Dagger",
             "Cherry Petal Dagger",
             "Hibiscus Sandals",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Shark Dagger",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "oedo_kuuka": {
@@ -10141,12 +10780,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "kyaru": {
@@ -10316,12 +10963,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "new_year_kyaru": {
@@ -10491,12 +11146,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "princess_kyaru": {
@@ -10666,12 +11329,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "summer_kyaru": {
@@ -10841,12 +11512,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "kyouka": {
@@ -11016,12 +11695,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "halloween_kyouka": {
@@ -11191,12 +11878,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Icy Snow Flower Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "labyrista": {
@@ -11366,12 +12061,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Beach Floater Mail",
             "Sakura Eight Weight Armor",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Beach Floater Mail",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "lou": {
@@ -11541,12 +12244,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "luna": {
@@ -11716,12 +12427,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "mahiru": {
@@ -11891,12 +12610,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Crab Scissor Spear",
             "Sakura Axe",
             "Beach Floater Mail",
             "Sakura Eight Weight Armor",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Whale Axe",
+            "",
+            "Beach Floater Mail",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "ranger_mahiru": {
@@ -12066,12 +12793,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Crab Scissor Spear",
             "Sakura Gust Spear",
             "Summer Light Bikini Armor",
             "Lightning Spear",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Crab Scissor Spear",
+            "",
+            "Sakura Gust Spear",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "maho": {
@@ -12241,12 +12976,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Sakura Flower Moonlight Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "cinderella_maho": {
@@ -12416,12 +13159,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Icy Snow Flower Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "summer_maho": {
@@ -12591,12 +13342,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "makoto": {
@@ -12766,12 +13525,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Orca Sword",
             "Yoito Kage Sakura",
             "Sunflower Straw Hat",
             "Summer Breeze's Blossom",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Orca Sword",
+            "",
+            "Yoito Kage Sakura",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "cinderella_makoto": {
@@ -12941,12 +13708,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Orca Sword",
             "Yoito Kage Sakura",
             "Sunflower Straw Hat",
             "Summer Breeze's Blossom",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Orca Sword",
+            "",
+            "Yoito Kage Sakura",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "summer_makoto": {
@@ -13116,12 +13891,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Orca Sword",
             "Yoito Kage Sakura",
             "Summer Reflection Yukata of Morning Glory",
             "Summer Breeze's Blossom",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Orca Sword",
+            "",
+            "Yoito Kage Sakura",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "matsuri": {
@@ -13291,12 +14074,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Shark Dagger",
             "Cherry Petal Dagger",
             "Summer Light Bikini Armor",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Shark Dagger",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "halloween_matsuri": {
@@ -13466,12 +14257,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Turtle Gauntlet",
             "Sakura Hand Brace",
             "Summer Reflection Yukata of Morning Glory",
             "Sand Dust Knuckle",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Turtle Gauntlet",
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "mifuyu": {
@@ -13641,12 +14440,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Crab Scissor Spear",
             "Sakura Axe",
             "Beach Floater Mail",
             "Sakura Eight Weight Armor",
             "Sakura Flower Moonlight Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Whale Axe",
+            "",
+            "Beach Floater Mail",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "summer_mifuyu": {
@@ -13816,12 +14623,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Crab Scissor Spear",
             "Sakura Axe",
             "Summer Light Bikini Armor",
             "Lightning Spear",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Whale Axe",
+            "",
+            "Sakura Gust Spear",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "work_overalls_mifuyu": {
@@ -13991,12 +14806,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Crab Scissor Spear",
             "Sakura Gust Spear",
             "Summer Light Bikini Armor",
             "Sakura Eight Weight Armor",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Crab Scissor Spear",
+            "",
+            "Beach Floater Mail",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "mimi": {
@@ -14166,12 +14989,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Sakura Axe",
             "Sunflower Straw Hat",
             "Evening Sakura Purple Armor",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Whale Axe",
+            "",
+            "Sunflower Straw Hat",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "halloween_mimi": {
@@ -14341,12 +15172,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Sakura Axe",
             "Sunflower Straw Hat",
             "Evening Sakura Purple Armor",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Whale Axe",
+            "",
+            "Sunflower Straw Hat",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "deresute_mio": {
@@ -14516,12 +15355,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Parasol One Piece",
             "White Snow Sakura Magic Clothes",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Parasol One Piece",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "misaki": {
@@ -14691,12 +15538,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "halloween_misaki": {
@@ -14866,12 +15721,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Immortal Sakura Wish Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "misato": {
@@ -15041,12 +15904,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Sakura Flower Moonlight Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "summer_misato": {
@@ -15216,12 +16087,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Sakura Flower Moonlight Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "misogi": {
@@ -15391,12 +16270,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Turtle Gauntlet",
             "Sakura Hand Brace",
             "Summer Light Bikini Armor",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Dance Double Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Turtle Gauntlet",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "halloween_misogi": {
@@ -15566,12 +16453,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Turtle Gauntlet",
             "Sakura Hand Brace",
             "Summer Light Bikini Armor",
             "Sand Dust Knuckle",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Turtle Gauntlet",
+            "",
+            "Sakura Hand Brace",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "mitsuki": {
@@ -15741,12 +16636,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Reflection Yukata of Morning Glory",
             "Thin Red Sakura Saintly Cloth",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Summer Reflection Yukata of Morning Glory",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "miyako": {
@@ -15916,12 +16819,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Crab Scissor Spear",
             "Cherry Petal Dagger",
             "Summer Reflection Yukata of Morning Glory",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Crab Scissor Spear",
+            "",
+            "Summer Reflection Yukata of Morning Glory",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "halloween_miyako": {
@@ -16091,12 +17002,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Turtle Gauntlet",
             "Sakura Hand Brace",
             "Summer Reflection Yukata of Morning Glory",
             "Thin Red Sakura Saintly Cloth",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Turtle Gauntlet",
+            "",
+            "Summer Reflection Yukata of Morning Glory",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "monika": {
@@ -16266,12 +17185,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Petal Dagger",
             "Summer Light Bikini Armor",
             "Thin Red Sakura Saintly Cloth",
             "Sakura Dance Double Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Shark Dagger",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "magical_monika": {
@@ -16441,12 +17368,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Reflection Yukata of Morning Glory",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Summer Reflection Yukata of Morning Glory",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "muimi": {
@@ -16616,12 +17551,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Shark Dagger",
             "Cherry Petal Dagger",
             "Sunflower Straw Hat",
             "Blazing Red Sun Sword",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Shark Dagger",
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "new_year_muimi": {
@@ -16791,12 +17734,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Shark Dagger",
             "Cherry Petal Dagger",
             "Sunflower Straw Hat",
             "Thin Red Sakura Saintly Cloth",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Shark Dagger",
+            "",
+            "Sunflower Straw Hat",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "nanaka": {
@@ -16966,12 +17917,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "White Snow Sakura Magic Clothes",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Parasol One Piece",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "summer_nanaka": {
@@ -17141,12 +18100,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Icy Snow Flower Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "neneka": {
@@ -17316,12 +18283,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "new_year_neneka": {
@@ -17491,12 +18466,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Icy Snow Flower Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Sakura Dance Wand",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "ninon": {
@@ -17666,12 +18649,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Orca Sword",
             "Yoito Kage Sakura",
             "Summer Light Bikini Armor",
             "Summer Breeze's Blossom",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Orca Sword",
+            "",
+            "Yoito Kage Sakura",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "oedo_ninon": {
@@ -17841,12 +18832,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Shark Dagger",
             "Cherry Petal Dagger",
             "Summer Light Bikini Armor",
             "Purple Mist Dagger",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Shark Dagger",
+            "",
+            "Cherry Petal Dagger",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "nozomi": {
@@ -18016,12 +19015,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Light Bikini Armor",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "christmas_nozomi": {
@@ -18191,12 +19198,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Light Bikini Armor",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "summer_nozomi": {
@@ -18366,12 +19381,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Light Bikini Armor",
             "Blazing Red Sun Sword",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "pecorine": {
@@ -18541,12 +19564,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Beach Floater Mail",
             "Sakura Eight Weight Armor",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Beach Floater Mail",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "new_year_pecorine": {
@@ -18716,12 +19747,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Reflection Yukata of Morning Glory",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Summer Reflection Yukata of Morning Glory",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "princess_pecorine": {
@@ -18891,12 +19930,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Beach Floater Mail",
             "Sakura Eight Weight Armor",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Beach Floater Mail",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "summer_pecorine": {
@@ -19066,12 +20113,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Sunflower Straw Hat",
             "Blazing Red Sun Sword",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "ram": {
@@ -19241,12 +20296,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Hibiscus Sandals",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "rei": {
@@ -19416,12 +20479,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Reflection Yukata of Morning Glory",
             "Thin Red Sakura Saintly Cloth",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Summer Reflection Yukata of Morning Glory",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "halloween_rei": {
@@ -19591,12 +20662,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Reflection Yukata of Morning Glory",
             "Blazing Red Sun Sword",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "new_year_rei": {
@@ -19766,12 +20845,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Light Bikini Armor",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "princess_rei": {
@@ -19941,12 +21028,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Light Bikini Armor",
             "Blazing Red Sun Sword",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "rem": {
@@ -20116,12 +21211,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Whale Axe",
             "Sakura Axe",
             "Summer Light Bikini Armor",
             "Polar Light Belt Axe",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Whale Axe",
+            "",
+            "Sakura Axe",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "rima": {
@@ -20291,12 +21394,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Crab Scissor Spear",
             "Sakura Gust Spear",
             "Beach Floater Mail",
             "Sakura Eight Weight Armor",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Crab Scissor Spear",
+            "",
+            "Beach Floater Mail",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "cinderella_rima": {
@@ -20466,12 +21577,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Light Bikini Armor",
             "Blazing Red Sun Sword",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "rin": {
@@ -20641,12 +21760,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Crab Scissor Spear",
             "Sakura Gust Spear",
             "Summer Light Bikini Armor",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Crab Scissor Spear",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "deresute_rin": {
@@ -20816,12 +21943,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Orca Sword",
             "Yoito Kage Sakura",
             "Beach Floater Mail",
             "Sakura Eight Weight Armor",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Orca Sword",
+            "",
+            "Beach Floater Mail",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "ranger_rin": {
@@ -20991,12 +22126,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Crab Scissor Spear",
             "Sakura Gust Spear",
             "Beach Floater Mail",
             "Lightning Spear",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Crab Scissor Spear",
+            "",
+            "Sakura Gust Spear",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "rino": {
@@ -21166,12 +22309,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clownfish Bow",
             "Weeping Sakura Bow",
             "Summer Light Bikini Armor",
             "White Rain Bow",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clownfish Bow",
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "wonder_rino": {
@@ -21341,12 +22492,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clownfish Bow",
             "Weeping Sakura Bow",
             "Summer Reflection Yukata of Morning Glory",
             "White Rain Bow",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clownfish Bow",
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "ruka": {
@@ -21516,12 +22675,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Orca Sword",
             "Yoito Kage Sakura",
             "Summer Light Bikini Armor",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Orca Sword",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "summer_ruka": {
@@ -21691,12 +22858,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Orca Sword",
             "Yoito Kage Sakura",
             "Summer Reflection Yukata of Morning Glory",
             "Summer Breeze's Blossom",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Orca Sword",
+            "",
+            "Yoito Kage Sakura",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "saren": {
@@ -21866,12 +23041,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Reflection Yukata of Morning Glory",
             "Thin Red Sakura Saintly Cloth",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Summer Reflection Yukata of Morning Glory",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "christmas_saren": {
@@ -22041,12 +23224,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Beach Floater Mail",
             "Sakura Eight Weight Armor",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Beach Floater Mail",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "summer_saren": {
@@ -22216,12 +23407,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Light Bikini Armor",
             "Thin Red Sakura Saintly Cloth",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "sheffy": {
@@ -22391,12 +23590,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Light Bikini Armor",
             "Blazing Red Sun Sword",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "shinobu": {
@@ -22566,12 +23773,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Orca Sword",
             "Yoito Kage Sakura",
             "Summer Light Bikini Armor",
             "Evening Sakura Purple Armor",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Orca Sword",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "halloween_shinobu": {
@@ -22741,12 +23956,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Orca Sword",
             "Yoito Kage Sakura",
             "Summer Light Bikini Armor",
             "Summer Breeze's Blossom",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Orca Sword",
+            "",
+            "Yoito Kage Sakura",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "shiori": {
@@ -22916,12 +24139,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clownfish Bow",
             "Weeping Sakura Bow",
             "Sunflower Straw Hat",
             "White Rain Bow",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clownfish Bow",
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "magical_shiori": {
@@ -23091,12 +24322,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clownfish Bow",
             "Weeping Sakura Bow",
             "Summer Reflection Yukata of Morning Glory",
             "White Rain Bow",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clownfish Bow",
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "shizuru": {
@@ -23266,12 +24505,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Beach Floater Mail",
             "Sakura Eight Weight Armor",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Beach Floater Mail",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "summer_shizuru": {
@@ -23441,12 +24688,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Beach Floater Mail",
             "Sakura Eight Weight Armor",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Beach Floater Mail",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "valentine_shizuru": {
@@ -23616,12 +24871,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Beach Floater Mail",
             "Sakura Eight Weight Armor",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Beach Floater Mail",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "suzume": {
@@ -23791,12 +25054,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Parasol One Piece",
             "White Snow Sakura Magic Clothes",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Parasol One Piece",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "new_year_suzume": {
@@ -23966,12 +25237,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Sakura Flower Moonlight Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "summer_suzume": {
@@ -24141,12 +25420,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Sakura Flower Moonlight Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "suzuna": {
@@ -24316,12 +25603,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clownfish Bow",
             "Weeping Sakura Bow",
             "Sunflower Straw Hat",
             "White Rain Bow",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clownfish Bow",
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "summer_suzuna": {
@@ -24491,12 +25786,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clownfish Bow",
             "Weeping Sakura Bow",
             "Summer Reflection Yukata of Morning Glory",
             "White Rain Bow",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clownfish Bow",
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "tamaki": {
@@ -24666,12 +25969,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Shark Dagger",
             "Cherry Petal Dagger",
             "Summer Reflection Yukata of Morning Glory",
             "Thin Red Sakura Saintly Cloth",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Shark Dagger",
+            "",
+            "Summer Reflection Yukata of Morning Glory",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "summer_tamaki": {
@@ -24841,12 +26152,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Shark Dagger",
             "Cherry Petal Dagger",
             "Sunflower Straw Hat",
             "Thin Red Sakura Saintly Cloth",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Shark Dagger",
+            "",
+            "Sunflower Straw Hat",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "work_overalls_tamaki": {
@@ -25016,12 +26335,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Shark Dagger",
             "Cherry Petal Dagger",
             "Summer Reflection Yukata of Morning Glory",
             "Blazing Red Sun Sword",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Shark Dagger",
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "tomo": {
@@ -25191,12 +26518,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Orca Sword",
             "Cherry Petal Dagger",
             "Sunflower Straw Hat",
             "Blazing Red Sun Sword",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Shark Dagger",
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "magical_tomo": {
@@ -25366,12 +26701,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Orca Sword",
             "Cherry Petal Dagger",
             "Sunflower Straw Hat",
             "Blazing Red Sun Sword",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Shark Dagger",
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "tsumugi": {
@@ -25541,12 +26884,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Turtle Gauntlet",
             "Sakura Hand Brace",
             "Summer Light Bikini Armor",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Turtle Gauntlet",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "halloween_tsumugi": {
@@ -25716,12 +27067,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Shark Dagger",
             "Cherry Petal Dagger",
             "Summer Light Bikini Armor",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Shark Dagger",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "summer_tsumugi": {
@@ -25891,12 +27250,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Turtle Gauntlet",
             "Sakura Hand Brace",
             "Summer Light Bikini Armor",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Turtle Gauntlet",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "deresute_uzuki": {
@@ -26066,12 +27433,20 @@
             "Popcorn Necklace"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Reflection Yukata of Morning Glory",
             "Blazing Red Sun Sword",
             "Sakura Dance Double Hairpin",
             "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Cherry Blossom",
+            "",
+            "Sakura Dance Double Hairpin"
         ]
     },
     "yori": {
@@ -26241,12 +27616,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "angel_yori": {
@@ -26416,12 +27799,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "yui": {
@@ -26591,12 +27982,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "ceremonial_attire_yui": {
@@ -26766,12 +28165,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Immortal Sakura Wish Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "new_year_yui": {
@@ -26941,12 +28348,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Sakura Flower Moonlight Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "princess_yui": {
@@ -27116,12 +28531,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jewel Shell Rod",
             "Cherishrod",
             "Parasol One Piece",
             "Dark Moon Arc Cane",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jewel Shell Rod",
+            "",
+            "Cherishrod",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "yukari": {
@@ -27291,12 +28714,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Light Bikini Armor",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "christmas_yukari": {
@@ -27466,12 +28897,20 @@
             "Macaron Pendant"
         ],
         "rank_21": [
-            "",
+            "Clione Blade",
             "Cherry Blossom",
             "Summer Light Bikini Armor",
             "Scattered Sakura Wide Brimmed Hat",
             "Sakura Flower Moonlight Hairpin",
             "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Clione Blade",
+            "",
+            "Summer Light Bikini Armor",
+            "",
+            "Sakura Flower Moonlight Hairpin"
         ]
     },
     "yuki": {
@@ -27641,12 +29080,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Immortal Sakura Wish Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     },
     "yuni": {
@@ -27816,12 +29263,20 @@
             "Doughnut Choker"
         ],
         "rank_21": [
-            "",
+            "Jellyfish Rod",
             "Sakura Dance Wand",
             "Hibiscus Sandals",
             "Sakura Blizzard Woven Heels",
             "Sakura Flower Moonlight Hairpin",
             "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "",
+            "Hibiscus Sandals",
+            "",
+            "Immortal Sakura Wish Hairpin"
         ]
     }
 }

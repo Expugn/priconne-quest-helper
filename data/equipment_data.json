@@ -3688,10 +3688,21 @@
             "Chaotic Choker"
         ]
     },
+    "107012": {
+        "name_jp": "クリオネブレード",
+        "name": "Clione Blade",
+        "id": "green-2",
+        "has_fragments": true,
+        "fragment_id": "127012",
+        "req_pieces": 20,
+        "req_items": [
+            "Star Nuclear Bow - Erzvogen"
+        ]
+    },
     "107041": {
         "name_jp": "宵刀影桜",
         "name": "Yoito Kage Sakura",
-        "id": "green-2",
+        "id": "green-3",
         "has_fragments": true,
         "fragment_id": "117041",
         "req_pieces": 30,
@@ -3699,10 +3710,19 @@
             "Turquoise Noah"
         ]
     },
+    "107042": {
+        "name_jp": "オルカソード",
+        "name": "Orca Sword",
+        "id": "green-4",
+        "has_fragments": true,
+        "fragment_id": "117042",
+        "req_pieces": 30,
+        "req_items": []
+    },
     "107071": {
         "name_jp": "チェリーペタルダガー",
         "name": "Cherry Petal Dagger",
-        "id": "green-3",
+        "id": "green-5",
         "has_fragments": true,
         "fragment_id": "117071",
         "req_pieces": 30,
@@ -3710,10 +3730,19 @@
             "Star Nuclear Spear - Ertz Borg"
         ]
     },
+    "107072": {
+        "name_jp": "シャークダガー",
+        "name": "Shark Dagger",
+        "id": "green-6",
+        "has_fragments": true,
+        "fragment_id": "117072",
+        "req_pieces": 30,
+        "req_items": []
+    },
     "107101": {
         "name_jp": "桜花の貫き手",
         "name": "Sakura Hand Brace",
-        "id": "green-4",
+        "id": "green-7",
         "has_fragments": true,
         "fragment_id": "127101",
         "req_pieces": 20,
@@ -3721,10 +3750,21 @@
             "Shield God Ring - Wall Breath"
         ]
     },
+    "107102": {
+        "name_jp": "タートルガントレット",
+        "name": "Turtle Gauntlet",
+        "id": "green-8",
+        "has_fragments": true,
+        "fragment_id": "127102",
+        "req_pieces": 20,
+        "req_items": [
+            "Cardinal Clarion Brooch"
+        ]
+    },
     "107131": {
         "name_jp": "枝垂れの桜花弓",
         "name": "Weeping Sakura Bow",
-        "id": "green-5",
+        "id": "green-9",
         "has_fragments": true,
         "fragment_id": "117131",
         "req_pieces": 30,
@@ -3732,10 +3772,19 @@
             "Fire Spear - Prominence"
         ]
     },
+    "107132": {
+        "name_jp": "クラウンフィッシュボウ",
+        "name": "Clownfish Bow",
+        "id": "green-10",
+        "has_fragments": true,
+        "fragment_id": "117132",
+        "req_pieces": 30,
+        "req_items": []
+    },
     "107161": {
         "name_jp": "散桜の颯槍",
         "name": "Sakura Gust Spear",
-        "id": "green-6",
+        "id": "green-11",
         "has_fragments": true,
         "fragment_id": "127161",
         "req_pieces": 20,
@@ -3743,10 +3792,21 @@
             "Scarlet Dragon's Claw Fire Ring"
         ]
     },
+    "107162": {
+        "name_jp": "クラブシザースピアー",
+        "name": "Crab Scissor Spear",
+        "id": "green-12",
+        "has_fragments": true,
+        "fragment_id": "127162",
+        "req_pieces": 20,
+        "req_items": [
+            "Jade Harp Brooch"
+        ]
+    },
     "107191": {
         "name_jp": "桜伐り",
         "name": "Sakura Axe",
-        "id": "green-7",
+        "id": "green-13",
         "has_fragments": true,
         "fragment_id": "117191",
         "req_pieces": 30,
@@ -3754,10 +3814,19 @@
             "Eastern Heaven Green Wind Dress"
         ]
     },
+    "107192": {
+        "name_jp": "ホエールアックス",
+        "name": "Whale Axe",
+        "id": "green-14",
+        "has_fragments": true,
+        "fragment_id": "117192",
+        "req_pieces": 30,
+        "req_items": []
+    },
     "107221": {
         "name_jp": "チェリッシュロッド",
         "name": "Cherishrod",
-        "id": "green-8",
+        "id": "green-15",
         "has_fragments": true,
         "fragment_id": "127221",
         "req_pieces": 20,
@@ -3765,10 +3834,21 @@
             "Elfin Choker"
         ]
     },
+    "107222": {
+        "name_jp": "ジュエルシェルロッド",
+        "name": "Jewel Shell Rod",
+        "id": "green-16",
+        "has_fragments": true,
+        "fragment_id": "127222",
+        "req_pieces": 20,
+        "req_items": [
+            "Astrologer's Holy Spirit Robe"
+        ]
+    },
     "107251": {
         "name_jp": "桜華の舞杖",
         "name": "Sakura Dance Wand",
-        "id": "green-9",
+        "id": "green-17",
         "has_fragments": true,
         "fragment_id": "127251",
         "req_pieces": 20,
@@ -3776,10 +3856,21 @@
             "Ruby Rose Choker"
         ]
     },
+    "107252": {
+        "name_jp": "ジェリーフィッシュロッド",
+        "name": "Jellyfish Rod",
+        "id": "green-18",
+        "has_fragments": true,
+        "fragment_id": "127252",
+        "req_pieces": 20,
+        "req_items": [
+            "Red Bear Emperor's Claw Battle Axe"
+        ]
+    },
     "107281": {
         "name_jp": "サマーライトビキニアーマー",
         "name": "Summer Light Bikini Armor",
-        "id": "green-10",
+        "id": "green-19",
         "has_fragments": true,
         "fragment_id": "127281",
         "req_pieces": 20,
@@ -3790,7 +3881,7 @@
     "107311": {
         "name_jp": "ビーチフローターメイル",
         "name": "Beach Floater Mail",
-        "id": "green-11",
+        "id": "green-20",
         "has_fragments": true,
         "fragment_id": "117311",
         "req_pieces": 30,
@@ -3799,7 +3890,7 @@
     "107341": {
         "name_jp": "朝顔の夏影浴衣",
         "name": "Summer Reflection Yukata of Morning Glory",
-        "id": "green-12",
+        "id": "green-21",
         "has_fragments": true,
         "fragment_id": "127341",
         "req_pieces": 20,
@@ -3810,7 +3901,7 @@
     "107371": {
         "name_jp": "パラソルワンピース",
         "name": "Parasol One Piece",
-        "id": "green-13",
+        "id": "green-22",
         "has_fragments": true,
         "fragment_id": "127371",
         "req_pieces": 20,
@@ -3821,7 +3912,7 @@
     "107461": {
         "name_jp": "ハイビスカスサンダル",
         "name": "Hibiscus Sandals",
-        "id": "green-14",
+        "id": "green-23",
         "has_fragments": true,
         "fragment_id": "117461",
         "req_pieces": 30,
@@ -3830,7 +3921,7 @@
     "107491": {
         "name_jp": "サンフラワーストローハット",
         "name": "Sunflower Straw Hat",
-        "id": "green-15",
+        "id": "green-24",
         "has_fragments": true,
         "fragment_id": "117491",
         "req_pieces": 30,
@@ -3839,7 +3930,7 @@
     "107551": {
         "name_jp": "桜舞の八重簪",
         "name": "Sakura Dance Double Hairpin",
-        "id": "green-16",
+        "id": "green-25",
         "has_fragments": true,
         "fragment_id": "117551",
         "req_pieces": 30,
@@ -3848,7 +3939,7 @@
     "107581": {
         "name_jp": "桜花の月夜簪",
         "name": "Sakura Flower Moonlight Hairpin",
-        "id": "green-17",
+        "id": "green-26",
         "has_fragments": true,
         "fragment_id": "117581",
         "req_pieces": 30,
@@ -3857,7 +3948,7 @@
     "107611": {
         "name_jp": "仙桜の祝簪",
         "name": "Immortal Sakura Wish Hairpin",
-        "id": "green-18",
+        "id": "green-27",
         "has_fragments": true,
         "fragment_id": "117611",
         "req_pieces": 30,

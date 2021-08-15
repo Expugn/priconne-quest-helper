@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.16.0] - 2021-08-15
+Quest Update (2021-08-15)
+### Added
+- Rank 22 Support
+- Chapter 49 Quests
+- New Equipment
+- New Character: Chika (Summer)
+
 ## [2.15.2] - 2021-08-06
 ### Added
 - New Quest `28-1 VH` (Aoi)
