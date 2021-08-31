@@ -96,7 +96,7 @@
         return "is__" + item_name.replace("'", "").replace(/\W/g, '-').toLowerCase().replace('---', '-');
     }
     function get_unit_sprite_class(unit_id) {
-        return "us__" + unit_id.replace(/_/g, '-').toLowerCase().replace('---', '-');
+        return "us__" + unit_id.replace(/[\W_]+/g, '-').toLowerCase().replace('---', '-');
     }
     function get_unit_icon_image_path(file_name = "") {
         file_name = file_name.split(' ').join('_');

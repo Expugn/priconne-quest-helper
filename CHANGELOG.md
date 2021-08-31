@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.16.1] - 2021-08-31
+### Added
+- New Character (First Dual Unit): Hatsune & Shiori
+### Fixed
+- Fixed issue with unit sprite class naming
+
 ## [2.16.0] - 2021-08-15
 Quest Update (2021-08-15)
 ### Added

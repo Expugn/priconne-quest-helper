@@ -5018,7 +5018,7 @@ const webpage = (function () {
      * @return {string} UNIT'S SPRITE CLASS ; i.e. "new_year_rei" -> "us__new-year-rei".
      */
     function get_unit_sprite_class(unit_key) {
-        return "us__" + unit_key.replace(/_/g, '-').toLowerCase().replace('---', '-');
+        return "us__" + unit_key.replace(/[\W_]+/g, '-').toLowerCase().replace('---', '-');
     }
 
     /**

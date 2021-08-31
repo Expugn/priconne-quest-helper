@@ -105,7 +105,7 @@
         return "../../images/items" + ($("html").hasClass("webp") ? "_webp/" + file_name + ".webp" : "/" + file_name + ".png");
     }
     function get_unit_sprite_class(unit_id) {
-        return "us__" + unit_id.replace(/_/g, '-').toLowerCase().replace('---', '-');
+        return "us__" + unit_id.replace(/[\W_]+/g, '-').toLowerCase().replace('---', '-');
     }
     function toggle_catalog() {
         const catalog = document.getElementById("catalog"),
