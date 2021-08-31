@@ -8,6 +8,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - New Character (First Dual Unit): Hatsune & Shiori
 ### Fixed
 - Fixed issue with unit sprite class naming
+- Fixed `undefined` name label for non-English versions in Presets when selecting a dual unit
+- Fixed `undefined` name label for non-English versions in Presets when loading items and saving a project
 
 ## [2.16.0] - 2021-08-15
 Quest Update (2021-08-15)

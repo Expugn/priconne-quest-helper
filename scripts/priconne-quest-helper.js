@@ -1065,7 +1065,7 @@ const presets = (function () {
             let grid_entry = document.createElement("i");
             grid_entry.classList.add("preset-grid-entry", "unit-sprite", webpage.get_unit_sprite_class(unit_key));
             grid_entry.onclick = function () {
-                document.getElementById(element_id.LIST_SELECT).value = unit_key;
+                document.getElementById(element_id.LIST_SELECT).value = unit_key.replace(/ /g, '_');
                 update_details();
                 toggle_grid_display();
                 document.getElementById(element_id.PRESETS_CONTAINER).scrollIntoView();
@@ -1094,8 +1094,16 @@ const presets = (function () {
             for (const char_id in char_json) {
                 const char_data = char_json[char_id],
                       name = char_data[character_data.tags.NAME].toLowerCase(),
-                      thematic = char_data[character_data.tags.THEMATIC].replace(' ', '_').toLowerCase(),
-                      char_translated = webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][name];
+                      thematic = char_data[character_data.tags.THEMATIC].replace(' ', '_').toLowerCase();
+                let char_translated = webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][name];
+
+                if (name.indexOf("&") > -1) {
+                    // UNIT IS DUAL UNIT, MORE LOGIC FOR TRANSLATED NAME NEEDED
+                    const [name_1, name_2] = name.split(" & ");
+                    char_translated = `${webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][name_1].charAt(0).toUpperCase() 
+                        + webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][name_1].slice(1)} & ${webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][name_2].charAt(0).toUpperCase() 
+                        + webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][name_2].slice(1)}`;
+                }
 
                 if (thematic !== "") {
                     if (char_thematics[name] === undefined) {
@@ -1163,15 +1171,25 @@ const presets = (function () {
                     thematic = char_data[character_data.tags.THEMATIC],
                     thematic_key = thematic.replace(' ', '_').toLowerCase(),
                     is_thematic_exists = thematic !== "",
-                    id = (is_thematic_exists ? thematic_key + "_" : "") + name.toLowerCase(),
+                    id = (is_thematic_exists ? thematic_key + "_" : "") + name.replace(/ /g, '_').toLowerCase(),
                     char_en = name + (is_thematic_exists ? " (" + thematic + ")" : ""),
                     lang_data = webpage.language.data();
                 let char_translated = lang_data[webpage.language.tags.CHARACTER_NAMES][name.toLowerCase()] +
                         (is_thematic_exists ? " (" + lang_data[webpage.language.tags.THEMATICS][thematic_key] + ")" : "");
 
-                // USE （）IF JAPANESE
+                if (name.indexOf("&") > -1) {
+                    // UNIT IS DUAL UNIT, MORE LOGIC FOR TRANSLATED NAME NEEDED
+                    let [name_1, name_2] = name.split(" & ");
+                    name_1 = name_1.toLowerCase();
+                    name_2 = name_2.toLowerCase();
+                    char_translated = `${lang_data[webpage.language.tags.CHARACTER_NAMES][name_1].charAt(0).toUpperCase()
+                    + lang_data[webpage.language.tags.CHARACTER_NAMES][name_1].slice(1)} & ${lang_data[webpage.language.tags.CHARACTER_NAMES][name_2].charAt(0).toUpperCase()
+                    + lang_data[webpage.language.tags.CHARACTER_NAMES][name_2].slice(1)}`;
+                }
+
+                // USE （） AND ＆ IF JAPANESE
                 if (webpage.language.current() === webpage.language.option.JAPANESE) {
-                    char_translated = char_translated.replace(' (', '（').replace(')', '）');
+                    char_translated = char_translated.replace(' (', '（').replace(')', '）').replace(' & ', '＆');
                 }
 
                 return "<option value=\"" + id + "\">" + char_translated + " | " + char_en + "</option>";
@@ -1239,8 +1257,14 @@ const presets = (function () {
             let translated_name = lang_data[webpage.language.tags.CHARACTER_NAMES][char_name] + (is_thematic_exists ?
                 " (" + lang_data[webpage.language.tags.THEMATICS][char_thematic] + ")" :
                 "");
+            if (char_name.indexOf("&") > -1) {
+                // UNIT IS A DUAL UNIT
+                const [name_1, name_2] = char_name.split(" & ");
+                translated_name = `${lang_data[webpage.language.tags.CHARACTER_NAMES][name_1]} & ${lang_data[webpage.language.tags.CHARACTER_NAMES][name_2]}` +
+                    (is_thematic_exists ? " (" + lang_data[webpage.language.tags.THEMATICS][char_thematic] + ")" : "");
+            }
             if (webpage.language.current() === webpage.language.option.JAPANESE) {
-                translated_name = translated_name.replace(' (', '（').replace(')', '）');
+                translated_name = translated_name.replace(' (', '（').replace(')', '）').replace(' & ', '＆');
             }
             project_name = translated_name;
         }
@@ -1282,7 +1306,6 @@ const presets = (function () {
               next_rank_button = $("#" + element_id.NEXT_RANK_BUTTON),
               prev_rank_button = $("#" + element_id.PREV_RANK_BUTTON);
 
-
         if (selected_char === DEFAULT_VALUE) {
             // SET PLACEHOLDER VALUES SINCE SELECTED DEFAULT VALUE
             unit_img_elem.attr("src", webpage.get_unit_icon_image_path(""));
@@ -1317,9 +1340,15 @@ const presets = (function () {
                 char_thematic_tl = lang_data[webpage.language.tags.THEMATICS][tl_thematic];
                 char_tl = lang_data[webpage.language.tags.CHARACTER_NAMES][tl_name] + (is_thematic_exists ? " (" + char_thematic_tl + ")" : "");
 
-                // USE （）IF JP
+                if (tl_name.indexOf("&") > -1) {
+                    // UNIT IS A DUAL UNIT
+                    const [name_1, name_2] = tl_name.split(" & ");
+                    char_tl = `${lang_data[webpage.language.tags.CHARACTER_NAMES][name_1]} & ${lang_data[webpage.language.tags.CHARACTER_NAMES][name_2]}${(is_thematic_exists ? " (" + char_thematic_tl + ")" : "")}`;
+                }
+
+                // USE （）AND ＆ IF JP
                 if (webpage.language.current() === webpage.language.option.JAPANESE) {
-                    char_tl = char_tl.replace(' (', '（').replace(')', '）');
+                    char_tl = char_tl.replace(' (', '（').replace(')', '）').replace(' & ', '＆');
                 }
             }
 
