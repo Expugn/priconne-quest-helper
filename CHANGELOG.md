@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.16.2] - 2021-09-03
+### Added
+- New Character: Mitsuki (Oedo)
+
 ## [2.16.1] - 2021-08-31
 ### Added
 - New Character (First Dual Unit): Hatsune & Shiori
