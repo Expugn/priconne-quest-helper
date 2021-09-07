@@ -3905,12 +3905,6 @@ const data_display = (function () {
             TABLE: "recommended-quest-table",
             DIV: "recommended-quest-div"
         });
-        const score_values = Object.freeze({
-            TOP_TWO: 1.0,
-            THIRD: 0.75,
-            SUBDROP: 0.5,
-            PRIORITY_MULTIPLIER: 2.0
-        });
         const difficulty = Object.freeze({
             HARD: "H",
             VERY_HARD: "VH"
@@ -4024,13 +4018,14 @@ const data_display = (function () {
                             continue;
                         }
 
-                        // FIGURE OUT QUEST SCORE
+                        // FIGURE OUT QUEST SCORE OF AN INDIVIDUAL ITEM
                         function get_quest_score(item_name, base_score) {
                             if (typeof(item_name) === "object") {
                                 item_name = item_name[quest_data.tags.ITEM_NAME];
                             }
                             if (merged_recipes.hasOwnProperty(item_name) && item_name !== undefined) {
-                                return base_score * (projects.data().items.includes(item_name) ? score_values.PRIORITY_MULTIPLIER : 1);
+                                // PRIORITY_MULTIPLIER == 2.0 ; PRIORITY ITEMS GET THEIR QUEST SCORE MULTIPLIED BY THIS VALUE.
+                                return base_score * (projects.data().items.includes(item_name) ? 2.0 : 1);
                             }
                             return 0;
                         }
@@ -4051,7 +4046,7 @@ const data_display = (function () {
                             const subdrops_percent = quest_info[quest_data.tags.SUBDROPS_PERCENT];
                             if (subdrops_percent === undefined) {
                                 // ASSUME ALL SUBDROPS ARE 20% DROP RATE
-                                quest_score += get_quest_score(quest_subdrops[i], score_values.SUBDROP);
+                                quest_score += get_quest_score(quest_subdrops[i], 20);
                             }
                             else {
                                 quest_score += get_quest_score(quest_subdrops[i], subdrops_percent[i]);

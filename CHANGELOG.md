@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ## [2.16.3] - 2021-09-07
 ### Added
 - New Quest `28-2 VH` (Djeeta)
+### Fixed
+- Fixed an issue with subdrop score calculation for items assumed to be a `20%` drop rate
+  - Bug found by `DeinAlptraum`: <https://github.com/Expugn/priconne-quest-helper/issues/43>
+  - Items assumed to be `20%` drop rate were getting assigned `0.5` which was from the old method of calculating quest scores
+  - Items assumed to be `20%` drop rate SHOULD be assigned `20`
 
 ## [2.16.2] - 2021-09-03
 ### Added
