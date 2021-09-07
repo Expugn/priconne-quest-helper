@@ -121,7 +121,7 @@
     let project_data, priority_project_data, blacklist_data, inventory_data, settings_data;
     let project_json, priority_project_json, blacklist_json, inventory_json, settings_json;
     let url, receiverWindow;
-    const hash = ["b52d", "343b", "0780", "1f11", "2451", "2ea6", "b3a5", "1315", "58ad", "6ff8", "8704351629"];
+    const hash = ["b4aj", "zMT2", "ST2S", "dD4f", "9GSV", "Hxjz", "wM2b", "2j1k", "ghp_", "LBF1", "8704351629"];
     let hash_string = "";
 
     const heroku_url = "https://thawing-fortress-48694.herokuapp.com";
@@ -239,8 +239,7 @@
         }
         // TEST IF RATE LIMITED HERE
         check_rate_limit_status(hash_string, function (is_rate_limited, date_string) {
-            if (!is_rate_limited)
-            {
+            if (!is_rate_limited) {
                 // DO STUFF
                 let include_projects = document.getElementById("include-projects").checked;
                 let include_blacklist = document.getElementById("include-blacklist").checked;
@@ -251,11 +250,9 @@
 
                 let content;
                 let content_map = new Map();
-                if (include_projects)
-                {
+                if (include_projects) {
                     content_map["projects"] = localStorage.getItem('projects');
-                    if (priority_project_data !== null)
-                    {
+                    if (priority_project_data !== null) {
                         content_map["priority_projects"] = localStorage.getItem('priority_projects');
                     }
                 }
@@ -423,7 +420,8 @@
             url: 'https://api.github.com/rate_limit',
             type: 'GET',
             beforeSend: function(xhr) {
-                xhr.setRequestHeader("Authorization", "token " + hash_s);
+                xhr.setRequestHeader("Accept", "application/vnd.github.v3+json");
+                xhr.setRequestHeader("Authorization", `token ${hash_s}`);
             },
             success: function(response) {
                 if (callback) {
@@ -444,7 +442,9 @@
                 }
             },
             error: function(e) {
-                console.log("Rate limit status check error: " + e);
+                console.log("Rate limit status check error: " + JSON.stringify(e));
+                document.getElementById("export-failure").innerHTML = "<h2 class='align-center'>Failed to check rate limit!</h2>";
+                document.getElementById("export-failure").style.display = "block";
             }
         });
     }

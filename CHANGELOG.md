@@ -4,8 +4,11 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [2.16.3] - 2021-09-07
+Save Data Purge #5: `1485` / `1615` Files Deleted
 ### Added
 - New Quest `28-2 VH` (Djeeta)
+### Changed
+- Minor tweaks to `export-data` and `import-data` pages
 ### Fixed
 - Fixed an issue with subdrop score calculation for items assumed to be a `20%` drop rate
   - Bug found by `DeinAlptraum`: <https://github.com/Expugn/priconne-quest-helper/issues/43>

@@ -94,7 +94,7 @@
     let project_data, priority_project_data, blacklist_data, inventory_data, settings_data;
     let project_json, priority_project_json, blacklist_json, inventory_json, settings_json;
     let gist_id;
-    const hash = ["b52d", "343b", "0780", "1f11", "2451", "2ea6", "b3a5", "1315", "58ad", "6ff8", "8704351629"];
+    const hash = ["b4aj", "zMT2", "ST2S", "dD4f", "9GSV", "Hxjz", "wM2b", "2j1k", "ghp_", "LBF1", "8704351629"];
     let hash_string = "";
 
     setTimeout(function () {
@@ -174,8 +174,7 @@
                 }
             });
         }
-        catch (err)
-        {
+        catch (err) {
             document.getElementById("import-failure").innerHTML = "<h2 class='align-center'>Invalid ID Provided!</h2>";
             document.getElementById("import-failure").style.display = "block";
         }
@@ -191,8 +190,7 @@
         document.getElementById("success-div").style.display = "block";
 
         // IMPORT DATA
-        if (project_data !== undefined)
-        {
+        if (project_data !== undefined) {
             localStorage.removeItem('priority_projects');
             localStorage.setItem('projects', project_data);
             if (priority_project_data !== undefined)
@@ -200,16 +198,13 @@
                 localStorage.setItem('priority_projects', priority_project_data);
             }
         }
-        if (blacklist_data !== undefined)
-        {
+        if (blacklist_data !== undefined) {
             localStorage.setItem('blacklist', blacklist_data);
         }
-        if (inventory_data !== undefined)
-        {
+        if (inventory_data !== undefined) {
             localStorage.setItem('inventory', inventory_data);
         }
-        if (settings_data !== undefined)
-        {
+        if (settings_data !== undefined) {
             localStorage.setItem('settings', settings_data);
         }
     }
@@ -368,7 +363,8 @@
             url: 'https://api.github.com/rate_limit',
             type: 'GET',
             beforeSend: function(xhr) {
-                xhr.setRequestHeader("Authorization", "token " + hash_s);
+                xhr.setRequestHeader("Accept", "application/vnd.github.v3+json");
+                xhr.setRequestHeader("Authorization", `token ${hash_s}`);
             },
             success: function(response) {
                 if (callback) {
@@ -390,6 +386,8 @@
             },
             error: function(e) {
                 console.log("Rate limit status check error: " + e);
+                document.getElementById("import-failure").innerHTML = "<h2 class='align-center'>Failed to check rate limit!</h2>";
+                document.getElementById("import-failure").style.display = "block";
             }
         });
     }
@@ -401,7 +399,8 @@
             url: ('https://api.github.com/gists/' + gist_id),
             type: 'GET',
             beforeSend: function(xhr) {
-                xhr.setRequestHeader("Authorization", "token " + hash_s);
+                xhr.setRequestHeader("Accept", "application/vnd.github.v3+json");
+                xhr.setRequestHeader("Authorization", `token ${hash_s}`);
             },
             success: function(response) {
                 if (callback) {
