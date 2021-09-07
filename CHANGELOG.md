@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.16.3] - 2021-09-07
+### Added
+- New Quest `28-2 VH` (Djeeta)
+
 ## [2.16.2] - 2021-09-03
 ### Added
 - New Character: Mitsuki (Oedo)
