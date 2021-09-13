@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.16.4] - 2021-09-13
+### Added
+- New Character: Yuki (Oedo)
+
 ## [2.16.3] - 2021-09-07
 Save Data Purge #5: `1485` / `1615` Files Deleted
 ### Added
