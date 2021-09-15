@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.17.0] - 2021-09-15
+Quest Update (2021-09-15)
+### Added
+- New Quests:
+  - Chapter 50 Normal Quests
+  - `49-3 H`
+- New Equipment
+
 ## [2.16.4] - 2021-09-13
 ### Added
 - New Character: Yuki (Oedo)
