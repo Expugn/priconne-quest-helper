@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.17.1] - 2021-09-17
+### Added
+- New Character: Creditta
+- Updated Language Files (EN/JP) ; (KR/CN are ***UN-TRANSLATED***)
+  - `character_names.creditta`
+
 ## [2.17.0] - 2021-09-15
 Quest Update (2021-09-15)
 ### Added
