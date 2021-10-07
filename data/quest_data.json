@@ -13200,6 +13200,37 @@
             "Sun Amulet Fragment"
         ]
     },
+    "28-3VH": {
+        "name": "ディズタル河食岸・北部 28-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Parasol One Piece Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Jewel Shell Rod Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Nanaka Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ice Claymore Fragment",
+            "Dark Matter Edge Fragment",
+            "Violet Armor Fragment",
+            "Crusader Plate Fragment",
+            "Sun Amulet Fragment"
+        ]
+    },
     "29-1": {
         "name": "ディズタル河食岸・南部 29-1",
         "stamina": 10,
