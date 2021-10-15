@@ -3878,19 +3878,39 @@
             "Dark Blade - Heavenly Raven's Guard"
         ]
     },
+    "107282": {
+        "name_jp": "ゴシックドレープアーマー",
+        "name": "Gothic Draped Armor",
+        "id": "green-20",
+        "has_fragments": true,
+        "fragment_id": "127282",
+        "req_pieces": 20,
+        "req_items": [
+            "Jade Wind Blade - Emerald Edge"
+        ]
+    },
     "107311": {
         "name_jp": "ビーチフローターメイル",
         "name": "Beach Floater Mail",
-        "id": "green-20",
+        "id": "green-21",
         "has_fragments": true,
         "fragment_id": "117311",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107312": {
+        "name_jp": "ゴシックメイデン",
+        "name": "Gothic Maiden",
+        "id": "green-22",
+        "has_fragments": true,
+        "fragment_id": "117312",
         "req_pieces": 30,
         "req_items": []
     },
     "107341": {
         "name_jp": "朝顔の夏影浴衣",
         "name": "Summer Reflection Yukata of Morning Glory",
-        "id": "green-21",
+        "id": "green-23",
         "has_fragments": true,
         "fragment_id": "127341",
         "req_pieces": 20,
@@ -3898,10 +3918,21 @@
             "Prosperous Carp God's Katana"
         ]
     },
+    "107342": {
+        "name_jp": "パンキッシュガール",
+        "name": "Punkish Girl",
+        "id": "green-24",
+        "has_fragments": true,
+        "fragment_id": "127342",
+        "req_pieces": 20,
+        "req_items": [
+            "Blue Night Nocturne Brooch"
+        ]
+    },
     "107371": {
         "name_jp": "パラソルワンピース",
         "name": "Parasol One Piece",
-        "id": "green-22",
+        "id": "green-25",
         "has_fragments": true,
         "fragment_id": "127371",
         "req_pieces": 20,
@@ -3909,28 +3940,57 @@
             "Sacred Ring - Heavenly Lotus"
         ]
     },
+    "107372": {
+        "name_jp": "ゴシックブルーローズ",
+        "name": "Gothic Blue Rose",
+        "id": "green-26",
+        "has_fragments": true,
+        "fragment_id": "117372",
+        "req_pieces": 30,
+        "req_items": []
+    },
     "107461": {
         "name_jp": "ハイビスカスサンダル",
         "name": "Hibiscus Sandals",
-        "id": "green-23",
+        "id": "green-27",
         "has_fragments": true,
         "fragment_id": "117461",
         "req_pieces": 30,
         "req_items": []
     },
+    "107462": {
+        "name_jp": "スタッズドブラック",
+        "name": "Studded Black",
+        "id": "green-28",
+        "has_fragments": true,
+        "fragment_id": "127462",
+        "req_pieces": 20,
+        "req_items": [
+            "Blue God Bow - Mercy Sapiros"
+        ]
+    },
     "107491": {
         "name_jp": "サンフラワーストローハット",
         "name": "Sunflower Straw Hat",
-        "id": "green-24",
+        "id": "green-29",
         "has_fragments": true,
         "fragment_id": "117491",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107492": {
+        "name_jp": "ピアスドブラック",
+        "name": "Pierced Black",
+        "id": "green-30",
+        "has_fragments": true,
+        "fragment_id": "117492",
         "req_pieces": 30,
         "req_items": []
     },
     "107551": {
         "name_jp": "桜舞の八重簪",
         "name": "Sakura Dance Double Hairpin",
-        "id": "green-25",
+        "id": "green-31",
         "has_fragments": true,
         "fragment_id": "117551",
         "req_pieces": 30,
@@ -3939,7 +3999,7 @@
     "107552": {
         "name_jp": "ルビーハイビスカスの髪飾り",
         "name": "Ruby Hibiscus Hair Ornament",
-        "id": "green-26",
+        "id": "green-32",
         "has_fragments": true,
         "fragment_id": "117552",
         "req_pieces": 30,
@@ -3948,7 +4008,7 @@
     "107581": {
         "name_jp": "桜花の月夜簪",
         "name": "Sakura Flower Moonlight Hairpin",
-        "id": "green-27",
+        "id": "green-33",
         "has_fragments": true,
         "fragment_id": "117581",
         "req_pieces": 30,
@@ -3957,7 +4017,7 @@
     "107582": {
         "name_jp": "パールココナッツの髪飾り",
         "name": "Pearl Coconut Hair Ornament",
-        "id": "green-28",
+        "id": "green-34",
         "has_fragments": true,
         "fragment_id": "117582",
         "req_pieces": 30,
@@ -3966,7 +4026,7 @@
     "107611": {
         "name_jp": "仙桜の祝簪",
         "name": "Immortal Sakura Wish Hairpin",
-        "id": "green-29",
+        "id": "green-35",
         "has_fragments": true,
         "fragment_id": "117611",
         "req_pieces": 30,
@@ -3975,7 +4035,7 @@
     "107612": {
         "name_jp": "オパールシェルの髪飾り",
         "name": "Opal Shell Hair Ornament",
-        "id": "green-30",
+        "id": "green-36",
         "has_fragments": true,
         "fragment_id": "117612",
         "req_pieces": 30,

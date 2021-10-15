@@ -24612,5 +24612,493 @@
             17,
             15
         ]
+    },
+    "50-1H": {
+        "name": "ネロ岩礁・西部 50-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Gothic Blue Rose Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Jewel Shell Rod Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Misaki Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-2H": {
+        "name": "ネロ岩礁・西部 50-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Gothic Maiden Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Clione Blade Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mifuyu Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-1": {
+        "name": "ネロ岩礁・東部 51-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Shark Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Clownfish Bow Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-2": {
+        "name": "ネロ岩礁・東部 51-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Clione Blade Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Turtle Gauntlet Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-3": {
+        "name": "ネロ岩礁・東部 51-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Jellyfish Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Jewel Shell Rod Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-4": {
+        "name": "ネロ岩礁・東部 51-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Pierced Black Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Crab Scissor Spear Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Dark Moon Arc Cane Fragment",
+            "Icy Snow Flower Cane Fragment",
+            "Polar Light Belt Axe Fragment",
+            "Lightning Spear Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-5": {
+        "name": "ネロ岩礁・東部 51-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Punkish Girl Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Whale Axe Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-6": {
+        "name": "ネロ岩礁・東部 51-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Gothic Draped Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Orca Sword Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-7": {
+        "name": "ネロ岩礁・東部 51-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Studded Black Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Jellyfish Rod Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-8": {
+        "name": "ネロ岩礁・東部 51-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Gothic Maiden Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Shark Dagger Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Dark Moon Arc Cane Fragment",
+            "Icy Snow Flower Cane Fragment",
+            "Polar Light Belt Axe Fragment",
+            "Lightning Spear Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-9": {
+        "name": "ネロ岩礁・東部 51-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Punkish Girl Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Clione Blade Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-10": {
+        "name": "ネロ岩礁・東部 51-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Pierced Black Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Jellyfish Rod Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-11": {
+        "name": "ネロ岩礁・東部 51-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Gothic Draped Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Clownfish Bow Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-12": {
+        "name": "ネロ岩礁・東部 51-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Gothic Blue Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Studded Black Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Dark Moon Arc Cane Fragment",
+            "Icy Snow Flower Cane Fragment",
+            "Polar Light Belt Axe Fragment",
+            "Lightning Spear Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-13": {
+        "name": "ネロ岩礁・東部 51-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Gothic Maiden Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Gothic Draped Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-14": {
+        "name": "ネロ岩礁・東部 51-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Punkish Girl Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pierced Black Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }

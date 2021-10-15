@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.18.0] - 2021-10-15
+Quest Update (2021-10-15)
+### Added
+- New Quests
+  - Chapter 51 Normal Quests
+  - Chapter 50 1-2 Hard Quests
+- New Equipment
+- New Character: Suzuna (Halloween)
+
 ## [2.17.4] - 2021-10-11
 ### Added
 - Updated Language Files (KR/CN) ; (Translations ***MAY BE INCORRECT***)
