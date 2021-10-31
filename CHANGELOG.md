@@ -5,6 +5,13 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [2.18.1] - 2021-10-19
 ### Added
+- New Character: Homare
+### Fixed
+- Fixed Language Files (CN) ; (Translations ***MAY BE INCORRECT***)
+  - `character_names.homare` (`character_names.homare` shared the same value with `character_names.kaya`)
+
+## [2.18.1] - 2021-10-19
+### Added
 - New Character: Karin
 - Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
   - `character_names.karin`
