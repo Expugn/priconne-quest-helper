@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.18.2] - 2021-11-3
+### Added
+- New Character: Io (Noire)
+- Updated Language Files (EN/JP/KR/CN) ; (KR/CN Translations ***MAY BE INCORRECT***)
+  - `thematics.noire`
+
 ## [2.18.1] - 2021-10-19
 ### Added
 - New Character: Homare
