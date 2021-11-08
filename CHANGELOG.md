@@ -3,7 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.18.2] - 2021-11-3
+## [2.18.3] - 2021-11-08
+### Added
+- New Quests
+  - `29-1 VH` (Arisa)
+  - `29-2 VH` (Monika)
+
+## [2.18.2] - 2021-11-03
 ### Added
 - New Character: Io (Noire)
 - Updated Language Files (EN/JP/KR/CN) ; (KR/CN Translations ***MAY BE INCORRECT***)

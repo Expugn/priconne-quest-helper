@@ -13753,6 +13753,82 @@
             15
         ]
     },
+    "29-1VH": {
+        "name": "ディズタル河食岸・南部 29-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Pierced Black Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Clownfish Bow Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Gothic Draped Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Arisa Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Chaos Blade Fragment",
+            "Lightning Fist Fragment",
+            "Firelord's Ring Fragment",
+            "High Devil Wand Fragment",
+            "Viridian Spiritual Dress Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "29-2VH": {
+        "name": "ディズタル河食岸・南部 29-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Punkish Girl Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Shark Dagger Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Studded Black Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Monika Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "High Angel Rod Fragment",
+            "Phoenix Sword Fragment",
+            "Spirit Tree Bow Fragment",
+            "Scarlet Mail Fragment",
+            "Faireal Boots Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "30-1": {
         "name": "フテラ断崖・北部 30-1",
         "stamina": 10,
