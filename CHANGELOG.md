@@ -3,6 +3,25 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.19.0] - 2021-11-15
+Quest Update (2021-11-15)
+### Added
+- Unrelated to `priconne-quest-helper`: Manifest Naming Changes
+  - Cygames changed manifest names from a name like `unit_assetmanifest` to `unit2_assetmanifest`.
+  - **This probably will break tools for other servers in the future if it's not accounted for.** 
+- Rank 23 Support
+- New Quests
+  - `50-3 H`
+  - Chapter 52 Normal
+- Quest Item Changes
+  - `50-1 H` 3rd Item
+    - OLD: `Jewel Shell Rod Fragment`
+    - NEW: `Sakura Dance Double Hairpin Fragment`
+  - `50-2 H` 3rd Item
+    - OLD: `Clione Blade Fragment`
+    - NEW: `Immortal Sakura Wish Hairpin Fragment`
+- New Equipment
+
 ## [2.18.3] - 2021-11-08
 ### Added
 - New Quests

@@ -24701,7 +24701,7 @@
             "drop_percent": 72
         },
         "item_3": {
-            "item_name": "Jewel Shell Rod Fragment",
+            "item_name": "Sakura Dance Double Hairpin Fragment",
             "drop_percent": 72
         },
         "char_shard": {
@@ -24735,7 +24735,7 @@
             "drop_percent": 72
         },
         "item_3": {
-            "item_name": "Clione Blade Fragment",
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
             "drop_percent": 72
         },
         "char_shard": {
@@ -24748,6 +24748,40 @@
             "Thin Red Sakura Saintly Cloth Fragment",
             "Evening Sakura Purple Armor Fragment",
             "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-3H": {
+        "name": "ネロ岩礁・西部 50-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Chain Fury Sword Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Gothic Draped Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Magical Monica Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
         ],
         "subdrops_percent": [
             24,
@@ -25168,6 +25202,426 @@
             "Thin Red Sakura Saintly Cloth Fragment",
             "Evening Sakura Purple Armor Fragment",
             "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-1": {
+        "name": "ピニオン浜堤 52-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Studded Black Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-2": {
+        "name": "ピニオン浜堤 52-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Gothic Blue Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-3": {
+        "name": "ピニオン浜堤 52-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Pierced Black Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Immortal Sakura Wish Hairpin Fragment",
+            "Weeping Sakura Bow Fragment",
+            "Cherry Blossom Fragment",
+            "Parasol One Piece Fragment",
+            "Sakura Dance Double Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-4": {
+        "name": "ピニオン浜堤 52-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Riot Spike Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Gothic Maiden Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Cherishrod Fragment",
+            "Hibiscus Sandals Fragment",
+            "Cherry Petal Dagger Fragment",
+            "Summer Reflection Yukata of Morning Glory Fragment",
+            "Sakura Flower Moonlight Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-5": {
+        "name": "ピニオン浜堤 52-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Punk Princess Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Punkish Girl Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-6": {
+        "name": "ピニオン浜堤 52-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Padlock Scepter Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Gothic Draped Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-7": {
+        "name": "ピニオン浜堤 52-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Thunder Punk Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Studded Black Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Immortal Sakura Wish Hairpin Fragment",
+            "Weeping Sakura Bow Fragment",
+            "Cherry Blossom Fragment",
+            "Parasol One Piece Fragment",
+            "Sakura Dance Double Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-8": {
+        "name": "ピニオン浜堤 52-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Crime Hunt Bow Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Gothic Blue Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Cherishrod Fragment",
+            "Hibiscus Sandals Fragment",
+            "Cherry Petal Dagger Fragment",
+            "Summer Reflection Yukata of Morning Glory Fragment",
+            "Sakura Flower Moonlight Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-9": {
+        "name": "ピニオン浜堤 52-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Chain Fury Sword Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pierced Black Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-10": {
+        "name": "ピニオン浜堤 52-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Rocking Groove Axe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Gothic Maiden Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-11": {
+        "name": "ピニオン浜堤 52-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Crime Hunt Bow Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Punkish Girl Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Immortal Sakura Wish Hairpin Fragment",
+            "Weeping Sakura Bow Fragment",
+            "Cherry Blossom Fragment",
+            "Parasol One Piece Fragment",
+            "Sakura Dance Double Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-12": {
+        "name": "ピニオン浜堤 52-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Brass Knuckles Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Riot Spike Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pierced Black Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Cherishrod Fragment",
+            "Hibiscus Sandals Fragment",
+            "Cherry Petal Dagger Fragment",
+            "Summer Reflection Yukata of Morning Glory Fragment",
+            "Sakura Flower Moonlight Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-13": {
+        "name": "ピニオン浜堤 52-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Punk Princess Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Padlock Scepter Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Gothic Blue Rose Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-14": {
+        "name": "ピニオン浜堤 52-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Thunder Punk Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Skull Gothic Lance Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Studded Black Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
         ],
         "subdrops_percent": [
             24,

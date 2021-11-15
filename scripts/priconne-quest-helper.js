@@ -1629,6 +1629,7 @@ const presets = (function () {
                 return "text-color_red";
             case 21:
             case 22:
+            case 23:
                 return "text-color_green";
             default:
                 return "text-color_misc";
@@ -4388,7 +4389,7 @@ const webpage = (function () {
     const debug = true;
     let simple_mode_enabled = false;
     let webp_enabled = false;
-    const update_date = new Date(Date.UTC(2021, 9, 15, 24, 0, 0));
+    const update_date = new Date(Date.UTC(2021, 10, 15, 24, 0, 0));
     const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
 
     const navigation = (function () {
