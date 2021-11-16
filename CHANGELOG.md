@@ -37,7 +37,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
     - As long as at least one character needs an equip for a rank, it will be colored in. A colored item with the rank filter on does not mean it is used a lot
       - For example: Rima is the only character who uses `Holy Sakura's Armor` (<https://expugn.github.io/priconne-quest-helper/pages/recipe-data/#Holy_Sakura's_Armor>) at rank 13
     - Memory Pieces are not effected by the rank filter
-  - Added `manifest.json`
+  - Added `manifest.json` to `priconne-quest-helper`, `character-data`, `quest-data`, `recipe-data`, and `statistics` pages
 ### Changed
 - "Fixed" the console log that appears when a project is prioritized or deprioritized
 - Made it so that the data display updates when a project is prioritized or deprioritized if the "Show Priority Items First" setting is enabled.

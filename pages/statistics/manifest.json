@@ -1,14 +1,14 @@
 {
-    "short_name": "priconne-quest-helper",
-    "name": "Princess Connect! Re:Dive - Quest Helper",
+    "short_name": "priconne-quest-helper|statistics",
+    "name": "Princess Connect! Re:Dive - Quest Helper | Statistics",
     "icons": [
       {
-        "src": "images/webpage/favicon.ico",
+        "src": "../../images/webpage/favicon.ico",
         "sizes": "48x48",
         "type": "image/x-icon"
       },
       {
-        "src": "images/webpage/icon.png",
+        "src": "../../images/webpage/icon.png",
         "type": "image/png",
         "sizes": "225x225"
       }
