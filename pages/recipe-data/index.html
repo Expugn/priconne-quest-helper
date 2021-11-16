@@ -436,6 +436,7 @@
                     elem.title = parent_item;
                     elem.onclick = function() {
                         build_data(parent_item);
+                        window.location.hash = parent_item.split(" ").join("_");
                     };
                     comp_usage_elem.appendChild(elem);
                 }
@@ -648,6 +649,26 @@
                 return config;
             }
         }
+        window.onhashchange = function () {
+            if (!window.location.hash) {
+                // HASH EMPTY, PROBABLY SHOW CATALOG
+                toggle_catalog();
+            }
+            else {
+                const item_name = (window.location.hash).replace("#", "").split('_').join(' ');
+                if (current_data[item_name]) {
+                    document.getElementById("catalog").hidden = true;
+                    document.getElementById("character-box-button").hidden = true;
+                    document.getElementById("rank-selection-button").hidden  = true;
+                    document.getElementById("recipe-data-div").hidden = document.getElementById("back").hidden = false;
+                    build_data(item_name);
+                }
+                else {
+                    // DELETE HASH IF item_name DOESN'T EXIST
+                    history.pushState("", document.title, window.location.pathname + window.location.search);
+                }
+            }
+        };
     };
 </script>
 </html>
