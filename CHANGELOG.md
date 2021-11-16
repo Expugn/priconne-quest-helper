@@ -3,6 +3,18 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.19.1] - 2021-11-16
+### Added
+- New Character: Kuuka (Noire)
+- Quest Item Changes from yesterday's quest update REVERTED
+  - This is a change that the game's database had, not a `priconne-quest-helper` error.
+  - `50-1 H` 3rd Item
+    - OLD: `Sakura Dance Double Hairpin Fragment`
+    - NEW: `Jewel Shell Rod Fragment`
+  - `50-2 H` 3rd Item
+    - OLD: `Immortal Sakura Wish Hairpin Fragment`
+    - NEW: `Clione Blade Fragment`
+
 ## [2.19.0] - 2021-11-15
 Quest Update (2021-11-15)
 ### Added
@@ -14,6 +26,7 @@ Quest Update (2021-11-15)
   - `50-3 H`
   - Chapter 52 Normal
 - Quest Item Changes
+  - This is a change that the game's database had, not a `priconne-quest-helper` error.
   - `50-1 H` 3rd Item
     - OLD: `Jewel Shell Rod Fragment`
     - NEW: `Sakura Dance Double Hairpin Fragment`
