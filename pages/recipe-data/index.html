@@ -289,12 +289,11 @@
                     item.classList.add("item-sprite", get_item_sprite_class(item_name));
                     item.title = item_name;
                     item.onclick = function () {
-                        window.location.hash = item_name.split(" ").join("_");
                         document.getElementById("catalog").hidden = true;
                         document.getElementById("character-box-button").hidden = true;
                         document.getElementById("rank-selection-button").hidden = true;
                         document.getElementById("recipe-data-div").hidden = document.getElementById("back").hidden = false;
-                        build_data(item_name);
+                        window.location.hash = item_name.split(" ").join("_");
                         window.scrollTo(0, 0);
                     };
 
@@ -668,6 +667,7 @@
                     history.pushState("", document.title, window.location.pathname + window.location.search);
                 }
             }
+            window.scrollTo(0, 0);
         };
     };
 </script>

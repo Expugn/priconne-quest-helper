@@ -16,18 +16,18 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
     - NEW: `Clione Blade Fragment`
 - Quest Data / Recipe Data / Character Data Page Improvements
   - Hashes can now be added to auto-jump on page load. This is useful for if you want to link to a specific quest or recipe/character page to share
-  - Quest Data Page Hash Examples
-    - <https://expugn.github.io/priconne-quest-helper/pages/quest-data/#29-7>
-    - <https://expugn.github.io/priconne-quest-helper/pages/quest-data/#11-1H>
-    - <https://expugn.github.io/priconne-quest-helper/pages/quest-data/#29-1VH>
-  - Recipe Data Page Hash Examples
-    - <https://expugn.github.io/priconne-quest-helper/pages/recipe-data/#Sun_Amulet>
-    - <https://expugn.github.io/priconne-quest-helper/pages/recipe-data/#Gold_King's_Armor>
-    - Hashes that link to a specific item will automatically append to the URL when the item page is accessed
-  - Character Data Page Hash Examples
-    - <https://expugn.github.io/priconne-quest-helper/pages/character-data/#miyako>
-    - <https://expugn.github.io/priconne-quest-helper/pages/character-data/#summer_pecorine>
-    - Hashes that link to a specific character will automatically append to the URL when the character page is accessed
+    - Quest Data Page Hash Examples
+      - <https://expugn.github.io/priconne-quest-helper/pages/quest-data/#29-7>
+      - <https://expugn.github.io/priconne-quest-helper/pages/quest-data/#11-1H>
+      - <https://expugn.github.io/priconne-quest-helper/pages/quest-data/#29-1VH>
+    - Recipe Data Page Hash Examples
+      - <https://expugn.github.io/priconne-quest-helper/pages/recipe-data/#Sun_Amulet>
+      - <https://expugn.github.io/priconne-quest-helper/pages/recipe-data/#Gold_King's_Armor>
+      - Hashes that link to a specific item will automatically append to the URL when the item page is accessed
+    - Character Data Page Hash Examples
+      - <https://expugn.github.io/priconne-quest-helper/pages/character-data/#miyako>
+      - <https://expugn.github.io/priconne-quest-helper/pages/character-data/#summer_pecorine>
+      - Hashes that link to a specific character will automatically append to the URL when the character page is accessed
   - Recipe Data Page now includes a Rank filter
     - Selecting a rank will make it so that items that aren't a part of selected ranks in the catalog will appear transparent and grayscale
     - Character Usage will also be adjusted so that selected ranks will be pushed to the front of the list 
@@ -35,8 +35,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
       - Characters with ranks that the user selected but don't have in their character box will still be near the front of the list
       - Characters with ranks not selected but exist in a user's character box will still be colored
     - As long as at least one character needs an equip for a rank, it will be colored in. A colored item with the rank filter on does not mean it is used a lot
-      - For example: Rima is the only character who uses <https://expugn.github.io/priconne-quest-helper/pages/recipe-data/#Holy_Sakura's_Armor> at rank 13
+      - For example: Rima is the only character who uses `Holy Sakura's Armor` (<https://expugn.github.io/priconne-quest-helper/pages/recipe-data/#Holy_Sakura's_Armor>) at rank 13
     - Memory Pieces are not effected by the rank filter
+  - Added `manifest.json`
 ### Changed
 - "Fixed" the console log that appears when a project is prioritized or deprioritized
 - Made it so that the data display updates when a project is prioritized or deprioritized if the "Show Priority Items First" setting is enabled.

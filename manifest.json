@@ -1,0 +1,20 @@
+{
+    "short_name": "priconne-quest-helper",
+    "name": "Princess Connect! Re:Dive - Quest Helper",
+    "icons": [
+      {
+        "src": "images/webpage/favicon.ico",
+        "sizes": "48x48",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "images/webpage/icon.png",
+        "type": "image/png",
+        "sizes": "225x225"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#e779b7",
+    "background_color": "#e3cfcb"
+  }

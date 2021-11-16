@@ -102,6 +102,9 @@
         file_name = file_name.split(' ').join('_');
         return "../../images/unit_icon" + ($("html").hasClass("webp") ? "_webp/" + file_name + ".webp" : "/" + file_name + ".png");
     }
+    function clear_hash() {
+        history.pushState("", document.title, window.location.pathname + window.location.search);
+    }
     function toggle_grid() {
         const grid = document.getElementById("character-grid"),
             data = document.getElementById("character-data"),
@@ -110,10 +113,9 @@
         data.hidden = back.hidden = !data.hidden;
         if (data.hidden) {
             // CLEAR HASH IF GRID IS VISIBLE
-            history.pushState("", document.title, window.location.pathname + window.location.search);
+            clear_hash();
         }
     }
-
 
     window.onload = function () {
         character_data.read_data(function (success) {
@@ -126,7 +128,7 @@
                     }
                     else {
                         // DELETE HASH IF unit_id DOESN'T EXIST
-                        history.pushState("", document.title, window.location.pathname + window.location.search);
+                        clear_hash();
                     }
                 }
             }
@@ -143,7 +145,6 @@
                 unit_icon.title = char_data[unit_id]["name"] + (char_data[unit_id]["thematic"] !== "" ? " (" + char_data[unit_id]["thematic"] + ")" : "");
                 unit_icon.id = unit_id;
                 unit_icon.onclick = function() {
-                    get_data(unit_id);
                     window.location.hash = unit_id.split(' ').join('_');
                 };
 
@@ -200,11 +201,29 @@
                 unit.append(rank);
             }
 
-            toggle_grid();
+            if (!document.getElementById("character-grid").hidden) {
+                toggle_grid();
+            }
             data_div.appendChild(unit);
             data_div.hidden = false;
             window.scrollTo(0, 0);
         }
+
+        window.onhashchange = function () {
+            if (!window.location.hash) {
+                // HASH EMPTY, PROBABLY SHOW CHARACTER GRID
+                toggle_grid();
+            }
+            else {
+                if (window.location.hash) {
+                    const unit_id = (window.location.hash).replace("#", "").toLowerCase();
+                    if (character_data.data()[unit_id]) {
+                        get_data(unit_id);
+                    }
+                }
+            }
+            window.scrollTo(0, 0);
+        };
     }
 </script>
 </html>
