@@ -75,6 +75,18 @@ i.footer {
     z-index: 1;
 }
 
+#rank-selection-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
 /* RECIPE DATA ====================================================================================================== */
 #recipe-data-div,
 #catalog,
@@ -254,6 +266,38 @@ span.unit-sprite.disabled {
 #character-box span:not(.enabled):hover {
     -webkit-filter: grayscale(0%) opacity(90%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%) opacity(90%);
+}
+
+#rank-selection {
+    text-align: center;
+    margin: auto;
+}
+
+#rank-selection div {
+    display: inline-block;
+}
+
+#rank-selection span.disabled {
+    opacity: 0.5;
+}
+
+#rank-selection span {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000, 1px 1px 2px #000000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px 35px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+i.item-sprite.disabled {
+    filter: grayscale(1);
+    opacity: 0.3;
 }
 
 span.rank-1 {

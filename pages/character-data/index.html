@@ -108,13 +108,28 @@
             back = document.getElementById("back");
         grid.hidden = !grid.hidden;
         data.hidden = back.hidden = !data.hidden;
+        if (data.hidden) {
+            // CLEAR HASH IF GRID IS VISIBLE
+            history.pushState("", document.title, window.location.pathname + window.location.search);
+        }
     }
 
 
     window.onload = function () {
         character_data.read_data(function (success) {
-            if (success)
+            if (success) {
                 build_grid();
+                if (window.location.hash) {
+                    const unit_id = (window.location.hash).replace("#", "").toLowerCase();
+                    if (character_data.data()[unit_id]) {
+                        get_data(unit_id);
+                    }
+                    else {
+                        // DELETE HASH IF unit_id DOESN'T EXIST
+                        history.pushState("", document.title, window.location.pathname + window.location.search);
+                    }
+                }
+            }
             else
                 document.getElementById("character-grid").innerHTML = "failed to read character data";
         });
@@ -129,6 +144,7 @@
                 unit_icon.id = unit_id;
                 unit_icon.onclick = function() {
                     get_data(unit_id);
+                    window.location.hash = unit_id.split(' ').join('_');
                 };
 
                 document.getElementById("character-grid").appendChild(unit_icon);

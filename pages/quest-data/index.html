@@ -93,8 +93,15 @@
 
     window.onload = function () {
         quest_data.read_data(function (success) {
-            if (success)
+            if (success) {
                 run();
+                // SCROLL TO HASH LOCATION AFTER LOAD IF IT EXISTS
+                if (window.location.hash) {
+                    $('html, body').animate({
+                        scrollTop: $(window.location.hash).offset().top
+                    }, 500);
+                }
+            }
             else
                 document.getElementById("quest-data-div").innerHTML = "failed to read quest data";
         });
@@ -104,6 +111,7 @@
             for (const quest_id in quests) {
                 let quest_div = document.createElement("div");
                 quest_div.classList.add("quest");
+                quest_div.id = quest_id;
 
                 // QUEST TITLE
                 let difficulty = document.createElement("span");

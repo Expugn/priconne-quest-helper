@@ -72,6 +72,7 @@
 </noscript>
 <div id="back" onclick="toggle_catalog()" hidden>&larrhk;</div>
 <img id="character-box-button" src="../../images/webpage/Inventory_Crate.png" onclick="toggle_character_box()" alt="" hidden>
+<div id="rank-selection-button" onclick="toggle_rank_selection()">Rank</div>
 
 <div>
     <h1 class="title main_title">Princess Connect! Re:Dive - Quest Helper</h1>
@@ -82,6 +83,7 @@
 <hr>
 <div id="catalog"></div>
 <div id="character-box" hidden></div>
+<div id="rank-selection" hidden></div>
 <div id="recipe-data-div" class="notranslate" hidden></div>
 <hr>
 </body>
@@ -95,7 +97,7 @@
 </footer>
 
 <script>
-    let legacy_data, current_data, item_usage = {}, component_usage = {}, localstorage_data = null;
+    let legacy_data, current_data, item_usage = {}, component_usage = {}, rank_usage = {}, toggled_ranks = {}, catalog_init = false, localstorage_data = null;
     const LOCALSTORAGE_KEY = "recipe-data_characters";
     function get_item_sprite_class(item_name) {
         return "is__" + item_name.replace("'", "").replace(/\W/g, '-').toLowerCase().replace('---', '-');
@@ -107,27 +109,40 @@
     function get_unit_sprite_class(unit_id) {
         return "us__" + unit_id.replace(/[\W_]+/g, '-').toLowerCase().replace('---', '-');
     }
+    function is_rank_selected() {
+        return JSON.stringify(toggled_ranks).includes("true");
+    }
     function toggle_catalog() {
         const catalog = document.getElementById("catalog"),
               data = document.getElementById("recipe-data-div"),
               back = document.getElementById("back"),
-              character_box = document.getElementById("character-box-button");
-        catalog.hidden = character_box.hidden = !catalog.hidden;
+              character_box = document.getElementById("character-box-button"),
+              rank_selection = document.getElementById("rank-selection-button");
+        catalog.hidden = character_box.hidden = rank_selection.hidden = !catalog.hidden;
         data.hidden = back.hidden = !data.hidden;
         if (data.hidden) {
             $(window).off();
         }
         window.scrollTo(0, 0);
+        history.pushState("", document.title, window.location.pathname + window.location.search);
     }
     function toggle_character_box() {
         const catalog = document.getElementById("catalog"),
-              character_box = document.getElementById("character-box");
+              character_box = document.getElementById("character-box"),
+              rank_selection_button = document.getElementById("rank-selection-button");
         catalog.hidden = !catalog.hidden;
         character_box.hidden = !character_box.hidden;
-
+        rank_selection_button.hidden = !rank_selection_button.hidden;
     }
-    window.onload = function ()
-    {
+    function toggle_rank_selection() {
+        const catalog = document.getElementById("catalog"),
+              rank_selection = document.getElementById("rank-selection"),
+              character_box_button = document.getElementById("character-box-button");
+        catalog.hidden = !catalog.hidden;
+        rank_selection.hidden = !rank_selection.hidden;
+        character_box_button.hidden = !character_box_button.hidden;
+    }
+    window.onload = function () {
         equipment_data.read_data(function (success) {
             if (success) {
                 current_data = equipment_data.data();
@@ -136,8 +151,23 @@
                     if (success) {
                         legacy_data = equipment_data.data();
                         character_data.read_data(function (success) {
-                            if (success)
+                            if (success) {
                                 build_catalog();
+                                if (window.location.hash) {
+                                    const item_name = (window.location.hash).replace("#", "").split('_').join(' ');
+                                    if (current_data[item_name]) {
+                                        document.getElementById("catalog").hidden = true;
+                                        document.getElementById("character-box-button").hidden = true;
+                                        document.getElementById("rank-selection-button").hidden  = true;
+                                        document.getElementById("recipe-data-div").hidden = document.getElementById("back").hidden = false;
+                                        build_data(item_name);
+                                    }
+                                    else {
+                                        // DELETE HASH IF item_name DOESN'T EXIST
+                                        history.pushState("", document.title, window.location.pathname + window.location.search);
+                                    }
+                                }
+                            }
                             else
                                 document.getElementById("catalog").innerHTML = "failed to read character data";
                         });
@@ -151,54 +181,9 @@
         });
 
         function build_catalog() {
-            // BUILD CATALOG
             const catalog = document.getElementById("catalog"),
-                  character_box = document.getElementById("character-box");
-            let misc_items = document.createElement("div"),
-                item_div = document.createElement("div"),
-                current_rarity = equipment_data.rarity.COMMON;
-            item_div.classList.add(current_rarity);
-            misc_items.classList.add(equipment_data.rarity.MISC);
-            for (const item_name in current_data) {
-                let item = document.createElement("i");
-                item.classList.add("item-sprite", get_item_sprite_class(item_name));
-                item.title = item_name;
-                item.onclick = function () {
-                    document.getElementById("catalog").hidden = true;
-                    document.getElementById("character-box-button").hidden = true;
-                    document.getElementById("recipe-data-div").hidden = document.getElementById("back").hidden = false;
-                    build_data(item_name);
-                    window.scrollTo(0, 0);
-                };
-
-                const item_rarity = current_data[item_name]["rarity"];
-                if (item_rarity === equipment_data.rarity.MISC) {
-                    misc_items.appendChild(item);
-                    continue;
-                }
-
-                if (item_rarity !== current_rarity) {
-                    catalog.appendChild(item_div);
-                    item_div = document.createElement("div");
-                    current_rarity = item_rarity;
-                    item_div.classList.add(current_rarity);
-                }
-
-                item_div.appendChild(item);
-
-                // BUILD COMPONENT USAGE DATA
-                for (const comp_name of current_data[item_name]["req_items"]) {
-                    if (component_usage.hasOwnProperty(comp_name)) {
-                        component_usage[comp_name].push(item_name);
-                    }
-                    else {
-                        component_usage[comp_name] = [ item_name ];
-                    }
-                }
-            }
-
-            catalog.appendChild(item_div);
-            catalog.appendChild(misc_items);
+                  character_box = document.getElementById("character-box"),
+                  rank_selection = document.getElementById("rank-selection");
 
             // IF LOCALSTORAGE SUPPORT IS AVAILABLE...
             if (typeof(Storage) !== "undefined") {
@@ -213,7 +198,7 @@
                 }
             }
 
-            // BUILD ITEM USAGE / CHARACTER BOX
+            // BUILD ITEM USAGE / CHARACTER BOX / RANK SELECTION
             const char_data = character_data.data();
             for (const unit_id in char_data) {
                 // ADD CHARACTER TO CHARACTER BOX
@@ -244,13 +229,14 @@
                             }
                         }
                     }
-                }
+                };
                 character_box.appendChild(elem);
 
-                // BUILD ITEM USAGE
+                // BUILD ITEM USAGE / RANK USAGE
                 for (let i = 1, j = character_data.max_rank() ; i <= j ; i++) {
                     const rank_array = char_data[unit_id]["rank_" + i];
                     for (const item_name of rank_array) {
+                        // ITEM USAGE
                         const unit_string = unit_id + "." + i;
                         if (item_usage.hasOwnProperty(item_name)) {
                             if (!item_usage[item_name].includes(unit_string))
@@ -259,8 +245,104 @@
                         else {
                             item_usage[item_name] = [ unit_string ];
                         }
+
+                        // RANK USAGE
+                        if (item_name !== "") {
+                            if (!rank_usage.hasOwnProperty(item_name)) {
+                                rank_usage[item_name] = [ `rank_${i}` ];
+                            }
+                            else if (!rank_usage[item_name].includes(`rank_${i}`)) {
+                                rank_usage[item_name].push(`rank_${i}`);
+                            }
+                        }
+                        if (!toggled_ranks.hasOwnProperty(`rank_${i}`)) {
+                            toggled_ranks[`rank_${i}`] = false;
+
+                            let rank = document.createElement("div");
+                            let title = document.createElement("span");
+                            title.classList.add(`rank-${i}`, "disabled");
+                            title.innerText = `Rank ${i}`;
+                            title.onclick = () => {
+                                toggled_ranks[`rank_${i}`] = !toggled_ranks[`rank_${i}`];
+                                title.classList.toggle("disabled");
+                                update_catalog();
+                            };
+                            rank.appendChild(title);
+
+                            rank_selection.appendChild(rank);
+                        }
                     }
                 }
+            }
+
+            // BUILD CATALOG
+            update_catalog();
+            function update_catalog() {
+                catalog.innerHTML = "";
+                let misc_items = document.createElement("div"),
+                    item_div = document.createElement("div"),
+                    current_rarity = equipment_data.rarity.COMMON;
+                item_div.classList.add(current_rarity);
+                misc_items.classList.add(equipment_data.rarity.MISC);
+                for (const item_name in current_data) {
+                    let item = document.createElement("i");
+                    item.classList.add("item-sprite", get_item_sprite_class(item_name));
+                    item.title = item_name;
+                    item.onclick = function () {
+                        window.location.hash = item_name.split(" ").join("_");
+                        document.getElementById("catalog").hidden = true;
+                        document.getElementById("character-box-button").hidden = true;
+                        document.getElementById("rank-selection-button").hidden = true;
+                        document.getElementById("recipe-data-div").hidden = document.getElementById("back").hidden = false;
+                        build_data(item_name);
+                        window.scrollTo(0, 0);
+                    };
+
+                    const item_rarity = current_data[item_name]["rarity"];
+                    if (item_rarity === equipment_data.rarity.MISC) {
+                        misc_items.appendChild(item);
+                        continue;
+                    }
+
+                    // ADD ADDITIONAL CLASSES FOR RANK FILTER (FOR NON-MEMORY PIECE ITEMS AND ONLY IF A RANK IS TOGGLED)
+                    if (is_rank_selected()) {
+                        let item_in_enabled_rank = false;
+                        for (const rank_id in toggled_ranks) {
+                            if (rank_usage[item_name].includes(rank_id) && toggled_ranks[rank_id]) {
+                                item_in_enabled_rank = true;
+                                break;
+                            }
+                        }
+                        if (!item_in_enabled_rank) {
+                            item.classList.add("disabled");
+                        }
+                    }
+
+                    if (item_rarity !== current_rarity) {
+                        catalog.appendChild(item_div);
+                        item_div = document.createElement("div");
+                        current_rarity = item_rarity;
+                        item_div.classList.add(current_rarity);
+                    }
+
+                    item_div.appendChild(item);
+
+                    // BUILD COMPONENT USAGE DATA (THIS SHOULD ONLY BE DONE ONCE)
+                    if (!catalog_init) {
+                        for (const comp_name of current_data[item_name]["req_items"]) {
+                            if (component_usage.hasOwnProperty(comp_name)) {
+                                component_usage[comp_name].push(item_name);
+                            }
+                            else {
+                                component_usage[comp_name] = [ item_name ];
+                            }
+                        }
+                    }
+                }
+
+                catalog.appendChild(item_div);
+                catalog.appendChild(misc_items);
+                catalog_init = true;
             }
         }
 
@@ -360,7 +442,7 @@
                 item.appendChild(comp_usage_elem);
             }
 
-            // CHARACTER USAGE
+            // CHARACTER / RANK USAGE
             const usage = item_usage[item_name],
                   usage_elem = document.createElement("div");
             if (typeof usage !== "undefined") {
@@ -375,20 +457,39 @@
                         elem = document.createElement("span");
                     elem.classList.add("unit-sprite", get_unit_sprite_class(u[0]), "rank-" + u[1]);
                     elem.innerText = u[1];
-                    // IF CHARACTER BOX DATA DOESN'T EXIST...
-                    if (localstorage_data.length === 0) {
+                    // IF CHARACTER BOX DATA DOESN'T EXIST OR RANK ISN'T SELECTED...
+                    if (localstorage_data.length === 0 && !is_rank_selected()) {
                         // CREATE AND ADD ELEMENT AS NORMAL
                         usage_elem.appendChild(elem);
                     }
                     else {
-                        // CHARACTER BOX DATA EXISTS, ADD UNITS THAT THE USER HAS FIRST
-                        if (localstorage_data.includes(u[0])) {
+                        if (localstorage_data.length === 0 && is_rank_selected()) {
+                            // CHARACTER BOX DATA DOESN'T EXIST AND RANK IS SELECTED, MOVE UNIT TO FRONT
+                            if (toggled_ranks[`rank_${u[1]}`]) {
+                                // RANK IS ENABLED
+                                usage_elem.appendChild(elem);
+                            }
+                            else {
+                                // RANK IS NOT ENABLED
+                                elem.classList.add("disabled");
+                                disabled_characters.push(elem);
+                            }
+                        }
+                        else if (localstorage_data.includes(u[0])) {
+                            // CHARACTER BOX DATA EXISTS, ADD UNITS THAT THE USER HAS FIRST
                             usage_elem.appendChild(elem);
                         }
                         else {
                             // USER DOES NOT HAVE THIS UNIT, DISABLE IT AND ADD IT LATER
                             elem.classList.add("disabled");
-                            disabled_characters.push(elem);
+                            if (toggled_ranks[`rank_${u[1]}`]) {
+                                // EXISTS IN TOGGLED RANKS, ADD TO FRONT
+                                disabled_characters.unshift(elem);
+                            }
+                            else {
+                                // TOGGLED RANK ISN'T ENABLED, ADD LATER
+                                disabled_characters.push(elem);
+                            }
                         }
                     }
                 }
