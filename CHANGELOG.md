@@ -14,6 +14,12 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - `50-2 H` 3rd Item
     - OLD: `Immortal Sakura Wish Hairpin Fragment`
     - NEW: `Clione Blade Fragment`
+### Changed
+- "Fixed" the console log that appears when a project is prioritized or deprioritized
+- Made it so that the data display updates when a project is prioritized or deprioritized if the "Show Priority Items First" setting is enabled.
+- When the settings "Subtract Amount From Inventory" and "Display Priority Item Amount" are enabled, items that display as 0 will not get added to the quest score.
+  - Suggested by `Kenjugs`: <https://github.com/Expugn/priconne-quest-helper/issues/39#issuecomment-969868162>
+  - If the priority project amount is satisfied but the user still needs more items due to a different non-prioritized project, the item will not become grayscale with a low opacity (but it's required amount will still be displayed as 0).
 
 ## [2.19.0] - 2021-11-15
 Quest Update (2021-11-15)

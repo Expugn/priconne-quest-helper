@@ -2332,7 +2332,12 @@ const projects = (function () {
             update_list();
             document.getElementById(element_id.SAVED_SELECT).value = project_name;
             save_priority_projects();
-            webpage.print((is_prioritized ? "Prioritized " : "Deprioritized ") + project_name + ".");
+            webpage.print(`${is_prioritized ? "Prioritized" : "Deprioritized"} \"${project_name}\".`, "Projects");
+
+            // UPDATE DATA DISPLAY ONLY IF "Show Priority Items First" SETTING IS ENABLED
+            if (settings.get_settings()[settings.tags.SHOW_PRIORITY_ITEMS_FIRST]) {
+                data_display.build()
+            }
         }
     }
 
@@ -4025,8 +4030,28 @@ const data_display = (function () {
                                 item_name = item_name[quest_data.tags.ITEM_NAME];
                             }
                             if (merged_recipes.hasOwnProperty(item_name) && item_name !== undefined) {
+                                // ITEM EXISTS IN RECIPE AND ITEM IS DEFINED
+                                let result = base_score;
+
+                                // CHECK IF ITEM IS A PRIORITY ITEM
                                 // PRIORITY_MULTIPLIER == 2.0 ; PRIORITY ITEMS GET THEIR QUEST SCORE MULTIPLIED BY THIS VALUE.
-                                return base_score * (projects.data().items.includes(item_name) ? 2.0 : 1);
+                                result *= (projects.data().items.includes(item_name) ? 2.0 : 1);
+
+                                // CHECK IF "Subtract Amount From Inventory" AND "Display Priority Item Amount" SETTING IS ENABLED
+                                // IF ENABLED, AND ITEM AMOUNT IS <= 0, QUEST SCORE SHOULD NOT INCLUDE THIS ITEM
+                                if (setting[settings.tags.SUBTRACT_AMOUNT_FROM_INVENTORY] && setting[settings.tags.DISPLAY_PRIORITY_ITEM_AMOUNT]) {
+                                    let required_amount = merged_recipes.hasOwnProperty(item_name) ? merged_recipes[item_name] : 0;
+                                    const is_item_priority_and_needed = projects.data().items.includes(item_name) && !projects.blacklist.get().includes(item_name);
+                                    if (is_item_priority_and_needed && required_amount > 0) {
+                                        required_amount = priority_items[item_name];
+                                    }
+                                    const amount_after_inventory = required_amount - inventory.get_amount(item_name);
+                                    if (amount_after_inventory <= 0) {
+                                        result = 0;
+                                    }
+                                }
+
+                                return result;
                             }
                             return 0;
                         }
