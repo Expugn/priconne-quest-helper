@@ -87,6 +87,10 @@ i.footer {
     z-index: 1;
 }
 
+.pointer-cursor {
+    cursor: pointer;
+}
+
 /* RECIPE DATA ====================================================================================================== */
 #recipe-data-div,
 #catalog,

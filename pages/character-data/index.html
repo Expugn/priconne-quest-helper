@@ -195,6 +195,12 @@
                     let item = document.createElement("i");
                     item.classList.add("item-sprite", get_item_sprite_class(rank_data[j]));
                     item.title = rank_data[j];
+                    if (rank_data[j] !== "") {
+                        item.classList.add("pointer-cursor");
+                        item.onclick = () => {
+                            window.open(`../recipe-data/#${rank_data[j].split(" ").join("_")}`, "_blank");
+                        };
+                    }
                     items.append(item);
                 }
                 rank.appendChild(items);

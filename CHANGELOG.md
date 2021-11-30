@@ -14,6 +14,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - New Title Background
   - PUDDING <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Pudding.png>
   - This will be the default title background until next update
+- Character and Recipe Data Page Additions
+  - Clicking on an item in a character's Character Data page will open a new tab leading to the item's Recipe Data page
+  - Clicking on a character's portrait in an item's Character Usage section in Recipe Data will open a new tab leading to the character's Character Data page
 
 ## [2.19.1] - 2021-11-16
 ### Added

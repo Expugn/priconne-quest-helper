@@ -456,8 +456,11 @@
                 for (const usage_string of usage) {
                     const u = usage_string.split('.'),
                         elem = document.createElement("span");
-                    elem.classList.add("unit-sprite", get_unit_sprite_class(u[0]), "rank-" + u[1]);
+                    elem.classList.add("unit-sprite", get_unit_sprite_class(u[0]), "rank-" + u[1], "pointer-cursor");
                     elem.innerText = u[1];
+                    elem.onclick = () => {
+                        window.open(`../character-data/#${u[0]}`, "_blank");
+                    };
                     // IF CHARACTER BOX DATA DOESN'T EXIST OR RANK ISN'T SELECTED...
                     if (localstorage_data.length === 0 && !is_rank_selected()) {
                         // CREATE AND ADD ELEMENT AS NORMAL

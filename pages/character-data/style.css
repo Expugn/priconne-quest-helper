@@ -62,6 +62,10 @@ i.footer {
     z-index: 1;
 }
 
+.pointer-cursor {
+    cursor: pointer;
+}
+
 /* CHARACTER DATA =================================================================================================== */
 #character-grid {
     text-align: center;
