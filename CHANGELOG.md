@@ -11,6 +11,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Quest Data Changes
   - This is a change that the game's database had, not a `priconne-quest-helper` error.
   - Add `・西岸` to all Chapter 52 quest names.
+- New Title Background
+  - PUDDING <https://github.com/Expugn/priconne-quest-helper/blob/master/images/webpage/backgrounds/Pudding.png>
+  - This will be the default title background until next update
 
 ## [2.19.1] - 2021-11-16
 ### Added

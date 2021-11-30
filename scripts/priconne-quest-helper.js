@@ -757,6 +757,7 @@ const title_background = (function () {
         PECORINE_SANDWICH: 'Pecorine_Sandwich',
         NEW_YEAR_2020: 'New_Year_2020',
         IDOLMASTER: 'iDOLM@STER',
+        PUDDING: 'Pudding',
         CUSTOM: 'CUSTOM',
     });
     const tags = Object.freeze({
@@ -772,7 +773,7 @@ const title_background = (function () {
         TITLE_DIV: "title-div"
     });
     const LOCALSTORAGE_KEY = "background";
-    const default_background = backgrounds.MIYAKO;
+    const default_background = backgrounds.PUDDING;
 
     function init() {
         init_background_list();
