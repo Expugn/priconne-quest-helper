@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.19.2] - 2021-11-30
+### Added
+- New Characters:
+  - Mahiru (Christmas)
+  - Miyako (Christmas)
+- Quest Data Changes
+  - This is a change that the game's database had, not a `priconne-quest-helper` error.
+  - Add `・西岸` to all Chapter 52 quest names.
+
 ## [2.19.1] - 2021-11-16
 ### Added
 - New Character: Kuuka (Noire)
