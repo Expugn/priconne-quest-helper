@@ -13829,6 +13829,44 @@
             15
         ]
     },
+    "29-3VH": {
+        "name": "ディズタル河食岸・南部 29-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Padlock Scepter Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Rocking Groove Axe Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Gothic Blue Rose Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Misaki Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "30-1": {
         "name": "フテラ断崖・北部 30-1",
         "stamina": 10,

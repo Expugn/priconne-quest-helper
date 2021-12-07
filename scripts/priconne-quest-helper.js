@@ -773,7 +773,7 @@ const title_background = (function () {
         TITLE_DIV: "title-div"
     });
     const LOCALSTORAGE_KEY = "background";
-    const default_background = backgrounds.PUDDING;
+    const default_background = backgrounds.MIYAKO;
 
     function init() {
         init_background_list();

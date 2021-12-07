@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.19.3] - 2021-12-07
+### Added
+- New Quest: `29-3 VH` (Misaki)
+### Changed
+- Reverted default title background to `Miyako` 
+
 ## [2.19.2] - 2021-11-30
 ### Added
 - New Characters:
