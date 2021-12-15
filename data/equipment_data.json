@@ -4092,10 +4092,19 @@
         "req_pieces": 30,
         "req_items": []
     },
+    "107553": {
+        "name_jp": "パンクニードルバングル",
+        "name": "Punk Needle Bangle",
+        "id": "green-42",
+        "has_fragments": true,
+        "fragment_id": "117553",
+        "req_pieces": 30,
+        "req_items": []
+    },
     "107581": {
         "name_jp": "桜花の月夜簪",
         "name": "Sakura Flower Moonlight Hairpin",
-        "id": "green-42",
+        "id": "green-43",
         "has_fragments": true,
         "fragment_id": "117581",
         "req_pieces": 30,
@@ -4104,16 +4113,25 @@
     "107582": {
         "name_jp": "パールココナッツの髪飾り",
         "name": "Pearl Coconut Hair Ornament",
-        "id": "green-43",
+        "id": "green-44",
         "has_fragments": true,
         "fragment_id": "117582",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107583": {
+        "name_jp": "エメラルドゴシックバングル",
+        "name": "Emerald Gothic Bangle",
+        "id": "green-45",
+        "has_fragments": true,
+        "fragment_id": "117583",
         "req_pieces": 30,
         "req_items": []
     },
     "107611": {
         "name_jp": "仙桜の祝簪",
         "name": "Immortal Sakura Wish Hairpin",
-        "id": "green-44",
+        "id": "green-46",
         "has_fragments": true,
         "fragment_id": "117611",
         "req_pieces": 30,
@@ -4122,9 +4140,18 @@
     "107612": {
         "name_jp": "オパールシェルの髪飾り",
         "name": "Opal Shell Hair Ornament",
-        "id": "green-45",
+        "id": "green-47",
         "has_fragments": true,
         "fragment_id": "117612",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107613": {
+        "name_jp": "ロッキンチェインバングル",
+        "name": "Rocking Chain Bangle",
+        "id": "green-48",
+        "has_fragments": true,
+        "fragment_id": "117613",
         "req_pieces": 30,
         "req_items": []
     },

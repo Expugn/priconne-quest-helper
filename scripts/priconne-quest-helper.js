@@ -1927,6 +1927,23 @@ const projects = (function () {
                 update_list();
 
                 webpage.print("User projects have been loaded!", "Projects");
+
+                // VERIFY PRIORITY PROJECTS (IN CASE OF DUPLICATES/ERROR)
+                let temp_priority_projects = [];
+                let is_priority_projects_changed = false;
+                for (const project_name of data.projects_priority) {
+                    if (!temp_priority_projects.includes(project_name) && data.projects[project_name]) {
+                        temp_priority_projects.push(project_name);
+                    }
+                    else {
+                        webpage.print(`FOUND INVALID OR DUPLICATE PRIORITY PROJECT ENTRY: "${project_name}", Deleting this...`, "Projects");
+                        is_priority_projects_changed = true;
+                    }
+                }
+                if (is_priority_projects_changed) {
+                    data.projects_priority = temp_priority_projects;
+                    save_priority_projects();
+                }
             }
         }
     }
@@ -4415,7 +4432,7 @@ const webpage = (function () {
     const debug = true;
     let simple_mode_enabled = false;
     let webp_enabled = false;
-    const update_date = new Date(Date.UTC(2021, 10, 15, 24, 0, 0));
+    const update_date = new Date(Date.UTC(2021, 11, 15, 24, 0, 0));
     const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
 
     const navigation = (function () {

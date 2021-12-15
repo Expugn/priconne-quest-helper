@@ -3,6 +3,17 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.20.0] - 2021-12-15
+Quest Update (2021-12-15)
+### Added
+- New Quests
+  - `51-1 H` and `51-2H`
+  - Chapter 53 Normal
+- New Equipment
+- Added a patch for an issue that would occur if the `priority_projects` in Local Storage contained duplicate or invalid project values
+  - On projects initialize, `priority_projects` will be checked and saved if any faulty priority projects are found
+  - If you have any information about how this bug can be recreated, please submit an issue to the issue tracker
+
 ## [2.19.3] - 2021-12-07
 ### Added
 - New Quest: `29-3 VH` (Misaki)
