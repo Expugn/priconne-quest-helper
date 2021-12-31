@@ -8,6 +8,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - New Characters:
   - Misogi & Mimi & Kyouka
   - Ruka (New Year)
+### Changed
+- Updated "Dual Unit Support" to work with multiple-units-in-one
 
 ## [2.20.1] - 2021-12-22
 ### Added

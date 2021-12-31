@@ -1100,10 +1100,13 @@ const presets = (function () {
 
                 if (name.indexOf("&") > -1) {
                     // UNIT IS DUAL UNIT, MORE LOGIC FOR TRANSLATED NAME NEEDED
-                    const [name_1, name_2] = name.split(" & ");
-                    char_translated = `${webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][name_1].charAt(0).toUpperCase() 
-                        + webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][name_1].slice(1)} & ${webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][name_2].charAt(0).toUpperCase() 
-                        + webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][name_2].slice(1)}`;
+                    const names = name.split(" & ");
+                    char_translated = webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][names[0]].charAt(0).toUpperCase()
+                        + webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][names[0]].slice(1);
+                    for (let i = 1 ; i < names.length ; i++) {
+                        char_translated += ` & ${webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][names[i]].charAt(0).toUpperCase()
+                            + webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][names[i]].slice(1)}`;
+                    }
                 }
 
                 if (thematic !== "") {
@@ -1180,12 +1183,13 @@ const presets = (function () {
 
                 if (name.indexOf("&") > -1) {
                     // UNIT IS DUAL UNIT, MORE LOGIC FOR TRANSLATED NAME NEEDED
-                    let [name_1, name_2] = name.split(" & ");
-                    name_1 = name_1.toLowerCase();
-                    name_2 = name_2.toLowerCase();
-                    char_translated = `${lang_data[webpage.language.tags.CHARACTER_NAMES][name_1].charAt(0).toUpperCase()
-                    + lang_data[webpage.language.tags.CHARACTER_NAMES][name_1].slice(1)} & ${lang_data[webpage.language.tags.CHARACTER_NAMES][name_2].charAt(0).toUpperCase()
-                    + lang_data[webpage.language.tags.CHARACTER_NAMES][name_2].slice(1)}`;
+                    const names = name.toLowerCase().split(" & ");
+                    char_translated = webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][names[0]].charAt(0).toUpperCase()
+                        + webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][names[0]].slice(1);
+                    for (let i = 1 ; i < names.length ; i++) {
+                        char_translated += ` & ${webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][names[i]].charAt(0).toUpperCase()
+                        + webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][names[i]].slice(1)}`;
+                    }
                 }
 
                 // USE （） AND ＆ IF JAPANESE
@@ -1259,10 +1263,13 @@ const presets = (function () {
                 " (" + lang_data[webpage.language.tags.THEMATICS][char_thematic] + ")" :
                 "");
             if (char_name.indexOf("&") > -1) {
-                // UNIT IS A DUAL UNIT
-                const [name_1, name_2] = char_name.split(" & ");
-                translated_name = `${lang_data[webpage.language.tags.CHARACTER_NAMES][name_1]} & ${lang_data[webpage.language.tags.CHARACTER_NAMES][name_2]}` +
-                    (is_thematic_exists ? " (" + lang_data[webpage.language.tags.THEMATICS][char_thematic] + ")" : "");
+                // UNIT IS DUAL UNIT, MORE LOGIC FOR TRANSLATED NAME NEEDED
+                const names = char_name.split(" & ");
+                translated_name = lang_data[webpage.language.tags.CHARACTER_NAMES][names[0]];
+                for (let i = 1 ; i < names.length ; i++) {
+                    translated_name += ` & ${lang_data[webpage.language.tags.CHARACTER_NAMES][names[i]]}`;
+                }
+                translated_name += (is_thematic_exists ? " (" + lang_data[webpage.language.tags.THEMATICS][char_thematic] + ")" : "");
             }
             if (webpage.language.current() === webpage.language.option.JAPANESE) {
                 translated_name = translated_name.replace(' (', '（').replace(')', '）').replace(' & ', '＆');
@@ -1345,6 +1352,15 @@ const presets = (function () {
                     // UNIT IS A DUAL UNIT
                     const [name_1, name_2] = tl_name.split(" & ");
                     char_tl = `${lang_data[webpage.language.tags.CHARACTER_NAMES][name_1]} & ${lang_data[webpage.language.tags.CHARACTER_NAMES][name_2]}${(is_thematic_exists ? " (" + char_thematic_tl + ")" : "")}`;
+                }
+                if (tl_name.indexOf("&") > -1) {
+                    // UNIT IS DUAL UNIT, MORE LOGIC FOR TRANSLATED NAME NEEDED
+                    const names = tl_name.split(" & ");
+                    char_tl = lang_data[webpage.language.tags.CHARACTER_NAMES][names[0]];
+                    for (let i = 1 ; i < names.length ; i++) {
+                        char_tl += ` & ${lang_data[webpage.language.tags.CHARACTER_NAMES][names[i]]}`;
+                    }
+                    char_tl += (is_thematic_exists ? ` (${char_thematic_tl})` : "");
                 }
 
                 // USE （）AND ＆ IF JP
