@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.20.2] - 2021-12-31
+### Added
+- New Characters:
+  - Misogi & Mimi & Kyouka
+  - Ruka (New Year)
+
 ## [2.20.1] - 2021-12-22
 ### Added
 - New Character: Rino (Christmas)
