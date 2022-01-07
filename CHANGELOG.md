@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.20.4] - 2022-01-07
+### Added
+- New Quest: `30-1 VH` (Chika)
+
 ## [2.20.3] - 2022-01-03
 ### Added
 - New Character: Sheffy (New Year)
