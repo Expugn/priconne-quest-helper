@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.21.0] - 2022-01-15
+Quest Update (2022-01-15)
+### Added
+- New Quests
+  - `51-3 H`
+  - Chapter 54 Normal
+- New Equipment
+- New Character: Ilya (New Year)
+
 ## [2.20.4] - 2022-01-07
 ### Added
 - New Quest: `30-1 VH` (Chika)
