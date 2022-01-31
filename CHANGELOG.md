@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.21.1] - 2022-01-31
+### Added
+- New Character: Pecorine (Overload)
+- Updated Language Files
+  - `thematics.overload`
+
 ## [2.21.0] - 2022-01-15
 Quest Update (2022-01-15)
 ### Added
