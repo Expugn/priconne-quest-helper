@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.21.2] - 2022-02-07
+### Added
+- New Character: Labyrista (Overload)
+
 ## [2.21.1] - 2022-01-31
 ### Added
 - New Character: Pecorine (Overload)
