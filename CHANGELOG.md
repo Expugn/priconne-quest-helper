@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.21.4] - 2022-02-14
+### Added
+- Added hyperlink to `Spugn/priconne-quest-helper` (<https://spugn.github.io/priconne-quest-helper/>) under "hyperlinks to other tools"
+- Added notification icon
+
 ## [2.21.3] - 2022-02-08
 ### Added
 - New Character: Yuni (School Festival)
