@@ -3,6 +3,23 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.22.0] - 2022-02-15
+Quest Update (2022-02-15)
+### Added
+- Orange Equipment Support
+- Rank 24 Support
+- New Equipment
+- New Quests
+  - `52-1H` + `52-2H`
+  - Chapter 55 Normal Quests
+- New Character: Kyaru (Overload)
+- Updated Language Files (JP/KR/CN ***MAY BE INCORRECT***)
+  - `items_tab.orange_title`
+- More info about `Spugn/priconne-quest-helper`
+  - For a while now I've been troubled by poor design decisions that I've made in this project.
+  - `Spugn/priconne-quest-helper` is (hopefully) a remedy to those issues.
+  - While this project will continue to be updated, `Spugn/priconne-quest-helper` offers faster updating times and less manual updating work.
+
 ## [2.21.4] - 2022-02-14
 ### Added
 - Added hyperlink to `Spugn/priconne-quest-helper` (<https://spugn.github.io/priconne-quest-helper/>) under "hyperlinks to other tools"

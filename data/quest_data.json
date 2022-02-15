@@ -25809,6 +25809,108 @@
             15
         ]
     },
+    "52-1H": {
+        "name": "ピニオン浜堤・西岸 52-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Ice Shining Sword Glass Blade Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Pure Snow Mail Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Rei Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-2H": {
+        "name": "ピニオン浜堤・西岸 52-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Ice Fang Styria Dagger Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "White Aurora Dress Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mimi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-3H": {
+        "name": "ピニオン浜堤・西岸 52-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Snowflake Beret Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Chain Fury Sword Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Magical Tomo Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Immortal Sakura Wish Hairpin Fragment",
+            "Weeping Sakura Bow Fragment",
+            "Cherry Blossom Fragment",
+            "Parasol One Piece Fragment",
+            "Sakura Dance Double Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "53-1": {
         "name": "ピニオン浜堤・東岸 53-1",
         "stamina": 10,
@@ -26640,6 +26742,426 @@
             "Sakura Axe Fragment",
             "Yoito Kage Sakura Fragment",
             "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-1": {
+        "name": "トータティス砂岸・東部 55-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "White Aurora Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Crystal Ice Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Hibiscus Hair Ornament Fragment",
+            "Studded Black Fragment",
+            "Clione Blade Fragment",
+            "Orca Sword Fragment",
+            "Crab Scissor Spear Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-2": {
+        "name": "トータティス砂岸・東部 55-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Frost Column Heel Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Diamond Dust Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Rocking Chain Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pearl Coconut Hair Ornament Fragment",
+            "Gothic Maiden Fragment",
+            "Jellyfish Rod Fragment",
+            "Turtle Gauntlet Fragment",
+            "Gothic Draped Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-3": {
+        "name": "トータティス砂岸・東部 55-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Snowflake Beret Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pure Snow Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Opal Shell Hair Ornament Fragment",
+            "Pierced Black Fragment",
+            "Clownfish Bow Fragment",
+            "Shark Dagger Fragment",
+            "Ruby Hibiscus Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-4": {
+        "name": "トータティス砂岸・東部 55-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Shining Sword Glass Blade Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "White Aurora Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Jewel Shell Rod Fragment",
+            "Punkish Girl Fragment",
+            "Whale Axe Fragment",
+            "Gothic Blue Rose Fragment",
+            "Pearl Coconut Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-5": {
+        "name": "トータティス砂岸・東部 55-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice and Snow Cane Pergos Wand Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Diamond Dust Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Rocking Chain Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Hibiscus Hair Ornament Fragment",
+            "Studded Black Fragment",
+            "Clione Blade Fragment",
+            "Orca Sword Fragment",
+            "Crab Scissor Spear Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-6": {
+        "name": "トータティス砂岸・東部 55-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Spear Snow Storm Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pure Snow Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pearl Coconut Hair Ornament Fragment",
+            "Gothic Maiden Fragment",
+            "Jellyfish Rod Fragment",
+            "Turtle Gauntlet Fragment",
+            "Gothic Draped Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-7": {
+        "name": "トータティス砂岸・東部 55-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Breaking Riot Axe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Crystal Ice Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Opal Shell Hair Ornament Fragment",
+            "Pierced Black Fragment",
+            "Clownfish Bow Fragment",
+            "Shark Dagger Fragment",
+            "Ruby Hibiscus Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-8": {
+        "name": "トータティス砂岸・東部 55-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice and Snow Sword Graki Edge Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Snowflake Beret Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Jewel Shell Rod Fragment",
+            "Punkish Girl Fragment",
+            "Whale Axe Fragment",
+            "Gothic Blue Rose Fragment",
+            "Pearl Coconut Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-9": {
+        "name": "トータティス砂岸・東部 55-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Cane Frost Staff Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Frost Column Heel Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Rocking Chain Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Hibiscus Hair Ornament Fragment",
+            "Studded Black Fragment",
+            "Clione Blade Fragment",
+            "Orca Sword Fragment",
+            "Crab Scissor Spear Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-10": {
+        "name": "トータティス砂岸・東部 55-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Block Fist Glass Knuckle Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "White Aurora Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pearl Coconut Hair Ornament Fragment",
+            "Gothic Maiden Fragment",
+            "Jellyfish Rod Fragment",
+            "Turtle Gauntlet Fragment",
+            "Gothic Draped Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-11": {
+        "name": "トータティス砂岸・東部 55-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Sacred Bow Constellation Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Snowflake Beret Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Opal Shell Hair Ornament Fragment",
+            "Pierced Black Fragment",
+            "Clownfish Bow Fragment",
+            "Shark Dagger Fragment",
+            "Ruby Hibiscus Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-12": {
+        "name": "トータティス砂岸・東部 55-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Shining Sword Glass Blade Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Breaking Riot Axe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Crystal Ice Mail Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Jewel Shell Rod Fragment",
+            "Punkish Girl Fragment",
+            "Whale Axe Fragment",
+            "Gothic Blue Rose Fragment",
+            "Pearl Coconut Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-13": {
+        "name": "トータティス砂岸・東部 55-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice and Snow Cane Pergos Wand Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Cane Frost Staff Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Frost Column Heel Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Hibiscus Hair Ornament Fragment",
+            "Studded Black Fragment",
+            "Clione Blade Fragment",
+            "Orca Sword Fragment",
+            "Crab Scissor Spear Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-14": {
+        "name": "トータティス砂岸・東部 55-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Fang Styria Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Block Fist Glass Knuckle Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pure Snow Mail Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pearl Coconut Hair Ornament Fragment",
+            "Gothic Maiden Fragment",
+            "Jellyfish Rod Fragment",
+            "Turtle Gauntlet Fragment",
+            "Gothic Draped Armor Fragment"
         ],
         "subdrops_percent": [
             24,

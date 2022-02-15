@@ -185,7 +185,7 @@ body.fancy-body #loading-div.end {
 
 /* WEBPAGE DESIGN =================================================================================================== */
 #navigation-bar, #common-div, #copper-div, #silver-div,
-#gold-div, #purple-div, #red-div, #green-div, #misc-div,
+#gold-div, #purple-div, #red-div, #green-div, #orange-div, #misc-div,
 #requested-div, #required-div, #recommended-div,
 #character-preset-div, #other-container {
     /* REPLACE <hr> */
@@ -1119,7 +1119,7 @@ i.footer {
 
 /* ITEM TABLE BACKGROUNDS =========================================================================================== */
 #common-div, #copper-div, #silver-div,
-#gold-div, #purple-div, #red-div, #green-div, #misc-div,
+#gold-div, #purple-div, #red-div, #green-div, #orange-div, #misc-div,
 #requested-div, #required-div, #recommended-div {
     background-size: cover;
     background-position: center 45%;
@@ -1146,6 +1146,9 @@ i.footer {
 
 .no-webp #green-div {background-image: url("./../images/webpage/bg_100019_blur.png");}
 .webp #green-div {background-image: url("./../images/webpage_webp/bg_100019_blur.webp");}
+
+.no-webp #orange-div {background-image: url("./../images/webpage/bg_500031_blur.png");}
+.webp #orange-div {background-image: url("./../images/webpage_webp/bg_500031_blur.webp");}
 
 .no-webp #misc-div {background-image: url("./../images/webpage/bg_100621_blur.png");}
 .webp #misc-div {background-image: url("./../images/webpage_webp/bg_100621_blur.webp");}
@@ -1770,6 +1773,10 @@ i.footer {
 
 .text-color_green {
     color: #29df7b;
+}
+
+.text-color_orange {
+    color: #ffaa18;
 }
 
 .text-color_misc {

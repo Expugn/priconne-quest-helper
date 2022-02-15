@@ -1648,6 +1648,8 @@ const presets = (function () {
             case 22:
             case 23:
                 return "text-color_green";
+            case 24:
+                return "text-color_orange";
             default:
                 return "text-color_misc";
         }
@@ -3522,6 +3524,7 @@ const data_display = (function () {
             PURPLE_TABLE: "purple-item-table",
             RED_TABLE: "red-item-table",
             GREEN_TABLE: "green-item-table",
+            ORANGE_TABLE: "orange-item-table",
             MISC_TABLE: "misc-item-table"
         });
         const max_input = Object.freeze({
@@ -3640,6 +3643,7 @@ const data_display = (function () {
             $("#" + element_id.PURPLE_TABLE).empty();
             $("#" + element_id.RED_TABLE).empty();
             $("#" + element_id.GREEN_TABLE).empty();
+            $("#" + element_id.ORANGE_TABLE).empty();
             $("#" + element_id.MISC_TABLE).empty();
             for (const item_name in data) {
                 const item_data = data[item_name];
@@ -3666,6 +3670,9 @@ const data_display = (function () {
                         break;
                     case equipment_data.rarity.GREEN:
                         append_item(element_id.GREEN_TABLE, item_name, id, rarity);
+                        break;
+                    case equipment_data.rarity.ORANGE:
+                        append_item(element_id.ORANGE_TABLE, item_name, id, rarity);
                         break;
                     case equipment_data.rarity.MISC:
                         append_item(element_id.MISC_TABLE, item_name, id, rarity);
@@ -4410,6 +4417,7 @@ const data_display = (function () {
             ...item_table.get(equipment_data.rarity.PURPLE),
             ...item_table.get(equipment_data.rarity.RED),
             ...item_table.get(equipment_data.rarity.GREEN),
+            ...item_table.get(equipment_data.rarity.ORANGE),
             ...item_table.get(equipment_data.rarity.MISC)};
 
         requested_items.build(items);
@@ -4448,7 +4456,7 @@ const webpage = (function () {
     const debug = true;
     let simple_mode_enabled = false;
     let webp_enabled = false;
-    const update_date = new Date(Date.UTC(2022, 0, 15, 24, 0, 0));
+    const update_date = new Date(Date.UTC(2022, 1, 15, 24, 0, 0));
     const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
 
     const navigation = (function () {
@@ -4864,6 +4872,8 @@ const webpage = (function () {
                 $("#red-item-content").toggleClass(classes.NO_TRANSITION);
                 $("#green-div").toggleClass(classes.NO_BACKGROUND);
                 $("#green-item-content").toggleClass(classes.NO_TRANSITION);
+                $("#orange-div").toggleClass(classes.NO_BACKGROUND);
+                $("#orange-item-content").toggleClass(classes.NO_TRANSITION);
                 $("#misc-div").toggleClass(classes.NO_BACKGROUND);
                 $("#misc-item-content").toggleClass(classes.NO_TRANSITION);
                 $("#requested-div").toggleClass(classes.NO_BACKGROUND);

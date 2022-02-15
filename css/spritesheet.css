@@ -42,28 +42,34 @@
     background-position: -255px -5px;
 }
 
-.webpage-Placeholder_Purple {
+.webpage-Placeholder_Orange {
     width: 48px;
     height: 48px;
     background-position: -313px -5px;
 }
 
-.webpage-Placeholder_Red {
+.webpage-Placeholder_Purple {
     width: 48px;
     height: 48px;
     background-position: -371px -5px;
 }
 
-.webpage-Placeholder_Silver {
+.webpage-Placeholder_Red {
     width: 48px;
     height: 48px;
     background-position: -5px -63px;
 }
 
+.webpage-Placeholder_Silver {
+    width: 48px;
+    height: 48px;
+    background-position: -63px -63px;
+}
+
 .webpage-changelog {
     width: 204px;
     height: 54px;
-    background-position: -63px -63px;
+    background-position: -121px -63px;
 }
 
 .webpage-character_data {
@@ -78,68 +84,74 @@
     background-position: -219px -127px;
 }
 
+.webpage-github_link_img {
+    width: 204px;
+    height: 54px;
+    background-position: -5px -191px;
+}
+
 .webpage-items {
     width: 150px;
     height: 50px;
-    background-position: -277px -63px;
+    background-position: -219px -191px;
 }
 
 .webpage-other {
     width: 150px;
     height: 50px;
-    background-position: -5px -191px;
+    background-position: -219px -251px;
 }
 
 .webpage-presets {
     width: 150px;
     height: 50px;
-    background-position: -165px -191px;
+    background-position: -5px -311px;
 }
 
 .webpage-priconne-shiritori_icon {
     width: 64px;
     height: 64px;
-    background-position: -325px -191px;
+    background-position: -379px -191px;
 }
 
 .webpage-projects {
     width: 150px;
     height: 50px;
-    background-position: -5px -251px;
+    background-position: -165px -311px;
 }
 
 .webpage-quest_data {
     width: 204px;
     height: 54px;
-    background-position: -165px -265px;
+    background-position: -5px -371px;
 }
 
 .webpage-recipe_data {
     width: 204px;
     height: 54px;
-    background-position: -5px -329px;
+    background-position: -219px -371px;
 }
 
 .webpage-settings {
     width: 150px;
     height: 50px;
-    background-position: -219px -329px;
+    background-position: -429px -5px;
 }
 
 .webpage-simple_mode {
     width: 204px;
     height: 54px;
-    background-position: -437px -5px;
+    background-position: -379px -265px;
 }
 
 .webpage-statistics {
     width: 204px;
     height: 54px;
-    background-position: -437px -69px;
+    background-position: -5px -435px;
 }
 
 .webpage-wiki {
     width: 204px;
     height: 54px;
-    background-position: -433px -133px;
+    background-position: -219px -435px;
 }
