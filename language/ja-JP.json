@@ -124,8 +124,9 @@
     "drop-event-triple-buff-select": "ドロップ量3倍",
 
     "equipment_data_type_label": "装備データのタイプ：",
-    "equipment_data_current_select": "現在の装備データ (2019.08.31. 以後)",
-    "equipment_data_legacy_select": "過去の装備データ (2019.08.31. 以前)"
+    "equipment_data_current_select": "現在の装備データ (2022.02.28. 以後)",
+    "equipment_data_legacy_select": "過去の装備データ (2019.08.31. 以前)",
+    "equipment_data_legacy_2_select": "過去の装備データ2 (2022.02.28. 以前)"
   },
 
   "other_tab": {

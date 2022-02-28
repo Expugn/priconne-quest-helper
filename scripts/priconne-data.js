@@ -1,11 +1,13 @@
 const equipment_data = (function () {
     const version = Object.freeze({
         CURRENT: 'equipment-data-current',
-        LEGACY: 'equipment-data-legacy'
+        LEGACY: 'equipment-data-legacy',
+        LEGACY_2: 'equipment-data-legacy-2'
     });
     const file_path = Object.freeze({
         CURRENT: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/equipment_data.json",
-        LEGACY: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/equipment_data_08.30.2019.json"
+        LEGACY: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/equipment_data_08.30.2019.json",
+        LEGACY_2: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/equipment_data_02.27.2022.json",
     });
     const tags = Object.freeze({
         NAME_JP: "name_jp",                 // EQUIPMENT NAME IN JAPANESE
@@ -45,7 +47,19 @@ const equipment_data = (function () {
      */
     function read_data(callback = function () { return undefined; }) {
         let is_success = false;
-        $.getJSON((loaded_version === version.CURRENT ? file_path.CURRENT : file_path.LEGACY), function(raw) {
+        let json_file;
+        switch(loaded_version) {
+            case version.LEGACY:
+                json_file = file_path.LEGACY;
+                break;
+            case version.LEGACY_2:
+                json_file = file_path.LEGACY_2;
+                break;
+            default:
+                json_file = file_path.CURRENT;
+                break;
+        }
+        $.getJSON(json_file, function(raw) {
             data = raw;
 
             // GET EQUIPMENT COUNT AND CONVERT RAW TO LEGACY FORMAT
@@ -220,11 +234,13 @@ const equipment_data = (function () {
 const character_data = (function () {
     const version = Object.freeze({
         CURRENT: 'character-data-current',
-        LEGACY: 'character-data-legacy'
+        LEGACY: 'character-data-legacy',
+        LEGACY_2: 'character-data-legacy-2'
     });
     const file_path = Object.freeze({
         CURRENT: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/character_data.json",
-        LEGACY: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/character_data_08.30.2019.json"
+        LEGACY: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/character_data_08.30.2019.json",
+        LEGACY_2: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/character_data_02.27.2022.json",
     });
     const tags = Object.freeze({
         UNIT_ID: "unit_id",             // NUMERIC ID OF THE CHARACTER ; i.e. MIYAKO HAS UNIT ID 100701
@@ -252,7 +268,19 @@ const character_data = (function () {
      */
     function read_data(callback = function () { return undefined; }) {
         let is_success = false;
-        $.getJSON((loaded_version === version.CURRENT ? file_path.CURRENT : file_path.LEGACY), function(raw) {
+        let json_file;
+        switch(loaded_version) {
+            case version.LEGACY:
+                json_file = file_path.LEGACY;
+                break;
+            case version.LEGACY_2:
+                json_file = file_path.LEGACY_2;
+                break;
+            default:
+                json_file = file_path.CURRENT;
+                break;
+        }
+        $.getJSON(json_file, function(raw) {
             data = raw;
 
             const first_character = raw[Object.keys(raw)[0]];

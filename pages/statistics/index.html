@@ -99,8 +99,9 @@
         <br>
         <label for="equipment-data-type" hidden>Equipment Data Type</label>
         <select id="equipment-data-type" onchange="change_data()">
-            <option value="equipment-data-current">Current Equipment Data (After 2019.08.31)</option>
+            <option value="equipment-data-current">Current Equipment Data (After 2022.02.28)</option>
             <option value="equipment-data-legacy">Legacy Equipment Data (Before 2019.08.31)</option>
+            <option value="equipment-data-legacy-2">Legacy Equipment Data 2 (Before 2022.02.28)</option>
         </select>
     </div>
     <hr>
@@ -420,8 +421,10 @@
     function change_data() {
         const equipment_data_type = document.getElementById("equipment-data-type").value,
               character_data_type = (equipment_data_type === equipment_data.version.CURRENT ?
-                  character_data.version.CURRENT :
-                  character_data.version.LEGACY);
+                  character_data.version.CURRENT
+                  : equipment_data_type === equipment_data.version.LEGACY ?
+                  character_data.version.LEGACY
+                  : character_data.version.LEGACY_2);
         equipment_data.set_loaded_version(equipment_data_type);
         character_data.set_loaded_version(character_data_type);
 
@@ -434,12 +437,12 @@
         });
     }
 
-    function setup_version_history()
-    {
+    function setup_version_history() {
         // NUMBER BETWEEN () IS THE AMOUNT OF ENTRIES OBTAINED.
         // ENTRY AMOUNT MAX IS 30
         const ENTRY_AMOUNT = (5) - 1;
         let select_html = "";
+        let init;
 
         get_raw_urls(function (file_json) {
             let counter = 0;
@@ -448,9 +451,10 @@
                 // ADD SELECT OPTION
                 select_html += "<option value='" + sha + "'>" + new Date(obj["date"]).toDateString() + "</option>";
 
-                if (counter === 0) {
+                if (!init) {
                     document.getElementById("version-after-link").href = "https://github.com/Expugn/priconne-quest-helper/commit/" + sha;
                     document.getElementById("version-before-link").href = "https://github.com/Expugn/priconne-quest-helper/commit/" + sha;
+                    init = true;
                 }
 
                 // GO THROUGH EQUIPMENT DATA OF SPECIFIC COMMIT
@@ -504,8 +508,7 @@
             });
         }
 
-        function get_items(raw_url, callback)
-        {
+        function get_items(raw_url, callback) {
             let items_json = {};
             $.ajax({
                 url: raw_url,

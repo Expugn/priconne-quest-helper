@@ -22,25 +22,28 @@ whatever assortment of items you need to rank up your characters.
 
 `priconne-quest-helper` is based off the data from the `Japan` version of `Princess Connect! Re:Dive`.
 
-## Regarding Current and Legacy Equipment Data
+## Regarding Current, Legacy, and Legacy_2 Equipment Data
 As of `August 31, 2019`, the `Japan` servers for `Princess Connect! Re:Dive` have different costs for equipment.<br>
-***Some regions may not have updated to use these new costs.*** If your region still uses the old costs, use `Legacy Equipment Data` instead of `Current Equipment Data`
+As of `February 28, 2022`, the `Japan` servers for `Princess Connect! Re:Dive` have updated these costs again.<br>
+***Some regions may not have updated to use these new costs.*** If your region still uses the old costs, use `Legacy Equipment Data` or `Legacy Equipment Data 2` instead of `Current Equipment Data`
 
-You can tell if your region uses `Legacy Equipment Data` by going to <https://expugn.github.io/priconne-quest-helper/pages/recipe-data/> and reviewing the recipes of some items.
+You can tell if your region uses `Legacy Equipment Data` or `Legacy Equipment Data 2` by going to <https://expugn.github.io/priconne-quest-helper/pages/recipe-data/> and reviewing the recipes of some items.
 For example:
-- Justice God's Staff
+- Justice God's Staff <img src="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/items/Justice_God's_Staff_Fragment.png" alt="Justice God's Staff Fragment" width="48">
   - LEGACY: `30` Fragments Required
-  - CURRENT: `20` Fragments Required
-- Lion Eagle's Feather
+  - LEGACY_2: `20` Fragments Required
+  - CURRENT: `10` Fragments Required
+- Lion Eagle's Feather <img src="https://raw.githubusercontent.com/Expugn/priconne-quest-helper/master/images/items/Lion_Eagle's_Feather_Fragment.png" alt="Lion Eagle's Feather Fragment" width="48">
   - LEGACY: `5` Fragments Required
+  - LEGACY_2: `3` Fragments Required
   - CURRENT: `3` Fragments Required
 
-If your region's server uses `Legacy Equipment Data`, you can continue to use the `Legacy Equipment Data` by:
+If your region's server uses `Legacy Equipment Data` or `Legacy Equipment Data 2`, you can continue to use the `Legacy Equipment Data` or `Legacy Equipment Data 2` by:
 1) Go to the `Settings` tab
-2) Change `Equipment Data Type` to `Legacy Equipment Data (Before 2019.08.31)`
+2) Change `Equipment Data Type` to `Legacy Equipment Data (Before 2019.08.31)` or `Legacy Equipment Data (Before 2022.02.28)`
 3) Save Settings (Optional)
 
-The `Recipe Data` and `Statistics` pages also have the ability to use the `Legacy Equipment Data` if desired.
+The `Recipe Data` and `Statistics` pages also have the ability to use the `Legacy Equipment Data` and `Legacy Equipment Data 2` if desired.
 
 ## Recommended Procedure On How To Use This Tool
 1. Open the tool URL in your phone or PC browser: (<https://expugn.github.io/priconne-quest-helper/>)<br>

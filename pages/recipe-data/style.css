@@ -151,12 +151,14 @@ i.footer {
 }
 
 .current,
-.legacy {
+.legacy,
+.legacy-2 {
     margin-top: 50px;
 }
 
 .current span.title,
 .legacy span.title,
+.legacy-2 span.title,
 .usage span.title,
 .comp-usage span.title {
     display: inline-block;
@@ -235,7 +237,8 @@ div.node {
 }
 
 #current_recipe,
-#legacy_recipe {
+#legacy_recipe,
+#legacy_2_recipe {
     background: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     text-align: left;

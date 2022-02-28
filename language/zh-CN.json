@@ -122,8 +122,9 @@
       "drop-event-triple-buff-select": "3x 倍掉落量",
 
       "equipment_data_type_label": "装备数据类型:",
-      "equipment_data_current_select": "当前装备数据 (日服2019.08.31版本之后)",
-      "equipment_data_legacy_select": "初版装备数据 (日服2019.08.31版本之前)"
+      "equipment_data_current_select": "当前装备数据 (日服2022.02.28版本之后)",
+      "equipment_data_legacy_select": "初版装备数据 (日服2019.08.31版本之前)",
+      "equipment_data_legacy_2_select": "初版装备数据 (日服2022.02.28版本之前)"
     },
 
     "other_tab": {

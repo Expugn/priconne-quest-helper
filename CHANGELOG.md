@@ -3,13 +3,23 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.23.0] - 2022-02-27
+## [2.23.0] - 2022-02-28
 Equipment Cost Update #2
 ### Added
-- Equipment costs for silver to green equipment have been reduced
-  - Option to select Legacy Mode #2 to be added in near future
+- Equipment Cost Update #2
+  - Equipment costs for silver to green rarity equipment have been reduced
+  - `Legacy Equipment Data 2 (Before 2022.02.28)` support has been added to the following pages:
+    - Main Page
+    - Recipe Data
+    - Statistics
 - New Character: Ranpha
-
+- Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
+  - `character_names.ranpha`
+  - `settings_tab.equipment_data_current_select`
+  - `settings_tab.equipment_data_legacy_2_select`
+- Updated README.md to include information about `Legacy Equipment Data 2`
+### Fixed
+- Fixed a bug where the incorrect SHA was being used as a link when the Version History of the Statistics page first loads.
 
 ## [2.22.0] - 2022-02-15
 Quest Update (2022-02-15)

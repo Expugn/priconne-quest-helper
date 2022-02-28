@@ -132,6 +132,9 @@ const settings = (function () {
         if (document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value === equipment_data.version.LEGACY) {
             settings_default.equipment_data_type = equipment_data.version.LEGACY
         }
+        else if (document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value === equipment_data.version.LEGACY_2) {
+            settings_default.equipment_data_type = equipment_data.version.LEGACY_2
+        }
         else {
             settings_default.equipment_data_type = equipment_data.version.CURRENT
         }
@@ -431,6 +434,9 @@ const settings = (function () {
         if (document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value === equipment_data.version.LEGACY) {
             settings.equipment_data_type = equipment_data.version.LEGACY;
         }
+        else if (document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value === equipment_data.version.LEGACY_2) {
+            settings.equipment_data_type = equipment_data.version.LEGACY_2;
+        }
         else {
             settings.equipment_data_type = equipment_data.version.CURRENT;
         }
@@ -444,7 +450,18 @@ const settings = (function () {
      * AFTER THE DATA IS READ, UPDATE DOCUMENT.
      */
     function change_equipment_and_character_data() {
-        let character_version = (settings.equipment_data_type === equipment_data.version.CURRENT) ? character_data.version.CURRENT : character_data.version.LEGACY;
+        let character_version;
+        switch (settings.equipment_data_type) {
+            case equipment_data.version.LEGACY:
+                character_version = character_data.version.LEGACY;
+                break;
+            case equipment_data.version.LEGACY_2:
+                character_version = character_data.version.LEGACY_2;
+                break;
+            default:
+                character_version = character_data.version.CURRENT;
+                break;
+        }
 
         equipment_data.set_loaded_version(settings.equipment_data_type);
         character_data.set_loaded_version(character_version);
@@ -572,7 +589,19 @@ const settings = (function () {
         document.getElementById(setting_element_id.NORMAL_DROP_EVENT).value = settings.normal_quest_drop_multiplier;
         document.getElementById(setting_element_id.HARD_DROP_EVENT).value = settings.hard_quest_drop_multiplier;
         document.getElementById(setting_element_id.VERY_HARD_DROP_EVENT).value = settings.very_hard_quest_drop_multiplier;
-        document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value = ((settings.equipment_data_type === equipment_data.version.LEGACY) ? equipment_data.version.LEGACY : equipment_data.version.CURRENT);
+        let equip_data_type;
+        switch(settings.equipment_data_type) {
+            case equipment_data.version.LEGACY:
+                equip_data_type = equipment_data.version.LEGACY;
+                break;
+            case equipment_data.version.LEGACY_2:
+                equip_data_type = equipment_data.version.LEGACY_2;
+                break;
+            default:
+                equip_data_type = equipment_data.version.CURRENT;
+                break;
+        }
+        document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value = equip_data_type;
     }
 
     /**
@@ -4676,6 +4705,7 @@ const webpage = (function () {
             // UPDATE EQUIPMENT DATA TYPE SETTING CHOICES
             document.getElementById("equipment-data-type-current-option").innerHTML = data[tags.SETTINGS_TAB]["equipment_data_current_select"];
             document.getElementById("equipment-data-type-legacy-option").innerHTML = data[tags.SETTINGS_TAB]["equipment_data_legacy_select"];
+            document.getElementById("equipment-data-type-legacy-2-option").innerHTML = data[tags.SETTINGS_TAB]["equipment_data_legacy_2_select"];
 
             // UPDATE INVENTORY SORTING OPTIONS
             document.getElementById("inventory_sort-none").innerHTML = data[tags.INVENTORY]["no_sorting"];
@@ -4722,6 +4752,10 @@ const webpage = (function () {
         if (settings.get_settings()[settings.tags.EQUIPMENT_DATA_TYPE] === equipment_data.version.LEGACY) {
             equipment_data.set_loaded_version(equipment_data.version.LEGACY);
             character_data.set_loaded_version(character_data.version.LEGACY);
+        }
+        else if (settings.get_settings()[settings.tags.EQUIPMENT_DATA_TYPE] === equipment_data.version.LEGACY_2) {
+            equipment_data.set_loaded_version(equipment_data.version.LEGACY_2);
+            character_data.set_loaded_version(character_data.version.LEGACY_2);
         }
         set_toastr_options();
 
