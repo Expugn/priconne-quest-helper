@@ -86,6 +86,7 @@ This will get ONLY the master database; image collection is not included.<br>
 - `Hatsune's Notes`: [GitHub](https://github.com/superk589/PrincessGuide)
 - `Prcd-Wiki (INACTIVE)`: [GitHub](https://github.com/PaleNeutron/Pcrd-Wiki) | [Website (New)](https://johnlyu.com/en-us/) / [Website (Old)](https://pcrdwiki.xyz/)
 - `rwiki`: [Website](https://rwiki.jp/priconne_redive/)
+- `spugn/priconne-quest-helper`: [GitHub](https://github.com/Spugn/priconne-quest-helper) | [Website](https://spugn.github.io/priconne-quest-helper/)
 
 ## Special Thanks
 #### Initial Image Collection

@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.23.0] - 2022-02-27
+Equipment Cost Update #2
+### Added
+- Equipment costs for silver to green equipment have been reduced
+  - Option to select Legacy Mode #2 to be added in near future
+- New Character: Ranpha
+
+
 ## [2.22.0] - 2022-02-15
 Quest Update (2022-02-15)
 ### Added
