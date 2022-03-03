@@ -98,7 +98,7 @@
 </footer>
 
 <script>
-    let legacy_data, legacy_2_data, current_data, item_usage = {}, component_usage = {}, rank_usage = {}, toggled_ranks = {}, catalog_init = false, localstorage_data = null;
+    let legacy_data, legacy_2_data, cn_data, en_data, kr_data, tw_data, current_data, item_usage = {}, component_usage = {}, rank_usage = {}, toggled_ranks = {}, catalog_init = false, localstorage_data = null;
     const LOCALSTORAGE_KEY = "recipe-data_characters";
     function get_item_sprite_class(item_name) {
         return "is__" + item_name.replace("'", "").replace(/\W/g, '-').toLowerCase().replace('---', '-');
@@ -144,6 +144,7 @@
         character_box_button.hidden = !character_box_button.hidden;
     }
     window.onload = function () {
+        // lol im too lazy to fix this giant pyramid
         equipment_data.read_data(function (success) {
             if (success) {
                 current_data = equipment_data.data();
@@ -155,26 +156,62 @@
                         equipment_data.read_data(function (success) {
                             if (success) {
                                 legacy_2_data = equipment_data.data();
-                                character_data.read_data(function (success) {
+                                equipment_data.set_loaded_version(equipment_data.version.CN);
+                                equipment_data.read_data(function (success) {
                                     if (success) {
-                                        build_catalog();
-                                        if (window.location.hash) {
-                                            const item_name = (window.location.hash).replace("#", "").split('_').join(' ');
-                                            if (current_data[item_name]) {
-                                                document.getElementById("catalog").hidden = true;
-                                                document.getElementById("character-box-button").hidden = true;
-                                                document.getElementById("rank-selection-button").hidden  = true;
-                                                document.getElementById("recipe-data-div").hidden = document.getElementById("back").hidden = false;
-                                                build_data(item_name);
+                                        cn_data = equipment_data.data();
+                                        equipment_data.set_loaded_version(equipment_data.version.EN);
+                                        equipment_data.read_data(function (success) {
+                                            if (success) {
+                                                en_data = equipment_data.data();
+                                                equipment_data.set_loaded_version(equipment_data.version.KR);
+                                                equipment_data.read_data(function (success) {
+                                                    if (success) {
+                                                        kr_data = equipment_data.data();
+                                                        equipment_data.set_loaded_version(equipment_data.version.TW);
+                                                        equipment_data.read_data(function (success) {
+                                                            if (success) {
+                                                                tw_data = equipment_data.data();
+                                                                character_data.read_data(function (success) {
+                                                                    if (success) {
+                                                                        build_catalog();
+                                                                        if (window.location.hash) {
+                                                                            const item_name = (window.location.hash).replace("#", "").split('_').join(' ');
+                                                                            if (current_data[item_name]) {
+                                                                                document.getElementById("catalog").hidden = true;
+                                                                                document.getElementById("character-box-button").hidden = true;
+                                                                                document.getElementById("rank-selection-button").hidden  = true;
+                                                                                document.getElementById("recipe-data-div").hidden = document.getElementById("back").hidden = false;
+                                                                                build_data(item_name);
+                                                                            }
+                                                                            else {
+                                                                                // DELETE HASH IF item_name DOESN'T EXIST
+                                                                                history.pushState("", document.title, window.location.pathname + window.location.search);
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                    else
+                                                                        document.getElementById("catalog").innerHTML = "failed to read character data";
+                                                                });
+                                                            }
+                                                            else {
+                                                                document.getElementById("catalog").innerHTML = "failed to read equipment data (tw)";
+                                                            }
+                                                        });
+                                                    }
+                                                    else {
+                                                        document.getElementById("catalog").innerHTML = "failed to read equipment data (kr)";
+                                                    }
+                                                });
                                             }
                                             else {
-                                                // DELETE HASH IF item_name DOESN'T EXIST
-                                                history.pushState("", document.title, window.location.pathname + window.location.search);
+                                                document.getElementById("catalog").innerHTML = "failed to read equipment data (en)";
                                             }
-                                        }
+                                        });
                                     }
-                                    else
-                                        document.getElementById("catalog").innerHTML = "failed to read character data";
+                                    else {
+                                        document.getElementById("catalog").innerHTML = "failed to read equipment data (cn)";
+                                    }
                                 });
                             }
                             else {
@@ -360,6 +397,10 @@
                   data_div = document.getElementById("recipe-data-div");
             let is_exists_in_legacy = legacy_data.hasOwnProperty(item_name);
             let is_exists_in_legacy_2 = legacy_2_data.hasOwnProperty(item_name);
+            let is_exists_in_cn = cn_data.hasOwnProperty(item_name);
+            let is_exists_in_en = en_data.hasOwnProperty(item_name);
+            let is_exists_in_kr = kr_data.hasOwnProperty(item_name);
+            let is_exists_in_tw = tw_data.hasOwnProperty(item_name);
             data_div.innerHTML = "";
 
             // ITEM NAME
@@ -409,6 +450,99 @@
             item.appendChild(current);
 
             let legacy_count = 0;
+
+            let cn;
+            if (is_exists_in_cn) {
+                cn = document.createElement("div");
+                cn.classList.add("cn");
+                let cn_span = document.createElement("span");
+                cn_span.classList.add("title");
+                cn_span.innerText = `China Server Recipe\n${cn_data[item_name]["name_cn"]}`;
+                cn.appendChild(cn_span);
+                let cn_recipe_div = document.createElement("div");
+                cn_recipe_div.id = "cn_recipe";
+                cn.appendChild(cn_recipe_div);
+                cn.appendChild(get_recipe_elem(item_name, cn_data));
+
+                if (current.querySelector(".recipe_result").innerHTML === cn.querySelector(".recipe_result").innerHTML) {
+                    // IF BOTH RECIPES ARE THE SAME, NO NEED TO DISPLAY THE REGION RECIPE.
+                    is_exists_in_cn = false;
+                }
+                else {
+                    item.appendChild(cn);
+                    legacy_count++;
+                }
+            }
+
+            let en;
+            if (is_exists_in_en) {
+                en = document.createElement("div");
+                en.classList.add("en");
+                let en_span = document.createElement("span");
+                en_span.classList.add("title");
+                en_span.innerText = `English Server Recipe\n${en_data[item_name]["name_en"]}`;
+                en.appendChild(en_span);
+                let en_recipe_div = document.createElement("div");
+                en_recipe_div.id = "en_recipe";
+                en.appendChild(en_recipe_div);
+                en.appendChild(get_recipe_elem(item_name, en_data));
+
+                if (current.querySelector(".recipe_result").innerHTML === en.querySelector(".recipe_result").innerHTML) {
+                    // IF BOTH RECIPES ARE THE SAME, NO NEED TO DISPLAY THE REGION RECIPE.
+                    is_exists_in_en = false;
+                }
+                else {
+                    item.appendChild(en);
+                    legacy_count++;
+                }
+            }
+
+            let kr;
+            if (is_exists_in_kr) {
+                kr = document.createElement("div");
+                kr.classList.add("kr");
+                let kr_span = document.createElement("span");
+                kr_span.classList.add("title");
+                kr_span.innerText = `Korea Server Recipe\n${kr_data[item_name]["name_kr"]}`;
+                kr.appendChild(kr_span);
+                let kr_recipe_div = document.createElement("div");
+                kr_recipe_div.id = "kr_recipe";
+                kr.appendChild(kr_recipe_div);
+                kr.appendChild(get_recipe_elem(item_name, kr_data));
+
+                if (current.querySelector(".recipe_result").innerHTML === kr.querySelector(".recipe_result").innerHTML) {
+                    // IF BOTH RECIPES ARE THE SAME, NO NEED TO DISPLAY THE REGION RECIPE.
+                    is_exists_in_kr = false;
+                }
+                else {
+                    item.appendChild(kr);
+                    legacy_count++;
+                }
+            }
+
+            let tw;
+            if (is_exists_in_tw) {
+                tw = document.createElement("div");
+                tw.classList.add("tw");
+                let tw_span = document.createElement("span");
+                tw_span.classList.add("title");
+                tw_span.innerText = `Taiwan Server Recipe\n${tw_data[item_name]["name_tw"]}`;
+                tw.appendChild(tw_span);
+                let tw_recipe_div = document.createElement("div");
+                tw_recipe_div.id = "tw_recipe";
+                tw.appendChild(tw_recipe_div);
+                tw.appendChild(get_recipe_elem(item_name, tw_data));
+
+                if (current.querySelector(".recipe_result").innerHTML === tw.querySelector(".recipe_result").innerHTML) {
+                    // IF BOTH RECIPES ARE THE SAME, NO NEED TO DISPLAY THE REGION RECIPE.
+                    is_exists_in_tw = false;
+                }
+                else {
+                    item.appendChild(tw);
+                    legacy_count++;
+                }
+            }
+
             let legacy;
             if (is_exists_in_legacy) {
                 legacy = document.createElement("div");
@@ -554,13 +688,30 @@
             let current_config = build_treant(item_name, current_data, "current_recipe");
             let legacy_config;
             let legacy_2_config;
+            let cn_config;
+            let en_config;
+            let kr_config;
+            let tw_config;
             if (is_exists_in_legacy) {
                 legacy_config = build_treant(item_name, legacy_data, "legacy_recipe");
             }
             if (is_exists_in_legacy_2) {
                 legacy_2_config = build_treant(item_name, legacy_2_data, "legacy_2_recipe");
             }
-            if (is_exists_in_legacy || is_exists_in_legacy_2) {
+            if (is_exists_in_cn) {
+                cn_config = build_treant(item_name, cn_data, "cn_recipe");
+            }
+            if (is_exists_in_en) {
+                en_config = build_treant(item_name, en_data, "en_recipe");
+            }
+            if (is_exists_in_kr) {
+                kr_config = build_treant(item_name, kr_data, "kr_recipe");
+            }
+            if (is_exists_in_tw) {
+                tw_config = build_treant(item_name, tw_data, "tw_recipe");
+            }
+            if (is_exists_in_legacy || is_exists_in_legacy_2 || is_exists_in_cn || is_exists_in_en
+                || is_exists_in_kr || is_exists_in_tw) {
                 // REBUILD CURRENT RECIPE Treant BECAUSE AFTER LEGACY RECIPE IS ADDED IT WILL BE MISPOSITIONED
                 new Treant(current_config);
             }
@@ -585,6 +736,18 @@
                     }
                     if (is_exists_in_legacy_2) {
                         new Treant(legacy_2_config);
+                    }
+                    if (is_exists_in_cn) {
+                        new Treant(cn_config);
+                    }
+                    if (is_exists_in_en) {
+                        new Treant(en_config);
+                    }
+                    if (is_exists_in_kr) {
+                        new Treant(kr_config);
+                    }
+                    if (is_exists_in_tw) {
+                        new Treant(tw_config);
                     }
                 }, 500, "treant-resize");
             });

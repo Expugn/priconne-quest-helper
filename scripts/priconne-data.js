@@ -1,11 +1,19 @@
 const equipment_data = (function () {
     const version = Object.freeze({
         CURRENT: 'equipment-data-current',
+        CN: 'equipment-data-cn',
+        EN: 'equipment-data-en',
+        KR: 'equipment-data-kr',
+        TW: 'equipment-data-tw',
         LEGACY: 'equipment-data-legacy',
         LEGACY_2: 'equipment-data-legacy-2'
     });
     const file_path = Object.freeze({
         CURRENT: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/equipment_data.json",
+        CN: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/equipment_data_cn.json",
+        EN: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/equipment_data_en.json",
+        KR: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/equipment_data_kr.json",
+        TW: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/equipment_data_tw.json",
         LEGACY: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/equipment_data_08.30.2019.json",
         LEGACY_2: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/equipment_data_02.27.2022.json",
     });
@@ -54,6 +62,18 @@ const equipment_data = (function () {
                 break;
             case version.LEGACY_2:
                 json_file = file_path.LEGACY_2;
+                break;
+            case version.CN:
+                json_file = file_path.CN;
+                break;
+            case version.EN:
+                json_file = file_path.EN;
+                break;
+            case version.KR:
+                json_file = file_path.KR;
+                break;
+            case version.TW:
+                json_file = file_path.TW;
                 break;
             default:
                 json_file = file_path.CURRENT;
@@ -234,11 +254,19 @@ const equipment_data = (function () {
 const character_data = (function () {
     const version = Object.freeze({
         CURRENT: 'character-data-current',
+        CN: 'character-data-cn',
+        EN: 'character-data-en',
+        KR: 'character-data-kr',
+        TW: 'character-data-tw',
         LEGACY: 'character-data-legacy',
         LEGACY_2: 'character-data-legacy-2'
     });
     const file_path = Object.freeze({
         CURRENT: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/character_data.json",
+        CN: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/character_data_cn.json",
+        EN: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/character_data_en.json",
+        KR: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/character_data_kr.json",
+        TW: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/character_data_tw.json",
         LEGACY: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/character_data_08.30.2019.json",
         LEGACY_2: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/character_data_02.27.2022.json",
     });
@@ -275,6 +303,18 @@ const character_data = (function () {
                 break;
             case version.LEGACY_2:
                 json_file = file_path.LEGACY_2;
+                break;
+            case version.CN:
+                json_file = file_path.CN;
+                break;
+            case version.EN:
+                json_file = file_path.EN;
+                break;
+            case version.KR:
+                json_file = file_path.KR;
+                break;
+            case version.TW:
+                json_file = file_path.TW;
                 break;
             default:
                 json_file = file_path.CURRENT;

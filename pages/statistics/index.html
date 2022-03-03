@@ -99,7 +99,11 @@
         <br>
         <label for="equipment-data-type" hidden>Equipment Data Type</label>
         <select id="equipment-data-type" onchange="change_data()">
-            <option value="equipment-data-current">Current Equipment Data (After 2022.02.28)</option>
+            <option value="equipment-data-current">Current Equipment Data - Japan Server (JP)</option>
+            <option value="equipment-data-cn">Current Equipment Data - China Server (CN)</option>
+            <option value="equipment-data-en">Current Equipment Data - English Server (EN)</option>
+            <option value="equipment-data-kr">Current Equipment Data - Korea Server (KR)</option>
+            <option value="equipment-data-tw">Current Equipment Data - Taiwan Server (TW)</option>
             <option value="equipment-data-legacy">Legacy Equipment Data (Before 2019.08.31)</option>
             <option value="equipment-data-legacy-2">Legacy Equipment Data 2 (Before 2022.02.28)</option>
         </select>
@@ -333,7 +337,12 @@
 
         sorted_data.forEach(function (e) {
             const item_name = e[0], amount = e[1];
-            if (ignored_rarities[equip_data[(is_equipment_display ? item_name : item_name.replace(" Fragment", ""))]["rarity"]]) {
+            let d = equip_data[(is_equipment_display ? item_name : item_name.replace(" Fragment", ""))];
+            if (d === undefined) {
+                return;
+            }
+            let rar = d["rarity"];
+            if (ignored_rarities[rar]) {
                 if (counter < 3) {
                     // UPDATE TOP THREE ITEMS
                     let elem = document.getElementById(is_equipment_display ? "equipment-data" : "ingredient-data");
@@ -419,12 +428,31 @@
     }
 
     function change_data() {
-        const equipment_data_type = document.getElementById("equipment-data-type").value,
-              character_data_type = (equipment_data_type === equipment_data.version.CURRENT ?
-                  character_data.version.CURRENT
-                  : equipment_data_type === equipment_data.version.LEGACY ?
-                  character_data.version.LEGACY
-                  : character_data.version.LEGACY_2);
+        const equipment_data_type = document.getElementById("equipment-data-type").value;
+        let character_data_type;
+        switch (equipment_data_type) {
+            case equipment_data.version.LEGACY:
+                character_data_type = character_data.version.LEGACY;
+                break;
+            case equipment_data.version.LEGACY_2:
+                character_data_type = character_data.version.LEGACY_2;
+                break;
+            case equipment_data.version.CN:
+                character_data_type = character_data.version.CN;
+                break;
+            case equipment_data.version.EN:
+                character_data_type = character_data.version.EN;
+                break;
+            case equipment_data.version.KR:
+                character_data_type = character_data.version.KR;
+                break;
+            case equipment_data.version.TW:
+                character_data_type = character_data.version.TW;
+                break;
+            default:
+                character_data_type = character_data.version.CURRENT;
+                break;
+        }
         equipment_data.set_loaded_version(equipment_data_type);
         character_data.set_loaded_version(character_data_type);
 

@@ -7,7 +7,8 @@
     font-weight: bold;
     font-family: "Trebuchet MS", Arial, serif;
     text-shadow: 1px 1px 2px #000000;
-    color: #FFD8D5;
+    /*color: #FFD8D5;*/
+    color: antiquewhite;
 }
 .toast-message {
     -ms-word-wrap: break-word;

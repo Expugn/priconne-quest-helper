@@ -129,14 +129,28 @@ const settings = (function () {
         settings_default.very_hard_quest_drop_multiplier = document.getElementById(setting_element_id.VERY_HARD_DROP_EVENT).value;
         settings.very_hard_quest_drop_multiplier = settings_default.very_hard_quest_drop_multiplier;
 
-        if (document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value === equipment_data.version.LEGACY) {
-            settings_default.equipment_data_type = equipment_data.version.LEGACY
-        }
-        else if (document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value === equipment_data.version.LEGACY_2) {
-            settings_default.equipment_data_type = equipment_data.version.LEGACY_2
-        }
-        else {
-            settings_default.equipment_data_type = equipment_data.version.CURRENT
+        switch(document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value) {
+            case equipment_data.version.LEGACY:
+                settings_default.equipment_data_type = equipment_data.version.LEGACY;
+                break;
+            case equipment_data.version.LEGACY_2:
+                settings_default.equipment_data_type = equipment_data.version.LEGACY_2;
+                break;
+            case equipment_data.version.CN:
+                settings_default.equipment_data_type = equipment_data.version.CN;
+                break;
+            case equipment_data.version.EN:
+                settings_default.equipment_data_type = equipment_data.version.EN;
+                break;
+            case equipment_data.version.KR:
+                settings_default.equipment_data_type = equipment_data.version.KR;
+                break;
+            case equipment_data.version.TW:
+                settings_default.equipment_data_type = equipment_data.version.TW;
+                break;
+            default:
+                settings_default.equipment_data_type = equipment_data.version.CURRENT
+                break;
         }
         settings.equipment_data_type = settings_default.equipment_data_type;
     }
@@ -431,14 +445,28 @@ const settings = (function () {
      * ITEM TABLES, REQUESTED ITEMS, REQUIRED INGREDIENTS, QUEST TABLE, PRESETS WILL ALL BE REFRESHED AFTER.
      */
     function change_equipment_data() {
-        if (document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value === equipment_data.version.LEGACY) {
-            settings.equipment_data_type = equipment_data.version.LEGACY;
-        }
-        else if (document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value === equipment_data.version.LEGACY_2) {
-            settings.equipment_data_type = equipment_data.version.LEGACY_2;
-        }
-        else {
-            settings.equipment_data_type = equipment_data.version.CURRENT;
+        switch(document.getElementById(setting_element_id.EQUIPMENT_DATA_TYPE).value) {
+            case equipment_data.version.LEGACY:
+                settings.equipment_data_type = equipment_data.version.LEGACY;
+                break;
+            case equipment_data.version.LEGACY_2:
+                settings.equipment_data_type = equipment_data.version.LEGACY_2;
+                break;
+            case equipment_data.version.CN:
+                settings.equipment_data_type = equipment_data.version.CN;
+                break;
+            case equipment_data.version.EN:
+                settings.equipment_data_type = equipment_data.version.EN;
+                break;
+            case equipment_data.version.KR:
+                settings.equipment_data_type = equipment_data.version.KR;
+                break;
+            case equipment_data.version.TW:
+                settings.equipment_data_type = equipment_data.version.TW;
+                break;
+            default:
+                settings.equipment_data_type = equipment_data.version.CURRENT;
+                break;
         }
         webpage.print("\"Equipment Data Type\" changed to " + settings.equipment_data_type, "Settings");
 
@@ -457,6 +485,18 @@ const settings = (function () {
                 break;
             case equipment_data.version.LEGACY_2:
                 character_version = character_data.version.LEGACY_2;
+                break;
+            case equipment_data.version.CN:
+                character_version = character_data.version.CN;
+                break;
+            case equipment_data.version.EN:
+                character_version = character_data.version.EN;
+                break;
+            case equipment_data.version.KR:
+                character_version = character_data.version.KR;
+                break;
+            case equipment_data.version.TW:
+                character_version = character_data.version.TW;
                 break;
             default:
                 character_version = character_data.version.CURRENT;
@@ -596,6 +636,18 @@ const settings = (function () {
                 break;
             case equipment_data.version.LEGACY_2:
                 equip_data_type = equipment_data.version.LEGACY_2;
+                break;
+            case equipment_data.version.CN:
+                equip_data_type = equipment_data.version.CN;
+                break;
+            case equipment_data.version.EN:
+                equip_data_type = equipment_data.version.EN;
+                break;
+            case equipment_data.version.KR:
+                equip_data_type = equipment_data.version.KR;
+                break;
+            case equipment_data.version.TW:
+                equip_data_type = equipment_data.version.TW;
                 break;
             default:
                 equip_data_type = equipment_data.version.CURRENT;
@@ -4704,6 +4756,10 @@ const webpage = (function () {
 
             // UPDATE EQUIPMENT DATA TYPE SETTING CHOICES
             document.getElementById("equipment-data-type-current-option").innerHTML = data[tags.SETTINGS_TAB]["equipment_data_current_select"];
+            document.getElementById("equipment-data-type-cn-option").innerHTML = data[tags.SETTINGS_TAB]["equipment_data_cn_select"];
+            document.getElementById("equipment-data-type-en-option").innerHTML = data[tags.SETTINGS_TAB]["equipment_data_en_select"];
+            document.getElementById("equipment-data-type-kr-option").innerHTML = data[tags.SETTINGS_TAB]["equipment_data_kr_select"];
+            document.getElementById("equipment-data-type-tw-option").innerHTML = data[tags.SETTINGS_TAB]["equipment_data_tw_select"];
             document.getElementById("equipment-data-type-legacy-option").innerHTML = data[tags.SETTINGS_TAB]["equipment_data_legacy_select"];
             document.getElementById("equipment-data-type-legacy-2-option").innerHTML = data[tags.SETTINGS_TAB]["equipment_data_legacy_2_select"];
 
@@ -4749,13 +4805,33 @@ const webpage = (function () {
         settings.init();
         settings.read_settings(false);
         // CHANGE EQUIPMENT AND CHARACTER DATA TO LEGACY IF NEEDED
-        if (settings.get_settings()[settings.tags.EQUIPMENT_DATA_TYPE] === equipment_data.version.LEGACY) {
-            equipment_data.set_loaded_version(equipment_data.version.LEGACY);
-            character_data.set_loaded_version(character_data.version.LEGACY);
-        }
-        else if (settings.get_settings()[settings.tags.EQUIPMENT_DATA_TYPE] === equipment_data.version.LEGACY_2) {
-            equipment_data.set_loaded_version(equipment_data.version.LEGACY_2);
-            character_data.set_loaded_version(character_data.version.LEGACY_2);
+        switch(settings.get_settings()[settings.tags.EQUIPMENT_DATA_TYPE]) {
+            case equipment_data.version.LEGACY:
+                equipment_data.set_loaded_version(equipment_data.version.LEGACY);
+                character_data.set_loaded_version(character_data.version.LEGACY);
+                break;
+            case equipment_data.version.LEGACY_2:
+                equipment_data.set_loaded_version(equipment_data.version.LEGACY_2);
+                character_data.set_loaded_version(character_data.version.LEGACY_2);
+                break;
+            case equipment_data.version.CN:
+                equipment_data.set_loaded_version(equipment_data.version.CN);
+                character_data.set_loaded_version(character_data.version.CN);
+                break;
+            case equipment_data.version.EN:
+                equipment_data.set_loaded_version(equipment_data.version.EN);
+                character_data.set_loaded_version(character_data.version.EN);
+                break;
+            case equipment_data.version.KR:
+                equipment_data.set_loaded_version(equipment_data.version.KR);
+                character_data.set_loaded_version(character_data.version.KR);
+                break;
+            case equipment_data.version.TW:
+                equipment_data.set_loaded_version(equipment_data.version.TW);
+                character_data.set_loaded_version(character_data.version.TW);
+                break;
+            default:
+                break;
         }
         set_toastr_options();
 
@@ -5059,6 +5135,7 @@ const webpage = (function () {
             setTimeout(function () {
                 document.getElementById("loading-div").classList.add("end");
                 document.getElementById("page-cover").classList.add("end");
+                toastr.info("Go to Settings tab to change Equipment Data Type to your game server.", "Regional data files have been added!", { closeButton: true, showMethod: 'slideDown', positionClass: "toast-top-full-width", timeOut:15000, extendedTimeOut:30, tapToDismiss: true, progressBar: true, });
                 // DELETE LOADING SCREEN ELEMENTS AFTER TRANSITION IS COMPLETE
                 setTimeout(function () {
                     $("#page-loading").remove();

@@ -1,0 +1,2663 @@
+{
+    "31002": {
+        "name_jp": "ユイのメモリーピース",
+        "name": "Yui Shard",
+        "id": "misc-1",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31003": {
+        "name_jp": "レイのメモリーピース",
+        "name": "Rei Shard",
+        "id": "misc-2",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31008": {
+        "name_jp": "ユキのメモリーピース",
+        "name": "Yuki Shard",
+        "id": "misc-3",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31014": {
+        "name_jp": "カスミのメモリーピース",
+        "name": "Kasumi Shard",
+        "id": "misc-4",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31020": {
+        "name_jp": "ミミのメモリーピース",
+        "name": "Mimi Shard",
+        "id": "misc-5",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31021": {
+        "name_jp": "クルミのメモリーピース",
+        "name": "Kurumi Shard",
+        "id": "misc-6",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31027": {
+        "name_jp": "エリコのメモリーピース",
+        "name": "Eriko Shard",
+        "id": "misc-7",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31028": {
+        "name_jp": "サレンのメモリーピース",
+        "name": "Saren Shard",
+        "id": "misc-8",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31030": {
+        "name_jp": "ニノンのメモリーピース",
+        "name": "Ninon Shard",
+        "id": "misc-9",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31031": {
+        "name_jp": "シノブのメモリーピース",
+        "name": "Shinobu Shard",
+        "id": "misc-10",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31032": {
+        "name_jp": "アキノのメモリーピース",
+        "name": "Akino Shard",
+        "id": "misc-11",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31033": {
+        "name_jp": "マヒルのメモリーピース",
+        "name": "Mahiru Shard",
+        "id": "misc-12",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31036": {
+        "name_jp": "キョウカのメモリーピース",
+        "name": "Kyouka Shard",
+        "id": "misc-13",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31037": {
+        "name_jp": "トモのメモリーピース",
+        "name": "Tomo Shard",
+        "id": "misc-14",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31038": {
+        "name_jp": "シオリのメモリーピース",
+        "name": "Shiori Shard",
+        "id": "misc-15",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31040": {
+        "name_jp": "アオイのメモリーピース",
+        "name": "Aoi Shard",
+        "id": "misc-16",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31044": {
+        "name_jp": "イリヤのメモリーピース",
+        "name": "Ilya Shard",
+        "id": "misc-17",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31047": {
+        "name_jp": "ジュンのメモリーピース",
+        "name": "Jun Shard",
+        "id": "misc-18",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31048": {
+        "name_jp": "ミフユのメモリーピース",
+        "name": "Mifuyu Shard",
+        "id": "misc-19",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31049": {
+        "name_jp": "シズルのメモリーピース",
+        "name": "Shizuru Shard",
+        "id": "misc-20",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31050": {
+        "name_jp": "ミサキのメモリーピース",
+        "name": "Misaki Shard",
+        "id": "misc-21",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31052": {
+        "name_jp": "リマのメモリーピース",
+        "name": "Rima Shard",
+        "id": "misc-22",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31056": {
+        "name_jp": "ルカのメモリーピース",
+        "name": "Ruka Shard",
+        "id": "misc-23",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31057": {
+        "name_jp": "ジータのメモリーピース",
+        "name": "Djeeta Shard",
+        "id": "misc-24",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31058": {
+        "name_jp": "ペコリーヌのメモリーピース",
+        "name": "Pecorine Shard",
+        "id": "misc-25",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31059": {
+        "name_jp": "コッコロのメモリーピース",
+        "name": "Kokkoro Shard",
+        "id": "misc-26",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31063": {
+        "name_jp": "アリサのメモリーピース",
+        "name": "Arisa Shard",
+        "id": "misc-27",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "101011": {
+        "name_en": "Iron Blade",
+        "name_jp": "アイアンブレード",
+        "name": "Iron Blade",
+        "id": "common-1",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "101071": {
+        "name_en": "Killer Pen",
+        "name_jp": "キラーペンシル",
+        "name": "Killer Pencil",
+        "id": "common-2",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "101101": {
+        "name_en": "Wooden Knuckles",
+        "name_jp": "ウッドグリップ",
+        "name": "Wood Grip",
+        "id": "common-3",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "101131": {
+        "name_en": "Hunter's Bow",
+        "name_jp": "狩人の弓",
+        "name": "Hunter's Bow",
+        "id": "common-4",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "101161": {
+        "name_en": "Steel Spear",
+        "name_jp": "鋼の槍",
+        "name": "Steel Spear",
+        "id": "common-5",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "101191": {
+        "name_en": "Hand Axe",
+        "name_jp": "片手斧",
+        "name": "One Handed Axe",
+        "id": "common-6",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "101251": {
+        "name_en": "Fragrant Wood Staff",
+        "name_jp": "香木の杖",
+        "name": "Fragrant Wood Wand",
+        "id": "common-7",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "101281": {
+        "name_en": "Leather Overalls",
+        "name_jp": "革のサロペット",
+        "name": "Leather Overalls",
+        "id": "common-8",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "101371": {
+        "name_en": "Traveler's Robe",
+        "name_jp": "旅立ちのローブ",
+        "name": "Journey Robe",
+        "id": "common-9",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "101401": {
+        "name_en": "Wooden Shield",
+        "name_jp": "木の盾",
+        "name": "Tree Shield",
+        "id": "common-10",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "101431": {
+        "name_en": "Leather Boots",
+        "name_jp": "革のブーツ",
+        "name": "Leather Boots",
+        "id": "common-11",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "101521": {
+        "name_en": "Fashionable Beret",
+        "name_jp": "おしゃれなベレー",
+        "name": "Fashionable Beret",
+        "id": "common-12",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "101551": {
+        "name_en": "Motivational Bracelet",
+        "name_jp": "やる気のブレスレット",
+        "name": "Motivational Bracelet",
+        "id": "common-13",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "101581": {
+        "name_en": "Charm Pendant",
+        "name_jp": "御守りペンダント",
+        "name": "Protective Pendant",
+        "id": "common-14",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "101611": {
+        "name_en": "Warcry Bracelet",
+        "name_jp": "気合のブレスレット",
+        "name": "Fighting Bracelet",
+        "id": "common-15",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102011": {
+        "name_en": "Gear Blade",
+        "name_jp": "ギアブレード",
+        "name": "Gear Blade",
+        "id": "copper-1",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102013": {
+        "name_en": "Blue Blood",
+        "name_jp": "ブルーブラッド",
+        "name": "Blue Blood",
+        "id": "copper-2",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102014": {
+        "name_en": "Aurora Sword",
+        "name_jp": "オーロラの剣",
+        "name": "Aurora Sword",
+        "id": "copper-3",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102041": {
+        "name_en": "Crescent Sword",
+        "name_jp": "クレセントソード",
+        "name": "Crescent Sword",
+        "id": "copper-4",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102071": {
+        "name_en": "Commando Knife",
+        "name_jp": "コマンドナイフ",
+        "name": "Command Knife",
+        "id": "copper-5",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102101": {
+        "name_en": "Leather Knuckles",
+        "name_jp": "レザーナックル",
+        "name": "Leather Knuckle",
+        "id": "copper-6",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102131": {
+        "name_en": "Crystal Bow",
+        "name_jp": "クリスタルボウ",
+        "name": "Crystal Bow",
+        "id": "copper-7",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102162": {
+        "name_en": "Trident",
+        "name_jp": "トライデント",
+        "name": "Trident",
+        "id": "copper-8",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102163": {
+        "name_en": "Flame Spear",
+        "name_jp": "フレイムスピア",
+        "name": "Flame Spear",
+        "id": "copper-9",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102191": {
+        "name_en": "Metal Axe",
+        "name_jp": "メタルアックス",
+        "name": "Metal Axe",
+        "id": "copper-10",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102192": {
+        "name_en": "Full Metal Axe",
+        "name_jp": "ハイメタルアックス",
+        "name": "High-Metal Axe",
+        "id": "copper-11",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102221": {
+        "name_en": "Green Rod",
+        "name_jp": "グリーンロッド",
+        "name": "Green Rod",
+        "id": "copper-12",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102222": {
+        "name_en": "Little Dragon Rod",
+        "name_jp": "リトルドラゴンロッド",
+        "name": "Little Dragon Rod",
+        "id": "copper-13",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102251": {
+        "name_en": "Staff of Vitality",
+        "name_jp": "医者いらずの杖",
+        "name": "Doctorless Staff",
+        "id": "copper-14",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102252": {
+        "name_en": "Unicorn's Grace",
+        "name_jp": "ユニコーンの慈愛",
+        "name": "Compassion of the Unicorn",
+        "id": "copper-15",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102281": {
+        "name_en": "Sage's Vestment",
+        "name_jp": "智慧の衣",
+        "name": "Clothes of Wisdom",
+        "id": "copper-16",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102282": {
+        "name_en": "Light Plate Armor",
+        "name_jp": "ライトプレート",
+        "name": "Light Plate",
+        "id": "copper-17",
+        "has_fragments": true,
+        "fragment_id": "122282",
+        "req_pieces": 1,
+        "req_items": [
+            "Clothes of Wisdom"
+        ]
+    },
+    "102311": {
+        "name_en": "Scalemail",
+        "name_jp": "スケイルメイル",
+        "name": "Scale Mail",
+        "id": "copper-18",
+        "has_fragments": true,
+        "fragment_id": "122311",
+        "req_pieces": 1,
+        "req_items": [
+            "Leather Overalls"
+        ]
+    },
+    "102312": {
+        "name_en": "Full Plate Armor",
+        "name_jp": "ハイメタルプレート",
+        "name": "High Metal Plate",
+        "id": "copper-19",
+        "has_fragments": true,
+        "fragment_id": "122312",
+        "req_pieces": 1,
+        "req_items": [
+            "Scale Mail"
+        ]
+    },
+    "102341": {
+        "name_en": "Folkloric Garment",
+        "name_jp": "フォークロアクロース",
+        "name": "Folklore Clothes",
+        "id": "copper-20",
+        "has_fragments": true,
+        "fragment_id": "122341",
+        "req_pieces": 1,
+        "req_items": [
+            "Protective Pendant"
+        ]
+    },
+    "102342": {
+        "name_en": "Ninja Outfit",
+        "name_jp": "忍び装束",
+        "name": "Shinobi Costume",
+        "id": "copper-21",
+        "has_fragments": true,
+        "fragment_id": "122342",
+        "req_pieces": 1,
+        "req_items": [
+            "Folklore Clothes"
+        ]
+    },
+    "102371": {
+        "name_en": "Springtime Robe",
+        "name_jp": "春色ローブ",
+        "name": "Spring Color Robe",
+        "id": "copper-22",
+        "has_fragments": true,
+        "fragment_id": "122371",
+        "req_pieces": 1,
+        "req_items": [
+            "Journey Robe"
+        ]
+    },
+    "102372": {
+        "name_en": "Nordic Robe",
+        "name_jp": "ノルディックローブ",
+        "name": "Nordic Robe",
+        "id": "copper-23",
+        "has_fragments": true,
+        "fragment_id": "122372",
+        "req_pieces": 1,
+        "req_items": [
+            "Spring Color Robe"
+        ]
+    },
+    "102401": {
+        "name_en": "Tower Shield",
+        "name_jp": "タワーシールド",
+        "name": "Tower Shield",
+        "id": "copper-24",
+        "has_fragments": true,
+        "fragment_id": "122401",
+        "req_pieces": 1,
+        "req_items": [
+            "Tree Shield"
+        ]
+    },
+    "102431": {
+        "name_en": "Clown Boots",
+        "name_jp": "クラウンブーツ",
+        "name": "Crown Boots",
+        "id": "copper-25",
+        "has_fragments": true,
+        "fragment_id": "122431",
+        "req_pieces": 1,
+        "req_items": [
+            "Leather Boots"
+        ]
+    },
+    "102432": {
+        "name_en": "Hunting Boots",
+        "name_jp": "ハンティングブーツ",
+        "name": "Hunting Boots",
+        "id": "copper-26",
+        "has_fragments": true,
+        "fragment_id": "122432",
+        "req_pieces": 1,
+        "req_items": [
+            "Crown Boots"
+        ]
+    },
+    "102461": {
+        "name_en": "Witch's Boots",
+        "name_jp": "ウィッチブーツ",
+        "name": "Witch Boots",
+        "id": "copper-27",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102491": {
+        "name_en": "Cute Cap",
+        "name_jp": "かわいいキャスケット",
+        "name": "Cute Caskets",
+        "id": "copper-28",
+        "has_fragments": true,
+        "fragment_id": "122491",
+        "req_pieces": 1,
+        "req_items": [
+            "Fashionable Beret"
+        ]
+    },
+    "102493": {
+        "name_en": "Legionnaire Helm",
+        "name_jp": "レギオンヘルム",
+        "name": "Legion Helm",
+        "id": "copper-29",
+        "has_fragments": true,
+        "fragment_id": "122493",
+        "req_pieces": 1,
+        "req_items": [
+            "Scale Mail"
+        ]
+    },
+    "102521": {
+        "name_en": "Priestess Hood",
+        "name_jp": "修道女のフード",
+        "name": "Nun's Hood",
+        "id": "copper-30",
+        "has_fragments": true,
+        "fragment_id": "122521",
+        "req_pieces": 1,
+        "req_items": [
+            "Doctorless Staff"
+        ]
+    },
+    "102551": {
+        "name_en": "Jewel of Courage",
+        "name_jp": "勇気の宝珠",
+        "name": "Jewel of Courage",
+        "id": "copper-31",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102552": {
+        "name_en": "Spiked Bangle",
+        "name_jp": "スパイクバングル",
+        "name": "Spike Bangle",
+        "id": "copper-32",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102581": {
+        "name_en": "Benevolent Jewel",
+        "name_jp": "仁愛の宝珠",
+        "name": "Jewel of Love",
+        "id": "copper-33",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102582": {
+        "name_en": "Victory Friendship Bracelet",
+        "name_jp": "勝利のミサンガ",
+        "name": "Victory Friendship Bracelet",
+        "id": "copper-34",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102611": {
+        "name_en": "Magic Glasses",
+        "name_jp": "マジックグラス",
+        "name": "Magic Glasses",
+        "id": "copper-35",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102612": {
+        "name_en": "Orb of Wisdom",
+        "name_jp": "智慧の宝珠",
+        "name": "Jewel of Wisdom",
+        "id": "copper-36",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "102613": {
+        "name_en": "Magic Monocle",
+        "name_jp": "マジックモノクル",
+        "name": "Magic Monocle",
+        "id": "copper-37",
+        "has_fragments": true,
+        "fragment_id": "122613",
+        "req_pieces": 1,
+        "req_items": [
+            "Fighting Bracelet"
+        ]
+    },
+    "102614": {
+        "name_en": "Patterned Bracelet",
+        "name_jp": "文様の腕輪",
+        "name": "Pattern Bracelet",
+        "id": "copper-38",
+        "has_fragments": true,
+        "fragment_id": "122614",
+        "req_pieces": 1,
+        "req_items": [
+            "Jewel of Wisdom"
+        ]
+    },
+    "103011": {
+        "name_en": "Sparkling Sword",
+        "name_jp": "煌めきの剣",
+        "name": "Sparkling Sword",
+        "id": "silver-1",
+        "has_fragments": true,
+        "fragment_id": "113011",
+        "req_pieces": 3,
+        "req_items": []
+    },
+    "103012": {
+        "name_en": "Dragon Crest Sword",
+        "name_jp": "竜紋剣",
+        "name": "Ryuumon Sword",
+        "id": "silver-2",
+        "has_fragments": true,
+        "fragment_id": "113012",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103013": {
+        "name_en": "Feather Blade",
+        "name_jp": "フェザーブレード",
+        "name": "Feather Blade",
+        "id": "silver-3",
+        "has_fragments": true,
+        "fragment_id": "113013",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103041": {
+        "name_en": "Moonlight Sword",
+        "name_jp": "月光刀",
+        "name": "Moonlight Sword",
+        "id": "silver-4",
+        "has_fragments": true,
+        "fragment_id": "123041",
+        "req_pieces": 5,
+        "req_items": [
+            "Platinum Knife"
+        ]
+    },
+    "103042": {
+        "name_en": "Thunder Katana",
+        "name_jp": "雷神刀",
+        "name": "Thunder God Sword",
+        "id": "silver-5",
+        "has_fragments": true,
+        "fragment_id": "123042",
+        "req_pieces": 5,
+        "req_items": [
+            "Ryuumon Sword"
+        ]
+    },
+    "103071": {
+        "name_en": "Platinum Knife",
+        "name_jp": "プラチナナイフ",
+        "name": "Platinum Knife",
+        "id": "silver-6",
+        "has_fragments": true,
+        "fragment_id": "113071",
+        "req_pieces": 3,
+        "req_items": []
+    },
+    "103072": {
+        "name_en": "Vampire's Dagger",
+        "name_jp": "ヴァンパイアダガー",
+        "name": "Vampire Dagger",
+        "id": "silver-7",
+        "has_fragments": true,
+        "fragment_id": "123072",
+        "req_pieces": 5,
+        "req_items": [
+            "Lion Eagle's Feather"
+        ]
+    },
+    "103101": {
+        "name_en": "Dragon's Claw",
+        "name_jp": "ドラゴンズクロー",
+        "name": "Dragon's Claw",
+        "id": "silver-8",
+        "has_fragments": true,
+        "fragment_id": "113101",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103131": {
+        "name_en": "Cupid's Bow",
+        "name_jp": "キューピッドの弓",
+        "name": "Cupid's Bow",
+        "id": "silver-9",
+        "has_fragments": true,
+        "fragment_id": "113131",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103132": {
+        "name_en": "Devil's Bow",
+        "name_jp": "デビルズボウ",
+        "name": "Devil's Bow",
+        "id": "silver-10",
+        "has_fragments": true,
+        "fragment_id": "123132",
+        "req_pieces": 5,
+        "req_items": [
+            "Cupid's Bow"
+        ]
+    },
+    "103161": {
+        "name_en": "A Knight's Pride",
+        "name_jp": "騎士の誇り",
+        "name": "Knight's Pride",
+        "id": "silver-11",
+        "has_fragments": true,
+        "fragment_id": "123161",
+        "req_pieces": 3,
+        "req_items": [
+            "Trident"
+        ]
+    },
+    "103162": {
+        "name_en": "Super Spear",
+        "name_jp": "アブソリュートスピア",
+        "name": "Absolute Spear",
+        "id": "silver-12",
+        "has_fragments": true,
+        "fragment_id": "113162",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103191": {
+        "name_en": "Blue Sphere Axe",
+        "name_jp": "ブルースフィアアックス",
+        "name": "Blue Sphere Axe",
+        "id": "silver-13",
+        "has_fragments": true,
+        "fragment_id": "113191",
+        "req_pieces": 3,
+        "req_items": []
+    },
+    "103192": {
+        "name_en": "Graceful Flower Battleaxe",
+        "name_jp": "麗花の戦斧",
+        "name": "Lion's Battle Axe",
+        "id": "silver-14",
+        "has_fragments": true,
+        "fragment_id": "123192",
+        "req_pieces": 5,
+        "req_items": [
+            "Blue Sphere Axe",
+            "Blue Blood"
+        ]
+    },
+    "103193": {
+        "name_en": "Lightning Bolt Axe",
+        "name_jp": "稲妻の斧",
+        "name": "Lightning Axe",
+        "id": "silver-15",
+        "has_fragments": true,
+        "fragment_id": "123193",
+        "req_pieces": 5,
+        "req_items": [
+            "Lion's Battle Axe"
+        ]
+    },
+    "103221": {
+        "name_en": "Thornblood Rod",
+        "name_jp": "ソーンブラッドロッド",
+        "name": "Thorn Blood Rod",
+        "id": "silver-16",
+        "has_fragments": true,
+        "fragment_id": "113221",
+        "req_pieces": 3,
+        "req_items": []
+    },
+    "103222": {
+        "name_en": "Devil's Horn",
+        "name_jp": "デビルズホーン",
+        "name": "Devil's Horn",
+        "id": "silver-17",
+        "has_fragments": true,
+        "fragment_id": "113222",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103251": {
+        "name_en": "Protector of the Heavens",
+        "name_jp": "天球の見守り",
+        "name": "Celestial Sphere Watcher",
+        "id": "silver-18",
+        "has_fragments": true,
+        "fragment_id": "123251",
+        "req_pieces": 3,
+        "req_items": [
+            "Doctorless Staff"
+        ]
+    },
+    "103252": {
+        "name_en": "Flower Bud Staff",
+        "name_jp": "花蕾の杖",
+        "name": "Flower Bud Wand",
+        "id": "silver-19",
+        "has_fragments": true,
+        "fragment_id": "113252",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103281": {
+        "name_en": "Fashionable Armor",
+        "name_jp": "ファッションアーマー",
+        "name": "Fashion Armor",
+        "id": "silver-20",
+        "has_fragments": true,
+        "fragment_id": "123281",
+        "req_pieces": 5,
+        "req_items": [
+            "Light Plate"
+        ]
+    },
+    "103282": {
+        "name_en": "Battle Dress",
+        "name_jp": "バトリングドレス",
+        "name": "Battling Dress",
+        "id": "silver-21",
+        "has_fragments": true,
+        "fragment_id": "123282",
+        "req_pieces": 5,
+        "req_items": [
+            "Light Plate",
+            "High Metal Plate"
+        ]
+    },
+    "103283": {
+        "name_en": "Heavy Metal Armor",
+        "name_jp": "ヘビーメタルアーマー",
+        "name": "Heavy Metal Armor",
+        "id": "silver-22",
+        "has_fragments": true,
+        "fragment_id": "113283",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103311": {
+        "name_en": "Gorgeous Armor",
+        "name_jp": "ゴージャスアーマー",
+        "name": "Gorgeous Armor",
+        "id": "silver-23",
+        "has_fragments": true,
+        "fragment_id": "123311",
+        "req_pieces": 5,
+        "req_items": [
+            "High Metal Plate"
+        ]
+    },
+    "103341": {
+        "name_en": "Leather Robe",
+        "name_jp": "ミルフィーユクロース",
+        "name": "Millefeuille Cloth",
+        "id": "silver-24",
+        "has_fragments": true,
+        "fragment_id": "123341",
+        "req_pieces": 5,
+        "req_items": [
+            "Shinobi Costume"
+        ]
+    },
+    "103342": {
+        "name_en": "Palace Uniform",
+        "name_jp": "パレスクロース",
+        "name": "Palace Cloth",
+        "id": "silver-25",
+        "has_fragments": true,
+        "fragment_id": "113342",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103343": {
+        "name_en": "Cosmic Veil",
+        "name_jp": "コスモスクロース",
+        "name": "Cosmos Cloth",
+        "id": "silver-26",
+        "has_fragments": true,
+        "fragment_id": "123343",
+        "req_pieces": 5,
+        "req_items": [
+            "Millefeuille Cloth",
+            "Turquoise Earrings"
+        ]
+    },
+    "103371": {
+        "name_en": "Cupid's Robe",
+        "name_jp": "キューピッドのローブ",
+        "name": "Cupid Robe",
+        "id": "silver-27",
+        "has_fragments": true,
+        "fragment_id": "123371",
+        "req_pieces": 5,
+        "req_items": [
+            "Nordic Robe"
+        ]
+    },
+    "103372": {
+        "name_en": "Philosopher's Robe",
+        "name_jp": "哲学者のローブ",
+        "name": "Philosopher's Robe",
+        "id": "silver-28",
+        "has_fragments": true,
+        "fragment_id": "113372",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103401": {
+        "name_en": "Garnet Shield",
+        "name_jp": "ガーネットシールド",
+        "name": "Garnet Shield",
+        "id": "silver-29",
+        "has_fragments": true,
+        "fragment_id": "113401",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103431": {
+        "name_en": "Ninja Shoes",
+        "name_jp": "忍び足",
+        "name": "Shinobi Shoes",
+        "id": "silver-30",
+        "has_fragments": true,
+        "fragment_id": "113431",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103432": {
+        "name_en": "Fencing Boots",
+        "name_jp": "フェンサーブーツ",
+        "name": "Fencer Boots",
+        "id": "silver-31",
+        "has_fragments": true,
+        "fragment_id": "123432",
+        "req_pieces": 5,
+        "req_items": [
+            "Shinobi Shoes"
+        ]
+    },
+    "103461": {
+        "name_en": "Witch's Palace Boots",
+        "name_jp": "ウィッチパレスブーツ",
+        "name": "Witch Palace Boots",
+        "id": "silver-32",
+        "has_fragments": true,
+        "fragment_id": "123461",
+        "req_pieces": 5,
+        "req_items": [
+            "Pattern Bracelet",
+            "Hunting Boots"
+        ]
+    },
+    "103491": {
+        "name_en": "Dragon's Head",
+        "name_jp": "ドラゴンヘッド",
+        "name": "Dragon Head",
+        "id": "silver-33",
+        "has_fragments": true,
+        "fragment_id": "123491",
+        "req_pieces": 5,
+        "req_items": [
+            "High Metal Plate",
+            "Legion Helm"
+        ]
+    },
+    "103521": {
+        "name_en": "Witch's Headband",
+        "name_jp": "ウィッチカチューシャ",
+        "name": "Witch Headband",
+        "id": "silver-34",
+        "has_fragments": true,
+        "fragment_id": "113521",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103522": {
+        "name_en": "Witch's Hat",
+        "name_jp": "ウィッチハット",
+        "name": "Witch Hat",
+        "id": "silver-35",
+        "has_fragments": true,
+        "fragment_id": "113522",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103551": {
+        "name_en": "Opal Earrings",
+        "name_jp": "オパールイヤリング",
+        "name": "Opal Earrings",
+        "id": "silver-36",
+        "has_fragments": true,
+        "fragment_id": "113551",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103552": {
+        "name_en": "Gryphon Feather Headdress",
+        "name_jp": "鷲獅子の羽飾り",
+        "name": "Lion Eagle's Feather",
+        "id": "silver-37",
+        "has_fragments": true,
+        "fragment_id": "113552",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103553": {
+        "name_en": "Scarlet Diamonds",
+        "name_jp": "スカーレットダイヤ",
+        "name": "Scarlet Diamond",
+        "id": "silver-38",
+        "has_fragments": true,
+        "fragment_id": "113553",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103581": {
+        "name_en": "Emerald Earrings",
+        "name_jp": "エメラルドイヤリング",
+        "name": "Emerald Earrings",
+        "id": "silver-39",
+        "has_fragments": true,
+        "fragment_id": "113581",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103582": {
+        "name_en": "Octagram Pendant",
+        "name_jp": "オクタグラムペンダント",
+        "name": "Octogram Pendant",
+        "id": "silver-40",
+        "has_fragments": true,
+        "fragment_id": "123582",
+        "req_pieces": 5,
+        "req_items": [
+            "Victory Friendship Bracelet"
+        ]
+    },
+    "103583": {
+        "name_en": "Lion King's Grace",
+        "name_jp": "獅子王の守護",
+        "name": "Lion King's Protective Charm",
+        "id": "silver-41",
+        "has_fragments": true,
+        "fragment_id": "123583",
+        "req_pieces": 5,
+        "req_items": [
+            "Emerald Earrings"
+        ]
+    },
+    "103611": {
+        "name_en": "Turquoise Earrings",
+        "name_jp": "ターコイズイヤリング",
+        "name": "Turquoise Earrings",
+        "id": "silver-42",
+        "has_fragments": true,
+        "fragment_id": "113611",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "103612": {
+        "name_en": "Pearl Earrings",
+        "name_jp": "パールイヤリング",
+        "name": "Pearl Earrings",
+        "id": "silver-43",
+        "has_fragments": true,
+        "fragment_id": "123612",
+        "req_pieces": 5,
+        "req_items": [
+            "Pattern Bracelet"
+        ]
+    },
+    "103613": {
+        "name_en": "Sorcerer Glasses",
+        "name_jp": "ソーサラーグラス",
+        "name": "Sorcerer's Glasses",
+        "id": "silver-44",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 0,
+        "req_items": [
+            "Turquoise Earrings",
+            "Pattern Bracelet"
+        ]
+    },
+    "103614": {
+        "name_en": "Laurel's Sorrow",
+        "name_jp": "月桂樹の哀しみ",
+        "name": "Laurel's Sorrow",
+        "id": "silver-45",
+        "has_fragments": true,
+        "fragment_id": "113614",
+        "req_pieces": 5,
+        "req_items": []
+    },
+    "104011": {
+        "name_en": "Angelic Blade",
+        "name_jp": "エンジェルブレード",
+        "name": "Angel Blade",
+        "id": "gold-1",
+        "has_fragments": true,
+        "fragment_id": "114011",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104012": {
+        "name_en": "Sun Blade",
+        "name_jp": "太陽剣",
+        "name": "Solar Sword",
+        "id": "gold-2",
+        "has_fragments": true,
+        "fragment_id": "114012",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104013": {
+        "name_en": "Frozen Claymore",
+        "name_jp": "アイスクレイモア",
+        "name": "Ice Claymore",
+        "id": "gold-3",
+        "has_fragments": true,
+        "fragment_id": "114013",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104014": {
+        "name_en": "Chaos Blade",
+        "name_jp": "カオスブレード",
+        "name": "Chaos Blade",
+        "id": "gold-4",
+        "has_fragments": true,
+        "fragment_id": "114014",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104041": {
+        "name_en": "Beautiful Butterfly Katana",
+        "name_jp": "妖蝶の刀",
+        "name": "Butterfly Katana",
+        "id": "gold-5",
+        "has_fragments": true,
+        "fragment_id": "114041",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104042": {
+        "name_en": "Iridescent Blade",
+        "name_jp": "光輝の剣",
+        "name": "Bright Sword",
+        "id": "gold-6",
+        "has_fragments": true,
+        "fragment_id": "124042",
+        "req_pieces": 20,
+        "req_items": [
+            "Feather Blade"
+        ]
+    },
+    "104043": {
+        "name_en": "Falcon Sword",
+        "name_jp": "鷹神の煌剣",
+        "name": "Hawk God's Sword",
+        "id": "gold-7",
+        "has_fragments": true,
+        "fragment_id": "114043",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104044": {
+        "name_en": "Sunbird Katana",
+        "name_jp": "鳳凰刀",
+        "name": "Phoenix Sword",
+        "id": "gold-8",
+        "has_fragments": true,
+        "fragment_id": "124044",
+        "req_pieces": 20,
+        "req_items": [
+            "Butterfly Katana"
+        ]
+    },
+    "104071": {
+        "name_en": "Precious Knife",
+        "name_jp": "プレシャスナイフ",
+        "name": "Precious Knife",
+        "id": "gold-9",
+        "has_fragments": true,
+        "fragment_id": "124071",
+        "req_pieces": 20,
+        "req_items": [
+            "Feather Blade"
+        ]
+    },
+    "104072": {
+        "name_en": "Princess Blade",
+        "name_jp": "プリンセスの懐剣",
+        "name": "Princess' Dagger",
+        "id": "gold-10",
+        "has_fragments": true,
+        "fragment_id": "114072",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104073": {
+        "name_en": "Dark Matter Blade",
+        "name_jp": "ダークマターエッジ",
+        "name": "Dark Matter Edge",
+        "id": "gold-11",
+        "has_fragments": true,
+        "fragment_id": "114073",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104074": {
+        "name_en": "Unicorn Knife",
+        "name_jp": "ユニコーンナイフ",
+        "name": "Unicorn Knife",
+        "id": "gold-12",
+        "has_fragments": true,
+        "fragment_id": "124074",
+        "req_pieces": 20,
+        "req_items": [
+            "Princess' Dagger"
+        ]
+    },
+    "104101": {
+        "name_en": "Blazing Gauntlet",
+        "name_jp": "火焔のガントレット",
+        "name": "Blazing Gauntlet",
+        "id": "gold-13",
+        "has_fragments": true,
+        "fragment_id": "124101",
+        "req_pieces": 20,
+        "req_items": [
+            "Dragon's Claw",
+            "Lion Eagle's Feather"
+        ]
+    },
+    "104102": {
+        "name_en": "Lionheart's Gauntlet",
+        "name_jp": "獅子王のガントレット",
+        "name": "Lion King Gauntlet",
+        "id": "gold-14",
+        "has_fragments": true,
+        "fragment_id": "114102",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104103": {
+        "name_en": "Blizzard Claw",
+        "name_jp": "ブリザードクロー",
+        "name": "Blizzard Claw",
+        "id": "gold-15",
+        "has_fragments": true,
+        "fragment_id": "124103",
+        "req_pieces": 20,
+        "req_items": [
+            "Blazing Gauntlet",
+            "Turquoise Earrings"
+        ]
+    },
+    "104104": {
+        "name_en": "Azure Thunder",
+        "name_jp": "蒼雷拳",
+        "name": "Lightning Fist",
+        "id": "gold-16",
+        "has_fragments": true,
+        "fragment_id": "114104",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104131": {
+        "name_en": "Lightning Bow",
+        "name_jp": "雷光弓",
+        "name": "Lightning Bow",
+        "id": "gold-17",
+        "has_fragments": true,
+        "fragment_id": "124131",
+        "req_pieces": 20,
+        "req_items": [
+            "Turquoise Earrings",
+            "Devil's Bow"
+        ]
+    },
+    "104132": {
+        "name_en": "Angel Bow",
+        "name_jp": "エンジェルボウ",
+        "name": "Angel Bow",
+        "id": "gold-18",
+        "has_fragments": true,
+        "fragment_id": "114132",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104133": {
+        "name_en": "Artemis Bow",
+        "name_jp": "アルテミスボウ",
+        "name": "Artemis Bow",
+        "id": "gold-19",
+        "has_fragments": true,
+        "fragment_id": "114133",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104134": {
+        "name_en": "Feywood Bow",
+        "name_jp": "精霊樹の弓",
+        "name": "Spirit Tree Bow",
+        "id": "gold-20",
+        "has_fragments": true,
+        "fragment_id": "114134",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104161": {
+        "name_en": "Scarlet Dragon Lance",
+        "name_jp": "緋竜槍",
+        "name": "Scarlet Dragon",
+        "id": "gold-21",
+        "has_fragments": true,
+        "fragment_id": "124161",
+        "req_pieces": 20,
+        "req_items": [
+            "Absolute Spear",
+            "Opal Earrings"
+        ]
+    },
+    "104162": {
+        "name_en": "Queen Bee Spear",
+        "name_jp": "クイーンビースピア",
+        "name": "Queen Bee Spear",
+        "id": "gold-22",
+        "has_fragments": true,
+        "fragment_id": "114162",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104163": {
+        "name_en": "Stormbringer",
+        "name_jp": "ストームブリンガー",
+        "name": "Storm Bringer",
+        "id": "gold-23",
+        "has_fragments": true,
+        "fragment_id": "124163",
+        "req_pieces": 20,
+        "req_items": [
+            "Scarlet Dragon"
+        ]
+    },
+    "104164": {
+        "name_en": "Gaia Bardiche",
+        "name_jp": "ガイアバルディッシュ",
+        "name": "Gaia Bardiche",
+        "id": "gold-24",
+        "has_fragments": true,
+        "fragment_id": "114164",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104191": {
+        "name_en": "Purple Dragon Axe",
+        "name_jp": "紫龍斧",
+        "name": "Shiryuu Axe",
+        "id": "gold-25",
+        "has_fragments": true,
+        "fragment_id": "114191",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104192": {
+        "name_en": "Hellfire Axe",
+        "name_jp": "ヘルファイアアックス",
+        "name": "Hell-Fire Axe",
+        "id": "gold-26",
+        "has_fragments": true,
+        "fragment_id": "124192",
+        "req_pieces": 20,
+        "req_items": [
+            "Scarlet Diamond"
+        ]
+    },
+    "104193": {
+        "name_en": "Warrior Queen's Battle Axe",
+        "name_jp": "戦女王の烈斧",
+        "name": "Queen's Battle Axe",
+        "id": "gold-27",
+        "has_fragments": true,
+        "fragment_id": "114193",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104194": {
+        "name_en": "Aqua Slasher",
+        "name_jp": "アクアスラッシャー",
+        "name": "Aqua Slasher",
+        "id": "gold-28",
+        "has_fragments": true,
+        "fragment_id": "114194",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104221": {
+        "name_en": "Fury Rod",
+        "name_jp": "フューリーロッド",
+        "name": "Fury Rod",
+        "id": "gold-29",
+        "has_fragments": true,
+        "fragment_id": "114221",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104222": {
+        "name_en": "Sun Rod",
+        "name_jp": "太陽のロッド",
+        "name": "Rod of Sun",
+        "id": "gold-30",
+        "has_fragments": true,
+        "fragment_id": "114222",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104223": {
+        "name_en": "Staff of Themis",
+        "name_jp": "司法神の錫杖",
+        "name": "Justice God's Staff",
+        "id": "gold-31",
+        "has_fragments": true,
+        "fragment_id": "114223",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104224": {
+        "name_en": "Archdemon's Wand",
+        "name_jp": "ハイデビルズワンド",
+        "name": "High Devil Wand",
+        "id": "gold-32",
+        "has_fragments": true,
+        "fragment_id": "124224",
+        "req_pieces": 20,
+        "req_items": [
+            "Fury Rod",
+            "Mourning Crescent Moon"
+        ]
+    },
+    "104251": {
+        "name_en": "Moon Flower Cane",
+        "name_jp": "月華杖",
+        "name": "Moon Wand",
+        "id": "gold-33",
+        "has_fragments": true,
+        "fragment_id": "124251",
+        "req_pieces": 20,
+        "req_items": [
+            "Devil's Horn"
+        ]
+    },
+    "104252": {
+        "name_en": "Life Rod",
+        "name_jp": "生命のロッド",
+        "name": "Rod of Life",
+        "id": "gold-34",
+        "has_fragments": true,
+        "fragment_id": "114252",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104253": {
+        "name_en": "Phoenix Staff",
+        "name_jp": "フェニックスロッド",
+        "name": "Phoenix Rod",
+        "id": "gold-35",
+        "has_fragments": true,
+        "fragment_id": "124253",
+        "req_pieces": 20,
+        "req_items": [
+            "Moon Wand",
+            "Laurel's Sorrow",
+            "Scarlet Diamond"
+        ]
+    },
+    "104254": {
+        "name_en": "Archangel Rod",
+        "name_jp": "ハイエンジェルロッド",
+        "name": "High Angel Rod",
+        "id": "gold-36",
+        "has_fragments": true,
+        "fragment_id": "114254",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104281": {
+        "name_en": "Invisible Dress",
+        "name_jp": "インビジブルドレス",
+        "name": "Invisible Dress",
+        "id": "gold-37",
+        "has_fragments": true,
+        "fragment_id": "114281",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104282": {
+        "name_en": "Mythril Plate",
+        "name_jp": "ミスリルプレート",
+        "name": "Mythril Plate",
+        "id": "gold-38",
+        "has_fragments": true,
+        "fragment_id": "124282",
+        "req_pieces": 20,
+        "req_items": [
+            "Battling Dress",
+            "Garnet Shield",
+            "Lion Eagle's Feather"
+        ]
+    },
+    "104283": {
+        "name_en": "Crusader Plate",
+        "name_jp": "クルセイダープレート",
+        "name": "Crusader Plate",
+        "id": "gold-39",
+        "has_fragments": true,
+        "fragment_id": "124283",
+        "req_pieces": 20,
+        "req_items": [
+            "Invisible Dress"
+        ]
+    },
+    "104284": {
+        "name_en": "Scarlet Mail",
+        "name_jp": "スカーレットメイル",
+        "name": "Scarlet Mail",
+        "id": "gold-40",
+        "has_fragments": true,
+        "fragment_id": "124284",
+        "req_pieces": 20,
+        "req_items": [
+            "Invisible Dress",
+            "Elemental Heart"
+        ]
+    },
+    "104311": {
+        "name_en": "Angelic Armor",
+        "name_jp": "エンジェルアーマー",
+        "name": "Angel Armor",
+        "id": "gold-41",
+        "has_fragments": true,
+        "fragment_id": "124311",
+        "req_pieces": 20,
+        "req_items": [
+            "Lion King's Protective Charm",
+            "Gorgeous Armor"
+        ]
+    },
+    "104312": {
+        "name_en": "Vermillion Mail",
+        "name_jp": "バーミリオンメイル",
+        "name": "Vermilion Plate",
+        "id": "gold-42",
+        "has_fragments": true,
+        "fragment_id": "124312",
+        "req_pieces": 20,
+        "req_items": [
+            "Heavy Metal Armor",
+            "Absolute Spear"
+        ]
+    },
+    "104313": {
+        "name_en": "Violet Armor",
+        "name_jp": "バイオレットアーマー",
+        "name": "Violet Armor",
+        "id": "gold-43",
+        "has_fragments": true,
+        "fragment_id": "124313",
+        "req_pieces": 20,
+        "req_items": [
+            "Mythril Plate"
+        ]
+    },
+    "104314": {
+        "name_en": "Draconic Armor",
+        "name_jp": "ドラゴニックアーマー",
+        "name": "Dragonic Armor",
+        "id": "gold-44",
+        "has_fragments": true,
+        "fragment_id": "124314",
+        "req_pieces": 20,
+        "req_items": [
+            "Vermilion Plate",
+            "Scarlet Dragon"
+        ]
+    },
+    "104341": {
+        "name_en": "Moonlit Robe",
+        "name_jp": "月下の法衣",
+        "name": "Moonlight Garment",
+        "id": "gold-45",
+        "has_fragments": true,
+        "fragment_id": "114341",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104342": {
+        "name_en": "Hermit's Robe",
+        "name_jp": "ハーミットクロース",
+        "name": "Hermit Clothes",
+        "id": "gold-46",
+        "has_fragments": true,
+        "fragment_id": "124342",
+        "req_pieces": 20,
+        "req_items": [
+            "Vampire Dagger",
+            "Opal Earrings"
+        ]
+    },
+    "104343": {
+        "name_en": "Azure Robe",
+        "name_jp": "蒼天のローブ",
+        "name": "Heavenly Robe",
+        "id": "gold-47",
+        "has_fragments": true,
+        "fragment_id": "124343",
+        "req_pieces": 20,
+        "req_items": [
+            "Moonlight Garment"
+        ]
+    },
+    "104344": {
+        "name_en": "Dark Terror Dress",
+        "name_jp": "ダークテラードレス",
+        "name": "Dark Terror Dress",
+        "id": "gold-48",
+        "has_fragments": true,
+        "fragment_id": "124344",
+        "req_pieces": 20,
+        "req_items": [
+            "Hermit Clothes",
+            "Shiryuu Axe"
+        ]
+    },
+    "104371": {
+        "name_en": "Grand Wizard's Robe",
+        "name_jp": "大魔導師のローブ",
+        "name": "Grand Magician's Robe",
+        "id": "gold-49",
+        "has_fragments": true,
+        "fragment_id": "114371",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104372": {
+        "name_en": "Saint's Robe",
+        "name_jp": "聖者のローブ",
+        "name": "Saint's Robe",
+        "id": "gold-50",
+        "has_fragments": true,
+        "fragment_id": "124372",
+        "req_pieces": 20,
+        "req_items": [
+            "Laurel's Sorrow",
+            "Pearl Earrings"
+        ]
+    },
+    "104373": {
+        "name_en": "Viridian Robe",
+        "name_jp": "翠緑の霊衣",
+        "name": "Viridian Spiritual Dress",
+        "id": "gold-51",
+        "has_fragments": true,
+        "fragment_id": "124373",
+        "req_pieces": 20,
+        "req_items": [
+            "Saint's Robe",
+            "Moon Wand"
+        ]
+    },
+    "104401": {
+        "name_en": "Empress Shield",
+        "name_jp": "エンプレスシールド",
+        "name": "Empress Shield",
+        "id": "gold-52",
+        "has_fragments": true,
+        "fragment_id": "124401",
+        "req_pieces": 20,
+        "req_items": [
+            "Lion King's Protective Charm",
+            "Sorcerer's Glasses"
+        ]
+    },
+    "104402": {
+        "name_en": "Guardian Shield",
+        "name_jp": "ガーディアンシールド",
+        "name": "Guardian Shield",
+        "id": "gold-53",
+        "has_fragments": true,
+        "fragment_id": "124402",
+        "req_pieces": 20,
+        "req_items": [
+            "Empress Shield"
+        ]
+    },
+    "104431": {
+        "name_en": "Paladin Greaves",
+        "name_jp": "パラディングリーブ",
+        "name": "Paladin Greave",
+        "id": "gold-54",
+        "has_fragments": true,
+        "fragment_id": "124431",
+        "req_pieces": 20,
+        "req_items": [
+            "Shinobi Shoes",
+            "Opal Earrings",
+            "Emerald Earrings"
+        ]
+    },
+    "104432": {
+        "name_en": "Angel Boots",
+        "name_jp": "エンジェルブーツ",
+        "name": "Angel Boots",
+        "id": "gold-55",
+        "has_fragments": true,
+        "fragment_id": "124432",
+        "req_pieces": 20,
+        "req_items": [
+            "Octogram Pendant",
+            "Feather Blade"
+        ]
+    },
+    "104433": {
+        "name_en": "Faerie Boots",
+        "name_jp": "フェアリアルブーツ",
+        "name": "Faireal Boots",
+        "id": "gold-56",
+        "has_fragments": true,
+        "fragment_id": "124433",
+        "req_pieces": 20,
+        "req_items": [
+            "Angel Boots",
+            "Laurel's Sorrow",
+            "Lion King's Protective Charm"
+        ]
+    },
+    "104461": {
+        "name_en": "Wizard's Boots",
+        "name_jp": "ウィザードブーツ",
+        "name": "Wizard Boots",
+        "id": "gold-57",
+        "has_fragments": true,
+        "fragment_id": "114461",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104462": {
+        "name_en": "Necromancer Boots",
+        "name_jp": "ネクロマンサーブーツ",
+        "name": "Necromancer Boots",
+        "id": "gold-58",
+        "has_fragments": true,
+        "fragment_id": "124462",
+        "req_pieces": 20,
+        "req_items": [
+            "Wizard Boots",
+            "Devil's Horn"
+        ]
+    },
+    "104463": {
+        "name_en": "Aquarius Boots",
+        "name_jp": "アクエリアスブーツ",
+        "name": "Aquarius Boots",
+        "id": "gold-59",
+        "has_fragments": true,
+        "fragment_id": "124463",
+        "req_pieces": 20,
+        "req_items": [
+            "Wizard Boots",
+            "Bangle of Substitution"
+        ]
+    },
+    "104491": {
+        "name_en": "Feather Waltz",
+        "name_jp": "フェザーワルツ",
+        "name": "Feather Waltz",
+        "id": "gold-60",
+        "has_fragments": true,
+        "fragment_id": "124491",
+        "req_pieces": 20,
+        "req_items": [
+            "Lion King's Protective Charm",
+            "Legion Helm"
+        ]
+    },
+    "104521": {
+        "name_en": "Wizard's Hood",
+        "name_jp": "ウィザードフード",
+        "name": "Wizard Hood",
+        "id": "gold-61",
+        "has_fragments": true,
+        "fragment_id": "124521",
+        "req_pieces": 20,
+        "req_items": [
+            "Laurel's Sorrow"
+        ]
+    },
+    "104522": {
+        "name_en": "Holy Hood",
+        "name_jp": "法王のフード",
+        "name": "Pope's Hood",
+        "id": "gold-62",
+        "has_fragments": true,
+        "fragment_id": "124522",
+        "req_pieces": 20,
+        "req_items": [
+            "Lion King's Protective Charm",
+            "Witch Hat",
+            "Cupid Robe"
+        ]
+    },
+    "104523": {
+        "name_en": "Gospel Tiara",
+        "name_jp": "福音のティアラ",
+        "name": "Gospel Tiara",
+        "id": "gold-63",
+        "has_fragments": true,
+        "fragment_id": "124523",
+        "req_pieces": 20,
+        "req_items": [
+            "Wizard Hood",
+            "Laurel's Sorrow",
+            "Pearl Earrings"
+        ]
+    },
+    "104551": {
+        "name_en": "Elemental Heart",
+        "name_jp": "エレメンタルハート",
+        "name": "Elemental Heart",
+        "id": "gold-64",
+        "has_fragments": true,
+        "fragment_id": "114551",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104552": {
+        "name_en": "Sun Amulet",
+        "name_jp": "太陽のアミュレット",
+        "name": "Sun Amulet",
+        "id": "gold-65",
+        "has_fragments": true,
+        "fragment_id": "114552",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104553": {
+        "name_en": "Sovereign Flame",
+        "name_jp": "焔帝の指輪",
+        "name": "Firelord's Ring",
+        "id": "gold-66",
+        "has_fragments": true,
+        "fragment_id": "114553",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104554": {
+        "name_en": "Feline Pendant",
+        "name_jp": "猫神のペンダント",
+        "name": "Cat God Pendant",
+        "id": "gold-67",
+        "has_fragments": true,
+        "fragment_id": "114554",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104581": {
+        "name_en": "Sacrificial Bangles",
+        "name_jp": "身代わりのバングル",
+        "name": "Bangle of Substitution",
+        "id": "gold-68",
+        "has_fragments": true,
+        "fragment_id": "114581",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104582": {
+        "name_en": "Lunar Bracelet",
+        "name_jp": "月のブレスレット",
+        "name": "Moon Bracelet",
+        "id": "gold-69",
+        "has_fragments": true,
+        "fragment_id": "114582",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104583": {
+        "name_en": "Disciple's Pendant",
+        "name_jp": "聖信徒のペンダント",
+        "name": "Congregation Pendant",
+        "id": "gold-70",
+        "has_fragments": true,
+        "fragment_id": "114583",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104611": {
+        "name_en": "Selene's Lament",
+        "name_jp": "三日月の嘆き",
+        "name": "Mourning Crescent Moon",
+        "id": "gold-71",
+        "has_fragments": true,
+        "fragment_id": "114611",
+        "req_pieces": 20,
+        "req_items": []
+    },
+    "104612": {
+        "name_en": "Dragon's Tears",
+        "name_jp": "竜の涙",
+        "name": "Dragon's Tear",
+        "id": "gold-72",
+        "has_fragments": true,
+        "fragment_id": "114612",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "104613": {
+        "name_en": "Archsage's Orb",
+        "name_jp": "大賢者の宝珠",
+        "name": "Great Sage Gem",
+        "id": "gold-73",
+        "has_fragments": true,
+        "fragment_id": "114613",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "105011": {
+        "name_en": "Lightning Blade",
+        "name_jp": "ライトニングブレード",
+        "name": "Lightning Blade",
+        "id": "purple-1",
+        "has_fragments": true,
+        "fragment_id": "115011",
+        "req_pieces": 35,
+        "req_items": []
+    },
+    "105012": {
+        "name_en": "Sword of Liberation",
+        "name_jp": "天開の聖剣",
+        "name": "Dawn's Holy Sword",
+        "id": "purple-2",
+        "has_fragments": true,
+        "fragment_id": "125012",
+        "req_pieces": 25,
+        "req_items": [
+            "Solar Sword",
+            "Angel Blade"
+        ]
+    },
+    "105013": {
+        "name_en": "Arbiter's Greatsword",
+        "name_jp": "罪過の大剣",
+        "name": "Great Sword of Sin",
+        "id": "purple-3",
+        "has_fragments": true,
+        "fragment_id": "125013",
+        "req_pieces": 20,
+        "req_items": [
+            "Paladin Greave",
+            "Feather Blade"
+        ]
+    },
+    "105041": {
+        "name_en": "Whiteblossom Blade",
+        "name_jp": "百華白桜刀",
+        "name": "Hundred White Blossom Petals Sword",
+        "id": "purple-8",
+        "has_fragments": true,
+        "fragment_id": "115041",
+        "req_pieces": 35,
+        "req_items": []
+    },
+    "105042": {
+        "name_en": "Forsaken Blue",
+        "name_jp": "流禍の蒼刃",
+        "name": "Flowing Azure Blade",
+        "id": "purple-9",
+        "has_fragments": true,
+        "fragment_id": "115042",
+        "req_pieces": 35,
+        "req_items": []
+    },
+    "105043": {
+        "name_en": "Demon Blade Bloodcrow",
+        "name_jp": "妖刀血鴉",
+        "name": "Blood Raven Sword",
+        "id": "purple-10",
+        "has_fragments": true,
+        "fragment_id": "125043",
+        "req_pieces": 20,
+        "req_items": [
+            "Shiryuu Axe",
+            "Bright Sword"
+        ]
+    },
+    "105071": {
+        "name_en": "Emerald Dagger",
+        "name_jp": "エメラルドダガー",
+        "name": "Emerald Dagger",
+        "id": "purple-15",
+        "has_fragments": true,
+        "fragment_id": "115071",
+        "req_pieces": 35,
+        "req_items": []
+    },
+    "105072": {
+        "name_en": "Molten Edge",
+        "name_jp": "ラヴァエッジ",
+        "name": "Lava Edge",
+        "id": "purple-16",
+        "has_fragments": true,
+        "fragment_id": "125072",
+        "req_pieces": 25,
+        "req_items": [
+            "Precious Knife",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ]
+    },
+    "105073": {
+        "name_en": "Tirnanog Dagger",
+        "name_jp": "ティルナノーグダガー",
+        "name": "Tír na nÓg Dagger",
+        "id": "purple-17",
+        "has_fragments": true,
+        "fragment_id": "115073",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "105101": {
+        "name_en": "Moon Caestus",
+        "name_jp": "ムーンセスタス",
+        "name": "Moon Cestus",
+        "id": "purple-22",
+        "has_fragments": true,
+        "fragment_id": "125101",
+        "req_pieces": 25,
+        "req_items": [
+            "Lion King Gauntlet",
+            "Moon Bracelet"
+        ]
+    },
+    "105102": {
+        "name_en": "Crimson Claws",
+        "name_jp": "クリムゾンクロー",
+        "name": "Crimson Claw",
+        "id": "purple-23",
+        "has_fragments": true,
+        "fragment_id": "115102",
+        "req_pieces": 35,
+        "req_items": []
+    },
+    "105103": {
+        "name_en": "Cocytus Nails",
+        "name_jp": "コキュートスネイル",
+        "name": "Cocytus Nail",
+        "id": "purple-24",
+        "has_fragments": true,
+        "fragment_id": "125103",
+        "req_pieces": 20,
+        "req_items": [
+            "Dragon's Claw",
+            "Ice Claymore"
+        ]
+    },
+    "105131": {
+        "name_en": "Platinum Wingspan",
+        "name_jp": "白銀の大翼弓",
+        "name": "Silver Wing Bow",
+        "id": "purple-29",
+        "has_fragments": true,
+        "fragment_id": "125131",
+        "req_pieces": 25,
+        "req_items": [
+            "Artemis Bow",
+            "Cupid's Bow",
+            "Lion Eagle's Feather"
+        ]
+    },
+    "105132": {
+        "name_en": "Abyss Bow",
+        "name_jp": "アビスボウ",
+        "name": "Abyss Bow",
+        "id": "purple-30",
+        "has_fragments": true,
+        "fragment_id": "115132",
+        "req_pieces": 35,
+        "req_items": []
+    },
+    "105133": {
+        "name_en": "Sunset Bow",
+        "name_jp": "紅天弓",
+        "name": "Heavenly Red Bow",
+        "id": "purple-31",
+        "has_fragments": true,
+        "fragment_id": "115133",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "105161": {
+        "name_en": "Deepfrost Lance",
+        "name_jp": "ゼロフロストランス",
+        "name": "Zero Frost Lance",
+        "id": "purple-36",
+        "has_fragments": true,
+        "fragment_id": "115161",
+        "req_pieces": 35,
+        "req_items": []
+    },
+    "105162": {
+        "name_en": "Gale Stinger",
+        "name_jp": "ゲイルスティンガー",
+        "name": "Gale Stinger",
+        "id": "purple-37",
+        "has_fragments": true,
+        "fragment_id": "125162",
+        "req_pieces": 25,
+        "req_items": [
+            "Queen Bee Spear",
+            "Lion Eagle's Feather"
+        ]
+    },
+    "105163": {
+        "name_en": "Guardian's Pike",
+        "name_jp": "護天の聖槍",
+        "name": "Heaven's Protective Holy Spear",
+        "id": "purple-38",
+        "has_fragments": true,
+        "fragment_id": "115163",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "105191": {
+        "name_en": "Reaper Axe",
+        "name_jp": "ネクロディムアックス",
+        "name": "Necrodim Axe",
+        "id": "purple-43",
+        "has_fragments": true,
+        "fragment_id": "125191",
+        "req_pieces": 25,
+        "req_items": [
+            "Shiryuu Axe",
+            "Necromancer Boots"
+        ]
+    },
+    "105192": {
+        "name_en": "Judgment Axe",
+        "name_jp": "神判の聖斧",
+        "name": "Divine Judgement Axe",
+        "id": "purple-44",
+        "has_fragments": true,
+        "fragment_id": "115192",
+        "req_pieces": 35,
+        "req_items": []
+    },
+    "105193": {
+        "name_en": "Gaia Axe",
+        "name_jp": "ガイアアクス",
+        "name": "Gaia Axe",
+        "id": "purple-45",
+        "has_fragments": true,
+        "fragment_id": "125193",
+        "req_pieces": 20,
+        "req_items": [
+            "Hell-Fire Axe",
+            "Laurel's Sorrow"
+        ]
+    },
+    "105221": {
+        "name_en": "Xenosphere Rod",
+        "name_jp": "ゼノスフィアロッド",
+        "name": "Xenosphere Rod",
+        "id": "purple-50",
+        "has_fragments": true,
+        "fragment_id": "115221",
+        "req_pieces": 35,
+        "req_items": []
+    },
+    "105222": {
+        "name_en": "Genesis Staff",
+        "name_jp": "ジェネシスロッド",
+        "name": "Genesis Rod",
+        "id": "purple-51",
+        "has_fragments": true,
+        "fragment_id": "115222",
+        "req_pieces": 35,
+        "req_items": []
+    },
+    "105223": {
+        "name_en": "Ceraunos Wand",
+        "name_jp": "ケラウノスワンド",
+        "name": "Lightning Wand",
+        "id": "purple-52",
+        "has_fragments": true,
+        "fragment_id": "125223",
+        "req_pieces": 20,
+        "req_items": [
+            "Rod of Sun",
+            "Lightning Bow"
+        ]
+    },
+    "105251": {
+        "name_en": "Pyramour Rod",
+        "name_jp": "フレイアムルロッド",
+        "name": "Flame Rod",
+        "id": "purple-57",
+        "has_fragments": true,
+        "fragment_id": "115251",
+        "req_pieces": 35,
+        "req_items": []
+    },
+    "105252": {
+        "name_en": "Purebloom Rod",
+        "name_jp": "神花の聖杖",
+        "name": "Divine Blossom Rod",
+        "id": "purple-58",
+        "has_fragments": true,
+        "fragment_id": "125252",
+        "req_pieces": 25,
+        "req_items": [
+            "Rod of Life",
+            "Flower Bud Wand"
+        ]
+    },
+    "105253": {
+        "name_en": "Atlantis Rod",
+        "name_jp": "アトランティスロッド",
+        "name": "Atlantis Rod",
+        "id": "purple-59",
+        "has_fragments": true,
+        "fragment_id": "125253",
+        "req_pieces": 20,
+        "req_items": [
+            "Rod of Life",
+            "Mourning Crescent Moon"
+        ]
+    },
+    "105281": {
+        "name_en": "Phantasm Mail",
+        "name_jp": "ファンタズムメイル",
+        "name": "Phantasm Mail",
+        "id": "purple-64",
+        "has_fragments": true,
+        "fragment_id": "125281",
+        "req_pieces": 25,
+        "req_items": [
+            "Crusader Plate",
+            "Vampire Dagger"
+        ]
+    },
+    "105282": {
+        "name_en": "Heavenly Raiment",
+        "name_jp": "九天の鎧",
+        "name": "Nine Heavens' Armor",
+        "id": "purple-65",
+        "has_fragments": true,
+        "fragment_id": "125282",
+        "req_pieces": 25,
+        "req_items": [
+            "Mythril Plate",
+            "Feather Blade"
+        ]
+    },
+    "105311": {
+        "name_en": "Azure Splendor",
+        "name_jp": "蒼輝の鎧",
+        "name": "Azure Armor",
+        "id": "purple-71",
+        "has_fragments": true,
+        "fragment_id": "125311",
+        "req_pieces": 25,
+        "req_items": [
+            "Violet Armor",
+            "Paladin Greave"
+        ]
+    },
+    "105312": {
+        "name_en": "Petalfall Regalia",
+        "name_jp": "聖櫻の鎧",
+        "name": "Holy Sakura's Armor",
+        "id": "purple-72",
+        "has_fragments": true,
+        "fragment_id": "125312",
+        "req_pieces": 25,
+        "req_items": [
+            "Angel Armor",
+            "Lion's Battle Axe"
+        ]
+    },
+    "105341": {
+        "name_en": "Aegis Coat",
+        "name_jp": "イージスコート",
+        "name": "Aegis Coat",
+        "id": "purple-78",
+        "has_fragments": true,
+        "fragment_id": "125341",
+        "req_pieces": 25,
+        "req_items": [
+            "Heavenly Robe",
+            "Feather Waltz"
+        ]
+    },
+    "105342": {
+        "name_en": "Maiden Livery",
+        "name_jp": "メイデンクロース",
+        "name": "Maiden Cloth",
+        "id": "purple-79",
+        "has_fragments": true,
+        "fragment_id": "125342",
+        "req_pieces": 25,
+        "req_items": [
+            "Mourning Crescent Moon",
+            "Cosmos Cloth"
+        ]
+    },
+    "105371": {
+        "name_en": "Priestess Garb",
+        "name_jp": "純潔の巫女装束",
+        "name": "Shrine Maiden's Purity Cloth",
+        "id": "purple-85",
+        "has_fragments": true,
+        "fragment_id": "125371",
+        "req_pieces": 25,
+        "req_items": [
+            "Sun Amulet",
+            "Saint's Robe"
+        ]
+    },
+    "105372": {
+        "name_en": "Empress Robe",
+        "name_jp": "エンプレスローブ",
+        "name": "Empress Robe",
+        "id": "purple-86",
+        "has_fragments": true,
+        "fragment_id": "125372",
+        "req_pieces": 25,
+        "req_items": [
+            "Hermit Clothes",
+            "Devil's Horn"
+        ]
+    },
+    "105401": {
+        "name_en": "Diviner's Shield",
+        "name_jp": "星詠みの円盾",
+        "name": "Astrograph Buckler",
+        "id": "purple-92",
+        "has_fragments": true,
+        "fragment_id": "125401",
+        "req_pieces": 25,
+        "req_items": [
+            "Guardian Shield",
+            "Garnet Shield",
+            "Cosmos Cloth"
+        ]
+    },
+    "105431": {
+        "name_en": "Infernal Greaves",
+        "name_jp": "インファナルグリーブ",
+        "name": "Infernal Greaves",
+        "id": "purple-95",
+        "has_fragments": true,
+        "fragment_id": "125431",
+        "req_pieces": 25,
+        "req_items": [
+            "Angel Boots",
+            "Devil's Bow"
+        ]
+    },
+    "105521": {
+        "name_en": "Crown of Anguish",
+        "name_jp": "忘哭の冠",
+        "name": "Mourning Crown",
+        "id": "purple-102",
+        "has_fragments": true,
+        "fragment_id": "125521",
+        "req_pieces": 25,
+        "req_items": [
+            "Gospel Tiara",
+            "Devil's Horn"
+        ]
+    },
+    "105522": {
+        "name_en": "Miter of Virtue",
+        "name_jp": "白祈の聖冠",
+        "name": "Holy Prayer's Crown",
+        "id": "purple-103",
+        "has_fragments": true,
+        "fragment_id": "125522",
+        "req_pieces": 25,
+        "req_items": [
+            "Pope's Hood",
+            "Lion King's Protective Charm"
+        ]
+    },
+    "105551": {
+        "name_en": "Millennium Earrings",
+        "name_jp": "ミレニアムイヤリング",
+        "name": "Millennium Earrings",
+        "id": "purple-106",
+        "has_fragments": true,
+        "fragment_id": "115551",
+        "req_pieces": 35,
+        "req_items": []
+    },
+    "105552": {
+        "name_en": "Wyrmswrath Pendant",
+        "name_jp": "赫怒竜のペンダント",
+        "name": "Fury Dragon Pendant",
+        "id": "purple-107",
+        "has_fragments": true,
+        "fragment_id": "115552",
+        "req_pieces": 35,
+        "req_items": []
+    },
+    "105581": {
+        "name_en": "Spirit King's Talisman",
+        "name_jp": "精霊王の護石",
+        "name": "Fairy King's Guardian Stone",
+        "id": "purple-113",
+        "has_fragments": true,
+        "fragment_id": "115581",
+        "req_pieces": 35,
+        "req_items": []
+    },
+    "105582": {
+        "name_en": "Mermaid Tears",
+        "name_jp": "人魚姫の霊涙",
+        "name": "Mermaid Princess' Spirit Tear",
+        "id": "purple-114",
+        "has_fragments": true,
+        "fragment_id": "115582",
+        "req_pieces": 35,
+        "req_items": []
+    },
+    "105611": {
+        "name_en": "Poseidon Earrings",
+        "name_jp": "海神の耳飾り",
+        "name": "Ocean God's Earrings",
+        "id": "purple-120",
+        "has_fragments": true,
+        "fragment_id": "115611",
+        "req_pieces": 35,
+        "req_items": []
+    },
+    "105612": {
+        "name_en": "Sacred Steed's Grace",
+        "name_jp": "聖獣の祈念",
+        "name": "Divine Beast's Prayer",
+        "id": "purple-121",
+        "has_fragments": true,
+        "fragment_id": "115612",
+        "req_pieces": 35,
+        "req_items": []
+    }
+}

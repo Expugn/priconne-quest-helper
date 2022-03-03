@@ -1,0 +1,61 @@
+# This workflow updates the regional data files found in the data directory
+
+name: region-update
+
+on:
+  # run this task once a day
+  schedule:
+  - cron: '0 0 * * *'
+
+  # allow this task to be run manually from Actions tab
+  workflow_dispatch:
+
+jobs:
+  # needs access to {{ secrets.DEPLOY_ACCESS_TOKEN }} with at least public_repo scope
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js [16.x]
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+          cache: 'npm'
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: |
+            **/node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+
+      - name: Install Node.js dependencies
+        run: npm install sqlite sqlite3
+
+      - name: Run region-update.js
+        run: node ./.github/workflows/region-update.js
+
+      # assuming there are new changes
+      - name: Update regional data files on Git
+        run: |
+          git config user.name $user_name
+          git config user.email $user_email
+          git add ./data/character_data_cn.json
+          git add ./data/character_data_en.json
+          git add ./data/character_data_kr.json
+          git add ./data/character_data_tw.json
+          git add ./data/equipment_data_cn.json
+          git add ./data/equipment_data_en.json
+          git add ./data/equipment_data_kr.json
+          git add ./data/equipment_data_tw.json
+          git commit -m "[Bot] Regional Data Update" -m '
+          ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          This is an automated process. Issues may or may not have occured.'
+          git push
+        env:
+          user_name: 'Expugn'
+          user_email: 'expugn@users.noreply.github.com'
+          github_token: ${{ secrets.DEPLOY_ACCESS_TOKEN }}
+          repository: ${{ github.repository }}

@@ -124,7 +124,11 @@
     "drop-event-triple-buff-select": "Triple Drop Amounts (3x Event)",
 
     "equipment_data_type_label": "Equipment Data Type:",
-    "equipment_data_current_select": "Current Equipment Data (After 2022.02.28)",
+    "equipment_data_current_select": "Current Equipment Data - Japan Server (JP)",
+    "equipment_data_cn_select": "Current Equipment Data - China Server (CN)",
+    "equipment_data_en_select": "Current Equipment Data - English Server (EN)",
+    "equipment_data_kr_select": "Current Equipment Data - Korea Server (KR)",
+    "equipment_data_tw_select": "Current Equipment Data - Taiwan Server (TW)",
     "equipment_data_legacy_select": "Legacy Equipment Data (Before 2019.08.31)",
     "equipment_data_legacy_2_select": "Legacy Equipment Data 2 (Before 2022.02.28)"
   },

@@ -152,13 +152,21 @@ i.footer {
 
 .current,
 .legacy,
-.legacy-2 {
+.legacy-2,
+.cn,
+.en,
+.kr,
+.tw {
     margin-top: 50px;
 }
 
 .current span.title,
 .legacy span.title,
 .legacy-2 span.title,
+.cn span.title,
+.en span.title,
+.kr span.title,
+.tw span.title,
 .usage span.title,
 .comp-usage span.title {
     display: inline-block;
@@ -167,7 +175,7 @@ i.footer {
     font-weight: bold;
     color: white;
     text-shadow: 1px 1px 2px #000000, 1px 1px 2px #000000, 1px 1px 2px #000000;
-    width: 200px;
+    width: 300px;
 }
 
 .usage span.title,
@@ -238,7 +246,11 @@ div.node {
 
 #current_recipe,
 #legacy_recipe,
-#legacy_2_recipe {
+#legacy_2_recipe,
+#cn_recipe,
+#en_recipe,
+#kr_recipe,
+#tw_recipe {
     background: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     text-align: left;

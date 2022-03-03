@@ -3,6 +3,16 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.23.1] - 2022-03-02
+### Added
+- Multi Region Data Support
+  - Issue reported by `alsnpk`: <https://github.com/Expugn/priconne-quest-helper/issues/44>
+  - It seems a single legacy file isn't feasible since regions don't follow the same recipe pattern as Japan server
+  - Added multiple different region files in Settings -> Equipment Data Type
+  - Updates will be done automatically every day
+  - Region limited characters are still not supported.
+  - Due to the amount of changes, there may be bugs.
+
 ## [2.23.0] - 2022-02-28
 Equipment Cost Update #2
 ### Added
