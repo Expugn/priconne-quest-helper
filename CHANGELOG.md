@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.23.2] - 2022-03-03
+### Added
+- New Character: Kurumi (Stage)
+- Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
+  - `thematics.stage`
+### Changed
+- Updated README.md
+
 ## [2.23.1] - 2022-03-02
 ### Added
 - Multi Region Data Support
@@ -12,6 +20,12 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
   - Updates will be done automatically every day
   - Region limited characters are still not supported.
   - Due to the amount of changes, there may be bugs.
+- Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
+  - `settings_bat.equipment_data_current_select`
+  - `settings_bat.equipment_data_cn_select`
+  - `settings_bat.equipment_data_en_select`
+  - `settings_bat.equipment_data_kr_select`
+  - `settings_bat.equipment_data_tw_select`
 
 ## [2.23.0] - 2022-02-28
 Equipment Cost Update #2

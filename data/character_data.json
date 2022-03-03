@@ -12735,6 +12735,205 @@
             "Emerald Gothic Bangle"
         ]
     },
+    "stage_kurumi": {
+        "unit_id": 121301,
+        "name": "Kurumi",
+        "thematic": "Stage",
+        "name_jp": "クルミ",
+        "thematic_jp": "ステージ",
+        "rank_1": [
+            "One Handed Axe",
+            "Leather Boots",
+            "Leather Overalls",
+            "One Handed Axe",
+            "Motivational Bracelet",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "High-Metal Axe",
+            "Crown Boots",
+            "Scale Mail",
+            "Metal Axe",
+            "Leather Boots",
+            "Protective Pendant"
+        ],
+        "rank_3": [
+            "Blue Sphere Axe",
+            "Tower Shield",
+            "Light Plate",
+            "High-Metal Axe",
+            "Metal Axe",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Lion's Battle Axe",
+            "Emerald Earrings",
+            "Gorgeous Armor",
+            "Blue Sphere Axe",
+            "Tower Shield",
+            "Tower Shield"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Fencer Boots",
+            "Battling Dress",
+            "Lion's Battle Axe",
+            "Emerald Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Shiryuu Axe",
+            "Lion King's Protective Charm",
+            "Heavy Metal Armor",
+            "Lion's Battle Axe",
+            "Octogram Pendant",
+            "Battling Dress"
+        ],
+        "rank_7": [
+            "Hell-Fire Axe",
+            "Empress Shield",
+            "Angel Armor",
+            "Lightning Axe",
+            "Lion King's Protective Charm",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Queen's Battle Axe",
+            "Hell-Fire Axe",
+            "Mythril Plate",
+            "Feather Waltz",
+            "Bangle of Substitution",
+            "Lion King's Protective Charm"
+        ],
+        "rank_9": [
+            "Aqua Slasher",
+            "Queen's Battle Axe",
+            "Violet Armor",
+            "Angel Boots",
+            "Moon Bracelet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Necrodim Axe",
+            "Aqua Slasher",
+            "Faireal Boots",
+            "Violet Armor",
+            "Congregation Pendant",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Divine Judgement Axe",
+            "Necrodim Axe",
+            "Astrograph Buckler",
+            "Faireal Boots",
+            "Fairy King's Guardian Stone",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Gaia Axe",
+            "Divine Judgement Axe",
+            "Maiden Cloth",
+            "Astrograph Buckler",
+            "Mermaid Princess' Spirit Tear",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "God Roar Axe - Terra Break",
+            "Gaia Axe",
+            "Rage Queen Dress",
+            "Infernal Greaves",
+            "Glorious King's Shield Bangle",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "Machine Axe - Core Breaker",
+            "God Roar Axe - Terra Break",
+            "Furious Wind Armor",
+            "Royal Guard Hat",
+            "Sea Dragon God's Hair Ornament",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "Turquoise Noah",
+            "Machine Axe - Core Breaker",
+            "Glowing Silver Mirror Armor",
+            "Sky Soaring Gold Shoes",
+            "Shield God Ring - Wall Breath",
+            "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "Red Bear Emperor's Claw Battle Axe",
+            "Turquoise Noah",
+            "Northern Heaven Supreme Flame Armor",
+            "Glowing Silver Mirror Armor",
+            "Elfin Choker",
+            "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "Brass Cleft Axe",
+            "Red Bear Emperor's Claw Battle Axe",
+            "Overlord Thorn Armor",
+            "Northern Heaven Supreme Flame Armor",
+            "Jade Harp Brooch",
+            "Elfin Choker"
+        ],
+        "rank_18": [
+            "Crepe Axe",
+            "Brass Cleft Axe",
+            "Holy Engraved Armor of Pure Gold",
+            "Overlord Thorn Armor",
+            "Evergreen Green Ring",
+            "Jade Harp Brooch"
+        ],
+        "rank_19": [
+            "Polar Light Belt Axe",
+            "Crepe Axe",
+            "Rose Strawberry Armor",
+            "Holy Engraved Armor of Pure Gold",
+            "Macaron Pendant",
+            "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "Sakura Axe",
+            "Polar Light Belt Axe",
+            "Sakura Eight Weight Armor",
+            "Rose Strawberry Armor",
+            "Whirlwind Earrings",
+            "Macaron Pendant"
+        ],
+        "rank_21": [
+            "Whale Axe",
+            "Sakura Axe",
+            "Beach Floater Mail",
+            "Sakura Eight Weight Armor",
+            "Sakura Flower Moonlight Hairpin",
+            "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "Rocking Groove Axe",
+            "Whale Axe",
+            "Gothic Maiden",
+            "Beach Floater Mail",
+            "Pearl Coconut Hair Ornament",
+            "Sakura Flower Moonlight Hairpin"
+        ],
+        "rank_23": [
+            "Ice Breaking Riot Axe",
+            "Rocking Groove Axe",
+            "Crystal Ice Mail",
+            "Gothic Maiden",
+            "Emerald Gothic Bangle",
+            "Pearl Coconut Hair Ornament"
+        ],
+        "rank_24": [
+            "",
+            "Ice Breaking Riot Axe",
+            "",
+            "Crystal Ice Mail",
+            "",
+            "Emerald Gothic Bangle"
+        ]
+    },
     "kuuka": {
         "unit_id": 104501,
         "name": "Kuuka",
