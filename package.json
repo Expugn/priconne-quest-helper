@@ -1,0 +1,16 @@
+{
+  "name": "priconne-quest-helper",
+  "version": "2.0.0",
+  "description": "Quest Choosing Assistance and Project Management for 'Princess Connect! Re:Dive' （プリンセスコネクト! Re:Dive）",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Expugn/priconne-quest-helper.git"
+  },
+  "author": "S'pugn",
+  "homepage": "https://expugn.github.io/priconne-quest-helper/",
+  "dependencies": {
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  }
+}

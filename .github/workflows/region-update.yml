@@ -24,6 +24,13 @@ jobs:
           node-version: 16.x
           cache: 'npm'
 
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: |
+            **/node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+
       - name: Install Node.js dependencies
         run: npm install sqlite sqlite3
 
