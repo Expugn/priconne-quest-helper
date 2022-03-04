@@ -138,16 +138,14 @@ function write_character_data(region = "jp") {
         });
 
         // ADD UNIT
+        let unit_names = {};
         result = await db.all('SELECT unit_id, unit_name FROM unit_data');
         result.forEach((entry) => {
             const id = `${entry["unit_id"]}`;
             if (!character[id]) {
                 return;
             }
-            data[character[id]["key"]] = {
-                [`name_${region}`]: entry["unit_name"],
-                ...JSON.parse(JSON.stringify(character[id]["data"])),
-            };
+            unit_names[character[id]["key"]] = entry["unit_name"];
         });
 
         // GET UNIT PROMOTION REQUIREMENTS (trim from JP version)
@@ -160,39 +158,39 @@ function write_character_data(region = "jp") {
             }
             const key = character[id]["key"];
             if (!data[key]) {
-                return;
+                data[key] = {
+                    [`name_${region}`]: unit_names[key],
+                    ...JSON.parse(JSON.stringify(character[id]["data"])),
+                };
             }
             const promotion_level = entry["promotion_level"],
-                es_1 = entry["equip_slot_1"] === 999999,
-                es_2 = entry["equip_slot_2"] === 999999,
-                es_3 = entry["equip_slot_3"] === 999999,
-                es_4 = entry["equip_slot_4"] === 999999,
-                es_5 = entry["equip_slot_5"] === 999999,
-                es_6 = entry["equip_slot_6"] === 999999;
-            if (es_1 || es_2 || es_3 || es_4 || es_5 || es_6) {
-                if (!data[key][`rank_${promotion_level}`]) {
-                    console.log(data[key]);
-                    return;
-                }
-                if (es_1) {
-                    data[key][`rank_${promotion_level}`][0] = "";
-                }
-                if (es_2) {
-                    data[key][`rank_${promotion_level}`][1] = "";
-                }
-                if (es_3) {
-                    data[key][`rank_${promotion_level}`][2] = "";
-                }
-                if (es_4) {
-                    data[key][`rank_${promotion_level}`][3] = "";
-                }
-                if (es_5) {
-                    data[key][`rank_${promotion_level}`][4] = "";
-                }
-                if (es_6) {
-                    data[key][`rank_${promotion_level}`][5] = "";
-                }
-
+                es_1 = entry["equip_slot_1"] !== 999999,
+                es_2 = entry["equip_slot_2"] !== 999999,
+                es_3 = entry["equip_slot_3"] !== 999999,
+                es_4 = entry["equip_slot_4"] !== 999999,
+                es_5 = entry["equip_slot_5"] !== 999999,
+                es_6 = entry["equip_slot_6"] !== 999999;
+            data[key][`rank_${promotion_level}`] = ["", "", "", "", "", ""];
+            if (es_1) {
+                data[key][`rank_${promotion_level}`][0] = character[id]["data"][`rank_${promotion_level}`][0];
+            }
+            if (es_2) {
+                data[key][`rank_${promotion_level}`][1] = character[id]["data"][`rank_${promotion_level}`][1];
+            }
+            if (es_3) {
+                data[key][`rank_${promotion_level}`][2] = character[id]["data"][`rank_${promotion_level}`][2];
+            }
+            if (es_4) {
+                data[key][`rank_${promotion_level}`][3] = character[id]["data"][`rank_${promotion_level}`][3];
+            }
+            if (es_5) {
+                data[key][`rank_${promotion_level}`][4] = character[id]["data"][`rank_${promotion_level}`][4];
+            }
+            if (es_6) {
+                data[key][`rank_${promotion_level}`][5] = character[id]["data"][`rank_${promotion_level}`][5];
+            }
+            if (!es_1 || !es_2 || !es_3 || !es_4 || !es_5 || !es_6) {
+                // purge rest of ranks
                 let i = promotion_level + 1;
                 while (data[key][`rank_${i}`]) {
                     delete data[key][`rank_${i++}`];
