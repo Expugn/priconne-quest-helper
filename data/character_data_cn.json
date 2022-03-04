@@ -7751,6 +7751,141 @@
             "Scarlet Dragon's Claw Fire Ring"
         ]
     },
+    "sheffy": {
+        "unit_id": 106401,
+        "name": "Sheffy",
+        "thematic": "",
+        "name_jp": "シェフィ",
+        "thematic_jp": "",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Leather Overalls",
+            "Tree Shield",
+            "Iron Blade",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Blue Blood",
+            "Gear Blade",
+            "Clothes of Wisdom",
+            "Legion Helm",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Blue Blood",
+            "Light Plate",
+            "Tower Shield",
+            "Gear Blade",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Sparkling Sword",
+            "Fashion Armor",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Ryuumon Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Platinum Knife",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Feather Blade",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Angel Blade",
+            "Invisible Dress",
+            "Scarlet Diamond",
+            "Feather Blade",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Mythril Plate",
+            "Angel Blade",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Guardian Shield",
+            "Solar Sword",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Scarlet Mail",
+            "Ice Claymore",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Lightning Blade",
+            "Phantasm Mail",
+            "Chaos Blade",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Dawn's Holy Sword",
+            "Nine Heavens' Armor",
+            "Lightning Blade",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Fire Oni's Tori",
+            "Dawn's Holy Sword",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "Konominato Sword - Aqua Ruler",
+            "Senka Dance Armor",
+            "Great Sword of Sin",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Sword - Ertz Schneide",
+            "Overlord Light Dragon Sword",
+            "Beautiful Clothes - Soul Rose",
+            "Konominato Sword - Aqua Ruler",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Overlord Light Dragon Sword",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
     "kaya": {
         "name_cn": "嘉夜",
         "unit_id": 106501,
@@ -8019,6 +8154,141 @@
             "Star Nuclear Spear - Ertz Borg",
             "",
             "Glowing Silver Mirror Shield",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "labyrista": {
+        "unit_id": 106801,
+        "name": "Labyrista",
+        "thematic": "",
+        "name_jp": "ラビリスタ",
+        "thematic_jp": "",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Leather Overalls",
+            "Tree Shield",
+            "Killer Pencil",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Aurora Sword",
+            "Gear Blade",
+            "Scale Mail",
+            "Legion Helm",
+            "Killer Pencil",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Aurora Sword",
+            "Light Plate",
+            "Tower Shield",
+            "Command Knife",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Sparkling Sword",
+            "Gorgeous Armor",
+            "Emerald Earrings",
+            "Victory Friendship Bracelet",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Ryuumon Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Platinum Knife",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Feather Blade",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Angel Blade",
+            "Angel Armor",
+            "Scarlet Diamond",
+            "Vampire Dagger",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Vermilion Plate",
+            "Empress Shield",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Guardian Shield",
+            "Angel Boots",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Scarlet Mail",
+            "Guardian Shield",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Lightning Blade",
+            "Phantasm Mail",
+            "Scarlet Mail",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Dawn's Holy Sword",
+            "Maiden Cloth",
+            "Phantasm Mail",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Rage Queen Dress",
+            "Nine Heavens' Armor",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "Konominato Sword - Aqua Ruler",
+            "Senka Dance Armor",
+            "Rage Queen Dress",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Sword - Ertz Schneide",
+            "Overlord Light Dragon Sword",
+            "Glowing Silver Mirror Armor",
+            "Senka Dance Armor",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Glowing Silver Mirror Armor",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
         ]
@@ -15231,6 +15501,4461 @@
             "Deep Crystallized Xenocrystal"
         ]
     },
+    "ranger_rin": {
+        "unit_id": 112701,
+        "name": "Rin",
+        "thematic": "Ranger",
+        "name_jp": "リン",
+        "thematic_jp": "レンジャー",
+        "rank_1": [
+            "Steel Spear",
+            "Steel Spear",
+            "Leather Overalls",
+            "Leather Boots",
+            "Steel Spear",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Flame Spear",
+            "Metal Axe",
+            "Folklore Clothes",
+            "Cute Caskets",
+            "Steel Spear",
+            "Protective Pendant"
+        ],
+        "rank_3": [
+            "Knight's Pride",
+            "Flame Spear",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Trident",
+            "Jewel of Love"
+        ],
+        "rank_4": [
+            "Absolute Spear",
+            "Knight's Pride",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Flame Spear",
+            "Victory Friendship Bracelet"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Absolute Spear",
+            "Palace Cloth",
+            "Dragon Head",
+            "Knight's Pride",
+            "Emerald Earrings"
+        ],
+        "rank_6": [
+            "Scarlet Dragon",
+            "Lightning Axe",
+            "Cosmos Cloth",
+            "Dragon Head",
+            "Lion Eagle's Feather",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Queen Bee Spear",
+            "Scarlet Dragon",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Lion King's Protective Charm",
+            "Garnet Shield"
+        ],
+        "rank_8": [
+            "Storm Bringer",
+            "Queen Bee Spear",
+            "Hermit Clothes",
+            "Scarlet Dragon",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Gaia Bardiche",
+            "Storm Bringer",
+            "Crusader Plate",
+            "Queen Bee Spear",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Zero Frost Lance",
+            "Gaia Bardiche",
+            "Dragonic Armor",
+            "Storm Bringer",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Gale Stinger",
+            "Zero Frost Lance",
+            "Phantasm Mail",
+            "Gaia Bardiche",
+            "Millennium Earrings",
+            "Cat God Pendant"
+        ],
+        "rank_12": [
+            "Heaven's Protective Holy Spear",
+            "Gale Stinger",
+            "Infernal Greaves",
+            "Zero Frost Lance",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Divine Spear - Doom Pain",
+            "Heaven's Protective Holy Spear",
+            "Rage Queen Dress",
+            "Gale Stinger",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Fire Spear - Prominence",
+            "Divine Spear - Doom Pain",
+            "Senka Dance Armor",
+            "Heaven's Protective Holy Spear",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Spear - Ertz Borg",
+            "Fire Spear - Prominence",
+            "Glowing Silver Mirror Armor",
+            "Divine Spear - Doom Pain",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "",
+            "Fire Spear - Prominence",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "ranger_mahiru": {
+        "unit_id": 112801,
+        "name": "Mahiru",
+        "thematic": "Ranger",
+        "name_jp": "マヒル",
+        "thematic_jp": "レンジャー",
+        "rank_1": [
+            "Steel Spear",
+            "Steel Spear",
+            "Leather Overalls",
+            "Tree Shield",
+            "One Handed Axe",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Flame Spear",
+            "Trident",
+            "Clothes of Wisdom",
+            "Legion Helm",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Knight's Pride",
+            "Flame Spear",
+            "Light Plate",
+            "Tower Shield",
+            "Trident",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Absolute Spear",
+            "Knight's Pride",
+            "Fashion Armor",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Absolute Spear",
+            "Battling Dress",
+            "Garnet Shield",
+            "Knight's Pride",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Scarlet Dragon",
+            "Lightning Axe",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Queen Bee Spear",
+            "Scarlet Dragon",
+            "Invisible Dress",
+            "Scarlet Diamond",
+            "Lightning Axe",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Storm Bringer",
+            "Queen Bee Spear",
+            "Mythril Plate",
+            "Scarlet Dragon",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Gaia Bardiche",
+            "Storm Bringer",
+            "Guardian Shield",
+            "Queen Bee Spear",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Zero Frost Lance",
+            "Gaia Bardiche",
+            "Scarlet Mail",
+            "Storm Bringer",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Gale Stinger",
+            "Zero Frost Lance",
+            "Phantasm Mail",
+            "Gaia Bardiche",
+            "Millennium Earrings",
+            "Cat God Pendant"
+        ],
+        "rank_12": [
+            "Heaven's Protective Holy Spear",
+            "Gale Stinger",
+            "Nine Heavens' Armor",
+            "Zero Frost Lance",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Divine Spear - Doom Pain",
+            "Heaven's Protective Holy Spear",
+            "Fire Oni's Tori",
+            "Gale Stinger",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Fire Spear - Prominence",
+            "Divine Spear - Doom Pain",
+            "Senka Dance Armor",
+            "Heaven's Protective Holy Spear",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Spear - Ertz Borg",
+            "Fire Spear - Prominence",
+            "Beautiful Clothes - Soul Rose",
+            "Divine Spear - Doom Pain",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "",
+            "Fire Spear - Prominence",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "wonder_rino": {
+        "unit_id": 112901,
+        "name": "Rino",
+        "thematic": "Wonder",
+        "name_jp": "リノ",
+        "thematic_jp": "ワンダー",
+        "rank_1": [
+            "Hunter's Bow",
+            "Hunter's Bow",
+            "Leather Overalls",
+            "Motivational Bracelet",
+            "Hunter's Bow",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Crystal Bow",
+            "Command Knife",
+            "Folklore Clothes",
+            "Jewel of Courage",
+            "Hunter's Bow",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Crystal Bow",
+            "Shinobi Costume",
+            "Spike Bangle",
+            "Command Knife",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Cupid's Bow",
+            "Platinum Knife",
+            "Millefeuille Cloth",
+            "Opal Earrings",
+            "Crystal Bow",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Devil's Bow",
+            "Cupid's Bow",
+            "Palace Cloth",
+            "Lion Eagle's Feather",
+            "Platinum Knife",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Lightning Bow",
+            "Devil's Bow",
+            "Cosmos Cloth",
+            "Lion Eagle's Feather",
+            "Cupid's Bow",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Angel Bow",
+            "Lightning Bow",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Scarlet Diamond",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Artemis Bow",
+            "Angel Bow",
+            "Hermit Clothes",
+            "Lightning Bow",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Spirit Tree Bow",
+            "Artemis Bow",
+            "Heavenly Robe",
+            "Angel Bow",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Silver Wing Bow",
+            "Spirit Tree Bow",
+            "Dark Terror Dress",
+            "Artemis Bow",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Abyss Bow",
+            "Silver Wing Bow",
+            "Phantasm Mail",
+            "Spirit Tree Bow",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Heavenly Red Bow",
+            "Abyss Bow",
+            "Nine Heavens' Armor",
+            "Silver Wing Bow",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Armored Bow - Deus Fall",
+            "Heavenly Red Bow",
+            "Fire Oni's Tori",
+            "Abyss Bow",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Ice Bow - Freezing Tear",
+            "Armored Bow - Deus Fall",
+            "Extremely Dark Clothes",
+            "Heavenly Red Bow",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Bow - Erzvogen",
+            "Ice Bow - Freezing Tear",
+            "Flowing Blue Dress - Azul Rondo",
+            "Armored Bow - Deus Fall",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Bow - Erzvogen",
+            "",
+            "Ice Bow - Freezing Tear",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "wonder_ayumi": {
+        "unit_id": 113001,
+        "name": "Ayumi",
+        "thematic": "Wonder",
+        "name_jp": "アユミ",
+        "thematic_jp": "ワンダー",
+        "rank_1": [
+            "Steel Spear",
+            "Steel Spear",
+            "Leather Overalls",
+            "Leather Boots",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Flame Spear",
+            "Trident",
+            "Folklore Clothes",
+            "Cute Caskets",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Knight's Pride",
+            "Flame Spear",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Jewel of Love",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Absolute Spear",
+            "Knight's Pride",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Victory Friendship Bracelet",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Absolute Spear",
+            "Palace Cloth",
+            "Fencer Boots",
+            "Emerald Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Scarlet Dragon",
+            "Lightning Axe",
+            "Cosmos Cloth",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Palace Cloth"
+        ],
+        "rank_7": [
+            "Queen Bee Spear",
+            "Scarlet Dragon",
+            "Invisible Dress",
+            "Lion King's Protective Charm",
+            "Scarlet Diamond",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Storm Bringer",
+            "Queen Bee Spear",
+            "Angel Boots",
+            "Feather Waltz",
+            "Bangle of Substitution",
+            "Lion King's Protective Charm"
+        ],
+        "rank_9": [
+            "Gaia Bardiche",
+            "Storm Bringer",
+            "Crusader Plate",
+            "Mythril Plate",
+            "Moon Bracelet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Zero Frost Lance",
+            "Gaia Bardiche",
+            "Faireal Boots",
+            "Crusader Plate",
+            "Congregation Pendant",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Gale Stinger",
+            "Zero Frost Lance",
+            "Phantasm Mail",
+            "Faireal Boots",
+            "Fairy King's Guardian Stone",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Heaven's Protective Holy Spear",
+            "Gale Stinger",
+            "Nine Heavens' Armor",
+            "Astrograph Buckler",
+            "Mermaid Princess' Spirit Tear",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Divine Spear - Doom Pain",
+            "Heaven's Protective Holy Spear",
+            "Royal Guard Hat",
+            "Infernal Greaves",
+            "Glorious King's Shield Bangle",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "Fire Spear - Prominence",
+            "Divine Spear - Doom Pain",
+            "Sky Soaring Gold Shoes",
+            "Royal Guard Hat",
+            "Sea Dragon God's Hair Ornament",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "Star Nuclear Spear - Ertz Borg",
+            "Fire Spear - Prominence",
+            "Glowing Silver Mirror Shield",
+            "Sky Soaring Gold Shoes",
+            "Shield God Ring - Wall Breath",
+            "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "",
+            "Glowing Silver Mirror Shield",
+            "Elfin Choker",
+            "Shield God Ring - Wall Breath"
+        ]
+    },
+    "summer_ruka": {
+        "unit_id": 113101,
+        "name": "Ruka",
+        "thematic": "Summer",
+        "name_jp": "ルカ",
+        "thematic_jp": "サマー",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Leather Overalls",
+            "Motivational Bracelet",
+            "Iron Blade",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Crescent Sword",
+            "Command Knife",
+            "Folklore Clothes",
+            "Jewel of Courage",
+            "Iron Blade",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Crescent Sword",
+            "Shinobi Costume",
+            "Spike Bangle",
+            "Command Knife",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Moonlight Sword",
+            "Platinum Knife",
+            "Millefeuille Cloth",
+            "Opal Earrings",
+            "Crescent Sword",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Thunder God Sword",
+            "Moonlight Sword",
+            "Palace Cloth",
+            "Lion Eagle's Feather",
+            "Platinum Knife",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Butterfly Katana",
+            "Thunder God Sword",
+            "Cosmos Cloth",
+            "Lion Eagle's Feather",
+            "Moonlight Sword",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Bright Sword",
+            "Butterfly Katana",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Scarlet Diamond",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Hawk God's Sword",
+            "Bright Sword",
+            "Hermit Clothes",
+            "Butterfly Katana",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Phoenix Sword",
+            "Hawk God's Sword",
+            "Heavenly Robe",
+            "Bright Sword",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Hundred White Blossom Petals Sword",
+            "Phoenix Sword",
+            "Dark Terror Dress",
+            "Hawk God's Sword",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Flowing Azure Blade",
+            "Hundred White Blossom Petals Sword",
+            "Phantasm Mail",
+            "Phoenix Sword",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Blood Raven Sword",
+            "Flowing Azure Blade",
+            "Nine Heavens' Armor",
+            "Hundred White Blossom Petals Sword",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Ifrit Katana - Ignite",
+            "Blood Raven Sword",
+            "Fire Oni's Tori",
+            "Flowing Azure Blade",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Emerald Wind God's Tachi",
+            "Ifrit Katana - Ignite",
+            "Extremely Dark Clothes",
+            "Blood Raven Sword",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Branch Blade of Divine Descent",
+            "Emerald Wind God's Tachi",
+            "Flowing Blue Dress - Azul Rondo",
+            "Ifrit Katana - Ignite",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Branch Blade of Divine Descent",
+            "",
+            "Emerald Wind God's Tachi",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "summer_anna": {
+        "unit_id": 113201,
+        "name": "Anna",
+        "thematic": "Summer",
+        "name_jp": "アンナ",
+        "thematic_jp": "サマー",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fragrant Wood Wand",
+            "Journey Robe",
+            "Fashionable Beret",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_2": [
+            "Little Dragon Rod",
+            "Green Rod",
+            "Spring Color Robe",
+            "Witch Boots",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_3": [
+            "Thorn Blood Rod",
+            "Little Dragon Rod",
+            "Nordic Robe",
+            "Nun's Hood",
+            "Magic Glasses",
+            "Magic Glasses"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Thorn Blood Rod",
+            "Witch Headband",
+            "Witch Headband",
+            "Magic Monocle",
+            "Magic Monocle"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Flower Bud Wand",
+            "Cupid Robe",
+            "Witch Hat",
+            "Turquoise Earrings",
+            "Turquoise Earrings"
+        ],
+        "rank_6": [
+            "Fury Rod",
+            "Devil's Horn",
+            "Philosopher's Robe",
+            "Witch Hat",
+            "Cupid Robe",
+            "Sorcerer's Glasses"
+        ],
+        "rank_7": [
+            "Rod of Sun",
+            "Fury Rod",
+            "Grand Magician's Robe",
+            "Laurel's Sorrow",
+            "Devil's Horn",
+            "Sorcerer's Glasses"
+        ],
+        "rank_8": [
+            "Justice God's Staff",
+            "Rod of Sun",
+            "Pope's Hood",
+            "Fury Rod",
+            "Mourning Crescent Moon",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "High Devil Wand",
+            "Justice God's Staff",
+            "Necromancer Boots",
+            "Rod of Sun",
+            "Dragon's Tear",
+            "Mourning Crescent Moon"
+        ],
+        "rank_10": [
+            "Xenosphere Rod",
+            "High Devil Wand",
+            "Aquarius Boots",
+            "Justice God's Staff",
+            "Great Sage Gem",
+            "Dragon's Tear"
+        ],
+        "rank_11": [
+            "Genesis Rod",
+            "Xenosphere Rod",
+            "Mourning Crown",
+            "High Devil Wand",
+            "Ocean God's Earrings",
+            "Great Sage Gem"
+        ],
+        "rank_12": [
+            "Lightning Wand",
+            "Genesis Rod",
+            "Empress Robe",
+            "Xenosphere Rod",
+            "Divine Beast's Prayer",
+            "Ocean God's Earrings"
+        ],
+        "rank_13": [
+            "Black Snake Dragon's Staff",
+            "Lightning Wand",
+            "Exomagia Robe",
+            "Genesis Rod",
+            "Sophos Bracelet",
+            "Divine Beast's Prayer"
+        ],
+        "rank_14": [
+            "Abyss Moon Staff - Sacrifice",
+            "Black Snake Dragon's Staff",
+            "Prosperity Veil",
+            "Lightning Wand",
+            "Little Ice Princess' Knot",
+            "Sophos Bracelet"
+        ],
+        "rank_15": [
+            "Green Butterfly Wand",
+            "Abyss Moon Staff - Sacrifice",
+            "Astrologer's Holy Spirit Robe",
+            "Black Snake Dragon's Staff",
+            "Deep Crystallized Xenocrystal",
+            "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "Chaotic Choker",
+            "Deep Crystallized Xenocrystal"
+        ]
+    },
+    "summer_nanaka": {
+        "unit_id": 113301,
+        "name": "Nanaka",
+        "thematic": "Summer",
+        "name_jp": "ナナカ",
+        "thematic_jp": "サマー",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fragrant Wood Wand",
+            "Journey Robe",
+            "Fashionable Beret",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_2": [
+            "Compassion of the Unicorn",
+            "Doctorless Staff",
+            "Spring Color Robe",
+            "Witch Boots",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_3": [
+            "Celestial Sphere Watcher",
+            "Compassion of the Unicorn",
+            "Nordic Robe",
+            "Little Dragon Rod",
+            "Magic Glasses",
+            "Magic Glasses"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Witch Headband",
+            "Celestial Sphere Watcher",
+            "Turquoise Earrings",
+            "Magic Monocle",
+            "Magic Monocle"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Flower Bud Wand",
+            "Cupid Robe",
+            "Witch Hat",
+            "Turquoise Earrings",
+            "Turquoise Earrings"
+        ],
+        "rank_6": [
+            "Moon Wand",
+            "Devil's Horn",
+            "Philosopher's Robe",
+            "Flower Bud Wand",
+            "Sorcerer's Glasses",
+            "Sorcerer's Glasses"
+        ],
+        "rank_7": [
+            "Rod of Life",
+            "Moon Wand",
+            "Grand Magician's Robe",
+            "Laurel's Sorrow",
+            "Laurel's Sorrow",
+            "Sorcerer's Glasses"
+        ],
+        "rank_8": [
+            "Phoenix Rod",
+            "Rod of Life",
+            "Pope's Hood",
+            "Moon Wand",
+            "Mourning Crescent Moon",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "High Angel Rod",
+            "Phoenix Rod",
+            "Necromancer Boots",
+            "Rod of Life",
+            "Dragon's Tear",
+            "Mourning Crescent Moon"
+        ],
+        "rank_10": [
+            "Flame Rod",
+            "High Angel Rod",
+            "Aquarius Boots",
+            "Phoenix Rod",
+            "Great Sage Gem",
+            "Dragon's Tear"
+        ],
+        "rank_11": [
+            "Divine Blossom Rod",
+            "Flame Rod",
+            "Mourning Crown",
+            "High Angel Rod",
+            "Ocean God's Earrings",
+            "Great Sage Gem"
+        ],
+        "rank_12": [
+            "Atlantis Rod",
+            "Divine Blossom Rod",
+            "Empress Robe",
+            "Flame Rod",
+            "Divine Beast's Prayer",
+            "Ocean God's Earrings"
+        ],
+        "rank_13": [
+            "Heaven Rod - Stellar Sphere",
+            "Atlantis Rod",
+            "Exomagia Robe",
+            "Divine Blossom Rod",
+            "Sophos Bracelet",
+            "Divine Beast's Prayer"
+        ],
+        "rank_14": [
+            "World Tree's Branch Wand",
+            "Heaven Rod - Stellar Sphere",
+            "Prosperity Veil",
+            "Atlantis Rod",
+            "Little Ice Princess' Knot",
+            "Sophos Bracelet"
+        ],
+        "rank_15": [
+            "Phoenix Staff - Rise Flare",
+            "World Tree's Branch Wand",
+            "Glowing Silver Mirror Boots",
+            "Heaven Rod - Stellar Sphere",
+            "Deep Crystallized Xenocrystal",
+            "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "World Tree's Branch Wand",
+            "Chaotic Choker",
+            "Deep Crystallized Xenocrystal"
+        ]
+    },
+    "summer_hatsune": {
+        "unit_id": 113401,
+        "name": "Hatsune",
+        "thematic": "Summer",
+        "name_jp": "ハツネ",
+        "thematic_jp": "サマー",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fragrant Wood Wand",
+            "Journey Robe",
+            "Fashionable Beret",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_2": [
+            "Little Dragon Rod",
+            "Green Rod",
+            "Spring Color Robe",
+            "Witch Boots",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_3": [
+            "Thorn Blood Rod",
+            "Little Dragon Rod",
+            "Nordic Robe",
+            "Nun's Hood",
+            "Magic Glasses",
+            "Magic Glasses"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Thorn Blood Rod",
+            "Witch Headband",
+            "Witch Headband",
+            "Magic Monocle",
+            "Magic Monocle"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Flower Bud Wand",
+            "Cupid Robe",
+            "Witch Hat",
+            "Turquoise Earrings",
+            "Turquoise Earrings"
+        ],
+        "rank_6": [
+            "Fury Rod",
+            "Devil's Horn",
+            "Philosopher's Robe",
+            "Witch Hat",
+            "Cupid Robe",
+            "Sorcerer's Glasses"
+        ],
+        "rank_7": [
+            "Rod of Sun",
+            "Fury Rod",
+            "Grand Magician's Robe",
+            "Laurel's Sorrow",
+            "Laurel's Sorrow",
+            "Sorcerer's Glasses"
+        ],
+        "rank_8": [
+            "Justice God's Staff",
+            "Rod of Sun",
+            "Pope's Hood",
+            "Wizard Boots",
+            "Mourning Crescent Moon",
+            "Lion King's Protective Charm"
+        ],
+        "rank_9": [
+            "High Devil Wand",
+            "Justice God's Staff",
+            "Necromancer Boots",
+            "Pope's Hood",
+            "Dragon's Tear",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Xenosphere Rod",
+            "High Devil Wand",
+            "Aquarius Boots",
+            "Gospel Tiara",
+            "Great Sage Gem",
+            "Dragon's Tear"
+        ],
+        "rank_11": [
+            "Genesis Rod",
+            "Xenosphere Rod",
+            "Mourning Crown",
+            "Aquarius Boots",
+            "Ocean God's Earrings",
+            "Great Sage Gem"
+        ],
+        "rank_12": [
+            "Lightning Wand",
+            "Genesis Rod",
+            "Empress Robe",
+            "Mourning Crown",
+            "Divine Beast's Prayer",
+            "Ocean God's Earrings"
+        ],
+        "rank_13": [
+            "Black Snake Dragon's Staff",
+            "Lightning Wand",
+            "Exomagia Robe",
+            "Holy Prayer's Crown",
+            "Sophos Bracelet",
+            "Divine Beast's Prayer"
+        ],
+        "rank_14": [
+            "Abyss Moon Staff - Sacrifice",
+            "Black Snake Dragon's Staff",
+            "Prosperity Veil",
+            "Blood Ruby Heel",
+            "Little Ice Princess' Knot",
+            "Sophos Bracelet"
+        ],
+        "rank_15": [
+            "Green Butterfly Wand",
+            "Abyss Moon Staff - Sacrifice",
+            "Astrologer's Holy Spirit Robe",
+            "Prosperity Veil",
+            "Deep Crystallized Xenocrystal",
+            "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Astrologer's Holy Spirit Robe",
+            "Chaotic Choker",
+            "Deep Crystallized Xenocrystal"
+        ]
+    },
+    "summer_misato": {
+        "unit_id": 113501,
+        "name": "Misato",
+        "thematic": "Summer",
+        "name_jp": "ミサト",
+        "thematic_jp": "サマー",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fragrant Wood Wand",
+            "Journey Robe",
+            "Fashionable Beret",
+            "Fighting Bracelet",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Compassion of the Unicorn",
+            "Doctorless Staff",
+            "Spring Color Robe",
+            "Witch Boots",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_3": [
+            "Celestial Sphere Watcher",
+            "Compassion of the Unicorn",
+            "Nordic Robe",
+            "Nun's Hood",
+            "Jewel of Wisdom",
+            "Jewel of Love"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Celestial Sphere Watcher",
+            "Witch Headband",
+            "Witch Headband",
+            "Magic Monocle",
+            "Pattern Bracelet"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Flower Bud Wand",
+            "Cupid Robe",
+            "Witch Palace Boots",
+            "Pearl Earrings",
+            "Emerald Earrings"
+        ],
+        "rank_6": [
+            "Moon Wand",
+            "Devil's Horn",
+            "Philosopher's Robe",
+            "Witch Hat",
+            "Sorcerer's Glasses",
+            "Sorcerer's Glasses"
+        ],
+        "rank_7": [
+            "Rod of Life",
+            "Moon Wand",
+            "Grand Magician's Robe",
+            "Laurel's Sorrow",
+            "Laurel's Sorrow",
+            "Witch Palace Boots"
+        ],
+        "rank_8": [
+            "Phoenix Rod",
+            "Rod of Life",
+            "Saint's Robe",
+            "Wizard Boots",
+            "Mourning Crescent Moon",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "High Angel Rod",
+            "Phoenix Rod",
+            "Gospel Tiara",
+            "Pope's Hood",
+            "Dragon's Tear",
+            "Mourning Crescent Moon"
+        ],
+        "rank_10": [
+            "Flame Rod",
+            "High Angel Rod",
+            "Viridian Spiritual Dress",
+            "Gospel Tiara",
+            "Great Sage Gem",
+            "Dragon's Tear"
+        ],
+        "rank_11": [
+            "Divine Blossom Rod",
+            "Flame Rod",
+            "Shrine Maiden's Purity Cloth",
+            "Aquarius Boots",
+            "Fairy King's Guardian Stone",
+            "Great Sage Gem"
+        ],
+        "rank_12": [
+            "Atlantis Rod",
+            "Divine Blossom Rod",
+            "Holy Prayer's Crown",
+            "Mourning Crown",
+            "Mermaid Princess' Spirit Tear",
+            "Ocean God's Earrings"
+        ],
+        "rank_13": [
+            "Heaven Rod - Stellar Sphere",
+            "Atlantis Rod",
+            "Blood Ruby Heel",
+            "Holy Prayer's Crown",
+            "Glorious King's Shield Bangle",
+            "Divine Beast's Prayer"
+        ],
+        "rank_14": [
+            "World Tree's Branch Wand",
+            "Heaven Rod - Stellar Sphere",
+            "Refreshing Ice Garment",
+            "Blood Ruby Heel",
+            "Sea Dragon God's Hair Ornament",
+            "Sophos Bracelet"
+        ],
+        "rank_15": [
+            "Phoenix Staff - Rise Flare",
+            "World Tree's Branch Wand",
+            "Astrologer's Holy Spirit Robe",
+            "Refreshing Ice Garment",
+            "Shield God Ring - Wall Breath",
+            "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Astrologer's Holy Spirit Robe",
+            "Elfin Choker",
+            "Deep Crystallized Xenocrystal"
+        ]
+    },
+    "summer_jun": {
+        "unit_id": 113601,
+        "name": "Jun",
+        "thematic": "Summer",
+        "name_jp": "ジュン",
+        "thematic_jp": "サマー",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Iron Blade",
+            "Tree Shield",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Blue Blood",
+            "Gear Blade",
+            "Clothes of Wisdom",
+            "Legion Helm",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Blue Blood",
+            "Blue Blood",
+            "Tower Shield",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Sparkling Sword",
+            "Gorgeous Armor",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Ryuumon Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Feather Blade",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Angel Blade",
+            "Invisible Dress",
+            "Scarlet Diamond",
+            "Lion King's Protective Charm",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Vermilion Plate",
+            "Feather Waltz",
+            "Bangle of Substitution",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Guardian Shield",
+            "Mythril Plate",
+            "Moon Bracelet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Dragonic Armor",
+            "Crusader Plate",
+            "Congregation Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Lightning Blade",
+            "Azure Armor",
+            "Scarlet Mail",
+            "Fairy King's Guardian Stone",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Dawn's Holy Sword",
+            "Infernal Greaves",
+            "Phantasm Mail",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Gold King's Armor",
+            "Nine Heavens' Armor",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "Konominato Sword - Aqua Ruler",
+            "Furious Wind Armor",
+            "Rage Queen Dress",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Sword - Ertz Schneide",
+            "Overlord Light Dragon Sword",
+            "Glowing Silver Mirror Shield",
+            "Senka Dance Armor",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Glowing Silver Mirror Shield",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "angel_akari": {
+        "unit_id": 113701,
+        "name": "Akari",
+        "thematic": "Angel",
+        "name_jp": "アカリ",
+        "thematic_jp": "エンジェル",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fragrant Wood Wand",
+            "Journey Robe",
+            "Fashionable Beret",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_2": [
+            "Little Dragon Rod",
+            "Green Rod",
+            "Spring Color Robe",
+            "Witch Boots",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_3": [
+            "Thorn Blood Rod",
+            "Little Dragon Rod",
+            "Nordic Robe",
+            "Nun's Hood",
+            "Magic Glasses",
+            "Magic Glasses"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Thorn Blood Rod",
+            "Witch Headband",
+            "Witch Headband",
+            "Magic Monocle",
+            "Magic Monocle"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Flower Bud Wand",
+            "Cupid Robe",
+            "Witch Hat",
+            "Turquoise Earrings",
+            "Turquoise Earrings"
+        ],
+        "rank_6": [
+            "Fury Rod",
+            "Devil's Horn",
+            "Philosopher's Robe",
+            "Witch Hat",
+            "Cupid Robe",
+            "Sorcerer's Glasses"
+        ],
+        "rank_7": [
+            "Rod of Sun",
+            "Fury Rod",
+            "Grand Magician's Robe",
+            "Laurel's Sorrow",
+            "Devil's Horn",
+            "Sorcerer's Glasses"
+        ],
+        "rank_8": [
+            "Justice God's Staff",
+            "Rod of Sun",
+            "Pope's Hood",
+            "Fury Rod",
+            "Mourning Crescent Moon",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "High Devil Wand",
+            "Justice God's Staff",
+            "Necromancer Boots",
+            "Rod of Sun",
+            "Dragon's Tear",
+            "Mourning Crescent Moon"
+        ],
+        "rank_10": [
+            "Xenosphere Rod",
+            "High Devil Wand",
+            "Aquarius Boots",
+            "Justice God's Staff",
+            "Great Sage Gem",
+            "Dragon's Tear"
+        ],
+        "rank_11": [
+            "Genesis Rod",
+            "Xenosphere Rod",
+            "Mourning Crown",
+            "High Devil Wand",
+            "Ocean God's Earrings",
+            "Great Sage Gem"
+        ],
+        "rank_12": [
+            "Lightning Wand",
+            "Genesis Rod",
+            "Empress Robe",
+            "Xenosphere Rod",
+            "Divine Beast's Prayer",
+            "Ocean God's Earrings"
+        ],
+        "rank_13": [
+            "Black Snake Dragon's Staff",
+            "Lightning Wand",
+            "Exomagia Robe",
+            "Genesis Rod",
+            "Sophos Bracelet",
+            "Divine Beast's Prayer"
+        ],
+        "rank_14": [
+            "Abyss Moon Staff - Sacrifice",
+            "Black Snake Dragon's Staff",
+            "Prosperity Veil",
+            "Lightning Wand",
+            "Little Ice Princess' Knot",
+            "Sophos Bracelet"
+        ],
+        "rank_15": [
+            "Green Butterfly Wand",
+            "Abyss Moon Staff - Sacrifice",
+            "Astrologer's Holy Spirit Robe",
+            "Black Snake Dragon's Staff",
+            "Deep Crystallized Xenocrystal",
+            "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "Chaotic Choker",
+            "Deep Crystallized Xenocrystal"
+        ]
+    },
+    "angel_yori": {
+        "unit_id": 113801,
+        "name": "Yori",
+        "thematic": "Angel",
+        "name_jp": "ヨリ",
+        "thematic_jp": "エンジェル",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fragrant Wood Wand",
+            "Journey Robe",
+            "Fashionable Beret",
+            "Fighting Bracelet",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Compassion of the Unicorn",
+            "Doctorless Staff",
+            "Spring Color Robe",
+            "Witch Boots",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_3": [
+            "Celestial Sphere Watcher",
+            "Compassion of the Unicorn",
+            "Nordic Robe",
+            "Nun's Hood",
+            "Jewel of Wisdom",
+            "Jewel of Love"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Celestial Sphere Watcher",
+            "Witch Headband",
+            "Witch Headband",
+            "Magic Monocle",
+            "Pattern Bracelet"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Flower Bud Wand",
+            "Cupid Robe",
+            "Witch Palace Boots",
+            "Pearl Earrings",
+            "Emerald Earrings"
+        ],
+        "rank_6": [
+            "Moon Wand",
+            "Devil's Horn",
+            "Philosopher's Robe",
+            "Witch Hat",
+            "Sorcerer's Glasses",
+            "Sorcerer's Glasses"
+        ],
+        "rank_7": [
+            "Rod of Life",
+            "Moon Wand",
+            "Grand Magician's Robe",
+            "Laurel's Sorrow",
+            "Laurel's Sorrow",
+            "Witch Palace Boots"
+        ],
+        "rank_8": [
+            "Phoenix Rod",
+            "Rod of Life",
+            "Saint's Robe",
+            "Wizard Boots",
+            "Mourning Crescent Moon",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "High Angel Rod",
+            "Phoenix Rod",
+            "Gospel Tiara",
+            "Pope's Hood",
+            "Dragon's Tear",
+            "Mourning Crescent Moon"
+        ],
+        "rank_10": [
+            "Flame Rod",
+            "High Angel Rod",
+            "Viridian Spiritual Dress",
+            "Gospel Tiara",
+            "Great Sage Gem",
+            "Dragon's Tear"
+        ],
+        "rank_11": [
+            "Divine Blossom Rod",
+            "Flame Rod",
+            "Shrine Maiden's Purity Cloth",
+            "Viridian Spiritual Dress",
+            "Fairy King's Guardian Stone",
+            "Great Sage Gem"
+        ],
+        "rank_12": [
+            "Atlantis Rod",
+            "Divine Blossom Rod",
+            "Holy Prayer's Crown",
+            "Shrine Maiden's Purity Cloth",
+            "Mermaid Princess' Spirit Tear",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Heaven Rod - Stellar Sphere",
+            "Atlantis Rod",
+            "Blood Ruby Heel",
+            "Empress Robe",
+            "Glorious King's Shield Bangle",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "World Tree's Branch Wand",
+            "Heaven Rod - Stellar Sphere",
+            "Refreshing Ice Garment",
+            "Exomagia Robe",
+            "Sea Dragon God's Hair Ornament",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "Phoenix Staff - Rise Flare",
+            "World Tree's Branch Wand",
+            "Glowing Silver Mirror Boots",
+            "Refreshing Ice Garment",
+            "Shield God Ring - Wall Breath",
+            "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Glowing Silver Mirror Boots",
+            "Elfin Choker",
+            "Shield God Ring - Wall Breath"
+        ]
+    },
+    "halloween_tsumugi": {
+        "unit_id": 113901,
+        "name": "Tsumugi",
+        "thematic": "Halloween",
+        "name_jp": "ツムギ",
+        "thematic_jp": "ハロウィン",
+        "rank_1": [
+            "Killer Pencil",
+            "Leather Overalls",
+            "Leather Boots",
+            "Leather Boots",
+            "Protective Pendant",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Leather Knuckle",
+            "Command Knife",
+            "Folklore Clothes",
+            "Crown Boots",
+            "Protective Pendant",
+            "Protective Pendant"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Hunting Boots",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Jewel of Love",
+            "Jewel of Love"
+        ],
+        "rank_4": [
+            "Dragon's Claw",
+            "Platinum Knife",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Victory Friendship Bracelet",
+            "Victory Friendship Bracelet"
+        ],
+        "rank_5": [
+            "Cosmos Cloth",
+            "Dragon's Claw",
+            "Fencer Boots",
+            "Absolute Spear",
+            "Emerald Earrings",
+            "Emerald Earrings"
+        ],
+        "rank_6": [
+            "Precious Knife",
+            "Lion King's Protective Charm",
+            "Cosmos Cloth",
+            "Fencer Boots",
+            "Octogram Pendant",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Princess' Dagger",
+            "Paladin Greave",
+            "Moonlight Garment",
+            "Lion King's Protective Charm",
+            "Lion King's Protective Charm",
+            "Fencer Boots"
+        ],
+        "rank_8": [
+            "Dark Matter Edge",
+            "Princess' Dagger",
+            "Hermit Clothes",
+            "Paladin Greave",
+            "Bangle of Substitution",
+            "Lion King's Protective Charm"
+        ],
+        "rank_9": [
+            "Unicorn Knife",
+            "Dark Matter Edge",
+            "Heavenly Robe",
+            "Hermit Clothes",
+            "Moon Bracelet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Emerald Dagger",
+            "Unicorn Knife",
+            "Faireal Boots",
+            "Heavenly Robe",
+            "Congregation Pendant",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Lava Edge",
+            "Emerald Dagger",
+            "Aegis Coat",
+            "Faireal Boots",
+            "Fairy King's Guardian Stone",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Tír na nÓg Dagger",
+            "Lava Edge",
+            "Maiden Cloth",
+            "Aegis Coat",
+            "Mermaid Princess' Spirit Tear",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Twin God Sword of Lightning",
+            "Tír na nÓg Dagger",
+            "Fire Oni's Tori",
+            "Maiden Cloth",
+            "Glorious King's Shield Bangle",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "Heavenly Black Sword of Obsidian",
+            "Twin God Sword of Lightning",
+            "Sky Soaring Gold Shoes",
+            "Fire Oni's Tori",
+            "Sea Dragon God's Hair Ornament",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "Gehenna Dragon",
+            "Heavenly Black Sword of Obsidian",
+            "Flowing Blue Dress - Azul Rondo",
+            "Extremely Dark Clothes",
+            "Shield God Ring - Wall Breath",
+            "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Gehenna Dragon",
+            "",
+            "Flowing Blue Dress - Azul Rondo",
+            "Elfin Choker",
+            "Shield God Ring - Wall Breath"
+        ]
+    },
+    "halloween_rei": {
+        "unit_id": 114001,
+        "name": "Rei",
+        "thematic": "Halloween",
+        "name_jp": "レイ",
+        "thematic_jp": "ハロウィン",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Leather Overalls",
+            "Motivational Bracelet",
+            "Iron Blade",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Blue Blood",
+            "Gear Blade",
+            "Folklore Clothes",
+            "Jewel of Courage",
+            "Iron Blade",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Blue Blood",
+            "Shinobi Costume",
+            "Spike Bangle",
+            "Gear Blade",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Sparkling Sword",
+            "Millefeuille Cloth",
+            "Opal Earrings",
+            "Blue Blood",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Ryuumon Sword",
+            "Palace Cloth",
+            "Lion Eagle's Feather",
+            "Sparkling Sword",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Feather Blade",
+            "Cosmos Cloth",
+            "Lion Eagle's Feather",
+            "Ryuumon Sword",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Angel Blade",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Scarlet Diamond",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Hermit Clothes",
+            "Angel Blade",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Heavenly Robe",
+            "Solar Sword",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Dark Terror Dress",
+            "Ice Claymore",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Lightning Blade",
+            "Phantasm Mail",
+            "Chaos Blade",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Dawn's Holy Sword",
+            "Nine Heavens' Armor",
+            "Lightning Blade",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Fire Oni's Tori",
+            "Dawn's Holy Sword",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "Konominato Sword - Aqua Ruler",
+            "Extremely Dark Clothes",
+            "Great Sword of Sin",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Sword - Ertz Schneide",
+            "Overlord Light Dragon Sword",
+            "Flowing Blue Dress - Azul Rondo",
+            "Konominato Sword - Aqua Ruler",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Overlord Light Dragon Sword",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "halloween_matsuri": {
+        "unit_id": 114101,
+        "name": "Matsuri",
+        "thematic": "Halloween",
+        "name_jp": "マツリ",
+        "thematic_jp": "ハロウィン",
+        "rank_1": [
+            "Wood Grip",
+            "Killer Pencil",
+            "Leather Overalls",
+            "Leather Boots",
+            "Killer Pencil",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Leather Knuckle",
+            "Command Knife",
+            "Folklore Clothes",
+            "Crown Boots",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Leather Knuckle",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Dragon's Claw",
+            "Platinum Knife",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Vampire Dagger",
+            "Dragon's Claw",
+            "Palace Cloth",
+            "Fencer Boots",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Blazing Gauntlet",
+            "Vampire Dagger",
+            "Cosmos Cloth",
+            "Fencer Boots",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Lion King Gauntlet",
+            "Blazing Gauntlet",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Vampire Dagger",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Blizzard Claw",
+            "Lion King Gauntlet",
+            "Hermit Clothes",
+            "Blazing Gauntlet",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Lightning Fist",
+            "Blizzard Claw",
+            "Heavenly Robe",
+            "Lion King Gauntlet",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Moon Cestus",
+            "Lightning Fist",
+            "Dark Terror Dress",
+            "Blizzard Claw",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Crimson Claw",
+            "Moon Cestus",
+            "Aegis Coat",
+            "Lightning Fist",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Cocytus Nail",
+            "Crimson Claw",
+            "Nine Heavens' Armor",
+            "Moon Cestus",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Storm God Tempest Gear",
+            "Cocytus Nail",
+            "Fire Oni's Tori",
+            "Crimson Claw",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Extremely Dark Nail - Bloody Howl",
+            "Storm God Tempest Gear",
+            "Extremely Dark Clothes",
+            "Cocytus Nail",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Fist - Elzloa",
+            "Extremely Dark Nail - Bloody Howl",
+            "Flowing Blue Dress - Azul Rondo",
+            "Storm God Tempest Gear",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Extremely Dark Nail - Bloody Howl",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "magical_monika": {
+        "unit_id": 114201,
+        "name": "Monika",
+        "thematic": "Magical",
+        "name_jp": "モニカ",
+        "thematic_jp": "マジカル",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Iron Blade",
+            "Tree Shield",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Blue Blood",
+            "Gear Blade",
+            "Clothes of Wisdom",
+            "Legion Helm",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Blue Blood",
+            "Blue Blood",
+            "Tower Shield",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Sparkling Sword",
+            "Gorgeous Armor",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Ryuumon Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Feather Blade",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Angel Blade",
+            "Paladin Greave",
+            "Scarlet Diamond",
+            "Lion King's Protective Charm",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Vermilion Plate",
+            "Feather Waltz",
+            "Bangle of Substitution",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Guardian Shield",
+            "Mythril Plate",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Dragonic Armor",
+            "Crusader Plate",
+            "Congregation Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Flowing Azure Blade",
+            "Lightning Blade",
+            "Azure Armor",
+            "Faireal Boots",
+            "Fairy King's Guardian Stone",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Flowing Azure Blade",
+            "Infernal Greaves",
+            "Phantasm Mail",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Gold King's Armor",
+            "Nine Heavens' Armor",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "Konominato Sword - Aqua Ruler",
+            "Furious Wind Armor",
+            "Rage Queen Dress",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Sword - Ertz Schneide",
+            "Overlord Light Dragon Sword",
+            "Glowing Silver Mirror Shield",
+            "Senka Dance Armor",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Glowing Silver Mirror Shield",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "magical_tomo": {
+        "unit_id": 114301,
+        "name": "Tomo",
+        "thematic": "Magical",
+        "name_jp": "トモ",
+        "thematic_jp": "マジカル",
+        "rank_1": [
+            "Iron Blade",
+            "Killer Pencil",
+            "Leather Overalls",
+            "Tree Shield",
+            "Iron Blade",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Crescent Sword",
+            "Command Knife",
+            "Clothes of Wisdom",
+            "Legion Helm",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Crescent Sword",
+            "Light Plate",
+            "Tower Shield",
+            "Gear Blade",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Moonlight Sword",
+            "Platinum Knife",
+            "Fashion Armor",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Thunder God Sword",
+            "Moonlight Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Platinum Knife",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Butterfly Katana",
+            "Vampire Dagger",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Bright Sword",
+            "Precious Knife",
+            "Invisible Dress",
+            "Scarlet Diamond",
+            "Feather Blade",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Hawk God's Sword",
+            "Princess' Dagger",
+            "Mythril Plate",
+            "Angel Blade",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Phoenix Sword",
+            "Ice Claymore",
+            "Guardian Shield",
+            "Solar Sword",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Hundred White Blossom Petals Sword",
+            "Unicorn Knife",
+            "Scarlet Mail",
+            "Ice Claymore",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Flowing Azure Blade",
+            "Emerald Dagger",
+            "Aegis Coat",
+            "Chaos Blade",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Blood Raven Sword",
+            "Lava Edge",
+            "Nine Heavens' Armor",
+            "Lightning Blade",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Ifrit Katana - Ignite",
+            "Tír na nÓg Dagger",
+            "Fire Oni's Tori",
+            "Dawn's Holy Sword",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Emerald Wind God's Tachi",
+            "Twin God Sword of Lightning",
+            "Senka Dance Armor",
+            "Great Sword of Sin",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Branch Blade of Divine Descent",
+            "Heavenly Black Sword of Obsidian",
+            "Beautiful Clothes - Soul Rose",
+            "Konominato Sword - Aqua Ruler",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Gehenna Dragon",
+            "",
+            "Overlord Light Dragon Sword",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "christmas_akino": {
+        "unit_id": 114401,
+        "name": "Akino",
+        "thematic": "Christmas",
+        "name_jp": "アキノ",
+        "thematic_jp": "クリスマス",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Leather Overalls",
+            "Tree Shield",
+            "Iron Blade",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Blue Blood",
+            "Gear Blade",
+            "Clothes of Wisdom",
+            "Command Knife",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Blue Blood",
+            "Light Plate",
+            "Tower Shield",
+            "Gear Blade",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Sparkling Sword",
+            "Fashion Armor",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Ryuumon Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Platinum Knife",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Feather Blade",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Angel Blade",
+            "Invisible Dress",
+            "Feather Blade",
+            "Scarlet Diamond",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Mythril Plate",
+            "Angel Blade",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Guardian Shield",
+            "Solar Sword",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Scarlet Mail",
+            "Ice Claymore",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Lightning Blade",
+            "Phantasm Mail",
+            "Chaos Blade",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Dawn's Holy Sword",
+            "Nine Heavens' Armor",
+            "Lightning Blade",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Rage Queen Dress",
+            "Dawn's Holy Sword",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "Konominato Sword - Aqua Ruler",
+            "Senka Dance Armor",
+            "Great Sword of Sin",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Sword - Ertz Schneide",
+            "Overlord Light Dragon Sword",
+            "Beautiful Clothes - Soul Rose",
+            "Konominato Sword - Aqua Ruler",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Overlord Light Dragon Sword",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "christmas_saren": {
+        "unit_id": 114501,
+        "name": "Saren",
+        "thematic": "Christmas",
+        "name_jp": "サレン",
+        "thematic_jp": "クリスマス",
+        "rank_1": [
+            "Iron Blade",
+            "Killer Pencil",
+            "Leather Overalls",
+            "Tree Shield",
+            "Motivational Bracelet",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Blue Blood",
+            "Gear Blade",
+            "Scale Mail",
+            "Legion Helm",
+            "Leather Boots",
+            "Protective Pendant"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Tower Shield",
+            "Light Plate",
+            "Tower Shield",
+            "Gear Blade",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Sparkling Sword",
+            "Gorgeous Armor",
+            "Emerald Earrings",
+            "Tower Shield",
+            "Victory Friendship Bracelet"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Garnet Shield",
+            "Battling Dress",
+            "Fencer Boots",
+            "Emerald Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Feather Blade",
+            "Heavy Metal Armor",
+            "Dragon Head",
+            "Garnet Shield",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Feather Waltz",
+            "Angel Armor",
+            "Lion King's Protective Charm",
+            "Lion King's Protective Charm",
+            "Garnet Shield"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Angel Boots",
+            "Feather Waltz",
+            "Bangle of Substitution",
+            "Lion King's Protective Charm"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Crusader Plate",
+            "Mythril Plate",
+            "Moon Bracelet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Faireal Boots",
+            "Crusader Plate",
+            "Congregation Pendant",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Lightning Blade",
+            "Phantasm Mail",
+            "Faireal Boots",
+            "Fairy King's Guardian Stone",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Dawn's Holy Sword",
+            "Infernal Greaves",
+            "Phantasm Mail",
+            "Mermaid Princess' Spirit Tear",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Rage Queen Dress",
+            "Nine Heavens' Armor",
+            "Glorious King's Shield Bangle",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "Konominato Sword - Aqua Ruler",
+            "Senka Dance Armor",
+            "Rage Queen Dress",
+            "Sea Dragon God's Hair Ornament",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "Star Nuclear Sword - Ertz Schneide",
+            "Overlord Light Dragon Sword",
+            "Beautiful Clothes - Soul Rose",
+            "Senka Dance Armor",
+            "Shield God Ring - Wall Breath",
+            "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Glowing Silver Mirror Armor",
+            "Elfin Choker",
+            "Shield God Ring - Wall Breath"
+        ]
+    },
+    "christmas_yukari": {
+        "unit_id": 114601,
+        "name": "Yukari",
+        "thematic": "Christmas",
+        "name_jp": "ユカリ",
+        "thematic_jp": "クリスマス",
+        "rank_1": [
+            "Iron Blade",
+            "Leather Boots",
+            "Leather Overalls",
+            "Iron Blade",
+            "Motivational Bracelet",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Blue Blood",
+            "Crown Boots",
+            "Scale Mail",
+            "Gear Blade",
+            "Leather Boots",
+            "Protective Pendant"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Tower Shield",
+            "Light Plate",
+            "Blue Blood",
+            "Gear Blade",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Emerald Earrings",
+            "Gorgeous Armor",
+            "Sparkling Sword",
+            "Tower Shield",
+            "Tower Shield"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Fencer Boots",
+            "Battling Dress",
+            "Ryuumon Sword",
+            "Emerald Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Lion King's Protective Charm",
+            "Heavy Metal Armor",
+            "Ryuumon Sword",
+            "Octogram Pendant",
+            "Battling Dress"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Empress Shield",
+            "Angel Armor",
+            "Feather Blade",
+            "Lion King's Protective Charm",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Mythril Plate",
+            "Feather Waltz",
+            "Bangle of Substitution",
+            "Lion King's Protective Charm"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Violet Armor",
+            "Angel Boots",
+            "Moon Bracelet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Faireal Boots",
+            "Violet Armor",
+            "Congregation Pendant",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Lightning Blade",
+            "Astrograph Buckler",
+            "Faireal Boots",
+            "Fairy King's Guardian Stone",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Dawn's Holy Sword",
+            "Maiden Cloth",
+            "Astrograph Buckler",
+            "Mermaid Princess' Spirit Tear",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Rage Queen Dress",
+            "Infernal Greaves",
+            "Glorious King's Shield Bangle",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "Konominato Sword - Aqua Ruler",
+            "Senka Dance Armor",
+            "Royal Guard Hat",
+            "Sea Dragon God's Hair Ornament",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "Star Nuclear Sword - Ertz Schneide",
+            "Overlord Light Dragon Sword",
+            "Flowing Blue Dress - Azul Rondo",
+            "Sky Soaring Gold Shoes",
+            "Shield God Ring - Wall Breath",
+            "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Flowing Blue Dress - Azul Rondo",
+            "Elfin Choker",
+            "Shield God Ring - Wall Breath"
+        ]
+    },
+    "new_year_muimi": {
+        "unit_id": 114701,
+        "name": "Muimi",
+        "thematic": "New Year",
+        "name_jp": "ムイミ",
+        "thematic_jp": "ニューイヤー",
+        "rank_1": [
+            "Killer Pencil",
+            "Killer Pencil",
+            "Leather Overalls",
+            "Leather Boots",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Crescent Sword",
+            "Command Knife",
+            "Crown Boots",
+            "Crown Boots",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Crescent Sword",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Moonlight Sword",
+            "Shinobi Shoes",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Vampire Dagger",
+            "Moonlight Sword",
+            "Palace Cloth",
+            "Fencer Boots",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Precious Knife",
+            "Vampire Dagger",
+            "Cosmos Cloth",
+            "Fencer Boots",
+            "Lion Eagle's Feather",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Princess' Dagger",
+            "Precious Knife",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Vampire Dagger",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Dark Matter Edge",
+            "Princess' Dagger",
+            "Hermit Clothes",
+            "Paladin Greave",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Unicorn Knife",
+            "Dark Matter Edge",
+            "Heavenly Robe",
+            "Lion King Gauntlet",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Emerald Dagger",
+            "Unicorn Knife",
+            "Faireal Boots",
+            "Blizzard Claw",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Lava Edge",
+            "Emerald Dagger",
+            "Astrograph Buckler",
+            "Dark Terror Dress",
+            "Millennium Earrings",
+            "Cat God Pendant"
+        ],
+        "rank_12": [
+            "Tír na nÓg Dagger",
+            "Lava Edge",
+            "Nine Heavens' Armor",
+            "Aegis Coat",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Twin God Sword of Lightning",
+            "Tír na nÓg Dagger",
+            "Fire Oni's Tori",
+            "Lava Edge",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Heavenly Black Sword of Obsidian",
+            "Twin God Sword of Lightning",
+            "Extremely Dark Clothes",
+            "Fire Oni's Tori",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Gehenna Dragon",
+            "Heavenly Black Sword of Obsidian",
+            "Beautiful Clothes - Soul Rose",
+            "Extremely Dark Clothes",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Gehenna Dragon",
+            "",
+            "Beautiful Clothes - Soul Rose",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "new_year_neneka": {
+        "unit_id": 115001,
+        "name": "Neneka",
+        "thematic": "New Year",
+        "name_jp": "ネネカ",
+        "thematic_jp": "ニューイヤー",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fragrant Wood Wand",
+            "Journey Robe",
+            "Fashionable Beret",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_2": [
+            "Compassion of the Unicorn",
+            "Doctorless Staff",
+            "Spring Color Robe",
+            "Witch Boots",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_3": [
+            "Celestial Sphere Watcher",
+            "Compassion of the Unicorn",
+            "Nordic Robe",
+            "Little Dragon Rod",
+            "Magic Glasses",
+            "Magic Glasses"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Witch Headband",
+            "Celestial Sphere Watcher",
+            "Turquoise Earrings",
+            "Magic Monocle",
+            "Magic Monocle"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Flower Bud Wand",
+            "Cupid Robe",
+            "Witch Hat",
+            "Turquoise Earrings",
+            "Turquoise Earrings"
+        ],
+        "rank_6": [
+            "Moon Wand",
+            "Devil's Horn",
+            "Philosopher's Robe",
+            "Flower Bud Wand",
+            "Sorcerer's Glasses",
+            "Sorcerer's Glasses"
+        ],
+        "rank_7": [
+            "Rod of Life",
+            "Moon Wand",
+            "Grand Magician's Robe",
+            "Laurel's Sorrow",
+            "Laurel's Sorrow",
+            "Sorcerer's Glasses"
+        ],
+        "rank_8": [
+            "Phoenix Rod",
+            "Rod of Life",
+            "Pope's Hood",
+            "Moon Wand",
+            "Mourning Crescent Moon",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "High Angel Rod",
+            "Phoenix Rod",
+            "Necromancer Boots",
+            "Rod of Life",
+            "Dragon's Tear",
+            "Mourning Crescent Moon"
+        ],
+        "rank_10": [
+            "Flame Rod",
+            "High Angel Rod",
+            "Aquarius Boots",
+            "Phoenix Rod",
+            "Great Sage Gem",
+            "Dragon's Tear"
+        ],
+        "rank_11": [
+            "Divine Blossom Rod",
+            "Flame Rod",
+            "Mourning Crown",
+            "High Angel Rod",
+            "Ocean God's Earrings",
+            "Great Sage Gem"
+        ],
+        "rank_12": [
+            "Atlantis Rod",
+            "Divine Blossom Rod",
+            "Empress Robe",
+            "Flame Rod",
+            "Divine Beast's Prayer",
+            "Ocean God's Earrings"
+        ],
+        "rank_13": [
+            "Heaven Rod - Stellar Sphere",
+            "Atlantis Rod",
+            "Exomagia Robe",
+            "Divine Blossom Rod",
+            "Sophos Bracelet",
+            "Divine Beast's Prayer"
+        ],
+        "rank_14": [
+            "World Tree's Branch Wand",
+            "Heaven Rod - Stellar Sphere",
+            "Prosperity Veil",
+            "Atlantis Rod",
+            "Little Ice Princess' Knot",
+            "Sophos Bracelet"
+        ],
+        "rank_15": [
+            "Phoenix Staff - Rise Flare",
+            "World Tree's Branch Wand",
+            "Glowing Silver Mirror Boots",
+            "Heaven Rod - Stellar Sphere",
+            "Deep Crystallized Xenocrystal",
+            "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "World Tree's Branch Wand",
+            "Chaotic Choker",
+            "Deep Crystallized Xenocrystal"
+        ]
+    },
+    "ceremonial_attire_kokkoro": {
+        "unit_id": 115501,
+        "name": "Kokkoro",
+        "thematic": "Ceremonial Attire",
+        "name_jp": "コッコロ",
+        "thematic_jp": "儀装束",
+        "rank_1": [
+            "Killer Pencil",
+            "Killer Pencil",
+            "Leather Overalls",
+            "Tree Shield",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Crescent Sword",
+            "Command Knife",
+            "Clothes of Wisdom",
+            "Legion Helm",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Crescent Sword",
+            "Light Plate",
+            "Tower Shield",
+            "Jewel of Love",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Moonlight Sword",
+            "Shinobi Shoes",
+            "Fashion Armor",
+            "Shinobi Shoes",
+            "Victory Friendship Bracelet",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Vampire Dagger",
+            "Moonlight Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Emerald Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Precious Knife",
+            "Vampire Dagger",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Octogram Pendant",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Princess' Dagger",
+            "Precious Knife",
+            "Invisible Dress",
+            "Scarlet Diamond",
+            "Lion King's Protective Charm",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Dark Matter Edge",
+            "Princess' Dagger",
+            "Mythril Plate",
+            "Angel Blade",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Unicorn Knife",
+            "Dark Matter Edge",
+            "Guardian Shield",
+            "Solar Sword",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Emerald Dagger",
+            "Unicorn Knife",
+            "Scarlet Mail",
+            "Ice Claymore",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Lava Edge",
+            "Emerald Dagger",
+            "Aegis Coat",
+            "Chaos Blade",
+            "Millennium Earrings",
+            "Cat God Pendant"
+        ],
+        "rank_12": [
+            "Tír na nÓg Dagger",
+            "Lava Edge",
+            "Nine Heavens' Armor",
+            "Lightning Blade",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Twin God Sword of Lightning",
+            "Tír na nÓg Dagger",
+            "Fire Oni's Tori",
+            "Dawn's Holy Sword",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Heavenly Black Sword of Obsidian",
+            "Twin God Sword of Lightning",
+            "Senka Dance Armor",
+            "Great Sword of Sin",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Gehenna Dragon",
+            "Heavenly Black Sword of Obsidian",
+            "Beautiful Clothes - Soul Rose",
+            "Konominato Sword - Aqua Ruler",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Gehenna Dragon",
+            "",
+            "Overlord Light Dragon Sword",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "ceremonial_attire_yui": {
+        "unit_id": 115601,
+        "name": "Yui",
+        "thematic": "Ceremonial Attire",
+        "name_jp": "ユイ",
+        "thematic_jp": "儀装束",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fragrant Wood Wand",
+            "Journey Robe",
+            "Fashionable Beret",
+            "Fighting Bracelet",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Compassion of the Unicorn",
+            "Doctorless Staff",
+            "Spring Color Robe",
+            "Witch Boots",
+            "Fighting Bracelet",
+            "Protective Pendant"
+        ],
+        "rank_3": [
+            "Celestial Sphere Watcher",
+            "Compassion of the Unicorn",
+            "Nordic Robe",
+            "Nun's Hood",
+            "Jewel of Wisdom",
+            "Jewel of Love"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Celestial Sphere Watcher",
+            "Witch Headband",
+            "Witch Headband",
+            "Pattern Bracelet",
+            "Victory Friendship Bracelet"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Flower Bud Wand",
+            "Cupid Robe",
+            "Witch Palace Boots",
+            "Pearl Earrings",
+            "Emerald Earrings"
+        ],
+        "rank_6": [
+            "Moon Wand",
+            "Devil's Horn",
+            "Philosopher's Robe",
+            "Witch Hat",
+            "Sorcerer's Glasses",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Rod of Life",
+            "Wizard Hood",
+            "Grand Magician's Robe",
+            "Laurel's Sorrow",
+            "Lion King's Protective Charm",
+            "Sorcerer's Glasses"
+        ],
+        "rank_8": [
+            "Phoenix Rod",
+            "Rod of Life",
+            "Saint's Robe",
+            "Wizard Boots",
+            "Bangle of Substitution",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "High Angel Rod",
+            "Phoenix Rod",
+            "Gospel Tiara",
+            "Saint's Robe",
+            "Dragon's Tear",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Flame Rod",
+            "High Angel Rod",
+            "Viridian Spiritual Dress",
+            "Gospel Tiara",
+            "Great Sage Gem",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Divine Blossom Rod",
+            "Flame Rod",
+            "Shrine Maiden's Purity Cloth",
+            "Aquarius Boots",
+            "Ocean God's Earrings",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Atlantis Rod",
+            "Divine Blossom Rod",
+            "Empress Robe",
+            "Mourning Crown",
+            "Divine Beast's Prayer",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Heaven Rod - Stellar Sphere",
+            "Atlantis Rod",
+            "Exomagia Robe",
+            "Holy Prayer's Crown",
+            "Sophos Bracelet",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "World Tree's Branch Wand",
+            "Heaven Rod - Stellar Sphere",
+            "Refreshing Ice Garment",
+            "Blood Ruby Heel",
+            "Little Ice Princess' Knot",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "Phoenix Staff - Rise Flare",
+            "World Tree's Branch Wand",
+            "Glowing Silver Mirror Boots",
+            "Refreshing Ice Garment",
+            "Deep Crystallized Xenocrystal",
+            "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Glowing Silver Mirror Boots",
+            "Chaotic Choker",
+            "Shield God Ring - Wall Breath"
+        ]
+    },
+    "summer_kasumi": {
+        "unit_id": 115701,
+        "name": "Kasumi",
+        "thematic": "Summer",
+        "name_jp": "カスミ",
+        "thematic_jp": "サマー",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fragrant Wood Wand",
+            "Journey Robe",
+            "Fashionable Beret",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_2": [
+            "Compassion of the Unicorn",
+            "Doctorless Staff",
+            "Spring Color Robe",
+            "Witch Boots",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_3": [
+            "Celestial Sphere Watcher",
+            "Compassion of the Unicorn",
+            "Nordic Robe",
+            "Little Dragon Rod",
+            "Magic Glasses",
+            "Magic Glasses"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Witch Headband",
+            "Celestial Sphere Watcher",
+            "Turquoise Earrings",
+            "Magic Monocle",
+            "Magic Monocle"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Flower Bud Wand",
+            "Cupid Robe",
+            "Witch Hat",
+            "Turquoise Earrings",
+            "Turquoise Earrings"
+        ],
+        "rank_6": [
+            "Moon Wand",
+            "Devil's Horn",
+            "Philosopher's Robe",
+            "Flower Bud Wand",
+            "Sorcerer's Glasses",
+            "Sorcerer's Glasses"
+        ],
+        "rank_7": [
+            "Rod of Life",
+            "Moon Wand",
+            "Grand Magician's Robe",
+            "Laurel's Sorrow",
+            "Laurel's Sorrow",
+            "Sorcerer's Glasses"
+        ],
+        "rank_8": [
+            "Phoenix Rod",
+            "Rod of Life",
+            "Pope's Hood",
+            "Moon Wand",
+            "Mourning Crescent Moon",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "High Angel Rod",
+            "Phoenix Rod",
+            "Necromancer Boots",
+            "Rod of Life",
+            "Dragon's Tear",
+            "Mourning Crescent Moon"
+        ],
+        "rank_10": [
+            "Flame Rod",
+            "High Angel Rod",
+            "Aquarius Boots",
+            "Phoenix Rod",
+            "Great Sage Gem",
+            "Dragon's Tear"
+        ],
+        "rank_11": [
+            "Divine Blossom Rod",
+            "Flame Rod",
+            "Mourning Crown",
+            "High Angel Rod",
+            "Ocean God's Earrings",
+            "Great Sage Gem"
+        ],
+        "rank_12": [
+            "Atlantis Rod",
+            "Divine Blossom Rod",
+            "Empress Robe",
+            "Flame Rod",
+            "Divine Beast's Prayer",
+            "Ocean God's Earrings"
+        ],
+        "rank_13": [
+            "Heaven Rod - Stellar Sphere",
+            "Atlantis Rod",
+            "Exomagia Robe",
+            "Divine Blossom Rod",
+            "Sophos Bracelet",
+            "Divine Beast's Prayer"
+        ],
+        "rank_14": [
+            "World Tree's Branch Wand",
+            "Heaven Rod - Stellar Sphere",
+            "Prosperity Veil",
+            "Atlantis Rod",
+            "Little Ice Princess' Knot",
+            "Sophos Bracelet"
+        ],
+        "rank_15": [
+            "Phoenix Staff - Rise Flare",
+            "World Tree's Branch Wand",
+            "Glowing Silver Mirror Boots",
+            "Heaven Rod - Stellar Sphere",
+            "Deep Crystallized Xenocrystal",
+            "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "World Tree's Branch Wand",
+            "Chaotic Choker",
+            "Deep Crystallized Xenocrystal"
+        ]
+    },
+    "cinderella_rima": {
+        "unit_id": 115801,
+        "name": "Rima",
+        "thematic": "Cinderella",
+        "name_jp": "リマ",
+        "thematic_jp": "シンデレラ",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Leather Overalls",
+            "Tree Shield",
+            "Iron Blade",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Blue Blood",
+            "Gear Blade",
+            "Clothes of Wisdom",
+            "Command Knife",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Blue Blood",
+            "Light Plate",
+            "Tower Shield",
+            "Gear Blade",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Sparkling Sword",
+            "Fashion Armor",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Ryuumon Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Platinum Knife",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Feather Blade",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Angel Blade",
+            "Invisible Dress",
+            "Feather Blade",
+            "Scarlet Diamond",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Mythril Plate",
+            "Angel Blade",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Guardian Shield",
+            "Solar Sword",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Scarlet Mail",
+            "Ice Claymore",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Lightning Blade",
+            "Phantasm Mail",
+            "Chaos Blade",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Dawn's Holy Sword",
+            "Nine Heavens' Armor",
+            "Lightning Blade",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Rage Queen Dress",
+            "Dawn's Holy Sword",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "Konominato Sword - Aqua Ruler",
+            "Senka Dance Armor",
+            "Great Sword of Sin",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Sword - Ertz Schneide",
+            "Overlord Light Dragon Sword",
+            "Beautiful Clothes - Soul Rose",
+            "Konominato Sword - Aqua Ruler",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Overlord Light Dragon Sword",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "cinderella_makoto": {
+        "unit_id": 115901,
+        "name": "Makoto",
+        "thematic": "Cinderella",
+        "name_jp": "マコト",
+        "thematic_jp": "シンデレラ",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Leather Overalls",
+            "Tree Shield",
+            "Iron Blade",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Crescent Sword",
+            "Gear Blade",
+            "Clothes of Wisdom",
+            "Legion Helm",
+            "Iron Blade",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Crescent Sword",
+            "Light Plate",
+            "Tower Shield",
+            "Gear Blade",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Moonlight Sword",
+            "Sparkling Sword",
+            "Fashion Armor",
+            "Opal Earrings",
+            "Crescent Sword",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Thunder God Sword",
+            "Moonlight Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Sparkling Sword",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Butterfly Katana",
+            "Thunder God Sword",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Moonlight Sword",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Bright Sword",
+            "Butterfly Katana",
+            "Invisible Dress",
+            "Lion King's Protective Charm",
+            "Thunder God Sword",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Hawk God's Sword",
+            "Bright Sword",
+            "Mythril Plate",
+            "Butterfly Katana",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Phoenix Sword",
+            "Hawk God's Sword",
+            "Violet Armor",
+            "Bright Sword",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Hundred White Blossom Petals Sword",
+            "Phoenix Sword",
+            "Dark Terror Dress",
+            "Hawk God's Sword",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Flowing Azure Blade",
+            "Hundred White Blossom Petals Sword",
+            "Phantasm Mail",
+            "Phoenix Sword",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Blood Raven Sword",
+            "Flowing Azure Blade",
+            "Nine Heavens' Armor",
+            "Hundred White Blossom Petals Sword",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Ifrit Katana - Ignite",
+            "Blood Raven Sword",
+            "Rage Queen Dress",
+            "Flowing Azure Blade",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Emerald Wind God's Tachi",
+            "Ifrit Katana - Ignite",
+            "Senka Dance Armor",
+            "Blood Raven Sword",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Branch Blade of Divine Descent",
+            "Emerald Wind God's Tachi",
+            "Beautiful Clothes - Soul Rose",
+            "Ifrit Katana - Ignite",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Branch Blade of Divine Descent",
+            "",
+            "Emerald Wind God's Tachi",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "cinderella_maho": {
+        "unit_id": 116001,
+        "name": "Maho",
+        "thematic": "Cinderella",
+        "name_jp": "マホ",
+        "thematic_jp": "シンデレラ",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fragrant Wood Wand",
+            "Journey Robe",
+            "Fashionable Beret",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_2": [
+            "Compassion of the Unicorn",
+            "Doctorless Staff",
+            "Spring Color Robe",
+            "Witch Boots",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_3": [
+            "Celestial Sphere Watcher",
+            "Compassion of the Unicorn",
+            "Nordic Robe",
+            "Little Dragon Rod",
+            "Magic Glasses",
+            "Magic Glasses"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Witch Headband",
+            "Celestial Sphere Watcher",
+            "Turquoise Earrings",
+            "Magic Monocle",
+            "Magic Monocle"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Flower Bud Wand",
+            "Cupid Robe",
+            "Witch Hat",
+            "Turquoise Earrings",
+            "Turquoise Earrings"
+        ],
+        "rank_6": [
+            "Moon Wand",
+            "Devil's Horn",
+            "Philosopher's Robe",
+            "Flower Bud Wand",
+            "Sorcerer's Glasses",
+            "Sorcerer's Glasses"
+        ],
+        "rank_7": [
+            "Rod of Life",
+            "Moon Wand",
+            "Grand Magician's Robe",
+            "Laurel's Sorrow",
+            "Laurel's Sorrow",
+            "Sorcerer's Glasses"
+        ],
+        "rank_8": [
+            "Phoenix Rod",
+            "Rod of Life",
+            "Pope's Hood",
+            "Moon Wand",
+            "Mourning Crescent Moon",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "High Angel Rod",
+            "Phoenix Rod",
+            "Necromancer Boots",
+            "Rod of Life",
+            "Dragon's Tear",
+            "Mourning Crescent Moon"
+        ],
+        "rank_10": [
+            "Flame Rod",
+            "High Angel Rod",
+            "Aquarius Boots",
+            "Phoenix Rod",
+            "Great Sage Gem",
+            "Dragon's Tear"
+        ],
+        "rank_11": [
+            "Divine Blossom Rod",
+            "Flame Rod",
+            "Mourning Crown",
+            "High Angel Rod",
+            "Ocean God's Earrings",
+            "Great Sage Gem"
+        ],
+        "rank_12": [
+            "Atlantis Rod",
+            "Divine Blossom Rod",
+            "Empress Robe",
+            "Flame Rod",
+            "Divine Beast's Prayer",
+            "Ocean God's Earrings"
+        ],
+        "rank_13": [
+            "Heaven Rod - Stellar Sphere",
+            "Atlantis Rod",
+            "Exomagia Robe",
+            "Divine Blossom Rod",
+            "Sophos Bracelet",
+            "Divine Beast's Prayer"
+        ],
+        "rank_14": [
+            "World Tree's Branch Wand",
+            "Heaven Rod - Stellar Sphere",
+            "Prosperity Veil",
+            "Atlantis Rod",
+            "Little Ice Princess' Knot",
+            "Sophos Bracelet"
+        ],
+        "rank_15": [
+            "Phoenix Staff - Rise Flare",
+            "World Tree's Branch Wand",
+            "Glowing Silver Mirror Boots",
+            "Heaven Rod - Stellar Sphere",
+            "Deep Crystallized Xenocrystal",
+            "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "World Tree's Branch Wand",
+            "Chaotic Choker",
+            "Deep Crystallized Xenocrystal"
+        ]
+    },
+    "school_festival_chloe": {
+        "unit_id": 116201,
+        "name": "Chloe",
+        "thematic": "School Festival",
+        "name_jp": "クロエ",
+        "thematic_jp": "聖学祭",
+        "rank_1": [
+            "Killer Pencil",
+            "Killer Pencil",
+            "Leather Overalls",
+            "Leather Boots",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Crescent Sword",
+            "Command Knife",
+            "Crown Boots",
+            "Crown Boots",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Crescent Sword",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Moonlight Sword",
+            "Shinobi Shoes",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Vampire Dagger",
+            "Moonlight Sword",
+            "Palace Cloth",
+            "Fencer Boots",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Precious Knife",
+            "Vampire Dagger",
+            "Cosmos Cloth",
+            "Fencer Boots",
+            "Lion Eagle's Feather",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Princess' Dagger",
+            "Precious Knife",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Vampire Dagger",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Dark Matter Edge",
+            "Princess' Dagger",
+            "Hermit Clothes",
+            "Paladin Greave",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Unicorn Knife",
+            "Dark Matter Edge",
+            "Heavenly Robe",
+            "Lion King Gauntlet",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Emerald Dagger",
+            "Unicorn Knife",
+            "Faireal Boots",
+            "Blizzard Claw",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Lava Edge",
+            "Emerald Dagger",
+            "Astrograph Buckler",
+            "Dark Terror Dress",
+            "Millennium Earrings",
+            "Cat God Pendant"
+        ],
+        "rank_12": [
+            "Tír na nÓg Dagger",
+            "Lava Edge",
+            "Nine Heavens' Armor",
+            "Aegis Coat",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Twin God Sword of Lightning",
+            "Tír na nÓg Dagger",
+            "Fire Oni's Tori",
+            "Lava Edge",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Heavenly Black Sword of Obsidian",
+            "Twin God Sword of Lightning",
+            "Extremely Dark Clothes",
+            "Fire Oni's Tori",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Gehenna Dragon",
+            "Heavenly Black Sword of Obsidian",
+            "Beautiful Clothes - Soul Rose",
+            "Extremely Dark Clothes",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Gehenna Dragon",
+            "",
+            "Beautiful Clothes - Soul Rose",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "school_festival_chieru": {
+        "unit_id": 116301,
+        "name": "Chieru",
+        "thematic": "School Festival",
+        "name_jp": "チエル",
+        "thematic_jp": "聖学祭",
+        "rank_1": [
+            "Wood Grip",
+            "Killer Pencil",
+            "Leather Overalls",
+            "Leather Boots",
+            "Killer Pencil",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Leather Knuckle",
+            "Command Knife",
+            "Folklore Clothes",
+            "Crown Boots",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Leather Knuckle",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Dragon's Claw",
+            "Platinum Knife",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Vampire Dagger",
+            "Dragon's Claw",
+            "Palace Cloth",
+            "Fencer Boots",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Blazing Gauntlet",
+            "Vampire Dagger",
+            "Cosmos Cloth",
+            "Fencer Boots",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Lion King Gauntlet",
+            "Blazing Gauntlet",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Vampire Dagger",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Blizzard Claw",
+            "Lion King Gauntlet",
+            "Hermit Clothes",
+            "Blazing Gauntlet",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Lightning Fist",
+            "Blizzard Claw",
+            "Heavenly Robe",
+            "Lion King Gauntlet",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Moon Cestus",
+            "Lightning Fist",
+            "Dark Terror Dress",
+            "Blizzard Claw",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Crimson Claw",
+            "Moon Cestus",
+            "Aegis Coat",
+            "Lightning Fist",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Cocytus Nail",
+            "Crimson Claw",
+            "Nine Heavens' Armor",
+            "Moon Cestus",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Storm God Tempest Gear",
+            "Cocytus Nail",
+            "Fire Oni's Tori",
+            "Crimson Claw",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Extremely Dark Nail - Bloody Howl",
+            "Storm God Tempest Gear",
+            "Extremely Dark Clothes",
+            "Cocytus Nail",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Fist - Elzloa",
+            "Extremely Dark Nail - Bloody Howl",
+            "Flowing Blue Dress - Azul Rondo",
+            "Storm God Tempest Gear",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Extremely Dark Nail - Bloody Howl",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "time_traveler_inori": {
+        "unit_id": 116501,
+        "name": "Inori",
+        "thematic": "Time Traveler",
+        "name_jp": "イノリ",
+        "thematic_jp": "タイムトラベル",
+        "rank_1": [
+            "One Handed Axe",
+            "One Handed Axe",
+            "Tree Shield",
+            "One Handed Axe",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "High-Metal Axe",
+            "Metal Axe",
+            "Scale Mail",
+            "Metal Axe",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Blue Sphere Axe",
+            "High-Metal Axe",
+            "High Metal Plate",
+            "High-Metal Axe",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Lion's Battle Axe",
+            "Blue Sphere Axe",
+            "Gorgeous Armor",
+            "Blue Sphere Axe",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Lion's Battle Axe",
+            "Battling Dress",
+            "Lion's Battle Axe",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Shiryuu Axe",
+            "Lightning Axe",
+            "Heavy Metal Armor",
+            "Lion's Battle Axe",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Hell-Fire Axe",
+            "Shiryuu Axe",
+            "Angel Armor",
+            "Lightning Axe",
+            "Scarlet Diamond",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Queen's Battle Axe",
+            "Hell-Fire Axe",
+            "Vermilion Plate",
+            "Shiryuu Axe",
+            "Bangle of Substitution",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Aqua Slasher",
+            "Queen's Battle Axe",
+            "Violet Armor",
+            "Hell-Fire Axe",
+            "Moon Bracelet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Necrodim Axe",
+            "Aqua Slasher",
+            "Dragonic Armor",
+            "Queen's Battle Axe",
+            "Cat God Pendant",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Divine Judgement Axe",
+            "Necrodim Axe",
+            "Azure Armor",
+            "Aqua Slasher",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Gaia Axe",
+            "Divine Judgement Axe",
+            "Holy Sakura's Armor",
+            "Necrodim Axe",
+            "Mermaid Princess' Spirit Tear",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "God Roar Axe - Terra Break",
+            "Gaia Axe",
+            "Gold King's Armor",
+            "Divine Judgement Axe",
+            "War God's Arm",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "Machine Axe - Core Breaker",
+            "God Roar Axe - Terra Break",
+            "Furious Wind Armor",
+            "Gaia Axe",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Turquoise Noah",
+            "Machine Axe - Core Breaker",
+            "Glowing Silver Mirror Armor",
+            "God Roar Axe - Terra Break",
+            "Shield God Ring - Wall Breath",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Turquoise Noah",
+            "",
+            "Machine Axe - Core Breaker",
+            "Ruby Rose Choker",
+            "Shield God Ring - Wall Breath"
+        ]
+    },
+    "princess_hiyori": {
+        "unit_id": 180101,
+        "name": "Hiyori",
+        "thematic": "Princess",
+        "name_jp": "ヒヨリ",
+        "thematic_jp": "プリンセス",
+        "rank_1": [
+            "Wood Grip",
+            "Killer Pencil",
+            "Leather Overalls",
+            "Wood Grip",
+            "Killer Pencil",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Leather Knuckle",
+            "Command Knife",
+            "Folklore Clothes",
+            "Command Knife",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Leather Knuckle",
+            "Shinobi Costume",
+            "Leather Knuckle",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Dragon's Claw",
+            "Platinum Knife",
+            "Millefeuille Cloth",
+            "Platinum Knife",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Vampire Dagger",
+            "Dragon's Claw",
+            "Palace Cloth",
+            "Dragon's Claw",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Blazing Gauntlet",
+            "Vampire Dagger",
+            "Cosmos Cloth",
+            "Dragon's Claw",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Lion King Gauntlet",
+            "Blazing Gauntlet",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Vampire Dagger",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Blizzard Claw",
+            "Lion King Gauntlet",
+            "Hermit Clothes",
+            "Blazing Gauntlet",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Lightning Fist",
+            "Blizzard Claw",
+            "Heavenly Robe",
+            "Lion King Gauntlet",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Moon Cestus",
+            "Lightning Fist",
+            "Dark Terror Dress",
+            "Blizzard Claw",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Crimson Claw",
+            "Moon Cestus",
+            "Aegis Coat",
+            "Lightning Fist",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Cocytus Nail",
+            "Crimson Claw",
+            "Nine Heavens' Armor",
+            "Moon Cestus",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Storm God Tempest Gear",
+            "Cocytus Nail",
+            "Fire Oni's Tori",
+            "Crimson Claw",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Extremely Dark Nail - Bloody Howl",
+            "Storm God Tempest Gear",
+            "Extremely Dark Clothes",
+            "Cocytus Nail",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Fist - Elzloa",
+            "Extremely Dark Nail - Bloody Howl",
+            "Flowing Blue Dress - Azul Rondo",
+            "Storm God Tempest Gear",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Extremely Dark Nail - Bloody Howl",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "princess_yui": {
+        "unit_id": 180201,
+        "name": "Yui",
+        "thematic": "Princess",
+        "name_jp": "ユイ",
+        "thematic_jp": "プリンセス",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fragrant Wood Wand",
+            "Journey Robe",
+            "Fashionable Beret",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_2": [
+            "Little Dragon Rod",
+            "Green Rod",
+            "Spring Color Robe",
+            "Witch Boots",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_3": [
+            "Thorn Blood Rod",
+            "Little Dragon Rod",
+            "Nordic Robe",
+            "Nun's Hood",
+            "Magic Glasses",
+            "Magic Glasses"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Thorn Blood Rod",
+            "Witch Headband",
+            "Witch Headband",
+            "Magic Monocle",
+            "Magic Monocle"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Flower Bud Wand",
+            "Cupid Robe",
+            "Witch Hat",
+            "Turquoise Earrings",
+            "Turquoise Earrings"
+        ],
+        "rank_6": [
+            "Fury Rod",
+            "Devil's Horn",
+            "Philosopher's Robe",
+            "Witch Hat",
+            "Cupid Robe",
+            "Sorcerer's Glasses"
+        ],
+        "rank_7": [
+            "Rod of Sun",
+            "Fury Rod",
+            "Grand Magician's Robe",
+            "Laurel's Sorrow",
+            "Devil's Horn",
+            "Sorcerer's Glasses"
+        ],
+        "rank_8": [
+            "Justice God's Staff",
+            "Rod of Sun",
+            "Pope's Hood",
+            "Fury Rod",
+            "Mourning Crescent Moon",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "High Devil Wand",
+            "Justice God's Staff",
+            "Necromancer Boots",
+            "Rod of Sun",
+            "Dragon's Tear",
+            "Mourning Crescent Moon"
+        ],
+        "rank_10": [
+            "Xenosphere Rod",
+            "High Devil Wand",
+            "Aquarius Boots",
+            "Justice God's Staff",
+            "Great Sage Gem",
+            "Dragon's Tear"
+        ],
+        "rank_11": [
+            "Genesis Rod",
+            "Xenosphere Rod",
+            "Mourning Crown",
+            "High Devil Wand",
+            "Ocean God's Earrings",
+            "Great Sage Gem"
+        ],
+        "rank_12": [
+            "Lightning Wand",
+            "Genesis Rod",
+            "Empress Robe",
+            "Xenosphere Rod",
+            "Divine Beast's Prayer",
+            "Ocean God's Earrings"
+        ],
+        "rank_13": [
+            "Black Snake Dragon's Staff",
+            "Lightning Wand",
+            "Exomagia Robe",
+            "Genesis Rod",
+            "Sophos Bracelet",
+            "Divine Beast's Prayer"
+        ],
+        "rank_14": [
+            "Abyss Moon Staff - Sacrifice",
+            "Black Snake Dragon's Staff",
+            "Prosperity Veil",
+            "Lightning Wand",
+            "Little Ice Princess' Knot",
+            "Sophos Bracelet"
+        ],
+        "rank_15": [
+            "Green Butterfly Wand",
+            "Abyss Moon Staff - Sacrifice",
+            "Astrologer's Holy Spirit Robe",
+            "Black Snake Dragon's Staff",
+            "Deep Crystallized Xenocrystal",
+            "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Abyss Moon Staff - Sacrifice",
+            "Chaotic Choker",
+            "Deep Crystallized Xenocrystal"
+        ]
+    },
     "princess_pecorine": {
         "name_cn": "佩可莉姆（公主）",
         "unit_id": 180401,
@@ -15365,6 +20090,276 @@
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ]
+    },
+    "princess_kokkoro": {
+        "unit_id": 180501,
+        "name": "Kokkoro",
+        "thematic": "Princess",
+        "name_jp": "コッコロ",
+        "thematic_jp": "プリンセス",
+        "rank_1": [
+            "Steel Spear",
+            "Steel Spear",
+            "Leather Overalls",
+            "Steel Spear",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Flame Spear",
+            "Trident",
+            "Folklore Clothes",
+            "Trident",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Knight's Pride",
+            "Flame Spear",
+            "Shinobi Costume",
+            "Nun's Hood",
+            "Jewel of Love",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Absolute Spear",
+            "Knight's Pride",
+            "Millefeuille Cloth",
+            "Knight's Pride",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Absolute Spear",
+            "Palace Cloth",
+            "Absolute Spear",
+            "Emerald Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Scarlet Dragon",
+            "Lightning Axe",
+            "Cosmos Cloth",
+            "Absolute Spear",
+            "Lion Eagle's Feather",
+            "Palace Cloth"
+        ],
+        "rank_7": [
+            "Queen Bee Spear",
+            "Scarlet Dragon",
+            "Moonlight Garment",
+            "Lion King's Protective Charm",
+            "Laurel's Sorrow",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Storm Bringer",
+            "Queen Bee Spear",
+            "Angel Boots",
+            "Scarlet Dragon",
+            "Bangle of Substitution",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "Gaia Bardiche",
+            "Storm Bringer",
+            "Heavenly Robe",
+            "Angel Boots",
+            "Sun Amulet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Zero Frost Lance",
+            "Gaia Bardiche",
+            "Faireal Boots",
+            "Storm Bringer",
+            "Congregation Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Gale Stinger",
+            "Zero Frost Lance",
+            "Astrograph Buckler",
+            "Faireal Boots",
+            "Fairy King's Guardian Stone",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Heaven's Protective Holy Spear",
+            "Gale Stinger",
+            "Maiden Cloth",
+            "Zero Frost Lance",
+            "Mermaid Princess' Spirit Tear",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Divine Spear - Doom Pain",
+            "Heaven's Protective Holy Spear",
+            "Rage Queen Dress",
+            "Gale Stinger",
+            "Glorious King's Shield Bangle",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "Fire Spear - Prominence",
+            "Divine Spear - Doom Pain",
+            "Sky Soaring Gold Shoes",
+            "Heaven's Protective Holy Spear",
+            "Sea Dragon God's Hair Ornament",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "Star Nuclear Spear - Ertz Borg",
+            "Fire Spear - Prominence",
+            "Glowing Silver Mirror Shield",
+            "Divine Spear - Doom Pain",
+            "Shield God Ring - Wall Breath",
+            "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "",
+            "Fire Spear - Prominence",
+            "Elfin Choker",
+            "Shield God Ring - Wall Breath"
+        ]
+    },
+    "princess_kyaru": {
+        "unit_id": 180601,
+        "name": "Kyaru",
+        "thematic": "Princess",
+        "name_jp": "キャル",
+        "thematic_jp": "プリンセス",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fragrant Wood Wand",
+            "Journey Robe",
+            "Fashionable Beret",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_2": [
+            "Little Dragon Rod",
+            "Green Rod",
+            "Spring Color Robe",
+            "Witch Boots",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_3": [
+            "Thorn Blood Rod",
+            "Little Dragon Rod",
+            "Nordic Robe",
+            "Nun's Hood",
+            "Magic Glasses",
+            "Magic Glasses"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Thorn Blood Rod",
+            "Witch Headband",
+            "Witch Headband",
+            "Magic Monocle",
+            "Magic Monocle"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Flower Bud Wand",
+            "Cupid Robe",
+            "Witch Hat",
+            "Turquoise Earrings",
+            "Turquoise Earrings"
+        ],
+        "rank_6": [
+            "Fury Rod",
+            "Devil's Horn",
+            "Philosopher's Robe",
+            "Witch Hat",
+            "Cupid Robe",
+            "Sorcerer's Glasses"
+        ],
+        "rank_7": [
+            "Rod of Life",
+            "Fury Rod",
+            "Grand Magician's Robe",
+            "Laurel's Sorrow",
+            "Devil's Horn",
+            "Sorcerer's Glasses"
+        ],
+        "rank_8": [
+            "Justice God's Staff",
+            "Rod of Life",
+            "Pope's Hood",
+            "Fury Rod",
+            "Mourning Crescent Moon",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "High Angel Rod",
+            "Justice God's Staff",
+            "Necromancer Boots",
+            "Rod of Life",
+            "Dragon's Tear",
+            "Mourning Crescent Moon"
+        ],
+        "rank_10": [
+            "Xenosphere Rod",
+            "High Angel Rod",
+            "Aquarius Boots",
+            "Justice God's Staff",
+            "Great Sage Gem",
+            "Dragon's Tear"
+        ],
+        "rank_11": [
+            "Genesis Rod",
+            "Xenosphere Rod",
+            "Mourning Crown",
+            "High Angel Rod",
+            "Ocean God's Earrings",
+            "Great Sage Gem"
+        ],
+        "rank_12": [
+            "Lightning Wand",
+            "Genesis Rod",
+            "Empress Robe",
+            "Xenosphere Rod",
+            "Divine Beast's Prayer",
+            "Ocean God's Earrings"
+        ],
+        "rank_13": [
+            "Black Snake Dragon's Staff",
+            "Lightning Wand",
+            "Exomagia Robe",
+            "Genesis Rod",
+            "Sophos Bracelet",
+            "Divine Beast's Prayer"
+        ],
+        "rank_14": [
+            "World Tree's Branch Wand",
+            "Black Snake Dragon's Staff",
+            "Prosperity Veil",
+            "Lightning Wand",
+            "Little Ice Princess' Knot",
+            "Sophos Bracelet"
+        ],
+        "rank_15": [
+            "Phoenix Staff - Rise Flare",
+            "World Tree's Branch Wand",
+            "Astrologer's Holy Spirit Robe",
+            "Black Snake Dragon's Staff",
+            "Deep Crystallized Xenocrystal",
+            "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "World Tree's Branch Wand",
+            "Chaotic Choker",
+            "Deep Crystallized Xenocrystal"
         ]
     }
 }
