@@ -242,6 +242,15 @@
         "req_pieces": 1,
         "req_items": []
     },
+    "31092": {
+        "name_jp": "アンのメモリーピース",
+        "name": "Anne Shard",
+        "id": "misc-30",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
     "101011": {
         "name_en": "Iron Blade",
         "name_jp": "アイアンブレード",
