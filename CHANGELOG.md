@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.23.3] - 2022-03-06
+### Fixed
+- Fixed an issue with rarity IDs in regional equipment data
+  - Bug reported by `DeinAlptraum` - <https://github.com/Expugn/priconne-quest-helper/issues/45>
+  - Due to a shortcut used when creating regional equipment data, there can be gaps in rarity IDs
+  - These gaps will cause issues with loading projects as described in the issue report.
+
 ## [2.23.2] - 2022-03-03
 ### Added
 - New Character: Kurumi (Stage)

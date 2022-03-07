@@ -61,6 +61,7 @@ function download(region = "jp") {
 
 function write_equipment_data(region = "jp") {
     return new Promise(async (resolve) => {
+        let counters = {};
         let db, result, data = {};
         db = await open({
             filename: `master_${region}.db`,
@@ -78,6 +79,14 @@ function write_equipment_data(region = "jp") {
                 [`name_${region}`]: entry["equipment_name"],
                 ...JSON.parse(JSON.stringify(equipment_data[id])),
             };
+            const rarity_string = data[id]["id"].split("-")[0];
+            if (!counters[rarity_string]) {
+                counters[rarity_string] = 1;
+            }
+            else {
+                counters[rarity_string]++;
+            }
+            data[id]["id"] = `${rarity_string}-${counters[rarity_string]}`;
         });
 
         // ADD CHARACTER MEMORY PIECES

@@ -93,3 +93,4 @@ Thumbs.db
 # Private Files
 project_files/
 pages/dev/
+*.db

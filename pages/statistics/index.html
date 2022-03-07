@@ -338,9 +338,6 @@
         sorted_data.forEach(function (e) {
             const item_name = e[0], amount = e[1];
             let d = equip_data[(is_equipment_display ? item_name : item_name.replace(" Fragment", ""))];
-            if (d === undefined) {
-                return;
-            }
             let rar = d["rarity"];
             if (ignored_rarities[rar]) {
                 if (counter < 3) {
