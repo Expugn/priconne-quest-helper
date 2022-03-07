@@ -80,6 +80,10 @@ Bare-bones code that does that is available in <https://github.com/Expugn/pricon
 This will get ONLY the master database; image collection is not included.<br>
 *This may break at any point if Crunchyroll decides to change how the master database is downloaded or encrypted.*
 
+### Directly Getting Multiple Region Master Databases
+If you are interested in directly getting the `master.db` from multiple regions for your project:<br>
+`master.db`s and code to update them is available here <https://github.com/Expugn/priconne-database>
+
 ## Other Informative Sites and Tools
 - `AssetStudio`: [GitHub](https://github.com/Perfare/AssetStudio)<br>
   - Using the `DMM Game Player` version of `Princess Connect! Re:Dive`
