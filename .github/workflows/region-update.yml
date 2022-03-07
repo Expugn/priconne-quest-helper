@@ -52,7 +52,7 @@ jobs:
           git add ./data/equipment_data_tw.json
           git add ./package-lock.json
           git add ./package.json
-          git commit --allow-empty -m "[Bot] Regional Data Update" -m '
+          git diff-index --quiet HEAD || git commit -m "[Bot] Regional Data Update" -m '
           ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           This is an automated process. Issues may or may not have occured.'
           git push
