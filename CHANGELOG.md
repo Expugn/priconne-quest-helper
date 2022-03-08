@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.23.4] - 2022-03-08
+### Added
+- New Quests
+  - `30-2VH` (Summer Pecorine)
+  - `30-3VH` (Summer Kokkoro)
+  - `31-1VH` (Summer Kyaru)
+
 ## [2.23.3] - 2022-03-06
 ### Fixed
 - Fixed an issue with rarity IDs in regional equipment data

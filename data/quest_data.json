@@ -14427,6 +14427,82 @@
             15
         ]
     },
+    "30-2VH": {
+        "name": "フテラ断崖・北部 30-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Ice Shining Sword Glass Blade Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Ice Cane Frost Staff Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Pure Snow Mail Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Summer Pecorine Pure Memory Piece",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-3VH": {
+        "name": "フテラ断崖・北部 30-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Ice Spear Snow Storm Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Ice and Snow Cane Pergos Wand Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "White Aurora Dress Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Summer Kokkoro Pure Memory Piece",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "31-1": {
         "name": "フテラ断崖・南部 31-1",
         "stamina": 10,
@@ -14940,6 +15016,44 @@
             "Ifrit Katana - Ignite Fragment",
             "God Roar Axe - Terra Break Fragment",
             "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "31-1VH": {
+        "name": "フテラ断崖・南部 31-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Ice and Snow Cane Pergos Wand Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Rocking Chain Bangle Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Ice Cane Frost Staff Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Diamond Dust Robe Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Summer Kyaru Pure Memory Piece",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Immortal Sakura Wish Hairpin Fragment",
+            "Weeping Sakura Bow Fragment",
+            "Cherry Blossom Fragment",
+            "Parasol One Piece Fragment",
+            "Sakura Dance Double Hairpin Fragment"
         ],
         "subdrops_percent": [
             24,
