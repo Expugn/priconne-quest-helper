@@ -719,6 +719,15 @@
         "req_pieces": 1,
         "req_items": []
     },
+    "32053": {
+        "name_jp": "モニカのピュアメモリーピース",
+        "name": "Monika Pure Shard",
+        "id": "misc-83",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
     "32057": {
         "name_jp": "ジータのピュアメモリーピース",
         "name": "Djeeta Pure Shard",
@@ -750,6 +759,15 @@
         "name_jp": "キャルのピュアメモリーピース",
         "name": "Kyaru Pure Shard",
         "id": "misc-87",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "32063": {
+        "name_jp": "アリサのピュアメモリーピース",
+        "name": "Arisa Pure Shard",
+        "id": "misc-88",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
