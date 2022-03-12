@@ -5135,7 +5135,7 @@ const webpage = (function () {
             setTimeout(function () {
                 document.getElementById("loading-div").classList.add("end");
                 document.getElementById("page-cover").classList.add("end");
-                toastr.info("If you have any idea on how to do so, please open an issue here: <a href='https://github.com/Expugn/priconne-quest-helper/issues' target='_blank'>https://github.com/Expugn/priconne-quest-helper/issues</a><br/>"
+                toastr.info("If you have any idea on how to datamine the Thai server, please open an issue here: <a href='https://github.com/Expugn/priconne-quest-helper/issues' target='_blank'>https://github.com/Expugn/priconne-quest-helper/issues</a><br/>"
                     + "หากคุณมีความคิดใดๆวิธีการ\"datamine\"เซิร์ฟเวอร์สำหรับประเทศไทยโปรดแจ้งให้เราทราบที่นี่: <a href='https://github.com/Expugn/priconne-quest-helper/issues' target='_blank'>https://github.com/Expugn/priconne-quest-helper/issues</a>",
                     "Currently looking into Thai server support!", { closeButton: true, showMethod: 'slideDown', positionClass: "toast-top-full-width", timeOut:15000, extendedTimeOut:30, tapToDismiss: true, progressBar: true, });
                 // DELETE LOADING SCREEN ELEMENTS AFTER TRANSITION IS COMPLETE
