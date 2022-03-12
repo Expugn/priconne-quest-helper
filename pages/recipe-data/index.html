@@ -437,12 +437,13 @@
             // CURRENT/LEGACY RECIPES
             let current = document.createElement("div");
             current.classList.add("current");
+            /*
             if (is_exists_in_legacy) {
                 let current_span = document.createElement("span");
                 current_span.classList.add("title");
                 current_span.innerText = "Current Recipe";
                 current.appendChild(current_span);
-            }
+            }*/
             let current_recipe_div = document.createElement("div");
             current_recipe_div.id = "current_recipe";
             current.appendChild(current_recipe_div);
@@ -591,10 +592,11 @@
                     legacy_count++;
                 }
             }
+            /*
             if (legacy_count <= 0) {
                 // DELETE THE "Current Recipe" TITLE IF LEGACY, LEGACY_2, OR ANY OTHER LEGACY RECIPES DOES NOT EXIST
                 current.removeChild(current.querySelector("span.title"));
-            }
+            }*/
 
             // COMPONENT USAGE
             const comp_usage = component_usage[item_name],

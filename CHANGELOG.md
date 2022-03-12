@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.23.5] - 2022-03-11
+### Fixed
+- Fixed an issue in `recipe-data` where trying to click on a orange rarity item would not load
+
 ## [2.23.4] - 2022-03-08
 ### Added
 - New Quests
