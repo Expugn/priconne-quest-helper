@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.24.0] - 2022-03-15
+Quest Update (2022-03-15)
+### Added
+- New Character: Misaki (Stage)
+- New Quests
+  - Chapter 56 Normal
+  - `52-3 H`
+- New Equipment
+
 ## [2.23.5] - 2022-03-11
 ### Fixed
 - Fixed an issue in `recipe-data` where trying to click on a orange rarity item would not load
