@@ -5139,11 +5139,23 @@
             "Jade Wind Blade - Emerald Edge"
         ]
     },
+    "107283": {
+        "name_tw": "純真雪鎧甲",
+        "name_jp": "ピュアスノウメイル",
+        "name": "Pure Snow Mail",
+        "id": "green-30",
+        "has_fragments": true,
+        "fragment_id": "127283",
+        "req_pieces": 20,
+        "req_items": [
+            "Iolite Shield"
+        ]
+    },
     "107311": {
         "name_tw": "海灘泳圈鎧甲",
         "name_jp": "ビーチフローターメイル",
         "name": "Beach Floater Mail",
-        "id": "green-30",
+        "id": "green-31",
         "has_fragments": true,
         "fragment_id": "117311",
         "req_pieces": 30,
@@ -5153,17 +5165,29 @@
         "name_tw": "哥德貞女",
         "name_jp": "ゴシックメイデン",
         "name": "Gothic Maiden",
-        "id": "green-31",
+        "id": "green-32",
         "has_fragments": true,
         "fragment_id": "117312",
         "req_pieces": 30,
         "req_items": []
     },
+    "107313": {
+        "name_tw": "水晶冰鎧甲",
+        "name_jp": "クリスタルアイスメイル",
+        "name": "Crystal Ice Mail",
+        "id": "green-33",
+        "has_fragments": true,
+        "fragment_id": "127313",
+        "req_pieces": 20,
+        "req_items": [
+            "Platinum Scale Armor"
+        ]
+    },
     "107341": {
         "name_tw": "牽牛花夏影浴衣",
         "name_jp": "朝顔の夏影浴衣",
         "name": "Summer Reflection Yukata of Morning Glory",
-        "id": "green-32",
+        "id": "green-34",
         "has_fragments": true,
         "fragment_id": "127341",
         "req_pieces": 20,
@@ -5175,7 +5199,7 @@
         "name_tw": "龐克女孩",
         "name_jp": "パンキッシュガール",
         "name": "Punkish Girl",
-        "id": "green-33",
+        "id": "green-35",
         "has_fragments": true,
         "fragment_id": "127342",
         "req_pieces": 20,
@@ -5183,11 +5207,21 @@
             "Blue Night Nocturne Brooch"
         ]
     },
+    "107343": {
+        "name_tw": "白極光禮服",
+        "name_jp": "ホワイトオーロラドレス",
+        "name": "White Aurora Dress",
+        "id": "green-36",
+        "has_fragments": true,
+        "fragment_id": "117343",
+        "req_pieces": 30,
+        "req_items": []
+    },
     "107371": {
         "name_tw": "陽傘連身裙",
         "name_jp": "パラソルワンピース",
         "name": "Parasol One Piece",
-        "id": "green-34",
+        "id": "green-37",
         "has_fragments": true,
         "fragment_id": "127371",
         "req_pieces": 20,
@@ -5199,17 +5233,29 @@
         "name_tw": "哥德藍玫瑰",
         "name_jp": "ゴシックブルーローズ",
         "name": "Gothic Blue Rose",
-        "id": "green-35",
+        "id": "green-38",
         "has_fragments": true,
         "fragment_id": "117372",
         "req_pieces": 30,
         "req_items": []
     },
+    "107373": {
+        "name_tw": "鑽石之塵長袍",
+        "name_jp": "ダイヤモンドダストローブ",
+        "name": "Diamond Dust Robe",
+        "id": "green-39",
+        "has_fragments": true,
+        "fragment_id": "127373",
+        "req_pieces": 20,
+        "req_items": [
+            "Black Agate Prayer Dress"
+        ]
+    },
     "107461": {
         "name_tw": "扶桑花涼鞋",
         "name_jp": "ハイビスカスサンダル",
         "name": "Hibiscus Sandals",
-        "id": "green-36",
+        "id": "green-40",
         "has_fragments": true,
         "fragment_id": "117461",
         "req_pieces": 30,
@@ -5219,7 +5265,7 @@
         "name_tw": "黑色鉚釘靴",
         "name_jp": "スタッズドブラック",
         "name": "Studded Black",
-        "id": "green-37",
+        "id": "green-41",
         "has_fragments": true,
         "fragment_id": "127462",
         "req_pieces": 20,
@@ -5227,11 +5273,21 @@
             "Blue God Bow - Mercy Sapiros"
         ]
     },
+    "107463": {
+        "name_tw": "冰霜圓柱高跟鞋",
+        "name_jp": "フロストコラムヒール",
+        "name": "Frost Column Heel",
+        "id": "green-42",
+        "has_fragments": true,
+        "fragment_id": "117463",
+        "req_pieces": 30,
+        "req_items": []
+    },
     "107491": {
         "name_tw": "向日葵草帽",
         "name_jp": "サンフラワーストローハット",
         "name": "Sunflower Straw Hat",
-        "id": "green-38",
+        "id": "green-43",
         "has_fragments": true,
         "fragment_id": "117491",
         "req_pieces": 30,
@@ -5241,9 +5297,19 @@
         "name_tw": "黑色扣環帽",
         "name_jp": "ピアスドブラック",
         "name": "Pierced Black",
-        "id": "green-39",
+        "id": "green-44",
         "has_fragments": true,
         "fragment_id": "117492",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107493": {
+        "name_tw": "雪花貝雷帽",
+        "name_jp": "スノウフレークベレー",
+        "name": "Snowflake Beret",
+        "id": "green-45",
+        "has_fragments": true,
+        "fragment_id": "117493",
         "req_pieces": 30,
         "req_items": []
     },
@@ -5251,7 +5317,7 @@
         "name_tw": "櫻舞八重簪",
         "name_jp": "桜舞の八重簪",
         "name": "Sakura Dance Double Hairpin",
-        "id": "green-40",
+        "id": "green-46",
         "has_fragments": true,
         "fragment_id": "117551",
         "req_pieces": 30,
@@ -5261,9 +5327,19 @@
         "name_tw": "紅寶石扶桑花髮飾",
         "name_jp": "ルビーハイビスカスの髪飾り",
         "name": "Ruby Hibiscus Hair Ornament",
-        "id": "green-41",
+        "id": "green-47",
         "has_fragments": true,
         "fragment_id": "117552",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107553": {
+        "name_tw": "龐克棘刺手環",
+        "name_jp": "パンクニードルバングル",
+        "name": "Punk Needle Bangle",
+        "id": "green-48",
+        "has_fragments": true,
+        "fragment_id": "117553",
         "req_pieces": 30,
         "req_items": []
     },
@@ -5271,7 +5347,7 @@
         "name_tw": "櫻花月夜簪",
         "name_jp": "桜花の月夜簪",
         "name": "Sakura Flower Moonlight Hairpin",
-        "id": "green-42",
+        "id": "green-49",
         "has_fragments": true,
         "fragment_id": "117581",
         "req_pieces": 30,
@@ -5281,9 +5357,19 @@
         "name_tw": "珍珠椰子髮飾",
         "name_jp": "パールココナッツの髪飾り",
         "name": "Pearl Coconut Hair Ornament",
-        "id": "green-43",
+        "id": "green-50",
         "has_fragments": true,
         "fragment_id": "117582",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107583": {
+        "name_tw": "綠寶石哥德風手環",
+        "name_jp": "エメラルドゴシックバングル",
+        "name": "Emerald Gothic Bangle",
+        "id": "green-51",
+        "has_fragments": true,
+        "fragment_id": "117583",
         "req_pieces": 30,
         "req_items": []
     },
@@ -5291,7 +5377,7 @@
         "name_tw": "仙櫻祝簪",
         "name_jp": "仙桜の祝簪",
         "name": "Immortal Sakura Wish Hairpin",
-        "id": "green-44",
+        "id": "green-52",
         "has_fragments": true,
         "fragment_id": "117611",
         "req_pieces": 30,
@@ -5301,9 +5387,19 @@
         "name_tw": "蛋白石貝殼髮飾",
         "name_jp": "オパールシェルの髪飾り",
         "name": "Opal Shell Hair Ornament",
-        "id": "green-45",
+        "id": "green-53",
         "has_fragments": true,
         "fragment_id": "117612",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107613": {
+        "name_tw": "搖滾鎖鍊手環",
+        "name_jp": "ロッキンチェインバングル",
+        "name": "Rocking Chain Bangle",
+        "id": "green-54",
+        "has_fragments": true,
+        "fragment_id": "117613",
         "req_pieces": 30,
         "req_items": []
     }
