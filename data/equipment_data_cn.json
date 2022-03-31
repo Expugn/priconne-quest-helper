@@ -305,6 +305,24 @@
         "req_pieces": 1,
         "req_items": []
     },
+    "31109": {
+        "name_jp": "チエルのメモリーピース",
+        "name": "Chieru Shard",
+        "id": "misc-37",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "31110": {
+        "name_jp": "ユニのメモリーピース",
+        "name": "Yuni Shard",
+        "id": "misc-38",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
     "31113": {
         "name_jp": "ミミ（ハロウィン）のメモリーピース",
         "name": "Halloween Mimi Shard",
@@ -381,6 +399,15 @@
         "name_jp": "リノのピュアメモリーピース",
         "name": "Rino Pure Shard",
         "id": "misc-59",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "32012": {
+        "name_jp": "ハツネのピュアメモリーピース",
+        "name": "Hatsune Pure Shard",
+        "id": "misc-60",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
