@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.24.1] - 2022-04-03
+### Added
+- New Character: Ayumi (Phantom Thief)
+- Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
+  - `thematics.phantom_thief`
+### Removed
+- Removed "Looking into Thai server datamine support" message due to lack of activity.
+
 ## [2.24.0] - 2022-03-15
 Quest Update (2022-03-15)
 ### Added

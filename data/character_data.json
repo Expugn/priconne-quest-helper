@@ -2785,6 +2785,205 @@
             "Emerald Gothic Bangle"
         ]
     },
+    "phantom_thief_ayumi": {
+        "unit_id": 121501,
+        "name": "Ayumi",
+        "thematic": "Phantom Thief",
+        "name_jp": "アユミ",
+        "thematic_jp": "怪盗",
+        "rank_1": [
+            "Steel Spear",
+            "One Handed Axe",
+            "Leather Overalls",
+            "Leather Boots",
+            "Steel Spear",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Flame Spear",
+            "Metal Axe",
+            "Scale Mail",
+            "Legion Helm",
+            "Steel Spear",
+            "Protective Pendant"
+        ],
+        "rank_3": [
+            "Knight's Pride",
+            "High-Metal Axe",
+            "Light Plate",
+            "Tower Shield",
+            "Trident",
+            "Jewel of Love"
+        ],
+        "rank_4": [
+            "Absolute Spear",
+            "Blue Sphere Axe",
+            "Fashion Armor",
+            "Shinobi Shoes",
+            "Flame Spear",
+            "Victory Friendship Bracelet"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Absolute Spear",
+            "Battling Dress",
+            "Dragon Head",
+            "Knight's Pride",
+            "Emerald Earrings"
+        ],
+        "rank_6": [
+            "Scarlet Dragon",
+            "Lightning Axe",
+            "Heavy Metal Armor",
+            "Fencer Boots",
+            "Absolute Spear",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Queen Bee Spear",
+            "Shiryuu Axe",
+            "Angel Armor",
+            "Scarlet Diamond",
+            "Lion King's Protective Charm",
+            "Garnet Shield"
+        ],
+        "rank_8": [
+            "Storm Bringer",
+            "Hell-Fire Axe",
+            "Angel Boots",
+            "Feather Waltz",
+            "Bangle of Substitution",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Aqua Slasher",
+            "Queen's Battle Axe",
+            "Crusader Plate",
+            "Angel Boots",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Zero Frost Lance",
+            "Aqua Slasher",
+            "Scarlet Mail",
+            "Storm Bringer",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Gale Stinger",
+            "Necrodim Axe",
+            "Phantasm Mail",
+            "Gaia Bardiche",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Heaven's Protective Holy Spear",
+            "Divine Judgement Axe",
+            "Nine Heavens' Armor",
+            "Zero Frost Lance",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Divine Spear - Doom Pain",
+            "Gaia Axe",
+            "Fire Oni's Tori",
+            "Gale Stinger",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Fire Spear - Prominence",
+            "God Roar Axe - Terra Break",
+            "Senka Dance Armor",
+            "Heaven's Protective Holy Spear",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Spear - Ertz Borg",
+            "Machine Axe - Core Breaker",
+            "Beautiful Clothes - Soul Rose",
+            "Divine Spear - Doom Pain",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Saintly Deer Spear - Alma Benard",
+            "Turquoise Noah",
+            "Southern Heaven Blazing Blue Armor",
+            "Fire Spear - Prominence",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Crystallos Spike",
+            "Red Bear Emperor's Claw Battle Axe",
+            "Holy Light's Lily Plate",
+            "Star Nuclear Spear - Ertz Borg",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Chocolate Lance",
+            "Brass Cleft Axe",
+            "Pink Coral Dress",
+            "Saintly Deer Spear - Alma Benard",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Lightning Spear",
+            "Crepe Axe",
+            "Fancy Macaron Dress",
+            "Crystallos Spike",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "Sakura Gust Spear",
+            "Polar Light Belt Axe",
+            "Evening Sakura Purple Armor",
+            "Chocolate Lance",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "Crab Scissor Spear",
+            "Sakura Axe",
+            "Summer Light Bikini Armor",
+            "Lightning Spear",
+            "Sakura Dance Double Hairpin",
+            "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "Skull Gothic Lance",
+            "Whale Axe",
+            "Pierced Black",
+            "Sakura Gust Spear",
+            "Ruby Hibiscus Hair Ornament",
+            "Sakura Dance Double Hairpin"
+        ],
+        "rank_23": [
+            "Ice Spear Snow Storm",
+            "Rocking Groove Axe",
+            "Snowflake Beret",
+            "Crab Scissor Spear",
+            "Punk Needle Bangle",
+            "Ruby Hibiscus Hair Ornament"
+        ],
+        "rank_24": [
+            "",
+            "Ice Breaking Riot Axe",
+            "",
+            "Skull Gothic Lance",
+            "Ice Pillar Ring",
+            "Punk Needle Bangle"
+        ]
+    },
     "wonder_ayumi": {
         "unit_id": 113001,
         "name": "Ayumi",
