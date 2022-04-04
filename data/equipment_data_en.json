@@ -260,6 +260,15 @@
         "req_pieces": 1,
         "req_items": []
     },
+    "31095": {
+        "name_jp": "クウカ（オーエド）のメモリーピース",
+        "name": "Oedo Kuuka Shard",
+        "id": "misc-33",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
     "101011": {
         "name_en": "Iron Blade",
         "name_jp": "アイアンブレード",
