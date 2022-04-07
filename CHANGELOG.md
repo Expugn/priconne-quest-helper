@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.24.2] - 2022-04-07
+### Added
+- New Quest: `31-2 VH` (Kuuka)
+
 ## [2.24.1] - 2022-04-03
 ### Added
 - New Character: Ayumi (Phantom Thief)
@@ -27,9 +31,9 @@ Quest Update (2022-03-15)
 ## [2.23.4] - 2022-03-08
 ### Added
 - New Quests
-  - `30-2VH` (Summer Pecorine)
-  - `30-3VH` (Summer Kokkoro)
-  - `31-1VH` (Summer Kyaru)
+  - `30-2 VH` (Summer Pecorine)
+  - `30-3 VH` (Summer Kokkoro)
+  - `31-1 VH` (Summer Kyaru)
 
 ## [2.23.3] - 2022-03-06
 ### Fixed

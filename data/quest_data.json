@@ -15063,6 +15063,44 @@
             15
         ]
     },
+    "31-2VH": {
+        "name": "フテラ断崖・南部 31-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Green Aurora Ring Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Frost Column Heel Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Ice Pillar Ring Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Ice Fang Styria Dagger Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Kuuka Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "32-1": {
         "name": "ファスキア森林・南部 32-1",
         "stamina": 10,
