@@ -719,6 +719,15 @@
         "req_pieces": 1,
         "req_items": []
     },
+    "32050": {
+        "name_jp": "ミサキのピュアメモリーピース",
+        "name": "Misaki Pure Shard",
+        "id": "misc-83",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
     "32052": {
         "name_jp": "リマのピュアメモリーピース",
         "name": "Rima Pure Shard",
