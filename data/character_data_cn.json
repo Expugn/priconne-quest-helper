@@ -127,12 +127,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Traveling Hook - Sharp Bite",
             "Star Nuclear Fist - Elzloa",
             "Southern Heaven Blazing Blue Armor",
             "Beautiful Clothes - Soul Rose",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Southern Heaven Blazing Blue Armor",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "yui": {
@@ -263,12 +271,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Elfin Choker"
         ]
     },
     "rei": {
@@ -399,12 +415,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Southern Heaven Blazing Blue Armor",
             "Beautiful Clothes - Soul Rose",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Southern Heaven Blazing Blue Armor",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "misogi": {
@@ -535,12 +559,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Heaven Traveling Hook - Sharp Bite",
             "Star Nuclear Fist - Elzloa",
             "Eastern Heaven Green Wind Dress",
             "Flowing Blue Dress - Azul Rondo",
             "Ruby Rose Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Eastern Heaven Green Wind Dress",
+            "",
+            "Elfin Choker"
         ]
     },
     "matsuri": {
@@ -671,12 +703,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Dark Blade - Heavenly Raven's Guard",
             "Gehenna Dragon",
             "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Dark Blade - Heavenly Raven's Guard",
+            "",
+            "Heavenly Wing Saint Shoes",
+            "",
+            "Elfin Choker"
         ]
     },
     "akari": {
@@ -807,12 +847,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Chaotic Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Elfin Choker"
         ]
     },
     "miyako": {
@@ -943,12 +991,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Saintly Deer Spear - Alma Benard",
             "Star Nuclear Spear - Ertz Borg",
             "Eastern Heaven Green Wind Dress",
             "Flowing Blue Dress - Azul Rondo",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Eastern Heaven Green Wind Dress",
+            "",
+            "Elfin Choker"
         ]
     },
     "yuki": {
@@ -1079,12 +1135,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Chaotic Choker"
         ]
     },
     "anna": {
@@ -1215,12 +1279,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "maho": {
@@ -1351,12 +1423,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Chaotic Choker"
         ]
     },
     "rino": {
@@ -1487,12 +1567,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Penetrating Falcon's Bow",
             "Star Nuclear Bow - Erzvogen",
             "Southern Heaven Blazing Blue Armor",
             "Ice Bow - Freezing Tear",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Star Nuclear Bow - Erzvogen",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "hatsune": {
@@ -1623,12 +1711,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Astrologer's Holy Spirit Robe",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Western Heaven Saintly Guide Robe",
+            "",
+            "Chaotic Choker"
         ]
     },
     "nanaka": {
@@ -1759,12 +1855,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Astrologer's Holy Spirit Robe",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Western Heaven Saintly Guide Robe",
+            "",
+            "Chaotic Choker"
         ]
     },
     "kasumi": {
@@ -1895,12 +1999,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Chaotic Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Elfin Choker"
         ]
     },
     "misato": {
@@ -2031,12 +2143,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Western Heaven Saintly Guide Robe",
             "Astrologer's Holy Spirit Robe",
             "Elfin Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Western Heaven Saintly Guide Robe",
+            "",
+            "Chaotic Choker"
         ]
     },
     "suzuna": {
@@ -2167,12 +2287,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Penetrating Falcon's Bow",
             "Star Nuclear Bow - Erzvogen",
             "Southern Heaven Blazing Blue Armor",
             "Ice Bow - Freezing Tear",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Star Nuclear Bow - Erzvogen",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "kaori": {
@@ -2303,12 +2431,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Traveling Hook - Sharp Bite",
             "Star Nuclear Fist - Elzloa",
             "Southern Heaven Blazing Blue Armor",
             "Extremely Dark Nail - Bloody Howl",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "io": {
@@ -2439,12 +2575,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Heavenly Wing Wise Saint Hat",
             "Astrologer's Holy Spirit Robe",
             "Chaotic Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Elfin Choker"
         ]
     },
     "mimi": {
@@ -2575,12 +2719,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Turquoise Noah",
             "Southern Heaven Blazing Blue Armor",
             "Flowing Blue Dress - Azul Rondo",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Red Bear Emperor's Claw Battle Axe",
+            "",
+            "Southern Heaven Blazing Blue Armor",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "kurumi": {
@@ -2711,12 +2863,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Red Bear Emperor's Claw Battle Axe",
             "Turquoise Noah",
             "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Red Bear Emperor's Claw Battle Axe",
+            "",
+            "Northern Heaven Supreme Flame Armor",
+            "",
+            "Elfin Choker"
         ]
     },
     "yori": {
@@ -2847,12 +3007,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "ayane": {
@@ -2983,12 +3151,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Red Bear Emperor's Claw Battle Axe",
             "Turquoise Noah",
             "Eastern Heaven Green Wind Dress",
             "Glowing Silver Mirror Shield",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Red Bear Emperor's Claw Battle Axe",
+            "",
+            "Eastern Heaven Green Wind Dress",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "suzume": {
@@ -3119,12 +3295,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "Astrologer's Holy Spirit Robe",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Chaotic Choker"
         ]
     },
     "rin": {
@@ -3255,12 +3439,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Saintly Deer Spear - Alma Benard",
             "Star Nuclear Spear - Ertz Borg",
             "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Heavenly Wing Saint Shoes",
+            "",
+            "Elfin Choker"
         ]
     },
     "eriko": {
@@ -3391,12 +3583,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Red Bear Emperor's Claw Battle Axe",
             "Turquoise Noah",
             "Southern Heaven Blazing Blue Armor",
             "Machine Axe - Core Breaker",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Red Bear Emperor's Claw Battle Axe",
+            "",
+            "Turquoise Noah",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "saren": {
@@ -3527,12 +3727,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Heavenly Wing Saint Shoes",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "nozomi": {
@@ -3663,12 +3871,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Heavenly Wing Saint Shoes",
+            "",
+            "Elfin Choker"
         ]
     },
     "ninon": {
@@ -3799,12 +4015,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Prosperous Carp God's Katana",
             "Branch Blade of Divine Descent",
             "Southern Heaven Blazing Blue Armor",
             "Emerald Wind God's Tachi",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Prosperous Carp God's Katana",
+            "",
+            "Branch Blade of Divine Descent",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "shinobu": {
@@ -3935,12 +4159,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Prosperous Carp God's Katana",
             "Branch Blade of Divine Descent",
             "Eastern Heaven Green Wind Dress",
             "Beautiful Clothes - Soul Rose",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Prosperous Carp God's Katana",
+            "",
+            "Eastern Heaven Green Wind Dress",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "akino": {
@@ -4071,12 +4303,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Northern Heaven Supreme Flame Armor",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "mahiru": {
@@ -4207,12 +4447,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Saintly Deer Spear - Alma Benard",
             "Turquoise Noah",
             "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Red Bear Emperor's Claw Battle Axe",
+            "",
+            "Northern Heaven Supreme Flame Armor",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "yukari": {
@@ -4343,12 +4591,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Heavenly Wing Saint Shoes",
+            "",
+            "Elfin Choker"
         ]
     },
     "kyouka": {
@@ -4479,12 +4735,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "tomo": {
@@ -4615,12 +4879,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Prosperous Carp God's Katana",
             "Gehenna Dragon",
             "Southern Heaven Blazing Blue Armor",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Dark Blade - Heavenly Raven's Guard",
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "shiori": {
@@ -4751,12 +5023,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Penetrating Falcon's Bow",
             "Star Nuclear Bow - Erzvogen",
             "Southern Heaven Blazing Blue Armor",
             "Ice Bow - Freezing Tear",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Star Nuclear Bow - Erzvogen",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "aoi": {
@@ -4887,12 +5167,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Penetrating Falcon's Bow",
             "Star Nuclear Bow - Erzvogen",
             "Eastern Heaven Green Wind Dress",
             "Ice Bow - Freezing Tear",
             "Elfin Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Star Nuclear Bow - Erzvogen",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "chika": {
@@ -5023,12 +5311,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Western Heaven Saintly Guide Robe",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Western Heaven Saintly Guide Robe",
+            "",
+            "Chaotic Choker"
         ]
     },
     "makoto": {
@@ -5159,12 +5455,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Prosperous Carp God's Katana",
             "Branch Blade of Divine Descent",
             "Southern Heaven Blazing Blue Armor",
             "Emerald Wind God's Tachi",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Prosperous Carp God's Katana",
+            "",
+            "Branch Blade of Divine Descent",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "ilya": {
@@ -5295,12 +5599,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "kuuka": {
@@ -5431,12 +5743,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Dark Blade - Heavenly Raven's Guard",
             "Gehenna Dragon",
             "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Dark Blade - Heavenly Raven's Guard",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Elfin Choker"
         ]
     },
     "tamaki": {
@@ -5567,12 +5887,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Dark Blade - Heavenly Raven's Guard",
             "Gehenna Dragon",
             "Eastern Heaven Green Wind Dress",
             "Flowing Blue Dress - Azul Rondo",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Dark Blade - Heavenly Raven's Guard",
+            "",
+            "Eastern Heaven Green Wind Dress",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "jun": {
@@ -5703,12 +6031,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Northern Heaven Supreme Flame Armor",
+            "",
+            "Elfin Choker"
         ]
     },
     "mifuyu": {
@@ -5839,12 +6175,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Saintly Deer Spear - Alma Benard",
             "Turquoise Noah",
             "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Red Bear Emperor's Claw Battle Axe",
+            "",
+            "Northern Heaven Supreme Flame Armor",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "shizuru": {
@@ -5975,12 +6319,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Northern Heaven Supreme Flame Armor",
+            "",
+            "Elfin Choker"
         ]
     },
     "misaki": {
@@ -6111,12 +6463,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "mitsuki": {
@@ -6247,12 +6607,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Heavenly Wing Saint Shoes",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "rima": {
@@ -6383,12 +6751,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Spear - Ertz Borg",
             "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Northern Heaven Supreme Flame Armor",
+            "",
+            "Elfin Choker"
         ]
     },
     "monika": {
@@ -6519,12 +6895,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Gehenna Dragon",
             "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Ruby Rose Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Dark Blade - Heavenly Raven's Guard",
+            "",
+            "Heavenly Wing Saint Shoes",
+            "",
+            "Elfin Choker"
         ]
     },
     "tsumugi": {
@@ -6655,12 +7039,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Traveling Hook - Sharp Bite",
             "Star Nuclear Fist - Elzloa",
             "Eastern Heaven Green Wind Dress",
             "Flowing Blue Dress - Azul Rondo",
             "Elfin Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Eastern Heaven Green Wind Dress",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "ayumi": {
@@ -6791,12 +7183,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Saintly Deer Spear - Alma Benard",
             "Star Nuclear Spear - Ertz Borg",
             "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Heavenly Wing Saint Shoes",
+            "",
+            "Elfin Choker"
         ]
     },
     "ruka": {
@@ -6927,12 +7327,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Prosperous Carp God's Katana",
             "Branch Blade of Divine Descent",
             "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Prosperous Carp God's Katana",
+            "",
+            "Heavenly Wing Saint Shoes",
+            "",
+            "Elfin Choker"
         ]
     },
     "djeeta": {
@@ -7063,12 +7471,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Southern Heaven Blazing Blue Armor",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "pecorine": {
@@ -7199,12 +7615,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Northern Heaven Supreme Flame Armor",
+            "",
+            "Elfin Choker"
         ]
     },
     "kokkoro": {
@@ -7335,12 +7759,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Saintly Deer Spear - Alma Benard",
             "Star Nuclear Spear - Ertz Borg",
             "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Heavenly Wing Saint Shoes",
+            "",
+            "Elfin Choker"
         ]
     },
     "kyaru": {
@@ -7471,12 +7903,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "muimi": {
@@ -7607,12 +8047,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Dark Blade - Heavenly Raven's Guard",
             "Gehenna Dragon",
             "Southern Heaven Blazing Blue Armor",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Dark Blade - Heavenly Raven's Guard",
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "arisa": {
@@ -7743,12 +8191,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Penetrating Falcon's Bow",
             "Star Nuclear Bow - Erzvogen",
             "Southern Heaven Blazing Blue Armor",
             "Ice Bow - Freezing Tear",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Star Nuclear Bow - Erzvogen",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "sheffy": {
@@ -7878,12 +8334,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Southern Heaven Blazing Blue Armor",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "kaya": {
@@ -8014,12 +8478,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Traveling Hook - Sharp Bite",
             "Star Nuclear Fist - Elzloa",
             "Southern Heaven Blazing Blue Armor",
             "Extremely Dark Nail - Bloody Howl",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "inori": {
@@ -8150,12 +8622,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Red Bear Emperor's Claw Battle Axe",
             "Star Nuclear Spear - Ertz Borg",
             "Eastern Heaven Green Wind Dress",
             "Glowing Silver Mirror Shield",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Eastern Heaven Green Wind Dress",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "labyrista": {
@@ -8285,12 +8765,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Northern Heaven Supreme Flame Armor",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "neneka": {
@@ -8421,12 +8909,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "christina": {
@@ -8557,12 +9053,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Southern Heaven Blazing Blue Armor",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "summer_pecorine": {
@@ -8693,12 +9197,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Southern Heaven Blazing Blue Armor",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "summer_kokkoro": {
@@ -8829,12 +9341,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Saintly Deer Spear - Alma Benard",
             "Star Nuclear Spear - Ertz Borg",
             "Eastern Heaven Green Wind Dress",
             "Flowing Blue Dress - Azul Rondo",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Eastern Heaven Green Wind Dress",
+            "",
+            "Elfin Choker"
         ]
     },
     "summer_suzume": {
@@ -8965,12 +9485,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Chaotic Choker"
         ]
     },
     "summer_kyaru": {
@@ -9101,12 +9629,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "summer_tamaki": {
@@ -9237,12 +9773,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Dark Blade - Heavenly Raven's Guard",
             "Gehenna Dragon",
             "Southern Heaven Blazing Blue Armor",
             "Beautiful Clothes - Soul Rose",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Dark Blade - Heavenly Raven's Guard",
+            "",
+            "Southern Heaven Blazing Blue Armor",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "summer_mifuyu": {
@@ -9373,12 +9917,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Saintly Deer Spear - Alma Benard",
             "Turquoise Noah",
             "Southern Heaven Blazing Blue Armor",
             "Fire Spear - Prominence",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Red Bear Emperor's Claw Battle Axe",
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "halloween_shinobu": {
@@ -9509,12 +10061,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Prosperous Carp God's Katana",
             "Branch Blade of Divine Descent",
             "Southern Heaven Blazing Blue Armor",
             "Flowing Blue Dress - Azul Rondo",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Prosperous Carp God's Katana",
+            "",
+            "Southern Heaven Blazing Blue Armor",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "halloween_miyako": {
@@ -9645,12 +10205,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Traveling Hook - Sharp Bite",
             "Star Nuclear Fist - Elzloa",
             "Southern Heaven Blazing Blue Armor",
             "Flowing Blue Dress - Azul Rondo",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Southern Heaven Blazing Blue Armor",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "halloween_misaki": {
@@ -9781,12 +10349,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Chaotic Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Elfin Choker"
         ]
     },
     "christmas_chika": {
@@ -9917,12 +10493,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Chaotic Choker"
         ]
     },
     "christmas_kurumi": {
@@ -10053,12 +10637,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Saintly Deer Spear - Alma Benard",
             "Star Nuclear Spear - Ertz Borg",
             "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Northern Heaven Supreme Flame Armor",
+            "",
+            "Elfin Choker"
         ]
     },
     "christmas_ayane": {
@@ -10189,12 +10781,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Red Bear Emperor's Claw Battle Axe",
             "Star Nuclear Spear - Ertz Borg",
             "Southern Heaven Blazing Blue Armor",
             "Machine Axe - Core Breaker",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Turquoise Noah",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "new_year_hiyori": {
@@ -10325,12 +10925,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Traveling Hook - Sharp Bite",
             "Star Nuclear Fist - Elzloa",
             "Southern Heaven Blazing Blue Armor",
             "Extremely Dark Nail - Bloody Howl",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "new_year_yui": {
@@ -10461,12 +11069,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Chaotic Choker"
         ]
     },
     "new_year_rei": {
@@ -10597,12 +11213,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Heavenly Wing Saint Shoes",
+            "",
+            "Elfin Choker"
         ]
     },
     "valentine_eriko": {
@@ -10733,12 +11357,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Red Bear Emperor's Claw Battle Axe",
             "Turquoise Noah",
             "Southern Heaven Blazing Blue Armor",
             "Machine Axe - Core Breaker",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Red Bear Emperor's Claw Battle Axe",
+            "",
+            "Turquoise Noah",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "valentine_shizuru": {
@@ -10869,12 +11501,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Northern Heaven Supreme Flame Armor",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "anne": {
@@ -11005,12 +11645,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "lou": {
@@ -11141,12 +11789,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "grea": {
@@ -11277,12 +11933,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "oedo_kuuka": {
@@ -11413,12 +12077,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Elfin Choker"
         ]
     },
     "oedo_ninon": {
@@ -11549,12 +12221,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Dark Blade - Heavenly Raven's Guard",
             "Gehenna Dragon",
             "Southern Heaven Blazing Blue Armor",
             "Heavenly Black Sword of Obsidian",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Dark Blade - Heavenly Raven's Guard",
+            "",
+            "Gehenna Dragon",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "rem": {
@@ -11685,12 +12365,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Red Bear Emperor's Claw Battle Axe",
             "Turquoise Noah",
             "Eastern Heaven Green Wind Dress",
             "Machine Axe - Core Breaker",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Red Bear Emperor's Claw Battle Axe",
+            "",
+            "Turquoise Noah",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "ram": {
@@ -11821,12 +12509,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Heavenly Wing Wise Saint Hat",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "emilia": {
@@ -11957,12 +12653,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Astrologer's Holy Spirit Robe",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Western Heaven Saintly Guide Robe",
+            "",
+            "Chaotic Choker"
         ]
     },
     "summer_suzuna": {
@@ -12093,12 +12797,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Penetrating Falcon's Bow",
             "Star Nuclear Bow - Erzvogen",
             "Eastern Heaven Green Wind Dress",
             "Ice Bow - Freezing Tear",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Star Nuclear Bow - Erzvogen",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "summer_io": {
@@ -12229,12 +12941,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Western Heaven Saintly Guide Robe",
             "Astrologer's Holy Spirit Robe",
             "Chaotic Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Western Heaven Saintly Guide Robe",
+            "",
+            "Elfin Choker"
         ]
     },
     "summer_saren": {
@@ -12365,12 +13085,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Eastern Heaven Green Wind Dress",
             "Flowing Blue Dress - Azul Rondo",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Eastern Heaven Green Wind Dress",
+            "",
+            "Elfin Choker"
         ]
     },
     "summer_makoto": {
@@ -12501,12 +13229,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Prosperous Carp God's Katana",
             "Branch Blade of Divine Descent",
             "Southern Heaven Blazing Blue Armor",
             "Emerald Wind God's Tachi",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Prosperous Carp God's Katana",
+            "",
+            "Branch Blade of Divine Descent",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "summer_kaori": {
@@ -12637,12 +13373,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Traveling Hook - Sharp Bite",
             "Star Nuclear Fist - Elzloa",
             "Southern Heaven Blazing Blue Armor",
             "Extremely Dark Nail - Bloody Howl",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "summer_maho": {
@@ -12773,12 +13517,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "transfer_student_aoi": {
@@ -12909,12 +13661,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Penetrating Falcon's Bow",
             "Star Nuclear Bow - Erzvogen",
             "Eastern Heaven Green Wind Dress",
             "Ice Bow - Freezing Tear",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Star Nuclear Bow - Erzvogen",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "chloe": {
@@ -13045,12 +13805,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Dark Blade - Heavenly Raven's Guard",
             "Gehenna Dragon",
             "Southern Heaven Blazing Blue Armor",
             "Beautiful Clothes - Soul Rose",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Dark Blade - Heavenly Raven's Guard",
+            "",
+            "Southern Heaven Blazing Blue Armor",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "chieru": {
@@ -13181,12 +13949,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Traveling Hook - Sharp Bite",
             "Star Nuclear Fist - Elzloa",
             "Eastern Heaven Green Wind Dress",
             "Beautiful Clothes - Soul Rose",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Eastern Heaven Green Wind Dress",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "yuni": {
@@ -13317,12 +14093,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Chaotic Choker"
         ]
     },
     "halloween_kyouka": {
@@ -13453,12 +14237,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "World Tree's Branch Wand",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Chaotic Choker"
         ]
     },
     "halloween_misogi": {
@@ -13589,12 +14381,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Traveling Hook - Sharp Bite",
             "Star Nuclear Fist - Elzloa",
             "Southern Heaven Blazing Blue Armor",
             "Extremely Dark Nail - Bloody Howl",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "halloween_mimi": {
@@ -13725,12 +14525,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Turquoise Noah",
             "Eastern Heaven Green Wind Dress",
             "Beautiful Clothes - Soul Rose",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Red Bear Emperor's Claw Battle Axe",
+            "",
+            "Eastern Heaven Green Wind Dress",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "luna": {
@@ -13861,12 +14669,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "christmas_christina": {
@@ -13997,12 +14813,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Southern Heaven Blazing Blue Armor",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "christmas_nozomi": {
@@ -14133,12 +14957,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Heavenly Wing Saint Shoes",
+            "",
+            "Elfin Choker"
         ]
     },
     "christmas_ilya": {
@@ -14269,12 +15101,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "new_year_pecorine": {
@@ -14405,12 +15245,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Heavenly Wing Saint Shoes",
+            "",
+            "Elfin Choker"
         ]
     },
     "new_year_kokkoro": {
@@ -14541,12 +15389,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Saintly Deer Spear - Alma Benard",
             "Star Nuclear Spear - Ertz Borg",
             "Eastern Heaven Green Wind Dress",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Eastern Heaven Green Wind Dress",
+            "",
+            "Elfin Choker"
         ]
     },
     "new_year_kyaru": {
@@ -14677,12 +15533,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "new_year_suzume": {
@@ -14813,12 +15677,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "Astrologer's Holy Spirit Robe",
             "Elfin Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Chaotic Choker"
         ]
     },
     "magical_kasumi": {
@@ -14949,12 +15821,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Chaotic Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Elfin Choker"
         ]
     },
     "magical_shiori": {
@@ -15085,12 +15965,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Penetrating Falcon's Bow",
             "Star Nuclear Bow - Erzvogen",
             "Southern Heaven Blazing Blue Armor",
             "Ice Bow - Freezing Tear",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Star Nuclear Bow - Erzvogen",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "deresute_uzuki": {
@@ -15221,12 +16109,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Eastern Heaven Green Wind Dress",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "deresute_rin": {
@@ -15357,12 +16253,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Prosperous Carp God's Katana",
             "Branch Blade of Divine Descent",
             "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Prosperous Carp God's Katana",
+            "",
+            "Northern Heaven Supreme Flame Armor",
+            "",
+            "Elfin Choker"
         ]
     },
     "deresute_mio": {
@@ -15493,12 +16397,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "ranger_rin": {
@@ -15628,12 +16540,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Saintly Deer Spear - Alma Benard",
             "Star Nuclear Spear - Ertz Borg",
             "Northern Heaven Supreme Flame Armor",
             "Fire Spear - Prominence",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "ranger_mahiru": {
@@ -15763,12 +16683,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Saintly Deer Spear - Alma Benard",
             "Star Nuclear Spear - Ertz Borg",
             "Southern Heaven Blazing Blue Armor",
             "Fire Spear - Prominence",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "wonder_rino": {
@@ -15898,12 +16826,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Penetrating Falcon's Bow",
             "Star Nuclear Bow - Erzvogen",
             "Eastern Heaven Green Wind Dress",
             "Ice Bow - Freezing Tear",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Penetrating Falcon's Bow",
+            "",
+            "Star Nuclear Bow - Erzvogen",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "wonder_ayumi": {
@@ -16033,12 +16969,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Saintly Deer Spear - Alma Benard",
             "Star Nuclear Spear - Ertz Borg",
             "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Heavenly Wing Saint Shoes",
+            "",
+            "Elfin Choker"
         ]
     },
     "summer_ruka": {
@@ -16168,12 +17112,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Prosperous Carp God's Katana",
             "Branch Blade of Divine Descent",
             "Eastern Heaven Green Wind Dress",
             "Emerald Wind God's Tachi",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Prosperous Carp God's Katana",
+            "",
+            "Branch Blade of Divine Descent",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "summer_anna": {
@@ -16303,12 +17255,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "summer_nanaka": {
@@ -16438,12 +17398,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "World Tree's Branch Wand",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Chaotic Choker"
         ]
     },
     "summer_hatsune": {
@@ -16573,12 +17541,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Astrologer's Holy Spirit Robe",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Western Heaven Saintly Guide Robe",
+            "",
+            "Chaotic Choker"
         ]
     },
     "summer_misato": {
@@ -16708,12 +17684,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Western Heaven Saintly Guide Robe",
             "Astrologer's Holy Spirit Robe",
             "Elfin Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Western Heaven Saintly Guide Robe",
+            "",
+            "Chaotic Choker"
         ]
     },
     "summer_jun": {
@@ -16843,12 +17827,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Heavenly Wing Saint Shoes",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "angel_akari": {
@@ -16978,12 +17970,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "angel_yori": {
@@ -17113,12 +18113,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Elfin Choker"
         ]
     },
     "halloween_tsumugi": {
@@ -17248,12 +18256,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Dark Blade - Heavenly Raven's Guard",
             "Gehenna Dragon",
             "Eastern Heaven Green Wind Dress",
             "Flowing Blue Dress - Azul Rondo",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Dark Blade - Heavenly Raven's Guard",
+            "",
+            "Eastern Heaven Green Wind Dress",
+            "",
+            "Elfin Choker"
         ]
     },
     "halloween_rei": {
@@ -17383,12 +18399,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Eastern Heaven Green Wind Dress",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "halloween_matsuri": {
@@ -17518,12 +18542,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Traveling Hook - Sharp Bite",
             "Star Nuclear Fist - Elzloa",
             "Southern Heaven Blazing Blue Armor",
             "Extremely Dark Nail - Bloody Howl",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "magical_monika": {
@@ -17653,12 +18685,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Heavenly Wing Saint Shoes",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "magical_tomo": {
@@ -17788,12 +18828,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Prosperous Carp God's Katana",
             "Gehenna Dragon",
             "Southern Heaven Blazing Blue Armor",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Dark Blade - Heavenly Raven's Guard",
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "christmas_akino": {
@@ -17923,12 +18971,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Southern Heaven Blazing Blue Armor",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "christmas_saren": {
@@ -18058,12 +19114,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Northern Heaven Supreme Flame Armor",
+            "",
+            "Elfin Choker"
         ]
     },
     "christmas_yukari": {
@@ -18193,12 +19257,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Eastern Heaven Green Wind Dress",
             "Flowing Blue Dress - Azul Rondo",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Eastern Heaven Green Wind Dress",
+            "",
+            "Elfin Choker"
         ]
     },
     "new_year_muimi": {
@@ -18328,12 +19400,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Dark Blade - Heavenly Raven's Guard",
             "Gehenna Dragon",
             "Southern Heaven Blazing Blue Armor",
             "Beautiful Clothes - Soul Rose",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Dark Blade - Heavenly Raven's Guard",
+            "",
+            "Southern Heaven Blazing Blue Armor",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "new_year_neneka": {
@@ -18463,12 +19543,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "World Tree's Branch Wand",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Chaotic Choker"
         ]
     },
     "ceremonial_attire_kokkoro": {
@@ -18598,12 +19686,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Dark Blade - Heavenly Raven's Guard",
             "Gehenna Dragon",
             "Southern Heaven Blazing Blue Armor",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Dark Blade - Heavenly Raven's Guard",
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "ceremonial_attire_yui": {
@@ -18733,12 +19829,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Chaotic Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Heavenly Wing Wise Saint Hat",
+            "",
+            "Elfin Choker"
         ]
     },
     "summer_kasumi": {
@@ -18868,12 +19972,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "World Tree's Branch Wand",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Chaotic Choker"
         ]
     },
     "cinderella_rima": {
@@ -19003,12 +20115,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Southern Heaven Blazing Blue Armor",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Star Nuclear Sword - Ertz Schneide",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "cinderella_makoto": {
@@ -19138,12 +20258,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Prosperous Carp God's Katana",
             "Branch Blade of Divine Descent",
             "Southern Heaven Blazing Blue Armor",
             "Emerald Wind God's Tachi",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Prosperous Carp God's Katana",
+            "",
+            "Branch Blade of Divine Descent",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "cinderella_maho": {
@@ -19273,12 +20401,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "White Snake's Holy Water Rod",
             "Phoenix Staff - Rise Flare",
             "Heavenly Wing Wise Saint Hat",
             "World Tree's Branch Wand",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "White Snake's Holy Water Rod",
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Chaotic Choker"
         ]
     },
     "school_festival_chloe": {
@@ -19408,12 +20544,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Dark Blade - Heavenly Raven's Guard",
             "Gehenna Dragon",
             "Southern Heaven Blazing Blue Armor",
             "Beautiful Clothes - Soul Rose",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Dark Blade - Heavenly Raven's Guard",
+            "",
+            "Southern Heaven Blazing Blue Armor",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "school_festival_chieru": {
@@ -19543,12 +20687,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Traveling Hook - Sharp Bite",
             "Star Nuclear Fist - Elzloa",
             "Southern Heaven Blazing Blue Armor",
             "Extremely Dark Nail - Bloody Howl",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "time_traveler_inori": {
@@ -19678,12 +20830,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Red Bear Emperor's Claw Battle Axe",
             "Turquoise Noah",
             "Northern Heaven Supreme Flame Armor",
             "Machine Axe - Core Breaker",
             "Ruby Rose Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Red Bear Emperor's Claw Battle Axe",
+            "",
+            "Turquoise Noah",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "princess_hiyori": {
@@ -19813,12 +20973,20 @@
             "Flowering Fire Peony"
         ],
         "rank_16": [
-            "",
+            "Heaven Traveling Hook - Sharp Bite",
             "Star Nuclear Fist - Elzloa",
             "Southern Heaven Blazing Blue Armor",
             "Extremely Dark Nail - Bloody Howl",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "",
+            "Heaven Traveling Hook - Sharp Bite",
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "",
+            "Ruby Rose Choker"
         ]
     },
     "princess_yui": {
@@ -19948,12 +21116,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Green Butterfly Wand",
             "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Green Butterfly Wand",
+            "",
+            "Chaotic Choker"
         ]
     },
     "princess_pecorine": {
@@ -20084,15 +21260,24 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Rabbit God's Great Sword",
             "Star Nuclear Sword - Ertz Schneide",
             "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Rabbit God's Great Sword",
+            "",
+            "Northern Heaven Supreme Flame Armor",
+            "",
+            "Elfin Choker"
         ]
     },
     "princess_kokkoro": {
+        "name_cn": "可可萝（公主）",
         "unit_id": 180501,
         "name": "Kokkoro",
         "thematic": "Princess",
@@ -20219,12 +21404,20 @@
             "Sea Dragon God's Hair Ornament"
         ],
         "rank_16": [
-            "",
+            "Saintly Deer Spear - Alma Benard",
             "Star Nuclear Spear - Ertz Borg",
             "Heavenly Wing Saint Shoes",
             "Fire Spear - Prominence",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "",
+            "Saintly Deer Spear - Alma Benard",
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "",
+            "Elfin Choker"
         ]
     },
     "princess_kyaru": {
@@ -20354,12 +21547,20 @@
             "Little Ice Princess' Knot"
         ],
         "rank_16": [
-            "",
+            "Black Snake's Fiendish Flame Staff",
             "Phoenix Staff - Rise Flare",
             "Western Heaven Saintly Guide Robe",
             "World Tree's Branch Wand",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "",
+            "Black Snake's Fiendish Flame Staff",
+            "",
+            "Phoenix Staff - Rise Flare",
+            "",
+            "Chaotic Choker"
         ]
     }
 }
