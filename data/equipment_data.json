@@ -4302,10 +4302,70 @@
         "req_pieces": 25,
         "req_items": []
     },
+    "108281": {
+        "name_jp": "鍵盤奏鎧チェンバロン",
+        "name": "Keyboard Armor Cimbalom",
+        "id": "orange-10",
+        "has_fragments": true,
+        "fragment_id": "128281",
+        "req_pieces": 15,
+        "req_items": [
+            "Macaron Pendant"
+        ]
+    },
+    "108311": {
+        "name_jp": "重奏鎧ブラスホーン",
+        "name": "Ensemble Armor Brass Horn",
+        "id": "orange-11",
+        "has_fragments": true,
+        "fragment_id": "128311",
+        "req_pieces": 15,
+        "req_items": [
+            "Popcorn Necklace"
+        ]
+    },
+    "108371": {
+        "name_jp": "譜唱装ムジカスコア",
+        "name": "Singing Dress Musical Score",
+        "id": "orange-12",
+        "has_fragments": true,
+        "fragment_id": "118371",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108401": {
+        "name_jp": "重円奏ホプロンシンバル",
+        "name": "Heavy Hoplon Cymbal",
+        "id": "orange-13",
+        "has_fragments": true,
+        "fragment_id": "128401",
+        "req_pieces": 15,
+        "req_items": [
+            "Whirlwind Earrings"
+        ]
+    },
+    "108431": {
+        "name_jp": "舞奉奏アルパンプス",
+        "name": "Tributal Dancing Pumps",
+        "id": "orange-14",
+        "has_fragments": true,
+        "fragment_id": "118431",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108521": {
+        "name_jp": "魔奏帽タンバリンキャスケット",
+        "name": "Magical Hat Tambourine Caskets",
+        "id": "orange-15",
+        "has_fragments": true,
+        "fragment_id": "118521",
+        "req_pieces": 25,
+        "req_items": []
+    },
     "108551": {
         "name_jp": "アイスピラーリング",
         "name": "Ice Pillar Ring",
-        "id": "orange-10",
+        "id": "orange-16",
         "has_fragments": true,
         "fragment_id": "118551",
         "req_pieces": 25,
@@ -4314,7 +4374,7 @@
     "108581": {
         "name_jp": "グリーンオーロラリング",
         "name": "Green Aurora Ring",
-        "id": "orange-11",
+        "id": "orange-17",
         "has_fragments": true,
         "fragment_id": "118581",
         "req_pieces": 25,
@@ -4323,7 +4383,7 @@
     "108611": {
         "name_jp": "雪華晶の指輪",
         "name": "Snow Flower Crystal Ring",
-        "id": "orange-12",
+        "id": "orange-18",
         "has_fragments": true,
         "fragment_id": "118611",
         "req_pieces": 25,
