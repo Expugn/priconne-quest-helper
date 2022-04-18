@@ -11,6 +11,6 @@
   "homepage": "https://expugn.github.io/priconne-quest-helper/",
   "dependencies": {
     "sqlite": "^4.0.25",
-    "sqlite3": "^5.0.3"
+    "sqlite3": "^5.0.4"
   }
 }
