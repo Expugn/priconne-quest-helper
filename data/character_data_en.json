@@ -8958,5 +8958,229 @@
             "War God's Arm",
             "Fury Dragon Pendant"
         ]
+    },
+    "rem": {
+        "name_en": "Rem",
+        "unit_id": 109701,
+        "name": "Rem",
+        "thematic": "",
+        "name_jp": "レム",
+        "thematic_jp": "",
+        "rank_1": [
+            "One Handed Axe",
+            "One Handed Axe",
+            "Tree Shield",
+            "One Handed Axe",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "High-Metal Axe",
+            "Metal Axe",
+            "Clothes of Wisdom",
+            "Metal Axe",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Blue Sphere Axe",
+            "High-Metal Axe",
+            "Light Plate",
+            "High-Metal Axe",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Lion's Battle Axe",
+            "Blue Sphere Axe",
+            "Fashion Armor",
+            "Blue Sphere Axe",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Lion's Battle Axe",
+            "Battling Dress",
+            "Lion's Battle Axe",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Shiryuu Axe",
+            "Lightning Axe",
+            "Heavy Metal Armor",
+            "Lion's Battle Axe",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Hell-Fire Axe",
+            "Shiryuu Axe",
+            "Invisible Dress",
+            "Lightning Axe",
+            "Scarlet Diamond",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Queen's Battle Axe",
+            "Hell-Fire Axe",
+            "Mythril Plate",
+            "Shiryuu Axe",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Aqua Slasher",
+            "Queen's Battle Axe",
+            "Crusader Plate",
+            "Hell-Fire Axe",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Necrodim Axe",
+            "Aqua Slasher",
+            "Scarlet Mail",
+            "Queen's Battle Axe",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Divine Judgement Axe",
+            "Necrodim Axe",
+            "Phantasm Mail",
+            "Aqua Slasher",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Gaia Axe",
+            "Divine Judgement Axe",
+            "Infernal Greaves",
+            "Necrodim Axe",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "",
+            "Gaia Axe",
+            "Fire Oni's Tori",
+            "Divine Judgement Axe",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ]
+    },
+    "ram": {
+        "name_en": "Ram",
+        "unit_id": 109801,
+        "name": "Ram",
+        "thematic": "",
+        "name_jp": "ラム",
+        "thematic_jp": "",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fragrant Wood Wand",
+            "Journey Robe",
+            "Fashionable Beret",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_2": [
+            "Little Dragon Rod",
+            "Green Rod",
+            "Spring Color Robe",
+            "Witch Boots",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_3": [
+            "Thorn Blood Rod",
+            "Little Dragon Rod",
+            "Nordic Robe",
+            "Nun's Hood",
+            "Magic Glasses",
+            "Magic Glasses"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Thorn Blood Rod",
+            "Witch Headband",
+            "Witch Headband",
+            "Magic Monocle",
+            "Magic Monocle"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Flower Bud Wand",
+            "Cupid Robe",
+            "Witch Hat",
+            "Turquoise Earrings",
+            "Turquoise Earrings"
+        ],
+        "rank_6": [
+            "Fury Rod",
+            "Devil's Horn",
+            "Philosopher's Robe",
+            "Witch Hat",
+            "Cupid Robe",
+            "Sorcerer's Glasses"
+        ],
+        "rank_7": [
+            "Rod of Sun",
+            "Fury Rod",
+            "Grand Magician's Robe",
+            "Laurel's Sorrow",
+            "Devil's Horn",
+            "Sorcerer's Glasses"
+        ],
+        "rank_8": [
+            "Justice God's Staff",
+            "Rod of Sun",
+            "Pope's Hood",
+            "Fury Rod",
+            "Mourning Crescent Moon",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "High Devil Wand",
+            "Justice God's Staff",
+            "Gospel Tiara",
+            "Rod of Sun",
+            "Dragon's Tear",
+            "Mourning Crescent Moon"
+        ],
+        "rank_10": [
+            "Xenosphere Rod",
+            "High Devil Wand",
+            "Aquarius Boots",
+            "Justice God's Staff",
+            "Great Sage Gem",
+            "Dragon's Tear"
+        ],
+        "rank_11": [
+            "Genesis Rod",
+            "Xenosphere Rod",
+            "Mourning Crown",
+            "High Devil Wand",
+            "Ocean God's Earrings",
+            "Great Sage Gem"
+        ],
+        "rank_12": [
+            "Lightning Wand",
+            "Genesis Rod",
+            "Empress Robe",
+            "Xenosphere Rod",
+            "Divine Beast's Prayer",
+            "Ocean God's Earrings"
+        ],
+        "rank_13": [
+            "",
+            "Lightning Wand",
+            "Exomagia Robe",
+            "Genesis Rod",
+            "Sophos Bracelet",
+            "Divine Beast's Prayer"
+        ]
     }
 }
