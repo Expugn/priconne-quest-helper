@@ -16414,6 +16414,7 @@
         ]
     },
     "ranger_rin": {
+        "name_cn": "铃（游骑兵）",
         "unit_id": 112701,
         "name": "Rin",
         "thematic": "Ranger",

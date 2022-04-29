@@ -359,6 +359,15 @@
         "req_pieces": 1,
         "req_items": []
     },
+    "31127": {
+        "name_jp": "リン（レンジャー）のメモリーピース",
+        "name": "Ranger Rin Shard",
+        "id": "misc-43",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
     "32001": {
         "name_jp": "ヒヨリのピュアメモリーピース",
         "name": "Hiyori Pure Shard",
@@ -426,6 +435,15 @@
         "name_jp": "ユカリのピュアメモリーピース",
         "name": "Yukari Pure Shard",
         "id": "misc-75",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "32046": {
+        "name_jp": "タマキのピュアメモリーピース",
+        "name": "Tamaki Pure Shard",
+        "id": "misc-80",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
