@@ -795,6 +795,205 @@
             "Punk Needle Bangle"
         ]
     },
+    "akino_&_saren": {
+        "unit_id": 180901,
+        "name": "Akino & Saren",
+        "thematic": "",
+        "name_jp": "アキノ＆サレン",
+        "thematic_jp": "",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Leather Overalls",
+            "Tree Shield",
+            "Killer Pencil",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Blue Blood",
+            "Gear Blade",
+            "Scale Mail",
+            "Legion Helm",
+            "Killer Pencil",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Blue Blood",
+            "High Metal Plate",
+            "Tower Shield",
+            "Command Knife",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Sparkling Sword",
+            "Fashion Armor",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Victory Friendship Bracelet"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Ryuumon Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Feather Blade",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Feather Waltz",
+            "Angel Armor",
+            "Scarlet Diamond",
+            "Feather Blade",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Mythril Plate",
+            "Empress Shield",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Guardian Shield",
+            "Angel Boots",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Faireal Boots",
+            "Crusader Plate",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Lightning Blade",
+            "Astrograph Buckler",
+            "Scarlet Mail",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Dawn's Holy Sword",
+            "Maiden Cloth",
+            "Phantasm Mail",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Rage Queen Dress",
+            "Nine Heavens' Armor",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "Konominato Sword - Aqua Ruler",
+            "Senka Dance Armor",
+            "Rage Queen Dress",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Sword - Ertz Schneide",
+            "Overlord Light Dragon Sword",
+            "Glowing Silver Mirror Shield",
+            "Senka Dance Armor",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Rabbit God's Great Sword",
+            "Star Nuclear Sword - Ertz Schneide",
+            "Heavenly Wing Saint Shoes",
+            "Glowing Silver Mirror Shield",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Shining Sword - Adamas",
+            "Rabbit God's Great Sword",
+            "Sacred Ring - Heavenly Lotus",
+            "Heavenly Wing Saint Shoes",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Choco Stick Blade",
+            "Shining Sword - Adamas",
+            "Platinum Scale Armor",
+            "Sacred Ring - Heavenly Lotus",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Blazing Red Sun Sword",
+            "Choco Stick Blade",
+            "Chocolate Mint Ice Heels",
+            "Platinum Scale Armor",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "Cherry Blossom",
+            "Blazing Red Sun Sword",
+            "Thin Red Sakura Saintly Cloth",
+            "Chocolate Mint Ice Heels",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "Clione Blade",
+            "Cherry Blossom",
+            "Summer Reflection Yukata of Morning Glory",
+            "Thin Red Sakura Saintly Cloth",
+            "Sakura Dance Double Hairpin",
+            "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "Riot Spike",
+            "Clione Blade",
+            "Punkish Girl",
+            "Summer Reflection Yukata of Morning Glory",
+            "Ruby Hibiscus Hair Ornament",
+            "Sakura Dance Double Hairpin"
+        ],
+        "rank_23": [
+            "Ice Shining Sword Glass Blade",
+            "Riot Spike",
+            "Pure Snow Mail",
+            "Punkish Girl",
+            "Punk Needle Bangle",
+            "Ruby Hibiscus Hair Ornament"
+        ],
+        "rank_24": [
+            "",
+            "Ice Shining Sword Glass Blade",
+            "Tributal Dancing Pumps",
+            "Pure Snow Mail",
+            "Ice Pillar Ring",
+            "Punk Needle Bangle"
+        ]
+    },
     "anna": {
         "unit_id": 100901,
         "name": "Anna",

@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.25.1] - 2022-04-30
+### Added
+- New Character: Akino & Saren
+
 ## [2.25.0] - 2022-04-15
 Quest Update (2022-04-15)
 ### Added
