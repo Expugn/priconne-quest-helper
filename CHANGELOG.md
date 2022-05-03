@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.25.2] - 2022-05-03
+### Added
+- New Character: Shinobu (Pirate)
+- Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
+  - `thematics.pirate`
+
 ## [2.25.1] - 2022-04-30
 ### Added
 - New Character: Akino & Saren
