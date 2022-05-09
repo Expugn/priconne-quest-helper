@@ -96,9 +96,16 @@ function write_equipment_data(region = "jp") {
             if (!equipment_data[id]) {
                 return;
             }
+            if (!counters["misc"]) {
+                counters["misc"] = 1;
+            }
+            else {
+                counters["misc"]++;
+            }
             data[id] = {
                 ...JSON.parse(JSON.stringify(equipment_data[id])),
-            }
+            };
+            data[id]["id"] = `misc-${counters["misc"]}`;
         });
 
         // ADD REQUIRED FRAGMENTS

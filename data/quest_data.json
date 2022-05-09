@@ -15101,6 +15101,44 @@
             15
         ]
     },
+    "31-3VH": {
+        "name": "フテラ断崖・南部 31-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Keyboard Armor Cimbalom Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Ice Spear Snow Storm Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Tributal Dancing Pumps Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Green Aurora Ring Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Rin Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "32-1": {
         "name": "ファスキア森林・南部 32-1",
         "stamina": 10,
