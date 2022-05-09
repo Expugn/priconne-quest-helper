@@ -245,7 +245,7 @@
     "31092": {
         "name_jp": "アンのメモリーピース",
         "name": "Anne Shard",
-        "id": "misc-31",
+        "id": "misc-28",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -254,7 +254,7 @@
     "31094": {
         "name_jp": "グレアのメモリーピース",
         "name": "Grea Shard",
-        "id": "misc-32",
+        "id": "misc-29",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -263,7 +263,7 @@
     "31095": {
         "name_jp": "クウカ（オーエド）のメモリーピース",
         "name": "Oedo Kuuka Shard",
-        "id": "misc-33",
+        "id": "misc-30",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -272,7 +272,7 @@
     "31096": {
         "name_jp": "ニノン（オーエド）のメモリーピース",
         "name": "Oedo Ninon Shard",
-        "id": "misc-34",
+        "id": "misc-31",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
