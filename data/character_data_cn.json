@@ -16558,6 +16558,7 @@
         ]
     },
     "ranger_mahiru": {
+        "name_cn": "真阳（游骑兵）",
         "unit_id": 112801,
         "name": "Mahiru",
         "thematic": "Ranger",
