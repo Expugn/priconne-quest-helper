@@ -358,7 +358,8 @@ span.rank-23 {
     color: rgb(41, 223, 123)
 }
 
-span.rank-24 {
+span.rank-24,
+span.rank-25 {
     color: rgb(255, 170, 24);
 }
 

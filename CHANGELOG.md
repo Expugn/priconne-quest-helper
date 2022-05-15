@@ -3,6 +3,16 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.26.0] - 2022-05-15
+Quest Update (2022-05-15)
+### Added
+- New Quests
+  - Chapter 58 Normal
+    - Normal Quests now only have `7` stages instead of the usual `14`
+  - `53-3H`
+- New Character: Anna (Pirate)
+- Rank 25 Support
+
 ## [2.25.3] - 2022-05-09
 ### Added
 - New Quest: `31-3 VH` (Rin)

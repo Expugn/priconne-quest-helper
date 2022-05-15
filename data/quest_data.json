@@ -26589,6 +26589,40 @@
             15
         ]
     },
+    "53-3H": {
+        "name": "ピニオン浜堤・東岸 53-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Absolute Sound Cane Accordia Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Singing Dress Musical Score Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Snow Flower Crystal Ring Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Kasumi (Summer) Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Punk Needle Bangle Fragment",
+            "Punk Princess Rod Fragment",
+            "Brass Knuckles Fragment",
+            "Diamond Dust Robe Fragment",
+            "Crime Hunt Bow Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "54-1": {
         "name": "トータティス砂岸・西部 54-1",
         "stamina": 10,
@@ -28260,6 +28294,216 @@
             "Jellyfish Rod Fragment",
             "Turtle Gauntlet Fragment",
             "Gothic Draped Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "58-1": {
+        "name": "クルース密林・東部 58-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sound Weaving Katana Gertona Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Tributal Dancing Pumps Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice Pillar Ring Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Punk Needle Bangle Fragment",
+            "Punk Princess Rod Fragment",
+            "Brass Knuckles Fragment",
+            "Diamond Dust Robe Fragment",
+            "Crime Hunt Bow Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "58-2": {
+        "name": "クルース密林・東部 58-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Heavenly Sound Axe Buster Horn Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Heavy Hoplon Cymbal Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Green Aurora Ring Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rocking Chain Bangle Fragment",
+            "Riot Spike Fragment",
+            "Snowflake Beret Fragment",
+            "Pure Snow Mail Fragment",
+            "Chain Fury Sword Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "58-3": {
+        "name": "クルース密林・東部 58-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Skillful Sound Bow Snare Arc Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Keyboard Armor Cimbalom Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Singing Dress Musical Score Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Emerald Gothic Bangle Fragment",
+            "Frost Column Heel Fragment",
+            "Skull Gothic Lance Fragment",
+            "Rocking Groove Axe Fragment",
+            "Punk Needle Bangle Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "58-4": {
+        "name": "クルース密林・東部 58-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sword Field Sword Grand Pianos Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Tributal Dancing Pumps Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ensemble Armor Brass Horn Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Padlock Scepter Fragment",
+            "White Aurora Dress Fragment",
+            "Thunder Punk Dagger Fragment",
+            "Crystal Ice Mail Fragment",
+            "Rocking Chain Bangle Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "58-5": {
+        "name": "クルース密林・東部 58-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sound Engraving Blade Clefton Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Benevolent Heavy Spear Tromspear Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Heavy Hoplon Cymbal Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Punk Needle Bangle Fragment",
+            "Punk Princess Rod Fragment",
+            "Brass Knuckles Fragment",
+            "Diamond Dust Robe Fragment",
+            "Crime Hunt Bow Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "58-6": {
+        "name": "クルース密林・東部 58-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sword Field Sword Grand Pianos Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Shouting Fist Biolafist Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Tributal Dancing Pumps Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rocking Chain Bangle Fragment",
+            "Riot Spike Fragment",
+            "Snowflake Beret Fragment",
+            "Pure Snow Mail Fragment",
+            "Chain Fury Sword Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "58-7": {
+        "name": "クルース密林・東部 58-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Charitable Command Staff Artemakillion Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Absolute Sound Cane Accordia Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Magical Hat Tambourine Caskets Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Emerald Gothic Bangle Fragment",
+            "Frost Column Heel Fragment",
+            "Skull Gothic Lance Fragment",
+            "Rocking Groove Axe Fragment",
+            "Punk Needle Bangle Fragment"
         ],
         "subdrops_percent": [
             24,
