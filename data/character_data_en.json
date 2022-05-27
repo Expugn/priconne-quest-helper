@@ -9960,6 +9960,7 @@
         ]
     },
     "summer_suzuna": {
+        "name_en": "Suzuna (Summer)",
         "unit_id": 110001,
         "name": "Suzuna",
         "thematic": "Summer",
@@ -10079,6 +10080,7 @@
         ]
     },
     "summer_io": {
+        "name_en": "Io (Summer)",
         "unit_id": 110101,
         "name": "Io",
         "thematic": "Summer",
