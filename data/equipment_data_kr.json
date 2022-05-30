@@ -548,10 +548,28 @@
         "req_pieces": 1,
         "req_items": []
     },
+    "32013": {
+        "name_jp": "ナナカのピュアメモリーピース",
+        "name": "Nanaka Pure Shard",
+        "id": "misc-62",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
     "32016": {
         "name_jp": "スズナのピュアメモリーピース",
         "name": "Suzuna Pure Shard",
-        "id": "misc-62",
+        "id": "misc-63",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "32017": {
+        "name_jp": "カオリのピュアメモリーピース",
+        "name": "Kaori Pure Shard",
+        "id": "misc-64",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -560,7 +578,7 @@
     "32018": {
         "name_jp": "イオのピュアメモリーピース",
         "name": "Io Pure Shard",
-        "id": "misc-63",
+        "id": "misc-65",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -569,7 +587,16 @@
     "32020": {
         "name_jp": "ミミのピュアメモリーピース",
         "name": "Mimi Pure Shard",
-        "id": "misc-64",
+        "id": "misc-66",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "32021": {
+        "name_jp": "クルミのピュアメモリーピース",
+        "name": "Kurumi Pure Shard",
+        "id": "misc-67",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -578,7 +605,7 @@
     "32022": {
         "name_jp": "ヨリのピュアメモリーピース",
         "name": "Yori Pure Shard",
-        "id": "misc-65",
+        "id": "misc-68",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -587,7 +614,7 @@
     "32023": {
         "name_jp": "アヤネのピュアメモリーピース",
         "name": "Ayane Pure Shard",
-        "id": "misc-66",
+        "id": "misc-69",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -596,7 +623,7 @@
     "32025": {
         "name_jp": "スズメのピュアメモリーピース",
         "name": "Suzume Pure Shard",
-        "id": "misc-67",
+        "id": "misc-70",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -605,7 +632,7 @@
     "32028": {
         "name_jp": "サレンのピュアメモリーピース",
         "name": "Saren Pure Shard",
-        "id": "misc-68",
+        "id": "misc-71",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -614,7 +641,7 @@
     "32029": {
         "name_jp": "ノゾミのピュアメモリーピース",
         "name": "Nozomi Pure Shard",
-        "id": "misc-69",
+        "id": "misc-72",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -623,7 +650,7 @@
     "32030": {
         "name_jp": "ニノンのピュアメモリーピース",
         "name": "Ninon Pure Shard",
-        "id": "misc-70",
+        "id": "misc-73",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -632,7 +659,7 @@
     "32032": {
         "name_jp": "アキノのピュアメモリーピース",
         "name": "Akino Pure Shard",
-        "id": "misc-71",
+        "id": "misc-74",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -641,7 +668,7 @@
     "32033": {
         "name_jp": "マヒルのピュアメモリーピース",
         "name": "Mahiru Pure Shard",
-        "id": "misc-72",
+        "id": "misc-75",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -650,7 +677,7 @@
     "32034": {
         "name_jp": "ユカリのピュアメモリーピース",
         "name": "Yukari Pure Shard",
-        "id": "misc-73",
+        "id": "misc-76",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -659,7 +686,16 @@
     "32036": {
         "name_jp": "キョウカのピュアメモリーピース",
         "name": "Kyouka Pure Shard",
-        "id": "misc-74",
+        "id": "misc-77",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "32040": {
+        "name_jp": "アオイのピュアメモリーピース",
+        "name": "Aoi Pure Shard",
+        "id": "misc-78",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -668,7 +704,7 @@
     "32046": {
         "name_jp": "タマキのピュアメモリーピース",
         "name": "Tamaki Pure Shard",
-        "id": "misc-75",
+        "id": "misc-79",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -677,7 +713,7 @@
     "32048": {
         "name_jp": "ミフユのピュアメモリーピース",
         "name": "Mifuyu Pure Shard",
-        "id": "misc-76",
+        "id": "misc-80",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -686,7 +722,16 @@
     "32049": {
         "name_jp": "シズルのピュアメモリーピース",
         "name": "Shizuru Pure Shard",
-        "id": "misc-77",
+        "id": "misc-81",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "32050": {
+        "name_jp": "ミサキのピュアメモリーピース",
+        "name": "Misaki Pure Shard",
+        "id": "misc-82",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -695,7 +740,25 @@
     "32052": {
         "name_jp": "リマのピュアメモリーピース",
         "name": "Rima Pure Shard",
-        "id": "misc-78",
+        "id": "misc-83",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "32053": {
+        "name_jp": "モニカのピュアメモリーピース",
+        "name": "Monika Pure Shard",
+        "id": "misc-84",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "32057": {
+        "name_jp": "ジータのピュアメモリーピース",
+        "name": "Djeeta Pure Shard",
+        "id": "misc-85",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -704,7 +767,7 @@
     "32058": {
         "name_jp": "ペコリーヌのピュアメモリーピース",
         "name": "Pecorine Pure Shard",
-        "id": "misc-79",
+        "id": "misc-86",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -713,7 +776,7 @@
     "32059": {
         "name_jp": "コッコロのピュアメモリーピース",
         "name": "Kokkoro Pure Shard",
-        "id": "misc-80",
+        "id": "misc-87",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -722,7 +785,16 @@
     "32060": {
         "name_jp": "キャルのピュアメモリーピース",
         "name": "Kyaru Pure Shard",
-        "id": "misc-81",
+        "id": "misc-88",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "32063": {
+        "name_jp": "アリサのピュアメモリーピース",
+        "name": "Arisa Pure Shard",
+        "id": "misc-89",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -4754,6 +4826,502 @@
         "id": "red-54",
         "has_fragments": true,
         "fragment_id": "116613",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107011": {
+        "name_kr": "체리 블로섬",
+        "name_jp": "チェリーブロッサム",
+        "name": "Cherry Blossom",
+        "id": "green-1",
+        "has_fragments": true,
+        "fragment_id": "127011",
+        "req_pieces": 20,
+        "req_items": [
+            "Chaotic Choker"
+        ]
+    },
+    "107012": {
+        "name_kr": "클리오네 블레이드",
+        "name_jp": "クリオネブレード",
+        "name": "Clione Blade",
+        "id": "green-2",
+        "has_fragments": true,
+        "fragment_id": "127012",
+        "req_pieces": 20,
+        "req_items": [
+            "Star Nuclear Bow - Erzvogen"
+        ]
+    },
+    "107013": {
+        "name_kr": "라이엇 스파이크",
+        "name_jp": "ライオットスパイク",
+        "name": "Riot Spike",
+        "id": "green-3",
+        "has_fragments": true,
+        "fragment_id": "117013",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107041": {
+        "name_kr": "소도영앵",
+        "name_jp": "宵刀影桜",
+        "name": "Yoito Kage Sakura",
+        "id": "green-4",
+        "has_fragments": true,
+        "fragment_id": "117041",
+        "req_pieces": 30,
+        "req_items": [
+            "Turquoise Noah"
+        ]
+    },
+    "107042": {
+        "name_kr": "오르카 소드",
+        "name_jp": "オルカソード",
+        "name": "Orca Sword",
+        "id": "green-5",
+        "has_fragments": true,
+        "fragment_id": "117042",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107043": {
+        "name_kr": "체인 퓨리 소드",
+        "name_jp": "チェインフューリーソード",
+        "name": "Chain Fury Sword",
+        "id": "green-6",
+        "has_fragments": true,
+        "fragment_id": "127043",
+        "req_pieces": 20,
+        "req_items": [
+            "Brass Cleft Axe"
+        ]
+    },
+    "107071": {
+        "name_kr": "체리 페탈 대거",
+        "name_jp": "チェリーペタルダガー",
+        "name": "Cherry Petal Dagger",
+        "id": "green-7",
+        "has_fragments": true,
+        "fragment_id": "117071",
+        "req_pieces": 30,
+        "req_items": [
+            "Star Nuclear Spear - Ertz Borg"
+        ]
+    },
+    "107072": {
+        "name_kr": "샤크 대거",
+        "name_jp": "シャークダガー",
+        "name": "Shark Dagger",
+        "id": "green-8",
+        "has_fragments": true,
+        "fragment_id": "117072",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107073": {
+        "name_kr": "선더 펑크 대거",
+        "name_jp": "サンダーパンクダガー",
+        "name": "Thunder Punk Dagger",
+        "id": "green-9",
+        "has_fragments": true,
+        "fragment_id": "117073",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107101": {
+        "name_kr": "벚꽃 장갑",
+        "name_jp": "桜花の貫き手",
+        "name": "Sakura Hand Brace",
+        "id": "green-10",
+        "has_fragments": true,
+        "fragment_id": "127101",
+        "req_pieces": 20,
+        "req_items": [
+            "Shield God Ring - Wall Breath"
+        ]
+    },
+    "107102": {
+        "name_kr": "터틀 건틀릿",
+        "name_jp": "タートルガントレット",
+        "name": "Turtle Gauntlet",
+        "id": "green-11",
+        "has_fragments": true,
+        "fragment_id": "127102",
+        "req_pieces": 20,
+        "req_items": [
+            "Cardinal Clarion Brooch"
+        ]
+    },
+    "107103": {
+        "name_kr": "너클 냥스터",
+        "name_jp": "メリケンニャックル",
+        "name": "Brass Knuckles",
+        "id": "green-12",
+        "has_fragments": true,
+        "fragment_id": "117103",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107131": {
+        "name_kr": "늘어진 벚꽃 활",
+        "name_jp": "枝垂れの桜花弓",
+        "name": "Weeping Sakura Bow",
+        "id": "green-13",
+        "has_fragments": true,
+        "fragment_id": "117131",
+        "req_pieces": 30,
+        "req_items": [
+            "Fire Spear - Prominence"
+        ]
+    },
+    "107132": {
+        "name_kr": "클라운 피시 보우",
+        "name_jp": "クラウンフィッシュボウ",
+        "name": "Clownfish Bow",
+        "id": "green-14",
+        "has_fragments": true,
+        "fragment_id": "117132",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107133": {
+        "name_kr": "크라임 헌트 보우",
+        "name_jp": "クライムハントボウ",
+        "name": "Crime Hunt Bow",
+        "id": "green-15",
+        "has_fragments": true,
+        "fragment_id": "127133",
+        "req_pieces": 20,
+        "req_items": [
+            "Pride of the Roses"
+        ]
+    },
+    "107161": {
+        "name_kr": "지는 벚꽃의 삽창",
+        "name_jp": "散桜の颯槍",
+        "name": "Sakura Gust Spear",
+        "id": "green-16",
+        "has_fragments": true,
+        "fragment_id": "127161",
+        "req_pieces": 20,
+        "req_items": [
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
+    "107162": {
+        "name_kr": "크랩 시저 스피어",
+        "name_jp": "クラブシザースピアー",
+        "name": "Crab Scissor Spear",
+        "id": "green-17",
+        "has_fragments": true,
+        "fragment_id": "127162",
+        "req_pieces": 20,
+        "req_items": [
+            "Jade Harp Brooch"
+        ]
+    },
+    "107163": {
+        "name_kr": "스컬 고딕 랜스",
+        "name_jp": "スカルゴシックランス",
+        "name": "Skull Gothic Lance",
+        "id": "green-18",
+        "has_fragments": true,
+        "fragment_id": "117163",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107191": {
+        "name_kr": "벚꽃 베는 도끼",
+        "name_jp": "桜伐り",
+        "name": "Sakura Axe",
+        "id": "green-19",
+        "has_fragments": true,
+        "fragment_id": "117191",
+        "req_pieces": 30,
+        "req_items": [
+            "Eastern Heaven Green Wind Dress"
+        ]
+    },
+    "107192": {
+        "name_kr": "웨일 액스",
+        "name_jp": "ホエールアックス",
+        "name": "Whale Axe",
+        "id": "green-20",
+        "has_fragments": true,
+        "fragment_id": "117192",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107193": {
+        "name_kr": "록킹 그루브 액스",
+        "name_jp": "ロッキングルーブアックス",
+        "name": "Rocking Groove Axe",
+        "id": "green-21",
+        "has_fragments": true,
+        "fragment_id": "127193",
+        "req_pieces": 20,
+        "req_items": [
+            "Overlord Thorn Armor"
+        ]
+    },
+    "107221": {
+        "name_kr": "체리시 로드",
+        "name_jp": "チェリッシュロッド",
+        "name": "Cherishrod",
+        "id": "green-22",
+        "has_fragments": true,
+        "fragment_id": "127221",
+        "req_pieces": 20,
+        "req_items": [
+            "Elfin Choker"
+        ]
+    },
+    "107222": {
+        "name_kr": "주얼 쉘 로드",
+        "name_jp": "ジュエルシェルロッド",
+        "name": "Jewel Shell Rod",
+        "id": "green-23",
+        "has_fragments": true,
+        "fragment_id": "127222",
+        "req_pieces": 20,
+        "req_items": [
+            "Astrologer's Holy Spirit Robe"
+        ]
+    },
+    "107223": {
+        "name_kr": "패드락 셉터",
+        "name_jp": "パドロックセプター",
+        "name": "Padlock Scepter",
+        "id": "green-24",
+        "has_fragments": true,
+        "fragment_id": "117223",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107251": {
+        "name_kr": "벚꽃 무용 지팡이",
+        "name_jp": "桜華の舞杖",
+        "name": "Sakura Dance Wand",
+        "id": "green-25",
+        "has_fragments": true,
+        "fragment_id": "127251",
+        "req_pieces": 20,
+        "req_items": [
+            "Ruby Rose Choker"
+        ]
+    },
+    "107252": {
+        "name_kr": "젤리피시 로드",
+        "name_jp": "ジェリーフィッシュロッド",
+        "name": "Jellyfish Rod",
+        "id": "green-26",
+        "has_fragments": true,
+        "fragment_id": "127252",
+        "req_pieces": 20,
+        "req_items": [
+            "Red Bear Emperor's Claw Battle Axe"
+        ]
+    },
+    "107253": {
+        "name_kr": "펑크 프린세스 로드",
+        "name_jp": "パンクプリンセスロッド",
+        "name": "Punk Princess Rod",
+        "id": "green-27",
+        "has_fragments": true,
+        "fragment_id": "117253",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107281": {
+        "name_kr": "서머 라이트 비키니 아머",
+        "name_jp": "サマーライトビキニアーマー",
+        "name": "Summer Light Bikini Armor",
+        "id": "green-28",
+        "has_fragments": true,
+        "fragment_id": "127281",
+        "req_pieces": 20,
+        "req_items": [
+            "Dark Blade - Heavenly Raven's Guard"
+        ]
+    },
+    "107282": {
+        "name_kr": "고딕 드레이프 아머",
+        "name_jp": "ゴシックドレープアーマー",
+        "name": "Gothic Draped Armor",
+        "id": "green-29",
+        "has_fragments": true,
+        "fragment_id": "127282",
+        "req_pieces": 20,
+        "req_items": [
+            "Jade Wind Blade - Emerald Edge"
+        ]
+    },
+    "107311": {
+        "name_kr": "비치 플로터 메일",
+        "name_jp": "ビーチフローターメイル",
+        "name": "Beach Floater Mail",
+        "id": "green-30",
+        "has_fragments": true,
+        "fragment_id": "117311",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107312": {
+        "name_kr": "고딕 메이든",
+        "name_jp": "ゴシックメイデン",
+        "name": "Gothic Maiden",
+        "id": "green-31",
+        "has_fragments": true,
+        "fragment_id": "117312",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107341": {
+        "name_kr": "나팔꽃 여름 그늘 유카타",
+        "name_jp": "朝顔の夏影浴衣",
+        "name": "Summer Reflection Yukata of Morning Glory",
+        "id": "green-32",
+        "has_fragments": true,
+        "fragment_id": "127341",
+        "req_pieces": 20,
+        "req_items": [
+            "Prosperous Carp God's Katana"
+        ]
+    },
+    "107342": {
+        "name_kr": "펑키시 걸",
+        "name_jp": "パンキッシュガール",
+        "name": "Punkish Girl",
+        "id": "green-33",
+        "has_fragments": true,
+        "fragment_id": "127342",
+        "req_pieces": 20,
+        "req_items": [
+            "Blue Night Nocturne Brooch"
+        ]
+    },
+    "107371": {
+        "name_kr": "파라솔 원피스",
+        "name_jp": "パラソルワンピース",
+        "name": "Parasol One Piece",
+        "id": "green-34",
+        "has_fragments": true,
+        "fragment_id": "127371",
+        "req_pieces": 20,
+        "req_items": [
+            "Sacred Ring - Heavenly Lotus"
+        ]
+    },
+    "107372": {
+        "name_kr": "고딕 블루 로즈",
+        "name_jp": "ゴシックブルーローズ",
+        "name": "Gothic Blue Rose",
+        "id": "green-35",
+        "has_fragments": true,
+        "fragment_id": "117372",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107461": {
+        "name_kr": "히비스커스 샌들",
+        "name_jp": "ハイビスカスサンダル",
+        "name": "Hibiscus Sandals",
+        "id": "green-36",
+        "has_fragments": true,
+        "fragment_id": "117461",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107462": {
+        "name_kr": "스터즈드 블랙",
+        "name_jp": "スタッズドブラック",
+        "name": "Studded Black",
+        "id": "green-37",
+        "has_fragments": true,
+        "fragment_id": "127462",
+        "req_pieces": 20,
+        "req_items": [
+            "Blue God Bow - Mercy Sapiros"
+        ]
+    },
+    "107491": {
+        "name_kr": "선플라워 스트로 햇",
+        "name_jp": "サンフラワーストローハット",
+        "name": "Sunflower Straw Hat",
+        "id": "green-38",
+        "has_fragments": true,
+        "fragment_id": "117491",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107492": {
+        "name_kr": "피어스드 블랙",
+        "name_jp": "ピアスドブラック",
+        "name": "Pierced Black",
+        "id": "green-39",
+        "has_fragments": true,
+        "fragment_id": "117492",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107551": {
+        "name_kr": "앵무의 겹꽃 비녀",
+        "name_jp": "桜舞の八重簪",
+        "name": "Sakura Dance Double Hairpin",
+        "id": "green-40",
+        "has_fragments": true,
+        "fragment_id": "117551",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107552": {
+        "name_kr": "루비 히비스커스 머리 장식",
+        "name_jp": "ルビーハイビスカスの髪飾り",
+        "name": "Ruby Hibiscus Hair Ornament",
+        "id": "green-41",
+        "has_fragments": true,
+        "fragment_id": "117552",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107581": {
+        "name_kr": "벚꽃 달밤 비녀",
+        "name_jp": "桜花の月夜簪",
+        "name": "Sakura Flower Moonlight Hairpin",
+        "id": "green-42",
+        "has_fragments": true,
+        "fragment_id": "117581",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107582": {
+        "name_kr": "펄 코코넛 머리 장식",
+        "name_jp": "パールココナッツの髪飾り",
+        "name": "Pearl Coconut Hair Ornament",
+        "id": "green-43",
+        "has_fragments": true,
+        "fragment_id": "117582",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107611": {
+        "name_kr": "선앵의 축잠",
+        "name_jp": "仙桜の祝簪",
+        "name": "Immortal Sakura Wish Hairpin",
+        "id": "green-44",
+        "has_fragments": true,
+        "fragment_id": "117611",
+        "req_pieces": 30,
+        "req_items": []
+    },
+    "107612": {
+        "name_kr": "오팔 조개 머리 장식",
+        "name_jp": "オパールシェルの髪飾り",
+        "name": "Opal Shell Hair Ornament",
+        "id": "green-45",
+        "has_fragments": true,
+        "fragment_id": "117612",
         "req_pieces": 30,
         "req_items": []
     }
