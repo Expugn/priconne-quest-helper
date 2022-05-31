@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.26.1] - 2022-05-31
+### Added
+- New Characters
+  - Aoi (Camp)
+  - Yukari (Camp)
+- Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
+  - `thematics.camp`
+
 ## [2.26.0] - 2022-05-15
 Quest Update (2022-05-15)
 ### Added
