@@ -16702,6 +16702,7 @@
         ]
     },
     "wonder_rino": {
+        "name_cn": "璃乃（仙境）",
         "unit_id": 112901,
         "name": "Rino",
         "thematic": "Wonder",
@@ -16845,6 +16846,7 @@
         ]
     },
     "wonder_ayumi": {
+        "name_cn": "步美（仙境）",
         "unit_id": 113001,
         "name": "Ayumi",
         "thematic": "Wonder",
