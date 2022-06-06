@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.26.2] - 2022-06-06
+### Added
+- New Quest: `32-1 VH` (Miyako)
+
 ## [2.26.1] - 2022-05-31
 ### Added
 - New Characters
