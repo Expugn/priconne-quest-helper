@@ -10198,5 +10198,125 @@
             "",
             "Glorious King's Shield Bangle"
         ]
+    },
+    "summer_saren": {
+        "name_en": "Saren (Summer)",
+        "unit_id": 110301,
+        "name": "Saren",
+        "thematic": "Summer",
+        "name_jp": "サレン",
+        "thematic_jp": "サマー",
+        "rank_1": [
+            "Iron Blade",
+            "Leather Boots",
+            "Leather Overalls",
+            "Iron Blade",
+            "Motivational Bracelet",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Blue Blood",
+            "Crown Boots",
+            "Scale Mail",
+            "Gear Blade",
+            "Leather Boots",
+            "Protective Pendant"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Tower Shield",
+            "Light Plate",
+            "Blue Blood",
+            "Gear Blade",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Emerald Earrings",
+            "Gorgeous Armor",
+            "Sparkling Sword",
+            "Tower Shield",
+            "Tower Shield"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Fencer Boots",
+            "Battling Dress",
+            "Ryuumon Sword",
+            "Emerald Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Lion King's Protective Charm",
+            "Heavy Metal Armor",
+            "Ryuumon Sword",
+            "Octogram Pendant",
+            "Battling Dress"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Empress Shield",
+            "Angel Armor",
+            "Feather Blade",
+            "Lion King's Protective Charm",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Mythril Plate",
+            "Feather Waltz",
+            "Bangle of Substitution",
+            "Lion King's Protective Charm"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Violet Armor",
+            "Angel Boots",
+            "Moon Bracelet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Faireal Boots",
+            "Violet Armor",
+            "Congregation Pendant",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Lightning Blade",
+            "Astrograph Buckler",
+            "Faireal Boots",
+            "Fairy King's Guardian Stone",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Dawn's Holy Sword",
+            "Maiden Cloth",
+            "Astrograph Buckler",
+            "Mermaid Princess' Spirit Tear",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Rage Queen Dress",
+            "Infernal Greaves",
+            "Glorious King's Shield Bangle",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "",
+            "Konominato Sword - Aqua Ruler",
+            "",
+            "Royal Guard Hat",
+            "",
+            "Glorious King's Shield Bangle"
+        ]
     }
 }
