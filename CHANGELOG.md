@@ -3,6 +3,16 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.27.0] - 2022-06-15
+Quest Update (2022-06-15)
+### Added
+- New Quests
+  - Chapter 58 Normal Part 2 (`58-8` - `58-14`)
+  - `54-1H` and `54-2H`
+- New Character: Vampy
+- Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
+  - `character_names.vampy`
+
 ## [2.26.2] - 2022-06-06
 ### Added
 - New Quest: `32-1 VH` (Miyako)
@@ -19,8 +29,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 Quest Update (2022-05-15)
 ### Added
 - New Quests
-  - Chapter 58 Normal
-    - Normal Quests now only have `7` stages instead of the usual `14`
+  - Chapter 58 Normal Part 1
+    - Normal Quests now only have `7` stages per part instead of the usual `14`
   - `53-3H`
 - New Character: Anna (Pirate)
 - Rank 25 Support
