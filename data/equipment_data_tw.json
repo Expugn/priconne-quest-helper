@@ -5429,5 +5429,101 @@
         "fragment_id": "117613",
         "req_pieces": 30,
         "req_items": []
+    },
+    "108011": {
+        "name_tw": "冰輝劍格拉斯之劍",
+        "name_jp": "氷輝剣グラースブレード",
+        "name": "Ice Shining Sword Glass Blade",
+        "id": "orange-1",
+        "has_fragments": true,
+        "fragment_id": "118011",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108041": {
+        "name_tw": "冰雪刀古拉奇短劍",
+        "name_jp": "氷雪刀グラキエッジ",
+        "name": "Ice and Snow Sword Graki Edge",
+        "id": "orange-2",
+        "has_fragments": true,
+        "fragment_id": "128041",
+        "req_pieces": 15,
+        "req_items": [
+            "Evergreen Green Ring"
+        ]
+    },
+    "108071": {
+        "name_tw": "冰牙斯蒂利亞匕首",
+        "name_jp": "氷牙スティーリアダガー",
+        "name": "Ice Fang Styria Dagger",
+        "id": "orange-3",
+        "has_fragments": true,
+        "fragment_id": "118071",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108101": {
+        "name_tw": "冰塊拳格拉塞指虎",
+        "name_jp": "氷塊拳グラセナックル",
+        "name": "Ice Block Fist Glass Knuckle",
+        "id": "orange-4",
+        "has_fragments": true,
+        "fragment_id": "118101",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108131": {
+        "name_tw": "氷聖弓孔格拉席翁",
+        "name_jp": "氷聖弓コンヘラシオン",
+        "name": "Ice Sacred Bow Constellation",
+        "id": "orange-5",
+        "has_fragments": true,
+        "fragment_id": "128131",
+        "req_pieces": 15,
+        "req_items": [
+            "Doughnut Choker"
+        ]
+    },
+    "108161": {
+        "name_tw": "氷穿槍暴風雪",
+        "name_jp": "氷穿槍スノーストーム",
+        "name": "Ice Spear Snow Storm",
+        "id": "orange-6",
+        "has_fragments": true,
+        "fragment_id": "128161",
+        "req_pieces": 15,
+        "req_items": [
+            "White Sacred Stone - Diamond Star"
+        ]
+    },
+    "108191": {
+        "name_tw": "冰壞斧里奧特戰斧",
+        "name_jp": "氷壊斧リオートアックス",
+        "name": "Ice Breaking Riot Axe",
+        "id": "orange-7",
+        "has_fragments": true,
+        "fragment_id": "118191",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108221": {
+        "name_tw": "冰雪杖帕戈斯之杖",
+        "name_jp": "氷雪杖パーゴスワンド",
+        "name": "Ice and Snow Cane Pergos Wand",
+        "id": "orange-8",
+        "has_fragments": true,
+        "fragment_id": "118221",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108251": {
+        "name_tw": "冰樹杖冰霜權杖",
+        "name_jp": "氷樹杖フロストスタッフ",
+        "name": "Ice Cane Frost Staff",
+        "id": "orange-9",
+        "has_fragments": true,
+        "fragment_id": "118251",
+        "req_pieces": 25,
+        "req_items": []
     }
 }
