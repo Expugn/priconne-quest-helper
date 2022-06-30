@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.27.1] - 2022-06-30
+### Added
+- New Characters
+  - Hiyori (Summer)
+  - Rei (Summer)
+
 ## [2.27.0] - 2022-06-15
 Quest Update (2022-06-15)
 ### Added
