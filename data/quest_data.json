@@ -15699,6 +15699,44 @@
             15
         ]
     },
+    "32-2VH": {
+        "name": "ファスキア森林・南部 32-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Celestial Beating Timpania Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Singing Dress Musical Score Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Tree Tributing Xylophonia Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Charitable Command Staff Artemakillion Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Misato Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rocking Chain Bangle Fragment",
+            "Riot Spike Fragment",
+            "Snowflake Beret Fragment",
+            "Pure Snow Mail Fragment",
+            "Chain Fury Sword Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "33-1": {
         "name": "ファスキア森林・東部 33-1",
         "stamina": 10,
