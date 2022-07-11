@@ -809,6 +809,33 @@
         "req_pieces": 1,
         "req_items": []
     },
+    "32075": {
+        "name_jp": "ペコリーヌ（サマー）のピュアメモリーピース",
+        "name": "Summer Pecorine Pure Memory Piece",
+        "id": "misc-91",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "32076": {
+        "name_jp": "コッコロ（サマー）のピュアメモリーピース",
+        "name": "Summer Kokkoro Pure Memory Piece",
+        "id": "misc-92",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "32078": {
+        "name_jp": "キャル（サマー）のピュアメモリーピース",
+        "name": "Summer Kyaru Pure Memory Piece",
+        "id": "misc-93",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
     "101011": {
         "name_tw": "鐵劍",
         "name_jp": "アイアンブレード",
