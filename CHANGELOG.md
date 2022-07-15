@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.28.0] - 2022-07-15
+Quest Update (2022-07-15)
+### Added
+- New Quests
+  - Chapter 59 Normal Part 1 (`59-1` - `59-7`)
+  - `54-3H`
+- New Character: Yui (Summer)
+- New Equipment
+
 ## [2.27.2] - 2022-07-06
 ### Added
 - New Quest: `32-2 VH` (Misato)
