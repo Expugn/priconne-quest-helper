@@ -5552,5 +5552,35 @@
         "fragment_id": "118251",
         "req_pieces": 25,
         "req_items": []
+    },
+    "108551": {
+        "name_tw": "冰柱戒指",
+        "name_jp": "アイスピラーリング",
+        "name": "Ice Pillar Ring",
+        "id": "orange-10",
+        "has_fragments": true,
+        "fragment_id": "118551",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108581": {
+        "name_tw": "綠色極光戒指",
+        "name_jp": "グリーンオーロラリング",
+        "name": "Green Aurora Ring",
+        "id": "orange-11",
+        "has_fragments": true,
+        "fragment_id": "118581",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108611": {
+        "name_tw": "雪華晶的戒指",
+        "name_jp": "雪華晶の指輪",
+        "name": "Snow Flower Crystal Ring",
+        "id": "orange-12",
+        "has_fragments": true,
+        "fragment_id": "118611",
+        "req_pieces": 25,
+        "req_items": []
     }
 }
