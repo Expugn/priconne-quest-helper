@@ -155,7 +155,7 @@ function write_character_data(region = "jp") {
 
         // ADD UNIT
         let unit_names = {};
-        result = await db.all('SELECT unit_id, unit_name FROM unit_data ORDER BY unit_name');
+        result = await db.all('SELECT unit_id, unit_name FROM unit_data');
         result.forEach((entry) => {
             const id = `${entry["unit_id"]}`;
             if (!character[id]) {
@@ -165,8 +165,11 @@ function write_character_data(region = "jp") {
         });
 
         // GET UNIT PROMOTION REQUIREMENTS (trim from JP version)
-        result = await db.all('SELECT unit_id, promotion_level, equip_slot_1, equip_slot_2, equip_slot_3, ' +
-            'equip_slot_4, equip_slot_5, equip_slot_6 FROM unit_promotion');
+        result = await db.all('SELECT unit_data.unit_name, unit_promotion.unit_id, unit_promotion.promotion_level, '
+            + 'unit_promotion.equip_slot_1, unit_promotion.equip_slot_2, unit_promotion.equip_slot_3, '
+            + 'unit_promotion.equip_slot_4, unit_promotion.equip_slot_5, unit_promotion.equip_slot_6 '
+            + 'FROM unit_promotion INNER JOIN unit_data ON unit_promotion.unit_id=unit_data.unit_id '
+            + 'ORDER BY unit_data.unit_name ASC');
         result.forEach((entry) => {
             const id = `${entry["unit_id"]}`;
             if (!character[id]) {
