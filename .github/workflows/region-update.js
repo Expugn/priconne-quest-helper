@@ -155,7 +155,7 @@ function write_character_data(region = "jp") {
 
         // ADD UNIT
         let unit_names = {};
-        result = await db.all('SELECT unit_id, unit_name FROM unit_data');
+        result = await db.all('SELECT unit_id, unit_name FROM unit_data ORDER BY unit_name');
         result.forEach((entry) => {
             const id = `${entry["unit_id"]}`;
             if (!character[id]) {

@@ -45,9 +45,9 @@ const settings = (function () {
         SUBTRACT_AMOUNT_FROM_INVENTORY: "subtract_amount_from_inventory",
         DISPLAY_PRIORITY_ITEM_AMOUNT: "display_priority_item_amount",
         SHOW_PRIORITY_ITEMS_FIRST: "show_priority_items_first",
-        NORMAL_DROP_EVENT: "normal_drop_multiplier",
-        HARD_DROP_EVENT: "hard_drop_multiplier",
-        VERY_HARD_DROP_EVENT: "very_hard_drop_multiplier",
+        NORMAL_DROP_EVENT: "normal_quest_drop_multiplier",
+        HARD_DROP_EVENT: "hard_quest_drop_multiplier",
+        VERY_HARD_DROP_EVENT: "very_hard_quest_drop_multiplier",
         EQUIPMENT_DATA_TYPE: "equipment_data_type"
     });
     const LOCALSTORAGE_KEY = "settings";
@@ -363,12 +363,12 @@ const settings = (function () {
     /***
      * MAKES IT SO THAT THE SHOWN QUANTITY FOR ITEMS IS REDUCED BY CURRENT AMOUNT IN INVENTORY
      * WHEN DISPLAYED IN "RECOMMENDED QUESTS".
-     * THE QUEST TABLE IS REFRESHED AFTER.
+     * THE ENTIRE DATA DISPLAY IS REFRESHED AFTER.
      */
     function toggle_subtract_amount_from_inventory() {
         settings.subtract_amount_from_inventory = !settings.subtract_amount_from_inventory;
         webpage.print("\"Subtract Amount From Inventory\" changed to (Active?: " + settings.subtract_amount_from_inventory + ")", "Settings");
-        data_display.quests.refresh();
+        data_display.build();
     }
 
     /**
@@ -2751,15 +2751,37 @@ const inventory = (function () {
                 if ($inventory_editor.length === 0) {
                     $inventory_editor = $($.parseHTML('<div class="inventory-inline-editor">' +
                         '<div class="quest_inline-inventory">' +
-                        '<img class="quest_inline-crate" src="' + webpage.get_webpage_image_path("Inventory_Crate") + '" alt="">' +
+                        `<img class="quest_inline-crate" src="${webpage.get_webpage_image_path("Inventory_Crate")}" alt="">` +
                         '<div class="quest_inventory-amount">0</div>' +
                         '<input class="quest_inline-input" type="number">' +
                         '<button class="input-confirm" value="OK">OK</button>' +
                         '</div>' +
-                        '<button class="plus increment" value="+30">+30</button><button class="plus" value="+5">+5</button><button class="plus" value="+1">+1</button>' +
-                        '<button class="minus increment" value="-30">-30</button><button class="minus" value="-5">-5</button><button class="minus" value="-1">-1</button><br>' +
+                        '<button class="plus increment" value="+30">+30</button><button class="plus increment5" value="+5">+5</button><button class="plus increment1" value="+1">+1</button>' +
+                        '<button class="minus increment" value="-30">-30</button><button class="minus increment5" value="-5">-5</button><button class="minus increment1" value="-1">-1</button><br>' +
                         '</div>'));
                 }
+                const difficulty = data_display.quests.difficulty;
+                const quest_title = $this.parent().siblings("div.quest_header").children("div.quest_title")[0].innerText;
+                const setting = settings.get_settings();
+
+                // adjust +1 and +5 buttons depending on DROP_EVENT setting and current quest item is in
+                let plus1 = 1, plus5 = 5;
+                if (!quest_title.includes(difficulty.HARD)) { // is_normal
+                    const normal_drop = parseInt(setting[settings.tags.NORMAL_DROP_EVENT]) || 1;
+                    plus1 *= normal_drop;
+                    plus5 *= normal_drop;
+                }
+                else if (quest_title.includes(difficulty.HARD) && !quest_title.includes(difficulty.VERY_HARD)) { // is_hard
+                    const hard_drop = parseInt(setting[settings.tags.HARD_DROP_EVENT]) || 1;
+                    plus1 *= hard_drop;
+                    plus5 *= hard_drop;
+                }
+                else if (quest_title.includes(difficulty.VERY_HARD)) { // is_very_hard
+                    const very_hard_drop = parseInt(setting[settings.tags.VERY_HARD_DROP_EVENT]) || 1;
+                    plus1 *= very_hard_drop;
+                    plus5 *= very_hard_drop;
+                }
+
                 $("span.quest_drop-percent", $this).before($inventory_editor);
                 let item_name = $this.attr('title');
                 let current_amount = get_amount(item_name);
@@ -2769,12 +2791,30 @@ const inventory = (function () {
                 if (increment < 10) {
                     increment = 10;
                 }
+                // first increment buttons (+fragment_cost)
                 let $plus_button = $('button.plus.increment', $inventory_editor);
                 $plus_button.text('+' + increment);
                 $plus_button[0].value = '+' + increment;
                 let $minus_button = $('button.minus.increment', $inventory_editor);
                 $minus_button.text('-' + increment);
                 $minus_button[0].value = '-' + increment;
+
+                // second increment buttons (+5)
+                $plus_button = $('button.plus.increment5', $inventory_editor);
+                $plus_button.text('+' + plus5);
+                $plus_button[0].value = '+' + plus5;
+                $minus_button = $('button.minus.increment5', $inventory_editor);
+                $minus_button.text('-' + plus5);
+                $minus_button[0].value = '-' + plus5;
+
+                // third increment buttons (+1)
+                $plus_button = $('button.plus.increment1', $inventory_editor);
+                $plus_button.text('+' + plus1);
+                $plus_button[0].value = '+' + plus1;
+                $minus_button = $('button.minus.increment1', $inventory_editor);
+                $minus_button.text('-' + plus1);
+                $minus_button[0].value = '-' + plus1;
+
                 $this.removeClass('quest-hover').addClass('quest-item-edit');
                 $inventory_editor.show();
             }).on('click', '.inventory-inline-editor button', function(event) {
@@ -3961,6 +4001,7 @@ const data_display = (function () {
             table.innerHTML = "";
             if (sorted.length > 0) {
                 let priority_item_elements = [];
+                const setting = settings.get_settings();
                 for (let [item_name, amount] of sorted) {
                     let is_priority = false;
                     if (projects.data().items.includes(item_name) && settings.get_settings()[settings.tags.SHOW_PRIORITY_ITEMS_FIRST]) {
@@ -3999,6 +4040,24 @@ const data_display = (function () {
                         button.onclick = () => {
                             webpage.print((projects.blacklist.toggle(item_name) ? "Disabled " : "Enabled ") + item_name, "Blacklist");
                         };
+
+                        if (setting[settings.tags.SUBTRACT_AMOUNT_FROM_INVENTORY]) {
+                            // make changes to required ingredients if SUBTRACT_AMOUNT_FROM_INVENTORY setting is active
+                            const amount_after_inventory = amount - inventory.get_amount(item_name);
+                            if (amount_after_inventory > 0 && amount_after_inventory !== amount) {
+                                // only make these changes if modified amount is greater than 0 and the amount does not
+                                // match the modified amount
+                                span.innerHTML = amount_after_inventory;
+                                span.style.color = "#FF7276"; // add reduced amount color indicator
+
+                                // add crate image to indicate that amount is reduced because of inventory
+                                const crate = document.createElement("img");
+                                crate.classList.add("required-ingredients_button_inventory-crate");
+                                crate.src = webpage.get_webpage_image_path("Inventory_Crate");
+                                crate.alt = "";
+                                button.appendChild(crate);
+                            }
+                        }
                     }
 
                     if (is_priority) {
@@ -4472,7 +4531,8 @@ const data_display = (function () {
 
         return {
             build: build,
-            refresh: refresh
+            refresh: refresh,
+            difficulty
         }
     })();
 
