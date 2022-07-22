@@ -5,7 +5,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [2.28.1] - 2022-07-21
 ### Added
-- Implemented some suggestions by `Washai#0161`
+- Implemented some suggestions by `Wazhai#0161`
   - Required Ingredients Effected by "Subtract Amount From Inventory" Setting
     - Required Ingredient amount is now effected by the "Subtract Amount From Inventory"
     - An item with a reduced amount from inventory will have their text color be red and an inventory crate icon will be displayed on the top left of the item
@@ -14,6 +14,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
     - Quests of different difficulties are not effected by a different difficulty's drop buff setting
       - `Normal 3x` Drop Buff will not make Hard quests have `+15` and `+3` buttons in the inline editor
   - Made some changes to `region-update.js` where characters will be sorted by their `unit_name` instead of `unit_id`
+### Fixed
+- Fixed `Summer Kasumi Shard` ; accidentally named `Kasumi (Summer) Shard`
 
 ## [2.28.0] - 2022-07-15
 Quest Update (2022-07-15)
