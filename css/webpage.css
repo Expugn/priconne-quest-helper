@@ -637,7 +637,8 @@ i.footer {
 .required-ingredients_button span:before,
 .requested-item span:before,
 .quest_inventory-amount:before,
-.quest_required-amount:before {
+.quest_required-amount:before,
+#project-modal_dialog .item-sprite .item-amount:before {
     content: '\00D7';
 }
 
@@ -1425,6 +1426,127 @@ i.footer {
 .app-hyperlink_text {
     font-size: 14px;
     top: 62px;
+}
+
+/* PROJECT COMPLETE ================================================================================================= */
+#project-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.30);
+    overflow: auto;
+}
+
+#project-modal_title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 15px;
+    line-height: 36px;
+}
+
+#project-modal_dialog button,
+#project-modal_dialog .project-contents .item-sprite {
+    cursor: pointer;
+}
+
+#project-modal_dialog div .project-name {
+    font-size: 24px;
+    line-height: 36px;
+    font-style: italic;
+}
+
+#project-modal_dialog {
+    background-color: white;
+    color: black;
+    margin: 10% auto;
+    padding: 0 33px 30px;
+    width: 60%;
+    z-index: 2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+#project-modal_dialog .project-contents,
+#project-modal_dialog .inventory-requirements {
+    background-color: rgba(0, 0, 0, 0.10);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#project-modal_close-button {
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.50);
+    cursor: pointer;
+    width: 33px;
+    height: 33px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+@media (max-width: 350px) {
+    #project-modal_close-button {
+        width: 33px;
+        height: 33px;
+        margin-right: 0;
+        margin-top: 0;
+    }
+}
+
+#project-modal_close-button .text {
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    margin-top: -7px;
+    margin-right: -1px;
+    text-shadow: 1px 1px 3px #000000,
+    1px 0 2px #000000,
+    0 1px 2px #000000,
+    0 0 3px #000000;
+}
+
+#project-modal_close-button .text:lang(ja-JP) {
+    position: relative;
+    top: 2px;
+    font-size: 28px;
+}
+
+#project-modal_close-button .text:lang(ko-KR) {
+    position: relative;
+    bottom: 4px;
+}
+
+#project-modal_dialog .item-sprite {
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    text-align: right;
+}
+
+#project-modal_dialog .item-sprite.disabled {
+    -webkit-filter: grayscale(100%) opacity(60%);
+    filter: grayscale(100%) opacity(60%);
+    cursor: auto;
+    box-shadow: none;
+}
+
+#project-modal_dialog .item-sprite .item-amount {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 3px;
+    position: relative;
+    top: 26px;
 }
 
 /* INVENTORY ======================================================================================================== */

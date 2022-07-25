@@ -1984,7 +1984,9 @@ const projects = (function () {
         SUB_BUTTON: "project-sub-button",
         PRIORITIZE_BUTTON: "prioritize-project-button",
         DEPRIORITIZE_BUTTON: "deprioritize-project-button",
-        COMPLETE_BUTTON: "project-complete-button"
+        COMPLETE_BUTTON: "project-complete-button",
+        MODAL: "project-modal",
+        CLOSE: "project-modal_close-button"
     });
     const LOCALSTORAGE_KEY = Object.freeze({
         PROJECTS: "projects",
@@ -2109,6 +2111,7 @@ const projects = (function () {
         document.getElementById(element_id.SAVED_SELECT).value = project_name;
         disable_add_and_sub_buttons(false);
         disable_complete_project_button(data.projects_completed.includes(project_name));
+        document.getElementById(element_id.COMPLETE_BUTTON).disabled = false; // enable this button in case [All Projects...] was selected prior
         show_prioritize_button(true);
         build_priority_items();
 
@@ -2338,6 +2341,7 @@ const projects = (function () {
     function update_select() {
         let project_name = get_selected_project();
         disable_add_and_sub_buttons(project_name === ALL_PROJECTS);
+        document.getElementById(element_id.COMPLETE_BUTTON).disabled = (project_name === ALL_PROJECTS);
 
         const is_prioritized = data.projects_priority.includes(project_name);
         show_prioritize_button(!is_prioritized);
@@ -2496,50 +2500,172 @@ const projects = (function () {
             return merged_recipe;
         }
 
-        const project_name = get_selected_project();
-        const project_recipe = get_project_recipe(project_name);
+        const modal = document.getElementById(element_id.MODAL);
+        modal.hidden = !modal.hidden;
+        document.body.style.overflow = !modal.hidden ? "hidden" : "";
+        if (!modal.hidden) {
+            // show modal
+            update_project_modal();
 
-        inventory.remove(project_recipe);
+            setTimeout(function () {
+                // ENABLE THIS LISTENER ON A BIT OF DELAY SO IT'S NOT ACTIVE ASAP.
+                $(window).on("click", function (e) {
+                    if (e.target.id === element_id.MODAL
+                        || e.target.id.includes(element_id.CLOSE)
+                        || e.target.classList.contains("text")) {
+                        // USER CLICKED OUTSIDE OF PROJECT MODAL ; CLOSE PROJECT MODAL
+                        complete_project();
+                    }
+                });
+            }, 1);
+        }
+        else {
+            // hide modal
+            $(window).off("click");
+        }
 
-        // REMOVE PROJECT ITEMS FROM BLACKLIST
-        for (const item_name in project_recipe) {
-            if (blacklist.remove_item(item_name)) {
-                const req_ingredient_button = document.getElementById("request-button-" + item_name.split(' ').join('_'));
-                if (req_ingredient_button) {
-                    req_ingredient_button.classList.remove("low-opacity");
+        function update_project_modal() {
+            const project_name = get_selected_project();
+            let project_data = data.projects[project_name];
+            const project_recipe = get_project_recipe(project_name);
+            const project_contents = document.querySelector("#project-modal_dialog .project-contents");
+            const inventory_requirements = document.querySelector("#project-modal_dialog .inventory-requirements");
+            document.querySelector("#project-modal_dialog .project-name").innerText = `(${project_name})`;
+
+            // clear project contents + inventory requirements
+            inventory_requirements.hidden = true;
+            project_contents.innerHTML = inventory_requirements.innerHTML = "";
+
+            // add project items here
+            for (const [item_name, amount] of project_data) {
+                const div = document.createElement("div");
+                div.classList.add("item-sprite", webpage.get_item_sprite_class(item_name));
+                div.title = item_name;
+                div.onclick = () => {
+                    const recipe = equipment_data.recipe.get(item_name, 1);
+
+                    for (const i_n in recipe) {
+                        if (blacklist.is_item_exist(i_n) || inventory.get_amount(i_n) >= recipe[i_n]) {
+                            // enough in inventory or blacklisted item
+                            if (blacklist.is_item_exist(i_n)) {
+                                delete recipe[i_n];
+                            }
+                            continue;
+                        }
+                        // not enough in inventory
+                        webpage.print(`Can not partially complete project "${project_name}" ; Not enough ingredients to create 1 "${item_name}" (or ingredients are not blacklisted)`, "Projects");
+                        return;
+                    }
+                    // epic success (all items are in inventory or blacklisted)
+                    inventory.remove(recipe);
+                    const found = project_data.find(e => e[0] === item_name);
+                    if (found) {
+                        const new_amount = parseInt(found[1]) - 1;
+                        if (new_amount <= 0) {
+                            project_data = project_data.filter((e) => {
+                                return e[0] !== item_name
+                            });
+                        }
+                        else {
+                            found[1] = `${new_amount}`;
+                        }
+
+                        data.projects[project_name] = project_data;
+                        localStorage.setItem(LOCALSTORAGE_KEY.PROJECTS, get_project_string());
+                        webpage.print(`Partially completing project "${project_name}" ; Removing 1 from "${item_name}"`, "Projects");
+
+                        if (project_data.length > 0) {
+                            // there are still items in the project, keep modal open
+                            update_project_modal();
+                        }
+                        else {
+                            // there are no more items in the project. it's completed.
+                            remove_project_data();
+                        }
+                    }
+
+                };
+
+                const span = document.createElement("span");
+                span.classList.add("item-amount");
+                span.innerHTML = amount;
+                div.appendChild(span);
+
+                project_contents.appendChild(div);
+            }
+
+            if (Object.keys(project_recipe).length > 0) {
+                inventory_requirements.hidden = false;
+                for (const item_name in project_recipe) {
+                    const amount = project_recipe[item_name];
+
+                    const div = document.createElement("div");
+                    div.classList.add("item-sprite", webpage.get_item_sprite_class(item_name));
+                    div.title = item_name;
+
+                    const span = document.createElement("span");
+                    span.classList.add("item-amount");
+                    span.innerHTML = amount;
+                    div.appendChild(span);
+
+                    if (blacklist.is_item_exist(item_name)) {
+                        div.classList.add("disabled");
+                    }
+
+                    inventory_requirements.appendChild(div);
                 }
             }
         }
 
-        delete data.projects[project_name];
+        function remove_project_data() {
+            const project_name = get_selected_project();
+            delete data.projects[project_name];
+            localStorage.setItem(LOCALSTORAGE_KEY.PROJECTS, get_project_string());
+            if (data.projects_priority.includes(project_name)) {
+                const index = data.projects_priority.indexOf(project_name);
+                if (index > -1) {
+                    data.projects_priority.splice(index, 1);
+                }
 
-        localStorage.setItem(LOCALSTORAGE_KEY.PROJECTS, get_project_string());
+                show_prioritize_button(true);
+                save_priority_projects();
 
-        if (data.projects_priority.includes(project_name)) {
-            const index = data.projects_priority.indexOf(project_name);
-            if (index > -1) {
-                data.projects_priority.splice(index, 1);
+                webpage.print("Removing " + project_name + " from the Priority Project list due to it being completed and deleted.");
             }
 
-            show_prioritize_button(true);
-            save_priority_projects();
+            update_list();
+            disable_add_and_sub_buttons(true);
+            disable_complete_project_button(false);
+            data_display.build();
 
-            webpage.print("Removing " + project_name + " from the Priority Project list due to it being completed and deleted.");
+            if (webpage.language.is_english()) {
+                toastr.success("Project \"" + project_name + "\" has been completed!");
+            }
+            else {
+                toastr.success(webpage.language.data()[webpage.language.tags.TOASTS]["project_completed"]
+                    .replace("${project_name}", project_name));
+            }
+            webpage.print("Completed project " + project_name + "!", "Projects");
+            complete_project(); // close modal
         }
 
-        update_list();
-        disable_add_and_sub_buttons(true);
-        disable_complete_project_button(false);
-        data_display.build();
+        document.querySelector("#project-modal_dialog button").onclick = () => {
+            const project_name = get_selected_project();
+            const project_recipe = get_project_recipe(project_name);
+            inventory.remove(project_recipe);
 
-        if (webpage.language.is_english()) {
-            toastr.success("Project \"" + project_name + "\" has been completed!");
-        }
-        else {
-            toastr.success(webpage.language.data()[webpage.language.tags.TOASTS]["project_completed"]
-                .replace("${project_name}", project_name));
-        }
-        webpage.print("Completed project " + project_name + "!", "Projects");
+            // REMOVE PROJECT ITEMS FROM BLACKLIST
+            for (const item_name in project_recipe) {
+                if (blacklist.remove_item(item_name)) {
+                    const req_ingredient_button = document.getElementById("request-button-" + item_name.split(' ').join('_'));
+                    if (req_ingredient_button) {
+                        req_ingredient_button.classList.remove("low-opacity");
+                    }
+                }
+            }
+
+            remove_project_data();
+        };
     }
 
     /**
@@ -2593,7 +2719,9 @@ const projects = (function () {
         if (use_selected_project) {
             is_project_complete = data.projects_completed.includes(document.getElementById(element_id.SAVED_SELECT).value);
         }
-        document.getElementById(element_id.COMPLETE_BUTTON).disabled = !is_project_complete;
+        // document.getElementById(element_id.COMPLETE_BUTTON).disabled = !is_project_complete;
+        // "Complete Project" button is now in project complete modal
+        document.querySelector("#project-modal_dialog button").disabled = !is_project_complete;
     }
 
     /**
@@ -4048,7 +4176,7 @@ const data_display = (function () {
                                 // only make these changes if modified amount is greater than 0 and the amount does not
                                 // match the modified amount
                                 span.innerHTML = amount_after_inventory;
-                                span.style.color = "#FF7276"; // add reduced amount color indicator
+                                span.style.color = "#FF9EA1"; // add reduced amount color indicator
 
                                 // add crate image to indicate that amount is reduced because of inventory
                                 const crate = document.createElement("img");

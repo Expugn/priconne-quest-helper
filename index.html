@@ -872,6 +872,27 @@
     <img-webp id="lens-image" image_folder="webpage" file_name="lens" src_prefix=""></img-webp>
 </div>
 
+<!-- PROJECT COMPLETE MODAL -->
+<div id="project-modal" hidden>
+    <div id="project-modal_close-button">
+        <div class="text">&times;</div>
+    </div>
+    <div id="project-modal_dialog">
+        <div>
+            <translate id="project-modal_title" text="projects_tab.complete_project_button">Complete Project</translate>
+            <span class="project-name"></span>
+        </div>
+        <div style="text-align: center">
+            Click on a requested item to partially complete this project.
+        </div>
+        <span><translate text="items_tab.requested_items_title">Requested Items</translate></span>
+        <div class="project-contents"></div>
+        <span><translate text="system.required_ingredients_title">Required Ingredients</translate></span>
+        <div class="inventory-requirements"></div>
+        <button><translate text="projects_tab.complete_project_button">Complete Project</translate></button>
+    </div>
+</div>
+
 <!-- INVENTORY MODAL -->
 <div id="inventory_modal" hidden>
     <div id="inventory_modal_close-button">

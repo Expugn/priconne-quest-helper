@@ -3,6 +3,18 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.28.2] - 2022-07-25
+### Added
+- New "Complete Project" Modal
+  - The "Complete Project" button will now open a modal to display a project's requested items and required ingredients
+- "Partially Complete Project" Feature
+  - Suggested by `tonyjphan`: <https://github.com/Expugn/priconne-quest-helper/issues/46>
+  - Clicking on a "Requested Item" in the new "Complete Project" modal will reduce the requested amount by 1, if the user has enough items in their inventory to craft it or the ingredients are blacklisted.
+### Changed
+- Reduced the red coloring of the "reduced amount" item amount in Required Ingredients.
+### Fixed
+- Fixed an issue with the Recipe Data page where URIs were not properly encoded, which caused issues for strangely named items like `Tír na nÓg Dagger`
+
 ## [2.28.1] - 2022-07-21
 ### Added
 - Implemented some suggestions by `Wazhai#0161`

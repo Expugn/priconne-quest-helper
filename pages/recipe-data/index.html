@@ -176,7 +176,7 @@
                                                                     if (success) {
                                                                         build_catalog();
                                                                         if (window.location.hash) {
-                                                                            const item_name = (window.location.hash).replace("#", "").split('_').join(' ');
+                                                                            const item_name = decodeURI((window.location.hash).replace("#", "").split('_').join(' '));
                                                                             if (current_data[item_name]) {
                                                                                 document.getElementById("catalog").hidden = true;
                                                                                 document.getElementById("character-box-button").hidden = true;
@@ -340,7 +340,7 @@
                         document.getElementById("character-box-button").hidden = true;
                         document.getElementById("rank-selection-button").hidden = true;
                         document.getElementById("recipe-data-div").hidden = document.getElementById("back").hidden = false;
-                        window.location.hash = item_name.split(" ").join("_");
+                        window.location.hash = encodeURI(item_name.split(" ").join("_"));
                         window.scrollTo(0, 0);
                     };
 
@@ -873,7 +873,7 @@
                 toggle_catalog();
             }
             else {
-                const item_name = (window.location.hash).replace("#", "").split('_').join(' ');
+                const item_name = decodeURI((window.location.hash).replace("#", "").split('_').join(' '));
                 if (current_data[item_name]) {
                     document.getElementById("catalog").hidden = true;
                     document.getElementById("character-box-button").hidden = true;
