@@ -278,6 +278,33 @@
         "req_pieces": 1,
         "req_items": []
     },
+    "32058": {
+        "name_jp": "ペコリーヌのピュアメモリーピース",
+        "name": "Pecorine Pure Shard",
+        "id": "misc-32",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "32059": {
+        "name_jp": "コッコロのピュアメモリーピース",
+        "name": "Kokkoro Pure Shard",
+        "id": "misc-33",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
+    "32060": {
+        "name_jp": "キャルのピュアメモリーピース",
+        "name": "Kyaru Pure Shard",
+        "id": "misc-34",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
     "101011": {
         "name_en": "Iron Blade",
         "name_jp": "アイアンブレード",
@@ -855,7 +882,7 @@
         "id": "silver-2",
         "has_fragments": true,
         "fragment_id": "113012",
-        "req_pieces": 5,
+        "req_pieces": 3,
         "req_items": []
     },
     "103013": {
@@ -1042,7 +1069,7 @@
         "id": "silver-19",
         "has_fragments": true,
         "fragment_id": "113252",
-        "req_pieces": 5,
+        "req_pieces": 3,
         "req_items": []
     },
     "103281": {
@@ -1166,7 +1193,7 @@
         "id": "silver-30",
         "has_fragments": true,
         "fragment_id": "113431",
-        "req_pieces": 5,
+        "req_pieces": 3,
         "req_items": []
     },
     "103432": {
@@ -1214,7 +1241,7 @@
         "id": "silver-34",
         "has_fragments": true,
         "fragment_id": "113521",
-        "req_pieces": 5,
+        "req_pieces": 3,
         "req_items": []
     },
     "103522": {
@@ -1234,7 +1261,7 @@
         "id": "silver-36",
         "has_fragments": true,
         "fragment_id": "113551",
-        "req_pieces": 5,
+        "req_pieces": 3,
         "req_items": []
     },
     "103552": {
@@ -1244,7 +1271,7 @@
         "id": "silver-37",
         "has_fragments": true,
         "fragment_id": "113552",
-        "req_pieces": 5,
+        "req_pieces": 3,
         "req_items": []
     },
     "103553": {
@@ -1264,7 +1291,7 @@
         "id": "silver-39",
         "has_fragments": true,
         "fragment_id": "113581",
-        "req_pieces": 5,
+        "req_pieces": 3,
         "req_items": []
     },
     "103582": {
@@ -1286,7 +1313,7 @@
         "id": "silver-41",
         "has_fragments": true,
         "fragment_id": "123583",
-        "req_pieces": 5,
+        "req_pieces": 3,
         "req_items": [
             "Emerald Earrings"
         ]
@@ -1298,7 +1325,7 @@
         "id": "silver-42",
         "has_fragments": true,
         "fragment_id": "113611",
-        "req_pieces": 5,
+        "req_pieces": 3,
         "req_items": []
     },
     "103612": {
@@ -1343,7 +1370,7 @@
         "id": "gold-1",
         "has_fragments": true,
         "fragment_id": "114011",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": []
     },
     "104012": {
@@ -1353,7 +1380,7 @@
         "id": "gold-2",
         "has_fragments": true,
         "fragment_id": "114012",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": []
     },
     "104013": {
@@ -1363,7 +1390,7 @@
         "id": "gold-3",
         "has_fragments": true,
         "fragment_id": "114013",
-        "req_pieces": 30,
+        "req_pieces": 20,
         "req_items": []
     },
     "104014": {
@@ -1373,7 +1400,7 @@
         "id": "gold-4",
         "has_fragments": true,
         "fragment_id": "114014",
-        "req_pieces": 30,
+        "req_pieces": 25,
         "req_items": []
     },
     "104041": {
@@ -1383,7 +1410,7 @@
         "id": "gold-5",
         "has_fragments": true,
         "fragment_id": "114041",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": []
     },
     "104042": {
@@ -1393,7 +1420,7 @@
         "id": "gold-6",
         "has_fragments": true,
         "fragment_id": "124042",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Feather Blade"
         ]
@@ -1405,7 +1432,7 @@
         "id": "gold-7",
         "has_fragments": true,
         "fragment_id": "114043",
-        "req_pieces": 30,
+        "req_pieces": 20,
         "req_items": []
     },
     "104044": {
@@ -1415,7 +1442,7 @@
         "id": "gold-8",
         "has_fragments": true,
         "fragment_id": "124044",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Butterfly Katana"
         ]
@@ -1427,7 +1454,7 @@
         "id": "gold-9",
         "has_fragments": true,
         "fragment_id": "124071",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": [
             "Feather Blade"
         ]
@@ -1439,7 +1466,7 @@
         "id": "gold-10",
         "has_fragments": true,
         "fragment_id": "114072",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": []
     },
     "104073": {
@@ -1449,7 +1476,7 @@
         "id": "gold-11",
         "has_fragments": true,
         "fragment_id": "114073",
-        "req_pieces": 30,
+        "req_pieces": 20,
         "req_items": []
     },
     "104074": {
@@ -1459,7 +1486,7 @@
         "id": "gold-12",
         "has_fragments": true,
         "fragment_id": "124074",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Princess' Dagger"
         ]
@@ -1471,7 +1498,7 @@
         "id": "gold-13",
         "has_fragments": true,
         "fragment_id": "124101",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": [
             "Dragon's Claw",
             "Lion Eagle's Feather"
@@ -1484,7 +1511,7 @@
         "id": "gold-14",
         "has_fragments": true,
         "fragment_id": "114102",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": []
     },
     "104103": {
@@ -1494,7 +1521,7 @@
         "id": "gold-15",
         "has_fragments": true,
         "fragment_id": "124103",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Blazing Gauntlet",
             "Turquoise Earrings"
@@ -1507,7 +1534,7 @@
         "id": "gold-16",
         "has_fragments": true,
         "fragment_id": "114104",
-        "req_pieces": 30,
+        "req_pieces": 25,
         "req_items": []
     },
     "104131": {
@@ -1517,7 +1544,7 @@
         "id": "gold-17",
         "has_fragments": true,
         "fragment_id": "124131",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": [
             "Turquoise Earrings",
             "Devil's Bow"
@@ -1530,7 +1557,7 @@
         "id": "gold-18",
         "has_fragments": true,
         "fragment_id": "114132",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": []
     },
     "104133": {
@@ -1540,7 +1567,7 @@
         "id": "gold-19",
         "has_fragments": true,
         "fragment_id": "114133",
-        "req_pieces": 30,
+        "req_pieces": 20,
         "req_items": []
     },
     "104134": {
@@ -1550,7 +1577,7 @@
         "id": "gold-20",
         "has_fragments": true,
         "fragment_id": "114134",
-        "req_pieces": 30,
+        "req_pieces": 25,
         "req_items": []
     },
     "104161": {
@@ -1560,7 +1587,7 @@
         "id": "gold-21",
         "has_fragments": true,
         "fragment_id": "124161",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": [
             "Absolute Spear",
             "Opal Earrings"
@@ -1573,7 +1600,7 @@
         "id": "gold-22",
         "has_fragments": true,
         "fragment_id": "114162",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": []
     },
     "104163": {
@@ -1583,7 +1610,7 @@
         "id": "gold-23",
         "has_fragments": true,
         "fragment_id": "124163",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Scarlet Dragon"
         ]
@@ -1595,7 +1622,7 @@
         "id": "gold-24",
         "has_fragments": true,
         "fragment_id": "114164",
-        "req_pieces": 30,
+        "req_pieces": 25,
         "req_items": []
     },
     "104191": {
@@ -1605,7 +1632,7 @@
         "id": "gold-25",
         "has_fragments": true,
         "fragment_id": "114191",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": []
     },
     "104192": {
@@ -1615,7 +1642,7 @@
         "id": "gold-26",
         "has_fragments": true,
         "fragment_id": "124192",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Scarlet Diamond"
         ]
@@ -1627,7 +1654,7 @@
         "id": "gold-27",
         "has_fragments": true,
         "fragment_id": "114193",
-        "req_pieces": 30,
+        "req_pieces": 20,
         "req_items": []
     },
     "104194": {
@@ -1637,7 +1664,7 @@
         "id": "gold-28",
         "has_fragments": true,
         "fragment_id": "114194",
-        "req_pieces": 30,
+        "req_pieces": 25,
         "req_items": []
     },
     "104221": {
@@ -1647,7 +1674,7 @@
         "id": "gold-29",
         "has_fragments": true,
         "fragment_id": "114221",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": []
     },
     "104222": {
@@ -1657,7 +1684,7 @@
         "id": "gold-30",
         "has_fragments": true,
         "fragment_id": "114222",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": []
     },
     "104223": {
@@ -1667,7 +1694,7 @@
         "id": "gold-31",
         "has_fragments": true,
         "fragment_id": "114223",
-        "req_pieces": 30,
+        "req_pieces": 20,
         "req_items": []
     },
     "104224": {
@@ -1677,7 +1704,7 @@
         "id": "gold-32",
         "has_fragments": true,
         "fragment_id": "124224",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Fury Rod",
             "Mourning Crescent Moon"
@@ -1690,7 +1717,7 @@
         "id": "gold-33",
         "has_fragments": true,
         "fragment_id": "124251",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": [
             "Devil's Horn"
         ]
@@ -1702,7 +1729,7 @@
         "id": "gold-34",
         "has_fragments": true,
         "fragment_id": "114252",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": []
     },
     "104253": {
@@ -1712,7 +1739,7 @@
         "id": "gold-35",
         "has_fragments": true,
         "fragment_id": "124253",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Moon Wand",
             "Laurel's Sorrow",
@@ -1726,7 +1753,7 @@
         "id": "gold-36",
         "has_fragments": true,
         "fragment_id": "114254",
-        "req_pieces": 30,
+        "req_pieces": 25,
         "req_items": []
     },
     "104281": {
@@ -1736,7 +1763,7 @@
         "id": "gold-37",
         "has_fragments": true,
         "fragment_id": "114281",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": []
     },
     "104282": {
@@ -1746,7 +1773,7 @@
         "id": "gold-38",
         "has_fragments": true,
         "fragment_id": "124282",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Battling Dress",
             "Garnet Shield",
@@ -1760,7 +1787,7 @@
         "id": "gold-39",
         "has_fragments": true,
         "fragment_id": "124283",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Invisible Dress"
         ]
@@ -1772,7 +1799,7 @@
         "id": "gold-40",
         "has_fragments": true,
         "fragment_id": "124284",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Invisible Dress",
             "Elemental Heart"
@@ -1785,7 +1812,7 @@
         "id": "gold-41",
         "has_fragments": true,
         "fragment_id": "124311",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": [
             "Lion King's Protective Charm",
             "Gorgeous Armor"
@@ -1798,7 +1825,7 @@
         "id": "gold-42",
         "has_fragments": true,
         "fragment_id": "124312",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Heavy Metal Armor",
             "Absolute Spear"
@@ -1811,7 +1838,7 @@
         "id": "gold-43",
         "has_fragments": true,
         "fragment_id": "124313",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Mythril Plate"
         ]
@@ -1823,7 +1850,7 @@
         "id": "gold-44",
         "has_fragments": true,
         "fragment_id": "124314",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Vermilion Plate",
             "Scarlet Dragon"
@@ -1836,7 +1863,7 @@
         "id": "gold-45",
         "has_fragments": true,
         "fragment_id": "114341",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": []
     },
     "104342": {
@@ -1846,7 +1873,7 @@
         "id": "gold-46",
         "has_fragments": true,
         "fragment_id": "124342",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Vampire Dagger",
             "Opal Earrings"
@@ -1859,7 +1886,7 @@
         "id": "gold-47",
         "has_fragments": true,
         "fragment_id": "124343",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Moonlight Garment"
         ]
@@ -1871,7 +1898,7 @@
         "id": "gold-48",
         "has_fragments": true,
         "fragment_id": "124344",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Hermit Clothes",
             "Shiryuu Axe"
@@ -1884,7 +1911,7 @@
         "id": "gold-49",
         "has_fragments": true,
         "fragment_id": "114371",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": []
     },
     "104372": {
@@ -1894,7 +1921,7 @@
         "id": "gold-50",
         "has_fragments": true,
         "fragment_id": "124372",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Laurel's Sorrow",
             "Pearl Earrings"
@@ -1907,7 +1934,7 @@
         "id": "gold-51",
         "has_fragments": true,
         "fragment_id": "124373",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Saint's Robe",
             "Moon Wand"
@@ -1920,7 +1947,7 @@
         "id": "gold-52",
         "has_fragments": true,
         "fragment_id": "124401",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": [
             "Lion King's Protective Charm",
             "Sorcerer's Glasses"
@@ -1933,7 +1960,7 @@
         "id": "gold-53",
         "has_fragments": true,
         "fragment_id": "124402",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Empress Shield"
         ]
@@ -1945,7 +1972,7 @@
         "id": "gold-54",
         "has_fragments": true,
         "fragment_id": "124431",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": [
             "Shinobi Shoes",
             "Opal Earrings",
@@ -1959,7 +1986,7 @@
         "id": "gold-55",
         "has_fragments": true,
         "fragment_id": "124432",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Octogram Pendant",
             "Feather Blade"
@@ -1972,7 +1999,7 @@
         "id": "gold-56",
         "has_fragments": true,
         "fragment_id": "124433",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Angel Boots",
             "Laurel's Sorrow",
@@ -1986,7 +2013,7 @@
         "id": "gold-57",
         "has_fragments": true,
         "fragment_id": "114461",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": []
     },
     "104462": {
@@ -1996,7 +2023,7 @@
         "id": "gold-58",
         "has_fragments": true,
         "fragment_id": "124462",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Wizard Boots",
             "Devil's Horn"
@@ -2009,7 +2036,7 @@
         "id": "gold-59",
         "has_fragments": true,
         "fragment_id": "124463",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Wizard Boots",
             "Bangle of Substitution"
@@ -2022,7 +2049,7 @@
         "id": "gold-60",
         "has_fragments": true,
         "fragment_id": "124491",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": [
             "Lion King's Protective Charm",
             "Legion Helm"
@@ -2035,7 +2062,7 @@
         "id": "gold-61",
         "has_fragments": true,
         "fragment_id": "124521",
-        "req_pieces": 20,
+        "req_pieces": 10,
         "req_items": [
             "Laurel's Sorrow"
         ]
@@ -2047,7 +2074,7 @@
         "id": "gold-62",
         "has_fragments": true,
         "fragment_id": "124522",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Lion King's Protective Charm",
             "Witch Hat",
@@ -2061,7 +2088,7 @@
         "id": "gold-63",
         "has_fragments": true,
         "fragment_id": "124523",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": [
             "Wizard Hood",
             "Laurel's Sorrow",
@@ -2075,7 +2102,7 @@
         "id": "gold-64",
         "has_fragments": true,
         "fragment_id": "114551",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": []
     },
     "104552": {
@@ -2085,7 +2112,7 @@
         "id": "gold-65",
         "has_fragments": true,
         "fragment_id": "114552",
-        "req_pieces": 30,
+        "req_pieces": 20,
         "req_items": []
     },
     "104553": {
@@ -2095,7 +2122,7 @@
         "id": "gold-66",
         "has_fragments": true,
         "fragment_id": "114553",
-        "req_pieces": 30,
+        "req_pieces": 25,
         "req_items": []
     },
     "104554": {
@@ -2105,7 +2132,7 @@
         "id": "gold-67",
         "has_fragments": true,
         "fragment_id": "114554",
-        "req_pieces": 30,
+        "req_pieces": 25,
         "req_items": []
     },
     "104581": {
@@ -2115,7 +2142,7 @@
         "id": "gold-68",
         "has_fragments": true,
         "fragment_id": "114581",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": []
     },
     "104582": {
@@ -2125,7 +2152,7 @@
         "id": "gold-69",
         "has_fragments": true,
         "fragment_id": "114582",
-        "req_pieces": 30,
+        "req_pieces": 20,
         "req_items": []
     },
     "104583": {
@@ -2135,7 +2162,7 @@
         "id": "gold-70",
         "has_fragments": true,
         "fragment_id": "114583",
-        "req_pieces": 30,
+        "req_pieces": 25,
         "req_items": []
     },
     "104611": {
@@ -2145,7 +2172,7 @@
         "id": "gold-71",
         "has_fragments": true,
         "fragment_id": "114611",
-        "req_pieces": 20,
+        "req_pieces": 15,
         "req_items": []
     },
     "104612": {
@@ -2155,7 +2182,7 @@
         "id": "gold-72",
         "has_fragments": true,
         "fragment_id": "114612",
-        "req_pieces": 30,
+        "req_pieces": 20,
         "req_items": []
     },
     "104613": {
@@ -2165,7 +2192,7 @@
         "id": "gold-73",
         "has_fragments": true,
         "fragment_id": "114613",
-        "req_pieces": 30,
+        "req_pieces": 25,
         "req_items": []
     },
     "105011": {
@@ -2175,7 +2202,7 @@
         "id": "purple-1",
         "has_fragments": true,
         "fragment_id": "115011",
-        "req_pieces": 35,
+        "req_pieces": 30,
         "req_items": []
     },
     "105012": {
@@ -2185,7 +2212,7 @@
         "id": "purple-2",
         "has_fragments": true,
         "fragment_id": "125012",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Solar Sword",
             "Angel Blade"
@@ -2224,7 +2251,7 @@
         "id": "purple-5",
         "has_fragments": true,
         "fragment_id": "115041",
-        "req_pieces": 35,
+        "req_pieces": 30,
         "req_items": []
     },
     "105042": {
@@ -2234,7 +2261,7 @@
         "id": "purple-6",
         "has_fragments": true,
         "fragment_id": "115042",
-        "req_pieces": 35,
+        "req_pieces": 30,
         "req_items": []
     },
     "105043": {
@@ -2270,7 +2297,7 @@
         "id": "purple-9",
         "has_fragments": true,
         "fragment_id": "115071",
-        "req_pieces": 35,
+        "req_pieces": 30,
         "req_items": []
     },
     "105072": {
@@ -2280,7 +2307,7 @@
         "id": "purple-10",
         "has_fragments": true,
         "fragment_id": "125072",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Precious Knife",
             "Elemental Heart",
@@ -2317,7 +2344,7 @@
         "id": "purple-13",
         "has_fragments": true,
         "fragment_id": "125101",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Lion King Gauntlet",
             "Moon Bracelet"
@@ -2330,7 +2357,7 @@
         "id": "purple-14",
         "has_fragments": true,
         "fragment_id": "115102",
-        "req_pieces": 35,
+        "req_pieces": 30,
         "req_items": []
     },
     "105103": {
@@ -2365,7 +2392,7 @@
         "id": "purple-17",
         "has_fragments": true,
         "fragment_id": "125131",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Artemis Bow",
             "Cupid's Bow",
@@ -2379,7 +2406,7 @@
         "id": "purple-18",
         "has_fragments": true,
         "fragment_id": "115132",
-        "req_pieces": 35,
+        "req_pieces": 30,
         "req_items": []
     },
     "105133": {
@@ -2412,7 +2439,7 @@
         "id": "purple-21",
         "has_fragments": true,
         "fragment_id": "115161",
-        "req_pieces": 35,
+        "req_pieces": 30,
         "req_items": []
     },
     "105162": {
@@ -2422,7 +2449,7 @@
         "id": "purple-22",
         "has_fragments": true,
         "fragment_id": "125162",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Queen Bee Spear",
             "Lion Eagle's Feather"
@@ -2458,7 +2485,7 @@
         "id": "purple-25",
         "has_fragments": true,
         "fragment_id": "125191",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Shiryuu Axe",
             "Necromancer Boots"
@@ -2471,7 +2498,7 @@
         "id": "purple-26",
         "has_fragments": true,
         "fragment_id": "115192",
-        "req_pieces": 35,
+        "req_pieces": 30,
         "req_items": []
     },
     "105193": {
@@ -2506,7 +2533,7 @@
         "id": "purple-29",
         "has_fragments": true,
         "fragment_id": "115221",
-        "req_pieces": 35,
+        "req_pieces": 30,
         "req_items": []
     },
     "105222": {
@@ -2516,7 +2543,7 @@
         "id": "purple-30",
         "has_fragments": true,
         "fragment_id": "115222",
-        "req_pieces": 35,
+        "req_pieces": 30,
         "req_items": []
     },
     "105223": {
@@ -2552,7 +2579,7 @@
         "id": "purple-33",
         "has_fragments": true,
         "fragment_id": "115251",
-        "req_pieces": 35,
+        "req_pieces": 30,
         "req_items": []
     },
     "105252": {
@@ -2562,7 +2589,7 @@
         "id": "purple-34",
         "has_fragments": true,
         "fragment_id": "125252",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Rod of Life",
             "Flower Bud Wand"
@@ -2600,7 +2627,7 @@
         "id": "purple-37",
         "has_fragments": true,
         "fragment_id": "125281",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Crusader Plate",
             "Vampire Dagger"
@@ -2613,7 +2640,7 @@
         "id": "purple-38",
         "has_fragments": true,
         "fragment_id": "125282",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Mythril Plate",
             "Feather Blade"
@@ -2632,14 +2659,26 @@
             "Battling Dress"
         ]
     },
+    "105284": {
+        "name_en": "Dancer's Majesty",
+        "name_jp": "閃華の舞鎧",
+        "name": "Senka Dance Armor",
+        "id": "purple-40",
+        "has_fragments": true,
+        "fragment_id": "115284",
+        "req_pieces": 30,
+        "req_items": [
+            "Princess' Dagger"
+        ]
+    },
     "105311": {
         "name_en": "Azure Splendor",
         "name_jp": "蒼輝の鎧",
         "name": "Azure Armor",
-        "id": "purple-40",
+        "id": "purple-41",
         "has_fragments": true,
         "fragment_id": "125311",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Violet Armor",
             "Paladin Greave"
@@ -2649,10 +2688,10 @@
         "name_en": "Petalfall Regalia",
         "name_jp": "聖櫻の鎧",
         "name": "Holy Sakura's Armor",
-        "id": "purple-41",
+        "id": "purple-42",
         "has_fragments": true,
         "fragment_id": "125312",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Angel Armor",
             "Lion's Battle Axe"
@@ -2662,7 +2701,7 @@
         "name_en": "Royal Goldplate",
         "name_jp": "煌金の王鎧",
         "name": "Gold King's Armor",
-        "id": "purple-42",
+        "id": "purple-43",
         "has_fragments": true,
         "fragment_id": "125313",
         "req_pieces": 20,
@@ -2671,14 +2710,27 @@
             "Feather Waltz"
         ]
     },
+    "105314": {
+        "name_en": "Whirlwind Sagemail",
+        "name_jp": "烈風の俊鎧",
+        "name": "Furious Wind Armor",
+        "id": "purple-44",
+        "has_fragments": true,
+        "fragment_id": "125314",
+        "req_pieces": 20,
+        "req_items": [
+            "Queen's Battle Axe",
+            "Vermilion Plate"
+        ]
+    },
     "105341": {
         "name_en": "Aegis Coat",
         "name_jp": "イージスコート",
         "name": "Aegis Coat",
-        "id": "purple-43",
+        "id": "purple-45",
         "has_fragments": true,
         "fragment_id": "125341",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Heavenly Robe",
             "Feather Waltz"
@@ -2688,10 +2740,10 @@
         "name_en": "Maiden Livery",
         "name_jp": "メイデンクロース",
         "name": "Maiden Cloth",
-        "id": "purple-44",
+        "id": "purple-46",
         "has_fragments": true,
         "fragment_id": "125342",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Mourning Crescent Moon",
             "Cosmos Cloth"
@@ -2701,7 +2753,7 @@
         "name_en": "Fiendflame Gear",
         "name_jp": "鬼焔の闘衣",
         "name": "Fire Oni's Tori",
-        "id": "purple-45",
+        "id": "purple-47",
         "has_fragments": true,
         "fragment_id": "125343",
         "req_pieces": 20,
@@ -2710,14 +2762,26 @@
             "Palace Cloth"
         ]
     },
+    "105344": {
+        "name_en": "Stygian Shadowgarb",
+        "name_jp": "極黒の冥衣",
+        "name": "Extremely Dark Clothes",
+        "id": "purple-48",
+        "has_fragments": true,
+        "fragment_id": "115344",
+        "req_pieces": 30,
+        "req_items": [
+            "Hawk God's Sword"
+        ]
+    },
     "105371": {
         "name_en": "Priestess Garb",
         "name_jp": "純潔の巫女装束",
         "name": "Shrine Maiden's Purity Cloth",
-        "id": "purple-46",
+        "id": "purple-49",
         "has_fragments": true,
         "fragment_id": "125371",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Sun Amulet",
             "Saint's Robe"
@@ -2727,10 +2791,10 @@
         "name_en": "Empress Robe",
         "name_jp": "エンプレスローブ",
         "name": "Empress Robe",
-        "id": "purple-47",
+        "id": "purple-50",
         "has_fragments": true,
         "fragment_id": "125372",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Hermit Clothes",
             "Devil's Horn"
@@ -2740,7 +2804,7 @@
         "name_en": "Exomagia Robe",
         "name_jp": "エクゾマギアローブ",
         "name": "Exomagia Robe",
-        "id": "purple-48",
+        "id": "purple-51",
         "has_fragments": true,
         "fragment_id": "125373",
         "req_pieces": 20,
@@ -2749,14 +2813,27 @@
             "Grand Magician's Robe"
         ]
     },
+    "105374": {
+        "name_en": "Glacier Mantle",
+        "name_jp": "爽氷の天衣",
+        "name": "Refreshing Ice Garment",
+        "id": "purple-52",
+        "has_fragments": true,
+        "fragment_id": "125374",
+        "req_pieces": 20,
+        "req_items": [
+            "Viridian Spiritual Dress",
+            "Saint's Robe"
+        ]
+    },
     "105401": {
         "name_en": "Diviner's Shield",
         "name_jp": "星詠みの円盾",
         "name": "Astrograph Buckler",
-        "id": "purple-49",
+        "id": "purple-53",
         "has_fragments": true,
         "fragment_id": "125401",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Guardian Shield",
             "Garnet Shield",
@@ -2767,20 +2844,32 @@
         "name_en": "Infernal Greaves",
         "name_jp": "インファナルグリーブ",
         "name": "Infernal Greaves",
-        "id": "purple-50",
+        "id": "purple-54",
         "has_fragments": true,
         "fragment_id": "125431",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Angel Boots",
             "Devil's Bow"
+        ]
+    },
+    "105432": {
+        "name_en": "Hermes Goldfeet",
+        "name_jp": "天翔の金靴",
+        "name": "Sky Soaring Gold Shoes",
+        "id": "purple-55",
+        "has_fragments": true,
+        "fragment_id": "115432",
+        "req_pieces": 30,
+        "req_items": [
+            "Angel Bow"
         ]
     },
     "105462": {
         "name_en": "Bloodruby Heels",
         "name_jp": "ブラッドルビーヒール",
         "name": "Blood Ruby Heel",
-        "id": "purple-51",
+        "id": "purple-56",
         "has_fragments": true,
         "fragment_id": "125462",
         "req_pieces": 20,
@@ -2793,7 +2882,7 @@
         "name_en": "Royal Guard Hat",
         "name_jp": "ロイヤルガードハット",
         "name": "Royal Guard Hat",
-        "id": "purple-52",
+        "id": "purple-57",
         "has_fragments": true,
         "fragment_id": "125491",
         "req_pieces": 20,
@@ -2806,10 +2895,10 @@
         "name_en": "Crown of Anguish",
         "name_jp": "忘哭の冠",
         "name": "Mourning Crown",
-        "id": "purple-53",
+        "id": "purple-58",
         "has_fragments": true,
         "fragment_id": "125521",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Gospel Tiara",
             "Devil's Horn"
@@ -2819,40 +2908,53 @@
         "name_en": "Miter of Virtue",
         "name_jp": "白祈の聖冠",
         "name": "Holy Prayer's Crown",
-        "id": "purple-54",
+        "id": "purple-59",
         "has_fragments": true,
         "fragment_id": "125522",
-        "req_pieces": 25,
+        "req_pieces": 20,
         "req_items": [
             "Pope's Hood",
             "Lion King's Protective Charm"
+        ]
+    },
+    "105523": {
+        "name_en": "Prosperity Veil",
+        "name_jp": "プロスペリティベール",
+        "name": "Prosperity Veil",
+        "id": "purple-60",
+        "has_fragments": true,
+        "fragment_id": "125523",
+        "req_pieces": 20,
+        "req_items": [
+            "Dark Terror Dress",
+            "Pope's Hood"
         ]
     },
     "105551": {
         "name_en": "Millennium Earrings",
         "name_jp": "ミレニアムイヤリング",
         "name": "Millennium Earrings",
-        "id": "purple-55",
+        "id": "purple-61",
         "has_fragments": true,
         "fragment_id": "115551",
-        "req_pieces": 35,
+        "req_pieces": 30,
         "req_items": []
     },
     "105552": {
         "name_en": "Wyrmswrath Pendant",
         "name_jp": "赫怒竜のペンダント",
         "name": "Fury Dragon Pendant",
-        "id": "purple-56",
+        "id": "purple-62",
         "has_fragments": true,
         "fragment_id": "115552",
-        "req_pieces": 35,
+        "req_pieces": 30,
         "req_items": []
     },
     "105553": {
         "name_en": "War God's Vigor",
         "name_jp": "闘神の荒腕",
         "name": "War God's Arm",
-        "id": "purple-57",
+        "id": "purple-63",
         "has_fragments": true,
         "fragment_id": "115553",
         "req_pieces": 30,
@@ -2862,7 +2964,7 @@
         "name_en": "Peony Flamepin",
         "name_jp": "花簪焔火牡丹",
         "name": "Flowering Fire Peony",
-        "id": "purple-58",
+        "id": "purple-64",
         "has_fragments": true,
         "fragment_id": "115554",
         "req_pieces": 30,
@@ -2872,27 +2974,27 @@
         "name_en": "Spirit King's Talisman",
         "name_jp": "精霊王の護石",
         "name": "Fairy King's Guardian Stone",
-        "id": "purple-59",
+        "id": "purple-65",
         "has_fragments": true,
         "fragment_id": "115581",
-        "req_pieces": 35,
+        "req_pieces": 30,
         "req_items": []
     },
     "105582": {
         "name_en": "Mermaid Tears",
         "name_jp": "人魚姫の霊涙",
         "name": "Mermaid Princess' Spirit Tear",
-        "id": "purple-60",
+        "id": "purple-66",
         "has_fragments": true,
         "fragment_id": "115582",
-        "req_pieces": 35,
+        "req_pieces": 30,
         "req_items": []
     },
     "105583": {
         "name_en": "Warden King's Armlet",
         "name_jp": "英盾王の腕輪",
         "name": "Glorious King's Shield Bangle",
-        "id": "purple-61",
+        "id": "purple-67",
         "has_fragments": true,
         "fragment_id": "115583",
         "req_pieces": 30,
@@ -2902,7 +3004,7 @@
         "name_en": "Leviathan Clasp",
         "name_jp": "海龍神の髪飾り",
         "name": "Sea Dragon God's Hair Ornament",
-        "id": "purple-62",
+        "id": "purple-68",
         "has_fragments": true,
         "fragment_id": "115584",
         "req_pieces": 30,
@@ -2912,27 +3014,27 @@
         "name_en": "Poseidon Earrings",
         "name_jp": "海神の耳飾り",
         "name": "Ocean God's Earrings",
-        "id": "purple-63",
+        "id": "purple-69",
         "has_fragments": true,
         "fragment_id": "115611",
-        "req_pieces": 35,
+        "req_pieces": 30,
         "req_items": []
     },
     "105612": {
         "name_en": "Sacred Steed's Grace",
         "name_jp": "聖獣の祈念",
         "name": "Divine Beast's Prayer",
-        "id": "purple-64",
+        "id": "purple-70",
         "has_fragments": true,
         "fragment_id": "115612",
-        "req_pieces": 35,
+        "req_pieces": 30,
         "req_items": []
     },
     "105613": {
         "name_en": "Sophos Bracelet",
         "name_jp": "ソフォスブレスレット",
         "name": "Sophos Bracelet",
-        "id": "purple-65",
+        "id": "purple-71",
         "has_fragments": true,
         "fragment_id": "115613",
         "req_pieces": 30,
@@ -2942,7 +3044,7 @@
         "name_en": "Icetear Ribbon",
         "name_jp": "細氷姫の結び紐",
         "name": "Little Ice Princess' Knot",
-        "id": "purple-66",
+        "id": "purple-72",
         "has_fragments": true,
         "fragment_id": "115614",
         "req_pieces": 30,
