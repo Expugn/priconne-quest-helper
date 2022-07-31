@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.28.3] - 2022-07-31
+### Added
+- New Characters:
+  - Mimi (Summer)
+  - Misogi (Summer)
+
 ## [2.28.2] - 2022-07-25
 ### Added
 - New "Complete Project" Modal
