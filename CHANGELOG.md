@@ -3,6 +3,21 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.28.4] - 2022-08-06
+### Changed
+- Made the "Complete Project" modal impossible to be selected due to annoying text highlighting when partially completing things
+- You can now partially complete any item, even if you do not have enough components in your inventory
+  - Items from your inventory will still be removed.
+- "Requested Items" in the "Complete Project" modal will now be low opacity and be pushed to the back of the list if their rarity is ignored in settings
+  - Opted to not hide items completely because "Required Ingredients" of these items will still appear if they are of a higher rarity but the lower rarity components are not ignored
+### Fixed
+- Fixed an issue where project completion status wasn't being updated if partial completion was used.
+  - This means the "Complete Project" button in the "Complete Project" modal would never be enabled.
+- Fixed a bug where the "Complete Project" button on the project page would keep being enabled if a project is completed through partial completion
+  - Bug reported by `tonyjphan` <https://github.com/Expugn/priconne-quest-helper/issues/46>
+  - A project can be completed through partial completion if partial completion removes the last "Requested Item" of the project
+  - This bug would let users open up the modal and be stuck on the page or be shown the previous completed project's data.
+
 ## [2.28.3] - 2022-07-31
 ### Added
 - New Characters:

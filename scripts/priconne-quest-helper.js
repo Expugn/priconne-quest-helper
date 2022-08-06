@@ -2533,10 +2533,11 @@ const projects = (function () {
             document.querySelector("#project-modal_dialog .project-name").innerText = `(${project_name})`;
 
             // clear project contents + inventory requirements
-            inventory_requirements.hidden = true;
+            //inventory_requirements.hidden = true;
             project_contents.innerHTML = inventory_requirements.innerHTML = "";
 
             // add project items here
+            let ignored = [];
             for (const [item_name, amount] of project_data) {
                 const div = document.createElement("div");
                 div.classList.add("item-sprite", webpage.get_item_sprite_class(item_name));
@@ -2544,6 +2545,7 @@ const projects = (function () {
                 div.onclick = () => {
                     const recipe = equipment_data.recipe.get(item_name, 1);
 
+                    /* this checks blacklist and inventory, disabling it for now.
                     for (const i_n in recipe) {
                         if (blacklist.is_item_exist(i_n) || inventory.get_amount(i_n) >= recipe[i_n]) {
                             // enough in inventory or blacklisted item
@@ -2556,6 +2558,7 @@ const projects = (function () {
                         webpage.print(`Can not partially complete project "${project_name}" ; Not enough ingredients to create 1 "${item_name}" (or ingredients are not blacklisted)`, "Projects");
                         return;
                     }
+                    */
                     // epic success (all items are in inventory or blacklisted)
                     inventory.remove(recipe);
                     const found = project_data.find(e => e[0] === item_name);
@@ -2576,6 +2579,8 @@ const projects = (function () {
 
                         if (project_data.length > 0) {
                             // there are still items in the project, keep modal open
+                            // check if project is complete too after partial completion
+                            disable_complete_project_button(is_project_complete(project_name, project_data));
                             update_project_modal();
                         }
                         else {
@@ -2591,8 +2596,16 @@ const projects = (function () {
                 span.innerHTML = amount;
                 div.appendChild(span);
 
+                if (settings.get_settings().ignored_rarities.includes(equipment_data.data()[item_name]["rarity"])) {
+                    div.classList.add("low-opacity");
+                    ignored.push(div);
+                    continue;
+                }
+
                 project_contents.appendChild(div);
             }
+
+            project_contents.append(...ignored);
 
             if (Object.keys(project_recipe).length > 0) {
                 inventory_requirements.hidden = false;
@@ -2647,6 +2660,10 @@ const projects = (function () {
             }
             webpage.print("Completed project " + project_name + "!", "Projects");
             complete_project(); // close modal
+
+            // a completed project will default to [All Projects...] after,
+            // disable the complete button on main projects page
+            document.getElementById(element_id.COMPLETE_BUTTON).disabled = true;
         }
 
         document.querySelector("#project-modal_dialog button").onclick = () => {
