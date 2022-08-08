@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.28.5] - 2022-08-08
+### Added
+- New Quest: `32-3 VH` (Eriko)
+
 ## [2.28.4] - 2022-08-06
 ### Changed
 - Made the "Complete Project" modal impossible to be selected due to annoying text highlighting when partially completing things

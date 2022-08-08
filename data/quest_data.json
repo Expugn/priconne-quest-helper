@@ -15737,6 +15737,44 @@
             15
         ]
     },
+    "32-3VH": {
+        "name": "ファスキア森林・南部 32-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Desert Shade Clothes Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Heavenly Sound Axe Buster Horn Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Desert Wind Turban Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Tree Tributing Xylophonia Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Eriko Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rocking Chain Bangle Fragment",
+            "Riot Spike Fragment",
+            "Snowflake Beret Fragment",
+            "Pure Snow Mail Fragment",
+            "Chain Fury Sword Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "33-1": {
         "name": "ファスキア森林・東部 33-1",
         "stamina": 10,
