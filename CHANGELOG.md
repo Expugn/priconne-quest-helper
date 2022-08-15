@@ -3,6 +3,17 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.29.0] - 2022-08-15
+Quest Update (2022-08-15)
+### Added
+- New Quests
+  - Chapter 59 Normal Part 2 (`59-8` - `59-14`)
+  - `55-1H`, `55-2H`
+- New Character: Kyouka (Summer)
+- New Equipment
+- Rank 26 Support
+  
+
 ## [2.28.5] - 2022-08-08
 ### Added
 - New Quest: `32-3 VH` (Eriko)

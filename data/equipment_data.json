@@ -4233,10 +4233,19 @@
         "req_pieces": 25,
         "req_items": []
     },
+    "108013": {
+        "name_jp": "オアシスガードブレード",
+        "name": "Oasis Guard Blade",
+        "id": "orange-3",
+        "has_fragments": true,
+        "fragment_id": "118013",
+        "req_pieces": 25,
+        "req_items": []
+    },
     "108041": {
         "name_jp": "氷雪刀グラキエッジ",
         "name": "Ice and Snow Sword Graki Edge",
-        "id": "orange-3",
+        "id": "orange-4",
         "has_fragments": true,
         "fragment_id": "128041",
         "req_pieces": 15,
@@ -4247,7 +4256,7 @@
     "108042": {
         "name_jp": "創音刀ゲルトナ",
         "name": "Sound Weaving Katana Gertona",
-        "id": "orange-4",
+        "id": "orange-5",
         "has_fragments": true,
         "fragment_id": "128042",
         "req_pieces": 15,
@@ -4255,10 +4264,21 @@
             "Heavenly Hell Earrings"
         ]
     },
+    "108043": {
+        "name_jp": "クイックサンドシャムシール",
+        "name": "Quicksand Shamshir",
+        "id": "orange-6",
+        "has_fragments": true,
+        "fragment_id": "128043",
+        "req_pieces": 15,
+        "req_items": [
+            "Orca Sword"
+        ]
+    },
     "108071": {
         "name_jp": "氷牙スティーリアダガー",
         "name": "Ice Fang Styria Dagger",
-        "id": "orange-5",
+        "id": "orange-7",
         "has_fragments": true,
         "fragment_id": "118071",
         "req_pieces": 25,
@@ -4267,16 +4287,27 @@
     "108072": {
         "name_jp": "刻音刃クレフトオン",
         "name": "Sound Engraving Blade Clefton",
-        "id": "orange-6",
+        "id": "orange-8",
         "has_fragments": true,
         "fragment_id": "118072",
         "req_pieces": 25,
         "req_items": []
     },
+    "108073": {
+        "name_jp": "ダークデザートエッジ",
+        "name": "Dark Desert Edge",
+        "id": "orange-9",
+        "has_fragments": true,
+        "fragment_id": "128073",
+        "req_pieces": 15,
+        "req_items": [
+            "Shark Dagger"
+        ]
+    },
     "108101": {
         "name_jp": "氷塊拳グラセナックル",
         "name": "Ice Block Fist Glass Knuckle",
-        "id": "orange-7",
+        "id": "orange-10",
         "has_fragments": true,
         "fragment_id": "118101",
         "req_pieces": 25,
@@ -4285,16 +4316,25 @@
     "108102": {
         "name_jp": "叫鳴拳バイオラフィスト",
         "name": "Shouting Fist Biolafist",
-        "id": "orange-8",
+        "id": "orange-11",
         "has_fragments": true,
         "fragment_id": "118102",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108103": {
+        "name_jp": "ヘリテージジャマダハル",
+        "name": "Heritage Jamadhar",
+        "id": "orange-12",
+        "has_fragments": true,
+        "fragment_id": "118103",
         "req_pieces": 25,
         "req_items": []
     },
     "108131": {
         "name_jp": "氷聖弓コンヘラシオン",
         "name": "Ice Sacred Bow Constellation",
-        "id": "orange-9",
+        "id": "orange-13",
         "has_fragments": true,
         "fragment_id": "128131",
         "req_pieces": 15,
@@ -4305,7 +4345,7 @@
     "108132": {
         "name_jp": "巧音弓スネアアーク",
         "name": "Skillful Sound Bow Snare Arc",
-        "id": "orange-10",
+        "id": "orange-14",
         "has_fragments": true,
         "fragment_id": "128132",
         "req_pieces": 15,
@@ -4313,10 +4353,21 @@
             "Rain's Blessing Earrings"
         ]
     },
+    "108133": {
+        "name_jp": "オリエンタルハリケーンボウ",
+        "name": "Oriental Hurricane Bow",
+        "id": "orange-15",
+        "has_fragments": true,
+        "fragment_id": "128133",
+        "req_pieces": 15,
+        "req_items": [
+            "Clownfish Bow"
+        ]
+    },
     "108161": {
         "name_jp": "氷穿槍スノーストーム",
         "name": "Ice Spear Snow Storm",
-        "id": "orange-11",
+        "id": "orange-16",
         "has_fragments": true,
         "fragment_id": "128161",
         "req_pieces": 15,
@@ -4327,7 +4378,7 @@
     "108162": {
         "name_jp": "仁重槍トロムスピア",
         "name": "Benevolent Heavy Spear Tromspear",
-        "id": "orange-12",
+        "id": "orange-17",
         "has_fragments": true,
         "fragment_id": "128162",
         "req_pieces": 15,
@@ -4335,10 +4386,19 @@
             "Beach Floater Mail"
         ]
     },
+    "108163": {
+        "name_jp": "ウィンドレガシースピア",
+        "name": "Wind Legacy Spear",
+        "id": "orange-18",
+        "has_fragments": true,
+        "fragment_id": "118163",
+        "req_pieces": 25,
+        "req_items": []
+    },
     "108191": {
         "name_jp": "氷壊斧リオートアックス",
         "name": "Ice Breaking Riot Axe",
-        "id": "orange-13",
+        "id": "orange-19",
         "has_fragments": true,
         "fragment_id": "118191",
         "req_pieces": 25,
@@ -4347,16 +4407,25 @@
     "108192": {
         "name_jp": "普天音斧バスターホルン",
         "name": "Heavenly Sound Axe Buster Horn",
-        "id": "orange-14",
+        "id": "orange-20",
         "has_fragments": true,
         "fragment_id": "118192",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108193": {
+        "name_jp": "オアシスファアス",
+        "name": "Oasis Faas",
+        "id": "orange-21",
+        "has_fragments": true,
+        "fragment_id": "118193",
         "req_pieces": 25,
         "req_items": []
     },
     "108221": {
         "name_jp": "氷雪杖パーゴスワンド",
         "name": "Ice and Snow Cane Pergos Wand",
-        "id": "orange-15",
+        "id": "orange-22",
         "has_fragments": true,
         "fragment_id": "118221",
         "req_pieces": 25,
@@ -4365,16 +4434,25 @@
     "108222": {
         "name_jp": "絶対音杖アコーディア",
         "name": "Absolute Sound Cane Accordia",
-        "id": "orange-16",
+        "id": "orange-23",
         "has_fragments": true,
         "fragment_id": "118222",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108223": {
+        "name_jp": "エンシェントサンドワンド",
+        "name": "Ancient Sand Wand",
+        "id": "orange-24",
+        "has_fragments": true,
+        "fragment_id": "118223",
         "req_pieces": 25,
         "req_items": []
     },
     "108251": {
         "name_jp": "氷樹杖フロストスタッフ",
         "name": "Ice Cane Frost Staff",
-        "id": "orange-17",
+        "id": "orange-25",
         "has_fragments": true,
         "fragment_id": "118251",
         "req_pieces": 25,
@@ -4383,16 +4461,25 @@
     "108252": {
         "name_jp": "慈宣杖アルテマクラリオン",
         "name": "Charitable Command Staff Artemakillion",
-        "id": "orange-18",
+        "id": "orange-26",
         "has_fragments": true,
         "fragment_id": "118252",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108253": {
+        "name_jp": "デザートレインケーン",
+        "name": "Desert Rain Cane",
+        "id": "orange-27",
+        "has_fragments": true,
+        "fragment_id": "118253",
         "req_pieces": 25,
         "req_items": []
     },
     "108281": {
         "name_jp": "鍵盤奏鎧チェンバロン",
         "name": "Keyboard Armor Cimbalom",
-        "id": "orange-19",
+        "id": "orange-28",
         "has_fragments": true,
         "fragment_id": "128281",
         "req_pieces": 15,
@@ -4403,7 +4490,7 @@
     "108282": {
         "name_jp": "デザートクロスメイル",
         "name": "Desert Clothmail",
-        "id": "orange-20",
+        "id": "orange-29",
         "has_fragments": true,
         "fragment_id": "128282",
         "req_pieces": 15,
@@ -4414,7 +4501,7 @@
     "108311": {
         "name_jp": "重奏鎧ブラスホーン",
         "name": "Ensemble Armor Brass Horn",
-        "id": "orange-21",
+        "id": "orange-30",
         "has_fragments": true,
         "fragment_id": "128311",
         "req_pieces": 15,
@@ -4425,7 +4512,7 @@
     "108312": {
         "name_jp": "オアシスブループレート",
         "name": "Oasis Blue Plate",
-        "id": "orange-22",
+        "id": "orange-31",
         "has_fragments": true,
         "fragment_id": "128312",
         "req_pieces": 15,
@@ -4436,7 +4523,7 @@
     "108342": {
         "name_jp": "デザートシェイドクロース",
         "name": "Desert Shade Clothes",
-        "id": "orange-23",
+        "id": "orange-32",
         "has_fragments": true,
         "fragment_id": "118342",
         "req_pieces": 25,
@@ -4445,7 +4532,7 @@
     "108371": {
         "name_jp": "譜唱装ムジカスコア",
         "name": "Singing Dress Musical Score",
-        "id": "orange-24",
+        "id": "orange-33",
         "has_fragments": true,
         "fragment_id": "118371",
         "req_pieces": 25,
@@ -4454,7 +4541,7 @@
     "108372": {
         "name_jp": "オリエントブリーズローブ",
         "name": "Oriental Breeze Robe",
-        "id": "orange-25",
+        "id": "orange-34",
         "has_fragments": true,
         "fragment_id": "128372",
         "req_pieces": 15,
@@ -4465,7 +4552,7 @@
     "108401": {
         "name_jp": "重円奏ホプロンシンバル",
         "name": "Heavy Hoplon Cymbal",
-        "id": "orange-26",
+        "id": "orange-35",
         "has_fragments": true,
         "fragment_id": "128401",
         "req_pieces": 15,
@@ -4476,7 +4563,7 @@
     "108431": {
         "name_jp": "舞奉奏アルパンプス",
         "name": "Tributal Dancing Pumps",
-        "id": "orange-27",
+        "id": "orange-36",
         "has_fragments": true,
         "fragment_id": "118431",
         "req_pieces": 25,
@@ -4485,7 +4572,7 @@
     "108462": {
         "name_jp": "オアシスアハルディア",
         "name": "Oasis Ahaldia",
-        "id": "orange-28",
+        "id": "orange-37",
         "has_fragments": true,
         "fragment_id": "118462",
         "req_pieces": 25,
@@ -4494,7 +4581,7 @@
     "108492": {
         "name_jp": "デザートウィンドターバン",
         "name": "Desert Wind Turban",
-        "id": "orange-29",
+        "id": "orange-38",
         "has_fragments": true,
         "fragment_id": "118492",
         "req_pieces": 25,
@@ -4503,7 +4590,7 @@
     "108521": {
         "name_jp": "魔奏帽タンバリンキャスケット",
         "name": "Magical Hat Tambourine Caskets",
-        "id": "orange-30",
+        "id": "orange-39",
         "has_fragments": true,
         "fragment_id": "118521",
         "req_pieces": 25,
@@ -4512,7 +4599,7 @@
     "108551": {
         "name_jp": "アイスピラーリング",
         "name": "Ice Pillar Ring",
-        "id": "orange-31",
+        "id": "orange-40",
         "has_fragments": true,
         "fragment_id": "118551",
         "req_pieces": 25,
@@ -4521,7 +4608,7 @@
     "108552": {
         "name_jp": "琴樹奏シロフォニア",
         "name": "Tree Tributing Xylophonia",
-        "id": "orange-32",
+        "id": "orange-41",
         "has_fragments": true,
         "fragment_id": "118552",
         "req_pieces": 25,
@@ -4530,7 +4617,7 @@
     "108581": {
         "name_jp": "グリーンオーロラリング",
         "name": "Green Aurora Ring",
-        "id": "orange-33",
+        "id": "orange-42",
         "has_fragments": true,
         "fragment_id": "118581",
         "req_pieces": 25,
@@ -4539,7 +4626,7 @@
     "108582": {
         "name_jp": "仙撞鼓ティンパニア",
         "name": "Celestial Beating Timpania",
-        "id": "orange-34",
+        "id": "orange-43",
         "has_fragments": true,
         "fragment_id": "118582",
         "req_pieces": 25,
@@ -4548,7 +4635,7 @@
     "108611": {
         "name_jp": "雪華晶の指輪",
         "name": "Snow Flower Crystal Ring",
-        "id": "orange-35",
+        "id": "orange-44",
         "has_fragments": true,
         "fragment_id": "118611",
         "req_pieces": 25,
@@ -4557,7 +4644,7 @@
     "108612": {
         "name_jp": "神謡譜デミスコア",
         "name": "Spirit Chant Score Demiscore",
-        "id": "orange-36",
+        "id": "orange-45",
         "has_fragments": true,
         "fragment_id": "118612",
         "req_pieces": 25,
