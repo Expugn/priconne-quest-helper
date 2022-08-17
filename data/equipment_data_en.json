@@ -287,10 +287,19 @@
         "req_pieces": 1,
         "req_items": []
     },
+    "31108": {
+        "name_jp": "クロエのメモリーピース",
+        "name": "Chloe Shard",
+        "id": "misc-33",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
     "32058": {
         "name_jp": "ペコリーヌのピュアメモリーピース",
         "name": "Pecorine Pure Shard",
-        "id": "misc-33",
+        "id": "misc-34",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -299,7 +308,7 @@
     "32059": {
         "name_jp": "コッコロのピュアメモリーピース",
         "name": "Kokkoro Pure Shard",
-        "id": "misc-34",
+        "id": "misc-35",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -308,7 +317,7 @@
     "32060": {
         "name_jp": "キャルのピュアメモリーピース",
         "name": "Kyaru Pure Shard",
-        "id": "misc-35",
+        "id": "misc-36",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
