@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.29.1] - 2022-08-31
+### Added
+- New Character: Ameth
+
 ## [2.29.0] - 2022-08-15
 Quest Update (2022-08-15)
 ### Added
