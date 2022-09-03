@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.29.2] - 2022-09-03
+### Added
+- New Character: Maho (Explorer)
+- Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
+  - `thematics.explorer`
+
 ## [2.29.1] - 2022-08-31
 ### Added
 - New Character: Ameth
