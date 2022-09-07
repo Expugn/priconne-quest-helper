@@ -6399,6 +6399,134 @@
             "Flowering Fire Peony"
         ]
     },
+    "halloween_mimi": {
+        "name_en": "Mimi (Halloween)",
+        "unit_id": 111301,
+        "name": "Mimi",
+        "thematic": "Halloween",
+        "name_jp": "ミミ",
+        "thematic_jp": "ハロウィン",
+        "rank_1": [
+            "Iron Blade",
+            "One Handed Axe",
+            "Leather Overalls",
+            "Tree Shield",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Blue Blood",
+            "Gear Blade",
+            "Scale Mail",
+            "Legion Helm",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "High-Metal Axe",
+            "High Metal Plate",
+            "Tower Shield",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Sparkling Sword",
+            "Fashion Armor",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Lion's Battle Axe",
+            "Battling Dress",
+            "Dragon Head",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Feather Blade",
+            "Heavy Metal Armor",
+            "Dragon Head",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Shiryuu Axe",
+            "Invisible Dress",
+            "Scarlet Diamond",
+            "Scarlet Diamond",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Hell-Fire Axe",
+            "Mythril Plate",
+            "Feather Waltz",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Queen's Battle Axe",
+            "Guardian Shield",
+            "Angel Boots",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Aqua Slasher",
+            "Scarlet Mail",
+            "Guardian Shield",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Necrodim Axe",
+            "Astrograph Buckler",
+            "Faireal Boots",
+            "Millennium Earrings",
+            "Cat God Pendant"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Divine Judgement Axe",
+            "Holy Sakura's Armor",
+            "Astrograph Buckler",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Gaia Axe",
+            "Royal Guard Hat",
+            "Infernal Greaves",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "God Roar Axe - Terra Break",
+            "Sky Soaring Gold Shoes",
+            "Royal Guard Hat",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "",
+            "Machine Axe - Core Breaker",
+            "",
+            "Sky Soaring Gold Shoes",
+            "",
+            "Flowering Fire Peony"
+        ]
+    },
     "misaki": {
         "name_en": "Misaki",
         "unit_id": 105001,
