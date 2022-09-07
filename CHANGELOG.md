@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.29.3] - 2022-09-07
+### Added
+- New Quests
+  - `33-1 VH` (Shinobu)
+  - `33-2 VH` (Ilya)
+
 ## [2.29.2] - 2022-09-03
 ### Added
 - New Character: Maho (Explorer)
