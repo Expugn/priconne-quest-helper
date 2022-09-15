@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.30.0] - 2022-09-15
+Quest Update (2022-09-15)
+### Added
+- New Quests
+  - Chapter 60 Normal Part 1 (`60-1` - `60-7`)
+  - `55-3H`
+- New Character: Ayane (Explorer)
+- New Equipment
+
 ## [2.29.3] - 2022-09-07
 ### Added
 - New Quests

@@ -210,7 +210,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Sapphire",
             "Celestial Beating Timpania"
         ]
     },
@@ -425,7 +425,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -640,7 +640,7 @@
             "Oasis Guard Blade",
             "",
             "Oasis Blue Plate",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -855,7 +855,7 @@
             "Oasis Guard Blade",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -1070,7 +1070,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -1285,7 +1285,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -1500,7 +1500,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -1715,7 +1715,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -1930,7 +1930,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -2145,7 +2145,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -2360,7 +2360,7 @@
             "Oriental Hurricane Bow",
             "",
             "Skillful Sound Bow Snare Arc",
-            "",
+            "Ancient Emerald",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -2575,7 +2575,7 @@
             "Oriental Hurricane Bow",
             "",
             "Skillful Sound Bow Snare Arc",
-            "",
+            "Ancient Emerald",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -2790,7 +2790,7 @@
             "Oriental Hurricane Bow",
             "",
             "Skillful Sound Bow Snare Arc",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -3005,7 +3005,7 @@
             "Oriental Hurricane Bow",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Emerald",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -3220,7 +3220,7 @@
             "Oriental Hurricane Bow",
             "",
             "Skillful Sound Bow Snare Arc",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -3435,7 +3435,7 @@
             "Oasis Faas",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -3650,7 +3650,222 @@
             "Wind Legacy Spear",
             "",
             "Heavenly Sound Axe Buster Horn",
+            "Ancient Ruby",
+            "Tree Tributing Xylophonia"
+        ]
+    },
+    "explorer_ayane": {
+        "unit_id": 123201,
+        "name": "Ayane",
+        "thematic": "Explorer",
+        "name_jp": "アヤネ",
+        "thematic_jp": "エクスプローラー",
+        "rank_1": [
+            "One Handed Axe",
+            "One Handed Axe",
+            "Tree Shield",
+            "One Handed Axe",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "High-Metal Axe",
+            "Metal Axe",
+            "Clothes of Wisdom",
+            "Metal Axe",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Blue Sphere Axe",
+            "High-Metal Axe",
+            "Light Plate",
+            "High-Metal Axe",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Lion's Battle Axe",
+            "Blue Sphere Axe",
+            "Fashion Armor",
+            "Blue Sphere Axe",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Lion's Battle Axe",
+            "Battling Dress",
+            "Lion's Battle Axe",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Shiryuu Axe",
+            "Lightning Axe",
+            "Heavy Metal Armor",
+            "Lion's Battle Axe",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Hell-Fire Axe",
+            "Shiryuu Axe",
+            "Invisible Dress",
+            "Lightning Axe",
+            "Scarlet Diamond",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Queen's Battle Axe",
+            "Hell-Fire Axe",
+            "Mythril Plate",
+            "Shiryuu Axe",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Aqua Slasher",
+            "Queen's Battle Axe",
+            "Crusader Plate",
+            "Hell-Fire Axe",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Necrodim Axe",
+            "Aqua Slasher",
+            "Scarlet Mail",
+            "Heavenly Robe",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Divine Judgement Axe",
+            "Necrodim Axe",
+            "Phantasm Mail",
+            "Scarlet Mail",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Gaia Axe",
+            "Divine Judgement Axe",
+            "Infernal Greaves",
+            "Necrodim Axe",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "God Roar Axe - Terra Break",
+            "Gaia Axe",
+            "Fire Oni's Tori",
+            "Infernal Greaves",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Machine Axe - Core Breaker",
+            "God Roar Axe - Terra Break",
+            "Extremely Dark Clothes",
+            "Fire Oni's Tori",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Turquoise Noah",
+            "Machine Axe - Core Breaker",
+            "Beautiful Clothes - Soul Rose",
+            "Extremely Dark Clothes",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Red Bear Emperor's Claw Battle Axe",
+            "Turquoise Noah",
+            "Eastern Heaven Green Wind Dress",
+            "Beautiful Clothes - Soul Rose",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Brass Cleft Axe",
+            "Red Bear Emperor's Claw Battle Axe",
+            "Holy Light's Lily Plate",
+            "Turquoise Noah",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Crepe Axe",
+            "Brass Cleft Axe",
+            "Pink Coral Dress",
+            "White Haze Flower Dress",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Polar Light Belt Axe",
+            "Crepe Axe",
+            "Fancy Macaron Dress",
+            "Pink Coral Dress",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "Sakura Axe",
+            "Polar Light Belt Axe",
+            "Evening Sakura Purple Armor",
+            "Crepe Axe",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "Whale Axe",
+            "Sakura Axe",
+            "Summer Light Bikini Armor",
+            "Thin Red Sakura Saintly Cloth",
+            "Sakura Dance Double Hairpin",
+            "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "Rocking Groove Axe",
+            "Whale Axe",
+            "Gothic Draped Armor",
+            "Summer Light Bikini Armor",
+            "Ruby Hibiscus Hair Ornament",
+            "Sakura Dance Double Hairpin"
+        ],
+        "rank_23": [
+            "Ice Breaking Riot Axe",
+            "Rocking Groove Axe",
+            "Pure Snow Mail",
+            "Gothic Draped Armor",
+            "Punk Needle Bangle",
+            "Ruby Hibiscus Hair Ornament"
+        ],
+        "rank_24": [
+            "Heavenly Sound Axe Buster Horn",
+            "Ice Breaking Riot Axe",
+            "Keyboard Armor Cimbalom",
+            "Pure Snow Mail",
+            "Ice Pillar Ring",
+            "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "Oasis Faas",
+            "Heavenly Sound Axe Buster Horn",
+            "Desert Clothmail",
+            "Keyboard Armor Cimbalom",
+            "Tree Tributing Xylophonia",
+            "Ice Pillar Ring"
+        ],
+        "rank_26": [
             "",
+            "Oasis Faas",
+            "",
+            "Desert Clothmail",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -3865,7 +4080,7 @@
             "Wind Legacy Spear",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -4080,7 +4295,7 @@
             "Oasis Faas",
             "",
             "Benevolent Heavy Spear Tromspear",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -4295,7 +4510,7 @@
             "Wind Legacy Spear",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -4510,7 +4725,7 @@
             "Heritage Jamadhar",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -4725,7 +4940,7 @@
             "Heritage Jamadhar",
             "",
             "Shouting Fist Biolafist",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -4940,7 +5155,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -5155,7 +5370,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -5370,7 +5585,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -5585,7 +5800,7 @@
             "Dark Desert Edge",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -5800,7 +6015,7 @@
             "Dark Desert Edge",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -6015,7 +6230,7 @@
             "Oasis Guard Blade",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -6230,7 +6445,7 @@
             "Oasis Guard Blade",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -6445,7 +6660,7 @@
             "Dark Desert Edge",
             "",
             "Skillful Sound Bow Snare Arc",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -6660,7 +6875,7 @@
             "Oasis Guard Blade",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -6875,7 +7090,7 @@
             "Desert Rain Cane",
             "",
             "Oasis Ahaldia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -7090,7 +7305,7 @@
             "Oasis Faas",
             "",
             "Heavenly Sound Axe Buster Horn",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -7305,7 +7520,7 @@
             "Oasis Faas",
             "",
             "Heavenly Sound Axe Buster Horn",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -7520,7 +7735,7 @@
             "Oasis Faas",
             "",
             "Heavenly Sound Axe Buster Horn",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -7735,7 +7950,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -7950,7 +8165,7 @@
             "Ancient Sand Wand",
             "",
             "Oasis Ahaldia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -8165,7 +8380,7 @@
             "Ancient Sand Wand",
             "",
             "Oasis Ahaldia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -8380,7 +8595,7 @@
             "Oriental Hurricane Bow",
             "",
             "Skillful Sound Bow Snare Arc",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -8595,7 +8810,7 @@
             "Heritage Jamadhar",
             "",
             "Oasis Blue Plate",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -8810,7 +9025,7 @@
             "Heritage Jamadhar",
             "",
             "Shouting Fist Biolafist",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -9025,7 +9240,7 @@
             "Heritage Jamadhar",
             "",
             "Shouting Fist Biolafist",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -9240,7 +9455,7 @@
             "Heritage Jamadhar",
             "",
             "Oasis Blue Plate",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -9455,7 +9670,7 @@
             "Ancient Sand Wand",
             "",
             "Oasis Ahaldia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -9670,7 +9885,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -9885,7 +10100,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -10100,7 +10315,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -10315,7 +10530,7 @@
             "Wind Legacy Spear",
             "",
             "Oasis Blue Plate",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -10530,7 +10745,7 @@
             "Oasis Faas",
             "",
             "Heavenly Sound Axe Buster Horn",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -10745,7 +10960,7 @@
             "Oasis Faas",
             "",
             "Heavenly Sound Axe Buster Horn",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -10960,7 +11175,7 @@
             "Ancient Sand Wand",
             "",
             "Oasis Ahaldia",
-            "",
+            "Ancient Sapphire",
             "Celestial Beating Timpania"
         ]
     },
@@ -11175,7 +11390,7 @@
             "Desert Rain Cane",
             "",
             "Charitable Command Staff Artemakillion",
-            "",
+            "Ancient Sapphire",
             "Celestial Beating Timpania"
         ]
     },
@@ -11390,7 +11605,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Sapphire",
             "Celestial Beating Timpania"
         ]
     },
@@ -11605,7 +11820,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -11820,7 +12035,7 @@
             "Oasis Guard Blade",
             "",
             "Oasis Blue Plate",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -12035,7 +12250,7 @@
             "Heritage Jamadhar",
             "",
             "Shouting Fist Biolafist",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -12250,7 +12465,7 @@
             "Heritage Jamadhar",
             "",
             "Shouting Fist Biolafist",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -12465,7 +12680,7 @@
             "Heritage Jamadhar",
             "",
             "Shouting Fist Biolafist",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -12680,7 +12895,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -12895,7 +13110,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Sapphire",
             "Celestial Beating Timpania"
         ]
     },
@@ -13110,7 +13325,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Sapphire",
             "Celestial Beating Timpania"
         ]
     },
@@ -13325,7 +13540,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -13540,7 +13755,7 @@
             "Heritage Jamadhar",
             "",
             "Shouting Fist Biolafist",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -13755,7 +13970,7 @@
             "Heritage Jamadhar",
             "",
             "Shouting Fist Biolafist",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -13970,7 +14185,7 @@
             "Wind Legacy Spear",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -14185,7 +14400,7 @@
             "Dark Desert Edge",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -14400,7 +14615,7 @@
             "Wind Legacy Spear",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -14615,7 +14830,7 @@
             "Wind Legacy Spear",
             "",
             "Benevolent Heavy Spear Tromspear",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -14830,7 +15045,7 @@
             "Wind Legacy Spear",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -15045,7 +15260,7 @@
             "Oasis Faas",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -15260,7 +15475,7 @@
             "Wind Legacy Spear",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -15475,7 +15690,7 @@
             "Oasis Faas",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -15690,7 +15905,7 @@
             "Dark Desert Edge",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -15905,7 +16120,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -16120,7 +16335,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -16335,7 +16550,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -16550,7 +16765,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -16765,7 +16980,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -16980,7 +17195,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -17195,7 +17410,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -17410,7 +17625,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -17625,7 +17840,7 @@
             "Desert Rain Cane",
             "",
             "Charitable Command Staff Artemakillion",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -17840,7 +18055,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -18055,7 +18270,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -18270,7 +18485,7 @@
             "Oasis Guard Blade",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -18485,7 +18700,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -18700,7 +18915,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -18915,7 +19130,7 @@
             "Oasis Faas",
             "",
             "Oasis Blue Plate",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -19130,7 +19345,7 @@
             "Oasis Faas",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -19345,7 +19560,7 @@
             "Wind Legacy Spear",
             "",
             "Benevolent Heavy Spear Tromspear",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -19560,7 +19775,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -19775,7 +19990,7 @@
             "Desert Rain Cane",
             "",
             "Charitable Command Staff Artemakillion",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -19990,7 +20205,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -20205,7 +20420,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -20420,7 +20635,7 @@
             "Quicksand Shamshir",
             "",
             "Sound Weaving Katana Gertona",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -20635,7 +20850,7 @@
             "Quicksand Shamshir",
             "",
             "Sound Weaving Katana Gertona",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -20850,7 +21065,7 @@
             "Quicksand Shamshir",
             "",
             "Sound Weaving Katana Gertona",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -21065,7 +21280,7 @@
             "Dark Desert Edge",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -21280,7 +21495,7 @@
             "Heritage Jamadhar",
             "",
             "Shouting Fist Biolafist",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -21495,7 +21710,7 @@
             "Oasis Faas",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -21710,7 +21925,7 @@
             "Oasis Faas",
             "",
             "Benevolent Heavy Spear Tromspear",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -21925,7 +22140,7 @@
             "Wind Legacy Spear",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -22140,7 +22355,7 @@
             "Oasis Faas",
             "",
             "Oasis Blue Plate",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -22355,7 +22570,7 @@
             "Oasis Faas",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -22570,7 +22785,7 @@
             "Oasis Guard Blade",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -22785,7 +23000,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -23000,7 +23215,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -23215,7 +23430,7 @@
             "Ancient Sand Wand",
             "",
             "Oasis Ahaldia",
-            "",
+            "Ancient Sapphire",
             "Celestial Beating Timpania"
         ]
     },
@@ -23430,7 +23645,7 @@
             "Desert Rain Cane",
             "",
             "Charitable Command Staff Artemakillion",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -23645,7 +23860,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -23860,7 +24075,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -24075,7 +24290,7 @@
             "Heritage Jamadhar",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Ruby",
             "Celestial Beating Timpania"
         ]
     },
@@ -24290,7 +24505,7 @@
             "Heritage Jamadhar",
             "",
             "Shouting Fist Biolafist",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -24505,7 +24720,7 @@
             "Heritage Jamadhar",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Ruby",
             "Celestial Beating Timpania"
         ]
     },
@@ -24720,7 +24935,7 @@
             "Heritage Jamadhar",
             "",
             "Sound Engraving Blade Clefton",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -24935,7 +25150,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -25150,7 +25365,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -25365,7 +25580,7 @@
             "Wind Legacy Spear",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -25580,7 +25795,7 @@
             "Heritage Jamadhar",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -25795,7 +26010,7 @@
             "Heritage Jamadhar",
             "",
             "Oasis Blue Plate",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -26010,7 +26225,7 @@
             "Dark Desert Edge",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Ruby",
             "Celestial Beating Timpania"
         ]
     },
@@ -26225,7 +26440,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -26440,7 +26655,7 @@
             "Dark Desert Edge",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -26655,7 +26870,7 @@
             "Dark Desert Edge",
             "",
             "Oasis Blue Plate",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -26870,7 +27085,7 @@
             "Ancient Sand Wand",
             "",
             "Oasis Ahaldia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -27085,7 +27300,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -27300,7 +27515,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -27515,7 +27730,7 @@
             "Desert Rain Cane",
             "",
             "Charitable Command Staff Artemakillion",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -27730,7 +27945,7 @@
             "Quicksand Shamshir",
             "",
             "Sound Weaving Katana Gertona",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -27945,7 +28160,7 @@
             "Quicksand Shamshir",
             "",
             "Sound Weaving Katana Gertona",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -28160,7 +28375,7 @@
             "Dark Desert Edge",
             "",
             "Sound Engraving Blade Clefton",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -28375,7 +28590,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -28590,7 +28805,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -28805,7 +29020,7 @@
             "Oasis Guard Blade",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -29020,7 +29235,7 @@
             "Oasis Guard Blade",
             "",
             "Oasis Blue Plate",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -29235,7 +29450,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -29450,7 +29665,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -29665,7 +29880,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -29880,7 +30095,7 @@
             "Oasis Guard Blade",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -30095,7 +30310,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -30310,7 +30525,7 @@
             "Ancient Sand Wand",
             "",
             "Oasis Ahaldia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -30525,7 +30740,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -30740,7 +30955,7 @@
             "Oasis Guard Blade",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -30955,7 +31170,7 @@
             "Oasis Guard Blade",
             "",
             "Oasis Blue Plate",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -31170,7 +31385,7 @@
             "Oasis Guard Blade",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -31385,7 +31600,7 @@
             "Oasis Guard Blade",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -31600,7 +31815,7 @@
             "Oasis Faas",
             "",
             "Heavenly Sound Axe Buster Horn",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -31815,7 +32030,7 @@
             "Wind Legacy Spear",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -32030,7 +32245,7 @@
             "Oasis Guard Blade",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -32245,7 +32460,7 @@
             "Wind Legacy Spear",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -32460,7 +32675,7 @@
             "Quicksand Shamshir",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -32675,7 +32890,7 @@
             "Wind Legacy Spear",
             "",
             "Benevolent Heavy Spear Tromspear",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -32890,7 +33105,7 @@
             "Oriental Hurricane Bow",
             "",
             "Skillful Sound Bow Snare Arc",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -33105,7 +33320,7 @@
             "Dark Desert Edge",
             "",
             "Skillful Sound Bow Snare Arc",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -33320,7 +33535,7 @@
             "Oriental Hurricane Bow",
             "",
             "Skillful Sound Bow Snare Arc",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -33535,7 +33750,7 @@
             "Quicksand Shamshir",
             "",
             "Oasis Blue Plate",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -33750,7 +33965,7 @@
             "Quicksand Shamshir",
             "",
             "Sound Weaving Katana Gertona",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -33965,7 +34180,7 @@
             "Quicksand Shamshir",
             "",
             "Sound Weaving Katana Gertona",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -34180,7 +34395,7 @@
             "Oasis Guard Blade",
             "",
             "Oasis Blue Plate",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -34395,7 +34610,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -34610,7 +34825,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -34825,7 +35040,7 @@
             "Oasis Guard Blade",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -35040,7 +35255,7 @@
             "Oasis Guard Blade",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -35255,7 +35470,7 @@
             "Quicksand Shamshir",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -35470,7 +35685,7 @@
             "Quicksand Shamshir",
             "",
             "Sound Weaving Katana Gertona",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -35685,7 +35900,7 @@
             "Oasis Faas",
             "",
             "Heavenly Sound Axe Buster Horn",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -35900,7 +36115,7 @@
             "Oriental Hurricane Bow",
             "",
             "Skillful Sound Bow Snare Arc",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -36115,7 +36330,7 @@
             "Oriental Hurricane Bow",
             "",
             "Skillful Sound Bow Snare Arc",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -36330,7 +36545,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -36545,7 +36760,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -36760,7 +36975,7 @@
             "Oasis Guard Blade",
             "",
             "Oasis Blue Plate",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -36975,7 +37190,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -37190,7 +37405,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -37405,7 +37620,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -37620,7 +37835,7 @@
             "Oriental Hurricane Bow",
             "",
             "Skillful Sound Bow Snare Arc",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -37835,7 +38050,7 @@
             "Oriental Hurricane Bow",
             "",
             "Skillful Sound Bow Snare Arc",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -38050,7 +38265,7 @@
             "Oriental Hurricane Bow",
             "",
             "Skillful Sound Bow Snare Arc",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -38265,7 +38480,7 @@
             "Dark Desert Edge",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -38480,7 +38695,7 @@
             "Dark Desert Edge",
             "",
             "Desert Wind Turban",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -38695,7 +38910,7 @@
             "Dark Desert Edge",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -38910,7 +39125,7 @@
             "Dark Desert Edge",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -39125,7 +39340,7 @@
             "Dark Desert Edge",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -39340,7 +39555,7 @@
             "Heritage Jamadhar",
             "",
             "Oasis Blue Plate",
-            "",
+            "Ancient Emerald",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -39555,7 +39770,7 @@
             "Dark Desert Edge",
             "",
             "Oasis Blue Plate",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -39770,7 +39985,7 @@
             "Heritage Jamadhar",
             "",
             "Oasis Blue Plate",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -39985,7 +40200,7 @@
             "Oasis Guard Blade",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -40200,7 +40415,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -40415,7 +40630,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -40630,7 +40845,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -40845,7 +41060,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -41060,7 +41275,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Sapphire",
             "Celestial Beating Timpania"
         ]
     },
@@ -41275,7 +41490,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -41490,7 +41705,7 @@
             "Ancient Sand Wand",
             "",
             "Absolute Sound Cane Accordia",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -41705,7 +41920,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -41920,7 +42135,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -42135,7 +42350,7 @@
             "Oasis Guard Blade",
             "",
             "Sword Field Sword Grand Pianos",
-            "",
+            "Ancient Ruby",
             "Tree Tributing Xylophonia"
         ]
     },
@@ -42350,7 +42565,7 @@
             "Oasis Guard Blade",
             "",
             "Desert Clothmail",
-            "",
+            "Ancient Emerald",
             "Celestial Beating Timpania"
         ]
     },
@@ -42565,7 +42780,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -42780,7 +42995,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -42995,7 +43210,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Spirit Chant Score Demiscore"
         ]
     },
@@ -43210,7 +43425,7 @@
             "Desert Rain Cane",
             "",
             "Oriental Breeze Robe",
-            "",
+            "Ancient Emerald",
             "Spirit Chant Score Demiscore"
         ]
     }
