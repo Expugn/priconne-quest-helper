@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.30.2] - 2022-09-30
+### Added
+- New Characters
+  - Rin (Halloween)
+  - Tomo (Halloween)
+
 ## [2.30.1] - 2022-09-22
 ### Added
 - New Character: Nea
