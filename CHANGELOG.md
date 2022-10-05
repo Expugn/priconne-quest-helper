@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.30.3] - 2022-10-05
+### Added
+- New Quest: `33-3 VH` (Tomo)
+
 ## [2.30.2] - 2022-09-30
 ### Added
 - New Characters

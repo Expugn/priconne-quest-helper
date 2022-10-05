@@ -16373,6 +16373,44 @@
             15
         ]
     },
+    "33-3VH": {
+        "name": "ファスキア森林・東部 33-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Ancient Emerald Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Desert Shade Clothes Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Ancient Ruby Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Dark Desert Edge Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Tomo Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Green Aurora Ring Fragment",
+            "Ice Shining Sword Glass Blade Fragment",
+            "Magical Hat Tambourine Caskets Fragment",
+            "Ice Sacred Bow Constellation Fragment",
+            "Ice Pillar Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "34-1": {
         "name": "デクスティア岩崖・西壁 34-1",
         "stamina": 10,
