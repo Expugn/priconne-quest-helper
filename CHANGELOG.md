@@ -3,6 +3,25 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.30.4] - 2022-10-08
+### Added
+- Multi-Region Quest Data Support
+  - This is due to a future change in the `Japanese` region quest data where NORMAL difficulty quests are getting a drop rate boost on `October 15, 2022`.
+  - This will be the first instance of modified quest data that was assumed to never happen.
+  - For more information regarding the drop rate changes: <https://priconne-redive.jp/news/update/19627/>
+  - Updated `region-update.js` (auto updater) to compile quest data
+  - Updated the `quest-data` page to allow switching between multiple regions of quest data
+  - When `equipment-data-type` is modified in Settings, so will quest data
+    - As of this writing, ALL quests will still be available regardless of `equipment-data-type` selected, but other region data will replace Japanese quest data
+    - In other words, other region quest data will "merge" into the Japanese quest data, replacing existing Japanese content
+    - This will allow people from other regions to still plan their farming ahead of time without having to switch between different regions
+    - The exception to this is the `quest-data` page where ONLY the region's quest data is shown and not the "merged" version
+    - Use the `Highest Quest Chapter Displayed` setting to limit the quests displayed if drop rate changes display quests that your region does not have yet
+    - `LEGACY` and `LEGACY_2` equipment data types will follow the `CURRENT` (Japanese) quest data instead
+### Removed
+- Any reference of the since deprecated "`dictionary`" data
+  - Dictionary was last updated/used on January 22nd, 2021
+
 ## [2.30.3] - 2022-10-05
 ### Added
 - New Quest: `33-3 VH` (Tomo)

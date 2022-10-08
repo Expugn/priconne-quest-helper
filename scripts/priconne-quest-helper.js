@@ -478,59 +478,71 @@ const settings = (function () {
      * AFTER THE DATA IS READ, UPDATE DOCUMENT.
      */
     function change_equipment_and_character_data() {
-        let character_version;
+        let character_version, quest_version;
         switch (settings.equipment_data_type) {
             case equipment_data.version.LEGACY:
                 character_version = character_data.version.LEGACY;
+                quest_version = quest_data.version.CURRENT;
                 break;
             case equipment_data.version.LEGACY_2:
                 character_version = character_data.version.LEGACY_2;
+                quest_version = quest_data.version.CURRENT;
                 break;
             case equipment_data.version.CN:
                 character_version = character_data.version.CN;
+                quest_version = quest_data.version.CN;
                 break;
             case equipment_data.version.EN:
                 character_version = character_data.version.EN;
+                quest_version = quest_data.version.EN;
                 break;
             case equipment_data.version.KR:
                 character_version = character_data.version.KR;
+                quest_version = quest_data.version.KR;
                 break;
             case equipment_data.version.TW:
                 character_version = character_data.version.TW;
+                quest_version = quest_data.version.TW;
                 break;
             default:
                 character_version = character_data.version.CURRENT;
+                quest_version = quest_data.version.CURRENT;
                 break;
         }
 
         equipment_data.set_loaded_version(settings.equipment_data_type);
         character_data.set_loaded_version(character_version);
+        quest_data.set_loaded_version(quest_version);
 
         equipment_data.read_data(function (success) {
             if (success) {
                 character_data.read_data(function (success) {
                     if (success) {
-                        data_display.item_table.build();
-                        data_display.build();
-                        const presets_list_select = document.getElementById(presets.element_id.LIST_SELECT),
-                              unit_selected = presets_list_select.value;
-                        if (presets.data().PRESET_ITEMS_RANK > character_data.max_rank()) {
-                            presets.set_items_rank(character_data.max_rank());
-                            presets.update_rank_label();
-                        }
-                        if (!character_data.is_character_exists(unit_selected) && unit_selected !== presets.DEFAULT_VALUE) {
-                            webpage.print("Currently selected character in presets \"" + unit_selected + "\" no longer exists. Reverting to default selection...", "Character Data (Legacy)");
-                            presets_list_select.value = presets.DEFAULT_VALUE;
-                        }
-                        presets.update_details();
-                        presets.build();
-                        presets.adjust_max();
-                        presets_list_select.value = character_data.is_character_exists(unit_selected) ?
-                            unit_selected : presets.DEFAULT_VALUE;
-                        data_display.item_focus.clear();
-                        inventory.set_catalog_build_state(false);
+                        quest_data.read_data(function (success) {
+                            if (success) {
+                                data_display.item_table.build();
+                                data_display.build();
+                                const presets_list_select = document.getElementById(presets.element_id.LIST_SELECT),
+                                    unit_selected = presets_list_select.value;
+                                if (presets.data().PRESET_ITEMS_RANK > character_data.max_rank()) {
+                                    presets.set_items_rank(character_data.max_rank());
+                                    presets.update_rank_label();
+                                }
+                                if (!character_data.is_character_exists(unit_selected) && unit_selected !== presets.DEFAULT_VALUE) {
+                                    webpage.print("Currently selected character in presets \"" + unit_selected + "\" no longer exists. Reverting to default selection...", "Character Data (Legacy)");
+                                    presets_list_select.value = presets.DEFAULT_VALUE;
+                                }
+                                presets.update_details();
+                                presets.build();
+                                presets.adjust_max();
+                                presets_list_select.value = character_data.is_character_exists(unit_selected) ?
+                                    unit_selected : presets.DEFAULT_VALUE;
+                                data_display.item_focus.clear();
+                                inventory.set_catalog_build_state(false);
+                            }
+                        });
                     }
-                })
+                });
             }
         });
     }
@@ -5024,18 +5036,22 @@ const webpage = (function () {
             case equipment_data.version.CN:
                 equipment_data.set_loaded_version(equipment_data.version.CN);
                 character_data.set_loaded_version(character_data.version.CN);
+                quest_data.set_loaded_version(quest_data.version.CN);
                 break;
             case equipment_data.version.EN:
                 equipment_data.set_loaded_version(equipment_data.version.EN);
                 character_data.set_loaded_version(character_data.version.EN);
+                quest_data.set_loaded_version(quest_data.version.EN);
                 break;
             case equipment_data.version.KR:
                 equipment_data.set_loaded_version(equipment_data.version.KR);
                 character_data.set_loaded_version(character_data.version.KR);
+                quest_data.set_loaded_version(quest_data.version.KR);
                 break;
             case equipment_data.version.TW:
                 equipment_data.set_loaded_version(equipment_data.version.TW);
                 character_data.set_loaded_version(character_data.version.TW);
+                quest_data.set_loaded_version(quest_data.version.TW);
                 break;
             default:
                 break;

@@ -76,6 +76,19 @@
 </div>
 
 <hr>
+
+<div id="quest-options">
+    <label for="quest-data-type" hidden>Quest Data Type</label>
+    <select id="quest-data-type" onchange="run()">
+        <option value="quest-data-current">Current Quest Data - Japan Server (JP)</option>
+        <option value="quest-data-cn">Current Quest Data - China Server (CN)</option>
+        <option value="quest-data-en">Current Quest Data - English Server (EN)</option>
+        <option value="quest-data-kr">Current Quest Data - Korea Server (KR)</option>
+        <option value="quest-data-tw">Current Quest Data - Taiwan Server (TW)</option>
+    </select>
+</div>
+
+<hr>
 <div id="quest-data-div"></div>
 <hr>
 </body>
@@ -93,9 +106,15 @@
     }
 
     window.onload = function () {
+        run();
+    };
+
+    function run() {
+        const select_value = document.getElementById("quest-data-type").value;
+        quest_data.set_loaded_version(select_value);
         quest_data.read_data(function (success) {
             if (success) {
-                run();
+                reload();
                 // SCROLL TO HASH LOCATION AFTER LOAD IF IT EXISTS
                 if (window.location.hash) {
                     $('html, body').animate({
@@ -105,109 +124,109 @@
             }
             else
                 document.getElementById("quest-data-div").innerHTML = "failed to read quest data";
-        });
+        }, true);
+    }
 
-        function run() {
-            const quests = quest_data.data();
-            for (const quest_id in quests) {
-                let quest_div = document.createElement("div");
-                quest_div.classList.add("quest");
-                quest_div.id = quest_id;
+    function reload() {
+        const quests = quest_data.data();
+        document.getElementById("quest-data-div").innerHTML = "";
+        for (const quest_id in quests) {
+            let quest_div = document.createElement("div");
+            quest_div.classList.add("quest");
+            quest_div.id = quest_id;
 
-                // QUEST TITLE
-                let difficulty = document.createElement("span");
-                let title = document.createElement("h3");
-                difficulty.classList.add("heart-red");
-                if (quest_id.includes("VH")) {
-                    difficulty.innerText = "VH";
-                }
-                else if (quest_id.includes("H") && !quest_id.includes("VH")) {
-                    difficulty.innerText = "H";
-                }
-                title.classList.add("title");
-                title.innerHTML = quest_id.replace("VH", " ").replace("H", " ");
-                title.appendChild(difficulty);
-                quest_div.appendChild(title);
+            // QUEST TITLE
+            let difficulty = document.createElement("span");
+            let title = document.createElement("h3");
+            difficulty.classList.add("heart-red");
+            if (quest_id.includes("VH")) {
+                difficulty.innerText = "VH";
+            }
+            else if (quest_id.includes("H") && !quest_id.includes("VH")) {
+                difficulty.innerText = "H";
+            }
+            title.classList.add("title");
+            title.innerHTML = quest_id.replace("VH", " ").replace("H", " ");
+            title.appendChild(difficulty);
+            quest_div.appendChild(title);
 
-                // MEMORY PIECE
-                let memory_piece_div = document.createElement("div");
-                memory_piece_div.classList.add("shard");
-                let memory_piece = document.createElement("div");
-                memory_piece.classList.add("item-sprite");
-                if (quest_id.includes("H")) {
-                    const shard_name = quests[quest_id][quest_data.tags.CHAR_SHARD]["item_name"];
-                    memory_piece.title = shard_name;
-                    memory_piece.classList.add(get_item_sprite_class(shard_name));
-                }
-                else {
-                    memory_piece_div.classList.add("disabled");
-                }
-                memory_piece.alt = "";
-                let memory_piece_drop = document.createElement("span");
-                if (quest_id.includes("H")) {
-                    memory_piece_drop.innerText = quests[quest_id][quest_data.tags.CHAR_SHARD]["drop_percent"] + "\u0025";
-                }
-                else {
-                    memory_piece_drop.innerText = "00\u0025";
-                }
-                memory_piece_div.appendChild(memory_piece);
-                memory_piece_div.appendChild(memory_piece_drop);
-                quest_div.appendChild(memory_piece_div);
+            // MEMORY PIECE
+            let memory_piece_div = document.createElement("div");
+            memory_piece_div.classList.add("shard");
+            let memory_piece = document.createElement("div");
+            memory_piece.classList.add("item-sprite");
+            if (quest_id.includes("H")) {
+                const shard_name = quests[quest_id][quest_data.tags.CHAR_SHARD]["item_name"];
+                memory_piece.title = shard_name;
+                memory_piece.classList.add(get_item_sprite_class(shard_name));
+            }
+            else {
+                memory_piece_div.classList.add("disabled");
+            }
+            memory_piece.alt = "";
+            let memory_piece_drop = document.createElement("span");
+            if (quest_id.includes("H")) {
+                memory_piece_drop.innerText = quests[quest_id][quest_data.tags.CHAR_SHARD]["drop_percent"] + "\u0025";
+            }
+            else {
+                memory_piece_drop.innerText = "00\u0025";
+            }
+            memory_piece_div.appendChild(memory_piece);
+            memory_piece_div.appendChild(memory_piece_drop);
+            quest_div.appendChild(memory_piece_div);
 
-                // LINE BREAK
-                let line_break = document.createElement("br");
-                quest_div.appendChild(line_break);
+            // LINE BREAK
+            let line_break = document.createElement("br");
+            quest_div.appendChild(line_break);
 
-                // ITEMS
-                let items_div = document.createElement("div");
-                items_div.classList.add("items");
-                for (let i = 1 ; quests[quest_id]["item_" + i] !== undefined ; i++) {
-                    const item = quests[quest_id]["item_" + i];
+            // ITEMS
+            let items_div = document.createElement("div");
+            items_div.classList.add("items");
+            for (let i = 1 ; quests[quest_id]["item_" + i] !== undefined ; i++) {
+                const item = quests[quest_id]["item_" + i];
+                let item_entry = document.createElement("div");
+                item_entry.classList.add("item-sprite", get_item_sprite_class(item["item_name"]));
+                item_entry.title = item["item_name"];
+                let item_percent = document.createElement("span");
+                item_percent.classList.add("drop-rate", "item_drop-rate");
+                item_percent.innerText = item["drop_percent"] + "\u0025";
+                item_entry.appendChild(item_percent);
+                items_div.appendChild(item_entry);
+
+                if (i === 3 && quests[quest_id]["item_" + (i + 1)] === undefined) {
                     let item_entry = document.createElement("div");
-                    item_entry.classList.add("item-sprite", get_item_sprite_class(item["item_name"]));
-                    item_entry.title = item["item_name"];
+                    item_entry.classList.add("item-sprite", "disabled");
                     let item_percent = document.createElement("span");
                     item_percent.classList.add("drop-rate", "item_drop-rate");
-                    item_percent.innerText = item["drop_percent"] + "\u0025";
+                    item_percent.innerText = "0\u0025";
                     item_entry.appendChild(item_percent);
                     items_div.appendChild(item_entry);
-
-                    if (i === 3 && quests[quest_id]["item_" + (i + 1)] === undefined) {
-                        let item_entry = document.createElement("div");
-                        item_entry.classList.add("item-sprite", "disabled");
-                        let item_percent = document.createElement("span");
-                        item_percent.classList.add("drop-rate", "item_drop-rate");
-                        item_percent.innerText = "0\u0025";
-                        item_entry.appendChild(item_percent);
-                        items_div.appendChild(item_entry);
-                    }
                 }
-                quest_div.appendChild(items_div);
-
-                // SUBDROPS
-                let subdrops_div = document.createElement("div");
-                subdrops_div.classList.add("subdrops");
-                const subdrops = quests[quest_id]["subdrops"];
-                const subdrops_percent = quests[quest_id]["subdrops_percent"];
-                for (let i = 0, j = subdrops.length ; i < j ; i++) {
-                    let item_entry = document.createElement("div");
-                    item_entry.classList.add("item-sprite", get_item_sprite_class(subdrops[i]));
-                    item_entry.title = subdrops[i];
-                    let item_percent = document.createElement("span");
-                    item_percent.classList.add("drop-rate", "item_drop-rate");
-                    if (subdrops_percent !== undefined) {
-                        item_percent.innerText = subdrops_percent[i] + "\u0025";
-                    }
-                    else {
-                        item_percent.innerText = "20\u0025";
-                    }
-                    item_entry.appendChild(item_percent);
-                    subdrops_div.appendChild(item_entry);
-                }
-                quest_div.appendChild(subdrops_div);
-
-                document.getElementById("quest-data-div").appendChild(quest_div);
             }
+            quest_div.appendChild(items_div);
+
+            // SUBDROPS
+            let subdrops_div = document.createElement("div");
+            subdrops_div.classList.add("subdrops");
+            const subdrops = quests[quest_id]["subdrops"];
+            const subdrops_percent = quests[quest_id]["subdrops_percent"];
+            for (let i = 0, j = subdrops.length ; i < j ; i++) {
+                let item_entry = document.createElement("div");
+                item_entry.classList.add("item-sprite", get_item_sprite_class(subdrops[i]));
+                item_entry.title = subdrops[i];
+                let item_percent = document.createElement("span");
+                item_percent.classList.add("drop-rate", "item_drop-rate");
+                if (subdrops_percent !== undefined) {
+                    item_percent.innerText = subdrops_percent[i] + "\u0025";
+                }
+                else {
+                    item_percent.innerText = "20\u0025";
+                }
+                item_entry.appendChild(item_percent);
+                subdrops_div.appendChild(item_entry);
+            }
+            quest_div.appendChild(subdrops_div);
+            document.getElementById("quest-data-div").appendChild(quest_div);
         }
     }
 </script>

@@ -237,18 +237,17 @@ const equipment_data = (function () {
     });
 
     return {
-        tags: tags,
-        rarity: rarity,
-        version: version,
+        tags,
+        rarity,
+        version,
         loaded_version: get_loaded_version,
-        set_loaded_version: set_loaded_version,
-        read_data: read_data,
+        set_loaded_version,
+        read_data,
         data: get_data,
         equipment_count: get_equipment_count,
-        is_equipment_exist: is_equipment_exist,
-        apostrophe: apostrophe,
-
-        recipe: recipe
+        is_equipment_exist,
+        apostrophe,
+        recipe
     }
 })();
 const character_data = (function () {
@@ -386,18 +385,32 @@ const character_data = (function () {
     }
 
     return {
-        tags: tags,
-        version: version,
+        tags,
+        version,
         loaded_version: get_loaded_version,
-        set_loaded_version: set_loaded_version,
-        is_character_exists: is_character_exists,
+        set_loaded_version,
+        is_character_exists,
         max_rank: get_max_rank,
         formal_name: get_formal_name,
-        read_data: read_data,
+        read_data,
         data: get_data
     }
 })();
 const quest_data = (function () {
+    const version = Object.freeze({
+        CURRENT: 'quest-data-current',
+        CN: 'quest-data-cn',
+        EN: 'quest-data-en',
+        KR: 'quest-data-kr',
+        TW: 'quest-data-tw',
+    });
+    const file_path = Object.freeze({
+        CURRENT: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/quest_data.json",
+        CN: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/quest_data_cn.json",
+        EN: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/quest_data_en.json",
+        KR: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/quest_data_kr.json",
+        TW: "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/quest_data_tw.json",
+    });
     const tags = Object.freeze({
         NAME: "name",                           // THE QUEST NAME IN JAPANESE ; i.e. QUEST 1-1 == "ジュノー平野 1-1"
         ITEM: "item_",                          // PREFIX FOR MAIN ITEMS, ADD THE NUMBER 1 - 4 AFTERWARDS ; i.e. tags.ITEM + 3 == "item_3"
@@ -409,6 +422,7 @@ const quest_data = (function () {
     });
 
     let max_chapter = 1;
+    let loaded_version = version.CURRENT;
     let data = null;
 
     /**
@@ -422,22 +436,83 @@ const quest_data = (function () {
      * DEFINING A CALLBACK FUNCTION IS OPTIONAL.
      *
      * @param {function(boolean)}    [callback=function()]    CALLBACK FUNCTION TO CALL AFTER THE READ IS COMPLETE (OPTIONAL).
+     * @param {boolean}              [merge=false]            IF OTHER REGION DATA SHOULD BE MERGED WITH JAPANESE OR RETURNED ALONE.
      */
-    function read_data(callback = function () { return undefined; }) {
+    function read_data(callback = function () { return undefined; }, merge = false) {
         let is_success = false;
-        const file_path = "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/quest_data.json";
-        $.getJSON(file_path, function(raw) {
+        let json_file;
+        switch(loaded_version) {
+            case version.CN:
+                json_file = file_path.CN;
+                break;
+            case version.EN:
+                json_file = file_path.EN;
+                break;
+            case version.KR:
+                json_file = file_path.KR;
+                break;
+            case version.TW:
+                json_file = file_path.TW;
+                break;
+            default:
+                json_file = file_path.CURRENT;
+                break;
+        }
+        if (merge) {
+            $.getJSON(json_file, function(raw) {
+                data = raw;
+
+                const keys = Object.keys(raw);
+                max_chapter = parseInt(keys[keys.length - 1].split('-')[0]);
+            })
+                .done(function () {
+                    is_success = true;
+                })
+                .always(function () {
+                    callback(is_success);
+                });
+            return;
+        }
+        $.getJSON(file_path.CURRENT, function(raw) {
+            // get japanese quest data first
             data = raw;
 
             const keys = Object.keys(raw);
             max_chapter = parseInt(keys[keys.length - 1].split('-')[0]);
         })
             .done(function () {
-                is_success = true;
+                if (json_file !== file_path.CURRENT) {
+                    // merge other region quest data with japanese quest data
+                    $.getJSON(json_file, function(raw) {
+                        // merge
+                        data = Object.assign(data, raw);
+                    })
+                        .done(function () {
+                            is_success = true;
+                        })
+                        .always(function () {
+                            callback(is_success);
+                        });
+                }
+                else {
+                    is_success = true;
+                }
             })
             .always(function () {
-                callback(is_success);
+                if (json_file === file_path.CURRENT) {
+                    callback(is_success);
+                }
             });
+    }
+
+    /**
+     * MODIFIES loaded_version.
+     * read_data() SHOULD BE CALLED AFTERWARDS TO REFRESH DATA.
+     *
+     * @param {string}    [new_version=version.CURRENT]    THE NEW LOADED VERSION.
+     */
+    function set_loaded_version(new_version = version.CURRENT) {
+        loaded_version = new_version;
     }
 
     function get_max_chapter() {
@@ -469,82 +544,13 @@ const quest_data = (function () {
     }
 
     return {
-        tags: tags,
+        tags,
+        version,
+        set_loaded_version,
         max_chapter: get_max_chapter,
-        read_data: read_data,
+        read_data,
         data: get_data,
-        get_quest_chapter: get_quest_chapter,
-        get_quest_number: get_quest_number
-    }
-})();
-
-const dictionary = (function () {
-    const info = Object.freeze({
-        EQUIPMENT: "10",
-        FRAGMENT: "11",
-        BLUEPRINT: "12",
-        MEMORY_PIECE: "31",
-        PURE_MEMORY_PIECE: "32"
-    });
-    let data = null;
-
-    function read_data(callback = function () { return undefined; }) {
-        let is_success = false;
-        const file_path = "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/dictionary.json";
-        $.getJSON(file_path, function(raw) {
-            data = raw;
-        })
-            .done(function () {
-                is_success = true;
-            })
-            .always(function () {
-                callback(is_success);
-            });
-    }
-
-    function convert_fragmentID_to_equipmentID(fragmentID) {
-        return "10" + fragmentID.substring(2, fragmentID.length);
-    }
-
-    function get_entry(item_id, language) {
-        const default_language = "en-US";
-        const item_type = item_id.substring(0, 2);
-        let item_name, suffix, item_name_default, suffix_default;
-
-        // GET TRANSLATION
-        switch (item_type) {
-            case info.EQUIPMENT:
-            case info.MEMORY_PIECE:
-            case info.PURE_MEMORY_PIECE:
-                item_name = data["equipment"][item_id][language];
-                suffix = suffix_default = "";
-                item_name_default = data["equipment"][item_id][default_language];
-                break;
-            case info.FRAGMENT:
-            case info.BLUEPRINT:
-                item_name = data["equipment"][convert_fragmentID_to_equipmentID(item_id)][language];
-                suffix = data["suffix"][(item_type === info.FRAGMENT ? "fragment" : "blueprint")][language];
-                item_name_default = data["equipment"][convert_fragmentID_to_equipmentID(item_id)][default_language];
-                suffix_default = data["suffix"][(item_type === info.FRAGMENT ? "fragment" : "blueprint")][default_language];
-                break;
-            default:
-                console.log("unknown item type", "(" + item_type + ")", item_id);
-                return "";
-        }
-
-        // FALLBACK TO DEFAULT LANGUAGE (ENGLISH) TRANSLATIONS IF THEY DON'T EXIST
-        if (item_name === "") {
-            item_name = item_name_default;
-        }
-        if (suffix === "") {
-            suffix = suffix_default;
-        }
-
-        return item_name + suffix;
-    }
-
-    return {
-        read_data: read_data,
-        get: get_entry,
+        get_quest_chapter,
+        get_quest_number
     }
 })();
