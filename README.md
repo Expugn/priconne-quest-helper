@@ -82,7 +82,11 @@ This will get ONLY the master database; image collection is not included.<br>
 
 ### Directly Getting Multiple Region Master Databases
 If you are interested in directly getting the `master.db` from multiple regions for your project:<br>
-`master.db`s and code to update them is available here <https://github.com/Expugn/priconne-database>
+`master.db`s and code to update them is available in <https://github.com/Expugn/priconne-database>
+
+### Extracting Texture2D Assets
+If you are interested in getting Texture2D/image assets:<br>
+A ***quickly thrown together*** script available in <https://github.com/Expugn/priconne-image-extractor>
 
 ## Other Informative Sites and Tools
 - `AssetStudio`: [GitHub](https://github.com/Perfare/AssetStudio)<br>

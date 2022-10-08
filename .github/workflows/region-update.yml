@@ -50,6 +50,10 @@ jobs:
           git add ./data/equipment_data_en.json
           git add ./data/equipment_data_kr.json
           git add ./data/equipment_data_tw.json
+          git add ./data/quest_data_cn.json
+          git add ./data/quest_data_en.json
+          git add ./data/quest_data_kr.json
+          git add ./data/quest_data_tw.json
           git add ./package-lock.json
           git add ./package.json
           git diff-index --quiet HEAD || git commit -m "[Bot] Regional Data Update" -m '
