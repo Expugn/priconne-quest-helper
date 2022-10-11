@@ -15661,6 +15661,44 @@
             15
         ]
     },
+    "32-1VH": {
+        "name": "法斯奇亞森林‧南部 32-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Keyboard Armor Cimbalom Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Benevolent Heavy Spear Tromspear Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Green Aurora Ring Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Sword Field Sword Grand Pianos Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Miyako Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Punk Needle Bangle Fragment",
+            "Punk Princess Rod Fragment",
+            "Brass Knuckles Fragment",
+            "Diamond Dust Robe Fragment",
+            "Crime Hunt Bow Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "33-1": {
         "name": "法斯奇亞森林‧東部 33-1",
         "stamina": 10,
