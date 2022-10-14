@@ -5770,13 +5770,33 @@
         "req_pieces": 25,
         "req_items": []
     },
+    "108552": {
+        "name_tw": "琴樹奏木琴",
+        "name_jp": "琴樹奏シロフォニア",
+        "name": "Tree Tributing Xylophonia",
+        "id": "orange-26",
+        "has_fragments": true,
+        "fragment_id": "118552",
+        "req_pieces": 25,
+        "req_items": []
+    },
     "108581": {
         "name_tw": "綠色極光戒指",
         "name_jp": "グリーンオーロラリング",
         "name": "Green Aurora Ring",
-        "id": "orange-26",
+        "id": "orange-27",
         "has_fragments": true,
         "fragment_id": "118581",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108582": {
+        "name_tw": "仙撞鼓定音鼓",
+        "name_jp": "仙撞鼓ティンパニア",
+        "name": "Celestial Beating Timpania",
+        "id": "orange-28",
+        "has_fragments": true,
+        "fragment_id": "118582",
         "req_pieces": 25,
         "req_items": []
     },
@@ -5784,9 +5804,19 @@
         "name_tw": "雪華晶的戒指",
         "name_jp": "雪華晶の指輪",
         "name": "Snow Flower Crystal Ring",
-        "id": "orange-27",
+        "id": "orange-29",
         "has_fragments": true,
         "fragment_id": "118611",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108612": {
+        "name_tw": "神瑤譜半樂譜",
+        "name_jp": "神謡譜デミスコア",
+        "name": "Spirit Chant Score Demiscore",
+        "id": "orange-30",
+        "has_fragments": true,
+        "fragment_id": "118612",
         "req_pieces": 25,
         "req_items": []
     }
