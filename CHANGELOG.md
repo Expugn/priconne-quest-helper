@@ -3,6 +3,20 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.31.0] - 2022-10-15
+Quest Update (2022-10-15)
+### Added
+- Normal Quest Drop Rate Changes (JP)
+  - As mentioned in `[2.30.4]`, drop rate changes in the Japanese server are now live
+  - This changes drops to be generally `54% / 54% / 36%` (previously `36% / 36% / 24%`) on main drops
+  - Subdrops drop rate seem to be un-effected
+  - These changes will only be available when using `Current Equipment Data - Japan Server (JP)` in settings
+- New Quests
+  - Chapter 60 Normal Part 2 (`60-8` - `60-14`)
+  - `56-1H`, `56-2H`
+- New Character: Nanaka (Halloween)
+- New Equipment
+
 ## [2.30.4] - 2022-10-08
 ### Added
 - Multi-Region Quest Data Support
