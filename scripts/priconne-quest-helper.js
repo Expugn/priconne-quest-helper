@@ -2226,6 +2226,11 @@ const projects = (function () {
     function delete_project() {
         const project_name = get_selected_project();
 
+        if (!confirm(`Are you sure you want to delete "${project_name}"? THIS ACTION CAN NOT BE UNDONE.`)) {
+            // don't delete project
+            return;
+        }
+
         if (project_name !== ALL_PROJECTS) {
             // DELETE SPECIFIC PROJECT ONLY
             delete data.projects[project_name];

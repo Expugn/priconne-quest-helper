@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.31.1] - 2022-10-22
+### Added
+- Added confirmation alert for `Delete Project` button
+  - OK/Cancel options will be displayed before project is deleted now
+  - Click OK to delete the project
+  - Click Cancel to not delete the project
+  - Suggested by `tonyjphan`: <https://github.com/Expugn/priconne-quest-helper/issues/47>
+
 ## [2.31.0] - 2022-10-15
 Quest Update (2022-10-15)
 ### Added
