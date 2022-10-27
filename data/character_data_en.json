@@ -1791,6 +1791,134 @@
             "Flowering Fire Peony"
         ]
     },
+    "christmas_christina": {
+        "name_en": "Christina (Holiday)",
+        "unit_id": 111501,
+        "name": "Christina",
+        "thematic": "Christmas",
+        "name_jp": "クリスティーナ",
+        "thematic_jp": "クリスマス",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Leather Overalls",
+            "Tree Shield",
+            "Iron Blade",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Blue Blood",
+            "Gear Blade",
+            "Clothes of Wisdom",
+            "Command Knife",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Blue Blood",
+            "Light Plate",
+            "Tower Shield",
+            "Gear Blade",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Sparkling Sword",
+            "Fashion Armor",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Ryuumon Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Platinum Knife",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Feather Blade",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Angel Blade",
+            "Invisible Dress",
+            "Feather Blade",
+            "Scarlet Diamond",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Mythril Plate",
+            "Angel Blade",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Guardian Shield",
+            "Solar Sword",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Scarlet Mail",
+            "Ice Claymore",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Lightning Blade",
+            "Phantasm Mail",
+            "Chaos Blade",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Dawn's Holy Sword",
+            "Nine Heavens' Armor",
+            "Lightning Blade",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Rage Queen Dress",
+            "Dawn's Holy Sword",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "Konominato Sword - Aqua Ruler",
+            "Senka Dance Armor",
+            "Great Sword of Sin",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "",
+            "Overlord Light Dragon Sword",
+            "",
+            "Konominato Sword - Aqua Ruler",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ]
+    },
     "djeeta": {
         "name_en": "Djeeta",
         "unit_id": 105701,
@@ -8582,6 +8710,134 @@
         "thematic": "",
         "name_jp": "ノゾミ",
         "thematic_jp": "",
+        "rank_1": [
+            "Iron Blade",
+            "Tree Shield",
+            "Leather Overalls",
+            "Tree Shield",
+            "Motivational Bracelet",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Aurora Sword",
+            "Cute Caskets",
+            "Clothes of Wisdom",
+            "Legion Helm",
+            "Motivational Bracelet",
+            "Protective Pendant"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Tower Shield",
+            "Light Plate",
+            "Tower Shield",
+            "Trident",
+            "Jewel of Love"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Shinobi Shoes",
+            "Gorgeous Armor",
+            "Shinobi Shoes",
+            "Flame Spear",
+            "Victory Friendship Bracelet"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Garnet Shield",
+            "Battling Dress",
+            "Garnet Shield",
+            "Opal Earrings",
+            "Emerald Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Lion King's Protective Charm",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Empress Shield",
+            "Angel Armor",
+            "Lion King's Protective Charm",
+            "Lion King's Protective Charm",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Angel Boots",
+            "Feather Waltz",
+            "Bangle of Substitution",
+            "Lion King's Protective Charm"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Violet Armor",
+            "Mythril Plate",
+            "Moon Bracelet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Scarlet Mail",
+            "Guardian Shield",
+            "Congregation Pendant",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Lightning Blade",
+            "Aegis Coat",
+            "Faireal Boots",
+            "Fairy King's Guardian Stone",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Dawn's Holy Sword",
+            "Maiden Cloth",
+            "Astrograph Buckler",
+            "Mermaid Princess' Spirit Tear",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Rage Queen Dress",
+            "Infernal Greaves",
+            "Glorious King's Shield Bangle",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "Konominato Sword - Aqua Ruler",
+            "Furious Wind Armor",
+            "Royal Guard Hat",
+            "Sea Dragon God's Hair Ornament",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "",
+            "Overlord Light Dragon Sword",
+            "",
+            "Sky Soaring Gold Shoes",
+            "Shield God Ring - Wall Breath",
+            "Sea Dragon God's Hair Ornament"
+        ]
+    },
+    "christmas_nozomi": {
+        "name_en": "Nozomi (Holiday)",
+        "unit_id": 111601,
+        "name": "Nozomi",
+        "thematic": "Christmas",
+        "name_jp": "ノゾミ",
+        "thematic_jp": "クリスマス",
         "rank_1": [
             "Iron Blade",
             "Tree Shield",
