@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.31.2] - 2022-10-31
+### Added
+- New Character: Christina (Wild)
+- Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
+  - `thematics.wild`
+
 ## [2.31.1] - 2022-10-22
 ### Added
 - Added confirmation alert for `Delete Project` button
