@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.31.3] - 2022-11-07
+### Added
+- New Quest: `34-1 VH` (Sheffy)
+
 ## [2.31.2] - 2022-10-31
 ### Added
 - New Character: Christina (Wild)
