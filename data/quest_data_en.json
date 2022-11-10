@@ -12915,5 +12915,527 @@
             17,
             15
         ]
+    },
+    "30-1": {
+        "name": "Photella Cliffs (North) 30-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Bow - Freezing Tear Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Extremely Dark Nail - Bloody Howl Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "War God's Arm Fragment",
+            "Heavenly Red Bow Fragment",
+            "Heaven's Protective Holy Spear Fragment",
+            "Royal Guard Hat Fragment",
+            "Gaia Axe Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-2": {
+        "name": "Photella Cliffs (North) 30-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Heavenly Black Sword of Obsidian Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "World Tree's Branch Wand Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Lightning Wand Fragment",
+            "Atlantis Rod Fragment",
+            "Exomagia Robe Fragment",
+            "Blood Ruby Heel Fragment",
+            "Gold King's Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-3": {
+        "name": "Photella Cliffs (North) 30-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Deep Crystallized Xenocrystal Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Emerald Wind God's Tachi Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Machine Axe - Core Breaker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Glorious King's Shield Bangle Fragment",
+            "Tír na nÓg Dagger Fragment",
+            "Cocytus Nail Fragment",
+            "Rage Queen Dress Fragment",
+            "War God's Arm Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-4": {
+        "name": "Photella Cliffs (North) 30-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Shield Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice Bow - Freezing Tear Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sophos Bracelet Fragment",
+            "Great Sword of Sin Fragment",
+            "Fire Oni's Tori Fragment",
+            "Blood Raven Sword Fragment",
+            "Lightning Wand Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-5": {
+        "name": "Photella Cliffs (North) 30-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Boots Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Heavenly Black Sword of Obsidian Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "War God's Arm Fragment",
+            "Heavenly Red Bow Fragment",
+            "Heaven's Protective Holy Spear Fragment",
+            "Royal Guard Hat Fragment",
+            "Gaia Axe Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-6": {
+        "name": "Photella Cliffs (North) 30-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Deep Crystallized Xenocrystal Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Emerald Wind God's Tachi Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Lightning Wand Fragment",
+            "Atlantis Rod Fragment",
+            "Exomagia Robe Fragment",
+            "Blood Ruby Heel Fragment",
+            "Gold King's Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-7": {
+        "name": "Photella Cliffs (North) 30-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Shield Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Extremely Dark Nail - Bloody Howl Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Glorious King's Shield Bangle Fragment",
+            "Tír na nÓg Dagger Fragment",
+            "Cocytus Nail Fragment",
+            "Rage Queen Dress Fragment",
+            "War God's Arm Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-8": {
+        "name": "Photella Cliffs (North) 30-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Boots Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "World Tree's Branch Wand Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sophos Bracelet Fragment",
+            "Great Sword of Sin Fragment",
+            "Fire Oni's Tori Fragment",
+            "Blood Raven Sword Fragment",
+            "Lightning Wand Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-9": {
+        "name": "Photella Cliffs (North) 30-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Flowing Blue Dress - Azul Rondo Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Deep Crystallized Xenocrystal Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Fire Spear - Prominence Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "War God's Arm Fragment",
+            "Heavenly Red Bow Fragment",
+            "Heaven's Protective Holy Spear Fragment",
+            "Royal Guard Hat Fragment",
+            "Gaia Axe Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-10": {
+        "name": "Photella Cliffs (North) 30-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Beautiful Clothes - Soul Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Overlord Light Dragon Sword Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Lightning Wand Fragment",
+            "Atlantis Rod Fragment",
+            "Exomagia Robe Fragment",
+            "Blood Ruby Heel Fragment",
+            "Gold King's Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-11": {
+        "name": "Photella Cliffs (North) 30-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Astrologer's Holy Spirit Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Abyss Moon Staff - Sacrifice Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Glorious King's Shield Bangle Fragment",
+            "Tír na nÓg Dagger Fragment",
+            "Cocytus Nail Fragment",
+            "Rage Queen Dress Fragment",
+            "War God's Arm Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-12": {
+        "name": "Photella Cliffs (North) 30-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Flowing Blue Dress - Azul Rondo Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Deep Crystallized Xenocrystal Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sophos Bracelet Fragment",
+            "Great Sword of Sin Fragment",
+            "Fire Oni's Tori Fragment",
+            "Blood Raven Sword Fragment",
+            "Lightning Wand Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-13": {
+        "name": "Photella Cliffs (North) 30-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Shield Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Beautiful Clothes - Soul Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "War God's Arm Fragment",
+            "Heavenly Red Bow Fragment",
+            "Heaven's Protective Holy Spear Fragment",
+            "Royal Guard Hat Fragment",
+            "Gaia Axe Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-14": {
+        "name": "Photella Cliffs (North) 30-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Glowing Silver Mirror Boots Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Astrologer's Holy Spirit Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Lightning Wand Fragment",
+            "Atlantis Rod Fragment",
+            "Exomagia Robe Fragment",
+            "Blood Ruby Heel Fragment",
+            "Gold King's Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-1H": {
+        "name": "Photella Cliffs (North) 30-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Flowing Blue Dress - Azul Rondo Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Deep Crystallized Xenocrystal Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Fire Spear - Prominence Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Yui Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "War God's Arm Fragment",
+            "Heavenly Red Bow Fragment",
+            "Heaven's Protective Holy Spear Fragment",
+            "Royal Guard Hat Fragment",
+            "Gaia Axe Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-2H": {
+        "name": "Photella Cliffs (North) 30-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Beautiful Clothes - Soul Rose Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Shield God Ring - Wall Breath Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Overlord Light Dragon Sword Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Eriko Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Lightning Wand Fragment",
+            "Atlantis Rod Fragment",
+            "Exomagia Robe Fragment",
+            "Blood Ruby Heel Fragment",
+            "Gold King's Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "30-3H": {
+        "name": "Photella Cliffs (North) 30-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Astrologer's Holy Spirit Robe Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Scarlet Dragon's Claw Fire Ring Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Abyss Moon Staff - Sacrifice Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Arisa Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Glorious King's Shield Bangle Fragment",
+            "Tír na nÓg Dagger Fragment",
+            "Cocytus Nail Fragment",
+            "Rage Queen Dress Fragment",
+            "War God's Arm Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }
