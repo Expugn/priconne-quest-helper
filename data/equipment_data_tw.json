@@ -5715,11 +5715,23 @@
             "Macaron Pendant"
         ]
     },
+    "108282": {
+        "name_tw": "沙漠布甲",
+        "name_jp": "デザートクロスメイル",
+        "name": "Desert Clothmail",
+        "id": "orange-20",
+        "has_fragments": true,
+        "fragment_id": "128282",
+        "req_pieces": 15,
+        "req_items": [
+            "Sunflower Straw Hat"
+        ]
+    },
     "108311": {
         "name_tw": "重奏鎧銅管圓號",
         "name_jp": "重奏鎧ブラスホーン",
         "name": "Ensemble Armor Brass Horn",
-        "id": "orange-20",
+        "id": "orange-21",
         "has_fragments": true,
         "fragment_id": "128311",
         "req_pieces": 15,
@@ -5727,21 +5739,55 @@
             "Popcorn Necklace"
         ]
     },
+    "108312": {
+        "name_tw": "綠洲藍鎧",
+        "name_jp": "オアシスブループレート",
+        "name": "Oasis Blue Plate",
+        "id": "orange-22",
+        "has_fragments": true,
+        "fragment_id": "128312",
+        "req_pieces": 15,
+        "req_items": [
+            "Sakura Flower Moonlight Hairpin"
+        ]
+    },
+    "108342": {
+        "name_tw": "沙漠之影服飾",
+        "name_jp": "デザートシェイドクロース",
+        "name": "Desert Shade Clothes",
+        "id": "orange-23",
+        "has_fragments": true,
+        "fragment_id": "118342",
+        "req_pieces": 25,
+        "req_items": []
+    },
     "108371": {
         "name_tw": "譜唱裝樂譜",
         "name_jp": "譜唱装ムジカスコア",
         "name": "Singing Dress Musical Score",
-        "id": "orange-21",
+        "id": "orange-24",
         "has_fragments": true,
         "fragment_id": "118371",
         "req_pieces": 25,
         "req_items": []
     },
+    "108372": {
+        "name_tw": "東方微風長袍",
+        "name_jp": "オリエントブリーズローブ",
+        "name": "Oriental Breeze Robe",
+        "id": "orange-25",
+        "has_fragments": true,
+        "fragment_id": "128372",
+        "req_pieces": 15,
+        "req_items": [
+            "Hibiscus Sandals"
+        ]
+    },
     "108401": {
         "name_tw": "重圓奏圓盾鈸",
         "name_jp": "重円奏ホプロンシンバル",
         "name": "Heavy Hoplon Cymbal",
-        "id": "orange-22",
+        "id": "orange-26",
         "has_fragments": true,
         "fragment_id": "128401",
         "req_pieces": 15,
@@ -5753,9 +5799,29 @@
         "name_tw": "舞奉奏R高跟鞋",
         "name_jp": "舞奉奏アルパンプス",
         "name": "Tributal Dancing Pumps",
-        "id": "orange-23",
+        "id": "orange-27",
         "has_fragments": true,
         "fragment_id": "118431",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108462": {
+        "name_tw": "綠洲之鞋",
+        "name_jp": "オアシスアハルディア",
+        "name": "Oasis Ahaldia",
+        "id": "orange-28",
+        "has_fragments": true,
+        "fragment_id": "118462",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108492": {
+        "name_tw": "沙漠之風頭巾",
+        "name_jp": "デザートウィンドターバン",
+        "name": "Desert Wind Turban",
+        "id": "orange-29",
+        "has_fragments": true,
+        "fragment_id": "118492",
         "req_pieces": 25,
         "req_items": []
     },
@@ -5763,7 +5829,7 @@
         "name_tw": "魔奏帽鈴鼓報童帽",
         "name_jp": "魔奏帽タンバリンキャスケット",
         "name": "Magical Hat Tambourine Caskets",
-        "id": "orange-24",
+        "id": "orange-30",
         "has_fragments": true,
         "fragment_id": "118521",
         "req_pieces": 25,
@@ -5773,7 +5839,7 @@
         "name_tw": "冰柱戒指",
         "name_jp": "アイスピラーリング",
         "name": "Ice Pillar Ring",
-        "id": "orange-25",
+        "id": "orange-31",
         "has_fragments": true,
         "fragment_id": "118551",
         "req_pieces": 25,
@@ -5783,7 +5849,7 @@
         "name_tw": "琴樹奏木琴",
         "name_jp": "琴樹奏シロフォニア",
         "name": "Tree Tributing Xylophonia",
-        "id": "orange-26",
+        "id": "orange-32",
         "has_fragments": true,
         "fragment_id": "118552",
         "req_pieces": 25,
@@ -5793,7 +5859,7 @@
         "name_tw": "綠色極光戒指",
         "name_jp": "グリーンオーロラリング",
         "name": "Green Aurora Ring",
-        "id": "orange-27",
+        "id": "orange-33",
         "has_fragments": true,
         "fragment_id": "118581",
         "req_pieces": 25,
@@ -5803,7 +5869,7 @@
         "name_tw": "仙撞鼓定音鼓",
         "name_jp": "仙撞鼓ティンパニア",
         "name": "Celestial Beating Timpania",
-        "id": "orange-28",
+        "id": "orange-34",
         "has_fragments": true,
         "fragment_id": "118582",
         "req_pieces": 25,
@@ -5813,7 +5879,7 @@
         "name_tw": "雪華晶的戒指",
         "name_jp": "雪華晶の指輪",
         "name": "Snow Flower Crystal Ring",
-        "id": "orange-29",
+        "id": "orange-35",
         "has_fragments": true,
         "fragment_id": "118611",
         "req_pieces": 25,
@@ -5823,7 +5889,7 @@
         "name_tw": "神瑤譜半樂譜",
         "name_jp": "神謡譜デミスコア",
         "name": "Spirit Chant Score Demiscore",
-        "id": "orange-30",
+        "id": "orange-36",
         "has_fragments": true,
         "fragment_id": "118612",
         "req_pieces": 25,

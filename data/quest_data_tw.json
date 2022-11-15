@@ -27187,6 +27187,40 @@
             15
         ]
     },
+    "54-3H": {
+        "name": "托塔提斯沙岸‧西部 54-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Oriental Breeze Robe Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Spirit Chant Score Demiscore Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Charitable Command Staff Artemakillion Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Cinderella Maho Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rocking Chain Bangle Fragment",
+            "Punk Princess Rod Fragment",
+            "Frost Column Heel Fragment",
+            "Diamond Dust Robe Fragment",
+            "Padlock Scepter Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "55-1": {
         "name": "托塔提斯沙岸‧東部 55-1",
         "stamina": 10,
@@ -28850,6 +28884,216 @@
         },
         "item_3": {
             "item_name": "Sword Field Sword Grand Pianos Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Punk Needle Bangle Fragment",
+            "Punk Princess Rod Fragment",
+            "Brass Knuckles Fragment",
+            "Diamond Dust Robe Fragment",
+            "Crime Hunt Bow Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "59-1": {
+        "name": "克魯斯密林‧西部 59-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Desert Wind Turban Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Tree Tributing Xylophonia Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Heavenly Sound Axe Buster Horn Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Padlock Scepter Fragment",
+            "White Aurora Dress Fragment",
+            "Thunder Punk Dagger Fragment",
+            "Crystal Ice Mail Fragment",
+            "Rocking Chain Bangle Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "59-2": {
+        "name": "克魯斯密林‧西部 59-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Oasis Ahaldia Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Spirit Chant Score Demiscore Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Absolute Sound Cane Accordia Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rocking Chain Bangle Fragment",
+            "Riot Spike Fragment",
+            "Snowflake Beret Fragment",
+            "Pure Snow Mail Fragment",
+            "Chain Fury Sword Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "59-3": {
+        "name": "克魯斯密林‧西部 59-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Desert Shade Clothes Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Celestial Beating Timpania Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Tree Tributing Xylophonia Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Emerald Gothic Bangle Fragment",
+            "Frost Column Heel Fragment",
+            "Skull Gothic Lance Fragment",
+            "Rocking Groove Axe Fragment",
+            "Punk Needle Bangle Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "59-4": {
+        "name": "克魯斯密林‧西部 59-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Desert Wind Turban Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Tree Tributing Xylophonia Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Celestial Beating Timpania Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Punk Needle Bangle Fragment",
+            "Punk Princess Rod Fragment",
+            "Brass Knuckles Fragment",
+            "Diamond Dust Robe Fragment",
+            "Crime Hunt Bow Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "59-5": {
+        "name": "克魯斯密林‧西部 59-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Oasis Blue Plate Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Celestial Beating Timpania Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Tree Tributing Xylophonia Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Emerald Gothic Bangle Fragment",
+            "Frost Column Heel Fragment",
+            "Skull Gothic Lance Fragment",
+            "Diamond Dust Robe Fragment",
+            "Crime Hunt Bow Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "59-6": {
+        "name": "克魯斯密林‧西部 59-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Oriental Breeze Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Oasis Ahaldia Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Spirit Chant Score Demiscore Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rocking Chain Bangle Fragment",
+            "Riot Spike Fragment",
+            "Snowflake Beret Fragment",
+            "Pure Snow Mail Fragment",
+            "Chain Fury Sword Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "59-7": {
+        "name": "克魯斯密林‧西部 59-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Desert Clothmail Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Desert Shade Clothes Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Tree Tributing Xylophonia Fragment",
             "drop_percent": 24
         },
         "subdrops": [
