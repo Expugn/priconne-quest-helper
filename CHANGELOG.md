@@ -3,6 +3,22 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.31.4] - 2022-11-15
+Quest Update (2022-11-15)
+### Added
+- New Characters:
+  - Kaiser Insight
+  - Matsuri (Wild)
+- Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
+  - `character_names.kaiser_insight`
+- Migrated data export tool from `Heroku` to `Vercel`
+  - Heroku Free product plans are ending November 28th
+- Rank 27 Support
+- New Equipment
+- New Quests:
+  - Chapter 61 Normal Part 1 (`61-1` - `61-7`)
+  - `56-3 H`
+
 ## [2.31.3] - 2022-11-07
 ### Added
 - New Quest: `34-1 VH` (Sheffy)
