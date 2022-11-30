@@ -3,7 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.31.4] - 2022-11-15
+## [2.32.1] - 2022-11-30
+### Added
+- New Characters:
+  - Akari (Christmas)
+  - Yori (Christmas)
+
+## [2.32.0] - 2022-11-15
 Quest Update (2022-11-15)
 ### Added
 - New Characters:
