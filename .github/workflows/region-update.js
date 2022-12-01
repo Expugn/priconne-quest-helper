@@ -480,6 +480,10 @@ function write_quest_data(region = "jp") {
 
         function add_quest_entry(data, quest) {
             // GET QUEST DROPS
+            if (!wave_group_info[quest["wave_group_id_1"]]) {
+                // wave group id 1 doesn't exist for some reason, skip this quest entry
+                return data;
+            }
             let quest_drops = get_quest_drops({}, wave_group_info[quest["wave_group_id_1"]]);
             quest_drops = get_quest_drops(quest_drops, wave_group_info[quest["wave_group_id_2"]]);
             quest_drops = get_quest_drops(quest_drops, wave_group_info[quest["wave_group_id_3"]]);
