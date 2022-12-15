@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.33.0] - 2022-12-15
+Quest Update (2022-12-15)
+### Added
+- New Quests:
+  - `34-2 VH` (Mitsuki)
+  - `57-1 H` and `57-2 H`
+  - Chapter 61 Normal Part 2 (`61-8` - `61-14`)
+- New Equipment
+
 ## [2.32.1] - 2022-11-30
 ### Added
 - New Characters:
