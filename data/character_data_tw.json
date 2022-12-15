@@ -199,12 +199,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Magical Hat Tambourine Caskets",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Oasis Ahaldia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "summer_nanaka": {
@@ -407,12 +415,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oriental Breeze Robe",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "arisa": {
@@ -615,12 +631,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oriental Hurricane Bow",
             "Skillful Sound Bow Snare Arc",
             "Desert Shade Clothes",
             "Ice Sacred Bow Constellation",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "io": {
@@ -823,12 +847,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Magical Hat Tambourine Caskets",
             "Spirit Chant Score Demiscore",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Oasis Ahaldia",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "summer_io": {
@@ -1031,12 +1063,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Spirit Chant Score Demiscore",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "noire_io": {
@@ -1239,12 +1279,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Ice Cane Frost Staff",
             "Spirit Chant Score Demiscore",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "ilya": {
@@ -1447,12 +1495,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "new_year_ilya": {
@@ -1655,12 +1711,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "christmas_ilya": {
@@ -1863,12 +1927,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "neneka": {
@@ -2071,12 +2143,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "new_year_neneka": {
@@ -2279,12 +2359,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Ice Cane Frost Staff",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "yori": {
@@ -2487,12 +2575,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "angel_yori": {
@@ -2695,12 +2791,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "yuni": {
@@ -2903,12 +3007,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Celestial Beating Timpania",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "school_festival_yuni": {
@@ -3111,12 +3223,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Celestial Beating Timpania",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "yukari": {
@@ -3319,12 +3439,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Clothmail",
             "Ensemble Armor Brass Horn",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "christmas_yukari": {
@@ -3527,12 +3655,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Clothmail",
             "Ensemble Armor Brass Horn",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "camp_yukari": {
@@ -3735,12 +3871,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Oasis Blue Plate",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "yui": {
@@ -3943,12 +4087,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "princess_yui": {
@@ -4151,12 +4303,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "summer_yui": {
@@ -4359,12 +4519,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Magical Hat Tambourine Caskets",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "new_year_yui": {
@@ -4567,12 +4735,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Celestial Beating Timpania",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "ceremonial_attire_yui": {
@@ -4775,12 +4951,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Spirit Chant Score Demiscore",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "christina": {
@@ -4983,12 +5167,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Wind Turban",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "christmas_christina": {
@@ -5191,12 +5383,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Wind Turban",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "creditta": {
@@ -5399,12 +5599,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oriental Hurricane Bow",
             "Sound Engraving Blade Clefton",
             "Desert Shade Clothes",
             "Ice Sacred Bow Constellation",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "chloe": {
@@ -5607,12 +5815,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Dark Desert Edge",
             "Sound Engraving Blade Clefton",
             "Desert Wind Turban",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "school_festival_chloe": {
@@ -5815,12 +6031,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Dark Desert Edge",
             "Sound Engraving Blade Clefton",
             "Desert Wind Turban",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "deresute_rin": {
@@ -6023,12 +6247,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Quicksand Shamshir",
             "Sound Weaving Katana Gertona",
             "Desert Clothmail",
             "Heavy Hoplon Cymbal",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "kyaru": {
@@ -6231,12 +6463,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "princess_kyaru": {
@@ -6439,12 +6679,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "summer_kyaru": {
@@ -6647,12 +6895,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "new_year_kyaru": {
@@ -6855,12 +7111,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "overload_kyaru": {
@@ -7063,12 +7327,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "hatsune": {
@@ -7271,12 +7543,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Magical Hat Tambourine Caskets",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Oasis Ahaldia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "hatsune_&_shiori": {
@@ -7479,12 +7759,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oriental Hurricane Bow",
             "Skillful Sound Bow Snare Arc",
             "Desert Shade Clothes",
             "Ice Sacred Bow Constellation",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "summer_hatsune": {
@@ -7687,12 +7975,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Magical Hat Tambourine Caskets",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Oasis Ahaldia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "chika": {
@@ -7895,12 +8191,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Celestial Beating Timpania",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "summer_chika": {
@@ -8103,12 +8407,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Celestial Beating Timpania",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "christmas_chika": {
@@ -8311,12 +8623,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Celestial Beating Timpania",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "deresute_uzuki": {
@@ -8519,12 +8839,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Shade Clothes",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "grea": {
@@ -8727,12 +9055,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "kokkoro": {
@@ -8935,12 +9271,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Benevolent Heavy Spear Tromspear",
             "Desert Clothmail",
             "Keyboard Armor Cimbalom",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "princess_kokkoro": {
@@ -9143,12 +9487,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Benevolent Heavy Spear Tromspear",
             "Desert Clothmail",
             "Ice Spear Snow Storm",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "summer_kokkoro": {
@@ -9351,12 +9703,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Benevolent Heavy Spear Tromspear",
             "Desert Clothmail",
             "Keyboard Armor Cimbalom",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "new_year_kokkoro": {
@@ -9559,12 +9919,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Benevolent Heavy Spear Tromspear",
             "Desert Clothmail",
             "Keyboard Armor Cimbalom",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "ceremonial_attire_kokkoro": {
@@ -9767,12 +10135,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Dark Desert Edge",
             "Sound Engraving Blade Clefton",
             "Desert Shade Clothes",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "djeeta": {
@@ -9975,12 +10351,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Shade Clothes",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "saren": {
@@ -10183,12 +10567,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Oasis Blue Plate",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Oasis Blue Plate",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "summer_saren": {
@@ -10391,12 +10783,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Clothmail",
             "Ensemble Armor Brass Horn",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "christmas_saren": {
@@ -10599,12 +10999,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Wind Turban",
             "Heavy Hoplon Cymbal",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "kaya": {
@@ -10807,12 +11215,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Desert Shade Clothes",
             "Ice Block Fist Glass Knuckle",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "time_traveler_kaya": {
@@ -11015,12 +11431,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Oasis Blue Plate",
             "Ice Block Fist Glass Knuckle",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "ninon": {
@@ -11223,12 +11647,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Quicksand Shamshir",
             "Sound Weaving Katana Gertona",
             "Desert Shade Clothes",
             "Ice and Snow Sword Graki Edge",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "oedo_ninon": {
@@ -11431,12 +11863,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Dark Desert Edge",
             "Sound Engraving Blade Clefton",
             "Desert Shade Clothes",
             "Ice Fang Styria Dagger",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "halloween_ninon": {
@@ -11639,12 +12079,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Quicksand Shamshir",
             "Sound Weaving Katana Gertona",
             "Oasis Blue Plate",
             "Ice and Snow Sword Graki Edge",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "anne": {
@@ -11847,12 +12295,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "miyako": {
@@ -12055,12 +12511,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Benevolent Heavy Spear Tromspear",
             "Desert Clothmail",
             "Keyboard Armor Cimbalom",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "christmas_miyako": {
@@ -12263,12 +12727,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Desert Wind Turban",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "halloween_miyako": {
@@ -12471,12 +12943,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Oasis Blue Plate",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Oasis Blue Plate",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "homare": {
@@ -12679,12 +13159,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Magical Hat Tambourine Caskets",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Oasis Ahaldia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "shinobu": {
@@ -12887,12 +13375,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Quicksand Shamshir",
             "Sound Weaving Katana Gertona",
             "Desert Wind Turban",
             "Heavy Hoplon Cymbal",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "pirate_shinobu": {
@@ -13095,12 +13591,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Faas",
             "Heavenly Sound Axe Buster Horn",
             "Desert Clothmail",
             "Ice Breaking Riot Axe",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "halloween_shinobu": {
@@ -13303,12 +13807,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Quicksand Shamshir",
             "Sound Weaving Katana Gertona",
             "Oasis Blue Plate",
             "Ice and Snow Sword Graki Edge",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "rei": {
@@ -13511,12 +14023,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Wind Turban",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "princess_rei": {
@@ -13719,12 +14239,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Shade Clothes",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "summer_rei": {
@@ -13927,12 +14455,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Shade Clothes",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "new_year_rei": {
@@ -14135,12 +14671,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Oasis Blue Plate",
             "Keyboard Armor Cimbalom",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Oasis Blue Plate",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "halloween_rei": {
@@ -14343,12 +14887,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Shade Clothes",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "eriko": {
@@ -14551,12 +15103,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Faas",
             "Heavenly Sound Axe Buster Horn",
             "Desert Shade Clothes",
             "Ice Breaking Riot Axe",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "summer_eriko": {
@@ -14759,12 +15319,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Faas",
             "Heavenly Sound Axe Buster Horn",
             "Desert Clothmail",
             "Ice Breaking Riot Axe",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "valentine_eriko": {
@@ -14967,12 +15535,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Faas",
             "Heavenly Sound Axe Buster Horn",
             "Desert Shade Clothes",
             "Ice Breaking Riot Axe",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "emilia": {
@@ -15175,12 +15751,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oasis Ahaldia",
             "Magical Hat Tambourine Caskets",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oasis Ahaldia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "ram": {
@@ -15383,12 +15967,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "labyrista": {
@@ -15591,12 +16183,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Wind Turban",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "overload_labyrista": {
@@ -15799,12 +16399,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Oasis Blue Plate",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "hiyori": {
@@ -16007,12 +16615,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Oasis Blue Plate",
             "Heavy Hoplon Cymbal",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Oasis Blue Plate",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "princess_hiyori": {
@@ -16215,12 +16831,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Desert Shade Clothes",
             "Ice Block Fist Glass Knuckle",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "summer_hiyori": {
@@ -16423,12 +17047,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Oasis Blue Plate",
             "Heavy Hoplon Cymbal",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Oasis Blue Plate",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "new_year_hiyori": {
@@ -16631,12 +17263,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Oasis Blue Plate",
             "Ice Block Fist Glass Knuckle",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "tomo": {
@@ -16839,12 +17479,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Quicksand Shamshir",
             "Sound Engraving Blade Clefton",
             "Desert Shade Clothes",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "magical_tomo": {
@@ -17047,12 +17695,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Quicksand Shamshir",
             "Sound Engraving Blade Clefton",
             "Desert Shade Clothes",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "nozomi": {
@@ -17255,12 +17911,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Clothmail",
             "Ensemble Armor Brass Horn",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "summer_nozomi": {
@@ -17463,12 +18127,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Oasis Blue Plate",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "christmas_nozomi": {
@@ -17671,12 +18343,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Clothmail",
             "Ensemble Armor Brass Horn",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "deresute_mio": {
@@ -17879,12 +18559,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "anna": {
@@ -18087,12 +18775,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "summer_anna": {
@@ -18295,12 +18991,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "pirate_anna": {
@@ -18503,12 +19207,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "shiori": {
@@ -18711,12 +19423,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oriental Hurricane Bow",
             "Skillful Sound Bow Snare Arc",
             "Desert Shade Clothes",
             "Ice Sacred Bow Constellation",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "magical_shiori": {
@@ -18919,12 +19639,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oriental Hurricane Bow",
             "Skillful Sound Bow Snare Arc",
             "Desert Shade Clothes",
             "Ice Sacred Bow Constellation",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "ayumi": {
@@ -19127,12 +19855,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Benevolent Heavy Spear Tromspear",
             "Desert Clothmail",
             "Keyboard Armor Cimbalom",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "wonder_ayumi": {
@@ -19335,12 +20071,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Benevolent Heavy Spear Tromspear",
             "Desert Clothmail",
             "Keyboard Armor Cimbalom",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "phantom_thief_ayumi": {
@@ -19543,12 +20287,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Heavenly Sound Axe Buster Horn",
             "Desert Shade Clothes",
             "Ice Spear Snow Storm",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "ruka": {
@@ -19751,12 +20503,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Quicksand Shamshir",
             "Sound Weaving Katana Gertona",
             "Oasis Blue Plate",
             "Keyboard Armor Cimbalom",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Oasis Blue Plate",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "summer_ruka": {
@@ -19959,12 +20719,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Quicksand Shamshir",
             "Sound Weaving Katana Gertona",
             "Desert Wind Turban",
             "Ice and Snow Sword Graki Edge",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "new_year_ruka": {
@@ -20167,12 +20935,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Quicksand Shamshir",
             "Sound Weaving Katana Gertona",
             "Desert Shade Clothes",
             "Ice and Snow Sword Graki Edge",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "mitsuki": {
@@ -20375,12 +21151,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Wind Turban",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "oedo_mitsuki": {
@@ -20583,12 +21367,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Wind Turban",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "tamaki": {
@@ -20791,12 +21583,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Dark Desert Edge",
             "Sound Engraving Blade Clefton",
             "Desert Wind Turban",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "summer_tamaki": {
@@ -20999,12 +21799,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Dark Desert Edge",
             "Sound Engraving Blade Clefton",
             "Desert Wind Turban",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "work_overalls_tamaki": {
@@ -21207,12 +22015,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Dark Desert Edge",
             "Sound Engraving Blade Clefton",
             "Oasis Blue Plate",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "vampy": {
@@ -21415,12 +22231,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "chieru": {
@@ -21623,12 +22447,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Desert Wind Turban",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "school_festival_chieru": {
@@ -21831,12 +22663,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Desert Shade Clothes",
             "Ice Block Fist Glass Knuckle",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "rino": {
@@ -22039,12 +22879,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oriental Hurricane Bow",
             "Skillful Sound Bow Snare Arc",
             "Desert Shade Clothes",
             "Ice Sacred Bow Constellation",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "wonder_rino": {
@@ -22247,12 +23095,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oriental Hurricane Bow",
             "Skillful Sound Bow Snare Arc",
             "Desert Shade Clothes",
             "Ice Sacred Bow Constellation",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "christmas_rino": {
@@ -22455,12 +23311,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oriental Hurricane Bow",
             "Sound Engraving Blade Clefton",
             "Desert Shade Clothes",
             "Ice Sacred Bow Constellation",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "maho": {
@@ -22663,12 +23527,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Celestial Beating Timpania",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "summer_maho": {
@@ -22871,12 +23743,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "cinderella_maho": {
@@ -23079,12 +23959,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Ice Cane Frost Staff",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "makoto": {
@@ -23287,12 +24175,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Quicksand Shamshir",
             "Sound Weaving Katana Gertona",
             "Desert Shade Clothes",
             "Ice and Snow Sword Graki Edge",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "summer_makoto": {
@@ -23495,12 +24391,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Quicksand Shamshir",
             "Sound Weaving Katana Gertona",
             "Desert Wind Turban",
             "Ice and Snow Sword Graki Edge",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "cinderella_makoto": {
@@ -23703,12 +24607,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Quicksand Shamshir",
             "Sound Weaving Katana Gertona",
             "Desert Shade Clothes",
             "Ice and Snow Sword Graki Edge",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "mahiru": {
@@ -23911,12 +24823,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Heavenly Sound Axe Buster Horn",
             "Oasis Blue Plate",
             "Keyboard Armor Cimbalom",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Oasis Blue Plate",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "christmas_mahiru": {
@@ -24119,12 +25039,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Heavenly Sound Axe Buster Horn",
             "Desert Wind Turban",
             "Keyboard Armor Cimbalom",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "ranger_mahiru": {
@@ -24327,12 +25255,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Benevolent Heavy Spear Tromspear",
             "Desert Clothmail",
             "Ice Spear Snow Storm",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "muimi": {
@@ -24535,12 +25471,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Dark Desert Edge",
             "Sound Engraving Blade Clefton",
             "Desert Wind Turban",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "new_year_muimi": {
@@ -24743,12 +25687,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Dark Desert Edge",
             "Sound Engraving Blade Clefton",
             "Oasis Blue Plate",
             "Heavy Hoplon Cymbal",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Oasis Blue Plate",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "aoi": {
@@ -24951,12 +25903,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oriental Hurricane Bow",
             "Skillful Sound Bow Snare Arc",
             "Desert Wind Turban",
             "Ice Sacred Bow Constellation",
             "Celestial Beating Timpania",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "work_overalls_aoi": {
@@ -25159,12 +26119,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oriental Hurricane Bow",
             "Skillful Sound Bow Snare Arc",
             "Desert Wind Turban",
             "Keyboard Armor Cimbalom",
             "Celestial Beating Timpania",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "transfer_student_aoi": {
@@ -25367,12 +26335,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oriental Hurricane Bow",
             "Skillful Sound Bow Snare Arc",
             "Desert Wind Turban",
             "Ice Sacred Bow Constellation",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "camp_aoi": {
@@ -25575,12 +26551,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oriental Hurricane Bow",
             "Skillful Sound Bow Snare Arc",
             "Desert Wind Turban",
             "Ice Sacred Bow Constellation",
             "Celestial Beating Timpania",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "inori": {
@@ -25783,12 +26767,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Faas",
             "Benevolent Heavy Spear Tromspear",
             "Oasis Blue Plate",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Oasis Blue Plate",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "phantom_thief_inori": {
@@ -25991,12 +26983,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Faas",
             "Heavenly Sound Axe Buster Horn",
             "Desert Shade Clothes",
             "Ice Breaking Riot Axe",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "time_traveler_inori": {
@@ -26199,12 +27199,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Faas",
             "Heavenly Sound Axe Buster Horn",
             "Desert Clothmail",
             "Ice Breaking Riot Axe",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "misogi": {
@@ -26407,12 +27415,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Desert Clothmail",
             "Keyboard Armor Cimbalom",
             "Tree Tributing Xylophonia",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "misogi_&_mimi_&_kyouka": {
@@ -26615,12 +27631,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Shouting Fist Biolafist",
             "Desert Wind Turban",
             "Ice Fang Styria Dagger",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "summer_misogi": {
@@ -26823,12 +27847,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Desert Clothmail",
             "Keyboard Armor Cimbalom",
             "Tree Tributing Xylophonia",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "halloween_misogi": {
@@ -27031,12 +28063,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Oasis Blue Plate",
             "Ice Block Fist Glass Knuckle",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "akino": {
@@ -27239,12 +28279,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Oasis Blue Plate",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Oasis Blue Plate",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "akino_&_saren": {
@@ -27447,12 +28495,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Wind Turban",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "christmas_akino": {
@@ -27655,12 +28711,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Shade Clothes",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "kuuka": {
@@ -27863,12 +28927,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Dark Desert Edge",
             "Sound Engraving Blade Clefton",
             "Desert Clothmail",
             "Heavy Hoplon Cymbal",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "oedo_kuuka": {
@@ -28071,12 +29143,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "noire_kuuka": {
@@ -28279,12 +29359,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "jun": {
@@ -28487,12 +29575,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Clothmail",
             "Ensemble Armor Brass Horn",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "summer_jun": {
@@ -28695,12 +29791,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Oasis Blue Plate",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Oasis Blue Plate",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "tsumugi": {
@@ -28903,12 +30007,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Oasis Blue Plate",
             "Keyboard Armor Cimbalom",
             "Celestial Beating Timpania",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Oasis Blue Plate",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "summer_tsumugi": {
@@ -29111,12 +30223,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Oasis Blue Plate",
             "Keyboard Armor Cimbalom",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Oasis Blue Plate",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "halloween_tsumugi": {
@@ -29319,12 +30439,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Dark Desert Edge",
             "Sound Engraving Blade Clefton",
             "Oasis Blue Plate",
             "Ensemble Armor Brass Horn",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Oasis Blue Plate",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "ayane": {
@@ -29527,12 +30655,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Faas",
             "Heavenly Sound Axe Buster Horn",
             "Desert Wind Turban",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "christmas_ayane": {
@@ -29735,12 +30871,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Faas",
             "Benevolent Heavy Spear Tromspear",
             "Desert Shade Clothes",
             "Ice Breaking Riot Axe",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "mifuyu": {
@@ -29943,12 +31087,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Heavenly Sound Axe Buster Horn",
             "Desert Clothmail",
             "Keyboard Armor Cimbalom",
             "Celestial Beating Timpania",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Desert Clothmail",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "summer_mifuyu": {
@@ -30151,12 +31303,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Heavenly Sound Axe Buster Horn",
             "Desert Shade Clothes",
             "Ice Spear Snow Storm",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "work_overalls_mifuyu": {
@@ -30359,12 +31519,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Benevolent Heavy Spear Tromspear",
             "Desert Clothmail",
             "Keyboard Armor Cimbalom",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Desert Clothmail",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "misaki": {
@@ -30567,12 +31735,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "stage_misaki": {
@@ -30775,12 +31951,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Ice Cane Frost Staff",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "halloween_misaki": {
@@ -30983,12 +32167,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Magical Hat Tambourine Caskets",
             "Spirit Chant Score Demiscore",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Oasis Ahaldia",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "mimi": {
@@ -31191,12 +32383,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Heavenly Sound Axe Buster Horn",
             "Oasis Blue Plate",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Oasis Blue Plate",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "summer_mimi": {
@@ -31399,12 +32599,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Oasis Blue Plate",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "halloween_mimi": {
@@ -31607,12 +32815,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Heavenly Sound Axe Buster Horn",
             "Desert Clothmail",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Desert Clothmail",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "misato": {
@@ -31815,12 +33031,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Celestial Beating Timpania",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "summer_misato": {
@@ -32023,12 +33247,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Celestial Beating Timpania",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "kurumi": {
@@ -32231,12 +33463,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Faas",
             "Heavenly Sound Axe Buster Horn",
             "Desert Clothmail",
             "Ensemble Armor Brass Horn",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "christmas_kurumi": {
@@ -32439,12 +33679,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Benevolent Heavy Spear Tromspear",
             "Desert Clothmail",
             "Ensemble Armor Brass Horn",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "stage_kurumi": {
@@ -32647,12 +33895,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Faas",
             "Heavenly Sound Axe Buster Horn",
             "Desert Clothmail",
             "Ensemble Armor Brass Horn",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "karin": {
@@ -32855,12 +34111,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Celestial Beating Timpania",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "matsuri": {
@@ -33063,12 +34327,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Dark Desert Edge",
             "Sound Engraving Blade Clefton",
             "Desert Clothmail",
             "Keyboard Armor Cimbalom",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "halloween_matsuri": {
@@ -33271,12 +34543,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Oasis Blue Plate",
             "Ice Block Fist Glass Knuckle",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "akari": {
@@ -33479,12 +34759,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Spirit Chant Score Demiscore",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "angel_akari": {
@@ -33687,12 +34975,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "rima": {
@@ -33895,12 +35191,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Benevolent Heavy Spear Tromspear",
             "Desert Wind Turban",
             "Ensemble Armor Brass Horn",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "cinderella_rima": {
@@ -34103,12 +35407,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Oasis Blue Plate",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "monika": {
@@ -34311,12 +35623,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sound Engraving Blade Clefton",
             "Desert Wind Turban",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "magical_monika": {
@@ -34519,12 +35839,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Wind Turban",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "ranpha": {
@@ -34727,12 +36055,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Magical Hat Tambourine Caskets",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Oasis Ahaldia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "pecorine": {
@@ -34935,12 +36271,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Oasis Blue Plate",
             "Ensemble Armor Brass Horn",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Oasis Blue Plate",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "princess_pecorine": {
@@ -35143,12 +36487,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Clothmail",
             "Ensemble Armor Brass Horn",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "summer_pecorine": {
@@ -35351,12 +36703,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Wind Turban",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "new_year_pecorine": {
@@ -35559,12 +36919,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Clothmail",
             "Keyboard Armor Cimbalom",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "overload_pecorine": {
@@ -35767,12 +37135,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Wind Turban",
             "Tributal Dancing Pumps",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "rin": {
@@ -35975,12 +37351,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Benevolent Heavy Spear Tromspear",
             "Desert Wind Turban",
             "Keyboard Armor Cimbalom",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Desert Wind Turban",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "suzuna": {
@@ -36183,12 +37567,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oriental Hurricane Bow",
             "Skillful Sound Bow Snare Arc",
             "Desert Wind Turban",
             "Ice Sacred Bow Constellation",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "summer_suzuna": {
@@ -36391,12 +37783,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oriental Hurricane Bow",
             "Skillful Sound Bow Snare Arc",
             "Desert Shade Clothes",
             "Ice Sacred Bow Constellation",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "halloween_suzuna": {
@@ -36599,12 +37999,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oriental Hurricane Bow",
             "Skillful Sound Bow Snare Arc",
             "Desert Shade Clothes",
             "Ice Sacred Bow Constellation",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "suzume": {
@@ -36807,12 +38215,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "summer_suzume": {
@@ -37015,12 +38431,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Celestial Beating Timpania",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "new_year_suzume": {
@@ -37223,12 +38647,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Celestial Beating Timpania",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "ranger_rin": {
@@ -37431,12 +38863,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Wind Legacy Spear",
             "Benevolent Heavy Spear Tromspear",
             "Oasis Blue Plate",
             "Ice Spear Snow Storm",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "kyouka": {
@@ -37639,12 +39079,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "halloween_kyouka": {
@@ -37847,12 +39295,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Ice Cane Frost Staff",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "yuki": {
@@ -38055,12 +39511,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "sheffy": {
@@ -38263,12 +39727,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Wind Turban",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "new_year_sheffy": {
@@ -38471,12 +39943,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Wind Turban",
             "Ice Shining Sword Glass Blade",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "oedo_yuki": {
@@ -38679,12 +40159,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "rem": {
@@ -38887,12 +40375,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Faas",
             "Heavenly Sound Axe Buster Horn",
             "Desert Clothmail",
             "Ice Breaking Riot Axe",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "kasumi": {
@@ -39095,12 +40591,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Spirit Chant Score Demiscore",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "summer_kasumi": {
@@ -39303,12 +40807,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oriental Breeze Robe",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "magical_kasumi": {
@@ -39511,12 +41023,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Desert Rain Cane",
             "Charitable Command Staff Artemakillion",
             "Oriental Breeze Robe",
             "Singing Dress Musical Score",
             "Spirit Chant Score Demiscore",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Desert Rain Cane",
+            "",
+            "Oriental Breeze Robe",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "lou": {
@@ -39719,12 +41239,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "luna": {
@@ -39927,12 +41455,20 @@
             "Rocking Chain Bangle"
         ],
         "rank_25": [
-            "",
+            "Ancient Sand Wand",
             "Absolute Sound Cane Accordia",
             "Oasis Ahaldia",
             "Ice and Snow Cane Pergos Wand",
             "Spirit Chant Score Demiscore",
             "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Spirit Chant Score Demiscore"
         ]
     },
     "shizuru": {
@@ -40135,12 +41671,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Clothmail",
             "Ensemble Armor Brass Horn",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "summer_shizuru": {
@@ -40343,12 +41887,20 @@
             "Emerald Gothic Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Desert Clothmail",
             "Heavy Hoplon Cymbal",
             "Celestial Beating Timpania",
             "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Desert Clothmail",
+            "",
+            "Celestial Beating Timpania"
         ]
     },
     "valentine_shizuru": {
@@ -40551,12 +42103,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Oasis Guard Blade",
             "Sword Field Sword Grand Pianos",
             "Oasis Blue Plate",
             "Ensemble Armor Brass Horn",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Oasis Blue Plate",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "kaori": {
@@ -40759,12 +42319,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Desert Shade Clothes",
             "Ice Block Fist Glass Knuckle",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "summer_kaori": {
@@ -40967,12 +42535,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Desert Shade Clothes",
             "Ice Block Fist Glass Knuckle",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     },
     "halloween_kaori": {
@@ -41175,12 +42751,20 @@
             "Punk Needle Bangle"
         ],
         "rank_25": [
-            "",
+            "Heritage Jamadhar",
             "Shouting Fist Biolafist",
             "Oasis Blue Plate",
             "Ice Block Fist Glass Knuckle",
             "Tree Tributing Xylophonia",
             "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Tree Tributing Xylophonia"
         ]
     }
 }

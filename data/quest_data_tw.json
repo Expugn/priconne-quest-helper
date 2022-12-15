@@ -27679,6 +27679,74 @@
             15
         ]
     },
+    "55-1H": {
+        "name": "托塔提斯沙岸‧東部 55-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Oasis Faas Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Desert Clothmail Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Celestial Beating Timpania Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Kurumi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ice Pillar Ring Fragment",
+            "Ice Cane Frost Staff Fragment",
+            "Ice Block Fist Glass Knuckle Fragment",
+            "Heavy Hoplon Cymbal Fragment",
+            "Ice Spear Snow Storm Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-2H": {
+        "name": "托塔提斯沙岸‧東部 55-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Oasis Faas Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Desert Shade Clothes Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Tree Tributing Xylophonia Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Eriko Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Snow Flower Crystal Ring Fragment",
+            "Singing Dress Musical Score Fragment",
+            "Ice Breaking Riot Axe Fragment",
+            "Ice and Snow Sword Graki Edge Fragment",
+            "Ensemble Armor Brass Horn Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "56-1": {
         "name": "歐呂克斯沙島‧北部 56-1",
         "stamina": 10,
@@ -29140,6 +29208,216 @@
             "Brass Knuckles Fragment",
             "Diamond Dust Robe Fragment",
             "Crime Hunt Bow Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "59-8": {
+        "name": "克魯斯密林‧西部 59-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Quicksand Shamshir Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Desert Shade Clothes Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Tree Tributing Xylophonia Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ice Pillar Ring Fragment",
+            "Ice Cane Frost Staff Fragment",
+            "Ice Block Fist Glass Knuckle Fragment",
+            "Heavy Hoplon Cymbal Fragment",
+            "Ice Spear Snow Storm Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "59-9": {
+        "name": "克魯斯密林‧西部 59-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Wind Legacy Spear Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Desert Clothmail Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Celestial Beating Timpania Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Snow Flower Crystal Ring Fragment",
+            "Singing Dress Musical Score Fragment",
+            "Ice Breaking Riot Axe Fragment",
+            "Ice and Snow Sword Graki Edge Fragment",
+            "Ensemble Armor Brass Horn Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "59-10": {
+        "name": "克魯斯密林‧西部 59-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Dark Desert Edge Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Desert Wind Turban Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Oriental Breeze Robe Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Green Aurora Ring Fragment",
+            "Ice Shining Sword Glass Blade Fragment",
+            "Magical Hat Tambourine Caskets Fragment",
+            "Ice Sacred Bow Constellation Fragment",
+            "Ice Pillar Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "59-11": {
+        "name": "克魯斯密林‧西部 59-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Oasis Guard Blade Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Oasis Blue Plate Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Desert Clothmail Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Tributal Dancing Pumps Fragment",
+            "Ice and Snow Cane Pergos Wand Fragment",
+            "Keyboard Armor Cimbalom Fragment",
+            "Ice Fang Styria Dagger Fragment",
+            "Snow Flower Crystal Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "59-12": {
+        "name": "克魯斯密林‧西部 59-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Oasis Faas Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Oriental Hurricane Bow Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Desert Shade Clothes Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ice Pillar Ring Fragment",
+            "Ice Cane Frost Staff Fragment",
+            "Ice Block Fist Glass Knuckle Fragment",
+            "Heavy Hoplon Cymbal Fragment",
+            "Ice Spear Snow Storm Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "59-13": {
+        "name": "克魯斯密林‧西部 59-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Heritage Jamadhar Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Oasis Guard Blade Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Oasis Blue Plate Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Green Aurora Ring Fragment",
+            "Ice Shining Sword Glass Blade Fragment",
+            "Magical Hat Tambourine Caskets Fragment",
+            "Ice Sacred Bow Constellation Fragment",
+            "Ice Pillar Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "59-14": {
+        "name": "克魯斯密林‧西部 59-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Desert Rain Cane Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ancient Sand Wand Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Oasis Ahaldia Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Tributal Dancing Pumps Fragment",
+            "Ice and Snow Cane Pergos Wand Fragment",
+            "Keyboard Armor Cimbalom Fragment",
+            "Ice Fang Styria Dagger Fragment",
+            "Snow Flower Crystal Ring Fragment"
         ],
         "subdrops_percent": [
             24,
