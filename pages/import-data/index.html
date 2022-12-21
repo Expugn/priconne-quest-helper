@@ -408,6 +408,12 @@
                         // GIST IS WRITTEN BY THE CORRECT USER
                         if (response["truncated"] === true) {
                             // GIST IS TRUNCATED (TOO LARGE), FETCH RAW VERSION.
+                            if (!response.files[gist_default_data_file_name]) {
+                                console.log("could not find priconne-quest-helper data in this gist");
+                                document.getElementById("import-failure").innerHTML = "<h2 class='align-center'>Failed to find priconne-quest-helper data!</h2>";
+                                document.getElementById("import-failure").style.display = "block";
+                                return;
+                            }
                             let raw_url = response["files"][gist_default_data_file_name]["raw_url"];
                             console.log("File is truncated... Fetching RAW version: " + raw_url);
 
@@ -424,6 +430,11 @@
                                     document.getElementById("import-failure").style.display = "block";
                                 }
                             });
+                        }
+                        else if (!response.files[gist_default_data_file_name]) {
+                            console.log("could not find priconne-quest-helper data in this gist");
+                            document.getElementById("import-failure").innerHTML = "<h2 class='align-center'>Failed to find priconne-quest-helper data!</h2>";
+                            document.getElementById("import-failure").style.display = "block";
                         }
                         else {
                             // FILE IS COOL AND GOOD
