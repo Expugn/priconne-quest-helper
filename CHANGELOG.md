@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.33.1] - 2022-12-23
+### Added
+- New Character: Jun (Christmas)
+
 ## [2.33.0] - 2022-12-15
 Quest Update (2022-12-15)
 ### Added
