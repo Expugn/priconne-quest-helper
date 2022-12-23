@@ -8368,6 +8368,37 @@
             "Elemental Heart Fragment"
         ]
     },
+    "20-2VH": {
+        "name": "Castalia Woods (West) 20-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Green Butterfly Wand Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Star Nuclear Sword - Ertz Schneide Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Glowing Silver Mirror Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Glowing Silver Mirror Shield Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Maho Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Queen Bee Spear Fragment",
+            "Angel Bow Fragment",
+            "Hermit Clothes Fragment",
+            "Saint's Robe Fragment",
+            "Bangle of Substitution Fragment"
+        ]
+    },
     "21-1": {
         "name": "Castalia Woods (East) 21-1",
         "stamina": 10,
