@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.33.2] - 2022-12-31
+### Added
+- New Characters:
+  - Anne & Grea
+  - Mitsuki (New Year)
+
 ## [2.33.1] - 2022-12-23
 ### Added
 - New Character: Jun (Christmas)
