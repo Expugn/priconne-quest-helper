@@ -11293,6 +11293,37 @@
             15
         ]
     },
+    "25-1VH": {
+        "name": "雷迪乌斯群峰·东麓 25-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Doughnut Choker Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Macaron Pendant Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Black Agate Prayer Dress Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Lollipop Stick Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Akari Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ice Claymore Fragment",
+            "Dark Matter Edge Fragment",
+            "Violet Armor Fragment",
+            "Crusader Plate Fragment",
+            "Sun Amulet Fragment"
+        ]
+    },
     "26-1": {
         "name": "圣彼得大森林・西部 26-1",
         "stamina": 10,
