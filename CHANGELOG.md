@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.33.4] - 2023-01-06
+### Added
+- New Quest: `34-3 VH` (Jun)
+
 ## [2.33.3] - 2023-01-03
 ### Added
 - New Character: Misato (New Year)

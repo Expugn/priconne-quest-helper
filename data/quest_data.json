@@ -17009,6 +17009,44 @@
             15
         ]
     },
+    "34-3VH": {
+        "name": "デクスティア岩崖・西壁 34-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Rose Brute Pendant Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Rose Empress Mail Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Rose Rogue Pendant Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Rose Imperial Sword Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Jun Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Celestial Beating Timpania Fragment",
+            "Shouting Fist Biolafist Fragment",
+            "Desert Clothmail Fragment",
+            "Sword Field Sword Grand Pianos Fragment",
+            "Tree Tributing Xylophonia Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "35-1": {
         "name": "デクスティア岩崖・東壁 35-1",
         "stamina": 10,
