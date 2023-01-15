@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.34.0] - 2023-01-15
+Quest Update (2023-01-15)
+### Added
+- New Character: Homare (New Year)
+- New Equipment
+- New Quests:
+  - `57-3 H`
+  - Chapter 62 Normal Part 1 (`62-1` - `62-7`)
+
 ## [2.33.4] - 2023-01-06
 ### Added
 - New Quest: `34-3 VH` (Jun)
