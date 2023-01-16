@@ -5996,11 +5996,21 @@
         "req_pieces": 25,
         "req_items": []
     },
+    "108553": {
+        "name_tw": "古老紅寶石",
+        "name_jp": "エンシェントルビー",
+        "name": "Ancient Ruby",
+        "id": "orange-42",
+        "has_fragments": true,
+        "fragment_id": "118553",
+        "req_pieces": 25,
+        "req_items": []
+    },
     "108581": {
         "name_tw": "綠色極光戒指",
         "name_jp": "グリーンオーロラリング",
         "name": "Green Aurora Ring",
-        "id": "orange-42",
+        "id": "orange-43",
         "has_fragments": true,
         "fragment_id": "118581",
         "req_pieces": 25,
@@ -6010,9 +6020,19 @@
         "name_tw": "仙撞鼓定音鼓",
         "name_jp": "仙撞鼓ティンパニア",
         "name": "Celestial Beating Timpania",
-        "id": "orange-43",
+        "id": "orange-44",
         "has_fragments": true,
         "fragment_id": "118582",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108583": {
+        "name_tw": "古老綠寶石",
+        "name_jp": "エンシェントエメラルド",
+        "name": "Ancient Emerald",
+        "id": "orange-45",
+        "has_fragments": true,
+        "fragment_id": "118583",
         "req_pieces": 25,
         "req_items": []
     },
@@ -6020,7 +6040,7 @@
         "name_tw": "雪華晶的戒指",
         "name_jp": "雪華晶の指輪",
         "name": "Snow Flower Crystal Ring",
-        "id": "orange-44",
+        "id": "orange-46",
         "has_fragments": true,
         "fragment_id": "118611",
         "req_pieces": 25,
@@ -6030,9 +6050,19 @@
         "name_tw": "神瑤譜半樂譜",
         "name_jp": "神謡譜デミスコア",
         "name": "Spirit Chant Score Demiscore",
-        "id": "orange-45",
+        "id": "orange-47",
         "has_fragments": true,
         "fragment_id": "118612",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "108613": {
+        "name_tw": "古老藍寶石",
+        "name_jp": "エンシェントサファイア",
+        "name": "Ancient Sapphire",
+        "id": "orange-48",
+        "has_fragments": true,
+        "fragment_id": "118613",
         "req_pieces": 25,
         "req_items": []
     }
