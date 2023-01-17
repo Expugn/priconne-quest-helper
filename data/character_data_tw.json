@@ -31103,6 +31103,222 @@
             "Tree Tributing Xylophonia"
         ]
     },
+    "explorer_ayane": {
+        "name_tw": "綾音（探險家）",
+        "unit_id": 123201,
+        "name": "Ayane",
+        "thematic": "Explorer",
+        "name_jp": "アヤネ",
+        "thematic_jp": "エクスプローラー",
+        "rank_1": [
+            "One Handed Axe",
+            "One Handed Axe",
+            "Tree Shield",
+            "One Handed Axe",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "High-Metal Axe",
+            "Metal Axe",
+            "Clothes of Wisdom",
+            "Metal Axe",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Blue Sphere Axe",
+            "High-Metal Axe",
+            "Light Plate",
+            "High-Metal Axe",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Lion's Battle Axe",
+            "Blue Sphere Axe",
+            "Fashion Armor",
+            "Blue Sphere Axe",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Lion's Battle Axe",
+            "Battling Dress",
+            "Lion's Battle Axe",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Shiryuu Axe",
+            "Lightning Axe",
+            "Heavy Metal Armor",
+            "Lion's Battle Axe",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Hell-Fire Axe",
+            "Shiryuu Axe",
+            "Invisible Dress",
+            "Lightning Axe",
+            "Scarlet Diamond",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Queen's Battle Axe",
+            "Hell-Fire Axe",
+            "Mythril Plate",
+            "Shiryuu Axe",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Aqua Slasher",
+            "Queen's Battle Axe",
+            "Crusader Plate",
+            "Hell-Fire Axe",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Necrodim Axe",
+            "Aqua Slasher",
+            "Scarlet Mail",
+            "Heavenly Robe",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Divine Judgement Axe",
+            "Necrodim Axe",
+            "Phantasm Mail",
+            "Scarlet Mail",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Gaia Axe",
+            "Divine Judgement Axe",
+            "Infernal Greaves",
+            "Necrodim Axe",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "God Roar Axe - Terra Break",
+            "Gaia Axe",
+            "Fire Oni's Tori",
+            "Infernal Greaves",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Machine Axe - Core Breaker",
+            "God Roar Axe - Terra Break",
+            "Extremely Dark Clothes",
+            "Fire Oni's Tori",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Turquoise Noah",
+            "Machine Axe - Core Breaker",
+            "Beautiful Clothes - Soul Rose",
+            "Extremely Dark Clothes",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Red Bear Emperor's Claw Battle Axe",
+            "Turquoise Noah",
+            "Eastern Heaven Green Wind Dress",
+            "Beautiful Clothes - Soul Rose",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Brass Cleft Axe",
+            "Red Bear Emperor's Claw Battle Axe",
+            "Holy Light's Lily Plate",
+            "Turquoise Noah",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Crepe Axe",
+            "Brass Cleft Axe",
+            "Pink Coral Dress",
+            "White Haze Flower Dress",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Polar Light Belt Axe",
+            "Crepe Axe",
+            "Fancy Macaron Dress",
+            "Pink Coral Dress",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "Sakura Axe",
+            "Polar Light Belt Axe",
+            "Evening Sakura Purple Armor",
+            "Crepe Axe",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "Whale Axe",
+            "Sakura Axe",
+            "Summer Light Bikini Armor",
+            "Thin Red Sakura Saintly Cloth",
+            "Sakura Dance Double Hairpin",
+            "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "Rocking Groove Axe",
+            "Whale Axe",
+            "Gothic Draped Armor",
+            "Summer Light Bikini Armor",
+            "Ruby Hibiscus Hair Ornament",
+            "Sakura Dance Double Hairpin"
+        ],
+        "rank_23": [
+            "Ice Breaking Riot Axe",
+            "Rocking Groove Axe",
+            "Pure Snow Mail",
+            "Gothic Draped Armor",
+            "Punk Needle Bangle",
+            "Ruby Hibiscus Hair Ornament"
+        ],
+        "rank_24": [
+            "Heavenly Sound Axe Buster Horn",
+            "Ice Breaking Riot Axe",
+            "Keyboard Armor Cimbalom",
+            "Pure Snow Mail",
+            "Ice Pillar Ring",
+            "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "Oasis Faas",
+            "Heavenly Sound Axe Buster Horn",
+            "Desert Clothmail",
+            "Keyboard Armor Cimbalom",
+            "Tree Tributing Xylophonia",
+            "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Oasis Faas",
+            "",
+            "Desert Clothmail",
+            "Ancient Ruby",
+            "Tree Tributing Xylophonia"
+        ]
+    },
     "christmas_ayane": {
         "name_tw": "綾音（聖誕節）",
         "unit_id": 108601,
