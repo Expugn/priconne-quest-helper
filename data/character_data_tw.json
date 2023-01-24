@@ -21167,6 +21167,222 @@
             "Tree Tributing Xylophonia"
         ]
     },
+    "nea": {
+        "name_tw": "涅婭",
+        "unit_id": 123301,
+        "name": "Nea",
+        "thematic": "",
+        "name_jp": "ネア",
+        "thematic_jp": "",
+        "rank_1": [
+            "Wood Grip",
+            "Wood Grip",
+            "Leather Overalls",
+            "Leather Boots",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Leather Knuckle",
+            "Command Knife",
+            "Folklore Clothes",
+            "Cute Caskets",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Leather Knuckle",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Jewel of Love",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Dragon's Claw",
+            "Platinum Knife",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Victory Friendship Bracelet",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Vampire Dagger",
+            "Dragon's Claw",
+            "Palace Cloth",
+            "Fencer Boots",
+            "Emerald Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Blazing Gauntlet",
+            "Vampire Dagger",
+            "Cosmos Cloth",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Palace Cloth"
+        ],
+        "rank_7": [
+            "Lion King Gauntlet",
+            "Blazing Gauntlet",
+            "Moonlight Garment",
+            "Lion King's Protective Charm",
+            "Scarlet Diamond",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Blizzard Claw",
+            "Lion King Gauntlet",
+            "Angel Boots",
+            "Feather Waltz",
+            "Bangle of Substitution",
+            "Lion King's Protective Charm"
+        ],
+        "rank_9": [
+            "Lightning Fist",
+            "Blizzard Claw",
+            "Heavenly Robe",
+            "Lion King Gauntlet",
+            "Moon Bracelet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Moon Cestus",
+            "Lightning Fist",
+            "Dark Terror Dress",
+            "Heavenly Robe",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Crimson Claw",
+            "Moon Cestus",
+            "Aegis Coat",
+            "Dark Terror Dress",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Cocytus Nail",
+            "Crimson Claw",
+            "Maiden Cloth",
+            "Aegis Coat",
+            "Mermaid Princess' Spirit Tear",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Storm God Tempest Gear",
+            "Cocytus Nail",
+            "Rage Queen Dress",
+            "Maiden Cloth",
+            "Glorious King's Shield Bangle",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Extremely Dark Nail - Bloody Howl",
+            "Storm God Tempest Gear",
+            "Senka Dance Armor",
+            "Fire Oni's Tori",
+            "Sea Dragon God's Hair Ornament",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Fist - Elzloa",
+            "Extremely Dark Nail - Bloody Howl",
+            "Flowing Blue Dress - Azul Rondo",
+            "Extremely Dark Clothes",
+            "Shield God Ring - Wall Breath",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Heaven Traveling Hook - Sharp Bite",
+            "Star Nuclear Fist - Elzloa",
+            "Eastern Heaven Green Wind Dress",
+            "Flowing Blue Dress - Azul Rondo",
+            "Elfin Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Opal Sparge Fist",
+            "Heaven Traveling Hook - Sharp Bite",
+            "White Haze Flower Dress",
+            "Eastern Heaven Green Wind Dress",
+            "Jade Harp Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Cream Puff Knuckle",
+            "Opal Sparge Fist",
+            "Platinum Scale Armor",
+            "White Haze Flower Dress",
+            "Evergreen Green Ring",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Sand Dust Knuckle",
+            "Cream Puff Knuckle",
+            "Fancy Macaron Dress",
+            "Platinum Scale Armor",
+            "Macaron Pendant",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "Sakura Hand Brace",
+            "Sand Dust Knuckle",
+            "Scattered Sakura Wide Brimmed Hat",
+            "Fancy Macaron Dress",
+            "Whirlwind Earrings",
+            "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "Turtle Gauntlet",
+            "Sakura Hand Brace",
+            "Summer Light Bikini Armor",
+            "Scattered Sakura Wide Brimmed Hat",
+            "Sakura Flower Moonlight Hairpin",
+            "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "Brass Knuckles",
+            "Turtle Gauntlet",
+            "Punkish Girl",
+            "Summer Light Bikini Armor",
+            "Pearl Coconut Hair Ornament",
+            "Sakura Dance Double Hairpin"
+        ],
+        "rank_23": [
+            "Ice Block Fist Glass Knuckle",
+            "Brass Knuckles",
+            "White Aurora Dress",
+            "Punkish Girl",
+            "Emerald Gothic Bangle",
+            "Ruby Hibiscus Hair Ornament"
+        ],
+        "rank_24": [
+            "Shouting Fist Biolafist",
+            "Ice Block Fist Glass Knuckle",
+            "Keyboard Armor Cimbalom",
+            "White Aurora Dress",
+            "Green Aurora Ring",
+            "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "Heritage Jamadhar",
+            "Shouting Fist Biolafist",
+            "Oasis Blue Plate",
+            "Keyboard Armor Cimbalom",
+            "Celestial Beating Timpania",
+            "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Oasis Blue Plate",
+            "Ancient Emerald",
+            "Tree Tributing Xylophonia"
+        ]
+    },
     "mitsuki": {
         "name_tw": "深月",
         "unit_id": 105101,
