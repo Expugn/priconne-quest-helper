@@ -75,9 +75,15 @@ span.amount:before {
     content: '\00D7';
 }
 
-#url {
+#url, #url2 {
     font-size: 24px;
     margin-bottom: 20px;
+}
+
+#url2 {
+    text-shadow: 1px 1px 1px #000000;
+    color: #a1e9ff;
+    text-decoration: none;
 }
 
 #generated-links button {

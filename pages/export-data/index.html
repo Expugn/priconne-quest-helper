@@ -109,6 +109,9 @@
         <div id="url"></div>
         <button type="button" onclick="copyURLToClipboard()">Copy URL to Clipboard</button>
         <span>URLs older than a month will occasionally be purged.</span>
+        <br/><br/>
+        <a id="url2" href="" target="_blank"></a><br/>
+        <span>Use this URL to import to priconne-quest-helper v3.1</span>
     </div>
 
     <hr>
@@ -120,7 +123,7 @@
 <script>
     let project_data, priority_project_data, blacklist_data, inventory_data, settings_data;
     let project_json, priority_project_json, blacklist_json, inventory_json, settings_json;
-    let url, receiverWindow;
+    let url, url2, receiverWindow;
     const hash = ["b4aj", "zMT2", "ST2S", "dD4f", "9GSV", "Hxjz", "wM2b", "2j1k", "ghp_", "LBF1", "8704351629"];
     let hash_string = "";
 
@@ -136,8 +139,10 @@
             console.log(e.data + " from " + heroku_url);
 
             url += e.data;
+            url2 += e.data;
 
-            document.getElementById("url").innerHTML = url;
+            document.getElementById("url").innerText = url;
+            document.getElementById("url2").innerText = document.getElementById("url2").href = url2;
             document.getElementById("generated-links").style.display = "block";
             document.getElementById("export-settings").style.display = "none";
 
@@ -247,6 +252,7 @@
                 let include_settings = document.getElementById("include-settings").checked;
 
                 url = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/pages/import-data/?id=";
+                url2 = `${window.location.protocol}//spugn.github.io/priconne-quest-helper/data-import?id=`;
 
                 let content;
                 let content_map = new Map();

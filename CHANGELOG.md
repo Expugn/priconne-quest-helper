@@ -3,6 +3,17 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.34.1] - 2023-01-30
+### Added
+- New Characters:
+  - Kaya (Liberator)
+  - Nozomi (Liberator)
+- Added import link for `spugn/priconne-quest-helper` in `pages/data-export`
+- Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
+  - `thematics.liberator`
+### Fixed
+- Fixed broken `spugn/priconne-quest-helper` icon image link
+
 ## [2.34.0] - 2023-01-15
 Quest Update (2023-01-15)
 ### Added
