@@ -17569,6 +17569,44 @@
             15
         ]
     },
+    "35-1VH": {
+        "name": "デクスティア岩崖・東壁 35-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Demon's Bound Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Lance of Corolla Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Variant Demon Horn Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Rose Brute Pendant Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Ayumi Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Tree Tributing Xylophonia Fragment",
+            "Benevolent Heavy Spear Tromspear Fragment",
+            "Desert Shade Clothes Fragment",
+            "Desert Wind Turban Fragment",
+            "Sound Weaving Katana Gertona Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "36-1": {
         "name": "ヴェーナ湖畔道・南部 36-1",
         "stamina": 10,
