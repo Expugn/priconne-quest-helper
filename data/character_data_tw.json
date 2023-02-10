@@ -17711,6 +17711,222 @@
             "Tree Tributing Xylophonia"
         ]
     },
+    "halloween_tomo": {
+        "name_tw": "智（萬聖節）",
+        "unit_id": 123601,
+        "name": "Tomo",
+        "thematic": "Halloween",
+        "name_jp": "トモ",
+        "thematic_jp": "ハロウィン",
+        "rank_1": [
+            "Iron Blade",
+            "Killer Pencil",
+            "Leather Overalls",
+            "Tree Shield",
+            "Iron Blade",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Crescent Sword",
+            "Command Knife",
+            "Clothes of Wisdom",
+            "Legion Helm",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Crescent Sword",
+            "Light Plate",
+            "Tower Shield",
+            "Gear Blade",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Moonlight Sword",
+            "Platinum Knife",
+            "Fashion Armor",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Thunder God Sword",
+            "Moonlight Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Platinum Knife",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Butterfly Katana",
+            "Vampire Dagger",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Bright Sword",
+            "Precious Knife",
+            "Invisible Dress",
+            "Scarlet Diamond",
+            "Feather Blade",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Hawk God's Sword",
+            "Princess' Dagger",
+            "Mythril Plate",
+            "Angel Blade",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Phoenix Sword",
+            "Ice Claymore",
+            "Guardian Shield",
+            "Solar Sword",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Hundred White Blossom Petals Sword",
+            "Unicorn Knife",
+            "Scarlet Mail",
+            "Ice Claymore",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Flowing Azure Blade",
+            "Emerald Dagger",
+            "Aegis Coat",
+            "Chaos Blade",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Blood Raven Sword",
+            "Lava Edge",
+            "Nine Heavens' Armor",
+            "Lightning Blade",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Ifrit Katana - Ignite",
+            "Tír na nÓg Dagger",
+            "Fire Oni's Tori",
+            "Dawn's Holy Sword",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Emerald Wind God's Tachi",
+            "Twin God Sword of Lightning",
+            "Senka Dance Armor",
+            "Great Sword of Sin",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Branch Blade of Divine Descent",
+            "Heavenly Black Sword of Obsidian",
+            "Beautiful Clothes - Soul Rose",
+            "Konominato Sword - Aqua Ruler",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Prosperous Carp God's Katana",
+            "Gehenna Dragon",
+            "Southern Heaven Blazing Blue Armor",
+            "Overlord Light Dragon Sword",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Crimson Jade Katana - Scarlet Moon",
+            "Dark Blade - Heavenly Raven's Guard",
+            "Holy Light's Lily Plate",
+            "Star Nuclear Sword - Ertz Schneide",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Soft Ice Sherbet",
+            "Jade Wind Blade - Emerald Edge",
+            "Pink Coral Dress",
+            "Rabbit God's Great Sword",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Summer Breeze's Blossom",
+            "Chocolate Banana Dagger",
+            "Chocolate Mail",
+            "Shining Sword - Adamas",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "Yoito Kage Sakura",
+            "Purple Mist Dagger",
+            "Evening Sakura Purple Armor",
+            "Choco Stick Blade",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "Orca Sword",
+            "Cherry Petal Dagger",
+            "Sunflower Straw Hat",
+            "Blazing Red Sun Sword",
+            "Sakura Dance Double Hairpin",
+            "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "Chain Fury Sword",
+            "Shark Dagger",
+            "Pierced Black",
+            "Cherry Blossom",
+            "Ruby Hibiscus Hair Ornament",
+            "Sakura Dance Double Hairpin"
+        ],
+        "rank_23": [
+            "Ice and Snow Sword Graki Edge",
+            "Thunder Punk Dagger",
+            "Snowflake Beret",
+            "Clione Blade",
+            "Punk Needle Bangle",
+            "Ruby Hibiscus Hair Ornament"
+        ],
+        "rank_24": [
+            "Sound Weaving Katana Gertona",
+            "Ice Fang Styria Dagger",
+            "Heavy Hoplon Cymbal",
+            "Riot Spike",
+            "Ice Pillar Ring",
+            "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "Quicksand Shamshir",
+            "Sound Engraving Blade Clefton",
+            "Desert Wind Turban",
+            "Ice Shining Sword Glass Blade",
+            "Tree Tributing Xylophonia",
+            "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Dark Desert Edge",
+            "",
+            "Sword Field Sword Grand Pianos",
+            "Ancient Ruby",
+            "Tree Tributing Xylophonia"
+        ]
+    },
     "magical_tomo": {
         "name_tw": "智（魔法少女）",
         "unit_id": 114301,
@@ -39525,6 +39741,222 @@
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Spirit Chant Score Demiscore"
+        ]
+    },
+    "halloween_rin": {
+        "name_tw": "鈴（萬聖節）",
+        "unit_id": 123501,
+        "name": "Rin",
+        "thematic": "Halloween",
+        "name_jp": "リン",
+        "thematic_jp": "ハロウィン",
+        "rank_1": [
+            "Steel Spear",
+            "Steel Spear",
+            "Leather Overalls",
+            "Leather Boots",
+            "Steel Spear",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Flame Spear",
+            "Metal Axe",
+            "Folklore Clothes",
+            "Cute Caskets",
+            "Steel Spear",
+            "Protective Pendant"
+        ],
+        "rank_3": [
+            "Knight's Pride",
+            "Flame Spear",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Trident",
+            "Jewel of Love"
+        ],
+        "rank_4": [
+            "Absolute Spear",
+            "Knight's Pride",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Flame Spear",
+            "Victory Friendship Bracelet"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Absolute Spear",
+            "Palace Cloth",
+            "Dragon Head",
+            "Knight's Pride",
+            "Emerald Earrings"
+        ],
+        "rank_6": [
+            "Scarlet Dragon",
+            "Lightning Axe",
+            "Cosmos Cloth",
+            "Dragon Head",
+            "Lion Eagle's Feather",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Queen Bee Spear",
+            "Scarlet Dragon",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Lion King's Protective Charm",
+            "Garnet Shield"
+        ],
+        "rank_8": [
+            "Storm Bringer",
+            "Queen Bee Spear",
+            "Hermit Clothes",
+            "Scarlet Dragon",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Gaia Bardiche",
+            "Storm Bringer",
+            "Crusader Plate",
+            "Queen Bee Spear",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Zero Frost Lance",
+            "Gaia Bardiche",
+            "Dragonic Armor",
+            "Storm Bringer",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Gale Stinger",
+            "Zero Frost Lance",
+            "Phantasm Mail",
+            "Gaia Bardiche",
+            "Millennium Earrings",
+            "Cat God Pendant"
+        ],
+        "rank_12": [
+            "Heaven's Protective Holy Spear",
+            "Gale Stinger",
+            "Infernal Greaves",
+            "Zero Frost Lance",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Divine Spear - Doom Pain",
+            "Heaven's Protective Holy Spear",
+            "Rage Queen Dress",
+            "Gale Stinger",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Fire Spear - Prominence",
+            "Divine Spear - Doom Pain",
+            "Senka Dance Armor",
+            "Heaven's Protective Holy Spear",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Spear - Ertz Borg",
+            "Fire Spear - Prominence",
+            "Glowing Silver Mirror Armor",
+            "Divine Spear - Doom Pain",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Saintly Deer Spear - Alma Benard",
+            "Star Nuclear Spear - Ertz Borg",
+            "Northern Heaven Supreme Flame Armor",
+            "Fire Spear - Prominence",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Crystallos Spike",
+            "Saintly Deer Spear - Alma Benard",
+            "Overlord Thorn Armor",
+            "Star Nuclear Spear - Ertz Borg",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Chocolate Lance",
+            "Crystallos Spike",
+            "Holy Engraved Armor of Pure Gold",
+            "Saintly Deer Spear - Alma Benard",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Lightning Spear",
+            "Chocolate Lance",
+            "Rose Strawberry Armor",
+            "Crystallos Spike",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "Sakura Gust Spear",
+            "Lightning Spear",
+            "Sakura Eight Weight Armor",
+            "Chocolate Lance",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "Crab Scissor Spear",
+            "Sakura Gust Spear",
+            "Beach Floater Mail",
+            "Lightning Spear",
+            "Sakura Dance Double Hairpin",
+            "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "Skull Gothic Lance",
+            "Crab Scissor Spear",
+            "Gothic Maiden",
+            "Sakura Gust Spear",
+            "Ruby Hibiscus Hair Ornament",
+            "Sakura Dance Double Hairpin"
+        ],
+        "rank_23": [
+            "Ice Spear Snow Storm",
+            "Skull Gothic Lance",
+            "Crystal Ice Mail",
+            "Crab Scissor Spear",
+            "Punk Needle Bangle",
+            "Ruby Hibiscus Hair Ornament"
+        ],
+        "rank_24": [
+            "Benevolent Heavy Spear Tromspear",
+            "Ice Spear Snow Storm",
+            "Keyboard Armor Cimbalom",
+            "Skull Gothic Lance",
+            "Ice Pillar Ring",
+            "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "Wind Legacy Spear",
+            "Benevolent Heavy Spear Tromspear",
+            "Oasis Blue Plate",
+            "Ice Spear Snow Storm",
+            "Tree Tributing Xylophonia",
+            "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "Ancient Ruby",
+            "Tree Tributing Xylophonia"
         ]
     },
     "ranger_rin": {
