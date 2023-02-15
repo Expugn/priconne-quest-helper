@@ -4911,6 +4911,93 @@
         "req_pieces": 25,
         "req_items": []
     },
+    "109011": {
+        "name_jp": "デモンヴィクティムソード",
+        "name": "Demon Victim Sword",
+        "id": "lightblue-1",
+        "has_fragments": true,
+        "fragment_id": "119011",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "109041": {
+        "name_jp": "デモンズスカーブレード",
+        "name": "Demon's Scar Blade",
+        "id": "lightblue-2",
+        "has_fragments": true,
+        "fragment_id": "129041",
+        "req_pieces": 15,
+        "req_items": [
+            "Riot Spike"
+        ]
+    },
+    "109071": {
+        "name_jp": "豪魔ノ爪刃",
+        "name": "Powerful Demon Nail Blade",
+        "id": "lightblue-3",
+        "has_fragments": true,
+        "fragment_id": "119071",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "109101": {
+        "name_jp": "デモンパニッシュフィスト",
+        "name": "Demon Punish Fist",
+        "id": "lightblue-4",
+        "has_fragments": true,
+        "fragment_id": "119101",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "109131": {
+        "name_jp": "ディアブロマッシェーラ",
+        "name": "Diablo Maschera",
+        "id": "lightblue-5",
+        "has_fragments": true,
+        "fragment_id": "129131",
+        "req_pieces": 15,
+        "req_items": [
+            "White Aurora Dress"
+        ]
+    },
+    "109161": {
+        "name_jp": "デビルドミニオンランス",
+        "name": "Devil Dominion Lance",
+        "id": "lightblue-6",
+        "has_fragments": true,
+        "fragment_id": "119161",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "109191": {
+        "name_jp": "デモンズデストラクション",
+        "name": "Demon's Destruction",
+        "id": "lightblue-7",
+        "has_fragments": true,
+        "fragment_id": "129191",
+        "req_pieces": 15,
+        "req_items": [
+            "Brass Knuckles"
+        ]
+    },
+    "109221": {
+        "name_jp": "デモンズコアワンド",
+        "name": "Demon's Core Wand",
+        "id": "lightblue-8",
+        "has_fragments": true,
+        "fragment_id": "119221",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "109251": {
+        "name_jp": "ロッドオブデモンズハート",
+        "name": "Rod of Demon's Heart",
+        "id": "lightblue-9",
+        "has_fragments": true,
+        "fragment_id": "119251",
+        "req_pieces": 25,
+        "req_items": []
+    },
     "31002": {
         "name_jp": "ユイのメモリーピース",
         "name": "Yui Shard",

@@ -32,6 +32,7 @@
       "red_title": "红装",
       "green_title": "绿色装",
       "orange_title": "橙色装",
+      "lightblue_title": "浅蓝装",
       "miscellaneous_title": "其他",
 
       "requested_items_title": "装备需求清单",
@@ -233,6 +234,7 @@
       "misaki": "美咲",
       "misato": "美里",
       "misogi": "未奏希/禊",
+      "misora": "美空",
       "mitsuki": "深月",
       "miyako": "宫子",
       "monika": "莫妮卡",

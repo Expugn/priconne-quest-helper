@@ -365,6 +365,10 @@ span.rank-27 {
     color: rgb(255, 170, 24);
 }
 
+span.rank-28 {
+    color: rgb(8, 251, 247);
+}
+
 @media (max-width: 600px) {
     .main_title,
     .sub_title {

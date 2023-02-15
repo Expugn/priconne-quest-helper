@@ -97,7 +97,8 @@ i.footer {
 #ignore-button-purple,
 #ignore-button-red,
 #ignore-button-green,
-#ignore-button-orange {
+#ignore-button-orange,
+#ignore-button-lightblue {
     border: none;
     margin: 0;
     text-decoration: none;
@@ -115,7 +116,8 @@ i.footer {
 #ignore-button-purple.disabled,
 #ignore-button-red.disabled,
 #ignore-button-green.disabled,
-#ignore-button-orange.disabled {
+#ignore-button-orange.disabled,
+#ignore-button-lightblue.disabled {
     -webkit-filter: opacity(30%);
     filter: opacity(30%);
 }

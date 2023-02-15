@@ -3,6 +3,20 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.35.0] - 2023-02-15
+Quest Update (2023-02-15)
+### Added
+- Light Blue/Sky Blue Equipment Support
+- Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
+  - `items_tab.lightblue_title`
+  - `character_names.misora`
+- Rank 28 Support
+- New Equipment
+- New Quests:
+  - `58-1 H` and `58-2 H`
+  - Chapter 62 Normal Part 2 (`62-8` - `62-14`)
+- New Character: Muimi (Liberator)
+
 ## [2.34.2] - 2023-02-07
 ### Added
 - New Quest: `35-1 VH` (Ayumi)

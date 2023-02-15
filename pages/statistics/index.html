@@ -87,6 +87,7 @@
         <button id="ignore-button-red" class="webpage webpage-Placeholder_Red" title="Ignore Red Items" onclick="toggle_rarity(this)"></button>
         <button id="ignore-button-green" class="webpage webpage-Placeholder_Green" title="Ignore Green Items" onclick="toggle_rarity(this)"></button>
         <button id="ignore-button-orange" class="webpage webpage-Placeholder_Orange" title="Ignore Orange Items" onclick="toggle_rarity(this)"></button>
+        <button id="ignore-button-lightblue" class="webpage webpage-Placeholder_LightBlue" title="Ignore Light Blue Items" onclick="toggle_rarity(this)"></button>
     </div>
     <div id="data-settings">
         <button id="version-history-button" onclick="toggle_version_history_display()" disabled>Version History</button>
@@ -224,7 +225,8 @@
         "purple": !$("#ignore-button-purple").hasClass("disabled"),
         "red": !$("#ignore-button-red").hasClass("disabled"),
         "green": !$("#ignore-button-green").hasClass("disabled"),
-        "orange": !$("#ignore-button-orange").hasClass("disabled")
+        "orange": !$("#ignore-button-orange").hasClass("disabled"),
+        "lightblue": !$("#ignore-button-lightblue").hasClass("disabled")
     };
     let equipment_sorted, ingredient_sorted, current_display = display.EQUIPMENT;
     window.onload = function () {
@@ -395,7 +397,8 @@
             "purple": !$("#ignore-button-purple").hasClass("disabled"),
             "red": !$("#ignore-button-red").hasClass("disabled"),
             "green": !$("#ignore-button-green").hasClass("disabled"),
-            "orange": !$("#ignore-button-orange").hasClass("disabled")
+            "orange": !$("#ignore-button-orange").hasClass("disabled"),
+            "lightblue": !$("#ignore-button-lightblue").hasClass("disabled")
         };
 
         let counter = 0;
