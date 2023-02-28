@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.35.1] - 2023-02-28
+### Added
+- New Character: Misora
+
 ## [2.35.0] - 2023-02-15
 Quest Update (2023-02-15)
 ### Added
