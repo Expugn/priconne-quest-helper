@@ -11355,6 +11355,37 @@
             "Sun Amulet Fragment"
         ]
     },
+    "25-3VH": {
+        "name": "雷迪乌斯群峰·东麓 25-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Sand Dust Knuckle Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Chocolate Mint Ice Heels Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "White Rain Bow Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Doughnut Choker Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Misogi Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ice Claymore Fragment",
+            "Dark Matter Edge Fragment",
+            "Violet Armor Fragment",
+            "Crusader Plate Fragment",
+            "Sun Amulet Fragment"
+        ]
+    },
     "26-1": {
         "name": "圣彼得大森林・西部 26-1",
         "stamina": 10,
@@ -11875,6 +11906,68 @@
             20,
             17,
             15
+        ]
+    },
+    "26-1VH": {
+        "name": "圣彼得大森林·西部 26-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Blazing Red Sun Sword Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Rose Strawberry Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Summer Breeze's Blossom Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Popcorn Necklace Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mimi Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ice Claymore Fragment",
+            "Dark Matter Edge Fragment",
+            "Violet Armor Fragment",
+            "Crusader Plate Fragment",
+            "Sun Amulet Fragment"
+        ]
+    },
+    "26-2VH": {
+        "name": "圣彼得大森林·西部 26-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Dark Moon Arc Cane Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Sheet Tart Beret Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Polar Light Belt Axe Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Macaron Pendant Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Kyouka Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ice Claymore Fragment",
+            "Dark Matter Edge Fragment",
+            "Violet Armor Fragment",
+            "Crusader Plate Fragment",
+            "Sun Amulet Fragment"
         ]
     },
     "27-1": {
