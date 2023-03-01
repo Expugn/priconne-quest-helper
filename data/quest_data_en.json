@@ -8895,6 +8895,37 @@
             "Bangle of Substitution Fragment"
         ]
     },
+    "21-3VH": {
+        "name": "Castalia Woods (East) 21-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Star Nuclear Spear - Ertz Borg Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Glowing Silver Mirror Shield Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Turquoise Noah Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Hatsune Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rod of Life Fragment",
+            "Rod of Sun Fragment",
+            "Angel Boots Fragment",
+            "Pope's Hood Fragment",
+            "Mourning Crescent Moon Fragment"
+        ]
+    },
     "22-1": {
         "name": "Mathilde Ridges (South) 22-1",
         "stamina": 10,
