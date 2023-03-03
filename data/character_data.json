@@ -45044,6 +45044,237 @@
             "Rose Rogue Pendant"
         ]
     },
+    "cafe_tamaki": {
+        "unit_id": 125101,
+        "name": "Tamaki",
+        "thematic": "Cafe",
+        "name_jp": "タマキ",
+        "thematic_jp": "カフェ",
+        "rank_1": [
+            "Killer Pencil",
+            "Killer Pencil",
+            "Leather Overalls",
+            "Leather Boots",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Crescent Sword",
+            "Command Knife",
+            "Crown Boots",
+            "Crown Boots",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Crescent Sword",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Moonlight Sword",
+            "Shinobi Shoes",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Vampire Dagger",
+            "Moonlight Sword",
+            "Palace Cloth",
+            "Fencer Boots",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Precious Knife",
+            "Vampire Dagger",
+            "Cosmos Cloth",
+            "Fencer Boots",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Princess' Dagger",
+            "Precious Knife",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Vampire Dagger",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Dark Matter Edge",
+            "Princess' Dagger",
+            "Hermit Clothes",
+            "Paladin Greave",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Unicorn Knife",
+            "Dark Matter Edge",
+            "Heavenly Robe",
+            "Hermit Clothes",
+            "Moon Bracelet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Emerald Dagger",
+            "Unicorn Knife",
+            "Faireal Boots",
+            "Heavenly Robe",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Lava Edge",
+            "Emerald Dagger",
+            "Astrograph Buckler",
+            "Dark Terror Dress",
+            "Millennium Earrings",
+            "Cat God Pendant"
+        ],
+        "rank_12": [
+            "Tír na nÓg Dagger",
+            "Lava Edge",
+            "Nine Heavens' Armor",
+            "Aegis Coat",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Twin God Sword of Lightning",
+            "Tír na nÓg Dagger",
+            "Fire Oni's Tori",
+            "Maiden Cloth",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Heavenly Black Sword of Obsidian",
+            "Twin God Sword of Lightning",
+            "Extremely Dark Clothes",
+            "Fire Oni's Tori",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Gehenna Dragon",
+            "Heavenly Black Sword of Obsidian",
+            "Flowing Blue Dress - Azul Rondo",
+            "Extremely Dark Clothes",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Dark Blade - Heavenly Raven's Guard",
+            "Gehenna Dragon",
+            "Eastern Heaven Green Wind Dress",
+            "Flowing Blue Dress - Azul Rondo",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Jade Wind Blade - Emerald Edge",
+            "Dark Blade - Heavenly Raven's Guard",
+            "White Haze Flower Dress",
+            "Eastern Heaven Green Wind Dress",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Chocolate Banana Dagger",
+            "Jade Wind Blade - Emerald Edge",
+            "Pink Coral Dress",
+            "White Haze Flower Dress",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Purple Mist Dagger",
+            "Chocolate Banana Dagger",
+            "Fancy Macaron Dress",
+            "Pink Coral Dress",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "Cherry Petal Dagger",
+            "Purple Mist Dagger",
+            "Thin Red Sakura Saintly Cloth",
+            "Fancy Macaron Dress",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "Shark Dagger",
+            "Cherry Petal Dagger",
+            "Summer Reflection Yukata of Morning Glory",
+            "Thin Red Sakura Saintly Cloth",
+            "Sakura Dance Double Hairpin",
+            "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "Thunder Punk Dagger",
+            "Shark Dagger",
+            "Pierced Black",
+            "Summer Reflection Yukata of Morning Glory",
+            "Ruby Hibiscus Hair Ornament",
+            "Sakura Dance Double Hairpin"
+        ],
+        "rank_23": [
+            "Ice Fang Styria Dagger",
+            "Thunder Punk Dagger",
+            "Snowflake Beret",
+            "Pierced Black",
+            "Punk Needle Bangle",
+            "Ruby Hibiscus Hair Ornament"
+        ],
+        "rank_24": [
+            "Sound Engraving Blade Clefton",
+            "Ice Fang Styria Dagger",
+            "Tributal Dancing Pumps",
+            "Snowflake Beret",
+            "Ice Pillar Ring",
+            "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "Dark Desert Edge",
+            "Sound Engraving Blade Clefton",
+            "Desert Wind Turban",
+            "Tributal Dancing Pumps",
+            "Tree Tributing Xylophonia",
+            "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "Thorn of Roses",
+            "Dark Desert Edge",
+            "Rose Priestess Dress",
+            "Desert Wind Turban",
+            "Ancient Ruby",
+            "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "Powerful Demon Nail Blade",
+            "Thorn of Roses",
+            "Variant Demon Horn",
+            "Rose Priestess Dress",
+            "Rose Rogue Pendant",
+            "Ancient Ruby"
+        ],
+        "rank_28": [
+            "",
+            "Powerful Demon Nail Blade",
+            "",
+            "Variant Demon Horn",
+            "",
+            "Rose Rogue Pendant"
+        ]
+    },
     "summer_tamaki": {
         "unit_id": 107901,
         "name": "Tamaki",

@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.35.2] - 2023-03-03
+### Added
+- New Character: Tamaki (Cafe)
+- Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
+  - `thematics.cafe`
+
 ## [2.35.1] - 2023-02-28
 ### Added
 - New Character: Misora
