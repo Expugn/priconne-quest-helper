@@ -5399,6 +5399,222 @@
             "Tree Tributing Xylophonia"
         ]
     },
+    "wild_christina": {
+        "name_tw": "克莉絲提娜（狂野）",
+        "unit_id": 123801,
+        "name": "Christina",
+        "thematic": "Wild",
+        "name_jp": "クリスティーナ",
+        "thematic_jp": "ワイルド",
+        "rank_1": [
+            "Wood Grip",
+            "Wood Grip",
+            "Leather Overalls",
+            "Leather Boots",
+            "Killer Pencil",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Leather Knuckle",
+            "Command Knife",
+            "Folklore Clothes",
+            "Crown Boots",
+            "Wood Grip",
+            "Protective Pendant"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Leather Knuckle",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Command Knife",
+            "Jewel of Love"
+        ],
+        "rank_4": [
+            "Dragon's Claw",
+            "Platinum Knife",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Leather Knuckle",
+            "Victory Friendship Bracelet"
+        ],
+        "rank_5": [
+            "Vampire Dagger",
+            "Dragon's Claw",
+            "Palace Cloth",
+            "Fencer Boots",
+            "Platinum Knife",
+            "Emerald Earrings"
+        ],
+        "rank_6": [
+            "Blazing Gauntlet",
+            "Vampire Dagger",
+            "Cosmos Cloth",
+            "Fencer Boots",
+            "Lion Eagle's Feather",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Lion King Gauntlet",
+            "Blazing Gauntlet",
+            "Moonlight Garment",
+            "Lion King's Protective Charm",
+            "Vampire Dagger",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Blizzard Claw",
+            "Lion King Gauntlet",
+            "Hermit Clothes",
+            "Blazing Gauntlet",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Lightning Fist",
+            "Blizzard Claw",
+            "Heavenly Robe",
+            "Lion King Gauntlet",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Moon Cestus",
+            "Lightning Fist",
+            "Scarlet Mail",
+            "Blizzard Claw",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Crimson Claw",
+            "Moon Cestus",
+            "Aegis Coat",
+            "Dark Terror Dress",
+            "Millennium Earrings",
+            "Cat God Pendant"
+        ],
+        "rank_12": [
+            "Cocytus Nail",
+            "Crimson Claw",
+            "Nine Heavens' Armor",
+            "Aegis Coat",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Storm God Tempest Gear",
+            "Cocytus Nail",
+            "Fire Oni's Tori",
+            "Maiden Cloth",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Extremely Dark Nail - Bloody Howl",
+            "Storm God Tempest Gear",
+            "Extremely Dark Clothes",
+            "Fire Oni's Tori",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Fist - Elzloa",
+            "Extremely Dark Nail - Bloody Howl",
+            "Beautiful Clothes - Soul Rose",
+            "Extremely Dark Clothes",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Heaven Traveling Hook - Sharp Bite",
+            "Star Nuclear Fist - Elzloa",
+            "Southern Heaven Blazing Blue Armor",
+            "Beautiful Clothes - Soul Rose",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Opal Sparge Fist",
+            "Heaven Traveling Hook - Sharp Bite",
+            "Holy Light's Lily Plate",
+            "Southern Heaven Blazing Blue Armor",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Cream Puff Knuckle",
+            "Opal Sparge Fist",
+            "Platinum Scale Armor",
+            "Holy Light's Lily Plate",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Sand Dust Knuckle",
+            "Cream Puff Knuckle",
+            "Chocolate Mail",
+            "Platinum Scale Armor",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "Sakura Hand Brace",
+            "Sand Dust Knuckle",
+            "Evening Sakura Purple Armor",
+            "Chocolate Mail",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "Turtle Gauntlet",
+            "Sakura Hand Brace",
+            "Summer Light Bikini Armor",
+            "Evening Sakura Purple Armor",
+            "Sakura Dance Double Hairpin",
+            "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "Brass Knuckles",
+            "Turtle Gauntlet",
+            "Gothic Draped Armor",
+            "Summer Light Bikini Armor",
+            "Ruby Hibiscus Hair Ornament",
+            "Sakura Dance Double Hairpin"
+        ],
+        "rank_23": [
+            "Ice Block Fist Glass Knuckle",
+            "Brass Knuckles",
+            "Pure Snow Mail",
+            "Gothic Draped Armor",
+            "Punk Needle Bangle",
+            "Ruby Hibiscus Hair Ornament"
+        ],
+        "rank_24": [
+            "Shouting Fist Biolafist",
+            "Ice Block Fist Glass Knuckle",
+            "Heavy Hoplon Cymbal",
+            "Pure Snow Mail",
+            "Ice Pillar Ring",
+            "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "Heritage Jamadhar",
+            "Shouting Fist Biolafist",
+            "Desert Clothmail",
+            "Heavy Hoplon Cymbal",
+            "Tree Tributing Xylophonia",
+            "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "",
+            "Heritage Jamadhar",
+            "Rose Empress Mail",
+            "Desert Clothmail",
+            "Ancient Ruby",
+            "Tree Tributing Xylophonia"
+        ]
+    },
     "christmas_christina": {
         "name_tw": "克莉絲提娜（聖誕節）",
         "unit_id": 111501,
