@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.35.3] - 2023-03-07
+### Added
+- New Quest: `35-2 VH` (Christina)
+
 ## [2.35.2] - 2023-03-03
 ### Added
 - New Character: Tamaki (Cafe)
