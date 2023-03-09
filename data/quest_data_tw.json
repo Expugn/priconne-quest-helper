@@ -16933,6 +16933,44 @@
             15
         ]
     },
+    "34-1VH": {
+        "name": "迪克斯提亞岩崖‧西壁 34-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Rose Priestess Dress Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Oasis Guard Blade Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Blue Rose Shield Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Ancient Ruby Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Sheffy Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Green Aurora Ring Fragment",
+            "Ice Shining Sword Glass Blade Fragment",
+            "Magical Hat Tambourine Caskets Fragment",
+            "Ice Sacred Bow Constellation Fragment",
+            "Ice Pillar Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "35-1": {
         "name": "迪克斯提亞岩崖‧東壁 35-1",
         "stamina": 10,
