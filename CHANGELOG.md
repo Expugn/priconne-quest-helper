@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.35.4] - 2023-03-09
+### Added
+- New Character: Monika (Cafe)
+
 ## [2.35.3] - 2023-03-07
 ### Added
 - New Quest: `35-2 VH` (Christina)

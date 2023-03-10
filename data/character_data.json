@@ -30722,6 +30722,237 @@
             "Rose Brute Pendant"
         ]
     },
+    "cafe_monika": {
+        "unit_id": 125201,
+        "name": "Monika",
+        "thematic": "Cafe",
+        "name_jp": "モニカ",
+        "thematic_jp": "カフェ",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Iron Blade",
+            "Tree Shield",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Blue Blood",
+            "Gear Blade",
+            "Clothes of Wisdom",
+            "Command Knife",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Blue Blood",
+            "Blue Blood",
+            "Tower Shield",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Sparkling Sword",
+            "Gorgeous Armor",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Ryuumon Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Feather Blade",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Angel Blade",
+            "Paladin Greave",
+            "Feather Blade",
+            "Lion King's Protective Charm",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Angel Boots",
+            "Elemental Heart",
+            "Bangle of Substitution",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Guardian Shield",
+            "Vermilion Plate",
+            "Ice Claymore",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Dragonic Armor",
+            "Ice Claymore",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Lightning Blade",
+            "Phantasm Mail",
+            "Chaos Blade",
+            "Phantasm Mail",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Dawn's Holy Sword",
+            "Infernal Greaves",
+            "Lightning Blade",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Gold King's Armor",
+            "Holy Sakura's Armor",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "Konominato Sword - Aqua Ruler",
+            "Furious Wind Armor",
+            "Gold King's Armor",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Sword - Ertz Schneide",
+            "Overlord Light Dragon Sword",
+            "Glowing Silver Mirror Shield",
+            "Sky Soaring Gold Shoes",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Rabbit God's Great Sword",
+            "Star Nuclear Sword - Ertz Schneide",
+            "Heavenly Wing Saint Shoes",
+            "Overlord Light Dragon Sword",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Shining Sword - Adamas",
+            "Rabbit God's Great Sword",
+            "Sacred Ring - Heavenly Lotus",
+            "Heavenly Wing Saint Shoes",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Choco Stick Blade",
+            "Shining Sword - Adamas",
+            "Iolite Shield",
+            "Rabbit God's Great Sword",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Blazing Red Sun Sword",
+            "Choco Stick Blade",
+            "Chocolate Mint Ice Heels",
+            "Shining Sword - Adamas",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "Cherry Blossom",
+            "Blazing Red Sun Sword",
+            "Scattered Sakura Wide Brimmed Hat",
+            "Choco Stick Blade",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "Clione Blade",
+            "Cherry Blossom",
+            "Summer Reflection Yukata of Morning Glory",
+            "Blazing Red Sun Sword",
+            "Sakura Dance Double Hairpin",
+            "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "Riot Spike",
+            "Clione Blade",
+            "Punkish Girl",
+            "Cherry Blossom",
+            "Ruby Hibiscus Hair Ornament",
+            "Sakura Dance Double Hairpin"
+        ],
+        "rank_23": [
+            "Ice Shining Sword Glass Blade",
+            "Riot Spike",
+            "White Aurora Dress",
+            "Clione Blade",
+            "Punk Needle Bangle",
+            "Ruby Hibiscus Hair Ornament"
+        ],
+        "rank_24": [
+            "Sword Field Sword Grand Pianos",
+            "Ice Shining Sword Glass Blade",
+            "Tributal Dancing Pumps",
+            "Riot Spike",
+            "Ice Pillar Ring",
+            "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "Oasis Guard Blade",
+            "Sword Field Sword Grand Pianos",
+            "Desert Wind Turban",
+            "Ice Shining Sword Glass Blade",
+            "Tree Tributing Xylophonia",
+            "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "Rose Imperial Sword",
+            "Oasis Guard Blade",
+            "Rose Priestess Dress",
+            "Sword Field Sword Grand Pianos",
+            "Ancient Ruby",
+            "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "Demon Victim Sword",
+            "Rose Imperial Sword",
+            "Variant Demon Horn",
+            "Oasis Guard Blade",
+            "Rose Rogue Pendant",
+            "Ancient Ruby"
+        ],
+        "rank_28": [
+            "",
+            "Demon Victim Sword",
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Rogue Pendant"
+        ]
+    },
     "magical_monika": {
         "unit_id": 114201,
         "name": "Monika",
