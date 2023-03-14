@@ -129,7 +129,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Chaotic Choker",
             "Shield God Ring - Wall Breath"
@@ -265,7 +265,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -401,7 +401,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -537,7 +537,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -673,7 +673,7 @@
         "rank_16": [
             "",
             "Star Nuclear Bow - Erzvogen",
-            "",
+            "Eastern Heaven Green Wind Dress",
             "Ice Bow - Freezing Tear",
             "Elfin Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -809,7 +809,7 @@
         "rank_16": [
             "",
             "Star Nuclear Bow - Erzvogen",
-            "",
+            "Eastern Heaven Green Wind Dress",
             "Ice Bow - Freezing Tear",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -945,7 +945,7 @@
         "rank_16": [
             "",
             "Star Nuclear Bow - Erzvogen",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Ice Bow - Freezing Tear",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -1081,7 +1081,7 @@
         "rank_16": [
             "",
             "Turquoise Noah",
-            "",
+            "Eastern Heaven Green Wind Dress",
             "Glowing Silver Mirror Shield",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -1217,7 +1217,7 @@
         "rank_16": [
             "",
             "Star Nuclear Spear - Ertz Borg",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Machine Axe - Core Breaker",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -1353,10 +1353,146 @@
         "rank_16": [
             "",
             "Star Nuclear Spear - Ertz Borg",
-            "",
+            "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
+        ]
+    },
+    "chieru": {
+        "name_en": "Chieru",
+        "unit_id": 110901,
+        "name": "Chieru",
+        "thematic": "",
+        "name_jp": "チエル",
+        "thematic_jp": "",
+        "rank_1": [
+            "Wood Grip",
+            "Wood Grip",
+            "Leather Overalls",
+            "Leather Boots",
+            "Killer Pencil",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Leather Knuckle",
+            "Command Knife",
+            "Folklore Clothes",
+            "Crown Boots",
+            "Wood Grip",
+            "Protective Pendant"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Leather Knuckle",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Command Knife",
+            "Jewel of Love"
+        ],
+        "rank_4": [
+            "Dragon's Claw",
+            "Platinum Knife",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Leather Knuckle",
+            "Victory Friendship Bracelet"
+        ],
+        "rank_5": [
+            "Vampire Dagger",
+            "Dragon's Claw",
+            "Palace Cloth",
+            "Fencer Boots",
+            "Platinum Knife",
+            "Emerald Earrings"
+        ],
+        "rank_6": [
+            "Blazing Gauntlet",
+            "Vampire Dagger",
+            "Cosmos Cloth",
+            "Fencer Boots",
+            "Lion Eagle's Feather",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Lion King Gauntlet",
+            "Blazing Gauntlet",
+            "Moonlight Garment",
+            "Lion King's Protective Charm",
+            "Vampire Dagger",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Blizzard Claw",
+            "Lion King Gauntlet",
+            "Hermit Clothes",
+            "Blazing Gauntlet",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Lightning Fist",
+            "Blizzard Claw",
+            "Heavenly Robe",
+            "Lion King Gauntlet",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Moon Cestus",
+            "Lightning Fist",
+            "Scarlet Mail",
+            "Blizzard Claw",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Crimson Claw",
+            "Moon Cestus",
+            "Aegis Coat",
+            "Dark Terror Dress",
+            "Millennium Earrings",
+            "Cat God Pendant"
+        ],
+        "rank_12": [
+            "Cocytus Nail",
+            "Crimson Claw",
+            "Nine Heavens' Armor",
+            "Aegis Coat",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Storm God Tempest Gear",
+            "Cocytus Nail",
+            "Fire Oni's Tori",
+            "Maiden Cloth",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Extremely Dark Nail - Bloody Howl",
+            "Storm God Tempest Gear",
+            "Extremely Dark Clothes",
+            "Fire Oni's Tori",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Fist - Elzloa",
+            "Extremely Dark Nail - Bloody Howl",
+            "Beautiful Clothes - Soul Rose",
+            "Extremely Dark Clothes",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Fist - Elzloa",
+            "Eastern Heaven Green Wind Dress",
+            "Beautiful Clothes - Soul Rose",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
         ]
     },
     "chika": {
@@ -1489,7 +1625,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Deep Crystallized Xenocrystal"
@@ -1625,7 +1761,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Deep Crystallized Xenocrystal"
@@ -1761,7 +1897,7 @@
         "rank_16": [
             "",
             "Gehenna Dragon",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Beautiful Clothes - Soul Rose",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -1897,7 +2033,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -2033,7 +2169,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -2169,7 +2305,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -2305,7 +2441,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Astrologer's Holy Spirit Robe",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -2441,7 +2577,7 @@
         "rank_16": [
             "",
             "Turquoise Noah",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Machine Axe - Core Breaker",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -2577,7 +2713,7 @@
         "rank_16": [
             "",
             "Turquoise Noah",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Machine Axe - Core Breaker",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -2713,7 +2849,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -2849,7 +2985,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Astrologer's Holy Spirit Robe",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -2985,7 +3121,7 @@
         "rank_16": [
             "",
             "Star Nuclear Fist - Elzloa",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Beautiful Clothes - Soul Rose",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -3121,7 +3257,7 @@
         "rank_16": [
             "",
             "Star Nuclear Fist - Elzloa",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Extremely Dark Nail - Bloody Howl",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -3257,7 +3393,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -3393,7 +3529,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -3529,7 +3665,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "Astrologer's Holy Spirit Robe",
             "Chaotic Choker",
             "Shield God Ring - Wall Breath"
@@ -3665,7 +3801,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Astrologer's Holy Spirit Robe",
             "Chaotic Choker",
             "Shield God Ring - Wall Breath"
@@ -3801,7 +3937,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -3937,7 +4073,7 @@
         "rank_16": [
             "",
             "Star Nuclear Fist - Elzloa",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Extremely Dark Nail - Bloody Howl",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -4073,7 +4209,7 @@
         "rank_16": [
             "",
             "Star Nuclear Fist - Elzloa",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Extremely Dark Nail - Bloody Howl",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -4209,7 +4345,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -4345,7 +4481,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -4481,7 +4617,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -4617,7 +4753,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Chaotic Choker",
             "Shield God Ring - Wall Breath"
@@ -4753,7 +4889,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Chaotic Choker",
             "Shield God Ring - Wall Breath"
@@ -4889,7 +5025,7 @@
         "rank_16": [
             "",
             "Star Nuclear Fist - Elzloa",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Extremely Dark Nail - Bloody Howl",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -5025,7 +5161,7 @@
         "rank_16": [
             "",
             "Star Nuclear Spear - Ertz Borg",
-            "",
+            "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -5161,7 +5297,7 @@
         "rank_16": [
             "",
             "Star Nuclear Spear - Ertz Borg",
-            "",
+            "Eastern Heaven Green Wind Dress",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -5297,7 +5433,7 @@
         "rank_16": [
             "",
             "Star Nuclear Spear - Ertz Borg",
-            "",
+            "Eastern Heaven Green Wind Dress",
             "Flowing Blue Dress - Azul Rondo",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -5433,7 +5569,7 @@
         "rank_16": [
             "",
             "Gehenna Dragon",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -5569,7 +5705,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -5705,7 +5841,7 @@
         "rank_16": [
             "",
             "Turquoise Noah",
-            "",
+            "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -5841,7 +5977,7 @@
         "rank_16": [
             "",
             "Star Nuclear Spear - Ertz Borg",
-            "",
+            "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -5977,7 +6113,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -6113,7 +6249,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "World Tree's Branch Wand",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -6249,7 +6385,7 @@
         "rank_16": [
             "",
             "Star Nuclear Spear - Ertz Borg",
-            "",
+            "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -6385,7 +6521,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -6521,7 +6657,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -6657,7 +6793,7 @@
         "rank_16": [
             "",
             "Turquoise Noah",
-            "",
+            "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -6793,7 +6929,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Deep Crystallized Xenocrystal"
@@ -6929,7 +7065,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -7065,7 +7201,7 @@
         "rank_16": [
             "",
             "Branch Blade of Divine Descent",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Emerald Wind God's Tachi",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -7201,7 +7337,7 @@
         "rank_16": [
             "",
             "Branch Blade of Divine Descent",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Emerald Wind God's Tachi",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -7337,7 +7473,7 @@
         "rank_16": [
             "",
             "Gehenna Dragon",
-            "",
+            "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -7473,7 +7609,7 @@
         "rank_16": [
             "",
             "Turquoise Noah",
-            "",
+            "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -7609,7 +7745,7 @@
         "rank_16": [
             "",
             "Turquoise Noah",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Fire Spear - Prominence",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -7745,7 +7881,7 @@
         "rank_16": [
             "",
             "Turquoise Noah",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Flowing Blue Dress - Azul Rondo",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -7881,7 +8017,7 @@
         "rank_16": [
             "",
             "Turquoise Noah",
-            "",
+            "Eastern Heaven Green Wind Dress",
             "Beautiful Clothes - Soul Rose",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -8017,7 +8153,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -8153,7 +8289,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -8289,7 +8425,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Chaotic Choker",
             "Shield God Ring - Wall Breath"
@@ -8425,7 +8561,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Astrologer's Holy Spirit Robe",
             "Elfin Choker",
             "Deep Crystallized Xenocrystal"
@@ -8561,7 +8697,7 @@
         "rank_16": [
             "",
             "Star Nuclear Fist - Elzloa",
-            "",
+            "Eastern Heaven Green Wind Dress",
             "Flowing Blue Dress - Azul Rondo",
             "Ruby Rose Choker",
             "Shield God Ring - Wall Breath"
@@ -8697,7 +8833,7 @@
         "rank_16": [
             "",
             "Star Nuclear Fist - Elzloa",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Extremely Dark Nail - Bloody Howl",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -8833,7 +8969,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -8969,7 +9105,7 @@
         "rank_16": [
             "",
             "Star Nuclear Spear - Ertz Borg",
-            "",
+            "Eastern Heaven Green Wind Dress",
             "Flowing Blue Dress - Azul Rondo",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -9105,7 +9241,7 @@
         "rank_16": [
             "",
             "Star Nuclear Fist - Elzloa",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Flowing Blue Dress - Azul Rondo",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -9241,7 +9377,7 @@
         "rank_16": [
             "",
             "Gehenna Dragon",
-            "",
+            "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Ruby Rose Choker",
             "Shield God Ring - Wall Breath"
@@ -9377,7 +9513,7 @@
         "rank_16": [
             "",
             "Gehenna Dragon",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -9513,7 +9649,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Astrologer's Holy Spirit Robe",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -9649,7 +9785,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -9785,7 +9921,7 @@
         "rank_16": [
             "",
             "Branch Blade of Divine Descent",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Emerald Wind God's Tachi",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -9921,7 +10057,7 @@
         "rank_16": [
             "",
             "Gehenna Dragon",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Heavenly Black Sword of Obsidian",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -10057,7 +10193,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -10193,7 +10329,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -10329,7 +10465,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -10465,7 +10601,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -10601,7 +10737,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -10737,7 +10873,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -10873,7 +11009,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Beautiful Clothes - Soul Rose",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -11009,7 +11145,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -11145,7 +11281,7 @@
         "rank_16": [
             "",
             "Turquoise Noah",
-            "",
+            "Eastern Heaven Green Wind Dress",
             "Machine Axe - Core Breaker",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -11281,7 +11417,7 @@
         "rank_16": [
             "",
             "Star Nuclear Spear - Ertz Borg",
-            "",
+            "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -11417,7 +11553,7 @@
         "rank_16": [
             "",
             "Branch Blade of Divine Descent",
-            "",
+            "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -11553,7 +11689,7 @@
         "rank_16": [
             "",
             "Star Nuclear Bow - Erzvogen",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Ice Bow - Freezing Tear",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -11689,7 +11825,7 @@
         "rank_16": [
             "",
             "Branch Blade of Divine Descent",
-            "",
+            "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -11825,7 +11961,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -11961,7 +12097,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Eastern Heaven Green Wind Dress",
             "Flowing Blue Dress - Azul Rondo",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -12097,7 +12233,7 @@
         "rank_16": [
             "",
             "Branch Blade of Divine Descent",
-            "",
+            "Eastern Heaven Green Wind Dress",
             "Beautiful Clothes - Soul Rose",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -12233,7 +12369,7 @@
         "rank_16": [
             "",
             "Branch Blade of Divine Descent",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Flowing Blue Dress - Azul Rondo",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -12369,7 +12505,7 @@
         "rank_16": [
             "",
             "Star Nuclear Bow - Erzvogen",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Ice Bow - Freezing Tear",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -12505,7 +12641,7 @@
         "rank_16": [
             "",
             "Star Nuclear Bow - Erzvogen",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Ice Bow - Freezing Tear",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -12641,7 +12777,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -12777,7 +12913,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Northern Heaven Supreme Flame Armor",
             "Glowing Silver Mirror Armor",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -12913,7 +13049,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "Astrologer's Holy Spirit Robe",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -13049,7 +13185,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "Astrologer's Holy Spirit Robe",
             "Elfin Choker",
             "Deep Crystallized Xenocrystal"
@@ -13185,7 +13321,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Deep Crystallized Xenocrystal"
@@ -13321,7 +13457,7 @@
         "rank_16": [
             "",
             "Star Nuclear Bow - Erzvogen",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Ice Bow - Freezing Tear",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -13457,7 +13593,7 @@
         "rank_16": [
             "",
             "Star Nuclear Bow - Erzvogen",
-            "",
+            "Eastern Heaven Green Wind Dress",
             "Ice Bow - Freezing Tear",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -13593,7 +13729,7 @@
         "rank_16": [
             "",
             "Gehenna Dragon",
-            "",
+            "Eastern Heaven Green Wind Dress",
             "Flowing Blue Dress - Azul Rondo",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -13729,7 +13865,7 @@
         "rank_16": [
             "",
             "Gehenna Dragon",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Beautiful Clothes - Soul Rose",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -13865,7 +14001,7 @@
         "rank_16": [
             "",
             "Gehenna Dragon",
-            "",
+            "Southern Heaven Blazing Blue Armor",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -14001,7 +14137,7 @@
         "rank_16": [
             "",
             "Star Nuclear Fist - Elzloa",
-            "",
+            "Eastern Heaven Green Wind Dress",
             "Flowing Blue Dress - Azul Rondo",
             "Elfin Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -14137,7 +14273,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Eastern Heaven Green Wind Dress",
             "Overlord Light Dragon Sword",
             "Ruby Rose Choker",
             "Scarlet Dragon's Claw Fire Ring"
@@ -14273,7 +14409,7 @@
         "rank_16": [
             "",
             "Green Butterfly Wand",
-            "",
+            "Western Heaven Saintly Guide Robe",
             "Abyss Moon Staff - Sacrifice",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -14409,7 +14545,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -14545,7 +14681,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Deep Crystallized Xenocrystal"
@@ -14681,7 +14817,7 @@
         "rank_16": [
             "",
             "Star Nuclear Sword - Ertz Schneide",
-            "",
+            "Heavenly Wing Saint Shoes",
             "Glowing Silver Mirror Shield",
             "Elfin Choker",
             "Shield God Ring - Wall Breath"
@@ -14817,7 +14953,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Chaotic Choker",
             "Deep Crystallized Xenocrystal"
@@ -14953,7 +15089,7 @@
         "rank_16": [
             "",
             "Phoenix Staff - Rise Flare",
-            "",
+            "Heavenly Wing Wise Saint Hat",
             "Glowing Silver Mirror Boots",
             "Elfin Choker",
             "Deep Crystallized Xenocrystal"

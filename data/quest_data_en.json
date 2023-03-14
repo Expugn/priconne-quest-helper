@@ -14667,5 +14667,527 @@
             17,
             15
         ]
+    },
+    "33-1": {
+        "name": "Fascia Forest (East) 33-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Star Nuclear Bow - Erzvogen Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Star Nuclear Spear - Ertz Borg Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Flowering Fire Peony Fragment",
+            "Prosperity Veil Fragment",
+            "Heaven Rod - Stellar Sphere Fragment",
+            "Divine Spear - Doom Pain Fragment",
+            "Armored Bow - Deus Fall Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-2": {
+        "name": "Fascia Forest (East) 33-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Chaotic Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Star Nuclear Sword - Ertz Schneide Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Star Nuclear Fist - Elzloa Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Little Ice Princess' Knot Fragment",
+            "Extremely Dark Clothes Fragment",
+            "Sky Soaring Gold Shoes Fragment",
+            "Refreshing Ice Garment Fragment",
+            "Furious Wind Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-3": {
+        "name": "Fascia Forest (East) 33-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Green Butterfly Wand Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Phoenix Staff - Rise Flare Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sea Dragon God's Hair Ornament Fragment",
+            "Konominato Sword - Aqua Ruler Fragment",
+            "Ifrit Katana - Ignite Fragment",
+            "God Roar Axe - Terra Break Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-4": {
+        "name": "Fascia Forest (East) 33-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Southern Heaven Blazing Blue Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Turquoise Noah Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Senka Dance Armor Fragment",
+            "Black Snake Dragon's Staff Fragment",
+            "Storm God Tempest Gear Fragment",
+            "Twin God Sword of Lightning Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-5": {
+        "name": "Fascia Forest (East) 33-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Eastern Heaven Green Wind Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Chaotic Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Star Nuclear Bow - Erzvogen Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Flowering Fire Peony Fragment",
+            "Prosperity Veil Fragment",
+            "Heaven Rod - Stellar Sphere Fragment",
+            "Divine Spear - Doom Pain Fragment",
+            "Armored Bow - Deus Fall Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-6": {
+        "name": "Fascia Forest (East) 33-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Western Heaven Saintly Guide Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Gehenna Dragon Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Little Ice Princess' Knot Fragment",
+            "Extremely Dark Clothes Fragment",
+            "Sky Soaring Gold Shoes Fragment",
+            "Refreshing Ice Garment Fragment",
+            "Furious Wind Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-7": {
+        "name": "Fascia Forest (East) 33-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Heavenly Wing Saint Shoes Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Green Butterfly Wand Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sea Dragon God's Hair Ornament Fragment",
+            "Konominato Sword - Aqua Ruler Fragment",
+            "Ifrit Katana - Ignite Fragment",
+            "God Roar Axe - Terra Break Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-8": {
+        "name": "Fascia Forest (East) 33-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Eastern Heaven Green Wind Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Phoenix Staff - Rise Flare Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Senka Dance Armor Fragment",
+            "Black Snake Dragon's Staff Fragment",
+            "Storm God Tempest Gear Fragment",
+            "Twin God Sword of Lightning Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-9": {
+        "name": "Fascia Forest (East) 33-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Heavenly Wing Wise Saint Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Star Nuclear Sword - Ertz Schneide Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Flowering Fire Peony Fragment",
+            "Prosperity Veil Fragment",
+            "Heaven Rod - Stellar Sphere Fragment",
+            "Divine Spear - Doom Pain Fragment",
+            "Armored Bow - Deus Fall Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-10": {
+        "name": "Fascia Forest (East) 33-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Northern Heaven Supreme Flame Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Star Nuclear Fist - Elzloa Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Little Ice Princess' Knot Fragment",
+            "Extremely Dark Clothes Fragment",
+            "Sky Soaring Gold Shoes Fragment",
+            "Refreshing Ice Garment Fragment",
+            "Furious Wind Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-11": {
+        "name": "Fascia Forest (East) 33-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Southern Heaven Blazing Blue Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Branch Blade of Divine Descent Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sea Dragon God's Hair Ornament Fragment",
+            "Konominato Sword - Aqua Ruler Fragment",
+            "Ifrit Katana - Ignite Fragment",
+            "God Roar Axe - Terra Break Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-12": {
+        "name": "Fascia Forest (East) 33-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Eastern Heaven Green Wind Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Southern Heaven Blazing Blue Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Senka Dance Armor Fragment",
+            "Black Snake Dragon's Staff Fragment",
+            "Storm God Tempest Gear Fragment",
+            "Twin God Sword of Lightning Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-13": {
+        "name": "Fascia Forest (East) 33-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Heavenly Wing Saint Shoes Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Northern Heaven Supreme Flame Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Flowering Fire Peony Fragment",
+            "Prosperity Veil Fragment",
+            "Heaven Rod - Stellar Sphere Fragment",
+            "Divine Spear - Doom Pain Fragment",
+            "Armored Bow - Deus Fall Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-14": {
+        "name": "Fascia Forest (East) 33-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Heavenly Wing Wise Saint Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Western Heaven Saintly Guide Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Chaotic Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Little Ice Princess' Knot Fragment",
+            "Extremely Dark Clothes Fragment",
+            "Sky Soaring Gold Shoes Fragment",
+            "Refreshing Ice Garment Fragment",
+            "Furious Wind Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-1H": {
+        "name": "Fascia Forest (East) 33-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Southern Heaven Blazing Blue Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Chaotic Choker Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Star Nuclear Spear - Ertz Borg Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Aoi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Flowering Fire Peony Fragment",
+            "Prosperity Veil Fragment",
+            "Heaven Rod - Stellar Sphere Fragment",
+            "Divine Spear - Doom Pain Fragment",
+            "Armored Bow - Deus Fall Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-2H": {
+        "name": "Fascia Forest (East) 33-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Western Heaven Saintly Guide Robe Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Star Nuclear Sword - Ertz Schneide Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mahiru Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Little Ice Princess' Knot Fragment",
+            "Extremely Dark Clothes Fragment",
+            "Sky Soaring Gold Shoes Fragment",
+            "Refreshing Ice Garment Fragment",
+            "Furious Wind Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "33-3H": {
+        "name": "Fascia Forest (East) 33-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Eastern Heaven Green Wind Dress Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Green Butterfly Wand Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Chloe Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Sea Dragon God's Hair Ornament Fragment",
+            "Konominato Sword - Aqua Ruler Fragment",
+            "Ifrit Katana - Ignite Fragment",
+            "God Roar Axe - Terra Break Fragment",
+            "Flowering Fire Peony Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }
