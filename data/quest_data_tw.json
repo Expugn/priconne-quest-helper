@@ -28421,6 +28421,40 @@
             15
         ]
     },
+    "56-3H": {
+        "name": "歐呂克斯沙島‧北部 56-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Rose Crusher Axe Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Rose Empress Mail Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Ancient Ruby Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Time Traveler Inori Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Tree Tributing Xylophonia Fragment",
+            "Benevolent Heavy Spear Tromspear Fragment",
+            "Desert Shade Clothes Fragment",
+            "Desert Wind Turban Fragment",
+            "Sound Weaving Katana Gertona Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "57-1": {
         "name": "歐呂克斯沙島‧南部 57-1",
         "stamina": 10,
@@ -30092,6 +30126,216 @@
             "Magical Hat Tambourine Caskets Fragment",
             "Ice Sacred Bow Constellation Fragment",
             "Ice Pillar Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "61-1": {
+        "name": "考達海灘‧南部 61-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Rose Imperial Sword Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Rose Dame Plate Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Ancient Ruby Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Celestial Beating Timpania Fragment",
+            "Shouting Fist Biolafist Fragment",
+            "Desert Clothmail Fragment",
+            "Sword Field Sword Grand Pianos Fragment",
+            "Tree Tributing Xylophonia Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "61-2": {
+        "name": "考達海灘‧南部 61-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Cruel Rose Blade Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Blue Rose Shield Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Ancient Sapphire Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Spirit Chant Score Demiscore Fragment",
+            "Sound Engraving Blade Clefton Fragment",
+            "Skillful Sound Bow Snare Arc Fragment",
+            "Oasis Blue Plate Fragment",
+            "Heavenly Sound Axe Buster Horn Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "61-3": {
+        "name": "考達海灘‧南部 61-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Rose Crusher Axe Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Rose Empress Mail Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Blue Rose Shield Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Tree Tributing Xylophonia Fragment",
+            "Benevolent Heavy Spear Tromspear Fragment",
+            "Desert Shade Clothes Fragment",
+            "Desert Wind Turban Fragment",
+            "Sound Weaving Katana Gertona Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "61-4": {
+        "name": "考達海灘‧南部 61-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Bell Arc Rose Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Rose Priestess Dress Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Rose Baroness Dress Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Absolute Sound Cane Accordia Fragment",
+            "Oasis Ahaldia Fragment",
+            "Oriental Breeze Robe Fragment",
+            "Charitable Command Staff Artemakillion Fragment",
+            "Spirit Chant Score Demiscore Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "61-5": {
+        "name": "考達海灘‧南部 61-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Rose Stem Wand Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Rose Petal Staff Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Rose Priestess Dress Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Absolute Sound Cane Accordia Fragment",
+            "Oasis Ahaldia Fragment",
+            "Oriental Breeze Robe Fragment",
+            "Charitable Command Staff Artemakillion Fragment",
+            "Spirit Chant Score Demiscore Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "61-6": {
+        "name": "考達海灘‧南部 61-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Rose Petal Knuckle Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Rose Imperial Sword Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Rose Empress Mail Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Celestial Beating Timpania Fragment",
+            "Shouting Fist Biolafist Fragment",
+            "Desert Clothmail Fragment",
+            "Sword Field Sword Grand Pianos Fragment",
+            "Tree Tributing Xylophonia Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "61-7": {
+        "name": "考達海灘‧南部 61-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Lance of Corolla Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Thorn of Roses Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Rose Sorcerer's Magic Banquet Hat Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Tree Tributing Xylophonia Fragment",
+            "Benevolent Heavy Spear Tromspear Fragment",
+            "Desert Shade Clothes Fragment",
+            "Desert Wind Turban Fragment",
+            "Sound Weaving Katana Gertona Fragment"
         ],
         "subdrops_percent": [
             24,
