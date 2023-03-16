@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.36.0] - 2023-03-15
+Quest Update (2023-03-15)
+### Added
+- New Equipment
+- New Quests:
+  - `58-3 H`
+  - Chapter 63 Normal Part 1 (`63-1` - `63-5`)
+
 ## [2.35.4] - 2023-03-09
 ### Added
 - New Character: Monika (Cafe)

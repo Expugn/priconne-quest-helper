@@ -29617,6 +29617,40 @@
             15
         ]
     },
+    "58-3H": {
+        "name": "クルース密林・東部 58-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Double Horn Magic Necklace Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Devil Dominion Lance Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Variant Demon Horn Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Work Overalls Mifuyu Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ancient Sand Wand Fragment",
+            "Oasis Guard Blade Fragment",
+            "Desert Rain Cane Fragment",
+            "Ancient Ruby Fragment",
+            "Ancient Sapphire Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "59-1": {
         "name": "クルース密林・西部 59-1",
         "stamina": 10,
@@ -31280,6 +31314,156 @@
         },
         "item_3": {
             "item_name": "Cursed Demon's Robe Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Ancient Sand Wand Fragment",
+            "Oasis Guard Blade Fragment",
+            "Desert Rain Cane Fragment",
+            "Ancient Ruby Fragment",
+            "Ancient Sapphire Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "63-1": {
+        "name": "アパレーユ街道・西側 63-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Demon's Destruction Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Diablo Maschera Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Demon's Scar Blade Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Wind Legacy Spear Fragment",
+            "Blue Rose Shield Fragment",
+            "Quicksand Shamshir Fragment",
+            "Rose Dame Plate Fragment",
+            "Dark Desert Edge Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "63-2": {
+        "name": "アパレーユ街道・西側 63-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Powerful Demon Nail Blade Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Devil Dominion Lance Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Demon Punish Fist Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Ancient Sand Wand Fragment",
+            "Oasis Guard Blade Fragment",
+            "Desert Rain Cane Fragment",
+            "Ancient Ruby Fragment",
+            "Ancient Sapphire Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "63-3": {
+        "name": "アパレーユ街道・西側 63-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Double Horn Magic Necklace Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Diablo Membranes Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Demon Victim Sword Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Ancient Emerald Fragment",
+            "Rose Sorcerer's Magic Banquet Hat Fragment",
+            "Rose Priestess Dress Fragment",
+            "Heritage Jamadhar Fragment",
+            "Ancient Ruby Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "63-4": {
+        "name": "アパレーユ街道・西側 63-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Diablo Membranes Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Demonic Tail Tie Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Demon's Core Wand Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Ancient Sapphire Fragment",
+            "Rose Empress Mail Fragment",
+            "Rose Baroness Dress Fragment",
+            "Oasis Faas Fragment",
+            "Oriental Hurricane Bow Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "63-5": {
+        "name": "アパレーユ街道・西側 63-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Demonic Tail Tie Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Double Horn Magic Necklace Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Rod of Demon's Heart Fragment",
             "drop_percent": 36
         },
         "subdrops": [
