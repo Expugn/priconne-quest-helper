@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.36.1] - 2023-03-16
+### Added
+- New Character: Shizuru (Noire)
+
 ## [2.36.0] - 2023-03-15
 Quest Update (2023-03-15)
 ### Added
