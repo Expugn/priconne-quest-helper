@@ -17555,6 +17555,237 @@
             "Rose Brute Pendant"
         ]
     },
+    "ranger_kokkoro": {
+        "unit_id": 125301,
+        "name": "Kokkoro",
+        "thematic": "Ranger",
+        "name_jp": "コッコロ",
+        "thematic_jp": "レンジャー",
+        "rank_1": [
+            "Steel Spear",
+            "Steel Spear",
+            "Leather Overalls",
+            "Leather Boots",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Flame Spear",
+            "Trident",
+            "Clothes of Wisdom",
+            "Crown Boots",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Knight's Pride",
+            "Flame Spear",
+            "Light Plate",
+            "Hunting Boots",
+            "Jewel of Love",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Absolute Spear",
+            "Knight's Pride",
+            "Fashion Armor",
+            "Shinobi Shoes",
+            "Victory Friendship Bracelet",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Absolute Spear",
+            "Battling Dress",
+            "Fencer Boots",
+            "Emerald Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Scarlet Dragon",
+            "Lightning Axe",
+            "Heavy Metal Armor",
+            "Fencer Boots",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Queen Bee Spear",
+            "Scarlet Dragon",
+            "Invisible Dress",
+            "Scarlet Diamond",
+            "Scarlet Diamond",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Storm Bringer",
+            "Queen Bee Spear",
+            "Mythril Plate",
+            "Elemental Heart",
+            "Bangle of Substitution",
+            "Lion King's Protective Charm"
+        ],
+        "rank_9": [
+            "Gaia Bardiche",
+            "Storm Bringer",
+            "Heavenly Robe",
+            "Hermit Clothes",
+            "Moon Bracelet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Zero Frost Lance",
+            "Gaia Bardiche",
+            "Gaia Bardiche",
+            "Heavenly Robe",
+            "Congregation Pendant",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Gale Stinger",
+            "Zero Frost Lance",
+            "Astrograph Buckler",
+            "Dark Terror Dress",
+            "Fairy King's Guardian Stone",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Heaven's Protective Holy Spear",
+            "Gale Stinger",
+            "Maiden Cloth",
+            "Aegis Coat",
+            "Mermaid Princess' Spirit Tear",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Divine Spear - Doom Pain",
+            "Heaven's Protective Holy Spear",
+            "Rage Queen Dress",
+            "Maiden Cloth",
+            "Glorious King's Shield Bangle",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "Fire Spear - Prominence",
+            "Divine Spear - Doom Pain",
+            "Sky Soaring Gold Shoes",
+            "Fire Oni's Tori",
+            "Sea Dragon God's Hair Ornament",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "Star Nuclear Spear - Ertz Borg",
+            "Fire Spear - Prominence",
+            "Glowing Silver Mirror Shield",
+            "Extremely Dark Clothes",
+            "Shield God Ring - Wall Breath",
+            "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "Saintly Deer Spear - Alma Benard",
+            "Star Nuclear Spear - Ertz Borg",
+            "Heavenly Wing Saint Shoes",
+            "Flowing Blue Dress - Azul Rondo",
+            "Elfin Choker",
+            "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "Crystallos Spike",
+            "Saintly Deer Spear - Alma Benard",
+            "White Haze Flower Dress",
+            "Eastern Heaven Green Wind Dress",
+            "Jade Harp Brooch",
+            "Elfin Choker"
+        ],
+        "rank_18": [
+            "Chocolate Lance",
+            "Crystallos Spike",
+            "Iolite Shield",
+            "White Haze Flower Dress",
+            "Evergreen Green Ring",
+            "Jade Harp Brooch"
+        ],
+        "rank_19": [
+            "Lightning Spear",
+            "Chocolate Lance",
+            "Chocolate Mint Ice Heels",
+            "Pink Coral Dress",
+            "Macaron Pendant",
+            "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "Sakura Gust Spear",
+            "Lightning Spear",
+            "Scattered Sakura Wide Brimmed Hat",
+            "Fancy Macaron Dress",
+            "Whirlwind Earrings",
+            "Macaron Pendant"
+        ],
+        "rank_21": [
+            "Crab Scissor Spear",
+            "Sakura Gust Spear",
+            "Summer Reflection Yukata of Morning Glory",
+            "Thin Red Sakura Saintly Cloth",
+            "Sakura Flower Moonlight Hairpin",
+            "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "Skull Gothic Lance",
+            "Crab Scissor Spear",
+            "Punkish Girl",
+            "Summer Reflection Yukata of Morning Glory",
+            "Pearl Coconut Hair Ornament",
+            "Sakura Flower Moonlight Hairpin"
+        ],
+        "rank_23": [
+            "Ice Spear Snow Storm",
+            "Skull Gothic Lance",
+            "White Aurora Dress",
+            "Pierced Black",
+            "Emerald Gothic Bangle",
+            "Pearl Coconut Hair Ornament"
+        ],
+        "rank_24": [
+            "Benevolent Heavy Spear Tromspear",
+            "Ice Spear Snow Storm",
+            "Keyboard Armor Cimbalom",
+            "Snowflake Beret",
+            "Ice Pillar Ring",
+            "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "Wind Legacy Spear",
+            "Benevolent Heavy Spear Tromspear",
+            "Desert Clothmail",
+            "Tributal Dancing Pumps",
+            "Tree Tributing Xylophonia",
+            "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "Lance of Corolla",
+            "Wind Legacy Spear",
+            "Rose Empress Mail",
+            "Desert Wind Turban",
+            "Ancient Ruby",
+            "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "Devil Dominion Lance",
+            "Lance of Corolla",
+            "Demon's Bound Armor",
+            "Rose Priestess Dress",
+            "Rose Rogue Pendant",
+            "Ancient Emerald"
+        ],
+        "rank_28": [
+            "",
+            "Devil Dominion Lance",
+            "",
+            "Demon's Bound Armor",
+            "Double Horn Magic Necklace",
+            "Rose Brute Pendant"
+        ]
+    },
     "summer_kokkoro": {
         "unit_id": 107601,
         "name": "Kokkoro",

@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.36.2] - 2023-03-31
+### Added
+- New Character: Kokkoro (Ranger)
+
 ## [2.36.1] - 2023-03-16
 ### Added
 - New Character: Shizuru (Noire)
