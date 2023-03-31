@@ -11970,6 +11970,37 @@
             "Sun Amulet Fragment"
         ]
     },
+    "26-3VH": {
+        "name": "圣彼得大森林·西部 26-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Whirlwind Earrings Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Chocolate Mint Ice Heels Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Heavenly Hell Earrings Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Blazing Red Sun Sword Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Nozomi Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ice Claymore Fragment",
+            "Dark Matter Edge Fragment",
+            "Violet Armor Fragment",
+            "Crusader Plate Fragment",
+            "Sun Amulet Fragment"
+        ]
+    },
     "27-1": {
         "name": "圣彼得大森林・东部 27-1",
         "stamina": 10,

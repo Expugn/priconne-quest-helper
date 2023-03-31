@@ -3527,6 +3527,174 @@
             "Popcorn Necklace"
         ]
     },
+    "school_festival_chloe": {
+        "name_cn": "克罗依（圣学祭）",
+        "unit_id": 116201,
+        "name": "Chloe",
+        "thematic": "School Festival",
+        "name_jp": "クロエ",
+        "thematic_jp": "聖学祭",
+        "rank_1": [
+            "Killer Pencil",
+            "Killer Pencil",
+            "Leather Overalls",
+            "Leather Boots",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Crescent Sword",
+            "Command Knife",
+            "Crown Boots",
+            "Crown Boots",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Crescent Sword",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Moonlight Sword",
+            "Shinobi Shoes",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Vampire Dagger",
+            "Moonlight Sword",
+            "Palace Cloth",
+            "Fencer Boots",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Precious Knife",
+            "Vampire Dagger",
+            "Cosmos Cloth",
+            "Fencer Boots",
+            "Lion Eagle's Feather",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Princess' Dagger",
+            "Precious Knife",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Vampire Dagger",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Dark Matter Edge",
+            "Princess' Dagger",
+            "Hermit Clothes",
+            "Paladin Greave",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Unicorn Knife",
+            "Dark Matter Edge",
+            "Heavenly Robe",
+            "Lion King Gauntlet",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Emerald Dagger",
+            "Unicorn Knife",
+            "Faireal Boots",
+            "Blizzard Claw",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Lava Edge",
+            "Emerald Dagger",
+            "Astrograph Buckler",
+            "Dark Terror Dress",
+            "Millennium Earrings",
+            "Cat God Pendant"
+        ],
+        "rank_12": [
+            "Tír na nÓg Dagger",
+            "Lava Edge",
+            "Nine Heavens' Armor",
+            "Aegis Coat",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Twin God Sword of Lightning",
+            "Tír na nÓg Dagger",
+            "Fire Oni's Tori",
+            "Lava Edge",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Heavenly Black Sword of Obsidian",
+            "Twin God Sword of Lightning",
+            "Extremely Dark Clothes",
+            "Fire Oni's Tori",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Gehenna Dragon",
+            "Heavenly Black Sword of Obsidian",
+            "Beautiful Clothes - Soul Rose",
+            "Extremely Dark Clothes",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Dark Blade - Heavenly Raven's Guard",
+            "Gehenna Dragon",
+            "Southern Heaven Blazing Blue Armor",
+            "Beautiful Clothes - Soul Rose",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Jade Wind Blade - Emerald Edge",
+            "Dark Blade - Heavenly Raven's Guard",
+            "Holy Light's Lily Plate",
+            "Southern Heaven Blazing Blue Armor",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Chocolate Banana Dagger",
+            "Jade Wind Blade - Emerald Edge",
+            "Pink Coral Dress",
+            "Holy Light's Lily Plate",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Purple Mist Dagger",
+            "Chocolate Banana Dagger",
+            "Fancy Macaron Dress",
+            "Pink Coral Dress",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Purple Mist Dagger",
+            "",
+            "Fancy Macaron Dress",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ]
+    },
     "christina": {
         "name_cn": "克莉丝提娜",
         "unit_id": 107101,
@@ -5539,6 +5707,174 @@
             "Sand Dust Knuckle",
             "",
             "Fancy Macaron Dress",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ]
+    },
+    "school_festival_chieru": {
+        "name_cn": "千爱瑠（圣学祭）",
+        "unit_id": 116301,
+        "name": "Chieru",
+        "thematic": "School Festival",
+        "name_jp": "チエル",
+        "thematic_jp": "聖学祭",
+        "rank_1": [
+            "Wood Grip",
+            "Killer Pencil",
+            "Leather Overalls",
+            "Leather Boots",
+            "Killer Pencil",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Leather Knuckle",
+            "Command Knife",
+            "Folklore Clothes",
+            "Crown Boots",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Leather Knuckle",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Dragon's Claw",
+            "Platinum Knife",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Vampire Dagger",
+            "Dragon's Claw",
+            "Palace Cloth",
+            "Fencer Boots",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Blazing Gauntlet",
+            "Vampire Dagger",
+            "Cosmos Cloth",
+            "Fencer Boots",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Lion King Gauntlet",
+            "Blazing Gauntlet",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Vampire Dagger",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Blizzard Claw",
+            "Lion King Gauntlet",
+            "Hermit Clothes",
+            "Blazing Gauntlet",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Lightning Fist",
+            "Blizzard Claw",
+            "Heavenly Robe",
+            "Lion King Gauntlet",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Moon Cestus",
+            "Lightning Fist",
+            "Dark Terror Dress",
+            "Blizzard Claw",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Crimson Claw",
+            "Moon Cestus",
+            "Aegis Coat",
+            "Lightning Fist",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Cocytus Nail",
+            "Crimson Claw",
+            "Nine Heavens' Armor",
+            "Moon Cestus",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Storm God Tempest Gear",
+            "Cocytus Nail",
+            "Fire Oni's Tori",
+            "Crimson Claw",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Extremely Dark Nail - Bloody Howl",
+            "Storm God Tempest Gear",
+            "Extremely Dark Clothes",
+            "Cocytus Nail",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Fist - Elzloa",
+            "Extremely Dark Nail - Bloody Howl",
+            "Flowing Blue Dress - Azul Rondo",
+            "Storm God Tempest Gear",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Heaven Traveling Hook - Sharp Bite",
+            "Star Nuclear Fist - Elzloa",
+            "Southern Heaven Blazing Blue Armor",
+            "Extremely Dark Nail - Bloody Howl",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Opal Sparge Fist",
+            "Heaven Traveling Hook - Sharp Bite",
+            "White Haze Flower Dress",
+            "Star Nuclear Fist - Elzloa",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Cream Puff Knuckle",
+            "Opal Sparge Fist",
+            "Pink Coral Dress",
+            "Heaven Traveling Hook - Sharp Bite",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Sand Dust Knuckle",
+            "Cream Puff Knuckle",
+            "Fancy Macaron Dress",
+            "Opal Sparge Fist",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Sand Dust Knuckle",
+            "",
+            "Cream Puff Knuckle",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
         ]
