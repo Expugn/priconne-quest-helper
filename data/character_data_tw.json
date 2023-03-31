@@ -3135,6 +3135,230 @@
             "Ancient Emerald"
         ]
     },
+    "christmas_yori": {
+        "name_tw": "依里（聖誕節）",
+        "unit_id": 124101,
+        "name": "Yori",
+        "thematic": "Christmas",
+        "name_jp": "ヨリ",
+        "thematic_jp": "クリスマス",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fragrant Wood Wand",
+            "Journey Robe",
+            "Fashionable Beret",
+            "Fighting Bracelet",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Compassion of the Unicorn",
+            "Doctorless Staff",
+            "Spring Color Robe",
+            "Witch Boots",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_3": [
+            "Celestial Sphere Watcher",
+            "Compassion of the Unicorn",
+            "Nordic Robe",
+            "Nun's Hood",
+            "Jewel of Wisdom",
+            "Jewel of Love"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Celestial Sphere Watcher",
+            "Witch Headband",
+            "Witch Headband",
+            "Magic Monocle",
+            "Pattern Bracelet"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Flower Bud Wand",
+            "Cupid Robe",
+            "Witch Palace Boots",
+            "Pearl Earrings",
+            "Emerald Earrings"
+        ],
+        "rank_6": [
+            "Moon Wand",
+            "Devil's Horn",
+            "Philosopher's Robe",
+            "Witch Hat",
+            "Sorcerer's Glasses",
+            "Sorcerer's Glasses"
+        ],
+        "rank_7": [
+            "Rod of Life",
+            "Moon Wand",
+            "Grand Magician's Robe",
+            "Laurel's Sorrow",
+            "Laurel's Sorrow",
+            "Witch Palace Boots"
+        ],
+        "rank_8": [
+            "Phoenix Rod",
+            "Rod of Life",
+            "Saint's Robe",
+            "Wizard Boots",
+            "Mourning Crescent Moon",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "High Angel Rod",
+            "Phoenix Rod",
+            "Gospel Tiara",
+            "Pope's Hood",
+            "Dragon's Tear",
+            "Mourning Crescent Moon"
+        ],
+        "rank_10": [
+            "Flame Rod",
+            "High Angel Rod",
+            "Viridian Spiritual Dress",
+            "Gospel Tiara",
+            "Great Sage Gem",
+            "Dragon's Tear"
+        ],
+        "rank_11": [
+            "Divine Blossom Rod",
+            "Flame Rod",
+            "Shrine Maiden's Purity Cloth",
+            "Viridian Spiritual Dress",
+            "Fairy King's Guardian Stone",
+            "Great Sage Gem"
+        ],
+        "rank_12": [
+            "Atlantis Rod",
+            "Divine Blossom Rod",
+            "Holy Prayer's Crown",
+            "Shrine Maiden's Purity Cloth",
+            "Mermaid Princess' Spirit Tear",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Heaven Rod - Stellar Sphere",
+            "Atlantis Rod",
+            "Blood Ruby Heel",
+            "Empress Robe",
+            "Glorious King's Shield Bangle",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "World Tree's Branch Wand",
+            "Heaven Rod - Stellar Sphere",
+            "Refreshing Ice Garment",
+            "Exomagia Robe",
+            "Sea Dragon God's Hair Ornament",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "Phoenix Staff - Rise Flare",
+            "World Tree's Branch Wand",
+            "Glowing Silver Mirror Boots",
+            "Refreshing Ice Garment",
+            "Shield God Ring - Wall Breath",
+            "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "White Snake's Holy Water Rod",
+            "Phoenix Staff - Rise Flare",
+            "Heavenly Wing Wise Saint Hat",
+            "Glowing Silver Mirror Boots",
+            "Elfin Choker",
+            "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "Heavenly Wand of the White Pearl",
+            "White Snake's Holy Water Rod",
+            "Pride of the Roses",
+            "Heavenly Wing Wise Saint Hat",
+            "Jade Harp Brooch",
+            "Elfin Choker"
+        ],
+        "rank_18": [
+            "Triple Ice Rod",
+            "Heavenly Wand of the White Pearl",
+            "Moon Crystal Heels",
+            "Pride of the Roses",
+            "Evergreen Green Ring",
+            "Jade Harp Brooch"
+        ],
+        "rank_19": [
+            "Icy Snow Flower Cane",
+            "Triple Ice Rod",
+            "Sheet Tart Beret",
+            "Moon Crystal Heels",
+            "Macaron Pendant",
+            "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "Sakura Dance Wand",
+            "Icy Snow Flower Cane",
+            "Sakura Blizzard Woven Heels",
+            "Magic Pancake Robe",
+            "Whirlwind Earrings",
+            "Macaron Pendant"
+        ],
+        "rank_21": [
+            "Jellyfish Rod",
+            "Sakura Dance Wand",
+            "Hibiscus Sandals",
+            "Sakura Blizzard Woven Heels",
+            "Sakura Flower Moonlight Hairpin",
+            "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "Punk Princess Rod",
+            "Jellyfish Rod",
+            "Studded Black",
+            "Hibiscus Sandals",
+            "Pearl Coconut Hair Ornament",
+            "Sakura Flower Moonlight Hairpin"
+        ],
+        "rank_23": [
+            "Ice Cane Frost Staff",
+            "Punk Princess Rod",
+            "Frost Column Heel",
+            "Studded Black",
+            "Emerald Gothic Bangle",
+            "Pearl Coconut Hair Ornament"
+        ],
+        "rank_24": [
+            "Charitable Command Staff Artemakillion",
+            "Ice Cane Frost Staff",
+            "Singing Dress Musical Score",
+            "Frost Column Heel",
+            "Green Aurora Ring",
+            "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "Desert Rain Cane",
+            "Charitable Command Staff Artemakillion",
+            "Oriental Breeze Robe",
+            "Singing Dress Musical Score",
+            "Celestial Beating Timpania",
+            "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "Rose Petal Staff",
+            "Desert Rain Cane",
+            "Rose Baroness Dress",
+            "Oriental Breeze Robe",
+            "Ancient Emerald",
+            "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Emerald"
+        ]
+    },
     "yuni": {
         "name_tw": "優妮",
         "unit_id": 111001,
