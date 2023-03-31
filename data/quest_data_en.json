@@ -9448,6 +9448,37 @@
             15
         ]
     },
+    "22-1VH": {
+        "name": "Mathilde Ridges (South) 22-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Northern Heaven Supreme Flame Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Heavenly Wing Saint Shoes Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Star Nuclear Sword - Ertz Schneide Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Chaotic Choker Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Tamaki Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Solar Sword Fragment",
+            "Princess' Dagger Fragment",
+            "Vermilion Plate Fragment",
+            "Mythril Plate Fragment",
+            "Elemental Heart Fragment"
+        ]
+    },
     "23-1": {
         "name": "Mathilde Ridges (North) 23-1",
         "stamina": 10,

@@ -11559,6 +11559,142 @@
             "Shield God Ring - Wall Breath"
         ]
     },
+    "ranger_rin": {
+        "name_en": "Rin (Ranger)",
+        "unit_id": 112701,
+        "name": "Rin",
+        "thematic": "Ranger",
+        "name_jp": "リン",
+        "thematic_jp": "レンジャー",
+        "rank_1": [
+            "Steel Spear",
+            "Steel Spear",
+            "Leather Overalls",
+            "Leather Boots",
+            "Steel Spear",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Flame Spear",
+            "Metal Axe",
+            "Folklore Clothes",
+            "Cute Caskets",
+            "Steel Spear",
+            "Protective Pendant"
+        ],
+        "rank_3": [
+            "Knight's Pride",
+            "Flame Spear",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Trident",
+            "Jewel of Love"
+        ],
+        "rank_4": [
+            "Absolute Spear",
+            "Knight's Pride",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Flame Spear",
+            "Victory Friendship Bracelet"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Absolute Spear",
+            "Palace Cloth",
+            "Dragon Head",
+            "Knight's Pride",
+            "Emerald Earrings"
+        ],
+        "rank_6": [
+            "Scarlet Dragon",
+            "Lightning Axe",
+            "Cosmos Cloth",
+            "Dragon Head",
+            "Lion Eagle's Feather",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Queen Bee Spear",
+            "Scarlet Dragon",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Lion King's Protective Charm",
+            "Garnet Shield"
+        ],
+        "rank_8": [
+            "Storm Bringer",
+            "Queen Bee Spear",
+            "Hermit Clothes",
+            "Scarlet Dragon",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Gaia Bardiche",
+            "Storm Bringer",
+            "Crusader Plate",
+            "Queen Bee Spear",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Zero Frost Lance",
+            "Gaia Bardiche",
+            "Dragonic Armor",
+            "Storm Bringer",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Gale Stinger",
+            "Zero Frost Lance",
+            "Phantasm Mail",
+            "Gaia Bardiche",
+            "Millennium Earrings",
+            "Cat God Pendant"
+        ],
+        "rank_12": [
+            "Heaven's Protective Holy Spear",
+            "Gale Stinger",
+            "Infernal Greaves",
+            "Zero Frost Lance",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Divine Spear - Doom Pain",
+            "Heaven's Protective Holy Spear",
+            "Rage Queen Dress",
+            "Gale Stinger",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Fire Spear - Prominence",
+            "Divine Spear - Doom Pain",
+            "Senka Dance Armor",
+            "Heaven's Protective Holy Spear",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Spear - Ertz Borg",
+            "Fire Spear - Prominence",
+            "Glowing Silver Mirror Armor",
+            "Divine Spear - Doom Pain",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "",
+            "Star Nuclear Spear - Ertz Borg",
+            "Northern Heaven Supreme Flame Armor",
+            "Fire Spear - Prominence",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ]
+    },
     "rino": {
         "name_en": "Rino",
         "unit_id": 101101,
