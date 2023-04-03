@@ -38303,6 +38303,230 @@
             "Ancient Sapphire"
         ]
     },
+    "christmas_akari": {
+        "name_tw": "茜里（聖誕節）",
+        "unit_id": 124001,
+        "name": "Akari",
+        "thematic": "Christmas",
+        "name_jp": "アカリ",
+        "thematic_jp": "クリスマス",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fragrant Wood Wand",
+            "Journey Robe",
+            "Fashionable Beret",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_2": [
+            "Little Dragon Rod",
+            "Green Rod",
+            "Spring Color Robe",
+            "Witch Boots",
+            "Fighting Bracelet",
+            "Fighting Bracelet"
+        ],
+        "rank_3": [
+            "Thorn Blood Rod",
+            "Little Dragon Rod",
+            "Nordic Robe",
+            "Nun's Hood",
+            "Magic Glasses",
+            "Magic Glasses"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Thorn Blood Rod",
+            "Witch Headband",
+            "Witch Headband",
+            "Magic Monocle",
+            "Magic Monocle"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Flower Bud Wand",
+            "Cupid Robe",
+            "Witch Hat",
+            "Turquoise Earrings",
+            "Turquoise Earrings"
+        ],
+        "rank_6": [
+            "Fury Rod",
+            "Devil's Horn",
+            "Philosopher's Robe",
+            "Witch Hat",
+            "Cupid Robe",
+            "Sorcerer's Glasses"
+        ],
+        "rank_7": [
+            "Rod of Sun",
+            "Fury Rod",
+            "Grand Magician's Robe",
+            "Laurel's Sorrow",
+            "Devil's Horn",
+            "Sorcerer's Glasses"
+        ],
+        "rank_8": [
+            "Justice God's Staff",
+            "Rod of Sun",
+            "Pope's Hood",
+            "Fury Rod",
+            "Mourning Crescent Moon",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "High Devil Wand",
+            "Justice God's Staff",
+            "Necromancer Boots",
+            "Rod of Sun",
+            "Dragon's Tear",
+            "Mourning Crescent Moon"
+        ],
+        "rank_10": [
+            "Xenosphere Rod",
+            "High Devil Wand",
+            "Aquarius Boots",
+            "Justice God's Staff",
+            "Great Sage Gem",
+            "Dragon's Tear"
+        ],
+        "rank_11": [
+            "Genesis Rod",
+            "Xenosphere Rod",
+            "Mourning Crown",
+            "High Devil Wand",
+            "Ocean God's Earrings",
+            "Great Sage Gem"
+        ],
+        "rank_12": [
+            "Lightning Wand",
+            "Genesis Rod",
+            "Empress Robe",
+            "Xenosphere Rod",
+            "Divine Beast's Prayer",
+            "Ocean God's Earrings"
+        ],
+        "rank_13": [
+            "Black Snake Dragon's Staff",
+            "Lightning Wand",
+            "Exomagia Robe",
+            "Genesis Rod",
+            "Sophos Bracelet",
+            "Divine Beast's Prayer"
+        ],
+        "rank_14": [
+            "Abyss Moon Staff - Sacrifice",
+            "Black Snake Dragon's Staff",
+            "Prosperity Veil",
+            "Lightning Wand",
+            "Little Ice Princess' Knot",
+            "Sophos Bracelet"
+        ],
+        "rank_15": [
+            "Green Butterfly Wand",
+            "Abyss Moon Staff - Sacrifice",
+            "Astrologer's Holy Spirit Robe",
+            "Black Snake Dragon's Staff",
+            "Deep Crystallized Xenocrystal",
+            "Little Ice Princess' Knot"
+        ],
+        "rank_16": [
+            "Black Snake's Fiendish Flame Staff",
+            "Green Butterfly Wand",
+            "Western Heaven Saintly Guide Robe",
+            "Abyss Moon Staff - Sacrifice",
+            "Chaotic Choker",
+            "Deep Crystallized Xenocrystal"
+        ],
+        "rank_17": [
+            "Dark Prison Staff of the Black Pearl",
+            "Black Snake's Fiendish Flame Staff",
+            "Scarlet Tulip Dress",
+            "Green Butterfly Wand",
+            "Blue Night Nocturne Brooch",
+            "Chaotic Choker"
+        ],
+        "rank_18": [
+            "Lollipop Stick",
+            "Dark Prison Staff of the Black Pearl",
+            "Black Agate Prayer Dress",
+            "Black Snake's Fiendish Flame Staff",
+            "White Sacred Stone - Diamond Star",
+            "Blue Night Nocturne Brooch"
+        ],
+        "rank_19": [
+            "Dark Moon Arc Cane",
+            "Lollipop Stick",
+            "Magic Pancake Robe",
+            "Dark Prison Staff of the Black Pearl",
+            "Doughnut Choker",
+            "White Sacred Stone - Diamond Star"
+        ],
+        "rank_20": [
+            "Cherishrod",
+            "Dark Moon Arc Cane",
+            "White Snow Sakura Magic Clothes",
+            "Lollipop Stick",
+            "Rain's Blessing Earrings",
+            "Doughnut Choker"
+        ],
+        "rank_21": [
+            "Jewel Shell Rod",
+            "Cherishrod",
+            "Parasol One Piece",
+            "Dark Moon Arc Cane",
+            "Immortal Sakura Wish Hairpin",
+            "Rain's Blessing Earrings"
+        ],
+        "rank_22": [
+            "Padlock Scepter",
+            "Jewel Shell Rod",
+            "Gothic Blue Rose",
+            "Cherishrod",
+            "Opal Shell Hair Ornament",
+            "Immortal Sakura Wish Hairpin"
+        ],
+        "rank_23": [
+            "Ice and Snow Cane Pergos Wand",
+            "Padlock Scepter",
+            "Diamond Dust Robe",
+            "Jewel Shell Rod",
+            "Rocking Chain Bangle",
+            "Opal Shell Hair Ornament"
+        ],
+        "rank_24": [
+            "Absolute Sound Cane Accordia",
+            "Ice and Snow Cane Pergos Wand",
+            "Magical Hat Tambourine Caskets",
+            "Padlock Scepter",
+            "Snow Flower Crystal Ring",
+            "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "Ancient Sand Wand",
+            "Absolute Sound Cane Accordia",
+            "Oasis Ahaldia",
+            "Ice and Snow Cane Pergos Wand",
+            "Spirit Chant Score Demiscore",
+            "Snow Flower Crystal Ring"
+        ],
+        "rank_26": [
+            "Rose Stem Wand",
+            "Ancient Sand Wand",
+            "Rose Sorcerer's Magic Banquet Hat",
+            "Absolute Sound Cane Accordia",
+            "Ancient Sapphire",
+            "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
+        ]
+    },
     "rima": {
         "name_tw": "莉瑪",
         "unit_id": 105201,
