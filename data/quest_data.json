@@ -17645,6 +17645,44 @@
             15
         ]
     },
+    "35-3VH": {
+        "name": "デクスティア岩崖・東壁 35-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Demonic Tail Tie Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Envy Demon's Horn Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Double Horn Magic Necklace Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Demon's Core Wand Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Anna Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ancient Sand Wand Fragment",
+            "Oasis Guard Blade Fragment",
+            "Desert Rain Cane Fragment",
+            "Ancient Ruby Fragment",
+            "Ancient Sapphire Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "36-1": {
         "name": "ヴェーナ湖畔道・南部 36-1",
         "stamina": 10,
