@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.36.4] - 2023-04-10
+### Added
+- New Character: Shiori (Ranger)
+  - Unit Icon image will be missing for the time being. There seems to be an issue with image datamining (images now encrypted?).
+
 ## [2.36.3] - 2023-04-05
 ### Added
 - New Quest: `35-3 VH` (Anna)
