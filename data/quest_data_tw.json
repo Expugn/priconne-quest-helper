@@ -6943,7 +6943,7 @@
         ]
     },
     "18-1": {
-        "name": "法艾頓草原 18-1",
+        "name": "法艾頓草原‧北部 18-1",
         "stamina": 10,
         "item_1": {
             "item_name": "Millennium Earrings Fragment",
@@ -6966,7 +6966,7 @@
         ]
     },
     "18-2": {
-        "name": "法艾頓草原 18-2",
+        "name": "法艾頓草原‧北部 18-2",
         "stamina": 10,
         "item_1": {
             "item_name": "Fairy King's Guardian Stone Fragment",
@@ -6989,7 +6989,7 @@
         ]
     },
     "18-3": {
-        "name": "法艾頓草原 18-3",
+        "name": "法艾頓草原‧北部 18-3",
         "stamina": 10,
         "item_1": {
             "item_name": "Ocean God's Earrings Fragment",
@@ -7012,7 +7012,7 @@
         ]
     },
     "18-4": {
-        "name": "法艾頓草原 18-4",
+        "name": "法艾頓草原‧北部 18-4",
         "stamina": 10,
         "item_1": {
             "item_name": "Astrograph Buckler Fragment",
@@ -7035,7 +7035,7 @@
         ]
     },
     "18-5": {
-        "name": "法艾頓草原 18-5",
+        "name": "法艾頓草原‧北部 18-5",
         "stamina": 10,
         "item_1": {
             "item_name": "Aegis Coat Fragment",
@@ -7058,7 +7058,7 @@
         ]
     },
     "18-6": {
-        "name": "法艾頓草原 18-6",
+        "name": "法艾頓草原‧北部 18-6",
         "stamina": 10,
         "item_1": {
             "item_name": "Mourning Crown Fragment",
@@ -7081,7 +7081,7 @@
         ]
     },
     "18-7": {
-        "name": "法艾頓草原 18-7",
+        "name": "法艾頓草原‧北部 18-7",
         "stamina": 10,
         "item_1": {
             "item_name": "Phantasm Mail Fragment",
@@ -7104,7 +7104,7 @@
         ]
     },
     "18-8": {
-        "name": "法艾頓草原 18-8",
+        "name": "法艾頓草原‧北部 18-8",
         "stamina": 10,
         "item_1": {
             "item_name": "Azure Armor Fragment",
@@ -7127,7 +7127,7 @@
         ]
     },
     "18-9": {
-        "name": "法艾頓草原 18-9",
+        "name": "法艾頓草原‧北部 18-9",
         "stamina": 10,
         "item_1": {
             "item_name": "Shrine Maiden's Purity Cloth Fragment",
@@ -7150,7 +7150,7 @@
         ]
     },
     "18-10": {
-        "name": "法艾頓草原 18-10",
+        "name": "法艾頓草原‧北部 18-10",
         "stamina": 10,
         "item_1": {
             "item_name": "Aegis Coat Fragment",
@@ -7173,7 +7173,7 @@
         ]
     },
     "18-11": {
-        "name": "法艾頓草原 18-11",
+        "name": "法艾頓草原‧北部 18-11",
         "stamina": 10,
         "item_1": {
             "item_name": "Mourning Crown Fragment",
@@ -7196,7 +7196,7 @@
         ]
     },
     "18-12": {
-        "name": "法艾頓草原 18-12",
+        "name": "法艾頓草原‧北部 18-12",
         "stamina": 10,
         "item_1": {
             "item_name": "Azure Armor Fragment",
@@ -7219,7 +7219,7 @@
         ]
     },
     "18-13": {
-        "name": "法艾頓草原 18-13",
+        "name": "法艾頓草原‧北部 18-13",
         "stamina": 10,
         "item_1": {
             "item_name": "Shrine Maiden's Purity Cloth Fragment",
@@ -7242,7 +7242,7 @@
         ]
     },
     "18-14": {
-        "name": "法艾頓草原 18-14",
+        "name": "法艾頓草原‧北部 18-14",
         "stamina": 10,
         "item_1": {
             "item_name": "Phantasm Mail Fragment",
@@ -7265,7 +7265,7 @@
         ]
     },
     "18-1H": {
-        "name": "法艾頓草原 18-1",
+        "name": "法艾頓草原‧北部 18-1",
         "stamina": 20,
         "item_1": {
             "item_name": "Phantasm Mail Fragment",
@@ -7292,7 +7292,7 @@
         ]
     },
     "18-2H": {
-        "name": "法艾頓草原 18-2",
+        "name": "法艾頓草原‧北部 18-2",
         "stamina": 20,
         "item_1": {
             "item_name": "Aegis Coat Fragment",
@@ -7319,7 +7319,7 @@
         ]
     },
     "18-3H": {
-        "name": "法艾頓草原 18-3",
+        "name": "法艾頓草原‧北部 18-3",
         "stamina": 20,
         "item_1": {
             "item_name": "Astrograph Buckler Fragment",
@@ -16962,6 +16962,44 @@
             "Magical Hat Tambourine Caskets Fragment",
             "Ice Sacred Bow Constellation Fragment",
             "Ice Pillar Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "34-2VH": {
+        "name": "迪克斯提亞岩崖‧西壁 34-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Rose Imperial Sword Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Ancient Ruby Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Rose Stem Wand Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Rose Priestess Dress Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mitsuki Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Celestial Beating Timpania Fragment",
+            "Shouting Fist Biolafist Fragment",
+            "Desert Clothmail Fragment",
+            "Sword Field Sword Grand Pianos Fragment",
+            "Tree Tributing Xylophonia Fragment"
         ],
         "subdrops_percent": [
             24,
