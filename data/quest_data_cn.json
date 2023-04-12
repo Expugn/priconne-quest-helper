@@ -21918,5 +21918,6071 @@
             17,
             15
         ]
+    },
+    "46-1": {
+        "name": "拉特利群山·崖顶 46-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Blizzard Woven Heels Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Heavenly Hell Earrings Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Rain's Blessing Earrings Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "46-2": {
+        "name": "拉特利群山·崖顶 46-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Scattered Sakura Wide Brimmed Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Rain's Blessing Earrings Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Whirlwind Earrings Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "46-3": {
+        "name": "拉特利群山·崖顶 46-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Eight Weight Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Whirlwind Earrings Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Heavenly Hell Earrings Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "46-4": {
+        "name": "拉特利群山·崖顶 46-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Cherry Blossom Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Thin Red Sakura Saintly Cloth Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Heavenly Hell Earrings Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Magic Pancake Robe Fragment",
+            "Fancy Macaron Dress Fragment",
+            "Soft Ice Sherbet Fragment",
+            "Chocolate Mail Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "46-5": {
+        "name": "拉特利群山·崖顶 46-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Axe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "White Snow Sakura Magic Clothes Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Rain's Blessing Earrings Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "46-6": {
+        "name": "拉特利群山·崖顶 46-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Cherry Petal Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Evening Sakura Purple Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Heavenly Hell Earrings Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "46-7": {
+        "name": "拉特利群山·崖顶 46-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Dance Wand Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Scattered Sakura Wide Brimmed Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Rain's Blessing Earrings Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "46-8": {
+        "name": "拉特利群山·崖顶 46-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Weeping Sakura Bow Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Blizzard Woven Heels Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Heavenly Hell Earrings Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Magic Pancake Robe Fragment",
+            "Fancy Macaron Dress Fragment",
+            "Soft Ice Sherbet Fragment",
+            "Chocolate Mail Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "46-9": {
+        "name": "拉特利群山·崖顶 46-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Yoito Kage Sakura Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Thin Red Sakura Saintly Cloth Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Whirlwind Earrings Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "46-10": {
+        "name": "拉特利群山·崖顶 46-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Hand Brace Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Eight Weight Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Heavenly Hell Earrings Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "46-11": {
+        "name": "拉特利群山·崖顶 46-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Gust Spear Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "White Snow Sakura Magic Clothes Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Whirlwind Earrings Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "46-12": {
+        "name": "拉特利群山·崖顶 46-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Axe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Cherry Blossom Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Evening Sakura Purple Armor Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Magic Pancake Robe Fragment",
+            "Fancy Macaron Dress Fragment",
+            "Soft Ice Sherbet Fragment",
+            "Chocolate Mail Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "46-13": {
+        "name": "拉特利群山·崖顶 46-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Cherishrod Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Wand Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Scattered Sakura Wide Brimmed Hat Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "46-14": {
+        "name": "拉特利群山·崖顶 46-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Cherry Petal Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Weeping Sakura Bow Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Blizzard Woven Heels Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "46-1H": {
+        "name": "拉特利群山?崖顶 46-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Yoito Kage Sakura Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Thin Red Sakura Saintly Cloth Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Heavenly Hell Earrings Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Rei Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "46-2H": {
+        "name": "拉特利群山?崖顶 46-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Cherishrod Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "White Snow Sakura Magic Clothes Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Rain's Blessing Earrings Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Yuki Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "46-3H": {
+        "name": "拉特利群山?崖顶 46-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Cherry Blossom Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Sakura Eight Weight Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Whirlwind Earrings Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Summer Jun Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-1": {
+        "name": "拉特利群山·崖底 47-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Cherishrod Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Blizzard Woven Heels Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "White Snow Sakura Magic Clothes Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-2": {
+        "name": "拉特利群山·崖底 47-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Cherry Blossom Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Thin Red Sakura Saintly Cloth Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Scattered Sakura Wide Brimmed Hat Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-3": {
+        "name": "拉特利群山·崖底 47-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Cherry Petal Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Eight Weight Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Evening Sakura Purple Armor Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-4": {
+        "name": "拉特利群山·崖底 47-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Hand Brace Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Thin Red Sakura Saintly Cloth Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Magic Pancake Robe Fragment",
+            "Fancy Macaron Dress Fragment",
+            "Soft Ice Sherbet Fragment",
+            "Chocolate Mail Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-5": {
+        "name": "拉特利群山·崖底 47-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Gust Spear Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Eight Weight Armor Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-6": {
+        "name": "拉特利群山·崖底 47-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Cherishrod Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Blizzard Woven Heels Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-7": {
+        "name": "拉特利群山·崖底 47-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Cherry Blossom Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Scattered Sakura Wide Brimmed Hat Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-8": {
+        "name": "拉特利群山·崖底 47-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Yoito Kage Sakura Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Evening Sakura Purple Armor Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Magic Pancake Robe Fragment",
+            "Fancy Macaron Dress Fragment",
+            "Soft Ice Sherbet Fragment",
+            "Chocolate Mail Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-9": {
+        "name": "拉特利群山·崖底 47-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Wand Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "White Snow Sakura Magic Clothes Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-10": {
+        "name": "拉特利群山·崖底 47-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Gust Spear Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Thin Red Sakura Saintly Cloth Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-11": {
+        "name": "拉特利群山·崖底 47-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Hand Brace Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Blizzard Woven Heels Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-12": {
+        "name": "拉特利群山·崖底 47-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Weeping Sakura Bow Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Magic Pancake Robe Fragment",
+            "Fancy Macaron Dress Fragment",
+            "Soft Ice Sherbet Fragment",
+            "Chocolate Mail Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-13": {
+        "name": "拉特利群山·崖底 47-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Axe Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-14": {
+        "name": "拉特利群山·崖底 47-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Wand Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-1H": {
+        "name": "拉特利群山?崖底 47-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Cherry Petal Dagger Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Scattered Sakura Wide Brimmed Hat Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Yui Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-2H": {
+        "name": "拉特利群山?崖底 47-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Cherry Blossom Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Evening Sakura Purple Armor Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Eriko Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "47-3H": {
+        "name": "拉特利群山?崖底 47-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Wand Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Sakura Blizzard Woven Heels Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Angel Akari Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-1": {
+        "name": "埃斯塔荒野·南部 48-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Cherry Petal Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Yoito Kage Sakura Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-2": {
+        "name": "埃斯塔荒野·南部 48-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Cherishrod Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Wand Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-3": {
+        "name": "埃斯塔荒野·南部 48-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Gust Spear Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Axe Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-4": {
+        "name": "埃斯塔荒野·南部 48-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Parasol One Piece Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Cherishrod Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Magic Pancake Robe Fragment",
+            "Fancy Macaron Dress Fragment",
+            "Soft Ice Sherbet Fragment",
+            "Chocolate Mail Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-5": {
+        "name": "埃斯塔荒野·南部 48-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Beach Floater Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Hand Brace Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-6": {
+        "name": "埃斯塔荒野·南部 48-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Summer Light Bikini Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Cherry Blossom Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-7": {
+        "name": "埃斯塔荒野?南部 48-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Hibiscus Sandals Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Wand Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-8": {
+        "name": "埃斯塔荒野?南部 48-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Weeping Sakura Bow Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Magic Pancake Robe Fragment",
+            "Fancy Macaron Dress Fragment",
+            "Soft Ice Sherbet Fragment",
+            "Chocolate Mail Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-9": {
+        "name": "埃斯塔荒野?南部 48-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sunflower Straw Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Cherry Petal Dagger Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-10": {
+        "name": "埃斯塔荒野?南部 48-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Parasol One Piece Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Cherishrod Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-11": {
+        "name": "埃斯塔荒野?南部 48-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Gust Spear Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-12": {
+        "name": "埃斯塔荒野?南部 48-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Hibiscus Sandals Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Parasol One Piece Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Magic Pancake Robe Fragment",
+            "Fancy Macaron Dress Fragment",
+            "Soft Ice Sherbet Fragment",
+            "Chocolate Mail Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-13": {
+        "name": "埃斯塔荒野?南部 48-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Beach Floater Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sunflower Straw Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-14": {
+        "name": "埃斯塔荒野?南部 48-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Summer Light Bikini Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-1H": {
+        "name": "埃斯塔荒野?南部 48-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Summer Light Bikini Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Yoito Kage Sakura Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Aoi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Popcorn Necklace Fragment",
+            "Choco Stick Blade Fragment",
+            "Crepe Axe Fragment",
+            "Candy Sugar Bow Fragment",
+            "Sheet Tart Beret Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-2H": {
+        "name": "埃斯塔荒野?南部 48-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Sunflower Straw Hat Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Cherry Blossom Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Shiori Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Doughnut Choker Fragment",
+            "Lollipop Stick Fragment",
+            "Rose Strawberry Armor Fragment",
+            "Chocolate Banana Dagger Fragment",
+            "Chocolate Lance Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "48-3H": {
+        "name": "埃斯塔荒野?南部 48-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Hibiscus Sandals Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Wand Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Angel Yori Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Macaron Pendant Fragment",
+            "Chocolate Mint Ice Heels Fragment",
+            "Triple Ice Rod Fragment",
+            "Cream Puff Knuckle Fragment",
+            "Popcorn Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-1": {
+        "name": "埃斯塔荒野?北部 49-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Hibiscus Sandals Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-2": {
+        "name": "埃斯塔荒野?北部 49-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Beach Floater Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-3": {
+        "name": "埃斯塔荒野?北部 49-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Summer Light Bikini Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-4": {
+        "name": "埃斯塔荒野?北部 49-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Clione Blade Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sunflower Straw Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Dark Moon Arc Cane Fragment",
+            "Icy Snow Flower Cane Fragment",
+            "Polar Light Belt Axe Fragment",
+            "Lightning Spear Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-5": {
+        "name": "埃斯塔荒野?北部 49-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Jewel Shell Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Parasol One Piece Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-6": {
+        "name": "埃斯塔荒野?北部 49-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Jellyfish Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Hibiscus Sandals Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-7": {
+        "name": "埃斯塔荒野?北部 49-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Shark Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-8": {
+        "name": "埃斯塔荒野?北部 49-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Crab Scissor Spear Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Parasol One Piece Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Dark Moon Arc Cane Fragment",
+            "Icy Snow Flower Cane Fragment",
+            "Polar Light Belt Axe Fragment",
+            "Lightning Spear Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-9": {
+        "name": "埃斯塔荒野?北部 49-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Orca Sword Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Sunflower Straw Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-10": {
+        "name": "埃斯塔荒野?北部 49-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Turtle Gauntlet Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Summer Light Bikini Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-11": {
+        "name": "埃斯塔荒野?北部 49-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Clownfish Bow Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-12": {
+        "name": "埃斯塔荒野?北部 49-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Whale Axe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Clione Blade Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sunflower Straw Hat Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Dark Moon Arc Cane Fragment",
+            "Icy Snow Flower Cane Fragment",
+            "Polar Light Belt Axe Fragment",
+            "Lightning Spear Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-13": {
+        "name": "埃斯塔荒野?北部 49-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Jewel Shell Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Jellyfish Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Hibiscus Sandals Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-14": {
+        "name": "埃斯塔荒野?北部 49-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Shark Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Orca Sword Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Beach Floater Mail Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-1H": {
+        "name": "埃斯塔荒野?北部 49-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Clione Blade Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Summer Light Bikini Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Pecorine Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-2H": {
+        "name": "埃斯塔荒野?北部 49-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Whale Axe Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Immortal Sakura Wish Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mimi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "49-3H": {
+        "name": "埃斯塔荒野?北部 49-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Orca Sword Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Summer Light Bikini Armor Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Halloween Rei Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-1": {
+        "name": "涅洛岩礁?西部 50-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Clownfish Bow Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Summer Light Bikini Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-2": {
+        "name": "涅洛岩礁?西部 50-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Jellyfish Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Hibiscus Sandals Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Beach Floater Mail Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-3": {
+        "name": "涅洛岩礁?西部 50-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Turtle Gauntlet Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Beach Floater Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Hibiscus Sandals Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-4": {
+        "name": "涅洛岩礁?西部 50-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Clione Blade Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Dark Moon Arc Cane Fragment",
+            "Icy Snow Flower Cane Fragment",
+            "Polar Light Belt Axe Fragment",
+            "Lightning Spear Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-5": {
+        "name": "涅洛岩礁?西部 50-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Crab Scissor Spear Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Beach Floater Mail Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-6": {
+        "name": "涅洛岩礁?西部 50-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Jewel Shell Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Hibiscus Sandals Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-7": {
+        "name": "涅洛岩礁?西部 50-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Shark Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Sunflower Straw Hat Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-8": {
+        "name": "涅洛岩礁?西部 50-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Whale Axe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Summer Light Bikini Armor Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Dark Moon Arc Cane Fragment",
+            "Icy Snow Flower Cane Fragment",
+            "Polar Light Belt Axe Fragment",
+            "Lightning Spear Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-9": {
+        "name": "涅洛岩礁?西部 50-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Jellyfish Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Parasol One Piece Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-10": {
+        "name": "涅洛岩礁?西部 50-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Clownfish Bow Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Beach Floater Mail Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-11": {
+        "name": "涅洛岩礁?西部 50-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Orca Sword Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Hibiscus Sandals Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-12": {
+        "name": "涅洛岩礁?西部 50-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Jewel Shell Rod Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Dark Moon Arc Cane Fragment",
+            "Icy Snow Flower Cane Fragment",
+            "Polar Light Belt Axe Fragment",
+            "Lightning Spear Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-13": {
+        "name": "涅洛岩礁?西部 50-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Turtle Gauntlet Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-14": {
+        "name": "涅洛岩礁?西部 50-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Crab Scissor Spear Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-1H": {
+        "name": "涅洛岩礁?西部 50-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Gothic Blue Rose Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Jewel Shell Rod Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Misaki Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-2H": {
+        "name": "涅洛岩礁?西部 50-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Gothic Maiden Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Clione Blade Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mifuyu Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "50-3H": {
+        "name": "涅洛岩礁?西部 50-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Chain Fury Sword Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Gothic Draped Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Magical Monica Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-1": {
+        "name": "涅洛岩礁?东部 51-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Shark Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Clownfish Bow Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-2": {
+        "name": "涅洛岩礁?东部 51-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Clione Blade Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Turtle Gauntlet Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-3": {
+        "name": "涅洛岩礁?东部 51-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Jellyfish Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Jewel Shell Rod Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-4": {
+        "name": "涅洛岩礁?东部 51-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Pierced Black Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Crab Scissor Spear Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Dark Moon Arc Cane Fragment",
+            "Icy Snow Flower Cane Fragment",
+            "Polar Light Belt Axe Fragment",
+            "Lightning Spear Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-5": {
+        "name": "涅洛岩礁?东部 51-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Punkish Girl Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Whale Axe Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-6": {
+        "name": "涅洛岩礁?东部 51-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Gothic Draped Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Orca Sword Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-7": {
+        "name": "涅洛岩礁?东部 51-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Studded Black Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Jellyfish Rod Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-8": {
+        "name": "涅洛岩礁?东部 51-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Gothic Maiden Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Shark Dagger Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Dark Moon Arc Cane Fragment",
+            "Icy Snow Flower Cane Fragment",
+            "Polar Light Belt Axe Fragment",
+            "Lightning Spear Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-9": {
+        "name": "涅洛岩礁?东部 51-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Punkish Girl Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Clione Blade Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-10": {
+        "name": "涅洛岩礁?东部 51-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Pierced Black Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Jellyfish Rod Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-11": {
+        "name": "涅洛岩礁?东部 51-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Gothic Draped Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Clownfish Bow Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-12": {
+        "name": "涅洛岩礁?东部 51-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Gothic Blue Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Studded Black Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Dark Moon Arc Cane Fragment",
+            "Icy Snow Flower Cane Fragment",
+            "Polar Light Belt Axe Fragment",
+            "Lightning Spear Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-13": {
+        "name": "涅洛岩礁?东部 51-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Gothic Maiden Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Gothic Draped Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-14": {
+        "name": "涅洛岩礁?东部 51-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Punkish Girl Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pierced Black Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-1H": {
+        "name": "涅洛岩礁?东部 51-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Skull Gothic Lance Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Gothic Maiden Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Rima Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-2H": {
+        "name": "涅洛岩礁?东部 51-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Rocking Groove Axe Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Punkish Girl Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mahiru Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-3H": {
+        "name": "涅洛岩礁?东部 51-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Snowflake Beret Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Chain Fury Sword Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Magical Tomo Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-1": {
+        "name": "匹尼昂滩脊?西岸 52-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Studded Black Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-2": {
+        "name": "匹尼昂滩脊?西岸 52-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Gothic Blue Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-3": {
+        "name": "匹尼昂滩脊?西岸 52-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Pierced Black Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Immortal Sakura Wish Hairpin Fragment",
+            "Weeping Sakura Bow Fragment",
+            "Cherry Blossom Fragment",
+            "Parasol One Piece Fragment",
+            "Sakura Dance Double Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-4": {
+        "name": "匹尼昂滩脊?西岸 52-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Riot Spike Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Gothic Maiden Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Cherishrod Fragment",
+            "Hibiscus Sandals Fragment",
+            "Cherry Petal Dagger Fragment",
+            "Summer Reflection Yukata of Morning Glory Fragment",
+            "Sakura Flower Moonlight Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-5": {
+        "name": "匹尼昂滩脊?西岸 52-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Punk Princess Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Punkish Girl Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-6": {
+        "name": "匹尼昂滩脊?西岸 52-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Padlock Scepter Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Gothic Draped Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-7": {
+        "name": "匹尼昂滩脊?西岸 52-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Thunder Punk Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Studded Black Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Immortal Sakura Wish Hairpin Fragment",
+            "Weeping Sakura Bow Fragment",
+            "Cherry Blossom Fragment",
+            "Parasol One Piece Fragment",
+            "Sakura Dance Double Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-8": {
+        "name": "匹尼昂滩脊?西岸 52-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Crime Hunt Bow Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Gothic Blue Rose Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Cherishrod Fragment",
+            "Hibiscus Sandals Fragment",
+            "Cherry Petal Dagger Fragment",
+            "Summer Reflection Yukata of Morning Glory Fragment",
+            "Sakura Flower Moonlight Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-9": {
+        "name": "匹尼昂滩脊?西岸 52-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Chain Fury Sword Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pierced Black Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-10": {
+        "name": "匹尼昂滩脊?西岸 52-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Rocking Groove Axe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Gothic Maiden Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pearl Coconut Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-11": {
+        "name": "匹尼昂滩脊?西岸 52-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Crime Hunt Bow Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Punkish Girl Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Immortal Sakura Wish Hairpin Fragment",
+            "Weeping Sakura Bow Fragment",
+            "Cherry Blossom Fragment",
+            "Parasol One Piece Fragment",
+            "Sakura Dance Double Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-12": {
+        "name": "匹尼昂滩脊?西岸 52-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Brass Knuckles Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Riot Spike Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pierced Black Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Cherishrod Fragment",
+            "Hibiscus Sandals Fragment",
+            "Cherry Petal Dagger Fragment",
+            "Summer Reflection Yukata of Morning Glory Fragment",
+            "Sakura Flower Moonlight Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-13": {
+        "name": "匹尼昂滩脊?西岸 52-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Punk Princess Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Padlock Scepter Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Gothic Blue Rose Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-14": {
+        "name": "匹尼昂滩脊?西岸 52-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Thunder Punk Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Skull Gothic Lance Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Studded Black Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-1H": {
+        "name": "匹尼昂滩脊?西岸 52-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Ice Shining Sword Glass Blade Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Pure Snow Mail Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Rei Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-2H": {
+        "name": "匹尼昂滩脊?西岸 52-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Ice Fang Styria Dagger Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "White Aurora Dress Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mimi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "52-3H": {
+        "name": "匹尼昂滩脊?西岸 52-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Ice Pillar Ring Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Ice Shining Sword Glass Blade Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Snowflake Beret Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Sheffy Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Immortal Sakura Wish Hairpin Fragment",
+            "Weeping Sakura Bow Fragment",
+            "Cherry Blossom Fragment",
+            "Parasol One Piece Fragment",
+            "Sakura Dance Double Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "53-1": {
+        "name": "匹尼昂滩脊?东岸 53-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Brass Knuckles Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Gothic Draped Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Studded Black Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "53-2": {
+        "name": "匹尼昂滩脊?东岸 53-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Skull Gothic Lance Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Studded Black Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pierced Black Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "53-3": {
+        "name": "匹尼昂滩脊?东岸 53-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Rocking Groove Axe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Gothic Maiden Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Gothic Blue Rose Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Immortal Sakura Wish Hairpin Fragment",
+            "Weeping Sakura Bow Fragment",
+            "Cherry Blossom Fragment",
+            "Parasol One Piece Fragment",
+            "Sakura Dance Double Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "53-4": {
+        "name": "匹尼昂滩脊?东岸 53-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Chain Fury Sword Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Gothic Maiden Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Cherishrod Fragment",
+            "Hibiscus Sandals Fragment",
+            "Cherry Petal Dagger Fragment",
+            "Summer Reflection Yukata of Morning Glory Fragment",
+            "Sakura Flower Moonlight Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "53-5": {
+        "name": "匹尼昂滩脊?东岸 53-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Punk Princess Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Studded Black Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "53-6": {
+        "name": "匹尼昂滩脊?东岸 53-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Rocking Chain Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Padlock Scepter Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Gothic Blue Rose Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "53-7": {
+        "name": "匹尼昂滩脊?东岸 53-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Thunder Punk Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Gothic Draped Armor Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Immortal Sakura Wish Hairpin Fragment",
+            "Weeping Sakura Bow Fragment",
+            "Cherry Blossom Fragment",
+            "Parasol One Piece Fragment",
+            "Sakura Dance Double Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "53-8": {
+        "name": "匹尼昂滩脊?东岸 53-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Crime Hunt Bow Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Punkish Girl Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Cherishrod Fragment",
+            "Hibiscus Sandals Fragment",
+            "Cherry Petal Dagger Fragment",
+            "Summer Reflection Yukata of Morning Glory Fragment",
+            "Sakura Flower Moonlight Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "53-9": {
+        "name": "匹尼昂滩脊?东岸 53-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Rocking Chain Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Brass Knuckles Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pierced Black Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "53-10": {
+        "name": "匹尼昂滩脊?东岸 53-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Riot Spike Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Gothic Draped Armor Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "53-11": {
+        "name": "匹尼昂滩脊?东岸 53-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Rocking Chain Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Skull Gothic Lance Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Punkish Girl Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Immortal Sakura Wish Hairpin Fragment",
+            "Weeping Sakura Bow Fragment",
+            "Cherry Blossom Fragment",
+            "Parasol One Piece Fragment",
+            "Sakura Dance Double Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "53-12": {
+        "name": "匹尼昂滩脊?东岸 53-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Riot Spike Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Cherishrod Fragment",
+            "Hibiscus Sandals Fragment",
+            "Cherry Petal Dagger Fragment",
+            "Summer Reflection Yukata of Morning Glory Fragment",
+            "Sakura Flower Moonlight Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "53-13": {
+        "name": "匹尼昂滩脊?东岸 53-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Rocking Chain Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Padlock Scepter Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "53-14": {
+        "name": "匹尼昂滩脊?东岸 53-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Rocking Chain Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Punk Princess Rod Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "53-1H": {
+        "name": "匹尼昂滩脊?东岸 53-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Keyboard Armor Cimbalom Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Green Aurora Ring Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Ice Sacred Bow Constellation Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Aoi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "53-2H": {
+        "name": "匹尼昂滩脊?东岸 53-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Heavy Hoplon Cymbal Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Ice Pillar Ring Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Ice and Snow Sword Graki Edge Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Shinobu Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "53-3H": {
+        "name": "匹尼昂滩脊?东岸 53-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Absolute Sound Cane Accordia Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Singing Dress Musical Score Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Snow Flower Crystal Ring Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Summer Kasumi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Punk Needle Bangle Fragment",
+            "Punk Princess Rod Fragment",
+            "Brass Knuckles Fragment",
+            "Diamond Dust Robe Fragment",
+            "Crime Hunt Bow Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "54-1": {
+        "name": "托塔蒂斯沙岸?西部 54-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Brass Knuckles Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Crime Hunt Bow Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "54-2": {
+        "name": "托塔蒂斯沙岸?西部 54-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Rocking Chain Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Punk Princess Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Padlock Scepter Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "54-3": {
+        "name": "托塔蒂斯沙岸?西部 54-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Thunder Punk Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Rocking Groove Axe Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Immortal Sakura Wish Hairpin Fragment",
+            "Weeping Sakura Bow Fragment",
+            "Cherry Blossom Fragment",
+            "Parasol One Piece Fragment",
+            "Sakura Dance Double Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "54-4": {
+        "name": "托塔蒂斯沙岸?西部 54-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Crystal Ice Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Riot Spike Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Cherishrod Fragment",
+            "Hibiscus Sandals Fragment",
+            "Cherry Petal Dagger Fragment",
+            "Summer Reflection Yukata of Morning Glory Fragment",
+            "Sakura Flower Moonlight Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "54-5": {
+        "name": "托塔蒂斯沙岸?西部 54-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Diamond Dust Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Rocking Chain Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Padlock Scepter Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "54-6": {
+        "name": "托塔蒂斯沙岸?西部 54-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "White Aurora Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Skull Gothic Lance Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "54-7": {
+        "name": "托塔蒂斯沙岸?西部 54-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Pure Snow Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Brass Knuckles Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Immortal Sakura Wish Hairpin Fragment",
+            "Weeping Sakura Bow Fragment",
+            "Cherry Blossom Fragment",
+            "Parasol One Piece Fragment",
+            "Sakura Dance Double Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "54-8": {
+        "name": "托塔蒂斯沙岸?西部 54-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Frost Column Heel Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Rocking Chain Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Punk Princess Rod Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Cherishrod Fragment",
+            "Hibiscus Sandals Fragment",
+            "Cherry Petal Dagger Fragment",
+            "Summer Reflection Yukata of Morning Glory Fragment",
+            "Sakura Flower Moonlight Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "54-9": {
+        "name": "托塔蒂斯沙岸?西部 54-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Snowflake Beret Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Thunder Punk Dagger Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "54-10": {
+        "name": "托塔蒂斯沙岸?西部 54-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Crystal Ice Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Crime Hunt Bow Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "54-11": {
+        "name": "托塔蒂斯沙岸?西部 54-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "White Aurora Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Riot Spike Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Immortal Sakura Wish Hairpin Fragment",
+            "Weeping Sakura Bow Fragment",
+            "Cherry Blossom Fragment",
+            "Parasol One Piece Fragment",
+            "Sakura Dance Double Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "54-12": {
+        "name": "托塔蒂斯沙岸?西部 54-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Crystal Ice Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pure Snow Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Cherishrod Fragment",
+            "Hibiscus Sandals Fragment",
+            "Cherry Petal Dagger Fragment",
+            "Summer Reflection Yukata of Morning Glory Fragment",
+            "Sakura Flower Moonlight Hairpin Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "54-13": {
+        "name": "托塔蒂斯沙岸?西部 54-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Diamond Dust Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Frost Column Heel Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Rocking Chain Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Dance Double Hairpin Fragment",
+            "Sakura Dance Wand Fragment",
+            "Summer Light Bikini Armor Fragment",
+            "Sakura Gust Spear Fragment",
+            "Sunflower Straw Hat Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "54-14": {
+        "name": "托塔蒂斯沙岸?西部 54-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "White Aurora Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Snowflake Beret Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Sakura Flower Moonlight Hairpin Fragment",
+            "Beach Floater Mail Fragment",
+            "Sakura Axe Fragment",
+            "Yoito Kage Sakura Fragment",
+            "Sakura Hand Brace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-1": {
+        "name": "托塔蒂斯沙岸?东部 55-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "White Aurora Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Crystal Ice Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Hibiscus Hair Ornament Fragment",
+            "Studded Black Fragment",
+            "Clione Blade Fragment",
+            "Orca Sword Fragment",
+            "Crab Scissor Spear Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-2": {
+        "name": "托塔蒂斯沙岸?东部 55-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Frost Column Heel Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Diamond Dust Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Rocking Chain Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pearl Coconut Hair Ornament Fragment",
+            "Gothic Maiden Fragment",
+            "Jellyfish Rod Fragment",
+            "Turtle Gauntlet Fragment",
+            "Gothic Draped Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-3": {
+        "name": "托塔蒂斯沙岸?东部 55-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Snowflake Beret Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pure Snow Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Opal Shell Hair Ornament Fragment",
+            "Pierced Black Fragment",
+            "Clownfish Bow Fragment",
+            "Shark Dagger Fragment",
+            "Ruby Hibiscus Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-4": {
+        "name": "托塔蒂斯沙岸?东部 55-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Shining Sword Glass Blade Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "White Aurora Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Jewel Shell Rod Fragment",
+            "Punkish Girl Fragment",
+            "Whale Axe Fragment",
+            "Gothic Blue Rose Fragment",
+            "Pearl Coconut Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-5": {
+        "name": "托塔蒂斯沙岸?东部 55-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice and Snow Cane Pergos Wand Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Diamond Dust Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Rocking Chain Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Hibiscus Hair Ornament Fragment",
+            "Studded Black Fragment",
+            "Clione Blade Fragment",
+            "Orca Sword Fragment",
+            "Crab Scissor Spear Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-6": {
+        "name": "托塔蒂斯沙岸?东部 55-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Spear Snow Storm Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Pure Snow Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pearl Coconut Hair Ornament Fragment",
+            "Gothic Maiden Fragment",
+            "Jellyfish Rod Fragment",
+            "Turtle Gauntlet Fragment",
+            "Gothic Draped Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-7": {
+        "name": "托塔蒂斯沙岸?东部 55-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Breaking Riot Axe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Crystal Ice Mail Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Opal Shell Hair Ornament Fragment",
+            "Pierced Black Fragment",
+            "Clownfish Bow Fragment",
+            "Shark Dagger Fragment",
+            "Ruby Hibiscus Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-8": {
+        "name": "托塔蒂斯沙岸?东部 55-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice and Snow Sword Graki Edge Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Snowflake Beret Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Jewel Shell Rod Fragment",
+            "Punkish Girl Fragment",
+            "Whale Axe Fragment",
+            "Gothic Blue Rose Fragment",
+            "Pearl Coconut Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-9": {
+        "name": "托塔蒂斯沙岸?东部 55-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Cane Frost Staff Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Frost Column Heel Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Rocking Chain Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Hibiscus Hair Ornament Fragment",
+            "Studded Black Fragment",
+            "Clione Blade Fragment",
+            "Orca Sword Fragment",
+            "Crab Scissor Spear Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-10": {
+        "name": "托塔蒂斯沙岸?东部 55-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Block Fist Glass Knuckle Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "White Aurora Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pearl Coconut Hair Ornament Fragment",
+            "Gothic Maiden Fragment",
+            "Jellyfish Rod Fragment",
+            "Turtle Gauntlet Fragment",
+            "Gothic Draped Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-11": {
+        "name": "托塔蒂斯沙岸?东部 55-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Sacred Bow Constellation Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Snowflake Beret Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Opal Shell Hair Ornament Fragment",
+            "Pierced Black Fragment",
+            "Clownfish Bow Fragment",
+            "Shark Dagger Fragment",
+            "Ruby Hibiscus Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-12": {
+        "name": "托塔蒂斯沙岸?东部 55-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Shining Sword Glass Blade Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Breaking Riot Axe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Crystal Ice Mail Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Jewel Shell Rod Fragment",
+            "Punkish Girl Fragment",
+            "Whale Axe Fragment",
+            "Gothic Blue Rose Fragment",
+            "Pearl Coconut Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-13": {
+        "name": "托塔蒂斯沙岸?东部 55-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice and Snow Cane Pergos Wand Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Cane Frost Staff Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Frost Column Heel Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Hibiscus Hair Ornament Fragment",
+            "Studded Black Fragment",
+            "Clione Blade Fragment",
+            "Orca Sword Fragment",
+            "Crab Scissor Spear Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "55-14": {
+        "name": "托塔蒂斯沙岸?东部 55-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Fang Styria Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Block Fist Glass Knuckle Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pure Snow Mail Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pearl Coconut Hair Ornament Fragment",
+            "Gothic Maiden Fragment",
+            "Jellyfish Rod Fragment",
+            "Turtle Gauntlet Fragment",
+            "Gothic Draped Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "56-1": {
+        "name": "奥琉克斯沙岛?北部 56-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Fang Styria Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Snowflake Beret Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Crystal Ice Mail Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Hibiscus Hair Ornament Fragment",
+            "Studded Black Fragment",
+            "Clione Blade Fragment",
+            "Orca Sword Fragment",
+            "Crab Scissor Spear Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "56-2": {
+        "name": "奥琉克斯沙岛?北部 56-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Block Fist Glass Knuckle Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "White Aurora Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pure Snow Mail Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pearl Coconut Hair Ornament Fragment",
+            "Gothic Maiden Fragment",
+            "Jellyfish Rod Fragment",
+            "Turtle Gauntlet Fragment",
+            "Gothic Draped Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "56-3": {
+        "name": "奥琉克斯沙岛?北部 56-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Cane Frost Staff Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Frost Column Heel Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Diamond Dust Robe Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Opal Shell Hair Ornament Fragment",
+            "Pierced Black Fragment",
+            "Clownfish Bow Fragment",
+            "Shark Dagger Fragment",
+            "Ruby Hibiscus Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "56-4": {
+        "name": "奥琉克斯沙岛?北部 56-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Pillar Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Shining Sword Glass Blade Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Frost Column Heel Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Jewel Shell Rod Fragment",
+            "Punkish Girl Fragment",
+            "Whale Axe Fragment",
+            "Gothic Blue Rose Fragment",
+            "Pearl Coconut Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "56-5": {
+        "name": "奥琉克斯沙岛?北部 56-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Green Aurora Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Spear Snow Storm Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "White Aurora Dress Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Hibiscus Hair Ornament Fragment",
+            "Studded Black Fragment",
+            "Clione Blade Fragment",
+            "Orca Sword Fragment",
+            "Crab Scissor Spear Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "56-6": {
+        "name": "奥琉克斯沙岛?北部 56-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Snow Flower Crystal Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice and Snow Cane Pergos Wand Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Diamond Dust Robe Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pearl Coconut Hair Ornament Fragment",
+            "Gothic Maiden Fragment",
+            "Jellyfish Rod Fragment",
+            "Turtle Gauntlet Fragment",
+            "Gothic Draped Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "56-7": {
+        "name": "奥琉克斯沙岛?北部 56-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Pillar Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Sacred Bow Constellation Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "White Aurora Dress Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Opal Shell Hair Ornament Fragment",
+            "Pierced Black Fragment",
+            "Clownfish Bow Fragment",
+            "Shark Dagger Fragment",
+            "Ruby Hibiscus Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "56-8": {
+        "name": "奥琉克斯沙岛?北部 56-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Green Aurora Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Fang Styria Dagger Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Snowflake Beret Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Jewel Shell Rod Fragment",
+            "Punkish Girl Fragment",
+            "Whale Axe Fragment",
+            "Gothic Blue Rose Fragment",
+            "Pearl Coconut Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "56-9": {
+        "name": "奥琉克斯沙岛?北部 56-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Snow Flower Crystal Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice and Snow Cane Pergos Wand Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Frost Column Heel Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Hibiscus Hair Ornament Fragment",
+            "Studded Black Fragment",
+            "Clione Blade Fragment",
+            "Orca Sword Fragment",
+            "Crab Scissor Spear Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "56-10": {
+        "name": "奥琉克斯沙岛?北部 56-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Pillar Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice and Snow Sword Graki Edge Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Pure Snow Mail Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pearl Coconut Hair Ornament Fragment",
+            "Gothic Maiden Fragment",
+            "Jellyfish Rod Fragment",
+            "Turtle Gauntlet Fragment",
+            "Gothic Draped Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "56-11": {
+        "name": "奥琉克斯沙岛?北部 56-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Green Aurora Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Breaking Riot Axe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Crystal Ice Mail Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Opal Shell Hair Ornament Fragment",
+            "Pierced Black Fragment",
+            "Clownfish Bow Fragment",
+            "Shark Dagger Fragment",
+            "Ruby Hibiscus Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "56-12": {
+        "name": "奥琉克斯沙岛?北部 56-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Snow Flower Crystal Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Green Aurora Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice Cane Frost Staff Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Jewel Shell Rod Fragment",
+            "Punkish Girl Fragment",
+            "Whale Axe Fragment",
+            "Gothic Blue Rose Fragment",
+            "Pearl Coconut Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "56-13": {
+        "name": "奥琉克斯沙岛?北部 56-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Green Aurora Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Pillar Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice Block Fist Glass Knuckle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Hibiscus Hair Ornament Fragment",
+            "Studded Black Fragment",
+            "Clione Blade Fragment",
+            "Orca Sword Fragment",
+            "Crab Scissor Spear Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "56-14": {
+        "name": "奥琉克斯沙岛?北部 56-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Pillar Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Snow Flower Crystal Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice Shining Sword Glass Blade Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pearl Coconut Hair Ornament Fragment",
+            "Gothic Maiden Fragment",
+            "Jellyfish Rod Fragment",
+            "Turtle Gauntlet Fragment",
+            "Gothic Draped Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "57-1": {
+        "name": "奥琉克斯沙岛?南部 57-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ice Pillar Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Shining Sword Glass Blade Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice Block Fist Glass Knuckle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Hibiscus Hair Ornament Fragment",
+            "Studded Black Fragment",
+            "Clione Blade Fragment",
+            "Orca Sword Fragment",
+            "Crab Scissor Spear Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "57-2": {
+        "name": "奥琉克斯沙岛?南部 57-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Green Aurora Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Breaking Riot Axe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice Fang Styria Dagger Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pearl Coconut Hair Ornament Fragment",
+            "Gothic Maiden Fragment",
+            "Jellyfish Rod Fragment",
+            "Turtle Gauntlet Fragment",
+            "Gothic Draped Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "57-3": {
+        "name": "奥琉克斯沙岛?南部 57-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Snow Flower Crystal Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Cane Frost Staff Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice and Snow Cane Pergos Wand Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Opal Shell Hair Ornament Fragment",
+            "Pierced Black Fragment",
+            "Clownfish Bow Fragment",
+            "Shark Dagger Fragment",
+            "Ruby Hibiscus Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "57-4": {
+        "name": "奥琉克斯沙岛?南部 57-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Singing Dress Musical Score Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Green Aurora Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice Cane Frost Staff Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Jewel Shell Rod Fragment",
+            "Punkish Girl Fragment",
+            "Whale Axe Fragment",
+            "Gothic Blue Rose Fragment",
+            "Pearl Coconut Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "57-5": {
+        "name": "奥琉克斯沙岛?南部 57-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Tributal Dancing Pumps Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Pillar Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice Shining Sword Glass Blade Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Hibiscus Hair Ornament Fragment",
+            "Studded Black Fragment",
+            "Clione Blade Fragment",
+            "Orca Sword Fragment",
+            "Crab Scissor Spear Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "57-6": {
+        "name": "奥琉克斯沙岛?南部 57-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Magical Hat Tambourine Caskets Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Snow Flower Crystal Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice and Snow Cane Pergos Wand Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pearl Coconut Hair Ornament Fragment",
+            "Gothic Maiden Fragment",
+            "Jellyfish Rod Fragment",
+            "Turtle Gauntlet Fragment",
+            "Gothic Draped Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "57-7": {
+        "name": "奥琉克斯沙岛?南部 57-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Keyboard Armor Cimbalom Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Green Aurora Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice Spear Snow Storm Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Opal Shell Hair Ornament Fragment",
+            "Pierced Black Fragment",
+            "Clownfish Bow Fragment",
+            "Shark Dagger Fragment",
+            "Ruby Hibiscus Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "57-8": {
+        "name": "奥琉克斯沙岛?南部 57-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Heavy Hoplon Cymbal Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Pillar Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice Sacred Bow Constellation Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Jewel Shell Rod Fragment",
+            "Punkish Girl Fragment",
+            "Whale Axe Fragment",
+            "Gothic Blue Rose Fragment",
+            "Pearl Coconut Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "57-9": {
+        "name": "奥琉克斯沙岛?南部 57-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ensemble Armor Brass Horn Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Green Aurora Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice Shining Sword Glass Blade Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Hibiscus Hair Ornament Fragment",
+            "Studded Black Fragment",
+            "Clione Blade Fragment",
+            "Orca Sword Fragment",
+            "Crab Scissor Spear Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "57-10": {
+        "name": "奥琉克斯沙岛?南部 57-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Tributal Dancing Pumps Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ice Pillar Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice Block Fist Glass Knuckle Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pearl Coconut Hair Ornament Fragment",
+            "Gothic Maiden Fragment",
+            "Jellyfish Rod Fragment",
+            "Turtle Gauntlet Fragment",
+            "Gothic Draped Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "57-11": {
+        "name": "奥琉克斯沙岛?南部 57-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Singing Dress Musical Score Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Snow Flower Crystal Ring Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice and Snow Cane Pergos Wand Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Opal Shell Hair Ornament Fragment",
+            "Pierced Black Fragment",
+            "Clownfish Bow Fragment",
+            "Shark Dagger Fragment",
+            "Ruby Hibiscus Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "57-12": {
+        "name": "奥琉克斯沙岛?南部 57-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Tributal Dancing Pumps Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Keyboard Armor Cimbalom Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice Pillar Ring Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Jewel Shell Rod Fragment",
+            "Punkish Girl Fragment",
+            "Whale Axe Fragment",
+            "Gothic Blue Rose Fragment",
+            "Pearl Coconut Hair Ornament Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "57-13": {
+        "name": "奥琉克斯沙岛?南部 57-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ensemble Armor Brass Horn Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Heavy Hoplon Cymbal Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Green Aurora Ring Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Ruby Hibiscus Hair Ornament Fragment",
+            "Studded Black Fragment",
+            "Clione Blade Fragment",
+            "Orca Sword Fragment",
+            "Crab Scissor Spear Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "57-14": {
+        "name": "奥琉克斯沙岛?南部 57-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Singing Dress Musical Score Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Magical Hat Tambourine Caskets Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Snow Flower Crystal Ring Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Pearl Coconut Hair Ornament Fragment",
+            "Gothic Maiden Fragment",
+            "Jellyfish Rod Fragment",
+            "Turtle Gauntlet Fragment",
+            "Gothic Draped Armor Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "58-1": {
+        "name": "库鲁斯密林?东部 58-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sound Weaving Katana Gertona Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Tributal Dancing Pumps Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ice Pillar Ring Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Punk Needle Bangle Fragment",
+            "Punk Princess Rod Fragment",
+            "Brass Knuckles Fragment",
+            "Diamond Dust Robe Fragment",
+            "Crime Hunt Bow Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "58-2": {
+        "name": "库鲁斯密林?东部 58-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Heavenly Sound Axe Buster Horn Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Heavy Hoplon Cymbal Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Green Aurora Ring Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rocking Chain Bangle Fragment",
+            "Riot Spike Fragment",
+            "Snowflake Beret Fragment",
+            "Pure Snow Mail Fragment",
+            "Chain Fury Sword Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "58-3": {
+        "name": "库鲁斯密林?东部 58-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Skillful Sound Bow Snare Arc Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Keyboard Armor Cimbalom Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Singing Dress Musical Score Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Emerald Gothic Bangle Fragment",
+            "Frost Column Heel Fragment",
+            "Skull Gothic Lance Fragment",
+            "Rocking Groove Axe Fragment",
+            "Punk Needle Bangle Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "58-4": {
+        "name": "库鲁斯密林?东部 58-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sword Field Sword Grand Pianos Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Tributal Dancing Pumps Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ensemble Armor Brass Horn Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Padlock Scepter Fragment",
+            "White Aurora Dress Fragment",
+            "Thunder Punk Dagger Fragment",
+            "Crystal Ice Mail Fragment",
+            "Rocking Chain Bangle Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "58-5": {
+        "name": "库鲁斯密林?东部 58-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sound Engraving Blade Clefton Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Benevolent Heavy Spear Tromspear Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Heavy Hoplon Cymbal Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Punk Needle Bangle Fragment",
+            "Punk Princess Rod Fragment",
+            "Brass Knuckles Fragment",
+            "Diamond Dust Robe Fragment",
+            "Crime Hunt Bow Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "58-6": {
+        "name": "库鲁斯密林?东部 58-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sword Field Sword Grand Pianos Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Shouting Fist Biolafist Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Tributal Dancing Pumps Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Rocking Chain Bangle Fragment",
+            "Riot Spike Fragment",
+            "Snowflake Beret Fragment",
+            "Pure Snow Mail Fragment",
+            "Chain Fury Sword Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "58-7": {
+        "name": "库鲁斯密林?东部 58-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Charitable Command Staff Artemakillion Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Absolute Sound Cane Accordia Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Magical Hat Tambourine Caskets Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Emerald Gothic Bangle Fragment",
+            "Frost Column Heel Fragment",
+            "Skull Gothic Lance Fragment",
+            "Rocking Groove Axe Fragment",
+            "Punk Needle Bangle Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }
