@@ -15220,5 +15220,527 @@
             17,
             15
         ]
+    },
+    "34-1": {
+        "name": "Dextia Bluffs (West) 34-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Southern Heaven Blazing Blue Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Chaotic Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Scarlet Dragon's Claw Fire Ring Fragment",
+            "Glowing Silver Mirror Shield Fragment",
+            "World Tree's Branch Wand Fragment",
+            "Machine Axe - Core Breaker Fragment",
+            "Emerald Wind God's Tachi Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "34-2": {
+        "name": "Dextia Bluffs (West) 34-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Heavenly Wing Saint Shoes Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Chaotic Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Shield God Ring - Wall Breath Fragment",
+            "Extremely Dark Nail - Bloody Howl Fragment",
+            "Glowing Silver Mirror Armor Fragment",
+            "Beautiful Clothes - Soul Rose Fragment",
+            "Heavenly Black Sword of Obsidian Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "34-3": {
+        "name": "Dextia Bluffs (West) 34-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Northern Heaven Supreme Flame Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Deep Crystallized Xenocrystal Fragment",
+            "Overlord Light Dragon Sword Fragment",
+            "Ice Bow - Freezing Tear Fragment",
+            "Flowing Blue Dress - Azul Rondo Fragment",
+            "Scarlet Dragon's Claw Fire Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "34-4": {
+        "name": "Dextia Bluffs (West) 34-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Saintly Deer Spear - Alma Benard Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Western Heaven Saintly Guide Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Chaotic Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Abyss Moon Staff - Sacrifice Fragment",
+            "Astrologer's Holy Spirit Robe Fragment",
+            "Fire Spear - Prominence Fragment",
+            "Glowing Silver Mirror Boots Fragment",
+            "Scarlet Dragon's Claw Fire Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "34-5": {
+        "name": "Dextia Bluffs (West) 34-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Dark Blade - Heavenly Raven's Guard Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Southern Heaven Blazing Blue Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Scarlet Dragon's Claw Fire Ring Fragment",
+            "Glowing Silver Mirror Shield Fragment",
+            "World Tree's Branch Wand Fragment",
+            "Machine Axe - Core Breaker Fragment",
+            "Emerald Wind God's Tachi Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "34-6": {
+        "name": "Dextia Bluffs (West) 34-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Heaven Penetrating Falcon's Bow Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Eastern Heaven Green Wind Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Shield God Ring - Wall Breath Fragment",
+            "Extremely Dark Nail - Bloody Howl Fragment",
+            "Glowing Silver Mirror Armor Fragment",
+            "Beautiful Clothes - Soul Rose Fragment",
+            "Heavenly Black Sword of Obsidian Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "34-7": {
+        "name": "Dextia Bluffs (West) 34-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Prosperous Carp God's Katana Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Western Heaven Saintly Guide Robe Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Chaotic Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Deep Crystallized Xenocrystal Fragment",
+            "Overlord Light Dragon Sword Fragment",
+            "Ice Bow - Freezing Tear Fragment",
+            "Flowing Blue Dress - Azul Rondo Fragment",
+            "Scarlet Dragon's Claw Fire Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "34-8": {
+        "name": "Dextia Bluffs (West) 34-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Red Bear Emperor's Claw Battle Axe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Eastern Heaven Green Wind Dress Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Abyss Moon Staff - Sacrifice Fragment",
+            "Astrologer's Holy Spirit Robe Fragment",
+            "Fire Spear - Prominence Fragment",
+            "Glowing Silver Mirror Boots Fragment",
+            "Scarlet Dragon's Claw Fire Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "34-9": {
+        "name": "Dextia Bluffs (West) 34-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Dark Blade - Heavenly Raven's Guard Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Northern Heaven Supreme Flame Armor Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Chaotic Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Scarlet Dragon's Claw Fire Ring Fragment",
+            "Glowing Silver Mirror Shield Fragment",
+            "World Tree's Branch Wand Fragment",
+            "Machine Axe - Core Breaker Fragment",
+            "Emerald Wind God's Tachi Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "34-10": {
+        "name": "Dextia Bluffs (West) 34-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Heaven Penetrating Falcon's Bow Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Heavenly Wing Wise Saint Hat Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Shield God Ring - Wall Breath Fragment",
+            "Extremely Dark Nail - Bloody Howl Fragment",
+            "Glowing Silver Mirror Armor Fragment",
+            "Beautiful Clothes - Soul Rose Fragment",
+            "Heavenly Black Sword of Obsidian Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "34-11": {
+        "name": "Dextia Bluffs (West) 34-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Red Bear Emperor's Claw Battle Axe Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Heavenly Wing Saint Shoes Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Elfin Choker Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Deep Crystallized Xenocrystal Fragment",
+            "Overlord Light Dragon Sword Fragment",
+            "Ice Bow - Freezing Tear Fragment",
+            "Flowing Blue Dress - Azul Rondo Fragment",
+            "Scarlet Dragon's Claw Fire Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "34-12": {
+        "name": "Dextia Bluffs (West) 34-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Heaven Traveling Hook - Sharp Bite Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Prosperous Carp God's Katana Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Heavenly Wing Saint Shoes Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Abyss Moon Staff - Sacrifice Fragment",
+            "Astrologer's Holy Spirit Robe Fragment",
+            "Fire Spear - Prominence Fragment",
+            "Glowing Silver Mirror Boots Fragment",
+            "Scarlet Dragon's Claw Fire Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "34-13": {
+        "name": "Dextia Bluffs (West) 34-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Rabbit God's Great Sword Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "Saintly Deer Spear - Alma Benard Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Northern Heaven Supreme Flame Armor Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Scarlet Dragon's Claw Fire Ring Fragment",
+            "Glowing Silver Mirror Shield Fragment",
+            "World Tree's Branch Wand Fragment",
+            "Machine Axe - Core Breaker Fragment",
+            "Emerald Wind God's Tachi Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "34-14": {
+        "name": "Dextia Bluffs (West) 34-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Black Snake's Fiendish Flame Staff Fragment",
+            "drop_percent": 36
+        },
+        "item_2": {
+            "item_name": "White Snake's Holy Water Rod Fragment",
+            "drop_percent": 36
+        },
+        "item_3": {
+            "item_name": "Heavenly Wing Wise Saint Hat Fragment",
+            "drop_percent": 24
+        },
+        "subdrops": [
+            "Shield God Ring - Wall Breath Fragment",
+            "Extremely Dark Nail - Bloody Howl Fragment",
+            "Glowing Silver Mirror Armor Fragment",
+            "Beautiful Clothes - Soul Rose Fragment",
+            "Heavenly Black Sword of Obsidian Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "34-1H": {
+        "name": "Dextia Bluffs (West) 34-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "White Snake's Holy Water Rod Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Heavenly Wing Saint Shoes Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Chaotic Choker Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Rei Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Scarlet Dragon's Claw Fire Ring Fragment",
+            "Glowing Silver Mirror Shield Fragment",
+            "World Tree's Branch Wand Fragment",
+            "Machine Axe - Core Breaker Fragment",
+            "Emerald Wind God's Tachi Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "34-2H": {
+        "name": "Dextia Bluffs (West) 34-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Rabbit God's Great Sword Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Northern Heaven Supreme Flame Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Ruby Rose Choker Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Shinobu Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Shield God Ring - Wall Breath Fragment",
+            "Extremely Dark Nail - Bloody Howl Fragment",
+            "Glowing Silver Mirror Armor Fragment",
+            "Beautiful Clothes - Soul Rose Fragment",
+            "Heavenly Black Sword of Obsidian Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "34-3H": {
+        "name": "Dextia Bluffs (West) 34-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Black Snake's Fiendish Flame Staff Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Heavenly Wing Wise Saint Hat Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Chaotic Choker Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Halloween Mimi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Deep Crystallized Xenocrystal Fragment",
+            "Overlord Light Dragon Sword Fragment",
+            "Ice Bow - Freezing Tear Fragment",
+            "Flowing Blue Dress - Azul Rondo Fragment",
+            "Scarlet Dragon's Claw Fire Ring Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }
