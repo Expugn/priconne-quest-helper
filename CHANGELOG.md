@@ -3,6 +3,20 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.37.0] - 2023-04-15
+Quest Update (2023-04-15)
+### Added
+- Regarding `priconne-jp`'s Unity Update and Image Datamining:
+  - On `2023-04-10` (or earlier), `priconne-jp` updated Unity, which broke pretty much every existing tool (AssetStudio) or library (UnityPack, what I use to automate things)
+  - I do have a workaround in place, but it's pretty sloppy and I would prefer to use it only for myself and not make it public as there's plenty of issues
+  - This means that my other public tools like <https://github.com/Expugn/priconne-image-extractor> will remain unfixed for the time being
+  - I will be on watch for updated libraries that work, but for now I can't give an ETA.
+- New Equipment
+- New Quests:
+  - Chapter 63 Normal Part 2 (`63-6` - `63-10`)
+  - `63-1 H`, `63-2 H` (this is a bug apparently (not related to `priconne-quest-helper`) and will be fixed in future update)
+- Added Shiori (Ranger)'s unit icon
+
 ## [2.36.4] - 2023-04-10
 ### Added
 - New Character: Shiori (Ranger)

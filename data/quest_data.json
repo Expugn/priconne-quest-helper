@@ -31518,5 +31518,223 @@
             17,
             15
         ]
+    },
+    "63-6": {
+        "name": "アパレーユ街道・西側 63-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "High Shield Saucer Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Double Horn Magic Necklace Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Diablo Membranes Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Ancient Emerald Fragment",
+            "Rose Sorcerer's Magic Banquet Hat Fragment",
+            "Rose Priestess Dress Fragment",
+            "Heritage Jamadhar Fragment",
+            "Ancient Ruby Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "63-7": {
+        "name": "アパレーユ街道・西側 63-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Tassa Talon Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Veteran Chef Cross Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Demonic Tail Tie Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Ancient Sapphire Fragment",
+            "Rose Empress Mail Fragment",
+            "Rose Baroness Dress Fragment",
+            "Oasis Faas Fragment",
+            "Oriental Hurricane Bow Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "63-8": {
+        "name": "アパレーユ街道・西側 63-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Apron Light Mail Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Armor de Tablier Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Diablo Membranes Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Wind Legacy Spear Fragment",
+            "Blue Rose Shield Fragment",
+            "Quicksand Shamshir Fragment",
+            "Rose Dame Plate Fragment",
+            "Dark Desert Edge Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "63-9": {
+        "name": "アパレーユ街道・西側 63-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Veteran Chef Cross Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Professional Waitress Apron Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Double Horn Magic Necklace Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Ancient Sand Wand Fragment",
+            "Oasis Guard Blade Fragment",
+            "Desert Rain Cane Fragment",
+            "Ancient Ruby Fragment",
+            "Ancient Sapphire Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "63-10": {
+        "name": "アパレーユ街道・西側 63-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Professional Waitress Apron Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Tassa Talon Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Demonic Tail Tie Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Ancient Emerald Fragment",
+            "Rose Sorcerer's Magic Banquet Hat Fragment",
+            "Rose Priestess Dress Fragment",
+            "Heritage Jamadhar Fragment",
+            "Ancient Ruby Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "63-1H": {
+        "name": "アパレーユ街道・西側 63-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Armor de Tablier Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Diablo Membranes Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Devil Dominion Lance Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Rima Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Wind Legacy Spear Fragment",
+            "Blue Rose Shield Fragment",
+            "Quicksand Shamshir Fragment",
+            "Rose Dame Plate Fragment",
+            "Dark Desert Edge Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "63-2H": {
+        "name": "アパレーユ街道・西側 63-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Professional Waitress Apron Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Demonic Tail Tie Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Rod of Demon's Heart Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Yuki Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ancient Sand Wand Fragment",
+            "Oasis Guard Blade Fragment",
+            "Desert Rain Cane Fragment",
+            "Ancient Ruby Fragment",
+            "Ancient Sapphire Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }
