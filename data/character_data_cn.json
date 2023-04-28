@@ -7895,6 +7895,174 @@
             "Popcorn Necklace"
         ]
     },
+    "time_traveler_kaya": {
+        "name_cn": "嘉夜（时间旅行）",
+        "unit_id": 116601,
+        "name": "Kaya",
+        "thematic": "Time Traveler",
+        "name_jp": "カヤ",
+        "thematic_jp": "タイムトラベル",
+        "rank_1": [
+            "Wood Grip",
+            "Killer Pencil",
+            "Leather Overalls",
+            "Leather Boots",
+            "Killer Pencil",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Leather Knuckle",
+            "Command Knife",
+            "Folklore Clothes",
+            "Crown Boots",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Leather Knuckle",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Dragon's Claw",
+            "Platinum Knife",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Vampire Dagger",
+            "Dragon's Claw",
+            "Palace Cloth",
+            "Fencer Boots",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Blazing Gauntlet",
+            "Vampire Dagger",
+            "Cosmos Cloth",
+            "Fencer Boots",
+            "Palace Cloth",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Lion King Gauntlet",
+            "Blazing Gauntlet",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Vampire Dagger",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Blizzard Claw",
+            "Lion King Gauntlet",
+            "Hermit Clothes",
+            "Blazing Gauntlet",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Lightning Fist",
+            "Blizzard Claw",
+            "Heavenly Robe",
+            "Lion King Gauntlet",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Moon Cestus",
+            "Lightning Fist",
+            "Dark Terror Dress",
+            "Blizzard Claw",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Crimson Claw",
+            "Moon Cestus",
+            "Aegis Coat",
+            "Lightning Fist",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Cocytus Nail",
+            "Crimson Claw",
+            "Nine Heavens' Armor",
+            "Moon Cestus",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Storm God Tempest Gear",
+            "Cocytus Nail",
+            "Fire Oni's Tori",
+            "Crimson Claw",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Extremely Dark Nail - Bloody Howl",
+            "Storm God Tempest Gear",
+            "Extremely Dark Clothes",
+            "Cocytus Nail",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Fist - Elzloa",
+            "Extremely Dark Nail - Bloody Howl",
+            "Beautiful Clothes - Soul Rose",
+            "Storm God Tempest Gear",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Heaven Traveling Hook - Sharp Bite",
+            "Star Nuclear Fist - Elzloa",
+            "Southern Heaven Blazing Blue Armor",
+            "Extremely Dark Nail - Bloody Howl",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Opal Sparge Fist",
+            "Heaven Traveling Hook - Sharp Bite",
+            "Holy Light's Lily Plate",
+            "Star Nuclear Fist - Elzloa",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Cream Puff Knuckle",
+            "Opal Sparge Fist",
+            "Platinum Scale Armor",
+            "Heaven Traveling Hook - Sharp Bite",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Sand Dust Knuckle",
+            "Cream Puff Knuckle",
+            "Chocolate Mail",
+            "Opal Sparge Fist",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Sand Dust Knuckle",
+            "Evening Sakura Purple Armor",
+            "Cream Puff Knuckle",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ]
+    },
     "ninon": {
         "name_cn": "妮侬",
         "unit_id": 103001,
@@ -17131,6 +17299,174 @@
             "Lightning Spear",
             "Scattered Sakura Wide Brimmed Hat",
             "Chocolate Mint Ice Heels",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ]
+    },
+    "time_traveler_inori": {
+        "name_cn": "祈梨（时间旅行）",
+        "unit_id": 116501,
+        "name": "Inori",
+        "thematic": "Time Traveler",
+        "name_jp": "イノリ",
+        "thematic_jp": "タイムトラベル",
+        "rank_1": [
+            "One Handed Axe",
+            "One Handed Axe",
+            "Tree Shield",
+            "One Handed Axe",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "High-Metal Axe",
+            "Metal Axe",
+            "Scale Mail",
+            "Metal Axe",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Blue Sphere Axe",
+            "High-Metal Axe",
+            "High Metal Plate",
+            "High-Metal Axe",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Lion's Battle Axe",
+            "Blue Sphere Axe",
+            "Gorgeous Armor",
+            "Blue Sphere Axe",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Lion's Battle Axe",
+            "Battling Dress",
+            "Lion's Battle Axe",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Shiryuu Axe",
+            "Lightning Axe",
+            "Heavy Metal Armor",
+            "Lion's Battle Axe",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Hell-Fire Axe",
+            "Shiryuu Axe",
+            "Angel Armor",
+            "Lightning Axe",
+            "Scarlet Diamond",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Queen's Battle Axe",
+            "Hell-Fire Axe",
+            "Vermilion Plate",
+            "Shiryuu Axe",
+            "Bangle of Substitution",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Aqua Slasher",
+            "Queen's Battle Axe",
+            "Violet Armor",
+            "Hell-Fire Axe",
+            "Moon Bracelet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Necrodim Axe",
+            "Aqua Slasher",
+            "Dragonic Armor",
+            "Queen's Battle Axe",
+            "Cat God Pendant",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Divine Judgement Axe",
+            "Necrodim Axe",
+            "Azure Armor",
+            "Aqua Slasher",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Gaia Axe",
+            "Divine Judgement Axe",
+            "Holy Sakura's Armor",
+            "Necrodim Axe",
+            "Mermaid Princess' Spirit Tear",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "God Roar Axe - Terra Break",
+            "Gaia Axe",
+            "Gold King's Armor",
+            "Divine Judgement Axe",
+            "War God's Arm",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "Machine Axe - Core Breaker",
+            "God Roar Axe - Terra Break",
+            "Furious Wind Armor",
+            "Gaia Axe",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Turquoise Noah",
+            "Machine Axe - Core Breaker",
+            "Glowing Silver Mirror Armor",
+            "God Roar Axe - Terra Break",
+            "Shield God Ring - Wall Breath",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Red Bear Emperor's Claw Battle Axe",
+            "Turquoise Noah",
+            "Northern Heaven Supreme Flame Armor",
+            "Machine Axe - Core Breaker",
+            "Ruby Rose Choker",
+            "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "Brass Cleft Axe",
+            "Red Bear Emperor's Claw Battle Axe",
+            "Overlord Thorn Armor",
+            "Turquoise Noah",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Crepe Axe",
+            "Brass Cleft Axe",
+            "Holy Engraved Armor of Pure Gold",
+            "Red Bear Emperor's Claw Battle Axe",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Polar Light Belt Axe",
+            "Crepe Axe",
+            "Rose Strawberry Armor",
+            "Brass Cleft Axe",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "",
+            "Polar Light Belt Axe",
+            "Sakura Eight Weight Armor",
+            "Crepe Axe",
             "Heavenly Hell Earrings",
             "Popcorn Necklace"
         ]

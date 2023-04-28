@@ -12523,6 +12523,37 @@
             15
         ]
     },
+    "27-1VH": {
+        "name": "圣彼得大森林·东部 27-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Sakura Blizzard Woven Heels Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Icy Snow Flower Cane Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "White Snow Sakura Magic Clothes Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Rain's Blessing Earrings Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Suzume Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ice Claymore Fragment",
+            "Dark Matter Edge Fragment",
+            "Violet Armor Fragment",
+            "Crusader Plate Fragment",
+            "Sun Amulet Fragment"
+        ]
+    },
     "28-1": {
         "name": "迪斯塔尔河食岸・北部 28-1",
         "stamina": 10,
