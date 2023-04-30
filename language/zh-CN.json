@@ -266,6 +266,7 @@
       "tsumugi": "纺希",
       "uzuki": "卯月",
       "vampy": "班比",
+      "vikala": "碧卡拉",
       "yori": "依里",
       "yui": "优衣",
       "yukari": "由加莉",
@@ -274,6 +275,7 @@
     },
 
     "thematics": {
+      "alchemist": "炼金术士",
       "angel": "天使",
       "cafe": "咖啡馆",
       "camp": "营地",
@@ -300,6 +302,7 @@
       "time_traveler": "时间旅行",
       "transfer_student": "插班生",
       "valentine": "情人节",
+      "warlock": "术士",
       "wild": "野生的",
       "wonder": "奇幻",
       "work_overalls": "工作服"

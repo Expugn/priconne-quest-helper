@@ -268,6 +268,7 @@
     "tsumugi": "츠무기",
     "uzuki": "우즈키",
     "vampy": "밤피",
+    "vikala": "비카라",
     "yori": "요리",
     "yui": "유이",
     "yukari": "유카리",
@@ -276,6 +277,7 @@
   },
 
   "thematics": {
+    "alchemist": "연금술사",
     "angel": "엔젤",
     "cafe": "카페",
     "camp": "캠프",
@@ -302,6 +304,7 @@
     "time_traveler": "시간 여행",
     "transfer_student": "편입생",
     "valentine": "발렌타인",
+    "warlock": "흑마법사",
     "wild": "야생",
     "wonder": "원더",
     "work_overalls": "작업복"

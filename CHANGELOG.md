@@ -3,6 +3,16 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.37.2] - 2023-04-30
+### Added
+- New Characters:
+  - Djeeta (Warlock)
+  - Karin (Alchemist)
+- Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
+  - `character_names.vikala`
+  - `thematics.alchemist`
+  - `thematics.warlock`
+
 ## [2.37.1] - 2023-04-16
 ### Added
 - New Character: Riri (Fallen)

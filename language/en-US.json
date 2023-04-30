@@ -268,6 +268,7 @@
     "tsumugi": "Tsumugi",
     "uzuki": "Uzuki",
     "vampy": "Vampy",
+    "vikala": "Vikala",
     "yori": "Yori",
     "yui": "Yui",
     "yukari": "Yukari",
@@ -276,6 +277,7 @@
   },
 
   "thematics": {
+    "alchemist": "Alchemist",
     "angel": "Angel",
     "cafe": "Cafe",
     "camp": "Camp",
@@ -302,6 +304,7 @@
     "time_traveler": "Time Traveler",
     "transfer_student": "Transfer Student",
     "valentine": "Valentine",
+    "warlock": "Warlock",
     "wild": "Wild",
     "wonder": "Wonder",
     "work_overalls": "Work Overalls"
