@@ -10,7 +10,7 @@
   "author": "S'pugn",
   "homepage": "https://expugn.github.io/priconne-quest-helper/",
   "dependencies": {
-    "sqlite": "^4.1.2",
+    "sqlite": "^4.2.0",
     "sqlite3": "^5.1.6"
   }
 }
