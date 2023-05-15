@@ -3,6 +3,18 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.38.0] - 2023-05-15
+Quest Update (2023-05-15)
+### Added
+- New Character: Vikala
+- New Equipment
+- New Quests:
+  - Chapter 64 Normal Part 1 (`64-1` - `64-5`)
+    - Chapter 64 Normal quests have 4 main items instead of 3
+      - May have more, but will need to check...
+  - `63-3 H`
+- Rank 29 Support
+
 ## [2.37.3] - 2023-05-09
 ### Added
 - New Quest: `63-1 VH` (Muimi)

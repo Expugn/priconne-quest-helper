@@ -31737,6 +31737,40 @@
             15
         ]
     },
+    "63-3H": {
+        "name": "アパレーユ街道・西側 63-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Secret Thunder Sword Hook Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Armor de Tablier Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Diablo Membranes Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Summer Shizuru Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rose Rogue Pendant Fragment",
+            "Rose Imperial Sword Fragment",
+            "Rose Petal Knuckle Fragment",
+            "Variant Demon Horn Fragment",
+            "Rose Brute Pendant Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "63-1VH": {
         "name": "アパレーユ街道・西側 63-1",
         "stamina": 20,
@@ -31766,6 +31800,176 @@
             "Quicksand Shamshir Fragment",
             "Rose Dame Plate Fragment",
             "Dark Desert Edge Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "64-1": {
+        "name": "アパレーユ街道・東側 64-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sashimi Sword - Shohachi Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "High Shield Saucer Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Double Horn Magic Necklace Fragment",
+            "drop_percent": 50
+        },
+        "item_4": {
+            "item_name": "Demonic Tail Tie Fragment",
+            "drop_percent": 25
+        },
+        "subdrops": [
+            "Diablo Scrape Fragment",
+            "Thorn of Roses Fragment",
+            "Rose Crusher Axe Fragment",
+            "Cruel Rose Blade Fragment",
+            "Rose Rogue Pendant Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "64-2": {
+        "name": "アパレーユ街道・東側 64-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Secret Thunder Sword Hook Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Five Hundred Year Old Tieguanyin Kettle Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Double Horn Magic Necklace Fragment",
+            "drop_percent": 50
+        },
+        "item_4": {
+            "item_name": "Demonic Tail Tie Fragment",
+            "drop_percent": 25
+        },
+        "subdrops": [
+            "Rose Rogue Pendant Fragment",
+            "Rose Imperial Sword Fragment",
+            "Rose Petal Knuckle Fragment",
+            "Variant Demon Horn Fragment",
+            "Rose Brute Pendant Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "64-3": {
+        "name": "アパレーユ街道・東側 64-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Cut - Dofisu Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Meat Mallet Axe Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Double Horn Magic Necklace Fragment",
+            "drop_percent": 50
+        },
+        "item_4": {
+            "item_name": "Demonic Tail Tie Fragment",
+            "drop_percent": 25
+        },
+        "subdrops": [
+            "Diablo Scrape Fragment",
+            "Thorn of Roses Fragment",
+            "Rose Crusher Axe Fragment",
+            "Cruel Rose Blade Fragment",
+            "Rose Rogue Pendant Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "64-4": {
+        "name": "アパレーユ街道・東側 64-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Lance of Forsetta Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Squeeze Bow Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Double Horn Magic Necklace Fragment",
+            "drop_percent": 50
+        },
+        "item_4": {
+            "item_name": "Demonic Tail Tie Fragment",
+            "drop_percent": 25
+        },
+        "subdrops": [
+            "Rose Brute Pendant Fragment",
+            "Demon's Bound Armor Fragment",
+            "Lance of Corolla Fragment",
+            "Bell Arc Rose Fragment",
+            "Demon's Painmail Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "64-5": {
+        "name": "アパレーユ街道・東側 64-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Pail of Tarte Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Magical Ladle Staff Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Double Horn Magic Necklace Fragment",
+            "drop_percent": 50
+        },
+        "item_4": {
+            "item_name": "Demonic Tail Tie Fragment",
+            "drop_percent": 25
+        },
+        "subdrops": [
+            "Rose Stem Wand Fragment",
+            "Rose Petal Staff Fragment",
+            "Cursed Demon's Robe Fragment",
+            "Envy Demon's Horn Fragment",
+            "Lapis Rose Pendant Fragment"
         ],
         "subdrops_percent": [
             24,

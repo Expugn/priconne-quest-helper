@@ -222,12 +222,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Demonic Tail Tie",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Diablo Membranes"
         ]
     },
     "angel_akari": {
@@ -453,12 +461,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "christmas_akari": {
@@ -684,12 +700,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "akino": {
@@ -915,12 +939,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "High Shield Saucer",
             "Demon's Bound Armor",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "High Shield Saucer",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "christmas_akino": {
@@ -1146,12 +1178,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "akino_&_saren": {
@@ -1377,12 +1417,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Veteran Chef Cross",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "ameth": {
@@ -1608,12 +1656,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Diablo Membranes"
         ]
     },
     "anna": {
@@ -1839,12 +1895,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "pirate_anna": {
@@ -2070,12 +2134,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "summer_anna": {
@@ -2301,12 +2373,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "anne": {
@@ -2532,12 +2612,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "anne_&_grea": {
@@ -2763,12 +2851,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "aoi": {
@@ -2994,12 +3090,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Squeeze Bow",
             "Diablo Maschera",
             "Apron Light Mail",
             "Bell Arc Rose",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Squeeze Bow",
+            "",
+            "Diablo Maschera",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "camp_aoi": {
@@ -3225,12 +3329,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Squeeze Bow",
             "Diablo Maschera",
             "High Shield Saucer",
             "Bell Arc Rose",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Squeeze Bow",
+            "",
+            "Diablo Maschera",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "transfer_student_aoi": {
@@ -3456,12 +3568,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Squeeze Bow",
             "Diablo Maschera",
             "Veteran Chef Cross",
             "Bell Arc Rose",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Squeeze Bow",
+            "",
+            "Diablo Maschera",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "work_overalls_aoi": {
@@ -3687,12 +3807,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Squeeze Bow",
             "Diablo Maschera",
             "Apron Light Mail",
             "Demon's Painmail",
             "Diablo Membranes",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Squeeze Bow",
+            "",
+            "Apron Light Mail",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "arisa": {
@@ -3918,12 +4046,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Squeeze Bow",
             "Diablo Maschera",
             "Veteran Chef Cross",
             "Bell Arc Rose",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Squeeze Bow",
+            "",
+            "Diablo Maschera",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "ayane": {
@@ -4149,12 +4285,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Meat Mallet Axe",
             "Demon's Destruction",
             "High Shield Saucer",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "High Shield Saucer",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "christmas_ayane": {
@@ -4380,12 +4524,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Meat Mallet Axe",
             "Devil Dominion Lance",
             "Veteran Chef Cross",
             "Rose Crusher Axe",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Lance of Forsetta",
+            "",
+            "Demon's Destruction",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "explorer_ayane": {
@@ -4611,12 +4763,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Meat Mallet Axe",
             "Demon's Destruction",
             "Veteran Chef Cross",
             "Diablo Scrape",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "Veteran Chef Cross",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "ayumi": {
@@ -4842,12 +5002,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Devil Dominion Lance",
             "Armor de Tablier",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Lance of Forsetta",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "phantom_thief_ayumi": {
@@ -5073,12 +5241,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Demon's Destruction",
             "Apron Light Mail",
             "Lance of Corolla",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "Devil Dominion Lance",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "wonder_ayumi": {
@@ -5304,12 +5480,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Devil Dominion Lance",
             "Apron Light Mail",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Lance of Forsetta",
+            "",
+            "Apron Light Mail",
+            "",
+            "Diablo Membranes"
         ]
     },
     "chieru": {
@@ -5535,12 +5719,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Veteran Chef Cross",
             "Diablo Scrape",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Veteran Chef Cross",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "school_festival_chieru": {
@@ -5766,12 +5958,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Veteran Chef Cross",
             "Rose Petal Knuckle",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Demon Punish Fist",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "chika": {
@@ -5997,12 +6197,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "christmas_chika": {
@@ -6228,12 +6436,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "summer_chika": {
@@ -6459,12 +6675,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "chloe": {
@@ -6690,12 +6914,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Cut - Dofisu",
             "Powerful Demon Nail Blade",
             "Veteran Chef Cross",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Veteran Chef Cross",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "school_festival_chloe": {
@@ -6921,12 +7153,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Cut - Dofisu",
             "Powerful Demon Nail Blade",
             "Veteran Chef Cross",
             "Diablo Scrape",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Veteran Chef Cross",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "christina": {
@@ -7152,12 +7392,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "christmas_christina": {
@@ -7383,12 +7631,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "wild_christina": {
@@ -7614,12 +7870,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Veteran Chef Cross",
             "Diablo Scrape",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Veteran Chef Cross",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "creditta": {
@@ -7845,12 +8109,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Squeeze Bow",
             "Powerful Demon Nail Blade",
             "Veteran Chef Cross",
             "Bell Arc Rose",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Diablo Maschera",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "djeeta": {
@@ -8076,12 +8348,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "warlock_djeeta": {
@@ -8307,12 +8587,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "emilia": {
@@ -8538,12 +8826,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Tassa Talon",
             "Envy Demon's Horn",
             "Diablo Membranes",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Tassa Talon",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "eriko": {
@@ -8769,12 +9065,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Meat Mallet Axe",
             "Demon's Destruction",
             "Veteran Chef Cross",
             "Rose Crusher Axe",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "Demon's Destruction",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "summer_eriko": {
@@ -9000,12 +9304,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Meat Mallet Axe",
             "Demon's Destruction",
             "Veteran Chef Cross",
             "Rose Crusher Axe",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "Demon's Destruction",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "valentine_eriko": {
@@ -9231,12 +9543,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Meat Mallet Axe",
             "Demon's Destruction",
             "Veteran Chef Cross",
             "Rose Crusher Axe",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "Demon's Destruction",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "grea": {
@@ -9462,12 +9782,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "hatsune": {
@@ -9693,12 +10021,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Envy Demon's Horn",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Tassa Talon",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "summer_hatsune": {
@@ -9924,12 +10260,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Envy Demon's Horn",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Tassa Talon",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "hatsune_&_shiori": {
@@ -10155,12 +10499,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Squeeze Bow",
             "Diablo Maschera",
             "Veteran Chef Cross",
             "Bell Arc Rose",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Squeeze Bow",
+            "",
+            "Diablo Maschera",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "hiyori": {
@@ -10386,12 +10738,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "High Shield Saucer",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "High Shield Saucer",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "new_year_hiyori": {
@@ -10617,12 +10977,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Veteran Chef Cross",
             "Rose Petal Knuckle",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Demon Punish Fist",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "princess_hiyori": {
@@ -10848,12 +11216,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Veteran Chef Cross",
             "Rose Petal Knuckle",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Demon Punish Fist",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "summer_hiyori": {
@@ -11079,12 +11455,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Veteran Chef Cross",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Veteran Chef Cross",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "homare": {
@@ -11310,12 +11694,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Envy Demon's Horn",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Tassa Talon",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "new_year_homare": {
@@ -11541,12 +11933,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Envy Demon's Horn",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Tassa Talon",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "ilya": {
@@ -11772,12 +12172,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "christmas_ilya": {
@@ -12003,12 +12411,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "new_year_ilya": {
@@ -12234,12 +12650,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "inori": {
@@ -12465,12 +12889,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Meat Mallet Axe",
             "Devil Dominion Lance",
             "High Shield Saucer",
             "Demon's Bound Armor",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Lance of Forsetta",
+            "",
+            "High Shield Saucer",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "phantom_thief_inori": {
@@ -12696,12 +13128,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Meat Mallet Axe",
             "Demon's Destruction",
             "Veteran Chef Cross",
             "Rose Crusher Axe",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "Demon's Destruction",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "time_traveler_inori": {
@@ -12927,12 +13367,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Meat Mallet Axe",
             "Demon's Destruction",
             "High Shield Saucer",
             "Rose Crusher Axe",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "Demon's Destruction",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "kaiser_insight": {
@@ -13158,12 +13606,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "High Shield Saucer",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "High Shield Saucer",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "io": {
@@ -13389,12 +13845,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Envy Demon's Horn",
             "Demonic Tail Tie",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Tassa Talon",
+            "",
+            "Diablo Membranes"
         ]
     },
     "noire_io": {
@@ -13620,12 +14084,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Rose Petal Staff",
             "Demonic Tail Tie",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Rod of Demon's Heart",
+            "",
+            "Diablo Membranes"
         ]
     },
     "summer_io": {
@@ -13851,12 +14323,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Diablo Membranes"
         ]
     },
     "jun": {
@@ -14082,12 +14562,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Armor de Tablier",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "christmas_jun": {
@@ -14313,12 +14801,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Armor de Tablier",
             "Demon's Painmail",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "summer_jun": {
@@ -14544,12 +15040,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Apron Light Mail",
             "Demon's Bound Armor",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Apron Light Mail",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "kaori": {
@@ -14775,12 +15279,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Veteran Chef Cross",
             "Rose Petal Knuckle",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Demon Punish Fist",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "halloween_kaori": {
@@ -15006,12 +15518,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Veteran Chef Cross",
             "Rose Petal Knuckle",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Demon Punish Fist",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "summer_kaori": {
@@ -15237,12 +15757,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Veteran Chef Cross",
             "Rose Petal Knuckle",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Demon Punish Fist",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "karin": {
@@ -15468,12 +15996,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "alchemist_karin": {
@@ -15699,12 +16235,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "kasumi": {
@@ -15930,12 +16474,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Demonic Tail Tie",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Diablo Membranes"
         ]
     },
     "magical_kasumi": {
@@ -16161,12 +16713,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Demonic Tail Tie",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Diablo Membranes"
         ]
     },
     "summer_kasumi": {
@@ -16392,12 +16952,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Professional Waitress Apron",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "kaya": {
@@ -16623,12 +17191,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Veteran Chef Cross",
             "Rose Petal Knuckle",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Demon Punish Fist",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "liberator_kaya": {
@@ -16854,12 +17430,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Veteran Chef Cross",
             "Rose Petal Knuckle",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Demon Punish Fist",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "time_traveler_kaya": {
@@ -17085,12 +17669,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Veteran Chef Cross",
             "Rose Petal Knuckle",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Demon Punish Fist",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "kokkoro": {
@@ -17316,12 +17908,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Devil Dominion Lance",
             "Apron Light Mail",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Lance of Forsetta",
+            "",
+            "Apron Light Mail",
+            "",
+            "Diablo Membranes"
         ]
     },
     "ceremonial_attire_kokkoro": {
@@ -17547,12 +18147,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Cut - Dofisu",
             "Powerful Demon Nail Blade",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "new_year_kokkoro": {
@@ -17778,12 +18386,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Devil Dominion Lance",
             "Armor de Tablier",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Lance of Forsetta",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "princess_kokkoro": {
@@ -18009,12 +18625,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Devil Dominion Lance",
             "Apron Light Mail",
             "Lance of Corolla",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Lance of Forsetta",
+            "",
+            "Devil Dominion Lance",
+            "",
+            "Diablo Membranes"
         ]
     },
     "ranger_kokkoro": {
@@ -18240,12 +18864,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Devil Dominion Lance",
             "Apron Light Mail",
             "Demon's Bound Armor",
             "Double Horn Magic Necklace",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Lance of Forsetta",
+            "",
+            "Apron Light Mail",
+            "",
+            "Diablo Membranes"
         ]
     },
     "summer_kokkoro": {
@@ -18471,12 +19103,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Devil Dominion Lance",
             "Apron Light Mail",
             "Demon's Painmail",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Lance of Forsetta",
+            "",
+            "Apron Light Mail",
+            "",
+            "Diablo Membranes"
         ]
     },
     "kurumi": {
@@ -18702,12 +19342,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Meat Mallet Axe",
             "Demon's Destruction",
             "Apron Light Mail",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "Apron Light Mail",
+            "",
+            "Diablo Membranes"
         ]
     },
     "christmas_kurumi": {
@@ -18933,12 +19581,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Devil Dominion Lance",
             "Armor de Tablier",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Lance of Forsetta",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "stage_kurumi": {
@@ -19164,12 +19820,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Meat Mallet Axe",
             "Demon's Destruction",
             "Armor de Tablier",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "kuuka": {
@@ -19395,12 +20059,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Cut - Dofisu",
             "Powerful Demon Nail Blade",
             "Armor de Tablier",
             "Demon's Painmail",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "noire_kuuka": {
@@ -19626,12 +20298,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Diablo Membranes"
         ]
     },
     "oedo_kuuka": {
@@ -19857,12 +20537,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Diablo Membranes"
         ]
     },
     "kyaru": {
@@ -20088,12 +20776,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "new_year_kyaru": {
@@ -20319,12 +21015,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "overload_kyaru": {
@@ -20550,12 +21254,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "princess_kyaru": {
@@ -20781,12 +21493,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "summer_kyaru": {
@@ -21012,12 +21732,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "kyouka": {
@@ -21243,12 +21971,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "halloween_kyouka": {
@@ -21474,12 +22210,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Rose Petal Staff",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Rod of Demon's Heart",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "summer_kyouka": {
@@ -21705,12 +22449,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "labyrista": {
@@ -21936,12 +22688,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "High Shield Saucer",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "High Shield Saucer",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "overload_labyrista": {
@@ -22167,12 +22927,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "High Shield Saucer",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "lou": {
@@ -22398,12 +23166,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "luna": {
@@ -22629,12 +23405,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "mahiru": {
@@ -22860,12 +23644,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Demon's Destruction",
             "High Shield Saucer",
             "Demon's Bound Armor",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "High Shield Saucer",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "christmas_mahiru": {
@@ -23091,12 +23883,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Demon's Destruction",
             "Apron Light Mail",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "Apron Light Mail",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "ranger_mahiru": {
@@ -23322,12 +24122,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Devil Dominion Lance",
             "Veteran Chef Cross",
             "Lance of Corolla",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Lance of Forsetta",
+            "",
+            "Devil Dominion Lance",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "maho": {
@@ -23553,12 +24361,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "cinderella_maho": {
@@ -23784,12 +24600,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Rose Petal Staff",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Rod of Demon's Heart",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "explorer_maho": {
@@ -24015,12 +24839,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "summer_maho": {
@@ -24246,12 +25078,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "makoto": {
@@ -24477,12 +25317,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Sashimi Sword - Shohachi",
             "Demon's Scar Blade",
             "Veteran Chef Cross",
             "Cruel Rose Blade",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Sashimi Sword - Shohachi",
+            "",
+            "Demon's Scar Blade",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "cinderella_makoto": {
@@ -24708,12 +25556,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Sashimi Sword - Shohachi",
             "Demon's Scar Blade",
             "Veteran Chef Cross",
             "Cruel Rose Blade",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Sashimi Sword - Shohachi",
+            "",
+            "Demon's Scar Blade",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "summer_makoto": {
@@ -24939,12 +25795,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Sashimi Sword - Shohachi",
             "Demon's Scar Blade",
             "Veteran Chef Cross",
             "Cruel Rose Blade",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Sashimi Sword - Shohachi",
+            "",
+            "Demon's Scar Blade",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "matsuri": {
@@ -25170,12 +26034,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Cut - Dofisu",
             "Powerful Demon Nail Blade",
             "Armor de Tablier",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "halloween_matsuri": {
@@ -25401,12 +26273,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Veteran Chef Cross",
             "Rose Petal Knuckle",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Demon Punish Fist",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "wild_matsuri": {
@@ -25632,12 +26512,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Cut - Dofisu",
             "Powerful Demon Nail Blade",
             "Armor de Tablier",
             "Demon's Painmail",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "mifuyu": {
@@ -25863,12 +26751,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Demon's Destruction",
             "Apron Light Mail",
             "Demon's Painmail",
             "Diablo Membranes",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "Apron Light Mail",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "summer_mifuyu": {
@@ -26094,12 +26990,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Demon's Destruction",
             "High Shield Saucer",
             "Lance of Corolla",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "Devil Dominion Lance",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "work_overalls_mifuyu": {
@@ -26325,12 +27229,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Devil Dominion Lance",
             "Apron Light Mail",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Lance of Forsetta",
+            "",
+            "Apron Light Mail",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "mimi": {
@@ -26556,12 +27468,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon's Destruction",
             "High Shield Saucer",
             "Demon's Bound Armor",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "High Shield Saucer",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "halloween_mimi": {
@@ -26787,12 +27707,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon's Destruction",
             "Veteran Chef Cross",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "Veteran Chef Cross",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "summer_mimi": {
@@ -27018,12 +27946,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "deresute_mio": {
@@ -27249,12 +28185,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Tassa Talon",
             "Envy Demon's Horn",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Tassa Talon",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "misaki": {
@@ -27480,12 +28424,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "halloween_misaki": {
@@ -27711,12 +28663,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Envy Demon's Horn",
             "Demonic Tail Tie",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Tassa Talon",
+            "",
+            "Diablo Membranes"
         ]
     },
     "stage_misaki": {
@@ -27942,12 +28902,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Rose Petal Staff",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Rod of Demon's Heart",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "misato": {
@@ -28173,12 +29141,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "new_year_misato": {
@@ -28404,12 +29380,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "summer_misato": {
@@ -28635,12 +29619,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "misogi": {
@@ -28866,12 +29858,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "High Shield Saucer",
             "Demon's Painmail",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "High Shield Saucer",
+            "",
+            "Diablo Membranes"
         ]
     },
     "halloween_misogi": {
@@ -29097,12 +30097,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Veteran Chef Cross",
             "Rose Petal Knuckle",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Demon Punish Fist",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "summer_misogi": {
@@ -29328,12 +30336,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Apron Light Mail",
             "Demon's Painmail",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Apron Light Mail",
+            "",
+            "Diablo Membranes"
         ]
     },
     "misogi_&_mimi_&_kyouka": {
@@ -29559,12 +30575,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Punish Fist",
             "Veteran Chef Cross",
             "Thorn of Roses",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Powerful Demon Nail Blade",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "misora": {
@@ -29790,12 +30814,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "mitsuki": {
@@ -30021,12 +31053,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "High Shield Saucer",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "High Shield Saucer",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "new_year_mitsuki": {
@@ -30252,12 +31292,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Veteran Chef Cross",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "oedo_mitsuki": {
@@ -30483,12 +31531,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Veteran Chef Cross",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "miyako": {
@@ -30714,12 +31770,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Devil Dominion Lance",
             "Apron Light Mail",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Lance of Forsetta",
+            "",
+            "Apron Light Mail",
+            "",
+            "Diablo Membranes"
         ]
     },
     "christmas_miyako": {
@@ -30945,12 +32009,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Veteran Chef Cross",
             "Diablo Scrape",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Veteran Chef Cross",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "halloween_miyako": {
@@ -31176,12 +32248,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Veteran Chef Cross",
             "Demon's Bound Armor",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Veteran Chef Cross",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "monika": {
@@ -31407,12 +32487,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Powerful Demon Nail Blade",
             "High Shield Saucer",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "High Shield Saucer",
+            "",
+            "Diablo Membranes"
         ]
     },
     "cafe_monika": {
@@ -31638,12 +32726,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "magical_monika": {
@@ -31869,12 +32965,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Apron Light Mail",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Apron Light Mail",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "muimi": {
@@ -32100,12 +33204,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Cut - Dofisu",
             "Powerful Demon Nail Blade",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "liberator_muimi": {
@@ -32331,12 +33443,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Cut - Dofisu",
             "Powerful Demon Nail Blade",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "new_year_muimi": {
@@ -32562,12 +33682,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Cut - Dofisu",
             "Powerful Demon Nail Blade",
             "Veteran Chef Cross",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Veteran Chef Cross",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "nanaka": {
@@ -32793,12 +33921,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Envy Demon's Horn",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Tassa Talon",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "halloween_nanaka": {
@@ -33024,12 +34160,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "summer_nanaka": {
@@ -33255,12 +34399,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Professional Waitress Apron",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "nea": {
@@ -33486,12 +34638,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "High Shield Saucer",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "High Shield Saucer",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "neneka": {
@@ -33717,12 +34877,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "new_year_neneka": {
@@ -33948,12 +35116,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Rose Petal Staff",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Rod of Demon's Heart",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "ninon": {
@@ -34179,12 +35355,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Sashimi Sword - Shohachi",
             "Demon's Scar Blade",
             "Veteran Chef Cross",
             "Cruel Rose Blade",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Sashimi Sword - Shohachi",
+            "",
+            "Demon's Scar Blade",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "halloween_ninon": {
@@ -34410,12 +35594,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Sashimi Sword - Shohachi",
             "Demon's Scar Blade",
             "Veteran Chef Cross",
             "Cruel Rose Blade",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Sashimi Sword - Shohachi",
+            "",
+            "Demon's Scar Blade",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "oedo_ninon": {
@@ -34641,12 +35833,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Cut - Dofisu",
             "Powerful Demon Nail Blade",
             "Veteran Chef Cross",
             "Thorn of Roses",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Powerful Demon Nail Blade",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "nozomi": {
@@ -34872,12 +36072,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Armor de Tablier",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "christmas_nozomi": {
@@ -35103,12 +36311,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Apron Light Mail",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Apron Light Mail",
+            "",
+            "Diablo Membranes"
         ]
     },
     "liberator_nozomi": {
@@ -35334,12 +36550,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "summer_nozomi": {
@@ -35565,12 +36789,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "pecorine": {
@@ -35796,12 +37028,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Armor de Tablier",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "new_year_pecorine": {
@@ -36027,12 +37267,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Apron Light Mail",
             "Demon's Painmail",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Apron Light Mail",
+            "",
+            "Diablo Membranes"
         ]
     },
     "overload_pecorine": {
@@ -36258,12 +37506,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "High Shield Saucer",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "High Shield Saucer",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "princess_pecorine": {
@@ -36489,12 +37745,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Armor de Tablier",
             "Demon's Painmail",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "summer_pecorine": {
@@ -36720,12 +37984,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "ram": {
@@ -36951,12 +38223,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "ranpha": {
@@ -37182,12 +38462,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Envy Demon's Horn",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Tassa Talon",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "rei": {
@@ -37413,12 +38701,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "High Shield Saucer",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "High Shield Saucer",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "halloween_rei": {
@@ -37644,12 +38940,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "new_year_rei": {
@@ -37875,12 +39179,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Armor de Tablier",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "princess_rei": {
@@ -38106,12 +39418,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "summer_rei": {
@@ -38337,12 +39657,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "rem": {
@@ -38568,12 +39896,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Meat Mallet Axe",
             "Demon's Destruction",
             "Veteran Chef Cross",
             "Rose Crusher Axe",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "Demon's Destruction",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "rima": {
@@ -38799,12 +40135,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Devil Dominion Lance",
             "Armor de Tablier",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Lance of Forsetta",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "cinderella_rima": {
@@ -39030,12 +40374,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "rin": {
@@ -39261,12 +40613,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Devil Dominion Lance",
             "Armor de Tablier",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Lance of Forsetta",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "deresute_rin": {
@@ -39492,12 +40852,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Sashimi Sword - Shohachi",
             "Demon's Scar Blade",
             "Armor de Tablier",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Sashimi Sword - Shohachi",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "halloween_rin": {
@@ -39723,12 +41091,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Devil Dominion Lance",
             "High Shield Saucer",
             "Lance of Corolla",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Lance of Forsetta",
+            "",
+            "Devil Dominion Lance",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "ranger_rin": {
@@ -39954,12 +41330,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Lance of Forsetta",
             "Devil Dominion Lance",
             "High Shield Saucer",
             "Lance of Corolla",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Lance of Forsetta",
+            "",
+            "Devil Dominion Lance",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "rino": {
@@ -40185,12 +41569,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Squeeze Bow",
             "Diablo Maschera",
             "Veteran Chef Cross",
             "Bell Arc Rose",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Squeeze Bow",
+            "",
+            "Diablo Maschera",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "christmas_rino": {
@@ -40416,12 +41808,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Squeeze Bow",
             "Powerful Demon Nail Blade",
             "Veteran Chef Cross",
             "Bell Arc Rose",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Diablo Maschera",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "wonder_rino": {
@@ -40647,12 +42047,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Squeeze Bow",
             "Diablo Maschera",
             "Veteran Chef Cross",
             "Bell Arc Rose",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Squeeze Bow",
+            "",
+            "Diablo Maschera",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "fallen_riri": {
@@ -40878,12 +42286,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Meat Mallet Axe",
             "Demon's Destruction",
             "Apron Light Mail",
             "Rose Crusher Axe",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "Demon's Destruction",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "ruka": {
@@ -41109,12 +42525,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Sashimi Sword - Shohachi",
             "Demon's Scar Blade",
             "Armor de Tablier",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Sashimi Sword - Shohachi",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "new_year_ruka": {
@@ -41340,12 +42764,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Sashimi Sword - Shohachi",
             "Demon's Scar Blade",
             "Veteran Chef Cross",
             "Cruel Rose Blade",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Sashimi Sword - Shohachi",
+            "",
+            "Demon's Scar Blade",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "summer_ruka": {
@@ -41571,12 +43003,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Sashimi Sword - Shohachi",
             "Demon's Scar Blade",
             "Veteran Chef Cross",
             "Cruel Rose Blade",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Sashimi Sword - Shohachi",
+            "",
+            "Demon's Scar Blade",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "saren": {
@@ -41802,12 +43242,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "High Shield Saucer",
             "Demon's Bound Armor",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "High Shield Saucer",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "christmas_saren": {
@@ -42033,12 +43481,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Armor de Tablier",
             "Demon's Painmail",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "summer_saren": {
@@ -42264,12 +43720,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Apron Light Mail",
             "Demon's Painmail",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Apron Light Mail",
+            "",
+            "Diablo Membranes"
         ]
     },
     "sheffy": {
@@ -42495,12 +43959,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "new_year_sheffy": {
@@ -42726,12 +44198,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "shinobu": {
@@ -42957,12 +44437,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Sashimi Sword - Shohachi",
             "Demon's Scar Blade",
             "High Shield Saucer",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Sashimi Sword - Shohachi",
+            "",
+            "High Shield Saucer",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "halloween_shinobu": {
@@ -43188,12 +44676,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Sashimi Sword - Shohachi",
             "Demon's Scar Blade",
             "Veteran Chef Cross",
             "Cruel Rose Blade",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Sashimi Sword - Shohachi",
+            "",
+            "Demon's Scar Blade",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "pirate_shinobu": {
@@ -43419,12 +44915,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Meat Mallet Axe",
             "Demon's Destruction",
             "Veteran Chef Cross",
             "Rose Crusher Axe",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "Demon's Destruction",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "shiori": {
@@ -43650,12 +45154,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Squeeze Bow",
             "Diablo Maschera",
             "Veteran Chef Cross",
             "Bell Arc Rose",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Squeeze Bow",
+            "",
+            "Diablo Maschera",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "magical_shiori": {
@@ -43881,12 +45393,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Squeeze Bow",
             "Diablo Maschera",
             "Veteran Chef Cross",
             "Bell Arc Rose",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Squeeze Bow",
+            "",
+            "Diablo Maschera",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "ranger_shiori": {
@@ -44112,12 +45632,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Squeeze Bow",
             "Diablo Maschera",
             "Veteran Chef Cross",
             "Bell Arc Rose",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Squeeze Bow",
+            "",
+            "Diablo Maschera",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "shizuru": {
@@ -44343,12 +45871,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Armor de Tablier",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "noire_shizuru": {
@@ -44574,12 +46110,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Apron Light Mail",
             "Demon's Painmail",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Apron Light Mail",
+            "",
+            "Diablo Membranes"
         ]
     },
     "summer_shizuru": {
@@ -44805,12 +46349,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Armor de Tablier",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "valentine_shizuru": {
@@ -45036,12 +46588,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "High Shield Saucer",
             "Demon's Bound Armor",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "High Shield Saucer",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "suzume": {
@@ -45267,12 +46827,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "new_year_suzume": {
@@ -45498,12 +47066,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "summer_suzume": {
@@ -45729,12 +47305,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "suzuna": {
@@ -45960,12 +47544,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Squeeze Bow",
             "Diablo Maschera",
             "Veteran Chef Cross",
             "Bell Arc Rose",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Squeeze Bow",
+            "",
+            "Diablo Maschera",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "halloween_suzuna": {
@@ -46191,12 +47783,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Squeeze Bow",
             "Diablo Maschera",
             "Veteran Chef Cross",
             "Bell Arc Rose",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Squeeze Bow",
+            "",
+            "Diablo Maschera",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "summer_suzuna": {
@@ -46422,12 +48022,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Squeeze Bow",
             "Diablo Maschera",
             "Veteran Chef Cross",
             "Bell Arc Rose",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Squeeze Bow",
+            "",
+            "Diablo Maschera",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "tamaki": {
@@ -46653,12 +48261,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Cut - Dofisu",
             "Powerful Demon Nail Blade",
             "High Shield Saucer",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "High Shield Saucer",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "cafe_tamaki": {
@@ -46884,12 +48500,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Cut - Dofisu",
             "Powerful Demon Nail Blade",
             "Veteran Chef Cross",
             "Variant Demon Horn",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Veteran Chef Cross",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "summer_tamaki": {
@@ -47115,12 +48739,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Cut - Dofisu",
             "Powerful Demon Nail Blade",
             "Veteran Chef Cross",
             "Diablo Scrape",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Veteran Chef Cross",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "work_overalls_tamaki": {
@@ -47346,12 +48978,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Cut - Dofisu",
             "Powerful Demon Nail Blade",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "tomo": {
@@ -47577,12 +49217,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Sashimi Sword - Shohachi",
             "Powerful Demon Nail Blade",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "halloween_tomo": {
@@ -47808,12 +49456,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Sashimi Sword - Shohachi",
             "Powerful Demon Nail Blade",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "magical_tomo": {
@@ -48039,12 +49695,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Sashimi Sword - Shohachi",
             "Powerful Demon Nail Blade",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "tsumugi": {
@@ -48270,12 +49934,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "High Shield Saucer",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "High Shield Saucer",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "halloween_tsumugi": {
@@ -48501,12 +50173,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Cut - Dofisu",
             "Powerful Demon Nail Blade",
             "Armor de Tablier",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Cut - Dofisu",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "summer_tsumugi": {
@@ -48732,12 +50412,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
             "Demon Punish Fist",
             "Apron Light Mail",
             "Demon's Painmail",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Five Hundred Year Old Tieguanyin Kettle",
+            "",
+            "Apron Light Mail",
+            "",
+            "Diablo Membranes"
         ]
     },
     "deresute_uzuki": {
@@ -48963,12 +50651,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "vampy": {
@@ -49194,12 +50890,259 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
+        ]
+    },
+    "vikala": {
+        "unit_id": 125601,
+        "name": "Vikala",
+        "thematic": "",
+        "name_jp": "ビカラ",
+        "thematic_jp": "",
+        "rank_1": [
+            "One Handed Axe",
+            "One Handed Axe",
+            "Tree Shield",
+            "One Handed Axe",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "High-Metal Axe",
+            "Metal Axe",
+            "Clothes of Wisdom",
+            "Metal Axe",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Blue Sphere Axe",
+            "High-Metal Axe",
+            "Light Plate",
+            "High-Metal Axe",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Lion's Battle Axe",
+            "Blue Sphere Axe",
+            "Fashion Armor",
+            "Blue Sphere Axe",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Lion's Battle Axe",
+            "Battling Dress",
+            "Lion's Battle Axe",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Shiryuu Axe",
+            "Lightning Axe",
+            "Heavy Metal Armor",
+            "Lion's Battle Axe",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Hell-Fire Axe",
+            "Shiryuu Axe",
+            "Invisible Dress",
+            "Lightning Axe",
+            "Scarlet Diamond",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Queen's Battle Axe",
+            "Hell-Fire Axe",
+            "Mythril Plate",
+            "Shiryuu Axe",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Aqua Slasher",
+            "Queen's Battle Axe",
+            "Crusader Plate",
+            "Hell-Fire Axe",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Necrodim Axe",
+            "Aqua Slasher",
+            "Scarlet Mail",
+            "Queen's Battle Axe",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Divine Judgement Axe",
+            "Necrodim Axe",
+            "Phantasm Mail",
+            "Aqua Slasher",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Gaia Axe",
+            "Divine Judgement Axe",
+            "Infernal Greaves",
+            "Necrodim Axe",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "God Roar Axe - Terra Break",
+            "Gaia Axe",
+            "Fire Oni's Tori",
+            "Divine Judgement Axe",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Machine Axe - Core Breaker",
+            "God Roar Axe - Terra Break",
+            "Senka Dance Armor",
+            "Gaia Axe",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Turquoise Noah",
+            "Machine Axe - Core Breaker",
+            "Flowing Blue Dress - Azul Rondo",
+            "God Roar Axe - Terra Break",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Red Bear Emperor's Claw Battle Axe",
+            "Turquoise Noah",
+            "Eastern Heaven Green Wind Dress",
+            "Machine Axe - Core Breaker",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Brass Cleft Axe",
+            "Red Bear Emperor's Claw Battle Axe",
+            "White Haze Flower Dress",
+            "Turquoise Noah",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Crepe Axe",
+            "Brass Cleft Axe",
+            "Pink Coral Dress",
+            "Red Bear Emperor's Claw Battle Axe",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Polar Light Belt Axe",
+            "Crepe Axe",
+            "Fancy Macaron Dress",
+            "Brass Cleft Axe",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "Sakura Axe",
+            "Polar Light Belt Axe",
+            "Thin Red Sakura Saintly Cloth",
+            "Crepe Axe",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "Whale Axe",
+            "Sakura Axe",
+            "Sunflower Straw Hat",
+            "Polar Light Belt Axe",
+            "Sakura Dance Double Hairpin",
+            "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "Rocking Groove Axe",
+            "Whale Axe",
+            "Gothic Draped Armor",
+            "Sakura Axe",
+            "Ruby Hibiscus Hair Ornament",
+            "Sakura Dance Double Hairpin"
+        ],
+        "rank_23": [
+            "Ice Breaking Riot Axe",
+            "Rocking Groove Axe",
+            "Pure Snow Mail",
+            "Whale Axe",
+            "Punk Needle Bangle",
+            "Ruby Hibiscus Hair Ornament"
+        ],
+        "rank_24": [
+            "Heavenly Sound Axe Buster Horn",
+            "Ice Breaking Riot Axe",
+            "Keyboard Armor Cimbalom",
+            "Rocking Groove Axe",
+            "Ice Pillar Ring",
+            "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "Oasis Faas",
+            "Heavenly Sound Axe Buster Horn",
+            "Desert Clothmail",
+            "Ice Breaking Riot Axe",
+            "Tree Tributing Xylophonia",
+            "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "Rose Crusher Axe",
+            "Oasis Faas",
+            "Rose Empress Mail",
+            "Heavenly Sound Axe Buster Horn",
+            "Ancient Ruby",
+            "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "Demon's Destruction",
+            "Rose Crusher Axe",
+            "Diablo Scrape",
+            "Oasis Faas",
+            "Rose Rogue Pendant",
+            "Ancient Ruby"
+        ],
+        "rank_28": [
+            "Meat Mallet Axe",
+            "Demon's Destruction",
+            "Apron Light Mail",
+            "Rose Crusher Axe",
+            "Double Horn Magic Necklace",
+            "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Meat Mallet Axe",
+            "",
+            "Demon's Destruction",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "yori": {
@@ -49425,12 +51368,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "angel_yori": {
@@ -49656,12 +51607,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Diablo Membranes"
         ]
     },
     "christmas_yori": {
@@ -49887,12 +51846,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Diablo Membranes"
         ]
     },
     "yui": {
@@ -50118,12 +52085,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Diablo Membranes"
         ]
     },
     "ceremonial_attire_yui": {
@@ -50349,12 +52324,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Demonic Tail Tie",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Diablo Membranes"
         ]
     },
     "new_year_yui": {
@@ -50580,12 +52563,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "princess_yui": {
@@ -50811,12 +52802,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Pail of Tarte",
             "Demon's Core Wand",
             "Tassa Talon",
             "Rose Stem Wand",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Pail of Tarte",
+            "",
+            "Demon's Core Wand",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "summer_yui": {
@@ -51042,12 +53041,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Diablo Membranes"
         ]
     },
     "yukari": {
@@ -51273,12 +53280,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Armor de Tablier",
             "Demon's Bound Armor",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Armor de Tablier",
+            "",
+            "Diablo Membranes"
         ]
     },
     "camp_yukari": {
@@ -51504,12 +53519,20 @@
             "Ancient Ruby"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Veteran Chef Cross",
             "Rose Imperial Sword",
             "Double Horn Magic Necklace",
             "Rose Rogue Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Demon Victim Sword",
+            "",
+            "Double Horn Magic Necklace"
         ]
     },
     "christmas_yukari": {
@@ -51735,12 +53758,20 @@
             "Ancient Emerald"
         ],
         "rank_28": [
-            "",
+            "Secret Thunder Sword Hook",
             "Demon Victim Sword",
             "Apron Light Mail",
             "Demon's Painmail",
             "Diablo Membranes",
             "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "",
+            "Apron Light Mail",
+            "",
+            "Diablo Membranes"
         ]
     },
     "yuki": {
@@ -51966,12 +53997,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "oedo_yuki": {
@@ -52197,12 +54236,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Demonic Tail Tie",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "yuni": {
@@ -52428,12 +54475,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Demonic Tail Tie"
         ]
     },
     "school_festival_yuni": {
@@ -52659,12 +54714,20 @@
             "Ancient Sapphire"
         ],
         "rank_28": [
-            "",
+            "Magical Ladle Staff",
             "Rod of Demon's Heart",
             "Professional Waitress Apron",
             "Cursed Demon's Robe",
             "Diablo Membranes",
             "Lapis Rose Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Magical Ladle Staff",
+            "",
+            "Professional Waitress Apron",
+            "",
+            "Demonic Tail Tie"
         ]
     }
 }

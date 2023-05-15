@@ -181,7 +181,8 @@ i.footer {
     background-color: rgba(255, 170, 24, 0.5);
 }
 
-.rank.rank-28 span {
+.rank.rank-28 span,
+.rank.rank-29 span {
     background-color: rgba(8, 251, 247, 0.5);
 }
 
