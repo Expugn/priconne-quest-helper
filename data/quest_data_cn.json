@@ -22371,7 +22371,7 @@
         ]
     },
     "46-1H": {
-        "name": "拉特利群山?崖顶 46-1",
+        "name": "拉特利群山・崖顶 46-1",
         "stamina": 20,
         "item_1": {
             "item_name": "Yoito Kage Sakura Fragment",
@@ -22405,7 +22405,7 @@
         ]
     },
     "46-2H": {
-        "name": "拉特利群山?崖顶 46-2",
+        "name": "拉特利群山・崖顶 46-2",
         "stamina": 20,
         "item_1": {
             "item_name": "Cherishrod Fragment",
@@ -22439,7 +22439,7 @@
         ]
     },
     "46-3H": {
-        "name": "拉特利群山?崖顶 46-3",
+        "name": "拉特利群山・崖顶 46-3",
         "stamina": 20,
         "item_1": {
             "item_name": "Cherry Blossom Fragment",
@@ -22893,7 +22893,7 @@
         ]
     },
     "47-1H": {
-        "name": "拉特利群山?崖底 47-1",
+        "name": "拉特利群山・崖底 47-1",
         "stamina": 20,
         "item_1": {
             "item_name": "Sakura Flower Moonlight Hairpin Fragment",
@@ -22927,7 +22927,7 @@
         ]
     },
     "47-2H": {
-        "name": "拉特利群山?崖底 47-2",
+        "name": "拉特利群山・崖底 47-2",
         "stamina": 20,
         "item_1": {
             "item_name": "Sakura Dance Double Hairpin Fragment",
@@ -22961,7 +22961,7 @@
         ]
     },
     "47-3H": {
-        "name": "拉特利群山?崖底 47-3",
+        "name": "拉特利群山・崖底 47-3",
         "stamina": 20,
         "item_1": {
             "item_name": "Immortal Sakura Wish Hairpin Fragment",
@@ -23175,7 +23175,7 @@
         ]
     },
     "48-7": {
-        "name": "埃斯塔荒野?南部 48-7",
+        "name": "埃斯塔荒野・南部 48-7",
         "stamina": 10,
         "item_1": {
             "item_name": "Hibiscus Sandals Fragment",
@@ -23205,7 +23205,7 @@
         ]
     },
     "48-8": {
-        "name": "埃斯塔荒野?南部 48-8",
+        "name": "埃斯塔荒野・南部 48-8",
         "stamina": 10,
         "item_1": {
             "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
@@ -23235,7 +23235,7 @@
         ]
     },
     "48-9": {
-        "name": "埃斯塔荒野?南部 48-9",
+        "name": "埃斯塔荒野・南部 48-9",
         "stamina": 10,
         "item_1": {
             "item_name": "Sunflower Straw Hat Fragment",
@@ -23265,7 +23265,7 @@
         ]
     },
     "48-10": {
-        "name": "埃斯塔荒野?南部 48-10",
+        "name": "埃斯塔荒野・南部 48-10",
         "stamina": 10,
         "item_1": {
             "item_name": "Parasol One Piece Fragment",
@@ -23295,7 +23295,7 @@
         ]
     },
     "48-11": {
-        "name": "埃斯塔荒野?南部 48-11",
+        "name": "埃斯塔荒野・南部 48-11",
         "stamina": 10,
         "item_1": {
             "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
@@ -23325,7 +23325,7 @@
         ]
     },
     "48-12": {
-        "name": "埃斯塔荒野?南部 48-12",
+        "name": "埃斯塔荒野・南部 48-12",
         "stamina": 10,
         "item_1": {
             "item_name": "Hibiscus Sandals Fragment",
@@ -23355,7 +23355,7 @@
         ]
     },
     "48-13": {
-        "name": "埃斯塔荒野?南部 48-13",
+        "name": "埃斯塔荒野・南部 48-13",
         "stamina": 10,
         "item_1": {
             "item_name": "Beach Floater Mail Fragment",
@@ -23385,7 +23385,7 @@
         ]
     },
     "48-14": {
-        "name": "埃斯塔荒野?南部 48-14",
+        "name": "埃斯塔荒野・南部 48-14",
         "stamina": 10,
         "item_1": {
             "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
@@ -23415,7 +23415,7 @@
         ]
     },
     "48-1H": {
-        "name": "埃斯塔荒野?南部 48-1",
+        "name": "埃斯塔荒野・南部 48-1",
         "stamina": 20,
         "item_1": {
             "item_name": "Summer Light Bikini Armor Fragment",
@@ -23449,7 +23449,7 @@
         ]
     },
     "48-2H": {
-        "name": "埃斯塔荒野?南部 48-2",
+        "name": "埃斯塔荒野・南部 48-2",
         "stamina": 20,
         "item_1": {
             "item_name": "Sunflower Straw Hat Fragment",
@@ -23483,7 +23483,7 @@
         ]
     },
     "48-3H": {
-        "name": "埃斯塔荒野?南部 48-3",
+        "name": "埃斯塔荒野・南部 48-3",
         "stamina": 20,
         "item_1": {
             "item_name": "Hibiscus Sandals Fragment",
@@ -23517,7 +23517,7 @@
         ]
     },
     "49-1": {
-        "name": "埃斯塔荒野?北部 49-1",
+        "name": "埃斯塔荒野・北部 49-1",
         "stamina": 10,
         "item_1": {
             "item_name": "Hibiscus Sandals Fragment",
@@ -23547,7 +23547,7 @@
         ]
     },
     "49-2": {
-        "name": "埃斯塔荒野?北部 49-2",
+        "name": "埃斯塔荒野・北部 49-2",
         "stamina": 10,
         "item_1": {
             "item_name": "Beach Floater Mail Fragment",
@@ -23577,7 +23577,7 @@
         ]
     },
     "49-3": {
-        "name": "埃斯塔荒野?北部 49-3",
+        "name": "埃斯塔荒野・北部 49-3",
         "stamina": 10,
         "item_1": {
             "item_name": "Summer Light Bikini Armor Fragment",
@@ -23607,7 +23607,7 @@
         ]
     },
     "49-4": {
-        "name": "埃斯塔荒野?北部 49-4",
+        "name": "埃斯塔荒野・北部 49-4",
         "stamina": 10,
         "item_1": {
             "item_name": "Clione Blade Fragment",
@@ -23637,7 +23637,7 @@
         ]
     },
     "49-5": {
-        "name": "埃斯塔荒野?北部 49-5",
+        "name": "埃斯塔荒野・北部 49-5",
         "stamina": 10,
         "item_1": {
             "item_name": "Jewel Shell Rod Fragment",
@@ -23667,7 +23667,7 @@
         ]
     },
     "49-6": {
-        "name": "埃斯塔荒野?北部 49-6",
+        "name": "埃斯塔荒野・北部 49-6",
         "stamina": 10,
         "item_1": {
             "item_name": "Jellyfish Rod Fragment",
@@ -23697,7 +23697,7 @@
         ]
     },
     "49-7": {
-        "name": "埃斯塔荒野?北部 49-7",
+        "name": "埃斯塔荒野・北部 49-7",
         "stamina": 10,
         "item_1": {
             "item_name": "Shark Dagger Fragment",
@@ -23727,7 +23727,7 @@
         ]
     },
     "49-8": {
-        "name": "埃斯塔荒野?北部 49-8",
+        "name": "埃斯塔荒野・北部 49-8",
         "stamina": 10,
         "item_1": {
             "item_name": "Crab Scissor Spear Fragment",
@@ -23757,7 +23757,7 @@
         ]
     },
     "49-9": {
-        "name": "埃斯塔荒野?北部 49-9",
+        "name": "埃斯塔荒野・北部 49-9",
         "stamina": 10,
         "item_1": {
             "item_name": "Orca Sword Fragment",
@@ -23787,7 +23787,7 @@
         ]
     },
     "49-10": {
-        "name": "埃斯塔荒野?北部 49-10",
+        "name": "埃斯塔荒野・北部 49-10",
         "stamina": 10,
         "item_1": {
             "item_name": "Turtle Gauntlet Fragment",
@@ -23817,7 +23817,7 @@
         ]
     },
     "49-11": {
-        "name": "埃斯塔荒野?北部 49-11",
+        "name": "埃斯塔荒野・北部 49-11",
         "stamina": 10,
         "item_1": {
             "item_name": "Clownfish Bow Fragment",
@@ -23847,7 +23847,7 @@
         ]
     },
     "49-12": {
-        "name": "埃斯塔荒野?北部 49-12",
+        "name": "埃斯塔荒野・北部 49-12",
         "stamina": 10,
         "item_1": {
             "item_name": "Whale Axe Fragment",
@@ -23877,7 +23877,7 @@
         ]
     },
     "49-13": {
-        "name": "埃斯塔荒野?北部 49-13",
+        "name": "埃斯塔荒野・北部 49-13",
         "stamina": 10,
         "item_1": {
             "item_name": "Jewel Shell Rod Fragment",
@@ -23907,7 +23907,7 @@
         ]
     },
     "49-14": {
-        "name": "埃斯塔荒野?北部 49-14",
+        "name": "埃斯塔荒野・北部 49-14",
         "stamina": 10,
         "item_1": {
             "item_name": "Shark Dagger Fragment",
@@ -23937,7 +23937,7 @@
         ]
     },
     "49-1H": {
-        "name": "埃斯塔荒野?北部 49-1",
+        "name": "埃斯塔荒野・北部 49-1",
         "stamina": 20,
         "item_1": {
             "item_name": "Clione Blade Fragment",
@@ -23971,7 +23971,7 @@
         ]
     },
     "49-2H": {
-        "name": "埃斯塔荒野?北部 49-2",
+        "name": "埃斯塔荒野・北部 49-2",
         "stamina": 20,
         "item_1": {
             "item_name": "Whale Axe Fragment",
@@ -24005,7 +24005,7 @@
         ]
     },
     "49-3H": {
-        "name": "埃斯塔荒野?北部 49-3",
+        "name": "埃斯塔荒野・北部 49-3",
         "stamina": 20,
         "item_1": {
             "item_name": "Ruby Hibiscus Hair Ornament Fragment",
@@ -24039,7 +24039,7 @@
         ]
     },
     "50-1": {
-        "name": "涅洛岩礁?西部 50-1",
+        "name": "涅洛岩礁・西部 50-1",
         "stamina": 10,
         "item_1": {
             "item_name": "Clownfish Bow Fragment",
@@ -24069,7 +24069,7 @@
         ]
     },
     "50-2": {
-        "name": "涅洛岩礁?西部 50-2",
+        "name": "涅洛岩礁・西部 50-2",
         "stamina": 10,
         "item_1": {
             "item_name": "Jellyfish Rod Fragment",
@@ -24099,7 +24099,7 @@
         ]
     },
     "50-3": {
-        "name": "涅洛岩礁?西部 50-3",
+        "name": "涅洛岩礁・西部 50-3",
         "stamina": 10,
         "item_1": {
             "item_name": "Turtle Gauntlet Fragment",
@@ -24129,7 +24129,7 @@
         ]
     },
     "50-4": {
-        "name": "涅洛岩礁?西部 50-4",
+        "name": "涅洛岩礁・西部 50-4",
         "stamina": 10,
         "item_1": {
             "item_name": "Ruby Hibiscus Hair Ornament Fragment",
@@ -24159,7 +24159,7 @@
         ]
     },
     "50-5": {
-        "name": "涅洛岩礁?西部 50-5",
+        "name": "涅洛岩礁・西部 50-5",
         "stamina": 10,
         "item_1": {
             "item_name": "Pearl Coconut Hair Ornament Fragment",
@@ -24189,7 +24189,7 @@
         ]
     },
     "50-6": {
-        "name": "涅洛岩礁?西部 50-6",
+        "name": "涅洛岩礁・西部 50-6",
         "stamina": 10,
         "item_1": {
             "item_name": "Opal Shell Hair Ornament Fragment",
@@ -24219,7 +24219,7 @@
         ]
     },
     "50-7": {
-        "name": "涅洛岩礁?西部 50-7",
+        "name": "涅洛岩礁・西部 50-7",
         "stamina": 10,
         "item_1": {
             "item_name": "Pearl Coconut Hair Ornament Fragment",
@@ -24249,7 +24249,7 @@
         ]
     },
     "50-8": {
-        "name": "涅洛岩礁?西部 50-8",
+        "name": "涅洛岩礁・西部 50-8",
         "stamina": 10,
         "item_1": {
             "item_name": "Ruby Hibiscus Hair Ornament Fragment",
@@ -24279,7 +24279,7 @@
         ]
     },
     "50-9": {
-        "name": "涅洛岩礁?西部 50-9",
+        "name": "涅洛岩礁・西部 50-9",
         "stamina": 10,
         "item_1": {
             "item_name": "Opal Shell Hair Ornament Fragment",
@@ -24309,7 +24309,7 @@
         ]
     },
     "50-10": {
-        "name": "涅洛岩礁?西部 50-10",
+        "name": "涅洛岩礁・西部 50-10",
         "stamina": 10,
         "item_1": {
             "item_name": "Ruby Hibiscus Hair Ornament Fragment",
@@ -24339,7 +24339,7 @@
         ]
     },
     "50-11": {
-        "name": "涅洛岩礁?西部 50-11",
+        "name": "涅洛岩礁・西部 50-11",
         "stamina": 10,
         "item_1": {
             "item_name": "Pearl Coconut Hair Ornament Fragment",
@@ -24369,7 +24369,7 @@
         ]
     },
     "50-12": {
-        "name": "涅洛岩礁?西部 50-12",
+        "name": "涅洛岩礁・西部 50-12",
         "stamina": 10,
         "item_1": {
             "item_name": "Opal Shell Hair Ornament Fragment",
@@ -24399,7 +24399,7 @@
         ]
     },
     "50-13": {
-        "name": "涅洛岩礁?西部 50-13",
+        "name": "涅洛岩礁・西部 50-13",
         "stamina": 10,
         "item_1": {
             "item_name": "Ruby Hibiscus Hair Ornament Fragment",
@@ -24429,7 +24429,7 @@
         ]
     },
     "50-14": {
-        "name": "涅洛岩礁?西部 50-14",
+        "name": "涅洛岩礁・西部 50-14",
         "stamina": 10,
         "item_1": {
             "item_name": "Pearl Coconut Hair Ornament Fragment",
@@ -24459,7 +24459,7 @@
         ]
     },
     "50-1H": {
-        "name": "涅洛岩礁?西部 50-1",
+        "name": "涅洛岩礁・西部 50-1",
         "stamina": 20,
         "item_1": {
             "item_name": "Gothic Blue Rose Fragment",
@@ -24493,7 +24493,7 @@
         ]
     },
     "50-2H": {
-        "name": "涅洛岩礁?西部 50-2",
+        "name": "涅洛岩礁・西部 50-2",
         "stamina": 20,
         "item_1": {
             "item_name": "Gothic Maiden Fragment",
@@ -24527,7 +24527,7 @@
         ]
     },
     "50-3H": {
-        "name": "涅洛岩礁?西部 50-3",
+        "name": "涅洛岩礁・西部 50-3",
         "stamina": 20,
         "item_1": {
             "item_name": "Chain Fury Sword Fragment",
@@ -24561,7 +24561,7 @@
         ]
     },
     "51-1": {
-        "name": "涅洛岩礁?东部 51-1",
+        "name": "涅洛岩礁・东部 51-1",
         "stamina": 10,
         "item_1": {
             "item_name": "Ruby Hibiscus Hair Ornament Fragment",
@@ -24591,7 +24591,7 @@
         ]
     },
     "51-2": {
-        "name": "涅洛岩礁?东部 51-2",
+        "name": "涅洛岩礁・东部 51-2",
         "stamina": 10,
         "item_1": {
             "item_name": "Opal Shell Hair Ornament Fragment",
@@ -24621,7 +24621,7 @@
         ]
     },
     "51-3": {
-        "name": "涅洛岩礁?东部 51-3",
+        "name": "涅洛岩礁・东部 51-3",
         "stamina": 10,
         "item_1": {
             "item_name": "Pearl Coconut Hair Ornament Fragment",
@@ -24651,7 +24651,7 @@
         ]
     },
     "51-4": {
-        "name": "涅洛岩礁?东部 51-4",
+        "name": "涅洛岩礁・东部 51-4",
         "stamina": 10,
         "item_1": {
             "item_name": "Pierced Black Fragment",
@@ -24681,7 +24681,7 @@
         ]
     },
     "51-5": {
-        "name": "涅洛岩礁?东部 51-5",
+        "name": "涅洛岩礁・东部 51-5",
         "stamina": 10,
         "item_1": {
             "item_name": "Punkish Girl Fragment",
@@ -24711,7 +24711,7 @@
         ]
     },
     "51-6": {
-        "name": "涅洛岩礁?东部 51-6",
+        "name": "涅洛岩礁・东部 51-6",
         "stamina": 10,
         "item_1": {
             "item_name": "Gothic Draped Armor Fragment",
@@ -24741,7 +24741,7 @@
         ]
     },
     "51-7": {
-        "name": "涅洛岩礁?东部 51-7",
+        "name": "涅洛岩礁・东部 51-7",
         "stamina": 10,
         "item_1": {
             "item_name": "Studded Black Fragment",
@@ -24771,7 +24771,7 @@
         ]
     },
     "51-8": {
-        "name": "涅洛岩礁?东部 51-8",
+        "name": "涅洛岩礁・东部 51-8",
         "stamina": 10,
         "item_1": {
             "item_name": "Gothic Maiden Fragment",
@@ -24801,7 +24801,7 @@
         ]
     },
     "51-9": {
-        "name": "涅洛岩礁?东部 51-9",
+        "name": "涅洛岩礁・东部 51-9",
         "stamina": 10,
         "item_1": {
             "item_name": "Punkish Girl Fragment",
@@ -24831,7 +24831,7 @@
         ]
     },
     "51-10": {
-        "name": "涅洛岩礁?东部 51-10",
+        "name": "涅洛岩礁・东部 51-10",
         "stamina": 10,
         "item_1": {
             "item_name": "Pierced Black Fragment",
@@ -24861,7 +24861,7 @@
         ]
     },
     "51-11": {
-        "name": "涅洛岩礁?东部 51-11",
+        "name": "涅洛岩礁・东部 51-11",
         "stamina": 10,
         "item_1": {
             "item_name": "Gothic Draped Armor Fragment",
@@ -24891,7 +24891,7 @@
         ]
     },
     "51-12": {
-        "name": "涅洛岩礁?东部 51-12",
+        "name": "涅洛岩礁・东部 51-12",
         "stamina": 10,
         "item_1": {
             "item_name": "Gothic Blue Rose Fragment",
@@ -24921,7 +24921,7 @@
         ]
     },
     "51-13": {
-        "name": "涅洛岩礁?东部 51-13",
+        "name": "涅洛岩礁・东部 51-13",
         "stamina": 10,
         "item_1": {
             "item_name": "Gothic Maiden Fragment",
@@ -24951,7 +24951,7 @@
         ]
     },
     "51-14": {
-        "name": "涅洛岩礁?东部 51-14",
+        "name": "涅洛岩礁・东部 51-14",
         "stamina": 10,
         "item_1": {
             "item_name": "Punkish Girl Fragment",
@@ -24981,7 +24981,7 @@
         ]
     },
     "51-1H": {
-        "name": "涅洛岩礁?东部 51-1",
+        "name": "涅洛岩礁・东部 51-1",
         "stamina": 20,
         "item_1": {
             "item_name": "Emerald Gothic Bangle Fragment",
@@ -25015,7 +25015,7 @@
         ]
     },
     "51-2H": {
-        "name": "涅洛岩礁?东部 51-2",
+        "name": "涅洛岩礁・东部 51-2",
         "stamina": 20,
         "item_1": {
             "item_name": "Punk Needle Bangle Fragment",
@@ -25049,7 +25049,7 @@
         ]
     },
     "51-3H": {
-        "name": "涅洛岩礁?东部 51-3",
+        "name": "涅洛岩礁・东部 51-3",
         "stamina": 20,
         "item_1": {
             "item_name": "Snowflake Beret Fragment",
@@ -25083,7 +25083,7 @@
         ]
     },
     "52-1": {
-        "name": "匹尼昂滩脊?西岸 52-1",
+        "name": "匹尼昂滩脊・西岸 52-1",
         "stamina": 10,
         "item_1": {
             "item_name": "Studded Black Fragment",
@@ -25113,7 +25113,7 @@
         ]
     },
     "52-2": {
-        "name": "匹尼昂滩脊?西岸 52-2",
+        "name": "匹尼昂滩脊・西岸 52-2",
         "stamina": 10,
         "item_1": {
             "item_name": "Gothic Blue Rose Fragment",
@@ -25143,7 +25143,7 @@
         ]
     },
     "52-3": {
-        "name": "匹尼昂滩脊?西岸 52-3",
+        "name": "匹尼昂滩脊・西岸 52-3",
         "stamina": 10,
         "item_1": {
             "item_name": "Pierced Black Fragment",
@@ -25173,7 +25173,7 @@
         ]
     },
     "52-4": {
-        "name": "匹尼昂滩脊?西岸 52-4",
+        "name": "匹尼昂滩脊・西岸 52-4",
         "stamina": 10,
         "item_1": {
             "item_name": "Riot Spike Fragment",
@@ -25203,7 +25203,7 @@
         ]
     },
     "52-5": {
-        "name": "匹尼昂滩脊?西岸 52-5",
+        "name": "匹尼昂滩脊・西岸 52-5",
         "stamina": 10,
         "item_1": {
             "item_name": "Punk Princess Rod Fragment",
@@ -25233,7 +25233,7 @@
         ]
     },
     "52-6": {
-        "name": "匹尼昂滩脊?西岸 52-6",
+        "name": "匹尼昂滩脊・西岸 52-6",
         "stamina": 10,
         "item_1": {
             "item_name": "Padlock Scepter Fragment",
@@ -25263,7 +25263,7 @@
         ]
     },
     "52-7": {
-        "name": "匹尼昂滩脊?西岸 52-7",
+        "name": "匹尼昂滩脊・西岸 52-7",
         "stamina": 10,
         "item_1": {
             "item_name": "Thunder Punk Dagger Fragment",
@@ -25293,7 +25293,7 @@
         ]
     },
     "52-8": {
-        "name": "匹尼昂滩脊?西岸 52-8",
+        "name": "匹尼昂滩脊・西岸 52-8",
         "stamina": 10,
         "item_1": {
             "item_name": "Crime Hunt Bow Fragment",
@@ -25323,7 +25323,7 @@
         ]
     },
     "52-9": {
-        "name": "匹尼昂滩脊?西岸 52-9",
+        "name": "匹尼昂滩脊・西岸 52-9",
         "stamina": 10,
         "item_1": {
             "item_name": "Chain Fury Sword Fragment",
@@ -25353,7 +25353,7 @@
         ]
     },
     "52-10": {
-        "name": "匹尼昂滩脊?西岸 52-10",
+        "name": "匹尼昂滩脊・西岸 52-10",
         "stamina": 10,
         "item_1": {
             "item_name": "Rocking Groove Axe Fragment",
@@ -25383,7 +25383,7 @@
         ]
     },
     "52-11": {
-        "name": "匹尼昂滩脊?西岸 52-11",
+        "name": "匹尼昂滩脊・西岸 52-11",
         "stamina": 10,
         "item_1": {
             "item_name": "Crime Hunt Bow Fragment",
@@ -25413,7 +25413,7 @@
         ]
     },
     "52-12": {
-        "name": "匹尼昂滩脊?西岸 52-12",
+        "name": "匹尼昂滩脊・西岸 52-12",
         "stamina": 10,
         "item_1": {
             "item_name": "Brass Knuckles Fragment",
@@ -25443,7 +25443,7 @@
         ]
     },
     "52-13": {
-        "name": "匹尼昂滩脊?西岸 52-13",
+        "name": "匹尼昂滩脊・西岸 52-13",
         "stamina": 10,
         "item_1": {
             "item_name": "Punk Princess Rod Fragment",
@@ -25473,7 +25473,7 @@
         ]
     },
     "52-14": {
-        "name": "匹尼昂滩脊?西岸 52-14",
+        "name": "匹尼昂滩脊・西岸 52-14",
         "stamina": 10,
         "item_1": {
             "item_name": "Thunder Punk Dagger Fragment",
@@ -25503,7 +25503,7 @@
         ]
     },
     "52-1H": {
-        "name": "匹尼昂滩脊?西岸 52-1",
+        "name": "匹尼昂滩脊・西岸 52-1",
         "stamina": 20,
         "item_1": {
             "item_name": "Ice Shining Sword Glass Blade Fragment",
@@ -25537,7 +25537,7 @@
         ]
     },
     "52-2H": {
-        "name": "匹尼昂滩脊?西岸 52-2",
+        "name": "匹尼昂滩脊・西岸 52-2",
         "stamina": 20,
         "item_1": {
             "item_name": "Ice Fang Styria Dagger Fragment",
@@ -25571,7 +25571,7 @@
         ]
     },
     "52-3H": {
-        "name": "匹尼昂滩脊?西岸 52-3",
+        "name": "匹尼昂滩脊・西岸 52-3",
         "stamina": 20,
         "item_1": {
             "item_name": "Ice Pillar Ring Fragment",
@@ -25605,7 +25605,7 @@
         ]
     },
     "53-1": {
-        "name": "匹尼昂滩脊?东岸 53-1",
+        "name": "匹尼昂滩脊・东岸 53-1",
         "stamina": 10,
         "item_1": {
             "item_name": "Brass Knuckles Fragment",
@@ -25635,7 +25635,7 @@
         ]
     },
     "53-2": {
-        "name": "匹尼昂滩脊?东岸 53-2",
+        "name": "匹尼昂滩脊・东岸 53-2",
         "stamina": 10,
         "item_1": {
             "item_name": "Skull Gothic Lance Fragment",
@@ -25665,7 +25665,7 @@
         ]
     },
     "53-3": {
-        "name": "匹尼昂滩脊?东岸 53-3",
+        "name": "匹尼昂滩脊・东岸 53-3",
         "stamina": 10,
         "item_1": {
             "item_name": "Rocking Groove Axe Fragment",
@@ -25695,7 +25695,7 @@
         ]
     },
     "53-4": {
-        "name": "匹尼昂滩脊?东岸 53-4",
+        "name": "匹尼昂滩脊・东岸 53-4",
         "stamina": 10,
         "item_1": {
             "item_name": "Punk Needle Bangle Fragment",
@@ -25725,7 +25725,7 @@
         ]
     },
     "53-5": {
-        "name": "匹尼昂滩脊?东岸 53-5",
+        "name": "匹尼昂滩脊・东岸 53-5",
         "stamina": 10,
         "item_1": {
             "item_name": "Emerald Gothic Bangle Fragment",
@@ -25755,7 +25755,7 @@
         ]
     },
     "53-6": {
-        "name": "匹尼昂滩脊?东岸 53-6",
+        "name": "匹尼昂滩脊・东岸 53-6",
         "stamina": 10,
         "item_1": {
             "item_name": "Rocking Chain Bangle Fragment",
@@ -25785,7 +25785,7 @@
         ]
     },
     "53-7": {
-        "name": "匹尼昂滩脊?东岸 53-7",
+        "name": "匹尼昂滩脊・东岸 53-7",
         "stamina": 10,
         "item_1": {
             "item_name": "Punk Needle Bangle Fragment",
@@ -25815,7 +25815,7 @@
         ]
     },
     "53-8": {
-        "name": "匹尼昂滩脊?东岸 53-8",
+        "name": "匹尼昂滩脊・东岸 53-8",
         "stamina": 10,
         "item_1": {
             "item_name": "Emerald Gothic Bangle Fragment",
@@ -25845,7 +25845,7 @@
         ]
     },
     "53-9": {
-        "name": "匹尼昂滩脊?东岸 53-9",
+        "name": "匹尼昂滩脊・东岸 53-9",
         "stamina": 10,
         "item_1": {
             "item_name": "Rocking Chain Bangle Fragment",
@@ -25875,7 +25875,7 @@
         ]
     },
     "53-10": {
-        "name": "匹尼昂滩脊?东岸 53-10",
+        "name": "匹尼昂滩脊・东岸 53-10",
         "stamina": 10,
         "item_1": {
             "item_name": "Punk Needle Bangle Fragment",
@@ -25905,7 +25905,7 @@
         ]
     },
     "53-11": {
-        "name": "匹尼昂滩脊?东岸 53-11",
+        "name": "匹尼昂滩脊・东岸 53-11",
         "stamina": 10,
         "item_1": {
             "item_name": "Rocking Chain Bangle Fragment",
@@ -25935,7 +25935,7 @@
         ]
     },
     "53-12": {
-        "name": "匹尼昂滩脊?东岸 53-12",
+        "name": "匹尼昂滩脊・东岸 53-12",
         "stamina": 10,
         "item_1": {
             "item_name": "Emerald Gothic Bangle Fragment",
@@ -25965,7 +25965,7 @@
         ]
     },
     "53-13": {
-        "name": "匹尼昂滩脊?东岸 53-13",
+        "name": "匹尼昂滩脊・东岸 53-13",
         "stamina": 10,
         "item_1": {
             "item_name": "Punk Needle Bangle Fragment",
@@ -25995,7 +25995,7 @@
         ]
     },
     "53-14": {
-        "name": "匹尼昂滩脊?东岸 53-14",
+        "name": "匹尼昂滩脊・东岸 53-14",
         "stamina": 10,
         "item_1": {
             "item_name": "Rocking Chain Bangle Fragment",
@@ -26025,7 +26025,7 @@
         ]
     },
     "53-1H": {
-        "name": "匹尼昂滩脊?东岸 53-1",
+        "name": "匹尼昂滩脊・东岸 53-1",
         "stamina": 20,
         "item_1": {
             "item_name": "Keyboard Armor Cimbalom Fragment",
@@ -26059,7 +26059,7 @@
         ]
     },
     "53-2H": {
-        "name": "匹尼昂滩脊?东岸 53-2",
+        "name": "匹尼昂滩脊・东岸 53-2",
         "stamina": 20,
         "item_1": {
             "item_name": "Heavy Hoplon Cymbal Fragment",
@@ -26093,7 +26093,7 @@
         ]
     },
     "53-3H": {
-        "name": "匹尼昂滩脊?东岸 53-3",
+        "name": "匹尼昂滩脊・东岸 53-3",
         "stamina": 20,
         "item_1": {
             "item_name": "Absolute Sound Cane Accordia Fragment",
@@ -26127,7 +26127,7 @@
         ]
     },
     "54-1": {
-        "name": "托塔蒂斯沙岸?西部 54-1",
+        "name": "托塔蒂斯沙岸・西部 54-1",
         "stamina": 10,
         "item_1": {
             "item_name": "Emerald Gothic Bangle Fragment",
@@ -26157,7 +26157,7 @@
         ]
     },
     "54-2": {
-        "name": "托塔蒂斯沙岸?西部 54-2",
+        "name": "托塔蒂斯沙岸・西部 54-2",
         "stamina": 10,
         "item_1": {
             "item_name": "Rocking Chain Bangle Fragment",
@@ -26187,7 +26187,7 @@
         ]
     },
     "54-3": {
-        "name": "托塔蒂斯沙岸?西部 54-3",
+        "name": "托塔蒂斯沙岸・西部 54-3",
         "stamina": 10,
         "item_1": {
             "item_name": "Punk Needle Bangle Fragment",
@@ -26217,7 +26217,7 @@
         ]
     },
     "54-4": {
-        "name": "托塔蒂斯沙岸?西部 54-4",
+        "name": "托塔蒂斯沙岸・西部 54-4",
         "stamina": 10,
         "item_1": {
             "item_name": "Crystal Ice Mail Fragment",
@@ -26247,7 +26247,7 @@
         ]
     },
     "54-5": {
-        "name": "托塔蒂斯沙岸?西部 54-5",
+        "name": "托塔蒂斯沙岸・西部 54-5",
         "stamina": 10,
         "item_1": {
             "item_name": "Diamond Dust Robe Fragment",
@@ -26277,7 +26277,7 @@
         ]
     },
     "54-6": {
-        "name": "托塔蒂斯沙岸?西部 54-6",
+        "name": "托塔蒂斯沙岸・西部 54-6",
         "stamina": 10,
         "item_1": {
             "item_name": "White Aurora Dress Fragment",
@@ -26307,7 +26307,7 @@
         ]
     },
     "54-7": {
-        "name": "托塔蒂斯沙岸?西部 54-7",
+        "name": "托塔蒂斯沙岸・西部 54-7",
         "stamina": 10,
         "item_1": {
             "item_name": "Pure Snow Mail Fragment",
@@ -26337,7 +26337,7 @@
         ]
     },
     "54-8": {
-        "name": "托塔蒂斯沙岸?西部 54-8",
+        "name": "托塔蒂斯沙岸・西部 54-8",
         "stamina": 10,
         "item_1": {
             "item_name": "Frost Column Heel Fragment",
@@ -26367,7 +26367,7 @@
         ]
     },
     "54-9": {
-        "name": "托塔蒂斯沙岸?西部 54-9",
+        "name": "托塔蒂斯沙岸・西部 54-9",
         "stamina": 10,
         "item_1": {
             "item_name": "Snowflake Beret Fragment",
@@ -26397,7 +26397,7 @@
         ]
     },
     "54-10": {
-        "name": "托塔蒂斯沙岸?西部 54-10",
+        "name": "托塔蒂斯沙岸・西部 54-10",
         "stamina": 10,
         "item_1": {
             "item_name": "Crystal Ice Mail Fragment",
@@ -26427,7 +26427,7 @@
         ]
     },
     "54-11": {
-        "name": "托塔蒂斯沙岸?西部 54-11",
+        "name": "托塔蒂斯沙岸・西部 54-11",
         "stamina": 10,
         "item_1": {
             "item_name": "White Aurora Dress Fragment",
@@ -26457,7 +26457,7 @@
         ]
     },
     "54-12": {
-        "name": "托塔蒂斯沙岸?西部 54-12",
+        "name": "托塔蒂斯沙岸・西部 54-12",
         "stamina": 10,
         "item_1": {
             "item_name": "Crystal Ice Mail Fragment",
@@ -26487,7 +26487,7 @@
         ]
     },
     "54-13": {
-        "name": "托塔蒂斯沙岸?西部 54-13",
+        "name": "托塔蒂斯沙岸・西部 54-13",
         "stamina": 10,
         "item_1": {
             "item_name": "Diamond Dust Robe Fragment",
@@ -26517,7 +26517,7 @@
         ]
     },
     "54-14": {
-        "name": "托塔蒂斯沙岸?西部 54-14",
+        "name": "托塔蒂斯沙岸・西部 54-14",
         "stamina": 10,
         "item_1": {
             "item_name": "White Aurora Dress Fragment",
@@ -26547,7 +26547,7 @@
         ]
     },
     "55-1": {
-        "name": "托塔蒂斯沙岸?东部 55-1",
+        "name": "托塔蒂斯沙岸・东部 55-1",
         "stamina": 10,
         "item_1": {
             "item_name": "White Aurora Dress Fragment",
@@ -26577,7 +26577,7 @@
         ]
     },
     "55-2": {
-        "name": "托塔蒂斯沙岸?东部 55-2",
+        "name": "托塔蒂斯沙岸・东部 55-2",
         "stamina": 10,
         "item_1": {
             "item_name": "Frost Column Heel Fragment",
@@ -26607,7 +26607,7 @@
         ]
     },
     "55-3": {
-        "name": "托塔蒂斯沙岸?东部 55-3",
+        "name": "托塔蒂斯沙岸・东部 55-3",
         "stamina": 10,
         "item_1": {
             "item_name": "Snowflake Beret Fragment",
@@ -26637,7 +26637,7 @@
         ]
     },
     "55-4": {
-        "name": "托塔蒂斯沙岸?东部 55-4",
+        "name": "托塔蒂斯沙岸・东部 55-4",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice Shining Sword Glass Blade Fragment",
@@ -26667,7 +26667,7 @@
         ]
     },
     "55-5": {
-        "name": "托塔蒂斯沙岸?东部 55-5",
+        "name": "托塔蒂斯沙岸・东部 55-5",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice and Snow Cane Pergos Wand Fragment",
@@ -26697,7 +26697,7 @@
         ]
     },
     "55-6": {
-        "name": "托塔蒂斯沙岸?东部 55-6",
+        "name": "托塔蒂斯沙岸・东部 55-6",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice Spear Snow Storm Fragment",
@@ -26727,7 +26727,7 @@
         ]
     },
     "55-7": {
-        "name": "托塔蒂斯沙岸?东部 55-7",
+        "name": "托塔蒂斯沙岸・东部 55-7",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice Breaking Riot Axe Fragment",
@@ -26757,7 +26757,7 @@
         ]
     },
     "55-8": {
-        "name": "托塔蒂斯沙岸?东部 55-8",
+        "name": "托塔蒂斯沙岸・东部 55-8",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice and Snow Sword Graki Edge Fragment",
@@ -26787,7 +26787,7 @@
         ]
     },
     "55-9": {
-        "name": "托塔蒂斯沙岸?东部 55-9",
+        "name": "托塔蒂斯沙岸・东部 55-9",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice Cane Frost Staff Fragment",
@@ -26817,7 +26817,7 @@
         ]
     },
     "55-10": {
-        "name": "托塔蒂斯沙岸?东部 55-10",
+        "name": "托塔蒂斯沙岸・东部 55-10",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice Block Fist Glass Knuckle Fragment",
@@ -26847,7 +26847,7 @@
         ]
     },
     "55-11": {
-        "name": "托塔蒂斯沙岸?东部 55-11",
+        "name": "托塔蒂斯沙岸・东部 55-11",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice Sacred Bow Constellation Fragment",
@@ -26877,7 +26877,7 @@
         ]
     },
     "55-12": {
-        "name": "托塔蒂斯沙岸?东部 55-12",
+        "name": "托塔蒂斯沙岸・东部 55-12",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice Shining Sword Glass Blade Fragment",
@@ -26907,7 +26907,7 @@
         ]
     },
     "55-13": {
-        "name": "托塔蒂斯沙岸?东部 55-13",
+        "name": "托塔蒂斯沙岸・东部 55-13",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice and Snow Cane Pergos Wand Fragment",
@@ -26937,7 +26937,7 @@
         ]
     },
     "55-14": {
-        "name": "托塔蒂斯沙岸?东部 55-14",
+        "name": "托塔蒂斯沙岸・东部 55-14",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice Fang Styria Dagger Fragment",
@@ -26967,7 +26967,7 @@
         ]
     },
     "56-1": {
-        "name": "奥琉克斯沙岛?北部 56-1",
+        "name": "奥琉克斯沙岛・北部 56-1",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice Fang Styria Dagger Fragment",
@@ -26997,7 +26997,7 @@
         ]
     },
     "56-2": {
-        "name": "奥琉克斯沙岛?北部 56-2",
+        "name": "奥琉克斯沙岛・北部 56-2",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice Block Fist Glass Knuckle Fragment",
@@ -27027,7 +27027,7 @@
         ]
     },
     "56-3": {
-        "name": "奥琉克斯沙岛?北部 56-3",
+        "name": "奥琉克斯沙岛・北部 56-3",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice Cane Frost Staff Fragment",
@@ -27057,7 +27057,7 @@
         ]
     },
     "56-4": {
-        "name": "奥琉克斯沙岛?北部 56-4",
+        "name": "奥琉克斯沙岛・北部 56-4",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice Pillar Ring Fragment",
@@ -27087,7 +27087,7 @@
         ]
     },
     "56-5": {
-        "name": "奥琉克斯沙岛?北部 56-5",
+        "name": "奥琉克斯沙岛・北部 56-5",
         "stamina": 10,
         "item_1": {
             "item_name": "Green Aurora Ring Fragment",
@@ -27117,7 +27117,7 @@
         ]
     },
     "56-6": {
-        "name": "奥琉克斯沙岛?北部 56-6",
+        "name": "奥琉克斯沙岛・北部 56-6",
         "stamina": 10,
         "item_1": {
             "item_name": "Snow Flower Crystal Ring Fragment",
@@ -27147,7 +27147,7 @@
         ]
     },
     "56-7": {
-        "name": "奥琉克斯沙岛?北部 56-7",
+        "name": "奥琉克斯沙岛・北部 56-7",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice Pillar Ring Fragment",
@@ -27177,7 +27177,7 @@
         ]
     },
     "56-8": {
-        "name": "奥琉克斯沙岛?北部 56-8",
+        "name": "奥琉克斯沙岛・北部 56-8",
         "stamina": 10,
         "item_1": {
             "item_name": "Green Aurora Ring Fragment",
@@ -27207,7 +27207,7 @@
         ]
     },
     "56-9": {
-        "name": "奥琉克斯沙岛?北部 56-9",
+        "name": "奥琉克斯沙岛・北部 56-9",
         "stamina": 10,
         "item_1": {
             "item_name": "Snow Flower Crystal Ring Fragment",
@@ -27237,7 +27237,7 @@
         ]
     },
     "56-10": {
-        "name": "奥琉克斯沙岛?北部 56-10",
+        "name": "奥琉克斯沙岛・北部 56-10",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice Pillar Ring Fragment",
@@ -27267,7 +27267,7 @@
         ]
     },
     "56-11": {
-        "name": "奥琉克斯沙岛?北部 56-11",
+        "name": "奥琉克斯沙岛・北部 56-11",
         "stamina": 10,
         "item_1": {
             "item_name": "Green Aurora Ring Fragment",
@@ -27297,7 +27297,7 @@
         ]
     },
     "56-12": {
-        "name": "奥琉克斯沙岛?北部 56-12",
+        "name": "奥琉克斯沙岛・北部 56-12",
         "stamina": 10,
         "item_1": {
             "item_name": "Snow Flower Crystal Ring Fragment",
@@ -27327,7 +27327,7 @@
         ]
     },
     "56-13": {
-        "name": "奥琉克斯沙岛?北部 56-13",
+        "name": "奥琉克斯沙岛・北部 56-13",
         "stamina": 10,
         "item_1": {
             "item_name": "Green Aurora Ring Fragment",
@@ -27357,7 +27357,7 @@
         ]
     },
     "56-14": {
-        "name": "奥琉克斯沙岛?北部 56-14",
+        "name": "奥琉克斯沙岛・北部 56-14",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice Pillar Ring Fragment",
@@ -27387,7 +27387,7 @@
         ]
     },
     "57-1": {
-        "name": "奥琉克斯沙岛?南部 57-1",
+        "name": "奥琉克斯沙岛・南部 57-1",
         "stamina": 10,
         "item_1": {
             "item_name": "Ice Pillar Ring Fragment",
@@ -27417,7 +27417,7 @@
         ]
     },
     "57-2": {
-        "name": "奥琉克斯沙岛?南部 57-2",
+        "name": "奥琉克斯沙岛・南部 57-2",
         "stamina": 10,
         "item_1": {
             "item_name": "Green Aurora Ring Fragment",
@@ -27447,7 +27447,7 @@
         ]
     },
     "57-3": {
-        "name": "奥琉克斯沙岛?南部 57-3",
+        "name": "奥琉克斯沙岛・南部 57-3",
         "stamina": 10,
         "item_1": {
             "item_name": "Snow Flower Crystal Ring Fragment",
@@ -27477,7 +27477,7 @@
         ]
     },
     "57-4": {
-        "name": "奥琉克斯沙岛?南部 57-4",
+        "name": "奥琉克斯沙岛・南部 57-4",
         "stamina": 10,
         "item_1": {
             "item_name": "Singing Dress Musical Score Fragment",
@@ -27507,7 +27507,7 @@
         ]
     },
     "57-5": {
-        "name": "奥琉克斯沙岛?南部 57-5",
+        "name": "奥琉克斯沙岛・南部 57-5",
         "stamina": 10,
         "item_1": {
             "item_name": "Tributal Dancing Pumps Fragment",
@@ -27537,7 +27537,7 @@
         ]
     },
     "57-6": {
-        "name": "奥琉克斯沙岛?南部 57-6",
+        "name": "奥琉克斯沙岛・南部 57-6",
         "stamina": 10,
         "item_1": {
             "item_name": "Magical Hat Tambourine Caskets Fragment",
@@ -27567,7 +27567,7 @@
         ]
     },
     "57-7": {
-        "name": "奥琉克斯沙岛?南部 57-7",
+        "name": "奥琉克斯沙岛・南部 57-7",
         "stamina": 10,
         "item_1": {
             "item_name": "Keyboard Armor Cimbalom Fragment",
@@ -27597,7 +27597,7 @@
         ]
     },
     "57-8": {
-        "name": "奥琉克斯沙岛?南部 57-8",
+        "name": "奥琉克斯沙岛・南部 57-8",
         "stamina": 10,
         "item_1": {
             "item_name": "Heavy Hoplon Cymbal Fragment",
@@ -27627,7 +27627,7 @@
         ]
     },
     "57-9": {
-        "name": "奥琉克斯沙岛?南部 57-9",
+        "name": "奥琉克斯沙岛・南部 57-9",
         "stamina": 10,
         "item_1": {
             "item_name": "Ensemble Armor Brass Horn Fragment",
@@ -27657,7 +27657,7 @@
         ]
     },
     "57-10": {
-        "name": "奥琉克斯沙岛?南部 57-10",
+        "name": "奥琉克斯沙岛・南部 57-10",
         "stamina": 10,
         "item_1": {
             "item_name": "Tributal Dancing Pumps Fragment",
@@ -27687,7 +27687,7 @@
         ]
     },
     "57-11": {
-        "name": "奥琉克斯沙岛?南部 57-11",
+        "name": "奥琉克斯沙岛・南部 57-11",
         "stamina": 10,
         "item_1": {
             "item_name": "Singing Dress Musical Score Fragment",
@@ -27717,7 +27717,7 @@
         ]
     },
     "57-12": {
-        "name": "奥琉克斯沙岛?南部 57-12",
+        "name": "奥琉克斯沙岛・南部 57-12",
         "stamina": 10,
         "item_1": {
             "item_name": "Tributal Dancing Pumps Fragment",
@@ -27747,7 +27747,7 @@
         ]
     },
     "57-13": {
-        "name": "奥琉克斯沙岛?南部 57-13",
+        "name": "奥琉克斯沙岛・南部 57-13",
         "stamina": 10,
         "item_1": {
             "item_name": "Ensemble Armor Brass Horn Fragment",
@@ -27777,7 +27777,7 @@
         ]
     },
     "57-14": {
-        "name": "奥琉克斯沙岛?南部 57-14",
+        "name": "奥琉克斯沙岛・南部 57-14",
         "stamina": 10,
         "item_1": {
             "item_name": "Singing Dress Musical Score Fragment",
@@ -27807,7 +27807,7 @@
         ]
     },
     "58-1": {
-        "name": "库鲁斯密林?东部 58-1",
+        "name": "库鲁斯密林・东部 58-1",
         "stamina": 10,
         "item_1": {
             "item_name": "Sound Weaving Katana Gertona Fragment",
@@ -27837,7 +27837,7 @@
         ]
     },
     "58-2": {
-        "name": "库鲁斯密林?东部 58-2",
+        "name": "库鲁斯密林・东部 58-2",
         "stamina": 10,
         "item_1": {
             "item_name": "Heavenly Sound Axe Buster Horn Fragment",
@@ -27867,7 +27867,7 @@
         ]
     },
     "58-3": {
-        "name": "库鲁斯密林?东部 58-3",
+        "name": "库鲁斯密林・东部 58-3",
         "stamina": 10,
         "item_1": {
             "item_name": "Skillful Sound Bow Snare Arc Fragment",
@@ -27897,7 +27897,7 @@
         ]
     },
     "58-4": {
-        "name": "库鲁斯密林?东部 58-4",
+        "name": "库鲁斯密林・东部 58-4",
         "stamina": 10,
         "item_1": {
             "item_name": "Sword Field Sword Grand Pianos Fragment",
@@ -27927,7 +27927,7 @@
         ]
     },
     "58-5": {
-        "name": "库鲁斯密林?东部 58-5",
+        "name": "库鲁斯密林・东部 58-5",
         "stamina": 10,
         "item_1": {
             "item_name": "Sound Engraving Blade Clefton Fragment",
@@ -27957,7 +27957,7 @@
         ]
     },
     "58-6": {
-        "name": "库鲁斯密林?东部 58-6",
+        "name": "库鲁斯密林・东部 58-6",
         "stamina": 10,
         "item_1": {
             "item_name": "Sword Field Sword Grand Pianos Fragment",
@@ -27987,7 +27987,7 @@
         ]
     },
     "58-7": {
-        "name": "库鲁斯密林?东部 58-7",
+        "name": "库鲁斯密林・东部 58-7",
         "stamina": 10,
         "item_1": {
             "item_name": "Charitable Command Staff Artemakillion Fragment",
