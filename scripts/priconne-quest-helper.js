@@ -4417,6 +4417,10 @@ const data_display = (function () {
                         quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + 3], quest_info[quest_data.tags.ITEM + 3][quest_data.tags.DROP_PERCENT]);
                         quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + 4],
                             (typeof(quest_info[quest_data.tags.ITEM + 4]) === "object") ? quest_info[quest_data.tags.ITEM + 4][quest_data.tags.DROP_PERCENT] : 0);
+                        quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + 5],
+                            (typeof(quest_info[quest_data.tags.ITEM + 5]) === "object") ? quest_info[quest_data.tags.ITEM + 5][quest_data.tags.DROP_PERCENT] : 0);
+                        quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + 6],
+                            (typeof(quest_info[quest_data.tags.ITEM + 6]) === "object") ? quest_info[quest_data.tags.ITEM + 6][quest_data.tags.DROP_PERCENT] : 0);
                         quest_score += get_quest_score(quest_info[quest_data.tags.CHAR_SHARD],
                             (typeof(quest_info[quest_data.tags.CHAR_SHARD]) === "object") ? quest_info[quest_data.tags.CHAR_SHARD][quest_data.tags.DROP_PERCENT] : 0);
 

@@ -31828,6 +31828,14 @@
             "item_name": "Demonic Tail Tie Fragment",
             "drop_percent": 25
         },
+        "item_5": {
+            "item_name": "Diablo Membranes Fragment",
+            "drop_percent": 25
+        },
+        "item_6": {
+            "item_name": "Apron Light Mail Fragment",
+            "drop_percent": 36
+        },
         "subdrops": [
             "Diablo Scrape Fragment",
             "Thorn of Roses Fragment",
@@ -31861,6 +31869,14 @@
         "item_4": {
             "item_name": "Demonic Tail Tie Fragment",
             "drop_percent": 25
+        },
+        "item_5": {
+            "item_name": "Diablo Membranes Fragment",
+            "drop_percent": 25
+        },
+        "item_6": {
+            "item_name": "Veteran Chef Cross Fragment",
+            "drop_percent": 36
         },
         "subdrops": [
             "Rose Rogue Pendant Fragment",
@@ -31896,6 +31912,14 @@
             "item_name": "Demonic Tail Tie Fragment",
             "drop_percent": 25
         },
+        "item_5": {
+            "item_name": "Diablo Membranes Fragment",
+            "drop_percent": 25
+        },
+        "item_6": {
+            "item_name": "Armor de Tablier Fragment",
+            "drop_percent": 36
+        },
         "subdrops": [
             "Diablo Scrape Fragment",
             "Thorn of Roses Fragment",
@@ -31930,6 +31954,14 @@
             "item_name": "Demonic Tail Tie Fragment",
             "drop_percent": 25
         },
+        "item_5": {
+            "item_name": "Diablo Membranes Fragment",
+            "drop_percent": 25
+        },
+        "item_6": {
+            "item_name": "Tassa Talon Fragment",
+            "drop_percent": 36
+        },
         "subdrops": [
             "Rose Brute Pendant Fragment",
             "Demon's Bound Armor Fragment",
@@ -31963,6 +31995,14 @@
         "item_4": {
             "item_name": "Demonic Tail Tie Fragment",
             "drop_percent": 25
+        },
+        "item_5": {
+            "item_name": "Diablo Membranes Fragment",
+            "drop_percent": 25
+        },
+        "item_6": {
+            "item_name": "Professional Waitress Apron Fragment",
+            "drop_percent": 36
         },
         "subdrops": [
             "Rose Stem Wand Fragment",

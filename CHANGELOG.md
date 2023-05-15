@@ -10,10 +10,13 @@ Quest Update (2023-05-15)
 - New Equipment
 - New Quests:
   - Chapter 64 Normal Part 1 (`64-1` - `64-5`)
-    - Chapter 64 Normal quests have 4 main items instead of 3
-      - May have more, but will need to check...
+    - Chapter 64 Normal quests will now also include accessory drops (accessories will no longer be considered main items?)
+      - Red : 50% | Blue : 25% | Green : 25%
+      - Every quest you do will have a chance to drop only 1 of these items
+        - e.g. If you get a red accessory drop, you won't have another chance of getting the other 2 colors for this quest clear
   - `63-3 H`
 - Rank 29 Support
+- Added 6 main item support (very sloppy work, there may be bugs)
 
 ## [2.37.3] - 2023-05-09
 ### Added
