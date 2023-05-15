@@ -138,7 +138,7 @@ i.footer {
     display: none;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 900px) {
     .main_title,
     .sub_title {
         display: none;

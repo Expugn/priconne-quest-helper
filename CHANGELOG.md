@@ -17,6 +17,9 @@ Quest Update (2023-05-15)
   - `63-3 H`
 - Rank 29 Support
 - Added 6 main item support (very sloppy work, there may be bugs)
+### Changed
+- Adjust formatting for `pages/quest-data` to make new Normal quest changes appear a little nicer
+- Remove "(BETA)" from `priconne-quest-helper v3.1` text because it's no longer considered to be in BETA
 
 ## [2.37.3] - 2023-05-09
 ### Added
