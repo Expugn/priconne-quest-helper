@@ -1186,11 +1186,15 @@ const presets = (function () {
                 char_thematics = {};
 
             for (const char_id in char_json) {
-                const char_data = char_json[char_id],
+                let char_data = char_json[char_id],
                       name = char_data[character_data.tags.NAME].toLowerCase(),
                       thematic = char_data[character_data.tags.THEMATIC].replace(' ', '_').toLowerCase();
                 let char_translated = webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][name];
 
+                if (name.indexOf("&") <= -1 && name.indexOf(" ") > -1) {
+                    name = char_data[character_data.tags.NAME].toLowerCase().replace(' ', '_');
+                    char_translated = webpage.language.data()[webpage.language.tags.CHARACTER_NAMES][name];
+                }
                 if (name.indexOf("&") > -1) {
                     // UNIT IS DUAL UNIT, MORE LOGIC FOR TRANSLATED NAME NEEDED
                     const names = name.split(" & ");
@@ -1264,7 +1268,7 @@ const presets = (function () {
              * @return {string} <option> HTML FOR CHARACTER PRESETS SELECT LIST.
              */
             function get_list_html(char_data) {
-                const name = char_data[character_data.tags.NAME],
+                let name = char_data[character_data.tags.NAME],
                     thematic = char_data[character_data.tags.THEMATIC],
                     thematic_key = thematic.replace(' ', '_').toLowerCase(),
                     is_thematic_exists = thematic !== "",
@@ -1274,6 +1278,10 @@ const presets = (function () {
                 let char_translated = lang_data[webpage.language.tags.CHARACTER_NAMES][name.toLowerCase()] +
                         (is_thematic_exists ? " (" + lang_data[webpage.language.tags.THEMATICS][thematic_key] + ")" : "");
 
+                if (name.indexOf("&") <= -1 && name.indexOf(" ") > -1) {
+                    char_translated = lang_data[webpage.language.tags.CHARACTER_NAMES][name.toLowerCase().replace(' ', '_')] +
+                        (is_thematic_exists ? " (" + lang_data[webpage.language.tags.THEMATICS][thematic_key] + ")" : "");
+                }
                 if (name.indexOf("&") > -1) {
                     // UNIT IS DUAL UNIT, MORE LOGIC FOR TRANSLATED NAME NEEDED
                     const names = name.toLowerCase().split(" & ");
@@ -1435,10 +1443,14 @@ const presets = (function () {
                 char_tl = char_data[selected_char][character_data.tags.NAME_JP] + (is_thematic_exists ? " (" + char_thematic_tl + ")" : "");
             }
             else {
-                const tl_name = char_name.toLowerCase(),
-                    tl_thematic = char_thematic.replace(' ', '_').toLowerCase(),
+                let tl_name = char_name.toLowerCase();
+                const tl_thematic = char_thematic.replace(' ', '_').toLowerCase(),
                     lang_data = webpage.language.data();
                 char_thematic_tl = lang_data[webpage.language.tags.THEMATICS][tl_thematic];
+                if (tl_name.indexOf("&") <= -1 && tl_name.indexOf(" ") > -1) {
+                    // unit is not a dual unit but has a space
+                    tl_name = char_name.toLowerCase().replace(' ', '_');
+                }
                 char_tl = lang_data[webpage.language.tags.CHARACTER_NAMES][tl_name] + (is_thematic_exists ? " (" + char_thematic_tl + ")" : "");
 
                 if (tl_name.indexOf("&") > -1) {
@@ -4412,6 +4424,13 @@ const data_display = (function () {
 
                         let quest_score = 0;
                         // CHECK MAIN ITEMS
+                        let item_counter = 1;
+                        while (quest_info.hasOwnProperty(quest_data.tags.ITEM + item_counter)) {
+                            quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + item_counter],
+                                (typeof(quest_info[quest_data.tags.ITEM + item_counter]) === "object") ? quest_info[quest_data.tags.ITEM + item_counter][quest_data.tags.DROP_PERCENT] : 0);
+                            item_counter++;
+                        }
+                        /*
                         quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + 1], quest_info[quest_data.tags.ITEM + 1][quest_data.tags.DROP_PERCENT]);
                         quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + 2], quest_info[quest_data.tags.ITEM + 2][quest_data.tags.DROP_PERCENT]);
                         quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + 3], quest_info[quest_data.tags.ITEM + 3][quest_data.tags.DROP_PERCENT]);
@@ -4421,6 +4440,9 @@ const data_display = (function () {
                             (typeof(quest_info[quest_data.tags.ITEM + 5]) === "object") ? quest_info[quest_data.tags.ITEM + 5][quest_data.tags.DROP_PERCENT] : 0);
                         quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + 6],
                             (typeof(quest_info[quest_data.tags.ITEM + 6]) === "object") ? quest_info[quest_data.tags.ITEM + 6][quest_data.tags.DROP_PERCENT] : 0);
+                        quest_score += get_quest_score(quest_info[quest_data.tags.ITEM + 7],
+                            (typeof(quest_info[quest_data.tags.ITEM + 7]) === "object") ? quest_info[quest_data.tags.ITEM + 7][quest_data.tags.DROP_PERCENT] : 0);
+                        */
                         quest_score += get_quest_score(quest_info[quest_data.tags.CHAR_SHARD],
                             (typeof(quest_info[quest_data.tags.CHAR_SHARD]) === "object") ? quest_info[quest_data.tags.CHAR_SHARD][quest_data.tags.DROP_PERCENT] : 0);
 

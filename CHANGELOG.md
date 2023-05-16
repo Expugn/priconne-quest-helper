@@ -20,6 +20,9 @@ Quest Update (2023-05-15)
 ### Changed
 - Adjust formatting for `pages/quest-data` to make new Normal quest changes appear a little nicer
 - Remove "(BETA)" from `priconne-quest-helper v3.1` text because it's no longer considered to be in BETA
+### Fixed
+- Add logic to fix translation issues for character names with spaces (e.g. Kaiser Insight)
+  - These names were improperly sorted or showed up as "undefined" if the webpage language was not set to English
 
 ## [2.37.3] - 2023-05-09
 ### Added
