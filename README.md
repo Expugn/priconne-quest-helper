@@ -85,7 +85,6 @@ If you are interested in directly getting the `master.db` from multiple regions 
 `master.db`s and code to update them is available in <https://github.com/Expugn/priconne-database>
 
 ### Extracting Texture2D Assets
-#### NOTE: AS OF `April 10th, 2023` THIS NO LONGER WORKS DUE TO A UNITY UPDATE. IT WILL BE ON HIATUS UNTIL A MORE STABLE LIBRARY/FIX IS FOUND.
 If you are interested in getting Texture2D/image assets:<br>
 A ***quickly thrown together*** script available in <https://github.com/Expugn/priconne-image-extractor>
 

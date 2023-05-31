@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.38.1] - 2023-05-31
+### Added
+- New Character: Ilya (Ceremonial Attire)
+
 ## [2.38.0] - 2023-05-15
 Quest Update (2023-05-15)
 ### Added
