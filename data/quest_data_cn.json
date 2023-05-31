@@ -12554,6 +12554,37 @@
             "Sun Amulet Fragment"
         ]
     },
+    "27-2VH": {
+        "name": "圣彼得大森林·东部 27-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Sakura Axe Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Whirlwind Earrings Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Sakura Hand Brace Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Sakura Eight Weight Armor Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Kurumi Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ice Claymore Fragment",
+            "Dark Matter Edge Fragment",
+            "Violet Armor Fragment",
+            "Crusader Plate Fragment",
+            "Sun Amulet Fragment"
+        ]
+    },
     "28-1": {
         "name": "迪斯塔尔河食岸・北部 28-1",
         "stamina": 10,

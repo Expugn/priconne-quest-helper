@@ -15135,6 +15135,182 @@
             "Heavenly Hell Earrings"
         ]
     },
+    "work_overalls_tamaki": {
+        "name_cn": "珠希（工作服）",
+        "unit_id": 116801,
+        "name": "Tamaki",
+        "thematic": "Work Overalls",
+        "name_jp": "タマキ",
+        "thematic_jp": "作業服",
+        "rank_1": [
+            "Killer Pencil",
+            "Killer Pencil",
+            "Leather Overalls",
+            "Tree Shield",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Crescent Sword",
+            "Command Knife",
+            "Clothes of Wisdom",
+            "Legion Helm",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Crescent Sword",
+            "Light Plate",
+            "Tower Shield",
+            "Jewel of Love",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Moonlight Sword",
+            "Shinobi Shoes",
+            "Fashion Armor",
+            "Shinobi Shoes",
+            "Victory Friendship Bracelet",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Vampire Dagger",
+            "Moonlight Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Emerald Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Precious Knife",
+            "Vampire Dagger",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Octogram Pendant",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Princess' Dagger",
+            "Precious Knife",
+            "Invisible Dress",
+            "Scarlet Diamond",
+            "Lion King's Protective Charm",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Dark Matter Edge",
+            "Princess' Dagger",
+            "Mythril Plate",
+            "Angel Blade",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Unicorn Knife",
+            "Dark Matter Edge",
+            "Guardian Shield",
+            "Solar Sword",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Emerald Dagger",
+            "Unicorn Knife",
+            "Scarlet Mail",
+            "Ice Claymore",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Lava Edge",
+            "Emerald Dagger",
+            "Aegis Coat",
+            "Chaos Blade",
+            "Millennium Earrings",
+            "Cat God Pendant"
+        ],
+        "rank_12": [
+            "Tír na nÓg Dagger",
+            "Lava Edge",
+            "Nine Heavens' Armor",
+            "Lightning Blade",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Twin God Sword of Lightning",
+            "Tír na nÓg Dagger",
+            "Fire Oni's Tori",
+            "Dawn's Holy Sword",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Heavenly Black Sword of Obsidian",
+            "Twin God Sword of Lightning",
+            "Senka Dance Armor",
+            "Great Sword of Sin",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Gehenna Dragon",
+            "Heavenly Black Sword of Obsidian",
+            "Beautiful Clothes - Soul Rose",
+            "Konominato Sword - Aqua Ruler",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Dark Blade - Heavenly Raven's Guard",
+            "Gehenna Dragon",
+            "Southern Heaven Blazing Blue Armor",
+            "Overlord Light Dragon Sword",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Jade Wind Blade - Emerald Edge",
+            "Dark Blade - Heavenly Raven's Guard",
+            "Holy Light's Lily Plate",
+            "Star Nuclear Sword - Ertz Schneide",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Chocolate Banana Dagger",
+            "Jade Wind Blade - Emerald Edge",
+            "Pink Coral Dress",
+            "Rabbit God's Great Sword",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Purple Mist Dagger",
+            "Chocolate Banana Dagger",
+            "Fancy Macaron Dress",
+            "Shining Sword - Adamas",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "Cherry Petal Dagger",
+            "Purple Mist Dagger",
+            "Thin Red Sakura Saintly Cloth",
+            "Choco Stick Blade",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Cherry Petal Dagger",
+            "",
+            "Blazing Red Sun Sword",
+            "",
+            "Heavenly Hell Earrings"
+        ]
+    },
     "rino": {
         "name_cn": "璃乃",
         "unit_id": 101101,
@@ -17771,6 +17947,182 @@
             "Weeping Sakura Bow",
             "",
             "White Rain Bow",
+            "",
+            "Heavenly Hell Earrings"
+        ]
+    },
+    "work_overalls_aoi": {
+        "name_cn": "碧（工作服）",
+        "unit_id": 116701,
+        "name": "Aoi",
+        "thematic": "Work Overalls",
+        "name_jp": "アオイ",
+        "thematic_jp": "作業服",
+        "rank_1": [
+            "Hunter's Bow",
+            "Hunter's Bow",
+            "Leather Overalls",
+            "Leather Boots",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Crystal Bow",
+            "Command Knife",
+            "Folklore Clothes",
+            "Cute Caskets",
+            "Protective Pendant",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Crystal Bow",
+            "Shinobi Costume",
+            "Hunting Boots",
+            "Jewel of Love",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Cupid's Bow",
+            "Platinum Knife",
+            "Millefeuille Cloth",
+            "Shinobi Shoes",
+            "Victory Friendship Bracelet",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Devil's Bow",
+            "Cupid's Bow",
+            "Palace Cloth",
+            "Fencer Boots",
+            "Emerald Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Lightning Bow",
+            "Devil's Bow",
+            "Cosmos Cloth",
+            "Fencer Boots",
+            "Lion Eagle's Feather",
+            "Palace Cloth"
+        ],
+        "rank_7": [
+            "Angel Bow",
+            "Lightning Bow",
+            "Moonlight Garment",
+            "Lion King's Protective Charm",
+            "Scarlet Diamond",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Artemis Bow",
+            "Angel Bow",
+            "Angel Boots",
+            "Feather Waltz",
+            "Elemental Heart",
+            "Lion King's Protective Charm"
+        ],
+        "rank_9": [
+            "Spirit Tree Bow",
+            "Artemis Bow",
+            "Heavenly Robe",
+            "Angel Bow",
+            "Moon Bracelet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Silver Wing Bow",
+            "Spirit Tree Bow",
+            "Dark Terror Dress",
+            "Heavenly Robe",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Abyss Bow",
+            "Silver Wing Bow",
+            "Phantasm Mail",
+            "Dark Terror Dress",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Heavenly Red Bow",
+            "Abyss Bow",
+            "Maiden Cloth",
+            "Phantasm Mail",
+            "Mermaid Princess' Spirit Tear",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Armored Bow - Deus Fall",
+            "Heavenly Red Bow",
+            "Rage Queen Dress",
+            "Maiden Cloth",
+            "Glorious King's Shield Bangle",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Ice Bow - Freezing Tear",
+            "Armored Bow - Deus Fall",
+            "Senka Dance Armor",
+            "Fire Oni's Tori",
+            "Sea Dragon God's Hair Ornament",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Bow - Erzvogen",
+            "Ice Bow - Freezing Tear",
+            "Flowing Blue Dress - Azul Rondo",
+            "Extremely Dark Clothes",
+            "Shield God Ring - Wall Breath",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Heaven Penetrating Falcon's Bow",
+            "Star Nuclear Bow - Erzvogen",
+            "Eastern Heaven Green Wind Dress",
+            "Flowing Blue Dress - Azul Rondo",
+            "Elfin Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Blue God Bow - Mercy Sapiros",
+            "Heaven Penetrating Falcon's Bow",
+            "White Haze Flower Dress",
+            "Eastern Heaven Green Wind Dress",
+            "Jade Harp Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Candy Sugar Bow",
+            "Blue God Bow - Mercy Sapiros",
+            "Platinum Scale Armor",
+            "White Haze Flower Dress",
+            "Evergreen Green Ring",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "White Rain Bow",
+            "Candy Sugar Bow",
+            "Fancy Macaron Dress",
+            "Platinum Scale Armor",
+            "Macaron Pendant",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "Weeping Sakura Bow",
+            "White Rain Bow",
+            "Scattered Sakura Wide Brimmed Hat",
+            "Fancy Macaron Dress",
+            "Whirlwind Earrings",
+            "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "",
+            "Weeping Sakura Bow",
+            "",
+            "Scattered Sakura Wide Brimmed Hat",
             "",
             "Heavenly Hell Earrings"
         ]
