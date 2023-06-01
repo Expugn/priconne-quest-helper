@@ -17009,6 +17009,44 @@
             15
         ]
     },
+    "34-3VH": {
+        "name": "迪克斯提亞岩崖‧西壁 34-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Rose Brute Pendant Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Rose Empress Mail Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Rose Rogue Pendant Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Rose Imperial Sword Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Jun Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Celestial Beating Timpania Fragment",
+            "Shouting Fist Biolafist Fragment",
+            "Desert Clothmail Fragment",
+            "Sword Field Sword Grand Pianos Fragment",
+            "Tree Tributing Xylophonia Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "35-1": {
         "name": "迪克斯提亞岩崖‧東壁 35-1",
         "stamina": 10,
@@ -28981,6 +29019,40 @@
             15
         ]
     },
+    "57-3H": {
+        "name": "歐呂克斯沙島‧南部 57-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Demon's Bound Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Rose Rogue Pendant Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Rose Petal Knuckle Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Time Traveler Kaya Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Tree Tributing Xylophonia Fragment",
+            "Benevolent Heavy Spear Tromspear Fragment",
+            "Desert Shade Clothes Fragment",
+            "Desert Wind Turban Fragment",
+            "Sound Weaving Katana Gertona Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "58-1": {
         "name": "克魯斯密林‧東部 58-1",
         "stamina": 10,
@@ -30652,6 +30724,216 @@
             "Skillful Sound Bow Snare Arc Fragment",
             "Oasis Blue Plate Fragment",
             "Heavenly Sound Axe Buster Horn Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "62-1": {
+        "name": "普洛庇那海角 62-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Demon's Bound Armor Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Rose Brute Pendant Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Rose Petal Staff Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Celestial Beating Timpania Fragment",
+            "Shouting Fist Biolafist Fragment",
+            "Desert Clothmail Fragment",
+            "Sword Field Sword Grand Pianos Fragment",
+            "Tree Tributing Xylophonia Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "62-2": {
+        "name": "普洛庇那海角 62-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Cursed Demon's Robe Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Lapis Rose Pendant Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Rose Stem Wand Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Absolute Sound Cane Accordia Fragment",
+            "Oasis Ahaldia Fragment",
+            "Oriental Breeze Robe Fragment",
+            "Charitable Command Staff Artemakillion Fragment",
+            "Spirit Chant Score Demiscore Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "62-3": {
+        "name": "普洛庇那海角 62-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Demon's Bound Armor Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Rose Rogue Pendant Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Rose Brute Pendant Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Tree Tributing Xylophonia Fragment",
+            "Benevolent Heavy Spear Tromspear Fragment",
+            "Desert Shade Clothes Fragment",
+            "Desert Wind Turban Fragment",
+            "Sound Weaving Katana Gertona Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "62-4": {
+        "name": "普洛庇那海角 62-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Envy Demon's Horn Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Lapis Rose Pendant Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Rose Brute Pendant Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Spirit Chant Score Demiscore Fragment",
+            "Sound Engraving Blade Clefton Fragment",
+            "Skillful Sound Bow Snare Arc Fragment",
+            "Oasis Blue Plate Fragment",
+            "Heavenly Sound Axe Buster Horn Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "62-5": {
+        "name": "普洛庇那海角 62-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Demon's Painmail Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Rose Rogue Pendant Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Rose Brute Pendant Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Tree Tributing Xylophonia Fragment",
+            "Benevolent Heavy Spear Tromspear Fragment",
+            "Desert Shade Clothes Fragment",
+            "Desert Wind Turban Fragment",
+            "Sound Weaving Katana Gertona Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "62-6": {
+        "name": "普洛庇那海角 62-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Envy Demon's Horn Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Cursed Demon's Robe Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Lapis Rose Pendant Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Absolute Sound Cane Accordia Fragment",
+            "Oasis Ahaldia Fragment",
+            "Oriental Breeze Robe Fragment",
+            "Charitable Command Staff Artemakillion Fragment",
+            "Spirit Chant Score Demiscore Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "62-7": {
+        "name": "普洛庇那海角 62-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Variant Demon Horn Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Diablo Scrape Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Rose Rogue Pendant Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Celestial Beating Timpania Fragment",
+            "Shouting Fist Biolafist Fragment",
+            "Desert Clothmail Fragment",
+            "Sword Field Sword Grand Pianos Fragment",
+            "Tree Tributing Xylophonia Fragment"
         ],
         "subdrops_percent": [
             24,
