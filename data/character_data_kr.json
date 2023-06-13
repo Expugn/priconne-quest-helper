@@ -191,12 +191,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "nanaka": {
@@ -391,12 +399,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Diamond Dust Robe",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Magical Hat Tambourine Caskets",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "summer_nanaka": {
@@ -591,12 +607,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Punk Princess Rod",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "neneka": {
@@ -791,12 +815,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "new_year_neneka": {
@@ -991,12 +1023,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Punk Princess Rod",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Ice Cane Frost Staff",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "nozomi": {
@@ -1191,12 +1231,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Ensemble Armor Brass Horn",
             "White Aurora Dress",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ensemble Armor Brass Horn",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "summer_nozomi": {
@@ -1391,12 +1439,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Heavy Hoplon Cymbal",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "christmas_nozomi": {
@@ -1591,12 +1647,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Ensemble Armor Brass Horn",
             "White Aurora Dress",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ensemble Armor Brass Horn",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "ninon": {
@@ -1791,12 +1855,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Weaving Katana Gertona",
             "Ice and Snow Sword Graki Edge",
             "Heavy Hoplon Cymbal",
             "Chain Fury Sword",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Ice and Snow Sword Graki Edge",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "oedo_ninon": {
@@ -1991,12 +2063,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Engraving Blade Clefton",
             "Ice Fang Styria Dagger",
             "Tributal Dancing Pumps",
             "Thunder Punk Dagger",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Ice Fang Styria Dagger",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "halloween_ninon": {
@@ -2191,12 +2271,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Weaving Katana Gertona",
             "Ice and Snow Sword Graki Edge",
             "Heavy Hoplon Cymbal",
             "Chain Fury Sword",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Ice and Snow Sword Graki Edge",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "labyrista": {
@@ -2391,12 +2479,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "White Aurora Dress",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "overload_labyrista": {
@@ -2591,12 +2687,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "ranpha": {
@@ -2791,12 +2895,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Diamond Dust Robe",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Magical Hat Tambourine Caskets",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "ram": {
@@ -2991,12 +3103,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "rei": {
@@ -3191,12 +3311,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "White Aurora Dress",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "new_year_rei": {
@@ -3391,12 +3519,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Keyboard Armor Cimbalom",
             "White Aurora Dress",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "princess_rei": {
@@ -3591,12 +3727,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Heavy Hoplon Cymbal",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "halloween_rei": {
@@ -3791,12 +3935,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "rem": {
@@ -3991,12 +4143,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Heavenly Sound Axe Buster Horn",
             "Ice Breaking Riot Axe",
             "Tributal Dancing Pumps",
             "Rocking Groove Axe",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Ice Breaking Riot Axe",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "lou": {
@@ -4191,12 +4351,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "luna": {
@@ -4391,12 +4559,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "ruka": {
@@ -4591,12 +4767,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Weaving Katana Gertona",
             "Ice and Snow Sword Graki Edge",
             "Keyboard Armor Cimbalom",
             "White Aurora Dress",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "new_year_ruka": {
@@ -4791,12 +4975,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Weaving Katana Gertona",
             "Ice and Snow Sword Graki Edge",
             "Tributal Dancing Pumps",
             "Chain Fury Sword",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Ice and Snow Sword Graki Edge",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "summer_ruka": {
@@ -4991,12 +5183,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Weaving Katana Gertona",
             "Ice and Snow Sword Graki Edge",
             "Tributal Dancing Pumps",
             "Chain Fury Sword",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Ice and Snow Sword Graki Edge",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "rino": {
@@ -5191,12 +5391,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Skillful Sound Bow Snare Arc",
             "Ice Sacred Bow Constellation",
             "Tributal Dancing Pumps",
             "Crime Hunt Bow",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Ice Sacred Bow Constellation",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "wonder_rino": {
@@ -5391,12 +5599,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Skillful Sound Bow Snare Arc",
             "Ice Sacred Bow Constellation",
             "Tributal Dancing Pumps",
             "Crime Hunt Bow",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Ice Sacred Bow Constellation",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "christmas_rino": {
@@ -5591,12 +5807,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Skillful Sound Bow Snare Arc",
             "Ice Fang Styria Dagger",
             "Tributal Dancing Pumps",
             "Crime Hunt Bow",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Ice Sacred Bow Constellation",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "rima": {
@@ -5791,12 +6015,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Spear Snow Storm",
             "Ensemble Armor Brass Horn",
             "Crystal Ice Mail",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Ensemble Armor Brass Horn",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "cinderella_rima": {
@@ -5991,12 +6223,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Heavy Hoplon Cymbal",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "rin": {
@@ -6191,12 +6431,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Spear Snow Storm",
             "Keyboard Armor Cimbalom",
             "White Aurora Dress",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "deresute_rin": {
@@ -6391,12 +6639,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Weaving Katana Gertona",
             "Ice and Snow Sword Graki Edge",
             "Heavy Hoplon Cymbal",
             "Crystal Ice Mail",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Heavy Hoplon Cymbal",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "ranger_rin": {
@@ -6591,12 +6847,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Spear Snow Storm",
             "Keyboard Armor Cimbalom",
             "Skull Gothic Lance",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Ice Spear Snow Storm",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "matsuri": {
@@ -6791,12 +7055,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Engraving Blade Clefton",
             "Ice Fang Styria Dagger",
             "Keyboard Armor Cimbalom",
             "White Aurora Dress",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "halloween_matsuri": {
@@ -6991,12 +7263,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Shouting Fist Biolafist",
             "Ice Block Fist Glass Knuckle",
             "Heavy Hoplon Cymbal",
             "Brass Knuckles",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Ice Block Fist Glass Knuckle",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "makoto": {
@@ -7191,12 +7471,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Weaving Katana Gertona",
             "Ice and Snow Sword Graki Edge",
             "Tributal Dancing Pumps",
             "Chain Fury Sword",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Ice and Snow Sword Graki Edge",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "cinderella_makoto": {
@@ -7391,12 +7679,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Weaving Katana Gertona",
             "Ice and Snow Sword Graki Edge",
             "Tributal Dancing Pumps",
             "Chain Fury Sword",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Ice and Snow Sword Graki Edge",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "summer_makoto": {
@@ -7591,12 +7887,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Weaving Katana Gertona",
             "Ice and Snow Sword Graki Edge",
             "Tributal Dancing Pumps",
             "Chain Fury Sword",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Ice and Snow Sword Graki Edge",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "maho": {
@@ -7791,12 +8095,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Green Aurora Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "cinderella_maho": {
@@ -7991,12 +8303,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Punk Princess Rod",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Ice Cane Frost Staff",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "summer_maho": {
@@ -8191,12 +8511,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "mahiru": {
@@ -8391,12 +8719,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Breaking Riot Axe",
             "Keyboard Armor Cimbalom",
             "Crystal Ice Mail",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "ranger_mahiru": {
@@ -8591,12 +8927,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Spear Snow Storm",
             "Keyboard Armor Cimbalom",
             "Skull Gothic Lance",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Ice Spear Snow Storm",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "christmas_mahiru": {
@@ -8791,12 +9135,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Breaking Riot Axe",
             "Keyboard Armor Cimbalom",
             "Crystal Ice Mail",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "monika": {
@@ -8991,12 +9343,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Fang Styria Dagger",
             "Tributal Dancing Pumps",
             "White Aurora Dress",
             "Ice Pillar Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "magical_monika": {
@@ -9191,12 +9551,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "White Aurora Dress",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "muimi": {
@@ -9391,12 +9759,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Engraving Blade Clefton",
             "Ice Fang Styria Dagger",
             "Heavy Hoplon Cymbal",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "new_year_muimi": {
@@ -9591,12 +9967,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Engraving Blade Clefton",
             "Ice Fang Styria Dagger",
             "Heavy Hoplon Cymbal",
             "Pure Snow Mail",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Heavy Hoplon Cymbal",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "mimi": {
@@ -9791,12 +10175,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Breaking Riot Axe",
             "Tributal Dancing Pumps",
             "Pure Snow Mail",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "halloween_mimi": {
@@ -9991,12 +10383,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Breaking Riot Axe",
             "Tributal Dancing Pumps",
             "Crystal Ice Mail",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "misaki": {
@@ -10191,12 +10591,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "stage_misaki": {
@@ -10391,12 +10799,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Punk Princess Rod",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Ice Cane Frost Staff",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "halloween_misaki": {
@@ -10591,12 +11007,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Frost Column Heel",
             "Snow Flower Crystal Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Magical Hat Tambourine Caskets",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "misato": {
@@ -10791,12 +11215,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Green Aurora Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "summer_misato": {
@@ -10991,12 +11423,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Green Aurora Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "misogi": {
@@ -11191,12 +11631,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Shouting Fist Biolafist",
             "Ice Block Fist Glass Knuckle",
             "Keyboard Armor Cimbalom",
             "White Aurora Dress",
             "Ice Pillar Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "halloween_misogi": {
@@ -11391,12 +11839,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Shouting Fist Biolafist",
             "Ice Block Fist Glass Knuckle",
             "Heavy Hoplon Cymbal",
             "Brass Knuckles",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Ice Block Fist Glass Knuckle",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "misogi_&_mimi_&_kyouka": {
@@ -11591,12 +12047,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Block Fist Glass Knuckle",
             "Tributal Dancing Pumps",
             "Thunder Punk Dagger",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Ice Fang Styria Dagger",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "miyako": {
@@ -11791,12 +12255,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Spear Snow Storm",
             "Keyboard Armor Cimbalom",
             "White Aurora Dress",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "christmas_miyako": {
@@ -11991,12 +12463,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Shouting Fist Biolafist",
             "Ice Block Fist Glass Knuckle",
             "Tributal Dancing Pumps",
             "White Aurora Dress",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "halloween_miyako": {
@@ -12191,12 +12671,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Shouting Fist Biolafist",
             "Ice Block Fist Glass Knuckle",
             "Tributal Dancing Pumps",
             "Snowflake Beret",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "deresute_mio": {
@@ -12391,12 +12879,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Diamond Dust Robe",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "mitsuki": {
@@ -12591,12 +13087,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "White Aurora Dress",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "oedo_mitsuki": {
@@ -12791,12 +13295,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "White Aurora Dress",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "mifuyu": {
@@ -12991,12 +13503,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Breaking Riot Axe",
             "Keyboard Armor Cimbalom",
             "Crystal Ice Mail",
             "Green Aurora Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "summer_mifuyu": {
@@ -13191,12 +13711,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Breaking Riot Axe",
             "Tributal Dancing Pumps",
             "Skull Gothic Lance",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Ice Spear Snow Storm",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "work_overalls_mifuyu": {
@@ -13391,12 +13919,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Spear Snow Storm",
             "Keyboard Armor Cimbalom",
             "Crystal Ice Mail",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "saren": {
@@ -13591,12 +14127,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "Pure Snow Mail",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "summer_saren": {
@@ -13791,12 +14335,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Ensemble Armor Brass Horn",
             "White Aurora Dress",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ensemble Armor Brass Horn",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "christmas_saren": {
@@ -13991,12 +14543,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Heavy Hoplon Cymbal",
             "Crystal Ice Mail",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Heavy Hoplon Cymbal",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "sheffy": {
@@ -14191,12 +14751,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "new_year_sheffy": {
@@ -14391,12 +14959,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "suzuna": {
@@ -14591,12 +15167,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Skillful Sound Bow Snare Arc",
             "Ice Sacred Bow Constellation",
             "Tributal Dancing Pumps",
             "Crime Hunt Bow",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Ice Sacred Bow Constellation",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "summer_suzuna": {
@@ -14791,12 +15375,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Skillful Sound Bow Snare Arc",
             "Ice Sacred Bow Constellation",
             "Tributal Dancing Pumps",
             "Crime Hunt Bow",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Ice Sacred Bow Constellation",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "halloween_suzuna": {
@@ -14991,12 +15583,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Skillful Sound Bow Snare Arc",
             "Ice Sacred Bow Constellation",
             "Tributal Dancing Pumps",
             "Crime Hunt Bow",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Ice Sacred Bow Constellation",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "suzume": {
@@ -15191,12 +15791,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Diamond Dust Robe",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "new_year_suzume": {
@@ -15391,12 +15999,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Green Aurora Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "summer_suzume": {
@@ -15591,12 +16207,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Green Aurora Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "shinobu": {
@@ -15791,12 +16415,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Weaving Katana Gertona",
             "Ice and Snow Sword Graki Edge",
             "Heavy Hoplon Cymbal",
             "Pure Snow Mail",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Heavy Hoplon Cymbal",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "halloween_shinobu": {
@@ -15991,12 +16623,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Weaving Katana Gertona",
             "Ice and Snow Sword Graki Edge",
             "Heavy Hoplon Cymbal",
             "Chain Fury Sword",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Weaving Katana Gertona",
+            "",
+            "Ice and Snow Sword Graki Edge",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "pirate_shinobu": {
@@ -16191,12 +16831,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Heavenly Sound Axe Buster Horn",
             "Ice Breaking Riot Axe",
             "Keyboard Armor Cimbalom",
             "Rocking Groove Axe",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Ice Breaking Riot Axe",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "shiori": {
@@ -16391,12 +17039,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Skillful Sound Bow Snare Arc",
             "Ice Sacred Bow Constellation",
             "Tributal Dancing Pumps",
             "Crime Hunt Bow",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Ice Sacred Bow Constellation",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "magical_shiori": {
@@ -16591,12 +17247,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Skillful Sound Bow Snare Arc",
             "Ice Sacred Bow Constellation",
             "Tributal Dancing Pumps",
             "Crime Hunt Bow",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Ice Sacred Bow Constellation",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "shizuru": {
@@ -16791,12 +17455,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Ensemble Armor Brass Horn",
             "Crystal Ice Mail",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ensemble Armor Brass Horn",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "valentine_shizuru": {
@@ -16991,12 +17663,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Ensemble Armor Brass Horn",
             "Crystal Ice Mail",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ensemble Armor Brass Horn",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "summer_shizuru": {
@@ -17191,12 +17871,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Heavy Hoplon Cymbal",
             "Crystal Ice Mail",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Heavy Hoplon Cymbal",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "arisa": {
@@ -17391,12 +18079,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Skillful Sound Bow Snare Arc",
             "Ice Sacred Bow Constellation",
             "Tributal Dancing Pumps",
             "Crime Hunt Bow",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Ice Sacred Bow Constellation",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "ayane": {
@@ -17591,12 +18287,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Heavenly Sound Axe Buster Horn",
             "Ice Breaking Riot Axe",
             "Tributal Dancing Pumps",
             "White Aurora Dress",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "christmas_ayane": {
@@ -17791,12 +18495,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Heavenly Sound Axe Buster Horn",
             "Ice Spear Snow Storm",
             "Tributal Dancing Pumps",
             "Rocking Groove Axe",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Ice Breaking Riot Axe",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "aoi": {
@@ -17991,12 +18703,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Skillful Sound Bow Snare Arc",
             "Ice Sacred Bow Constellation",
             "Keyboard Armor Cimbalom",
             "Crime Hunt Bow",
             "Green Aurora Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Ice Sacred Bow Constellation",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "work_overalls_aoi": {
@@ -18191,12 +18911,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Skillful Sound Bow Snare Arc",
             "Ice Sacred Bow Constellation",
             "Keyboard Armor Cimbalom",
             "Snowflake Beret",
             "Green Aurora Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "camp_aoi": {
@@ -18391,12 +19119,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Skillful Sound Bow Snare Arc",
             "Ice Sacred Bow Constellation",
             "Keyboard Armor Cimbalom",
             "Crime Hunt Bow",
             "Green Aurora Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Ice Sacred Bow Constellation",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "transfer_student_aoi": {
@@ -18591,12 +19327,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Skillful Sound Bow Snare Arc",
             "Ice Sacred Bow Constellation",
             "Tributal Dancing Pumps",
             "Crime Hunt Bow",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Ice Sacred Bow Constellation",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "ayumi": {
@@ -18791,12 +19535,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Spear Snow Storm",
             "Keyboard Armor Cimbalom",
             "White Aurora Dress",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "phantom_thief_ayumi": {
@@ -18991,12 +19743,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Breaking Riot Axe",
             "Tributal Dancing Pumps",
             "Skull Gothic Lance",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Ice Spear Snow Storm",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "wonder_ayumi": {
@@ -19191,12 +19951,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Spear Snow Storm",
             "Keyboard Armor Cimbalom",
             "Pure Snow Mail",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "akari": {
@@ -19391,12 +20159,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Snow Flower Crystal Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "angel_akari": {
@@ -19591,12 +20367,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "akino": {
@@ -19791,12 +20575,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "Crystal Ice Mail",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "christmas_akino": {
@@ -19991,12 +20783,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "akino_&_saren": {
@@ -20191,12 +20991,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "Pure Snow Mail",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "anna": {
@@ -20391,12 +21199,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "summer_anna": {
@@ -20591,12 +21407,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "pirate_anna": {
@@ -20791,12 +21615,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "anne": {
@@ -20991,12 +21823,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "eriko": {
@@ -21191,12 +22031,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Heavenly Sound Axe Buster Horn",
             "Ice Breaking Riot Axe",
             "Tributal Dancing Pumps",
             "Rocking Groove Axe",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Ice Breaking Riot Axe",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "valentine_eriko": {
@@ -21391,12 +22239,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Heavenly Sound Axe Buster Horn",
             "Ice Breaking Riot Axe",
             "Heavy Hoplon Cymbal",
             "Rocking Groove Axe",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Ice Breaking Riot Axe",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "summer_eriko": {
@@ -21591,12 +22447,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Heavenly Sound Axe Buster Horn",
             "Ice Breaking Riot Axe",
             "Tributal Dancing Pumps",
             "Rocking Groove Axe",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Ice Breaking Riot Axe",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "emilia": {
@@ -21791,12 +22655,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Diamond Dust Robe",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Magical Hat Tambourine Caskets",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "yori": {
@@ -21991,12 +22863,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "angel_yori": {
@@ -22191,12 +23071,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "deresute_uzuki": {
@@ -22391,12 +23279,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "yuni": {
@@ -22591,12 +23487,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Green Aurora Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "school_festival_yuni": {
@@ -22791,12 +23695,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Green Aurora Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "yui": {
@@ -22991,12 +23903,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "new_year_yui": {
@@ -23191,12 +24111,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Green Aurora Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "ceremonial_attire_yui": {
@@ -23391,12 +24319,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Snow Flower Crystal Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "princess_yui": {
@@ -23591,12 +24527,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "yukari": {
@@ -23791,12 +24735,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Ensemble Armor Brass Horn",
             "White Aurora Dress",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ensemble Armor Brass Horn",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "camp_yukari": {
@@ -23991,12 +24943,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "christmas_yukari": {
@@ -24191,12 +25151,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Ensemble Armor Brass Horn",
             "White Aurora Dress",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ensemble Armor Brass Horn",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "yuki": {
@@ -24391,12 +25359,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "oedo_yuki": {
@@ -24591,12 +25567,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "inori": {
@@ -24791,12 +25775,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Heavenly Sound Axe Buster Horn",
             "Ice Spear Snow Storm",
             "Tributal Dancing Pumps",
             "Pure Snow Mail",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "phantom_thief_inori": {
@@ -24991,12 +25983,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Heavenly Sound Axe Buster Horn",
             "Ice Breaking Riot Axe",
             "Tributal Dancing Pumps",
             "Rocking Groove Axe",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Ice Breaking Riot Axe",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "time_traveler_inori": {
@@ -25191,12 +26191,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Heavenly Sound Axe Buster Horn",
             "Ice Breaking Riot Axe",
             "Keyboard Armor Cimbalom",
             "Rocking Groove Axe",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Ice Breaking Riot Axe",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "ilya": {
@@ -25391,12 +26399,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "new_year_ilya": {
@@ -25591,12 +26607,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "christmas_ilya": {
@@ -25791,12 +26815,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "io": {
@@ -25991,12 +27023,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Frost Column Heel",
             "Snow Flower Crystal Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Magical Hat Tambourine Caskets",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "noire_io": {
@@ -26191,12 +27231,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Punk Princess Rod",
             "Snow Flower Crystal Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Ice Cane Frost Staff",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "summer_io": {
@@ -26391,12 +27439,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Snow Flower Crystal Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "jun": {
@@ -26591,12 +27647,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Ensemble Armor Brass Horn",
             "Crystal Ice Mail",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ensemble Armor Brass Horn",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "summer_jun": {
@@ -26791,12 +27855,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "Snowflake Beret",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "djeeta": {
@@ -26991,12 +28063,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "tsumugi": {
@@ -27191,12 +28271,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Shouting Fist Biolafist",
             "Ice Block Fist Glass Knuckle",
             "Keyboard Armor Cimbalom",
             "White Aurora Dress",
             "Green Aurora Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "summer_tsumugi": {
@@ -27391,12 +28479,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Shouting Fist Biolafist",
             "Ice Block Fist Glass Knuckle",
             "Keyboard Armor Cimbalom",
             "White Aurora Dress",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "halloween_tsumugi": {
@@ -27591,12 +28687,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Engraving Blade Clefton",
             "Ice Fang Styria Dagger",
             "Ensemble Armor Brass Horn",
             "White Aurora Dress",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Ensemble Armor Brass Horn",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "chieru": {
@@ -27791,12 +28895,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Shouting Fist Biolafist",
             "Ice Block Fist Glass Knuckle",
             "Tributal Dancing Pumps",
             "Snowflake Beret",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "school_festival_chieru": {
@@ -27991,12 +29103,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Shouting Fist Biolafist",
             "Ice Block Fist Glass Knuckle",
             "Heavy Hoplon Cymbal",
             "Brass Knuckles",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Ice Block Fist Glass Knuckle",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "chika": {
@@ -28191,12 +29311,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Green Aurora Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "summer_chika": {
@@ -28391,12 +29519,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Green Aurora Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "christmas_chika": {
@@ -28591,12 +29727,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Green Aurora Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "karin": {
@@ -28791,12 +29935,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Green Aurora Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "kasumi": {
@@ -28991,12 +30143,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Snow Flower Crystal Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "magical_kasumi": {
@@ -29191,12 +30351,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Snow Flower Crystal Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "summer_kasumi": {
@@ -29391,12 +30559,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Punk Princess Rod",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "kaya": {
@@ -29591,12 +30767,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Shouting Fist Biolafist",
             "Ice Block Fist Glass Knuckle",
             "Tributal Dancing Pumps",
             "Brass Knuckles",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Ice Block Fist Glass Knuckle",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "time_traveler_kaya": {
@@ -29791,12 +30975,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Shouting Fist Biolafist",
             "Ice Block Fist Glass Knuckle",
             "Tributal Dancing Pumps",
             "Brass Knuckles",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Ice Block Fist Glass Knuckle",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "kaori": {
@@ -29991,12 +31183,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Shouting Fist Biolafist",
             "Ice Block Fist Glass Knuckle",
             "Heavy Hoplon Cymbal",
             "Brass Knuckles",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Ice Block Fist Glass Knuckle",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "summer_kaori": {
@@ -30191,12 +31391,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Shouting Fist Biolafist",
             "Ice Block Fist Glass Knuckle",
             "Heavy Hoplon Cymbal",
             "Brass Knuckles",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Ice Block Fist Glass Knuckle",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "halloween_kaori": {
@@ -30391,12 +31599,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Shouting Fist Biolafist",
             "Ice Block Fist Glass Knuckle",
             "Heavy Hoplon Cymbal",
             "Brass Knuckles",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Ice Block Fist Glass Knuckle",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "kyaru": {
@@ -30591,12 +31807,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "new_year_kyaru": {
@@ -30791,12 +32015,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "summer_kyaru": {
@@ -30991,12 +32223,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "overload_kyaru": {
@@ -31191,12 +32431,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "princess_kyaru": {
@@ -31391,12 +32639,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "kokkoro": {
@@ -31591,12 +32847,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Spear Snow Storm",
             "Keyboard Armor Cimbalom",
             "White Aurora Dress",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "new_year_kokkoro": {
@@ -31791,12 +33055,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Spear Snow Storm",
             "Keyboard Armor Cimbalom",
             "White Aurora Dress",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "summer_kokkoro": {
@@ -31991,12 +33263,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Spear Snow Storm",
             "Keyboard Armor Cimbalom",
             "White Aurora Dress",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "ceremonial_attire_kokkoro": {
@@ -32191,12 +33471,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Engraving Blade Clefton",
             "Ice Fang Styria Dagger",
             "Heavy Hoplon Cymbal",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "princess_kokkoro": {
@@ -32391,12 +33679,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Spear Snow Storm",
             "Keyboard Armor Cimbalom",
             "Skull Gothic Lance",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Ice Spear Snow Storm",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "kyouka": {
@@ -32591,12 +33887,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Padlock Scepter",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Ice and Snow Cane Pergos Wand",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "halloween_kyouka": {
@@ -32791,12 +34095,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Punk Princess Rod",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Ice Cane Frost Staff",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "kurumi": {
@@ -32991,12 +34303,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Heavenly Sound Axe Buster Horn",
             "Ice Breaking Riot Axe",
             "Ensemble Armor Brass Horn",
             "Crystal Ice Mail",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Ensemble Armor Brass Horn",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "stage_kurumi": {
@@ -33191,12 +34511,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Heavenly Sound Axe Buster Horn",
             "Ice Breaking Riot Axe",
             "Ensemble Armor Brass Horn",
             "Crystal Ice Mail",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Heavenly Sound Axe Buster Horn",
+            "",
+            "Ensemble Armor Brass Horn",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "christmas_kurumi": {
@@ -33391,12 +34719,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Benevolent Heavy Spear Tromspear",
             "Ice Spear Snow Storm",
             "Ensemble Armor Brass Horn",
             "Crystal Ice Mail",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Benevolent Heavy Spear Tromspear",
+            "",
+            "Ensemble Armor Brass Horn",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "kuuka": {
@@ -33591,12 +34927,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Engraving Blade Clefton",
             "Ice Fang Styria Dagger",
             "Heavy Hoplon Cymbal",
             "Frost Column Heel",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Heavy Hoplon Cymbal",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "noire_kuuka": {
@@ -33791,12 +35135,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "oedo_kuuka": {
@@ -33991,12 +35343,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Charitable Command Staff Artemakillion",
             "Ice Cane Frost Staff",
             "Singing Dress Musical Score",
             "Frost Column Heel",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Charitable Command Staff Artemakillion",
+            "",
+            "Singing Dress Musical Score",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "creditta": {
@@ -34191,12 +35551,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Skillful Sound Bow Snare Arc",
             "Ice Fang Styria Dagger",
             "Tributal Dancing Pumps",
             "Crime Hunt Bow",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Ice Sacred Bow Constellation",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "christina": {
@@ -34391,12 +35759,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "christmas_christina": {
@@ -34591,12 +35967,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "chloe": {
@@ -34791,12 +36175,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Engraving Blade Clefton",
             "Ice Fang Styria Dagger",
             "Tributal Dancing Pumps",
             "Snowflake Beret",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "school_festival_chloe": {
@@ -34991,12 +36383,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Engraving Blade Clefton",
             "Ice Fang Styria Dagger",
             "Tributal Dancing Pumps",
             "Snowflake Beret",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "tamaki": {
@@ -35191,12 +36591,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Engraving Blade Clefton",
             "Ice Fang Styria Dagger",
             "Tributal Dancing Pumps",
             "Snowflake Beret",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "summer_tamaki": {
@@ -35391,12 +36799,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Engraving Blade Clefton",
             "Ice Fang Styria Dagger",
             "Tributal Dancing Pumps",
             "Pure Snow Mail",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "work_overalls_tamaki": {
@@ -35591,12 +37007,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Engraving Blade Clefton",
             "Ice Fang Styria Dagger",
             "Heavy Hoplon Cymbal",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "tomo": {
@@ -35791,12 +37215,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Weaving Katana Gertona",
             "Ice Fang Styria Dagger",
             "Heavy Hoplon Cymbal",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "magical_tomo": {
@@ -35991,12 +37423,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sound Weaving Katana Gertona",
             "Ice Fang Styria Dagger",
             "Heavy Hoplon Cymbal",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sound Engraving Blade Clefton",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "pecorine": {
@@ -36191,12 +37631,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Ensemble Armor Brass Horn",
             "Crystal Ice Mail",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ensemble Armor Brass Horn",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "new_year_pecorine": {
@@ -36391,12 +37839,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Keyboard Armor Cimbalom",
             "Pure Snow Mail",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Keyboard Armor Cimbalom",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "summer_pecorine": {
@@ -36591,12 +38047,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "Riot Spike",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ice Shining Sword Glass Blade",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "overload_pecorine": {
@@ -36791,12 +38255,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Tributal Dancing Pumps",
             "Crystal Ice Mail",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Tributal Dancing Pumps",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "princess_pecorine": {
@@ -36991,12 +38463,20 @@
             "Pearl Coconut Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Sword Field Sword Grand Pianos",
             "Ice Shining Sword Glass Blade",
             "Ensemble Armor Brass Horn",
             "Crystal Ice Mail",
             "Green Aurora Ring",
             "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Sword Field Sword Grand Pianos",
+            "",
+            "Ensemble Armor Brass Horn",
+            "",
+            "Green Aurora Ring"
         ]
     },
     "hatsune": {
@@ -37191,12 +38671,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Diamond Dust Robe",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Magical Hat Tambourine Caskets",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "summer_hatsune": {
@@ -37391,12 +38879,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Diamond Dust Robe",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Magical Hat Tambourine Caskets",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "hatsune_&_shiori": {
@@ -37591,12 +39087,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Skillful Sound Bow Snare Arc",
             "Ice Sacred Bow Constellation",
             "Tributal Dancing Pumps",
             "Crime Hunt Bow",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Skillful Sound Bow Snare Arc",
+            "",
+            "Ice Sacred Bow Constellation",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "homare": {
@@ -37791,12 +39295,20 @@
             "Opal Shell Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Absolute Sound Cane Accordia",
             "Ice and Snow Cane Pergos Wand",
             "Magical Hat Tambourine Caskets",
             "Diamond Dust Robe",
             "Snow Flower Crystal Ring",
             "Rocking Chain Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Absolute Sound Cane Accordia",
+            "",
+            "Magical Hat Tambourine Caskets",
+            "",
+            "Snow Flower Crystal Ring"
         ]
     },
     "hiyori": {
@@ -37991,12 +39503,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Shouting Fist Biolafist",
             "Ice Block Fist Glass Knuckle",
             "Heavy Hoplon Cymbal",
             "Pure Snow Mail",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Heavy Hoplon Cymbal",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "new_year_hiyori": {
@@ -38191,12 +39711,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Shouting Fist Biolafist",
             "Ice Block Fist Glass Knuckle",
             "Heavy Hoplon Cymbal",
             "Brass Knuckles",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Ice Block Fist Glass Knuckle",
+            "",
+            "Ice Pillar Ring"
         ]
     },
     "princess_hiyori": {
@@ -38391,12 +39919,20 @@
             "Ruby Hibiscus Hair Ornament"
         ],
         "rank_24": [
-            "",
+            "Shouting Fist Biolafist",
             "Ice Block Fist Glass Knuckle",
             "Tributal Dancing Pumps",
             "Brass Knuckles",
             "Ice Pillar Ring",
             "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "",
+            "Shouting Fist Biolafist",
+            "",
+            "Ice Block Fist Glass Knuckle",
+            "",
+            "Ice Pillar Ring"
         ]
     }
 }
