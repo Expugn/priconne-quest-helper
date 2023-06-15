@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.39.0] - 2023-06-15
+Quest Update (2023-06-15)
+### Added
+- New Character: Yuki (Ceremonial Attire)
+- New Equipment
+- New Quests:
+  - Chapter 64 Normal Part 2 (`64-6` - `64-10`)
+  - `63-1 H` - `63-2 H`
+
 ## [2.38.2] - 2023-06-06
 ### Addded
 - New Quest: `63-2 VH`: (Yuki)

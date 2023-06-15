@@ -12,7 +12,7 @@ Character Data: <https://expugn.github.io/priconne-quest-helper/pages/character-
 Statistics: <https://expugn.github.io/priconne-quest-helper/pages/statistics/><br>
 Changelog: [/priconne-quest-helper/CHANGELOG.md](CHANGELOG.md)
 
-Last Quest Update: `April 15, 2023`
+Last Quest Update: `June 15, 2023`
 
 <br>
 
@@ -57,7 +57,7 @@ If on a mobile phone, horizontal viewing is probably best.
 <br>Decide for yourself which quest is the best for you and most cost efficient for your stamina.
 
 ## Bugs, Errors, Feature Suggestions, etc.
-The following can be submitted via `GitHub's Issue Tracker` (**PREFERRED**) or `Discord` (`S'pugn#2612`).
+The following can be submitted via `GitHub's Issue Tracker` (**PREFERRED**) or `Discord` (`@spugn`).
 1. Bugs found while using the tool.
 2. Errors found in the data.
 3. Feature Suggestions on how to make using this tool more easier.
