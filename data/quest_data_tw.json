@@ -29511,6 +29511,74 @@
             15
         ]
     },
+    "58-1H": {
+        "name": "克魯斯密林‧東部 58-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Demon Victim Sword Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Variant Demon Horn Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Rose Rogue Pendant Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Rei Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ancient Sand Wand Fragment",
+            "Oasis Guard Blade Fragment",
+            "Desert Rain Cane Fragment",
+            "Ancient Ruby Fragment",
+            "Ancient Sapphire Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "58-2H": {
+        "name": "克魯斯密林‧東部 58-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Demon's Scar Blade Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Variant Demon Horn Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Rose Rogue Pendant Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Shinobu Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Wind Legacy Spear Fragment",
+            "Blue Rose Shield Fragment",
+            "Quicksand Shamshir Fragment",
+            "Rose Dame Plate Fragment",
+            "Dark Desert Edge Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "59-1": {
         "name": "克魯斯密林‧西部 59-1",
         "stamina": 10,
@@ -30972,6 +31040,216 @@
             "Desert Clothmail Fragment",
             "Sword Field Sword Grand Pianos Fragment",
             "Tree Tributing Xylophonia Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "62-8": {
+        "name": "普洛庇那海角 62-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Demon Victim Sword Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Variant Demon Horn Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Rose Rogue Pendant Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Wind Legacy Spear Fragment",
+            "Blue Rose Shield Fragment",
+            "Quicksand Shamshir Fragment",
+            "Rose Dame Plate Fragment",
+            "Dark Desert Edge Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "62-9": {
+        "name": "普洛庇那海角 62-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Demon's Scar Blade Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Diablo Scrape Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Lapis Rose Pendant Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Ancient Emerald Fragment",
+            "Rose Sorcerer's Magic Banquet Hat Fragment",
+            "Rose Priestess Dress Fragment",
+            "Heritage Jamadhar Fragment",
+            "Ancient Ruby Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "62-10": {
+        "name": "普洛庇那海角 62-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Demon's Destruction Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Envy Demon's Horn Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Demon's Painmail Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Wind Legacy Spear Fragment",
+            "Blue Rose Shield Fragment",
+            "Quicksand Shamshir Fragment",
+            "Rose Dame Plate Fragment",
+            "Dark Desert Edge Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "62-11": {
+        "name": "普洛庇那海角 62-11",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Diablo Maschera Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Demon's Bound Armor Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Diablo Scrape Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Ancient Emerald Fragment",
+            "Rose Sorcerer's Magic Banquet Hat Fragment",
+            "Rose Priestess Dress Fragment",
+            "Heritage Jamadhar Fragment",
+            "Ancient Ruby Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "62-12": {
+        "name": "普洛庇那海角 62-12",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Demon's Core Wand Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Rod of Demon's Heart Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Envy Demon's Horn Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Ancient Sapphire Fragment",
+            "Rose Empress Mail Fragment",
+            "Rose Baroness Dress Fragment",
+            "Oasis Faas Fragment",
+            "Oriental Hurricane Bow Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "62-13": {
+        "name": "普洛庇那海角 62-13",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Demon Punish Fist Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Demon Victim Sword Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Variant Demon Horn Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Ancient Sand Wand Fragment",
+            "Oasis Guard Blade Fragment",
+            "Desert Rain Cane Fragment",
+            "Ancient Ruby Fragment",
+            "Ancient Sapphire Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "62-14": {
+        "name": "普洛庇那海角 62-14",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Devil Dominion Lance Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Powerful Demon Nail Blade Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Cursed Demon's Robe Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Ancient Sand Wand Fragment",
+            "Oasis Guard Blade Fragment",
+            "Desert Rain Cane Fragment",
+            "Ancient Ruby Fragment",
+            "Ancient Sapphire Fragment"
         ],
         "subdrops_percent": [
             24,
