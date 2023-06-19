@@ -30391,6 +30391,238 @@
             "Rose Rogue Pendant"
         ]
     },
+    "liberator_muimi": {
+        "name_tw": "矛依未（解放者）",
+        "unit_id": 125001,
+        "name": "Muimi",
+        "thematic": "Liberator",
+        "name_jp": "ムイミ",
+        "thematic_jp": "リベレイター",
+        "rank_1": [
+            "Killer Pencil",
+            "Killer Pencil",
+            "Leather Overalls",
+            "Tree Shield",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Blue Blood",
+            "Command Knife",
+            "Clothes of Wisdom",
+            "Command Knife",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Blue Blood",
+            "Light Plate",
+            "Tower Shield",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Platinum Knife",
+            "Fashion Armor",
+            "Shinobi Shoes",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Vampire Dagger",
+            "Ryuumon Sword",
+            "Battling Dress",
+            "Garnet Shield",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Precious Knife",
+            "Vampire Dagger",
+            "Heavy Metal Armor",
+            "Garnet Shield",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Princess' Dagger",
+            "Precious Knife",
+            "Invisible Dress",
+            "Feather Blade",
+            "Scarlet Diamond",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Dark Matter Edge",
+            "Princess' Dagger",
+            "Mythril Plate",
+            "Angel Blade",
+            "Invisible Dress",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Unicorn Knife",
+            "Dark Matter Edge",
+            "Guardian Shield",
+            "Solar Sword",
+            "Sun Amulet",
+            "Invisible Dress"
+        ],
+        "rank_10": [
+            "Emerald Dagger",
+            "Unicorn Knife",
+            "Scarlet Mail",
+            "Ice Claymore",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Emerald Dagger",
+            "Aegis Coat",
+            "Chaos Blade",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Tír na nÓg Dagger",
+            "Dawn's Holy Sword",
+            "Nine Heavens' Armor",
+            "Lightning Blade",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Twin God Sword of Lightning",
+            "Tír na nÓg Dagger",
+            "Fire Oni's Tori",
+            "Dawn's Holy Sword",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Heavenly Black Sword of Obsidian",
+            "Twin God Sword of Lightning",
+            "Senka Dance Armor",
+            "Great Sword of Sin",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Gehenna Dragon",
+            "Heavenly Black Sword of Obsidian",
+            "Beautiful Clothes - Soul Rose",
+            "Konominato Sword - Aqua Ruler",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Dark Blade - Heavenly Raven's Guard",
+            "Gehenna Dragon",
+            "Southern Heaven Blazing Blue Armor",
+            "Overlord Light Dragon Sword",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Jade Wind Blade - Emerald Edge",
+            "Dark Blade - Heavenly Raven's Guard",
+            "Holy Light's Lily Plate",
+            "Star Nuclear Sword - Ertz Schneide",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Chocolate Banana Dagger",
+            "Jade Wind Blade - Emerald Edge",
+            "Pink Coral Dress",
+            "Rabbit God's Great Sword",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Purple Mist Dagger",
+            "Chocolate Banana Dagger",
+            "Fancy Macaron Dress",
+            "Shining Sword - Adamas",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "Cherry Petal Dagger",
+            "Purple Mist Dagger",
+            "Evening Sakura Purple Armor",
+            "Choco Stick Blade",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "Shark Dagger",
+            "Cherry Petal Dagger",
+            "Sunflower Straw Hat",
+            "Blazing Red Sun Sword",
+            "Sakura Dance Double Hairpin",
+            "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "Thunder Punk Dagger",
+            "Shark Dagger",
+            "Pierced Black",
+            "Cherry Blossom",
+            "Ruby Hibiscus Hair Ornament",
+            "Sakura Dance Double Hairpin"
+        ],
+        "rank_23": [
+            "Ice Fang Styria Dagger",
+            "Thunder Punk Dagger",
+            "Pure Snow Mail",
+            "Clione Blade",
+            "Punk Needle Bangle",
+            "Ruby Hibiscus Hair Ornament"
+        ],
+        "rank_24": [
+            "Sound Engraving Blade Clefton",
+            "Ice Fang Styria Dagger",
+            "Heavy Hoplon Cymbal",
+            "Riot Spike",
+            "Ice Pillar Ring",
+            "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "Dark Desert Edge",
+            "Sound Engraving Blade Clefton",
+            "Desert Wind Turban",
+            "Ice Shining Sword Glass Blade",
+            "Tree Tributing Xylophonia",
+            "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "Thorn of Roses",
+            "Dark Desert Edge",
+            "Blue Rose Shield",
+            "Sword Field Sword Grand Pianos",
+            "Ancient Ruby",
+            "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "Powerful Demon Nail Blade",
+            "Thorn of Roses",
+            "Variant Demon Horn",
+            "Oasis Guard Blade",
+            "Rose Rogue Pendant",
+            "Ancient Ruby"
+        ],
+        "rank_28": [
+            "",
+            "Powerful Demon Nail Blade",
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Rogue Pendant"
+        ]
+    },
     "aoi": {
         "name_tw": "碧",
         "unit_id": 104001,
