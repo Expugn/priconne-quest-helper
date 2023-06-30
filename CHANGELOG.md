@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.39.1] - 2023-06-30
+### Added
+- New Characters:
+  - Akino (Summer)
+  - Croce
+- Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
+  - `character_names.croce`
+
 ## [2.39.0] - 2023-06-15
 Quest Update (2023-06-15)
 ### Added
