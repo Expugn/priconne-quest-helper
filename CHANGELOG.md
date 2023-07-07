@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.39.3] - 2023-07-07
+### Added
+- New Quest: `63-3 VH` (Tsumugi)
+
 ## [2.39.2] - 2023-07-03
 ### Added
 - New Character: Neneka (Summer)
