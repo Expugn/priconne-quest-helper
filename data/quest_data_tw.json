@@ -17607,6 +17607,44 @@
             15
         ]
     },
+    "35-2VH": {
+        "name": "迪克斯提亞岩崖‧東壁 35-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Demon Victim Sword Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Rose Rogue Pendant Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Demon's Core Wand Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Variant Demon Horn Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Christina Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ancient Sand Wand Fragment",
+            "Oasis Guard Blade Fragment",
+            "Desert Rain Cane Fragment",
+            "Ancient Ruby Fragment",
+            "Ancient Sapphire Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "36-1": {
         "name": "維娜湖畔道‧南部 36-1",
         "stamina": 10,
