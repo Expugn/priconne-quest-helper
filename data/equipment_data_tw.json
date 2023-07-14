@@ -6491,5 +6491,35 @@
         "fragment_id": "119251",
         "req_pieces": 25,
         "req_items": []
+    },
+    "109551": {
+        "name_tw": "雙角魔首飾",
+        "name_jp": "双角魔の首飾り",
+        "name": "Double Horn Magic Necklace",
+        "id": "lightblue-10",
+        "has_fragments": true,
+        "fragment_id": "119551",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "109581": {
+        "name_tw": "惡魔膜護頸",
+        "name_jp": "ディアブロメンブランス",
+        "name": "Diablo Membranes",
+        "id": "lightblue-11",
+        "has_fragments": true,
+        "fragment_id": "119581",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "109611": {
+        "name_tw": "惡魔尾領帶",
+        "name_jp": "デモニックテールタイ",
+        "name": "Demonic Tail Tie",
+        "id": "lightblue-12",
+        "has_fragments": true,
+        "fragment_id": "119611",
+        "req_pieces": 25,
+        "req_items": []
     }
 }
