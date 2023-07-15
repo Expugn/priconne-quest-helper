@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.40.0] - 2023-07-15
+Quest Update (2023-07-15)
+### Added
+- New Character: Yukari (Summer)
+- New Equipment
+- New Quests:
+  - Chapter 65 Normal Part 1 (`65-1` - `65-5`)
+  - `64-3 H`
+
 ## [2.39.3] - 2023-07-07
 ### Added
 - New Quest: `63-3 VH` (Tsumugi)
