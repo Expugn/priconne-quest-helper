@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.40.1] - 2023-07-31
+### Added
+- New Characters:
+  - Kuuka (Summer)
+  - Ranpha (Summer)
+
 ## [2.40.0] - 2023-07-15
 Quest Update (2023-07-15)
 ### Added
