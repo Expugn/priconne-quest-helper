@@ -13138,6 +13138,37 @@
             15
         ]
     },
+    "28-1VH": {
+        "name": "迪斯塔尔河食岸・北部 28-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Weeping Sakura Bow Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Hibiscus Sandals Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Sakura Flower Moonlight Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Aoi Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ice Claymore Fragment",
+            "Dark Matter Edge Fragment",
+            "Violet Armor Fragment",
+            "Crusader Plate Fragment",
+            "Sun Amulet Fragment"
+        ]
+    },
     "29-1": {
         "name": "迪斯塔尔河食岸・南部 29-1",
         "stamina": 10,
