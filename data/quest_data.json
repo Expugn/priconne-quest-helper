@@ -32347,6 +32347,44 @@
             15
         ]
     },
+    "64-1VH": {
+        "name": "アパレーユ街道・東側 64-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Heavy Mariner Clothes Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Cut - Dofisu Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Waterline Runner Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Jade Flower Chopsticks Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Matsuri Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Diablo Scrape Fragment",
+            "Thorn of Roses Fragment",
+            "Rose Crusher Axe Fragment",
+            "Cruel Rose Blade Fragment",
+            "Rose Rogue Pendant Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "65-1": {
         "name": "キャッスル・オブ・パルフェ城下町 65-1",
         "stamina": 10,
