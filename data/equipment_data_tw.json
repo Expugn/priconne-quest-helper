@@ -6510,11 +6510,77 @@
         "req_pieces": 25,
         "req_items": []
     },
+    "109281": {
+        "name_tw": "圍裙輕鎧",
+        "name_jp": "エプロンライトメイル",
+        "name": "Apron Light Mail",
+        "id": "lightblue-10",
+        "has_fragments": true,
+        "fragment_id": "129281",
+        "req_pieces": 15,
+        "req_items": [
+            "Ice Breaking Riot Axe"
+        ]
+    },
+    "109311": {
+        "name_tw": "圍裙盔甲",
+        "name_jp": "アーマー・デ・タブリエ",
+        "name": "Armor de Tablier",
+        "id": "lightblue-11",
+        "has_fragments": true,
+        "fragment_id": "129311",
+        "req_pieces": 15,
+        "req_items": [
+            "Ice Fang Styria Dagger"
+        ]
+    },
+    "109341": {
+        "name_tw": "資深主廚服",
+        "name_jp": "ベテランシェフクロス",
+        "name": "Veteran Chef Cross",
+        "id": "lightblue-12",
+        "has_fragments": true,
+        "fragment_id": "119341",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "109371": {
+        "name_tw": "專業服務生服",
+        "name_jp": "プロウェイトレスエプロン",
+        "name": "Professional Waitress Apron",
+        "id": "lightblue-13",
+        "has_fragments": true,
+        "fragment_id": "119371",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "109401": {
+        "name_tw": "高級茶托護盾",
+        "name_jp": "ハイシールドソーサー",
+        "name": "High Shield Saucer",
+        "id": "lightblue-14",
+        "has_fragments": true,
+        "fragment_id": "129401",
+        "req_pieces": 15,
+        "req_items": [
+            "Ice Block Fist Glass Knuckle"
+        ]
+    },
+    "109461": {
+        "name_tw": "杯型高跟鞋",
+        "name_jp": "タッサ・タロン",
+        "name": "Tassa Talon",
+        "id": "lightblue-15",
+        "has_fragments": true,
+        "fragment_id": "119461",
+        "req_pieces": 25,
+        "req_items": []
+    },
     "109551": {
         "name_tw": "雙角魔首飾",
         "name_jp": "双角魔の首飾り",
         "name": "Double Horn Magic Necklace",
-        "id": "lightblue-10",
+        "id": "lightblue-16",
         "has_fragments": true,
         "fragment_id": "119551",
         "req_pieces": 25,
@@ -6524,7 +6590,7 @@
         "name_tw": "惡魔膜護頸",
         "name_jp": "ディアブロメンブランス",
         "name": "Diablo Membranes",
-        "id": "lightblue-11",
+        "id": "lightblue-17",
         "has_fragments": true,
         "fragment_id": "119581",
         "req_pieces": 25,
@@ -6534,7 +6600,7 @@
         "name_tw": "惡魔尾領帶",
         "name_jp": "デモニックテールタイ",
         "name": "Demonic Tail Tie",
-        "id": "lightblue-12",
+        "id": "lightblue-18",
         "has_fragments": true,
         "fragment_id": "119611",
         "req_pieces": 25,
