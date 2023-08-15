@@ -1760,6 +1760,7 @@ const presets = (function () {
                 return "text-color_orange";
             case 28:
             case 29:
+            case 30:
                 return "text-color_lightblue";
             default:
                 return "text-color_misc";
@@ -4797,7 +4798,7 @@ const webpage = (function () {
     const debug = true;
     let simple_mode_enabled = false;
     let webp_enabled = false;
-    const update_date = new Date(Date.UTC(2023, 6, 15, 24, 0, 0));
+    const update_date = new Date(Date.UTC(2023, 7, 15, 24, 0, 0));
     const date_options = { year: 'numeric', month: 'long', day: 'numeric' };
 
     const navigation = (function () {

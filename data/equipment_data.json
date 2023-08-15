@@ -4929,10 +4929,19 @@
         "req_pieces": 25,
         "req_items": []
     },
+    "109013": {
+        "name_jp": "バリアントマスト",
+        "name": "Variant Mast",
+        "id": "lightblue-3",
+        "has_fragments": true,
+        "fragment_id": "119013",
+        "req_pieces": 25,
+        "req_items": []
+    },
     "109041": {
         "name_jp": "デモンズスカーブレード",
         "name": "Demon's Scar Blade",
-        "id": "lightblue-3",
+        "id": "lightblue-4",
         "has_fragments": true,
         "fragment_id": "129041",
         "req_pieces": 15,
@@ -4943,7 +4952,7 @@
     "109042": {
         "name_jp": "刺身刀・匠八",
         "name": "Sashimi Sword - Shohachi",
-        "id": "lightblue-4",
+        "id": "lightblue-5",
         "has_fragments": true,
         "fragment_id": "129042",
         "req_pieces": 15,
@@ -4951,10 +4960,21 @@
             "Magical Hat Tambourine Caskets"
         ]
     },
+    "109043": {
+        "name_jp": "フィッシャーマンズソード",
+        "name": "Fisherman's Sword",
+        "id": "lightblue-6",
+        "has_fragments": true,
+        "fragment_id": "129043",
+        "req_pieces": 15,
+        "req_items": [
+            "Desert Wind Turban"
+        ]
+    },
     "109071": {
         "name_jp": "豪魔ノ爪刃",
         "name": "Powerful Demon Nail Blade",
-        "id": "lightblue-5",
+        "id": "lightblue-7",
         "has_fragments": true,
         "fragment_id": "119071",
         "req_pieces": 25,
@@ -4963,16 +4983,25 @@
     "109072": {
         "name_jp": "クト・ドフィス",
         "name": "Cut - Dofisu",
-        "id": "lightblue-6",
+        "id": "lightblue-8",
         "has_fragments": true,
         "fragment_id": "119072",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "109073": {
+        "name_jp": "大灯刃アレキサンドリア",
+        "name": "Lighthouse Blade - Alexandria",
+        "id": "lightblue-9",
+        "has_fragments": true,
+        "fragment_id": "119073",
         "req_pieces": 25,
         "req_items": []
     },
     "109101": {
         "name_jp": "デモンパニッシュフィスト",
         "name": "Demon Punish Fist",
-        "id": "lightblue-7",
+        "id": "lightblue-10",
         "has_fragments": true,
         "fragment_id": "119101",
         "req_pieces": 25,
@@ -4981,16 +5010,25 @@
     "109102": {
         "name_jp": "鉄観音五百薬缶",
         "name": "Five Hundred Year Old Tieguanyin Kettle",
-        "id": "lightblue-8",
+        "id": "lightblue-11",
         "has_fragments": true,
         "fragment_id": "119102",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "109103": {
+        "name_jp": "海賊王の義手",
+        "name": "Pirate King's Hook",
+        "id": "lightblue-12",
+        "has_fragments": true,
+        "fragment_id": "119103",
         "req_pieces": 25,
         "req_items": []
     },
     "109131": {
         "name_jp": "ディアブロマッシェーラ",
         "name": "Diablo Maschera",
-        "id": "lightblue-9",
+        "id": "lightblue-13",
         "has_fragments": true,
         "fragment_id": "129131",
         "req_pieces": 15,
@@ -5001,7 +5039,7 @@
     "109132": {
         "name_jp": "スクィーザーボウ",
         "name": "Squeeze Bow",
-        "id": "lightblue-10",
+        "id": "lightblue-14",
         "has_fragments": true,
         "fragment_id": "129132",
         "req_pieces": 15,
@@ -5009,10 +5047,21 @@
             "Singing Dress Musical Score"
         ]
     },
+    "109133": {
+        "name_jp": "セイリングシューター",
+        "name": "Sailing Shooter",
+        "id": "lightblue-15",
+        "has_fragments": true,
+        "fragment_id": "129133",
+        "req_pieces": 15,
+        "req_items": [
+            "Oasis Ahaldia"
+        ]
+    },
     "109161": {
         "name_jp": "デビルドミニオンランス",
         "name": "Devil Dominion Lance",
-        "id": "lightblue-11",
+        "id": "lightblue-16",
         "has_fragments": true,
         "fragment_id": "119161",
         "req_pieces": 25,
@@ -5021,7 +5070,7 @@
     "109162": {
         "name_jp": "ランスオブフォルセッタ",
         "name": "Lance of Forsetta",
-        "id": "lightblue-12",
+        "id": "lightblue-17",
         "has_fragments": true,
         "fragment_id": "129162",
         "req_pieces": 15,
@@ -5029,10 +5078,19 @@
             "Ice Cane Frost Staff"
         ]
     },
+    "109163": {
+        "name_jp": "ツインオールランス",
+        "name": "Twin Oar Lance",
+        "id": "lightblue-18",
+        "has_fragments": true,
+        "fragment_id": "119163",
+        "req_pieces": 25,
+        "req_items": []
+    },
     "109191": {
         "name_jp": "デモンズデストラクション",
         "name": "Demon's Destruction",
-        "id": "lightblue-13",
+        "id": "lightblue-19",
         "has_fragments": true,
         "fragment_id": "129191",
         "req_pieces": 15,
@@ -5043,16 +5101,27 @@
     "109192": {
         "name_jp": "ミートマレットアクス",
         "name": "Meat Mallet Axe",
-        "id": "lightblue-14",
+        "id": "lightblue-20",
         "has_fragments": true,
         "fragment_id": "119192",
         "req_pieces": 25,
         "req_items": []
     },
+    "109193": {
+        "name_jp": "豪斧大抜錨",
+        "name": "Anchor Greataxe",
+        "id": "lightblue-21",
+        "has_fragments": true,
+        "fragment_id": "129193",
+        "req_pieces": 15,
+        "req_items": [
+            "Desert Shade Clothes"
+        ]
+    },
     "109221": {
         "name_jp": "デモンズコアワンド",
         "name": "Demon's Core Wand",
-        "id": "lightblue-15",
+        "id": "lightblue-22",
         "has_fragments": true,
         "fragment_id": "119221",
         "req_pieces": 25,
@@ -5061,16 +5130,25 @@
     "109222": {
         "name_jp": "ペール・ア・タルテ",
         "name": "Pail of Tarte",
-        "id": "lightblue-16",
+        "id": "lightblue-23",
         "has_fragments": true,
         "fragment_id": "119222",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "109223": {
+        "name_jp": "ステアリングホイーラー",
+        "name": "Steering Wheel",
+        "id": "lightblue-24",
+        "has_fragments": true,
+        "fragment_id": "119223",
         "req_pieces": 25,
         "req_items": []
     },
     "109251": {
         "name_jp": "ロッドオブデモンズハート",
         "name": "Rod of Demon's Heart",
-        "id": "lightblue-17",
+        "id": "lightblue-25",
         "has_fragments": true,
         "fragment_id": "119251",
         "req_pieces": 25,
@@ -5079,16 +5157,25 @@
     "109252": {
         "name_jp": "マジカルレードルスタッフ",
         "name": "Magical Ladle Staff",
-        "id": "lightblue-18",
+        "id": "lightblue-26",
         "has_fragments": true,
         "fragment_id": "119252",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "109253": {
+        "name_jp": "シーバードフローター",
+        "name": "Sea Bird Floater",
+        "id": "lightblue-27",
+        "has_fragments": true,
+        "fragment_id": "119253",
         "req_pieces": 25,
         "req_items": []
     },
     "109281": {
         "name_jp": "エプロンライトメイル",
         "name": "Apron Light Mail",
-        "id": "lightblue-19",
+        "id": "lightblue-28",
         "has_fragments": true,
         "fragment_id": "129281",
         "req_pieces": 15,
@@ -5099,7 +5186,7 @@
     "109282": {
         "name_jp": "ライトセイラークロス",
         "name": "Light Sailor Clothes",
-        "id": "lightblue-20",
+        "id": "lightblue-29",
         "has_fragments": true,
         "fragment_id": "129282",
         "req_pieces": 15,
@@ -5110,7 +5197,7 @@
     "109311": {
         "name_jp": "アーマー・デ・タブリエ",
         "name": "Armor de Tablier",
-        "id": "lightblue-21",
+        "id": "lightblue-30",
         "has_fragments": true,
         "fragment_id": "129311",
         "req_pieces": 15,
@@ -5121,7 +5208,7 @@
     "109312": {
         "name_jp": "ヘビーマリナークロス",
         "name": "Heavy Mariner Clothes",
-        "id": "lightblue-22",
+        "id": "lightblue-31",
         "has_fragments": true,
         "fragment_id": "129312",
         "req_pieces": 15,
@@ -5132,7 +5219,7 @@
     "109341": {
         "name_jp": "ベテランシェフクロス",
         "name": "Veteran Chef Cross",
-        "id": "lightblue-23",
+        "id": "lightblue-32",
         "has_fragments": true,
         "fragment_id": "119341",
         "req_pieces": 25,
@@ -5141,7 +5228,7 @@
     "109371": {
         "name_jp": "プロウェイトレスエプロン",
         "name": "Professional Waitress Apron",
-        "id": "lightblue-24",
+        "id": "lightblue-33",
         "has_fragments": true,
         "fragment_id": "119371",
         "req_pieces": 25,
@@ -5150,7 +5237,7 @@
     "109372": {
         "name_jp": "シーナビゲイタークロス",
         "name": "Sea Navigator Clothes",
-        "id": "lightblue-25",
+        "id": "lightblue-34",
         "has_fragments": true,
         "fragment_id": "119372",
         "req_pieces": 25,
@@ -5159,7 +5246,7 @@
     "109401": {
         "name_jp": "ハイシールドソーサー",
         "name": "High Shield Saucer",
-        "id": "lightblue-26",
+        "id": "lightblue-35",
         "has_fragments": true,
         "fragment_id": "129401",
         "req_pieces": 15,
@@ -5170,7 +5257,7 @@
     "109402": {
         "name_jp": "エスクード・デ・ボランテ",
         "name": "Escudo de Bolante",
-        "id": "lightblue-27",
+        "id": "lightblue-36",
         "has_fragments": true,
         "fragment_id": "129402",
         "req_pieces": 15,
@@ -5181,7 +5268,7 @@
     "109432": {
         "name_jp": "ウォーターラインランナー",
         "name": "Waterline Runner",
-        "id": "lightblue-28",
+        "id": "lightblue-37",
         "has_fragments": true,
         "fragment_id": "119432",
         "req_pieces": 25,
@@ -5190,7 +5277,7 @@
     "109461": {
         "name_jp": "タッサ・タロン",
         "name": "Tassa Talon",
-        "id": "lightblue-29",
+        "id": "lightblue-38",
         "has_fragments": true,
         "fragment_id": "119461",
         "req_pieces": 25,
@@ -5199,7 +5286,7 @@
     "109522": {
         "name_jp": "ホライゾンウォッチャー",
         "name": "Horizon Watcher",
-        "id": "lightblue-30",
+        "id": "lightblue-39",
         "has_fragments": true,
         "fragment_id": "119522",
         "req_pieces": 25,
@@ -5208,7 +5295,7 @@
     "109551": {
         "name_jp": "双角魔の首飾り",
         "name": "Double Horn Magic Necklace",
-        "id": "lightblue-31",
+        "id": "lightblue-40",
         "has_fragments": true,
         "fragment_id": "119551",
         "req_pieces": 25,
@@ -5217,7 +5304,7 @@
     "109552": {
         "name_jp": "紅色花飾菓子切包丁",
         "name": "Red Flower Cake Knife",
-        "id": "lightblue-32",
+        "id": "lightblue-41",
         "has_fragments": true,
         "fragment_id": "119552",
         "req_pieces": 25,
@@ -5226,7 +5313,7 @@
     "109581": {
         "name_jp": "ディアブロメンブランス",
         "name": "Diablo Membranes",
-        "id": "lightblue-33",
+        "id": "lightblue-42",
         "has_fragments": true,
         "fragment_id": "119581",
         "req_pieces": 25,
@@ -5235,7 +5322,7 @@
     "109582": {
         "name_jp": "翡翠花飾箸",
         "name": "Jade Flower Chopsticks",
-        "id": "lightblue-34",
+        "id": "lightblue-43",
         "has_fragments": true,
         "fragment_id": "119582",
         "req_pieces": 25,
@@ -5244,7 +5331,7 @@
     "109611": {
         "name_jp": "デモニックテールタイ",
         "name": "Demonic Tail Tie",
-        "id": "lightblue-35",
+        "id": "lightblue-44",
         "has_fragments": true,
         "fragment_id": "119611",
         "req_pieces": 25,
@@ -5253,7 +5340,7 @@
     "109612": {
         "name_jp": "サファイアフォークヘアピン",
         "name": "Sapphire Fork Hairpin",
-        "id": "lightblue-36",
+        "id": "lightblue-45",
         "has_fragments": true,
         "fragment_id": "119612",
         "req_pieces": 25,

@@ -32534,5 +32534,283 @@
             17,
             15
         ]
+    },
+    "65-6": {
+        "name": "キャッスル・オブ・パルフェ城下町 65-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Fisherman's Sword Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Light Sailor Clothes Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Red Flower Cake Knife Fragment",
+            "drop_percent": 50
+        },
+        "item_4": {
+            "item_name": "Sapphire Fork Hairpin Fragment",
+            "drop_percent": 25
+        },
+        "item_5": {
+            "item_name": "Jade Flower Chopsticks Fragment",
+            "drop_percent": 25
+        },
+        "item_6": {
+            "item_name": "Escudo de Bolante Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Double Horn Magic Necklace Fragment",
+            "Demon Victim Sword Fragment",
+            "Demon's Destruction Fragment",
+            "Armor de Tablier Fragment",
+            "Demon's Scar Blade Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "65-7": {
+        "name": "キャッスル・オブ・パルフェ城下町 65-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Variant Mast Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Pirate King's Hook Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Red Flower Cake Knife Fragment",
+            "drop_percent": 50
+        },
+        "item_4": {
+            "item_name": "Sapphire Fork Hairpin Fragment",
+            "drop_percent": 25
+        },
+        "item_5": {
+            "item_name": "Jade Flower Chopsticks Fragment",
+            "drop_percent": 25
+        },
+        "item_6": {
+            "item_name": "Waterline Runner Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Double Horn Magic Necklace Fragment",
+            "Demon Victim Sword Fragment",
+            "Demon's Destruction Fragment",
+            "Armor de Tablier Fragment",
+            "Demon's Scar Blade Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "65-8": {
+        "name": "キャッスル・オブ・パルフェ城下町 65-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Lighthouse Blade - Alexandria Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Twin Oar Lance Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Red Flower Cake Knife Fragment",
+            "drop_percent": 50
+        },
+        "item_4": {
+            "item_name": "Sapphire Fork Hairpin Fragment",
+            "drop_percent": 25
+        },
+        "item_5": {
+            "item_name": "Jade Flower Chopsticks Fragment",
+            "drop_percent": 25
+        },
+        "item_6": {
+            "item_name": "Horizon Watcher Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Double Horn Magic Necklace Fragment",
+            "Demon Victim Sword Fragment",
+            "Demon Punish Fist Fragment",
+            "Apron Light Mail Fragment",
+            "Powerful Demon Nail Blade Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "65-9": {
+        "name": "キャッスル・オブ・パルフェ城下町 65-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sailing Shooter Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Anchor Greataxe Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Red Flower Cake Knife Fragment",
+            "drop_percent": 50
+        },
+        "item_4": {
+            "item_name": "Sapphire Fork Hairpin Fragment",
+            "drop_percent": 25
+        },
+        "item_5": {
+            "item_name": "Jade Flower Chopsticks Fragment",
+            "drop_percent": 25
+        },
+        "item_6": {
+            "item_name": "Heavy Mariner Clothes Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Diablo Membranes Fragment",
+            "Veteran Chef Cross Fragment",
+            "Devil Dominion Lance Fragment",
+            "Diablo Maschera Fragment",
+            "High Shield Saucer Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "65-10": {
+        "name": "キャッスル・オブ・パルフェ城下町 65-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Steering Wheel Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Red Flower Cake Knife Fragment",
+            "drop_percent": 50
+        },
+        "item_3": {
+            "item_name": "Sapphire Fork Hairpin Fragment",
+            "drop_percent": 25
+        },
+        "item_4": {
+            "item_name": "Jade Flower Chopsticks Fragment",
+            "drop_percent": 25
+        },
+        "item_5": {
+            "item_name": "Sea Bird Floater Fragment",
+            "drop_percent": 54
+        },
+        "item_6": {
+            "item_name": "Sea Navigator Clothes Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Demonic Tail Tie Fragment",
+            "Demon's Core Wand Fragment",
+            "Professional Waitress Apron Fragment",
+            "Rod of Demon's Heart Fragment",
+            "Tassa Talon Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "65-1H": {
+        "name": "キャッスル・オブ・パルフェ城下町 65-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Sailing Shooter Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Light Sailor Clothes Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Red Flower Cake Knife Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Aoi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Diablo Membranes Fragment",
+            "Veteran Chef Cross Fragment",
+            "Devil Dominion Lance Fragment",
+            "Diablo Maschera Fragment",
+            "High Shield Saucer Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "65-2H": {
+        "name": "キャッスル・オブ・パルフェ城下町 65-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Anchor Greataxe Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Waterline Runner Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Red Flower Cake Knife Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Eriko Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Double Horn Magic Necklace Fragment",
+            "Demon Victim Sword Fragment",
+            "Demon's Destruction Fragment",
+            "Armor de Tablier Fragment",
+            "Demon's Scar Blade Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }

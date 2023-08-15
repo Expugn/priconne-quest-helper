@@ -3,6 +3,16 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.41.0] - 2023-08-15
+Quest Update (2023-08-15)
+### Added
+- New Character: Shinobu (Summer)
+- New Equipment
+- New Quests:
+  - Chapter 65 Normal Part 2 (`65-6` - `65-10`)
+  - `65-1 H` and `65-2 H`
+- Rank 30 Support
+
 ## [2.40.2] - 2023-08-07
 ### Added
 - New Quest: `64-1 VH` (Matsuri)
