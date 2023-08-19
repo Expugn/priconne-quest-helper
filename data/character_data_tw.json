@@ -43151,6 +43151,238 @@
             "Rose Rogue Pendant"
         ]
     },
+    "fallen_riri": {
+        "name_tw": "莉莉（墮落）",
+        "unit_id": 125801,
+        "name": "Riri",
+        "thematic": "Fallen",
+        "name_jp": "リリ",
+        "thematic_jp": "フォールン",
+        "rank_1": [
+            "One Handed Axe",
+            "One Handed Axe",
+            "Tree Shield",
+            "One Handed Axe",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "High-Metal Axe",
+            "Metal Axe",
+            "Clothes of Wisdom",
+            "Metal Axe",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Blue Sphere Axe",
+            "High-Metal Axe",
+            "Light Plate",
+            "High-Metal Axe",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Lion's Battle Axe",
+            "Blue Sphere Axe",
+            "Fashion Armor",
+            "Blue Sphere Axe",
+            "Spike Bangle",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Lightning Axe",
+            "Lion's Battle Axe",
+            "Battling Dress",
+            "Lion's Battle Axe",
+            "Opal Earrings",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Shiryuu Axe",
+            "Lightning Axe",
+            "Heavy Metal Armor",
+            "Lion's Battle Axe",
+            "Lion Eagle's Feather",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Hell-Fire Axe",
+            "Shiryuu Axe",
+            "Invisible Dress",
+            "Lightning Axe",
+            "Scarlet Diamond",
+            "Lion Eagle's Feather"
+        ],
+        "rank_8": [
+            "Queen's Battle Axe",
+            "Hell-Fire Axe",
+            "Mythril Plate",
+            "Shiryuu Axe",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Aqua Slasher",
+            "Queen's Battle Axe",
+            "Crusader Plate",
+            "Hell-Fire Axe",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Necrodim Axe",
+            "Aqua Slasher",
+            "Scarlet Mail",
+            "Queen's Battle Axe",
+            "Cat God Pendant",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Divine Judgement Axe",
+            "Necrodim Axe",
+            "Phantasm Mail",
+            "Aqua Slasher",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Gaia Axe",
+            "Divine Judgement Axe",
+            "Infernal Greaves",
+            "Necrodim Axe",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "God Roar Axe - Terra Break",
+            "Gaia Axe",
+            "Fire Oni's Tori",
+            "Divine Judgement Axe",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Machine Axe - Core Breaker",
+            "God Roar Axe - Terra Break",
+            "Senka Dance Armor",
+            "Gaia Axe",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Turquoise Noah",
+            "Machine Axe - Core Breaker",
+            "Flowing Blue Dress - Azul Rondo",
+            "God Roar Axe - Terra Break",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Red Bear Emperor's Claw Battle Axe",
+            "Turquoise Noah",
+            "Eastern Heaven Green Wind Dress",
+            "Machine Axe - Core Breaker",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Brass Cleft Axe",
+            "Red Bear Emperor's Claw Battle Axe",
+            "White Haze Flower Dress",
+            "Turquoise Noah",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Crepe Axe",
+            "Brass Cleft Axe",
+            "Pink Coral Dress",
+            "Red Bear Emperor's Claw Battle Axe",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "Polar Light Belt Axe",
+            "Crepe Axe",
+            "Fancy Macaron Dress",
+            "Brass Cleft Axe",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "Sakura Axe",
+            "Polar Light Belt Axe",
+            "Thin Red Sakura Saintly Cloth",
+            "Crepe Axe",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "Whale Axe",
+            "Sakura Axe",
+            "Sunflower Straw Hat",
+            "Polar Light Belt Axe",
+            "Sakura Dance Double Hairpin",
+            "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "Rocking Groove Axe",
+            "Whale Axe",
+            "Gothic Draped Armor",
+            "Sakura Axe",
+            "Ruby Hibiscus Hair Ornament",
+            "Sakura Dance Double Hairpin"
+        ],
+        "rank_23": [
+            "Ice Breaking Riot Axe",
+            "Rocking Groove Axe",
+            "Pure Snow Mail",
+            "Whale Axe",
+            "Punk Needle Bangle",
+            "Ruby Hibiscus Hair Ornament"
+        ],
+        "rank_24": [
+            "Heavenly Sound Axe Buster Horn",
+            "Ice Breaking Riot Axe",
+            "Keyboard Armor Cimbalom",
+            "Rocking Groove Axe",
+            "Ice Pillar Ring",
+            "Punk Needle Bangle"
+        ],
+        "rank_25": [
+            "Oasis Faas",
+            "Heavenly Sound Axe Buster Horn",
+            "Desert Clothmail",
+            "Ice Breaking Riot Axe",
+            "Tree Tributing Xylophonia",
+            "Ice Pillar Ring"
+        ],
+        "rank_26": [
+            "Rose Crusher Axe",
+            "Oasis Faas",
+            "Rose Empress Mail",
+            "Heavenly Sound Axe Buster Horn",
+            "Ancient Ruby",
+            "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "Demon's Destruction",
+            "Rose Crusher Axe",
+            "Diablo Scrape",
+            "Oasis Faas",
+            "Rose Rogue Pendant",
+            "Ancient Ruby"
+        ],
+        "rank_28": [
+            "",
+            "Demon's Destruction",
+            "Apron Light Mail",
+            "Rose Crusher Axe",
+            "Double Horn Magic Necklace",
+            "Rose Rogue Pendant"
+        ]
+    },
     "monika": {
         "name_tw": "莫妮卡",
         "unit_id": 105301,
