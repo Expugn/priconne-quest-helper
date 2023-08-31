@@ -13169,6 +13169,37 @@
             "Sun Amulet Fragment"
         ]
     },
+    "28-2VH": {
+        "name": "迪斯塔尔河食岸・北部 28-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Clione Blade Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Sakura Dance Double Hairpin Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Crab Scissor Spear Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Summer Reflection Yukata of Morning Glory Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Djeeta Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Ice Claymore Fragment",
+            "Dark Matter Edge Fragment",
+            "Violet Armor Fragment",
+            "Crusader Plate Fragment",
+            "Sun Amulet Fragment"
+        ]
+    },
     "29-1": {
         "name": "迪斯塔尔河食岸・南部 29-1",
         "stamina": 10,
