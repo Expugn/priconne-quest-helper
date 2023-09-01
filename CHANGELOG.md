@@ -5,11 +5,11 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [2.41.1] - 2023-08-30
 ### Added
-- New Character: Lyrael
+- New Character: Lailael
 - Equipment Cost Reduction Update (JP)
   - Silver to Green rarity item cost reduced (1 - 5 pieces)
 - Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
-  - `character_names.lyrael`
+  - `character_names.lailael`
 
 ## [2.41.0] - 2023-08-15
 Quest Update (2023-08-15)
