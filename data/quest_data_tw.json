@@ -31736,5 +31736,43 @@
             17,
             15
         ]
+    },
+    "63-1VH": {
+        "name": "阿帕雷尤街道‧西側 63-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Veteran Chef Cross Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Powerful Demon Nail Blade Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Tassa Talon Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Double Horn Magic Necklace Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Muimi Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Wind Legacy Spear Fragment",
+            "Blue Rose Shield Fragment",
+            "Quicksand Shamshir Fragment",
+            "Rose Dame Plate Fragment",
+            "Dark Desert Edge Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }
