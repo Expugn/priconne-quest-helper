@@ -32385,6 +32385,44 @@
             15
         ]
     },
+    "64-2VH": {
+        "name": "アパレーユ街道・東側 64-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Fisherman's Sword Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Red Flower Cake Knife Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Variant Mast Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Waterline Runner Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Makoto Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Double Horn Magic Necklace Fragment",
+            "Demon Victim Sword Fragment",
+            "Demon Punish Fist Fragment",
+            "Apron Light Mail Fragment",
+            "Powerful Demon Nail Blade Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "65-1": {
         "name": "キャッスル・オブ・パルフェ城下町 65-1",
         "stamina": 10,

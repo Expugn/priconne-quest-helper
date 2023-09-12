@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.41.2] - 2023-09-12
+### Added
+- New Character: Kyaru (Transfer Student)
+  - Originally released `2023-09-03`, just delayed `priconne-quest-helper` update
+- New Quest: `64-2 VH` (Makoto)
+  - Originally released `2023-09-07`, just delayed `priconne-quest-helper` update
+
 ## [2.41.1] - 2023-08-30
 ### Added
 - New Character: Lailael
