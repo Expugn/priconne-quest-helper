@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.42.0] - 2023-09-15
+Quest Update (2023-09-15)
+### Added
+- New Character: Suzuna (Transfer Student)
+- New Equipment
+- New Quests:
+  - Chapter 66 Normal Part 1 (`66-1` - `66-6`)
+  - `65-3 H`
+
 ## [2.41.2] - 2023-09-12
 ### Added
 - New Character: Kyaru (Transfer Student)
