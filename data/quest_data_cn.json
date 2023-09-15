@@ -24128,6 +24128,40 @@
             15
         ]
     },
+    "49-3H": {
+        "name": "埃斯塔荒野・北部 49-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Ruby Hibiscus Hair Ornament Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Orca Sword Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Summer Light Bikini Armor Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Halloween Rei Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "50-1": {
         "name": "涅洛岩礁・西部 50-1",
         "stamina": 10,
