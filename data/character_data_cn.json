@@ -4599,6 +4599,190 @@
             "Sakura Dance Double Hairpin"
         ]
     },
+    "creditta": {
+        "name_cn": "克蕾琪塔",
+        "unit_id": 118001,
+        "name": "Creditta",
+        "thematic": "",
+        "name_jp": "クレジッタ",
+        "thematic_jp": "",
+        "rank_1": [
+            "Hunter's Bow",
+            "Killer Pencil",
+            "Killer Pencil",
+            "Leather Boots",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_2": [
+            "Crystal Bow",
+            "Command Knife",
+            "Folklore Clothes",
+            "Crown Boots",
+            "Motivational Bracelet",
+            "Motivational Bracelet"
+        ],
+        "rank_3": [
+            "Platinum Knife",
+            "Crystal Bow",
+            "Crystal Bow",
+            "Hunting Boots",
+            "Jewel of Courage",
+            "Jewel of Courage"
+        ],
+        "rank_4": [
+            "Cupid's Bow",
+            "Platinum Knife",
+            "Millefeuille Cloth",
+            "Opal Earrings",
+            "Hunting Boots",
+            "Spike Bangle"
+        ],
+        "rank_5": [
+            "Vampire Dagger",
+            "Cupid's Bow",
+            "Palace Cloth",
+            "Lion Eagle's Feather",
+            "Millefeuille Cloth",
+            "Opal Earrings"
+        ],
+        "rank_6": [
+            "Lightning Bow",
+            "Vampire Dagger",
+            "Scarlet Diamond",
+            "Palace Cloth",
+            "Cupid's Bow",
+            "Lion Eagle's Feather"
+        ],
+        "rank_7": [
+            "Angel Bow",
+            "Precious Knife",
+            "Moonlight Garment",
+            "Scarlet Diamond",
+            "Devil's Bow",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Artemis Bow",
+            "Princess' Dagger",
+            "Hermit Clothes",
+            "Lightning Bow",
+            "Elemental Heart",
+            "Scarlet Diamond"
+        ],
+        "rank_9": [
+            "Spirit Tree Bow",
+            "Dark Matter Edge",
+            "Heavenly Robe",
+            "Angel Bow",
+            "Sun Amulet",
+            "Elemental Heart"
+        ],
+        "rank_10": [
+            "Silver Wing Bow",
+            "Unicorn Knife",
+            "Faireal Boots",
+            "Artemis Bow",
+            "Firelord's Ring",
+            "Sun Amulet"
+        ],
+        "rank_11": [
+            "Abyss Bow",
+            "Emerald Dagger",
+            "Aegis Coat",
+            "Spirit Tree Bow",
+            "Millennium Earrings",
+            "Firelord's Ring"
+        ],
+        "rank_12": [
+            "Heavenly Red Bow",
+            "Lava Edge",
+            "Nine Heavens' Armor",
+            "Silver Wing Bow",
+            "Fury Dragon Pendant",
+            "Millennium Earrings"
+        ],
+        "rank_13": [
+            "Armored Bow - Deus Fall",
+            "Tír na nÓg Dagger",
+            "Fire Oni's Tori",
+            "Abyss Bow",
+            "War God's Arm",
+            "Fury Dragon Pendant"
+        ],
+        "rank_14": [
+            "Ice Bow - Freezing Tear",
+            "Twin God Sword of Lightning",
+            "Extremely Dark Clothes",
+            "Heavenly Red Bow",
+            "Flowering Fire Peony",
+            "War God's Arm"
+        ],
+        "rank_15": [
+            "Star Nuclear Bow - Erzvogen",
+            "Heavenly Black Sword of Obsidian",
+            "Flowing Blue Dress - Azul Rondo",
+            "Armored Bow - Deus Fall",
+            "Scarlet Dragon's Claw Fire Ring",
+            "Flowering Fire Peony"
+        ],
+        "rank_16": [
+            "Heaven Penetrating Falcon's Bow",
+            "Gehenna Dragon",
+            "Southern Heaven Blazing Blue Armor",
+            "Ice Bow - Freezing Tear",
+            "Ruby Rose Choker",
+            "Scarlet Dragon's Claw Fire Ring"
+        ],
+        "rank_17": [
+            "Blue God Bow - Mercy Sapiros",
+            "Dark Blade - Heavenly Raven's Guard",
+            "Holy Light's Lily Plate",
+            "Star Nuclear Bow - Erzvogen",
+            "Cardinal Clarion Brooch",
+            "Ruby Rose Choker"
+        ],
+        "rank_18": [
+            "Candy Sugar Bow",
+            "Jade Wind Blade - Emerald Edge",
+            "Pink Coral Dress",
+            "Heaven Penetrating Falcon's Bow",
+            "Godly Red Ring - Ruby Rose",
+            "Cardinal Clarion Brooch"
+        ],
+        "rank_19": [
+            "White Rain Bow",
+            "Chocolate Banana Dagger",
+            "Fancy Macaron Dress",
+            "Blue God Bow - Mercy Sapiros",
+            "Popcorn Necklace",
+            "Godly Red Ring - Ruby Rose"
+        ],
+        "rank_20": [
+            "Weeping Sakura Bow",
+            "Purple Mist Dagger",
+            "Thin Red Sakura Saintly Cloth",
+            "Candy Sugar Bow",
+            "Heavenly Hell Earrings",
+            "Popcorn Necklace"
+        ],
+        "rank_21": [
+            "Clownfish Bow",
+            "Cherry Petal Dagger",
+            "Sunflower Straw Hat",
+            "White Rain Bow",
+            "Sakura Dance Double Hairpin",
+            "Heavenly Hell Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Shark Dagger",
+            "",
+            "Weeping Sakura Bow",
+            "Ruby Hibiscus Hair Ornament",
+            "Sakura Dance Double Hairpin"
+        ]
+    },
     "deresute_rin": {
         "name_cn": "凛（偶像大师）",
         "unit_id": 112501,
