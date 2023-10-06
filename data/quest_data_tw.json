@@ -31809,6 +31809,44 @@
             15
         ]
     },
+    "63-2VH": {
+        "name": "阿帕雷尤街道‧西側 63-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Magical Ladle Staff Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Demonic Tail Tie Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Secret Thunder Sword Hook Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Professional Waitress Apron Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Yuki Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Wind Legacy Spear Fragment",
+            "Blue Rose Shield Fragment",
+            "Quicksand Shamshir Fragment",
+            "Rose Dame Plate Fragment",
+            "Dark Desert Edge Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "64-1": {
         "name": "阿帕雷尤街道‧東側 64-1",
         "stamina": 10,
