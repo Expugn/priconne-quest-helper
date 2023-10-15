@@ -32423,6 +32423,44 @@
             15
         ]
     },
+    "64-3VH": {
+        "name": "アパレーユ街道・東側 64-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Floater Brooch of the Blue Sea Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Sea Navigator Clothes Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Red Sea Wheel Brooch Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Sea Bird Floater Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Kasumi Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Double Horn Magic Necklace Fragment",
+            "Demon Victim Sword Fragment",
+            "Demon Punish Fist Fragment",
+            "Apron Light Mail Fragment",
+            "Powerful Demon Nail Blade Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "65-1": {
         "name": "キャッスル・オブ・パルフェ城下町 65-1",
         "stamina": 10,
@@ -33026,6 +33064,224 @@
             "Professional Waitress Apron Fragment",
             "Rod of Demon's Heart Fragment",
             "Double Horn Magic Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "66-6": {
+        "name": "ラモリール平原 66-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Red Autumn Wind Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Red Sea Wheel Brooch Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Floater Brooch of the Blue Sea Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Double Horn Magic Necklace Fragment",
+            "Demon Victim Sword Fragment",
+            "Diablo Membranes Fragment",
+            "Apron Light Mail Fragment",
+            "Powerful Demon Nail Blade Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "66-7": {
+        "name": "ラモリール平原 66-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Autumn Red Helmet Akishigure Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Silent Shoes Akiyonaga Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Red Sea Wheel Brooch Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Double Horn Magic Necklace Fragment",
+            "Tassa Talon Fragment",
+            "Demon's Destruction Fragment",
+            "Armor de Tablier Fragment",
+            "Demon's Scar Blade Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "66-8": {
+        "name": "ラモリール平原 66-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Red Autumn Wind Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Autumn Red Helmet Akishigure Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Red Sea Wheel Brooch Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Double Horn Magic Necklace Fragment",
+            "Demon Victim Sword Fragment",
+            "Diablo Membranes Fragment",
+            "Apron Light Mail Fragment",
+            "Powerful Demon Nail Blade Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "66-9": {
+        "name": "ラモリール平原 66-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Koizome Autumn Leaves Pattern Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Tang Red Princess Great Armor Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Blue Sea Anchor Brooch Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Demon Punish Fist Fragment",
+            "Veteran Chef Cross Fragment",
+            "Devil Dominion Lance Fragment",
+            "Diablo Maschera Fragment",
+            "High Shield Saucer Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "66-10": {
+        "name": "ラモリール平原 66-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Silent Shoes Akiyonaga Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Hime Grass Dress Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Floater Brooch of the Blue Sea Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Demonic Tail Tie Fragment",
+            "Demon's Core Wand Fragment",
+            "Professional Waitress Apron Fragment",
+            "Rod of Demon's Heart Fragment",
+            "Double Horn Magic Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "66-1H": {
+        "name": "ラモリール平原 66-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Hime Grass Dress Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Blue Sea Anchor Brooch Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Sea Bird Floater Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Yui Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Demonic Tail Tie Fragment",
+            "Demon's Core Wand Fragment",
+            "Professional Waitress Apron Fragment",
+            "Rod of Demon's Heart Fragment",
+            "Double Horn Magic Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "66-2H": {
+        "name": "ラモリール平原 66-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Red Autumn Wind Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Red Sea Wheel Brooch Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Anchor Greataxe Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mahiru Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Double Horn Magic Necklace Fragment",
+            "Tassa Talon Fragment",
+            "Demon's Destruction Fragment",
+            "Armor de Tablier Fragment",
+            "Demon's Scar Blade Fragment"
         ],
         "subdrops_percent": [
             24,
