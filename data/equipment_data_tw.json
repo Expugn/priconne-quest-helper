@@ -6709,13 +6709,33 @@
         "req_pieces": 25,
         "req_items": []
     },
+    "109552": {
+        "name_tw": "紅色花飾點心切刀",
+        "name_jp": "紅色花飾菓子切包丁",
+        "name": "Red Flower Cake Knife",
+        "id": "lightblue-26",
+        "has_fragments": true,
+        "fragment_id": "119552",
+        "req_pieces": 25,
+        "req_items": []
+    },
     "109581": {
         "name_tw": "惡魔膜護頸",
         "name_jp": "ディアブロメンブランス",
         "name": "Diablo Membranes",
-        "id": "lightblue-26",
+        "id": "lightblue-27",
         "has_fragments": true,
         "fragment_id": "119581",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "109582": {
+        "name_tw": "翡翠花飾筷子",
+        "name_jp": "翡翠花飾箸",
+        "name": "Jade Flower Chopsticks",
+        "id": "lightblue-28",
+        "has_fragments": true,
+        "fragment_id": "119582",
         "req_pieces": 25,
         "req_items": []
     },
@@ -6723,9 +6743,19 @@
         "name_tw": "惡魔尾領帶",
         "name_jp": "デモニックテールタイ",
         "name": "Demonic Tail Tie",
-        "id": "lightblue-27",
+        "id": "lightblue-29",
         "has_fragments": true,
         "fragment_id": "119611",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "109612": {
+        "name_tw": "藍寶石三叉髮簪",
+        "name_jp": "サファイアフォークヘアピン",
+        "name": "Sapphire Fork Hairpin",
+        "id": "lightblue-30",
+        "has_fragments": true,
+        "fragment_id": "119612",
         "req_pieces": 25,
         "req_items": []
     }
