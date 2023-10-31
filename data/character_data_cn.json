@@ -919,6 +919,190 @@
             "Sakura Flower Moonlight Hairpin"
         ]
     },
+    "noire_io": {
+        "name_cn": "伊绪（黑暗）",
+        "unit_id": 119001,
+        "name": "Io",
+        "thematic": "Noire",
+        "name_jp": "イオ",
+        "thematic_jp": "ノワール",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fragrant Wood Wand",
+            "Journey Robe",
+            "Fashionable Beret",
+            "Fighting Bracelet",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Compassion of the Unicorn",
+            "Doctorless Staff",
+            "Spring Color Robe",
+            "Witch Boots",
+            "Fighting Bracelet",
+            "Protective Pendant"
+        ],
+        "rank_3": [
+            "Celestial Sphere Watcher",
+            "Compassion of the Unicorn",
+            "Nordic Robe",
+            "Little Dragon Rod",
+            "Magic Glasses",
+            "Jewel of Love"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Witch Headband",
+            "Celestial Sphere Watcher",
+            "Turquoise Earrings",
+            "Magic Monocle",
+            "Victory Friendship Bracelet"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Flower Bud Wand",
+            "Cupid Robe",
+            "Witch Hat",
+            "Turquoise Earrings",
+            "Emerald Earrings"
+        ],
+        "rank_6": [
+            "Moon Wand",
+            "Devil's Horn",
+            "Philosopher's Robe",
+            "Flower Bud Wand",
+            "Sorcerer's Glasses",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Rod of Life",
+            "Moon Wand",
+            "Grand Magician's Robe",
+            "Laurel's Sorrow",
+            "Laurel's Sorrow",
+            "Sorcerer's Glasses"
+        ],
+        "rank_8": [
+            "Phoenix Rod",
+            "Rod of Life",
+            "Pope's Hood",
+            "Moon Wand",
+            "Mourning Crescent Moon",
+            "Laurel's Sorrow"
+        ],
+        "rank_9": [
+            "High Angel Rod",
+            "Phoenix Rod",
+            "Necromancer Boots",
+            "Rod of Life",
+            "Dragon's Tear",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Flame Rod",
+            "High Angel Rod",
+            "Aquarius Boots",
+            "Phoenix Rod",
+            "Great Sage Gem",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Divine Blossom Rod",
+            "Flame Rod",
+            "Mourning Crown",
+            "High Angel Rod",
+            "Ocean God's Earrings",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Atlantis Rod",
+            "Divine Blossom Rod",
+            "Empress Robe",
+            "Flame Rod",
+            "Divine Beast's Prayer",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Heaven Rod - Stellar Sphere",
+            "Atlantis Rod",
+            "Exomagia Robe",
+            "Divine Blossom Rod",
+            "Sophos Bracelet",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "World Tree's Branch Wand",
+            "Heaven Rod - Stellar Sphere",
+            "Prosperity Veil",
+            "Atlantis Rod",
+            "Little Ice Princess' Knot",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "Phoenix Staff - Rise Flare",
+            "World Tree's Branch Wand",
+            "Glowing Silver Mirror Boots",
+            "Heaven Rod - Stellar Sphere",
+            "Deep Crystallized Xenocrystal",
+            "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "White Snake's Holy Water Rod",
+            "Phoenix Staff - Rise Flare",
+            "Heavenly Wing Wise Saint Hat",
+            "World Tree's Branch Wand",
+            "Chaotic Choker",
+            "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "Heavenly Wand of the White Pearl",
+            "White Snake's Holy Water Rod",
+            "Scarlet Tulip Dress",
+            "Phoenix Staff - Rise Flare",
+            "Blue Night Nocturne Brooch",
+            "Elfin Choker"
+        ],
+        "rank_18": [
+            "Triple Ice Rod",
+            "Heavenly Wand of the White Pearl",
+            "Black Agate Prayer Dress",
+            "White Snake's Holy Water Rod",
+            "White Sacred Stone - Diamond Star",
+            "Jade Harp Brooch"
+        ],
+        "rank_19": [
+            "Icy Snow Flower Cane",
+            "Triple Ice Rod",
+            "Sheet Tart Beret",
+            "Heavenly Wand of the White Pearl",
+            "Doughnut Choker",
+            "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "Sakura Dance Wand",
+            "Icy Snow Flower Cane",
+            "Sakura Blizzard Woven Heels",
+            "Triple Ice Rod",
+            "Rain's Blessing Earrings",
+            "Macaron Pendant"
+        ],
+        "rank_21": [
+            "Jellyfish Rod",
+            "Sakura Dance Wand",
+            "Hibiscus Sandals",
+            "Icy Snow Flower Cane",
+            "Immortal Sakura Wish Hairpin",
+            "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "Studded Black",
+            "Sakura Dance Wand",
+            "Opal Shell Hair Ornament",
+            "Sakura Flower Moonlight Hairpin"
+        ]
+    },
     "ilya": {
         "name_cn": "伊莉亚",
         "unit_id": 104401,
@@ -21425,6 +21609,190 @@
         "rank_10": [
             "Flame Rod",
             "High Angel Rod",
+            "Viridian Spiritual Dress",
+            "Necromancer Boots",
+            "Congregation Pendant",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Divine Blossom Rod",
+            "Flame Rod",
+            "Mourning Crown",
+            "Aquarius Boots",
+            "Fairy King's Guardian Stone",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Atlantis Rod",
+            "Divine Blossom Rod",
+            "Maiden Cloth",
+            "Shrine Maiden's Purity Cloth",
+            "Mermaid Princess' Spirit Tear",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Heaven Rod - Stellar Sphere",
+            "Atlantis Rod",
+            "Exomagia Robe",
+            "Empress Robe",
+            "Glorious King's Shield Bangle",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "World Tree's Branch Wand",
+            "Heaven Rod - Stellar Sphere",
+            "Refreshing Ice Garment",
+            "Exomagia Robe",
+            "Sea Dragon God's Hair Ornament",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "Phoenix Staff - Rise Flare",
+            "World Tree's Branch Wand",
+            "Glowing Silver Mirror Boots",
+            "Refreshing Ice Garment",
+            "Shield God Ring - Wall Breath",
+            "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "White Snake's Holy Water Rod",
+            "Phoenix Staff - Rise Flare",
+            "Heavenly Wing Wise Saint Hat",
+            "Glowing Silver Mirror Boots",
+            "Elfin Choker",
+            "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "Heavenly Wand of the White Pearl",
+            "White Snake's Holy Water Rod",
+            "Pride of the Roses",
+            "Heavenly Wing Wise Saint Hat",
+            "Jade Harp Brooch",
+            "Elfin Choker"
+        ],
+        "rank_18": [
+            "Triple Ice Rod",
+            "Heavenly Wand of the White Pearl",
+            "Moon Crystal Heels",
+            "Pride of the Roses",
+            "Evergreen Green Ring",
+            "Jade Harp Brooch"
+        ],
+        "rank_19": [
+            "Icy Snow Flower Cane",
+            "Triple Ice Rod",
+            "Sheet Tart Beret",
+            "Moon Crystal Heels",
+            "Macaron Pendant",
+            "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "Sakura Dance Wand",
+            "Icy Snow Flower Cane",
+            "Sakura Blizzard Woven Heels",
+            "Magic Pancake Robe",
+            "Whirlwind Earrings",
+            "Macaron Pendant"
+        ],
+        "rank_21": [
+            "Jellyfish Rod",
+            "Sakura Dance Wand",
+            "Hibiscus Sandals",
+            "Sakura Blizzard Woven Heels",
+            "Sakura Flower Moonlight Hairpin",
+            "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "",
+            "Jellyfish Rod",
+            "Studded Black",
+            "Hibiscus Sandals",
+            "Pearl Coconut Hair Ornament",
+            "Sakura Flower Moonlight Hairpin"
+        ]
+    },
+    "noire_kuuka": {
+        "name_cn": "空花（黑暗）",
+        "unit_id": 119101,
+        "name": "Kuuka",
+        "thematic": "Noire",
+        "name_jp": "クウカ",
+        "thematic_jp": "ノワール",
+        "rank_1": [
+            "Fragrant Wood Wand",
+            "Fashionable Beret",
+            "Leather Overalls",
+            "Leather Boots",
+            "Protective Pendant",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Nun's Hood",
+            "Doctorless Staff",
+            "Spring Color Robe",
+            "Crown Boots",
+            "Protective Pendant",
+            "Protective Pendant"
+        ],
+        "rank_3": [
+            "Celestial Sphere Watcher",
+            "Nun's Hood",
+            "Nordic Robe",
+            "Hunting Boots",
+            "Jewel of Love",
+            "Jewel of Love"
+        ],
+        "rank_4": [
+            "Flower Bud Wand",
+            "Witch Headband",
+            "Witch Headband",
+            "Emerald Earrings",
+            "Victory Friendship Bracelet",
+            "Victory Friendship Bracelet"
+        ],
+        "rank_5": [
+            "Devil's Horn",
+            "Witch Hat",
+            "Cupid Robe",
+            "Witch Palace Boots",
+            "Emerald Earrings",
+            "Emerald Earrings"
+        ],
+        "rank_6": [
+            "Moon Wand",
+            "Lion King's Protective Charm",
+            "Philosopher's Robe",
+            "Witch Palace Boots",
+            "Cupid Robe",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Rod of Sun",
+            "Empress Shield",
+            "Wizard Boots",
+            "Lion King's Protective Charm",
+            "Lion King's Protective Charm",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Phoenix Rod",
+            "Rod of Sun",
+            "Saint's Robe",
+            "Wizard Boots",
+            "Bangle of Substitution",
+            "Lion King's Protective Charm"
+        ],
+        "rank_9": [
+            "High Devil Wand",
+            "Phoenix Rod",
+            "Gospel Tiara",
+            "Saint's Robe",
+            "Moon Bracelet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Flame Rod",
+            "High Devil Wand",
             "Viridian Spiritual Dress",
             "Necromancer Boots",
             "Congregation Pendant",
