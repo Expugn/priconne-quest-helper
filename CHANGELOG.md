@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.43.1] - 2023-10-31
+### Added
+- New Character: Quria (Fallen)
+- Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
+  - `character_names.quria`
+
 ## [2.43.0] - 2023-10-15
 Quest Update (2023-10-15)
 ### Added
