@@ -31847,6 +31847,44 @@
             15
         ]
     },
+    "63-3VH": {
+        "name": "阿帕雷尤街道‧西側 63-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Jade Flower Chopsticks Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "High Shield Saucer Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Red Flower Cake Knife Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Five Hundred Year Old Tieguanyin Kettle Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Tsumugi Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rose Rogue Pendant Fragment",
+            "Rose Imperial Sword Fragment",
+            "Rose Petal Knuckle Fragment",
+            "Variant Demon Horn Fragment",
+            "Rose Brute Pendant Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "64-1": {
         "name": "阿帕雷尤街道‧東側 64-1",
         "stamina": 10,
