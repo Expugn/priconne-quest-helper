@@ -24757,6 +24757,40 @@
             15
         ]
     },
+    "50-3H": {
+        "name": "涅洛岩礁・西部 50-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Chain Fury Sword Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Gothic Draped Armor Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Opal Shell Hair Ornament Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Magical Monica Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rain's Blessing Earrings Fragment",
+            "Sakura Blizzard Woven Heels Fragment",
+            "Purple Mist Dagger Fragment",
+            "Sakura Eight Weight Armor Fragment",
+            "Heavenly Hell Earrings Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "51-1": {
         "name": "涅洛岩礁・东部 51-1",
         "stamina": 10,

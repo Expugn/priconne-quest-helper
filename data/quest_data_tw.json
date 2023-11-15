@@ -32272,5 +32272,189 @@
             17,
             15
         ]
+    },
+    "64-3H": {
+        "name": "阿帕雷尤街道‧東側 64-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Escudo de Bolante Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Red Flower Cake Knife Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Secret Thunder Sword Hook Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Oedo Mitsuki Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Rose Rogue Pendant Fragment",
+            "Rose Imperial Sword Fragment",
+            "Rose Petal Knuckle Fragment",
+            "Variant Demon Horn Fragment",
+            "Rose Brute Pendant Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "65-1": {
+        "name": "芭菲之城城鎮 65-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Waterline Runner Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Red Flower Cake Knife Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Sapphire Fork Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Rose Rogue Pendant Fragment",
+            "Rose Imperial Sword Fragment",
+            "Rose Petal Knuckle Fragment",
+            "Variant Demon Horn Fragment",
+            "Rose Brute Pendant Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "65-2": {
+        "name": "芭菲之城城鎮 65-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Escudo de Bolante Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Heavy Mariner Clothes Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Red Flower Cake Knife Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Diablo Scrape Fragment",
+            "Thorn of Roses Fragment",
+            "Rose Crusher Axe Fragment",
+            "Cruel Rose Blade Fragment",
+            "Rose Rogue Pendant Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "65-3": {
+        "name": "芭菲之城城鎮 65-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Horizon Watcher Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Waterline Runner Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Red Flower Cake Knife Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Diablo Scrape Fragment",
+            "Thorn of Roses Fragment",
+            "Rose Crusher Axe Fragment",
+            "Cruel Rose Blade Fragment",
+            "Rose Rogue Pendant Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "65-4": {
+        "name": "芭菲之城城鎮 65-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Heavy Mariner Clothes Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Light Sailor Clothes Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Jade Flower Chopsticks Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Rose Brute Pendant Fragment",
+            "Demon's Bound Armor Fragment",
+            "Lance of Corolla Fragment",
+            "Bell Arc Rose Fragment",
+            "Demon's Painmail Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "65-5": {
+        "name": "芭菲之城城鎮 65-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Sea Navigator Clothes Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Horizon Watcher Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Sapphire Fork Hairpin Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Rose Stem Wand Fragment",
+            "Rose Petal Staff Fragment",
+            "Cursed Demon's Robe Fragment",
+            "Envy Demon's Horn Fragment",
+            "Lapis Rose Pendant Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }
