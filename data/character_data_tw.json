@@ -4799,6 +4799,246 @@
             "Diablo Membranes"
         ]
     },
+    "summer_yukari": {
+        "name_tw": "優花梨（夏日）",
+        "unit_id": 126801,
+        "name": "Yukari",
+        "thematic": "Summer",
+        "name_jp": "ユカリ",
+        "thematic_jp": "サマー",
+        "rank_1": [
+            "Iron Blade",
+            "Iron Blade",
+            "Leather Overalls",
+            "Tree Shield",
+            "Protective Pendant",
+            "Protective Pendant"
+        ],
+        "rank_2": [
+            "Aurora Sword",
+            "Gear Blade",
+            "Clothes of Wisdom",
+            "Clothes of Wisdom",
+            "Protective Pendant",
+            "Protective Pendant"
+        ],
+        "rank_3": [
+            "Sparkling Sword",
+            "Aurora Sword",
+            "Light Plate",
+            "Light Plate",
+            "Jewel of Love",
+            "Jewel of Love"
+        ],
+        "rank_4": [
+            "Ryuumon Sword",
+            "Sparkling Sword",
+            "Fashion Armor",
+            "Gorgeous Armor",
+            "Victory Friendship Bracelet",
+            "Victory Friendship Bracelet"
+        ],
+        "rank_5": [
+            "Feather Blade",
+            "Ryuumon Sword",
+            "Battling Dress",
+            "Dragon Head",
+            "Emerald Earrings",
+            "Emerald Earrings"
+        ],
+        "rank_6": [
+            "Angel Blade",
+            "Feather Blade",
+            "Philosopher's Robe",
+            "Octogram Pendant",
+            "Octogram Pendant",
+            "Octogram Pendant"
+        ],
+        "rank_7": [
+            "Solar Sword",
+            "Empress Shield",
+            "Invisible Dress",
+            "Lion King's Protective Charm",
+            "Lion King's Protective Charm",
+            "Octogram Pendant"
+        ],
+        "rank_8": [
+            "Ice Claymore",
+            "Solar Sword",
+            "Angel Boots",
+            "Empress Shield",
+            "Bangle of Substitution",
+            "Lion King's Protective Charm"
+        ],
+        "rank_9": [
+            "Chaos Blade",
+            "Ice Claymore",
+            "Violet Armor",
+            "Mythril Plate",
+            "Moon Bracelet",
+            "Bangle of Substitution"
+        ],
+        "rank_10": [
+            "Lightning Blade",
+            "Chaos Blade",
+            "Dragonic Armor",
+            "Necromancer Boots",
+            "Congregation Pendant",
+            "Moon Bracelet"
+        ],
+        "rank_11": [
+            "Dawn's Holy Sword",
+            "Lightning Blade",
+            "Phantasm Mail",
+            "Dragonic Armor",
+            "Fairy King's Guardian Stone",
+            "Congregation Pendant"
+        ],
+        "rank_12": [
+            "Great Sword of Sin",
+            "Dawn's Holy Sword",
+            "Maiden Cloth",
+            "Phantasm Mail",
+            "Mermaid Princess' Spirit Tear",
+            "Fairy King's Guardian Stone"
+        ],
+        "rank_13": [
+            "Konominato Sword - Aqua Ruler",
+            "Great Sword of Sin",
+            "Gold King's Armor",
+            "Nine Heavens' Armor",
+            "Glorious King's Shield Bangle",
+            "Mermaid Princess' Spirit Tear"
+        ],
+        "rank_14": [
+            "Overlord Light Dragon Sword",
+            "Konominato Sword - Aqua Ruler",
+            "Furious Wind Armor",
+            "Rage Queen Dress",
+            "Sea Dragon God's Hair Ornament",
+            "Glorious King's Shield Bangle"
+        ],
+        "rank_15": [
+            "Star Nuclear Sword - Ertz Schneide",
+            "Overlord Light Dragon Sword",
+            "Glowing Silver Mirror Shield",
+            "Senka Dance Armor",
+            "Shield God Ring - Wall Breath",
+            "Sea Dragon God's Hair Ornament"
+        ],
+        "rank_16": [
+            "Rabbit God's Great Sword",
+            "Star Nuclear Sword - Ertz Schneide",
+            "Heavenly Wing Saint Shoes",
+            "Glowing Silver Mirror Shield",
+            "Elfin Choker",
+            "Shield God Ring - Wall Breath"
+        ],
+        "rank_17": [
+            "Shining Sword - Adamas",
+            "Rabbit God's Great Sword",
+            "Sacred Ring - Heavenly Lotus",
+            "Heavenly Wing Saint Shoes",
+            "Jade Harp Brooch",
+            "Elfin Choker"
+        ],
+        "rank_18": [
+            "Choco Stick Blade",
+            "Shining Sword - Adamas",
+            "Iolite Shield",
+            "Sacred Ring - Heavenly Lotus",
+            "Evergreen Green Ring",
+            "Jade Harp Brooch"
+        ],
+        "rank_19": [
+            "Blazing Red Sun Sword",
+            "Choco Stick Blade",
+            "Chocolate Mint Ice Heels",
+            "Iolite Shield",
+            "Macaron Pendant",
+            "Evergreen Green Ring"
+        ],
+        "rank_20": [
+            "Cherry Blossom",
+            "Blazing Red Sun Sword",
+            "Scattered Sakura Wide Brimmed Hat",
+            "Chocolate Mint Ice Heels",
+            "Whirlwind Earrings",
+            "Macaron Pendant"
+        ],
+        "rank_21": [
+            "Clione Blade",
+            "Cherry Blossom",
+            "Beach Floater Mail",
+            "Scattered Sakura Wide Brimmed Hat",
+            "Sakura Flower Moonlight Hairpin",
+            "Whirlwind Earrings"
+        ],
+        "rank_22": [
+            "Riot Spike",
+            "Clione Blade",
+            "Gothic Maiden",
+            "Beach Floater Mail",
+            "Pearl Coconut Hair Ornament",
+            "Sakura Flower Moonlight Hairpin"
+        ],
+        "rank_23": [
+            "Ice Shining Sword Glass Blade",
+            "Riot Spike",
+            "Crystal Ice Mail",
+            "Gothic Maiden",
+            "Emerald Gothic Bangle",
+            "Pearl Coconut Hair Ornament"
+        ],
+        "rank_24": [
+            "Sword Field Sword Grand Pianos",
+            "Ice Shining Sword Glass Blade",
+            "Keyboard Armor Cimbalom",
+            "Crystal Ice Mail",
+            "Green Aurora Ring",
+            "Emerald Gothic Bangle"
+        ],
+        "rank_25": [
+            "Oasis Guard Blade",
+            "Sword Field Sword Grand Pianos",
+            "Oasis Blue Plate",
+            "Keyboard Armor Cimbalom",
+            "Celestial Beating Timpania",
+            "Green Aurora Ring"
+        ],
+        "rank_26": [
+            "Rose Imperial Sword",
+            "Oasis Guard Blade",
+            "Rose Dame Plate",
+            "Oasis Blue Plate",
+            "Ancient Emerald",
+            "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "Demon Victim Sword",
+            "Rose Imperial Sword",
+            "Demon's Bound Armor",
+            "Rose Dame Plate",
+            "Rose Brute Pendant",
+            "Ancient Emerald"
+        ],
+        "rank_28": [
+            "Secret Thunder Sword Hook",
+            "Demon Victim Sword",
+            "Apron Light Mail",
+            "Demon's Bound Armor",
+            "Diablo Membranes",
+            "Rose Brute Pendant"
+        ],
+        "rank_29": [
+            "",
+            "Secret Thunder Sword Hook",
+            "Heavy Mariner Clothes",
+            "Armor de Tablier",
+            "Jade Flower Chopsticks",
+            "Diablo Membranes"
+        ]
+    },
     "christmas_yukari": {
         "name_tw": "優花梨（聖誕節）",
         "unit_id": 114601,
