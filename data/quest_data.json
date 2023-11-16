@@ -32923,6 +32923,44 @@
             15
         ]
     },
+    "65-1VH": {
+        "name": "キャッスル・オブ・パルフェ城下町 65-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Autumn Red Helmet Akishigure Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Sailing Shooter Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Red Autumn Wind Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Red Sea Wheel Brooch Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Shiori Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Demon Punish Fist Fragment",
+            "Veteran Chef Cross Fragment",
+            "Devil Dominion Lance Fragment",
+            "Diablo Maschera Fragment",
+            "High Shield Saucer Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "66-1": {
         "name": "ラモリール平原 66-1",
         "stamina": 10,
@@ -33282,6 +33320,250 @@
             "Demon's Destruction Fragment",
             "Armor de Tablier Fragment",
             "Demon's Scar Blade Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "66-3H": {
+        "name": "ラモリール平原 66-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Maple Witch Drooping Branch Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Hime Grass Dress Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Blue Sea Anchor Brooch Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Noire Io Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Sapphire Fork Hairpin Fragment",
+            "Pail of Tarte Fragment",
+            "Magical Ladle Staff Fragment",
+            "Horizon Watcher Fragment",
+            "Red Flower Cake Knife Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "67-1": {
+        "name": "渦炎密林 67-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Extreme Study - Red Character Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Koizome Autumn Leaves Pattern Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Red Sea Wheel Brooch Fragment",
+            "drop_percent": 50
+        },
+        "item_4": {
+            "item_name": "Blue Sea Anchor Brooch Fragment",
+            "drop_percent": 25
+        },
+        "item_5": {
+            "item_name": "Floater Brooch of the Blue Sea Fragment",
+            "drop_percent": 25
+        },
+        "item_6": {
+            "item_name": "Tang Red Princess Great Armor Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Red Flower Cake Knife Fragment",
+            "Sea Navigator Clothes Fragment",
+            "Five Hundred Year Old Tieguanyin Kettle Fragment",
+            "Heavy Mariner Clothes Fragment",
+            "Sashimi Sword - Shohachi Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "67-2": {
+        "name": "渦炎密林 67-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Royal Shredded Maple Blade Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Red Frog Nail - Maple Fist Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Red Sea Wheel Brooch Fragment",
+            "drop_percent": 50
+        },
+        "item_4": {
+            "item_name": "Blue Sea Anchor Brooch Fragment",
+            "drop_percent": 25
+        },
+        "item_5": {
+            "item_name": "Floater Brooch of the Blue Sea Fragment",
+            "drop_percent": 25
+        },
+        "item_6": {
+            "item_name": "Autumn Red Helmet Akishigure Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Sapphire Fork Hairpin Fragment",
+            "Pail of Tarte Fragment",
+            "Magical Ladle Staff Fragment",
+            "Horizon Watcher Fragment",
+            "Red Flower Cake Knife Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "67-3": {
+        "name": "渦炎密林 67-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Heaven Covering Red Spear - Akisama Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Maple Splitter Claw - Leaf Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Red Sea Wheel Brooch Fragment",
+            "drop_percent": 50
+        },
+        "item_4": {
+            "item_name": "Blue Sea Anchor Brooch Fragment",
+            "drop_percent": 25
+        },
+        "item_5": {
+            "item_name": "Floater Brooch of the Blue Sea Fragment",
+            "drop_percent": 25
+        },
+        "item_6": {
+            "item_name": "Red Autumn Wind Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Jade Flower Chopsticks Fragment",
+            "Waterline Runner Fragment",
+            "Meat Mallet Axe Fragment",
+            "Cut - Dofisu Fragment",
+            "Lance of Forsetta Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "67-4": {
+        "name": "渦炎密林 67-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Autumn Embroidered Bow - Red Ivy Leaf Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Strike Hammer - Tsurubetoshi Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Red Sea Wheel Brooch Fragment",
+            "drop_percent": 50
+        },
+        "item_4": {
+            "item_name": "Blue Sea Anchor Brooch Fragment",
+            "drop_percent": 25
+        },
+        "item_5": {
+            "item_name": "Floater Brooch of the Blue Sea Fragment",
+            "drop_percent": 25
+        },
+        "item_6": {
+            "item_name": "Hime Grass Dress Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Red Flower Cake Knife Fragment",
+            "Secret Thunder Sword Hook Fragment",
+            "Light Sailor Clothes Fragment",
+            "Escudo de Bolante Fragment",
+            "Squeeze Bow Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "67-5": {
+        "name": "渦炎密林 67-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Ancient Descendant Tree Staff - Silver Sky Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Maple Witch Drooping Branch Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Red Sea Wheel Brooch Fragment",
+            "drop_percent": 50
+        },
+        "item_4": {
+            "item_name": "Blue Sea Anchor Brooch Fragment",
+            "drop_percent": 25
+        },
+        "item_5": {
+            "item_name": "Floater Brooch of the Blue Sea Fragment",
+            "drop_percent": 25
+        },
+        "item_6": {
+            "item_name": "Silent Shoes Akiyonaga Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Sapphire Fork Hairpin Fragment",
+            "Pail of Tarte Fragment",
+            "Magical Ladle Staff Fragment",
+            "Horizon Watcher Fragment",
+            "Red Flower Cake Knife Fragment"
         ],
         "subdrops_percent": [
             24,

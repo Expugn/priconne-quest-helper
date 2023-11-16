@@ -3,6 +3,21 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.43.2] - 2023-11-16
+Quest Update (2023-11-15)
+### Added
+- New Character: Precia (Fallen)
+  - Originally released `2023-11-15`, just delayed update
+- New Quests:
+  - `65-1 VH` (Shiori)
+    - Originally released `2023-11-10`, just delayed update
+  - `66-3 H`
+  - Chapter 67 Normal Part 1 (`67-1` - `67-5`)
+- New Equipment
+- Rank 31 Support
+- Updated Language Files (EN/JP/KR/CN) ; (Translations ***MAY BE INCORRECT***)
+  - `character_names.precia`
+
 ## [2.43.1] - 2023-10-31
 ### Added
 - New Character: Quria (Fallen)
