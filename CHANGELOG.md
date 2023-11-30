@@ -3,7 +3,11 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.43.2] - 2023-11-16
+## [2.44.1] - 2023-11-30
+### Added
+- New Character: Pecorine (Christmas)
+
+## [2.44.0] - 2023-11-16
 Quest Update (2023-11-15)
 ### Added
 - New Character: Precia (Fallen)
