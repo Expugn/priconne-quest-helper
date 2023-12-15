@@ -25249,6 +25249,74 @@
             15
         ]
     },
+    "51-1H": {
+        "name": "涅洛岩礁・东部 51-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Emerald Gothic Bangle Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Skull Gothic Lance Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Gothic Maiden Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Rima Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Whirlwind Earrings Fragment",
+            "Blazing Red Sun Sword Fragment",
+            "Sand Dust Knuckle Fragment",
+            "White Rain Bow Fragment",
+            "White Snow Sakura Magic Clothes Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "51-2H": {
+        "name": "涅洛岩礁・东部 51-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Punk Needle Bangle Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Rocking Groove Axe Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Punkish Girl Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Mahiru Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Heavenly Hell Earrings Fragment",
+            "Scattered Sakura Wide Brimmed Hat Fragment",
+            "Thin Red Sakura Saintly Cloth Fragment",
+            "Evening Sakura Purple Armor Fragment",
+            "Summer Breeze's Blossom Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "52-1": {
         "name": "匹尼昂滩脊・西岸 52-1",
         "stamina": 10,

@@ -207,12 +207,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "nanaka": {
@@ -423,12 +431,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Oasis Ahaldia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Rose Sorcerer's Magic Banquet Hat",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "summer_nanaka": {
@@ -639,12 +655,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Baroness Dress",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "halloween_nanaka": {
@@ -855,12 +879,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "neneka": {
@@ -1071,12 +1103,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "new_year_neneka": {
@@ -1287,12 +1327,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Charitable Command Staff Artemakillion",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Desert Rain Cane",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "nea": {
@@ -1503,12 +1551,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Rose Dame Plate",
             "Oasis Blue Plate",
             "Ancient Emerald",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Rose Dame Plate",
+            "",
+            "Ancient Ruby"
         ]
     },
     "nozomi": {
@@ -1719,12 +1775,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "summer_nozomi": {
@@ -1935,12 +1999,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Blue Rose Shield",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "christmas_nozomi": {
@@ -2151,12 +2223,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "ninon": {
@@ -2367,12 +2447,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Cruel Rose Blade",
             "Quicksand Shamshir",
             "Blue Rose Shield",
             "Sound Weaving Katana Gertona",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Cruel Rose Blade",
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Ancient Ruby"
         ]
     },
     "oedo_ninon": {
@@ -2583,12 +2671,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Thorn of Roses",
             "Dark Desert Edge",
             "Rose Priestess Dress",
             "Sound Engraving Blade Clefton",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Dark Desert Edge",
+            "",
+            "Ancient Ruby"
         ]
     },
     "halloween_ninon": {
@@ -2799,12 +2895,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Cruel Rose Blade",
             "Quicksand Shamshir",
             "Blue Rose Shield",
             "Sound Weaving Katana Gertona",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Cruel Rose Blade",
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Ancient Ruby"
         ]
     },
     "labyrista": {
@@ -3015,12 +3119,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "overload_labyrista": {
@@ -3231,12 +3343,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Dame Plate",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "ranpha": {
@@ -3447,12 +3567,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Oasis Ahaldia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Rose Sorcerer's Magic Banquet Hat",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "ram": {
@@ -3663,12 +3791,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "rei": {
@@ -3879,12 +4015,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "new_year_rei": {
@@ -4095,12 +4239,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Dame Plate",
             "Oasis Blue Plate",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Dame Plate",
+            "",
+            "Ancient Emerald"
         ]
     },
     "summer_rei": {
@@ -4311,12 +4463,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Blue Rose Shield",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "princess_rei": {
@@ -4527,12 +4687,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Blue Rose Shield",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "halloween_rei": {
@@ -4743,12 +4911,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Priestess Dress",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "rem": {
@@ -4959,12 +5135,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Crusher Axe",
             "Oasis Faas",
             "Rose Priestess Dress",
             "Heavenly Sound Axe Buster Horn",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Oasis Faas",
+            "",
+            "Ancient Ruby"
         ]
     },
     "lou": {
@@ -5175,12 +5359,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "luna": {
@@ -5391,12 +5583,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "ruka": {
@@ -5607,12 +5807,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Cruel Rose Blade",
             "Quicksand Shamshir",
             "Rose Dame Plate",
             "Oasis Blue Plate",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Cruel Rose Blade",
+            "",
+            "Rose Dame Plate",
+            "",
+            "Ancient Emerald"
         ]
     },
     "new_year_ruka": {
@@ -5823,12 +6031,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Cruel Rose Blade",
             "Quicksand Shamshir",
             "Rose Priestess Dress",
             "Sound Weaving Katana Gertona",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Cruel Rose Blade",
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Ancient Ruby"
         ]
     },
     "summer_ruka": {
@@ -6039,12 +6255,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Cruel Rose Blade",
             "Quicksand Shamshir",
             "Rose Priestess Dress",
             "Sound Weaving Katana Gertona",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Cruel Rose Blade",
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Ancient Ruby"
         ]
     },
     "rino": {
@@ -6255,12 +6479,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Bell Arc Rose",
             "Oriental Hurricane Bow",
             "Rose Priestess Dress",
             "Skillful Sound Bow Snare Arc",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Bell Arc Rose",
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Ancient Ruby"
         ]
     },
     "wonder_rino": {
@@ -6471,12 +6703,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Bell Arc Rose",
             "Oriental Hurricane Bow",
             "Rose Priestess Dress",
             "Skillful Sound Bow Snare Arc",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Bell Arc Rose",
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Ancient Ruby"
         ]
     },
     "christmas_rino": {
@@ -6687,12 +6927,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Bell Arc Rose",
             "Dark Desert Edge",
             "Rose Priestess Dress",
             "Skillful Sound Bow Snare Arc",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Ancient Ruby"
         ]
     },
     "rima": {
@@ -6903,12 +7151,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Wind Legacy Spear",
             "Rose Dame Plate",
             "Desert Wind Turban",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Lance of Corolla",
+            "",
+            "Rose Dame Plate",
+            "",
+            "Ancient Emerald"
         ]
     },
     "cinderella_rima": {
@@ -7119,12 +7375,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Blue Rose Shield",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "rin": {
@@ -7335,12 +7599,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Wind Legacy Spear",
             "Rose Empress Mail",
             "Desert Wind Turban",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Lance of Corolla",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "deresute_rin": {
@@ -7551,12 +7823,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Cruel Rose Blade",
             "Quicksand Shamshir",
             "Blue Rose Shield",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Cruel Rose Blade",
+            "",
+            "Blue Rose Shield",
+            "",
+            "Ancient Emerald"
         ]
     },
     "ranger_rin": {
@@ -7767,12 +8047,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Wind Legacy Spear",
             "Rose Dame Plate",
             "Benevolent Heavy Spear Tromspear",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Lance of Corolla",
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Ancient Ruby"
         ]
     },
     "halloween_rin": {
@@ -7983,12 +8271,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Wind Legacy Spear",
             "Rose Dame Plate",
             "Benevolent Heavy Spear Tromspear",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Lance of Corolla",
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Ancient Ruby"
         ]
     },
     "matsuri": {
@@ -8199,12 +8495,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Thorn of Roses",
             "Dark Desert Edge",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "wild_matsuri": {
@@ -8415,12 +8719,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Thorn of Roses",
             "Dark Desert Edge",
-            "",
+            "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Emerald"
         ]
     },
     "halloween_matsuri": {
@@ -8631,12 +8943,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Blue Rose Shield",
             "Shouting Fist Biolafist",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Ancient Ruby"
         ]
     },
     "makoto": {
@@ -8847,12 +9167,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Cruel Rose Blade",
             "Quicksand Shamshir",
             "Rose Priestess Dress",
             "Sound Weaving Katana Gertona",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Cruel Rose Blade",
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Ancient Ruby"
         ]
     },
     "cinderella_makoto": {
@@ -9063,12 +9391,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Cruel Rose Blade",
             "Quicksand Shamshir",
             "Rose Priestess Dress",
             "Sound Weaving Katana Gertona",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Cruel Rose Blade",
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Ancient Ruby"
         ]
     },
     "summer_makoto": {
@@ -9279,12 +9615,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Cruel Rose Blade",
             "Quicksand Shamshir",
             "Rose Priestess Dress",
             "Sound Weaving Katana Gertona",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Cruel Rose Blade",
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Ancient Ruby"
         ]
     },
     "maho": {
@@ -9495,12 +9839,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "cinderella_maho": {
@@ -9711,12 +10063,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Charitable Command Staff Artemakillion",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Desert Rain Cane",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "summer_maho": {
@@ -9927,12 +10287,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "explorer_maho": {
@@ -10143,12 +10511,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "mahiru": {
@@ -10359,12 +10735,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Oasis Faas",
             "Rose Dame Plate",
             "Oasis Blue Plate",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Rose Dame Plate",
+            "",
+            "Ancient Ruby"
         ]
     },
     "ranger_mahiru": {
@@ -10575,12 +10959,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Wind Legacy Spear",
             "Rose Priestess Dress",
             "Benevolent Heavy Spear Tromspear",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Lance of Corolla",
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Ancient Ruby"
         ]
     },
     "christmas_mahiru": {
@@ -10791,12 +11183,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Oasis Faas",
             "Rose Empress Mail",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Ruby"
         ]
     },
     "monika": {
@@ -11007,12 +11407,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Dark Desert Edge",
             "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Emerald"
         ]
     },
     "magical_monika": {
@@ -11223,12 +11631,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "muimi": {
@@ -11439,12 +11855,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Thorn of Roses",
             "Dark Desert Edge",
             "Blue Rose Shield",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "new_year_muimi": {
@@ -11655,12 +12079,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Thorn of Roses",
             "Dark Desert Edge",
             "Blue Rose Shield",
             "Oasis Blue Plate",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Blue Rose Shield",
+            "",
+            "Ancient Ruby"
         ]
     },
     "mimi": {
@@ -11871,12 +12303,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Faas",
             "Rose Dame Plate",
             "Oasis Blue Plate",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Rose Dame Plate",
+            "",
+            "Ancient Ruby"
         ]
     },
     "summer_mimi": {
@@ -12087,12 +12527,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Dame Plate",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "halloween_mimi": {
@@ -12303,12 +12751,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Faas",
             "Rose Priestess Dress",
             "Desert Clothmail",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "misaki": {
@@ -12519,12 +12975,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "stage_misaki": {
@@ -12735,12 +13199,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Charitable Command Staff Artemakillion",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Desert Rain Cane",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "halloween_misaki": {
@@ -12951,12 +13423,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Oasis Ahaldia",
             "Ancient Sapphire",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Rose Sorcerer's Magic Banquet Hat",
+            "",
+            "Ancient Emerald"
         ]
     },
     "misato": {
@@ -13167,12 +13647,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "new_year_misato": {
@@ -13383,12 +13871,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
-            "",
+            "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "summer_misato": {
@@ -13599,12 +14095,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "misogi": {
@@ -13815,12 +14319,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Ruby",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "summer_misogi": {
@@ -14031,12 +14543,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Ruby",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "halloween_misogi": {
@@ -14247,12 +14767,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Blue Rose Shield",
             "Shouting Fist Biolafist",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Ancient Ruby"
         ]
     },
     "misogi_&_mimi_&_kyouka": {
@@ -14463,12 +14991,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Heritage Jamadhar",
             "Rose Priestess Dress",
             "Sound Engraving Blade Clefton",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Dark Desert Edge",
+            "",
+            "Ancient Ruby"
         ]
     },
     "miyako": {
@@ -14679,12 +15215,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Wind Legacy Spear",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Lance of Corolla",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "christmas_miyako": {
@@ -14895,12 +15439,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "halloween_miyako": {
@@ -15111,12 +15663,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Rose Dame Plate",
             "Oasis Blue Plate",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Rose Dame Plate",
+            "",
+            "Ancient Ruby"
         ]
     },
     "deresute_mio": {
@@ -15327,12 +15887,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "mitsuki": {
@@ -15543,12 +16111,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "new_year_mitsuki": {
@@ -15759,12 +16335,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
-            "",
+            "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "oedo_mitsuki": {
@@ -15975,12 +16559,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "mifuyu": {
@@ -16191,12 +16783,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Oasis Faas",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Ruby"
         ]
     },
     "summer_mifuyu": {
@@ -16407,12 +17007,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Oasis Faas",
             "Rose Priestess Dress",
             "Benevolent Heavy Spear Tromspear",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Ancient Ruby"
         ]
     },
     "work_overalls_mifuyu": {
@@ -16623,12 +17231,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Wind Legacy Spear",
             "Rose Priestess Dress",
             "Desert Clothmail",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Lance of Corolla",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "vampy": {
@@ -16839,12 +17455,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "saren": {
@@ -17055,12 +17679,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Dame Plate",
             "Oasis Blue Plate",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Dame Plate",
+            "",
+            "Ancient Ruby"
         ]
     },
     "summer_saren": {
@@ -17271,12 +17903,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "christmas_saren": {
@@ -17487,12 +18127,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Blue Rose Shield",
             "Desert Wind Turban",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Blue Rose Shield",
+            "",
+            "Ancient Emerald"
         ]
     },
     "sheffy": {
@@ -17703,12 +18351,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Priestess Dress",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "new_year_sheffy": {
@@ -17919,12 +18575,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Priestess Dress",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "suzuna": {
@@ -18135,12 +18799,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Bell Arc Rose",
             "Oriental Hurricane Bow",
             "Rose Priestess Dress",
             "Skillful Sound Bow Snare Arc",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Bell Arc Rose",
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Ancient Ruby"
         ]
     },
     "summer_suzuna": {
@@ -18351,12 +19023,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Bell Arc Rose",
             "Oriental Hurricane Bow",
             "Rose Priestess Dress",
             "Skillful Sound Bow Snare Arc",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Bell Arc Rose",
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Ancient Ruby"
         ]
     },
     "halloween_suzuna": {
@@ -18567,12 +19247,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Bell Arc Rose",
             "Oriental Hurricane Bow",
             "Rose Priestess Dress",
             "Skillful Sound Bow Snare Arc",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Bell Arc Rose",
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Ancient Ruby"
         ]
     },
     "suzume": {
@@ -18783,12 +19471,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "new_year_suzume": {
@@ -18999,12 +19695,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "summer_suzume": {
@@ -19215,12 +19919,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "shinobu": {
@@ -19431,12 +20143,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Cruel Rose Blade",
             "Quicksand Shamshir",
             "Blue Rose Shield",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Cruel Rose Blade",
+            "",
+            "Blue Rose Shield",
+            "",
+            "Ancient Ruby"
         ]
     },
     "halloween_shinobu": {
@@ -19647,12 +20367,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Cruel Rose Blade",
             "Quicksand Shamshir",
             "Blue Rose Shield",
             "Sound Weaving Katana Gertona",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Cruel Rose Blade",
+            "",
+            "Quicksand Shamshir",
+            "",
+            "Ancient Ruby"
         ]
     },
     "pirate_shinobu": {
@@ -19863,12 +20591,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Crusher Axe",
             "Oasis Faas",
             "Rose Empress Mail",
             "Heavenly Sound Axe Buster Horn",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Oasis Faas",
+            "",
+            "Ancient Ruby"
         ]
     },
     "shiori": {
@@ -20079,12 +20815,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Bell Arc Rose",
             "Oriental Hurricane Bow",
             "Rose Priestess Dress",
             "Skillful Sound Bow Snare Arc",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Bell Arc Rose",
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Ancient Ruby"
         ]
     },
     "magical_shiori": {
@@ -20295,12 +21039,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Bell Arc Rose",
             "Oriental Hurricane Bow",
             "Rose Priestess Dress",
             "Skillful Sound Bow Snare Arc",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Bell Arc Rose",
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Ancient Ruby"
         ]
     },
     "shizuru": {
@@ -20511,12 +21263,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "valentine_shizuru": {
@@ -20727,12 +21487,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Dame Plate",
             "Oasis Blue Plate",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Dame Plate",
+            "",
+            "Ancient Ruby"
         ]
     },
     "summer_shizuru": {
@@ -20943,12 +21711,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Blue Rose Shield",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Blue Rose Shield",
+            "",
+            "Ancient Emerald"
         ]
     },
     "arisa": {
@@ -21159,12 +21935,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Bell Arc Rose",
             "Oriental Hurricane Bow",
             "Rose Priestess Dress",
             "Skillful Sound Bow Snare Arc",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Bell Arc Rose",
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Ancient Ruby"
         ]
     },
     "ameth": {
@@ -21375,12 +22159,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Sorcerer's Magic Banquet Hat",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Sorcerer's Magic Banquet Hat",
+            "",
+            "Ancient Emerald"
         ]
     },
     "ayane": {
@@ -21591,12 +22383,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Crusher Axe",
             "Oasis Faas",
             "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "christmas_ayane": {
@@ -21807,12 +22607,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Crusher Axe",
             "Wind Legacy Spear",
             "Rose Priestess Dress",
             "Heavenly Sound Axe Buster Horn",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Lance of Corolla",
+            "",
+            "Oasis Faas",
+            "",
+            "Ancient Ruby"
         ]
     },
     "explorer_ayane": {
@@ -22023,12 +22831,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Crusher Axe",
             "Oasis Faas",
             "Blue Rose Shield",
             "Desert Clothmail",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Blue Rose Shield",
+            "",
+            "Ancient Ruby"
         ]
     },
     "aoi": {
@@ -22239,12 +23055,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Bell Arc Rose",
             "Oriental Hurricane Bow",
             "Rose Empress Mail",
             "Skillful Sound Bow Snare Arc",
             "Ancient Emerald",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Bell Arc Rose",
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Ancient Ruby"
         ]
     },
     "work_overalls_aoi": {
@@ -22455,12 +23279,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Bell Arc Rose",
             "Oriental Hurricane Bow",
             "Rose Empress Mail",
             "Desert Wind Turban",
             "Ancient Emerald",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Bell Arc Rose",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Ruby"
         ]
     },
     "camp_aoi": {
@@ -22671,12 +23503,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Bell Arc Rose",
             "Oriental Hurricane Bow",
             "Rose Empress Mail",
             "Skillful Sound Bow Snare Arc",
             "Ancient Emerald",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Bell Arc Rose",
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Ancient Ruby"
         ]
     },
     "transfer_student_aoi": {
@@ -22887,12 +23727,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Bell Arc Rose",
             "Oriental Hurricane Bow",
             "Rose Priestess Dress",
             "Skillful Sound Bow Snare Arc",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Bell Arc Rose",
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Ancient Ruby"
         ]
     },
     "ayumi": {
@@ -23103,12 +23951,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Wind Legacy Spear",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Lance of Corolla",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "phantom_thief_ayumi": {
@@ -23319,12 +24175,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Oasis Faas",
             "Rose Priestess Dress",
             "Benevolent Heavy Spear Tromspear",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Ancient Ruby"
         ]
     },
     "wonder_ayumi": {
@@ -23535,12 +24399,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Wind Legacy Spear",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Lance of Corolla",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "akari": {
@@ -23751,12 +24623,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Sapphire",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Emerald"
         ]
     },
     "angel_akari": {
@@ -23967,12 +24847,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "christmas_akari": {
@@ -24183,12 +25071,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
-            "",
+            "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "akino": {
@@ -24399,12 +25295,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Dame Plate",
             "Oasis Blue Plate",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Dame Plate",
+            "",
+            "Ancient Ruby"
         ]
     },
     "christmas_akino": {
@@ -24615,12 +25519,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Blue Rose Shield",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "akino_&_saren": {
@@ -24831,12 +25743,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "anna": {
@@ -25047,12 +25967,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Rose Sorcerer's Magic Banquet Hat",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "summer_anna": {
@@ -25263,12 +26191,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "pirate_anna": {
@@ -25479,12 +26415,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "anne": {
@@ -25695,12 +26639,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "anne_&_grea": {
@@ -25911,12 +26863,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
-            "",
+            "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "eriko": {
@@ -26127,12 +27087,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Crusher Axe",
             "Oasis Faas",
             "Rose Priestess Dress",
             "Heavenly Sound Axe Buster Horn",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Oasis Faas",
+            "",
+            "Ancient Ruby"
         ]
     },
     "valentine_eriko": {
@@ -26343,12 +27311,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Crusher Axe",
             "Oasis Faas",
             "Blue Rose Shield",
             "Heavenly Sound Axe Buster Horn",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Oasis Faas",
+            "",
+            "Ancient Ruby"
         ]
     },
     "summer_eriko": {
@@ -26559,12 +27535,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Crusher Axe",
             "Oasis Faas",
             "Blue Rose Shield",
             "Heavenly Sound Axe Buster Horn",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Oasis Faas",
+            "",
+            "Ancient Ruby"
         ]
     },
     "emilia": {
@@ -26775,12 +27759,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Sorcerer's Magic Banquet Hat",
             "Oasis Ahaldia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Sorcerer's Magic Banquet Hat",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "yori": {
@@ -26991,12 +27983,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "angel_yori": {
@@ -27207,12 +28207,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Emerald"
         ]
     },
     "christmas_yori": {
@@ -27423,12 +28431,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
-            "",
+            "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Emerald"
         ]
     },
     "deresute_uzuki": {
@@ -27639,12 +28655,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Priestess Dress",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "yuni": {
@@ -27855,12 +28879,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "school_festival_yuni": {
@@ -28071,12 +29103,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "yui": {
@@ -28287,12 +29327,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Emerald"
         ]
     },
     "new_year_yui": {
@@ -28503,12 +29551,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "summer_yui": {
@@ -28719,12 +29775,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Sorcerer's Magic Banquet Hat",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Sorcerer's Magic Banquet Hat",
+            "",
+            "Ancient Emerald"
         ]
     },
     "ceremonial_attire_yui": {
@@ -28935,12 +29999,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Sapphire",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Emerald"
         ]
     },
     "princess_yui": {
@@ -29151,12 +30223,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "yukari": {
@@ -29367,12 +30447,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "camp_yukari": {
@@ -29583,12 +30671,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Dame Plate",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "christmas_yukari": {
@@ -29799,12 +30895,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "yuki": {
@@ -30015,12 +31119,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "oedo_yuki": {
@@ -30231,12 +31343,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "inori": {
@@ -30447,12 +31567,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Crusher Axe",
             "Wind Legacy Spear",
             "Rose Dame Plate",
             "Oasis Blue Plate",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Lance of Corolla",
+            "",
+            "Rose Dame Plate",
+            "",
+            "Ancient Ruby"
         ]
     },
     "phantom_thief_inori": {
@@ -30663,12 +31791,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Crusher Axe",
             "Oasis Faas",
             "Rose Priestess Dress",
             "Heavenly Sound Axe Buster Horn",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Oasis Faas",
+            "",
+            "Ancient Ruby"
         ]
     },
     "time_traveler_inori": {
@@ -30879,12 +32015,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Crusher Axe",
             "Oasis Faas",
             "Rose Empress Mail",
             "Heavenly Sound Axe Buster Horn",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Oasis Faas",
+            "",
+            "Ancient Ruby"
         ]
     },
     "ilya": {
@@ -31095,12 +32239,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "new_year_ilya": {
@@ -31311,12 +32463,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "christmas_ilya": {
@@ -31527,12 +32687,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "io": {
@@ -31743,12 +32911,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Oasis Ahaldia",
             "Ancient Sapphire",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Rose Sorcerer's Magic Banquet Hat",
+            "",
+            "Ancient Emerald"
         ]
     },
     "noire_io": {
@@ -31959,12 +33135,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Charitable Command Staff Artemakillion",
             "Ancient Sapphire",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Desert Rain Cane",
+            "",
+            "Ancient Emerald"
         ]
     },
     "summer_io": {
@@ -32175,12 +33359,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Sapphire",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Emerald"
         ]
     },
     "jun": {
@@ -32391,12 +33583,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "summer_jun": {
@@ -32607,12 +33807,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Dame Plate",
             "Oasis Blue Plate",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Dame Plate",
+            "",
+            "Ancient Ruby"
         ]
     },
     "christmas_jun": {
@@ -32823,12 +34031,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
-            "",
+            "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "djeeta": {
@@ -33039,12 +34255,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Priestess Dress",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "tsumugi": {
@@ -33255,12 +34479,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Rose Dame Plate",
             "Oasis Blue Plate",
             "Ancient Emerald",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Rose Dame Plate",
+            "",
+            "Ancient Ruby"
         ]
     },
     "summer_tsumugi": {
@@ -33471,12 +34703,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Rose Dame Plate",
             "Oasis Blue Plate",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Rose Dame Plate",
+            "",
+            "Ancient Emerald"
         ]
     },
     "halloween_tsumugi": {
@@ -33687,12 +34927,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Thorn of Roses",
             "Dark Desert Edge",
             "Rose Dame Plate",
             "Oasis Blue Plate",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Rose Dame Plate",
+            "",
+            "Ancient Emerald"
         ]
     },
     "chieru": {
@@ -33903,12 +35151,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "school_festival_chieru": {
@@ -34119,12 +35375,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Blue Rose Shield",
             "Shouting Fist Biolafist",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Ancient Ruby"
         ]
     },
     "chika": {
@@ -34335,12 +35599,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "summer_chika": {
@@ -34551,12 +35823,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "christmas_chika": {
@@ -34767,12 +36047,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "karin": {
@@ -34983,12 +36271,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "kasumi": {
@@ -35199,12 +36495,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Sapphire",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Emerald"
         ]
     },
     "magical_kasumi": {
@@ -35415,12 +36719,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Sapphire",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Emerald"
         ]
     },
     "summer_kasumi": {
@@ -35631,12 +36943,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Baroness Dress",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "kaya": {
@@ -35847,12 +37167,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Rose Priestess Dress",
             "Shouting Fist Biolafist",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Ancient Ruby"
         ]
     },
     "time_traveler_kaya": {
@@ -36063,12 +37391,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Rose Dame Plate",
             "Shouting Fist Biolafist",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Ancient Ruby"
         ]
     },
     "kaori": {
@@ -36279,12 +37615,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Blue Rose Shield",
             "Shouting Fist Biolafist",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Ancient Ruby"
         ]
     },
     "summer_kaori": {
@@ -36495,12 +37839,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Blue Rose Shield",
             "Shouting Fist Biolafist",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Ancient Ruby"
         ]
     },
     "halloween_kaori": {
@@ -36711,12 +38063,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Blue Rose Shield",
             "Shouting Fist Biolafist",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Ancient Ruby"
         ]
     },
     "kaiser_insight": {
@@ -36927,12 +38287,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
-            "",
+            "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "kyaru": {
@@ -37143,12 +38511,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "new_year_kyaru": {
@@ -37359,12 +38735,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "summer_kyaru": {
@@ -37575,12 +38959,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "overload_kyaru": {
@@ -37791,12 +39183,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "princess_kyaru": {
@@ -38007,12 +39407,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "kokkoro": {
@@ -38223,12 +39631,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Wind Legacy Spear",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Lance of Corolla",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "new_year_kokkoro": {
@@ -38439,12 +39855,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Wind Legacy Spear",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Lance of Corolla",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "summer_kokkoro": {
@@ -38655,12 +40079,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Wind Legacy Spear",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Lance of Corolla",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "ceremonial_attire_kokkoro": {
@@ -38871,12 +40303,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Thorn of Roses",
             "Dark Desert Edge",
             "Blue Rose Shield",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "princess_kokkoro": {
@@ -39087,12 +40527,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Wind Legacy Spear",
             "Rose Empress Mail",
             "Benevolent Heavy Spear Tromspear",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Lance of Corolla",
+            "",
+            "Wind Legacy Spear",
+            "",
+            "Ancient Emerald"
         ]
     },
     "kyouka": {
@@ -39303,12 +40751,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "summer_kyouka": {
@@ -39519,12 +40975,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Absolute Sound Cane Accordia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Ancient Sand Wand",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "halloween_kyouka": {
@@ -39735,12 +41199,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Charitable Command Staff Artemakillion",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Desert Rain Cane",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "kurumi": {
@@ -39951,12 +41423,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Crusher Axe",
             "Oasis Faas",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "stage_kurumi": {
@@ -40167,12 +41647,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Crusher Axe",
             "Oasis Faas",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Crusher Axe",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "christmas_kurumi": {
@@ -40383,12 +41871,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Lance of Corolla",
             "Wind Legacy Spear",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Lance of Corolla",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "kuuka": {
@@ -40599,12 +42095,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Thorn of Roses",
             "Dark Desert Edge",
             "Blue Rose Shield",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Blue Rose Shield",
+            "",
+            "Ancient Emerald"
         ]
     },
     "noire_kuuka": {
@@ -40815,12 +42319,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Emerald"
         ]
     },
     "oedo_kuuka": {
@@ -41031,12 +42543,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Staff",
             "Desert Rain Cane",
             "Rose Baroness Dress",
             "Oriental Breeze Robe",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Staff",
+            "",
+            "Rose Baroness Dress",
+            "",
+            "Ancient Emerald"
         ]
     },
     "creditta": {
@@ -41247,12 +42767,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Bell Arc Rose",
             "Dark Desert Edge",
             "Rose Priestess Dress",
             "Skillful Sound Bow Snare Arc",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Ancient Ruby"
         ]
     },
     "christina": {
@@ -41463,12 +42991,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Priestess Dress",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "wild_christina": {
@@ -41679,12 +43215,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Ruby"
         ]
     },
     "christmas_christina": {
@@ -41895,12 +43439,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Priestess Dress",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "chloe": {
@@ -42111,12 +43663,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Thorn of Roses",
             "Dark Desert Edge",
             "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "school_festival_chloe": {
@@ -42327,12 +43887,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Thorn of Roses",
             "Dark Desert Edge",
             "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "tamaki": {
@@ -42543,12 +44111,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Thorn of Roses",
             "Dark Desert Edge",
             "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "summer_tamaki": {
@@ -42759,12 +44335,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Thorn of Roses",
             "Dark Desert Edge",
             "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "work_overalls_tamaki": {
@@ -42975,12 +44559,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Thorn of Roses",
             "Dark Desert Edge",
             "Blue Rose Shield",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "tomo": {
@@ -43191,12 +44783,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Cruel Rose Blade",
             "Dark Desert Edge",
             "Blue Rose Shield",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "magical_tomo": {
@@ -43407,12 +45007,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Cruel Rose Blade",
             "Dark Desert Edge",
             "Blue Rose Shield",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "halloween_tomo": {
@@ -43623,12 +45231,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Cruel Rose Blade",
             "Dark Desert Edge",
             "Blue Rose Shield",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Thorn of Roses",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "pecorine": {
@@ -43839,12 +45455,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Dame Plate",
             "Oasis Blue Plate",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Dame Plate",
+            "",
+            "Ancient Emerald"
         ]
     },
     "new_year_pecorine": {
@@ -44055,12 +45679,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Empress Mail",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Empress Mail",
+            "",
+            "Ancient Emerald"
         ]
     },
     "summer_pecorine": {
@@ -44271,12 +45903,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Priestess Dress",
             "Sword Field Sword Grand Pianos",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Oasis Guard Blade",
+            "",
+            "Ancient Ruby"
         ]
     },
     "overload_pecorine": {
@@ -44487,12 +46127,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Priestess Dress",
             "Desert Wind Turban",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Ruby"
         ]
     },
     "princess_pecorine": {
@@ -44703,12 +46351,20 @@
             "Green Aurora Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Imperial Sword",
             "Oasis Guard Blade",
             "Rose Priestess Dress",
             "Desert Clothmail",
             "Ancient Emerald",
             "Celestial Beating Timpania"
+        ],
+        "rank_27": [
+            "",
+            "Rose Imperial Sword",
+            "",
+            "Rose Priestess Dress",
+            "",
+            "Ancient Emerald"
         ]
     },
     "hatsune": {
@@ -44919,12 +46575,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Oasis Ahaldia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Rose Sorcerer's Magic Banquet Hat",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "summer_hatsune": {
@@ -45135,12 +46799,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Oasis Ahaldia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Rose Sorcerer's Magic Banquet Hat",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "hatsune_&_shiori": {
@@ -45351,12 +47023,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Bell Arc Rose",
             "Oriental Hurricane Bow",
             "Rose Priestess Dress",
             "Skillful Sound Bow Snare Arc",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Bell Arc Rose",
+            "",
+            "Oriental Hurricane Bow",
+            "",
+            "Ancient Ruby"
         ]
     },
     "homare": {
@@ -45567,12 +47247,20 @@
             "Snow Flower Crystal Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Stem Wand",
             "Ancient Sand Wand",
             "Rose Sorcerer's Magic Banquet Hat",
             "Oasis Ahaldia",
             "Ancient Sapphire",
             "Spirit Chant Score Demiscore"
+        ],
+        "rank_27": [
+            "",
+            "Rose Stem Wand",
+            "",
+            "Rose Sorcerer's Magic Banquet Hat",
+            "",
+            "Ancient Sapphire"
         ]
     },
     "hiyori": {
@@ -45783,12 +47471,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Blue Rose Shield",
             "Oasis Blue Plate",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Blue Rose Shield",
+            "",
+            "Ancient Ruby"
         ]
     },
     "new_year_hiyori": {
@@ -45999,12 +47695,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Blue Rose Shield",
             "Shouting Fist Biolafist",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Ancient Ruby"
         ]
     },
     "summer_hiyori": {
@@ -46215,12 +47919,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Blue Rose Shield",
             "Oasis Blue Plate",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Blue Rose Shield",
+            "",
+            "Ancient Ruby"
         ]
     },
     "princess_hiyori": {
@@ -46431,12 +48143,20 @@
             "Ice Pillar Ring"
         ],
         "rank_26": [
-            "",
+            "Rose Petal Knuckle",
             "Heritage Jamadhar",
             "Rose Priestess Dress",
             "Shouting Fist Biolafist",
             "Ancient Ruby",
             "Tree Tributing Xylophonia"
+        ],
+        "rank_27": [
+            "",
+            "Rose Petal Knuckle",
+            "",
+            "Heritage Jamadhar",
+            "",
+            "Ancient Ruby"
         ]
     }
 }
