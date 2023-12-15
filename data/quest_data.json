@@ -32961,6 +32961,44 @@
             15
         ]
     },
+    "65-2VH": {
+        "name": "キャッスル・オブ・パルフェ城下町 65-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Strike Hammer - Tsurubetoshi Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Red Sea Wheel Brooch Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Royal Shredded Maple Blade Fragment",
+            "drop_percent": 72
+        },
+        "item_4": {
+            "item_name": "Red Autumn Wind Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Inori Pure Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Jade Flower Chopsticks Fragment",
+            "Waterline Runner Fragment",
+            "Meat Mallet Axe Fragment",
+            "Cut - Dofisu Fragment",
+            "Lance of Forsetta Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
     "66-1": {
         "name": "ラモリール平原 66-1",
         "stamina": 10,
@@ -33564,6 +33602,224 @@
             "Magical Ladle Staff Fragment",
             "Horizon Watcher Fragment",
             "Red Flower Cake Knife Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "67-6": {
+        "name": "渦炎密林 67-6",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Strike Hammer - Tsurubetoshi Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Autumn Embroidered Bow - Red Ivy Leaf Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Extreme Study - Red Character Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Jade Flower Chopsticks Fragment",
+            "Waterline Runner Fragment",
+            "Meat Mallet Axe Fragment",
+            "Cut - Dofisu Fragment",
+            "Lance of Forsetta Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "67-7": {
+        "name": "渦炎密林 67-7",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Red Frog Nail - Maple Fist Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Maple Splitter Claw - Leaf Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Heaven Covering Red Spear - Akisama Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Red Flower Cake Knife Fragment",
+            "Sea Navigator Clothes Fragment",
+            "Five Hundred Year Old Tieguanyin Kettle Fragment",
+            "Heavy Mariner Clothes Fragment",
+            "Sashimi Sword - Shohachi Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "67-8": {
+        "name": "渦炎密林 67-8",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Autumn Leaves Fan - Kochioumomiji Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Green Wind Fan - Kanokoichou Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Royal Shredded Maple Blade Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Red Flower Cake Knife Fragment",
+            "Secret Thunder Sword Hook Fragment",
+            "Light Sailor Clothes Fragment",
+            "Escudo de Bolante Fragment",
+            "Squeeze Bow Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "67-9": {
+        "name": "渦炎密林 67-9",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Green Wind Fan - Kanokoichou Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Blue Night Fan - Inokokaede Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Maple Witch Drooping Branch Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Sapphire Fork Hairpin Fragment",
+            "Pail of Tarte Fragment",
+            "Magical Ladle Staff Fragment",
+            "Horizon Watcher Fragment",
+            "Red Flower Cake Knife Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "67-10": {
+        "name": "渦炎密林 67-10",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Blue Night Fan - Inokokaede Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Autumn Leaves Fan - Kochioumomiji Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Ancient Descendant Tree Staff - Silver Sky Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Sapphire Fork Hairpin Fragment",
+            "Pail of Tarte Fragment",
+            "Magical Ladle Staff Fragment",
+            "Horizon Watcher Fragment",
+            "Red Flower Cake Knife Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "67-1H": {
+        "name": "渦炎密林 67-1",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Green Wind Fan - Kanokoichou Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Strike Hammer - Tsurubetoshi Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Koizome Autumn Leaves Pattern Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Kurumi Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Jade Flower Chopsticks Fragment",
+            "Waterline Runner Fragment",
+            "Meat Mallet Axe Fragment",
+            "Cut - Dofisu Fragment",
+            "Lance of Forsetta Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "67-2H": {
+        "name": "渦炎密林 67-2",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Autumn Leaves Fan - Kochioumomiji Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Autumn Embroidered Bow - Red Ivy Leaf Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Autumn Red Helmet Akishigure Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Shiori Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Red Flower Cake Knife Fragment",
+            "Secret Thunder Sword Hook Fragment",
+            "Light Sailor Clothes Fragment",
+            "Escudo de Bolante Fragment",
+            "Squeeze Bow Fragment"
         ],
         "subdrops_percent": [
             24,

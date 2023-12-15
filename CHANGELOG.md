@@ -3,6 +3,17 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.45.0] - 2023-12-15
+Quest Update (2023-12-15)
+### Added
+- New Character: Creditta (Christmas)
+- New Quests:
+  - `65-2 VH` : (Inori)
+    - Originally released `2023-12-10`, just delayed update
+  - Chapter 67 Normal Part 2 (`67-6` - `67-10`)
+  - `67-1 H` - `67-2 H`
+- New Equipment
+
 ## [2.44.1] - 2023-11-30
 ### Added
 - New Character: Pecorine (Christmas)

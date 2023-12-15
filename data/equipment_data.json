@@ -5466,10 +5466,19 @@
         "req_pieces": 25,
         "req_items": []
     },
+    "109554": {
+        "name_jp": "紅葉扇コチョウモミジ",
+        "name": "Autumn Leaves Fan - Kochioumomiji",
+        "id": "lightblue-58",
+        "has_fragments": true,
+        "fragment_id": "119554",
+        "req_pieces": 25,
+        "req_items": []
+    },
     "109581": {
         "name_jp": "ディアブロメンブランス",
         "name": "Diablo Membranes",
-        "id": "lightblue-58",
+        "id": "lightblue-59",
         "has_fragments": true,
         "fragment_id": "119581",
         "req_pieces": 25,
@@ -5478,7 +5487,7 @@
     "109582": {
         "name_jp": "翡翠花飾箸",
         "name": "Jade Flower Chopsticks",
-        "id": "lightblue-59",
+        "id": "lightblue-60",
         "has_fragments": true,
         "fragment_id": "119582",
         "req_pieces": 25,
@@ -5487,16 +5496,25 @@
     "109583": {
         "name_jp": "碧海のアンカーブローチ",
         "name": "Blue Sea Anchor Brooch",
-        "id": "lightblue-60",
+        "id": "lightblue-61",
         "has_fragments": true,
         "fragment_id": "119583",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "109584": {
+        "name_jp": "翠風扇カノコイチョウ",
+        "name": "Green Wind Fan - Kanokoichou",
+        "id": "lightblue-62",
+        "has_fragments": true,
+        "fragment_id": "119584",
         "req_pieces": 25,
         "req_items": []
     },
     "109611": {
         "name_jp": "デモニックテールタイ",
         "name": "Demonic Tail Tie",
-        "id": "lightblue-61",
+        "id": "lightblue-63",
         "has_fragments": true,
         "fragment_id": "119611",
         "req_pieces": 25,
@@ -5505,7 +5523,7 @@
     "109612": {
         "name_jp": "サファイアフォークヘアピン",
         "name": "Sapphire Fork Hairpin",
-        "id": "lightblue-62",
+        "id": "lightblue-64",
         "has_fragments": true,
         "fragment_id": "119612",
         "req_pieces": 25,
@@ -5514,9 +5532,18 @@
     "109613": {
         "name_jp": "蒼海のフローターブローチ",
         "name": "Floater Brooch of the Blue Sea",
-        "id": "lightblue-63",
+        "id": "lightblue-65",
         "has_fragments": true,
         "fragment_id": "119613",
+        "req_pieces": 25,
+        "req_items": []
+    },
+    "109614": {
+        "name_jp": "碧夜扇イノコカエデ",
+        "name": "Blue Night Fan - Inokokaede",
+        "id": "lightblue-66",
+        "has_fragments": true,
+        "fragment_id": "119614",
         "req_pieces": 25,
         "req_items": []
     },
@@ -6591,10 +6618,19 @@
         "req_pieces": 1,
         "req_items": []
     },
+    "32066": {
+        "name_jp": "イノリのピュアメモリーピース",
+        "name": "Inori Pure Shard",
+        "id": "misc-120",
+        "has_fragments": false,
+        "fragment_id": "",
+        "req_pieces": 1,
+        "req_items": []
+    },
     "32071": {
         "name_jp": "クリスティーナのピュアメモリーピース",
         "name": "Christina Pure Shard",
-        "id": "misc-120",
+        "id": "misc-121",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -6603,7 +6639,7 @@
     "32075": {
         "name_jp": "ペコリーヌ（サマー）のピュアメモリーピース",
         "name": "Summer Pecorine Pure Memory Piece",
-        "id": "misc-121",
+        "id": "misc-122",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -6612,7 +6648,7 @@
     "32076": {
         "name_jp": "コッコロ（サマー）のピュアメモリーピース",
         "name": "Summer Kokkoro Pure Memory Piece",
-        "id": "misc-122",
+        "id": "misc-123",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
@@ -6621,7 +6657,7 @@
     "32078": {
         "name_jp": "キャル（サマー）のピュアメモリーピース",
         "name": "Summer Kyaru Pure Memory Piece",
-        "id": "misc-123",
+        "id": "misc-124",
         "has_fragments": false,
         "fragment_id": "",
         "req_pieces": 1,
