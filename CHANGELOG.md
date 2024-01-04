@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.45.2] - 2023-01-04
+### Added
+- New Character: Hatsune (New Year)
+
 ## [2.45.1] - 2023-12-31
 ### Added
 - New Characters:
