@@ -4,8 +4,9 @@ name: region-update
 
 on:
   # run this task once every hour
-  schedule:
-  - cron: '0 * * * *'
+  # EDIT (JANUARY 15 2024): THERE HAS BEEN DATABASE CHANGES IN JP VERSION 10053000! UPDATING IN THE FUTURE WILL BREAK
+  #schedule:
+  #- cron: '0 * * * *'
 
   # allow this task to be run manually from Actions tab
   workflow_dispatch:

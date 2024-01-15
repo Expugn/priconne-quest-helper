@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.45.2.1] - 2023-01-15
+## [2.45.2.1] - 2024-01-15
 Hiatus Announcement - Possibly Permanent
 ### Notice
 - As of JP version `10053000`, every table and column name in the SQL database is obfuscated
