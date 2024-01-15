@@ -3,6 +3,21 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.45.2.1] - 2023-01-15
+Hiatus Announcement - Possibly Permanent
+### Notice
+- As of JP version `10053000`, every table and column name in the SQL database is obfuscated
+  - This breaks all the updating related tools I've written to maintain this project
+- Unfortunately, I don't have the time anymore to commit trying to crack how to decode everything myself
+  - I've also quit playing the game quite some time ago, and am no longer passionate about it
+- If there's no clear easy solution to work around the new database changes, I'll retire from this project
+  - Webpage activity has been generally small, and late-game generally doesn't need any quest helper anymore
+  - This also includes `spugn/priconne-quest-helper`
+- I'll be watching for possible solutions around this issue, but I won't be working on it myself
+- The following projects will possibly continue to be maintained in the meantime, although the new table changes make any database generally unreadable:
+  - `priconne-database` <https://github.com/Expugn/priconne-database>
+  - `priconne-diff` <https://github.com/Expugn/priconne-diff>
+
 ## [2.45.2] - 2023-01-04
 ### Added
 - New Character: Hatsune (New Year)
