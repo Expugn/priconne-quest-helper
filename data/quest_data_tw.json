@@ -32770,5 +32770,189 @@
             17,
             15
         ]
+    },
+    "65-3H": {
+        "name": "芭菲之城城鎮 65-3",
+        "stamina": 20,
+        "item_1": {
+            "item_name": "Floater Brooch of the Blue Sea Fragment",
+            "drop_percent": 72
+        },
+        "item_2": {
+            "item_name": "Sea Bird Floater Fragment",
+            "drop_percent": 72
+        },
+        "item_3": {
+            "item_name": "Sea Navigator Clothes Fragment",
+            "drop_percent": 72
+        },
+        "char_shard": {
+            "item_name": "Oedo Yuki Shard",
+            "drop_percent": 54
+        },
+        "subdrops": [
+            "Demonic Tail Tie Fragment",
+            "Demon's Core Wand Fragment",
+            "Professional Waitress Apron Fragment",
+            "Rod of Demon's Heart Fragment",
+            "Double Horn Magic Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "66-1": {
+        "name": "拉摩利爾平原 66-1",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Twin Oar Lance Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Lighthouse Blade - Alexandria Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Pirate King's Hook Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Demon Punish Fist Fragment",
+            "Veteran Chef Cross Fragment",
+            "Devil Dominion Lance Fragment",
+            "Diablo Maschera Fragment",
+            "High Shield Saucer Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "66-2": {
+        "name": "拉摩利爾平原 66-2",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Anchor Greataxe Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Sailing Shooter Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Fisherman's Sword Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Double Horn Magic Necklace Fragment",
+            "Tassa Talon Fragment",
+            "Demon's Destruction Fragment",
+            "Armor de Tablier Fragment",
+            "Demon's Scar Blade Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "66-3": {
+        "name": "拉摩利爾平原 66-3",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Red Sea Wheel Brooch Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Blue Sea Anchor Brooch Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Variant Mast Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Double Horn Magic Necklace Fragment",
+            "Demon Victim Sword Fragment",
+            "Diablo Membranes Fragment",
+            "Apron Light Mail Fragment",
+            "Powerful Demon Nail Blade Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "66-4": {
+        "name": "拉摩利爾平原 66-4",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Blue Sea Anchor Brooch Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Floater Brooch of the Blue Sea Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Sea Bird Floater Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Demonic Tail Tie Fragment",
+            "Demon's Core Wand Fragment",
+            "Professional Waitress Apron Fragment",
+            "Rod of Demon's Heart Fragment",
+            "Double Horn Magic Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
+    },
+    "66-5": {
+        "name": "拉摩利爾平原 66-5",
+        "stamina": 10,
+        "item_1": {
+            "item_name": "Floater Brooch of the Blue Sea Fragment",
+            "drop_percent": 54
+        },
+        "item_2": {
+            "item_name": "Red Sea Wheel Brooch Fragment",
+            "drop_percent": 54
+        },
+        "item_3": {
+            "item_name": "Steering Wheel Fragment",
+            "drop_percent": 36
+        },
+        "subdrops": [
+            "Demonic Tail Tie Fragment",
+            "Demon's Core Wand Fragment",
+            "Professional Waitress Apron Fragment",
+            "Rod of Demon's Heart Fragment",
+            "Double Horn Magic Necklace Fragment"
+        ],
+        "subdrops_percent": [
+            24,
+            24,
+            20,
+            17,
+            15
+        ]
     }
 }
