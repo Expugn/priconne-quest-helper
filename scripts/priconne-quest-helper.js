@@ -5415,7 +5415,11 @@ const webpage = (function () {
                 toastr.remove();
                 toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: true });
             }
-            toastr.warning("This tool is no longer updated.\nPlease use https://spugn.github.io/priconne-quest-helper/ instead!", "Important Information", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: true });
+            toastr.warning(
+                `This tool is no longer updated.<br>Please use <a href="https://spugn.github.io/priconne-quest-helper/" style="color:#a1e9ff;text-decoration:underline;">https://spugn.github.io/priconne-quest-helper/</a> instead!`,
+                "Important Information",
+                { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: false, closeButton: true }
+            );
         }
     }
 
