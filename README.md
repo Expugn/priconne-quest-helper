@@ -4,7 +4,8 @@
 
 # Princess Connect! Re:Dive Quest Helper<br>(priconne-quest-helper)
 
-## This project is on (possibly permanent) hiatus!<br>Read the [CHANGELOG.md](CHANGELOG.md) for more information.
+## This project is on PERMANENT hiatus until further notice!<br>Read the [CHANGELOG.md](CHANGELOG.md) for more information.
+## Use <https://spugn.github.io/priconne-quest-helper/> for an updated quest helper
 
 URL: <https://expugn.github.io/priconne-quest-helper/><br>
 Simple Mode: <https://expugn.github.io/priconne-quest-helper/#simple><br><br>

@@ -5415,6 +5415,7 @@ const webpage = (function () {
                 toastr.remove();
                 toastr.info("Ready!", "Status", { positionClass: "toast-top-full-width", tapToDismiss: true });
             }
+            toastr.warning("This tool is no longer updated.\nPlease use https://spugn.github.io/priconne-quest-helper/ instead!", "Important Information", { positionClass: "toast-top-full-width", timeOut:999999, extendedTimeOut:999999, tapToDismiss: true });
         }
     }
 
